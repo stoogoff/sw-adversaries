@@ -1,0 +1,18 @@
+[
+	{
+		"name": "Adversary",
+		"description": "Upgrade difficulty of all combat checks against this target once per rank of adversary."
+	},
+
+
+
+
+	{
+		"name": "Tactical Direction",
+		"description": "May perform a maneuver to direct one Imperial Army minion group within medium range; the group may perform an immediate free maneuver or add • to its next check."
+	},
+	{
+		"name": "Overwhelming Fire",
+		"description": "May perform a maneuver to direct one Imperial Army minion group within medium range; the group may perform an immediate free combat check action."
+	}
+]

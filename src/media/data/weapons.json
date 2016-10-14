@@ -1,0 +1,34 @@
+[
+	{
+		"name": "Heavy blaster rifle",
+		"skill": "Ranged: Heavy",
+		"damage": 10,
+		"critical": 3,
+		"range": "Long",
+		"properties": ["Auto-fire", "Cumbersome 3"]
+	},
+	{
+		"name": "Blaster rifle",
+		"skill": "Ranged: Heavy",
+		"damage": 9,
+		"critical": 3,
+		"range": "Long",
+		"properties": ["Stun setting"]
+	},
+	{
+		"name": "Light blaster pistol",
+		"skill": "Ranged: Light",
+		"damage": 5,
+		"critical": 4,
+		"range": "Medium",
+		"properties": ["Stun setting"]
+	},
+	{
+		"name": "Vibroknife",
+		"skill": "Melee",
+		"plus-damage": 1,
+		"critical": 2,
+		"range": "Engaged",
+		"properties": ["Pierce 2", "Vicious 1"]
+	}
+]

@@ -1,0 +1,182 @@
+[
+	{
+		"name": "Astrogation",
+		"characteristic": "Intellect",
+		"type": "General"
+	},
+	{
+		"name": "Athletics",
+		"characteristic": "Brawn",
+		"type": "General"
+	},
+	{
+		"name": "Brawl",
+		"characteristic": "Brawn",
+		"type": "Combat"
+	},
+	{
+		"name": "Charm",
+		"characteristic": "Presence",
+		"type": "General"
+	},
+	{
+		"name": "Coercion",
+		"characteristic": "Willpower",
+		"type": "General"
+	},
+	{
+		"name": "Computers",
+		"characteristic": "Intellect",
+		"type": "General"
+	},
+	{
+		"name": "Cool",
+		"characteristic": "Presence",
+		"type": "General"
+	},
+	{
+		"name": "Coordination",
+		"characteristic": "Agility",
+		"type": "General"
+	},
+	{
+		"name": "Knowledge: Core Worlds",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Cybernetics",
+		"characteristic": "Intellect",
+		"type": "General"
+	},
+	{
+		"name": "Deception",
+		"characteristic": "Cunning",
+		"type": "General"
+	},
+	{
+		"name": "Discipline",
+		"characteristic": "Willpower",
+		"type": "General"
+	},
+	{
+		"name": "Knowledge: Education",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Gunnery",
+		"characteristic": "Agility",
+		"type": "Combat"
+	},
+	{
+		"name": "Leadership",
+		"characteristic": "Presence",
+		"type": "General"
+	},
+	{
+		"name": "Lightsaber",
+		"characteristic": "Brawn",
+		"type": "Combat"
+	},
+	{
+		"name": "Knowledge: Lore",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Mechanics",
+		"characteristic": "Intellect",
+		"type": "General"
+	},
+	{
+		"name": "Medicine",
+		"characteristic": "Intellect",
+		"type": "General"
+	},
+	{
+		"name": "Melee",
+		"characteristic": "Brawn",
+		"type": "Combat"
+	},
+	{
+		"name": "Negotiation",
+		"characteristic": "Presence",
+		"type": "General"
+	},
+	{
+		"name": "Knowledge: Outer Rim",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Perception",
+		"characteristic": "Cunning",
+		"type": "General"
+	},
+	{
+		"name": "Piloting: Planetary",
+		"characteristic": "Agility",
+		"type": "General"
+	},
+	{
+		"name": "Piloting: Space",
+		"characteristic": "Agility",
+		"type": "General"
+	},
+	{
+		"name": "Ranged: Heavy",
+		"characteristic": "Agility",
+		"type": "Combat"
+	},
+	{
+		"name": "Ranged: Light",
+		"characteristic": "Agility",
+		"type": "Combat"
+	},
+	{
+		"name": "Resilience",
+		"characteristic": "Brawn",
+		"type": "General"
+	},
+	{
+		"name": "Skullduggery",
+		"characteristic": "Cunning",
+		"type": "General"
+	},
+	{
+		"name": "Stealth",
+		"characteristic": "Agility",
+		"type": "General"
+	},
+	{
+		"name": "Streetwise",
+		"characteristic": "Cunning",
+		"type": "General"
+	},
+	{
+		"name": "Survival",
+		"characteristic": "Cunning",
+		"type": "General"
+	},
+	{
+		"name": "Knowledge: Underworld",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Vigilance",
+		"characteristic": "Willpower",
+		"type": "General"
+	},
+	{
+		"name": "Knowledge: Warfare",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Xenology",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	}
+]

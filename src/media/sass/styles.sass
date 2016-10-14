@@ -1,0 +1,190 @@
+
+$stat: rgb(183,54,26)
+$derived: rgb(85,28,21)
+$heading: rgb(65,60,66)
+$body: rgb(255,250,244)
+$font: rgb(110,105,101)
+
+body
+	background-color: $body
+	color: $font
+	font-family: 'Fira Sans', sans-serif
+	padding: 0
+	margin: 0
+
+h1
+	margin-top: 0
+	font-family: 'Titillium Web', sans-serif
+
+	span
+		display: inline-block
+		color: white
+		background-color: $derived
+		padding: 1rem 3rem 1rem 1rem
+		border-radius: 0 3rem 3rem 0
+
+	small
+		font-size: 1.25rem
+		float: right
+		margin-top: 1.2em
+		margin-right: 1em
+
+h1, h2, h3
+	text-transform: uppercase
+	letter-spacing: 0.05em
+
+h2
+	margin-bottom: 0.5rem
+	font-family: 'Titillium Web', sans-serif
+
+h3
+	margin: 0
+	font-weight: normal
+
+p
+	line-height: 1.5em
+
+strong
+	color: $heading
+
+table
+	width: 100%
+	border-collapse: collapse
+
+tbody tr
+	border-bottom: 1px dotted $heading
+
+	&:last-of-type
+		border: 0
+
+	&:nth-child(odd)
+		background-color: white
+
+th
+	color: $heading
+	text-align: left
+
+th, td
+	&:first-of-type
+		padding-left: 1em
+
+td
+	padding: 0.2em
+
+.link
+	color: blue
+	text-decoration: underline
+	cursor: pointer
+
+	&:hover
+		text-decoration: none
+
+.column
+	float: left
+	overflow: hidden
+	margin-left: 1.5em
+	margin-top: 1.5em
+
+
+	&.small
+		width: 17em
+
+.character
+	width: 50em
+	border-left: 2px solid $derived
+	overflow: hidden
+
+	.large
+		width: 30em
+
+	.small
+		width: 17em
+
+.stats
+	margin: 0
+
+	div
+		text-align: center
+		margin-bottom: 1.5em
+
+	span
+		font-size: 2.5rem
+		font-weight: bold
+		color: $heading
+		display: inline-block
+		box-sizing: border-box
+		padding-top: 0.25em
+
+	h3
+		font-size: 1.1rem
+		padding: 0.2em 0.3em
+
+#characteristics
+	div
+		display: inline-block
+		margin-right: 1em
+		background-color: $stat
+		color: white
+		width: 8em
+		height: 7em
+		border-radius: 0.5em
+		border-color: 2px solid 
+
+		&:nth-child(even)
+			margin-right: 0
+
+	span
+		background-color: white
+		border-radius: 100%
+		margin: 0.3em 0
+		width: 1.7em
+		height: 1.7em
+		border: 3px solid $heading
+
+	h3
+		background-color: rgb(35,37,50)
+		border-radius: 0 0 0.5em 0.5em
+
+#derived
+	margin: 0.5em 0 1em 0
+
+	div
+		background-color: white
+		border: 2px solid $derived
+		border-radius: 0.5em
+		width: 10em
+		margin-right: auto
+		margin-left: auto
+
+	span
+		height: 1.5em
+
+	h3
+		background-color: $derived
+		color: $body
+
+.info
+	margin-bottom: 1.5em
+
+	h2
+		margin-top: 0
+		color: $derived
+
+.text p
+	margin-left: 1rem
+	margin-right: 1rem
+
+.icon
+	width: 1.6em
+	height: 1.6em
+	display: inline-block
+	background-size: contain
+	background-position: top right
+	background-repeat: no-repeat
+
+.ability
+	background-image: url(../img/die-ability.png)
+
+.proficiency
+	background-image: url(../img/die-proficiency.png)
+	width: 1em
