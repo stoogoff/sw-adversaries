@@ -1,0 +1,28 @@
+{
+  "name": "BabelTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "babel-plugin-lodash": "^3.2.9",
+    "babel-plugin-transform-es2015-modules-systemjs": "^6.14.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean": "^0.3.2",
+    "gulp-sass": "^2.3.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.16.0",
+    "lodash": "^4.16.4",
+    "nanoajax": "^0.4.3",
+    "react-dom": "^15.3.2",
+    "systemjs": "^0.19.39"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stoo Goff",
+  "license": "ISC"
+}
