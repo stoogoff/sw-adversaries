@@ -1,15 +1,1677 @@
 [
 	{
 		"name": "Adversary",
-		"description": "Upgrade difficulty of all combat checks against this target once per rank of adversary."
+		"description": "Upgrade the difficulty of any combat check targeting this character once per rank."
+	},
+	{
+		"name": "Against all Odds",
+		"description": ""
+	},
+	{
+		"name": "All-Terrain Driver",
+		"description": ""
+	},
+	{
+		"name": "Aminal Bond",
+		"description": ""
+	},
+	{
+		"name": "Anatomy Lessons",
+		"description": ""
+	},
+	{
+		"name": "Animal Bond (Improved)",
+		"description": ""
+	},
+	{
+		"name": "Animal Empathy",
+		"description": ""
+	},
+	{
+		"name": "Armor Master",
+		"description": ""
+	},
+	{
+		"name": "Armor Master (Supreme)",
+		"description": ""
+	},
+	{
+		"name": "Armor Master (Improved)",
+		"description": ""
+	},
+	{
+		"name": "Ataru Technique",
+		"description": ""
+	},
+	{
+		"name": "Bacta Specialist",
+		"description": "Patients heal additional wounds per rank when they heal wounds from bacta tanks or long-term care."
+	},
+	{
+		"name": "Bad Cop",
+		"description": ""
+	},
+	{
+		"name": "Bad Motivator",
+		"description": ""
+	},
+	{
+		"name": "Bad Press",
+		"description": ""
+	},
+	{
+		"name": "Balance",
+		"description": ""
+	},
+	{
+		"name": "Baleful Gaze",
+		"description": ""
+	},
+	{
+		"name": "Barrage",
+		"description": ""
+	},
+	{
+		"name": "Basic Combat Training",
+		"description": ""
+	},
+	{
+		"name": "Beast Wrangler",
+		"description": ""
+	},
+	{
+		"name": "Biggest Fan",
+		"description": ""
+	},
+	{
+		"name": "Black Market Contacts",
+		"description": ""
+	},
+	{
+		"name": "Blackmail",
+		"description": ""
+	},
+	{
+		"name": "Blind Spot",
+		"description": ""
+	},
+	{
+		"name": "Blooded",
+		"description": ""
+	},
+	{
+		"name": "Body Guard",
+		"description": ""
+	},
+	{
+		"name": "Body Guard (Improved)",
+		"description": ""
+	},
+	{
+		"name": "Bolstered Armor",
+		"description": ""
+	},
+	{
+		"name": "Bought Info",
+		"description": ""
+	},
+	{
+		"name": "Brace",
+		"description": ""
+	},
+	{
+		"name": "Brilliant Evasion",
+		"description": ""
+	},
+	{
+		"name": "Bring it Down",
+		"description": ""
+	},
+	{
+		"name": "Burly",
+		"description": ""
+	},
+	{
+		"name": "Bypass Security",
+		"description": ""
+	},
+	{
+		"name": "Call &#39;em",
+		"description": ""
+	},
+	{
+		"name": "Calm Commander",
+		"description": ""
+	},
+	{
+		"name": "Calming Aura",
+		"description": ""
+	},
+	{
+		"name": "Calming Aura (Improved)",
+		"description": ""
+	},
+	{
+		"name": "Careful Planning",
+		"description": ""
+	},
+	{
+		"name": "Center of Being",
+		"description": ""
+	},
+	{
+		"name": "Center of Being (Improved)",
+		"description": ""
+	},
+	{
+		"name": "Circle of Shelter",
+		"description": ""
+	},
+	{
+		"name": "Clever Commander",
+		"description": ""
+	},
+	{
+		"name": "Clever Solution",
+		"description": ""
+	},
+	{
+		"name": "Codebreaker",
+		"description": ""
+	},
+	{
+		"name": "Command",
+		"description": "Add blue dice per rank to Leadership checks; affected targets add blue dice per rank to Discipline checks for the next 24 hours."
+	},
+	{
+		"name": "Commanding Presence",
+		"description": "Remove a black die per rank from all Leadership checks."
+	},
+	{
+		"name": "Commanding Presence (Improved)",
+		"description": ""
+	},
+	{
+		"name": "Comprehend Technology",
+		"description": ""
+	},
+	{
+		"name": "Conditioned",
+		"description": ""
+	},
+	{
+		"name": "Confidence",
+		"description": ""
+	},
+	{
+		"name": "Confidence (Improved)",
+		"description": ""
+	},
+	{
+		"name": "Congenial",
+		"description": ""
+	},
+	{
+		"name": "Contingency Plan",
+		"description": ""
+	},
+	{
+		"name": "Contraption",
+		"description": ""
+	},
+	{
+		"name": "Convincing Demeanor",
+		"description": ""
+	},
+	{
+		"name": "Coordinated Assault",
+		"description": ""
+	},
+	{
+		"name": "Coordination Dodge",
+		"description": ""
+	},
+	{
+		"name": "Corellian Sendoff",
+		"description": ""
+	},
+	{
+		"name": "Corellian Sendoff [Improved]",
+		"description": ""
+	},
+	{
+		"name": "Counterstrike",
+		"description": ""
+	},
+	{
+		"name": "Creative Killer",
+		"description": ""
+	},
+	{
+		"name": "Crippling Blow",
+		"description": ""
+	},
+	{
+		"name": "Custom Loadout",
+		"description": ""
+	},
+	{
+		"name": "Customized Cooling Unit",
+		"description": ""
+	},
+	{
+		"name": "Cutting Question",
+		"description": ""
+	},
+	{
+		"name": "Cyberneticist",
+		"description": ""
+	},
+	{
+		"name": "Dead to Rights",
+		"description": ""
+	},
+	{
+		"name": "Dead to Rights [Improved]",
+		"description": ""
+	},
+	{
+		"name": "Deadly Accuracy",
+		"description": ""
+	},
+	{
+		"name": "Deathblow",
+		"description": ""
+	},
+	{
+		"name": "Debilitating Shot",
+		"description": ""
+	},
+	{
+		"name": "Deceptive Taunt",
+		"description": ""
+	},
+	{
+		"name": "Dedication",
+		"description": ""
+	},
+	{
+		"name": "Defensive Circle",
+		"description": ""
+	},
+	{
+		"name": "Defensive Driving",
+		"description": ""
+	},
+	{
+		"name": "Defensive Slicing",
+		"description": ""
+	},
+	{
+		"name": "Defensive Slicing [Improved]",
+		"description": ""
+	},
+	{
+		"name": "Defensive Stance",
+		"description": ""
+	},
+	{
+		"name": "Defensive Training",
+		"description": ""
+	},
+	{
+		"name": "Deft Maker",
+		"description": ""
+	},
+	{
+		"name": "Disarming Smile",
+		"description": ""
+	},
+	{
+		"name": "Discredit",
+		"description": ""
+	},
+	{
+		"name": "Disorient",
+		"description": ""
+	},
+	{
+		"name": "Disruptive Strike",
+		"description": ""
+	},
+	{
+		"name": "Distracting Behavior",
+		"description": ""
+	},
+	{
+		"name": "Distracting Behavior (Improved)",
+		"description": ""
+	},
+	{
+		"name": "Djem So Deflection",
+		"description": ""
+	},
+	{
+		"name": "Dodge",
+		"description": ""
+	},
+	{
+		"name": "Don&#39;t Shoot",
+		"description": ""
+	},
+	{
+		"name": "Double or Nothing",
+		"description": ""
+	},
+	{
+		"name": "Double or Nothing (Improved)",
+		"description": ""
+	},
+	{
+		"name": "Double or Nothing (Supreme)",
+		"description": ""
+	},
+	{
+		"name": "Draw Closer",
+		"description": ""
+	},
+	{
+		"name": "Drive Back",
+		"description": ""
+	},
+	{
+		"name": "Duelist&#39;s Training",
+		"description": ""
+	},
+	{
+		"name": "Durable",
+		"description": ""
+	},
+	{
+		"name": "Dynamic Fire",
+		"description": ""
+	},
+	{
+		"name": "Encoded Communique",
+		"description": ""
+	},
+	{
+		"name": "Encouraging Words",
+		"description": ""
+	},
+	{
+		"name": "Enduring",
+		"description": ""
+	},
+	{
+		"name": "Energy Transfer",
+		"description": ""
+	},
+	{
+		"name": "Engineered Redundancies",
+		"description": ""
+	},
+	{
+		"name": "Enhanced Leader",
+		"description": ""
+	},
+	{
+		"name": "Essential Kill",
+		"description": ""
+	},
+	{
+		"name": "Exaust Port",
+		"description": ""
+	},
+	{
+		"name": "Exhaust Port",
+		"description": ""
+	},
+	{
+		"name": "Expert Handler",
+		"description": ""
+	},
+	{
+		"name": "Expert Tracker",
+		"description": ""
+	},
+	{
+		"name": "Eye for Detail",
+		"description": ""
+	},
+	{
+		"name": "Falling Avalanche",
+		"description": ""
+	},
+	{
+		"name": "Familiar Suns",
+		"description": ""
+	},
+	{
+		"name": "Fancy Paint Job",
+		"description": ""
+	},
+	{
+		"name": "Fearsome",
+		"description": ""
+	},
+	{
+		"name": "Feint",
+		"description": ""
+	},
+	{
+		"name": "Feral Strength",
+		"description": ""
+	},
+	{
+		"name": "Field Commander",
+		"description": "As an action, may make an Average| Leadership check; 4 allies may immediately suffer 1 strain to perform a free maneuver."
+	},
+	{
+		"name": "Field Commander [Improved]",
+		"description": ""
+	},
+	{
+		"name": "Fine Tuning",
+		"description": ""
+	},
+	{
+		"name": "Fire Control",
+		"description": ""
+	},
+	{
+		"name": "Forager",
+		"description": ""
+	},
+	{
+		"name": "Force Assault",
+		"description": ""
+	},
+	{
+		"name": "Force Connection",
+		"description": ""
+	},
+	{
+		"name": "Force of Will",
+		"description": ""
+	},
+	{
+		"name": "Force Protection",
+		"description": ""
+	},
+	{
+		"name": "Force Rating",
+		"description": ""
+	},
+	{
+		"name": "Forewarning",
+		"description": ""
+	},
+	{
+		"name": "Form on Me",
+		"description": ""
+	},
+	{
+		"name": "Fortified Vacuum Seal",
+		"description": ""
+	},
+	{
+		"name": "Fortune Favors the Bold",
+		"description": ""
+	},
+	{
+		"name": "Frenzied Attack",
+		"description": ""
+	},
+	{
+		"name": "Full Stop",
+		"description": ""
+	},
+	{
+		"name": "Full Throttle",
+		"description": ""
+	},
+	{
+		"name": "Full Throttle [Improved]",
+		"description": ""
+	},
+	{
+		"name": "Full Throttle [Supreme]",
+		"description": ""
+	},
+	{
+		"name": "Galaxy Mapper",
+		"description": ""
+	},
+	{
+		"name": "Gang Leader",
+		"description": ""
+	},
+	{
+		"name": "Gearhead",
+		"description": "Remove a black die per rank from Mechanics checks."
+	},
+	{
+		"name": "Good Cop",
+		"description": ""
+	},
+	{
+		"name": "Grapple",
+		"description": ""
+	},
+	{
+		"name": "Greased Palms",
+		"description": ""
+	},
+	{
+		"name": "Grit",
+		"description": ""
+	},
+	{
+		"name": "Guns Blazing",
+		"description": ""
+	},
+	{
+		"name": "Harass",
+		"description": ""
+	},
+	{
+		"name": "Hard Headed",
+		"description": ""
+	},
+	{
+		"name": "Hard Headed [Improved]",
+		"description": ""
+	},
+	{
+		"name": "Hawk Bat Swoop",
+		"description": ""
+	},
+	{
+		"name": "Healing Trance",
+		"description": ""
+	},
+	{
+		"name": "Healing Trance (Improved)",
+		"description": ""
+	},
+	{
+		"name": "Heavy Hitter",
+		"description": ""
+	},
+	{
+		"name": "Heightened Awareness",
+		"description": ""
+	},
+	{
+		"name": "Heroic Fortitude",
+		"description": ""
+	},
+	{
+		"name": "Heroic Resilience",
+		"description": ""
+	},
+	{
+		"name": "Hidden Storage",
+		"description": ""
+	},
+	{
+		"name": "High-G Training",
+		"description": ""
+	},
+	{
+		"name": "Hold Together",
+		"description": ""
+	},
+	{
+		"name": "Holistic Navigation",
+		"description": ""
+	},
+	{
+		"name": "Hunter",
+		"description": ""
+	},
+	{
+		"name": "Hunter&#39;s Quarry",
+		"description": ""
+	},
+	{
+		"name": "Hunter&#39;s Quarry [Improved]",
+		"description": ""
+	},
+	{
+		"name": "Idealist",
+		"description": ""
+	},
+	{
+		"name": "Imbue Item",
+		"description": ""
+	},
+	{
+		"name": "Improvised Detonation",
+		"description": ""
+	},
+	{
+		"name": "Improvised Detonation [Improved]",
+		"description": ""
+	},
+	{
+		"name": "In the Know",
+		"description": ""
+	},
+	{
+		"name": "In the Know (Improved)",
+		"description": ""
+	},
+	{
+		"name": "Incite Rebellion",
+		"description": ""
+	},
+	{
+		"name": "Indistinguishable",
+		"description": "Opposing characters upgrade the difficulty of any checks made to identify the character once."
+	},
+	{
+		"name": "Informant",
+		"description": ""
+	},
+	{
+		"name": "Inity Assault",
+		"description": ""
+	},
+	{
+		"name": "Insight",
+		"description": ""
+	},
+	{
+		"name": "Inspiring Rhetoric",
+		"description": "As an action, may make an Average Leadership check; each Success removes one strain or wound from one ally in short range; spend Advantages to remove an additional strain or wound from an affected ally."
+	},
+	{
+		"name": "Inspiring Rhetoric [Improved]",
+		"description": ""
+	},
+	{
+		"name": "Supreme Inspiring Rhetoric",
+		"description": "As a maneuver, may make an Average Leadership check; each Success removes 1 strain or wound from one ally in short range; spend Advantage to remove 1 additional strain or wound from an affected ally; all affected allies add a blue dice to all checks for 4 rounds."
+	},
+	{
+		"name": "Intense Focus",
+		"description": ""
+	},
+	{
+		"name": "Intense Presence",
+		"description": ""
+	},
+	{
+		"name": "Interjection",
+		"description": ""
+	},
+	{
+		"name": "Intimidating",
+		"description": ""
+	},
+	{
+		"name": "Intuitive Evasion",
+		"description": ""
+	},
+	{
+		"name": "Intuitive Improvements",
+		"description": ""
+	},
+	{
+		"name": "Intuitive Navigation",
+		"description": ""
+	},
+	{
+		"name": "Intuitive Shot",
+		"description": ""
+	},
+	{
+		"name": "Intuitive Strike",
+		"description": ""
+	},
+	{
+		"name": "Inventor",
+		"description": ""
+	},
+	{
+		"name": "Invigorate",
+		"description": ""
+	},
+	{
+		"name": "It&#39;s Not That Bad",
+		"description": ""
+	},
+	{
+		"name": "Jump Up",
+		"description": ""
+	},
+	{
+		"name": "Jury Rigged",
+		"description": ""
+	},
+	{
+		"name": "Just Kidding!",
+		"description": ""
+	},
+	{
+		"name": "Keen Eyed",
+		"description": ""
+	},
+	{
+		"name": "Kill with Kindness",
+		"description": "Remove 1 black die per rank from all Charm and Leadership checks."
+	},
+	{
+		"name": "Knockdown",
+		"description": ""
+	},
+	{
+		"name": "Know Somebody",
+		"description": "Once per session, when attempting to purchase a legally available item, reduce its rarity by 1 per rank."
+	},
+	{
+		"name": "Knowledge is Power",
+		"description": ""
+	},
+	{
+		"name": "Knowledge Specialization",
+		"description": ""
+	},
+	{
+		"name": "Knowledgeable Healing",
+		"description": ""
+	},
+	{
+		"name": "Known Schematic",
+		"description": ""
+	},
+	{
+		"name": "Koiogran Turn",
+		"description": ""
+	},
+	{
+		"name": "Larger Project",
+		"description": ""
+	},
+	{
+		"name": "Let&#39;s Ride",
+		"description": ""
+	},
+	{
+		"name": "Lethal Blows",
+		"description": ""
+	},
+	{
+		"name": "Lightsaber Mastery",
+		"description": ""
+	},
+	{
+		"name": "Loom",
+		"description": ""
+	},
+	{
+		"name": "Machine Mender",
+		"description": ""
+	},
+	{
+		"name": "Makashi Flourish",
+		"description": ""
+	},
+	{
+		"name": "Makashi Technique",
+		"description": ""
+	},
+	{
+		"name": "Marked for Death",
+		"description": ""
+	},
+	{
+		"name": "Master Artisan",
+		"description": ""
+	},
+	{
+		"name": "Master Doctor",
+		"description": ""
+	},
+	{
+		"name": "Master Driver",
+		"description": ""
+	},
+	{
+		"name": "Master Grenadier",
+		"description": ""
+	},
+	{
+		"name": "Master Instructor",
+		"description": ""
+	},
+	{
+		"name": "Master Leader",
+		"description": ""
+	},
+	{
+		"name": "Master Merchant",
+		"description": ""
+	},
+	{
+		"name": "Master of Shadows",
+		"description": ""
+	},
+	{
+		"name": "Master Pilot",
+		"description": ""
+	},
+	{
+		"name": "Master Slicer",
+		"description": ""
+	},
+	{
+		"name": "Master Starhopper",
+		"description": ""
+	},
+	{
+		"name": "Master Strategist",
+		"description": ""
+	},
+	{
+		"name": "Menace",
+		"description": ""
+	},
+	{
+		"name": "Mental Bond",
+		"description": ""
+	},
+	{
+		"name": "Mental Fortress",
+		"description": ""
+	},
+	{
+		"name": "Mental Tools",
+		"description": ""
+	},
+	{
+		"name": "Mind Over Matter",
+		"description": ""
+	},
+	{
+		"name": "More Machine than Man",
+		"description": ""
+	},
+	{
+		"name": "Multiple Opponents",
+		"description": ""
+	},
+	{
+		"name": "Museum Worthy",
+		"description": ""
+	},
+	{
+		"name": "Natural Athlete",
+		"description": ""
+	},
+	{
+		"name": "Natural Blademaster",
+		"description": ""
+	},
+	{
+		"name": "Natural Brawler",
+		"description": ""
+	},
+	{
+		"name": "Natural Charmer",
+		"description": ""
+	},
+	{
+		"name": "Natural Doctor",
+		"description": ""
+	},
+	{
+		"name": "Natural Driver",
+		"description": ""
+	},
+	{
+		"name": "Natural Enforcer",
+		"description": ""
+	},
+	{
+		"name": "Natural Hunter",
+		"description": ""
+	},
+	{
+		"name": "Natural Instructor",
+		"description": ""
+	},
+	{
+		"name": "Natural Leader",
+		"description": ""
+	},
+	{
+		"name": "Natural Marksman",
+		"description": ""
+	},
+	{
+		"name": "Natural Merchant",
+		"description": ""
+	},
+	{
+		"name": "Natural Mystic",
+		"description": ""
+	},
+	{
+		"name": "Natural Negotiator",
+		"description": ""
+	},
+	{
+		"name": "Natural Outdoorsman",
+		"description": ""
+	},
+	{
+		"name": "Natural Pilot",
+		"description": ""
+	},
+	{
+		"name": "Natural Programmer",
+		"description": ""
+	},
+	{
+		"name": "Natural Rogue",
+		"description": ""
+	},
+	{
+		"name": "Natural Scholar",
+		"description": ""
+	},
+	{
+		"name": "Natural Tinkerer",
+		"description": ""
+	},
+	{
+		"name": "Niman Technique",
+		"description": ""
+	},
+	{
+		"name": "No Escape",
+		"description": ""
+	},
+	{
+		"name": "Nobody's Fool",
+		"description": "Upgrade difficulty of Charm, Coercion, and Deception checks targeting the character once per rank."
+	},
+	{
+		"name": "Not Today",
+		"description": ""
+	},
+	{
+		"name": "Now You See Me",
+		"description": ""
+	},
+	{
+		"name": "One with Nature",
+		"description": ""
+	},
+	{
+		"name": "One With the Universe",
+		"description": ""
+	},
+	{
+		"name": "Outdoorsman",
+		"description": ""
+	},
+	{
+		"name": "Overbalance",
+		"description": ""
+	},
+	{
+		"name": "Overcharge",
+		"description": ""
+	},
+	{
+		"name": "Overcharge (Improved)",
+		"description": ""
+	},
+	{
+		"name": "Overcharge (Supreme)",
+		"description": ""
+	},
+	{
+		"name": "Overstocked Ammo",
+		"description": ""
+	},
+	{
+		"name": "Overwhelm Defenses",
+		"description": ""
+	},
+	{
+		"name": "Overwhelm Emotions",
+		"description": ""
+	},
+	{
+		"name": "Parry",
+		"description": ""
+	},
+	{
+		"name": "Parry (Improved)",
+		"description": ""
+	},
+	{
+		"name": "Parry (Supreme)",
+		"description": ""
+	},
+	{
+		"name": "Physical Training",
+		"description": ""
+	},
+	{
+		"name": "Physician",
+		"description": ""
+	},
+	{
+		"name": "Pin",
+		"description": ""
+	},
+	{
+		"name": "Planet Mapper",
+		"description": ""
+	},
+	{
+		"name": "Plausible Deniability",
+		"description": "Remove a black dice per rank from all Coercion and Deception checks."
+	},
+	{
+		"name": "Plausible Deniability (Improved)",
+		"description": ""
+	},
+	{
+		"name": "Point Blank",
+		"description": ""
+	},
+	{
+		"name": "Positive Spin",
+		"description": ""
+	},
+	{
+		"name": "Positive Spin (Improved)",
+		"description": ""
+	},
+	{
+		"name": "Powerful Blast",
+		"description": ""
+	},
+	{
+		"name": "Precise Aim",
+		"description": ""
+	},
+	{
+		"name": "Precision Strike",
+		"description": ""
+	},
+	{
+		"name": "Preemptive Avoidance",
+		"description": ""
+	},
+	{
+		"name": "Prescient Shot",
+		"description": ""
+	},
+	{
+		"name": "Pressure Point",
+		"description": ""
+	},
+	{
+		"name": "Prey on the Weak",
+		"description": ""
+	},
+	{
+		"name": "Prime Positions",
+		"description": ""
+	},
+	{
+		"name": "Prophetic Aim",
+		"description": ""
+	},
+	{
+		"name": "Quick Draw",
+		"description": ""
+	},
+	{
+		"name": "Quick Draw (Improved)",
+		"description": ""
+	},
+	{
+		"name": "Quick Fix",
+		"description": ""
+	},
+	{
+		"name": "Quick Movement",
+		"description": ""
+	},
+	{
+		"name": "Quick Strike",
+		"description": ""
+	},
+	{
+		"name": "Rain of Death",
+		"description": ""
+	},
+	{
+		"name": "Rapid Reaction",
+		"description": ""
+	},
+	{
+		"name": "Rapid Recovery",
+		"description": ""
+	},
+	{
+		"name": "Ready for Anything",
+		"description": ""
+	},
+	{
+		"name": "Redundant Systems",
+		"description": ""
+	},
+	{
+		"name": "Reflect",
+		"description": ""
+	},
+	{
+		"name": "Reflect (Improved)",
+		"description": ""
+	},
+	{
+		"name": "Reflect (Supreme)",
+		"description": ""
+	},
+	{
+		"name": "Reinforce Item",
+		"description": ""
+	},
+	{
+		"name": "Reinforced Frame",
+		"description": ""
+	},
+	{
+		"name": "Reroute Processors",
+		"description": ""
+	},
+	{
+		"name": "Researcher",
+		"description": ""
+	},
+	{
+		"name": "Researcher (Improved)",
+		"description": ""
+	},
+	{
+		"name": "Resist Disarm",
+		"description": ""
+	},
+	{
+		"name": "Resolve",
+		"description": ""
+	},
+	{
+		"name": "Resourceful Refit",
+		"description": ""
+	},
+	{
+		"name": "Respected Scholar",
+		"description": ""
+	},
+	{
+		"name": "Ritual Caster",
+		"description": ""
+	},
+	{
+		"name": "Saber Swarm",
+		"description": ""
+	},
+	{
+		"name": "Saber Throw",
+		"description": ""
+	},
+	{
+		"name": "Sarlacc Sweep",
+		"description": ""
+	},
+	{
+		"name": "Scathing Tirade",
+		"description": "May spend an action to make an Average Coercion check; each success causes one enemy in close range to suffer 1 strain; spend Advantages to cause 1 affected enemy to suffer 1 additional strain."
+	},
+	{
+		"name": "Improved Scathing Tirade",
+		"description": "As an action, may make an Average Coercion check; each Success inflicts 1 strain on a target in short range.; spend Advantage to inflict 1 additional strain on one affected target; all affected targets suffer a black die to all checks for 4 rounds."
+	},
+	{
+		"name": "Scathing Tirade [Supreme]",
+		"description": ""
+	},
+	{
+		"name": "Second Chances",
+		"description": ""
+	},
+	{
+		"name": "Second Wind",
+		"description": ""
+	},
+	{
+		"name": "Selective Detonation",
+		"description": ""
+	},
+	{
+		"name": "Sense Advantage",
+		"description": ""
+	},
+	{
+		"name": "Sense Danger",
+		"description": ""
+	},
+	{
+		"name": "Sense Emotions",
+		"description": ""
+	},
+	{
+		"name": "Share Pain",
+		"description": ""
+	},
+	{
+		"name": "Shein Technique",
+		"description": ""
+	},
+	{
+		"name": "Shortcut",
+		"description": ""
+	},
+	{
+		"name": "Shortcut (Improved)",
+		"description": ""
+	},
+	{
+		"name": "Showboat",
+		"description": ""
+	},
+	{
+		"name": "Side Step",
+		"description": ""
+	},
+	{
+		"name": "Signature Vehicle",
+		"description": ""
+	},
+	{
+		"name": "Situational Awareness",
+		"description": ""
+	},
+	{
+		"name": "Sixth Sense",
+		"description": ""
+	},
+	{
+		"name": "Skilled Jockey",
+		"description": ""
+	},
+	{
+		"name": "Skilled Slicer",
+		"description": ""
+	},
+	{
+		"name": "Sleight of Mind",
+		"description": ""
+	},
+	{
+		"name": "Slippery Minded",
+		"description": ""
+	},
+	{
+		"name": "Smooth Talker",
+		"description": ""
+	},
+	{
+		"name": "Sniper Shot",
+		"description": "Reduce difficulty of combat checks at long or extreme range by 1."
+	},
+	{
+		"name": "Soft Spot",
+		"description": ""
+	},
+	{
+		"name": "Solid Repairs",
+		"description": ""
+	},
+	{
+		"name": "Soothing Tone",
+		"description": ""
+	},
+	{
+		"name": "Soresu Technique",
+		"description": ""
+	},
+	{
+		"name": "Sorry About the Mess",
+		"description": ""
+	},
+	{
+		"name": "Sound Investments",
+		"description": ""
+	},
+	{
+		"name": "Spare Clip",
+		"description": ""
+	},
+	{
+		"name": "Speaks Binary",
+		"description": ""
+	},
+	{
+		"name": "Speaks Binary (Improved)",
+		"description": ""
+	},
+	{
+		"name": "Speaks Binary (Supreme)",
+		"description": ""
+	},
+	{
+		"name": "Spitfire",
+		"description": ""
+	},
+	{
+		"name": "Spur",
+		"description": ""
+	},
+	{
+		"name": "Spur [Improved]",
+		"description": ""
+	},
+	{
+		"name": "Spur [Supreme]",
+		"description": ""
+	},
+	{
+		"name": "Stalker",
+		"description": "Add a blue dice per rank to all Coordination and Stealth checks."
+	},
+	{
+		"name": "Steady Nerves",
+		"description": ""
+	},
+	{
+		"name": "Steely Nerves",
+		"description": ""
+	},
+	{
+		"name": "Stim Application",
+		"description": ""
+	},
+	{
+		"name": "Stim Application [Improved]",
+		"description": ""
+	},
+	{
+		"name": "Stim Application [Supreme]",
+		"description": ""
+	},
+	{
+		"name": "Stimpack Specialization",
+		"description": ""
+	},
+	{
+		"name": "Strategic Form",
+		"description": ""
+	},
+	{
+		"name": "Street Smarts",
+		"description": ""
+	},
+	{
+		"name": "Stroke of Genius",
+		"description": ""
+	},
+	{
+		"name": "Strong Arm",
+		"description": ""
+	},
+	{
+		"name": "Studious Plotting",
+		"description": ""
+	},
+	{
+		"name": "Stunning Blow",
+		"description": ""
+	},
+	{
+		"name": "Stunning Blow [Improved]",
+		"description": ""
+	},
+	{
+		"name": "Sum Djem",
+		"description": ""
+	},
+	{
+		"name": "Superior Reflexes",
+		"description": ""
+	},
+	{
+		"name": "Supporting Evidence",
+		"description": ""
+	},
+	{
+		"name": "Suppressing Fire",
+		"description": ""
+	},
+	{
+		"name": "Surgeon",
+		"description": "When making a Medicine check to help a character heal wounds, the target heals an additional wound per rank."
+	},
+	{
+		"name": "Survival of the Fittest",
+		"description": ""
+	},
+	{
+		"name": "Swift",
+		"description": ""
+	},
+	{
+		"name": "Tactical Combat Training",
+		"description": ""
+	},
+	{
+		"name": "Talk the Talk",
+		"description": ""
+	},
+	{
+		"name": "Targeted Blow",
+		"description": ""
+	},
+	{
+		"name": "Technical Aptitude",
+		"description": ""
+	},
+	{
+		"name": "Terrify",
+		"description": ""
+	},
+	{
+		"name": "Terrify (Improved)",
+		"description": ""
+	},
+	{
+		"name": "Terrifying Kill",
+		"description": ""
+	},
+	{
+		"name": "That&#39;s how it&#39;s Done",
+		"description": ""
+	},
+	{
+		"name": "The Force is my Allay",
+		"description": ""
+	},
+	{
+		"name": "Thorough Assesment",
+		"description": ""
+	},
+	{
+		"name": "Throwing Credits",
+		"description": ""
+	},
+	{
+		"name": "Time to Go",
+		"description": ""
+	},
+	{
+		"name": "Time to Go [Improved]",
+		"description": ""
+	},
+	{
+		"name": "Tinkerer",
+		"description": ""
+	},
+	{
+		"name": "Touch of Fate",
+		"description": ""
+	},
+	{
+		"name": "Toughened",
+		"description": ""
+	},
+	{
+		"name": "Tricky Target",
+		"description": ""
+	},
+	{
+		"name": "True Aim",
+		"description": ""
+	},
+	{
+		"name": "Tuned Maneuvering Thrusters",
+		"description": ""
+	},
+	{
+		"name": "Twisted Words",
+		"description": ""
+	},
+	{
+		"name": "Uncanny Reactions",
+		"description": ""
+	},
+	{
+		"name": "Uncanny Senses",
+		"description": ""
+	},
+	{
+		"name": "Unrelenting Skeptic",
+		"description": ""
+	},
+	{
+		"name": "Unrelenting Skeptic (Improved)",
+		"description": ""
+	},
+	{
+		"name": "Unstoppable",
+		"description": ""
+	},
+	{
+		"name": "Up the Ante",
+		"description": ""
+	},
+	{
+		"name": "Utility Belt",
+		"description": ""
+	},
+	{
+		"name": "Utinni!",
+		"description": ""
+	},
+	{
+		"name": "Valuable Facts",
+		"description": ""
+	},
+	{
+		"name": "Vehicle Combat Training",
+		"description": ""
+	},
+	{
+		"name": "Walk the Walk",
+		"description": ""
+	},
+	{
+		"name": "Well Read",
+		"description": ""
+	},
+	{
+		"name": "Well Rounded",
+		"description": ""
+	},
+	{
+		"name": "Well Traveled",
+		"description": ""
+	},
+	{
+		"name": "Wheel and Deal",
+		"description": ""
+	},
+	{
+		"name": "Works Like a Charm",
+		"description": "Once per session, the character may make one skill check using Presence, rather than the characteristic linked to that skill."
 	},
 
 
 
 
 	{
+		"name": "Amphibious",
+		"description": "May breathe underwater without penalty and never suffer movement penalties for traveling through water."
+	},
+	{
+		"name": "Alliance Leader",
+		"description": "Alliance operatives add a blue dice to all Vigilance and Perception checks when in the NPC's presence."
+	},
+	{
+		"name": "Covering Fire",
+		"description": "May spend a maneuver to add + 1 ranged defense to up to three allied characters or minion groups within short range until the end of the next round; this does not stack with multiple uses."
+	},
+	{
+		"name": "Droid",
+		"description": "Does not need to breathe, eat, or drink and can survive in vacuum or underwater; immune to poisons and toxins."
+	},
+	{
+		"name": "Improved Covering Fire",
+		"description": "When allied minion groups within short range perform the Covering Fire maneuver, they add + 2 ranged defense instead."
+	},
+	{
+		"name": "Destabilizing Influence",
+		"description": "As a maneuver once per encounter, may add Threat to all subsequent Cool and Discipline checks made by enemies within medium range for the remainder of the encounter."
+	},
+
+	{
+		"name": "Enhanced Sense",
+		"description": "Add automatic advantage to any Perception checks."
+	},
+	{
+		"name": "Gun Crew",
+		"description": "For each Imperial Gunnery Corps member in the minion group beyond the first, reduce the Cumbersome rating of their weapons by 1."
+	},
+	{
+		"name": "Imperial Valour",
+		"description": "May perform a maneuver to cause all ranged attacks targeting the Moff to instead hit one ally or helpless enemy he is engaged with, until the beginning of his next turn."
+	},
+
+
+
+	{
+		"name": "Shadowed",
+		"description": "When in darkness or deep shadow, add two blue dice to all Stealth checks."
+	},
+	{
+		"name": "Swipe",
+		"description": "Spend Advantage during melee combat to cause an engaged opponent to suffer 1 strain."
+	},
+
+
+	{
 		"name": "Tactical Direction",
-		"description": "May perform a maneuver to direct one Imperial Army minion group within medium range; the group may perform an immediate free maneuver or add • to its next check."
+		"description": "May perform a maneuver to direct one Imperial Army minion group within medium range; the group may perform an immediate free maneuver or add a blue die to its next check."
 	},
 	{
 		"name": "Overwhelming Fire",

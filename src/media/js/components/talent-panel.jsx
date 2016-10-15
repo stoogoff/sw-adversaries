@@ -9,7 +9,7 @@ export default class TalentPanel extends React.Component {
 
 		let data = this.props.data;
 		let talents = [];
-		let allTalents = this.props.talents.get();
+		let allTalents = this.props.talents.all();
 
 		data.forEach(t => {
 			let talentName = t.replace(/\s\d+$/, "");

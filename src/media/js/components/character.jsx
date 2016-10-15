@@ -27,8 +27,9 @@ export default class Character extends React.Component {
 		let defence = "defence" in character.derived ? character.derived.defence.join(" | ") : "0 | 0";
 
 		return <div className="character">
-			<h1><span>{ character.name }</span><small>{ character.type }</small></h1>
+			<h1><span>{ character.name }</span><small className={ character.type.toLowerCase() }>{ character.type }</small></h1>
 			<TextPanel text={ character.description } />
+			{ character.notes ? <div className="text"><p><em>{ character.notes }</em></p></div> : null }
 			<div className="column small">
 				<div className="stats" id="characteristics">
 					{ characteristics.map(c => {

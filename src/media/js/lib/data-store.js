@@ -21,7 +21,7 @@ export default class DataStore extends Collection {
 				}
 			});
 
-			this.pushRange(data);
+			this.concat(data);
 		});
 	}
 }

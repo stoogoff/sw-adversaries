@@ -60,24 +60,19 @@ export default class Collection extends Emitter {
 		return this;
 	}
 
-	pushRange(range) {
-		range.forEach(i => this.data.push(i));
+	concat(range) {
+		this.data = this.data.concat(range);
 
 		this.emit("change");
 
 		return this;
 	}
 
-	get(index = null) {
-		if(index !== null) {
-			if(index >= 0 && index < this.data.length) {
-				return this.data[index];
-			}
-			else {
-				return null;
-			}
-		}
-
+	all() {
 		return this.data;
+	}
+
+	get(index) {
+		return index >= 0 && index < this.data.length ? this.data[index] : null;
 	}
 }

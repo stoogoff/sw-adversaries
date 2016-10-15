@@ -1,0 +1,485 @@
+[
+	{
+		"name": "Imperial Army Trooper",
+		"type": "Minion",
+		"description": "The common citizen of the galaxy will never see a Star Destroyer or a stormtrooper in person, if they are fortunate. For the majority of those who never leave a planet's surface, the Imperial Army trooper is the face of the Empire. Stormtroopers and starships can be seen in promotional materials, but it is the stern and unforgiving face of the Army infantry that enforces the will of the Emperor on a planet's surface. For that reason, it is the men and women of the Imperial Army whom Alliance personnel must combat.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": {
+			"Discipline": 0,
+			"Ranged: Heavy": 0,
+			"Ranged: Light": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster rifle", "Frag grenade"],
+		"gear": ["Trooper uniform and helemt (+1 soak)", "s Frag grenades"],
+		"tags": ["empire", "imperial military"]
+	},
+	{
+		"name": "Imperial Gunnery Corps",
+		"type": "Minion",
+		"description": "The Gunnery Corps is a subdivision of the Imperial military that includes members of both the Imperial Army and the Imperial Navy—although there are more of the latter than the former. As with troops in the Vehicle Corps, with whom they often work, members of the Gunnery Corps receive rudimentary training as troopers, but the bulk of their instruction is in the use of vehicle- or installation-mounted weaponry. The ubiquitous turbolasers that are found on the hundreds of different starships in use in the Imperial Navy, as well as the vast variety of lasers that are deployed in ground installations and the many vehicles employed by the Vehicle Corps, are all fired by members of the Gunnery Corps.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": {
+			"Gunnery": 0
+		},
+		"talents": [],
+		"abilities": ["Gun Crew"],
+		"weapons": ["Holoudt blaster", "Heavy repeating blaster"],
+		"gear": ["Trooper uniform and helmet (+1 soak)"],
+		"tags": ["empire", "imperial military"]
+	},
+	{
+		"name": "Imperial Army Officer",
+		"type": "Rival",
+		"description": "An incredible number of officers are required by the Imperial military simply to oversee day-to-day operations and orchestrate major offensives. The number of officers presently serving has increased markedly in the past few years, owed to the growing threat of the Rebel Alliance. As has been the case with literally countless militaries throughout galactic history, merit is the surest means of rising through the ranks of the Imperial military, but there is also a very strong political component. Many officers have little more to their name than their family connections.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15
+		},
+		"skills": {
+			"Discipline": 3,
+			"Knowledge (Warfare)": 2,
+			"Ranged: (Light": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Tactical Direction"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Officer uniform (+1 soak)", "Long range comlink"],
+		"tags": ["empire", "imperial military"]
+	},
+	{
+		"name": "Imperial Navy Trooper",
+		"type": "Minion",
+		"description": "Often confused with the rank-and-file of the Imperial Army, much to the consternation of both groups, Naval troopers fulfill essentially the same purpose for the Imperial Navy. They are the enforcement arm that can be found on large-scale starships and naval space stations. Standard duties for naval troopers include the supervision of any and all prisoners aboard a vessel, simple guard duty, escort details for important guests, and boarding actions against enemy vessels.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": {
+			"Perception": 0,
+			"Ranged: Light": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Blast vest and helmet (+1 soak)"],
+		"tags": ["empire", "imperial military"]
+	},
+	{
+		"name": "Imperial Vehicle Corps",
+		"type": "Rival",
+		"description": "A subsidiary branch of the Imperial Army, the Vehicle Corps is a specialized division of troopers who receive rudimentary infantry training but specialize in piloting the various forms of vehicles utilized by that military organization. This includes not only land and sea vehicles, but aircraft that cannot achieve orbit on their own (any orbital craft falls under the auspices of the Imperial Navy). Repulsorlift operations, ground vehicle operations, and aquatic vehicle operations all fall under this umbrella; however, the lattermost of these is typically grouped in with the subdivision of the Imperial Army known as the lesser Imperial Navy, responsible for waterborne operations on the surfaces of planets throughout the galaxy.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Gunnery": 2,
+			"Piloting: Planetary": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster carbine"],
+		"gear": ["Trooper uniform and helmet (+1 soak)"],
+		"tags": ["empire", "imperial military"]
+	},
+	{
+		"name": "Intelligence Agent",
+		"type": "Nemesis",
+		"description": "Imperial Intelligence is a separate entity from the military, but they often work hand-in-hand to accomplish their mutual objectives. The autonomy of Imperial Intelligence often allows them to co-opt military assets to accomplish their missions, occasionally to the chagrin of the officers who command the ships or companies utilized in such a manner. Regardless, the threat posed by intelligence agents is particularly significant, because they do not adhere to standard military protocol and are easily able to think outside the rigid tactical instruction of the Army and Navy. Seasoned agents understand how the Alliance thinks, and that makes them exceptionally dangerous.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13,
+			"soak": 14
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 2,
+			"Deception": 2,
+			"Ranged: Light": 2,
+			"Melee": 2,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Encrypted datapad", "Secure comlink"],
+		"tags": ["empire", "imperial military"]
+	},
+	{
+		"name": "Military Informant",
+		"type": "Rival",
+		"description": "These individuals (or, as the Empire refers to them, intelligence assets) are a pale reflection of the agents from the Imperial Intelligence Bureau. However, they are equally loyal and enjoy the benehts of deep, virtually impenetrable cover. Suitable candidates are selected at a very early age and discreetly indoctrinated when there is a reasonable explanation for their absence. These individuals are instilled with great loyalty to the Imperial military complex in exchange for extremely meager rewards in the grand scheme of things, whether they are military, monetary, or political in nature. These men and women are given legitimate civilian reasons to be moved t o political hotspots, where they carefully monitor the population for any signs of treason or paramilitary activity. They then dutifully report this information using blind drops, encrypted communiques, or other secretive means.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 11
+		},
+		"skills": {
+			"Computers": 1,
+			"Deception": 2,
+			"Stealth": 1,
+			"Vigilance": 1
+		},
+		"talents": ["Indistinguishable 1"],
+		"abilities": [],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Disguise kit", "Disassembly-capable secure military comlink"],
+		"tags": ["empire", "imperial military"]
+	},
+	{
+		"name": "Naval Engineer",
+		"type": "Minion",
+		"description": "The Imperial Corps of Engineers is technically a separate branch of the military, but is most often associated with the Imperial Navy due to the frequent presence of its representatives aboard the Navy's starships. Their primary purpose within the Navy is to serve as tactical advisors for the frequent sieges that Star Destroyers are called upon to implement. They can also be found among the ranks of the Imperial Army, where their purpose is more constructive, facilitating the creation of military installations for use in ground operations.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": {
+			"Computers": 0,
+			"Mechanics": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Light blaster pistol"],
+		"gear": [],
+		"tags": ["empire", "imperial military"]
+	},
+	{
+		"name": "Imperial Stormtrooper",
+		"type": "Minion",
+		"description": "There is no greater symbol of the Emperor's New Order than the elite stormtrooper legions that enforce his will without remorse, mercy, or compassion. The featureless helmets, the uniformity of their armor, and the sheer number of them advancing without care for the losses they sustain, all contribute t o their intractable image. The details of the Clone Wars have been long forgotten by the majority of the galaxy's denizens. As a result, there are precious few who associate the terrifying modern stormtroopers with the once-heroic clone troopers who waged that conflict on behalf of the Galactic Republic.\n\nThe Imperial Stormtrooper Corps is an independent branch of the military, and while they answer to the officers of both the Army and the Navy, their own commanders have the discretion to ignore or overrule orders issued to them if they feel they are not in the best interests of the Galactic Empire. There are numerous specialties within the stormtrooper legions, the majority of which use equipment that meshes with their training to create a cadre of elite troops that can effectively serve in virtually any combat theater.",
+		"notes": "Individuals or groups of two may be armed with light repeating blasters with slings.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 5
+		},
+		"skills": {
+			"Athletics": 0,
+			"Discipline": 0,
+			"Melee": 0,
+			"Ranged: Heavy": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster rifle", "Vibroknife", "Frag grenade", "Light repeating blaster"],
+		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 soak)", "2 Frag grenades"],
+		"tags": ["empire", "imperial military", "stormtrooper"]
+	},
+	{
+		"name": "Stormtrooper Sergeant",
+		"type": "Rival",
+		"description": "Stormtroopers who survive engagements with high marks are promoted to the position of sergeant. Typically this involves command of a single squadron, but stormtroopers who excel at leadership are promoted to higher ranks. Such positions can include supervision of entire companies of stormtroopers. Rank within the stormtrooper legions is difficult for outsiders to fully understand, as they refer to virtually any officer from their ranks as commander. The uniformity of their armor and this tendency for vague references helps to enforce the image of stormtroopers as an absolutely faceless, monolithic military entity, which only serves to enhance their fearsome reputation.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15
+		},
+		"skills": {
+			"Athletics": 2,
+			"Discipline": 2,
+			"Leadership": 3,
+			"Melee": 2,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 2,
+			"Resilience": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Tactical Direction", "Overwhelming Fire"],
+		"weapons": ["Heavy blaster rifle", "Vibroknife", "Frag grenade"],
+		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 soak)", "2 Frag grenades"],
+		"tags": ["empire", "imperial military", "stormtrooper"]
+	},
+	{
+		"name": "Stormtrooper: Dark Trooper",
+		"type": "Rival",
+		"description": "Funded and operated as a subdivision of the Imperial Stormtrooper Corps, the Dark Trooper Project was a clandestine attempt to create an even more fearsome elite fighting force which was easier to produce within a short period of time. The goal of the project was to create extremely advanced military droids that could pass for armored humans, thus achieving the fearsome aspect required of elite military units without any concern for the environmental conditions that might limit human personnel. Although sabotaged by Alliance efforts, a small number of prototypes were completed, and the Rebellion lives in perpetual fear that the project may be continued in another, as yet unknown, area.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 16,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Gunnery": 4,
+			"Perception": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Droid", "Enhanced Senses"],
+		"weapons": ["Missile tube"],
+		"specialist-weapons": [
+			{
+				"name": "Plasma shell assault cannon",
+				"skill": "Gunnery",
+				"damage": 10,
+				"critical": 2,
+				"range": "Long",
+				"properties": ["Auto-fire", "Breach 1", "Concussive 1", "Cumbersome 4", "Inacurate 1"]
+			}
+		],
+		"gear": ["Powered armour (+2 soak, +1 defence)", "Jetpack", "Internal comlink"],
+		"tags": ["empire", "imperial military", "stormtrooper"]
+	},
+	{
+		"name": "Stormtrooper: Sandtrooper",
+		"type": "Minion",
+		"description": "Desert worlds are often rich in minerals or other infrequently appearing resources, necessitating settlement despite the harshness of their environments. The extreme temperatures, as well as the abrasiveness and navigational problems associated with the terrain, necessitate specialized training and equipment. Sandtroopers are intimately familiar with arid environments, and are trained in beast-riding as a means of enduring transportation under conditions that might otherwise cripple conventional forms of technology.",
+		"notes": "Individuals or groups of two may also have riding dewbacks.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 5
+		},
+		"skills": {
+			"Athletics": 0,
+			"Discipline": 0,
+			"Melee": 0,
+			"Ranged: Heavy": 0,
+			"Resilience": 0,
+			"Survival": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster rifle", "Vibroknife"],
+		"gear": ["Utility belt", "Extra reloads", "High-temp stormtrooper armour (+2 soak; when making skill checks, sandtroopers may remove 2 black dice imposed due to arid or hot environmental conditions)", "Food and water packs"],
+		"tags": ["empire", "imperial military", "stormtrooper"]
+	},
+	{
+		"name": "Stormtrooper: Scout Trooper",
+		"type": "Minion",
+		"description": "Reconnaissance is one of the most important aspects of any military organization, and the Imperial Stormtrooper Corps is no different. More lightly armored to facilitate rapid movement and trained with rapid-response repulsorlift vehicles, scout troopers are at the forefront of any insertion of the stormtrooper legions into a new theater of operations.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": {
+			"Athletics": 0,
+			"Discipline": 0,
+			"Melee": 0,
+			"Ranged: Heavy": 0,
+			"Ranged: Light": 0,
+			"Vigilance": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Light blaster pistol", "Frag grenade"],
+		"specialist-weapons": [
+			{
+				"name": "Blaster sniper rifle with scope",
+				"skill": "Ranged: Heavy",
+				"damage": 10,
+				"critical": 3,
+				"range": "Extreme",
+				"properties": ["Accurate 1", "Cumbersome 3", "Pierce 2", "Slow-Firing 1", "Sniper Shot"]
+			}
+		],
+		"gear": ["Utility belt", "Extra reloads", "Scouttrooper armour (+1 soak)", "1 Frag grenade"],
+		"tags": ["empire", "imperial military", "stormtrooper"]
+	},
+	{
+		"name": "Stormtrooper: Snowtrooper",
+		"type": "Minion",
+		"description": "Just as desert worlds present environmental conditions that are a barrier to normal military operations, planets with an extremely cold environment are likewise impractical for traditional protocols, including the stormtrooper legions. Snowtroopers have specialized armor and equipment that can function regardless of the temperature and are capable of operating for long periods of time without needing any support of any sort. Furthermore, they are equipped with sensor packages that allow them to seek out thermal images in a sea of ice, which dramatically increases their effectiveness in combat.",
+		"notes": "Individuals or groups of two may be armed with heavy repeating blasters.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 5
+		},
+		"skills": {
+			"Athletics": 0,
+			"Discipline": 0,
+			"Gunnery": 0,
+			"Melee": 0,
+			"Ranged: Heavy": 0,
+			"Resilience": 0,
+			"Survival": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Heavy repeating blaster"],
+		"specialist-weapons": [
+			{
+				"name": "Multi-optic sighted blaster rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Long",
+				"properties": ["Stun setting", "remove up to 2 black dice on any checks to use this weapon due to smoke, darkness, or other environmental conditions that obstruct vision"]
+			}
+		],
+		"gear": ["Snowtrooper armour (+2 soak; when making skill checks, snowtroopers may remove 2 black dice imposed due to cold or icy environmental conditions"],
+		"tags": ["empire", "imperial military", "stormtrooper"]
+	},
+	{
+		"name": "TIE Pilot",
+		"type": "Minion",
+		"description": "Commonly disparaged by the Alliance as vastly inferior to Rebellion pilots, in truth the pilots produced by the Empire's starhghter training programs are head-and-shoulders above any other equivalent force in the galaxy, with the possible exception of the Alliance. In fact, the poor reputation TIE pilots have is no fault of their own, but rather a combination of their relatively fragile equipment (TIE fighters are known for relative fragility and weak construction) and their lack of protective amenities (shields being the most notable exclusion).",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": {
+			"Gunnery": 0,
+			"Piloting: Space": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Flight suit"],
+		"tags": ["empire", "imperial military"]
+	},
+	{
+		"name": "TIE Ace",
+		"type": "Rival",
+		"description": "While it is true that many joke about the delicate nature of TIE fighters, most have a healthy respect for the swarms of the fighters as they descend in a strafing or bombing run. This reputation is due in large part to the upper echelon of TIE pilots, the aces. These individuals, typically squad leaders and seasoned combat veterans, are a match for even the most arrogant Alliance starhghter pilot.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Gunnery": 2,
+			"Piloting: Space": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Flight suit", "Sensory augmentation package (add Advantage to any Perception checks made by the character)"],
+		"tags": ["empire", "imperial military"]
+	}
+]

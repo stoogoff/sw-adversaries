@@ -1,0 +1,341 @@
+[
+	{
+		"name": "Alliance Infantry",
+		"type": "Minion",
+		"description": "The rank-and-file of the Rebel Alliance's Army and Naval troopers are not that much different from their Imperial counterparts, all things considered. They are trained in a number of different arenas and in various contingencies, and they are assigned in similarly organized military units. Even their equipment tends to be similar, although the Imperials generally have an advantage in that area. What separates them is motivation. The troops who serve the Alliance believe that they are not just fighting for their own well-being, but that of their families and innocent people all across the galaxy. This conviction is what the Alliance believes will allow them to ultimately win the day.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": {
+			"Melee": 0,
+			"Ranged: Heavy": 0,
+			"Vigilance": 0
+		},
+		"talents": [],
+		"abilities": ["Covering Fire"],
+		"weapons": ["Blaster rifle", "Combat knife"],
+		"gear": ["Blast vest (+1 soak)"],
+		"tags": ["rebel alliance"]
+	},
+	{
+		"name": "Bothan Spy",
+		"type": "Rival",
+		"description": "To most Bothans, information is king. Equally willing to sell to either side in the conflict, they remain officially neutral and the Empire has left them largely unmolested. There is, however, a growing unofficial faction that sees support of the Rebellion as the way forward. Given their natural affinity for backroom politics, the Bothans have taken very easily to the practice of espionage, and have secretly caused a great deal of difficulty for the Empire. It is a Bothan spy network that ultimately secures the plans for the second Death Star, giving the Alliance the opportunity to strike a devastating blow to the Empire.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 12
+		},
+		"skills": {
+			"Computers": 1,
+			"Deception": 2,
+			"Streetwise": 1,
+			"Skullduggery": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Encoded datapad", "Secure comlink"],
+		"tags": ["rebel alliance"]
+	},
+	{
+		"name": "Diplomat",
+		"type": "Rival",
+		"description": "The adamant, absolute stance of the Empire when dealing with others, even its allies, is a benefit of its overwhelming size and force, but it also serves as an advantage of sorts for the Alliance. With each atrocity or military intervention that the Empire commits, it becomes easier for the Alliance to point toward them when attempting to recruit new allies in their struggle. While some are afraid of the power of the Empire, validating such terror tactics, just as many individuals take great offense at the oppression and totalitarianism of their would-be masters and offer their support to the Alliance. High Command has a limited corps of diplomats, many formerly associated with the Galactic Senate, which is employed to make this sort of agreement happen. These diplomats are extremely patient, willing to wait as long as necessary for the innocent people of the galaxy to realize the truth; trying to press the point only increases their resistance. Waiting to secure what is necessary for victory as more atrocities are committed is a price that weighs quite heavily upon many of them",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10
+		},
+		"skills": {
+			"Charm": 2,
+			"Cool":  1,
+			"Deception": 1,
+			"Negotiation": 2
+		},
+		"talents": ["Kill with Kindness"],
+		"abilities": [],
+		"weapons": [],
+		"gear": ["Comlink", "Datapad", "Robes (+1 soak)"],
+		"tags": ["rebel alliance"]
+	},
+	{
+		"name": "Alliance Commander",
+		"type": "Nemesis",
+		"description": "The individuals chosen by Alliance High Command to serve as individual commanders, whether of military units or fixed assets, are invariably intensely focused on their duties. The position of commander leaves no time for a personal life, and those who accept the duty understand that they are surrendering all in order to serve the Alliance. In addition to their talent for logistics and tactics, commanders must also be prepared to make difficult decisions that will, without question, result in the loss of lives under their command. These individual commanders are granted tremendous autonomy by High Command, and thus are often free to pursue objectives of their own choosing.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 16,
+			"strain": 14
+		},
+		"skills": {
+			"Discipline": 3,
+			"Knowledge: Warfare": 3,
+			"Leadership": 3,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 3,
+			"Perception": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Command 2", "Field COmmander"],
+		"abilities": ["Improved Covering Fire"],
+		"weapons": ["Blaster carbine", "Light blaster pistol"],
+		"gear": ["Blast vest (+1 soak)"],
+		"tags": ["rebel alliance"]
+	},
+	{
+		"name": "Incom Engineer",
+		"type": "Rival",
+		"description": "One of the few significant advantages that the Alliance possesses over its Imperial adversaries is in the quality of its starfighters. The Battle of Yavin demonstrated to the entire galaxy that the nature of space warfare had changed, and that individual craft of high quality, operated by highly skilled pilots, could defeat enemies of vastly larger size, firepower, and number. Until the appearance of the TIE interceptor, it was widely acknowledged even in Imperial circles that the X-wing was the premier starfighter in the galaxy. The design team of Incom, the company that developed the X-wing, had long since defected to join the Alliance. Since that time, the individual team members and their hand-selected engineers-in-training have become the most elite technical consultants the Alliance has, offering innovative advancements to the organization in a number of different arenas, but most often in the area of starship enhancement.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10
+		},
+		"skills": {
+			"Astrogation": 1,
+			"Computers": 1,
+			"Mechanics": 2
+		},
+		"talents": ["Gearhead 1"],
+		"abilities": [],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Datapad with schematics", "Repair tools"],
+		"tags": ["rebel alliance"]
+	},
+	{
+		"name": "Mechanic",
+		"type": "Minion",
+		"description": "The Alliance depends heavily upon a number of vehicles and starships in order to maintain their desperate struggle. In order to maintain this incredible array of technical marvels, the Alliance relies upon skilled technicians and mechanics to keep it in contention for victory in the Galactic Civil War. While many of its engineers' Imperial counterparts have extensive military training, the Alliance tends to recruit civilians with practical experience and expertise. Commercial mechanics, personal enthusiasts, and generally anyone with a grudge against the Empire who has sufficient background is welcome to join the Alliance and serve.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4
+		},
+		"skills": {
+			"Mechanics": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Heavy hydrospanner"],
+		"gear": ["Repair tools"],
+		"tags": ["rebel alliance"]
+	},
+	{
+		"name": "Quarren Agitator",
+		"type": "Rival",
+		"description": "All too often, there are occasions when diplomacy simply cannot achieve the ends the Alliance requires in order to move closer to ultimate victory against the Empire. There are many governments in the galaxy that have, either for selfish reasons or simply out of fear, allied themselves with the Empire and refuse to consider any other potential path. Most Quarren, for example, were reluctant to join the Rebellion following the liberation of their homeworld, and so many rabble-rousers stepped up to attempt to bring their people into the fold.\n\nWhen a planet's government refuses to recognize the best interests of its people, agitators are used to reach the people themselves. Agitators are a very diverse lot, from those who possess incredible passion and charisma, to the manipulative and deceitful. Regardless of their methodology, however, it is a profession with very little room for error; having practiced, and survived, their attempts to convert their homeworld, many Quarren agitators now apply their tactics on behalf of the Rebellion in the wider galaxy.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 13
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 2,
+			"Deception": 2
+		},
+		"talents": ["Scathing Tirade"],
+		"abilities": ["Amphibious"],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Inflammatory pamphlets and propaganda."],
+		"tags": ["rebel alliance"]
+	},
+	{
+		"name": "Quatermaster",
+		"type": "Rival",
+		"description": "The greatest difficulty facing the Rebellion is its lack of resources. What resources it does possess are very carefully measured and dispensed with absolute scrutiny for their purpose and intent. Some, even some among the Alliance's ranks, look at the fleets of ships and the hidden bases that the organization commands and wonder why even minor resources like blaster packs are so rigidly controlled, but the Rebellion can survive no other way. Quartermasters, like their more formal military counterparts, are tasked with managing the Alliance's meager resources and ensuring there is never a shortage of any essential commodity. Quartermasters are, by necessity, extremely strict and somewhat unpleasant, dealing with a never-ending stream of requests by frustrated personnel, all of whom believe that their request is, of course, completely valid. As a result, quartermasters often have a very unpleasant reputation among their fellow Alliance personnel.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Discipline": 2,
+			"Negotiation": 3,
+			"Streetwise": 2
+		},
+		"talents": ["Know Somebody 2", "Nobody's Fool 1"],
+		"abilities": [],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Blast vest (+1 soak)"],
+		"tags": ["rebel alliance"]
+	},
+	{
+		"name": "Rebel Cell Leader",
+		"type": "Nemesis",
+		"description": "Leaders of individual Rebel cells are similar in many ways to Alliance commanders, although they have fewer resources, fewer personnel, and, some might argue, take vastly greater risks. These men and women operate inside enemy lines, attempting to undermine the Empire's interests and foment dissent against its rule. The environments in which these cells operate are spectacularly hostile toward any form of rebellion, and capture invariably results in death. Typically the acts of a Rebel cell involve espionage and sabotage. It is necessary for Rebel cells to maintain a low profile in order to avoid drawing too much scrutiny to themselves; bringing the attention of the Imperials down upon the local populace is a good way to alienate potential recruits and tarnish the reputation of the Alliance as a whole.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 19,
+			"strain": 16,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 3,
+			"Coercion": 2,
+			"Deception": 3,
+			"Discipline": 2,
+			"Knowledge: Warfare": 1,
+			"Leadership": 3,
+			"Melee": 2,
+			"Ranged: Light": 1
+		},
+		"talents": ["Adversary 2", "Inspiring Rhetoric"],
+		"abilities": ["Alliance Leader"],
+		"weapons": ["Disruptor pistol", "Fire bomb", "Vibroknife"],
+		"gear": ["Armoured clothing (+1 defence, +1 soak)"],
+		"tags": ["rebel alliance"]
+	},
+	{
+		"name": "Rebel Specforce Infiltrator",
+		"type": "Rival",
+		"description": "The special forces branch of the Alliance military is simply known as the SpecForce, and its troops are seen as the most dangerous and capable of all Rebel soldiers.\n\nAmong members of SpecForce itself, the infiltrators are considered to be the most deadly. Extensively trained in stealth and assassination, these infiltrators specialize in gaining entry to hardened installations and effecting horrific damage before the enemy ever becomes aware of their presence. Infiltrators are often used to \"soften\" targets prior to a direct assault, and are also used to eliminate particularly important targets or retrieve especially important and well-guarded data. Because of the nature of their duties, infiltrators often choose to specialize in melee weaponry rather than louder and more easily detected blasters.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 12
+		},
+		"skills": {
+			"Melee": 2,
+			"Perception": 1,
+			"Ranged: Light": 2,
+			"Skulduggery": 2,
+			"Stealth": 3
+		},
+		"talents": ["Adversary 1", "Stalker 2"],
+		"abilities": ["Shadowed", "Swipe 1"],
+		"weapons": ["Light blaster pistol", "Vibroknife"],
+		"gear": ["Reinforced blast vest (+2 soak)", "Encrypted comlink"],
+		"tags": ["rebel alliance"]
+	},
+	{
+		"name": "Starfighter Ace",
+		"type": "Rival",
+		"description": "The behavior of a true starfighter ace is often living verification that the common stereotype held of them by the majority of Alliance personnel is true. Many pilots who achieve the distinction of ace are hopelessly arrogant and utterly convinced of their own superiority, lending credence to such beliefs. Some wonder if this psychological profile is necessary to succeed in such an incredibly stressful, unforgiving career, but ultimately it does not matter. Starfighter aces are the darlings of the Alliance, a tremendous asset in the Galactic Civil War, and all too often, a tremendous annoyance to other members of the Rebellion.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Cool": 3,
+			"Gunnery": 2,
+			"Piloting: Space": 3
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Flight suit", "Astromech droid"],
+		"tags": ["rebel alliance"]
+	},
+	{
+		"name": "Starfighter Pilot",
+		"type": "Minion",
+		"description": "Prior to the Battle of Yavin, starfighter pilots were already a celebrated group among the ranks of the Alliance. High Command held firm to the opinion that their new starfighter design, the X-wing, was superior in every respect to the craft commanded by the Imperial Navy. It was thought that this superiority would translate into a distinct advantage in naval battles. Since the destruction of the Death Star, this philosophy has only gained ground and become more prevalent among other ranks of Alliance personnel. While well-founded in many regards, this philosophy has also caused something of a rift to form between starfighter pilots and the other enlisted personnel serving in the Alliance. Pilots are often considered arrogant and coddled by High Command. Whether this perception is true or not, most Alliance pilots are extremely confident to the point of being cocky.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": {
+			"Cool": 0,
+			"Gunnery": 0,
+			"Piloting: Space": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Flight suit"],
+		"tags": ["rebel alliance"]
+	}
+]

@@ -11,7 +11,7 @@ export default class SkillPanel extends React.Component {
 		let character = this.props.character;
 		let title = character.type === "Minion" ? "Skills (group only)": "Skills";
 		let skills = [];
-		let allSkills = this.props.skills.get();
+		let allSkills = this.props.skills.all();
 
 		for(let i in character.skills) {
 			let skill = allSkills.find(s => s.name == i);
@@ -48,7 +48,7 @@ export default class SkillPanel extends React.Component {
 					{  skills.map(s => {
 						return <tr key={ s.id }>
 							<td>{ s.name }</td>
-							<td><small>({ s.characteristic })</small></td>
+							<td><small>{ s.characteristic }</small></td>
 							{ character.type != "Minion" ? <td>{ s.value }</td> : null }
 							<td>
 								{ s.images.map((img, i) => <span key={ i } className={ img }></span>)}

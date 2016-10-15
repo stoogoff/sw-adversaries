@@ -3,6 +3,7 @@ var gulp = require("gulp");
 var clean = require("gulp-clean");
 var babel = require("gulp-babel");
 var sass = require("gulp-sass");
+var combine = require("gulp-jsoncombine");
 
 var path = {
 	src: function(p) {
@@ -47,6 +48,19 @@ gulp.task("transpile-js", function() {
 		.pipe(gulp.dest(path.dest("media/js")));
 });
 
+// merge adversaries into single file
+gulp.task("merge-data", function() {
+	return gulp.src(path.src("media/data/adversaries/*.json")).pipe(combine("adversaries.json", function(data, metaData) {
+		var output = [];
+
+		for(var i in data) {
+			output = output.concat(data[i]);
+		}
+
+		return new Buffer(JSON.stringify(output));
+	})).pipe(gulp.dest(path.dest("media/data/")));
+});
+
 // copy js libs
 gulp.task("copy-vendor", function() {
 	var modules = [
@@ -66,7 +80,7 @@ gulp.task("copy-react", function() {
 	return gulp.src(modules).pipe(gulp.dest(path.dest("media/js")));
 });
 
-gulp.task("copy-data", function() {
+gulp.task("copy-data", ["merge-data"], function() {
 	return gulp.src(path.src("media/data/*.json")).pipe(gulp.dest(path.dest("media/data")));
 });
 
@@ -89,3 +103,4 @@ gulp.task("watch", function() {
 	gulp.watch(path.src("/media/data/**"), ["copy-data"]);
 	gulp.watch(path.src("/media/js/**"), ["transpile-js"]);
 });
+
