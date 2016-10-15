@@ -68,9 +68,13 @@ class App extends React.Component {
 	}
 
 	render() {
+		let x = this.state.adversaries != null ? this.state.adversaries.length : 0;
+		let y = this.stores.adversaries !=null ? this.stores.adversaries.all().length : 0;
+
 		return <div>
 			<div className="column small">
 				<Filter />
+				<p><small>Showing { x } of { y }.</small></p>
 				<LinkList data={ this.state.adversaries } />
 			</div>
 			<div className="column large">
