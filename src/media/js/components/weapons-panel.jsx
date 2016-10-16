@@ -62,26 +62,34 @@ export default class WeaponsPanel extends React.Component {
 
 		return <div className="info">
 			<h2>Weapons</h2>
+			{ weapons.length == 0 ? "–" :
 			<table>
 				<thead>
 					<tr>
 						<th>Weapon</th>
 						<th>Range</th>
-						<th>Dam/Crit</th>
+						<th>Damage</th>
 						<th>Roll</th>
+						<th>Qualities</th>
 					</tr>
 				</thead>
 				<tbody>
 					{ weapons.map(w => {
 						return <tr key={ w.id }>
-							<td>{ w.name } <small>({ w.skill })</small></td>
+							<td>{ w.name }<br /><small>{ w.skill }</small></td>
 							<td><small>{ w.range }</small></td>
-							<td>{ w.damage } / { w.critical }</td>
+							<td>
+								<div><small className="damage">Damage:</small> { w.damage || "–" }</div>
+								<div><small className="damage">Critical:</small> { w.critical || "–" }</div>
+							</td>
 							<td>{ w.images.map((img, i) => <span key={ i } className={ img }></span>)}</td>
+							<td>
+								{ w.qualities.length == 0 ?  "–" : w.qualities.map(q => <div key={ id(q) } className="link">{ q }</div>) }
+							</td>
 						</tr>
 					}) }
 				</tbody>
-			</table>
+			</table> }
 		</div>;
 	}
 }

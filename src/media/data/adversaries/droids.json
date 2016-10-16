@@ -1,0 +1,310 @@
+[
+	{
+		"name": "Antiquated Battle Droid",
+		"type": "Minion",
+		"description": "The most frequently encountered droid of this type is the B1 battle droid produced by Baktoid Combat Au­tomata. A generation ago, these frail-looking droids were the terror of the galaxy. Legions of them formed the Separatist armies during the Clone Wars but the intervening years have not been kind to their design, which was inexpensive to begin with. Although no rep­ utable military still employs these droids in number, they can be found in limited quantities in the forces of crime lords, mercenaries, and various other ne'er-do­-wells throughout the underbelly of the galaxy.",
+		"notes": "Cost 6,500.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 4
+		},
+		"skills": {
+			"Ranged: Heavy": 0
+		},
+		"talents": [],
+		"abilities": ["Droid"],
+		"weapons": ["Blaster rifle"],
+		"gear": [],
+		"tags": ["droid"]
+	},
+	{
+		"name": "Assassin Droid",
+		"type": "Nemesis",
+		"description": "Assassin droids embody the worst fears organic beings have of mechanical life—specifically that it will employ violence against its creators in an attempt to replace them. While assassin droids are not so universally genocidal in their function, they are designed with the intent to kill living creatures. As such, they are a constant danger to all who interact with them, as they are motivated not by profit or ideology, but by pure, programmed instinct. Officially, of course, the Imperials do not employ assassin droids, which are illegal in virtually every sector of the galaxy. Unofficially, the Empire employs them discreetly to seek out specific targets that are impossible, or at least inconvenient, for them to deal with personally. On general principle, the Alliance eschews assassin droids completely.",
+		"notes": "Cost 65,000. Missile tube and blaster pistol are built.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 19,
+			"strain": 10,
+			"defence": [0, 1]
+		},
+		"skills": {
+			"Coercion": 3,
+			"Computers": 4,
+			"Gunnery": 5,
+			"Mechanics": 3,
+			"Melee": 3,
+			"Ranged: Heavy": 5,
+			"Ranged: Light": 5,
+			"Piloting: Planetary": 3,
+			"Piloting: Space": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Barrage 3", "Point Blank 3"],
+		"abilities": ["Droid"],
+		"weapons": ["Light repeating blaster", "Blaster pistol", "Missile tube"],
+		"gear": [],
+		"tags": ["droid", "assassin"]
+	},
+	{
+		"name": "Astromech Droid",
+		"type": "Rival",
+		"description": "Astromech droids are incredibly common through-out the galaxy. Although they all share a common purpose, they vary considerably in terms of their sophistication. At the lower end of the spectrum, early astromech droids were little more than automated navicomputers with some maintenance capabilities. The more sophisticated among them, specifically the universally successful R-series droids from Industrial Automaton, are among the most intelligent and advanced of all Class Two droids. The R2 model of droids in particular are notorious for developing quirky personalities in the absence of regular memory wipes. Part, of the reason that Alliance starhghters are so much more advanced than their Imperial counterparts without a significant increase in size is the utilization of astromech droids, which facilitate many of the more difficult computer functions necessary for the fighters to operate. In Imperial forces, astromech droid use is limited largely to capital-scale vessels that require redundant backups to ensure smooth functioning, regardless of circumstance.",
+		"notes": "Cost 8,250.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 11
+		},
+		"skills": {
+			"Astrogation": 3,
+			"Computers": 3,
+			"Cool": 2,
+			"Mechanics": 2,
+			"Piloting: Space": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Arc welder",
+				"skill": "Melee",
+				"damage": 3,
+				"critical": null,
+				"range": "Engaged",
+				"qualities": ["Stun damage"]
+			}
+		],
+		"gear": ["Built-in repair tools"],
+		"tags": ["droid", "engineer"]
+	},
+	{
+		"name": "BX Commando Droid",
+		"type": "Minion",
+		"description": "Relics of the Separatist droid army of the Clone Wars, BX-series commando droids served as infiltrators and assas­sins. More cunning, skilled, durable, and dangerous than the more common BI battle droids, commando droids were more expensive to produce, and their use was thus limited to vital missions and support duties.\n\nWhile their less deadly counterparts are still seen occa­sionally across the galaxy, serving at the behest of criminals and mercenaries, active commando droids are, thankfully, all but unheard of in current times.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 5
+		},
+		"skills": {
+			"Cool": 0,
+			"Melee": 0,
+			"Ranged: Heavy": 0,
+			"Ranged: Light": 0,
+			"Stealth": 0
+		},
+		"talents": [],
+		"abilities": ["Droid"],
+		"weapons": ["Blaster carbine", "Vibrosword", "Frag grenade", "Stun grenade"],
+		"gear": [],
+		"tags": ["droid", "separatist"]
+	},
+	{
+		"name": "Destroyer Droid",
+		"type": "Rival",
+		"description": "Droidekas, greatly feared by Republic troops during the Clone Wars, were manufactured by the Colicoid species. These durable droids are capable of collapsing into a wheel­ like form for swift movement or unfolding into a tripodal walking gun platform protected by a powerful deflector shield. A single droideka can unleash tremendous salvos of blaster fire while remaining all but immune from return fire thanks to its shields, making droidekas more than a match for many times their own number in soldiers. Thankfully, few of these fearsome machines remain active.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 18
+		},
+		"skills": {
+			"Gunnery": 2,
+			"Perception": 3,
+			"Resilience": 3
+		},
+		"talents": [],
+		"abilities": ["Droid", "Fire Sweep", "Shield Projector"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Twin heavy blasters",
+				"skill": "Gunnery",
+				"damage": 12,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Auto-fire", "Linked", "Pierce 1", "Vicious 1"]
+			},
+			{
+				"name": "Stomp",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Knockdown 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["droid", "separatist"]
+	},
+	{
+		"name": "Maintenance Droid",
+		"type": "Minion",
+		"description": "The term maintenance droid applies to an extremely broad array of Class Five droids that are created to perform simple repairs and upkeep on different equipment and vehicles. Typically these are the less sophisticated Class Five droids. They are not tasked with advanced repairs. Instead, they are afforded simple work that trained laborers would be able to perform - only without the need for rest, payment, or food. They are employed in most starports throughout the galaxy, including those controlled by both the Galactic Empire and the Rebel Alliance.",
+		"notes": "Cost 7,500.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 3
+		},
+		"skills": {
+			"Mechanices": 0
+		},
+		"talents": [],
+		"abilities": ["Droid"],
+		"weapons": [],
+			"specialist-weapons": [
+			{
+				"name": "Arc welder",
+				"skill": "Melee",
+				"damage": 3,
+				"critical": -1,
+				"range": "Engaged",
+				"qualities": ["Stun damage"]
+			}
+		],
+		"gear": ["Built-in repair tools (counts as tool kit as well as emergency repair kit that can be used once per session)"],
+		"tags": ["droid", "engineer"]
+	},
+	{
+		"name": "Medical Droid",
+		"type": "Rival",
+		"description": "Medical droids see extensive use on both sides of the Galactic Civil War, though in different ways and for different reasons. Although expensive, medical droids cost less and are quicker to produce than organic doctors. The Empire employs them for this reason, and because less sophisticated droids can be counted upon to make critical decisions without permitting emotion to come into play. The Rebellion employs them because trained medics and physicians are in extremely short supply, and the more sophisticated medical droids can display not only significant expertise, but a bedside manner that promotes quick recovery for Alliance personnel.",
+		"notes": "Cost 12,000.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10
+		},
+		"skills": {
+			"Discipline": 1,
+			"Medicine": 3,
+			"Perception": 2
+		},
+		"talents": [],
+		"abilities": ["Droid"],
+		"weapons": [],
+		"gear": ["Built-in diagnostic and surgical tools (counts as medpac as well as stimpack that can be used once per session)"],
+		"tags": ["droid", "medic"]
+	},
+	{
+		"name": "Protocol Droid",
+		"type": "Rival",
+		"description": "The purpose of a protocol droid is to facilitate the interaction of organic beings in a galaxy that has literally thousands upon thousands of unique cultures and civilizations, many of them with conflicting or otherwise exclusive customs and beliefs. Protocol droids were created to prevent offense between different cultures. The advent of the Galactic Empire has lessened the value of protocol droids, since the Empire cares nothing for the culture of its member worlds, but the Alliance has found great use in them to help bridge the gap between the many races that have banded together in hopes of overthrowing the Emperor and his oppressive regime.",
+		"notes": "Cost 8,000.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10
+		},
+		"skills": {
+			"Charm": 2,
+			"Knowledge: Education": 3,
+			"Knowledge: Xenology": 3,
+			"Negotiation": 2,
+			"Perception": 1
+		},
+		"talents": [],
+		"abilities": ["Droid"],
+		"weapons": [],
+		"gear": [],
+		"tags": ["droid"]
+	},
+	{
+		"name": "Security Droid",
+		"type": "Rival",
+		"description": "A more civilized and restricted version of assassin droids, security droids are not illegal but are carefully regulated because of the potential for abuse. Security droids are typically programmed with significant knowledge of law enforcement protocols and often update using local databases when traveling to ensure that their actions are in accordance with planetary, system, and sector law. Typically, security droids are assigned to protect specific locations or individuals and will respond to any threat against their charge with appropriate, sometimes lethal, force.",
+		"notes": "Cost 9,600. The blaster pistol is built in.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 14
+		},
+		"skills": {
+			"Ranged: Light": 3,
+			"Vigilance": 3
+		},
+		"talents": [],
+		"abilities": ["Droid"],
+		"weapons": ["Blaster pistol"],
+		"specialist-weapons": [
+			{
+				"name": "Snare launcher",
+				"skill": "Ranged: Light",
+				"damage": null,
+				"critical": null,
+				"range": "Short",
+				"qualities": ["Ensnare 5", "Limited Ammo 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["droid"]
+	}
+]

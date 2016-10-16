@@ -40,11 +40,6 @@
 		"type": "General"
 	},
 	{
-		"name": "Knowledge: Core Worlds",
-		"characteristic": "Intellect",
-		"type": "Knowledge"
-	},
-	{
 		"name": "Cybernetics",
 		"characteristic": "Intellect",
 		"type": "General"
@@ -60,11 +55,6 @@
 		"type": "General"
 	},
 	{
-		"name": "Knowledge: Education",
-		"characteristic": "Intellect",
-		"type": "Knowledge"
-	},
-	{
 		"name": "Gunnery",
 		"characteristic": "Agility",
 		"type": "Combat"
@@ -78,11 +68,6 @@
 		"name": "Lightsaber",
 		"characteristic": "Brawn",
 		"type": "Combat"
-	},
-	{
-		"name": "Knowledge: Lore",
-		"characteristic": "Intellect",
-		"type": "Knowledge"
 	},
 	{
 		"name": "Mechanics",
@@ -103,11 +88,6 @@
 		"name": "Negotiation",
 		"characteristic": "Presence",
 		"type": "General"
-	},
-	{
-		"name": "Knowledge: Outer Rim",
-		"characteristic": "Intellect",
-		"type": "Knowledge"
 	},
 	{
 		"name": "Perception",
@@ -159,15 +139,41 @@
 		"characteristic": "Cunning",
 		"type": "General"
 	},
-	{
-		"name": "Knowledge: Underworld",
-		"characteristic": "Intellect",
-		"type": "Knowledge"
-	},
+
 	{
 		"name": "Vigilance",
 		"characteristic": "Willpower",
 		"type": "General"
+	},
+	{
+		"name": "Knowledge: All",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Core Worlds",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Education",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Lore",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Outer Rim",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Underworld",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
 	},
 	{
 		"name": "Knowledge: Warfare",

@@ -57,7 +57,7 @@ class App extends React.Component {
 			}
 
 			this.setState({
-				adversary: this.state.adversary,
+				adversary: adversaries.length == 1 ? adversaries[0] : this.state.adversary,
 				adversaries: adversaries
 			});
 		});
@@ -75,7 +75,7 @@ class App extends React.Component {
 			<div className="column small">
 				<Filter />
 				<p><small>Showing { x } of { y }.</small></p>
-				<LinkList data={ this.state.adversaries } />
+				<LinkList data={ this.state.adversaries } selected={ this.state.adversary != null ? this.state.adversary.id : "" } />
 			</div>
 			<div className="column large">
 				<Character skills={ this.stores.skills } character={ this.state.adversary } weapons={ this.stores.weapons } talents={ this.stores.talents } />

@@ -106,6 +106,33 @@
 		"tags": ["empire", "imperial military"]
 	},
 	{
+		"name": "Imperial Navy Officer",
+		"type": "Rival",
+		"description": "Officers in the Imperial Navy are highly trained, often at a military academy. Most of their duties naturally fall into the category of ship-bound activities, moni­toring the hundreds or thousands of personnel neces­sary to maintain the massive capital-scale ships the navy depends upon However, it is also possible that officers are deployed at the head of naval troopers, taking part in ship-to-ship actions against pirates or independent vessels or. even in sorties on the ground. In these cases, most naval officers prefer to lead from the rear, using their superior training and experience to direct the activities of their subordinates. Despite their reluctance to \"get their hands dirty,\" it is unwise to underestimate naval officers.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 11
+		},
+		"skills": {
+			"Discipline": 3,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Tactical Direction"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Heavy uniform (+1 soak)"],
+		"tags": ["empire", "imperial military"]
+	},
+	{
 		"name": "Imperial Vehicle Corps",
 		"type": "Rival",
 		"description": "A subsidiary branch of the Imperial Army, the Vehicle Corps is a specialized division of troopers who receive rudimentary infantry training but specialize in piloting the various forms of vehicles utilized by that military organization. This includes not only land and sea vehicles, but aircraft that cannot achieve orbit on their own (any orbital craft falls under the auspices of the Imperial Navy). Repulsorlift operations, ground vehicle operations, and aquatic vehicle operations all fall under this umbrella; however, the lattermost of these is typically grouped in with the subdivision of the Imperial Army known as the lesser Imperial Navy, responsible for waterborne operations on the surfaces of planets throughout the galaxy.",
@@ -146,7 +173,7 @@
 		"derived": {
 			"soak": 3,
 			"wounds": 13,
-			"soak": 14
+			"strain": 14
 		},
 		"skills": {
 			"Charm": 2,
@@ -215,7 +242,7 @@
 		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": [],
-		"tags": ["empire", "imperial military"]
+		"tags": ["empire", "imperial military", "engineer"]
 	},
 	{
 		"name": "Imperial Stormtrooper",
@@ -311,11 +338,11 @@
 				"damage": 10,
 				"critical": 2,
 				"range": "Long",
-				"properties": ["Auto-fire", "Breach 1", "Concussive 1", "Cumbersome 4", "Inacurate 1"]
+				"qualities": ["Auto-fire", "Breach 1", "Concussive 1", "Cumbersome 4", "Inacurate 1"]
 			}
 		],
 		"gear": ["Powered armour (+2 soak, +1 defence)", "Jetpack", "Internal comlink"],
-		"tags": ["empire", "imperial military", "stormtrooper"]
+		"tags": ["empire", "imperial military", "stormtrooper", "droid"]
 	},
 	{
 		"name": "Stormtrooper: Sandtrooper",
@@ -382,7 +409,7 @@
 				"damage": 10,
 				"critical": 3,
 				"range": "Extreme",
-				"properties": ["Accurate 1", "Cumbersome 3", "Pierce 2", "Slow-Firing 1", "Sniper Shot"]
+				"qualities": ["Accurate 1", "Cumbersome 3", "Pierce 2", "Slow-Firing 1", "Sniper Shot"]
 			}
 		],
 		"gear": ["Utility belt", "Extra reloads", "Scouttrooper armour (+1 soak)", "1 Frag grenade"],
@@ -424,7 +451,7 @@
 				"damage": 9,
 				"critical": 3,
 				"range": "Long",
-				"properties": ["Stun setting", "remove up to 2 black dice on any checks to use this weapon due to smoke, darkness, or other environmental conditions that obstruct vision"]
+				"qualities": ["Stun setting", "remove up to 2 black dice on any checks to use this weapon due to smoke, darkness, or other environmental conditions that obstruct vision"]
 			}
 		],
 		"gear": ["Snowtrooper armour (+2 soak; when making skill checks, snowtroopers may remove 2 black dice imposed due to cold or icy environmental conditions"],
@@ -454,7 +481,7 @@
 		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Flight suit"],
-		"tags": ["empire", "imperial military"]
+		"tags": ["empire", "imperial military", "pilot"]
 	},
 	{
 		"name": "TIE Ace",
@@ -480,6 +507,6 @@
 		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Flight suit", "Sensory augmentation package (add Advantage to any Perception checks made by the character)"],
-		"tags": ["empire", "imperial military"]
+		"tags": ["empire", "imperial military", "pilot"]
 	}
 ]

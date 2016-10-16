@@ -139,7 +139,7 @@
 		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Datapad with schematics", "Repair tools"],
-		"tags": ["rebel alliance"]
+		"tags": ["rebel alliance", "engineer"]
 	},
 	{
 		"name": "Mechanic",
@@ -164,7 +164,7 @@
 		"abilities": [],
 		"weapons": ["Heavy hydrospanner"],
 		"gear": ["Repair tools"],
-		"tags": ["rebel alliance"]
+		"tags": ["rebel alliance", "engineer"]
 	},
 	{
 		"name": "Quarren Agitator",
@@ -191,7 +191,7 @@
 		"abilities": ["Amphibious"],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Inflammatory pamphlets and propaganda."],
-		"tags": ["rebel alliance"]
+		"tags": ["rebel alliance", "quarren"]
 	},
 	{
 		"name": "Quatermaster",
@@ -251,7 +251,17 @@
 		},
 		"talents": ["Adversary 2", "Inspiring Rhetoric"],
 		"abilities": ["Alliance Leader"],
-		"weapons": ["Disruptor pistol", "Fire bomb", "Vibroknife"],
+		"weapons": ["Disruptor pistol", "Vibroknife"],
+		"specialist-weapons": [
+			{
+				"name": "Fire bomb",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Blast 7", "Burn 2", "Innacurate 1", "Limited Ammo 1"]
+			}
+		],
 		"gear": ["Armoured clothing (+1 defence, +1 soak)"],
 		"tags": ["rebel alliance"]
 	},
@@ -309,7 +319,7 @@
 		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Flight suit", "Astromech droid"],
-		"tags": ["rebel alliance"]
+		"tags": ["rebel alliance", "pilot"]
 	},
 	{
 		"name": "Starfighter Pilot",
@@ -336,6 +346,6 @@
 		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Flight suit"],
-		"tags": ["rebel alliance"]
+		"tags": ["rebel alliance", "pilot"]
 	}
 ]

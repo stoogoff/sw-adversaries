@@ -69,7 +69,7 @@
 	},
 	{
 		"name": "Barrage",
-		"description": ""
+		"description": "Add 3 to the damage of all Gunnery and Ranged attacks at medium or long range."
 	},
 	{
 		"name": "Basic Combat Training",
@@ -85,7 +85,7 @@
 	},
 	{
 		"name": "Black Market Contacts",
-		"description": ""
+		"description": "Decrease rarity of sought item by one per rank when looking on the black market; item's cost is increased by 50%."
 	},
 	{
 		"name": "Blackmail",
@@ -133,7 +133,7 @@
 	},
 	{
 		"name": "Bypass Security",
-		"description": ""
+		"description": "Remove a black die from any Computers or Skulduggery check to bypass security."
 	},
 	{
 		"name": "Call &#39;em",
@@ -221,7 +221,7 @@
 	},
 	{
 		"name": "Convincing Demeanor",
-		"description": ""
+		"description": "Remove a black dice per rank from any Deception or Skulduggery check."
 	},
 	{
 		"name": "Coordinated Assault",
@@ -249,7 +249,7 @@
 	},
 	{
 		"name": "Crippling Blow",
-		"description": ""
+		"description": "May increase damage of attacj by 1. If suc­cessful, target suffers one strain when he moves for remainder of encounter."
 	},
 	{
 		"name": "Custom Loadout",
@@ -277,7 +277,7 @@
 	},
 	{
 		"name": "Deadly Accuracy",
-		"description": ""
+		"description": "Adds ranks in Brawl to all damage inflicted with claws."
 	},
 	{
 		"name": "Deathblow",
@@ -385,7 +385,7 @@
 	},
 	{
 		"name": "Durable",
-		"description": ""
+		"description": "Subtract 10 per rank from Critical Injury rolls made against the character."
 	},
 	{
 		"name": "Dynamic Fire",
@@ -433,7 +433,7 @@
 	},
 	{
 		"name": "Expert Tracker",
-		"description": ""
+		"description": "Remove a black die from checks to find tracks or track targets; decrease time to track a target by half."
 	},
 	{
 		"name": "Eye for Detail",
@@ -461,7 +461,7 @@
 	},
 	{
 		"name": "Feral Strength",
-		"description": ""
+		"description": "+1 damage per rank on all Brawl and Melee attacks."
 	},
 	{
 		"name": "Field Commander",
@@ -685,15 +685,15 @@
 	},
 	{
 		"name": "Inspiring Rhetoric",
-		"description": "As an action, may make an Average Leadership check; each Success removes one strain or wound from one ally in short range; spend Advantages to remove an additional strain or wound from an affected ally."
+		"description": "As an action, may make an Average Leadership check; each Success removes one strain or wound from one ally in short range; spend Advantage to remove an additional strain or wound from an affected ally."
 	},
 	{
-		"name": "Inspiring Rhetoric [Improved]",
-		"description": ""
+		"name": "Improved Inspiring Rhetoric",
+		"description": "As an action, may make an Average Leadership check; each Success removes one strain or wound from one ally in short range; spend Advantage to remove an additional strain or wound from an affected ally; all affected allies add a blue dice to all checks for two rounds."
 	},
 	{
 		"name": "Supreme Inspiring Rhetoric",
-		"description": "As a maneuver, may make an Average Leadership check; each Success removes 1 strain or wound from one ally in short range; spend Advantage to remove 1 additional strain or wound from an affected ally; all affected allies add a blue dice to all checks for 4 rounds."
+		"description": "As a maneuver, may make an Average Leadership check; each Success removes one strain or wound from one ally in short range; spend Advantage to remove an additional strain or wound from an affected ally; all affected allies add a blue dice to all checks for four rounds."
 	},
 	{
 		"name": "Intense Focus",
@@ -765,7 +765,7 @@
 	},
 	{
 		"name": "Knockdown",
-		"description": ""
+		"description": "May spend Triumph to knock target prone with successful melee attack."
 	},
 	{
 		"name": "Know Somebody",
@@ -801,7 +801,7 @@
 	},
 	{
 		"name": "Lethal Blows",
-		"description": ""
+		"description": "Add +10 per rank to Critical In­jury rolls against opponents."
 	},
 	{
 		"name": "Lightsaber Mastery",
@@ -861,7 +861,7 @@
 	},
 	{
 		"name": "Master Pilot",
-		"description": ""
+		"description": "Once per round, suffer two strain to perform one Pilot ac­tion as a maneuver."
 	},
 	{
 		"name": "Master Slicer",
@@ -961,7 +961,7 @@
 	},
 	{
 		"name": "Natural Negotiator",
-		"description": ""
+		"description": "Once per session, may reroll any Cool or Negotiation check."
 	},
 	{
 		"name": "Natural Outdoorsman",
@@ -1085,7 +1085,7 @@
 	},
 	{
 		"name": "Point Blank",
-		"description": ""
+		"description": "Add 3 damage to all Ranged (Heavy) and Ranged (Light) attacks made at short or engaged range."
 	},
 	{
 		"name": "Positive Spin",
@@ -1133,7 +1133,7 @@
 	},
 	{
 		"name": "Quick Draw",
-		"description": ""
+		"description": "May draw or holster a weapon as an incidental."
 	},
 	{
 		"name": "Quick Draw (Improved)",
@@ -1209,7 +1209,7 @@
 	},
 	{
 		"name": "Resolve",
-		"description": ""
+		"description": "When suffering strain, reduce the amount suffered by one per rank, to a minimum of 1."
 	},
 	{
 		"name": "Resourceful Refit",
@@ -1265,11 +1265,11 @@
 	},
 	{
 		"name": "Sense Danger",
-		"description": ""
+		"description": "Once per session, remove two black dice from any check."
 	},
 	{
 		"name": "Sense Emotions",
-		"description": ""
+		"description": "Add a blue die to all Charm, Coercion, and Deception checks."
 	},
 	{
 		"name": "Share Pain",
@@ -1309,7 +1309,7 @@
 	},
 	{
 		"name": "Skilled Jockey",
-		"description": ""
+		"description": "Remove one black die per rank from all Pilot checks."
 	},
 	{
 		"name": "Skilled Slicer",
@@ -1357,7 +1357,7 @@
 	},
 	{
 		"name": "Spare Clip",
-		"description": ""
+		"description": "Does not run out of ammo on a Despair"
 	},
 	{
 		"name": "Speaks Binary",
@@ -1557,7 +1557,7 @@
 	},
 	{
 		"name": "Uncanny Senses",
-		"description": ""
+		"description": "Add a blue die per rank to all Perception checks."
 	},
 	{
 		"name": "Unrelenting Skeptic",
@@ -1618,26 +1618,29 @@
 
 
 
-
+	{
+		"name": "Alliance Leader",
+		"description": "Alliance operatives add a blue dice to all Vigilance and Perception checks when in the NPC's presence."
+	},
 	{
 		"name": "Amphibious",
 		"description": "May breathe underwater without penalty and never suffer movement penalties for traveling through water."
 	},
 	{
-		"name": "Alliance Leader",
-		"description": "Alliance operatives add a blue dice to all Vigilance and Perception checks when in the NPC's presence."
+		"name": "Awkward",
+		"description": "Hutts have great physical strength but their bulk imposes severe limitations in flexibility and agility; they add 3 black dice to all Brawl, Melee, and Coordination checks they're required to make."
 	},
 	{
 		"name": "Covering Fire",
 		"description": "May spend a maneuver to add + 1 ranged defense to up to three allied characters or minion groups within short range until the end of the next round; this does not stack with multiple uses."
 	},
 	{
-		"name": "Droid",
-		"description": "Does not need to breathe, eat, or drink and can survive in vacuum or underwater; immune to poisons and toxins."
+		"name": "Critical Eye",
+		"description": "Gain a blue die on all rolls made to duplicate a familiar document."
 	},
 	{
-		"name": "Improved Covering Fire",
-		"description": "When allied minion groups within short range perform the Covering Fire maneuver, they add + 2 ranged defense instead."
+		"name": "Droid",
+		"description": "Does not need to breathe, eat, or drink and can survive in vacuum or underwater; immune to poisons and toxins."
 	},
 	{
 		"name": "Destabilizing Influence",
@@ -1649,6 +1652,10 @@
 		"description": "Add automatic advantage to any Perception checks."
 	},
 	{
+		"name": "Fire Sweep",
+		"description": "As an action, a droideka can make a Hard Gunnery check to inflict one hit that deals base damage with its built-in twin heavy blasters on up to two targets within medium range, plus one additional target per Advantage on the check; it can only hit each target once this way."
+	},
+	{
 		"name": "Gun Crew",
 		"description": "For each Imperial Gunnery Corps member in the minion group beyond the first, reduce the Cumbersome rating of their weapons by 1."
 	},
@@ -1656,12 +1663,37 @@
 		"name": "Imperial Valour",
 		"description": "May perform a maneuver to cause all ranged attacks targeting the Moff to instead hit one ally or helpless enemy he is engaged with, until the beginning of his next turn."
 	},
-
-
-
+	{
+		"name": "Improved Covering Fire",
+		"description": "When allied minion groups within short range perform the Covering Fire maneuver, they add + 2 ranged defense instead."
+	},
+	{
+		"name": "Leader",
+		"description": "All subordinates within medium range add a blue die to all Discipline checks."
+	},
+	{
+		"name": "Light-Sensitive",
+		"description": "Defel are vulnerable to bright lights, which cause them intense pain and temporary blindness 1f v1ewed without protection. A Defel exposed to bright light without protective goggles suffers two black dice on all skill checks."
+	},
+	{
+		"name": "Ponderous",
+		"description": "Hutts can never spend more than one maneuver moving per turn."
+	},
+	{
+		"name": "Pirate Leader",
+		"description": "May perform a maneuver to give orders to other pirate allies in medium range, granting them a blue die on their next check."
+	},
 	{
 		"name": "Shadowed",
 		"description": "When in darkness or deep shadow, add two blue dice to all Stealth checks."
+	},
+	{
+		"name": "Shield Projector",
+		"description": "Maneuver to activate or deactivate; while active, gains defense 2 and upgrades the difficulty of all combat attacks targeting the droideka once, but droideka cannot use the Move maneuver."
+	},
+	{
+		"name": "Spaceport Leader",
+		"description": "Spaceport staff add a blue die to all Vigilance and Perception checks when in the Spaceport Administrator's presence."
 	},
 	{
 		"name": "Swipe",
@@ -1676,5 +1708,9 @@
 	{
 		"name": "Overwhelming Fire",
 		"description": "May perform a maneuver to direct one Imperial Army minion group within medium range; the group may perform an immediate free combat check action."
+	},
+	{
+		"name": "Wookiee Rage",
+		"description": "Deal +1 damage with Brawl and Melee attacks when suffering any wounds. When suffering a Critical Injury, deal +2 damage with Brawl and Melee at­tacks instead."
 	}
 ]

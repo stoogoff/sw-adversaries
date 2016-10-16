@@ -5,7 +5,7 @@
 		"damage": 5,
 		"critical": 4,
 		"range": "Short",
-		"properties": ["Stun setting"]
+		"qualities": ["Stun setting"]
 	},
 	{
 		"name": "Light blaster pistol",
@@ -13,7 +13,7 @@
 		"damage": 5,
 		"critical": 4,
 		"range": "Medium",
-		"properties": ["Stun setting"]
+		"qualities": ["Stun setting"]
 	},
 	{
 		"name": "Blaster pistol",
@@ -21,7 +21,7 @@
 		"damage": 6,
 		"critical": 3,
 		"range": "Medium",
-		"properties": ["Stun setting"]
+		"qualities": ["Stun setting"]
 	},
 	{
 		"name": "Heavy blaster pistol",
@@ -29,7 +29,7 @@
 		"damage": 7,
 		"critical": 3,
 		"range": "Medium",
-		"properties": ["Stun setting"]
+		"qualities": ["Stun setting"]
 	},
 	{
 		"name": "Blaster carbine",
@@ -37,7 +37,7 @@
 		"damage": 9,
 		"critical": 3,
 		"range": "Medium",
-		"properties": ["Stun setting"]
+		"qualities": ["Stun setting"]
 	},
 	{
 		"name": "Blaster rifle",
@@ -45,7 +45,7 @@
 		"damage": 9,
 		"critical": 3,
 		"range": "Long",
-		"properties": ["Stun setting"]
+		"qualities": ["Stun setting"]
 	},
 	{
 		"name": "Heavy blaster rifle",
@@ -53,7 +53,7 @@
 		"damage": 10,
 		"critical": 3,
 		"range": "Long",
-		"properties": ["Auto-fire", "Cumbersome 3"]
+		"qualities": ["Auto-fire", "Cumbersome 3"]
 	},
 	{
 		"name": "Light repeating blaster",
@@ -61,7 +61,7 @@
 		"damage": 11,
 		"critical": 3,
 		"range": "Long",
-		"properties": ["Auto-fire", "Cumbersome 4", "Pierce 1"]
+		"qualities": ["Auto-fire", "Cumbersome 4", "Pierce 1"]
 	},
 	{
 		"name": "Heavy repeating blaster",
@@ -69,7 +69,15 @@
 		"damage": 15,
 		"critical": 2,
 		"range": "Long",
-		"properties": ["Auto-fire", "Cumbersome 5", "Pierce 2", "Vicious 1"]
+		"qualities": ["Auto-fire", "Cumbersome 5", "Pierce 2", "Vicious 1"]
+	},
+	{
+		"name": "Bowcaster",
+		"skill": "Ranged: Heavy",
+		"damage": 10,
+		"critical": 3,
+		"range": "Medium",
+		"qualities": ["Cumbersome 3", "Knockdown"]
 	},
 	{
 		"name": "Ion blaster",
@@ -77,7 +85,7 @@
 		"damage": 10,
 		"critical": 5,
 		"range": "Short",
-		"properties": ["Disorient 5", "Ion"]
+		"qualities": ["Disorient 5", "Ion"]
 	},
 	{
 		"name": "Disruptor pistol",
@@ -85,7 +93,7 @@
 		"damage": 10,
 		"critical": 2,
 		"range": "Short",
-		"properties": ["Vicious 4"]
+		"qualities": ["Vicious 4"]
 	},
 	{
 		"name": "Disruptor rifle",
@@ -93,7 +101,15 @@
 		"damage": 10,
 		"critical": 2,
 		"range": "Long",
-		"properties": ["Cumbersome 2","Vicious 5"]
+		"qualities": ["Cumbersome 2","Vicious 5"]
+	},
+	{
+		"name": "Riot gun",
+		"skill": "Ranged: Heavy",
+		"damage": 7,
+		"critical": 3,
+		"range": "Medium",
+		"qualities": ["Auto-fire","Stun setting"]
 	},
 	{
 		"name": "Slugthrower pistol",
@@ -101,7 +117,7 @@
 		"damage": 4,
 		"critical": 2,
 		"range": "Short",
-		"properties": []
+		"qualities": []
 	},
 	{
 		"name": "Slugthrower rifle",
@@ -109,7 +125,23 @@
 		"damage": 7,
 		"critical": 2,
 		"range": "Medium",
-		"properties": ["Cumbersome 2"]
+		"qualities": ["Cumbersome 2"]
+	},
+	{
+		"name": "Bola",
+		"skill": "Ranged: Light",
+		"damage": 2,
+		"critical": null,
+		"range": "Short",
+		"qualities": ["Ensnare 3", "Knockdown", "Limited Ammo 1"]
+	},
+	{
+		"name": "Net",
+		"skill": "Ranged: Light",
+		"damage": 2,
+		"critical": null,
+		"range": "Short",
+		"qualities": ["Ensnare 3", "Knockdown", "Limited Ammo 1"]
 	},
 	{
 		"name": "Flame projector",
@@ -117,7 +149,7 @@
 		"damage": 8,
 		"critical": 2,
 		"range": "Short",
-		"properties": ["Burn 3", "Blast 8"]
+		"qualities": ["Burn 3", "Blast 8"]
 	},
 	{
 		"name": "Missile tube",
@@ -125,7 +157,7 @@
 		"damage": 20,
 		"critical": 2,
 		"range": "Extreme",
-		"properties": ["Blast 10", "Cumbersome 3", "Guided 3", "Breach 1", "Prepare 1", "Limited Ammo 6"]
+		"qualities": ["Blast 10", "Cumbersome 3", "Guided 3", "Breach 1", "Prepare 1", "Limited Ammo 6"]
 	},
 	{
 		"name": "Frag grenade",
@@ -133,7 +165,7 @@
 		"damage": 8,
 		"critical": 4,
 		"range": "Short",
-		"properties": ["Blast 6", "Limited Ammo 1"]
+		"qualities": ["Blast 6", "Limited Ammo 1"]
 	},
 	{
 		"name": "Armour-piercing grenade",
@@ -141,15 +173,15 @@
 		"damage": 13,
 		"critical": 3,
 		"range": "Short",
-		"properties": ["Blast 4", "Limited Ammo 1", "Pierce 3"]
+		"qualities": ["Blast 4", "Limited Ammo 1", "Pierce 3"]
 	},
 	{
 		"name": "Stun grenade",
 		"skill": "Ranged: Light",
 		"damage": 8,
-		"critical": -1,
+		"critical": null,
 		"range": "Short",
-		"properties": ["Disorient 3", "Stun Damage", "Blast 8", "Limited Ammo 1"]
+		"qualities": ["Disorient 3", "Stun Damage", "Blast 8", "Limited Ammo 1"]
 	},
 	{
 		"name": "Anti-vehicle mine",
@@ -157,15 +189,15 @@
 		"damage": 25,
 		"critical": 2,
 		"range": "Engaged",
-		"properties": ["Blast 2", "Breach 4", "Limited Ammo 1"]
+		"qualities": ["Blast 2", "Breach 4", "Limited Ammo 1"]
 	},
 	{
-		"name": "Anti-personell mine",
+		"name": "Anti-personnel mine",
 		"skill": "Mechanics",
 		"damage": 12,
 		"critical": 3,
 		"range": "Engaged",
-		"properties": ["Blast 4", "Vicious 4", "Limited Ammo 1"]
+		"qualities": ["Blast 4", "Vicious 4", "Limited Ammo 1"]
 	},
 	{
 		"name": "Thermal detonator",
@@ -173,15 +205,7 @@
 		"damage": 20,
 		"critical": 2,
 		"range": "Short",
-		"properties": ["Blast 15", "Breach 1", "Vicious 4", "Limited Ammo 1"]
-	},
-	{
-		"name": "Fire bomb",
-		"skill": "Ranged: Light",
-		"damage": 7,
-		"critical": 3,
-		"range": "Short",
-		"properties": ["Blast 7", "Burn 2", "Innacurate 1", "Limited Ammo 1"]
+		"qualities": ["Blast 15", "Breach 1", "Vicious 4", "Limited Ammo 1"]
 	},
 	{
 		"name": "Brass knuckles",
@@ -189,7 +213,15 @@
 		"plus-damage": 1,
 		"critical": 4,
 		"range": "Engaged",
-		"properties": ["Disorient 3"]
+		"qualities": ["Disorient 3"]
+	},
+	{
+		"name": "Cortosis gauntlets",
+		"skill": "Brawl",
+		"plus-damage": 1,
+		"critical": 4,
+		"range": "Engaged",
+		"qualities": ["Cortosis"]
 	},
 	{
 		"name": "Shock gloves",
@@ -197,15 +229,63 @@
 		"plus-damage": 0,
 		"critical": 5,
 		"range": "Engaged",
-		"properties": ["Stun 3"]
+		"qualities": ["Stun 3"]
+	},
+	{
+		"name": "Ancient sword",
+		"skill": "Lightsaber",
+		"plus-damage": 2,
+		"critical": 3,
+		"range": "Engaged",
+		"qualities": ["Defensive 1"]
 	},
 	{
 		"name": "Combat knife",
 		"skill": "Melee",
+		"plus-damage": 0,
+		"critical": 6,
+		"range": "Engaged",
+		"qualities": []
+	},
+	{
+		"name": "Cortosis shield",
+		"skill": "Melee",
 		"plus-damage": 1,
+		"critical": 6,
+		"range": "Engaged",
+		"qualities": ["Cortosis", "Cumbersome 3", "Defensive 2", "Deflection 2"]
+	},
+	{
+		"name": "Cortosis staff",
+		"skill": "Melee",
+		"plus-damage": 3,
+		"critical": 5,
+		"range": "Engaged",
+		"qualities": ["Cortosis"]
+	},
+	{
+		"name": "Cortosis sword",
+		"skill": "Melee",
+		"plus-damage": 2,
 		"critical": 3,
 		"range": "Engaged",
-		"properties": []
+		"qualities": ["Cortosis", "Defensive 1"]
+	},
+	{
+		"name": "Electro staff",
+		"skill": "Melee",
+		"plus-damage": 4,
+		"critical": 3,
+		"range": "Engaged",
+		"qualities": ["Cortosis", "Cumbersome 3", "Linked 1", "Stun setting", "Unwieldy 3"]
+	},
+	{
+		"name": "Gaffi stick",
+		"skill": "Melee",
+		"plus-damage": 2,
+		"critical": 3,
+		"range": "Engaged",
+		"qualities": ["Defensive 1", "Disorient 3"]
 	},
 	{
 		"name": "Force pike",
@@ -213,23 +293,23 @@
 		"plus-damage": 3,
 		"critical": 2,
 		"range": "Engaged",
-		"properties": ["Pierce 2", "Stun setting"]
+		"qualities": ["Pierce 2", "Stun setting"]
 	},
 	{
 		"name": "Heavy hydrospanner",
 		"skill": "Melee",
-		"plus-damage": 2,
+		"damage": 5,
 		"critical": 4,
 		"range": "Engaged",
-		"properties": ["Innacurate 1"]
+		"qualities": ["Innacurate 1"]
 	},
 	{
-		"name": "Lightsabre",
+		"name": "Lightsaber",
 		"skill": "Lightsaber",
 		"damage": 10,
 		"critical": 1,
 		"range": "Engaged",
-		"properties": ["Breach 1", "Sunder", "Vicious 2"]
+		"qualities": ["Breach 1", "Sunder", "Vicious 2"]
 	},
 	{
 		"name": "Truncheon",
@@ -237,7 +317,7 @@
 		"plus-damage": 2,
 		"critical": 5,
 		"range": "Engaged",
-		"properties": ["Disorient 2"]
+		"qualities": ["Disorient 2"]
 	},
 	{
 		"name": "Vibro-ax",
@@ -245,7 +325,7 @@
 		"plus-damage": 3,
 		"critical": 2,
 		"range": "Engaged",
-		"properties": ["Pierce 2", "Sunder", "Vicious 3"]
+		"qualities": ["Pierce 2", "Sunder", "Vicious 3"]
 	},
 	{
 		"name": "Vibroknife",
@@ -253,7 +333,7 @@
 		"plus-damage": 1,
 		"critical": 2,
 		"range": "Engaged",
-		"properties": ["Pierce 2", "Vicious 1"]
+		"qualities": ["Pierce 2", "Vicious 1"]
 	},
 	{
 		"name": "Vibrosword",
@@ -261,6 +341,6 @@
 		"plus-damage": 2,
 		"critical": 2,
 		"range": "Engaged",
-		"properties": ["Defensive 1", "Pierce 2", "Vicious 1"]
+		"qualities": ["Defensive 1", "Pierce 2", "Vicious 1"]
 	}
 ]

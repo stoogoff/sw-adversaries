@@ -26,7 +26,7 @@ export default class TalentPanel extends React.Component {
 
 		return <div className="info">
 			<h2>{ this.props.title }</h2>
-			{ talents.length > 0 ? talents.map(t => <p key={ t.id }><strong>{ t.name }:</strong> {t.description }</p> ) : "–" }
+			{ talents.length > 0 ? talents.map(t => <p key={ t.id }><strong>{ t.name }{ t.description == "" ? "" : ":" }</strong> {t.description }</p> ) : "–" }
 		</div>;
 	}
 }

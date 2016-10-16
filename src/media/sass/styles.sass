@@ -66,6 +66,7 @@ h2 + p
 
 p
 	line-height: 1.5em
+	max-width: 50em
 
 ul
 	list-style: none
@@ -110,6 +111,8 @@ th
 	text-align: left
 
 th, td
+	vertical-align: top
+
 	&:first-of-type
 		padding-left: 1em
 
@@ -151,12 +154,12 @@ input[type="text"]
 		width: 17em
 
 .character
-	width: 50em
+	width: 55em
 	border-left: 2px solid $derived
 	overflow: hidden
 
 	.large
-		width: 32.5em
+		width: 37.5em
 
 	.small
 		width: 14.25em
@@ -238,6 +241,11 @@ input[type="text"]
 	margin-left: 1rem
 	margin-right: 1rem
 
+.damage
+	display: inline-block
+	width: 4.2em
+
+// dice icons
 .icon
 	width: 1.6em
 	height: 1.6em
@@ -252,3 +260,4 @@ input[type="text"]
 .proficiency
 	background-image: url(../img/die-proficiency.png)
 	width: 1em
+

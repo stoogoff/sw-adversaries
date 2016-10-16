@@ -1,0 +1,1004 @@
+[
+	{
+		"name": "Ams Dealer",
+		"type": "Rival",
+		"description": "Some say that conflict is the lifeblood of the galaxy and there are always those who will find a means of profiting from any endeavor, no matter how unpleasant. Arms dealers have access to large amounts of weaponry and are willing to sell them to anyone, for a price. The means by which these individuals come by their stock varies wildly; some are former mercenaries, while others haunt battlefields like scavengers looking for cast-aside weap­ons instead of a meal, and still others have extensive networks of contacts within existing military organiza­tions. Regardless, these individuals are often in the mar­ket for smugglers or others who have ships of their own to transport goods to and from customers. Due to the sheer volume of firepower they have available to bring to bear if the situation requires it, it is an extremely bad idea to cross an arms dealer.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 1,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Negotiation ":1 ,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 2,
+			"Vigilance": 1
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Heavy blaster pistol", "Vibroknife"],
+		"gear": ["Heavy clothing (+1 soak)"],
+		"tags": ["underworld"]
+	},
+	{
+		"name": "Barabel Enforcer",
+		"type": "Rival",
+		"description": "A step up from a simple thug, an enforcer is a bit more trained and intelligent in the application of brute force. To avoid excessive expense in training such individuals, as well as to inspire fear in those they need intimidat­ed, criminal figures tend to look for imposing beings with significant physical might to fill these slots. Gamor­reans are common, of course, as are Aqualish and Wookiees, but Barabels are particularly feared because their reptilian appearance inspires a deep, primal fear in many mammalian species. Barabels are an intelligent species, but often seem otherwise be­ cause of their halting command of Basic and their seemingly primitive social cus­toms. Their physical strength is prodi­gious, however, and they also enjoy a significant amount of natural armor that protects them from many threats, making them ideal enforcers to send into danger­ ous situations.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16
+		},
+		"skills": {
+			"Ranged: Heavy": 1,
+			"Melee": 2,
+			"Perception": 1,
+			"Survival": 2,
+			"Vigilance": 1
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster carbine", "Combat knife"],
+		"gear": [],
+		"tags": ["underworld", "barabel"]
+	},
+	{
+		"name": "Black Marketeer",
+		"type": "Rival",
+		"description": "In any conflict the size and scope of the Galactic Civil War, there are always those who seek to profit from the struggle. In this case, the Rebel Alliance's desperate need for arms and supplies has made a great many people very wealthy, indeed. Black Marketeers are those who have a particular knack for acquiring things that people need, usually people with large amounts of credits to spend in acquiring them. They most frequently deal with the Alliance, since the Empire scarcely wants for supplies, but individual members of the Empire may be corrupt enough to deal with such individuals if it suits their needs to do so.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Knowledge: Underworld": 2,
+			"Negotiation": 2,
+			"Ranged: Light": 1,
+			"Skulduggery": 2,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Black Market Contacts 2"],
+		"abilities": [],
+		"weapons": ["Blaster pistol"],
+		"gear": [],
+		"tags": ["underworld", "black marketeer"]
+	},
+	{
+		"name": "Black Sun Vigo",
+		"type": "Nemesis",
+		"description": "The Black Sun is a vast criminal conspir­acy that literally spans almost the en­tire breadth of the galaxy Its upper ech­elons are a mystery to all but its most in­ fluential and powerful members, and the most that the average member can ever hope to know is the identity of a Vigo The Vi­gos of Black Sun are akin to criminal nobility, princes of vice, underbosses of mayhem and misery. A Vigo is powerful enough that he or she may control all criminal activity in an entire sector or an even larger portion of space, making them rivals even for the great Hutt lords that are so feared in the Outer Rim. For all their power, influence, and wealth, however, Vigos still answer to their superiors, and for that reason they often have more conservative natures than the hedonistic Hutts.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 16,
+			"strain": 16
+		},
+		"skills": {
+			"Coercion": 4,
+			"Cool": 3,
+			"Melee": 3,
+			"Negotiation": 3,
+			"Perception": 4,
+			"Ranged: Heavy": 3,
+			"Ranged: Light": 3,
+			"Streetwise": 4,
+			"Survival": 4,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 3", "Crippling Blow", "Nobody's Fool 2"],
+		"abilities": ["Leader"],
+		"weapons": ["Heavy blaster pistol", "Force pike"],
+		"gear": ["Expensive robes (+1 soak)"],
+		"tags": ["underworld", "bounty hunter"]
+	},
+	{
+		"name": "Corrupt Bureaucrat",
+		"type": "Rival",
+		"description": "Politics is a deadly game and often those who play it have a wide variety of plots and machinations in mo­tion at any one time. Many of these depend upon the extensive use of ignorant, expendable pawns. Crimi­nals, and those who society would prefer to ignore, are ideally suited for this manner of operation. A cunning politico knows how to make use of such vassals, prom­ising them enough cash to ensure they are interested without asking too many questions. Those who can get the job done and keep their mouths shut can find lu­crative, long-term employment, while those who cause too much of a spectacle can quietly be diverted into situations that allow the problem to resolve itself, usually in a violent manner.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 1,
+			"Cool": 2,
+			"Deception": 3,
+			"Negotiation": 4
+		},
+		"talents": ["Plausible Deniability 1", "Nobody's Fool 2"],
+		"abilities": [],
+		"weapons": ["Light blaster pistol"],
+		"gear": [],
+		"tags": ["underworld", "bounty hunter"]
+	},
+	{
+		"name": "Defel Assassin",
+		"type": "Nemesis",
+		"description": "Murder for hire is a thriving business in galactic so­ciety and those who need the utmost in discretion or who require the death of a particularly cautious or protected target choose to pay for a Defel assassin. The Defel are bestial in appear­ance, and are consummate hunters and predators. T hey are masters of infiltration, stealth, and sudden bouts of vicious but silent violence. Many choose to train in a variety of melee weapons, but just as many choose to rely upon their natural weapons, either teeth or claws.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 17,
+			"strain": 15,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Cool": 2,
+			"Coordination": 2,
+			"Melee": 3,
+			"Ranged: Light": 2,
+			"Stealth": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 3", "Deadly Accuracy", "Lethal Blows 2"],
+		"abilities": ["Light-Sensitive", "Shadowed"],
+		"weapons": ["Blaster pistol"],
+		"gear": [],
+		"tags": ["underworld", "defel", "assassin"]
+	},
+	{
+		"name": "Apprentice Bounty Hunter",
+		"type": "Minion",
+		"description": "The number of certified and licensed bounty hunters in the galaxy is utterly dwarfed by the number of those who seek to become certified and licensed. Of the scores who seek to gain membership in an established bounty hunter guild, a handful who show promise are accepted into the ranks of the guild's apprentices. The greatest value of these fledging, would-be hunt­ers is that they are utterly expendable and are used by the guild as support for established hunters, diversions, or even simply cannon fod­der against well-entrenched or well-armed foes. As an alternative to joining a guild, some aspirants instead apprentice themselves to an established independent hunter in hopes of proving worthy of the profession.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 6
+		},
+		"skills": {
+			"Perception": 0,
+			"Ranged: Light": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Heavy clothing (+1 soak)"],
+		"tags": ["underworld", "bounty hunter"]
+	},
+	{
+		"name": "Guilded Bounty Hunter",
+		"type": "Rival",
+		"description": "By definition, a bounty hunter is an individual in possession of an Imperial Peace-Keeping Certificate who is legally permitted to hunt and apprehend wanted criminals in exchange for bounties offered by the Empire or other parties. The definition is somewhat innocuous, however, and does little to reflect the sheer brutality so often exhibited by bounty hunters throughout the galaxy. Compassionate souls are not drawn to this line of work, and while many make a good living working for the Empire, just as many, if not more, choose instead to work for corporations, private citizens, or criminal organizations in order to gain the credits and the reputation that they so desperately crave. It goes without saying that bounty hunters are a persistent, significant threat to the safety of all members of the Rebel Alliance.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Cool": 2,
+			"Melee": 1,
+			"Ranged: Light": 2,
+			"Perception": 2,
+			"Stealth": 1,
+			"Streetwise": 2,
+			"Survival": 2
+		},
+		"talents": ["Expert Tracker", "Quick Draw"],
+		"abilities": [],
+		"weapons": ["Disruptor pistol", "Stun grenade", "Bolas"],
+		"gear": ["Armoured clothing (+1 soak, +1 defence)", "Jetpack", "Utility belt", "2 Stun grenades"],
+		"tags": ["underworld", "bounty hunter"]
+	},
+	{
+		"name": "Journeyman Hunter",
+		"type": "Rival",
+		"description": "Journeyman hunters have been accepted into the ranks of an existing guild and are fully accredited and licensed to pursue authorized bounties. They are the rank and file of most existing bounty hunter organizations and likely pursue any criminal whose bounty is not high enough to attract the attention of a Master Hunter. Journeymen may choose which bounties they pursue but also receive assignments from their guild. Sometimes guilds assign multiple journeymen to seek a particular target, although this might result in the journeymen fighting amongst themselves over who brings the target in.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coercion": 1,
+			"Coordination": 1,
+			"Ranged: Heavy": 1,
+			"Ranged: Light": 1,
+			"Survival": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1", "Lethal Blows 1"],
+		"abilities": [],
+		"weapons": ["Heavy blaster pistol", "Disruptor rifle"],
+		"gear": ["Laminate armour (+2 soak)"],
+		"tags": ["underworld", "bounty hunter"]
+	},
+	{
+		"name": "Master Hunter",
+		"type": "Nemesis",
+		"description": "Master hunters have reached a level of independence that permits them to choose any hunts they desire. The guilds never give master hunters orders, only requests. Master hunters typically have a ship at their disposal and can pursue their prey across the entire galaxy as needed. Master hunters occasionally have journeymen assigned to them as staff, although they often work alone. They are also authorized to deploy apprentice hunters as necessary to complete a hunt.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 20,
+			"strain": 13,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coercion": 2,
+			"Cool": 2,
+			"Ranged: Heavy": 3,
+			"Ranged: Light": 2,
+			"Melee": 2,
+			"Perception": 3,
+			"Piloting: Space": 2,
+			"Stealth": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Deadly Accuracy", "Lethal Blows 2", "Stalker 2"],
+		"abilities": [],
+		"weapons": ["Vibroknife", "Stun grenade"],
+		"specialist-weapons": [
+			{
+				"name": "Modded heavy blaster rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 13,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Auto-fire", "Cumbersome 3", "Pierce 1"]
+			},
+			{
+				"name": "Under-barrel flame-thrower",
+				"skill": "Ranged: Heavy",
+				"damage": 13,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Burn 5", "Blast 8"]
+			}
+		],
+		"gear": ["Heavy battle armour (+2 soak, +1 defence)", "2 Stun grenades"],
+		"tags": ["underworld", "bounty hunter"]
+	},
+	{
+		"name": "Forger",
+		"type": "Rival",
+		"description": "A government that spans an entire galaxy is, by its very nature, bureaucratic. Bureaucracy means pa­perwork and paperwork means there will always be those who need certain documents to which they do not have access. Forgers provide such things, but at a cost. \"Paperwork\" is something of a misno­mer, however, because other than some more iso­ lated planetary governments, very few agencies re­quire physical paperwork, instead issuing and requiring electronic documents in the form of se­cure datapads or encrypted files. A typical forger, then, works almost exclusively in the realm of elec­tronic fabrication, and many are extremely skilled at their jobs. Those who are not are quickly weeded out by exposing themselves through shoddy work.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 11
+		},
+		"skills": {
+			"Computers": 1,
+			"Knowledge: Underworld": 2,
+			"Per­ception": 2,
+			"Skulduggery": 2,
+			"Vigilance": 1
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Electronic forgers kit and tools"],
+		"tags": ["underworld"]
+	},
+	{
+		"name": "Loan Shark",
+		"type": "Nemesis",
+		"description": "There will always be those in need of money in the gal­axy and there will always be others who are happy to lend it to them in exchange for a promise of repayment plus interest. Loan sharks are typically individuals with significant wealth at their disposal but who are never content with what they have. This leads them to loan their money to others at such a rate that they get back at least half again what was loaned. The people to whom they loan their money are desperate and have nowhere else to turn, but loan sharks care little about the details. They simply want their money returned or they want to see those who default on their loans pun­ished in the most demonstrative way possible.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"strain": 13,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 2,
+			"Cool": 2,
+			"Deception": 4,
+			"Ranged: Light": 2,
+			"Perception": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Natural Negotiater", "Spare Clip"],
+		"abilities": [],
+		"weapons": ["Disruptor pistol", "Holdout blaster"],
+		"gear": ["Armoured cloating (+1 soak, +1 defence)"],
+		"tags": ["underworld"]
+	},
+	{
+		"name": "Expert Forger",
+		"type": "Rival",
+		"description": "The sheer size of the Galactic Empire's bureaucracy is such that few sentient beings can ever hope to familiarize themselves with the entirety of it during a normal lifespan. The volumes of permits, papers, licenses, and countless other forms of registration are enough to frustrate and stymie even the most determined soul. Fortunately for the Alliance and others unable or unwilling to pursue official channels, there are those in the galaxy who can and will produce whatever bureaucratic credentials are required—for a price. Forgery is an extremely lucrative, if dangerous, business, and one that thrives in virtually every corner of the known galaxy. Those who take up such a practice as their profession often choose to specialize in one particular aspect of the bureaucracy, as trying to diversify too much is resource-intensive and can bring unwanted attention.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Knowledge: Underworld": 1,
+			"Perception": 2,
+			"Streetwise": 2,
+			"Vigilance": 1
+		},
+		"talents": [],
+		"abilities": ["Critical Eye"],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Precision electronic forging tools"],
+		"tags": ["underworld"]
+	},
+	{
+		"name": "Weequay Thug",
+		"type": "Rival",
+		"description": "Weequay are a harsh and resilient species who often find themselves used as enforcers because of their thick, toughened skin and dense bone structure. Their culture idealizes violence and conflict, and has a long history of working as mercenaries for factions all across the galaxy. They perform well in this role, tending to stay quiet and solitary, blending into the background whether working on a pirate crew or in a Hutt's throne room.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 13
+		},
+		"skills": {
+			"Athletics": 1,
+			"Coercion": 2,
+			"Melee": 2,
+			"Ranged: Light": 1,
+			"Survival": 1
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Vibro-ax", "Frag grenade"],
+		"gear": ["Beast-hide armout (+1 soak)", "2 Frag grenades"],
+		"tags": ["underworld", "thug", "weequay"]
+	},
+	{
+		"name": "Aqualish Thug",
+		"type": "Minion",
+		"description": "Slightly more intelligent and more likely to use ad­vanced technology than the Gamorrean enforcers that are popular with many crime lords, Aqualish are no less physically powerful than their porcine counterparts and equally prone to violence as a means of resolving even the mildest dispute. Although not all members of the Aqualish people are crude and thuggish, enough of them are that the sight of them acting as enforcers and henchmen for all manner of unpleasant figures is hard­ ly surprising to any well traveled citizen of the galaxy's seedy underbelly.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 6
+		},
+		"skills": {
+			"Brawl": 0,
+			"Coercion": 0,
+			"Melee": 0,
+			"Ranged: Light": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster pistol"],
+		"gear": [],
+		"tags": ["underworld", "thug", "aqualish"]
+	},
+	{
+		"name": "Gamorrean Thug",
+		"type": "Rival",
+		"description": "Gamorreans are porcine humanoids with a penchant for barbarism and thuggishness. Hailing from the Outer Rim planet of Gamorr, these violent and thoroughly dull-witted creatures would likely have never made it into the wider galaxy. However, at some point some enterprising individual realized that the Gamorreans complete unpleasantness was matched only by their utility as dumb, strong muscle. Now many individuals from crime barons to wealthy nobles employ Gamor­reans as guards. They are unintelligent enough to be difficult to bribe and strong enough to be truly terrify­ing in a fight.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 14
+		},
+		"skills": {
+			"Brawl": 3,
+			"Melee": 3
+		},
+		"talents": ["Knockdown"],
+		"abilities": [],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Crude Gamorrean vibro-ax",
+				"skill": "Melee",
+				"plus-damage": 3,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 3"]
+			}
+		],
+		"gear": ["Beast-hide armour (+1 soak)"],
+		"tags": ["underworld", "thug", "gamorrean"]
+	},
+	{
+		"name": "Hutt Crime Lord",
+		"type": "Nemesis",
+		"description": "There is no more infamous group of criminals in the galaxy than the Hutt Cartels, any individual member of which is a powerful and dangerous force to be reckoned with in his own right. The Hutts are an extremely long-lived race, with natural resistance to both injury and manipulation by the Force. Coupled with their own extremely egocentric natures and their tendency toward violence, greed, and debauchery, the Hutts are extremely successful in criminal enterprises. They also make incredibly vengeful enemies for anyone daring to cross them. The Empire has deliberately overlooked their excesses, allowing them to oversee Hutt Space, the region of the galaxy that is home to their most prolific criminal endeavors. The Alliance prefers not to deal with them at all if it can be avoided, simply because they are so untrustworthy and unpredictable. Unfortunately, there are occasions when it cannot be avoided.",
+		"notes": "The weapons are optional and the larrge-bore blaster pistol is too large to be used by anyone other than a Hutt.",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 1,
+			"Intellect": 4,
+			"Cunning": 6,
+			"Willpower": 5,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 10,
+			"wounds": 30,
+			"strain": 20
+		},
+		"skills": {
+			"Athletics": 1,
+			"Charm": 2,
+			"Coercion": 4,
+			"Cool": 5,
+			"Deception": 5,
+			"Discipline": 5,
+			"Knowledge: Outer Rim": 3,
+			"Knowledge: Underworld": 3,
+			"Leadership": 1,
+			"Melee": 2,
+			"Negotiation": 5,
+			"Ranged: Light": 2,
+			"Resilience": 8
+		},
+		"talents": ["Convincing Demeanor 2", "Durable 3", "Nobody's Fool 3", "Resolve 2"],
+		"abilities": ["Awkward", "Ponderous"],
+		"weapons": ["Vibro-ax"],
+		"specialist-weapons": [
+			{
+				"name": "Large-bore laster pistol",
+				"skill": "Ranged: Light",
+				"damage": 9,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Stun setting"]
+			}
+		],
+		"gear": [],
+		"tags": ["underworld", "hutt"]
+	},
+	{
+		"name": "Infochant",
+		"type": "Rival",
+		"description": "The galaxy is incomprehensibly vast, and knowing the right information at the right time is absolutely essential to the success of any major undertaking, whether it be political, military, or criminal in nature. It serves the interests of the Galactic Empire to ensure that information is tightly controlled and restricted in its availability, which makes the duties of the Rebel Alliance all the more difficult to fulfill. Fortunately, there are always those who are well-connected, keep their ear close to the ground, and are delighted to pass on the information they come into in exchange for a few credits. Information merchants, often called \"infochants,\" are popular with members of the Rebel Alliance, certain branches of Imperial Intelligence, and, of course, all factions that inhabit the criminal underworld.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Deception": 2,
+			"Knowledge: All": 2,
+			"Perception": 2,
+			"Vigilance": 1
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Encrypted datapad", "Comlink"],
+		"tags": ["underworld"]
+	},
+	{
+		"name": "Pirate Crew",
+		"type": "Minion",
+		"description": "The vast void between worlds is not something that most citizens of the galaxy spend a great deal of time thinking about; it is simply something to be passed through until a journey is complete. However, the dangers of the void are innumerable, and pirates are far from the least of them. Apolitical and cursed with endless avarice, pirates prey upon any ship weak enough for them to target. This rarely includes military ships, such as those belonging to the fleets of the Empire and the Alliance, but individual teams of operatives on either side of the Galactic Civil War can fall victim to pirates' endless greed if they are not careful.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": {
+			"Cool": 0,
+			"Ranged: Heavy": 0,
+			"Ranged: Light": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Heavy blaster pistol", "Blaster carbine", "Vibroknife"],
+		"gear": ["Padded armour (+2 soak)"],
+		"tags": ["underworld", "pirate"]
+	},
+	{
+		"name": "Pirate Captain",
+		"type": "Nemesis",
+		"description": "Among the rank-and-file of pirate crewmen, few survive long enough to practice their skills and become leaders among their fellows. These individuals possess a cunning that their comrades lack, a cunning which has been honed to a razor's edge over the course of their careers. The ideology of these individuals varies, from those who slaughter every victim to avoid witnesses, to those who show mercy to their victims in the hopes of building a benevolent reputation to any ship captain who surrenders without a fight. Most pirate captains fear capture, and will not take unnecessary risks unless the promise of their bounty is so great that their avarice overcomes their cowardice.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 20,
+			"strain": 12,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Coercion": 3,
+			"Cool": 3,
+			"Coordination": 2,
+			"Deception": 3,
+			"Gunnery": 2,
+			"Leadership": 2,
+			"Ranged: Heavy": 3,
+			"Melee": 4,
+			"Resilience": 2,
+			"Skulduggery": 3
+		},
+		"talents": ["Adversary 2", "Feral Strength 2", "Knockdown"],
+		"abilities": ["Pirate Leader"],
+		"weapons": ["Heavy blaster rifle", "Vibro-ax"],
+		"gear": ["Armoured clothing (+1 soak, +1 defence)"],
+		"tags": ["underworld", "pirate"]
+	},
+	{
+		"name": "Shadowport Mechanic",
+		"type": "Rival",
+		"description": "The term \"shadowport\" is generally used to describe any operational starport that is free from governmental influence, be it planetary, sector, or Imperial in nature. These starports are occasionally operated by private individuals, but most often they are in the thrall of one or more criminal enterprises. Services of all sorts are available, and often high-grade technical services can be acquired. This is useful for those who wish to leave no record of their business transactions, but the cost for such discretion can be quite high. Shadowport mechanics are often highly skilled but eccentric.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Astrogation": 1,
+			"Computers": 2,
+			"Mechanics": 3,
+			"Streetwise": 2,
+			"Underworld": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Heavy hydrospanner"],
+		"gear": ["Tool kit"],
+		"tags": ["underworld"]
+	},
+	{
+		"name": "Slaver",
+		"type": "Rival",
+		"description": "The most abominable sort of criminal, slavers profit by robbing others of their freedom. Slavers prey upon the weak or those who cannot fight against modern technology, often locating a primitive species some­where in the galaxy then abducting entire villages of their victims. These unfortunates can be sold off as cheap physical labor. Some advanced species are made the targets of slavery as a means of controlling a problematic population, as with the Empire's en­dorsement of placing the fiercely independent and physically powerful Wookiee race into slavery.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 15
+		},
+		"skills": {
+			"Coercion": 2,
+			"Melee": 2,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Battered stun pistol",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": null,
+				"range": "Short",
+				"qualities": ["Stun Damage"]
+			}
+		],
+		"gear": [],
+		"tags": ["underworld"]
+	},
+	{
+		"name": "Shipjacker",
+		"type": "Rival",
+		"description": "A terror that haunts the shadows of a major spaceport, a shipjacker is a thief who specializes in stealing and quickly reselling starships. An expert at circum­venting electronic security of all forms, a successful shipJacker is also intimately familiar with the proto­cols and procedures of whatever spaceports he chooses to prey upon Likewise, most shipjack­ ers have close relationships with expert forgers to ensure that the documentation required to remove a vessel from the spaceport can be quickly and convincingly acquired. Most shipjackers have a network of contacts to ensure that a starship, once stolen, can be quickly sold and moved to a dis­tant part of the galaxy or, failing that, dismantled for parts and sold in a dozen different locations in as many different systems.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 14
+		},
+		"skills": {
+			"Computers": 1,
+			"Deception": 2,
+			"Piloting: Space": 2,
+			"Skulduggery": 2,
+			"Stealth": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [],
+		"weapons": ["Heavy blaster pistol", "Stun grenade"],
+		"gear": ["Electronic lock breaker", "2 Frag grenades"],
+		"tags": ["underworld"]
+	},
+	{
+		"name": "Slicer",
+		"type": "Rival",
+		"description": "The computer networks that link the galaxy's thousands of governments together are incredibly complex and contain extremely secure, sensitive information. Slicers are individuals who specialize in bypassing all manner of computerized security in order to delicately retrieve information for others—or, sometimes, for their own amusement. Skilled slicers can be hired to discover classified information from military databases, de-encrypt files recovered from military installations, or to be involved in any number of other variations on information trafficking.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Computers": 2,
+			"Cool": 2,
+			"Skulduggery": 1
+		},
+		"talents": ["Bypass Security"],
+		"abilities": [],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Stun blaster",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": null,
+				"range": "Short",
+				"qualities": ["Stun Damage"]
+			}
+		],
+		"gear": ["Slicer gear"],
+		"tags": ["underworld"]
+	},
+	{
+		"name": "Smuggler",
+		"type": "Rival",
+		"description": "Smugglers are often romanticized in underground holovids as heroes and rogues whose dashing and courage often places them in harm's way against opponents whose vices and crimes far outstrip their own. There are a handful of such individuals in the galaxy, to be sure, but the vast majority of smugglers are greedy and amoral individuals who seek to profit by flaunting both law and tradition. The only true commonality among smugglers is a healthy disrespect for the forces of law and order. This often places them in a position to be of benefit to the Rebel Alliance, although the Alliance is often understandably reluctant to place its trust in such individuals. Indeed, when one considers that smugglers often risk crossing ruthless, murderous crime lords, the probability that they will consider deceiving and double-crossing the Alliance is equally high.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 2,
+			"Cool": 1,
+			"Ranged: Light": 2,
+			"Piloting: Space": 3,
+			"Skulduggery": 2,
+			"Streetwise": 2,
+			"Vigilance": 1
+		},
+		"talents": [],
+		"abilities": ["Adversary 1", "Skilled Jockey 2"],
+		"weapons": ["Blaster pistol"],
+		"gear": [],
+		"tags": ["underworld", "smuggler"]
+	},
+	{
+		"name": "Smuggler Baron",
+		"type": "Nemesis",
+		"description": "Some smugglers not only survive in the industry long enough to retire, but prosper beyond their ex­pectations. Some of them find the notion of retire­ ment too boring to contemplate and instead de­cide to become something of a middleman, helping other smugglers connect with clients and individu­als who need goods moved from one place to an­other without any troublesome questions. These men and women are sometimes called smuggler barons, a fitting title given the aristocratic airs some of them put on. Smuggler barons are not quite powerful enough to be considered crime lords in their own right, but can be powerful allies or inconvenient enemies.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 18,
+			"strain": 13,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Astrogation": 3,
+			"Charm": 2,
+			"Cool": 3,
+			"Gunnery": 3,
+			"Knowledge: Underworld": 3,
+			"Ranged: Light": 3,
+			"Pilot­ing: Planetary": 3,
+			"Piloting: Space": 4,
+			"Skulduggery": 2,
+			"Streetwise": 4,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Master Pilot", "Skilled Jockey 2"],
+		"abilities": [],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Armoured cloating (+1 soak, +1 defence)", "YT-2400 Freighter"],
+		"tags": ["underworld", "smuggler"]
+	},
+	{
+		"name": "Street Tough",
+		"type": "Minion",
+		"description": "In cities across the galaxy there are any number of petty criminals, from pickpockets and back-ally spice dealers to muggers and murderers. Discontent with the notion of earning an honest wage, these street toughs instead prefer to survive on whatever they can take from passers-by, preferably in the form of credits or small, easily liquidated electronic goods like data­ pads and comlinks. Street toughs occasionally work as individuals, if they possess sufficient skill, but more often work in small gangs so that they can coopera­tively locate and target the best marks. However, these individuals are often badly equipped and pitiful in comparison to real gangs.",
+		"notes": "Armed with a blaster pistol or a slugthrower rifle.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": {
+			"Melee": 0,
+			"Ranged: Light": 0,
+			"Ranged: Heavy": 0,
+			"Skulduggery": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster pistol", "Slugthrower rifle", "Truncheon"],
+		"gear": ["Heavy clothing (+1 soak)"],
+		"tags": ["underworld"]
+	},
+	{
+		"name": "Sullustan Pilot-for-Hire",
+		"type": "Rival",
+		"description": "There are always those who love to fly, but are unwill­ing or unable to accept the rigid discipline and strict protocols of consistent flying for the military or for a corporation. Many become pilots-for-hire, selling their considerable skills to anyone willing to pay them to do what they love climbing into the cockpit of a starship and taking to the hyperlanes. Sullustans of­ ten fall into this category. These short humanoids evolved in underground conditions and have an in­ nate pathfinding ability as well as extremely sensitive sensory organs. Many use these abilities to become skilled navigators or talented starship pilots.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 11
+		},
+		"skills": {
+			"Astrogation": 4,
+			"Cool": 1,
+			"Gunnery": 2,
+			"Ranged: Light": 1,
+			"Perception": 5,
+			"Piloting: Planetary": 3,
+			"Piloting: Space": 3,
+			"Survival": 1
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Padded flight suit (+1 soak)"],
+		"tags": ["underworld", "sullustan", "pilot"]
+	},
+	{
+		"name": "Swoop Ganger",
+		"type": "Rival",
+		"description": "Swoop gangs are considered by many to be a blight upon modern society. Take all of the problems that are posed by a conventional gang of young thugs and crimi­nals and then place those criminals on overcharged, dangerously fast repulsorlift vehicles. The dangers posed by such a group are many, and the means of combating them are limited. There are few law forces capable of keeping pace with, much less outpacing and apprehend­ ing, a swoop gang This is particularly true in the Outer Rim, where the legal resources are much more limited.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Brawl": 1,
+			"Piloting: Planetary": 1,
+			"Ranged: Light": 1,
+			"Streetwise": 1
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Modified swoop bike"],
+		"tags": ["underworld"]
+	},
+	{
+		"name": "Twi'lek Black Marketeer",
+		"type": "Rival",
+		"description": "There are few races as consistently sociable as the Twi'leks of Ryloth. Capable of significant manipulation and persuasion, some Twi'leks invariably find their tal­ents suited to helping others find things that they need, matching buyers to sellers with flawless skill and a thou­sand-credit smile the entire while. Black marketeers are part salesman, part fence, and all business. Knowing a marketeer can ensure that an individual is able to move an incredibly rare and valuable item without difficulty, although it will be necessary to cut the marketeer in on the sale, which eats into profits a bit. Most consider the convenience a welcome trade-off for a percentage.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Knowledge: Underworld": 2,
+			"Negotiation": 2,
+			"Ranged: Light": 1,
+			"Skulduggery": 2,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Black Market Contacts 2"],
+		"abilities": [],
+		"weapons": ["Blaster pistol", "Thermal detonator", "Shock gloves"],
+		"gear": [],
+		"tags": ["underworld", "twi'lek", "black marketeer"]
+	},
+	{
+		"name": "Wookiee Gladiator",
+		"type": "Rival",
+		"description": "The Wookiees are a noble and honorable race with a proud warrior tradition. Unfortunately for them, they are also fiercely independent and greatly val­ue individuality and personal liberties. This is obvi­ously a problem for the Empire and it is likely for that reason that the Imperial bureaucracy autho­rized the Wookiees as a slave race, making it le­gal for certain agencies to enslave them. The race's home planet of Kashyyyk is something of a prison now and any Wookiee who attempts to leave the planet risks never being able to return. Because of their physical prowess as warriors, many enslaved Wookiees have found their way into the criminal underworld where they are pitted against other warriors in gladiatorial blood matches and various other illegal combat situations. Wookiees in this sit­uation tend to have succumbed to despair and lost themselves in their anger and bitterness. They are terrifying opponents to face in combat, but if one can gain their trust, they also prove eter nal allies.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 4,
+			"Coordination": 2,
+			"Melee": 4,
+			"Ranged: Heavy": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Wookiee Rage"],
+		"weapons": ["Vibro-ax"],
+		"gear": [],
+		"tags": ["underworld", "wookiee", "gladiator"]
+	}
+
+]
