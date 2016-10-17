@@ -2,7 +2,7 @@
 	{
 		"name": "Alliance Infantry",
 		"type": "Minion",
-		"description": "The rank-and-file of the Rebel Alliance's Army and Naval troopers are not that much different from their Imperial counterparts, all things considered. They are trained in a number of different arenas and in various contingencies, and they are assigned in similarly organized military units. Even their equipment tends to be similar, although the Imperials generally have an advantage in that area. What separates them is motivation. The troops who serve the Alliance believe that they are not just fighting for their own well-being, but that of their families and innocent people all across the galaxy. This conviction is what the Alliance believes will allow them to ultimately win the day.",
+		"description": "The rank-and-file of the Rebel Alliance’s Army and Naval troopers are not that much different from their Imperial counterparts, all things considered. They are trained in a number of different arenas and in various contingencies, and they are assigned in similarly organized military units. Even their equipment tends to be similar, although the Imperials generally have an advantage in that area. What separates them is motivation. The troops who serve the Alliance believe that they are not just fighting for their own well-being, but that of their families and innocent people all across the galaxy. This conviction is what the Alliance believes will allow them to ultimately win the day.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -144,7 +144,7 @@
 	{
 		"name": "Mechanic",
 		"type": "Minion",
-		"description": "The Alliance depends heavily upon a number of vehicles and starships in order to maintain their desperate struggle. In order to maintain this incredible array of technical marvels, the Alliance relies upon skilled technicians and mechanics to keep it in contention for victory in the Galactic Civil War. While many of its engineers' Imperial counterparts have extensive military training, the Alliance tends to recruit civilians with practical experience and expertise. Commercial mechanics, personal enthusiasts, and generally anyone with a grudge against the Empire who has sufficient background is welcome to join the Alliance and serve.",
+		"description": "The Alliance depends heavily upon a number of vehicles and starships in order to maintain their desperate struggle. In order to maintain this incredible array of technical marvels, the Alliance relies upon skilled technicians and mechanics to keep it in contention for victory in the Galactic Civil War. While many of its engineers’ Imperial counterparts have extensive military training, the Alliance tends to recruit civilians with practical experience and expertise. Commercial mechanics, personal enthusiasts, and generally anyone with a grudge against the Empire who has sufficient background is welcome to join the Alliance and serve.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -169,7 +169,7 @@
 	{
 		"name": "Quarren Agitator",
 		"type": "Rival",
-		"description": "All too often, there are occasions when diplomacy simply cannot achieve the ends the Alliance requires in order to move closer to ultimate victory against the Empire. There are many governments in the galaxy that have, either for selfish reasons or simply out of fear, allied themselves with the Empire and refuse to consider any other potential path. Most Quarren, for example, were reluctant to join the Rebellion following the liberation of their homeworld, and so many rabble-rousers stepped up to attempt to bring their people into the fold.\n\nWhen a planet's government refuses to recognize the best interests of its people, agitators are used to reach the people themselves. Agitators are a very diverse lot, from those who possess incredible passion and charisma, to the manipulative and deceitful. Regardless of their methodology, however, it is a profession with very little room for error; having practiced, and survived, their attempts to convert their homeworld, many Quarren agitators now apply their tactics on behalf of the Rebellion in the wider galaxy.",
+		"description": "All too often, there are occasions when diplomacy simply cannot achieve the ends the Alliance requires in order to move closer to ultimate victory against the Empire. There are many governments in the galaxy that have, either for selfish reasons or simply out of fear, allied themselves with the Empire and refuse to consider any other potential path. Most Quarren, for example, were reluctant to join the Rebellion following the liberation of their homeworld, and so many rabble-rousers stepped up to attempt to bring their people into the fold.\n\nWhen a planet’s government refuses to recognize the best interests of its people, agitators are used to reach the people themselves. Agitators are a very diverse lot, from those who possess incredible passion and charisma, to the manipulative and deceitful. Regardless of their methodology, however, it is a profession with very little room for error; having practiced, and survived, their attempts to convert their homeworld, many Quarren agitators now apply their tactics on behalf of the Rebellion in the wider galaxy.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -196,7 +196,7 @@
 	{
 		"name": "Quatermaster",
 		"type": "Rival",
-		"description": "The greatest difficulty facing the Rebellion is its lack of resources. What resources it does possess are very carefully measured and dispensed with absolute scrutiny for their purpose and intent. Some, even some among the Alliance's ranks, look at the fleets of ships and the hidden bases that the organization commands and wonder why even minor resources like blaster packs are so rigidly controlled, but the Rebellion can survive no other way. Quartermasters, like their more formal military counterparts, are tasked with managing the Alliance's meager resources and ensuring there is never a shortage of any essential commodity. Quartermasters are, by necessity, extremely strict and somewhat unpleasant, dealing with a never-ending stream of requests by frustrated personnel, all of whom believe that their request is, of course, completely valid. As a result, quartermasters often have a very unpleasant reputation among their fellow Alliance personnel.",
+		"description": "The greatest difficulty facing the Rebellion is its lack of resources. What resources it does possess are very carefully measured and dispensed with absolute scrutiny for their purpose and intent. Some, even some among the Alliance’s ranks, look at the fleets of ships and the hidden bases that the organization commands and wonder why even minor resources like blaster packs are so rigidly controlled, but the Rebellion can survive no other way. Quartermasters, like their more formal military counterparts, are tasked with managing the Alliance’s meager resources and ensuring there is never a shortage of any essential commodity. Quartermasters are, by necessity, extremely strict and somewhat unpleasant, dealing with a never-ending stream of requests by frustrated personnel, all of whom believe that their request is, of course, completely valid. As a result, quartermasters often have a very unpleasant reputation among their fellow Alliance personnel.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -214,7 +214,7 @@
 			"Negotiation": 3,
 			"Streetwise": 2
 		},
-		"talents": ["Know Somebody 2", "Nobody's Fool 1"],
+		"talents": ["Know Somebody 2", "Nobody’s Fool 1"],
 		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Blast vest (+1 soak)"],
@@ -223,7 +223,7 @@
 	{
 		"name": "Rebel Cell Leader",
 		"type": "Nemesis",
-		"description": "Leaders of individual Rebel cells are similar in many ways to Alliance commanders, although they have fewer resources, fewer personnel, and, some might argue, take vastly greater risks. These men and women operate inside enemy lines, attempting to undermine the Empire's interests and foment dissent against its rule. The environments in which these cells operate are spectacularly hostile toward any form of rebellion, and capture invariably results in death. Typically the acts of a Rebel cell involve espionage and sabotage. It is necessary for Rebel cells to maintain a low profile in order to avoid drawing too much scrutiny to themselves; bringing the attention of the Imperials down upon the local populace is a good way to alienate potential recruits and tarnish the reputation of the Alliance as a whole.",
+		"description": "Leaders of individual Rebel cells are similar in many ways to Alliance commanders, although they have fewer resources, fewer personnel, and, some might argue, take vastly greater risks. These men and women operate inside enemy lines, attempting to undermine the Empire’s interests and foment dissent against its rule. The environments in which these cells operate are spectacularly hostile toward any form of rebellion, and capture invariably results in death. Typically the acts of a Rebel cell involve espionage and sabotage. It is necessary for Rebel cells to maintain a low profile in order to avoid drawing too much scrutiny to themselves; bringing the attention of the Imperials down upon the local populace is a good way to alienate potential recruits and tarnish the reputation of the Alliance as a whole.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -268,7 +268,7 @@
 	{
 		"name": "Rebel Specforce Infiltrator",
 		"type": "Rival",
-		"description": "The special forces branch of the Alliance military is simply known as the SpecForce, and its troops are seen as the most dangerous and capable of all Rebel soldiers.\n\nAmong members of SpecForce itself, the infiltrators are considered to be the most deadly. Extensively trained in stealth and assassination, these infiltrators specialize in gaining entry to hardened installations and effecting horrific damage before the enemy ever becomes aware of their presence. Infiltrators are often used to \"soften\" targets prior to a direct assault, and are also used to eliminate particularly important targets or retrieve especially important and well-guarded data. Because of the nature of their duties, infiltrators often choose to specialize in melee weaponry rather than louder and more easily detected blasters.",
+		"description": "The special forces branch of the Alliance military is simply known as the SpecForce, and its troops are seen as the most dangerous and capable of all Rebel soldiers.\n\nAmong members of SpecForce itself, the infiltrators are considered to be the most deadly. Extensively trained in stealth and assassination, these infiltrators specialize in gaining entry to hardened installations and effecting horrific damage before the enemy ever becomes aware of their presence. Infiltrators are often used to “soften” targets prior to a direct assault, and are also used to eliminate particularly important targets or retrieve especially important and well-guarded data. Because of the nature of their duties, infiltrators often choose to specialize in melee weaponry rather than louder and more easily detected blasters.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,

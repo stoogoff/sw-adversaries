@@ -2,7 +2,7 @@
 	{
 		"name": "Imperial Army Trooper",
 		"type": "Minion",
-		"description": "The common citizen of the galaxy will never see a Star Destroyer or a stormtrooper in person, if they are fortunate. For the majority of those who never leave a planet's surface, the Imperial Army trooper is the face of the Empire. Stormtroopers and starships can be seen in promotional materials, but it is the stern and unforgiving face of the Army infantry that enforces the will of the Emperor on a planet's surface. For that reason, it is the men and women of the Imperial Army whom Alliance personnel must combat.",
+		"description": "The common citizen of the galaxy will never see a Star Destroyer or a stormtrooper in person, if they are fortunate. For the majority of those who never leave a planet’s surface, the Imperial Army trooper is the face of the Empire. Stormtroopers and starships can be seen in promotional materials, but it is the stern and unforgiving face of the Army infantry that enforces the will of the Emperor on a planet’s surface. For that reason, it is the men and women of the Imperial Army whom Alliance personnel must combat.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -108,7 +108,7 @@
 	{
 		"name": "Imperial Navy Officer",
 		"type": "Rival",
-		"description": "Officers in the Imperial Navy are highly trained, often at a military academy. Most of their duties naturally fall into the category of ship-bound activities, moni­toring the hundreds or thousands of personnel neces­sary to maintain the massive capital-scale ships the navy depends upon However, it is also possible that officers are deployed at the head of naval troopers, taking part in ship-to-ship actions against pirates or independent vessels or. even in sorties on the ground. In these cases, most naval officers prefer to lead from the rear, using their superior training and experience to direct the activities of their subordinates. Despite their reluctance to \"get their hands dirty,\" it is unwise to underestimate naval officers.",
+		"description": "Officers in the Imperial Navy are highly trained, often at a military academy. Most of their duties naturally fall into the category of ship-bound activities, moni­toring the hundreds or thousands of personnel neces­sary to maintain the massive capital-scale ships the navy depends upon However, it is also possible that officers are deployed at the head of naval troopers, taking part in ship-to-ship actions against pirates or independent vessels or. even in sorties on the ground. In these cases, most naval officers prefer to lead from the rear, using their superior training and experience to direct the activities of their subordinates. Despite their reluctance to “get their hands dirty,” it is unwise to underestimate naval officers.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -221,7 +221,7 @@
 	{
 		"name": "Naval Engineer",
 		"type": "Minion",
-		"description": "The Imperial Corps of Engineers is technically a separate branch of the military, but is most often associated with the Imperial Navy due to the frequent presence of its representatives aboard the Navy's starships. Their primary purpose within the Navy is to serve as tactical advisors for the frequent sieges that Star Destroyers are called upon to implement. They can also be found among the ranks of the Imperial Army, where their purpose is more constructive, facilitating the creation of military installations for use in ground operations.",
+		"description": "The Imperial Corps of Engineers is technically a separate branch of the military, but is most often associated with the Imperial Navy due to the frequent presence of its representatives aboard the Navy’s starships. Their primary purpose within the Navy is to serve as tactical advisors for the frequent sieges that Star Destroyers are called upon to implement. They can also be found among the ranks of the Imperial Army, where their purpose is more constructive, facilitating the creation of military installations for use in ground operations.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -247,7 +247,7 @@
 	{
 		"name": "Imperial Stormtrooper",
 		"type": "Minion",
-		"description": "There is no greater symbol of the Emperor's New Order than the elite stormtrooper legions that enforce his will without remorse, mercy, or compassion. The featureless helmets, the uniformity of their armor, and the sheer number of them advancing without care for the losses they sustain, all contribute t o their intractable image. The details of the Clone Wars have been long forgotten by the majority of the galaxy's denizens. As a result, there are precious few who associate the terrifying modern stormtroopers with the once-heroic clone troopers who waged that conflict on behalf of the Galactic Republic.\n\nThe Imperial Stormtrooper Corps is an independent branch of the military, and while they answer to the officers of both the Army and the Navy, their own commanders have the discretion to ignore or overrule orders issued to them if they feel they are not in the best interests of the Galactic Empire. There are numerous specialties within the stormtrooper legions, the majority of which use equipment that meshes with their training to create a cadre of elite troops that can effectively serve in virtually any combat theater.",
+		"description": "There is no greater symbol of the Emperor’s New Order than the elite stormtrooper legions that enforce his will without remorse, mercy, or compassion. The featureless helmets, the uniformity of their armor, and the sheer number of them advancing without care for the losses they sustain, all contribute t o their intractable image. The details of the Clone Wars have been long forgotten by the majority of the galaxy’s denizens. As a result, there are precious few who associate the terrifying modern stormtroopers with the once-heroic clone troopers who waged that conflict on behalf of the Galactic Republic.\n\nThe Imperial Stormtrooper Corps is an independent branch of the military, and while they answer to the officers of both the Army and the Navy, their own commanders have the discretion to ignore or overrule orders issued to them if they feel they are not in the best interests of the Galactic Empire. There are numerous specialties within the stormtrooper legions, the majority of which use equipment that meshes with their training to create a cadre of elite troops that can effectively serve in virtually any combat theater.",
 		"notes": "Individuals or groups of two may be armed with light repeating blasters with slings.",
 		"characteristics": {
 			"Brawn": 3,
@@ -338,7 +338,7 @@
 				"damage": 10,
 				"critical": 2,
 				"range": "Long",
-				"qualities": ["Auto-fire", "Breach 1", "Concussive 1", "Cumbersome 4", "Inacurate 1"]
+				"qualities": ["Auto-Fire", "Breach 1", "Concussive 1", "Cumbersome 4", "Inaccurate 1"]
 			}
 		],
 		"gear": ["Powered armour (+2 soak, +1 defence)", "Jetpack", "Internal comlink"],
@@ -419,7 +419,7 @@
 		"name": "Stormtrooper: Snowtrooper",
 		"type": "Minion",
 		"description": "Just as desert worlds present environmental conditions that are a barrier to normal military operations, planets with an extremely cold environment are likewise impractical for traditional protocols, including the stormtrooper legions. Snowtroopers have specialized armor and equipment that can function regardless of the temperature and are capable of operating for long periods of time without needing any support of any sort. Furthermore, they are equipped with sensor packages that allow them to seek out thermal images in a sea of ice, which dramatically increases their effectiveness in combat.",
-		"notes": "Individuals or groups of two may be armed with heavy repeating blasters.",
+		"notes": "Individuals or groups of two may be armed with heavy repeating blasters. Multi-optic sighted blaster rifle: remove up to 2 black dice on any checks to use this weapon due to smoke, darkness, or other environmental conditions that obstruct vision)",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -451,7 +451,7 @@
 				"damage": 9,
 				"critical": 3,
 				"range": "Long",
-				"qualities": ["Stun setting", "remove up to 2 black dice on any checks to use this weapon due to smoke, darkness, or other environmental conditions that obstruct vision"]
+				"qualities": ["Stun Setting"]
 			}
 		],
 		"gear": ["Snowtrooper armour (+2 soak; when making skill checks, snowtroopers may remove 2 black dice imposed due to cold or icy environmental conditions"],
@@ -460,7 +460,7 @@
 	{
 		"name": "TIE Pilot",
 		"type": "Minion",
-		"description": "Commonly disparaged by the Alliance as vastly inferior to Rebellion pilots, in truth the pilots produced by the Empire's starhghter training programs are head-and-shoulders above any other equivalent force in the galaxy, with the possible exception of the Alliance. In fact, the poor reputation TIE pilots have is no fault of their own, but rather a combination of their relatively fragile equipment (TIE fighters are known for relative fragility and weak construction) and their lack of protective amenities (shields being the most notable exclusion).",
+		"description": "Commonly disparaged by the Alliance as vastly inferior to Rebellion pilots, in truth the pilots produced by the Empire’s starhghter training programs are head-and-shoulders above any other equivalent force in the galaxy, with the possible exception of the Alliance. In fact, the poor reputation TIE pilots have is no fault of their own, but rather a combination of their relatively fragile equipment (TIE fighters are known for relative fragility and weak construction) and their lack of protective amenities (shields being the most notable exclusion).",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,

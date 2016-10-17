@@ -9,7 +9,6 @@ export default class SkillPanel extends React.Component {
 		}
 		
 		let character = this.props.character;
-		let title = character.type === "Minion" ? "Skills (group only)": "Skills";
 		let skills = [];
 		let allSkills = this.props.skills.all();
 
@@ -29,13 +28,13 @@ export default class SkillPanel extends React.Component {
 				"value": value,
 				"characteristic": skill.characteristic,
 				"stat": stat,
-				"images": dice(stat, value)
+				"icons": dice(stat, value)
 			});
 		}
 
 		return <div className="info">
-			<h2>{ title }</h2>
-			<table>
+			<h2>Skills { character.type == "Minion" ? <small>(Group Only)</small> : null }</h2>
+			<table className="skills">
 				<thead>
 					<tr>
 						<th>Skill</th>
@@ -50,9 +49,7 @@ export default class SkillPanel extends React.Component {
 							<td>{ s.name }</td>
 							<td><small>{ s.characteristic }</small></td>
 							{ character.type != "Minion" ? <td>{ s.value }</td> : null }
-							<td>
-								{ s.images.map((img, i) => <span key={ i } className={ img }></span>)}
-							</td>
+							<td dangerouslySetInnerHTML={ s.icons } />
 						</tr>
 					})}
 				</tbody>

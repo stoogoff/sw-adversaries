@@ -19,7 +19,7 @@
 			"Astrogation": 1,
 			"Computers": 1
 		},
-		"talents": ["Nobody's Fool 1"],
+		"talents": ["Nobody’s Fool 1"],
 		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Secure datapad with uplink to BoSS database", "Comlink"],
@@ -28,7 +28,7 @@
 	{
 		"name": "COMPNOR Agent",
 		"type": "Rival",
-		"description": "The Committee for the Preservation of the New Order is a name used to describe multiple branches of the Imperial bureaucracy, all of which are completely devoted to maintaining support for the Emperor's rule. The precursor agency, COMPOR, was established as a grassroots political movement during the Clone Wars era, and was a powerful tool for maintaining support for the Supreme Chancellor. After the establishment of the Empire, the organization was reorganized to support the Empire as a whole rather than the Emperor specifically, although he factors significantly in their extensive, pervasive propaganda campaigns. COMPNOR agents are easily the most overzealous of all Imperial agents and genuinely believe that any and all horrors committed in the execution of their duty to root out disloyalty are for the greater good of the galaxy.",
+		"description": "The Committee for the Preservation of the New Order is a name used to describe multiple branches of the Imperial bureaucracy, all of which are completely devoted to maintaining support for the Emperor’s rule. The precursor agency, COMPOR, was established as a grassroots political movement during the Clone Wars era, and was a powerful tool for maintaining support for the Supreme Chancellor. After the establishment of the Empire, the organization was reorganized to support the Empire as a whole rather than the Emperor specifically, although he factors significantly in their extensive, pervasive propaganda campaigns. COMPNOR agents are easily the most overzealous of all Imperial agents and genuinely believe that any and all horrors committed in the execution of their duty to root out disloyalty are for the greater good of the galaxy.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -58,7 +58,7 @@
 	{
 		"name": "Imperial Advisor",
 		"type": "Nemesis",
-		"description": "One of the most insidious methods the Emperor employs to maintain control of his Empire is constantly pitting his minions against one another. These mind games allow such individuals to gain favor by proving their ultimate loyalty to him. Historically, this has prevented Palpatine's subordinates from allying against him, and nowhere has this policy been more ruthlessly embodied than in the ranks of his Imperial advisors. Typically, there have been around one hundred such extremely powerful and influential bureaucrats at any given time. Each is tasked not only with overseeing details of the Empire's administration, including such important decisions as appointing governors and Moffs, and also with conducting covert surveillance on the home systems of other advisors and high-ranking Imperial officials.",
+		"description": "One of the most insidious methods the Emperor employs to maintain control of his Empire is constantly pitting his minions against one another. These mind games allow such individuals to gain favor by proving their ultimate loyalty to him. Historically, this has prevented Palpatine’s subordinates from allying against him, and nowhere has this policy been more ruthlessly embodied than in the ranks of his Imperial advisors. Typically, there have been around one hundred such extremely powerful and influential bureaucrats at any given time. Each is tasked not only with overseeing details of the Empire’s administration, including such important decisions as appointing governors and Moffs, and also with conducting covert surveillance on the home systems of other advisors and high-ranking Imperial officials.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -83,7 +83,7 @@
 			"Skulduggery": 3,
 			"Vigilance": 3
 		},
-		"talents": ["Natural Charmer", "Nobody's Fool 2", "Plausible Deniability 2"],
+		"talents": ["Natural Charmer", "Nobody’s Fool 2", "Plausible Deniability 2"],
 		"abilities": [],
 		"weapons": [],
 		"gear": ["Lavishly adorned robes", "Extensive credentials", "Sundry personal staff"],
@@ -121,7 +121,7 @@
 	{
 		"name": "Imperial Moff",
 		"type": "Nemesis",
-		"description": "The term \"moff\" predates the establishment of the Galactic Republic, much less the Galactic Empire. Never has its use been more prevalent than since the Emperor co-opted it for his own use and created the position of Imperial Moff for individuals assigned to oversee an entire sector of space in the Empire's name. Those chosen to serve as Moffs are either extremely loyal, extremely capable, or easily manipulated. Regardless, having one Imperial representative to whom other agents, such as planetary governors or system overseers, report minimizes the necessary number of personnel at the top of the hierarchy. Each Moff reports either to an Imperial advisor or, after the establishment of the Tarkin Doctrine, to a Grand Moff responsible for the governance of an oversector. Individual Moffs have incredible leeway in the organization and dispensation of resources under their command, up to and including the military assets assigned to a particular sector.",
+		"description": "The term “moff” predates the establishment of the Galactic Republic, much less the Galactic Empire. Never has its use been more prevalent than since the Emperor co-opted it for his own use and created the position of Imperial Moff for individuals assigned to oversee an entire sector of space in the Empire’s name. Those chosen to serve as Moffs are either extremely loyal, extremely capable, or easily manipulated. Regardless, having one Imperial representative to whom other agents, such as planetary governors or system overseers, report minimizes the necessary number of personnel at the top of the hierarchy. Each Moff reports either to an Imperial advisor or, after the establishment of the Tarkin Doctrine, to a Grand Moff responsible for the governance of an oversector. Individual Moffs have incredible leeway in the organization and dispensation of resources under their command, up to and including the military assets assigned to a particular sector.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,

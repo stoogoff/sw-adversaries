@@ -2,7 +2,7 @@
 	{
 		"name": "Antiquated Battle Droid",
 		"type": "Minion",
-		"description": "The most frequently encountered droid of this type is the B1 battle droid produced by Baktoid Combat Au­tomata. A generation ago, these frail-looking droids were the terror of the galaxy. Legions of them formed the Separatist armies during the Clone Wars but the intervening years have not been kind to their design, which was inexpensive to begin with. Although no rep­ utable military still employs these droids in number, they can be found in limited quantities in the forces of crime lords, mercenaries, and various other ne'er-do­-wells throughout the underbelly of the galaxy.",
+		"description": "The most frequently encountered droid of this type is the B1 battle droid produced by Baktoid Combat Au­tomata. A generation ago, these frail-looking droids were the terror of the galaxy. Legions of them formed the Separatist armies during the Clone Wars but the intervening years have not been kind to their design, which was inexpensive to begin with. Although no rep­ utable military still employs these droids in number, they can be found in limited quantities in the forces of crime lords, mercenaries, and various other ne’er-do­-wells throughout the underbelly of the galaxy.",
 		"notes": "Cost 6,500.",
 		"characteristics": {
 			"Brawn": 2,
@@ -29,7 +29,7 @@
 		"name": "Assassin Droid",
 		"type": "Nemesis",
 		"description": "Assassin droids embody the worst fears organic beings have of mechanical life—specifically that it will employ violence against its creators in an attempt to replace them. While assassin droids are not so universally genocidal in their function, they are designed with the intent to kill living creatures. As such, they are a constant danger to all who interact with them, as they are motivated not by profit or ideology, but by pure, programmed instinct. Officially, of course, the Imperials do not employ assassin droids, which are illegal in virtually every sector of the galaxy. Unofficially, the Empire employs them discreetly to seek out specific targets that are impossible, or at least inconvenient, for them to deal with personally. On general principle, the Alliance eschews assassin droids completely.",
-		"notes": "Cost 65,000. Missile tube and blaster pistol are built.",
+		"notes": "Cost 65,000. Missile tube and blaster pistol are built in.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,
@@ -162,7 +162,7 @@
 				"damage": 12,
 				"critical": 3,
 				"range": "Long",
-				"qualities": ["Auto-fire", "Linked", "Pierce 1", "Vicious 1"]
+				"qualities": ["Auto-Fire", "Linked", "Pierce 1", "Vicious 1"]
 			},
 			{
 				"name": "Stomp",

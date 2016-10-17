@@ -1,6 +1,6 @@
 
 import React from "react";
-import { dice, id } from "lib/utils";
+import { dice, id, symbolise } from "lib/utils";
 
 function getWeaponDetails(weapon, character, allSkills) {
 	if(!("id" in weapon)) {
@@ -26,12 +26,39 @@ function getWeaponDetails(weapon, character, allSkills) {
 	let stat = character.characteristics[skill.characteristic] || 0;
 	let value = character.skills[weapon.skill] || 0;
 
-	weapon.images = dice(stat, value);
+	weapon.icons = dice(stat, value);
 
 	return weapon;
 }
 
 export default class WeaponsPanel extends React.Component {
+	constructor(props) {
+		super(props);
+
+		this.state = {
+			quality: null
+		};
+	}
+
+	setQuality(evt) {
+		let name = evt.target.innerText.replace(/\s\d{1,}$/, "");
+
+		let allQualities = this.props.qualities.all();
+		let quality = allQualities.find(q => q.name == name);
+
+		if(quality) {
+			this.setState({
+				quality: quality
+			});
+		}
+	}
+
+	hideQuality(evt) {
+		this.setState({
+			quality: null
+		});
+	}
+
 	render() {
 		if(this.props.character == null) {
 			return null;
@@ -63,7 +90,7 @@ export default class WeaponsPanel extends React.Component {
 		return <div className="info">
 			<h2>Weapons</h2>
 			{ weapons.length == 0 ? "–" :
-			<table>
+			<table className="weapons">
 				<thead>
 					<tr>
 						<th>Weapon</th>
@@ -82,14 +109,19 @@ export default class WeaponsPanel extends React.Component {
 								<div><small className="damage">Damage:</small> { w.damage || "–" }</div>
 								<div><small className="damage">Critical:</small> { w.critical || "–" }</div>
 							</td>
-							<td>{ w.images.map((img, i) => <span key={ i } className={ img }></span>)}</td>
-							<td>
-								{ w.qualities.length == 0 ?  "–" : w.qualities.map(q => <div key={ id(q) } className="link">{ q }</div>) }
-							</td>
+							<td dangerouslySetInnerHTML={ w.icons } />
+							<td>{ w.qualities.length == 0 ?  "–" : w.qualities.map(q => <div key={ id(q) }><span className="link" onClick={ this.setQuality.bind(this) }>{ q }</span></div>) }</td>
 						</tr>
 					}) }
 				</tbody>
 			</table> }
+			{ this.state.quality != null ? <div className="quality">
+				<h3>{ this.state.quality.name } <small>({ this.state.quality.type })</small></h3>
+				{ this.state.quality.description.split("\n\n").map((l, i) => <p key={ i } dangerouslySetInnerHTML={ symbolise(l) } />) }
+				<div className="text-right">
+					<small className="link" onClick={ this.hideQuality.bind(this) }>Close</small>
+				</div>
+			</div> : null }
 		</div>;
 	}
 }

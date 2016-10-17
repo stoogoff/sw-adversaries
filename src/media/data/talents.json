@@ -69,7 +69,7 @@
 	},
 	{
 		"name": "Barrage",
-		"description": "Add 3 to the damage of all Gunnery and Ranged attacks at medium or long range."
+		"description": "Add 3 to the damage of all Gunnery and Ranged attacks at Medium or Long range."
 	},
 	{
 		"name": "Basic Combat Training",
@@ -85,7 +85,7 @@
 	},
 	{
 		"name": "Black Market Contacts",
-		"description": "Decrease rarity of sought item by one per rank when looking on the black market; item's cost is increased by 50%."
+		"description": "Decrease rarity of sought item by one per rank when looking on the black market; item’s cost is increased by 50%."
 	},
 	{
 		"name": "Blackmail",
@@ -133,7 +133,7 @@
 	},
 	{
 		"name": "Bypass Security",
-		"description": "Remove a black die from any Computers or Skulduggery check to bypass security."
+		"description": "Remove :setback: from any Computers or Skulduggery check to bypass security."
 	},
 	{
 		"name": "Call &#39;em",
@@ -181,11 +181,11 @@
 	},
 	{
 		"name": "Command",
-		"description": "Add blue dice per rank to Leadership checks; affected targets add blue dice per rank to Discipline checks for the next 24 hours."
+		"description": "Add :boost: per rank to Leadership checks; affected targets add :boost: per rank to Discipline checks for the next 24 hours."
 	},
 	{
 		"name": "Commanding Presence",
-		"description": "Remove a black die per rank from all Leadership checks."
+		"description": "Remove :setback: per rank from all Leadership checks."
 	},
 	{
 		"name": "Commanding Presence (Improved)",
@@ -221,7 +221,7 @@
 	},
 	{
 		"name": "Convincing Demeanor",
-		"description": "Remove a black dice per rank from any Deception or Skulduggery check."
+		"description": "Remove :setback: per rank from any Deception or Skulduggery check."
 	},
 	{
 		"name": "Coordinated Assault",
@@ -249,7 +249,7 @@
 	},
 	{
 		"name": "Crippling Blow",
-		"description": "May increase damage of attacj by 1. If suc­cessful, target suffers one strain when he moves for remainder of encounter."
+		"description": "May increase damage of attack by 1. If suc­cessful, target suffers one strain when moving for remainder of encounter."
 	},
 	{
 		"name": "Custom Loadout",
@@ -433,7 +433,7 @@
 	},
 	{
 		"name": "Expert Tracker",
-		"description": "Remove a black die from checks to find tracks or track targets; decrease time to track a target by half."
+		"description": "Remove :setback: from checks to find tracks or track targets; decrease time to track a target by half."
 	},
 	{
 		"name": "Eye for Detail",
@@ -465,7 +465,7 @@
 	},
 	{
 		"name": "Field Commander",
-		"description": "As an action, may make an Average| Leadership check; 4 allies may immediately suffer 1 strain to perform a free maneuver."
+		"description": "As an action, may make an :average: Leadership check; 4 allies may immediately suffer 1 strain to perform a free maneuver."
 	},
 	{
 		"name": "Field Commander [Improved]",
@@ -549,7 +549,7 @@
 	},
 	{
 		"name": "Gearhead",
-		"description": "Remove a black die per rank from Mechanics checks."
+		"description": "Remove :setback: per rank from Mechanics checks."
 	},
 	{
 		"name": "Good Cop",
@@ -685,15 +685,15 @@
 	},
 	{
 		"name": "Inspiring Rhetoric",
-		"description": "As an action, may make an Average Leadership check; each Success removes one strain or wound from one ally in short range; spend Advantage to remove an additional strain or wound from an affected ally."
+		"description": "As an action, may make an :average: Leadership check; each :success: removes one Strain or Wound from one ally in Short range; spend :advantage: to remove an additional Strain or Wound from an affected ally."
 	},
 	{
 		"name": "Improved Inspiring Rhetoric",
-		"description": "As an action, may make an Average Leadership check; each Success removes one strain or wound from one ally in short range; spend Advantage to remove an additional strain or wound from an affected ally; all affected allies add a blue dice to all checks for two rounds."
+		"description": "As an action, may make an :average: Leadership check; each :success: removes one Strain or Wound from one ally in Short range; spend :advantage: to remove an additional Strain or Wound from an affected ally; all affected allies add :boost: to all checks for two rounds."
 	},
 	{
 		"name": "Supreme Inspiring Rhetoric",
-		"description": "As a maneuver, may make an Average Leadership check; each Success removes one strain or wound from one ally in short range; spend Advantage to remove an additional strain or wound from an affected ally; all affected allies add a blue dice to all checks for four rounds."
+		"description": "As a maneuver, may make an :average: Leadership check; each :success: removes one Strain or Wound from one ally in Short range; spend :advantage: to remove an additional Strain or Wound from an affected ally; all affected allies add :boost: to all checks for four rounds."
 	},
 	{
 		"name": "Intense Focus",
@@ -761,11 +761,11 @@
 	},
 	{
 		"name": "Kill with Kindness",
-		"description": "Remove 1 black die per rank from all Charm and Leadership checks."
+		"description": "Remove :setback: per rank from all Charm and Leadership checks."
 	},
 	{
 		"name": "Knockdown",
-		"description": "May spend Triumph to knock target prone with successful melee attack."
+		"description": "May spend :triumph: to knock target prone with successful melee attack."
 	},
 	{
 		"name": "Know Somebody",
@@ -861,7 +861,7 @@
 	},
 	{
 		"name": "Master Pilot",
-		"description": "Once per round, suffer two strain to perform one Pilot ac­tion as a maneuver."
+		"description": "Once per round, suffer 2 Strain to perform one Pilot ac­tion as a maneuver."
 	},
 	{
 		"name": "Master Slicer",
@@ -996,7 +996,7 @@
 		"description": ""
 	},
 	{
-		"name": "Nobody's Fool",
+		"name": "Nobody’s Fool",
 		"description": "Upgrade difficulty of Charm, Coercion, and Deception checks targeting the character once per rank."
 	},
 	{
@@ -1077,7 +1077,7 @@
 	},
 	{
 		"name": "Plausible Deniability",
-		"description": "Remove a black dice per rank from all Coercion and Deception checks."
+		"description": "Remove :setback: per rank from all Coercion and Deception checks."
 	},
 	{
 		"name": "Plausible Deniability (Improved)",
@@ -1085,7 +1085,7 @@
 	},
 	{
 		"name": "Point Blank",
-		"description": "Add 3 damage to all Ranged (Heavy) and Ranged (Light) attacks made at short or engaged range."
+		"description": "Add 3 damage to all Ranged (Heavy) and Ranged (Light) attacks made at Short or Engaged range."
 	},
 	{
 		"name": "Positive Spin",
@@ -1209,7 +1209,7 @@
 	},
 	{
 		"name": "Resolve",
-		"description": "When suffering strain, reduce the amount suffered by one per rank, to a minimum of 1."
+		"description": "When suffering Strain, reduce the amount suffered by one per rank, to a minimum of 1."
 	},
 	{
 		"name": "Resourceful Refit",
@@ -1237,11 +1237,11 @@
 	},
 	{
 		"name": "Scathing Tirade",
-		"description": "May spend an action to make an Average Coercion check; each success causes one enemy in close range to suffer 1 strain; spend Advantages to cause 1 affected enemy to suffer 1 additional strain."
+		"description": "May spend an action to make an :average: Coercion check; each :success: causes one enemy in Short range to suffer 1 Strain. Spend :advantage: to cause 1 affected enemy to suffer 1 additional Strain."
 	},
 	{
 		"name": "Improved Scathing Tirade",
-		"description": "As an action, may make an Average Coercion check; each Success inflicts 1 strain on a target in short range.; spend Advantage to inflict 1 additional strain on one affected target; all affected targets suffer a black die to all checks for 4 rounds."
+		"description": "As an action, may make an :average: Coercion check; each :success: inflicts 1 Strain on a target in Short range. Spend :advantage: to inflict 1 additional Strain on one affected target; all affected targets suffer :setback: to all checks for 4 rounds."
 	},
 	{
 		"name": "Scathing Tirade [Supreme]",
@@ -1265,11 +1265,11 @@
 	},
 	{
 		"name": "Sense Danger",
-		"description": "Once per session, remove two black dice from any check."
+		"description": "Once per session, remove :setback::setback: from any check."
 	},
 	{
 		"name": "Sense Emotions",
-		"description": "Add a blue die to all Charm, Coercion, and Deception checks."
+		"description": "Add :boost: to all Charm, Coercion, and Deception checks."
 	},
 	{
 		"name": "Share Pain",
@@ -1309,7 +1309,7 @@
 	},
 	{
 		"name": "Skilled Jockey",
-		"description": "Remove one black die per rank from all Pilot checks."
+		"description": "Remove :setback: per rank from all Pilot checks."
 	},
 	{
 		"name": "Skilled Slicer",
@@ -1329,7 +1329,7 @@
 	},
 	{
 		"name": "Sniper Shot",
-		"description": "Reduce difficulty of combat checks at long or extreme range by 1."
+		"description": "Reduce difficulty of combat checks at Long or Extreme range by 1."
 	},
 	{
 		"name": "Soft Spot",
@@ -1357,7 +1357,7 @@
 	},
 	{
 		"name": "Spare Clip",
-		"description": "Does not run out of ammo on a Despair"
+		"description": "Does not run out of ammo on :despair:."
 	},
 	{
 		"name": "Speaks Binary",
@@ -1389,7 +1389,7 @@
 	},
 	{
 		"name": "Stalker",
-		"description": "Add a blue dice per rank to all Coordination and Stealth checks."
+		"description": "Add :boost: per rank to all Coordination and Stealth checks."
 	},
 	{
 		"name": "Steady Nerves",
@@ -1461,7 +1461,7 @@
 	},
 	{
 		"name": "Surgeon",
-		"description": "When making a Medicine check to help a character heal wounds, the target heals an additional wound per rank."
+		"description": "When making a Medicine check to help a character heal wounds, the target heals an additional Wound per rank."
 	},
 	{
 		"name": "Survival of the Fittest",
@@ -1557,7 +1557,7 @@
 	},
 	{
 		"name": "Uncanny Senses",
-		"description": "Add a blue die per rank to all Perception checks."
+		"description": "Add :boost: per rank to all Perception checks."
 	},
 	{
 		"name": "Unrelenting Skeptic",
@@ -1620,7 +1620,7 @@
 
 	{
 		"name": "Alliance Leader",
-		"description": "Alliance operatives add a blue dice to all Vigilance and Perception checks when in the NPC's presence."
+		"description": "Alliance operatives add :boost: to all Vigilance and Perception checks when in the NPC’s presence."
 	},
 	{
 		"name": "Amphibious",
@@ -1628,15 +1628,15 @@
 	},
 	{
 		"name": "Awkward",
-		"description": "Hutts have great physical strength but their bulk imposes severe limitations in flexibility and agility; they add 3 black dice to all Brawl, Melee, and Coordination checks they're required to make."
+		"description": "Hutts have great physical strength but their bulk imposes severe limitations in flexibility and agility; they add :setback::setback::setback: to all Brawl, Melee, and Coordination checks they’re required to make."
 	},
 	{
 		"name": "Covering Fire",
-		"description": "May spend a maneuver to add + 1 ranged defense to up to three allied characters or minion groups within short range until the end of the next round; this does not stack with multiple uses."
+		"description": "May spend a maneuver to add +1 ranged defense to up to three allied characters or minion groups within short range until the end of the next round; this does not stack with multiple uses."
 	},
 	{
 		"name": "Critical Eye",
-		"description": "Gain a blue die on all rolls made to duplicate a familiar document."
+		"description": "Gain :boost: on all rolls made to duplicate a familiar document."
 	},
 	{
 		"name": "Droid",
@@ -1644,16 +1644,15 @@
 	},
 	{
 		"name": "Destabilizing Influence",
-		"description": "As a maneuver once per encounter, may add Threat to all subsequent Cool and Discipline checks made by enemies within medium range for the remainder of the encounter."
+		"description": "As a maneuver once per encounter, may add :threat: to all subsequent Cool and Discipline checks made by enemies within Medium range for the remainder of the encounter."
 	},
-
 	{
 		"name": "Enhanced Sense",
-		"description": "Add automatic advantage to any Perception checks."
+		"description": "Add :advantage: to any Perception checks."
 	},
 	{
 		"name": "Fire Sweep",
-		"description": "As an action, a droideka can make a Hard Gunnery check to inflict one hit that deals base damage with its built-in twin heavy blasters on up to two targets within medium range, plus one additional target per Advantage on the check; it can only hit each target once this way."
+		"description": "As an action, a droideka can make a :hard: Gunnery check to inflict one hit that deals base damage with its built-in twin heavy blasters on up to two targets within Medium range, plus one additional target per :advantage: on the check; it can only hit each target once this way."
 	},
 	{
 		"name": "Gun Crew",
@@ -1661,19 +1660,19 @@
 	},
 	{
 		"name": "Imperial Valour",
-		"description": "May perform a maneuver to cause all ranged attacks targeting the Moff to instead hit one ally or helpless enemy he is engaged with, until the beginning of his next turn."
+		"description": "May perform a maneuver to cause all ranged attacks targeting the character to instead hit one ally or helpless enemy in Engaged range, until the beginning of his next turn."
 	},
 	{
 		"name": "Improved Covering Fire",
-		"description": "When allied minion groups within short range perform the Covering Fire maneuver, they add + 2 ranged defense instead."
+		"description": "When allied minion groups within Short range perform the Covering Fire maneuver, they add +2 ranged defense instead."
 	},
 	{
 		"name": "Leader",
-		"description": "All subordinates within medium range add a blue die to all Discipline checks."
+		"description": "All subordinates within Medium range add :boost: to all Discipline checks."
 	},
 	{
 		"name": "Light-Sensitive",
-		"description": "Defel are vulnerable to bright lights, which cause them intense pain and temporary blindness 1f v1ewed without protection. A Defel exposed to bright light without protective goggles suffers two black dice on all skill checks."
+		"description": "Defel are vulnerable to bright lights, which cause them intense pain and temporary blindness if v1ewed without protection. A Defel exposed to bright light without protective goggles suffers :setback::setback: on all skill checks."
 	},
 	{
 		"name": "Ponderous",
@@ -1681,11 +1680,11 @@
 	},
 	{
 		"name": "Pirate Leader",
-		"description": "May perform a maneuver to give orders to other pirate allies in medium range, granting them a blue die on their next check."
+		"description": "May perform a maneuver to give orders to other pirate allies in Medium range, granting them :boost: on their next check."
 	},
 	{
 		"name": "Shadowed",
-		"description": "When in darkness or deep shadow, add two blue dice to all Stealth checks."
+		"description": "When in darkness or deep shadow, add :boost::boost: to all Stealth checks."
 	},
 	{
 		"name": "Shield Projector",
@@ -1693,24 +1692,22 @@
 	},
 	{
 		"name": "Spaceport Leader",
-		"description": "Spaceport staff add a blue die to all Vigilance and Perception checks when in the Spaceport Administrator's presence."
+		"description": "Spaceport staff add :boost: to all Vigilance and Perception checks when in the Spaceport Administrator’s presence."
 	},
 	{
 		"name": "Swipe",
-		"description": "Spend Advantage during melee combat to cause an engaged opponent to suffer 1 strain."
+		"description": "Spend :advantage: during melee combat to cause an engaged opponent to suffer 1 Strain."
 	},
-
-
 	{
 		"name": "Tactical Direction",
-		"description": "May perform a maneuver to direct one Imperial Army minion group within medium range; the group may perform an immediate free maneuver or add a blue die to its next check."
+		"description": "May perform a maneuver to direct one Imperial Army minion group within Medium range; the group may perform an immediate free maneuver or add :boost: to its next check."
 	},
 	{
 		"name": "Overwhelming Fire",
-		"description": "May perform a maneuver to direct one Imperial Army minion group within medium range; the group may perform an immediate free combat check action."
+		"description": "May perform a maneuver to direct one Imperial Army minion group within Medium range; the group may perform an immediate free combat check action."
 	},
 	{
 		"name": "Wookiee Rage",
-		"description": "Deal +1 damage with Brawl and Melee attacks when suffering any wounds. When suffering a Critical Injury, deal +2 damage with Brawl and Melee at­tacks instead."
+		"description": "Deal +1 damage with Brawl and Melee attacks when suffering any Wounds. When suffering a Critical Injury, deal +2 damage with Brawl and Melee at­tacks instead."
 	}
 ]

@@ -31,7 +31,7 @@
 	{
 		"name": "CSA Security Police",
 		"type": "Minion",
-		"description": "The Corporate Sector Authority is a massive corporate bureaucracy that governs a large sector of space along the Tingel Arm of the galaxy in the Outer Rim territories. The government is, as indicated by its name, a corporate entity that has complete control over the sector as a result of a unique arrangement that far predates the estab­lishment of the Galactic Empire, but which is main­tained through a mutually beneficial arrangement between those two bodies. The CSA enforces its policies and taws thr ough its taw enforcement divi­si on: the Security Police. Commonty catted Espos, the CSA police are known for their brutality as well as the quality of their equipment They are much better -funded than m ost sector police forces and do n ot hesitate to crush anyone or anything that they believe threatens the peace and prosperity of the CSA's rule over the Corporate Sector.",
+		"description": "The Corporate Sector Authority is a massive corporate bureaucracy that governs a large sector of space along the Tingel Arm of the galaxy in the Outer Rim territories. The government is, as indicated by its name, a corporate entity that has complete control over the sector as a result of a unique arrangement that far predates the estab­lishment of the Galactic Empire, but which is main­tained through a mutually beneficial arrangement between those two bodies. The CSA enforces its policies and taws thr ough its taw enforcement divi­si on: the Security Police. Commonty catted Espos, the CSA police are known for their brutality as well as the quality of their equipment They are much better -funded than m ost sector police forces and do n ot hesitate to crush anyone or anything that they believe threatens the peace and prosperity of the CSA’s rule over the Corporate Sector.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -58,7 +58,7 @@
 	{
 		"name": "CSA Security Officer",
 		"type": "Rival",
-		"description": "The CSA often makes it a point to recruit tough, even bru­tal individuals into the ranks of its Espos. Creative thinking or equitable public relations are not as desired as the abil­ity to enforce the CSA's rule through fear and violence. This applies to the Espos' commanders as welt as the rank and file. Captains in the Espos are brutal, no-nonsense individuals either promoted through the ranks or given the job due to corporate connections. Their enforcement tactics tend to treat brute force as the only resort instead of the last, a quality which does not endear them to many of the Corporate Sector's inhabitants. Many \"investiga­tions\" ted by Espo captains last only as tong as it takes to find a convenient scapegoat to blame.",
+		"description": "The CSA often makes it a point to recruit tough, even bru­tal individuals into the ranks of its Espos. Creative thinking or equitable public relations are not as desired as the abil­ity to enforce the CSA’s rule through fear and violence. This applies to the Espos’ commanders as welt as the rank and file. Captains in the Espos are brutal, no-nonsense individuals either promoted through the ranks or given the job due to corporate connections. Their enforcement tactics tend to treat brute force as the only resort instead of the last, a quality which does not endear them to many of the Corporate Sector’s inhabitants. Many “investiga­tions” ted by Espo captains last only as tong as it takes to find a convenient scapegoat to blame.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -150,7 +150,7 @@
 	{
 		"name": "Planetary Defence Trooper",
 		"type": "Minion",
-		"description": "There are very few planets that rely entirely on an out­side agency for their protection. Most possess at least a marginal military force of their own, dedicated to pro­tecting the planet's most valuable or sacred sites. Plan­etary defense troopers rarely have the most advanced or most up-to-date equipment, often employing locally produced weaponry and armor, but what they do have is typically well made and serves its purpose.",
+		"description": "There are very few planets that rely entirely on an out­side agency for their protection. Most possess at least a marginal military force of their own, dedicated to pro­tecting the planet’s most valuable or sacred sites. Plan­etary defense troopers rarely have the most advanced or most up-to-date equipment, often employing locally produced weaponry and armor, but what they do have is typically well made and serves its purpose.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -207,7 +207,7 @@
 			"Skullduggery": 3,
 			"Vigilance": 2
 		},
-		"talents": ["Improved Inspiring Rhetoric", "Kill with Kindness 2", "Nobody's Fool 2"],
+		"talents": ["Improved Inspiring Rhetoric", "Kill with Kindness 2", "Nobody’s Fool 2"],
 		"abilities": ["Leader"],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Rich clothing (+1 soak)"],
@@ -273,7 +273,7 @@
 	{
 		"name": "Spaceport Security Officer",
 		"type": "Rival",
-		"description": "A busy spaceport is a chaotic place and although a security detail may be well meaning, they often need a firm hand to keep them on target and in charge of the goings-on-a spaceport won't police itself, after all. Security officers are often veterans of years of work in a given spaceport and are occasionally retired military or planetary law enforcement They bring an entirely different perspective to the job and are much more able to identify and neutralize potential threats than the people working for them.",
+		"description": "A busy spaceport is a chaotic place and although a security detail may be well meaning, they often need a firm hand to keep them on target and in charge of the goings-on-a spaceport won’t police itself, after all. Security officers are often veterans of years of work in a given spaceport and are occasionally retired military or planetary law enforcement They bring an entirely different perspective to the job and are much more able to identify and neutralize potential threats than the people working for them.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -328,7 +328,7 @@
 			"Streetwise": 3,
 			"Vigilance": 3
 		},
-		"talents": ["Adversary 1", "Nobody's Fool 1", "Plausible Deniability 2"],
+		"talents": ["Adversary 1", "Nobody’s Fool 1", "Plausible Deniability 2"],
 		"abilities": ["Spaceport Leader"],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Datapad", "Comlink"],
@@ -337,7 +337,7 @@
 	{
 		"name": "Wealthy Noble",
 		"type": "Rival",
-		"description": "The nature of the Core Worlds has created an environment that promotes a caste system, something long ago abandoned by all but the most primitive worlds, but which has come full circle to return to the most \"civilized\" of worlds in the galaxy. Nobles have little to do other than maintain their vast wealth, the majority of which is gained through inheritance and investment, and most leave the Core only rarely. Younger nobles sometimes have a taste for excitement and adventure, however, and occasionally venture out to see the galaxy and experience how the lesser beings live. Most of these young nobles are capricious and largely without compassion, but a handful occasionally find the plight of the galaxy deplorable enough to find a way to discreetly offer their assistance to the Alliance. Such patrons are rare, but extremely valuable to the Rebels, who court them as much as they can without compromising their political and military agendas.",
+		"description": "The nature of the Core Worlds has created an environment that promotes a caste system, something long ago abandoned by all but the most primitive worlds, but which has come full circle to return to the most “civilized” of worlds in the galaxy. Nobles have little to do other than maintain their vast wealth, the majority of which is gained through inheritance and investment, and most leave the Core only rarely. Younger nobles sometimes have a taste for excitement and adventure, however, and occasionally venture out to see the galaxy and experience how the lesser beings live. Most of these young nobles are capricious and largely without compassion, but a handful occasionally find the plight of the galaxy deplorable enough to find a way to discreetly offer their assistance to the Alliance. Such patrons are rare, but extremely valuable to the Rebels, who court them as much as they can without compromising their political and military agendas.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,

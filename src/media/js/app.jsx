@@ -20,7 +20,7 @@ class App extends React.Component {
 		this.events = {};
 		this.stores = {};
 
-		["skills", "adversaries", "weapons", "talents"].forEach(key => {
+		["skills", "adversaries", "weapons", "talents", "qualities"].forEach(key => {
 			this.stores[key] = new DataStore(`media/data/${key}.json`);
 			this.stores[key].load();
 		});
@@ -36,7 +36,7 @@ class App extends React.Component {
 
 		keys(this.stores).forEach(key => {
 			if(key != "adversaries") {
-				this.events[key] = this.stores[key].on("change", () => this.forceUpdate())
+				this.events[key] = this.stores[key].on("change", () => this.forceUpdate());
 			}
 		});
 
@@ -78,7 +78,7 @@ class App extends React.Component {
 				<LinkList data={ this.state.adversaries } selected={ this.state.adversary != null ? this.state.adversary.id : "" } />
 			</div>
 			<div className="column large">
-				<Character skills={ this.stores.skills } character={ this.state.adversary } weapons={ this.stores.weapons } talents={ this.stores.talents } />
+				<Character skills={ this.stores.skills } character={ this.state.adversary } weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } />
 			</div>
 		</div>;
 	}

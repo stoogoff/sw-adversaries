@@ -1,0 +1,152 @@
+[
+	{
+		"name": "Accurate",
+		"type": "Passive",
+		"description": "For each rank of this trait, the attacker adds :boost: to their attack dice pools while using this weapon."
+	},
+	{
+		"name": "Auto-Fire",
+		"type": "Active",
+		"description": "Increase the difficulty of the attack by one. If the attack hits the attacker can trigger Auto-Fire with :advantage::advantage:. Auto-Fire can be triggered multiple times. Each time the attacker triggers Auto-Fire it deals an additional hit to the target."
+	},
+	{
+		"name": "Blast",
+		"type": "Active",
+		"description": "If the attack is successful and Blast activates, each character (friend or foe) Engaged with the original target suffers wounds equal to the weapon’s Blast rating.\n\nIf the attack misses Blast can still be activated with :advantage::advantage::advantage: causing damage to the target and all Engaged targets equal to the Blast rating of the weapon."
+	},
+	{
+		"name": "Breach",
+		"type": "Passive",
+		"description": "Ignore one point of Armor or 10 points of Soak for every rank of Breach."
+	},
+	{
+		"name": "Burn",
+		"type": "Active",
+		"description": "If the attack is successful, the target continues to take the weapon’s base damage for a number of rounds equal to the weapon’s Burn rating."
+	},
+	{
+		"name": "Concussive",
+		"type": "Active",
+		"description": "The target is staggered for a number of rounds equal to the weapon’s Concussive rating. A staggered target cannot perform actions."
+	},
+	{
+		"name": "Cortosis",
+		"type": "Passive",
+		"description": "Weapons with the Cortosis quality are immune to the Sunder quality.\n\nArmour with the Cortosis quality ignores the Pierce and Breach qualities."
+	},
+	{
+		"name": "Cumbersome",
+		"type": "Passive",
+		"description": "The character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating."
+	},
+	{
+		"name": "Defensive",
+		"type": "Passive",
+		"description": "Increase melee defence by the weapons’s Defensive rating."
+	},
+	{
+		"name": "Deflection",
+		"type": "Passive",
+		"description": "Increase ranged defence by the weapons’s Defensive rating."
+	},
+	{
+		"name": "Disorient",
+		"type": "Active",
+		"description": "The target is disoriented for a number of rounds equal to the weapon’s Disorient rating. A disorientated target adds :setback: to all skill checks."
+	},
+	{
+		"name": "Ensnare",
+		"type": "Active",
+		"description": "The target is immobilized for a number of rounds equal to the weapon’s Ensnare rating. An ensnared target may attempt a :hard: Athletics check to attempt to break free."
+	},
+	{
+		"name": "Guided",
+		"type": "Active",
+		"description": "If the attack misses the weapon can make an attack check at the end of the round using the weapon’s Guided rating as ability dice. Requires :advantage::advantage::advantage: to activate."
+	},
+	{
+		"name": "Inaccurate",
+		"type": "Passive",
+		"description": "Add :setback: to the attacker’s dice pool equal to their Inaccurate rating."
+	},
+	{
+		"name": "Inferior",
+		"type": "Passive",
+		"description": "Generates automatic :threat: on all checks."
+	},
+	{
+		"name": "Ion",
+		"type": "Passive",
+		"description": "Damage is dealt as System Strain (Vehicles) or Strain Threshold (Droids)"
+	},
+	{
+		"name": "Knockdown",
+		"type": "Active",
+		"description": "The target is knocked prone. Knockdown requires :advantage::advantage: to trigger plus one per point of Silhouette of the target beyond 1."
+	},
+	{
+		"name": "Limited Ammo",
+		"type": "Passive",
+		"description": "May be used to make a number of attacks equal to its Limited Ammo rating before it must be reloaded."
+	},
+	{
+		"name": "Linked",
+		"type": "Active",
+		"description": "On a successful attack the wielder may activate to gain an additional hit and may do so a number of times equal to the weapon’s Linked rating."
+	},
+	{
+		"name": "Pierce",
+		"type": "Passive",
+		"description": "Ignores one point of Soak for each rank of Pierce."
+	},
+	{
+		"name": "Prepare",
+		"type": "Passive",
+		"description": "The user must perform a number of Prepare maneuvers equal to the weapon’s Prepare rating before making attacks."
+	},
+	{
+		"name": "Slow-Firing",
+		"type": "Passive",
+		"description": "Weapon must wait a number of rounds equal to its Slow-Firing rating before firing again."
+	},
+	{
+		"name": "Stun",
+		"type": "Active",
+		"description": "Weapon causes Strain to the target."
+	},
+	{
+		"name": "Stun Damage",
+		"type": "Passive",
+		"description": "Weapon deals damage as Strain instead of wounds."
+		},
+	{
+		"name": "Stun Setting",
+		"type": "Passive",
+		"description": "Can switch weapon to Stun Damage which causes Strain to the target."
+	},
+	{
+		"name": "Sunder",
+		"type": "Active",
+		"description": "Damages opposing weapon one step. Requires :advantage: to activate."
+	},
+	{
+		"name": "Superior",
+		"type": "Passive",
+		"description": "Generates automatic :advantage: on all checks and increases base damage by 1."
+	},
+	{
+		"name": "Tractor",
+		"type": "Passive",
+		"description": "Target may not move unless it makes a successful Piloting check with a difficulty based on the tractor beam’s rating."
+		},
+	{
+		"name": "Unwieldy",
+		"type": "Passive",
+		"description": "To wield correctly, character needs Agility characteristic equal or greater than rating."
+	},
+	{
+		"name": "Vicious",
+		"type": "Passive",
+		"description": "Add 10 times the Vicious rating to the critical roll."
+	}
+]

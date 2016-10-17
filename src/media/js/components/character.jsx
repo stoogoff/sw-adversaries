@@ -45,7 +45,7 @@ export default class Character extends React.Component {
 			</div>
 			<div className="column large">
 				<SkillPanel character={ character } skills={ this.props.skills } />
-				<WeaponsPanel title="Weapons" character={ character } skills={ this.props.skills } weapons={ this.props.weapons } />
+				<WeaponsPanel title="Weapons" character={ character } skills={ this.props.skills } weapons={ this.props.weapons } qualities={ this.props.qualities } />
 				<TalentPanel title="Talents" data={ character.talents } talents={ this.props.talents } />
 				<TalentPanel title="Abilities" data={ character.abilities } talents={ this.props.talents } />
 				<InfoPanel title="Gear" data={ character.gear } />

@@ -93,8 +93,12 @@ gulp.task("copy-image", function() {
 	return gulp.src(path.src("media/img/**")).pipe(gulp.dest(path.dest("media/img")));
 });
 
+gulp.task("copy-font", function() {
+	return gulp.src(path.src("media/fonts/**")).pipe(gulp.dest(path.dest("media/fonts")));
+});
+
 gulp.task("default", function() {
-	gulp.run("transpile-js", "copy-vendor", "copy-react", "copy-data", "copy-static", "copy-image", "sass");
+	gulp.run("transpile-js", "copy-vendor", "copy-react", "copy-data", "copy-static", "copy-font", "sass");
 });
 
 gulp.task("watch", function() {

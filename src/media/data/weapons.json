@@ -5,7 +5,7 @@
 		"damage": 5,
 		"critical": 4,
 		"range": "Short",
-		"qualities": ["Stun setting"]
+		"qualities": ["Stun Setting"]
 	},
 	{
 		"name": "Light blaster pistol",
@@ -13,7 +13,7 @@
 		"damage": 5,
 		"critical": 4,
 		"range": "Medium",
-		"qualities": ["Stun setting"]
+		"qualities": ["Stun Setting"]
 	},
 	{
 		"name": "Blaster pistol",
@@ -21,7 +21,7 @@
 		"damage": 6,
 		"critical": 3,
 		"range": "Medium",
-		"qualities": ["Stun setting"]
+		"qualities": ["Stun Setting"]
 	},
 	{
 		"name": "Heavy blaster pistol",
@@ -29,7 +29,7 @@
 		"damage": 7,
 		"critical": 3,
 		"range": "Medium",
-		"qualities": ["Stun setting"]
+		"qualities": ["Stun Setting"]
 	},
 	{
 		"name": "Blaster carbine",
@@ -37,7 +37,7 @@
 		"damage": 9,
 		"critical": 3,
 		"range": "Medium",
-		"qualities": ["Stun setting"]
+		"qualities": ["Stun Setting"]
 	},
 	{
 		"name": "Blaster rifle",
@@ -45,7 +45,7 @@
 		"damage": 9,
 		"critical": 3,
 		"range": "Long",
-		"qualities": ["Stun setting"]
+		"qualities": ["Stun Setting"]
 	},
 	{
 		"name": "Heavy blaster rifle",
@@ -53,7 +53,7 @@
 		"damage": 10,
 		"critical": 3,
 		"range": "Long",
-		"qualities": ["Auto-fire", "Cumbersome 3"]
+		"qualities": ["Auto-Fire", "Cumbersome 3"]
 	},
 	{
 		"name": "Light repeating blaster",
@@ -61,7 +61,7 @@
 		"damage": 11,
 		"critical": 3,
 		"range": "Long",
-		"qualities": ["Auto-fire", "Cumbersome 4", "Pierce 1"]
+		"qualities": ["Auto-Fire", "Cumbersome 4", "Pierce 1"]
 	},
 	{
 		"name": "Heavy repeating blaster",
@@ -69,7 +69,7 @@
 		"damage": 15,
 		"critical": 2,
 		"range": "Long",
-		"qualities": ["Auto-fire", "Cumbersome 5", "Pierce 2", "Vicious 1"]
+		"qualities": ["Auto-Fire", "Cumbersome 5", "Pierce 2", "Vicious 1"]
 	},
 	{
 		"name": "Bowcaster",
@@ -109,7 +109,7 @@
 		"damage": 7,
 		"critical": 3,
 		"range": "Medium",
-		"qualities": ["Auto-fire","Stun setting"]
+		"qualities": ["Auto-Fire","Stun Setting"]
 	},
 	{
 		"name": "Slugthrower pistol",
@@ -128,7 +128,7 @@
 		"qualities": ["Cumbersome 2"]
 	},
 	{
-		"name": "Bola",
+		"name": "Bolas",
 		"skill": "Ranged: Light",
 		"damage": 2,
 		"critical": null,
@@ -277,7 +277,7 @@
 		"plus-damage": 4,
 		"critical": 3,
 		"range": "Engaged",
-		"qualities": ["Cortosis", "Cumbersome 3", "Linked 1", "Stun setting", "Unwieldy 3"]
+		"qualities": ["Cortosis", "Cumbersome 3", "Linked 1", "Stun Setting", "Unwieldy 3"]
 	},
 	{
 		"name": "Gaffi stick",
@@ -293,7 +293,7 @@
 		"plus-damage": 3,
 		"critical": 2,
 		"range": "Engaged",
-		"qualities": ["Pierce 2", "Stun setting"]
+		"qualities": ["Pierce 2", "Stun Setting"]
 	},
 	{
 		"name": "Heavy hydrospanner",
@@ -301,7 +301,7 @@
 		"damage": 5,
 		"critical": 4,
 		"range": "Engaged",
-		"qualities": ["Innacurate 1"]
+		"qualities": ["Inaccurate 1"]
 	},
 	{
 		"name": "Lightsaber",
