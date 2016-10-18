@@ -1,0 +1,138 @@
+[
+	{
+		"name": "Alliance Leader",
+		"description": "Alliance operatives add :boost: to all Vigilance and Perception checks when in the NPC’s presence."
+	},
+	{
+		"name": "Amphibious",
+		"description": "May breathe underwater without penalty and never suffer movement penalties for traveling through water."
+	},
+	{
+		"name": "Awkward",
+		"description": "Hutts have great physical strength but their bulk imposes severe limitations in flexibility and agility; they add :setback::setback::setback: to all Brawl, Melee, and Coordination checks they’re required to make."
+	},
+	{
+		"name": "Covering Fire",
+		"description": "May spend a maneuver to add +1 ranged defense to up to three allied characters or minion groups within short range until the end of the next round; this does not stack with multiple uses."
+	},
+	{
+		"name": "Critical Eye",
+		"description": "Gain :boost: on all rolls made to duplicate a familiar document."
+	},
+	{
+		"name": "Crushing Grip",
+		"description": "A dianoga has many tentacles and can maintain a grip with some while attacking with others; as long as it has a victim immobilized by its tentacles, it inflicts 2 Strain and 1 Wound at the start of the victim’s turn; as dianoga is an aquatic creature, and a target immobilized beneath the surface may well start drowning—see Suffocation on AoR page 228 for more information."
+	},
+	{
+		"name": "Droid",
+		"description": "Does not need to breathe, eat, or drink and can survive in vacuum or underwater; immune to poisons and toxins."
+	},
+	{
+		"name": "Destabilizing Influence",
+		"description": "As a maneuver once per encounter, may add :threat: to all subsequent Cool and Discipline checks made by enemies within Medium range for the remainder of the encounter."
+	},
+	{
+		"name": "Energy Parasite",
+		"description": "Mynocks can make an :average: Coordination check to latch onto any starship or vehicle they are engaged with. Ships or vehicles with a mynock attached suffer 1 System Strain per mynock each day and reduce their han­dling by 1."
+	},
+	{
+		"name": "Enhanced Senses",
+		"description": "Add :advantage: to any Perception checks."
+	},
+	{
+		"name": "Fire Sweep",
+		"description": "As an action, a droideka can make a :hard: Gunnery check to inflict one hit that deals base damage with its built-in twin heavy blasters on up to two targets within Medium range, plus one additional target per :advantage: on the check; it can only hit each target once this way."
+	},
+	{
+		"name": "Four-armed",
+		"description": "The gundark gains :boost: on all Brawl checks and may spend :advantage::advantage: on a successful melee attack to hit a second target Engaged with it, dealing the same damage as dealt to the original target."
+	},
+	{
+		"name": "Flyer",
+		"description": "This creature can fly."
+	},
+	{
+		"name": "Gun Crew",
+		"description": "For each Imperial Gunnery Corps member in the minion group beyond the first, reduce the Cumbersome rating of their weapons by 1."
+	},
+	{
+		"name": "Helium Allergy",
+		"description": "When exposed to helium mynocks suffer 1 Wound per round ignoring Soak until their bodies inflate and explode."
+	},
+	{
+		"name": "Hoverer",
+		"description": "When hovering the character does not have to spend additional maneuvers when navigating difficult terrain."
+	},
+	{
+		"name": "Imperial Valour",
+		"description": "May perform a maneuver to cause all ranged attacks targeting the character to instead hit one ally or helpless enemy in Engaged range, until the beginning of his next turn."
+	},
+	{
+		"name": "Improved Covering Fire",
+		"description": "When allied minion groups within Short range perform the Covering Fire maneuver, they add +2 ranged defense instead."
+	},
+	{
+		"name": "Leader",
+		"description": "All subordinates within Medium range add :boost: to all Discipline checks."
+	},
+	{
+		"name": "Light-Sensitive",
+		"description": "Defel are vulnerable to bright lights, which cause them intense pain and temporary blindness if v1ewed without protection. A Defel exposed to bright light without protective goggles suffers :setback::setback: on all skill checks."
+	},
+	{
+		"name": "Neurotoxin Doses",
+		"description": "The Imperial assassin has multiple doses of neurotoxin, which can be introduced into food or drink, or applied to a Melee weapon as a maneuver; if applied to a weapon, it lasts for the remainder of the encounter; if a target ingests poisoned food or drink, or suffers wounds from a poisoned Melee weapon, the target must make an :average: Resilience check; if failed, the target suffers 5 Wounds, plus 1 Strain per :threat:; :despair: means the target must test against the poison again at the start of the next turn."
+	},
+	{
+		"name": "Ponderous",
+		"description": "Hutts can never spend more than one maneuver moving per turn."
+	},
+	{
+		"name": "Pirate Leader",
+		"description": "May perform a maneuver to give orders to other pirate allies in Medium range, granting them :boost: on their next check."
+	},
+	{
+		"name": "Self-destruct Mechanism",
+		"description": "Should the probe droid’s mission become compromised, it may self-destruct as an out of turn incidental; this expliosion does 10 damage to engaged characters."
+	},
+	{
+		"name": "Shadowed",
+		"description": "When in darkness or deep shadow, add :boost::boost: to all Stealth checks."
+	},
+	{
+		"name": "Shield Projector",
+		"description": "Maneuver to activate or deactivate; while active, gains defense 2 and upgrades the difficulty of all combat attacks targeting the droideka once, but droideka cannot use the Move maneuver."
+	},
+	{
+		"name": "Silhouette",
+		"description": ""
+	},
+	{
+		"name": "Spaceport Leader",
+		"description": "Spaceport staff add :boost: to all Vigilance and Perception checks when in the Spaceport Administrator’s presence."
+	},
+	{
+		"name": "Sweep Attack",
+		"description": "The rancor can spend :triumph: on a successful Brawl check to hit the target as well as anyone engaged with the target."
+	},
+	{
+		"name": "Swipe",
+		"description": "Spend :advantage: during melee combat to cause an engaged opponent to suffer 1 Strain."
+	},
+	{
+		"name": "Tactical Direction",
+		"description": "May perform a maneuver to direct one Imperial Army minion group within Medium range; the group may perform an immediate free maneuver or add :boost: to its next check."
+	},
+	{
+		"name": "Overwhelming Fire",
+		"description": "May perform a maneuver to direct one Imperial Army minion group within Medium range; the group may perform an immediate free combat check action."
+	},
+	{
+		"name": "Vacuum Dweller",
+		"description": "Can survive in vacuum without penalty and can move in a vacuum envi­ronment."
+	},
+	{
+		"name": "Wookiee Rage",
+		"description": "Deal +1 damage with Brawl and Melee attacks when suffering any Wounds. When suffering a Critical Injury, deal +2 damage with Brawl and Melee at­tacks instead."
+	}
+]

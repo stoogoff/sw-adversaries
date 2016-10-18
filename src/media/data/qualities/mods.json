@@ -1,0 +1,10 @@
+[
+	{
+		"name": "Multi-optic Sight",
+		"description": "Remove up to :setback::setback: on any checks to use this weapon due to smoke, darkness, or other environmental conditions that obstruct vision."
+	},
+	{
+		"name": "Weapon Sling",
+		"description": "Reduce the weapon’s Cumbersome rating by 1."
+	}
+]

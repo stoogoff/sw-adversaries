@@ -1,0 +1,158 @@
+[
+	{
+		"name": "Dianoga",
+		"type": "Rival",
+		"description": "The dianoga is a spectacularly unattractive life form native to the planet Vodran in Hutt Space. A type of cephalopod, the dianoga is uniquely suited to camouflaging itself in a number of different environments, a fact that has permitted it to spread far beyond the world of its birth (or even Hutt Space). The creatures are scavengers, living off organic material (primarily waste products) and metabolizing it while leaving behind any mineral content that it might contain. In this regard they are quite useful, and they are generally tolerated as long as they do not make a nuisance of themselves. They can be found in sewer systems and garbage repositories on thousands of worlds, and even aboard larger space stations. Their widespread presence is due to the fact that the larvae of a dianoga is virtually microscopic in size, and thus can make its egress from one location to another very simply.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 22
+		},
+		"skills": {
+			"Brawl": 2,
+			"Perception": 1,
+			"Stealth": 4,
+			"Survival": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Amphibious", "Crushing Grip"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Tentacles",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Ensnare 2", "Knockdown", "Linked 6"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature"]
+	},
+	{
+		"name": "Gundark",
+		"type": "Rival",
+		"description": "Native to the planet Vanqor in the Outer Rim Territories, the gundark is one of the most ferocious and aggressive species in the known galaxy. Semi-intelligent, gundarks grasp the basic use of tools, but they lack any known language or other hallmark of a sentient species. Their sheer ferocity has made them a popular target for big game hunters and those who enjoy pitting creatures against one another in gladiatorial-style contests. In this way, the beast has spread to different worlds throughout the galaxy, where it flourishes in certain environments and planets. In many cases, the beasts are hunted to extinction because of the threat they pose to natural wildlife and the denizens of a given planet, but on worlds with larger regions of untamed wilderness, packs of gundarks can survive and thrive in areas without ever encountering sentient life.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 18
+		},
+		"skills": {
+			"Brawl": 2,
+			"Perception": 3,
+			"Survival": 3,
+			"Vigilance": 3
+		},
+		"talents": [],
+		"abilities": ["Four-armed"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Meaty fists",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Disorient 1", "Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature"]
+	},
+	{
+		"name": "Mynock",
+		"type": "Minion",
+		"description": "Mynocks are disgusting, silicon-based space para­sites that survive by latching onto the hulls of star­ ships and feeding off power cables and other vital systems. About a meter long with wings that could be used in atmosphere. they have spread through­ out the galaxy by hitching rides on passing starships. They absorb matter and energy from their hosts. which can eventually cause sys­tem failure. Mynocks can be found on the surface of several different worlds, although their allergy to helium limits the number of habitats which they can survive.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 4
+		},
+		"skills": {
+			"Brawl": 0,
+			"Coordination": 0
+		},
+		"talents": [],
+		"abilities": ["Vacuum Dweller", "Energy Parasite", "Flyer", "Helium Allergy"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Sucker-mouths and claws",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": [],
+		"tags": ["creature"]
+	},
+	{
+		"name": "Rancor",
+		"type": "Nemesis",
+		"description": "Rancors are terrifying predators, found on worlds throughout the galaxy. Complete carnivores, an adult rancor can grow to be up to 10 meters tall. They often walk with a hunched, simian gait using their arms and hands as well as their legs. Their hands and wicked claws can be used for grasping and holding prey. Com­bined with their prodigious strength, a rancor can be­come an apex predator on most worlds it lives in. Their fearsome combat ability makes rancors popular amongst crime lords as gladiatorial opponents or “pets.” The infamous gangster Jabba the Hutt is known to keep a rancor in a cavern below his palace, and those who displease the crime lord all too often become the rancor’s next meal.",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 12,
+			"wounds": 40,
+			"strain": 15
+		},
+		"skills": {
+			"Brawl": 2,
+			"Perception": 2,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": ["Silhouette 3", "Sweep Attack"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Massive rending claws",
+				"skill": "Brawl",
+				"damage": 15,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Knockdown", "Sunder"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature"]
+	}
+
+
+
+
+]

@@ -49,6 +49,7 @@ let diceMap = {
 	"setback": "<span class='icon setback shadowed'>b</span>",
 	"challenge": "<span class='icon challenge shadowed'>c</span>",
 	"difficulty": "<span class='icon difficulty shadowed'>d</span>",
+	"force": "<span class='icon force shadowed'>c</span>",
 
 	// outcomes
 	"advantage": "<span class='icon advantage'>a</span>",
@@ -59,7 +60,7 @@ let diceMap = {
 	"despair": "<span class='icon despair'>y</span>",
 
 	// force
-	"lightside": "<span class='icon lightside'>Z</span>",
+	"lightside": "<span class='icon lightside shadowed'>z</span>",
 	"darkside": "<span class='icon darkside'>z</span>",
 
 	// difficulty levels

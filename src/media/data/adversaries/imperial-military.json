@@ -23,7 +23,81 @@
 		"talents": [],
 		"abilities": [],
 		"weapons": ["Blaster rifle", "Frag grenade"],
-		"gear": ["Trooper uniform and helemt (+1 soak)", "s Frag grenades"],
+		"gear": ["Trooper uniform and helmet (+1 soak)", "2 Frag grenades"],
+		"tags": ["empire", "imperial military"]
+	},
+	{
+		"name": "Imperial Assassin",
+		"type": "Nemesis",
+		"description": "The shadowy corps of Imperial assassins exercises the Emperor’s will by eliminating any sentient its master wishes. No matter the target, an Imperial assassin tirelessly pursues him across the galaxy until he can get close enough for a kill. In their travels throughout the galaxy, Imperial assassins are hidden in plain sight, often taking on disguies to grant them easier access to their prey. The waiter at the tapcafe, the harried merchant across the counter, even the carefully vetted bodyguard–any of these may be assassins waiting to strike.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 18,
+			"strain": 20,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Cool": 3,
+			"Coordination": 3,
+			"Discipline": 3,
+			"Melee": 4,
+			"Perception": 4,
+			"Piloting: Space": 2,
+			"Ranged: Heavy": 4,
+			"Stealth": 4,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 1", "Parry 3", "Indistinguishable 2"],
+		"abilities": ["Neurotoxin Doses"],
+		"weapons": ["Disruptor rifle"],
+		"specialist-weapons": [
+			{
+				"name": "Combat vibroblade",
+				"skill": "Melee",
+				"plus-damage": 2,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["empire", "imperial military", "assassin"]
+	},
+	{
+		"name": "Imperial Dungeoneer",
+		"type": "Minion",
+		"description": "Imperial dungeoneers are soldiers tasked with overssing the prisoners confined to the Empire’s many dungeon ships, detention facilities, and prison worlds. Despite the sensitive nature of their task, those chosen as guards for the Empire’s enormous population of incarcerated sentients are usually those who couldn’t make the grade in the regular Imperial Army. Considered lowly turnkeys by their compatriots, dungeoneers tend to be bitter and cruel, taking their resentment over thier miserable existence out on their helpless charges.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 5
+		},
+		"skills": {
+			"Coercion": 0,
+			"Melee": 0,
+			"Ranged: Heavy": 0,
+			"Vigilance": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Riot gun", "Truncheon"],
+		"gear": ["Binders", "Comlink", "Padded armour (+2 soak)"],
 		"tags": ["empire", "imperial military"]
 	},
 	{
@@ -130,6 +204,48 @@
 		"abilities": ["Tactical Direction"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Heavy uniform (+1 soak)"],
+		"tags": ["empire", "imperial military"]
+	},
+	{
+		"name": "Imperial Royal Guard",
+		"type": "Nemesis",
+		"description": "Numbering among the deadliets of the Emperor’s servants, his elite, crimson-garbed Imperial Royal Guards enjoy a reputation for preternatural combat skills and absolute unwavering loyalty to their master. Only the most skilled and dependable fighters are chosen from the many branches of Imperial service to undergo Royal Guard training, and only a few survive this training to be unducted into the ranks of these elite warriors.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16,
+			"strain": 12,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Discipline": 3,
+			"Melee": 4,
+			"Perception": 3,
+			"Ranged: Light": 3,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 2", "Heightened Awareness", "Parry 4"],
+		"abilities": [],
+		"weapons": ["Heavy blaster pistol"],
+		"specialist-weapons": [
+			{
+				"name": "Cortosis-plated force pike",
+				"skill": "Melee",
+				"plus-damage": 3,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Cortosis", "Pierce 2", "Stun Setting"]
+			}
+		],
+		"gear": ["Heavy battler armour (+2 soak, +1 defence)"],
 		"tags": ["empire", "imperial military"]
 	},
 	{
@@ -269,7 +385,17 @@
 		},
 		"talents": [],
 		"abilities": [],
-		"weapons": ["Blaster rifle", "Vibroknife", "Frag grenade", "Light repeating blaster"],
+		"weapons": ["Blaster rifle", "Vibroknife", "Frag grenade"],
+		"specialist-weapons": [
+			{
+				"name": "Light repeating blaster",
+				"skill": "Ranged: Heavy",
+				"damage": 11,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Auto-Fire", "Cumbersome 4", "Pierce 1", "Weapon Sling"]
+			}
+		],
 		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 soak)", "2 Frag grenades"],
 		"tags": ["empire", "imperial military", "stormtrooper"]
 	},
@@ -372,7 +498,7 @@
 		"talents": [],
 		"abilities": [],
 		"weapons": ["Blaster rifle", "Vibroknife"],
-		"gear": ["Utility belt", "Extra reloads", "High-temp stormtrooper armour (+2 soak; when making skill checks, sandtroopers may remove 2 black dice imposed due to arid or hot environmental conditions)", "Food and water packs"],
+		"gear": ["Utility belt", "Extra reloads", "High-temp stormtrooper armour (+2 soak; when making skill checks, sandtroopers may remove :setback::setback: imposed due to arid or hot environmental conditions)", "Food and water packs"],
 		"tags": ["empire", "imperial military", "stormtrooper"]
 	},
 	{
@@ -419,7 +545,7 @@
 		"name": "Stormtrooper: Snowtrooper",
 		"type": "Minion",
 		"description": "Just as desert worlds present environmental conditions that are a barrier to normal military operations, planets with an extremely cold environment are likewise impractical for traditional protocols, including the stormtrooper legions. Snowtroopers have specialized armor and equipment that can function regardless of the temperature and are capable of operating for long periods of time without needing any support of any sort. Furthermore, they are equipped with sensor packages that allow them to seek out thermal images in a sea of ice, which dramatically increases their effectiveness in combat.",
-		"notes": "Individuals or groups of two may be armed with heavy repeating blasters. Multi-optic sighted blaster rifle: remove up to 2 black dice on any checks to use this weapon due to smoke, darkness, or other environmental conditions that obstruct vision)",
+		"notes": "Individuals or groups of two may be armed with heavy repeating blasters.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -451,10 +577,10 @@
 				"damage": 9,
 				"critical": 3,
 				"range": "Long",
-				"qualities": ["Stun Setting"]
+				"qualities": ["Stun Setting", "Multi-optic Sight"]
 			}
 		],
-		"gear": ["Snowtrooper armour (+2 soak; when making skill checks, snowtroopers may remove 2 black dice imposed due to cold or icy environmental conditions"],
+		"gear": ["Snowtrooper armour (+2 soak; when making skill checks, snowtroopers may remove :setback::setback: imposed due to cold or icy environmental conditions"],
 		"tags": ["empire", "imperial military", "stormtrooper"]
 	},
 	{
@@ -506,7 +632,7 @@
 		"talents": [],
 		"abilities": [],
 		"weapons": ["Light blaster pistol"],
-		"gear": ["Flight suit", "Sensory augmentation package (add Advantage to any Perception checks made by the character)"],
+		"gear": ["Flight suit", "Sensory augmentation package (add :advantage: to any Perception checks made by the character)"],
 		"tags": ["empire", "imperial military", "pilot"]
 	}
 ]

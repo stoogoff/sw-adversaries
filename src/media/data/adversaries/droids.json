@@ -1,5 +1,32 @@
 [
 	{
+		"name": "Analysis Droid",
+		"type": "Minion",
+		"description": "Almost always found working in groups, analysis droids have served governments, corporations, wealthy private individuals, and even the defunct Jedi Knights. Most manufacturers make analysis droids, but the enduring popularity of Cybot Galactica's SP-4 and JN-66 models make them the category leaders. All analysis droids come equipped with a sophisticated sensory suite and a set of onboard analysis protocols that make them invaluable in aiding research, analysing data, and performing experiments.",
+		"notes": "Cost 7,500",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 4,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 3
+		},
+		"skills": {
+			"Computers": 0,
+			"Knowledge: Education": 0
+		},
+		"talents": ["Technical Aptitude 2"],
+		"abilities": ["Droid"],
+		"weapons": [],
+		"gear": ["Datapad"],
+		"tags": ["droid"]
+	},
+	{
 		"name": "Antiquated Battle Droid",
 		"type": "Minion",
 		"description": "The most frequently encountered droid of this type is the B1 battle droid produced by Baktoid Combat Au­tomata. A generation ago, these frail-looking droids were the terror of the galaxy. Legions of them formed the Separatist armies during the Clone Wars but the intervening years have not been kind to their design, which was inexpensive to begin with. Although no rep­ utable military still employs these droids in number, they can be found in limited quantities in the forces of crime lords, mercenaries, and various other ne’er-do­-wells throughout the underbelly of the galaxy.",
@@ -96,7 +123,7 @@
 				"damage": 3,
 				"critical": null,
 				"range": "Engaged",
-				"qualities": ["Stun damage"]
+				"qualities": ["Stun Damage"]
 			}
 		],
 		"gear": ["Built-in repair tools"],
@@ -177,6 +204,86 @@
 		"tags": ["droid", "separatist"]
 	},
 	{
+		"name": "IG-100 MagnaGuard",
+		"type": "Nemesis",
+		"description": "Thankfully rare, IG-100 MagnaGuard droids are relics of the Clone Wars, during which they served as elite bodyguards and shock troops for Separatist leaders. Though most were destroyed during the wars, some examples of the type are still active in the galaxy. Most survivors are bound to the service of criminal overlords, Imperial Moffs, or other power brokers. More terrifying are those few who have been manumitted, haunting the hyperlanes alone or in pairs, following unknowable agendas. MagnaGuards are fearless combatants and reject ranged weapons out of hand, preferring to swiftly close with their opponents and engage them with their deadly electrostaves, which emit tendrils of energy designed to incapacitate and dirsorient foes.",
+		"notes": "Cost 90,000",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 20,
+			"strain": 14,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 3,
+			"Coordination": 4,
+			"Melee": 3,
+			"Perception": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1", "Parry 4", "Pin"],
+		"abilities": ["Droid"],
+		"weapons": ["Electrostaff"],
+		"gear": ["Built-in armour plating (+2 soak, +1 defence)"],
+		"tags": ["droid", "separatist"]
+	},
+	{
+		"name": "Interrogation Droid",
+		"type": "Rival",
+		"description": "The interrogation droids designed by the Imperial Department of Military Research are among the most feared weapons in the Emperor’s vast arsenal. These floating black spheres bristle with instruments of torture. Just the sight of them has been known to elicit confessions and coax out carefully guarded secrets from evem the most steadfast of prisoners.",
+		"notes": "Cost 9,600",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Coercion": 4,
+			"Medicine": 3,
+			"Perception": 2,
+			"Ranged: Light": 3
+		},
+		"talents": [],
+		"abilities": ["Droid", "Hoverer", "Silhouette 0"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Acid jet",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Burn 2"]
+			},
+			{
+				"name": "Sonic torture device",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": null,
+				"range": "Short",
+				"qualities": ["Concussive 3", "Slow-Firing 1", "Stun Damage"]
+			}
+		],
+		"gear": ["Interrogation drug syringe"],
+		"tags": ["droid", "empire"]
+	},
+	{
 		"name": "Maintenance Droid",
 		"type": "Minion",
 		"description": "The term maintenance droid applies to an extremely broad array of Class Five droids that are created to perform simple repairs and upkeep on different equipment and vehicles. Typically these are the less sophisticated Class Five droids. They are not tasked with advanced repairs. Instead, they are afforded simple work that trained laborers would be able to perform - only without the need for rest, payment, or food. They are employed in most starports throughout the galaxy, including those controlled by both the Galactic Empire and the Rebel Alliance.",
@@ -204,9 +311,9 @@
 				"name": "Arc welder",
 				"skill": "Melee",
 				"damage": 3,
-				"critical": -1,
+				"critical": null,
 				"range": "Engaged",
-				"qualities": ["Stun damage"]
+				"qualities": ["Stun Damage"]
 			}
 		],
 		"gear": ["Built-in repair tools (counts as tool kit as well as emergency repair kit that can be used once per session)"],
@@ -306,5 +413,46 @@
 		],
 		"gear": [],
 		"tags": ["droid"]
+	},
+	{
+		"name": "Viper Probe Droid",
+		"type": "Rival",
+		"description": "When searching the most remote regions in the galaxy, Imperial authorities often make use of probe droids to scout remote planets and scour distant locations for signs of whatever, or whomever, is being sought. Probe droids travel to their destinations inside one-way hyperspace pods and communicate with their programmers via encrypted holo-channels. When the quarry may be on any of a thousand worlds, the best solution is often to disperse a thousand probe droids.",
+		"notes": "Cost 13,700",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12,
+			"defence": [0, 1]
+		},
+		"skills": {
+			"Cool": 1,
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": ["Droid", "Hoverer", "Self-destruct Mechanism"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Built-in blaster",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			}
+		],
+		"gear": ["Long-range holonet communicator", "Life form scanner", "Long-range sensor array"],
+		"tags": ["droid", "empire"]
 	}
 ]

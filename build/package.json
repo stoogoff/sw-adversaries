@@ -11,7 +11,8 @@
     "gulp-babel": "^6.1.2",
     "gulp-clean": "^0.3.2",
     "gulp-jsoncombine": "^1.0.3",
-    "gulp-sass": "^2.3.2"
+    "gulp-sass": "^2.3.2",
+    "merge-stream": "^1.0.0"
   },
   "dependencies": {
     "babel-polyfill": "^6.16.0",

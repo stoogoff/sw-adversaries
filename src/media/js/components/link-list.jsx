@@ -1,12 +1,13 @@
 
 import React from "react";
 import dispatcher from "lib/dispatcher";
+import * as CONFIG from "lib/config";
 
 export default class LinkList extends React.Component {
 	handler(evt) {
 		var id = evt.target.getAttribute("data-target");
 
-		dispatcher.dispatch("view-adversary", id);
+		dispatcher.dispatch(CONFIG.VIEW_ADVERSARY, id);
 	}
 
 	render() {

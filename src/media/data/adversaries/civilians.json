@@ -121,6 +121,32 @@
 		"tags": ["civilian", "coprorate security authority"]
 	},
 	{
+		"name": "Cyborg Administrator",
+		"type": "Rival",
+		"description": "The largest space stations and orbital facilities are incredibly complex installations requiring the use of vast, extensive computer networks. These networks likewise require incredible amounts of supervision to oversee. Although uncommon, it is not unheard of for independent facilities with such networks to utilize individuals with cybernetic enhancements. These enhancements permit such administrators to interface directly with computer systems in order to create a more efficient and immediate means of supervising the system in question. Cyborg administrators often seem less human, distracted as they are by a constant stream of information from outside. As a result, they are not typically well-liked by most despite their enhanced abilities. Due to the discriminatory tendencies of Imperial officials, cyborg administrators tend to be slightly more inclined toward favoring the Alliance than the Empire.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Computers": 3,
+			"Perception": 1
+		},
+		"talents": [],
+		"abilities": ["Enhanced Senses"],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Comlink", "Datapad with direct access port"],
+		"tags": ["civilian"]
+	},
+	{
 		"name": "Physician",
 		"type": "Rival",
 		"description": "Although there are certain cultures that strongly emphasize and specialize in medical training, for the most part, the finest medical academies and universities in the galaxy can be found in the Core Worlds. The physicians, surgeons, and specialists of the Core Worlds are among the best in existence, far better than the admittedly gifted and more commonly employed medical droids. Because of their reputation, Core World physicians are sometimes found in other regions of the galaxy, either because they are hired by the incredibly wealthy or because they are on a mission of mercy to the poorer planets and systems of the Mid Rim and Outer Rim Territories.",

@@ -4,7 +4,7 @@ import Emitter from "./emitter";
 // dispatcher is really just a global event emitter
 let emitter = new Emitter();
 
-var dispatcher = {
+let dispatcher = {
 	register(action, method) {
 		return emitter.on(action, method);
 	},

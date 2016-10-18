@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Force power: Move",
+		"description": ":lightside:: Move one object Silhouette 1 at Short range; may make ranged attacks with this power."
+	},
+	{
+		"name": "Force power: Enhance",
+		"description": ":lightside:: Gain :success: or :advantage: (user's choice) on an Athletics, Coordination, or Resilience check; :lightside:: take a Force Leap action to jump horizontally or vertically to any location in Short range."
+	},
+	{
+		"name": "Force power: Foresee",
+		"description": ":lightside:: Gain vague hints of events to come, up to a day into own future; :lightside:: Gain :advantage: per point on an Initiative check."
+	},
+	{
+		"name": "Force power: Sense",
+		"description": ":lightside:: Sense all living things within Medium range. :lightside:: Sense the emotional state of one target within Medium range. Ongoing effect :force: Upgrade difficulty of at­tacks targeting the character twice."
+	},
+	{
+		"name": "On the Edge",
+		"description": "Once per Force check, may suffer 1 Strain to use :darkside: result to generate :lightside:."
+	}
+]

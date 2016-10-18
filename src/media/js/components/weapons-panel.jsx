@@ -28,6 +28,11 @@ function getWeaponDetails(weapon, character, allSkills) {
 
 	weapon.icons = dice(stat, value);
 
+	// add any notes as a quality
+	if("notes" in weapon && weapon.qualities.indexOf("Notes") == -1) {
+		weapon.qualities.push("Notes");
+	}
+
 	return weapon;
 }
 
@@ -42,9 +47,23 @@ export default class WeaponsPanel extends React.Component {
 
 	setQuality(evt) {
 		let name = evt.target.innerText.replace(/\s\d{1,}$/, "");
+		let quality = null;
 
-		let allQualities = this.props.qualities.all();
-		let quality = allQualities.find(q => q.name == name);
+		if(name == "Notes") {
+			let id = evt.target.getAttribute("data-weapon");
+			let weapon = this.props.weapons.all().concat(this.props.character["specialist-weapons"]).find(w => w.id == id);
+
+			quality = {
+				name: "Notes",
+				type: "",
+				description: weapon.notes
+			}
+		}
+		else {
+			let allQualities = this.props.qualities.all().concat(this.props.talents.all());
+	
+			quality = allQualities.find(q => q.name == name);
+		}
 
 		if(quality) {
 			this.setState({
@@ -57,6 +76,14 @@ export default class WeaponsPanel extends React.Component {
 		this.setState({
 			quality: null
 		});
+	}
+
+	componentWillUpdate(nextProps, nextState) {
+		if(nextProps.character !== this.props.character) {
+			this.setState({
+				quality: null
+			})
+		}
 	}
 
 	render() {
@@ -97,7 +124,7 @@ export default class WeaponsPanel extends React.Component {
 						<th>Range</th>
 						<th>Damage</th>
 						<th>Roll</th>
-						<th>Qualities</th>
+						<th>Qualities / Mods</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -110,13 +137,13 @@ export default class WeaponsPanel extends React.Component {
 								<div><small className="damage">Critical:</small> { w.critical || "–" }</div>
 							</td>
 							<td dangerouslySetInnerHTML={ w.icons } />
-							<td>{ w.qualities.length == 0 ?  "–" : w.qualities.map(q => <div key={ id(q) }><span className="link" onClick={ this.setQuality.bind(this) }>{ q }</span></div>) }</td>
+							<td>{ w.qualities.length == 0 ?  "–" : w.qualities.map(q => <div key={ id(q) }><span className="link" onClick={ this.setQuality.bind(this) } data-weapon={ w.id }>{ q }</span></div>) }</td>
 						</tr>
 					}) }
 				</tbody>
 			</table> }
 			{ this.state.quality != null ? <div className="quality">
-				<h3>{ this.state.quality.name } <small>({ this.state.quality.type })</small></h3>
+				<h3>{ this.state.quality.name } { this.state.quality.name == "Notes" ? "" : <small>({ this.state.quality.type || "Passive" })</small> }</h3>
 				{ this.state.quality.description.split("\n\n").map((l, i) => <p key={ i } dangerouslySetInnerHTML={ symbolise(l) } />) }
 				<div className="text-right">
 					<small className="link" onClick={ this.hideQuality.bind(this) }>Close</small>

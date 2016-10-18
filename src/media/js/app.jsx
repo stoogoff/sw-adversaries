@@ -7,6 +7,7 @@ import Character from "components/character";
 import LinkList from "components/link-list";
 import Filter from "components/filter";
 import { keys } from "lib/utils";
+import * as CONFIG from "lib/config";
 
 
 class App extends React.Component {
@@ -15,7 +16,8 @@ class App extends React.Component {
 
 		this.state = {
 			adversary: null,
-			adversaries: null
+			adversaries: null,
+			filter: ""
 		};
 		this.events = {};
 		this.stores = {};
@@ -30,7 +32,8 @@ class App extends React.Component {
 		this.events["adversaries"] = this.stores.adversaries.on("change", () => {
 			this.setState({
 				adversary: this.stores.adversaries.get(0),
-				adversaries: this.stores.adversaries.all()
+				adversaries: this.stores.adversaries.all(),
+				filter: this.state.filter
 			});
 		});
 
@@ -40,25 +43,27 @@ class App extends React.Component {
 			}
 		});
 
-		dispatcher.register("view-adversary", id => {
+		dispatcher.register(CONFIG.VIEW_ADVERSARY, id => {
 			this.setState({
 				adversary: this.stores.adversaries.all().find(a => a.id == id),
-				adversaries: this.state.adversaries
+				adversaries: this.state.adversaries,
+				filter: this.state.filter
 			});
 		});
 
-		dispatcher.register("filter-menu", filter => {
+		dispatcher.register(CONFIG.FILTER_MENU, filter => {
 			let adversaries = this.stores.adversaries.all();
 
 			if(filter != "") {
 				filter = filter.toLowerCase();
 
-				adversaries = adversaries.filter(a => a.name.toLowerCase().indexOf(filter) != -1);
+				adversaries = adversaries.filter(a => a.name.toLowerCase().indexOf(filter) != -1 || a.tags.indexOf(filter) != -1);
 			}
 
 			this.setState({
 				adversary: adversaries.length == 1 ? adversaries[0] : this.state.adversary,
-				adversaries: adversaries
+				adversaries: adversaries,
+				filter: filter
 			});
 		});
 	}
@@ -72,14 +77,12 @@ class App extends React.Component {
 		let y = this.stores.adversaries !=null ? this.stores.adversaries.all().length : 0;
 
 		return <div>
-			<div className="column small">
-				<Filter />
+			<div id="navigation" className="column small">
+				<Filter filter={ this.state.filter } />
 				<p><small>Showing { x } of { y }.</small></p>
 				<LinkList data={ this.state.adversaries } selected={ this.state.adversary != null ? this.state.adversary.id : "" } />
 			</div>
-			<div className="column large">
-				<Character skills={ this.stores.skills } character={ this.state.adversary } weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } />
-			</div>
+			<Character skills={ this.stores.skills } character={ this.state.adversary } weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } />
 		</div>;
 	}
 }

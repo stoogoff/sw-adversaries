@@ -77,7 +77,8 @@
 		"damage": 10,
 		"critical": 3,
 		"range": "Medium",
-		"qualities": ["Cumbersome 3", "Knockdown"]
+		"qualities": ["Cumbersome 3", "Knockdown"],
+		"notes": "A bowcaster requires the user to spend a maneuver cocking the weapon before each shot."
 	},
 	{
 		"name": "Ion blaster",
@@ -93,7 +94,8 @@
 		"damage": 10,
 		"critical": 2,
 		"range": "Short",
-		"qualities": ["Vicious 4"]
+		"qualities": ["Vicious 4"],
+		"notes": "When the disruptor inflicts a Critical Injury, the minimum result is 96-100, “Crippled”, unless it would be worse."
 	},
 	{
 		"name": "Disruptor rifle",
@@ -101,7 +103,8 @@
 		"damage": 10,
 		"critical": 2,
 		"range": "Long",
-		"qualities": ["Cumbersome 2","Vicious 5"]
+		"qualities": ["Cumbersome 2","Vicious 5"],
+		"notes": "When the disruptor inflicts a Critical Injury, the minimum result is 96-100, “Crippled”, unless it would be worse."
 	},
 	{
 		"name": "Riot gun",
@@ -272,7 +275,7 @@
 		"qualities": ["Cortosis", "Defensive 1"]
 	},
 	{
-		"name": "Electro staff",
+		"name": "Electrostaff",
 		"skill": "Melee",
 		"plus-damage": 4,
 		"critical": 3,

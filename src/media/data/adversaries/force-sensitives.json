@@ -30,9 +30,46 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 2", "Force Rating 3", "Sense Danger", "Sense Emotions", "Uncanny Senses 2"],
-		"abilities": [],
+		"abilities": ["Force power: Move", "Force power: Sense", "On the Edge"],
 		"weapons": ["Lightsaber"],
 		"gear": [],
+		"tags": ["force sensitive", "jedi"]
+	},
+	{
+		"name": "Jedi in Hiding",
+		"type": "Nemesis",
+		"description": "The Jedi Order did not survive the birth of the Galactic Empire. The entire order has been painted by Imperial propaganda as a collection of traitors, fools, and lunatics, and many within the modern Empire accept these statements as truth. Outlawed holovids and banned texts tell a different story, frequently portraying the Jedi as heroes. These fictional accounts would have one believe that innumerable Jedi survived the purge conducted by the Empire, but in truth fewer than one hundred of the thousands of Jedi survived. The majority of those who did were hunted and killed shortly thereafter by Darth Vader and the Imperial forces under his command. The Alliance would desperately like to believe that there are Jedi in hiding who escaped the purge and might join the Rebels in their struggle. Unfortunately, little evidence has been found to support this theory other than a few former Padawans who have joined their ranks.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 4,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 13,
+			"strain": 12
+		},
+		"skills": {
+			"Athletics": 1,
+			"Charm": 2,
+			"Cool": 2,
+			"Coordination": 1,
+			"Deception": 2,
+			"Discipline": 4,
+			"Knowledge: Lore": 3,
+			"Lighsaber": 4,
+			"Perception": 4,
+			"Piloting: Space": 2,
+			"Resilience": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Force Rating 3", "Uncanny Senses 1", "Uncanny Reactions 2"],
+		"abilities": ["Force power: Move", "Force power: Enhance", "Force power: Foresee"],
+		"weapons": ["Lightsaber"],
+		"gear": ["Jedi Robes (+1 soak)"],
 		"tags": ["force sensitive", "jedi"]
 	}
 

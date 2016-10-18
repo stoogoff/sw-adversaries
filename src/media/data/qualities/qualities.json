@@ -42,12 +42,12 @@
 	{
 		"name": "Defensive",
 		"type": "Passive",
-		"description": "Increase melee defence by the weapons’s Defensive rating."
+		"description": "Increase melee defence by the weapon’s Defensive rating."
 	},
 	{
 		"name": "Deflection",
 		"type": "Passive",
-		"description": "Increase ranged defence by the weapons’s Defensive rating."
+		"description": "Increase ranged defence by the weapon’s Defensive rating."
 	},
 	{
 		"name": "Disorient",

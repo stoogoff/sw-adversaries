@@ -601,7 +601,7 @@
 	},
 	{
 		"name": "Heightened Awareness",
-		"description": ""
+		"description": "Allies within Short range add :boost: to Perception and Vigilance checks; allies in Engaged range add :boost::boost: instead."
 	},
 	{
 		"name": "Heroic Fortitude",
@@ -709,7 +709,7 @@
 	},
 	{
 		"name": "Intimidating",
-		"description": ""
+		"description": "May suffer up to 3 Strain to downgrade the difficulty of a Coercion check a number of times equal to the Strain suffered; when targeted by Coercion, they may suffer up to 3 Strain to upgrade the difficulty of the opponent’s check a number of times equal to the strain suffered."
 	},
 	{
 		"name": "Intuitive Evasion",
@@ -1049,7 +1049,7 @@
 	},
 	{
 		"name": "Parry",
-		"description": ""
+		"description": "When struck by a melee attack but before applying Soak, suffer 3 Strain to to reduce damage by 2 per rank."
 	},
 	{
 		"name": "Parry (Improved)",
@@ -1069,7 +1069,7 @@
 	},
 	{
 		"name": "Pin",
-		"description": ""
+		"description": "As an action upon a successful opposed Athletics check against an engaged opponent, immobilise that opponent until the end of the attacker’s next turn; may spend :triumph: on check to increase duration one round."
 	},
 	{
 		"name": "Planet Mapper",
@@ -1485,7 +1485,7 @@
 	},
 	{
 		"name": "Technical Aptitude",
-		"description": ""
+		"description": "Reduce the amount of time to complete computer-related tasks by 25% per rank."
 	},
 	{
 		"name": "Terrify",
@@ -1553,7 +1553,7 @@
 	},
 	{
 		"name": "Uncanny Reactions",
-		"description": ""
+		"description": "Add :boost: per rank to all Vigilance checks."
 	},
 	{
 		"name": "Uncanny Senses",
@@ -1614,100 +1614,5 @@
 	{
 		"name": "Works Like a Charm",
 		"description": "Once per session, the character may make one skill check using Presence, rather than the characteristic linked to that skill."
-	},
-
-
-
-	{
-		"name": "Alliance Leader",
-		"description": "Alliance operatives add :boost: to all Vigilance and Perception checks when in the NPC’s presence."
-	},
-	{
-		"name": "Amphibious",
-		"description": "May breathe underwater without penalty and never suffer movement penalties for traveling through water."
-	},
-	{
-		"name": "Awkward",
-		"description": "Hutts have great physical strength but their bulk imposes severe limitations in flexibility and agility; they add :setback::setback::setback: to all Brawl, Melee, and Coordination checks they’re required to make."
-	},
-	{
-		"name": "Covering Fire",
-		"description": "May spend a maneuver to add +1 ranged defense to up to three allied characters or minion groups within short range until the end of the next round; this does not stack with multiple uses."
-	},
-	{
-		"name": "Critical Eye",
-		"description": "Gain :boost: on all rolls made to duplicate a familiar document."
-	},
-	{
-		"name": "Droid",
-		"description": "Does not need to breathe, eat, or drink and can survive in vacuum or underwater; immune to poisons and toxins."
-	},
-	{
-		"name": "Destabilizing Influence",
-		"description": "As a maneuver once per encounter, may add :threat: to all subsequent Cool and Discipline checks made by enemies within Medium range for the remainder of the encounter."
-	},
-	{
-		"name": "Enhanced Sense",
-		"description": "Add :advantage: to any Perception checks."
-	},
-	{
-		"name": "Fire Sweep",
-		"description": "As an action, a droideka can make a :hard: Gunnery check to inflict one hit that deals base damage with its built-in twin heavy blasters on up to two targets within Medium range, plus one additional target per :advantage: on the check; it can only hit each target once this way."
-	},
-	{
-		"name": "Gun Crew",
-		"description": "For each Imperial Gunnery Corps member in the minion group beyond the first, reduce the Cumbersome rating of their weapons by 1."
-	},
-	{
-		"name": "Imperial Valour",
-		"description": "May perform a maneuver to cause all ranged attacks targeting the character to instead hit one ally or helpless enemy in Engaged range, until the beginning of his next turn."
-	},
-	{
-		"name": "Improved Covering Fire",
-		"description": "When allied minion groups within Short range perform the Covering Fire maneuver, they add +2 ranged defense instead."
-	},
-	{
-		"name": "Leader",
-		"description": "All subordinates within Medium range add :boost: to all Discipline checks."
-	},
-	{
-		"name": "Light-Sensitive",
-		"description": "Defel are vulnerable to bright lights, which cause them intense pain and temporary blindness if v1ewed without protection. A Defel exposed to bright light without protective goggles suffers :setback::setback: on all skill checks."
-	},
-	{
-		"name": "Ponderous",
-		"description": "Hutts can never spend more than one maneuver moving per turn."
-	},
-	{
-		"name": "Pirate Leader",
-		"description": "May perform a maneuver to give orders to other pirate allies in Medium range, granting them :boost: on their next check."
-	},
-	{
-		"name": "Shadowed",
-		"description": "When in darkness or deep shadow, add :boost::boost: to all Stealth checks."
-	},
-	{
-		"name": "Shield Projector",
-		"description": "Maneuver to activate or deactivate; while active, gains defense 2 and upgrades the difficulty of all combat attacks targeting the droideka once, but droideka cannot use the Move maneuver."
-	},
-	{
-		"name": "Spaceport Leader",
-		"description": "Spaceport staff add :boost: to all Vigilance and Perception checks when in the Spaceport Administrator’s presence."
-	},
-	{
-		"name": "Swipe",
-		"description": "Spend :advantage: during melee combat to cause an engaged opponent to suffer 1 Strain."
-	},
-	{
-		"name": "Tactical Direction",
-		"description": "May perform a maneuver to direct one Imperial Army minion group within Medium range; the group may perform an immediate free maneuver or add :boost: to its next check."
-	},
-	{
-		"name": "Overwhelming Fire",
-		"description": "May perform a maneuver to direct one Imperial Army minion group within Medium range; the group may perform an immediate free combat check action."
-	},
-	{
-		"name": "Wookiee Rage",
-		"description": "Deal +1 damage with Brawl and Melee attacks when suffering any Wounds. When suffering a Critical Injury, deal +2 damage with Brawl and Melee at­tacks instead."
 	}
 ]

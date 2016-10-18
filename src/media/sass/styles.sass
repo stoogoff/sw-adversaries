@@ -18,6 +18,10 @@ $body: rgb(255,250,244)
 $font: rgb(110,105,101)
 $link: rgb(68,103,127)
 
+html
+	margin: 0
+	padding: 0
+	overflow-y: hidden
 
 body
 	background-color: $body
@@ -29,13 +33,16 @@ body
 h1
 	margin-top: 0
 	font-family: 'Titillium Web', sans-serif
+	max-width: 56rem
 
 	span
+		position: fixed
 		display: inline-block
 		color: white
 		background-color: $derived
 		padding: 1rem 3rem 1rem 1rem
 		border-radius: 0 3rem 3rem 0
+		//margin-right: 6em
 
 	small
 		font-size: 1.25rem
@@ -48,6 +55,9 @@ h1
 
 		&.nemesis
 			color: darken($font, 20%)
+
+	& + .text
+		margin-top: 7em
 
 h1, h2, h3
 	text-transform: uppercase
@@ -62,29 +72,24 @@ h2 + p, h3 + p
 
 p
 	line-height: 1.5em
-	max-width: 50em
+	max-width: 53em
 
 ul
 	list-style: none
 	margin: 1em 0
 	padding: 0
 
-li
-	padding: 0.2em 0
-	@include hover()
+	&.inline-list
+		margin: 0
 
-	&:hover, &.selected
-		background-color: white
+		li
+			display: inline
 
-	&.selected
-		font-weight: bold
-		padding-left: 1.2em
+			&:after
+				content: ", "
 
-		.link
-			text-decoration: none
-
-			&:before
-				content: "> "
+			&:last-of-type:after
+				content: ""
 
 strong
 	color: $heading
@@ -132,6 +137,9 @@ input[type="text"]
 .text-right
 	text-align: right
 
+.pull-right
+	float: right
+
 .link
 	color: $link
 	text-decoration: underline
@@ -146,15 +154,50 @@ input[type="text"]
 	float: left
 	overflow: hidden
 	margin-left: 1.5em
-	margin-top: 1.5em
 
 	&.small
 		width: 17em
 
-.character
-	width: 55em
+.filter
+	margin-top: 1.5em
+
+#navigation
+	margin-right: 0
+	height: 100%
+	position: relative
+
+	ul
+		position: absolute
+		top: 7em
+		right: 0
+		bottom: 0
+		left: 0
+		margin: 0
+		overflow-y: auto
+
+	li
+		padding: 0.2em 0
+		@include hover()
+
+		&:hover, &.selected
+			background-color: white
+
+		&.selected
+			font-weight: bold
+			padding-left: 1.2em
+
+			.link
+				text-decoration: none
+
+				&:before
+					content: "> "
+
+#character
+	margin-left: 0
+	width: 58em
+	height: 100%
 	border-left: 2px solid $derived
-	overflow: hidden
+	overflow: auto
 
 	.large
 		width: 37.5em
@@ -231,6 +274,10 @@ input[type="text"]
 		color: $body
 		margin: 0
 
+		small
+			display: block
+			font-size: 0.7em
+
 .info
 	margin-bottom: 1.5em
 
@@ -260,6 +307,11 @@ input[type="text"]
 		color: $derived
 		font-size: 1.1em
 		margin: 0 0 0.2em
+
+#show-all
+	float: right
+	margin-top: -2.5em
+	margin-bottom: 1em
 
 // dice icons
 .icon
@@ -304,6 +356,17 @@ input[type="text"]
 .difficulty
 	color: rgb(68,48,83) // purple
 
+.force
+	color: white
+
+	&:after
+		content: "C"
+
+.lightside
+	color: white
+
+	&:after
+		content: "Z"
 
 @font-face
 	font-family: StarWarsSymbols

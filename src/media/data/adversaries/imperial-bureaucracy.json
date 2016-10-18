@@ -56,6 +56,36 @@
 		"tags": ["empire", "imperial bureaucracy"]
 	},
 	{
+		"name": "Government Bureaucrat",
+		"type": "Rival",
+		"description": "The machinery of the Galactic Empire runs on bureaucracy, and legions of bureaucrats keep those wheels turning at all times. Generally dour, punctual, and boring, many of these individuals manage to accomplish the near-impossible task of being more reviled than Imperial Stormtroopers." ,
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 8
+		},
+		"skills": {
+			"Coercion": 2,
+			"Computers": 1,
+			"Discipline": 3,
+			"Knowledge: Core Worlds:": 2,
+			"Knowledge: Education": 2,
+			"Negotiation": 3
+		},
+		"talents": ["Nobody’s Fool 2"],
+		"abilities": [],
+		"weapons": [],
+		"gear": ["Datapad of Imperial regulations"],
+		"tags": ["empire", "imperial bureaucracy"]
+	},
+	{
 		"name": "Imperial Advisor",
 		"type": "Nemesis",
 		"description": "One of the most insidious methods the Emperor employs to maintain control of his Empire is constantly pitting his minions against one another. These mind games allow such individuals to gain favor by proving their ultimate loyalty to him. Historically, this has prevented Palpatine’s subordinates from allying against him, and nowhere has this policy been more ruthlessly embodied than in the ranks of his Imperial advisors. Typically, there have been around one hundred such extremely powerful and influential bureaucrats at any given time. Each is tasked not only with overseeing details of the Empire’s administration, including such important decisions as appointing governors and Moffs, and also with conducting covert surveillance on the home systems of other advisors and high-ranking Imperial officials.",

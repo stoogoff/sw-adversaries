@@ -4,6 +4,7 @@ var clean = require("gulp-clean");
 var babel = require("gulp-babel");
 var sass = require("gulp-sass");
 var combine = require("gulp-jsoncombine");
+var merge = require("merge-stream");
 
 var path = {
 	src: function(p) {
@@ -48,17 +49,21 @@ gulp.task("transpile-js", function() {
 		.pipe(gulp.dest(path.dest("media/js")));
 });
 
-// merge adversaries into single file
+// merge folders of json data into a single file
 gulp.task("merge-data", function() {
-	return gulp.src(path.src("media/data/adversaries/*.json")).pipe(combine("adversaries.json", function(data, metaData) {
-		var output = [];
+	var mapped = ["adversaries", "qualities", "talents"].map(function(m) {
+		return gulp.src(path.src("media/data/" + m + "/*.json")).pipe(combine(m + ".json", function(data, metaData) {
+			var output = [];
 
-		for(var i in data) {
-			output = output.concat(data[i]);
-		}
+			for(var i in data) {
+				output = output.concat(data[i]);
+			}
 
-		return new Buffer(JSON.stringify(output));
-	})).pipe(gulp.dest(path.dest("media/data/")));
+			return new Buffer(JSON.stringify(output));
+		})).pipe(gulp.dest(path.dest("media/data/")));
+	});
+
+	return merge.apply(null, mapped);
 });
 
 // copy js libs

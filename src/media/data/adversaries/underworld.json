@@ -119,7 +119,36 @@
 		"abilities": ["Leader"],
 		"weapons": ["Heavy blaster pistol", "Force pike"],
 		"gear": ["Expensive robes (+1 soak)"],
-		"tags": ["underworld", "bounty hunter"]
+		"tags": ["underworld", "black sun"]
+	},
+	{
+		"name": "Con Artist",
+		"type": "Rival",
+		"description": "The charismatic, smooth-talking con artist is the subject of many a holodrama, but in reality, those who live by the art of the grift would rather not be noticed at all. The cons they run range from simple games of chance on a street corner to elaborate schemes involving dozens of operatives, deft disguises, and false credentials. However, the goal is always the same–swindle as many credits as possible, preferably with the marks never realising they’ve been conned.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 2,
+			"Cool": 2,
+			"Deception": 3,
+			"Perception": 3,
+			"Skulduggery": 2
+		},
+		"talents": ["Convincing Demeanor 1", "Nobody’s Fool 1"],
+		"abilities": [],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Comm jammer", "Disguise kit"],
+		"tags": ["underworld"]
 	},
 	{
 		"name": "Corrupt Bureaucrat",
@@ -556,6 +585,54 @@
 			}
 		],
 		"gear": [],
+		"tags": ["underworld", "hutt", "slaver"]
+	},
+	{
+		"name": "Hutt Slaver",
+		"type": "Nemesis",
+		"description": "There are few races in the galaxy as hated amd feared as the Hutts. These massive bneings have a stranglehold on the criminal underworld in the Outer Rim. Hutt slave dealers are particularly despised by most decent peoples for their traffic in sentient life. Generally surrounded by lackeys and bodyguards, Hutt slave dealers are formidable opponents, and their incredibly potent wills make them nearly immune to Force powers.",
+		"notes": "The weapons are optional and the large-bore blaster pistol is too large to be used by anyone other than a Hutt.",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 1,
+			"Intellect": 4,
+			"Cunning": 5,
+			"Willpower": 5,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 10,
+			"wounds": 30,
+			"strain": 30
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 3,
+			"Cool": 4,
+			"Deception": 4,
+			"Discipline": 3,
+			"Knowledge: Outer Rim": 2,
+			"Knowledge: Underworld": 4,
+			"Melee": 3,
+			"Negotiation": 5,
+			"Ranged: Light": 3,
+			"Resilience": 8,
+			"Streetwise": 5
+		},
+		"talents": ["Durable 3", "Intimidating 3"],
+		"abilities": ["Awkward", "Ponderous"],
+		"weapons": ["Vibro-ax"],
+		"specialist-weapons": [
+			{
+				"name": "Large-bore laster pistol",
+				"skill": "Ranged: Light",
+				"damage": 9,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			}
+		],
+		"gear": [],
 		"tags": ["underworld", "hutt"]
 	},
 	{
@@ -852,6 +929,35 @@
 		"tags": ["underworld", "smuggler"]
 	},
 	{
+		"name": "Spice Pusher",
+		"type": "Rival",
+		"description": "Perhaps no other underworld figure rivals the spice pusher in terms of sheer antisocial tendencies. Preying on the weak, the helpless, and the addicted, spice pushers are completely without conscience, demanding ever-higher payments for substances that eventually destroy the lives of those who purchase them.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Deception": 3,
+			"Negotiation": 3,
+			"Ranged: Light": 2,
+			"Skulduggery": 3,
+			"Streetwise": 4
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Heavy blaster pistol", "Vibroknife"],
+		"gear": ["Avabush spice", "Death sticks", "Glitterstim"],
+		"tags": ["underworld"]
+	},
+	{
 		"name": "Street Tough",
 		"type": "Minion",
 		"description": "In cities across the galaxy there are any number of petty criminals, from pickpockets and back-ally spice dealers to muggers and murderers. Discontent with the notion of earning an honest wage, these street toughs instead prefer to survive on whatever they can take from passers-by, preferably in the form of credits or small, easily liquidated electronic goods like data­ pads and comlinks. Street toughs occasionally work as individuals, if they possess sufficient skill, but more often work in small gangs so that they can coopera­tively locate and target the best marks. However, these individuals are often badly equipped and pitiful in comparison to real gangs.",
@@ -883,7 +989,7 @@
 	{
 		"name": "Sullustan Pilot-for-Hire",
 		"type": "Rival",
-		"description": "There are always those who love to fly, but are unwill­ing or unable to accept the rigid discipline and strict protocols of consistent flying for the military or for a corporation. Many become pilots-for-hire, selling their considerable skills to anyone willing to pay them to do what they love climbing into the cockpit of a starship and taking to the hyperlanes. Sullustans of­ ten fall into this category. These short humanoids evolved in underground conditions and have an in­ nate pathfinding ability as well as extremely sensitive sensory organs. Many use these abilities to become skilled navigators or talented starship pilots.",
+		"description": "There are always those who love to fly, but are unwill­ing or unable to accept the rigid discipline and strict protocols of consistent flying for the military or for a corporation. Many become pilots-for-hire, selling their considerable skills to anyone willing to pay them to do what they love climbing into the cockpit of a starship and taking to the hyperlanes. Sullustans of­ ten fall into this category. These short humanoids evolved in underground conditions and have an in­nate pathfinding ability as well as extremely sensitive sensory organs. Many use these abilities to become skilled navigators or talented starship pilots.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 2,
