@@ -97,7 +97,7 @@
 	},
 	{
 		"name": "Blooded",
-		"description": ""
+		"description": "Add :boost::boost: to all checks to resist or recover from venoms, poisons, and toxins; reduce duration of ongoing effects from poisons, venoms, and toxins by two rounds, to a minimum of one."
 	},
 	{
 		"name": "Body Guard",
@@ -1157,7 +1157,7 @@
 	},
 	{
 		"name": "Rapid Reaction",
-		"description": ""
+		"description": "May suffer 1 Strain to add :success: to any Vigilance or Cool check to determin initia­tive order."
 	},
 	{
 		"name": "Rapid Recovery",
@@ -1437,7 +1437,7 @@
 	},
 	{
 		"name": "Stunning Blow",
-		"description": ""
+		"description": "May inflict damage as Strain instead of Wounds; does not ignore soak"
 	},
 	{
 		"name": "Stunning Blow [Improved]",
@@ -1469,7 +1469,7 @@
 	},
 	{
 		"name": "Swift",
-		"description": ""
+		"description": "Do not suffer usual pen­alties for moving through difficult terrain."
 	},
 	{
 		"name": "Tactical Combat Training",

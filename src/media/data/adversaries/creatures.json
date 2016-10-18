@@ -1,5 +1,89 @@
 [
 	{
+		"name": "Chemilizard",
+		"type": "Rival",
+		"description": "Also known as orpali dragons, chemilizards are native Nal Hutta reptiles that can grow to massive size. A typical adult ranges from ten to twenty meters in length and lives deep in the swamps, preying upon any crea­tures or beings that venture near its lair. Chemilizards have evolved the ability to extract nutrients from the planet’s polluted swamps, surviving in conditions that would kill most other creatures.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 20
+		},
+		"skills": {
+			"Brawl": 3,
+			"Resilience": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": ["Acidic Drool", "Silhouette 3"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Toothy bite",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 3"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "hutt space"]
+	},
+	{
+		"name": "Dark Wolf",
+		"type": "Rival",
+		"description": "Said to be deadly servants of the night god Raquor, dark wolves are nocturnal predators of the Sriluurian wilds. The frightening quadruped stands 1.5 meters tall and has thick dark fur, a long stinger-tipped tail, and a thick leathery hide on its back. Its serrated claws can both rend the flesh of its prey and pierce stone to help it navigate the narrow canyon ridges as it hunts the local bandingos. As this silent predator roams the nighttime desert plains, only its menacing yellow eyes glisten in the moonlight.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12
+		},
+		"skills": {
+			"Brawl": 3,
+			"Perception": 1,
+			"Stealth": 2,
+			"Survival": 3,
+			"Vigilance": 1
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Slashing claws",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Disorient 1", "Pierce 1"]
+			},
+			{
+				"name": "Venomous stinger",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 1", "Stun Damage"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "hutt space", "raquor’daan"]
+	},
+	{
 		"name": "Dianoga",
 		"type": "Rival",
 		"description": "The dianoga is a spectacularly unattractive life form native to the planet Vodran in Hutt Space. A type of cephalopod, the dianoga is uniquely suited to camouflaging itself in a number of different environments, a fact that has permitted it to spread far beyond the world of its birth (or even Hutt Space). The creatures are scavengers, living off organic material (primarily waste products) and metabolizing it while leaving behind any mineral content that it might contain. In this regard they are quite useful, and they are generally tolerated as long as they do not make a nuisance of themselves. They can be found in sewer systems and garbage repositories on thousands of worlds, and even aboard larger space stations. Their widespread presence is due to the fact that the larvae of a dianoga is virtually microscopic in size, and thus can make its egress from one location to another very simply.",
@@ -36,7 +120,131 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature"]
+		"tags": ["creature", "dianoga"]
+	},
+	{
+		"name": "Small Dianoga",
+		"type": "Rival",
+		"description": "Dianogas begin life as microscopic larvae feeding on plankton and miniscule bits of refuse. With an abun­dant food source, larval dianogas quickly grow to a larger juvenile stage, consuming larger sources of nutrients. A juvenile can range anywhere from one to four meters in length before reaching adulthood.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Brawl": 2,
+			"Perception": 1,
+			"Stealth": 2,
+			"Survival": 1,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Amphibious", "Crushing Grip"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Tentacles",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Ensnare 3", "Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "dianoga"]
+	},
+	{
+		"name": "Greater Dianoga",
+		"type": "Nemesis",
+		"description": "Though adult dianogas average about five to six meters in length, they continue to grow throughout their lives and can become significantly larger if they have access to a steady food source. In the deep swamps of Vodran, and in the sewers and trash units of its large cities and starships, dianogas can grow to ten meters, or perhaps even larger.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 36,
+			"strain": 20
+		},
+		"skills": {
+			"Brawl": 3,
+			"Perception": 2,
+			"Stealth": 5,
+			"Survival": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Amphibious", "Crushing Grip"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Tentacles",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 4", "Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "dianoga"]
+	},
+	{
+		"name": "Grabworm",
+		"type": "Minion",
+		"description": "Grabworms are four-meter-long arthropods with thick brown carapaces and maws lined with razor-wire teeth. These creatures lash their prey with a pair of long, prehensile tails or ensnare their victims with tentacle-like tongues before drawing them into their gaping mouths. Royal noblemen and Hutt dignitaries often hunt grabworms for sport. Big game hunters visit Toydaria to acquire a pair of the sharp grabworm forelegs to mount on their trophy wall. Toydarian hunters use various parts of a grabworm carcass for food, armor, weaponry, and sale goods.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4
+		},
+		"skills": {
+			"Brawl": 0,
+			"Survival": 0,
+			"Vigilance": 0
+		},
+		"talents": [],
+		"abilities": ["Crushing Grip"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 2"]
+			},
+			{
+				"name": "Lashing appendages",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Ensnare 3", "Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "hutt space", "toydaria"]
 	},
 	{
 		"name": "Gundark",
@@ -77,6 +285,111 @@
 		"tags": ["creature"]
 	},
 	{
+		"name": "Kintan Strider",
+		"type": "Rival",
+		"description": "Now extinct on the planet that gave the Kintan Strider its name, these enormous semisentient beasts were bred for centuries offworld. They can now be found on various planets around the galaxy, where they are most often used as guards by Hutt crime lords. Their incred­ible self-healing properties and the thick layer of fat and hide that covers their bodies make Kintan Striders formidable opponents. Most citizens of the galaxy know the Kintan Strider as a piece in dejarik, around which the tactic of sacrificing it to create long-term opportunities (called the “Kintan Strider Death Gambit”) developed.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 18
+		},
+		"skills": {
+			"Brawl": 2,
+			"Melee": 2,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Durable 5"],
+		"abilities": ["Hard to Kill", "Reckless Strike"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Crude club",
+				"skill": "Melee",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Disorient 1", "Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "hutt space"]
+	},
+	{
+		"name": "Klatooinian Paddy Frog",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 3,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 0,
+			"Stealth": 0,
+			"Survival": 0
+		},
+		"talents": [],
+		"abilities": ["Silhouette 0", "Amphibious"],
+		"weapons": [],
+		"gear": [],
+		"tags": ["creature", "hutt space"]
+	},
+	{
+		"name": "Massiff",
+		"type": "Rival",
+		"description": "Massiffs are armored predators native to Geonosis. Commonly used as guard animals in the Outer Rim, they are up to a meter tall at the shoulder. Massiffs are vicious predators with keen senses and animal cunning, and they are especially dangerous when starving—as these specimens are. Due to their hun­ger, these massiffs continue to maul downed oppo­nents until distracted in some fashion.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 16
+		},
+		"skills": {
+			"Brawl": 3,
+			"Perception": 2,
+			"Stealth": 2,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 3"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "hutt space"]
+	},
+	{
 		"name": "Mynock",
 		"type": "Minion",
 		"description": "Mynocks are disgusting, silicon-based space para­sites that survive by latching onto the hulls of star­ ships and feeding off power cables and other vital systems. About a meter long with wings that could be used in atmosphere. they have spread through­ out the galaxy by hitching rides on passing starships. They absorb matter and energy from their hosts. which can eventually cause sys­tem failure. Mynocks can be found on the surface of several different worlds, although their allergy to helium limits the number of habitats which they can survive.",
@@ -111,6 +424,90 @@
 		],
 		"gear": [],
 		"tags": ["creature"]
+	},
+	{
+		"name": "Photon Spider",
+		"type": "Minion",
+		"description": "Measuring three meters in diameter, the photon spider lives deep within the underground of Varl. It requires no atmosphere, as the crystalline life form does not breathe, and it survives on the veins of aurodium that run through the planet. Thus, anyone engaged in mining this valuable mineral is likely to see one of these creatures sooner or later—and the truly unfortunate might get a closer look.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 7
+		},
+		"skills": {
+			"Athletics": 0,
+			"Brawl": 0,
+			"Resilience": 0,
+			"Vigilance": 0
+		},
+		"talents": [],
+		"abilities": ["Crystalline", "Photonic Burst", "Silhouette 2"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Bladed legs",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "hutt space"]
+	},
+	{
+		"name": "Pybus Amphibipole",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Brawl": 0,
+			"Ranged: light": 0,
+			"Stealth": 0
+		},
+		"talents": [],
+		"abilities": ["Amphibious", "Silhouette 0", "Poisonous"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Tongue",
+				"skill": "Ranged: Light",
+				"damage": 4,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Ensnare", "Slow-Firing 1"]
+			},
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Linked 1", "Pierce 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "hutt space"]
 	},
 	{
 		"name": "Rancor",
@@ -150,6 +547,291 @@
 		],
 		"gear": [],
 		"tags": ["creature"]
+	},
+	{
+		"name": "Rass",
+		"type": "Nemesis",
+		"description": "Even the bravest of Sakiyan hunters are wise to fear and respect the mighty rass. Beneath a thick coat of long, black fur, the rass is a behemoth of pure muscle that can easily eviscerate most sentients with a single swipe of its jagged claws. Its back bristles with dozens of sharp tines that discourage attacks on the crea­ture’s flank. Though it roams the dense forests on all fours, the rass rises to an intimidating height of four meters when it rears back on its hind legs to fight.\n\nRass nest in deforested areas where they can spot threats from far off while they blend in with the charred wood. Sakiyans see a one-on-one battle to the death with a rass as the epitome of demonstrat­ing power and skill, and they often track the monsters back to their lairs to confront them. Traditionally, Saki­yans use the blackened bones of their first rass kill to make blade handles, and they cherish these blades as their most prized possessions.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 20,
+			"strain": 10
+		},
+		"skills": {
+			"Brawl": 2,
+			"Perception": 3,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": ["Barbed Hide", "Silhouette 2"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Deadly fangs",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Knockdown", "Sunder"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "hutt space"]
+	},
+	{
+		"name": "Shaoryn",
+		"type": "Rival",
+		"description": "Shaoryn are ghostly swamp predators that haunt the southern marshes of Toydaria. They appear as a col­lection of wispy, yellow-white lights floating through the swamp, which has earned them the nickname “swamp pixies” among the locals. Beyond their illu­sions and trickery, shaoryn are tall, slender amphib­ians with spongy green bodies and leathery tendrils used to envelop and suck the life out of their prey.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Brawl": 2,
+			"Deception": 4,
+			"Discipline": 2,
+			"Stealth": 3
+		},
+		"talents": ["Adversary 1", "Force Rating 2", "Darkside Force User"],
+		"abilities": ["Drain Life", "Force power: Influence"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Grasping limbs",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Ensnare 3"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "hutt space", "toydaria"]
+	},
+	{
+		"name": "Skuir Fish",
+		"type": "Rival",
+		"description": "Deep within the chilly murk of Sakiya’s oceans lurks the hideous skuir fish. A large, aggressive, sea-going predator with a sleek body and a powerful, fanned tail that carries it through the water, the skuir fish is fast and dangerous. In addition to its toothy maw, a squir fish has four long, razor-tipped appendages on the underside of its body with which it can lash out to seize its prey. All of these factors make it one of the most feared predators in the seas of Sakiya.\n\n Skuir fish average five meters in length, but they have been known to grow much larger in colder, deeper waters. Adult skuir fish are hunted for their meat by harpoon ships on Saki, but the vicious crea­tures claim many crewmembers of the seafaring ves­sels as well. Folklore even tells of a stark-white skuir fish called Oloss Yvae, which is so gigantic that it sinks entire harpoon vessels and swallows their crew whole. Many of lepatap Harbor’s albino exiles see this mythical leviathan as a symbol, a hero that exacts the revenge they desire upon their persecutors.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 18
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Resilience": 2,
+			"Survival": 1
+		},
+		"talents": [],
+		"abilities": ["Aquatic Creature", "Silhouette 2"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Razor pincers",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 5,
+				"range": "Short",
+				"qualities": ["Ensnare", "Pierce 4"]
+			},
+			{
+				"name": "Toothy jaws",
+				"skill": "Brawl",
+				"damage": 11,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Vicious 3"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "hutt space"]
+	},
+	{
+		"name": "Tauntaun",
+		"type": "Rival",
+		"description": "The tauntaun is a bipedal, reptomammalian herbi­vore with a wooly, thick hide, short front legs, and a bone-crested skull framed by a pair of curved horns on either side of its stubby snout. While out on the ice plains, tauntauns survive on a steady diet of frozen algae; within the grottos where tauntauns typically nest, they eat lichen and the abundant plant matter hidden within the caves. For sentient beings traversing Hoth’s frozen fields, tauntauns are ideal mounts due to their even temper and the thick coat of blubber that allows them to survive the biting cold.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": {
+			"Resilience": 3,
+			"Survival": 1,
+			"Vigilance": 1
+		},
+		"talents": [],
+		"abilities": ["Silhouette 2", "Trained Mount 1"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Horns",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "hoth"]
+	},
+	{
+		"name": "The Lost",
+		"type": "Rival",
+		"description": "Not all Hutts fled Varl when the world was deemed lost. Some lesser Hutts, trapped deep underground in slums, were cut off from the evacuation routes and unable to escape. These creatures devolved over the millennia and have become the Lost. Albino, feral creatures, the Lost survive in pockets of air deep underground, harassing and preying on miners work­ ing on Varl. The Lost maintain a great deal of devious cunning even as their rational minds have faded away.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coercion": 2,
+			"Discipline": 2,
+			"Resilience": 5,
+			"Vigilance": 2
+		},
+		"talents": ["Durable 3"],
+		"abilities": ["Awkward", "Ponderous"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": []
+			},
+			{
+				"name": "Diseased bite",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Vicious 4"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "hutt", "hutt space"]
+	},
+	{
+		"name": "Wampa",
+		"type": "Rival",
+		"description": "Wampas are the fearsome alpha predators of Hoth. Their shaggy white hair allows these vicious creatures to perfectly blend with Hoth’s snowy landscape so they can sneak up on their prey undetected. Wampas typically dwell in ice caverns formed by underground hot springs nestled within the tundra, venturing out into the open only when hunting for food. Wampas subsist primarily on tauntauns, and they display a surprising degree of intelligence when stalking their prey. Unlike most carnivores, wampas prefer to cap­ture their prey alive and dangle their future meal from the ceiling of their lair until they are ready to dine on fresh meat.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 20
+		},
+		"skills": {
+			"Brawl": 5,
+			"Resilience": 5,
+			"Stealth": 3,
+			"Survival": 3
+		},
+		"talents": ["Stunning Blow"],
+		"abilities": ["Camouflaged", "Suited to the Cold"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 3", "Vicious 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "hoth"]
+	},
+	{
+		"name": "Vrblthers",
+		"type": "Minion",
+		"description": "Vrblthers are bipedal, carnivorous predators that are distinguished by powerful clawed hands and feet, long tails, and thick leathery hides that range in color from black to dark green to brown. Originally native to Varl, vrblthers were brought to Nar Shaddaa by the Hutts during their emigration to Evocar, the planet that became Nal Hutta. Hutts still make pets of vrblthers, and feral specimens can often be found hunting in packs in the lower reaches of Nar Shaddaa.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 9,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 0,
+			"Brawl": 0,
+			"Resilience,": 0,
+			"Stealth": 0,
+			"Survival": 0
+		},
+		"talents": [],
+		"abilities": ["Olfactory Perception"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Powerful claws",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Knockdown", "Sunder"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "hutt space"]
 	}
 
 

@@ -361,6 +361,99 @@
 		"tags": ["civilian"]
 	},
 	{
+		"name": "Toydarian Farmer",
+		"type": "Minion",
+		"description": "Most Toydarians make their living as subsistence farmers, growing or gathering swamp crops, paying their tithes to the king, and generally trying their best to avoid unwanted attention from the authorities, whether they be local, Hutt, or Imperial. The marshes of their homeworld can be extremely dangerous, but the farmers know them better than anyone else. Thanks to the harsh rule of King Maalva, they are often wary of outsiders, but can be convinced to help wanderers who make a favorable impression.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 4
+		},
+		"skills": {
+			"Athletics": 0,
+			"Melee": 0,
+			"Negotiate": 0,
+			"Survival": 0
+		},
+		"talents": [],
+		"abilities": ["Hoverer", "Silhouette 0"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Farming implement",
+				"skill": "Melee",
+				"damage": 3,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": ["Disorient 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["civilian", "toydarian", "hutt space"]
+	},
+	{
+		"name": "Toydarian Merchant",
+		"type": "Rival",
+		"description": "Despite common stereotypes, not all Toydarians are merchants. Still, as with most sentient species, many Toydarians make their livelihood via commerce on Toydaria and across the span of the galaxy at large.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 10
+		},
+		"skills": {
+
+		},
+		"talents": ["Natural Negotiator", "Nobody’s Fool 1"],
+		"abilities": ["Hoverer", "Silhouette 0"],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Loaded chance cubes", "Dataslate"],
+		"tags": ["civilian", "toydarian", "hutt space"]
+	},
+	{
+		"name": "Toydarian Royal Guard",
+		"type": "Rival",
+		"description": "King Katuunko’s assassination brought superstition and fear into the Toydarian royal court. Fearing repri­sals after the Declaration of the New Order, the royal guard formed an elite brigade tasked with uncovering and eliminating Force users. The king’s royal guards wield specialized weaponry such as cortosis-lined scimitars and train their wills to resist the mystical influ­ence that Force-sensitives wield. Of course, like most galactic citizens, they have a limited actual understand­ ing of Force users and the powers they manifest.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12
+		},
+		"skills": {
+			"Discipline": 4,
+			"Melee": 2,
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Ranged: Hleavy": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Bodyguard"],
+		"abilities": ["Hoverer", "Silhouette 0"],
+		"weapons": ["Blaster rifle", "Cortosis sword", "Frag grenade"],
+		"gear": ["Electro-visor (removes :setback: imposed due to long range or poor light)", "2 Frag grenades", "Padded armour (+2 soak)"],
+		"tags": ["civilian", "toydarian", "hutt space"]
+	},
+	{
 		"name": "Wealthy Noble",
 		"type": "Rival",
 		"description": "The nature of the Core Worlds has created an environment that promotes a caste system, something long ago abandoned by all but the most primitive worlds, but which has come full circle to return to the most “civilized” of worlds in the galaxy. Nobles have little to do other than maintain their vast wealth, the majority of which is gained through inheritance and investment, and most leave the Core only rarely. Younger nobles sometimes have a taste for excitement and adventure, however, and occasionally venture out to see the galaxy and experience how the lesser beings live. Most of these young nobles are capricious and largely without compassion, but a handful occasionally find the plight of the galaxy deplorable enough to find a way to discreetly offer their assistance to the Alliance. Such patrons are rare, but extremely valuable to the Rebels, who court them as much as they can without compromising their political and military agendas.",

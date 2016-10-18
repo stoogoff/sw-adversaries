@@ -27,6 +27,34 @@
 		"tags": ["droid"]
 	},
 	{
+		"name": "Ancient Hutt Security Droid",
+		"type": "Rival",
+		"description": "These security droids date back to the time when Hutts inhabited their homeworld, Varl, and evoke the shape of their Hutt masters.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 10,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Melee": 2,
+			"Ranged: Heavy": 2,
+			"Vigilance": 3
+		},
+		"talents": [],
+		"abilities": ["Droid", "Huttese"],
+		"weapons": ["Blaster carbine", "Vibrosword"],
+		"gear": [],
+		"tags": ["droid", "hutt space", "security"]
+	},
+	{
 		"name": "Antiquated Battle Droid",
 		"type": "Minion",
 		"description": "The most frequently encountered droid of this type is the B1 battle droid produced by Baktoid Combat Au­tomata. A generation ago, these frail-looking droids were the terror of the galaxy. Legions of them formed the Separatist armies during the Clone Wars but the intervening years have not been kind to their design, which was inexpensive to begin with. Although no rep­ utable military still employs these droids in number, they can be found in limited quantities in the forces of crime lords, mercenaries, and various other ne’er-do­-wells throughout the underbelly of the galaxy.",

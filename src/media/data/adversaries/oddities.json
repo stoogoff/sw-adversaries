@@ -1,0 +1,29 @@
+[
+	{
+		"name": "T'landa Til Charlatan",
+		"type": "",
+		"description": "Originally hailing from Varl, t’landa Til are massive sentient quadrupeds distantly related to the Hutts. Til possess thick, trunk­ like legs, a thin whip of a tail, and two slen­der arms. The t ’landa Til are not as wealthy or powerful as the Hutts, and many of them serve the Hutts in various capacities.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 20
+		},
+		"skills": {
+			"Brawl": 1,
+			"Charm": 3,
+			"Deception": 3
+		},
+		"talents": ["Blooded 2"],
+		"abilities": ["Humming Vibrations"],
+		"weapons": [],
+		"gear": [],
+		"tags": ["galactic oddity", "hutt space"]
+	}
+]

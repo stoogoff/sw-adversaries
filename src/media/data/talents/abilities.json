@@ -1,5 +1,9 @@
 [
 	{
+		"name": "Acidic Drool",
+		"description": "As an incidental, spend a dark side Destiny Point to give the toothy bite weapon the Burn 2 quality until the end of the chemilizard’s turn; this is a chemical burn."
+	},
+	{
 		"name": "Alliance Leader",
 		"description": "Alliance operatives add :boost: to all Vigilance and Perception checks when in the NPC’s presence."
 	},
@@ -8,8 +12,32 @@
 		"description": "May breathe underwater without penalty and never suffer movement penalties for traveling through water."
 	},
 	{
+		"name": "Aquatic Creature",
+		"description": "Suffers no penalties for moving through water and can breathe underwater, but cannot move or survive on land."
+	},
+	{
 		"name": "Awkward",
 		"description": "Hutts have great physical strength but their bulk imposes severe limitations in flexibility and agility; they add :setback::setback::setback: to all Brawl, Melee, and Coordination checks they’re required to make."
+	},
+	{
+		"name": "Barbed Hide",
+		"description": "When the rass is hit by a melee attack, the GM can spend :threat::threat: to inflict 1 Wound (ignoring Soak) on the attacker."
+	},
+	{
+		"name": "Brute Strength",
+		"description": "May add :advantage: to all Brawn-related skill checks."
+	},
+	{
+		"name": "Blessing of the Ancients",
+		"description": "Once per game session as an incidental, the elder may have a charac­ter within Short range heal 4 wounds."
+	},
+	{
+		"name": "Bite at Their Heels",
+		"description": "When engaged with a target, allies receive :boost: to combat checks made against the engaged target."
+	},
+	{
+		"name": "Camouflaged",
+		"description": "When in snowy environ­ ments, add :boost::boost: to ail Stealth checks."
 	},
 	{
 		"name": "Covering Fire",
@@ -21,7 +49,19 @@
 	},
 	{
 		"name": "Crushing Grip",
-		"description": "A dianoga has many tentacles and can maintain a grip with some while attacking with others; as long as it has a victim immobilized by its tentacles, it inflicts 2 Strain and 1 Wound at the start of the victim’s turn; as dianoga is an aquatic creature, and a target immobilized beneath the surface may well start drowning—see Suffocation on AoR page 228 for more information."
+		"description": "Can maintain a grip on an unfortunate target; as long as it has a victim immobilized in its tentacles, it inflicts 2 strain and 1 wound at the start of the victim’s turn."
+	},
+	{
+		"name": "Crystalline",
+		"description": "Does not need to breathe and can survive in vacuum and underwater; immune to poisons and toxins"
+	},
+	{
+		"name": "Cybernetic Communications",
+		"description": "Due to their cybernetic modifications, Ganks can communicate silently with other Ganks."
+	},
+	{
+		"name": "Drain Life",
+		"description": "Whenever a shaoryn inflicts damage on a target after Soak, it heals half that many wounds (rounded up)."
 	},
 	{
 		"name": "Droid",
@@ -56,6 +96,10 @@
 		"description": "For each Imperial Gunnery Corps member in the minion group beyond the first, reduce the Cumbersome rating of their weapons by 1."
 	},
 	{
+		"name": "Hard to Kill",
+		"description": "The GM may flip one dark side Destiny Point to have the Kintan Strider heal 5 Wounds"
+	},
+	{
 		"name": "Helium Allergy",
 		"description": "When exposed to helium mynocks suffer 1 Wound per round ignoring Soak until their bodies inflate and explode."
 	},
@@ -64,12 +108,24 @@
 		"description": "When hovering the character does not have to spend additional maneuvers when navigating difficult terrain."
 	},
 	{
+		"name": "Huttese",
+		"description": "Hutt security droid neither speaks nor understands Basic."
+	},
+	{
+		"name": "Humming Vibrations",
+		"description": "As an action, may make an Opposed Charm vs. Discipline check against a target at up to Medium range to disorient the target for a number of rounds equal to :success:; may spend :advantage::advantage::advantage: or :triumph: to stag­ger the target for 1 round instead."
+	},
+	{
 		"name": "Imperial Valour",
 		"description": "May perform a maneuver to cause all ranged attacks targeting the character to instead hit one ally or helpless enemy in Engaged range, until the beginning of his next turn."
 	},
 	{
 		"name": "Improved Covering Fire",
 		"description": "When allied minion groups within Short range perform the Covering Fire maneuver, they add +2 ranged defense instead."
+	},
+	{
+		"name": "Loyalty",
+		"description": "Upgrade the difficulty of social checks targeting the Vodran enforcer once if they conflict with the Vodran enforcer’s loyalty or interfere with his duty to his Hutt masters."
 	},
 	{
 		"name": "Leader",
@@ -84,12 +140,32 @@
 		"description": "The Imperial assassin has multiple doses of neurotoxin, which can be introduced into food or drink, or applied to a Melee weapon as a maneuver; if applied to a weapon, it lasts for the remainder of the encounter; if a target ingests poisoned food or drink, or suffers wounds from a poisoned Melee weapon, the target must make an :average: Resilience check; if failed, the target suffers 5 Wounds, plus 1 Strain per :threat:; :despair: means the target must test against the poison again at the start of the next turn."
 	},
 	{
+		"name": "Olfactory Perception",
+		"description": "Gain :boost: on all Sur­vival checks made to track prey, and adds :setback: to enemy Stealth checks made against the vrblthers."
+	},
+	{
+		"name": "Pheromone Communication",
+		"description": "Weequay may communicate with other Weequay using pheromones if they are within Short range of each other."
+	},
+	{
+		"name": "Poisonous",
+		"description": "Any creature that successfully hits the amphibipole with a successful unarmed attack must succeed at a :hard: Resilience check or be poisoned, suffering 3 Wounds at the beginning of the turn for the next three rounds (this ignores Soak)."
+	},
+	{
 		"name": "Ponderous",
 		"description": "Hutts can never spend more than one maneuver moving per turn."
 	},
 	{
+		"name": "Photonic Burst",
+		"description": "Once per encoun­ter as an action, photon spider can unleash a pulse of light from its body; all targets within Short range are disoriented for two turns."
+	},
+	{
 		"name": "Pirate Leader",
 		"description": "May perform a maneuver to give orders to other pirate allies in Medium range, granting them :boost: on their next check."
+	},
+	{
+		"name": "Reckless Strike",
+		"description": "As an incidental, once per round, the GM may have the Kintan Strider reroll a Brawl or Melee check; if he does so, the Kintan Strider loses the benefits of the Adversary and Durable talents until the beginning of its next turn."
 	},
 	{
 		"name": "Self-destruct Mechanism",
@@ -112,6 +188,14 @@
 		"description": "Spaceport staff add :boost: to all Vigilance and Perception checks when in the Spaceport Administrator’s presence."
 	},
 	{
+		"name": "Stinky",
+		"description": "While within Short range of a Huttlet, non-Hutt char­acters reduce their Strain thresholds by 2."
+	},
+	{
+		"name": "Suited to the Cold",
+		"description": "Wampas are immune to the effects of freezing and cold environments."
+	},
+	{
 		"name": "Sweep Attack",
 		"description": "The rancor can spend :triumph: on a successful Brawl check to hit the target as well as anyone engaged with the target."
 	},
@@ -124,6 +208,10 @@
 		"description": "May perform a maneuver to direct one Imperial Army minion group within Medium range; the group may perform an immediate free maneuver or add :boost: to its next check."
 	},
 	{
+		"name": "Trained Mount",
+		"description": "Add :boost: per rank to a rider’s Survival checks while mounted."
+	},
+	{
 		"name": "Overwhelming Fire",
 		"description": "May perform a maneuver to direct one Imperial Army minion group within Medium range; the group may perform an immediate free combat check action."
 	},
@@ -134,5 +222,26 @@
 	{
 		"name": "Wookiee Rage",
 		"description": "Deal +1 damage with Brawl and Melee attacks when suffering any Wounds. When suffering a Critical Injury, deal +2 damage with Brawl and Melee at­tacks instead."
+	},
+	{
+		"name": "Mountain Nikto",
+		"description": "Add 1 rank in Sur­vival and the Natural Outdoorsman talent (once per game session, a Mountain Nikto may reroll any one Resilience or Survival check)."
+	},
+	{
+		"name": "Pale Nikto",
+		"description": "Add 1 rank in Athlet­ics. A Pale Nikto never suffers movement penalties for traveling through water and can hold his breath for a number of rounds equal to twice his Brawn rating before beginning to drown."
+	},
+	{
+		"name": "Green Nikto",
+		"description": "Add 1 rank in Coordination and a Green Nikto may add :boost: to checks to climb. Additionally, add claws as an unarmed attack."
+	},
+	{
+		"name": "Red Nikto",
+		"description": "Add 1 rank in Resilience. When making skill checks, a Red Nikto may remove :setback: imposed due to arid or hot environmental conditions."
+	},
+	{
+		"name": "Southern Nikto",
+		"description": "Add 1 rank in Perception. A Southern Nikto may add :boost: to Perception and Vigilance checks to detect sound."
 	}
+
 ]
