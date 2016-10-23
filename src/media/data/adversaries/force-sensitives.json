@@ -1,5 +1,43 @@
 [
 	{
+		"name": "Emperor’s Hand",
+		"type": "Nemesis",
+		"description": "One of the Emperor's Hands would be the most horrifying, panic-induc­ing opponent that an individual could face–if anyone knew that the Emperor’s Hands existed. fortunately for the Hands, however, they are completely unknown to the gala xy at large and, in many cases, even to each other; more than one member of the Hands believes that he or she is the only Emperor's Hand, which is how the Emperor prefers his operatives to operate. The Emperor's Hands operate in absolute secrecy, often sent on missions by the Emperor himself. Members of the Emperor's Hands almost invariably possess Force abilities and the will to use them.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 5,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 18,
+			"strain": 20,
+			"defence": [2, 3]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Charm": 3,
+			"Cool": 3,
+			"Deception": 3,
+			"Knowledge: Core Worlds": 3,
+			"Melee": 3,
+			"Perception": 2,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 3,
+			"Stealth": 3,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 3", "Intense Focus", "Stalker 2", "Uncanny Senses 2", "Force Rating 2"],
+		"abilities": ["Force power: Influence", "Darkside Force User"],
+		"weapons": ["Disruptor pistol", "Vibrosword", "Frag grenade"],
+		"gear": ["1 Frag grenade"],
+		"tags": ["force sensitive", "empire"]
+	},
+	{
 		"name": "Forsaken Jedi",
 		"type": "Nemesis",
 		"description": "The Jedi are an ancient order whose light has essentially disappeared from the galaxy. As far as the vast majority of the galaxy is concerned, the Jedi are extinct and their ancient ways were prone to treachery and failure. This is what the Empire has told the people of the galaxy and many believe it. The truth, while not far from the story, is not entirely the same. A handful of Jedi survived the purge that accompanied the birth of the Empire. Most died in subsequent years, but a few remain in hiding. And there are a few whom the Empire never bothered to hunt. Those who fall into this last category are haunted by their failures and by the fact that they are not even enough of a threat to warrant the Empire’s attention. Most have succumbed to self-pity and vice of one form or another If they do not already embrace the dark side, they are not far from doing so.",
@@ -72,5 +110,4 @@
 		"gear": ["Jedi Robes (+1 soak)"],
 		"tags": ["force sensitive", "jedi"]
 	}
-
 ]

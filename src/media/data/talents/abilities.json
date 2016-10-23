@@ -8,6 +8,10 @@
 		"description": "Alliance operatives add :boost: to all Vigilance and Perception checks when in the NPC’s presence."
 	},
 	{
+		"name": "Ammonia Breather",
+		"description": "Breathes ammonia, must use a respirator, and if exposed to oxygen, treats it as a dangerous atmosphere with rating 8."
+	},
+	{
 		"name": "Amphibious",
 		"description": "May breathe underwater without penalty and never suffer movement penalties for traveling through water."
 	},

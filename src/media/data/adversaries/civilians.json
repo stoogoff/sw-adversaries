@@ -147,6 +147,36 @@
 		"tags": ["civilian"]
 	},
 	{
+		"name": "Hyperlane Scout",
+		"type": "Rival",
+		"description": "As vast as the Empire is, it is dwarfed by the galaxy as a whole. Though many hyperlanes great and small have been established, there are countless routes between the stars waiting to be discovered. It is in the unknown spaces at the edges of the charts and beyond that hyperlane scouts ply their trade. These brave souls are always looking for the next unexplored planet or unmapped star route, and many of them are willing to go to an length to be the first to stake their claim to the rights-of-discovery of new ways or worlds.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Astrogation": 3,
+			"Gunnery": 2,
+			"Knowledge: Outer Rim": 2,
+			"Mechanics": 2,
+			"Piloting: Space": 3,
+			"Ranged: Light": 1
+		},
+		"talents": ["Galaxy Mapper 3"],
+		"abilities": [],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Datapad", "Scout ship"],
+		"tags": ["civilian"]
+	},
+	{
 		"name": "Physician",
 		"type": "Rival",
 		"description": "Although there are certain cultures that strongly emphasize and specialize in medical training, for the most part, the finest medical academies and universities in the galaxy can be found in the Core Worlds. The physicians, surgeons, and specialists of the Core Worlds are among the best in existence, far better than the admittedly gifted and more commonly employed medical droids. Because of their reputation, Core World physicians are sometimes found in other regions of the galaxy, either because they are hired by the incredibly wealthy or because they are on a mission of mercy to the poorer planets and systems of the Mid Rim and Outer Rim Territories.",
@@ -172,6 +202,75 @@
 		"weapons": [],
 		"gear": ["Bacta", "Medpack", "Synthskin"],
 		"tags": ["civilian", "medic"]
+	},
+	{
+		"name": "Podracer Pilot",
+		"type": "Rival",
+		"description": "Podracer pilots risk death every time they strap themselves into their antigravity repulsorcraft towed by enormous turbine engines. The highly dangerous races see Podracers streaking along remote courses at blistering speeds. Outlawed by the Empire, Pordracing is a clandestine activity that makes its participants criminals by definition.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 11
+		},
+		"skills": {
+			"Cool": 3,
+			"Mechanics": 3,
+			"Piloting: Planetary": 4,
+			"Streetwise": 2
+		},
+		"talents": ["Full Throttle", "Skilled Jockey 1"],
+		"abilities": [],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Toolkit", "Podracer"],
+		"tags": ["civilian", "pilot"]
+	},
+	{
+		"name": "Gand Findsman",
+		"type": "Rival",
+		"description": "While seldom seen beyond their homeworld, Gand findsmen are some of the most skilled trackers and hunters in the galaxy. Their almost supernatural ability to track targets through the ammonia mists of Gand leaves many to mutter that the findsmen have a connection to the Force. In reality, most findsmen benefit from keen senses combined with an analytical mind, not a mystical sensing ability. This lets them read their targets’ intentions in the smallest clues, from a single footprint to a broken branch.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 16
+		},
+		"skills": {
+			"Athletics": 2,
+			"Coordination": 2,
+			"Melee": 2,
+			"Perception": 3,
+			"Ranged: Heavy": 2,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Expert Tracker 2"],
+		"abilities": ["Ammonia Breather"],
+		"weapons": ["Vibroknife"],
+		"specialist-weapons": [
+			{
+				"name": "Scoped blaster rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Stun Setting", "Sniper Shot"]
+			}
+		],
+		"gear": ["Macrobinoulars"],
+		"tags": ["civilian", "gand", "bounty hunter"]
 	},
 	{
 		"name": "Planetary Defence Trooper",
@@ -328,6 +427,38 @@
 		"tags": ["civilian", "security"]
 	},
 	{
+		"name": "Sullustan Pilot-for-Hire",
+		"type": "Rival",
+		"description": "There are always those who love to fly, but are unwill­ing or unable to accept the rigid discipline and strict protocols of consistent flying for the military or for a corporation. Many become pilots-for-hire, selling their considerable skills to anyone willing to pay them to do what they love climbing into the cockpit of a starship and taking to the hyperlanes. Sullustans of­ ten fall into this category. These short humanoids evolved in underground conditions and have an in­nate pathfinding ability as well as extremely sensitive sensory organs. Many use these abilities to become skilled navigators or talented starship pilots.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 11
+		},
+		"skills": {
+			"Astrogation": 4,
+			"Cool": 1,
+			"Gunnery": 2,
+			"Ranged: Light": 1,
+			"Perception": 5,
+			"Piloting: Planetary": 3,
+			"Piloting: Space": 3,
+			"Survival": 1
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Padded flight suit (+1 soak)"],
+		"tags": ["civilian", "sullustan", "pilot"]
+	},
+	{
 		"name": "Spaceport Administrator",
 		"type": "Nemesis",
 		"description": "On some worlds, a spaceport is like a tiny kingdom unto itself. On others, it is merely one cog in a vast bureaucratic machine that spans entire systems. Re­gardless, the ultimate authority for the administration of a spaceport typically falls to a single being, at least in the short term, and that individual is authorized to make whatever decisions must be made for the good of the installation when trouble arises. A spaceport ad­ministrator can be an incredible ally for a pilot and his crew or he can make their lives so miserable that they avoid certain spaceports at all cost.",
@@ -452,6 +583,43 @@
 		"weapons": ["Blaster rifle", "Cortosis sword", "Frag grenade"],
 		"gear": ["Electro-visor (removes :setback: imposed due to long range or poor light)", "2 Frag grenades", "Padded armour (+2 soak)"],
 		"tags": ["civilian", "toydarian", "hutt space"]
+	},
+	{
+		"name": "Ugnaught Mechanic",
+		"type": "Minion",
+		"description": "Indefatigable workers, Ugnaughts have been taken to the ends of the galaxy by slavers who exploit their work ethic. Even enslaved, the Ugnaughts have not forgotten the customs of their society, relying on a rich oral tradition to keep their heritage alive.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 3
+		},
+		"skills": {
+			"Athletics": 0,
+			"Mechanics": 0,
+			"Resilience": 0
+		},
+		"talents": [],
+		"abilities": ["Silhouette 0", "Stubborn and Dependable"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Giant hydrospanner",
+				"skill": "Melee",
+				"damage": 3,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"gear": ["Durable clothing (+1 soak)", "Tool kit", "Utility belt"],
+		"tags": ["creature"]
 	},
 	{
 		"name": "Wealthy Noble",

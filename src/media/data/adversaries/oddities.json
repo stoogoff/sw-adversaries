@@ -25,5 +25,132 @@
 		"weapons": [],
 		"gear": [],
 		"tags": ["galactic oddity", "hutt space"]
+	},
+	{
+		"name": "Morgukai Adept",
+		"type": "Nemesis",
+		"description": "The Morgukaiwerecomprised entirely of Kajain’sa’Nikto males, who passed down their traditions from father to son and practiced a specialized form of martial arts that made them dangerous foes, even for a Jedi Knight. The Morgukai employed an arsenal of esoteric weap­onry and armor crafted with cortosis ore to make it resistant to the favored weapon of the Jedi—the lightsaber. Though they are widely thought to be extinct like the Jedi they once hunted, it is rumored that a few Morgukai persist and practice their art in secret.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 18,
+			"strain": 15,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Cool": 1,
+			"Deception": 2,
+			"Discipline": 1,
+			"Melee": 3,
+			"Resilience": 1,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Lethal Blows 2"],
+		"abilities": ["Red Nikto"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Modded cortosis staff",
+				"skill": "Melee",
+				"damage": 8,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Cortosis", "Defensive 1"]
+			}
+		],
+		"gear": ["Cortosis armour (+2 soak, +1 defence, Cortosis)"],
+		"tags": ["galactic oddity", "nikto", "hutt space"]
+	},
+	{
+		"name": "Evocii",
+		"type": "Minion",
+		"description": "The Evocii are a primitive humanoid species who were evicted from their home planet, Evocar (renamed Nal Hutta), by the Hutts in roughly 1 5,000 BBY. The Evo­cii were relocated to Nar Shaddaa, where the Hutts used their slave labor to build the cities of the Smug­gler’s Moon. The few who survived the hard labor and prolonged exposure to Nar Shaddaa’s atmosphere retreated to the moon’s lower levels. There, centuries of pollution exposure and inbreeding have led to their becoming a wracked and sickly species.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": {
+			"Coordination": 0,
+			"Survival": 0,
+			"Vigilance": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Scrap crossbow",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 5,
+				"range": "Medium",
+				"qualities": ["Inferior", "Vicious 1"]
+			}
+		],
+		"gear": ["Heavy clothing (+1 soak)"],
+		"tags": ["galactic oddity", "hutt space"]
+	},
+	{
+		"name": "Klatooinian Elder",
+		"type": "Nemesis",
+		"description": "The Council of Elders controls all internal affairs on Kla­tooine. Each elder serves for life and is selected based on age and experience, as well on performance in a series of debates intended to test the elder’s knowl­edge of Klatooinian myths and cultural traditions. The Council of Elders also the guards Klatooine’s holy sites, including the Fountain of Ancients, and its members are thus literate in the language of the Klatooinians.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 16,
+			"strain": 20
+		},
+		"skills": {
+			"Charm": 1,
+			"Coercion": 2,
+			"Cool": 2,
+			"Deception": 2,
+			"Dis­cipline": 5,
+			"Knowledge: Lore": 4,
+			"Leadership": 5,
+			"Melee": 1,
+			"Negotiate": 2,
+			"Vigilance": 5
+		},
+		"talents": ["Adversary 2", "Inspiring Rhetoric", "Nobody’s Fool 2", "Plausible Deniability 2"],
+		"abilities": ["Blessing of the Ancients"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Ceremonial shamshir",
+				"skill": "Melee",
+				"plus-damage": 2,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 1", "Vicious 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["galactic oddity", "klatooinian", "hutt space"]
 	}
 ]

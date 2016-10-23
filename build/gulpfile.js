@@ -51,7 +51,7 @@ gulp.task("transpile-js", function() {
 
 // merge folders of json data into a single file
 gulp.task("merge-data", function() {
-	var mapped = ["adversaries", "qualities", "talents"].map(function(m) {
+	var mapped = ["adversaries", "qualities", "talents", "vehicles"].map(function(m) {
 		return gulp.src(path.src("media/data/" + m + "/*.json")).pipe(combine(m + ".json", function(data, metaData) {
 			var output = [];
 

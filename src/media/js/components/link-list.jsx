@@ -7,7 +7,7 @@ export default class LinkList extends React.Component {
 	handler(evt) {
 		var id = evt.target.getAttribute("data-target");
 
-		dispatcher.dispatch(CONFIG.VIEW_ADVERSARY, id);
+		dispatcher.dispatch(CONFIG.VIEW_OBJECT, id);
 	}
 
 	render() {

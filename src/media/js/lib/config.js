@@ -1,3 +1,3 @@
 
-export const VIEW_ADVERSARY = "view-adversary"
+export const VIEW_OBJECT = "view-object"
 export const FILTER_MENU = "filter-menu";

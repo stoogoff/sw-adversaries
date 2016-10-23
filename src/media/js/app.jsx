@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import DataStore from "lib/data-store";
 import dispatcher from "lib/dispatcher";
 import Character from "components/character";
+import Vehicle from "components/vehicle";
 import LinkList from "components/link-list";
 import Filter from "components/filter";
 import { keys } from "lib/utils";
@@ -15,14 +16,14 @@ class App extends React.Component {
 		super(props);
 
 		this.state = {
-			adversary: null,
-			adversaries: null,
+			selected: null,
+			list: null,
 			filter: ""
 		};
 		this.events = {};
 		this.stores = {};
 
-		["skills", "adversaries", "weapons", "talents", "qualities"].forEach(key => {
+		["skills", "adversaries", "weapons", "talents", "qualities", "vehicles", "vehicle-weapons"].forEach(key => {
 			this.stores[key] = new DataStore(`media/data/${key}.json`);
 			this.stores[key].load();
 		});
@@ -31,22 +32,25 @@ class App extends React.Component {
 	componentDidMount() {
 		this.events["adversaries"] = this.stores.adversaries.on("change", () => {
 			this.setState({
-				adversary: this.stores.adversaries.get(0),
-				adversaries: this.stores.adversaries.all(),
+				selected: this.stores.adversaries.get(0),
+				list: this.stores.adversaries.all(),
 				filter: this.state.filter
 			});
 		});
+		this.events["vehicles"] = this.stores.vehicles.on("change", () => {
+			this.stores.adversaries.concat(this.stores.vehicles.all());
+		});
 
 		keys(this.stores).forEach(key => {
-			if(key != "adversaries") {
+			if(key != "adversaries" && key != "vehicles") {
 				this.events[key] = this.stores[key].on("change", () => this.forceUpdate());
 			}
 		});
 
-		dispatcher.register(CONFIG.VIEW_ADVERSARY, id => {
+		dispatcher.register(CONFIG.VIEW_OBJECT, id => {
 			this.setState({
-				adversary: this.stores.adversaries.all().find(a => a.id == id),
-				adversaries: this.state.adversaries,
+				selected: this.stores.adversaries.all().find(a => a.id == id),
+				list: this.state.list,
 				filter: this.state.filter
 			});
 		});
@@ -61,8 +65,8 @@ class App extends React.Component {
 			}
 
 			this.setState({
-				adversary: adversaries.length == 1 ? adversaries[0] : this.state.adversary,
-				adversaries: adversaries,
+				selected: adversaries.length == 1 ? adversaries[0] : this.state.selected,
+				list: adversaries,
 				filter: filter
 			});
 		});
@@ -75,14 +79,25 @@ class App extends React.Component {
 	render() {
 		let x = this.state.adversaries != null ? this.state.adversaries.length : 0;
 		let y = this.stores.adversaries !=null ? this.stores.adversaries.all().length : 0;
+		let centrePanel = null;
+
+		if(this.state.selected == null) {
+
+		}
+		else if(["Minion", "Rival", "Nemesis"].indexOf(this.state.selected.type) != -1) {
+			centrePanel = <Character character={ this.state.selected } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } />;
+		}
+		else {
+			centrePanel = <Vehicle vehicle={ this.state.selected } weapons={ this.stores["vehicle-weapons"] } />
+		}
 
 		return <div>
 			<div id="navigation" className="column small">
 				<Filter filter={ this.state.filter } />
 				<p><small>Showing { x } of { y }.</small></p>
-				<LinkList data={ this.state.adversaries } selected={ this.state.adversary != null ? this.state.adversary.id : "" } />
+				<LinkList data={ this.state.list } selected={ this.state.selected != null ? this.state.selected.id : "" } />
 			</div>
-			<Character skills={ this.stores.skills } character={ this.state.adversary } weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } />
+			{ centrePanel }
 		</div>;
 	}
 }
