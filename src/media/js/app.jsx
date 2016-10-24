@@ -79,17 +79,6 @@ class App extends React.Component {
 	render() {
 		let x = this.state.adversaries != null ? this.state.adversaries.length : 0;
 		let y = this.stores.adversaries !=null ? this.stores.adversaries.all().length : 0;
-		let centrePanel = null;
-
-		if(this.state.selected == null) {
-
-		}
-		else if(["Minion", "Rival", "Nemesis"].indexOf(this.state.selected.type) != -1) {
-			centrePanel = <Character character={ this.state.selected } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } />;
-		}
-		else {
-			centrePanel = <Vehicle vehicle={ this.state.selected } weapons={ this.stores["vehicle-weapons"] } />
-		}
 
 		return <div>
 			<div id="navigation" className="column small">
@@ -97,7 +86,7 @@ class App extends React.Component {
 				<p><small>Showing { x } of { y }.</small></p>
 				<LinkList data={ this.state.list } selected={ this.state.selected != null ? this.state.selected.id : "" } />
 			</div>
-			{ centrePanel }
+			<Character character={ this.state.selected } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } />
 		</div>;
 	}
 }
