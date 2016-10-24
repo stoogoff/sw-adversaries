@@ -988,7 +988,13 @@
 		},
 		"skills": {
 			"Deception": 2,
-			"Knowledge: All": 2,
+			"Knowledge: Core Worlds": 2,
+			"Knowledge: Education": 2,
+			"Knowledge: Lore": 2,
+			"Knowledge: Outer Rim": 2,
+			"Knowledge: Underworld": 2,
+			"Knowledge: Warfare": 2,
+			"Knowledge: Xenology": 2,
 			"Perception": 2,
 			"Vigilance": 1
 		},

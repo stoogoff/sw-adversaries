@@ -146,11 +146,6 @@
 		"type": "General"
 	},
 	{
-		"name": "Knowledge: All",
-		"characteristic": "Intellect",
-		"type": "Knowledge"
-	},
-	{
 		"name": "Knowledge: Core Worlds",
 		"characteristic": "Intellect",
 		"type": "Knowledge"

@@ -4,7 +4,6 @@ import ReactDOM from "react-dom";
 import DataStore from "lib/data-store";
 import dispatcher from "lib/dispatcher";
 import Character from "components/character";
-import Vehicle from "components/vehicle";
 import LinkList from "components/link-list";
 import Filter from "components/filter";
 import { keys } from "lib/utils";
@@ -23,7 +22,7 @@ class App extends React.Component {
 		this.events = {};
 		this.stores = {};
 
-		["skills", "adversaries", "weapons", "talents", "qualities", "vehicles", "vehicle-weapons"].forEach(key => {
+		["skills", "adversaries", "weapons", "talents", "qualities"].forEach(key => {
 			this.stores[key] = new DataStore(`media/data/${key}.json`);
 			this.stores[key].load();
 		});
@@ -37,12 +36,9 @@ class App extends React.Component {
 				filter: this.state.filter
 			});
 		});
-		this.events["vehicles"] = this.stores.vehicles.on("change", () => {
-			this.stores.adversaries.concat(this.stores.vehicles.all());
-		});
 
 		keys(this.stores).forEach(key => {
-			if(key != "adversaries" && key != "vehicles") {
+			if(key != "adversaries") {
 				this.events[key] = this.stores[key].on("change", () => this.forceUpdate());
 			}
 		});
