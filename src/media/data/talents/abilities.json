@@ -76,6 +76,10 @@
 		"description": "As a maneuver once per encounter, may add :threat: to all subsequent Cool and Discipline checks made by enemies within Medium range for the remainder of the encounter."
 	},
 	{
+		"name": "Duracrete Plating",
+		"description": "Melee and ranged attacks targeting it gain :setback: due to its armored carapace (included in Defence rating); characters may aim to hit weak spots and ignore 1 Soak."
+	},
+	{
 		"name": "Energy Parasite",
 		"description": "Mynocks can make an :average: Coordination check to latch onto any starship or vehicle they are engaged with. Ships or vehicles with a mynock attached suffer 1 System Strain per mynock each day and reduce their han­dling by 1."
 	},

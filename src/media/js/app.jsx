@@ -73,7 +73,7 @@ class App extends React.Component {
 	}
 
 	render() {
-		let x = this.state.adversaries != null ? this.state.adversaries.length : 0;
+		let x = this.state.list != null ? this.state.list.length : 0;
 		let y = this.stores.adversaries !=null ? this.stores.adversaries.all().length : 0;
 
 		return <div>

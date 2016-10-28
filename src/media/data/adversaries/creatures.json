@@ -202,6 +202,44 @@
 		"tags": ["creature", "dianoga"]
 	},
 	{
+		"name": "Duracrete Slug",
+		"type": "Rival",
+		"description": "Named for the material that comprises the bulk of their diet, the invasive duracrete slugs are particularly dangerous to buildings, as they eat away at the foundations. Their tunnels are a common sight in the underworld, where slugs may grow up to 10 meters long.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 10,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coordination": 1,
+			"Resilience": 2
+		},
+		"talents": [],
+		"abilities": ["Duracrete Plating"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": ["Partially-digested landspeeder identity plate"],
+		"tags": ["creature", "coruscant"]
+	},
+	{
 		"name": "Grabworm",
 		"type": "Minion",
 		"description": "Grabworms are four-meter-long arthropods with thick brown carapaces and maws lined with razor-wire teeth. These creatures lash their prey with a pair of long, prehensile tails or ensnare their victims with tentacle-like tongues before drawing them into their gaping mouths. Royal noblemen and Hutt dignitaries often hunt grabworms for sport. Big game hunters visit Toydaria to acquire a pair of the sharp grabworm forelegs to mount on their trophy wall. Toydarian hunters use various parts of a grabworm carcass for food, armor, weaponry, and sale goods.",

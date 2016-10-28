@@ -29,6 +29,73 @@
 		"tags": ["civilian"]
 	},
 	{
+		"name": "Police Droid",
+		"type": "Minion",
+		"description": "In lieu of wasting precious policemen on routine patrols and minor transgressions, the Coruscant Underworld Police frequently employ droids to help keep the peace. Unfortunately, the droids’ literal programming sometimes allows crafty criminals to talk their way out of trouble.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 6
+		},
+		"skills": {
+			"Ranged: Light": 0,
+			"Vigilance": 0
+
+		},
+		"talents": [],
+		"abilities": ["Droid"],
+		"weapons": ["Light blaster pistol"],
+		"gear": [],
+		"tags": ["civilian", "security", "coruscant", "droid"]
+	},
+	{
+		"name": "Coruscant Underworld Police",
+		"type": "Rival",
+		"description": "Anonymous and imposing in their long leather uniforms and enclosing helmets, the Underworld Police are a mystery to most. However, few who have been on the wrong end of their heavy blasters doubt the danger they pose for lawbreakers.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 4
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coercion": 1,
+			"Discipline": 1,
+			"Melee": 1,
+			"Ranged: Light": 2,
+			"Vigilance": 1
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Heavy blaster pistol"],
+		"specialist-weapons": [
+			{
+				"name": "Stun club",
+				"skill": "Melee",
+				"plus-damage": 2,
+				"critical": null,
+				"range": "Engaged",
+				"qualities": ["Disorient 2"]
+			}
+		],
+		"gear": ["Heavy armoured coat (+1 soak)"],
+		"tags": ["civilian", "security", "coruscant"]
+	},
+	{
 		"name": "CSA Security Police",
 		"type": "Minion",
 		"description": "The Corporate Sector Authority is a massive corporate bureaucracy that governs a large sector of space along the Tingel Arm of the galaxy in the Outer Rim territories. The government is, as indicated by its name, a corporate entity that has complete control over the sector as a result of a unique arrangement that far predates the estab­lishment of the Galactic Empire, but which is main­tained through a mutually beneficial arrangement between those two bodies. The CSA enforces its policies and taws thr ough its taw enforcement divi­si on: the Security Police. Commonty catted Espos, the CSA police are known for their brutality as well as the quality of their equipment They are much better -funded than m ost sector police forces and do n ot hesitate to crush anyone or anything that they believe threatens the peace and prosperity of the CSA’s rule over the Corporate Sector.",

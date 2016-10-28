@@ -21,7 +21,6 @@ $link: rgb(68,103,127)
 html
 	margin: 0
 	padding: 0
-	overflow-y: hidden
 
 body
 	background-color: $body
@@ -164,7 +163,9 @@ input[type="text"]
 #navigation
 	margin-right: 0
 	height: 100%
-	position: relative
+	position: fixed
+	background-color: $body
+	border-right: 2px solid $derived
 
 	ul
 		position: absolute
@@ -194,11 +195,8 @@ input[type="text"]
 					content: "> "
 
 #character
-	margin-left: 0
+	margin-left: 18.5em
 	width: 58em
-	height: 100%
-	border-left: 2px solid $derived
-	overflow: auto
 
 	.large
 		width: 37.5em
