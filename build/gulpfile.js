@@ -1,11 +1,16 @@
 
+// requires
 var gulp = require("gulp");
 var clean = require("gulp-clean");
 var babel = require("gulp-babel");
 var sass = require("gulp-sass");
 var combine = require("gulp-jsoncombine");
 var merge = require("merge-stream");
+var s3 = require("gulp-s3");
+var gzip = require("gulp-gzip");
 
+
+// global config
 var isDev = true;
 var path = {
 	src: function(p) {
@@ -119,6 +124,7 @@ gulp.task("dev", function() {
 	isDev = true;
 });
 
+// build everyting, dev or live shoudl've been run first but dev is the default
 gulp.task("build", ["transpile-js", "copy-vendor", "copy-react", "copy-data", "copy-static", "copy-font", "sass"]);
 
 gulp.task("watch", ["dev"], function() {
@@ -128,3 +134,12 @@ gulp.task("watch", ["dev"], function() {
 	gulp.watch(path.src("/media/js/**"), ["transpile-js"]);
 });
 
+gulp.task("deploy", ["live"], function() {
+	var aws = require("./aws.json");
+
+	return gulp.src(path.dest("**"))
+		.pipe(gzip())
+		.pipe(s3(aws, {
+			gzippedOnly: true
+		}));
+});

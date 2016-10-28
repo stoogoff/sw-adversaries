@@ -1,5 +1,5 @@
 {
-  "name": "BabelTest",
+  "name": "Star Wars Adversaries",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
@@ -10,7 +10,9 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-clean": "^0.3.2",
+    "gulp-gzip": "^1.4.0",
     "gulp-jsoncombine": "^1.0.3",
+    "gulp-s3": "^0.3.0",
     "gulp-sass": "^2.3.2",
     "merge-stream": "^1.0.0"
   },
