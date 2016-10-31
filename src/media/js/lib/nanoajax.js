@@ -3,7 +3,7 @@ var reqfields = [
   'responseType', 'withCredentials', 'timeout', 'onprogress'
 ];
 
-export  default function (params, callback) {
+export default function (params, callback) {
   // Any variable used more than once is var'd here because
   // minification will munge the variables whereas it can't munge
   // the object access.

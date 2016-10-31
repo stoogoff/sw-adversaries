@@ -501,7 +501,7 @@
 	},
 	{
 		"name": "Force Rating",
-		"description": ""
+		"description": "Roll :force: per rank to activate Force powers."
 	},
 	{
 		"name": "Forewarning",

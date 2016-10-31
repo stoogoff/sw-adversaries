@@ -12,6 +12,7 @@
 
 // VARS
 $stat: rgb(183,54,26)
+$statText: rgb(35,37,50)
 $derived: rgb(85,28,21)
 $heading: rgb(65,60,66)
 $body: rgb(255,250,244)
@@ -25,7 +26,7 @@ html
 body
 	background-color: $body
 	color: $font
-	font-family: 'Fira Sans', sans-serif
+	font-family: 'Source Sans Pro', sans-serif
 	padding: 0
 	margin: 0
 
@@ -33,15 +34,16 @@ h1
 	margin-top: 0
 	font-family: 'Titillium Web', sans-serif
 	max-width: 56rem
+	background-color: rgba(255,0,0,0.3)
 
-	span
+	div
 		position: fixed
 		display: inline-block
+		top: 0
 		color: white
 		background-color: $derived
 		padding: 1rem 3rem 1rem 1rem
 		border-radius: 0 3rem 3rem 0
-		//margin-right: 6em
 
 	small
 		font-size: 1.25rem
@@ -49,11 +51,14 @@ h1
 		margin-top: 1.2em
 		margin-right: 1em
 
+		&.minion
+			color: $link
+
 		&.rival
-			color: darken($font, 10%)
+			color: $derived
 
 		&.nemesis
-			color: darken($font, 20%)
+			color: $stat
 
 	& + .text
 		margin-top: 7em
@@ -149,6 +154,27 @@ input[type="text"]
 		text-decoration: none
 		color: darken($link, 20%)
 
+.btn
+	display: inline-block
+	padding: 0.2em 1em
+	border-radius: 0.2em
+	cursor: pointer
+	@include hover()
+
+	&:hover
+		background-color: rgba(0, 0, 0, 0.1)
+
+	.fa.nudge
+		margin-top: 0.1em
+
+.built-by
+	position: fixed
+	bottom: 0
+	left: 19rem
+	font-size: 0.8em
+	padding: 0.2em
+	background-color: $body
+
 .column
 	float: left
 	overflow: hidden
@@ -161,7 +187,8 @@ input[type="text"]
 	margin-top: 1.5em
 
 #navigation
-	margin-right: 0
+	margin: 0
+	padding-left: 1.5em
 	height: 100%
 	position: fixed
 	background-color: $body
@@ -172,7 +199,7 @@ input[type="text"]
 		top: 7em
 		right: 0
 		bottom: 0
-		left: 0
+		left: 1.5em
 		margin: 0
 		overflow-y: auto
 		padding-bottom: 1em
@@ -186,17 +213,17 @@ input[type="text"]
 
 		&.selected
 			font-weight: bold
-			padding-left: 1.2em
+			padding: 0.3em
 
 			.link
 				text-decoration: none
 
-				&:before
-					content: "> "
-
-#character
+#content
 	margin-left: 18.5em
 	width: 58em
+
+	.loading
+		margin: 2em
 
 	.large
 		width: 37.5em
@@ -226,7 +253,7 @@ input[type="text"]
 		padding: 0.5em 0.3em 0.3em 0.3em
 		margin: 0
 		font-weight: normal
-		font-family: 'Fira Sans', sans-serif
+		font-family: 'Source Sans Pro', sans-serif
 
 #characteristics
 	div
@@ -252,7 +279,7 @@ input[type="text"]
 		border: 3px solid $heading
 
 	h3
-		background-color: rgb(35,37,50)
+		background-color: $statText
 
 #derived
 	margin: 0.5em 0 1em 0

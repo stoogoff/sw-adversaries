@@ -6,7 +6,8 @@ import dispatcher from "lib/dispatcher";
 import Character from "components/character";
 import LinkList from "components/link-list";
 import Filter from "components/filter";
-import { keys } from "lib/utils";
+import Loader from "components/loader";
+import { keys, sortByProperty } from "lib/utils";
 import * as CONFIG from "lib/config";
 
 
@@ -17,38 +18,34 @@ class App extends React.Component {
 		this.state = {
 			selected: null,
 			list: null,
-			filter: ""
+			filter: "",
+			isLoaded: false
 		};
 		this.events = {};
 		this.stores = {};
+		this.loadedTotal = 0;
 
 		["skills", "adversaries", "weapons", "talents", "qualities"].forEach(key => {
 			this.stores[key] = new DataStore(`media/data/${key}.json`);
-			this.stores[key].load();
+			this.stores[key].load(() => this.loadedTotal++);
 		});
 	}
 
 	componentDidMount() {
 		this.events["adversaries"] = this.stores.adversaries.on("change", () => {
-			this.setState({
-				selected: this.stores.adversaries.get(0),
-				list: this.stores.adversaries.all(),
-				filter: this.state.filter
-			});
+			let adversaries = this.stores.adversaries.all();
+
+			this._updateState(adversaries.sort(sortByProperty("name"))[0], adversaries);
 		});
 
 		keys(this.stores).forEach(key => {
 			if(key != "adversaries") {
-				this.events[key] = this.stores[key].on("change", () => this.forceUpdate());
+				this.events[key] = this.stores[key].on("change", () => this._updateState());
 			}
 		});
 
 		dispatcher.register(CONFIG.VIEW_OBJECT, id => {
-			this.setState({
-				selected: this.stores.adversaries.all().find(a => a.id == id),
-				list: this.state.list,
-				filter: this.state.filter
-			});
+			this._updateState(this.stores.adversaries.all().find(a => a.id == id));
 		});
 
 		dispatcher.register(CONFIG.FILTER_MENU, filter => {
@@ -60,11 +57,16 @@ class App extends React.Component {
 				adversaries = adversaries.filter(a => a.name.toLowerCase().indexOf(filter) != -1 || a.tags.indexOf(filter) != -1);
 			}
 
-			this.setState({
-				selected: adversaries.length == 1 ? adversaries[0] : this.state.selected,
-				list: adversaries,
-				filter: filter
-			});
+			this._updateState(adversaries.length == 1 ? adversaries[0] : this.state.selected, adversaries);
+		});
+	}
+
+	_updateState(selected, list, filter) {
+		this.setState({
+			selected: selected || this.state.selected,
+			list:     list     || this.state.list,
+			filter:   filter   || this.state.filter,
+			isLoaded: this.loadedTotal == keys(this.stores).length
 		});
 	}
 
@@ -82,7 +84,13 @@ class App extends React.Component {
 				<p><small>Showing { x } of { y }.</small></p>
 				<LinkList data={ this.state.list } selected={ this.state.selected != null ? this.state.selected.id : "" } />
 			</div>
-			<Character character={ this.state.selected } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } />
+			{ this.state.isLoaded
+				? <Character character={ this.state.selected } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } />
+				: <div id="content" className="column large">
+					<Loader />
+				</div>
+			}
+			<div className="built-by">Built by <a href="http://www.stoogoff.com/">Stoo Goff</a></div>
 		</div>;
 	}
 }

@@ -146,7 +146,7 @@ export default class WeaponsPanel extends React.Component {
 				<h3>{ this.state.quality.name } { this.state.quality.name == "Notes" ? "" : <small>({ this.state.quality.type || "Passive" })</small> }</h3>
 				{ this.state.quality.description.split("\n\n").map((l, i) => <p key={ i } dangerouslySetInnerHTML={ symbolise(l) } />) }
 				<div className="text-right">
-					<small className="link" onClick={ this.hideQuality.bind(this) }>Close</small>
+					<small className="btn" onClick={ this.hideQuality.bind(this) }><span className="fa fa-close"></span> Close</small>
 				</div>
 			</div> : null }
 		</div>;

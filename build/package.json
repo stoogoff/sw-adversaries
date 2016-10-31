@@ -12,6 +12,7 @@
     "gulp-clean": "^0.3.2",
     "gulp-gzip": "^1.4.0",
     "gulp-jsoncombine": "^1.0.3",
+    "gulp-preprocess": "^2.0.0",
     "gulp-s3": "^0.3.0",
     "gulp-sass": "^2.3.2",
     "merge-stream": "^1.0.0"

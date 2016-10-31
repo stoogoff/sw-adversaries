@@ -6,6 +6,7 @@ var babel = require("gulp-babel");
 var sass = require("gulp-sass");
 var combine = require("gulp-jsoncombine");
 var merge = require("merge-stream");
+var preprocess = require("gulp-preprocess");
 var s3 = require("gulp-s3");
 var gzip = require("gulp-gzip");
 
@@ -17,7 +18,7 @@ var path = {
 		return "../src/" + p;
 	},
 	dest: function(p) {
-		return (isDev ? "../dist/" : "../live/") + p;
+		return (isDev ? "../dev/" : "../live/") + p;
 	},
 	module: function(p) {
 		return path.root("/node_modules/" + p);
@@ -88,7 +89,7 @@ gulp.task("merge-data", function() {
 gulp.task("copy-vendor", function() {
 	var modules = [
 		path.module("systemjs/dist/system.js"),
-		path.module("babel-polyfill/dist/polyfill.js")
+		//path.module("babel-polyfill/dist/polyfill.js")
 	];
 
 	return gulp.src(modules).pipe(gulp.dest(path.dest("media/js/vendor")));
@@ -97,7 +98,7 @@ gulp.task("copy-vendor", function() {
 gulp.task("copy-react", function() {
 	var modules = [
 		path.module("react/dist/react.js"),
-		path.module("react-dom/dist/react-dom.js"),
+		path.module("react-dom/dist/react-dom.js")
 	];
 
 	return gulp.src(modules).pipe(gulp.dest(path.dest("media/js")));
@@ -109,7 +110,13 @@ gulp.task("copy-data", ["merge-data"], function() {
 
 // copy static html files and font files
 gulp.task("copy-static", function() {
-	return gulp.src(path.src("index.html")).pipe(gulp.dest(path.dest("")));
+	return gulp.src(path.src("index.html"))
+		.pipe(preprocess({
+			context: {
+				ENV_LIVE: !isDev
+			}
+		}))
+		.pipe(gulp.dest(path.dest("")));
 });
 
 gulp.task("copy-font", function() {
@@ -117,10 +124,13 @@ gulp.task("copy-font", function() {
 });
 
 gulp.task("live", function() {
+	console.log("Running in LIVE context");
 	isDev = false;
 });
 
+// for completeness, dev is the default
 gulp.task("dev", function() {
+	console.log("Running in DEV context");
 	isDev = true;
 });
 
@@ -134,6 +144,7 @@ gulp.task("watch", ["dev"], function() {
 	gulp.watch(path.src("/media/js/**"), ["transpile-js"]);
 });
 
+// deploy everything to an Amazon S3 bucket
 gulp.task("deploy", ["live"], function() {
 	var aws = require("./aws.json");
 

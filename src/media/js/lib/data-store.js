@@ -10,7 +10,7 @@ export default class DataStore extends Collection {
 		this.url = url;
 	}
 
-	load() {
+	load(callback) {
 		ajax({ url: this.url }, (code, response, xhr) => {
 			let data = JSON.parse(response);
 
@@ -20,6 +20,10 @@ export default class DataStore extends Collection {
 					d.id = utils.id(d.name);
 				}
 			});
+
+			if(callback) {
+				callback(data);
+			}
 
 			this.concat(data);
 		});

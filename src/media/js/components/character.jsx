@@ -26,9 +26,17 @@ export default class Character extends React.Component {
 
 		
 		let defence = "defence" in character.derived ? character.derived.defence.join(" | ") : "0 | 0";
+		let icon = null;
 
-		return <div id="character" className="column large">
-			<h1><span>{ character.name }</span><small className={ character.type.toLowerCase() }>{ character.type }</small></h1>
+		if(character.tags.indexOf("rebel alliance") != -1) {
+			icon = <span className="fa fa-ra"></span>;
+		}
+		else if(character.tags.indexOf("empire") != -1) {
+			icon = <span className="fa fa-empire"></span>;
+		}
+
+		return <div id="content" className="column large">
+			<h1><div>{ icon } { character.name }</div><small className={ character.type.toLowerCase() }>{ character.type }</small></h1>
 			<TextPanel text={ character.description } />
 			{ character.notes ? <div className="text"><p><em>{ character.notes }</em></p></div> : null }
 			<div className="column small">

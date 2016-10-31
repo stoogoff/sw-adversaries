@@ -15,6 +15,15 @@ export let keys = function keys(obj) {
 	return arr;
 }
 
+export let sortByProperty = function sortByProperty(prop) {
+	return function sort(a, b) {
+		a = a[prop];
+		b = b[prop];
+
+		return a == b ? 0 : (a < b ? -1: 1);
+	};
+};
+
 export let dice = function dice(stat, skill) {
 	let total = Math.max(stat, skill);
 	let upgrade = Math.min(stat, skill);

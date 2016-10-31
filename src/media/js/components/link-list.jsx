@@ -1,6 +1,7 @@
 
 import React from "react";
 import dispatcher from "lib/dispatcher";
+import { sortByProperty } from "lib/utils";
 import * as CONFIG from "lib/config";
 
 export default class LinkList extends React.Component {
@@ -18,7 +19,13 @@ export default class LinkList extends React.Component {
 		}
 
 		return <ul>
-			{ list.sort((a, b) => a.name == b.name ? 0 : (a.name < b.name ? -1: 1)).map(l => <li key={ l.id } className={ l.id == (this.props.selected || "") ? "selected": "" }><span className="link" onClick={ this.handler.bind(this) } data-target={ l.id }>{ l.name }</span></li>) }
+			{ list.sort(sortByProperty("name")).map(l => {
+				let isSelected = l.id == (this.props.selected || "");
+
+				return <li key={ l.id } className={ isSelected ? "selected": "" }>
+					<span className="link" onClick={ this.handler.bind(this) } data-target={ l.id }>{ isSelected ? <span className="fa fa-caret-right"></span> : null } { l.name }</span>
+				</li>
+			}) }
 		</ul>;
 	}
 }
