@@ -8,6 +8,15 @@ import TalentPanel from "./talent-panel";
 import TagPanel from "./tag-panel";
 
 export default class Character extends React.Component {
+	constructor(props) {
+		super(props);
+		
+		this.state = {
+			wounds: 0,
+			strain: 0
+		};
+	}
+
 	render() {
 		let character = this.props.character;
 
@@ -23,7 +32,6 @@ export default class Character extends React.Component {
 				"value": character.characteristics[i]
 			});
 		}
-
 		
 		let defence = "defence" in character.derived ? character.derived.defence.join(" | ") : "0 | 0";
 		let icon = null;
@@ -51,10 +59,10 @@ export default class Character extends React.Component {
 						<span>{ character.derived.soak }</span>
 					</div>
 					<div>
-						<h3>Wounds</h3>
-						<span>{ character.derived.wounds }</span>
+						<h3>Wounds <small>Threshold | Current</small></h3>
+						<span>{ character.derived.wounds } | { this.state.wounds }</span>
 					</div>
-					{ character.type === "Nemesis" ? <div><h3>Strain</h3><span>{ character.derived.strain }</span></div> : null }
+					{ character.type === "Nemesis" ? <div><h3>Strain <small>Threshold | Current</small></h3><span>{ character.derived.strain } | { this.state.strain }</span></div> : null }
 					<div>
 						<h3>Defence <small>&nbsp; Melee | Ranged</small></h3>
 						<span>{ defence }</span>
