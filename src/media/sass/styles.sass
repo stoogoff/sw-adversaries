@@ -127,10 +127,11 @@ td
 input[type="text"]
 	color: $heading
 	font-size: 1.1em
-	padding: 0.4em 0.7em
+	padding: 0.2em 0.5em
 	background-color: white
 	border: 1px solid darken($link, 20%)
 	border-radius: 0.2em
+	max-width: 80%
 	@include hover()
 
 	&:focus
@@ -396,4 +397,4 @@ input[type="text"]
 
 @font-face
 	font-family: StarWarsSymbols
-	src: url(../fonts/starwars-dice-symbols.otf)
+	src: url(../fonts/starwars-dice-symbols.otf), url(../fonts/starwars-dice-symbols.woff) format("woff")
