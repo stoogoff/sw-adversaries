@@ -1,6 +1,8 @@
 <html>
 <head>
 <title>Star Wars: Adversaries</title>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Titillium+Web" />
 <link rel="stylesheet" href="media/css/styles.css" />
 <link rel="stylesheet" href="https://use.fontawesome.com/a7c350e7d3.css" />
@@ -15,7 +17,11 @@
 
 System.defaultJSExtensions = true;
 System.config({
-	baseURL: "media/js"
+	baseURL: "media/js",
+	map: {
+		"react": "vendor/react.js",
+		"react-dom": "vendor/react-dom.js"
+	}
 });
 
 System.import("app");

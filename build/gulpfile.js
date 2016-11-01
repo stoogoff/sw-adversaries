@@ -89,20 +89,14 @@ gulp.task("merge-data", function() {
 gulp.task("copy-vendor", function() {
 	var modules = [
 		path.module("systemjs/dist/system.js"),
-		//path.module("babel-polyfill/dist/polyfill.js")
+		//path.module("babel-polyfill/dist/polyfill.js"),
+		path.module("react/dist/react.js"),
+		path.module("react-dom/dist/react-dom.js")
 	];
 
 	return gulp.src(modules).pipe(gulp.dest(path.dest("media/js/vendor")));
 });
 
-gulp.task("copy-react", function() {
-	var modules = [
-		path.module("react/dist/react.js"),
-		path.module("react-dom/dist/react-dom.js")
-	];
-
-	return gulp.src(modules).pipe(gulp.dest(path.dest("media/js")));
-});
 
 gulp.task("copy-data", ["merge-data"], function() {
 	return gulp.src(path.src("media/data/*.json")).pipe(gulp.dest(path.dest("media/data")));
@@ -135,7 +129,7 @@ gulp.task("dev", function() {
 });
 
 // build everyting, dev or live shoudl've been run first but dev is the default
-gulp.task("build", ["transpile-js", "copy-vendor", "copy-react", "copy-data", "copy-static", "copy-font", "sass"]);
+gulp.task("build", ["transpile-js", "copy-vendor", "copy-data", "copy-static", "copy-font", "sass"]);
 
 gulp.task("watch", ["dev"], function() {
 	gulp.watch(path.src("/index.html"), ["copy-static"]);
