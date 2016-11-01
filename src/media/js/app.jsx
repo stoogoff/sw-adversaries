@@ -90,7 +90,6 @@ class App extends React.Component {
 					<Loader />
 				</div>
 			}
-			<div className="built-by">Built by <a href="http://www.stoogoff.com/">Stoo Goff</a></div>
 		</div>;
 	}
 }
