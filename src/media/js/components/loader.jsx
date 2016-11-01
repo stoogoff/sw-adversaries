@@ -1,7 +1,5 @@
 
 import React from "react";
-import dispatcher from "lib/dispatcher";
-import * as CONFIG from "lib/config";
 
 export default class Loader extends React.Component {
 	render() {
