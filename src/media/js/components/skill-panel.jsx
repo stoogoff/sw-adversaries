@@ -28,29 +28,20 @@ export default class SkillPanel extends React.Component {
 	}
 
 	increaseMinions() {
-		this.setState({
-			showAll: this.state.showAll,
-			minions: this.state.minions + 1
-		});
+		this.props.setMinions(this.props.minions + 1);
 	}
 	decreaseMinions() {
-		let minions = this.state.minions - 1;
+		let minions = this.props.minions - 1;
 
 		if(minions < 0) {
 			minions = 0;
 		}
 
-		this.setState({
-			showAll: this.state.showAll,
-			minions: minions
-		});
+		this.props.setMinions(minions);
 	}
 
 	resetMinions() {
-		this.setState({
-			showAll: this.state.showAll,
-			minions: 0
-		});
+		this.props.setMinions(0);
 	}
 
 	render() {
@@ -67,8 +58,8 @@ export default class SkillPanel extends React.Component {
 				let stat = character.characteristics[skill.characteristic];
 				let value = character.skills[skill.name] || 0;
 
-				if(this.state.minions > 0 && character.type == "Minion" && skill.name in character.skills) {
-					value += this.state.minions;
+				if(this.props.minions > 0 && character.type == "Minion" && skill.name in character.skills) {
+					value += this.props.minions;
 				}
 
 				skills.push({
@@ -95,7 +86,7 @@ export default class SkillPanel extends React.Component {
 						<th>Roll
 							{ character.type == "Minion" ?
 								<span>
-									<small> (for { this.state.minions + 1 })</small> 
+									<small> (for { this.props.minions + 1 })</small> 
 									<span className="pull-right">
 										<span className="link" onClick={ this.increaseMinions.bind(this) } title="Add Minion">&nbsp;+&nbsp;</span> /
 										<span className="link" onClick={ this.decreaseMinions.bind(this) } title="Remove Minion">&nbsp;-&nbsp;</span> /

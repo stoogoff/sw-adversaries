@@ -8,6 +8,20 @@ import TalentPanel from "./talent-panel";
 import TagPanel from "./tag-panel";
 
 export default class Character extends React.Component {
+	constructor(props) {
+		super(props);
+		
+		this.state = {
+			minions: 0
+		};
+	}
+
+	setMinions(minions) {
+		this.setState({
+			minions: minions
+		});
+	}
+
 	render() {
 		let character = this.props.character;
 
@@ -23,7 +37,6 @@ export default class Character extends React.Component {
 				"value": character.characteristics[i]
 			});
 		}
-
 		
 		let defence = "defence" in character.derived ? character.derived.defence.join(" | ") : "0 | 0";
 		let icon = null;
@@ -63,8 +76,8 @@ export default class Character extends React.Component {
 				</div>
 			</div>
 			<div className="column large">
-				<SkillPanel character={ character } skills={ this.props.skills } />
-				<WeaponsPanel title="Weapons" character={ character } skills={ this.props.skills } weapons={ this.props.weapons } qualities={ this.props.qualities } talents={ this.props.talents } />
+				<SkillPanel character={ character } skills={ this.props.skills } minions={ this.state.minions } setMinions={ this.setMinions.bind(this) } />
+				<WeaponsPanel title="Weapons" character={ character } skills={ this.props.skills } weapons={ this.props.weapons } qualities={ this.props.qualities } talents={ this.props.talents } minions={ this.state.minions } />
 				<TalentPanel title="Talents" data={ character.talents } talents={ this.props.talents } />
 				<TalentPanel title="Abilities" data={ character.abilities } talents={ this.props.talents } />
 				<InfoPanel title="Gear" data={ character.gear } />

@@ -2,7 +2,7 @@
 import React from "react";
 import { dice, id, symbolise } from "lib/utils";
 
-function getWeaponDetails(weapon, character, allSkills) {
+function getWeaponDetails(weapon, character, allSkills, minions) {
 	if(!("id" in weapon)) {
 		weapon.id = id(weapon.name);
 	}
@@ -25,6 +25,10 @@ function getWeaponDetails(weapon, character, allSkills) {
 
 	let stat = character.characteristics[skill.characteristic] || 0;
 	let value = character.skills[weapon.skill] || 0;
+
+	if(minions > 0 && character.type == "Minion" && weapon.skill in character.skills) {
+		value += minions;
+	}
 
 	weapon.icons = dice(stat, value);
 
@@ -107,11 +111,11 @@ export default class WeaponsPanel extends React.Component {
 				return null;
 			}
 
-			weapons.push(getWeaponDetails(weapon, character, allSkills));
+			weapons.push(getWeaponDetails(weapon, character, allSkills, this.props.minions));
 		});
 
 		if("specialist-weapons" in character) {
-			character["specialist-weapons"].forEach(w => weapons.push(getWeaponDetails(w, character, allSkills)));
+			character["specialist-weapons"].forEach(w => weapons.push(getWeaponDetails(w, character, allSkills, this.props.minions)));
 		}
 
 		return <div className="info">
@@ -123,7 +127,10 @@ export default class WeaponsPanel extends React.Component {
 						<th>Weapon</th>
 						<th>Range</th>
 						<th>Damage</th>
-						<th>Roll</th>
+						<th>Roll { character.type == "Minion"
+							? <small> (for { this.props.minions + 1 })</small> 
+							: null }
+						</th>
 						<th>Qualities / Mods</th>
 					</tr>
 				</thead>
