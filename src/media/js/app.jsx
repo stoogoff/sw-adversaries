@@ -7,6 +7,7 @@ import Character from "components/character";
 import LinkList from "components/link-list";
 import Filter from "components/filter";
 import Loader from "components/loader";
+import Tabs from "components/tabs";
 import { keys, sortByProperty } from "lib/utils";
 import * as CONFIG from "lib/config";
 
@@ -16,7 +17,8 @@ class App extends React.Component {
 		super(props);
 
 		this.state = {
-			selected: null,
+			selected: [],
+			selectedIndex: 0,
 			list: null,
 			filter: "",
 			isLoaded: false
@@ -44,11 +46,44 @@ class App extends React.Component {
 			}
 		});
 
-		dispatcher.register(CONFIG.VIEW_OBJECT, id => {
+		// view object from menu
+		dispatcher.register(CONFIG.OBJECT_VIEW, id => {
 			this._updateState(this.stores.adversaries.all().find(a => a.id == id));
 		});
 
-		dispatcher.register(CONFIG.FILTER_MENU, filter => {
+		// add another object to the view
+		dispatcher.register(CONFIG.TAB_ADD, () => {
+			let newTab = this.stores.adversaries.all().find(a => a.id == this.state.selected[this.state.selectedIndex].id);
+
+			this.state.selected.push(newTab);
+			this._updateState();
+		});
+
+		// remove the first non-active tab from the right hand side
+		dispatcher.register(CONFIG.TAB_REMOVE, () => {
+			for(let i = this.state.selected.length - 1; i >= 0; --i) {
+				if(i != this.state.selectedIndex) {
+					this.state.selected.splice(i, 1);
+
+					if(i < this.state.selectedIndex) {
+						--this.state.selectedIndex;
+					}
+
+					this._updateState();
+
+					break;
+				}
+			}
+		});
+
+		// change to a new tab
+		dispatcher.register(CONFIG.TAB_CHANGE, index => {
+			this.state.selectedIndex = index;
+			this._updateState();
+		});
+
+		// filter text from menu
+		dispatcher.register(CONFIG.MENU_FILTER, filter => {
 			let adversaries = this.stores.adversaries.all();
 
 			if(filter != "") {
@@ -57,16 +92,24 @@ class App extends React.Component {
 				adversaries = adversaries.filter(a => a.name.toLowerCase().indexOf(filter) != -1 || a.tags.indexOf(filter) != -1);
 			}
 
-			this._updateState(adversaries.length == 1 ? adversaries[0] : this.state.selected, adversaries);
+			this._updateState(adversaries.length == 1 ? adversaries[0] : null, adversaries);
 		});
 	}
 
-	_updateState(selected, list, filter) {
+	_updateState(adversary, list, filter) {
+		let selected = null;
+
+		if(adversary) {
+			selected = this.state.selected;
+			selected[this.state.selectedIndex] = adversary;
+		}
+
 		this.setState({
 			selected: selected || this.state.selected,
 			list:     list     || this.state.list,
 			filter:   filter   || this.state.filter,
-			isLoaded: this.loadedTotal == keys(this.stores).length
+			isLoaded: this.loadedTotal == keys(this.stores).length,
+			selectedIndex: this.state.selectedIndex
 		});
 	}
 
@@ -82,14 +125,17 @@ class App extends React.Component {
 			<div id="navigation" className="column small">
 				<Filter filter={ this.state.filter } />
 				<p><small>Showing { x } of { y }.</small></p>
-				<LinkList data={ this.state.list } selected={ this.state.selected != null ? this.state.selected.id : "" } />
+				<LinkList data={ this.state.list } selected={ this.state.selected.length > 0 ? this.state.selected[this.state.selectedIndex].id : "" } />
 			</div>
-			{ this.state.isLoaded
-				? <Character character={ this.state.selected } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } />
-				: <div id="content" className="column large">
-					<Loader />
-				</div>
-			}
+			<div id="content" className="column large">
+				{ !this.state.isLoaded
+					? <Loader />
+					: <div>
+						<Character character={ this.state.selected[this.state.selectedIndex] } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } />
+						<Tabs tabs={ this.state.selected.map(c => c.name) } selectedIndex={ this.state.selectedIndex } />
+					</div>
+				}
+			</div>
 		</div>;
 	}
 }

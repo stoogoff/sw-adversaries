@@ -5,7 +5,7 @@ import * as CONFIG from "lib/config";
 
 export default class TagPanel extends React.Component {
 	handler(evt) {
-		dispatcher.dispatch(CONFIG.FILTER_MENU, evt.target.innerText);
+		dispatcher.dispatch(CONFIG.MENU_FILTER, evt.target.innerText);
 	}
 
 	render() {

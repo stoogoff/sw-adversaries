@@ -34,7 +34,6 @@ h1
 	margin-top: 0
 	font-family: 'Titillium Web', sans-serif
 	max-width: 56rem
-	background-color: rgba(255,0,0,0.3)
 
 	div
 		position: fixed
@@ -175,6 +174,7 @@ input[type="text"]
 	font-size: 0.8em
 	padding: 0.2em 1em 0.2em
 	background-color: $body
+	z-index: 150
 
 .column
 	float: left
@@ -194,6 +194,7 @@ input[type="text"]
 	position: fixed
 	background-color: $body
 	border-right: 2px solid $derived
+	z-index: 100
 
 	ul
 		position: absolute
@@ -219,6 +220,37 @@ input[type="text"]
 			.link
 				text-decoration: none
 
+#tabs
+	margin: 0
+	padding: 0 0 0.5em 20rem
+	background-color: rgb(179,176,172)
+	position: fixed
+	bottom: 0
+	right: 0
+	left: 0
+	border-top: 2px solid $derived
+	list-style-type: none
+	z-index: 50
+
+	li
+		padding: 0.5em
+		display: inline-block
+		cursor: pointer
+
+		&.active
+			font-weight: bold
+			color: $derived
+			background-color: $body
+			position: relative
+			top: -2px
+			border-width: 0 2px 2px 2px
+			border-style: solid
+			border-color: $derived
+			border-radius: 0 0 0.2em 0.2em
+
+		.btn:hover
+			color: $link
+
 #content
 	margin-left: 18.5em
 	width: 58em
@@ -228,6 +260,7 @@ input[type="text"]
 
 	.large
 		width: 37.5em
+		padding-bottom: 5em
 
 	.small
 		width: 14.25em

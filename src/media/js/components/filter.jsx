@@ -20,15 +20,15 @@ export default class Filter extends React.Component {
 			filter: ""
 		});
 
-		dispatcher.dispatch(CONFIG.FILTER_MENU, "");
+		dispatcher.dispatch(CONFIG.MENU_FILTER, "");
 	}
 
 	componentDidMount() {
-		this.event = dispatcher.register(CONFIG.FILTER_MENU, filter => this.setState({  filter: filter }));
+		this.event = dispatcher.register(CONFIG.MENU_FILTER, filter => this.setState({  filter: filter }));
 	}
 
 	componentWillUnmount() {
-		dispatcher.unregister(CONFIG.FILTER_MENU, this.event);
+		dispatcher.unregister(CONFIG.MENU_FILTER, this.event);
 	}
 
 	handler(evt) {
@@ -40,7 +40,7 @@ export default class Filter extends React.Component {
 			window.clearTimeout(this.timer);
 		}
 
-		this.timer = window.setTimeout(() => dispatcher.dispatch(CONFIG.FILTER_MENU, this.state.filter), 250);
+		this.timer = window.setTimeout(() => dispatcher.dispatch(CONFIG.MENU_FILTER, this.state.filter), 250);
 	}
 
 	render() {

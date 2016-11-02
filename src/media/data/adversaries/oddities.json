@@ -69,7 +69,7 @@
 		"abilities": ["Infravision"],
 		"weapons": ["Blaster rifle", "Cortosis sword"],
 		"gear": ["Heavy battle armour (+2 Soak, +1 Defence)", "Stimpack"],
-		"tags": ["galtactic oddity", "chiss", "mercenary"]
+		"tags": ["galactic oddity", "chiss", "mercenary"]
 	},
 	{
 		"name": "T'landa Til Charlatan",
