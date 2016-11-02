@@ -33,34 +33,28 @@ body
 h1
 	margin-top: 0
 	font-family: 'Titillium Web', sans-serif
-	max-width: 56rem
+	position: fixed
+	display: inline-block
+	top: 0
+	color: white
+	background-color: $derived
+	padding: 1rem 3rem 1rem 1rem
+	border-radius: 0 3rem 3rem 0
 
-	div
-		position: fixed
-		display: inline-block
-		top: 0
-		color: white
-		background-color: $derived
-		padding: 1rem 3rem 1rem 1rem
-		border-radius: 0 3rem 3rem 0
+h2.subtitle
+	font-size: 1.25rem
+	text-align: right
+	margin: 1.6em 3em 2.5em 0
+	line-height: 1em
 
-	small
-		font-size: 1.25rem
-		float: right
-		margin-top: 1.2em
-		margin-right: 1em
+	&.minion
+		color: $link
 
-		&.minion
-			color: $link
+	&.rival
+		color: $derived
 
-		&.rival
-			color: $derived
-
-		&.nemesis
-			color: $stat
-
-	& + .text
-		margin-top: 7em
+	&.nemesis
+		color: $stat
 
 h1, h2, h3
 	text-transform: uppercase
@@ -143,6 +137,9 @@ input[type="text"]
 
 .pull-right
 	float: right
+
+.hidden
+	display: none
 
 .link
 	color: $link
@@ -248,6 +245,9 @@ input[type="text"]
 			border-color: $derived
 			border-radius: 0 0 0.2em 0.2em
 
+		&.tools
+			padding: 0 0 0 0.5em
+
 		.btn:hover
 			color: $link
 
@@ -346,8 +346,8 @@ input[type="text"]
 		color: $derived
 
 .text p
-	margin-left: 1rem
-	margin-right: 1rem
+		margin-left: 1rem
+		margin-right: 1rem
 
 .skills td
 	vertical-align: middle

@@ -35,8 +35,9 @@ export default class Character extends React.Component {
 			icon = <span className="fa fa-empire"></span>;
 		}
 
-		return <div>
-			<h1><div>{ icon } { character.name }</div><small className={ character.type.toLowerCase() }>{ character.type }</small></h1>
+		return <div className={ !this.props.visible ? "hidden" : null }>
+			<h1>{ icon } { character.name }</h1>
+			<h2 className={ "subtitle " + character.type.toLowerCase() }>{ character.type }</h2>
 			<TextPanel text={ character.description } />
 			{ character.notes ? <div className="text"><p><em>{ character.notes }</em></p></div> : null }
 			<div className="column small">

@@ -131,7 +131,7 @@ class App extends React.Component {
 				{ !this.state.isLoaded
 					? <Loader />
 					: <div>
-						<Character character={ this.state.selected[this.state.selectedIndex] } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } />
+						{ this.state.selected.map((selected, index) => <Character key={ index } character={ selected } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } visible={ index == this.state.selectedIndex } />)}
 						<Tabs tabs={ this.state.selected.map(c => c.name) } selectedIndex={ this.state.selectedIndex } />
 					</div>
 				}
