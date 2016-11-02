@@ -1,5 +1,84 @@
 [
 	{
+		"name": "Big Game Hunter",
+		"type": "Nemesis",
+		"description": "The Rim's many dangerous worlds are home to count­less frightening creatures, and big game hunters prey on the largest and most menacing of these. Frequently operating at the edges of civilization, these beings ex­plore the deepest jungles, penetrate the harshest des­erts, and even venture into the bottomless depths of ocean worlds to track and kill or capture the fiercest animals known to the galaxy. Some take contracts from settlements or rancher barons to eliminate dangerous predators. Others help fill the galaxy’s fighting pits and gladiatorial arenas with a never-ending supply of exotic threats. Finally, some hunt for sport, savoring the rush of adrenaline at every kill. Big game hunters are deadly combatants, especially when circumstances require them to hunt the deadliest game: other sentients.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 18,
+			"strain": 14,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Cool": 3,
+			"Knowledge: Xenology": 2,
+			"Melee": 3,
+			"Per­ception": 3,
+			"Piloting: Planetary": 2,
+			"Ranged: Heavy": 4,
+			"Stealth": 3,
+			"Survival": 4
+		},
+		"talents": ["Adversary 2", "Hunter’s Quarry", "Natural Hunter"],
+		"abilities": ["Animal Combatant", "Wilderness Valor"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Scoped blaster rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Extreme",
+				"qualities": ["Sniper Shot"]
+			},
+			{
+				"name": "Oversized combat knife",
+				"skill": "Melee",
+				"plus-damage": 2,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Utility belt", "Extra reloads", "Survival kit"],
+		"tags": ["civilian", "rim worlder"]
+	},
+	{
+		"name": "Bith Musician",
+		"type": "Minion",
+		"description": "Native to the Rim world of Clak’dor VII, the highly evolved, humanoid Bith have spent millennia devel­oping their minds to enhance abstract thinking skills such as language, logic, mathematics, and music, while at the same time diminishing their capacity to exhibit fear and aggression. This has resulted in a biological destiny of pacifism, and has made them sought after throughout the galaxy as computer pro­grammers, engineers, and musicians. The Bith do not sleep, needing only brief periods of meditation to rest their bodies. This quality has proven especially useful to those among them who follow careers as perform­ ers in the round-the-clock cantinas and nightclubs of the Rim. Bith musicians may be encountered any­ where sentients gather to be entertained.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 4
+		},
+		"skills": {
+			"Charm": 0,
+			"Cool": 0,
+			"Perception": 0
+		},
+		"talents": [],
+		"abilities": ["Keen Senses"],
+		"weapons": [],
+		"gear": ["Musical instrument"],
+		"tags": ["civilian", "rim worlder", "bith"]
+	},
+	{
 		"name": "Corporate Representative",
 		"type": "Rival",
 		"description": "In the waning days of the Republic, many people were gravely concerned about the increasing power held by corporations. Many such corporations were afforded the rights of planetary governments, including seats within the Senate. Since the Republic gave way to the Empire, the problem has increased significantly, despite the defeat of the Separatists during the Clone Wars—though only with regard to those corporations that supported the Empire. Corporations with strong Imperial partnerships, particularly with the military, are virtually above the law, and their representatives tend to be viewed in the same way as ambassadors, diplomats, or even senators—albeit with vastly greater resources and a generally more menacing demeanor.",
@@ -241,7 +320,7 @@
 		"abilities": [],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Datapad", "Scout ship"],
-		"tags": ["civilian"]
+		"tags": ["civilian", "rim worlder"]
 	},
 	{
 		"name": "Physician",
@@ -296,7 +375,7 @@
 		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Toolkit", "Podracer"],
-		"tags": ["civilian", "pilot"]
+		"tags": ["civilian", "pilot", "rim worlder"]
 	},
 	{
 		"name": "Gand Findsman",
@@ -337,7 +416,7 @@
 			}
 		],
 		"gear": ["Macrobinoulars"],
-		"tags": ["civilian", "gand", "bounty hunter"]
+		"tags": ["civilian", "gand", "bounty hunter", "rim worlder"]
 	},
 	{
 		"name": "Planetary Defence Trooper",
@@ -365,7 +444,7 @@
 		"abilities": [],
 		"weapons": ["Blaster carbine", "Frag grenade"],
 		"gear": ["Blast vest  (+1 soak)", "2 Frag grenades"],
-		"tags": ["civilian", "security"]
+		"tags": ["civilian", "security", "rim worlder"]
 	},
 	{
 		"name": "Planetary Governor",
@@ -435,6 +514,34 @@
 		"weapons": [],
 		"gear": ["Bodyguards", "Datapad", "Comlink"],
 		"tags": ["civilian"]
+	},
+	{
+		"name": "Provincial Law Enforcement",
+		"type": "Minion",
+		"description": "The day-to-day enforcement of laws does not gen­erally fall on the armored shoulders of stormtroopers. Instead, most regions and municipalities rely on local talent, drawn from their own populations, to keep the peace, investigate criminal activity, and protect the citizenry from any threats that might arise. Though the details of their organizations and degrees of com petence are as varied as the worlds they patrol, in general, provincial law enforcement officers are lightly armed and armored, with their most powerful weapons the comlinks they carry to call for backup when needed.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 4
+		},
+		"skills": {
+			"Coercion": 0,
+			"Perceptio": 0,
+			"nRanged: Light": 0,
+			"Vigilance": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster pistol", "Truncheon"],
+		"gear": ["Police Armour (+1 Soak)", "Comlink (handheld)"],
+		"tags": ["civilian", "rim worlder", "security"]
 	},
 	{
 		"name": "Spaceport Security",
@@ -686,7 +793,7 @@
 			}
 		],
 		"gear": ["Durable clothing (+1 soak)", "Tool kit", "Utility belt"],
-		"tags": ["creature"]
+		"tags": ["civilian", "rim worlder"]
 	},
 	{
 		"name": "Wealthy Noble",

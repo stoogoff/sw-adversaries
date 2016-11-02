@@ -1,5 +1,122 @@
 [
 	{
+		"name": "Accomplished Mechanic",
+		"type": "Rival",
+		"description": "Force-sensitive mechanics instinctively know their way around machines and can coax them back to life long after other mechanics would have given up hope. Mechanics are a welcome addition to a smuggler’s crew or a pirate band, where they’re likely to avoid the watchful eye of Imperial Inquisitors. Occasionally, Force-sensitive mechanics will be found working legiti­mate jobs in respectable shops on civilized planets. Those who do are almost always unaware that their amazing ability to assess and repair machines is any­ thing other than a natural talent.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Computers": 2,
+			"Mechanics": 2,
+			"Survival": 1,
+			"Vigilance": 1
+		},
+		"talents": ["Gearhead", "Force Rating 1", "Imbue Item"],
+		"abilities": [],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Toolkit", "Emergency repair kit"],
+		"tags": ["force sensitive", "engineer"]
+	},
+	{
+		"name": "Cautious Smuggler",
+		"type": "Rival",
+		"description": "Smuggling is a dangerous profession, requiringa mix­ture of luck, skill, and panache. Those smugglers with Force-sensitivity can detect a potential trap, come up with plausible cover stories for suspicious Impe­rial patrols, and know exactly when to dump their cargo (and when to pick it up later). Force-sensitive smugglers who get too cocky about their abilities of­ ten find themselves on the wrong end of the Imperial Inquisitorius, so those who realize what their sensi­tivity might mean keep it as quiet as possible.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"defence": [0, 1]
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 2,
+			"Deception": 2,
+			"Ranged: Light": 2,
+			"Piloting: Space": 2,
+			"Skulduggery": 2,
+			"Streetwise": 2
+		},
+		"talents": ["Force Rating 1", "Intuitive Evasion", "Skilled Jockey 2"],
+		"abilities": ["Force power: Influence (Upgrade)"],
+		"weapons": ["Blaster pistol"],
+		"gear": [],
+		"tags": ["force sensitive", "smuggler"]
+	},
+	{
+		"name": "CSA Intrusion Specialist",
+		"type": "Rival",
+		"description": "The Corporate Sector Authority’s vast holdings make it an attractive target for slicers. The CSA’s Security Police, commonly referred to as the Espos, employ a number of slicers to counter these threats. Elite slic­ers seem to have a natural ability to foil security pro­tocols, guess passwords, and find backdoors in com­puter code. Their abilities seem almost supernatural, and in a few rare cases, maybe they are.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 9
+		},
+		"skills": {
+			"Computers": 3,
+			"Cool": 2,
+			"Skulduggery": 2
+		},
+		"talents": ["Bypass Security", "Force Rating 1"],
+		"abilities": ["Computer Affinity"],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Slicer gear"],
+		"tags": ["force sensitive", "civilian", "coprorate security authority"]
+	},
+	{
+		"name": "Dandy Gambler",
+		"type": "Rival",
+		"description": "Force-sensitive individuals have a distinct advantage at games of strategy and chance. Some choose to become professional gamblers. As with any successful gambler, these galactic dandies never find themselves in one ca­sino for too long, lest those who lost credits to them come looking for reparation. These lucky individuals are always on the move, searching for the next big game.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 2,
+			"Cool": 3,
+			"Deception": 2,
+			"Perception": 3,
+			"Skulduggery": 3,
+			"Streetwise": 2
+		},
+		"talents": ["Force Rating 1", "Second Chances 2"],
+		"abilities": ["All the Luck in the Galaxy"],
+		"weapons": ["Holdout blaster"],
+		"gear": [],
+		"tags": ["force sensitive", "underworld"]
+	},
+	{
 		"name": "Emperor’s Hand",
 		"type": "Nemesis",
 		"description": "One of the Emperor's Hands would be the most horrifying, panic-induc­ing opponent that an individual could face–if anyone knew that the Emperor’s Hands existed. fortunately for the Hands, however, they are completely unknown to the gala xy at large and, in many cases, even to each other; more than one member of the Hands believes that he or she is the only Emperor's Hand, which is how the Emperor prefers his operatives to operate. The Emperor's Hands operate in absolute secrecy, often sent on missions by the Emperor himself. Members of the Emperor's Hands almost invariably possess Force abilities and the will to use them.",
@@ -36,6 +153,77 @@
 		"weapons": ["Disruptor pistol", "Vibrosword", "Frag grenade"],
 		"gear": ["1 Frag grenade"],
 		"tags": ["force sensitive", "empire"]
+	},
+	{
+		"name": "Fallen Apprentice",
+		"type": "Rival",
+		"description": "For every Force user who sees the myths of the an­cient Jed i as an ideal to live up to, someone else de­cides to follow a darker path. Sometimes, these devi­ants seek out apprentices who will aid and emulate them. Such apprentices are often weak-willed, eager for the easy power their new master promises.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14
+		},
+		"skills": {
+			"Coercion": 2,
+			"Discipline": 3,
+			"Lightsaber": 3,
+			"Resil­ience": 2,
+			"Stealth": 2
+		},
+		"talents": ["Adversary 1", "Force Rating 1", "Soft Spot"],
+		"abilities": ["Darkside Force User"],
+		"weapons": ["Basic lightsaber"],
+		"gear": ["Black robes (+1 Soak)"],
+		"tags": ["force sensitive"]
+	},
+	{
+		"name": "Fallen Master",
+		"type": "Nemesis",
+		"description": "While not true Jed i or Sith, there are those who stylize themselves as “masters” of the Force. If these individ­uals turn to the dark side, they can be incredibly dan­gerous and terrifyingly savage. Some may even track down old relics from a bygone era such as lightsabers. In the hands of a fallen master, these blades often taste the blood of innocents.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 18,
+			"strain": 18
+		},
+		"skills": {
+			"Athletics": 2,
+			"Coercion": 3,
+			"Discipline": 4,
+			"Knowledge: Lore": 2,
+			"Leadership": 2,
+			"Lightsaber": 4,
+			"Resilience": 3
+		},
+		"talents": ["Adversary 2", "Force Rating 3", "Hawk Bat Swoop", "Improved Reflect", "Parry 5", "Reflect 5"],
+		"abilities": ["Darkside Force User"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Double-bladed mephite lightsaber",
+				"skill": "Lightsaber",
+				"damage": 8,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Linked 1", "Sunder", "Unwieldy 3"]
+			}
+		],
+		"gear": ["Black robes (+1 Soak)"],
+		"tags": ["force sensitive"]
 	},
 	{
 		"name": "Forsaken Jedi",
@@ -109,5 +297,90 @@
 		"weapons": ["Lightsaber"],
 		"gear": ["Jedi Robes (+1 soak)"],
 		"tags": ["force sensitive", "jedi"]
+	},
+	{
+		"name": "Murderous Fugitive",
+		"type": "Nemesis",
+		"description": "Without the benefit of Jedi training, some Force-sensitive individuals who might otherwise have been able to control their abilities are left confused and over­whelmed. They find delight in murder and inflicting pain, especially when using their Force-sensitivity to fuel their urges. Often hunted for these crimes, these individuals are extremely dangerous to everyone they encounter.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 15,
+			"strain": 14
+		},
+		"skills": {
+			"Brawl": 2,
+			"Discipline": 2,
+			"Melee": 4,
+			"Perception": 2,
+			"Stealth": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Force Rating 3", "Soft Spot"],
+		"abilities": ["Darkside Force User", "Force power: Unleash"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Serrated vibroknife",
+				"skill": "Melee",
+				"plus-damage": 2,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["force sensitive", "underworld"]
+	},
+	{
+		"name": "Scarred Gladiator",
+		"type": "Nemesis",
+		"description": "Sometimes the most effective way to hide your Force-sensitivity is to hide it in plain sight. The Scarred Glad­iator discovered that his combat skills could make him a lot of money in the arena. He’s the veteran of hundreds of battles and has the scars to prove it. He is deeply invested in the criminal underworld, and there are too many people who make money off his skills for anyone to turn him over to the authorities. He doesn’t flaunt his Force-sensitivity, but he enjoys his notoriety as a deadly and feared fighter. He knows there may be a day when it all comes crashing down. Until that day comes, he’s more than content to use his abilities to live life to the fullest.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 19,
+			"strain": 16,
+			"defence": [2, 0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 4,
+			"Coordination": 1,
+			"Medicine": 3,
+			"Melee": 3,
+			"Streetwise": 2,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Force Rating 2"],
+		"abilities": ["Dark Side Force User", "Force power: Harm"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Vibro-trident",
+				"skill": "Melee",
+				"plus-damage": 1,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 2", "Pierce 4", "Vicious 3"]
+			}
+		],
+		"gear": ["Gladiatorial leathers (+2 Soak)"],
+		"tags": ["force sensitive", "underworld", "gladiator"]
 	}
 ]

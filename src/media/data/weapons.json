@@ -315,6 +315,14 @@
 		"qualities": ["Breach 1", "Sunder", "Vicious 2"]
 	},
 	{
+		"name": "Basic lightsaber",
+		"skill": "Lightsaber",
+		"damage": 6,
+		"critical": 2,
+		"range": "Engaged",
+		"qualities": ["Breach 1", "Sunder"]
+	},
+	{
 		"name": "Truncheon",
 		"skill": "Melee",
 		"plus-damage": 2,

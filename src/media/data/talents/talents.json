@@ -585,7 +585,7 @@
 	},
 	{
 		"name": "Hawk Bat Swoop",
-		"description": ""
+		"description": "May perform a Light­saber: Agility melee combat check against one target within short range and add :force: no greater than Force Rating to the pool. The character may spend :lightside: before resolving the success or failure of the check to engage the target immediately as an inci­dental, and may spend :lightside: to add :advantage: to the check. If the character cannot move to engage the target, the attack automatically misses."
 	},
 	{
 		"name": "Healing Trance",
@@ -632,8 +632,8 @@
 		"description": ""
 	},
 	{
-		"name": "Hunter&#39;s Quarry",
-		"description": ""
+		"name": "Hunter’s Quarry",
+		"description": "As an action make a :hard: Sur­vival check to upgrade the ability of all attacks against one target at long range until the end of the big game hunter’s next turn."
 	},
 	{
 		"name": "Hunter&#39;s Quarry [Improved]",
@@ -645,7 +645,7 @@
 	},
 	{
 		"name": "Imbue Item",
-		"description": ""
+		"description": "Spend a maneuver to com­mit :force: and grant one weapon at short range + 1 dam­age or decrease critical rating of weapon by one."
 	},
 	{
 		"name": "Improvised Detonation",
@@ -713,7 +713,7 @@
 	},
 	{
 		"name": "Intuitive Evasion",
-		"description": ""
+		"description": "As a ma­neuver, suffer 1 strain and commit :force: to upgrade the difficulty of all combat checks targeting pilot’s vehicle once, until the beginning of pilot’s next turn."
 	},
 	{
 		"name": "Intuitive Improvements",
@@ -937,7 +937,7 @@
 	},
 	{
 		"name": "Natural Hunter",
-		"description": ""
+		"description": "Once per session, may reroll any one Perception or Vigilance check."
 	},
 	{
 		"name": "Natural Instructor",
@@ -1049,7 +1049,7 @@
 	},
 	{
 		"name": "Parry",
-		"description": "When struck by a melee attack but before applying Soak, suffer 3 Strain to to reduce damage by 2 per rank."
+		"description": "When struck by a melee attack but before applying Soak, suffer 3 Strain to reduce damage by 2 plus ranks in Parry."
 	},
 	{
 		"name": "Parry (Improved)",
@@ -1149,7 +1149,7 @@
 	},
 	{
 		"name": "Quick Strike",
-		"description": ""
+		"description": "When performing a combat check, add :boost: per rank against any target that has not yet acted in the encounter."
 	},
 	{
 		"name": "Rain of Death",
@@ -1173,7 +1173,7 @@
 	},
 	{
 		"name": "Reflect",
-		"description": ""
+		"description": "When struck by a ranged attack but before apply­ing soak, suffer 3 strain to reduce damage by 2 plus ranks in Reflect."
 	},
 	{
 		"name": "Reflect (Improved)",
@@ -1249,7 +1249,7 @@
 	},
 	{
 		"name": "Second Chances",
-		"description": ""
+		"description": "Once per encounter, may choose 2 positive dice in one check and reroll them."
 	},
 	{
 		"name": "Second Wind",
@@ -1269,7 +1269,7 @@
 	},
 	{
 		"name": "Sense Emotions",
-		"description": "Add :boost: to all Charm, Coercion, and Deception checks."
+		"description": "Add :boost: to all Charm, Coercion, and Deception checks unless the target is immune to Force powers."
 	},
 	{
 		"name": "Share Pain",
@@ -1333,7 +1333,7 @@
 	},
 	{
 		"name": "Soft Spot",
-		"description": ""
+		"description": "After a successful attack with a non-starship/vehicle weapon, may spend a Destiny Point to add Cunning rating to damage for one hit."
 	},
 	{
 		"name": "Solid Repairs",

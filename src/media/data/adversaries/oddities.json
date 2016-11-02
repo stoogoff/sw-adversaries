@@ -1,5 +1,77 @@
 [
 	{
+		"name": "Besalisk Adventurer",
+		"type": "Rival",
+		"description": "A common figure in the cantinas and sabacc dens of the Outer Rim is the wandering Besalisk adventurer. These bulky four-armed avians are known for their generosity, loyalty, and fearless approach to any dangers they might face in their travels. Gregarious, clever, and sharply observant, they can prove to be a valuable source of obscure information. However, many Besalisks hide their own agenda beneath their genial demeanor, and those who interact with them would do well to remember it.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Brawl": 2,
+			"Ranged: Light": 2,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": ["Many-armed"],
+		"weapons": ["Blaster pistol"],
+		"specialist-weapons": [
+			{
+				"name": "Brass knuckles",
+				"skill": "Melee",
+				"plus-damage": 1,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Disorient 3"]
+			}
+		],
+		"gear": ["Utility belt"],
+		"tags": ["galactic oddity", "besalisk"]
+	},
+	{
+		"name": "Chiss Mercenary",
+		"type": "Nemesis",
+		"description": "The blue-skinned, red-eyed Chiss seldom venture be­yond their hidden homeworld deep in the Unknown Regions. Thus is it unsurprising that when one does encounter a Chiss, it is often among the worlds of the Outer Rim. When leaving their homes, some Chiss wanderers take to the hyperlanes to find adventure, trading on their cool and calculating demeanors to become skilled mercenaries. Professional soldiers for hire, Chiss mercenaries are too few to be found together in numbers; one can rarely find more than a single Chiss in an entire star system.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 18,
+			"strain": 13,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Coercion": 2,
+			"Cool": 1,
+			"Coordination": 2,
+			"Discipline": 3,
+			"Melee": 3,
+			"Ranged: Heavy": 4,
+			"Resilience": 3,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 2", "Lethal Blows 2", "Quick Strike 2"],
+		"abilities": ["Infravision"],
+		"weapons": ["Blaster rifle", "Cortosis sword"],
+		"gear": ["Heavy battle armour (+2 Soak, +1 Defence)", "Stimpack"],
+		"tags": ["galtactic oddity", "chiss", "mercenary"]
+	},
+	{
 		"name": "T'landa Til Charlatan",
 		"type": "",
 		"description": "Originally hailing from Varl, t’landa Til are massive sentient quadrupeds distantly related to the Hutts. Til possess thick, trunk­ like legs, a thin whip of a tail, and two slen­der arms. The t ’landa Til are not as wealthy or powerful as the Hutts, and many of them serve the Hutts in various capacities.",
@@ -70,6 +142,35 @@
 		],
 		"gear": ["Cortosis armour (+2 soak, +1 defence, Cortosis)"],
 		"tags": ["galactic oddity", "nikto", "hutt space"]
+	},
+	{
+		"name": "Mustafarian Miner",
+		"type": "Rival",
+		"description": "Hailing from the young, volcanic world of Mustafar, the Mustafarians are the first species there to evolve to sentience, which is remarkable considering the violent nature of their homeworld.\n\nThese bipedal humanoids stand almost two-and-a-half meters tall, and are very much at home in some of the harshest planetary conditions in the galaxy. Mustafar’s immense mineral resources have made the Mustafarians quite wealthy, and they have traded for technology and equipment to help them occupy even the harshest corners of their home planet. They quietly support the Galactic Empire in exchange for Imperial protection, happily exchanging their mineral wealth for relative privacy and advanced technology.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Melee": 1,
+			"Resilience": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Heat Resistance"],
+		"weapons": ["Vibro-ax"],
+		"gear": [],
+		"tags": ["galactic oddity", "mustafarian"]
 	},
 	{
 		"name": "Evocii",

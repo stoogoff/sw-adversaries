@@ -4,6 +4,10 @@
 		"description": "As an incidental, spend a dark side Destiny Point to give the toothy bite weapon the Burn 2 quality until the end of the chemilizard’s turn; this is a chemical burn."
 	},
 	{
+		"name": "All the Luck in the Galaxy",
+		"description": "When making a check to gamble, a Deception check, or a Negotia­tion check, add :force: to the check. Each :lightside: result automatically adds :success: to the check. :darkside::darkside: results auto­matically add :despair: to the check."
+	},
+	{
 		"name": "Alliance Leader",
 		"description": "Alliance operatives add :boost: to all Vigilance and Perception checks when in the NPC’s presence."
 	},
@@ -14,6 +18,10 @@
 	{
 		"name": "Amphibious",
 		"description": "May breathe underwater without penalty and never suffer movement penalties for traveling through water."
+	},
+	{
+		"name": "Animal Combatant",
+		"description": "Upgrade ability of checks when fighting wild creatures once."
 	},
 	{
 		"name": "Aquatic Creature",
@@ -44,6 +52,14 @@
 		"description": "When in snowy environ­ ments, add :boost::boost: to ail Stealth checks."
 	},
 	{
+		"name": "Cloak",
+		"description": "Add :setback::setback::setback: to all checks made to spot or track the maalraa [this can include Vigilance checks made for Initiative if the maalraa ambushes a character). Force-sensitive characters ignore this ability."
+	},
+	{
+		"name": "Computer Affinity",
+		"description": "The Intrusion Specialist may add :force: to any Computers check or Skulduggery check to analyze or infiltrate a security system. Spend :lightside: to add :advantage: to the check. Spend :lightside::lightside: to add :success: to any Computers check."
+	},
+	{
 		"name": "Covering Fire",
 		"description": "May spend a maneuver to add +1 ranged defense to up to three allied characters or minion groups within short range until the end of the next round; this does not stack with multiple uses."
 	},
@@ -62,6 +78,10 @@
 	{
 		"name": "Cybernetic Communications",
 		"description": "Due to their cybernetic modifications, Ganks can communicate silently with other Ganks."
+	},
+	{
+		"name": "Detect Force-Sensitivity",
+		"description": "The vornskr may make an :average: Perception check to detect all Force-sensitive creatures or characters with a Force rating within medium range; this ability functions re­gardless of intervening terrain or material."
 	},
 	{
 		"name": "Drain Life",
@@ -92,8 +112,16 @@
 		"description": "As an action, a droideka can make a :hard: Gunnery check to inflict one hit that deals base damage with its built-in twin heavy blasters on up to two targets within Medium range, plus one additional target per :advantage: on the check; it can only hit each target once this way."
 	},
 	{
-		"name": "Four-armed",
-		"description": "The gundark gains :boost: on all Brawl checks and may spend :advantage::advantage: on a successful melee attack to hit a second target Engaged with it, dealing the same damage as dealt to the original target."
+		"name": "Force Hunter",
+		"description": "Gain :boost: to all combat checks made against Force-sensitive creatures or characters with a Force rating."
+	},
+	{
+		"name": "Force Mimic",
+		"description": "At the GM’s discretion, the kaaten may make an opposed Charm or Deception versus Vigilance check as an action to pretend to be a friend, companion, loved one, or of the same spe­cies as its target. When doing so, add :force: to the check; :lightside: results add :success: to Charm checks, while :darkside: results add :success: to Deception checks. If the check succeeds, the illusion is successful, though what effect this has on gameplay depends on the situation and can be determined by the GM. Targets immune to Force powers are immune to these effects."
+	},
+	{
+		"name": "Many-armed",
+		"description": "The creature gains :boost: on all Brawl checks and may spend :advantage::advantage: on a successful melee attack to hit a second target Engaged with it, dealing the same damage as dealt to the original target."
 	},
 	{
 		"name": "Flyer",
@@ -106,6 +134,10 @@
 	{
 		"name": "Hard to Kill",
 		"description": "The GM may flip one dark side Destiny Point to have the Kintan Strider heal 5 Wounds"
+	},
+	{
+		"name": "Heat Resistance",
+		"description": "Remove up to :setback: from any checks due to hot or arid environmen­tal conditions."
 	},
 	{
 		"name": "Helium Allergy",
@@ -132,6 +164,14 @@
 		"description": "When allied minion groups within Short range perform the Covering Fire maneuver, they add +2 ranged defense instead."
 	},
 	{
+		"name": "Infravision",
+		"description": "Remove :setback: imposed due to light­ing conditions."
+	},
+	{
+		"name": "Leap",
+		"description": "Tusk cats add :boost::boost: to all Athletics checks made to perform vertical or horizontal jumps."
+	},
+	{
 		"name": "Loyalty",
 		"description": "Upgrade the difficulty of social checks targeting the Vodran enforcer once if they conflict with the Vodran enforcer’s loyalty or interfere with his duty to his Hutt masters."
 	},
@@ -144,8 +184,16 @@
 		"description": "Defel are vulnerable to bright lights, which cause them intense pain and temporary blindness if v1ewed without protection. A Defel exposed to bright light without protective goggles suffers :setback::setback: on all skill checks."
 	},
 	{
+		"name": "Negate Force Powers",
+		"description": "An adult ysalamir creates a spherical zone extending out to short range, inside which Force-sensitive characters and creatures cannot exert influence over the Force. Inside this zone, any Force powers, Force talents, or other abilities that the GM decides work via the Force do not function. Likewise, such powers may not affect or detect any­thing within this zone."
+	},
+	{
 		"name": "Neurotoxin Doses",
 		"description": "The Imperial assassin has multiple doses of neurotoxin, which can be introduced into food or drink, or applied to a Melee weapon as a maneuver; if applied to a weapon, it lasts for the remainder of the encounter; if a target ingests poisoned food or drink, or suffers wounds from a poisoned Melee weapon, the target must make an :average: Resilience check; if failed, the target suffers 5 Wounds, plus 1 Strain per :threat:; :despair: means the target must test against the poison again at the start of the next turn."
+	},
+	{
+		"name": "Neurotoxin",
+		"description": "If a target suffers wounds from a kouhun’s mandible attack, the target must make an :average: Resilience check. The target suffers 5 Wounds if he fails, plus 1 Strain per :threat:; :despair: means the target must check against the poison again at the start of his next turn."
 	},
 	{
 		"name": "Olfactory Perception",
@@ -180,6 +228,10 @@
 		"description": "Should the probe droid’s mission become compromised, it may self-destruct as an out of turn incidental; this expliosion does 10 damage to engaged characters."
 	},
 	{
+		"name": "Sessile",
+		"description": "This creature is unable to perform Move maneuvers."
+	},
+	{
 		"name": "Shadowed",
 		"description": "When in darkness or deep shadow, add :boost::boost: to all Stealth checks."
 	},
@@ -196,8 +248,16 @@
 		"description": "Spaceport staff add :boost: to all Vigilance and Perception checks when in the Spaceport Administrator’s presence."
 	},
 	{
+		"name": "Soothing Song",
+		"description": "The jubba bird may make an :average: Charm check to heal 1 Strain per :success: from all creatures within medium range."
+	},
+	{
 		"name": "Stinky",
 		"description": "While within Short range of a Huttlet, non-Hutt char­acters reduce their Strain thresholds by 2."
+	},
+	{
+		"name": "Strong as a Jakobeast",
+		"description": "Jako­beasts have an encumbrance threshold of 20"
 	},
 	{
 		"name": "Suited to the Cold",
@@ -226,6 +286,10 @@
 	{
 		"name": "Vacuum Dweller",
 		"description": "Can survive in vacuum without penalty and can move in a vacuum envi­ronment."
+	},
+	{
+		"name": "Wilderness Valor",
+		"description": "Add :boost::boost: to resist fear against wild creatures."
 	},
 	{
 		"name": "Wookiee Rage",

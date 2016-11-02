@@ -307,7 +307,7 @@
 			"Vigilance": 3
 		},
 		"talents": [],
-		"abilities": ["Four-armed"],
+		"abilities": ["Many-armed"],
 		"weapons": [],
 		"specialist-weapons": [
 			{
@@ -321,6 +321,116 @@
 		],
 		"gear": [],
 		"tags": ["creature"]
+	},
+	{
+		"name": "Jakobeast",
+		"type": "Minion",
+		"description": "The colonization of the Outer Rim required hardy creatures that could withstand ex­treme environments and defend themselves against dangerous, and often unanticipated, preda­tors. Jakobeasts were introduced on hundreds of ice planets across the galaxy and still roam many of these worlds today. Large, shaggy, feline creatures approximately two meters tall and three meters from nose to tail, jakobeasts are easily domesticated herd animals kept for meat, milk, and fur. Both male and female jakobeasts sport large tusks, primarily used for self-defense or establishing dominance. Though it is not widely known, as a group, jakobeasts can generate waves of Force energy to de­fend their herds from predators, although an individu­al does not have this ability if separated from its herd.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 9
+		},
+		"skills": {
+			"Athletics": 0,
+			"Brawl": 0,
+			"Resilience": 0,
+			"Survival": 0
+		},
+		"talents": [],
+		"abilities": ["Silhouette 2", "Strong as a Jakobeast", "Force power: Move (Jakobeast)"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Tusks",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "force sensitive"]
+	},
+	{
+		"name": "Jubbar Bird",
+		"type": "Rival",
+		"description": "Jubba birds are found in marketplaces, palaces, and the homes of wealthy merchants and upwardly mobile criminals throughout the galaxy, although they are na­tive to the swamps of Dagobah. Brightly colored avians with reptilian features, jubba birds are prized for their red, yellow, and purple plumage as much as for their beautiful, haunting song. The jubba bird’s whis­ tling call is actually an instinctual ability to tap into the Living Force, and it produces a peaceful sensation in those who hear it. Jubba birds have small bodies but large wings, and they fare poorly in cages. Luckily, if an owner feeds his bird regularly, it is more than content to remain on a roost or perch and refrain from terror­ izing a household or attempting to hunt other pets. On Dagobah, jubba birds hunt small prey such as rodents or other birds, but in captivity, a well-fed jubba bird will fight only to defend itself. Most importantly, if the jubba bird is not content, it refuses to sing.\n\nFew owners realize that jubba birds are deceptively intelligent. While not as smart as most sapient spe­cies, they possess a level of cunning and a capacity for comprehension that dwarfs most animal species. Some researchers suspect that jubba birds deliberate­ ly pretend to be less intelligent when interacting with other species. These suspicions are only reinforced by rumors that, when paired with owners they trust and care for, jubba birds can act with more deliberation and foresight.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 3
+		},
+		"skills": {
+			"Charm": 2
+		},
+		"talents": ["Sense Emotions"],
+		"abilities": ["Flyer", "Soothing Song", "Silhouette 0"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 2,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "force sensitive"]
+	},
+	{
+		"name": "Kaaten",
+		"type": "Rival",
+		"description": "The kaaten is a one-and-half-meter, bipedal, semi-intelligent predator found on Felucia. It is a mimic, able to use the Force to appear to its prey as some­ one familiar to the individual the kaaten is hunting. Kaaten are solitary, with well-defined territorial lines that are crossed only when they mate. Therefore, they have not developed any kind of social structure or language. A kaaten can appear as a lost loved one, a companion or friend, or a member of its prey’s spe­cies if the kaaten is hunting something non-sentient. Once the kaaten has lured its prey close, it strikes with its claws, attempting to quickly incapacitate its unsuspecting quarry.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 3,
+			"Deception": 3,
+			"Stealth": 3
+		},
+		"talents": [],
+		"abilities": ["Force Mimic"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "force sensitive"]
 	},
 	{
 		"name": "Kintan Strider",
@@ -389,6 +499,49 @@
 		"tags": ["creature", "hutt space"]
 	},
 	{
+		"name": "Kouhun",
+		"type": "Minion",
+		"description": "Kouhuns are small, multi-legged, venomous arthro­pods approximately thirty centimeters long, with gray, segmented bodies and large mandibles. Kouhun bites deliver a fast-acting and fatal neurotoxin, making them a favorite “w eapon” of many assassins. On their home planet of Indoumodo, they are simple preda­tors who track prey by heat. Their tiny size makes them adept at slipping through ventilation systems, windows, cracks in masonry, and other tight spaces. When cornered, kouhuns can also use a sharp, non-venomous tail spine to defend themselves.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 3
+		},
+		"skills": {
+			"Brawl": 0
+		},
+		"talents": [],
+		"abilities": ["Neurotoxin", "Silhouette 0"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Spine",
+				"skill": "Brawl",
+				"damage": 2,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 5"]
+			},
+			{
+				"name": "Mandibles",
+				"skill": "Brawl",
+				"damage": 2,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature"]
+	},
+	{
 		"name": "Massiff",
 		"type": "Rival",
 		"description": "Massiffs are armored predators native to Geonosis. Commonly used as guard animals in the Outer Rim, they are up to a meter tall at the shoulder. Massiffs are vicious predators with keen senses and animal cunning, and they are especially dangerous when starving—as these specimens are. Due to their hun­ger, these massiffs continue to maul downed oppo­nents until distracted in some fashion.",
@@ -426,6 +579,82 @@
 		],
 		"gear": [],
 		"tags": ["creature", "hutt space"]
+	},
+	{
+		"name": "Maalraa",
+		"type": "Rival",
+		"description": "The maalraa is a non-sentient, feline pack hunter that uses the Force to cloak itself from its prey. Although once found through­ out the galaxy and sometimes domesti­cated as guard animals, maalraas are now extremely rare, found only in a handful of the galaxy’s forgotten places and in the seediest corners of the criminal under­world. The maalraa’s ability to cloak itself makes it almost impossible to spot among the shadows, although those who are sensitive to the Force can sometimes detect its presence. When it strikes, the maalraa uses its huge fangs to latch onto its prey and hold it inert, slowly crushing it, while other members of the pack finish the unfortunate creature.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12
+		},
+		"skills": {
+			"Brawl": 3,
+			"Stealth": 4
+		},
+		"talents": [],
+		"abilities": ["Cloak"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Fangs",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature"]
+	},
+	{
+		"name": "Mature Tusk Cat",
+		"type": "Rival",
+		"description": "Tusk cats are feline predators that can grow up to two meters high and three meters long. Named for the two distinct tusks growing from their lower jaws, these mammals are social crea­tures who mate for life and form prides. They even can “guard” herds of prey animals, eating one ev­ery so often while protecting the rest of the herd from other preda­tors. These instincts make them surprisingly easy to do­ mesticate, and they are large enough that they can be ridden by most humanoid sapients. Many an Outer Rim wanderer relies on the keen eyes and sensitive nose of his trusted tusk cat companion.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 17,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coordination": 2,
+			"Perception": 2,
+			"Stealth": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Leap", "Silhouette 2"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Tusks and Claws",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature"]
 	},
 	{
 		"name": "Mynock",
@@ -710,6 +939,45 @@
 		"tags": ["creature", "hutt space"]
 	},
 	{
+		"name": "Stalking Acklay",
+		"type": "Nemesis",
+		"description": "Acklays are ferocious, three-meter-tall, six-legged pred­ators native to the planet Vendaxa. These non-sentient hunters evolved in the crucible of Vendaxa’s harsh eco­system to become finely honed killing machines. An acklay’s high metabolism gives it a great deal of energy, especially when hunting. Acklays are thick-shelled crus­taceans that can live underwater or on land. The ack­lay’s three eyes can see in almost-total darkness, and each of its legs ends in an enormous claw it uses to pin or slash at prey. Because of their combat prowess, ack­lays are used across the galaxy in gladiatorial arenas.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 12,
+			"wounds": 25,
+			"strain": 15,
+			"defence": [2, 0]
+		},
+		"skills": {
+			"Athletics": 4,
+			"Brawl": 4,
+			"Coordination": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Amphibious", "Many-armed", "Silhouette 2"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Large claws",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Knockdown", "Pierce 3"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature"]
+	},
+	{
 		"name": "Tauntaun",
 		"type": "Rival",
 		"description": "The tauntaun is a bipedal, reptomammalian herbi­vore with a wooly, thick hide, short front legs, and a bone-crested skull framed by a pair of curved horns on either side of its stubby snout. While out on the ice plains, tauntauns survive on a steady diet of frozen algae; within the grottos where tauntauns typically nest, they eat lichen and the abundant plant matter hidden within the caves. For sentient beings traversing Hoth’s frozen fields, tauntauns are ideal mounts due to their even temper and the thick coat of blubber that allows them to survive the biting cold.",
@@ -832,6 +1100,55 @@
 		"tags": ["creature", "hoth"]
 	},
 	{
+		"name": "Vornskr",
+		"type": "Rival",
+		"description": "Vornskrs are lanky, canine predators native to the planet Myrkr, but found throughout the galaxy as do­ mesticated hunting animals, pets, and guards. They use a mild poison in their whiplike tails to stun prey, then kill it with their teeth or claws. Vornskrs are Force-sensitive, a result of hunting prey with Force-sensitivity on their homeworld. A vornskr immediately focuses on any Force-sensitive creatures or individuals in its pres­ence as soon as it senses them, and generally attacks without hesitation. Mercenary Jedi hunters and Impe­rial Inquisitors have been known to use vornskrs to help ferret out Force-sensitive fugitives.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 12,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 1,
+			"Perception": 2,
+			"Resilience": 1,
+			"Survival": 1,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": ["Detect Force-Sensitivity", "Force Hunter"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Tail",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Stun 4"]
+			},
+			{
+				"name": "Teeth",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature"]
+	},
+	{
 		"name": "Vrblthers",
 		"type": "Minion",
 		"description": "Vrblthers are bipedal, carnivorous predators that are distinguished by powerful clawed hands and feet, long tails, and thick leathery hides that range in color from black to dark green to brown. Originally native to Varl, vrblthers were brought to Nar Shaddaa by the Hutts during their emigration to Evocar, the planet that became Nal Hutta. Hutts still make pets of vrblthers, and feral specimens can often be found hunting in packs in the lower reaches of Nar Shaddaa.",
@@ -870,9 +1187,38 @@
 		],
 		"gear": [],
 		"tags": ["creature", "hutt space"]
+	},
+	{
+		"name": "Ysalamir",
+		"type": "Minion",
+		"description": "Ysalamiri evolved on Myrkr, where one of their chief predators was the Force-sensitive, Force-detecting vorn­skr. As a result, ysalamiri developed an unusual defense: a natural “bubble” around them that negates other creatures’ ability to influence the Force. These docile, tree-dwelling creatures resemble half-meter-long furred lizards and live deep within the forests of Myrkr, where they have claimed the canopy as their own. They are herbivores, feasting on the sap of the trees in which they live, and they use only their teeth to defend themselves if attacked. As a result of their Force-negating abilities, ysalamiri are highly valued as pets and companions by anyone who fears those who use the Force.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 0,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 2
+		},
+		"skills": {},
+		"talents": [],
+		"abilities": ["Negate Force Powers", "Sessile", "Silhouette 0"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Teeth",
+				"skill": "Brawl",
+				"damage": 1,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": [],
+		"tags": ["creature"]
 	}
-
-
-
-
 ]
