@@ -10,7 +10,11 @@
 <body>
 
 <div id="container">
-	<div class="loading"><span class="fa fa-spin fa-spinner"></span> Loading...</div>
+	<div class="loading">
+		<h1>Star Wars Adversaries</h1>
+		<p>Star Wars Adversaries is an easily searchable database of adversaries for <a href="https://www.fantasyflightgames.com/">Fantasy Flight Games’</a> Star Wars Roleplaying Game.</p>
+		<p><span class="fa fa-spin fa-spinner"></span> Loading...</p>
+	</div>
 </div>
 <div id="built-by">Built by <a href="http://www.stoogoff.com/">Stoo Goff</a> | <a href="https://github.com/stoogoff/sw-adversaries">source</a>.</div>
 
@@ -33,17 +37,17 @@ System.import("app");
 <!-- @if ENV_LIVE=true -->
 <!-- Piwik -->
 <script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(["setDomains", ["*.swa.stoogoff.com"]]);
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//stats.we-evolve.co.uk/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 7]);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
+var _paq = _paq || [];
+_paq.push(["setDomains", ["*.swa.stoogoff.com"]]);
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function() {
+	var u="//stats.we-evolve.co.uk/";
+	_paq.push(['setTrackerUrl', u+'piwik.php']);
+	_paq.push(['setSiteId', 7]);
+	var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+	g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+})();
 </script>
 <noscript><p><img src="//stats.we-evolve.co.uk/piwik.php?idsite=7" style="border:0;" alt="" /></p></noscript>
 <!-- End Piwik Code -->
