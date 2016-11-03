@@ -36,8 +36,19 @@ class App extends React.Component {
 	componentDidMount() {
 		this.events["adversaries"] = this.stores.adversaries.on("change", () => {
 			let adversaries = this.stores.adversaries.all();
+			let adversary = null;
 
-			this._updateState(adversaries.sort(sortByProperty("name"))[0], adversaries);
+			if(location.hash.length > 0) {
+				let id = location.hash.substring(1);
+
+				adversary = adversaries.find(a => a.id == id);
+			}
+
+			if(!adversary) {
+				adversary = adversaries.sort(sortByProperty("name"))[0];
+			}
+
+			this._updateState(adversary, adversaries);
 		});
 
 		keys(this.stores).forEach(key => {
@@ -111,6 +122,10 @@ class App extends React.Component {
 			isLoaded: this.loadedTotal == keys(this.stores).length,
 			selectedIndex: this.state.selectedIndex
 		});
+
+		if(this.state.selected.length > 0) {
+			location.hash = this.state.selected[this.state.selectedIndex].id;
+		}
 	}
 
 	componentWillUnmount() {
