@@ -64,3 +64,4 @@ Main tasks:
 - More adversaries
 - Tracking of Wounds and Strain
 - Mobile friendly
+- Favourite adversaries
