@@ -128,7 +128,7 @@ gulp.task("dev", function() {
 	isDev = true;
 });
 
-// build everyting, dev or live shoudl've been run first but dev is the default
+// build everyting, dev or live should've been run first but dev is the default
 gulp.task("build", ["transpile-js", "copy-vendor", "copy-data", "copy-static", "copy-font", "sass"]);
 
 gulp.task("watch", ["dev"], function() {
