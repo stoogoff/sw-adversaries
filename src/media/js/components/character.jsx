@@ -12,11 +12,15 @@ export default class Character extends React.Component {
 		super(props);
 		
 		this.state = {
-			minions: 0
+			minions: 1
 		};
 	}
 
 	setMinions(minions) {
+		if(minions < 1) {
+			minions = 1;
+		}
+
 		this.setState({
 			minions: minions
 		});
@@ -66,7 +70,7 @@ export default class Character extends React.Component {
 					</div>
 					<div>
 						<h3>Wounds</h3>
-						<span>{ character.derived.wounds }</span>
+						<span>{ character.type === "Minion" ? character.derived.wounds * this.state.minions : character.derived.wounds }</span>
 					</div>
 					{ character.type === "Nemesis" ? <div><h3>Strain</h3><span>{ character.derived.strain }</span></div> : null }
 					<div>

@@ -27,7 +27,7 @@ function getWeaponDetails(weapon, character, allSkills, minions) {
 	let value = character.skills[weapon.skill] || 0;
 
 	if(minions > 0 && character.type == "Minion" && weapon.skill in character.skills) {
-		value += minions;
+		value += minions - 1;
 	}
 
 	weapon.icons = dice(stat, value);
@@ -128,7 +128,7 @@ export default class WeaponsPanel extends React.Component {
 						<th>Range</th>
 						<th>Damage</th>
 						<th>Roll { character.type == "Minion"
-							? <small> (for { this.props.minions + 1 })</small> 
+							? <small> (for { this.props.minions })</small> 
 							: null }
 						</th>
 						<th>Qualities / Mods</th>

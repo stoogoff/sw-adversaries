@@ -10,3 +10,14 @@ Built using:
 - [Gulp](http://gulpjs.com/)
 - Icons by [FontAwesome](http://fontawesome.io/)
 - Dice font from [The Alexandrian](http://thealexandrian.net/wordpress/37660/roleplaying-games/star-wars-force-and-destiny-system-cheat-sheet)
+
+## Gulp
+
+...
+
+
+## TODO
+
+- Write out gulp commands
+- Add blurb to the HTML so when sharing it isn't just a "Loading..." message
+- Add more stuff
