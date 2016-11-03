@@ -29,9 +29,9 @@ Built using:
 
 In the build directory run `npm install`. Once everything has installed run any of the following:
 
-`gulp dev clean` Delete the dev directory and start afresh.
-`gulp dev build` Completely build the project into the dev directory.
-`gulp watch` Watch files for changes and rebuild as necessary.
+- `gulp dev clean` Delete the dev directory and start afresh.
+- `gulp dev build` Completely build the project into the dev directory.
+- `gulp watch` Watch files for changes and rebuild as necessary.
 
 ## Gulp
 
