@@ -65,3 +65,4 @@ Main tasks:
 - Tracking of Wounds and Strain
 - Mobile friendly
 - Favourite adversaries
+- Favicon

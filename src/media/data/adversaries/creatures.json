@@ -34,7 +34,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "hutt space"]
+		"tags": ["creature", "location:hutt space", "book:lonh"]
 	},
 	{
 		"name": "Dark Wolf",
@@ -81,7 +81,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "hutt space", "raquor’daan"]
+		"tags": ["creature", "location:hutt space", "raquor’daan", "book:lonh"]
 	},
 	{
 		"name": "Dianoga",
@@ -120,7 +120,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "dianoga"]
+		"tags": ["creature", "species:dianoga", "book:aor", "book:eote"]
 	},
 	{
 		"name": "Small Dianoga",
@@ -159,7 +159,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "dianoga"]
+		"tags": ["creature", "species:dianoga", "book:lonh"]
 	},
 	{
 		"name": "Greater Dianoga",
@@ -199,7 +199,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "dianoga"]
+		"tags": ["creature", "species:dianoga", "book:lonh"]
 	},
 	{
 		"name": "Duracrete Slug",
@@ -237,7 +237,7 @@
 			}
 		],
 		"gear": ["Partially-digested landspeeder identity plate"],
-		"tags": ["creature", "coruscant"]
+		"tags": ["creature", "location:coruscant", "book:uabs"]
 	},
 	{
 		"name": "Grabworm",
@@ -282,7 +282,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "hutt space", "toydaria"]
+		"tags": ["creature", "location:hutt space", "location:toydaria", "book:lonh", "adventure:toydarian grocery shopping"]
 	},
 	{
 		"name": "Gundark",
@@ -320,7 +320,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature"]
+		"tags": ["creature", "book:aor", "book:eote"]
 	},
 	{
 		"name": "Jakobeast",
@@ -358,7 +358,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "force sensitive"]
+		"tags": ["creature", "force sensitive", "book:fad"]
 	},
 	{
 		"name": "Jubbar Bird",
@@ -393,7 +393,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "force sensitive"]
+		"tags": ["creature", "force sensitive", "book:fad"]
 	},
 	{
 		"name": "Kaaten",
@@ -430,7 +430,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "force sensitive"]
+		"tags": ["creature", "force sensitive", "book:fad"]
 	},
 	{
 		"name": "Kintan Strider",
@@ -468,7 +468,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "hutt space"]
+		"tags": ["creature", "location:hutt space", "book:lonh"]
 	},
 	{
 		"name": "Klatooinian Paddy Frog",
@@ -496,7 +496,7 @@
 		"abilities": ["Silhouette 0", "Amphibious"],
 		"weapons": [],
 		"gear": [],
-		"tags": ["creature", "hutt space"]
+		"tags": ["creature", "location:hutt space", "location:klatooine", "book:lonh"]
 	},
 	{
 		"name": "Kouhun",
@@ -539,7 +539,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature"]
+		"tags": ["creature", "book:fad"]
 	},
 	{
 		"name": "Massiff",
@@ -578,7 +578,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "hutt space"]
+		"tags": ["creature", "location:hutt space", "book:lonh"]
 	},
 	{
 		"name": "Maalraa",
@@ -614,7 +614,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature"]
+		"tags": ["creature", "book:fad"]
 	},
 	{
 		"name": "Mature Tusk Cat",
@@ -654,7 +654,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature"]
+		"tags": ["creature", "book:fad"]
 	},
 	{
 		"name": "Mynock",
@@ -690,7 +690,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature"]
+		"tags": ["creature", "book:eote"]
 	},
 	{
 		"name": "Photon Spider",
@@ -728,7 +728,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "hutt space"]
+		"tags": ["creature", "location:hutt space", "book:lonh"]
 	},
 	{
 		"name": "Pybus Amphibipole",
@@ -774,7 +774,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "hutt space"]
+		"tags": ["creature", "location:hutt space", "book:lonh"]
 	},
 	{
 		"name": "Rancor",
@@ -813,7 +813,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature"]
+		"tags": ["creature", "book:eote"]
 	},
 	{
 		"name": "Rass",
@@ -852,7 +852,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "hutt space"]
+		"tags": ["creature", "location:hutt space", "book:lonh"]
 	},
 	{
 		"name": "Shaoryn",
@@ -890,7 +890,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "hutt space", "toydaria"]
+		"tags": ["creature", "location:hutt space", "location:toydaria", "book:lonh", "adventure:toydarian grocery shopping"]
 	},
 	{
 		"name": "Skuir Fish",
@@ -936,7 +936,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "hutt space"]
+		"tags": ["creature", "location:hutt space", "book:lonh"]
 	},
 	{
 		"name": "Stalking Acklay",
@@ -975,7 +975,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature"]
+		"tags": ["creature", "book:fad"]
 	},
 	{
 		"name": "Tauntaun",
@@ -1012,7 +1012,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "hoth"]
+		"tags": ["creature", "location:hoth", "book:sor"]
 	},
 	{
 		"name": "The Lost",
@@ -1059,7 +1059,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "hutt", "hutt space"]
+		"tags": ["creature", "species:hutt", "location:hutt space", "book:lonh"]
 	},
 	{
 		"name": "Wampa",
@@ -1097,7 +1097,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "hoth"]
+		"tags": ["creature", "location:hoth", "book:sor"]
 	},
 	{
 		"name": "Vornskr",
@@ -1146,7 +1146,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature"]
+		"tags": ["creature", "book:fad"]
 	},
 	{
 		"name": "Vrblthers",
@@ -1186,7 +1186,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "hutt space"]
+		"tags": ["creature", "location:hutt space", "book:lonh"]
 	},
 	{
 		"name": "Ysalamir",
@@ -1219,6 +1219,6 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature"]
+		"tags": ["creature", "book:fad"]
 	}
 ]

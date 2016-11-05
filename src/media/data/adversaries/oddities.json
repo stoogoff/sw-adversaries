@@ -35,7 +35,7 @@
 			}
 		],
 		"gear": ["Utility belt"],
-		"tags": ["galactic oddity", "besalisk"]
+		"tags": ["galactic oddity", "species:besalisk", "book:fad"]
 	},
 	{
 		"name": "Chiss Mercenary",
@@ -69,10 +69,37 @@
 		"abilities": ["Infravision"],
 		"weapons": ["Blaster rifle", "Cortosis sword"],
 		"gear": ["Heavy battle armour (+2 Soak, +1 Defence)", "Stimpack"],
-		"tags": ["galactic oddity", "chiss", "mercenary"]
+		"tags": ["galactic oddity", "species:chiss", "mercenary", "book:fad"]
 	},
 	{
-		"name": "T'landa Til Charlatan",
+		"name": "Ithorian Storyteller",
+		"type": "Rival",
+		"description": "The noble lthorian people, often known by the semi­-derogatory nickname “Hammerheads” because of their unique cranial shape, are known for their peace­ful, scholarly nature and their devotion to the natural environments of the galaxy. Many lthorians travel the galaxy aboard massive ships known as “herd ships,” although some choose to travel in a solitary manner. Those who do are often steeped in the traditions and lore of their people and enjoy gathering stories of oth­ers like themselves. To them. stories are a unique form of culture that should be studied and maintained at all costs and they are happy to speak with others who might have stories to share with them.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 1,
+			"Knowledge: Lore": 3
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Holdout blaster"],
+		"gear": [],
+		"tags": ["galactic oddity", "species:ithorian", "book:eote"]
+	},
+	{
+		"name": "T’landa Til Charlatan",
 		"type": "",
 		"description": "Originally hailing from Varl, t’landa Til are massive sentient quadrupeds distantly related to the Hutts. Til possess thick, trunk­ like legs, a thin whip of a tail, and two slen­der arms. The t ’landa Til are not as wealthy or powerful as the Hutts, and many of them serve the Hutts in various capacities.",
 		"characteristics": {
@@ -96,7 +123,7 @@
 		"abilities": ["Humming Vibrations"],
 		"weapons": [],
 		"gear": [],
-		"tags": ["galactic oddity", "hutt space"]
+		"tags": ["galactic oddity", "location:hutt space", "book:lonh"]
 	},
 	{
 		"name": "Morgukai Adept",
@@ -141,7 +168,7 @@
 			}
 		],
 		"gear": ["Cortosis armour (+2 soak, +1 defence, Cortosis)"],
-		"tags": ["galactic oddity", "nikto", "hutt space"]
+		"tags": ["galactic oddity", "species:nikto", "location:hutt space", "book:lonh"]
 	},
 	{
 		"name": "Mustafarian Miner",
@@ -170,7 +197,7 @@
 		"abilities": ["Heat Resistance"],
 		"weapons": ["Vibro-ax"],
 		"gear": [],
-		"tags": ["galactic oddity", "mustafarian"]
+		"tags": ["galactic oddity", "species:mustafarian", "book:fad"]
 	},
 	{
 		"name": "Evocii",
@@ -207,7 +234,36 @@
 			}
 		],
 		"gear": ["Heavy clothing (+1 soak)"],
-		"tags": ["galactic oddity", "hutt space"]
+		"tags": ["galactic oddity", "location:hutt space", "book:lonh"]
+	},
+	{
+		"name": "Yarkora Treasure Hunter",
+		"type": "Rival",
+		"description": "The Yarkora are a mysterious, long-lived race whose homeworld remains undiscovered by greater galactic society. Some members of their race have found their way into the seediest ports of call in the Outer Rim and use their incredibly patient methods to manipulate se­crets out of even the most closely guarded individuals. These secrets they then use in the sale of information or for more profitable endeavors, the discovery of lost items and legacies to line their own coffers. Yarkora rec­ognise the sentience of other races but do not truly con­sider most races to be their equal, and look upon them as lesser beings that exist only to assist them in the ful­fillment of their agenda. This is not to say that they do not develop affections for others, but there is always a degree of reservation that ensures they are not fully committed to relations with outsiders.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 13
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 4,
+			"Cool": 2,
+			"Deception": 4,
+			"Knowledge: Lore": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": [],
+		"tags": ["galactic oddity", "species:yarkora", "book:eote"]
 	},
 	{
 		"name": "Klatooinian Elder",
@@ -252,6 +308,6 @@
 			}
 		],
 		"gear": [],
-		"tags": ["galactic oddity", "klatooinian", "hutt space"]
+		"tags": ["galactic oddity", "species:klatooinian", "location:hutt space", "book:lonh"]
 	}
 ]

@@ -1,0 +1,277 @@
+[
+	{
+		"name": "Captain Gideon",
+		"type": "Nemesis",
+		"description": "Captain Gideon is a member of the Suwanee Pirates, a desperate group of pirates and cutthroats who have been preying on starships in this area for years. Gideon is a Devaronian whose thick, white horns and trademark devilish grin, and wickedly sharp vibros­word serve to accent his sinister appearance.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15,
+			"strain": 13,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Cool": 2,
+			"Deception": 3,
+			"Gunnery": 2,
+			"Knowledge: Underworld": 2,
+			"Melee": 3,
+			"Negotiation": 2,
+			"Piloting: Space": 3,
+			"Ranged: Light": 3,
+			"Stealth": 2,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Nobody’s Fool 2", "Skilled Jockey 2"],
+		"abilities": [],
+		"weapons": ["Heavy blaster pistol", "Vibrosword"],
+		"gear": ["Padded armour (+2 Soak)", "Breath mask", "Utility belt"],
+		"tags": ["underworld", "pirate", "species:devaronian", "book:lonh", "adventure:welcome aboard"]
+	},
+	{
+		"name": "Corte Voss",
+		"type": "Nemesis",
+		"description": "Corte is a cunning smuggler who considers herself a savvy businesswoman, but she’s been on a losing streak for some time now after a deal with the Hutts of Corensla went wrong and she was forced to go to ground to avoid their ire.\n\nAttempting to rip off Thamoss to get out from under­neath the ensuing financial troubles was her idea, and her crew gladly backed her plan, thinking they could reap some extra profit. She’s perfectly happy to fight her way out of the ensuing struggle with the Trandoshan and his goons, though she’ll be grateful to anyone who cares to lend her—and her boys—a hand. The PCs can make a bit of money by dealing with her, but they also risk getting dragged into the troubles pursuing her.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12,
+			"strain": 12
+		},
+		"skills": {
+			"Astrogation": 2,
+			"Brawl": 2,
+			"Cool": 3,
+			"Charm": 3,
+			"Negotiation": 2,
+			"Piloting: Space": 3,
+			"Ranged: Light": 3,
+			"Streetwise": 2
+		},
+		"talents": ["Adversary 1", "Quick Draw", "Rapid Reaction 2", "Soft Spot"],
+		"abilities": [],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Heavy clothing (+1 Soak)", "Datapad"],
+		"tags": ["underworld", "smuggler", "species:twi’lek", "book:lonh", "adventure:a deal gone wrong", "location:hutt space", "location:kwenn station"]
+	},
+	{
+		"name": "Corte’s Smuggler Cew",
+		"type": "Minion",
+		"description": "Tad, Vickers, Gyd, and Sira are four of Corte’s crew. A fifth crewmember, Kef, remains behind with the Titan’s Mercy, Corte’s light freighter. The four with her (two humans, a Twi’lek, and a Gand) are all young and cocky, and none of them expected any trouble as a result of this deal. Kef (the Jawa) always expects trouble, but wearily accepts that he can rarely stop his hot-blooded captain from getting in over her head.\n\nUnder the circumstances, Corte’s crewmates are surprised, but willing to fight their way out of trou­ble–after all, this isn’t the first time Corte’s plans have gone awry. If it looks as though the fight is going against them, they might well call out to the PCs for assistance, for they realize how dangerous Thamoss can be (despite Corte’s earlier assurances that this job would be simple and risk-free).",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4
+		},
+		"skills": {
+			"Athletics": 0,
+			"Brawl": 0,
+			"Cool": 0,
+			"Gunnery": 0,
+			"Ranged: Light": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Heavy clothing (+1 Soak)"],
+		"tags": ["underworld", "smuggler", "book:lonh", "adventure:a deal gone wrong", "location:hutt space", "location:kwenn station"]
+	},
+	{
+		"name": "Domdees",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 10
+		},
+		"skills": {
+			"Charm": 3,
+			"Deception": 3,
+			"Knowledge: Outer Rim": 2,
+			"Knowledge: Underworld": 3,
+			"Negotiation": 3
+		},
+		"talents": ["Smooth Talker"],
+		"abilities": ["Hoverer", "Silhouette 0"],
+		"weapons": [],
+		"gear": ["Spatula", "Puffy chef’s hat", "Utility apron"],
+		"tags": ["civilian", "species:toydarian", "location:hutt space", "book:lonh", "adventure:toydarian grocery shopping", "location:toydaria"]
+	},
+	{
+		"name": "Fereallis Pirate Crewmate",
+		"type": "Rival",
+		"description": "Captain Gideon’s crew consists of three Weequay enforcers, a Twi’lek first mate, two human smugglers, and an Aquilish hired thug. For convenience, all crew­ members use the same profile listed here.",
+		"notes": "Armed with a vibroknife or shock gloves.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 13
+		},
+		"skills": {
+			"Brawl": 1,
+			"Cool": 2,
+			"Gunnery": 1,
+			"Ranged (Light)": 3,
+			"Vigilance": 1
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Heavy blaster pistol", "Vibroknife", "Shock gloves"],
+		"gear": ["Padded armour (+2 Soak)", "Breath mask"],
+		"tags": ["underworld", "pirate", "book:lonh", "adventure:welcome aboard"]
+	},
+	{
+		"name": "King Maalva",
+		"type": "Nemesis",
+		"description": "A nephew of the deceased Katuunko, Maalva suc­ceeded Katuunko after his assassination during the Clone Wars. Maalva does not share his uncle’s mild temperament—he is a cantankerous, conniving, petty braggart. Nevertheless, he manages to retain his throne through political savvy and by recruiting ambitious vassals who pledge their loyalty to him. Rather than use his power to better his kingdom, Maalva lines his own pockets and blames the lack of prosperity on the Empire, the Hutts, and a bad roll of the chance cube.\n\nKing Maalva tolerates the Imperials by order of his Hutt overlords, but he also has gained personal ben­efit from their presence. Unbeknownst to his subjects and even his councilmen, the king orders the abduc­tion of Toydarian villagers in far-flung settlements and sells them into Imperial slavery. In return, Maalva is paid handsomely, and starships bearing the royal seal are exempt from all customs inspections.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 5
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10,
+			"strain": 15,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Charm": 3,
+			"Coercion": 4,
+			"Deception": 4,
+			"Discipline": 4,
+			"Knowledge: Outer Rim": 2,
+			"Knowledge: Underworld": 2,
+			"Leadership": 3,
+			"Negotiation": 4,
+			"Streetwise": 3
+		},
+		"talents": ["Nobody’s Fool 1", "Plausible Deniability 2", "Scathing Tirade"],
+		"abilities": ["Hoverer", "Silhouette 0"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Ceremonial sword",
+				"skill": "Melee",
+				"plus-damage": 1,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Encrypted credit voucher with 50,000 credits", "Royal crown"],
+		"tags": ["civilian", "species:toydarian", "book:lonh", "location:hutt space"]
+	},
+	{
+		"name": "Thamoss",
+		"type": "Nemesis",
+		"description": "Thamoss is a Trandoshan merchant with a penchant for dealing in weapons and military-grade compo­nents. He’s cunning and cruel, and he prides himself on getting the best of any deal. He hires covert muscle to oversee his deals, and this incident is no exception. Thamoss has decided that Corte’s going to pay for her insults, and he intends to use his disruptor pistol to take his revenge.\n\nShould the PCs end up helping Thamoss, he is unlikely to offer them direct monetary compensa­tion. He might, however, have some jobs for them in the future as enforcers. If the PCs make an enemy of Thamoss and he survives the encounter, though, they can expect to see the vindictive Trandoshan again in their future dealings in Hutt Space. The GM could rep­resent this as a small Obligation generated by Tham­oss’ ongoing animosity, or simply handle it narratively by having him appear again seeking recompense.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 16,
+			"strain": 12
+		},
+		"skills": {
+			"Brawl": 3,
+			"Knowledge: Underworld": 2,
+			"Negotia­tion": 3,
+			"Perception": 3,
+			"Ranged: Light": 2,
+			"Streetwise": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [],
+		"weapons": ["Disruptor pistol", "Holdout blaster"],
+		"specialist-weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"plus-damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": ["Padded armour (+2 Soak)", "Comlink"],
+		"tags": ["underworld", "book:lonh", "adventure:a deal gone wrong", "location:hutt space", "location:kwenn station", "species:trandoshan", "merchant"]
+	},
+	{
+		"name": "Thamoss’s Security Guards",
+		"type": "Minion",
+		"description": "Thamoss keeps a group of mercenaries on retainer to provide hidden security for questionable deals. Each member of the team, of which there are four, is non­-descript and discreet. Prior to the meeting between Thamoss and Corte’s smugglers, the four meres assume tactical positions and watch the proceedings from a dis­tance. At Thamoss’s signal, they move in, guns blazing.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Deception": 0,
+			"Perception": 0,
+			"Ranged: Heavy": 0,
+			"Ranged: Light": 0,
+			"Vigilance": 0
+		},
+		"talents": ["Quick Strike"],
+		"abilities": [],
+		"weapons": ["Blaster carbine", "Blaster pistol", "Combat knife"],
+		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Comlink", "Thermal cloak"],
+		"tags": ["underworld", "book:lonh", "adventure:a deal gone wrong", "location:hutt space", "location:kwenn station", "species:trandoshan", "thug"]
+	}
+]

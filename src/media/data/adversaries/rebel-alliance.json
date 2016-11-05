@@ -24,7 +24,7 @@
 		"abilities": ["Covering Fire"],
 		"weapons": ["Blaster rifle", "Combat knife"],
 		"gear": ["Blast vest (+1 soak)"],
-		"tags": ["rebel alliance"]
+		"tags": ["rebel alliance", "book:aor"]
 	},
 	{
 		"name": "Bothan Spy",
@@ -52,7 +52,7 @@
 		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Encoded datapad", "Secure comlink"],
-		"tags": ["rebel alliance"]
+		"tags": ["rebel alliance", "book:aor"]
 	},
 	{
 		"name": "Diplomat",
@@ -80,7 +80,7 @@
 		"abilities": [],
 		"weapons": [],
 		"gear": ["Comlink", "Datapad", "Robes (+1 soak)"],
-		"tags": ["rebel alliance"]
+		"tags": ["rebel alliance", "book:aor"]
 	},
 	{
 		"name": "Alliance Commander",
@@ -112,7 +112,7 @@
 		"abilities": ["Improved Covering Fire"],
 		"weapons": ["Blaster carbine", "Light blaster pistol"],
 		"gear": ["Blast vest (+1 soak)"],
-		"tags": ["rebel alliance"]
+		"tags": ["rebel alliance", "book:aor"]
 	},
 	{
 		"name": "Incom Engineer",
@@ -139,7 +139,7 @@
 		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Datapad with schematics", "Repair tools"],
-		"tags": ["rebel alliance", "engineer"]
+		"tags": ["rebel alliance", "engineer", "book:aor"]
 	},
 	{
 		"name": "Mechanic",
@@ -164,7 +164,7 @@
 		"abilities": [],
 		"weapons": ["Heavy hydrospanner"],
 		"gear": ["Repair tools"],
-		"tags": ["rebel alliance", "engineer"]
+		"tags": ["rebel alliance", "engineer", "book:aor"]
 	},
 	{
 		"name": "Quarren Agitator",
@@ -191,10 +191,10 @@
 		"abilities": ["Amphibious"],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Inflammatory pamphlets and propaganda."],
-		"tags": ["rebel alliance", "quarren"]
+		"tags": ["rebel alliance", "species:quarren", "book:aor"]
 	},
 	{
-		"name": "Quatermaster",
+		"name": "Quartermaster",
 		"type": "Rival",
 		"description": "The greatest difficulty facing the Rebellion is its lack of resources. What resources it does possess are very carefully measured and dispensed with absolute scrutiny for their purpose and intent. Some, even some among the Alliance’s ranks, look at the fleets of ships and the hidden bases that the organization commands and wonder why even minor resources like blaster packs are so rigidly controlled, but the Rebellion can survive no other way. Quartermasters, like their more formal military counterparts, are tasked with managing the Alliance’s meager resources and ensuring there is never a shortage of any essential commodity. Quartermasters are, by necessity, extremely strict and somewhat unpleasant, dealing with a never-ending stream of requests by frustrated personnel, all of whom believe that their request is, of course, completely valid. As a result, quartermasters often have a very unpleasant reputation among their fellow Alliance personnel.",
 		"characteristics": {
@@ -218,7 +218,7 @@
 		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Blast vest (+1 soak)"],
-		"tags": ["rebel alliance"]
+		"tags": ["rebel alliance", "book:aor"]
 	},
 	{
 		"name": "Rebel Cell Leader",
@@ -263,7 +263,7 @@
 			}
 		],
 		"gear": ["Armoured clothing (+1 defence, +1 soak)"],
-		"tags": ["rebel alliance"]
+		"tags": ["rebel alliance", "book:aor"]
 	},
 	{
 		"name": "Rebel Specforce Infiltrator",
@@ -292,7 +292,7 @@
 		"abilities": ["Shadowed", "Swipe 1"],
 		"weapons": ["Light blaster pistol", "Vibroknife"],
 		"gear": ["Reinforced blast vest (+2 soak)", "Encrypted comlink"],
-		"tags": ["rebel alliance"]
+		"tags": ["rebel alliance", "book:aor"]
 	},
 	{
 		"name": "Starfighter Ace",
@@ -319,7 +319,7 @@
 		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Flight suit", "Astromech droid"],
-		"tags": ["rebel alliance", "pilot"]
+		"tags": ["rebel alliance", "pilot", "book:aor"]
 	},
 	{
 		"name": "Starfighter Pilot",
@@ -346,6 +346,6 @@
 		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Flight suit"],
-		"tags": ["rebel alliance", "pilot"]
+		"tags": ["rebel alliance", "pilot", "book:aor"]
 	}
 ]

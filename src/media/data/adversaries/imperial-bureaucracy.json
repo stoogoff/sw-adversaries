@@ -23,7 +23,7 @@
 		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Secure datapad with uplink to BoSS database", "Comlink"],
-		"tags": ["empire", "imperial bureaucracy"]
+		"tags": ["empire", "imperial bureaucracy", "book:aor"]
 	},
 	{
 		"name": "COMPNOR Agent",
@@ -53,7 +53,7 @@
 		"abilities": [],
 		"weapons": ["Disruptor pistol"],
 		"gear": ["Military comlink"],
-		"tags": ["empire", "imperial bureaucracy"]
+		"tags": ["empire", "imperial bureaucracy", "book:aor"]
 	},
 	{
 		"name": "Government Bureaucrat",
@@ -83,7 +83,7 @@
 		"abilities": [],
 		"weapons": [],
 		"gear": ["Datapad of Imperial regulations"],
-		"tags": ["empire", "imperial bureaucracy"]
+		"tags": ["empire", "imperial bureaucracy", "book:fad"]
 	},
 	{
 		"name": "Imperial Advisor",
@@ -117,7 +117,7 @@
 		"abilities": [],
 		"weapons": [],
 		"gear": ["Lavishly adorned robes", "Extensive credentials", "Sundry personal staff"],
-		"tags": ["empire", "imperial bureaucracy"]
+		"tags": ["empire", "imperial bureaucracy", "book:aor"]
 	},
 	{
 		"name": "Imperial DeStab Agent",
@@ -146,7 +146,38 @@
 		"abilities": ["Destabilizing Influence"],
 		"weapons": ["Holdout blaster"],
 		"gear": [],
-		"tags": ["empire", "imperial bureaucracy"]
+		"tags": ["empire", "imperial bureaucracy", "book:aor"]
+	},
+	{
+		"name": "Imperial Intelligence Agent",
+		"type": "Rival",
+		"description": "The resources at the disposal of the Imperial Intelligence Bureau are vir­tually without limit and the agents who enact the Bureau’s will throughout the galaxy are highly trained, extremely motivated, and absolutely lethal. Although their mandates and methodologies vary from agent to agent, the essential truth of the matter is that an intelligence agent will do absolutely anything to ensure that whatever problem he or she has been dispatched to deal with is, in fact, dealt with permanently. If an agent determines that an individual may pose a threat to the stability of the Empire, either in the present or in the future, he may well forsake traditional measures and take it upon himself to ensure that the htreat is neutralised.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14
+		},
+		"skills": {
+			"Brawl": 2,
+			"Charm": 2,
+			"Coercion": 2,
+			"Deception": 2,
+			"Ranged: Light": 2,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Scanner"],
+		"tags": ["empire", "imperial bureaucracy", "book:eote"]
 	},
 	{
 		"name": "Imperial Moff",
@@ -181,6 +212,6 @@
 		"abilities": ["Imperial Valour"],
 		"weapons": ["Blaster pistol"],
 		"gear": [],
-		"tags": ["empire", "imperial bureaucracy"]
+		"tags": ["empire", "imperial bureaucracy", "book:aor", "book:eote"]
 	}
 ]

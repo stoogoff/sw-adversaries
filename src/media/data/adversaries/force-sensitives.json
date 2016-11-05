@@ -25,7 +25,7 @@
 		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Toolkit", "Emergency repair kit"],
-		"tags": ["force sensitive", "engineer"]
+		"tags": ["force sensitive", "engineer", "book:fad"]
 	},
 	{
 		"name": "Cautious Smuggler",
@@ -57,7 +57,7 @@
 		"abilities": ["Force power: Influence (Upgrade)"],
 		"weapons": ["Blaster pistol"],
 		"gear": [],
-		"tags": ["force sensitive", "smuggler"]
+		"tags": ["force sensitive", "smuggler", "book:fad"]
 	},
 	{
 		"name": "CSA Intrusion Specialist",
@@ -84,7 +84,7 @@
 		"abilities": ["Computer Affinity"],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Slicer gear"],
-		"tags": ["force sensitive", "civilian", "coprorate security authority"]
+		"tags": ["force sensitive", "civilian", "coprorate security authority", "book:fad"]
 	},
 	{
 		"name": "Dandy Gambler",
@@ -114,7 +114,7 @@
 		"abilities": ["All the Luck in the Galaxy"],
 		"weapons": ["Holdout blaster"],
 		"gear": [],
-		"tags": ["force sensitive", "underworld"]
+		"tags": ["force sensitive", "underworld", "book:fad"]
 	},
 	{
 		"name": "Emperor’s Hand",
@@ -152,7 +152,7 @@
 		"abilities": ["Force power: Influence", "Darkside Force User"],
 		"weapons": ["Disruptor pistol", "Vibrosword", "Frag grenade"],
 		"gear": ["1 Frag grenade"],
-		"tags": ["force sensitive", "empire"]
+		"tags": ["force sensitive", "empire", "book:eote"]
 	},
 	{
 		"name": "Fallen Apprentice",
@@ -181,7 +181,7 @@
 		"abilities": ["Darkside Force User"],
 		"weapons": ["Basic lightsaber"],
 		"gear": ["Black robes (+1 Soak)"],
-		"tags": ["force sensitive"]
+		"tags": ["force sensitive", "book:fad"]
 	},
 	{
 		"name": "Fallen Master",
@@ -223,7 +223,7 @@
 			}
 		],
 		"gear": ["Black robes (+1 Soak)"],
-		"tags": ["force sensitive"]
+		"tags": ["force sensitive", "book:fad"]
 	},
 	{
 		"name": "Forsaken Jedi",
@@ -259,7 +259,7 @@
 		"abilities": ["Force power: Move", "Force power: Sense", "On the Edge"],
 		"weapons": ["Lightsaber"],
 		"gear": [],
-		"tags": ["force sensitive", "jedi"]
+		"tags": ["force sensitive", "jedi", "book:eote"]
 	},
 	{
 		"name": "Jedi in Hiding",
@@ -296,7 +296,7 @@
 		"abilities": ["Force power: Move", "Force power: Enhance", "Force power: Foresee"],
 		"weapons": ["Lightsaber"],
 		"gear": ["Jedi Robes (+1 soak)"],
-		"tags": ["force sensitive", "jedi"]
+		"tags": ["force sensitive", "jedi", "book:aor"]
 	},
 	{
 		"name": "Murderous Fugitive",
@@ -337,7 +337,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["force sensitive", "underworld"]
+		"tags": ["force sensitive", "underworld", "book:fad"]
 	},
 	{
 		"name": "Scarred Gladiator",
@@ -381,6 +381,6 @@
 			}
 		],
 		"gear": ["Gladiatorial leathers (+2 Soak)"],
-		"tags": ["force sensitive", "underworld", "gladiator"]
+		"tags": ["force sensitive", "underworld", "gladiator", "book:fad"]
 	}
 ]

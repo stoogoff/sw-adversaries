@@ -1,8 +1,47 @@
 [
 	{
+		"name": "Arrogant Heir",
+		"type": "Rival",
+		"description": "Wealthy citizens of the Core Worlds are usually blind to the privilege and arrogance that are the hallmarks of their lives. Since birth, they have been taught that they are the leaders of the galaxy-economically, politically, spiritually, and in all other ways Inevitably, there are those amongst the people who have everything who want more, and these arrogant heirs may well come into conflict or contact with the galactic underworld. The in­dependent operators of the fringe must tread carefully around these individuals, for fear of drawing the atten­tion of more powerful Core World interests.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 1,
+			"Coercion": 2,
+			"Cool": 1,
+			"Knowledge: Core Worlds": 2,
+			"Knowledge: Education": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Duelist blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Accurate 2", "Stun Setting"]
+			}
+		],
+		"gear": ["Servants", "Credit stick with 200-400 credits"],
+		"tags": ["civilian", "location:core worlds", "book:eote"]
+	},
+	{
 		"name": "Big Game Hunter",
 		"type": "Nemesis",
-		"description": "The Rim's many dangerous worlds are home to count­less frightening creatures, and big game hunters prey on the largest and most menacing of these. Frequently operating at the edges of civilization, these beings ex­plore the deepest jungles, penetrate the harshest des­erts, and even venture into the bottomless depths of ocean worlds to track and kill or capture the fiercest animals known to the galaxy. Some take contracts from settlements or rancher barons to eliminate dangerous predators. Others help fill the galaxy’s fighting pits and gladiatorial arenas with a never-ending supply of exotic threats. Finally, some hunt for sport, savoring the rush of adrenaline at every kill. Big game hunters are deadly combatants, especially when circumstances require them to hunt the deadliest game: other sentients.",
+		"description": "The Rim’s many dangerous worlds are home to count­less frightening creatures, and big game hunters prey on the largest and most menacing of these. Frequently operating at the edges of civilization, these beings ex­plore the deepest jungles, penetrate the harshest des­erts, and even venture into the bottomless depths of ocean worlds to track and kill or capture the fiercest animals known to the galaxy. Some take contracts from settlements or rancher barons to eliminate dangerous predators. Others help fill the galaxy’s fighting pits and gladiatorial arenas with a never-ending supply of exotic threats. Finally, some hunt for sport, savoring the rush of adrenaline at every kill. Big game hunters are deadly combatants, especially when circumstances require them to hunt the deadliest game: other sentients.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -49,7 +88,7 @@
 			}
 		],
 		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Utility belt", "Extra reloads", "Survival kit"],
-		"tags": ["civilian", "rim worlder"]
+		"tags": ["civilian", "location:rim worlds", "book:fad"]
 	},
 	{
 		"name": "Bith Musician",
@@ -76,7 +115,62 @@
 		"abilities": ["Keen Senses"],
 		"weapons": [],
 		"gear": ["Musical instrument"],
-		"tags": ["civilian", "rim worlder", "bith"]
+		"tags": ["civilian", "location:rim worlds", "species:bith", "book:fad"]
+	},
+	{
+		"name": "Club Hired Guard",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 6
+		},
+		"skills": {
+			"Brawl": 0,
+			"Coercion": 0,
+			"Ranged: Light": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster pistol", "Brass knuckles"],
+		"gear": ["Flak vest (+1 Soak)"],
+		"tags": ["civilian", "security", "thug", "book:uabs"]
+	},
+	{
+		"name": "Comm Operator",
+		"type": "Rival",
+		"description": "Comm operators are the lifeblood of a spaceport. They are the ones who communicate with outgoing and incoming ships and manage approval of all de­partures and arrivals. They endeavor to keep the traffic above a spaceport orderly and prevent acci­dents. Such accidents happen anyway, but their rarity is testament to the skill of these officers. Some operators develop familiarities or even rela­tionships with the ship crews they communicate with most frequently, and have been known to give preferential berths to close friends, or at least peo­ple who remember who their friends are when the credits are flowing.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 1,
+			"Cool": 1,
+			"Knowledge: Out­er Rim": 3
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Encrypted comlink"],
+		"tags": ["civilian", "spaceport personnel", "book:eote"]
 	},
 	{
 		"name": "Corporate Representative",
@@ -105,34 +199,123 @@
 		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Datapad", "Expense voucher"],
-		"tags": ["civilian"]
+		"tags": ["civilian", "book:aor"]
 	},
 	{
-		"name": "Police Droid",
-		"type": "Minion",
-		"description": "In lieu of wasting precious policemen on routine patrols and minor transgressions, the Coruscant Underworld Police frequently employ droids to help keep the peace. Unfortunately, the droids’ literal programming sometimes allows crafty criminals to talk their way out of trouble.",
+		"name": "Corrupt Bureaucrat",
+		"type": "Rival",
+		"description": "Politics is a deadly game and often those who play it have a wide variety of plots and machinations in mo­tion at any one time. Many of these depend upon the extensive use of ignorant, expendable pawns. Crimi­nals, and those who society would prefer to ignore, are ideally suited for this manner of operation. A cunning politico knows how to make use of such vassals, prom­ising them enough cash to ensure they are interested without asking too many questions. Those who can get the job done and keep their mouths shut can find lu­crative, long-term employment, while those who cause too much of a spectacle can quietly be diverted into situations that allow the problem to resolve itself, usually in a violent manner.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
-			"Intellect": 1,
-			"Cunning": 2,
-			"Willpower": 1,
-			"Presence": 1
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": 3,
-			"wounds": 6
+			"soak": 2,
+			"wounds": 12
 		},
 		"skills": {
-			"Ranged: Light": 0,
-			"Vigilance": 0
-
+			"Charm": 2,
+			"Coercion": 1,
+			"Cool": 2,
+			"Deception": 3,
+			"Negotiation": 4
 		},
-		"talents": [],
-		"abilities": ["Droid"],
+		"talents": ["Plausible Deniability 1", "Nobody’s Fool 2"],
+		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": [],
-		"tags": ["civilian", "security", "coruscant", "droid"]
+		"tags": ["civilian", "book:eote"]
+	},
+	{
+		"name": "Customs Inspector",
+		"type": "Rival",
+		"description": "The customs official is the bane of existence for all those who seek to transport goods from one part of the galaxy to another without questions being asked. Fortunately, many officials are perfectly happy to ac­cept a bribe. Unfortunately, there are quite a few who are not and even more unfortunately, telling the dif­ference between the two can be exceptionally diffi­cult. Customs inspectors are responsible for checking any cargo transported into a spaceport and their seal of approval is required before it can be offloaded onto another vessel or planet-bound location. They fre­quently travel in the company of spaceport security.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Astrogation": 1,
+			"Perception": 3,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Hand scanner"],
+		"tags": ["civilian", "spaceport personnel", "book:eote"]
+	},
+	{
+		"name": "Mon Calamari Mechanic",
+		"type": "Rival",
+		"description": "Mechanics are a regular sight at any modern space­ port and most keep at least one trained mechanic per berth on staff to ensure that there are enough to meet the needs of their clients. Of course, many clients pre­fer to maintain their own vessels, but those who have access to trained staff, like the naturally talented en­gineers of the Mon Calamari race, are often wise to make use of such an opportunity. Mon Calaman typi­cally take great pride in their work and are careful to ensure that any ship on which they are working oper­ates at least as well as it did when it came off the showroom floor.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Astrogation": 1,
+			"Computers": 1,
+			"Mechanics": 2,
+			"Vigilance": 1
+		},
+		"talents": [],
+		"abilities": ["Amphibious"],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Tool kit", "Emergency repair kit"],
+		"tags": ["civilian", "species:mon calamari", "spaceport personnel", "book:eote", "engineer"]
+	},
+	{
+		"name": "Philanthropic Senator",
+		"type": "Rival",
+		"description": "Imperial Senators have a great deal of influence throughout the galaxy, even after the dissolution of the Senate by the Emperor’s decree. Since the Sen­ate’s dissolution, the Senators have a great deal of time on their hands and significant resources. Many choose to travel the galaxy, looking for ways to al­leviate the suffering of the people who have been oppressed under the new totalitarian doctrines of the Empire. Although it is not particularly common for these individuals to come into contact with the criminal underworld, it certainly is not out of the realm of possibility, particularly if the criminals in question have some resource that the Senator thinks can be of use to the poor and downtrodden.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 5
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 2,
+			"Deception": 1,
+			"Knowledge: Core Worlds": 2,
+			"Knowledge: Education": 2,
+			"Leadership": 3,
+			"Negotiation": 4,
+			"Vigilance": 1
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Aides"],
+		"tags": ["civilian", "location:core worlds", "book:eote"]
 	},
 	{
 		"name": "Coruscant Underworld Police",
@@ -171,8 +354,8 @@
 				"qualities": ["Disorient 2"]
 			}
 		],
-		"gear": ["Heavy armoured coat (+1 soak)"],
-		"tags": ["civilian", "security", "coruscant"]
+		"gear": ["Heavy armoured coat (+1 Soak)"],
+		"tags": ["civilian", "security", "location:coruscant", "book:uabs"]
 	},
 	{
 		"name": "CSA Security Police",
@@ -199,10 +382,10 @@
 		"abilities": [],
 		"weapons": ["Riot gun", "Truncheon"],
 		"gear": ["Riot armour (+2 soak)"],
-		"tags": ["civilian", "coprorate security authority", "security"]
+		"tags": ["civilian", "coprorate security authority", "security", "book:eote"]
 	},
 	{
-		"name": "CSA Security Officer",
+		"name": "CSA Security Captain",
 		"type": "Rival",
 		"description": "The CSA often makes it a point to recruit tough, even bru­tal individuals into the ranks of its Espos. Creative thinking or equitable public relations are not as desired as the abil­ity to enforce the CSA’s rule through fear and violence. This applies to the Espos’ commanders as welt as the rank and file. Captains in the Espos are brutal, no-nonsense individuals either promoted through the ranks or given the job due to corporate connections. Their enforcement tactics tend to treat brute force as the only resort instead of the last, a quality which does not endear them to many of the Corporate Sector’s inhabitants. Many “investiga­tions” ted by Espo captains last only as tong as it takes to find a convenient scapegoat to blame.",
 		"characteristics": {
@@ -230,7 +413,7 @@
 		"abilities": ["Riot Tactics"],
 		"weapons": ["Riot gun", "Truncheon"],
 		"gear": ["Riot armour (+2 soak)"],
-		"tags": ["civilian", "coprorate security authority", "security"]
+		"tags": ["civilian", "coprorate security authority", "security", "book:eote"]
 	},
 	{
 		"name": "CSA Viceprex",
@@ -264,7 +447,7 @@
 		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Personal deflector shield (+2 ranged defence)", "Encrypted expense voucher with 5,000-10,000 credits"],
-		"tags": ["civilian", "coprorate security authority"]
+		"tags": ["civilian", "coprorate security authority", "book:eote"]
 	},
 	{
 		"name": "Cyborg Administrator",
@@ -290,7 +473,7 @@
 		"abilities": ["Enhanced Senses"],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Comlink", "Datapad with direct access port"],
-		"tags": ["civilian"]
+		"tags": ["civilian", "book:aor"]
 	},
 	{
 		"name": "Hyperlane Scout",
@@ -320,7 +503,42 @@
 		"abilities": [],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Datapad", "Scout ship"],
-		"tags": ["civilian", "rim worlder"]
+		"tags": ["civilian", "location:rim worlds", "book:fad"]
+	},
+	{
+		"name": "Nerf Herder",
+		"type": "Minion",
+		"description": "The nerf was a domesticated herd beast that originated on the planet Alderaan. Because the nerf was simple to raise, useful as both a beast of burden and as a source for meat, it became one of the most extensively farmed animals in the galaxy. Eventually, the nerf spread to planets in every region, including the Core Worlds. Multiple variants of the incredibly adaptable animal were bred to thrive on numerous planets and in myriad environments, ensuring that it is one of the single most prevalent livestock species in Known Space. Those individuals who choose to raise nerf herds are typically simple folk, embracing a meager domestic lifestyle with the security of a long and easily maintained career.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 3
+		},
+		"skills": {
+			"Survival": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Sheperd’s crook",
+				"skill": "Melee",
+				"damage": 3,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Disorient 2"]
+			}
+		],
+		"gear": ["Flock of nerfs"],
+		"tags": ["civilian", "book:aor"]
 	},
 	{
 		"name": "Physician",
@@ -347,7 +565,7 @@
 		"abilities": [],
 		"weapons": [],
 		"gear": ["Bacta", "Medpack", "Synthskin"],
-		"tags": ["civilian", "medic"]
+		"tags": ["civilian", "medic", "book:aor"]
 	},
 	{
 		"name": "Podracer Pilot",
@@ -375,7 +593,7 @@
 		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Toolkit", "Podracer"],
-		"tags": ["civilian", "pilot", "rim worlder"]
+		"tags": ["civilian", "pilot", "location:rim worlds", "book:fad"]
 	},
 	{
 		"name": "Gand Findsman",
@@ -416,7 +634,7 @@
 			}
 		],
 		"gear": ["Macrobinoulars"],
-		"tags": ["civilian", "gand", "bounty hunter", "rim worlder"]
+		"tags": ["civilian", "species:gand", "bounty hunter", "location:rim worlds", "book:fad"]
 	},
 	{
 		"name": "Planetary Defence Trooper",
@@ -444,7 +662,33 @@
 		"abilities": [],
 		"weapons": ["Blaster carbine", "Frag grenade"],
 		"gear": ["Blast vest  (+1 soak)", "2 Frag grenades"],
-		"tags": ["civilian", "security", "rim worlder"]
+		"tags": ["military", "security", "location:rim worlds", "book:eote", "book:fad"]
+	},
+	{
+		"name": "Military Starfighter Pilot",
+		"type": "Minion",
+		"description": "Starfighters are an essential component of any major military installation. The small, fast ships can harry much larger targets and support a vast array of fire-power that can make them a threat even to capital­-scale vessels. The tactics of the Rebel Alliance, and particularly their victory at the Battle of Yavin, has demonstrated that starfighters can be a vital compo­nent of any attack force. Starfighters may be tasked with defending parent ships against enemy starfight­ers, scouting and reconnaissance, or even heavy assaults on enemy ships or installations. However, the pilots of these vessels almost always possess quick re­flexes, talented piloting skills, and a foolhardy bravado.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": {
+			"Gunnery": 0,
+			"Piloting: Space": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Vacuum sealed flight suit"],
+		"tags": ["military", "book:eote", "pilot"]
 	},
 	{
 		"name": "Planetary Governor",
@@ -482,7 +726,7 @@
 		"abilities": ["Leader"],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Rich clothing (+1 soak)"],
-		"tags": ["civilian"]
+		"tags": ["civilian", "book:eote"]
 	},
 	{
 		"name": "Politician / Senator",
@@ -513,7 +757,7 @@
 		"abilities": [],
 		"weapons": [],
 		"gear": ["Bodyguards", "Datapad", "Comlink"],
-		"tags": ["civilian"]
+		"tags": ["civilian", "book:aor"]
 	},
 	{
 		"name": "Provincial Law Enforcement",
@@ -541,10 +785,54 @@
 		"abilities": [],
 		"weapons": ["Blaster pistol", "Truncheon"],
 		"gear": ["Police Armour (+1 Soak)", "Comlink (handheld)"],
-		"tags": ["civilian", "rim worlder", "security"]
+		"tags": ["civilian", "location:rim worlds", "security", "book:fad"]
 	},
 	{
-		"name": "Spaceport Security",
+		"name": "Sector Ranger",
+		"type": "Rival",
+		"description": "There are a great number of similarities among the majority of law enforcement personnel, but few are cut from the same mold as the Sector Rangers. These individuals are authorized by the Empire, through the local sector government, to seek out any and all viola­ tions of law in an entire sector of the galaxy. In many ways, sector rangers are the opposite of smugglers; fiercely independent and possessed of a tremendous degree of autonomy and ingenuity But instead of self­ish desires for wealth, they possess a strong desire to see justice served. Sector rangers rarely work well with others but their tenacity can hound a lawbreaker across a sector and back, making them among the most carefully avoided authorities in the galaxy.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 1,
+			"Cool": 2,
+			"Coordination": 2,
+			"Ranged: Heavy": 3,
+			"Ranged: Light": 3,
+			"Streetwise": 3,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [],
+		"weapons": ["Blaster pistol"],
+		"specialist-weapons": [
+			{
+				"name": "Scoped blaster rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Stun Setting", "Sniper Shot"]
+			}
+		],
+
+		"gear": ["Heavy clothing (+1 Soak)"],
+		"tags": ["civilian", "book:eote"]
+	},
+	{
+		"name": "Spaceport Security Detail",
 		"type": "Minion",
 		"description": "Individuals who serve as part of a spaceport security detail possess the same authority as planetary law enforcement, although they have only a portion of the training and are limited solely to the grounds of the spaceport itself. Because of the much more limited mandate compared to most enforcement agencies, many spaceport security details have more narrowly­ focused, but higher quality, equipment.",
 		"characteristics": {
@@ -567,7 +855,7 @@
 		"abilities": [],
 		"weapons": ["Blaster pistol", "Stun grenade"],
 		"gear": ["Padded armour (+2 soak)", "2 Stun grenades"],
-		"tags": ["civilian", "security"]
+		"tags": ["civilian", "security", "spaceport personnel", "book:eote"]
 	},
 	{
 		"name": "Spaceport Security Officer",
@@ -598,7 +886,7 @@
 		"abilities": [],
 		"weapons": ["Blaster rifle"],
 		"gear": ["Padded armour (+2 soak)", "Stimpack"],
-		"tags": ["civilian", "security"]
+		"tags": ["civilian", "security", "spaceport personnel", "book:eote"]
 	},
 	{
 		"name": "Sullustan Pilot-for-Hire",
@@ -630,7 +918,7 @@
 		"abilities": [],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Padded flight suit (+1 soak)"],
-		"tags": ["civilian", "sullustan", "pilot"]
+		"tags": ["civilian", "species:sullustan", "pilot", "book:eote"]
 	},
 	{
 		"name": "Spaceport Administrator",
@@ -663,7 +951,64 @@
 		"abilities": ["Spaceport Leader"],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Datapad", "Comlink"],
-		"tags": ["civilian"]
+		"tags": ["civilian", "spaceport personnel", "book:eote"]
+	},
+	{
+		"name": "Spaceport Overseer",
+		"type": "Rival",
+		"description": "In the grand scheme of galactic travel and trade, an individual spaceport is rarely something of consequence. Indeed, many traders and travelers see dozens or hundreds of them over the course of a single year, perhaps even a single month. Each individual spaceport has its own administrator, a single being whose sole purpose is to ensure the safe and efficient operation of that particular port of call. These men and women frequently operate under a shared common code of regulations determined by the Empire, but they might also have individual sector, system, planetary, or even personal regulations that they are inclined to observe. This makes each visit at a particular spaceport a unique experience. Regardless of their quirks, most are bureaucrats and cogs in the Imperial machine, but some still have the wherewithal to place their covert support behind the Rebel Alliance.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Coercion": 2,
+			"Cool": 2,
+			"Perception": 3,
+			"Streetwise": 3,
+			"Vigilance": 3
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Datapad", "Comlink"],
+		"tags": ["civilian", "spaceport personnel", "book:aor"]
+	},
+	{
+		"name": "Spaceport Urchin",
+		"type": "Minion",
+		"description": "Every spaceport has at least one wretched misfit, and most have far more. A spaceport urchin is a young indi­vidual, around ten years old by human standards, that seems to have absolutely nowhere else to go and noth­ing else to do than loiter around the facility sticking his nose into anything that attracts his attention. Constantly underfoot, frequently annoying, and occasionally larce­nous, spaceport urchins can either be the bane of visit­ ing spacers or welcome mascots and familiar faces. Likewise, they can either be de­spised by the spaceport staff or be looked upon as little brother and sisters s to be watched over. The state and dispo­sition of spaceport urchins says a great deal about the administration and policies of a spaceport in general.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 3
+		},
+		"skills": {
+			"Skulduggery": 0,
+			"Stealth": 0,
+			"Streetwise": 0,
+			"Survival": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [],
+		"gear": [],
+		"tags": ["civilian", "book:eote"]
 	},
 	{
 		"name": "Toydarian Farmer",
@@ -701,7 +1046,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["civilian", "toydarian", "hutt space"]
+		"tags": ["civilian", "species:toydarian", "location:hutt space", "book:lonh"]
 	},
 	{
 		"name": "Toydarian Merchant",
@@ -726,7 +1071,7 @@
 		"abilities": ["Hoverer", "Silhouette 0"],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Loaded chance cubes", "Dataslate"],
-		"tags": ["civilian", "toydarian", "hutt space"]
+		"tags": ["civilian", "species:toydarian", "location:hutt space", "book:fad", "book:lonh"]
 	},
 	{
 		"name": "Toydarian Royal Guard",
@@ -756,7 +1101,7 @@
 		"abilities": ["Hoverer", "Silhouette 0"],
 		"weapons": ["Blaster rifle", "Cortosis sword", "Frag grenade"],
 		"gear": ["Electro-visor (removes :setback: imposed due to long range or poor light)", "2 Frag grenades", "Padded armour (+2 soak)"],
-		"tags": ["civilian", "toydarian", "hutt space"]
+		"tags": ["civilian", "species:toydarian", "location:hutt space", "book:lonh"]
 	},
 	{
 		"name": "Ugnaught Mechanic",
@@ -793,7 +1138,7 @@
 			}
 		],
 		"gear": ["Durable clothing (+1 soak)", "Tool kit", "Utility belt"],
-		"tags": ["civilian", "rim worlder"]
+		"tags": ["civilian", "location:rim worlds", "book:fad", "engineer"]
 	},
 	{
 		"name": "Wealthy Noble",
@@ -822,7 +1167,6 @@
 		"abilities": [],
 		"weapons": ["Holdout blaster", "Vibrosword"],
 		"gear": ["Personal shuttle"],
-		"tags": ["civilian"]
+		"tags": ["civilian", "location:core worlds", "book:aor", "book:eote"]
 	}
-
 ]

@@ -79,3 +79,18 @@ let diceMap = {
 	"daunting": "<strong>Daunting</strong> (<span class='icon difficulty shadowed'>dddd</span>)",
 	"formidable": "<strong>Formidable</strong> (<span class='icon difficulty shadowed'>ddddd</span>)",
 };
+
+let bookMap = {
+	// core books
+	"book:aor": "Age of Rebellion",
+	"book:eote": "Edge of the Empire",
+	"book:fad": "Force and Destiny",
+
+	// source books
+	"book:lonh": "Lords of Nal Hutta",
+	"book:sor": "Strongholds of Resistance",
+
+	// adventures
+	"book:uabs": "Under a Black Sun",
+	"book:cotgk": "Chronicles of the Gate Keeper",
+};

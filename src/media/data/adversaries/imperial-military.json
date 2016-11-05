@@ -24,7 +24,7 @@
 		"abilities": [],
 		"weapons": ["Blaster rifle", "Frag grenade"],
 		"gear": ["Trooper uniform and helmet (+1 soak)", "2 Frag grenades"],
-		"tags": ["empire", "imperial military"]
+		"tags": ["empire", "imperial military", "book:aor"]
 	},
 	{
 		"name": "Imperial Assassin",
@@ -70,7 +70,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["empire", "imperial military", "assassin"]
+		"tags": ["empire", "imperial military", "assassin", "book:fad"]
 	},
 	{
 		"name": "Imperial Dungeoneer",
@@ -98,7 +98,7 @@
 		"abilities": [],
 		"weapons": ["Riot gun", "Truncheon"],
 		"gear": ["Binders", "Comlink", "Padded armour (+2 soak)"],
-		"tags": ["empire", "imperial military"]
+		"tags": ["empire", "imperial military", "book:fad"]
 	},
 	{
 		"name": "Imperial Gunnery Corps",
@@ -123,7 +123,7 @@
 		"abilities": ["Gun Crew"],
 		"weapons": ["Holoudt blaster", "Heavy repeating blaster"],
 		"gear": ["Trooper uniform and helmet (+1 soak)"],
-		"tags": ["empire", "imperial military"]
+		"tags": ["empire", "imperial military", "book:aor"]
 	},
 	{
 		"name": "Imperial Army Officer",
@@ -151,7 +151,7 @@
 		"abilities": ["Tactical Direction"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Officer uniform (+1 soak)", "Long range comlink"],
-		"tags": ["empire", "imperial military"]
+		"tags": ["empire", "imperial military", "book:aor"]
 	},
 	{
 		"name": "Imperial Navy Trooper",
@@ -177,7 +177,7 @@
 		"abilities": [],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Blast vest and helmet (+1 soak)"],
-		"tags": ["empire", "imperial military"]
+		"tags": ["empire", "imperial military", "book:aor", "book:eote"]
 	},
 	{
 		"name": "Imperial Navy Officer",
@@ -204,7 +204,7 @@
 		"abilities": ["Tactical Direction"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Heavy uniform (+1 soak)"],
-		"tags": ["empire", "imperial military"]
+		"tags": ["empire", "imperial military", "book:eote"]
 	},
 	{
 		"name": "Imperial Royal Guard",
@@ -246,7 +246,7 @@
 			}
 		],
 		"gear": ["Heavy battler armour (+2 soak, +1 defence)"],
-		"tags": ["empire", "imperial military"]
+		"tags": ["empire", "imperial military", "book:fad"]
 	},
 	{
 		"name": "Imperial Vehicle Corps",
@@ -272,7 +272,7 @@
 		"abilities": [],
 		"weapons": ["Blaster carbine"],
 		"gear": ["Trooper uniform and helmet (+1 soak)"],
-		"tags": ["empire", "imperial military"]
+		"tags": ["empire", "imperial military", "book:aor"]
 	},
 	{
 		"name": "Intelligence Agent",
@@ -304,7 +304,7 @@
 		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Encrypted datapad", "Secure comlink"],
-		"tags": ["empire", "imperial military"]
+		"tags": ["empire", "imperial military", "book:aor"]
 	},
 	{
 		"name": "Military Informant",
@@ -332,7 +332,7 @@
 		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Disguise kit", "Disassembly-capable secure military comlink"],
-		"tags": ["empire", "imperial military"]
+		"tags": ["empire", "imperial military", "book:aor"]
 	},
 	{
 		"name": "Naval Engineer",
@@ -358,7 +358,7 @@
 		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": [],
-		"tags": ["empire", "imperial military", "engineer"]
+		"tags": ["empire", "imperial military", "engineer", "book:aor"]
 	},
 	{
 		"name": "Imperial Stormtrooper",
@@ -397,7 +397,7 @@
 			}
 		],
 		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 soak)", "2 Frag grenades"],
-		"tags": ["empire", "imperial military", "stormtrooper"]
+		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad"]
 	},
 	{
 		"name": "Stormtrooper Sergeant",
@@ -429,7 +429,7 @@
 		"abilities": ["Tactical Direction", "Overwhelming Fire"],
 		"weapons": ["Heavy blaster rifle", "Vibroknife", "Frag grenade"],
 		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 soak)", "2 Frag grenades"],
-		"tags": ["empire", "imperial military", "stormtrooper"]
+		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad"]
 	},
 	{
 		"name": "Stormtrooper: Dark Trooper",
@@ -468,7 +468,7 @@
 			}
 		],
 		"gear": ["Powered armour (+2 soak, +1 defence)", "Jetpack", "Internal comlink"],
-		"tags": ["empire", "imperial military", "stormtrooper", "droid"]
+		"tags": ["empire", "imperial military", "stormtrooper", "droid", "book:aor"]
 	},
 	{
 		"name": "Stormtrooper: Sandtrooper",
@@ -499,7 +499,7 @@
 		"abilities": [],
 		"weapons": ["Blaster rifle", "Vibroknife"],
 		"gear": ["Utility belt", "Extra reloads", "High-temp stormtrooper armour (+2 soak; when making skill checks, sandtroopers may remove :setback::setback: imposed due to arid or hot environmental conditions)", "Food and water packs"],
-		"tags": ["empire", "imperial military", "stormtrooper"]
+		"tags": ["empire", "imperial military", "stormtrooper", "book:aor"]
 	},
 	{
 		"name": "Stormtrooper: Scout Trooper",
@@ -539,7 +539,39 @@
 			}
 		],
 		"gear": ["Utility belt", "Extra reloads", "Scouttrooper armour (+1 soak)", "1 Frag grenade"],
-		"tags": ["empire", "imperial military", "stormtrooper"]
+		"tags": ["empire", "imperial military", "stormtrooper", "book:aor"]
+	},
+	{
+		"name": "Stormtrooper: Swamptrooper",
+		"type": "Minion",
+		"description": "This specialized unit of the Stormtrooper Corps spe­cialises in operating in swamps, bogs, and wetlands. Swamptroopers’ armor is watertight, has an internal one-hour oxygen supply, and includes camouflage. Swamptroopers patrol the area in teams of three.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 5
+		},
+		"skills": {
+			"Athletics": 0,
+			"Discipline": 0,
+			"Melee": 0,
+			"Percep­tion": 0,
+			"Ranged: Heavy": 0,
+			"Ranged: Light": 0,
+			"Survival": 0,
+			"Vigilance": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster carbine", "Frag grenade"],
+		"gear": ["Electrobinoculars", "Extra reloads", "2 Frag grenades", "Rebreather", "Swamptrooper armour (+2 Soak, adds :boost: to Stealth checks made within a forest or swamp environment)", "Utility belt"],
+		"tags": ["empire", "imperial military", "stormtrooper", "book:lonh", "adventure:toydarian grocery shopping"]
 	},
 	{
 		"name": "Stormtrooper: Snowtrooper",
@@ -581,7 +613,7 @@
 			}
 		],
 		"gear": ["Snowtrooper armour (+2 soak; when making skill checks, snowtroopers may remove :setback::setback: imposed due to cold or icy environmental conditions"],
-		"tags": ["empire", "imperial military", "stormtrooper"]
+		"tags": ["empire", "imperial military", "stormtrooper", "book:aor"]
 	},
 	{
 		"name": "TIE Pilot",
@@ -607,7 +639,7 @@
 		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Flight suit"],
-		"tags": ["empire", "imperial military", "pilot"]
+		"tags": ["empire", "imperial military", "pilot", "book:aor", "book:fad"]
 	},
 	{
 		"name": "TIE Ace",
@@ -633,6 +665,6 @@
 		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Flight suit", "Sensory augmentation package (add :advantage: to any Perception checks made by the character)"],
-		"tags": ["empire", "imperial military", "pilot"]
+		"tags": ["empire", "imperial military", "pilot", "book:aor"]
 	}
 ]
