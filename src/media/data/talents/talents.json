@@ -225,7 +225,7 @@
 	},
 	{
 		"name": "Coordinated Assault",
-		"description": ""
+		"description": "As a maneuver, may grant a number of allies equal to ranks in Leadership in Engaged range :advantage: to all combat checks until the beginning of next turn; increase range per rank."
 	},
 	{
 		"name": "Coordination Dodge",
@@ -468,8 +468,8 @@
 		"description": "As an action, may make an :average: Leadership check; 4 allies may immediately suffer 1 strain to perform a free maneuver."
 	},
 	{
-		"name": "Field Commander [Improved]",
-		"description": ""
+		"name": "Improved Field Commander",
+		"description": "As an action, may make an :average: Leadership check; 4 allies may immediately suffer 1 strain to perform a free maneuver; spend :triumph: to allow one ally to perform an action instead."
 	},
 	{
 		"name": "Fine Tuning",
@@ -477,7 +477,7 @@
 	},
 	{
 		"name": "Fire Control",
-		"description": ""
+		"description": "Take the Fire Control action; all combat checks made from current starship or vehicle count their target’s silhouette as one higher than nor­mal until the beginning of next turn."
 	},
 	{
 		"name": "Forager",
@@ -785,7 +785,7 @@
 	},
 	{
 		"name": "Known Schematic",
-		"description": ""
+		"description": "Once per session, may perform the Known Schematic Maneuver; make a :hard: Knowledge (Education) check; success grants familiarity with a building or ship’s design."
 	},
 	{
 		"name": "Koiogran Turn",
@@ -969,7 +969,7 @@
 	},
 	{
 		"name": "Natural Pilot",
-		"description": ""
+		"description": "Once per session, may reroll one Piloting (Space) or Gun­nery check."
 	},
 	{
 		"name": "Natural Programmer",
@@ -1440,8 +1440,8 @@
 		"description": "May inflict damage as Strain instead of Wounds; does not ignore soak"
 	},
 	{
-		"name": "Stunning Blow [Improved]",
-		"description": ""
+		"name": "Improved Stunning Blow",
+		"description": "May inflict strain instead of wounds; may spend :triumph: on Brawl checks to stagger target for 1 round per :triumph:."
 	},
 	{
 		"name": "Sum Djem",

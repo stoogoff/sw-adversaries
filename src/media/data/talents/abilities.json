@@ -52,20 +52,36 @@
 		"description": "When engaged with a target, allies receive :boost: to combat checks made against the engaged target."
 	},
 	{
-		"name": "Camouflaged",
-		"description": "When in snowy environ­ ments, add :boost::boost: to ail Stealth checks."
+		"name": "Camouflaged (Snow)",
+		"description": "When in snowy environ­ments, add :boost::boost: to ail Stealth checks."
+	},
+	{
+		"name": "Camouflaged (Jungle)",
+		"description": "When in jungle environ­ments, add :boost::boost: to ail Stealth checks."
 	},
 	{
 		"name": "Cloak",
 		"description": "Add :setback::setback::setback: to all checks made to spot or track the maalraa [this can include Vigilance checks made for Initiative if the maalraa ambushes a character). Force-sensitive characters ignore this ability."
 	},
 	{
+		"name": "Companion Animal",
+		"description": "Once per encounter, may make an :easy: Charm check targeting an engaged character; that character recovers 1 Strain per :success:."
+	},
+	{
 		"name": "Computer Affinity",
 		"description": "The Intrusion Specialist may add :force: to any Computers check or Skulduggery check to analyze or infiltrate a security system. Spend :lightside: to add :advantage: to the check. Spend :lightside::lightside: to add :success: to any Computers check."
 	},
 	{
+		"name": "Constabulary Honour",
+		"description": "Add automatic :threat: per rank to all social checks made to convince a constable to act against the best interest of Sullust."
+	},
+	{
 		"name": "Covering Fire",
 		"description": "May spend a maneuver to add +1 ranged defense to up to three allied characters or minion groups within short range until the end of the next round; this does not stack with multiple uses."
+	},
+	{
+		"name": "Create Bacta",
+		"description": "Vratix can secrete one litre of bacta per day."
 	},
 	{
 		"name": "Critical Eye",
@@ -80,12 +96,20 @@
 		"description": "Does not need to breathe and can survive in vacuum and underwater; immune to poisons and toxins"
 	},
 	{
+		"name": "Cunning Ambusher",
+		"description": "Opponents add :setback: per rank to Initiative checks using vigilance."
+	},
+	{
 		"name": "Cybernetic Communications",
 		"description": "Due to their cybernetic modifications, Ganks can communicate silently with other Ganks."
 	},
 	{
 		"name": "Detect Force-Sensitivity",
 		"description": "The vornskr may make an :average: Perception check to detect all Force-sensitive creatures or characters with a Force rating within medium range; this ability functions re­gardless of intervening terrain or material."
+	},
+	{
+		"name": "Dive-bomb",
+		"description": "As an action, may make an opposed Coercion check vs. Cool against one character at up to Medium range; on a success, the target is staggered for one round and the falcon moves to engaged with the target; :advantage: may be spent to cause the target to suffer 1 Strain, and :triumph: may be spent to extend the effect of the stagger by 1 round."
 	},
 	{
 		"name": "Drain Life",
@@ -128,8 +152,16 @@
 		"description": "At the GM’s discretion, the kaaten may make an opposed Charm or Deception versus Vigilance check as an action to pretend to be a friend, companion, loved one, or of the same spe­cies as its target. When doing so, add :force: to the check; :lightside: results add :success: to Charm checks, while :darkside: results add :success: to Deception checks. If the check succeeds, the illusion is successful, though what effect this has on gameplay depends on the situation and can be determined by the GM. Targets immune to Force powers are immune to these effects."
 	},
 	{
+		"name": "Invoke Doellin",
+		"description": "Once per encounter, the Doellinist High Priest may re-roll a social skill check that targeted a Gran character."
+	},
+	{
 		"name": "Many-armed",
 		"description": "The creature gains :boost: on all Brawl checks and may spend :advantage::advantage: on a successful melee attack to hit a second target Engaged with it, dealing the same damage as dealt to the original target."
+	},
+	{
+		"name": "Fecklen Boom",
+		"description": "As an action, may make an :easy: Survival check; each :success: causes one target in Medium range to be disoriented for 1 round. Each :advantage::advantage: extends the number of rounds by 1 (a disori­ented target adds :setback: to all skill checks performed)."
 	},
 	{
 		"name": "Flyer",
@@ -177,7 +209,7 @@
 	},
 	{
 		"name": "Leap",
-		"description": "Tusk cats add :boost::boost: to all Athletics checks made to perform vertical or horizontal jumps."
+		"description": "Add :boost::boost: to all Athletics checks made to perform vertical or horizontal jumps."
 	},
 	{
 		"name": "Loyalty",
@@ -186,6 +218,10 @@
 	{
 		"name": "Leader",
 		"description": "All subordinates within Medium range add :boost: to all Discipline checks."
+	},
+	{
+		"name": "Lightning Charge",
+		"description": "Once per encounter, a keelkana can use a maneuver to move to Engaged with a target at Medium range; any melee attacks made by the keel­kana or its rider against that target this turn add 2 damage."
 	},
 	{
 		"name": "Light-Sensitive",
@@ -202,6 +238,10 @@
 	{
 		"name": "Neurotoxin",
 		"description": "If a target suffers wounds from a kouhun’s mandible attack, the target must make an :average: Resilience check. The target suffers 5 Wounds if he fails, plus 1 Strain per :threat:; :despair: means the target must check against the poison again at the start of his next turn."
+	},
+	{
+		"name": "Nightvision",
+		"description": "Loth-cats remove all :setback: added to checks due to low-light conditions or darkness."
 	},
 	{
 		"name": "Olfactory Perception",
@@ -260,6 +300,10 @@
 		"description": "The jubba bird may make an :average: Charm check to heal 1 Strain per :success: from all creatures within medium range."
 	},
 	{
+		"name": "Sticky Saliva",
+		"description": "Knytix produce viscous saliva that can be used as an adhesive."
+	},
+	{
 		"name": "Stinky",
 		"description": "While within Short range of a Huttlet, non-Hutt char­acters reduce their Strain thresholds by 2."
 	},
@@ -272,6 +316,10 @@
 		"description": "Wampas are immune to the effects of freezing and cold environments."
 	},
 	{
+		"name": "Surefooted",
+		"description": "Suffer no penalties when moving through difficult terrain."
+	},
+	{
 		"name": "Sweep Attack",
 		"description": "The rancor can spend :triumph: on a successful Brawl check to hit the target as well as anyone engaged with the target."
 	},
@@ -281,7 +329,7 @@
 	},
 	{
 		"name": "Tactical Direction",
-		"description": "May perform a maneuver to direct one Imperial Army minion group within Medium range; the group may perform an immediate free maneuver or add :boost: to its next check."
+		"description": "May perform a maneuver to direct one allied minion group within Medium range; the group may perform an immediate free maneuver or add :boost: to its next check."
 	},
 	{
 		"name": "Trained Mount",
@@ -289,7 +337,7 @@
 	},
 	{
 		"name": "Overwhelming Fire",
-		"description": "May perform a maneuver to direct one Imperial Army minion group within Medium range; the group may perform an immediate free combat check action."
+		"description": "May perform a maneuver to direct one allied minion group within Medium range; the group may perform an immediate free combat check action."
 	},
 	{
 		"name": "Vacuum Dweller",

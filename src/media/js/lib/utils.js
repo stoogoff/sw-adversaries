@@ -93,6 +93,7 @@ let bookMap = {
 	// source books
 	"book:lonh": "Lords of Nal Hutta",
 	"book:sor": "Strongholds of Resistance",
+	"book:nop": "Nexus of Power",
 
 	// adventures
 	"book:uabs": "Under a Black Sun",

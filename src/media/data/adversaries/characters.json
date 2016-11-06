@@ -108,6 +108,74 @@
 		"tags": ["underworld", "pirate", "species:devaronian", "book:lonh", "adventure:Welcome Aboard"]
 	},
 	{
+		"name": "Colonel Romar Kek",
+		"type": "Nemesis",
+		"description": "The Rebel Alliance places Colonel Kek in com­mand of Defiant Core during stage three to develop the base into an efficient and well-trained operation as it takes on increasingly critical missions. It is possible that Kek’s instal­lation could annoy the standing base com­mander (especially if it is a PC), but Kek has a proven track record and is respected as one of the early developers of the Yavin 4 base. Kek has a serious command style that demands respect and obedience. However, he also real­ises the Alliance is not a normal military organi­sation, and he tries to get the most out of any unusual assets or situations. When the base receives its starfighter complement, Kek is pro­moted to general.\n\nKek is an older human and longtime opponent of the Empire. After a while, the staff and the PCs begin to realize that Kek knows far more about the quirks and workings of a Recusant-class destroyer than he initially lets on. At first, some think he served aboard one of the Rebel-held vessels still in use, but it becomes apparent that this isn’t the case. Kek doesn’t advertise it to his command, but if confronted, he admits he is a former Separatist. He served as a gun­ner aboard the Recusant -class destroyer Van­guard Flare, which was destroyed in the Battle of Coruscant at the end of the Clone Wars. He escaped to another ship and made it back to Separatist space.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 16,
+			"strain": 14
+		},
+		"skills": {
+			"Discipline": 3,
+			"Gunnery": 4,
+			"Knowledge: War­fare": 3,
+			"Leadership": 3,
+			"Perception": 3,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Command 2", "Coordinated Assault 2"],
+		"abilities": ["Tactical Direction"],
+		"weapons": ["Blaster carbine", "Light blaster pistol"],
+		"gear": ["Blast vest (+1 Soak)"],
+		"tags": ["rebel alliance", "book:sor", "location:Defiance Core"]
+	},
+	{
+		"name": "Commander Freila",
+		"type": "Nemesis",
+		"description": "Originally from Chandrila, Jyn Freila joined the Rebel­lion after pirating one of Mon Mothma’s speeches from the shadowfeed. Formerly a starfighter pilot, Jyn was promoted out of an X-wing cockpit after los­ing an eye and most of her squadron during a raid on an Imperial shipment of quadanium steel gone horribly wrong. Commander Freila is an experienced pilot whose combat record speaks for itself. Her chief concerns are keeping Keff Base hidden and “captur­ing” supplies arranged by SoroSuub to be unguarded.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 13
+		},
+		"skills": {
+			"Astrogation": 2,
+			"Cool": 3,
+			"Discipline": 2,
+			"Gunnery": 3,
+			"Knowledge: Warfare": 4,
+			"Leadership": 2,
+			"Perception": 3,
+			"Piloting: Space": 3,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Natural Pilot"],
+		"abilities": [],
+		"weapons": ["Blaster pistol"],
+		"gear": [],
+		"tags": ["military", "rebel alliance", "pilot", "species:Chandrilan", "location:Keff Base", "location:Sullust", "book:sor"]
+	},
+	{
 		"name": "Corte Voss",
 		"type": "Nemesis",
 		"description": "Corte is a cunning smuggler who considers herself a savvy businesswoman, but she’s been on a losing streak for some time now after a deal with the Hutts of Corensla went wrong and she was forced to go to ground to avoid their ire.\n\nAttempting to rip off Thamoss to get out from under­neath the ensuing financial troubles was her idea, and her crew gladly backed her plan, thinking they could reap some extra profit. She’s perfectly happy to fight her way out of the ensuing struggle with the Trandoshan and his goons, though she’ll be grateful to anyone who cares to lend her—and her boys—a hand. The PCs can make a bit of money by dealing with her, but they also risk getting dragged into the troubles pursuing her.",
@@ -170,6 +238,67 @@
 		"tags": ["underworld", "smuggler", "book:lonh", "adventure:A Deal Gone Wrong", "location:Hutt Space", "location:Kwenn Station"]
 	},
 	{
+		"name": "Crew Chief Jerion “Jolt” Terolt",
+		"type": "Rival",
+		"description": "Jolt is one of Tierfon’s longest-serving crew chiefs. The extremely cheerful Sullustan mechanic is highly adept at patching together beat-up and blasted starships, particularly starfighters. Pilots like him because, instead of berating them after damaging their vessels and his work, he takes great pride in their survival and keeping their ships in space, often through highly creative methods. They soon discover that some of his unusual repairs sacrifice com­fort and convenience to get the job done, and the results can go undetected by the pilots until inopportune moments during the next mission or flight. While not fatal, the repairs sometimes force the pilots to hastily alter their flying style, weapons, or defenses. Experienced pilots soon learn to take test flights after repairs or altera­tions, and more than a few can be heard curs­ing Jolt across the comm system when they dis­cover a troublesome issue.\n\nJolt gained his nickname after he rewired the main control board of an arrogant, hateful, and disliked X-wing pilot to randomly give him irri­tating minor shocks every time he touched it after the first ten minutes of flight time, except when the S-foils were deployed for combat. Though nominally reprimanded by the base commander, the rest of the squadron and repair crews were highly entertained and appreciative of the lesson.\n\nJolt teaches the technique to many Rebel agents who pass through Tierfon Outpost, giving them another way to disrupt Imperial control pan­els on ships, vehicles, and equipment when straight-up destruction isn’t desired. In his little free time, he tinkers with other methods of clan­ destine technical damage and destruction.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10
+		},
+		"skills": {
+			"Astrogation": 1,
+			"Gunnery": 2,
+			"Computers": 3,
+			"Mechanics": 4,
+			"Piloting: Planetary": 2,
+			"Piloting: Space": 2,
+			"Ranged: Light": 2
+		},
+		"talents": ["Gearhead 1"],
+		"abilities": [],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Too kit", "Comlink", "Datapad"],
+		"tags": ["rebel alliance", "engineer", "location:Tierfon Outpost", "species:Sullustan", "book:sor"]
+	},
+	{
+		"name": "Deck Officer Lt. Nela Arseli",
+		"type": "Rival",
+		"description": "Lt. Nela Arseli is one of a rotating pool of personnel serving as deck officers in Echo Base’s hangars. When on duty, she tracks and directs operations occurring within the hangar at any given time. She often helps with orga­nising ships and vehicles as needed within the hangar to carry out their various missions and requirements, though other staff actually direct the traffic. She nominally knows who is work­ ing in the hangar at any given time, though in practice this only applies to those assigned to the current duty shift.\n\nLt. Arseli joined the Rebellion on Dantooine, serving at that base until it was relocated. She has since served in many smaller bases in a variety of roles, enabling her to meet many more pilots and personnel than the average Rebel. She has a sharp memory and runs an efficient hangar.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 16
+		},
+		"skills": {
+			"Discipline": 3,
+			"Knowledge: Warfare": 3,
+			"Leader­ship": 1,
+			"Ranged: Light": 2,
+			"Perception": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": ["Tactical Direction", "Overwhelming Fire"],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Adverse environment gear (+1 Soak)", "Comlink", "Datapad"],
+		"tags": ["rebel alliance", "location:Echo Base", "location:Hoth"]
+	},
+	{
 		"name": "Domdees",
 		"type": "Rival",
 		"description": "",
@@ -227,6 +356,41 @@
 		"weapons": ["Heavy blaster pistol", "Vibroknife", "Shock gloves"],
 		"gear": ["Padded armour (+2 Soak)", "Breath mask"],
 		"tags": ["underworld", "pirate", "book:lonh", "adventure:Welcome Aboard"]
+	},
+	{
+		"name": "General Elora Silssusio",
+		"type": "Nemesis",
+		"description": "Polis Massa’s current Rebel commander is General Elora Silssusio. She oversees all Rebel operations and is the Alliance’s chief liai­son, coordinator, and negotiator with the Polis Massans. She once ran a private security and investigation service, called Ulterior Vision, which specialized in clandestine work for ques­tionably loyal Imperial Senators. The ISB even­ tually exposed her activities, but a friendly Sen­ator orchestrated her escape to join a fledgling resistance group in the Outer Rim. When the group joined the Rebel Alliance, she was quickly promoted to lead secret missions throughout the galaxy. She sustained serious injuries in a skirmish while escaping a Star destroyer and was sent to Polis Massa for treatment. While recovering, she used her experience negotiating with Senators to convince the Polis Massans to increase their support for the Alliance.\n\nThe Alliance was impressed, promoted her to general, and placed her in command at Polis Massa. There, she protects the Rebels’ relation­ship with their hosts, reigning in or expelling anyone who would endanger them. She person­ ally selects and briefs special operations teams. She has had a seething hatred for the Empire since the dissolution of the Senate, because some of her former clients were arrested and probably killed shortly thereafter. The General rarely wears a formal uniform, so as to avoid undue attention should outsiders see her within the research base.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 16,
+			"strain": 14
+		},
+		"skills": {
+			"Deception": 3,
+			"Discipline": 4,
+			"Gunnery": 1,
+			"Knowledge: Warfare": 2,
+			"Leadership": 3,
+			"Negotia­tion": 4,
+			"Ranged: Light": 3,
+			"Perception": 3,
+			"Streetwise": 4,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Command 2", "Improved Field Commander"],
+		"abilities": [],
+		"weapons": ["Holdout blaster", "Light blaster pistol"],
+		"gear": [],
+		"tags": ["rebel alliance", "book:sor", "location:Polis Massa"]
 	},
 	{
 		"name": "Graayl Nor",
@@ -290,7 +454,7 @@
 		"tags": ["underworld", "book:lonh", "adventure:The Dead Road", "thug"]
 	},
 	{
-		"name": "Kaa'to Leeachos",
+		"name": "Kaa’to Leeachos",
 		"type": "Nemesis",
 		"description": "Kaa’to once worked security for a minor Hutt named Morbiss, a slaver operating from Nar Shaddaa. This depraved Hutt had many enemies throughout the Outer Rim territories, and always kept a large detail of thugs and warriors around him. Yet, even that could not save him from his determined rivals. The slave master fell victim to a bomb placed in his ship’s docking bay while on Malastare to bet on the Podraces. The explosion wiped out Morbiss, his ship, his guards, and a large group of “cargo” the Hutt brought along to sell. It was only through sheer luck that the Nikto survived. The enforcer was dealing with a petulant slave who was giving his new master a hard time, which kept him at the edge of the docking bay when the bomb detonated.\n\nThe blast that set Kaa’to free also took his right leg and burned much of his right arm. Luckily, he had a hidden stash of credits on his person. When the medics arrived, the Nikto bargained with the Gran who found him to replace his leg. It exhausted all his credits, but Kaa’to Leeachos would live to finally throw off the shackles of the Hutts.\n\n With his credits wiped out, Kaa’to took to working as a hired guard on Malastare until he could buy passage on a transport offworld. As fate would have it, the only transport he could get took him to the world of Rodia, where his new career would begin. While on Rodia, Kaa’to found himself in the employ of the bounty hunter Knoke, a gruff Rodian who took a liking to the Nikto and taught him the ways of the hunt. Knoke was a successful hunter, but he met his end while on a contract to capture a rogue Jedi during the Great Purge. Kaa’to assumed the contract and finished the job. His reputation quickly grew after such a high-profile job. Within a few years he was in steady employ, with many clients. Knoke left his ship and equipment to Kaa’to, and with these at his disposal, the Nikto set out to earn a fortune for himself. \n\nUltimately, Kaa’to’s pride grew into hubris, and he began to look down on those who employed him, thinking himself nigh untouchable. Soon after staking out territory on Coruscant, the Nikto backstabbed the Pykes, bringing the Player Characters down on his trail.",
 		"characteristics": {
@@ -420,6 +584,37 @@
 		"tags": ["underworld", "book:uabs", "adventure:Under a Black Sun", "location:Coruscant", "species:Trandoshan"]
 	},
 	{
+		"name": "Regent Credi Solfinn",
+		"type": "Rival",
+		"description": "Once an advisor to Queen Nehanna, Credi Solfinn has taken to the role of acting regent with a public reluctance and quiet calm that inspires the general populace to trust him. Pie frequently addresses the public with progress reports on the investigation into the queen’s disappearance.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 11
+		},
+		"skills": {
+			"Charm": 2,
+			"Cool": 4,
+			"Deception": 3,
+			"Discipline": 2,
+			"Knowledge: Education": 3,
+			"Negotiation": 3,
+			"Perception": 2
+		},
+		"talents": ["Adversary 2", "Kill with Kindness 1"],
+		"abilities": [],
+		"weapons": [],
+		"gear": ["Comlink", "Datapad", "Royal guards"],
+		"tags": ["civilian", "book:sor", "location:Ord Gimmel"]
+	},
+	{
 		"name": "Rodian Lackeys",
 		"type": "Minion",
 		"description": "Fondo, Tyss, and Plaado are nearly identical Rodian thugs who happily follow Toram’s every order without hesitation. They dress in heavy leather jackets, wear their weapons in low-slung holsters, and finger the blades of their combat knives threateningly whenever the opportunity presents itself.",
@@ -446,6 +641,41 @@
 		"weapons": ["Blaster pistol", "Combat knife"],
 		"gear": ["Heavy clothing (+1 Soak)"],
 		"tags": ["underworld", "species:Rodian", "thug", "book:lonh", "adventure:Rubbing Slimy Elbows"]
+	},
+	{
+		"name": "Salana",
+		"type": "Nemesis",
+		"description": "A teenaged Deaon girl who came seemingly out of nowhere, Salana has been launching attacks on Impe­rial targets across Ord Gimmel since before the queen vanished. Claiming her only parents are the streets of Geharr, she has grown into a mythic figure among her followers. She leads her battles from the very front, only to emerge from each conflict unscathed. She plans every strike and, over the past two years, she has amassed several hundred loyal followers.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"strain": 15,
+			"defence": [2, 2]
+		},
+		"skills": {
+			"Charm": 3,
+			"Coercion": 2,
+			"Knowledge: Warfare": 2,
+			"Leadership": 3,
+			"Negotiation": 3,
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Skulduggery": 2,
+			"Streetwise": 3
+		},
+		"talents": ["Adversary 2", "Inspiring Rhetoric"],
+		"abilities": [],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Comlink", "Personal deflector shield (+2 Defence)"],
+		"tags": ["rebel alliance", "book:sor", "location:Ord Gimmel", "species:Deaon"]
 	},
 	{
 		"name": "Shalo Sherin",
@@ -717,5 +947,32 @@
 		"weapons": ["Blaster pistol"],
 		"gear": [],
 		"tags": ["underworld", "location:Coruscant", "black sun", "book:uabs", "adventure:Under a Black Sun", "species:Falleen"]
+	},
+	{
+		"name": "Voralla Morbo",
+		"type": "Rival",
+		"description": "As a vibrant young girl, Voralla Morbo grew up on the Isle of N’Van, a corporate retreat on Ban-Satir II within the Corporate Sector. Spending years in the service industry, working around executives from all over the galaxy, she developed a head for business and keen ears. After flitting about the galaxy with smugglers and earning a disdain for the Empire, Morbo joined the Rebel Alliance. Voralla’s unique background made her an ideal candidate to serve as an intelligence operative, and General Airen Cracken tapped her to serve as a spy and contact on Thyferra.\n\nVoralla invested in a cantina within the Zalxuc City business district. She called it M orbo’s Place, and it quickly gained a reputation as one of the finest establishments in the city. The tall, slender bartender with sultry looks and sandy blonde hair is a great conversationalist, and M orbo’s famous homemade brandy is great for loosening lips. Little do her high-class patrons know that when Voralla goes out to pick berries to make her brandy, she’s delivering regular reports back to Alliance Intelligence.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 3,
+			"Deception": 2,
+			"Perception": 2
+		},
+		"talents": ["Kill with Kindness 1"],
+		"abilities": [],
+		"weapons": [],
+		"gear": ["100 credits", "Morbo’s Place cantina"],
+		"tags": ["civilian", "rebel alliance", "book:sor", "location:Thyferra"]
 	}
 ]

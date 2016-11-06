@@ -118,6 +118,178 @@
 		"tags": ["civilian", "location:Rim Worlds", "species:Bith", "book:fad"]
 	},
 	{
+		"name": "Brionelle Army Cadet",
+		"type": "Minion",
+		"description": "Cadets from the Brionelle Academy explore Hanna City in groups of two to six during downtime between classes. Their close-cropped haircuts and rigid pos­tures make the cadets easy to spot. Cadets enjoy debating the merits and drawbacks of military force, and they engage in spirited conversation exercising the ideals taught by their instructors.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4
+		},
+		"skills": {
+			"Athletics": 0,
+			"Coordination": 0,
+			"Knowl­edge: Education": 0,
+			"Knowledge: Warfare": 0,
+			"Discipline,": 0,
+			"Piloting: Planetary": 0,
+			"Ranged: Light": 0,
+			"Vigilance.": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [],
+		"gear": ["Comlink", "Datapad", "Academy uniform"],
+		"tags": ["military", "location:Chandrila", "book:sor", "species:Chandrilan"]
+	},
+	{
+		"name": "Chandrilan Agriculturalist",
+		"type": "Rival",
+		"description": "The cornerstone of the local economy, Chandrilan farmers and ranchers still feed much of the Core. Hard-working, educated, and politically active work­ ers are a source of planetary pride. Farmers keep their families small, and bring on a few hired hands or droids to handle additional labor needs. Most farmers and ranchers own stun rifles, but they are relatively trusting of visitors, as long as they stick to the paths and aren’t trespassing or poaching.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13
+		},
+		"skills": {
+			"Athletics": 1,
+			"Mechanics": 2,
+			"Negotiation": 2,
+			"Resil­ience": 3,
+			"Survival": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Stun rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 4,
+				"range": "Long",
+				"qualities": ["Stun Damage"]
+			}
+		],
+		"gear": [],
+		"tags": ["civilian", "location:Chandrila", "book:sor", "species:Chandrilan"]
+	},
+	{
+		"name": "Chandrilan Citizen",
+		"type": "Minion",
+		"description": "Usually found in a group of two or more, the average Chandrilan citizen is often engaged in intense debate. The better arguments draw small crowds that join in on either side. The average city dweller on Chandrila has in-depth knowledge of local and galactic issues and a keen interest in politics.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 3
+		},
+		"skills": {
+			"Knowledge: Core Worlds": 0,
+			"Knowl­edge: Education": 0,
+			"Negotiation": 0,
+			"Perception": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [],
+		"gear": ["Comlink", "Datapad", "100 credits"],
+		"tags": ["civilian", "location:Chandrila", "book:sor", "species:Chandrilan"]
+	},
+	{
+		"name": "Chandrilan Governor",
+		"type": "Nemesis",
+		"description": "The governors of Chandrila are among the best pub­lic speakers and debaters in the galaxy. Their impas­sioned arguments and well-researched points make them difficult to debate. While the three most pow­erful are Governors Centi of Hanna City, Dehsea of Emita, and Millae of Nayli, more than one thousand other governors lead smaller communities, which they represent at Chandrilan House during house sessions.\n\nRespected governors are accessible to their constit­uents; they are often found in debate forums open to public participation on set days of the week. An elu­sive governor is considered weak, hiding from public debate of unpopular policies. Governors are typically accompanied by aides.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10,
+			"strain": 16
+		},
+		"skills": {
+			"Charm": 4,
+			"Cool": 3,
+			"Perception": 4,
+			"Knowledge: Core Worlds": 4,
+			"Knowledge: Education": 4,
+			"Leadership": 3,
+			"Ranged: Light": 3,
+			"Streetwise": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Improved Inspiring Rhetoric", "Kill with Kindness 2"],
+		"abilities": ["Leader"],
+		"weapons": ["Light blaster pistol"],
+		"gear": [],
+		"tags": ["civilian", "location:Chandrila", "book:sor", "species:Chandrilan"]
+	},
+	{
+		"name": "Chandrilan Navy Officer",
+		"type": "Rival",
+		"description": "Graduates of the Brionelle Academy often find work in the Chandrilan Security Force as ranking customs officers, on orbital defense platforms, or as pilots in the starfighter defense wings. Graduates of Brionelle are well educated and considered pillars of the com­munity in many cases. It is common for naval officers to also engage in some form of boating, whether the boat is a powered yacht or a sailing vessel.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Astrogation": 2,
+			"Computers": 2,
+			"Cool": 2,
+			"Knowl­edge: Core Worlds": 2,
+			"Leadership": 3
+		},
+		"talents": ["Fire Control"],
+		"abilities": [],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Stun pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Stun Damage"]
+			}
+		],
+		"gear": [],
+		"tags": ["military", "location:Chandrila", "book:sor", "species:Chandrilan"]
+	},
+	{
 		"name": "Club Hired Guard",
 		"type": "Minion",
 		"description": "",
@@ -256,6 +428,37 @@
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Hand scanner"],
 		"tags": ["civilian", "spaceport personnel", "book:eote"]
+	},
+	{
+		"name": "Doellinist High Priest",
+		"type": "Nemesis",
+		"description": "The Doellinist priesthood on Kinyen is the only career path Gran can choose without government interfer­ ence. Any Gran interested in joining the priesthood, or who wish to escape the job sector chosen for them by Kinyen’s government, can apply. The priesthood also offers part-time opportunities that allow Gran to remain in their designated profession as well. An esti­mated one in ten Gran have achieved some measure of standing within the priesthood and are trained to provide counsel, comfort, and company to those Gran in need.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 13,
+			"strain": 15
+		},
+		"skills": {
+			"Charm": 2,
+			"Discipline": 2,
+			"Knowledge: Education": 3,
+			"Knowledge: Lore": 4,
+			"Leadership": 3,
+			"Negotiation": 3
+		},
+		"talents": ["Command 2", "Inspiring Rhetoric", "Kill with Kindness 2", "Nobody’s Fool 2"],
+		"abilities": ["Invoke Doellin"],
+		"weapons": [],
+		"gear": ["Comlink", "Datapad", "Tayan staff", "Priestly robes", "500 credits"],
+		"tags": ["civilian", "species:Gran", "location:Kinyen", "book:sor", "priest"]
 	},
 	{
 		"name": "Mon Calamari Mechanic",
@@ -506,6 +709,64 @@
 		"tags": ["civilian", "location:Rim Worlds", "book:fad"]
 	},
 	{
+		"name": "Mon Calamari Shipwright",
+		"type": "Rival",
+		"description": "One key defining aspect of Mon Cala is its natives’ artistic aesthetic when it comes to design, especially starship design. In both orbital and underwater ship­ yards, millions of Mon Calamari engineers and ship­ wrights collaborate with Quarren shipbuilders to create vessels of a quality rarely seen in the galaxy. Although these shipbuilders work from similar sche­matics to mass-produce certain starship models, no two ships are quite alike.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 11
+		},
+		"skills": {
+			"Computers": 1,
+			"Knowledge: Education": 2,
+			"Mechanics": 2
+		},
+		"talents": ["Known Schematic"],
+		"abilities": ["Amphibious"],
+		"weapons": [],
+		"gear": ["Comlink", "Datapad with schematics", "Repair tools"],
+		"tags": ["civilian", "species:Mon Calamari", "book:sor", "engineer"]
+	},
+	{
+		"name": "Mon Calamari Commander",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 1,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 12
+		},
+		"skills": {
+			"Coercion": 2,
+			"Cool": 3,
+			"Discipline": 2,
+			"Knowledge: Outer Rim": 3,
+			"Knowledge: Warfare": 3,
+			"Leadership": 3
+		},
+		"talents": ["Adversary 1", "Commanding Presence", "Fire Control"],
+		"abilities": ["Amphibious"],
+		"weapons": [],
+		"gear": ["Comlink", "Datapad"],
+		"tags": ["military", "species:Mon Calamari", "book:sor"]
+	},
+	{
 		"name": "Nerf Herder",
 		"type": "Minion",
 		"description": "The nerf was a domesticated herd beast that originated on the planet Alderaan. Because the nerf was simple to raise, useful as both a beast of burden and as a source for meat, it became one of the most extensively farmed animals in the galaxy. Eventually, the nerf spread to planets in every region, including the Core Worlds. Multiple variants of the incredibly adaptable animal were bred to thrive on numerous planets and in myriad environments, ensuring that it is one of the single most prevalent livestock species in Known Space. Those individuals who choose to raise nerf herds are typically simple folk, embracing a meager domestic lifestyle with the security of a long and easily maintained career.",
@@ -539,6 +800,68 @@
 		],
 		"gear": ["Flock of nerfs"],
 		"tags": ["civilian", "book:aor"]
+	},
+	{
+		"name": "Orange-Rated Constable",
+		"type": "Minion",
+		"description": "Infrared-rated constables are still recruits, and red­-rated constables are rookies, but most of the con­stabulary comprises orange-rated constables. These constables operate in teams of two, usually with a long-term partner who is a relative. Orange-rated constables often patrol a specific beat from within a speeder or guard a specific checkpoint or location.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Discipline": 0,
+			"Perception": 0,
+			"Piloting: Planetary": 0,
+			"Ranged: Light": 0,
+			"Vigilance": 0
+		},
+		"talents": ["Skilled Jockey"],
+		"abilities": ["Constabulary Honour 2"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Armoured clothing (+1 Soak, +1 Defence)"],
+		"tags": ["civilian", "security", "location:Sullust", "species:Sullustan", "book:sor"]
+	},
+	{
+		"name": "Blue-Rated Constable",
+		"type": "Rival",
+		"description": "Constables who attain a blue rating are investigators who typically operate alone. Their authority reaches beyond Sullust to any facility owned by SoroSuub, allowing them to track suspects across the galaxy. It is the dream of most blue-rated constables to achieve the indigo rating, as those investigators receive the most difficult and dangerous cases.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 13,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Coercion": 2,
+			"Cool": 2,
+			"Discipline": 2,
+			"Perception": 2,
+			"Piloting: Space": 3,
+			"Ranged: Light": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1", "Skilled Jockey"],
+		"abilities": ["Constabulary Honour 3"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Armoured clothing (+1 Soak, +1 Defence)"],
+		"tags": ["civilian", "security", "location:Sullust", "species:Sullustan", "book:sor"]
 	},
 	{
 		"name": "Physician",

@@ -38,6 +38,45 @@
 		"tags": ["galactic oddity", "civilian", "species:Besalisk", "book:fad"]
 	},
 	{
+		"name": "Black Claw Saboteur",
+		"type": "Minion",
+		"description": "The Ashern, also called the Black Claws, have been a part of Thyferra for decades. This radical group of Vratix freedom fighters was ultimately responsible for the Thriving Season, a ten-year period during the Separatist Crisis during which the Vratix reclaimed control of bacta production from the cartels. When the Emperor returned governmental control of Thy­ferra to the Xucphra and Zaltin corporations, the Ash­ ern resurfaced. They have plagued the Bacta Cartels ever since, sabotaging production lines, bombing shipping platforms, and stealing alazhi shipments. Ashern agents often sharpen their claws and dye their carapaces matte black.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Brawl": 0,
+			"Mechanics": 0,
+			"Ranged: Light": 0,
+			"Stealth": 0
+		},
+		"talents": [],
+		"abilities": ["Create Bacta"],
+		"weapons": ["Frag grenade"],
+		"specialist-weapons": [
+			{
+				"name": "Black claws",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"gear": ["3 Frag grenades"],
+		"tags": ["galactic oddity", "book:sor", "species:Vratix", "location:Thyferra"]
+	},
+	{
 		"name": "Chiss Mercenary",
 		"type": "Nemesis",
 		"description": "The blue-skinned, red-eyed Chiss seldom venture be­yond their hidden homeworld deep in the Unknown Regions. Thus is it unsurprising that when one does encounter a Chiss, it is often among the worlds of the Outer Rim. When leaving their homes, some Chiss wanderers take to the hyperlanes to find adventure, trading on their cool and calculating demeanors to become skilled mercenaries. Professional soldiers for hire, Chiss mercenaries are too few to be found together in numbers; one can rarely find more than a single Chiss in an entire star system.",

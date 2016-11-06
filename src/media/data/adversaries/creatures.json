@@ -1,5 +1,118 @@
 [
 	{
+		"name": "Blackback",
+		"type": "Rival",
+		"description": "Blackbacks, birds of prey with a wingspans over five meters, feed on squalls and other small rodents. Prized trophy birds, these majestic creatures were almost hunted to extinction centuries ago. Overhunting led to rampant growth in the squall populations, which had negative impacts on Chandrilan crops. Blackbacks are now protected by the Chandrilan government and given vast conservation habitats, including the Hanna Wild Game Preserve. Hunting permits for blackbacks are upwards of 200,000 credits per kill, which is then put back into blackback breeding programs.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13
+		},
+		"skills": {
+			"Brawl": 5,
+			"Coordination": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Silhouette 2"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Talons",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Ensnare 3"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "location:Chandrila", "book:sor"]
+	},
+	{
+		"name": "Blood Eagle",
+		"type": "Rival",
+		"description": "Many creatures inhabit the Thyferran rainforests, but few are as formidable and terrifying as the gigantic blood eagle. Blood eagles are massive birds with waxy red feathers, long curved beaks, and oversized talons capable of grasping a mature Vratix. In flight, these creatures have a wingspan over four meters wide, and they scan the treetops and alazhi fields in search of their next meal. Once a blood eagle spots its prey, it swoops down to snatch it up, thrashing armoured targets against rocks with its blood-red beak. While Vratix take many precautions, blood eagle attacks during alazhi harvests still occur, with lethal results.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 16
+		},
+		"skills": {
+			"Brawl": 2,
+			"Perception": 4,
+			"Survival": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Improved Stunning Blow"],
+		"abilities": ["Silhouette 3"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Razor talons",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Ensnare 3", "Pierce 2", "Vicious 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "book:sor", "location:Thyferra"]
+	},
+	{
+		"name": "Cairnmog",
+		"type": "Minion",
+		"description": "The mount-sized cairnmogs are hooved and horned liz­ards that feed on fungus, moss, and balmgrass. Gener­ally peaceful and found in groups of two, cairnmogs are occasionally hunted for their skin and meat. If cairnmogs or their eggs are threatened, they are quick to resort to dominance displays or even violence.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 9,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Brawl": 0,
+			"Coercion": 0,
+			"Survival": 0
+		},
+		"talents": [],
+		"abilities": ["Silhouette 2"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Sharp horns",
+				"skill": "Brawl",
+				"damage": 9,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "location:Chandrila", "book:sor"]
+	},
+	{
 		"name": "Chemilizard",
 		"type": "Rival",
 		"description": "Also known as orpali dragons, chemilizards are native Nal Hutta reptiles that can grow to massive size. A typical adult ranges from ten to twenty meters in length and lives deep in the swamps, preying upon any crea­tures or beings that venture near its lair. Chemilizards have evolved the ability to extract nutrients from the planet’s polluted swamps, surviving in conditions that would kill most other creatures.",
@@ -35,6 +148,43 @@
 		],
 		"gear": [],
 		"tags": ["creature", "location:Hutt Space", "book:lonh"]
+	},
+	{
+		"name": "Choku",
+		"type": "Minion",
+		"description": "Choku are aggressive reptavian pack hunters that nav­igate the dense vines and tree limbs of Yavin 4 ’s jun­gles. Although the quadrupeds’ bright white and grey fur, punctuated with brown and tan stripes, should stand out against the verdant jungle, they are difficult to spot when on the hunt. Traveling in packs of three, choku outmaneuver their prey, killing with beaks filled with sawlike teeth.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 4
+		},
+		"skills": {
+			"Brawl": 0,
+			"Coordination": 0,
+			"Stealth": 0
+		},
+		"talents": [],
+		"abilities": ["Camouflaged (Jungle)", "Surefooted"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Serrated teeth",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "location:Yavin 4", "book:sor"]
 	},
 	{
 		"name": "Dark Wolf",
@@ -240,6 +390,41 @@
 		"tags": ["creature", "location:Coruscant", "book:uabs", "adventure:Under a Black Sun"]
 	},
 	{
+		"name": "Fecklen",
+		"type": "Minion",
+		"description": "The dominant ranching animal on the planet, the squat, stumpy fecklen is ubiquitous across Chandrila, and known for its savory meat and pure milk. Fecklen wander the Chandrilan countryside, grazing on balmgrass and occasionally blocking traffic. The fecklen is a peaceful herd animal known for its booming call, evolved to echo across the hilly landscape to frighten predators and locate the herd.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 7
+		},
+		"skills": {
+			"Perception": 0
+		},
+		"talents": [],
+		"abilities": ["Fecklen Boom"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Horns",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "location:Chandrila", "book:sor"]
+	},
+	{
 		"name": "Grabworm",
 		"type": "Minion",
 		"description": "Grabworms are four-meter-long arthropods with thick brown carapaces and maws lined with razor-wire teeth. These creatures lash their prey with a pair of long, prehensile tails or ensnare their victims with tentacle-like tongues before drawing them into their gaping mouths. Royal noblemen and Hutt dignitaries often hunt grabworms for sport. Big game hunters visit Toydaria to acquire a pair of the sharp grabworm forelegs to mount on their trophy wall. Toydarian hunters use various parts of a grabworm carcass for food, armor, weaponry, and sale goods.",
@@ -285,6 +470,43 @@
 		"tags": ["creature", "location:Hutt Space", "location:Toydaria", "book:lonh", "adventure:Toydarian Grocery Shopping"]
 	},
 	{
+		"name": "Ghorla",
+		"type": "Rival",
+		"description": "An equinoid mount used in traditional hunting parties, the ghorla is, like most Chandrilans, independent and stubborn, but intelligent. Ghorla are bred for a vari­ety of activities, including racing, showing, mounted sport, and more menial tasks like herding, labor, and transportation around the farm.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16
+		},
+		"skills": {
+			"Athletics": 3,
+			"Coordination": 1,
+			"Discipline": 2
+		},
+		"talents": [],
+		"abilities": ["Silhouette 2", "Trained Mount 2"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Trampling hooves",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "location:Chandrila", "book:sor"]
+	},
+	{
 		"name": "Gundark",
 		"type": "Rival",
 		"description": "Native to the planet Vanqor in the Outer Rim Territories, the gundark is one of the most ferocious and aggressive species in the known galaxy. Semi-intelligent, gundarks grasp the basic use of tools, but they lack any known language or other hallmark of a sentient species. Their sheer ferocity has made them a popular target for big game hunters and those who enjoy pitting creatures against one another in gladiatorial-style contests. In this way, the beast has spread to different worlds throughout the galaxy, where it flourishes in certain environments and planets. In many cases, the beasts are hunted to extinction because of the threat they pose to natural wildlife and the denizens of a given planet, but on worlds with larger regions of untamed wilderness, packs of gundarks can survive and thrive in areas without ever encountering sentient life.",
@@ -321,6 +543,45 @@
 		],
 		"gear": [],
 		"tags": ["creature", "book:aor", "book:eote"]
+	},
+	{
+		"name": "Houjix",
+		"type": "Rival",
+		"description": "Perhaps most famous for its place as a game piece in dejarik holochess, the houjix is a large, skittering split-legged lizard with toothy spikes on its tail and in its mouth. On Hok, houjix are bred for aggression and forced to fight for sport. This practice is condemned on Kinyen, where the slobbering beasts are known to be very affectionate. Renowned for its ability to help Gran cope with brief periods of isolation, the houjix is the preferred companion animal among Gran.",
+		"notes": "Only Hok houjix have the Brawl skill.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 7
+		},
+		"skills": {
+			"Brawl": 2,
+			"Charm": 2,
+			"Perception": 1,
+			"Survival": 1
+		},
+		"talents": [],
+		"abilities": ["Companion Animal"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Teeth",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "location:Kinyen", "location:Hok", "book:sor"]
 	},
 	{
 		"name": "Jakobeast",
@@ -361,7 +622,7 @@
 		"tags": ["creature", "force sensitive", "book:fad"]
 	},
 	{
-		"name": "Jubbar Bird",
+		"name": "Jubba Bird",
 		"type": "Rival",
 		"description": "Jubba birds are found in marketplaces, palaces, and the homes of wealthy merchants and upwardly mobile criminals throughout the galaxy, although they are na­tive to the swamps of Dagobah. Brightly colored avians with reptilian features, jubba birds are prized for their red, yellow, and purple plumage as much as for their beautiful, haunting song. The jubba bird’s whis­ tling call is actually an instinctual ability to tap into the Living Force, and it produces a peaceful sensation in those who hear it. Jubba birds have small bodies but large wings, and they fare poorly in cages. Luckily, if an owner feeds his bird regularly, it is more than content to remain on a roost or perch and refrain from terror­ izing a household or attempting to hunt other pets. On Dagobah, jubba birds hunt small prey such as rodents or other birds, but in captivity, a well-fed jubba bird will fight only to defend itself. Most importantly, if the jubba bird is not content, it refuses to sing.\n\nFew owners realize that jubba birds are deceptively intelligent. While not as smart as most sapient spe­cies, they possess a level of cunning and a capacity for comprehension that dwarfs most animal species. Some researchers suspect that jubba birds deliberate­ ly pretend to be less intelligent when interacting with other species. These suspicions are only reinforced by rumors that, when paired with owners they trust and care for, jubba birds can act with more deliberation and foresight.",
 		"characteristics": {
@@ -499,6 +760,43 @@
 		"tags": ["creature", "location:Hutt Space", "location:Klatooine", "book:lonh"]
 	},
 	{
+		"name": "Knytix",
+		"type": "Minion",
+		"description": "One of the most common creatures on Thyferra, the half-meter-tall knytix are docile, mantis-like insects that reside within the planet’s rainforests, easily blending in with the plant life. Vratix view the knytix as childlike genetic cousin, and often keep them as pets. The Vratix use a mixture of mud and knytix saliva to build their adobe-style treetop homes, which forms a compound that is incredibly durable and stands up to the high humidity of Thyferra’s jungle. It is also cus­tomary for Vratix, when they cause a deep offense to someone, to slaughter a pet knytix and make a soup of it for the offended party as a formal apology.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 2
+		},
+		"skills": {
+			"Athletics": 0,
+			"Brawl": 0,
+			"Survival": 0
+		},
+		"talents": [],
+		"abilities": ["Silhouette 0", "Sticky Saliva"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Barb and teeth",
+				"skill": "Brawl",
+				"damage": 2,
+				"critical": null,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "book:sor", "location:Thyferra"]
+	},
+	{
 		"name": "Kouhun",
 		"type": "Minion",
 		"description": "Kouhuns are small, multi-legged, venomous arthro­pods approximately thirty centimeters long, with gray, segmented bodies and large mandibles. Kouhun bites deliver a fast-acting and fatal neurotoxin, making them a favorite “w eapon” of many assassins. On their home planet of Indoumodo, they are simple preda­tors who track prey by heat. Their tiny size makes them adept at slipping through ventilation systems, windows, cracks in masonry, and other tight spaces. When cornered, kouhuns can also use a sharp, non-venomous tail spine to defend themselves.",
@@ -540,6 +838,47 @@
 		],
 		"gear": [],
 		"tags": ["creature", "book:fad"]
+	},
+	{
+		"name": "Loth-Cat",
+		"type": "Rival",
+		"description": "Members of the far-flung tooka family, loth-cats are small, wild felines native to Lothal. They are, on average, about a metre long and can weigh as much as fifteen kilograms. They have short, brindled coats with white bellies; long, thick tails; and narrow, black legs that end in long, sharp claws. Their faces are remarkably expressive, with solid black eyes, large ears, and a broad mouth full of needle-sharp teeth.\n\nLoth-cats live solitary lives primarily in Lothal’s vast grasslands, coming together only to breed and raise kits. Hunting by sight and hearing, they prey largely on loth-rats and other assorted rodents and avifauna. Expert stalkers, loth-cats hunt their prey for hours or even days, waiting for the perfect time to attack. Once committed, a loth-cat springs from hiding and attempts to kill its prey as quickly as possible. When attacking prey larger than themselves, usually when frightened or cornered, a loth-cat typically goes for a target’s face first, clawing at eyes and any other sensitive areas. Loth-cats only fight larger prey until they can escape or the creature is driven off, and will run if they can.\n\nWhile most are wild, loth-cats can be domesticated, with varying degrees of success. They make fine, if capricious and slightly destructive, pets. With enough patience, they can even be trained to hunt and retrieve.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 6,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Coordination": 3,
+			"Perception": 2,
+			"Stealth": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Natural Hunter"],
+		"abilities": ["Cunning Ambusher 1", "Leap", "Nightvision", "Silhouette 0"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Teeth and claws",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "book:nop", "location:Lothal"]
 	},
 	{
 		"name": "Massiff",
@@ -617,6 +956,43 @@
 		"tags": ["creature", "book:fad"]
 	},
 	{
+		"name": "Mamien",
+		"type": "Rival",
+		"description": "An oversized simian of the Yavin 4 jungles, the aver­age mamien stands upright and measures almost three meters tall. Mamiens appear as woolly, potbel­lied humanoids with spindly arms and legs, stubby noses, and heavy brows. Mamien are unafraid of most species and possess a curious and casual demeanor. However, they are highly protective of their young: entire troupes may turn violent in a heartbeat if an infant is threatened.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 14
+		},
+		"skills": {
+			"Brawl ":4 ,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": ["Surefooted"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Pummeling fists",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown", "Vicious 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "book:sor", "location:Yavin 4"]
+	},
+	{
 		"name": "Mature Tusk Cat",
 		"type": "Rival",
 		"description": "Tusk cats are feline predators that can grow up to two meters high and three meters long. Named for the two distinct tusks growing from their lower jaws, these mammals are social crea­tures who mate for life and form prides. They even can “guard” herds of prey animals, eating one ev­ery so often while protecting the rest of the herd from other preda­tors. These instincts make them surprisingly easy to do­ mesticate, and they are large enough that they can be ridden by most humanoid sapients. Many an Outer Rim wanderer relies on the keen eyes and sensitive nose of his trusted tusk cat companion.",
@@ -657,6 +1033,81 @@
 		"tags": ["creature", "book:fad"]
 	},
 	{
+		"name": "Miim",
+		"type": "Rival",
+		"description": "Miim are large, fat, burrowing creatures that were used as beasts of burden in early mining and agri­cultural efforts on Sullust. The creatures are smart, social, and easily domesticated. When frightened, miims thrash potential threats with their large tails and flee. Today, Sullustans romanticize the miim and their place in history.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15
+		},
+		"skills": {
+			"Brawl": 1,
+			"Perception": 3,
+			"Resilience": 2,
+			"Survival": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Silhouette 2", "Trained Mount 1"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Tail",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 5,
+				"range": "Short",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "location:Sullust", "book:sor"]
+	},
+	{
+		"name": "Mon Cala Eel",
+		"type": "Minion",
+		"description": "An oddity of the coral depths, Mon Cala eels graze Mon Cala’s ocean floor, electrocuting those who threaten them. These elongated, four-eyed creatures range from one to three meters in length and have textured, phosphorescent skin. Quarren have been known to create makeshift prison cells out of lashed-together eels.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 4
+		},
+		"skills": {
+			"Athletics": 0,
+			"Brawl": 0,
+			"Vigilance": 0
+		},
+		"talents": [],
+		"abilities": ["Silhouette 0", "Aquatic Creature"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Electric skin",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": null,
+				"range": "Engaged",
+				"qualities": ["Stun Damage"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "location:Mon Cala", "book:sor"]
+	},
+	{
 		"name": "Mynock",
 		"type": "Minion",
 		"description": "Mynocks are disgusting, silicon-based space para­sites that survive by latching onto the hulls of star­ ships and feeding off power cables and other vital systems. About a meter long with wings that could be used in atmosphere. they have spread through­ out the galaxy by hitching rides on passing starships. They absorb matter and energy from their hosts. which can eventually cause sys­tem failure. Mynocks can be found on the surface of several different worlds, although their allergy to helium limits the number of habitats which they can survive.",
@@ -690,7 +1141,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "book:eote"]
+		"tags": ["creature", "book:eote", "book:sor"]
 	},
 	{
 		"name": "Photon Spider",
@@ -1015,6 +1466,83 @@
 		"tags": ["creature", "location:Hoth", "book:sor"]
 	},
 	{
+		"name": "Tayan Falcon",
+		"type": "Rival",
+		"description": "The Tayan falcon is a sparkling, amber-plumed bird of prey that nests in the mountains of Kinyen. During the day, the birds ride thermal updrafts above fields of silvergrass to feed on various rodents and large insects that would otherwise destroy crops. Many are trained by gamwidge ranchers to ward off llayas that threaten their herd.\n\nThe Doellinists revere the bird as avatars of Doellin herself, keeping her fields free of pests. The Tayan League takes much of its philosophy from the falcon. The concepts of exile and pacifism are linked to the falcon’s unique trick of driving off llayas with shriek­ ing and dive-bombing feints. Falcon imagery is often incorporated into religious symbols and trappings of both priesthood and government office.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 6
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coercion": 2,
+			"Perception": 3,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": ["Silhouette 0", "Dive-bomb"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Talons",
+				"skill": "Brawl",
+				"damage": 2,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "location:Kinyen", "book:sor"]
+	},
+	{
+		"name": "Trained Keelkana",
+		"type": "Rival",
+		"description": "During the reign of the Mon Calamari monarchy, the order of Mon Calamari knights defended the kingdom from a variety of undersea threats while mounted atop armored keelkana eels. While undersea war mounts lost favor after the Clone Wars, keelkana racing has recently grown in popularity in Mon Calamari Space. The massive, snakelike fish have a vicious tempera­ment and teeth sharp enough to pierce armor plat­ing. Wild keelkana can be found in deep sea trenches across Mon Cala.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 30,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 2,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": ["Silhouette 3", "Aquatic Creature", "Lightning Charge", "Trained Mount 2"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Jaws",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 3", "Vicious 3"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "location:Mon Cala", "book:sor"]
+	},
+	{
 		"name": "The Lost",
 		"type": "Rival",
 		"description": "Not all Hutts fled Varl when the world was deemed lost. Some lesser Hutts, trapped deep underground in slums, were cut off from the evacuation routes and unable to escape. These creatures devolved over the millennia and have become the Lost. Albino, feral creatures, the Lost survive in pockets of air deep underground, harassing and preying on miners work­ ing on Varl. The Lost maintain a great deal of devious cunning even as their rational minds have faded away.",
@@ -1084,7 +1612,7 @@
 			"Survival": 3
 		},
 		"talents": ["Stunning Blow"],
-		"abilities": ["Camouflaged", "Suited to the Cold"],
+		"abilities": ["Camouflaged (Snow)", "Suited to the Cold"],
 		"weapons": [],
 		"specialist-weapons": [
 			{
@@ -1098,6 +1626,44 @@
 		],
 		"gear": [],
 		"tags": ["creature", "location:Hoth", "book:sor"]
+	},
+	{
+		"name": "Whaladon",
+		"type": "Rival",
+		"description": "Whaladons are enormous, cetacean-based marine mammals that live within Mon Cala’s seas. These whalelike creatures, which can reach almost thirty meters in length, are one of the many sentient spe­cies of their world. Whaladons have coexisted with Quarren and Mon Calamari for millennia. They main­ tain an unofficial embassy around the domed city of Aquarius, communicating in songlike calls. Despite whaladons' sentience, offworlders have been known to hunt them for sport and profit.",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 15,
+			"wounds": 50
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 2,
+			"Survival": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Silhouette 4", "Aquatic Creature"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Tail",
+				"skill": "Brawl",
+				"damage": 15,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Concussive 1", "Slow-Firing 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["creature", "location:Mon Cala", "book:sor"]
 	},
 	{
 		"name": "Vornskr",
