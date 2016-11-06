@@ -34,7 +34,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "location:hutt space", "book:lonh"]
+		"tags": ["creature", "location:Hutt Space", "book:lonh"]
 	},
 	{
 		"name": "Dark Wolf",
@@ -81,7 +81,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "location:hutt space", "raquor’daan", "book:lonh"]
+		"tags": ["creature", "location:Hutt Space", "raquor’daan", "book:lonh"]
 	},
 	{
 		"name": "Dianoga",
@@ -120,7 +120,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "species:dianoga", "book:aor", "book:eote"]
+		"tags": ["creature", "species:Dianoga", "book:aor", "book:eote"]
 	},
 	{
 		"name": "Small Dianoga",
@@ -159,7 +159,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "species:dianoga", "book:lonh"]
+		"tags": ["creature", "species:Dianoga", "book:lonh"]
 	},
 	{
 		"name": "Greater Dianoga",
@@ -199,7 +199,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "species:dianoga", "book:lonh"]
+		"tags": ["creature", "species:Dianoga", "book:lonh"]
 	},
 	{
 		"name": "Duracrete Slug",
@@ -237,7 +237,7 @@
 			}
 		],
 		"gear": ["Partially-digested landspeeder identity plate"],
-		"tags": ["creature", "location:coruscant", "book:uabs"]
+		"tags": ["creature", "location:Coruscant", "book:uabs", "adventure:Under a Black Sun"]
 	},
 	{
 		"name": "Grabworm",
@@ -282,7 +282,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "location:hutt space", "location:toydaria", "book:lonh", "adventure:toydarian grocery shopping"]
+		"tags": ["creature", "location:Hutt Space", "location:Toydaria", "book:lonh", "adventure:Toydarian Grocery Shopping"]
 	},
 	{
 		"name": "Gundark",
@@ -468,7 +468,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "location:hutt space", "book:lonh"]
+		"tags": ["creature", "location:Hutt Space", "book:lonh"]
 	},
 	{
 		"name": "Klatooinian Paddy Frog",
@@ -496,7 +496,7 @@
 		"abilities": ["Silhouette 0", "Amphibious"],
 		"weapons": [],
 		"gear": [],
-		"tags": ["creature", "location:hutt space", "location:klatooine", "book:lonh"]
+		"tags": ["creature", "location:Hutt Space", "location:Klatooine", "book:lonh"]
 	},
 	{
 		"name": "Kouhun",
@@ -578,7 +578,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "location:hutt space", "book:lonh"]
+		"tags": ["creature", "location:Hutt Space", "book:lonh", "adventure:Rubbing Slimy Elbows"]
 	},
 	{
 		"name": "Maalraa",
@@ -728,7 +728,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "location:hutt space", "book:lonh"]
+		"tags": ["creature", "location:Hutt Space", "book:lonh"]
 	},
 	{
 		"name": "Pybus Amphibipole",
@@ -774,7 +774,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "location:hutt space", "book:lonh"]
+		"tags": ["creature", "location:Hutt Space", "book:lonh", "adventure:The Dead Road"]
 	},
 	{
 		"name": "Rancor",
@@ -852,7 +852,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "location:hutt space", "book:lonh"]
+		"tags": ["creature", "location:Hutt Space", "book:lonh"]
 	},
 	{
 		"name": "Shaoryn",
@@ -890,7 +890,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "location:hutt space", "location:toydaria", "book:lonh", "adventure:toydarian grocery shopping"]
+		"tags": ["creature", "location:Hutt Space", "location:Toydaria", "book:lonh", "adventure:Toydarian Grocery Shopping"]
 	},
 	{
 		"name": "Skuir Fish",
@@ -936,7 +936,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "location:hutt space", "book:lonh"]
+		"tags": ["creature", "location:Hutt Space", "book:lonh"]
 	},
 	{
 		"name": "Stalking Acklay",
@@ -1012,7 +1012,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "location:hoth", "book:sor"]
+		"tags": ["creature", "location:Hoth", "book:sor"]
 	},
 	{
 		"name": "The Lost",
@@ -1059,7 +1059,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "species:hutt", "location:hutt space", "book:lonh"]
+		"tags": ["creature", "species:Hutt", "location:Hutt Space", "book:lonh"]
 	},
 	{
 		"name": "Wampa",
@@ -1097,7 +1097,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "location:hoth", "book:sor"]
+		"tags": ["creature", "location:Hoth", "book:sor"]
 	},
 	{
 		"name": "Vornskr",
@@ -1186,7 +1186,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "location:hutt space", "book:lonh"]
+		"tags": ["creature", "location:Hutt Space", "book:lonh"]
 	},
 	{
 		"name": "Ysalamir",

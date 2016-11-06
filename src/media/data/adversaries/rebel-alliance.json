@@ -191,7 +191,7 @@
 		"abilities": ["Amphibious"],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Inflammatory pamphlets and propaganda."],
-		"tags": ["rebel alliance", "species:quarren", "book:aor"]
+		"tags": ["rebel alliance", "species:Quarren", "book:aor"]
 	},
 	{
 		"name": "Quartermaster",

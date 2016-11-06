@@ -24,7 +24,7 @@
 		"abilities": ["Droid"],
 		"weapons": [],
 		"gear": ["Datapad"],
-		"tags": ["droid", "book:fad"]
+		"tags": ["species:Droid", "book:fad"]
 	},
 	{
 		"name": "Ancient Hutt Security Droid",
@@ -52,7 +52,7 @@
 		"abilities": ["Droid", "Huttese"],
 		"weapons": ["Blaster carbine", "Vibrosword"],
 		"gear": [],
-		"tags": ["droid", "location:hutt space", "security", "book:lonh"]
+		"tags": ["species:Droid", "location:Hutt Space", "security", "book:lonh", "adventure:The Dead Road"]
 	},
 	{
 		"name": "Antiquated Battle Droid",
@@ -78,7 +78,7 @@
 		"abilities": ["Droid"],
 		"weapons": ["Blaster rifle"],
 		"gear": [],
-		"tags": ["droid", "book:eote"]
+		"tags": ["species:Droid", "book:eote"]
 	},
 	{
 		"name": "Assassin Droid",
@@ -115,7 +115,7 @@
 		"abilities": ["Droid"],
 		"weapons": ["Light repeating blaster", "Blaster pistol", "Missile tube"],
 		"gear": [],
-		"tags": ["droid", "assassin", "book:aor", "book:eote"]
+		"tags": ["species:Droid", "assassin", "book:aor", "book:eote"]
 	},
 	{
 		"name": "Astromech Droid",
@@ -155,7 +155,7 @@
 			}
 		],
 		"gear": ["Built-in repair tools"],
-		"tags": ["droid", "engineer", "book:aor", "book:eote"]
+		"tags": ["species:Droid", "engineer", "book:aor", "book:eote"]
 	},
 	{
 		"name": "BX Commando Droid",
@@ -184,7 +184,7 @@
 		"abilities": ["Droid"],
 		"weapons": ["Blaster carbine", "Vibrosword", "Frag grenade", "Stun grenade"],
 		"gear": [],
-		"tags": ["droid", "separatist", "book:cotgk"]
+		"tags": ["species:Droid", "separatist", "book:cotgk"]
 	},
 	{
 		"name": "Destroyer Droid",
@@ -229,7 +229,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["droid", "separatist", "book:cotgk"]
+		"tags": ["species:Droid", "separatist", "book:cotgk"]
 	},
 	{
 		"name": "IG-100 MagnaGuard",
@@ -262,7 +262,7 @@
 		"abilities": ["Droid"],
 		"weapons": ["Electrostaff"],
 		"gear": ["Built-in armour plating (+2 soak, +1 defence)"],
-		"tags": ["droid", "separatist", "book:fad"]
+		"tags": ["species:Droid", "separatist", "book:fad"]
 	},
 	{
 		"name": "Interrogation Droid",
@@ -309,7 +309,7 @@
 			}
 		],
 		"gear": ["Interrogation drug syringe"],
-		"tags": ["droid", "empire", "book:fad"]
+		"tags": ["species:Droid", "empire", "book:fad"]
 	},
 	{
 		"name": "Maintenance Droid",
@@ -345,7 +345,7 @@
 			}
 		],
 		"gear": ["Built-in repair tools (counts as tool kit as well as emergency repair kit that can be used once per session)"],
-		"tags": ["droid", "engineer", "book:aor", "book:eote"]
+		"tags": ["species:Droid", "engineer", "book:aor", "book:eote"]
 	},
 	{
 		"name": "Medical Droid",
@@ -373,7 +373,7 @@
 		"abilities": ["Droid"],
 		"weapons": [],
 		"gear": ["Built-in diagnostic and surgical tools (counts as medpac as well as stimpack that can be used once per session)"],
-		"tags": ["droid", "medic", "book:aor", "book:eote", "book:fad"]
+		"tags": ["species:Droid", "medic", "book:aor", "book:eote", "book:fad"]
 	},
 	{
 		"name": "Police Droid",
@@ -400,7 +400,7 @@
 		"abilities": ["Droid"],
 		"weapons": ["Light blaster pistol"],
 		"gear": [],
-		"tags": ["civilian", "security", "location:coruscant", "droid", "book:uabs"]
+		"tags": ["security", "location:Coruscant", "species:Droid", "book:uabs", "adventure:Under a Black Sun"]
 	},
 	{
 		"name": "Protocol Droid",
@@ -430,7 +430,7 @@
 		"abilities": ["Droid"],
 		"weapons": [],
 		"gear": [],
-		"tags": ["droid", "book:aor", "book:eote"]
+		"tags": ["species:Droid", "book:aor", "book:eote"]
 	},
 	{
 		"name": "Security Droid",
@@ -467,7 +467,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["droid", "security", "book:eote"]
+		"tags": ["species:Droid", "security", "book:eote"]
 	},
 	{
 		"name": "Viper Probe Droid",
@@ -508,6 +508,6 @@
 			}
 		],
 		"gear": ["Long-range holonet communicator", "Life form scanner", "Long-range sensor array"],
-		"tags": ["droid", "empire", "book:fad"]
+		"tags": ["species:Droid", "empire", "book:fad"]
 	}
 ]

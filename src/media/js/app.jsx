@@ -100,7 +100,7 @@ class App extends React.Component {
 			if(filter != "") {
 				filter = filter.toLowerCase();
 
-				adversaries = adversaries.filter(a => a.name.toLowerCase().indexOf(filter) != -1 || a.tags.indexOf(filter) != -1);
+				adversaries = adversaries.filter(a => a.name.toLowerCase().indexOf(filter) != -1 || a.tags.find(t => t.toLowerCase() == filter) != undefined);
 			}
 
 			this._updateState(adversaries.length == 1 ? adversaries[0] : null, adversaries);

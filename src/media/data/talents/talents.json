@@ -545,7 +545,7 @@
 	},
 	{
 		"name": "Gang Leader",
-		"description": ""
+		"description": "May spend a maneuver giving orders to other posse mem­bers within medium range, granting them :boost: on their next check."
 	},
 	{
 		"name": "Gearhead",
@@ -1101,7 +1101,7 @@
 	},
 	{
 		"name": "Precise Aim",
-		"description": ""
+		"description": "Once per round, may perform Precise Aim maneuver to suffer upto 1 Strain per rank to reduce target’s melee and ranged defences by Strain spent."
 	},
 	{
 		"name": "Precision Strike",
@@ -1481,7 +1481,7 @@
 	},
 	{
 		"name": "Targeted Blow",
-		"description": ""
+		"description": "After making a suc­cessful attack, may spend one Destiny Point to add damage equal to Agility to one hit."
 	},
 	{
 		"name": "Technical Aptitude",

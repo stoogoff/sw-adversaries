@@ -1,5 +1,76 @@
 [
 	{
+		"name": "A0-2",
+		"type": "Nemesis",
+		"description": "AO-2 is a tall, lanky combat droid with a matte black chassis layered with plates of laminate armor. A single red optic glows from his expressionless faceplate, and a black cloak hangs from his shoulders, covering much of his body. Given the time he spends in Torani’s pres­ence, he is often referred to as her shadow. Though their relationship appears to be more or less egalitar­ian, some individuals have started to wonder if AO-2 is actually Torani’s master rather than her servant.",
+		"notes": "The vibroblade is integrated.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 13,
+			"strain": 12,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Cool": 3,
+			"Melee": 4,
+			"Percep­tion": 3,
+			"Ranged: Heavy": 3,
+			"Ranged: Light": 2,
+			"Skuldug­gery": 2,
+			"Streetwise": 2,
+			"Vigilance": 4
+		},
+		"talents": ["Lethal Blows 3", "Precise Aim 2", "Targeted Blow"],
+		"abilities": ["Droid"],
+		"weapons": ["Vibroblade", "Blaster rifle"],
+		"gear": ["Laminate armour plates (+2 Soak)", "Integrated comlink"],
+		"tags": ["underworld", "species:Droid", "assassin", "book:lonh", "adventure:Rubbing Slimy Elbows"]
+	},
+	{
+		"name": "Boddah Venik Rin",
+		"type": "Rival",
+		"description": "The boddah representing the Player Characters is a middle-aged Zabrak known as Venik Rin. Rin once survived being mauled by a rancor, which left him scarred and twisted as a result. His horns are cracked, his skin marred with hideous scars, and his body is twisted. He walks with a pronounced limp, but he speaks with a voice that is both strong and confident. Rin is comfortable working as a puppet for his unnamed master, so long as the spice that dulls his pain continues to trickle in.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 11
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 3,
+			"Cool": 2,
+			"Deception": 3,
+			"Dis­cipline": 2,
+			"Knowledge: Underworld": 3,
+			"Perception": 2,
+			"Negotiation": 2,
+			"Streetwise": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Kill with Kindness 1"],
+		"abilities": [],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Fine robes", "Narcotic inhaler"],
+		"tags": ["underworld", "species:zabrak", "book:lonh", "adventure:Rubbing Slimy Elbows"]
+	},
+	{
 		"name": "Captain Gideon",
 		"type": "Nemesis",
 		"description": "Captain Gideon is a member of the Suwanee Pirates, a desperate group of pirates and cutthroats who have been preying on starships in this area for years. Gideon is a Devaronian whose thick, white horns and trademark devilish grin, and wickedly sharp vibros­word serve to accent his sinister appearance.",
@@ -34,7 +105,7 @@
 		"abilities": [],
 		"weapons": ["Heavy blaster pistol", "Vibrosword"],
 		"gear": ["Padded armour (+2 Soak)", "Breath mask", "Utility belt"],
-		"tags": ["underworld", "pirate", "species:devaronian", "book:lonh", "adventure:welcome aboard"]
+		"tags": ["underworld", "pirate", "species:devaronian", "book:lonh", "adventure:Welcome Aboard"]
 	},
 	{
 		"name": "Corte Voss",
@@ -67,7 +138,7 @@
 		"abilities": [],
 		"weapons": ["Heavy blaster pistol"],
 		"gear": ["Heavy clothing (+1 Soak)", "Datapad"],
-		"tags": ["underworld", "smuggler", "species:twi’lek", "book:lonh", "adventure:a deal gone wrong", "location:hutt space", "location:kwenn station"]
+		"tags": ["underworld", "smuggler", "species:twi’lek", "book:lonh", "adventure:A Deal Gone Wrong", "location:Hutt Space", "location:Kwenn Station"]
 	},
 	{
 		"name": "Corte’s Smuggler Cew",
@@ -96,7 +167,7 @@
 		"abilities": [],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Heavy clothing (+1 Soak)"],
-		"tags": ["underworld", "smuggler", "book:lonh", "adventure:a deal gone wrong", "location:hutt space", "location:kwenn station"]
+		"tags": ["underworld", "smuggler", "book:lonh", "adventure:A Deal Gone Wrong", "location:Hutt Space", "location:Kwenn Station"]
 	},
 	{
 		"name": "Domdees",
@@ -125,7 +196,7 @@
 		"abilities": ["Hoverer", "Silhouette 0"],
 		"weapons": [],
 		"gear": ["Spatula", "Puffy chef’s hat", "Utility apron"],
-		"tags": ["civilian", "species:toydarian", "location:hutt space", "book:lonh", "adventure:toydarian grocery shopping", "location:toydaria"]
+		"tags": ["civilian", "species:Toydarian", "location:Hutt Space", "book:lonh", "adventure:Toydarian Grocery Shopping", "location:toydaria"]
 	},
 	{
 		"name": "Fereallis Pirate Crewmate",
@@ -155,7 +226,109 @@
 		"abilities": [],
 		"weapons": ["Heavy blaster pistol", "Vibroknife", "Shock gloves"],
 		"gear": ["Padded armour (+2 Soak)", "Breath mask"],
-		"tags": ["underworld", "pirate", "book:lonh", "adventure:welcome aboard"]
+		"tags": ["underworld", "pirate", "book:lonh", "adventure:Welcome Aboard"]
+	},
+	{
+		"name": "Graayl Nor",
+		"type": "Nemesis",
+		"description": "Graayl Nor, the leader of the bounty hunters, is a cold and calculating Barabel who has amassed an impres­sive twelve bounties in the past cycle alone. His group, the Red Pact, has made a name for itself, earning a reputation for getting the job done at all costs. The Red Pact includes numerous thugs and gunslingers, including a Twi’lek, a Rodian, and a Defel.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15,
+			"strain": 14
+		},
+		"skills": {
+			"Deception": 5,
+			"Knowledge: Underworld": 2,
+			"Per­ception": 2,
+			"Piloting: Space": 2,
+			"Ranged: Light": 3,
+			"Skul­duggery": 2,
+			"Streetwise": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [],
+		"weapons": ["Heavy blaster pistol", "Brass knuckles"],
+		"gear": ["Padded armour (+2 Soak)"],
+		"tags": ["underworld", "book:lonh", "adventure:The Dead Road", "species:Barabel", "bounty hunter"]
+	},
+	{
+		"name": "Graayl’s Thugs",
+		"type": "Rival",
+		"description": "Craayl’s crew is a motley band of scum who are more than happy to prey on unsuspecting travelers.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12
+		},
+		"skills": {
+			"Cool": 1,
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Survival": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Quick Draw"],
+		"abilities": [],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Padded armour (+2 Soak)"],
+		"tags": ["underworld", "book:lonh", "adventure:The Dead Road", "thug"]
+	},
+	{
+		"name": "Kaa'to Leeachos",
+		"type": "Nemesis",
+		"description": "Kaa’to once worked security for a minor Hutt named Morbiss, a slaver operating from Nar Shaddaa. This depraved Hutt had many enemies throughout the Outer Rim territories, and always kept a large detail of thugs and warriors around him. Yet, even that could not save him from his determined rivals. The slave master fell victim to a bomb placed in his ship’s docking bay while on Malastare to bet on the Podraces. The explosion wiped out Morbiss, his ship, his guards, and a large group of “cargo” the Hutt brought along to sell. It was only through sheer luck that the Nikto survived. The enforcer was dealing with a petulant slave who was giving his new master a hard time, which kept him at the edge of the docking bay when the bomb detonated.\n\nThe blast that set Kaa’to free also took his right leg and burned much of his right arm. Luckily, he had a hidden stash of credits on his person. When the medics arrived, the Nikto bargained with the Gran who found him to replace his leg. It exhausted all his credits, but Kaa’to Leeachos would live to finally throw off the shackles of the Hutts.\n\n With his credits wiped out, Kaa’to took to working as a hired guard on Malastare until he could buy passage on a transport offworld. As fate would have it, the only transport he could get took him to the world of Rodia, where his new career would begin. While on Rodia, Kaa’to found himself in the employ of the bounty hunter Knoke, a gruff Rodian who took a liking to the Nikto and taught him the ways of the hunt. Knoke was a successful hunter, but he met his end while on a contract to capture a rogue Jedi during the Great Purge. Kaa’to assumed the contract and finished the job. His reputation quickly grew after such a high-profile job. Within a few years he was in steady employ, with many clients. Knoke left his ship and equipment to Kaa’to, and with these at his disposal, the Nikto set out to earn a fortune for himself. \n\nUltimately, Kaa’to’s pride grew into hubris, and he began to look down on those who employed him, thinking himself nigh untouchable. Soon after staking out territory on Coruscant, the Nikto backstabbed the Pykes, bringing the Player Characters down on his trail.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 20,
+			"strain": 15
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coercion": 1,
+			"Piloting: Planetary": 2,
+			"Ranged: Light": 2,
+			"Resilience": 2,
+			"Survival": 2
+		},
+		"talents": ["Lethal Blows", "Resolve"],
+		"abilities": ["Enhanced Nemesis Combat"],
+		"weapons": ["Heavy blaster pistol"],
+		"specialist-weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"plus-damage": 1,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": ["Custom laminate armour (+2 Soak)", "Faulty jet pack (spend a maneuver to make a Piloting (Planetary) check with a difficulty of :challenge: to fly; explodes on :despair: or after sustaining 10 damage as if it were a frag grenade)"],
+		"tags": ["underworld", "book:uabs", "adventure:Under a Black Sun", "species:Nikto"]
 	},
 	{
 		"name": "King Maalva",
@@ -200,7 +373,202 @@
 			}
 		],
 		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Encrypted credit voucher with 50,000 credits", "Royal crown"],
-		"tags": ["civilian", "species:toydarian", "book:lonh", "location:hutt space"]
+		"tags": ["civilian", "species:Toydarian", "book:lonh", "location:Hutt Space"]
+	},
+	{
+		"name": "Lar’omx Clan-scorned",
+		"type": "Rival",
+		"description": "If Tray’Essek has accumulated additional Obligation, his rival, Lar’omx, finds out about the raid on the Black Sun facility and decides to zero out Tray’Essek’s jagannath point score once and for all. If the conversation with the Falleen goes poorly, or if Tray’Essek confronts Verannis about his rival, Lar’omx accompanies the human and Aqualish Black Sun operatives to “take care of” the PCs. Lar’omx has forsaken Trandoshan traditions and isn’t afraid to fight dirty in order to beat Tray’Essek.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 15
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Coercion": 1,
+			"Coordination": 1,
+			"Perception": 1,
+			"Ranged: Heavy": 1,
+			"Ranged: Light": 1,
+			"Survival": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Knockdown"],
+		"abilities": [],
+		"weapons": ["Heavy blaster pistol"],
+		"specialist-weapons": [
+			{
+				"name": "Poisoned claws",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": [],
+				"notes": "Spend :advantage::advantage: to inflict poison: the target must succeed at an :average: Resilience check or suffer 5 Strain and lose their free maneuver for a number of rounds equal to the number of :threat: generated during the Resilience check."
+			}
+		],
+		"gear": ["Padded armour (+2 Soak)"],
+		"tags": ["underworld", "book:uabs", "adventure:Under a Black Sun", "location:Coruscant", "species:Trandoshan"]
+	},
+	{
+		"name": "Rodian Lackeys",
+		"type": "Minion",
+		"description": "Fondo, Tyss, and Plaado are nearly identical Rodian thugs who happily follow Toram’s every order without hesitation. They dress in heavy leather jackets, wear their weapons in low-slung holsters, and finger the blades of their combat knives threateningly whenever the opportunity presents itself.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4
+		},
+		"skills": {
+			"Brawl": 0,
+			"Melee": 0,
+			"Ranged: Light": 0,
+			"Vigilance": 0
+		},
+		"talents": ["Quick Strike"],
+		"abilities": [],
+		"weapons": ["Blaster pistol", "Combat knife"],
+		"gear": ["Heavy clothing (+1 Soak)"],
+		"tags": ["underworld", "species:Rodian", "thug", "book:lonh", "adventure:Rubbing Slimy Elbows"]
+	},
+	{
+		"name": "Shalo Sherin",
+		"type": "Nemesis",
+		"description": "Shalo is a tall, moderately handsome human with grey hair, blue eyes, and a penchant for stylish cloth­ ing. He has an air of authority about him that catches most individuals off guard, and his servants and staff are loyal to him to a fault. Despite his personable demeanor, he is completely amoral and willing to sac­rifice anyone to accomplish his goals.\n\nShalo is always accompanied by Therah Yunin, his Twi’lek concubine, and the occasion of the Granee Noopa is no exception. For her part, Therah feels deeply indebted to Shalo for something he did for her many years ago and helps him with his schemes as a result, but she is under no illusions that the callous noble will ever change. She uses the Twi’lek Dancer profile on page 414 of the E dge of the Empire Core Rulebook.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 12,
+			"defence": [2, 2]
+		},
+		"skills": {
+			"Charm": 3,
+			"Coercion": 3,
+			"Deception": 4,
+			"Knowledge: Underworld": 2,
+			"Leadership": 3,
+			"Negotiation": 3,
+			"Ranged: Light": 2,
+			"Streetwise": 3
+		},
+		"talents": ["Adversary 1", "Gang Leader", "Smooth Talker 1"],
+		"abilities": [],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Fine dinner clothes", "Personal deflector shield (+2 Defence)"],
+		"tags": ["civilian", "book:lonh", "adventure:Rubbing Slimy Elbows"]
+	},
+	{
+		"name": "Savo",
+		"type": "Rival",
+		"description": "Savo and Camerlin are Shalo’s servants. While Savo favours a more straightforward approach to her work, Camerlin is much more tactical. Savo is a tall and imposing human with dark hair and hooded eyes, and she favors a vibro-ax in close quarters. Camerlin, on the other hand, is slight of build and a head shorter than Savo. He prefers to shoot from a distance while Savo occupies his foes. Both are slightly more loyal to Shalo than the average mercenary, but only slightly. They will risk their lives for one another, however.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 13,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Cool": 2,
+			"Melee": 3,
+			"Perception": 2,
+			"Ranged: Light": 3,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Vibro-ax"],
+		"gear": ["Armoured clothing (+1 Soak"],
+		"tags": ["civilian", "bodyguard", "book:lonh", "adventure:Rubbing Slimy Elbows"]
+	},
+	{
+		"name": "Camerlin",
+		"type": "Rival",
+		"description": "Savo and Camerlin are Shalo’s servants. While Savo favours a more straightforward approach to her work, Camerlin is much more tactical. Savo is a tall and imposing human with dark hair and hooded eyes, and she favors a vibro-ax in close quarters. Camerlin, on the other hand, is slight of build and a head shorter than Savo. He prefers to shoot from a distance while Savo occupies his foes. Both are slightly more loyal to Shalo than the average mercenary, but only slightly. They will risk their lives for one another, however.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 13,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Cool": 2,
+			"Perception": 2,
+			"Ranged: Light": 3,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Armoured clothing (+1 Soak", "Comlink", "Scanner goggles", "Datapad", "Utility belt"],
+		"tags": ["civilian", "bodyguard", "book:lonh", "adventure:Rubbing Slimy Elbows"]
+	},
+	{
+		"name": "Speng",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Deception": 1,
+			"Negotiation": 2,
+			"Ranged: Light": 1,
+			"Skulduggery": 1,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Smooth Talker"],
+		"abilities": [],
+		"weapons": ["Blaster pistol"],
+		"gear": ["6 Death sticks (induces mild hallucinations, adds :setback: to any task the character attempts and prohibits the expenditure of Destiny points for the duration of the combat or scene)"],
+		"tags": ["underworld", "book:uabs", "adventure:Under a Black Sun", "location:Coruscant"]
 	},
 	{
 		"name": "Thamoss",
@@ -242,12 +610,12 @@
 			}
 		],
 		"gear": ["Padded armour (+2 Soak)", "Comlink"],
-		"tags": ["underworld", "book:lonh", "adventure:a deal gone wrong", "location:hutt space", "location:kwenn station", "species:trandoshan", "merchant"]
+		"tags": ["underworld", "book:lonh", "adventure:A Deal Gone Wrong", "location:Hutt Space", "location:Kwenn Station", "species:Trandoshan", "merchant"]
 	},
 	{
 		"name": "Thamoss’s Security Guards",
 		"type": "Minion",
-		"description": "Thamoss keeps a group of mercenaries on retainer to provide hidden security for questionable deals. Each member of the team, of which there are four, is non­-descript and discreet. Prior to the meeting between Thamoss and Corte’s smugglers, the four meres assume tactical positions and watch the proceedings from a dis­tance. At Thamoss’s signal, they move in, guns blazing.",
+		"description": "Thamoss keeps a group of mercenaries on retainer to provide hidden security for questionable deals. Each member of the team, of which there are four, is non­-descript and discreet. Prior to the meeting between Thamoss and Corte’s smugglers, the four mercs assume tactical positions and watch the proceedings from a dis­tance. At Thamoss’s signal, they move in, guns blazing.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -272,6 +640,82 @@
 		"abilities": [],
 		"weapons": ["Blaster carbine", "Blaster pistol", "Combat knife"],
 		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Comlink", "Thermal cloak"],
-		"tags": ["underworld", "book:lonh", "adventure:a deal gone wrong", "location:hutt space", "location:kwenn station", "species:trandoshan", "thug"]
+		"tags": ["underworld", "book:lonh", "adventure:A Deal Gone Wrong", "location:Hutt Space", "location:Kwenn Station", "mercenary", "thug"]
+	},
+	{
+		"name": "Torani Kulda",
+		"type": "Nemesis",
+		"description": "Small and lithe, even for a Rodian, Torani Kulda exudes calm confidence and open disdain for anyone she con­siders to be beneath her notice. She possesses light green skin and golden eyes. A prominent trio of scars, which she makes no attempt to conceal, crosses her brow. Torani is a devious foe, working in tandem with her partner, AO-2, to overcome their foes.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"strain": 12
+		},
+		"skills": {
+			"Athletics": 2,
+			"Coercion": 3,
+			"Cool": 2,
+			"Perception": 2,
+			"Ranged: Heavy": 3,
+			"Ranged: Light": 2,
+			"Streetwise": 2,
+			"Survival": 3
+		},
+		"talents": ["Adversary 1", "Soft Spot"],
+		"abilities": [],
+		"weapons": ["Blaster pistol", "Vibroknife"],
+		"specialist-weapons": [
+			{
+				"name": "Blaster rifle with spin barrel mod",
+				"skill": "Ranged: Heavy",
+				"damage": 10,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Accurate 1", "Stun Setting"]
+			}
+		],
+		"gear": ["Padded armour (+2 Soak)", "Comlink", "Utility belt"],
+		"tags": ["underworld", "species:Rodian", "assassin", "book:lonh", "adventure:Rubbing Slimy Elbows"]
+	},
+	{
+		"name": "Verannis",
+		"type": "Rival",
+		"description": "Black Sun underboss.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 2,
+			"Cool": 1,
+			"Leadership": 2,
+			"Melee": 1,
+			"Ranged: Light": 1,
+			"Skulduggery": 1,
+			"Streetwise": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Resolve"],
+		"abilities": ["Allelochemical Transmitters"],
+		"weapons": ["Blaster pistol"],
+		"gear": [],
+		"tags": ["underworld", "location:Coruscant", "black sun", "book:uabs", "adventure:Under a Black Sun", "species:Falleen"]
 	}
 ]

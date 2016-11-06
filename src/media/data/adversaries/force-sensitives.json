@@ -57,7 +57,7 @@
 		"abilities": ["Force power: Influence (Upgrade)"],
 		"weapons": ["Blaster pistol"],
 		"gear": [],
-		"tags": ["force sensitive", "smuggler", "book:fad"]
+		"tags": ["force sensitive", "underworld", "smuggler", "book:fad"]
 	},
 	{
 		"name": "CSA Intrusion Specialist",
@@ -186,7 +186,7 @@
 	{
 		"name": "Fallen Master",
 		"type": "Nemesis",
-		"description": "While not true Jed i or Sith, there are those who stylize themselves as “masters” of the Force. If these individ­uals turn to the dark side, they can be incredibly dan­gerous and terrifyingly savage. Some may even track down old relics from a bygone era such as lightsabers. In the hands of a fallen master, these blades often taste the blood of innocents.",
+		"description": "While not true Jedi or Sith, there are those who stylize themselves as “masters” of the Force. If these individ­uals turn to the dark side, they can be incredibly dan­gerous and terrifyingly savage. Some may even track down old relics from a bygone era such as lightsabers. In the hands of a fallen master, these blades often taste the blood of innocents.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,

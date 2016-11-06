@@ -54,7 +54,7 @@
 		"abilities": [],
 		"weapons": ["Blaster carbine", "Combat knife"],
 		"gear": [],
-		"tags": ["underworld", "species:barabel", "thug", "book:eote"]
+		"tags": ["underworld", "species:Barabel", "thug", "book:eote"]
 	},
 	{
 		"name": "Black Marketeer",
@@ -89,7 +89,7 @@
 	{
 		"name": "Black Sun Thug",
 		"type": "Minion",
-		"description": "",
+		"description": "While traveling throughout the city, the PCs may encounter some Black Sun operatives going about their business. At this stage, the Player Characters are still unknown to the greater organization, but there is a chance that they will run afoul of these thugs, deepening the potential for animosity between the PCs and Black Sun.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -111,7 +111,46 @@
 		"abilities": [],
 		"weapons": ["Blaster pistol"],
 		"gear": [],
-		"tags": ["underworld", "black sun", "thug", "book:uabs"]
+		"tags": ["underworld", "black sun", "thug", "book:uabs", "adventure:Under a Black Sun"]
+	},
+	{
+		"name": "Black Sun Lackey",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 8
+		},
+		"skills": {
+			"Brawl": 0,
+			"Coercion": 0,
+			"Melee": 0,
+			"Ranged :Light": 0,
+			"Stealth": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster pistol"],
+		"specialist-weapons": [
+			{
+				"name": "Switchblade",
+				"skill": "Melee",
+				"plus-damage": 1,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": ["Binders (breaking free requires a :daunting: Athletics or Coordination check)"],
+		"tags": ["underworld", "black sun", "thug", "book:uabs", "adventure:Under a Black Sun"]
 	},
 	{
 		"name": "Black Sun Vigo",
@@ -214,7 +253,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["underworld", "location:hutt space", "species:weequay", "raquor’daan", "book:lonh"]
+		"tags": ["underworld", "location:Hutt Space", "species:Weequay", "raquor’daan", "book:lonh"]
 	},
 	{
 		"name": "Defel Assassin",
@@ -247,7 +286,7 @@
 		"abilities": ["Light-Sensitive", "Shadowed"],
 		"weapons": ["Blaster pistol"],
 		"gear": [],
-		"tags": ["underworld", "species:defel", "assassin", "book:eote"]
+		"tags": ["underworld", "species:Defel", "assassin", "book:eote"]
 	},
 	{
 		"name": "Sakiyan Bounty Hunter",
@@ -288,7 +327,7 @@
 			}
 		],
 		"gear": ["Sakiyan shadowsuit (+1 soak, add :boost::boost: to all Stealth checks)", "Binders"],
-		"tags": ["underworld", "bounty hunter", "species:sakiyan", "book:lonh"]
+		"tags": ["underworld", "bounty hunter", "species:Sakiyan", "book:lonh"]
 	},
 	{
 		"name": "Apprentice Bounty Hunter",
@@ -460,7 +499,7 @@
 		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Electronic forgers kit and tools"],
-		"tags": ["underworld", "book:eote"]
+		"tags": ["underworld", "book:eote", "forger"]
 	},
 	{
 		"name": "Loan Shark",
@@ -521,7 +560,7 @@
 		"abilities": ["Critical Eye"],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Precision electronic forging tools"],
-		"tags": ["underworld", "book:aor"]
+		"tags": ["underworld", "book:aor", "forger"]
 	},
 	{
 		"name": "Gank Hunter",
@@ -553,7 +592,7 @@
 		"abilities": ["Cybernetic Communications"],
 		"weapons": ["Heavy blaster rifle", "Vibroknife"],
 		"gear": ["Heavy battle armour (+2 soak, +1 defence)", "Various cybernetic enhancements"],
-		"tags": ["underworld", "bounty hunter", "species:gank", "book:lonh"]
+		"tags": ["underworld", "bounty hunter", "species:Gank", "book:lonh"]
 	},
 	{
 		"name": "Weequay Thug",
@@ -582,7 +621,7 @@
 		"abilities": [],
 		"weapons": ["Vibro-ax", "Frag grenade"],
 		"gear": ["Beast-hide armout (+1 soak)", "2 Frag grenades"],
-		"tags": ["underworld", "thug", "species:weequay", "book:aor"]
+		"tags": ["underworld", "thug", "species:Weequay", "book:aor"]
 	},
 	{
 		"name": "Klatooinian Thug",
@@ -610,7 +649,7 @@
 		"abilities": [],
 		"weapons": ["Blaster pistol", "Vibroknife"],
 		"gear": ["Heavy clothing (+1 soak)"],
-		"tags": ["underworld", "species:klatooinian", "thug", "book:lonh"]
+		"tags": ["underworld", "species:Klatooinian", "thug", "book:lonh"]
 	},
 	{
 		"name": "Houk Thug",
@@ -650,7 +689,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["underworld", "thug", "species:houk", "book:lonh"]
+		"tags": ["underworld", "thug", "species:Houk", "book:lonh"]
 	},
 	{
 		"name": "Aqualish Thug",
@@ -678,7 +717,7 @@
 		"abilities": [],
 		"weapons": ["Blaster pistol"],
 		"gear": [],
-		"tags": ["underworld", "thug", "species:aqualish", "book:eote"]
+		"tags": ["underworld", "thug", "species:Aqualish", "book:eote"]
 	},
 	{
 		"name": "Gamorrean Thug",
@@ -714,7 +753,7 @@
 			}
 		],
 		"gear": ["Beast-hide armour (+1 soak)"],
-		"tags": ["underworld", "thug", "species:gamorrean", "book:eote"]
+		"tags": ["underworld", "thug", "species:Gamorrean", "book:eote"]
 	},
 	{
 		"name": "Huttlet",
@@ -740,7 +779,7 @@
 		"abilities": ["Awkward", "Stinky"],
 		"weapons": [],
 		"gear": [],
-		"tags": ["underworld", "species:hutt", "book:lonh"]
+		"tags": ["underworld", "species:Hutt", "book:lonh"]
 	},
 	{
 		"name": "Mature Hutt",
@@ -786,7 +825,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["underworld", "species:hutt", "book:lonh"]
+		"tags": ["underworld", "species:Hutt", "book:lonh"]
 	},
 	{
 		"name": "Venerable Hutt",
@@ -834,7 +873,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["underworld", "species:hutt", "book:lonh"]
+		"tags": ["underworld", "species:Hutt", "book:lonh"]
 	},
 	{
 		"name": "Hutt Crime Lord",
@@ -883,7 +922,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["underworld", "species:hutt", "book:aor", "book:eote"]
+		"tags": ["underworld", "species:Hutt", "book:aor", "book:eote"]
 	},
 	{
 		"name": "Hutt Majordomo",
@@ -966,7 +1005,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["underworld", "species:hutt", "slaver", "book:fad"]
+		"tags": ["underworld", "species:Hutt", "slaver", "book:fad"]
 	},
 	{
 		"name": "Infochant",
@@ -1049,7 +1088,7 @@
 			}
 		],
 		"gear": ["Armoured clothing (+1 soak, +1 defence)"],
-		"tags": ["underworld", "species:nikto", "thug", "book:lonh"]
+		"tags": ["underworld", "species:Nikto", "thug", "book:lonh"]
 	},
 	{
 		"name": "Pirate Crew",
@@ -1179,7 +1218,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["underworld", "book:eote"]
+		"tags": ["underworld", "book:eote", "slaver"]
 	},
 	{
 		"name": "Shipjacker",
@@ -1400,7 +1439,7 @@
 		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Modified swoop bike"],
-		"tags": ["underworld", "book:eote"]
+		"tags": ["underworld", "book:eote", "thug"]
 	},
 	{
 		"name": "Twi’lek Black Marketeer",
@@ -1430,7 +1469,7 @@
 		"abilities": [],
 		"weapons": ["Blaster pistol", "Thermal detonator", "Shock gloves"],
 		"gear": [],
-		"tags": ["underworld", "species:twi’lek", "black marketeer", "book:eote"]
+		"tags": ["underworld", "species:Twi’lek", "black marketeer", "book:eote"]
 	},
 	{
 		"name": "Twi’lek Dancer",
@@ -1456,7 +1495,7 @@
 		"abilities": [],
 		"weapons": [],
 		"gear": ["Dancing attire"],
-		"tags": ["underworld", "species:twi’lek", "book:eote"]
+		"tags": ["underworld", "species:Twi’lek", "book:eote"]
 	},
 	{
 		"name": "Vodran Enforcer",
@@ -1496,7 +1535,7 @@
 			}
 		],
 		"gear": ["Enforcer’s uniform (+1 soak)"],
-		"tags": ["underworld", "species:vodran", "thug", "book:lonh"]
+		"tags": ["underworld", "species:Vodran", "thug", "book:lonh"]
 	},
 	{
 		"name": "Wookiee Gladiator",
@@ -1526,6 +1565,6 @@
 		"abilities": ["Wookiee Rage"],
 		"weapons": ["Vibro-ax"],
 		"gear": [],
-		"tags": ["underworld", "species:wookiee", "gladiator", "book:eote"]
+		"tags": ["underworld", "species:Wookiee", "gladiator", "book:eote"]
 	}
 ]

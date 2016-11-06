@@ -35,7 +35,7 @@
 			}
 		],
 		"gear": ["Utility belt"],
-		"tags": ["galactic oddity", "species:besalisk", "book:fad"]
+		"tags": ["galactic oddity", "civilian", "species:Besalisk", "book:fad"]
 	},
 	{
 		"name": "Chiss Mercenary",
@@ -69,7 +69,7 @@
 		"abilities": ["Infravision"],
 		"weapons": ["Blaster rifle", "Cortosis sword"],
 		"gear": ["Heavy battle armour (+2 Soak, +1 Defence)", "Stimpack"],
-		"tags": ["galactic oddity", "species:chiss", "mercenary", "book:fad"]
+		"tags": ["galactic oddity", "civilian", "species:Chiss", "mercenary", "book:fad"]
 	},
 	{
 		"name": "Ithorian Storyteller",
@@ -96,7 +96,7 @@
 		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": [],
-		"tags": ["galactic oddity", "species:ithorian", "book:eote"]
+		"tags": ["galactic oddity", "civilian", "species:Ithorian", "book:eote"]
 	},
 	{
 		"name": "T’landa Til Charlatan",
@@ -123,7 +123,7 @@
 		"abilities": ["Humming Vibrations"],
 		"weapons": [],
 		"gear": [],
-		"tags": ["galactic oddity", "location:hutt space", "book:lonh"]
+		"tags": ["galactic oddity", "location:Hutt Space", "book:lonh"]
 	},
 	{
 		"name": "Morgukai Adept",
@@ -168,7 +168,7 @@
 			}
 		],
 		"gear": ["Cortosis armour (+2 soak, +1 defence, Cortosis)"],
-		"tags": ["galactic oddity", "species:nikto", "location:hutt space", "book:lonh"]
+		"tags": ["galactic oddity", "species:Nikto", "location:Hutt Space", "book:lonh"]
 	},
 	{
 		"name": "Mustafarian Miner",
@@ -197,7 +197,7 @@
 		"abilities": ["Heat Resistance"],
 		"weapons": ["Vibro-ax"],
 		"gear": [],
-		"tags": ["galactic oddity", "species:mustafarian", "book:fad"]
+		"tags": ["galactic oddity", "civilian", "species:Mustafarian", "book:fad"]
 	},
 	{
 		"name": "Evocii",
@@ -234,7 +234,7 @@
 			}
 		],
 		"gear": ["Heavy clothing (+1 soak)"],
-		"tags": ["galactic oddity", "location:hutt space", "book:lonh"]
+		"tags": ["galactic oddity", "species:Evocii", "location:Hutt Space", "book:lonh"]
 	},
 	{
 		"name": "Yarkora Treasure Hunter",
@@ -263,7 +263,7 @@
 		"abilities": [],
 		"weapons": ["Heavy blaster pistol"],
 		"gear": [],
-		"tags": ["galactic oddity", "species:yarkora", "book:eote"]
+		"tags": ["galactic oddity", "species:Yarkora", "book:eote"]
 	},
 	{
 		"name": "Klatooinian Elder",
@@ -308,6 +308,6 @@
 			}
 		],
 		"gear": [],
-		"tags": ["galactic oddity", "species:klatooinian", "location:hutt space", "book:lonh"]
+		"tags": ["galactic oddity", "species:Klatooinian", "location:Hutt Space", "book:lonh"]
 	}
 ]

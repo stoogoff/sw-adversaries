@@ -36,7 +36,7 @@
 			}
 		],
 		"gear": ["Servants", "Credit stick with 200-400 credits"],
-		"tags": ["civilian", "location:core worlds", "book:eote"]
+		"tags": ["civilian", "location:Core Worlds", "book:eote"]
 	},
 	{
 		"name": "Big Game Hunter",
@@ -88,7 +88,7 @@
 			}
 		],
 		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Utility belt", "Extra reloads", "Survival kit"],
-		"tags": ["civilian", "location:rim worlds", "book:fad"]
+		"tags": ["civilian", "location:Rim Worlds", "book:fad"]
 	},
 	{
 		"name": "Bith Musician",
@@ -115,7 +115,7 @@
 		"abilities": ["Keen Senses"],
 		"weapons": [],
 		"gear": ["Musical instrument"],
-		"tags": ["civilian", "location:rim worlds", "species:bith", "book:fad"]
+		"tags": ["civilian", "location:Rim Worlds", "species:Bith", "book:fad"]
 	},
 	{
 		"name": "Club Hired Guard",
@@ -142,7 +142,7 @@
 		"abilities": [],
 		"weapons": ["Blaster pistol", "Brass knuckles"],
 		"gear": ["Flak vest (+1 Soak)"],
-		"tags": ["civilian", "security", "thug", "book:uabs"]
+		"tags": ["civilian", "security", "thug", "book:uabs", "adventure:Under a Black Sun"]
 	},
 	{
 		"name": "Comm Operator",
@@ -283,7 +283,7 @@
 		"abilities": ["Amphibious"],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Tool kit", "Emergency repair kit"],
-		"tags": ["civilian", "species:mon calamari", "spaceport personnel", "book:eote", "engineer"]
+		"tags": ["civilian", "species:Mon Calamari", "spaceport personnel", "book:eote", "engineer"]
 	},
 	{
 		"name": "Philanthropic Senator",
@@ -315,7 +315,7 @@
 		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Aides"],
-		"tags": ["civilian", "location:core worlds", "book:eote"]
+		"tags": ["civilian", "location:Core Worlds", "book:eote"]
 	},
 	{
 		"name": "Coruscant Underworld Police",
@@ -355,7 +355,7 @@
 			}
 		],
 		"gear": ["Heavy armoured coat (+1 Soak)"],
-		"tags": ["civilian", "security", "location:coruscant", "book:uabs"]
+		"tags": ["civilian", "security", "location:Coruscant", "book:uabs", "adventure:Under a Black Sun"]
 	},
 	{
 		"name": "CSA Security Police",
@@ -503,7 +503,7 @@
 		"abilities": [],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Datapad", "Scout ship"],
-		"tags": ["civilian", "location:rim worlds", "book:fad"]
+		"tags": ["civilian", "location:Rim Worlds", "book:fad"]
 	},
 	{
 		"name": "Nerf Herder",
@@ -593,7 +593,7 @@
 		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Toolkit", "Podracer"],
-		"tags": ["civilian", "pilot", "location:rim worlds", "book:fad"]
+		"tags": ["civilian", "pilot", "location:Rim Worlds", "book:fad"]
 	},
 	{
 		"name": "Gand Findsman",
@@ -634,7 +634,7 @@
 			}
 		],
 		"gear": ["Macrobinoulars"],
-		"tags": ["civilian", "species:gand", "bounty hunter", "location:rim worlds", "book:fad"]
+		"tags": ["civilian", "species:Gand", "bounty hunter", "location:Rim Worlds", "book:fad"]
 	},
 	{
 		"name": "Planetary Defence Trooper",
@@ -662,7 +662,7 @@
 		"abilities": [],
 		"weapons": ["Blaster carbine", "Frag grenade"],
 		"gear": ["Blast vest  (+1 soak)", "2 Frag grenades"],
-		"tags": ["military", "security", "location:rim worlds", "book:eote", "book:fad"]
+		"tags": ["military", "security", "location:Rim Worlds", "book:eote", "book:fad"]
 	},
 	{
 		"name": "Military Starfighter Pilot",
@@ -785,7 +785,7 @@
 		"abilities": [],
 		"weapons": ["Blaster pistol", "Truncheon"],
 		"gear": ["Police Armour (+1 Soak)", "Comlink (handheld)"],
-		"tags": ["civilian", "location:rim worlds", "security", "book:fad"]
+		"tags": ["civilian", "location:Rim Worlds", "security", "book:fad"]
 	},
 	{
 		"name": "Sector Ranger",
@@ -918,7 +918,7 @@
 		"abilities": [],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Padded flight suit (+1 soak)"],
-		"tags": ["civilian", "species:sullustan", "pilot", "book:eote"]
+		"tags": ["civilian", "species:Sullustan", "pilot", "book:eote"]
 	},
 	{
 		"name": "Spaceport Administrator",
@@ -1046,7 +1046,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["civilian", "species:toydarian", "location:hutt space", "book:lonh"]
+		"tags": ["civilian", "species:Toydarian", "location:Hutt Space", "book:lonh"]
 	},
 	{
 		"name": "Toydarian Merchant",
@@ -1071,7 +1071,7 @@
 		"abilities": ["Hoverer", "Silhouette 0"],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Loaded chance cubes", "Dataslate"],
-		"tags": ["civilian", "species:toydarian", "location:hutt space", "book:fad", "book:lonh"]
+		"tags": ["civilian", "species:Toydarian", "location:Hutt Space", "book:fad", "book:lonh"]
 	},
 	{
 		"name": "Toydarian Royal Guard",
@@ -1101,7 +1101,7 @@
 		"abilities": ["Hoverer", "Silhouette 0"],
 		"weapons": ["Blaster rifle", "Cortosis sword", "Frag grenade"],
 		"gear": ["Electro-visor (removes :setback: imposed due to long range or poor light)", "2 Frag grenades", "Padded armour (+2 soak)"],
-		"tags": ["civilian", "species:toydarian", "location:hutt space", "book:lonh"]
+		"tags": ["civilian", "species:Toydarian", "location:Hutt Space", "book:lonh"]
 	},
 	{
 		"name": "Ugnaught Mechanic",
@@ -1138,7 +1138,7 @@
 			}
 		],
 		"gear": ["Durable clothing (+1 soak)", "Tool kit", "Utility belt"],
-		"tags": ["civilian", "location:rim worlds", "book:fad", "engineer"]
+		"tags": ["civilian", "location:Rim Worlds", "book:fad", "engineer", "species:Ugnaught"]
 	},
 	{
 		"name": "Wealthy Noble",
@@ -1167,6 +1167,33 @@
 		"abilities": [],
 		"weapons": ["Holdout blaster", "Vibrosword"],
 		"gear": ["Personal shuttle"],
-		"tags": ["civilian", "location:core worlds", "book:aor", "book:eote"]
+		"tags": ["civilian", "location:Core Worlds", "book:aor", "book:eote"]
+	},
+	{
+		"name": "Zelcomm Enforcer",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": {
+			"Brawl": 0,
+			"Coercion": 0,
+			"Ranged: Light": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Comlink", "Access card to sublevel 1A", "Zelcomm guard uniform (+2 Soak)"],
+		"tags": ["civilian", "book:uabs", "adventure:Under a Black Sun", "security"]
 	}
 ]

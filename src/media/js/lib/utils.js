@@ -80,6 +80,10 @@ let diceMap = {
 	"formidable": "<strong>Formidable</strong> (<span class='icon difficulty shadowed'>ddddd</span>)",
 };
 
+export let book = function book(name) {
+	return name in bookMap ? bookMap[name] : name;
+}
+
 let bookMap = {
 	// core books
 	"book:aor": "Age of Rebellion",

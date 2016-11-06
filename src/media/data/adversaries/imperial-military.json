@@ -571,7 +571,7 @@
 		"abilities": [],
 		"weapons": ["Blaster carbine", "Frag grenade"],
 		"gear": ["Electrobinoculars", "Extra reloads", "2 Frag grenades", "Rebreather", "Swamptrooper armour (+2 Soak, adds :boost: to Stealth checks made within a forest or swamp environment)", "Utility belt"],
-		"tags": ["empire", "imperial military", "stormtrooper", "book:lonh", "adventure:toydarian grocery shopping"]
+		"tags": ["empire", "imperial military", "stormtrooper", "book:lonh", "adventure:Toydarian Grocery Shopping"]
 	},
 	{
 		"name": "Stormtrooper: Snowtrooper",

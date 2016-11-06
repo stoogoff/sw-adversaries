@@ -66,3 +66,4 @@ Main tasks:
 - Mobile friendly
 - Favourite adversaries
 - Favicon
+- Links between adversaries
