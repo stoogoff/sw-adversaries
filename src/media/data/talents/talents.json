@@ -173,7 +173,7 @@
 	},
 	{
 		"name": "Clever Solution",
-		"description": ""
+		"description": "Once per session, make one skill check using Cun­ning rather than the characteristic linked to that skill."
 	},
 	{
 		"name": "Codebreaker",
@@ -201,7 +201,7 @@
 	},
 	{
 		"name": "Confidence",
-		"description": ""
+		"description": "Decrease difficulty of Discipline checks to avoid fear by 1 per rank."
 	},
 	{
 		"name": "Confidence (Improved)",
@@ -301,7 +301,7 @@
 	},
 	{
 		"name": "Defensive Driving",
-		"description": ""
+		"description": "Increase defence of vehicle or starship being piloted by 1 per rank."
 	},
 	{
 		"name": "Defensive Slicing",
@@ -509,7 +509,7 @@
 	},
 	{
 		"name": "Form on Me",
-		"description": ""
+		"description": "A number of allies equal to ranks in Leadership in close range gain the benefits of the Gain the Advantage action."
 	},
 	{
 		"name": "Fortified Vacuum Seal",
@@ -629,7 +629,7 @@
 	},
 	{
 		"name": "Hunter",
-		"description": ""
+		"description": "Add :boost: per rank to all skill checks when interacting with wild beasts and animals, including combat checks. This character adds +10 per rank to all Criti­cal Injury rolls against animals."
 	},
 	{
 		"name": "Hunter’s Quarry",
@@ -709,7 +709,7 @@
 	},
 	{
 		"name": "Intimidating",
-		"description": "May suffer up to 3 Strain to downgrade the difficulty of a Coercion check a number of times equal to the Strain suffered; when targeted by Coercion, they may suffer up to 3 Strain to upgrade the difficulty of the opponent’s check a number of times equal to the strain suffered."
+		"description": "May suffer up to 1 Strain per rank to downgrade the difficulty of a Coercion check a number of times equal to the Strain suffered; when targeted by Coercion, they may suffer up to 1 Strain per rank to upgrade the difficulty of the opponent’s check a number of times equal to the strain suffered."
 	},
 	{
 		"name": "Intuitive Evasion",
@@ -721,7 +721,7 @@
 	},
 	{
 		"name": "Intuitive Navigation",
-		"description": ""
+		"description": "Add :advantage: to all Astrogation checks."
 	},
 	{
 		"name": "Intuitive Shot",

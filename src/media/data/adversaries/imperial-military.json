@@ -1,5 +1,88 @@
 [
 	{
+		"name": "Detention Centre Guard",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": {
+			"Coercion": 0,
+			"Discipline": 0,
+			"Melee": 0,
+			"Ranged: Light": 0,
+			"Vigilance": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster pistol", "Stun baton"],
+		"gear": ["Guard uniform and helmet (+1 Soak)", "Imperial ID"],
+		"tags": ["empire", "imperial military", "book:ragp", "adventure:Rescue at Glare Peak"]
+	},
+	{
+		"name": "Detention Centre Officer",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15
+		},
+		"skills": {
+			"Discipline": 3,
+			"Ranged: Light": 2 ,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Tactical Direction", "Overwhelming Fire"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Officer uniform (+1 Soak)", "Imperial ID", "Code cylinder", "Comlink"],
+		"tags": ["empire", "imperial military", "book:ragp", "adventure:Rescue at Glare Peak"]
+	},
+	{
+		"name": "Detention Centre Staff",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": {
+			"Computers": 0,
+			"Mechanics": 0,
+			"Perception": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [],
+		"gear": ["Imperial ID", "General datapad", "Detention centre uniform or maintenance coverall"],
+		"tags": ["empire", "imperial military", "book:ragp", "adventure:Rescue at Glare Peak"]
+	},
+	{
 		"name": "Imperial Army Trooper",
 		"type": "Minion",
 		"description": "The common citizen of the galaxy will never see a Star Destroyer or a stormtrooper in person, if they are fortunate. For the majority of those who never leave a planet’s surface, the Imperial Army trooper is the face of the Empire. Stormtroopers and starships can be seen in promotional materials, but it is the stern and unforgiving face of the Army infantry that enforces the will of the Emperor on a planet’s surface. For that reason, it is the men and women of the Imperial Army whom Alliance personnel must combat.",
@@ -247,6 +330,64 @@
 		],
 		"gear": ["Heavy battler armour (+2 soak, +1 defence)"],
 		"tags": ["empire", "imperial military", "book:fad"]
+	},
+	{
+		"name": "ISB Technician",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": {
+			"Computers": 0,
+			"Discipline": 0,
+			"Mechanics": 0,
+			"Melee": 0,
+			"Ranged: Light": 0,
+			"Vigilance": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Tool kit", "Specialised electronics gear", "ISB uniform", "ISB ID"],
+		"tags": ["empire", "imperial security bureau", "book:ragp", "adventure:Rescue at Glare Peak"]
+	},
+	{
+		"name": "Imperial Test Pilot",
+		"type": "Rival",
+		"description": "The pilots of the 481 st Experimental Starfighter Test­ ing Squadron are the best of the best, hand picked by Gareth Agamar for their piloting skills, courage, and technical acumen. Charged with testing out new and potentially dangerous fightercraft, these individ­uals are looked on by rank-and-file Navy pilots with equal parts admiration and pity: admiration due to their obvious skill and the prestigious nature of their roles as test pilots, but pity due to the fact that fly­ing an untested spaceframe with new and perilous engines and weapon systems is extremely dangerous. Turnover in the 481st is particularly high for what is ostensibly a non-combat unit, and new pilots are con­stantly being brought into the squadron as old pilots are injured or killed.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Cool": 2,
+			"Gunnery": 2,
+			"Perception": 2,
+			"Piloting: Space": 2
+		},
+		"talents": ["Adversary 1", "Natural Pilot", "Skilled Jockey 1"],
+		"abilities": [],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Flight suit", "Sensory augmentation package (add :advantage: to all Perception checks)"],
+		"tags": ["book:sor", "empire", "imperial military", "adventure:Phantoms in the Dark", "pilot"]
 	},
 	{
 		"name": "Imperial Vehicle Corps",
@@ -613,7 +754,7 @@
 			}
 		],
 		"gear": ["Snowtrooper armour (+2 soak; when making skill checks, snowtroopers may remove :setback::setback: imposed due to cold or icy environmental conditions"],
-		"tags": ["empire", "imperial military", "stormtrooper", "book:aor"]
+		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:ragp", "adventure:Rescue at Glare Peak"]
 	},
 	{
 		"name": "TIE Pilot",

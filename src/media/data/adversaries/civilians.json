@@ -960,6 +960,34 @@
 		"tags": ["civilian", "species:Gand", "bounty hunter", "location:Rim Worlds", "book:fad"]
 	},
 	{
+		"name": "Glare Peak Security Personnel",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4
+		},
+		"skills": {
+			"Coercion": 0,
+			"Discipline": 0,
+			"Ranged: Light": 0,
+			"Vigilance": 0
+		},
+		"talents": ["Intimidating 1"],
+		"abilities": [],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Glare peak guard uniform (+1 Soak)", "Glarre Peak guard badge"],
+		"tags": ["civilian", "security", "book:ragp", "adventure:Rescue at Glare Peak"]
+	},
+	{
 		"name": "Planetary Defence Trooper",
 		"type": "Minion",
 		"description": "There are very few planets that rely entirely on an out­side agency for their protection. Most possess at least a marginal military force of their own, dedicated to pro­tecting the planet’s most valuable or sacred sites. Plan­etary defense troopers rarely have the most advanced or most up-to-date equipment, often employing locally produced weaponry and armor, but what they do have is typically well made and serves its purpose.",
@@ -1462,6 +1490,34 @@
 		],
 		"gear": ["Durable clothing (+1 soak)", "Tool kit", "Utility belt"],
 		"tags": ["civilian", "location:Rim Worlds", "book:fad", "engineer", "species:Ugnaught"]
+	},
+	{
+		"name": "Viewponte Tower Security",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 4
+		},
+		"skills": {
+			"Athletics": 1,
+			"Coercion": 2,
+			"Discipline": 1,
+			"Brawl": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Shock gloves"],
+		"gear": ["Security guard uniform (+1 Soak)"],
+		"tags": ["civilian", "security", "book:ragp", "adventure:Rescue at Glare Peak"]
 	},
 	{
 		"name": "Wealthy Noble",

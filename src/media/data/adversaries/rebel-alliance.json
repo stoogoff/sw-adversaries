@@ -167,6 +167,33 @@
 		"tags": ["rebel alliance", "engineer", "book:aor"]
 	},
 	{
+		"name": "Polis Massa Base Squadron Pilot",
+		"type": "Minion",
+		"description": "The starfighter pilots assigned to Polis Massa are a diverse mix of humans and non-humans from all across the galaxy. Some joined up after their planet was attacked or occupied by the Empire; others were Impe­rial pilots who sickened of the totalitarian regime and defected; while others simply joined up for the thrill of space combat. Each one has lost someone dear to them to the phantoms of the 481 st, and every one of them is itching to pay the perpetrators back in kind.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": {
+			"Cool": 0,
+			"Gunnery": 0,
+			"Piloting: Space": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Flight suit", "Y-wing or X-wing"],
+		"tags": ["book:sor", "rebel alliance", "pilot", "location:Polis Massa", "adventure:Phantoms in the Dark"]
+	},
+	{
 		"name": "Quarren Agitator",
 		"type": "Rival",
 		"description": "All too often, there are occasions when diplomacy simply cannot achieve the ends the Alliance requires in order to move closer to ultimate victory against the Empire. There are many governments in the galaxy that have, either for selfish reasons or simply out of fear, allied themselves with the Empire and refuse to consider any other potential path. Most Quarren, for example, were reluctant to join the Rebellion following the liberation of their homeworld, and so many rabble-rousers stepped up to attempt to bring their people into the fold.\n\nWhen a planet’s government refuses to recognize the best interests of its people, agitators are used to reach the people themselves. Agitators are a very diverse lot, from those who possess incredible passion and charisma, to the manipulative and deceitful. Regardless of their methodology, however, it is a profession with very little room for error; having practiced, and survived, their attempts to convert their homeworld, many Quarren agitators now apply their tactics on behalf of the Rebellion in the wider galaxy.",

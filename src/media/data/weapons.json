@@ -235,6 +235,14 @@
 		"qualities": ["Stun 3"]
 	},
 	{
+		"name": "Stun baton",
+		"skill": "Melee",
+		"plus-damage": 2,
+		"critical": 2,
+		"range": "Engaged",
+		"qualities": ["Stun Setting"]
+	},
+	{
 		"name": "Ancient sword",
 		"skill": "Lightsaber",
 		"plus-damage": 2,

@@ -140,6 +140,10 @@
 		"description": "Add an additional NPC Initiative slot at the end of the Initiative order. The nemesis may take a second turn during the same round in this slot. Any effects that are supposed to end during his next turn end instead during his next turn in the following round."
 	},
 	{
+		"name": "Etiquette and Protocol",
+		"description": "Protocol droids allow allies to add :boost: to any Nego­tiation checks or other checks made to negotiate or mediate."
+	},
+	{
 		"name": "Fire Sweep",
 		"description": "As an action, a droideka can make a :hard: Gunnery check to inflict one hit that deals base damage with its built-in twin heavy blasters on up to two targets within Medium range, plus one additional target per :advantage: on the check; it can only hit each target once this way."
 	},
@@ -206,6 +210,10 @@
 	{
 		"name": "Infravision",
 		"description": "Remove :setback: imposed due to light­ing conditions."
+	},
+	{
+		"name": "Ink Spray",
+		"description": "Once per encounter, as an out-of-turn incidental, a Quarren may spit ink from a specialised sac within their gills, suffering 2 Strain to add :setback: to a combat check made by a character within Short range (under water, it adds :setback::setback::setback: to the combat check instead)."
 	},
 	{
 		"name": "Leap",

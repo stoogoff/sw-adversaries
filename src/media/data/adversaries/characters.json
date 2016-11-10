@@ -37,6 +37,33 @@
 		"tags": ["underworld", "species:Droid", "assassin", "book:lonh", "adventure:Rubbing Slimy Elbows"]
 	},
 	{
+		"name": "Assistant City Administrator Tol Pirilian",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 1,
+			"Deception": 3
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [],
+		"gear": ["City government datapad (encrypted) containing current city energy and utility grid status and reports", "City government ID", "Imperial ID", "City-issued luxury airspeeder", "Two personal 3PO protocol droids"],
+		"tags": ["civilian", "book:ragp", "adventure:Rescue at Glare Peak"]
+	},
+	{
 		"name": "Boddah Venik Rin",
 		"type": "Rival",
 		"description": "The boddah representing the Player Characters is a middle-aged Zabrak known as Venik Rin. Rin once survived being mauled by a rancor, which left him scarred and twisted as a result. His horns are cracked, his skin marred with hideous scars, and his body is twisted. He walks with a pronounced limp, but he speaks with a voice that is both strong and confident. Rin is comfortable working as a puppet for his unnamed master, so long as the spice that dulls his pain continues to trickle in.",
@@ -106,6 +133,65 @@
 		"weapons": ["Heavy blaster pistol", "Vibrosword"],
 		"gear": ["Padded armour (+2 Soak)", "Breath mask", "Utility belt"],
 		"tags": ["underworld", "pirate", "species:devaronian", "book:lonh", "adventure:Welcome Aboard"]
+	},
+	{
+		"name": "Chief Warden Lina Naras",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 14,
+			"strain": 12
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion ":4 ,
+			"Computers": 1,
+			"Cool": 2,
+			"Deception ":3 ,
+			"Melee": 2,
+			"Perception": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1", "Improved Scathing Tirade"],
+		"abilities": [],
+		"weapons": ["Stun baton"],
+		"gear": ["Imperial ID", "Code cylinder", "Comlink", "Datapad (with detention centre reports)", "Detention centre administrator’s uniform"],
+		"tags": ["empire", "imperial bureaucracy", "book:ragp", "adventure:Rescue at Glare Peak"]
+	},
+	{
+		"name": "Chief Superintendant Lomeer",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": {
+			"Computers": 1,
+			"Mechanics": 1
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [],
+		"gear": ["Tool kit", "Employee ID", "General datapad", "Comlink", "Maintenance overalls"],
+		"tags": ["civilian", "engineer", "book:ragp", "adventure:Rescue at Glare Peak"]
 	},
 	{
 		"name": "Colonel Romar Kek",
@@ -358,6 +444,36 @@
 		"tags": ["underworld", "pirate", "book:lonh", "adventure:Welcome Aboard"]
 	},
 	{
+		"name": "Gareth Agamar",
+		"type": "Nemesis",
+		"description": "Lieutenant Commander Gareth Agamar, leader of the 481st Experimental Starfighter Testing Squadron, is a man of immense skill and unbridled ambition. Agamar was born on Coruscant, and his family has a long and storied military tradition stretching back generations. Throughout the Agamar family’s his­tory, they produced countless respected and distin­guished soldiers, pilots, and Republic Navy spacers. Indeed, both of Gareth’s parents are retired Galactic Republic Navy officers who served during the Clone Wars, and all of his siblings serve in the Imperial armed forces in one capacity or another. Drawn to spaceflight from an early age, Agamar entered the Imperial Naval Academy in the hopes of becoming a fighter pilot. Throughout his training, he exhibited a high level of professionalism, courage, and a strong grasp of fighter tactics. He graduated at the top of his class. After he served for years in various positions throughout the Imperial Navy, including a long stint as the aerospace group commander of the Imperial-class Star Destroyer Mercurial, his skills in the cockpit and ability to wring every ounce of performance from a fighter brought him to the attention of the Impe­rial Navy’s prototype testing division. Responsible in part for the final testing of many of the Empire’s latest fightercraft, he is currently operating somewhere near Polis Massa, testing a top-secret fighter that promises to drastically change the course of the ongoing con­flict with the Rebel Alliance.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 13
+		},
+		"skills": {
+			"Cool": 3,
+			"Gunnery": 3,
+			"Leadership": 3,
+			"Perception": 3,
+			"Piloting: Space": 4
+		},
+		"talents": ["Adversary 2", "Command 2", "Defensive Driving 2", "Form on Me", "Master Pilot", "Quick Strike 2", "Skilled Jockey 2"],
+		"abilities": [],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Flight suit", "Sensory augmentation package (add :advantage: to all Perception checks)"],
+		"tags": ["book:sor", "empire", "imperial military", "pilot", "adventure:Phantoms in the Dark"]
+	},
+	{
 		"name": "General Elora Silssusio",
 		"type": "Nemesis",
 		"description": "Polis Massa’s current Rebel commander is General Elora Silssusio. She oversees all Rebel operations and is the Alliance’s chief liai­son, coordinator, and negotiator with the Polis Massans. She once ran a private security and investigation service, called Ulterior Vision, which specialized in clandestine work for ques­tionably loyal Imperial Senators. The ISB even­ tually exposed her activities, but a friendly Sen­ator orchestrated her escape to join a fledgling resistance group in the Outer Rim. When the group joined the Rebel Alliance, she was quickly promoted to lead secret missions throughout the galaxy. She sustained serious injuries in a skirmish while escaping a Star destroyer and was sent to Polis Massa for treatment. While recovering, she used her experience negotiating with Senators to convince the Polis Massans to increase their support for the Alliance.\n\nThe Alliance was impressed, promoted her to general, and placed her in command at Polis Massa. There, she protects the Rebels’ relation­ship with their hosts, reigning in or expelling anyone who would endanger them. She person­ ally selects and briefs special operations teams. She has had a seething hatred for the Empire since the dissolution of the Senate, because some of her former clients were arrested and probably killed shortly thereafter. The General rarely wears a formal uniform, so as to avoid undue attention should outsiders see her within the research base.",
@@ -454,6 +570,71 @@
 		"tags": ["underworld", "book:lonh", "adventure:The Dead Road", "thug"]
 	},
 	{
+		"name": "Halari Takan",
+		"type": "Rival",
+		"description": "A young firebrand, Halari Takan came of age during the Empire’s brutal subjugation of her homeworld. As a child, she watched helplessly as members of her fam­ily were dragged away in chains, one after another, by Imperial agents. This experience, combined with her strong will and natural fiery demeanor, drove her into the burgeoning resistance movement that was sweep­ing Mon Cala’s floating cities. Never much for military matters, Halari instead focused her efforts on orga­nising protests, work stoppages, and general strikes. She did so with a combination of gravitas and rheto­ric rarely found in one so young, and quickly gained a reputation as an inspiring and captivating speaker. And speak she did. Her fear of Imperial reprisals out­weighed by her hatred of the interlopers and her rage at their treatment of her people, Halari spoke in the streets, in the council halls, and in the media, spread­ing a message of dissent and anger that immediately drew the ire of the Imperial authorities.\n\nAfter a failed kidnapping attempt and a successful campaign to discredit her and her allies, Halari went into hiding, constantly moving between safe houses and acting from the shadows rather than in Coral City’s parks and plazas. When the Empire was finally driven from Mon Cala, she came out of hiding and was immediately drafted to be one of the Quarren repre­sentatives to the Mon Calamari. Now, after only a few years in this position, she has made as many enemies as she has made allies. Her uncompromising attitude toward the Empire and toward the injustices suffered by the Quarren at the hands of the Mon Calamari, and her insistence in stating these attitudes loudly and repeatedly, makes her hard to negotiate with.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 3,
+			"Deception": 2,
+			"Knowledge: Core Worlds": 2,
+			"Knowledge: Underworld": 2,
+			"Knowl­edge: Xenology": 2,
+			"Leadership": 3,
+			"Negotiation ": 3,
+			"Ranged: Light": 2,
+			"Streetwise": 3
+		},
+		"talents": ["Adversary 1", "Nobody’s Fool 3", "Plausible Deniability 2", "Scathing Tirade"],
+		"abilities": ["Amphibious", "Ink Spray"],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Comlink"],
+		"tags": ["book:sor", "adventure:In Too Deep", "species:Quarren"]
+	},
+	{
+		"name": "Agent Ferlan",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Coercion": 1,
+			"Deception": 1,
+			"Discipline": 1,
+			"Melee": 1,
+			"Ranged: Light": 1,
+			"Vigilance": 1
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster pistol"],
+		"gear": ["ISB uniform", "ISB ID", "Comlink"],
+		"tags": ["empire", "imperial security bureau", "book:ragp", "adventure:Rescue at Glare Peak"]
+	},
+	{
 		"name": "Kaa’to Leeachos",
 		"type": "Nemesis",
 		"description": "Kaa’to once worked security for a minor Hutt named Morbiss, a slaver operating from Nar Shaddaa. This depraved Hutt had many enemies throughout the Outer Rim territories, and always kept a large detail of thugs and warriors around him. Yet, even that could not save him from his determined rivals. The slave master fell victim to a bomb placed in his ship’s docking bay while on Malastare to bet on the Podraces. The explosion wiped out Morbiss, his ship, his guards, and a large group of “cargo” the Hutt brought along to sell. It was only through sheer luck that the Nikto survived. The enforcer was dealing with a petulant slave who was giving his new master a hard time, which kept him at the edge of the docking bay when the bomb detonated.\n\nThe blast that set Kaa’to free also took his right leg and burned much of his right arm. Luckily, he had a hidden stash of credits on his person. When the medics arrived, the Nikto bargained with the Gran who found him to replace his leg. It exhausted all his credits, but Kaa’to Leeachos would live to finally throw off the shackles of the Hutts.\n\n With his credits wiped out, Kaa’to took to working as a hired guard on Malastare until he could buy passage on a transport offworld. As fate would have it, the only transport he could get took him to the world of Rodia, where his new career would begin. While on Rodia, Kaa’to found himself in the employ of the bounty hunter Knoke, a gruff Rodian who took a liking to the Nikto and taught him the ways of the hunt. Knoke was a successful hunter, but he met his end while on a contract to capture a rogue Jedi during the Great Purge. Kaa’to assumed the contract and finished the job. His reputation quickly grew after such a high-profile job. Within a few years he was in steady employ, with many clients. Knoke left his ship and equipment to Kaa’to, and with these at his disposal, the Nikto set out to earn a fortune for himself. \n\nUltimately, Kaa’to’s pride grew into hubris, and he began to look down on those who employed him, thinking himself nigh untouchable. Soon after staking out territory on Coruscant, the Nikto backstabbed the Pykes, bringing the Player Characters down on his trail.",
@@ -492,7 +673,7 @@
 			}
 		],
 		"gear": ["Custom laminate armour (+2 Soak)", "Faulty jet pack (spend a maneuver to make a Piloting (Planetary) check with a difficulty of :challenge: to fly; explodes on :despair: or after sustaining 10 damage as if it were a frag grenade)"],
-		"tags": ["underworld", "book:uabs", "adventure:Under a Black Sun", "species:Nikto"]
+		"tags": ["underworld", "book:uabs", "adventure:Under a Black Sun", "species:Nikto", "bounty hunter"]
 	},
 	{
 		"name": "King Maalva",
@@ -540,6 +721,34 @@
 		"tags": ["civilian", "species:Toydarian", "book:lonh", "location:Hutt Space"]
 	},
 	{
+		"name": "Kip Famas",
+		"type": "Rival",
+		"description": "One of the many Duros who fly for the Rebellion, Kip Famas is the leader of the 94th Fighter/Attack Squad­ron, the X-wing unit assigned to Polis Massa. Nor­mally quiet and reserved, he is a terror in the cockpit, pushing himself and his ship to their breaking point and taking every advantage possible to overcome his opponents. Kip’s X-wings have fared better than his colleagues’ Y-wings, but not by much, and eight X-wings remain in his squadron.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 16
+		},
+		"skills": {
+			"Cool": 3,
+			"Gunnery": 3,
+			"Leadership": 2,
+			"Piloting: Space": 4
+		},
+		"talents": ["Form on Me", "Skilled Jockey 2"],
+		"abilities": ["Intuitive Navigation"],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Flight suit", "X-wing", "R2-series astromech droid"],
+		"tags": ["rebel alliance", "book:sor", "pilot", "species:Duros", "adventure:Phantoms in the Dark"]
+	},
+	{
 		"name": "Lar’omx Clan-scorned",
 		"type": "Rival",
 		"description": "If Tray’Essek has accumulated additional Obligation, his rival, Lar’omx, finds out about the raid on the Black Sun facility and decides to zero out Tray’Essek’s jagannath point score once and for all. If the conversation with the Falleen goes poorly, or if Tray’Essek confronts Verannis about his rival, Lar’omx accompanies the human and Aqualish Black Sun operatives to “take care of” the PCs. Lar’omx has forsaken Trandoshan traditions and isn’t afraid to fight dirty in order to beat Tray’Essek.",
@@ -582,6 +791,108 @@
 		],
 		"gear": ["Padded armour (+2 Soak)"],
 		"tags": ["underworld", "book:uabs", "adventure:Under a Black Sun", "location:Coruscant", "species:Trandoshan"]
+	},
+	{
+		"name": "Lieutenant Montra Varn",
+		"type": "Nemesis",
+		"description": "Lieutenant Montra Varn, ISB, was there the day the last Imperial shut­ tle fled Coral City, carrying the remain­ing members of the Imperial Intelli­gence mis­sion to the safety of the orbiting Star Destroyer and her evacuating squadron. She watched as the savage Mon Calamari and Quarren rabble cut down her friends and colleagues, screeching like brute beasts as they hacked her Imperial brethren apart with re-purposed industrial tools and stolen Imperial weapons. She saw the fires, the looting, the desecration of Imperial icons, and the mindless brutality with which prisoners were treated by the natives. She had never liked her posting to Mon Cala, or her necessary dealings with the “subcreatures” who called it home, but on that day, as she watched the shuttle’s boarding ramp close on an approaching mob, she swore that one day she would return. For nearly a standard year now, Special Agent Varn has been undercover on Mon Cala, pos­ing as a technical contractor and using her skills as an intelligence operative to exact her revenge on the peoples of Mon Cala.\n\nHer mission is to sow discord and discontent, and to cause a conflict between the Mon Calamari and the Quarren severe enough to keep them fighting them­selves and out of Alliance influence. To this end, she spreads rumors and plants false evidence of treach­ery and betrayal implicating high-ranking members of both species in one or another conspiracy to subjugate their counterparts and take complete control of post­ occupation Mon Cala. So far, her efforts have been wildly successful. The current talks being mediated by Alliance operatives are the last chance for peace.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12,
+			"strain": 15,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Computers": 2,
+			"Cool": 3,
+			"Coordination": 2,
+			"Decep­tion": 4,
+			"Discipline": 3,
+			"Knowledge: Warfare": 1,
+			"Melee": 2,
+			"Perception": 3,
+			"Ranged: Light": 2,
+			"Skulduggery": 3,
+			"Stealth": 3,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Clever Solution", "Convincing Demeanor 2", "Natural Charmer"],
+		"abilities": [],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Comlink", "Encrypted datapad with Imperial holonet uplink"],
+		"tags": ["book:sor", "adventure:In Too Deep", "empire", "imperial security bureau"]
+	},
+	{
+		"name": "Mehmet Alovar",
+		"type": "Rival",
+		"description": "Born and raised in Coral City, the capital of watery Mon Cala, the venerable Mehmet Alovar is among the most highly respected individuals of his generation. A member of Mon Cala’s aristocracy, Alovar can trace his lineage back countless generations, to the found­ing of Calamari society. He has spent his long life in service to his people, first as a member of a senator’s staff, then as a senator himself, and now in his twilight years, he serves as one of the Mon Calamari peoples’ emissaries to the Alliance to Restore the Republic. A strong supporter of Mon Calamari rights and a vocal opponent of Imperial rule, he is seen by his people, and many outside observers, as a champion of free­ dom and peace. Despite his shining qualities, however, of which there are undeniably many, he suffers from the same short-sighted and bigoted attitudes toward the Quarren as most of his generation. In this current conflict with the Quarren, Mon Calamari officials have sent the esteemed elder statesman to negotiate a peaceful end with the Alliance, as he is guaranteed to stand firm on the Mon Calamari’s demands and pro­tect their interests to his last breath.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Charm": 3,
+			"Deception": 3,
+			"Discipline": 3,
+			"Knowledge: Core Worlds": 2,
+			"Knowledge: Education": 3,
+			"Knowledge: Lore": 3,
+			"Knowledge: Outer Rim": 2,
+			"Knowledge: Xenology": 2,
+			"Leadership": 3,
+			"Negotiation": 4
+		},
+		"talents": ["Adversary 1", "Confidence 1", "Inspiring Rhetoric", "Kill with Kindness 2", "Natural Charmer"],
+		"abilities": ["Amphibious"],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Comlink"],
+		"tags": ["book:sor", "adventure:In Too Deep", "species:Mon Calamari", "rebel alliance"]
+	},
+	{
+		"name": "Pashna Genko",
+		"type": "Rival",
+		"description": "A native of the Mon Cala capital of Coral City, Pashna is one of the few Mon Calamari women in the Alliance’s fighter corps. She is currently the leader of the 88th Attack Squadron, the Y-wing squadron recently assigned to Polis Massa. Her squadron has taken the brunt of the attacks, as the slower, heavier Y-wings make easy targets for the speedy phantoms. Only six Y-wings remain, including hers.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 15
+		},
+		"skills": {
+			"Cool": 2,
+			"Gunnery": 3,
+			"Leadership": 3,
+			"Piloting: Space": 3
+		},
+		"talents": ["Form on Me"],
+		"abilities": ["Amphibious"],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Flight suit", "Y-wing", "R5-series astromech droid"],
+		"tags": ["rebel alliance", "book:sor", "pilot", "adventure:Phantoms in the Dark", "species:Mon Calamari"]
 	},
 	{
 		"name": "Regent Credi Solfinn",
@@ -914,6 +1225,38 @@
 		],
 		"gear": ["Padded armour (+2 Soak)", "Comlink", "Utility belt"],
 		"tags": ["underworld", "species:Rodian", "assassin", "book:lonh", "adventure:Rubbing Slimy Elbows"]
+	},
+	{
+		"name": "Tracer",
+		"type": "Nemesis",
+		"description": "Tracer is a human Rebel agent among those searching for a new Rebel base location. She is a good fighter and a determined, dedicated agent. Although she is a bit tired and sustained minor injuries in the crash, she's willing and able to provide the PCs with help during her own rescue. She's a good shot and knows a thing or two about mechanics and Imperial procedure. The GM can use her to bail the PCs out of a tough spot during their escape. If the PCs have things under control, she follows their lead. If they lose their way, she jumps in to keep them moving.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 16,
+			"strain": 14
+		},
+		"skills": {
+			"Coercion": 2,
+			"Deception": 3,
+			"Discipline": 2,
+			"Leadership": 1,
+			"Perception": 3,
+			"Ranged: Light": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [],
+		"weapons": [],
+		"gear": ["Detention centre prison uniform"],
+		"tags": ["rebel alliance", "book:ragp", "adventure:Rescue at Glare Peak"]
 	},
 	{
 		"name": "Verannis",

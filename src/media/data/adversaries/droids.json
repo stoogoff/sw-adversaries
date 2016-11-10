@@ -1,5 +1,32 @@
 [
 	{
+		"name": "2-1B Medical Droid",
+		"type": "",
+		"description": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 6
+		},
+		"skills": {
+			"Discipline": 1,
+			"Medicine": 3,
+			"Perception": 2
+		},
+		"talents": [],
+		"abilities": ["Droid"],
+		"weapons": [],
+		"gear": ["Built0in diagnostic and surgical tools (adds a :boost: to Medicine checks and counts as a stimpack that can be used once per session)"],
+		"tags": ["species:Droid", "book:ragp", "adventure:Rescue at Glare Peak", "medic"]
+	},
+	{
 		"name": "Analysis Droid",
 		"type": "Minion",
 		"description": "Almost always found working in groups, analysis droids have served governments, corporations, wealthy private individuals, and even the defunct Jedi Knights. Most manufacturers make analysis droids, but the enduring popularity of Cybot Galactica's SP-4 and JN-66 models make them the category leaders. All analysis droids come equipped with a sophisticated sensory suite and a set of onboard analysis protocols that make them invaluable in aiding research, analysing data, and performing experiments.",
@@ -187,6 +214,35 @@
 		"tags": ["species:Droid", "separatist", "book:cotgk"]
 	},
 	{
+		"name": "CT-4 Medical Droid",
+		"type": "Rival",
+		"description": "The CT-4 series medical droids are manufactured in Polis Massa by Polis Massa Pria Assemblage, and are almost exclusively used there. They are similar in many respects to the EW-3 midwife droid but are more generalized in their application. A handful of the units are on loan to the Rebel Alliance, though they are rarelv used awav from the Rebel Fleet.\n\nSpecializing in the application of bacta, the CT-4 possesses programming that makes it familiar with thousands of sentient species and their physiologi­cal peculiarities. Their personalities are caring and thoughtful, and their relatively small size and non­-human shape rarely sets patients at ease in the same way as does the more familiar 2-1 B surgical droid.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 8
+		},
+		"skills": {
+			"Computers": 1,
+			"Discipline": 1,
+			"Knowledge: Xenology": 3,
+			"Medicine": 3,
+			"Perception": 2
+		},
+		"talents": ["Bacta Specialist 2", "Surgeon 1"],
+		"abilities": ["Droid"],
+		"weapons": [],
+		"gear": ["Built-in diagnostic and surgical tools (counts as medpac as well as stimpack that can be used once per session)", "Synthflesh applicator (can adminis­ter application of synthflesh five times per session)"],
+		"tags": ["species:Droid", "medic", "book:sor"]
+	},
+	{
 		"name": "Destroyer Droid",
 		"type": "Rival",
 		"description": "Droidekas, greatly feared by Republic troops during the Clone Wars, were manufactured by the Colicoid species. These durable droids are capable of collapsing into a wheel­ like form for swift movement or unfolding into a tripodal walking gun platform protected by a powerful deflector shield. A single droideka can unleash tremendous salvos of blaster fire while remaining all but immune from return fire thanks to its shields, making droidekas more than a match for many times their own number in soldiers. Thankfully, few of these fearsome machines remain active.",
@@ -265,6 +321,43 @@
 		"tags": ["species:Droid", "separatist", "book:fad"]
 	},
 	{
+		"name": "Imperial Security Droid",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": {
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": ["Droid", "Hoverer"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Built-in auto-blaster",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Auto-Fire"]
+			}
+		],
+		"gear": [],
+		"tags": ["species:Droid", "imperial", "security", "book:ratgp", "adventure:Rescue at Glare Peak"]
+	},
+	{
 		"name": "Interrogation Droid",
 		"type": "Rival",
 		"description": "The interrogation droids designed by the Imperial Department of Military Research are among the most feared weapons in the Emperor’s vast arsenal. These floating black spheres bristle with instruments of torture. Just the sight of them has been known to elicit confessions and coax out carefully guarded secrets from evem the most steadfast of prisoners.",
@@ -329,7 +422,7 @@
 			"wounds": 3
 		},
 		"skills": {
-			"Mechanices": 0
+			"Mechanics": 0
 		},
 		"talents": [],
 		"abilities": ["Droid"],
@@ -345,7 +438,7 @@
 			}
 		],
 		"gear": ["Built-in repair tools (counts as tool kit as well as emergency repair kit that can be used once per session)"],
-		"tags": ["species:Droid", "engineer", "book:aor", "book:eote"]
+		"tags": ["species:Droid", "engineer", "book:aor", "book:eote", "book:ragp", "adventure:Resuce at Glare Peak"]
 	},
 	{
 		"name": "Medical Droid",
@@ -427,10 +520,102 @@
 			"Perception": 1
 		},
 		"talents": [],
+		"abilities": ["Droid", "Etiquette and Protocol"],
+		"weapons": [],
+		"gear": [],
+		"tags": ["species:Droid", "book:aor", "book:eote", "book:ragp", "adventure:Rescue at Glare Peak"]
+	},
+	{
+		"name": "Q-4 Borerr Droid",
+		"type": "Minion",
+		"description": "Manufactured by Quarren Industrial on the planet Mon Cala, the Q-4 borer is a diminutive cylindrical mining droid .7 meters in length and .2 meters in diameter. Moving via a repulsorlift engine, the droids use drilling lasers to burrow through dirt and soft rock in search of veins of ore, which they can detect with the use of specialized sensors. Once the Q-4 discovers ore, it con­tinues to search for additional veins, while larger mining droids are called in to extract the discovery.\n\nReferred to as “ mole droids” by the miners who use them, Q-4s possess a cheerful demeanor and pursue their work with apparent glee. Despite their carefree and can-do attitudes, Q-4s aren’t particularly bright, and they often bite off more than they can chew if left unattended for long periods of time. They are used in small teams and deployed in large formations to search for ore, and they operated easily both in atmo­sphere and underwater.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 3
+		},
+		"skills": {
+			"Perception": 0,
+			"Ranged: Light": 0
+		},
+		"talents": [],
+		"abilities": ["Droid"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Heavy-duty drilling laser",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 4"]
+			}
+		],
+		"gear": ["Rock-scanning sensors (add :boost::boost: to Perception checks made to locate ore deposits)"],
+		"tags": ["species:Droid", "book:sor"]
+	},
+	{
+		"name": "Roche J9 Worker Drone",
+		"type": "Rival",
+		"description": "Despite its capabilities, the J9 worker drone was an abject commercial failure. Designed as a protocol droid, the series’ moniker, “worker drone,” was decep­tive to potential customers, who assumed it was just another labor droid. In addition, the unit's appear­ance, which was distinctly bug-like, in conjunction with its flat personality, turned many mammalian species off. The Verpine even attempted to market the droid to other insectoid species, still without much success.\n\nMost of the J9 worker drones purchased by the public were placed in labor jobs, wasting their more advanced systems and programming on menial tasks. Because of this, J9s are some of the most intelligent labor droids on the market. Over time, however, they develop somewhat bitter personalities, as they feel they were destined for something greater but were somehow cheated out of it.\n\nThe Rebel Alliance has acquired a large number of surplus J9 worker drones directly from Roche and has put them to good use. The Alliance realizes that the J9 is much more than a simple labor droid, and many of the units have been assigned to Rebel teams to assist them with translation and analysis. So far, the majority of these J9s have been a success in the field.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 11
+		},
+		"skills": {
+			"Charm": 1,
+			"Knowledge: Education": 4,
+			"Knowledge: Xenology": 3,
+			"Negotiation": 2
+		},
+		"talents": [],
+		"abilities": ["Droid"],
+		"weapons": [],
+		"gear": ["Olfactory and microwave sensors (add :boost::boost: to Perception checks)"],
+		"tags": ["species:Droid", "book:sor"]
+	},
+	{
+		"name": "Roche Siak-Series Protocol Droid",
+		"type": "Rival",
+		"description": "Following the stunning failure of the J9 worker drone, the Verpine decided to redesign their protocol droid from the ground up. Roche hired a group of human contractors to assist with the new design, ensuring that the droid’s chassis and personality matrix were more appealing to a mammalian customer base.\n\nThe Siak’s personality is businesslike while remain­ing personable, and it can readily converse for hours about nearly any topic. Physically, the droid is a lot more human than its predecessor, while retaining some obvious Verpine characteristics. As a result, the Siak-series protocol droid represents one of Roche’s most successful products.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10
+		},
+		"skills": {
+			"Charm": 3,
+			"Knowledge: Education": 2,
+			"Knowledge: Xenology": 3,
+			"Negotiation": 3
+		},
+		"talents": [],
 		"abilities": ["Droid"],
 		"weapons": [],
 		"gear": [],
-		"tags": ["species:Droid", "book:aor", "book:eote"]
+		"tags": ["species:Droid", "book:sor"]
 	},
 	{
 		"name": "Security Droid",
@@ -468,6 +653,64 @@
 		],
 		"gear": [],
 		"tags": ["species:Droid", "security", "book:eote"]
+	},
+	{
+		"name": "Sorosuub G2 Repair Droid",
+		"type": "Rival",
+		"description": "The G2 repair droid is a custom Sullustan design produced by SoroSuub. Intended to assist with shipboard repair, many of these droids instead found themselves utilized as pilots and tour guides for civil­ ian charter vessels. Referred to as “goose droids” due to their widely spaced feet, long necks, and clumsy gait, G2s tend to possess a quirky demeanor and exhibit exces­sively chatty behavior. Over time, the droids also develop a unique sense of humor, trading witticisms and bad jokes with anyone who takes the time to listen.\n\nOverall, the G2 series droids were appreciated by their owners and the tourists they were charged with. Many G2 owners would relieve their droids of their jobs and keep them around as companions. The series’s down­ fall, however, lay in the fact that larger corporations considered them a waste of money due to their tendency to talk rather than work.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 6
+		},
+		"skills": {
+			"Astrogation": 2,
+			"Computers": 3,
+			"Knowledge: Core Worlds": 1,
+			"Knowledge: Outer Rim": 1,
+			"Mechanics": 3,
+			"Piloting: Space": 2
+		},
+		"talents": [],
+		"abilities": ["Droid"],
+		"weapons": [],
+		"gear": [],
+		"tags": ["species:Droid", "book:sor", "sorosuub"]
+	},
+	{
+		"name": "Sorosuub Wanderer Scout Survey Droid",
+		"type": "Rival",
+		"description": "Often used to collect indigenous wildlife for further study and research, the SoroSuub wanderer scout survey droid is part of a larger set of droids deployed planetside as scouts and collectors. The wanderer scout’s powerful stun blasters, swivel-mounted pho­toreceptor, and dedicated medical and scouting programming make it an excellent tool for informa­tion gathering. Many have been turned to the more serious business of espionage against sentient tar­gets and critical locations. Most of the scout survey’s two-meter height is made up of eight spiderlike legs arranged around a relatively small spherical body. While the wanderer is quick and agile, the medical and scouting modules take up most of the available interior space, leaving little room for a personality matrix. As such, these droids lack any personality fea­tures, but they are well regarded for the depth, detail, and unprejudiced nature of the information they col­lect as a result.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10
+		},
+		"skills": {
+			"Perception": 3,
+			"Ranged: Light": 1,
+			"Stealth": 2,
+			"Survival": 3
+		},
+		"talents": ["Hunter 1", "Swift"],
+		"abilities": ["Droid"],
+		"weapons": ["Stun blaster"],
+		"gear": [],
+		"tags": ["species:Droid", "book:sor", "sorosuub"]
 	},
 	{
 		"name": "Viper Probe Droid",
