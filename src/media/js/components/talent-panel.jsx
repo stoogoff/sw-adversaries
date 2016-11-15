@@ -1,6 +1,6 @@
 
 import React from "react";
-import { symbolise } from "lib/utils";
+import { symbolise, sortByProperty } from "lib/utils";
 
 export default class TalentPanel extends React.Component {
 	render() {
@@ -24,6 +24,8 @@ export default class TalentPanel extends React.Component {
 				});
 			}
 		});
+
+		talents.sort(sortByProperty("name"));
 
 		return <div className="info">
 			<h2>{ this.props.title }</h2>

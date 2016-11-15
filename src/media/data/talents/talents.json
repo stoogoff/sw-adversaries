@@ -113,7 +113,7 @@
 	},
 	{
 		"name": "Bought Info",
-		"description": ""
+		"description": "Instead of making a Knowledge check, may take a Bought Info action to spend credits equal to 50 times the difficulty of the check to pass with one :success:."
 	},
 	{
 		"name": "Brace",
@@ -177,7 +177,7 @@
 	},
 	{
 		"name": "Codebreaker",
-		"description": ""
+		"description": "Remove :setback: per rank from checks made to break codes or decrypt communications; decrease difficulty of checks made to break codes or decrypt commu­nications by 1."
 	},
 	{
 		"name": "Command",
@@ -305,7 +305,7 @@
 	},
 	{
 		"name": "Defensive Slicing",
-		"description": ""
+		"description": "When defending computer systems, add :setback: per rank to opponents’ checks."
 	},
 	{
 		"name": "Defensive Slicing [Improved]",
@@ -561,7 +561,7 @@
 	},
 	{
 		"name": "Greased Palms",
-		"description": ""
+		"description": "Before making a social check, may spend up to 50 cred­its per rank to upgrade the ability of the check once per 50 credits spent."
 	},
 	{
 		"name": "Grit",
@@ -745,7 +745,7 @@
 	},
 	{
 		"name": "Jump Up",
-		"description": ""
+		"description": "Once per round, may stand from seated or prone as an incidental."
 	},
 	{
 		"name": "Jury Rigged",
@@ -841,7 +841,7 @@
 	},
 	{
 		"name": "Master Grenadier",
-		"description": ""
+		"description": "Decrease the :advantage: cost to activate the Blast quality of any weapon used by 1 to a minimum of 1."
 	},
 	{
 		"name": "Master Instructor",
@@ -921,7 +921,7 @@
 	},
 	{
 		"name": "Natural Charmer",
-		"description": "Once per session, may re-roll any 1 Charm or Deception check."
+		"description": "Once per session, may reroll any one Charm or Deception check."
 	},
 	{
 		"name": "Natural Doctor",
@@ -945,7 +945,7 @@
 	},
 	{
 		"name": "Natural Leader",
-		"description": ""
+		"description": "Once per session, may reroll any one Cool or Leadership check."
 	},
 	{
 		"name": "Natural Marksman",
@@ -961,7 +961,7 @@
 	},
 	{
 		"name": "Natural Negotiator",
-		"description": "Once per session, may reroll any Cool or Negotiation check."
+		"description": "Once per session, may reroll any one Cool or Negotiation check."
 	},
 	{
 		"name": "Natural Outdoorsman",
@@ -969,15 +969,15 @@
 	},
 	{
 		"name": "Natural Pilot",
-		"description": "Once per session, may reroll one Piloting (Space) or Gun­nery check."
+		"description": "Once per session, may reroll any one Piloting (Space) or Gun­nery check."
 	},
 	{
 		"name": "Natural Programmer",
-		"description": ""
+		"description": "Once per session, may reroll any one Comput­ers or Astrogation check."
 	},
 	{
 		"name": "Natural Rogue",
-		"description": ""
+		"description": "Once per ses­sion, may reroll any one Skulduggery or Stealth check."
 	},
 	{
 		"name": "Natural Scholar",
@@ -1097,7 +1097,7 @@
 	},
 	{
 		"name": "Powerful Blast",
-		"description": ""
+		"description": "Increase Blast damage dealt by explosives, explosive weapons, and grenades by +1 per rank."
 	},
 	{
 		"name": "Precise Aim",
@@ -1257,7 +1257,7 @@
 	},
 	{
 		"name": "Selective Detonation",
-		"description": ""
+		"description": "When using a weapon with the Blast quality, spend :advantage: to exclude 1 target that would normally be affected by the explosion."
 	},
 	{
 		"name": "Sense Advantage",
@@ -1517,7 +1517,7 @@
 	},
 	{
 		"name": "Time to Go",
-		"description": ""
+		"description": "Spend 1 Destiny Point to perform a Move maneuver as an incidental to attempt to move into cover or out of Blast range of a weapon or explosion."
 	},
 	{
 		"name": "Time to Go [Improved]",
@@ -1609,7 +1609,7 @@
 	},
 	{
 		"name": "Wheel and Deal",
-		"description": ""
+		"description": "When selling goods legally, gain 10% more credits per rank."
 	},
 	{
 		"name": "Works Like a Charm",

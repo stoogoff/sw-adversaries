@@ -64,6 +64,45 @@
 		"tags": ["civilian", "book:ragp", "adventure:Rescue at Glare Peak"]
 	},
 	{
+		"name": "Bleshk Callor",
+		"type": "Nemesis",
+		"description": "Bleshk Callor has been an intelligence agent all of his adult life. He has seen the best and worst that the call­ing has to offer, and the years of clandestine work have made him aloof, capricious, and generally strange. Despite his quirks, he is a dedicated and highly compe­tent head of security, respected even by his enemies in the ISB. He values initiative, lateral thinking, and perse­verance in an agent, and those who find themselves in his good graces could wish for no better chief and ally than the grizzled old Deaon.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 17,
+			"strain": 15,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Cool": 3,
+			"Deception": 4,
+			"Knowledge: Warfare": 2,
+			"Knowledge: Underworld": 4,
+			"Perception": 3,
+			"Ranged: Light": 2,
+			"Skulduggery": 4,
+			"Stealth": 3,
+			"Streetwise": 3,
+			"Survival": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Convincing Demeanor 2", "Durable 2", "Knockdown", "Jump Up", "Natural Rogue", "Soft Spot"],
+		"abilities": [],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Comlink", "Datapad"],
+		"tags": ["book:sor", "adventure:The Geharr Incident", "location:Ord Gimmel", "rebel alliance"]
+	},
+	{
 		"name": "Boddah Venik Rin",
 		"type": "Rival",
 		"description": "The boddah representing the Player Characters is a middle-aged Zabrak known as Venik Rin. Rin once survived being mauled by a rancor, which left him scarred and twisted as a result. His horns are cracked, his skin marred with hideous scars, and his body is twisted. He walks with a pronounced limp, but he speaks with a voice that is both strong and confident. Rin is comfortable working as a puppet for his unnamed master, so long as the spice that dulls his pain continues to trickle in.",
@@ -444,6 +483,78 @@
 		"tags": ["underworld", "pirate", "book:lonh", "adventure:Welcome Aboard"]
 	},
 	{
+		"name": "Fenn Sesslyn",
+		"type": "Nemesis",
+		"description": "A native of Corellia, Fenn Sesslyn is the no-non­sense commander of SoroSuub’s corporate security operation in G’rinn Go City. Of medium height and build, with long limbs and a fierce demeanor, she has been with SoroSuub for more than a decade now. Her ambition and blunt manner of speaking have made her quite a few enemies within the company and corporate security. Her inability to sugarcoat bad news or to be lenient with employees breaking the law is what landed her current position. While most see G’rinn Go City as a career-ending assignment, Commander Sesslyn has worked tirelessly to ensure that her officers are the most efficient, well-trained, and well-respected officers in the company.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12,
+			"strain": 13,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Coercion": 3,
+			"Cool": 3,
+			"Discipline": 3,
+			"Knowledge: Underworld": 3,
+			"Knowledge: Warfare": 3,
+			"Leadership": 4,
+			"Perception": 3,
+			"Ranged: Light": 3,
+			"Skulduggery": 4,
+			"Streetwise": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Commanding Presence 3", "Confidence 2", "Improved Field Commander", "Natural Leader", "Improved Scathing Tirade"],
+		"abilities": [],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Armoured imperial uniform (+1 Soak, +1 Defence)"],
+		"tags": ["book:sor", "location:Sullust", "sorosuub", "security", "empire", "imperial bureaucracy", "adventure:Claustrophobia"]
+	},
+	{
+		"name": "Gaff Kilvaari",
+		"type": "Nemesis",
+		"description": "A veteran of the Sullustan Resistance, Gaff Kilvaari is an accomplished engineer and a talented saboteur. With a reputation as a stern but fair leader, and known for his use of overwhelming force when demolishing a target, Kilvaari makes an excellent colleague and an incred­ibly dangerous enemy. While generally friendly and outgoing, he is cool and reserved around members of the Alliance. While admittedly not entirely fair, Kilvaari tends to look down on Alliance operatives as either amateurs or dilettantes or both, considering his experi­ences in the Sullustan Resistance to have been harder and more authentic than those of the Rebels. For this assignment, he will work happily, even cordially, with the Player Characters, but only an extraordinary indi­vidual or group of Rebels can gain his trust and respect.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 13,
+			"strain": 15
+		},
+		"skills": {
+			"Astrogation": 1,
+			"Leadership": 3,
+			"Mechanics": 4,
+			"Perception": 3,
+			"Piloting: Space": 2,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 2,
+			"Skulduggery": 3,
+			"Stealth": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1", "Master Grenadier", "Powerful Blast 2", "Selective Detonation 1", "Skilled Jockey 1", "Time to Go"],
+		"abilities": [],
+		"weapons": ["Blaster carbine", "Frag grenade"],
+		"gear": ["Padded armour (+2 Soak)", "3 Frag grenades"],
+		"tags": ["book:sor", "location:Sullust", "species:Sullustan", "sullustan resistance", "rebel alliance", "adventure:Claustrophobia"]
+	},
+	{
 		"name": "Gareth Agamar",
 		"type": "Nemesis",
 		"description": "Lieutenant Commander Gareth Agamar, leader of the 481st Experimental Starfighter Testing Squadron, is a man of immense skill and unbridled ambition. Agamar was born on Coruscant, and his family has a long and storied military tradition stretching back generations. Throughout the Agamar family’s his­tory, they produced countless respected and distin­guished soldiers, pilots, and Republic Navy spacers. Indeed, both of Gareth’s parents are retired Galactic Republic Navy officers who served during the Clone Wars, and all of his siblings serve in the Imperial armed forces in one capacity or another. Drawn to spaceflight from an early age, Agamar entered the Imperial Naval Academy in the hopes of becoming a fighter pilot. Throughout his training, he exhibited a high level of professionalism, courage, and a strong grasp of fighter tactics. He graduated at the top of his class. After he served for years in various positions throughout the Imperial Navy, including a long stint as the aerospace group commander of the Imperial-class Star Destroyer Mercurial, his skills in the cockpit and ability to wring every ounce of performance from a fighter brought him to the attention of the Impe­rial Navy’s prototype testing division. Responsible in part for the final testing of many of the Empire’s latest fightercraft, he is currently operating somewhere near Polis Massa, testing a top-secret fighter that promises to drastically change the course of the ongoing con­flict with the Rebel Alliance.",
@@ -603,6 +714,43 @@
 		"weapons": ["Holdout blaster"],
 		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Comlink"],
 		"tags": ["book:sor", "adventure:In Too Deep", "species:Quarren"]
+	},
+	{
+		"name": "Halina Patel",
+		"type": "Nemesis",
+		"description": "One of the ISB’s most gifted intelligence analysts, Halina Patel is a highly intelligent polymath. There are few in the ISB or Alliance Intelligence who can match her prowess with a slicing rig, and few computer secu­rity systems can withstand her attentions. A striking, dark-eyed woman in her middle years, she is easily recognizable due to the cybernetic computer inter­face construct that wraps around her shaved head. In the field, she typically conceals her implant with wigs or scarves, and she is so accomplished at doing so that it takes a very keen eye to spot the implant.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 15,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Computers": 4,
+			"Cool": 3,
+			"Deception": 3,
+			"Knowledge: Education": 2,
+			"Knowledge: Warfare": 2,
+			"Knowledge: Underworld": 3,
+			"Perception": 3,
+			"Ranged: Light": 2,
+			"Skul­duggery": 3,
+			"Stealth": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Bypass Security 2", "Codebreaker 3", "Defensive Slicing 2", "Technical Aptitude 3", "Natural Programmer"],
+		"abilities": [],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "BioTech borg construct Ax8"],
+		"tags": ["book:sor", "empire", "imperial security bureau", "adventure:The Geharr Incident", "location:Ord Gimmel"]
 	},
 	{
 		"name": "Agent Ferlan",
@@ -867,6 +1015,40 @@
 		"tags": ["book:sor", "adventure:In Too Deep", "species:Mon Calamari", "rebel alliance"]
 	},
 	{
+		"name": "Nosh Droma",
+		"type": "Rival",
+		"description": "Nosh Droma is a conniving, venal, greedy, and untrust­worthy young Chadra-Fan with lavish tastes and a known gambling problem. In fact, it was his gambling and inability to live within his means that allowed the ISB to turn him. While he is relatively intelligent, he is neither as smart nor as clever as he thinks he is. He is relatively weak-willed and easily manipulated, and he has a raging entitlement complex that makes him believe he should be placed higher in Alliance than he is. He will not hesitate to beg for his life or run like a coward when confronted, and there is a high likelihood that his ISB handler will burn him if things get too hot.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 3,
+			"Computers": 3,
+			"Deception": 4,
+			"Knowl­edge: Core Worlds": 3,
+			"Knowledge: Outer Rim": 3,
+			"Negotiation": 3,
+			"Perception": 3,
+			"Ranged: Light": 2,
+			"Skul­duggery": 4,
+			"Streetwise": 3
+		},
+		"talents": ["Adversary 1", "Bought Info", "Convincing Demeanor 3", "Greased Palms 2", "Know Somebody 1", "Natural Charmer", "Nobody’s Fool 2", "Wheel and Deal 3"],
+		"abilities": [],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Comlink", "Datapad", "2,000 credits"],
+		"tags": ["book:sor", "species:Chadra-Fan", "adventure:The Geharr Incident", "location:Ord Gimmel", "gambler", "imperial security bureau", "double-agent", "rebel alliance"]
+	},
+	{
 		"name": "Pashna Genko",
 		"type": "Rival",
 		"description": "A native of the Mon Cala capital of Coral City, Pashna is one of the few Mon Calamari women in the Alliance’s fighter corps. She is currently the leader of the 88th Attack Squadron, the Y-wing squadron recently assigned to Polis Massa. Her squadron has taken the brunt of the attacks, as the slower, heavier Y-wings make easy targets for the speedy phantoms. Only six Y-wings remain, including hers.",
@@ -1110,6 +1292,43 @@
 		"weapons": ["Blaster pistol"],
 		"gear": ["6 Death sticks (induces mild hallucinations, adds :setback: to any task the character attempts and prohibits the expenditure of Destiny points for the duration of the combat or scene)"],
 		"tags": ["underworld", "book:uabs", "adventure:Under a Black Sun", "location:Coruscant"]
+	},
+	{
+		"name": "Taska Mastigar",
+		"type": "Rival",
+		"description": "Taska Mastigar, a charming, handsome young woman from Coruscant, is a highly troublesome agitator and rabble-rouser devoted solely to her own wealth and comfort. A gifted orator and master of at least a dozen languages, she has a gift for whipping a crowd into a frenzy with fiery rhetoric and then unleashing them to run riot. She has sold her skills to the highest bidder for at least a decade now and shows no signs of slow­ing down. Dealing with her is a dangerous proposition, as she is untrustworthy in the extreme and will turn on an employer at a moment’s notice if the price is right. ",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Charm": 3,
+			"Coercion": 3,
+			"Deception": 2,
+			"Discipline": 2,
+			"Knowledge: Outer Rim": 2,
+			"Knowledge: Underworld": 3,
+			"Knowledge: Xenology": 1,
+			"Melee": 2,
+			"Negotiation": 3,
+			"Ranged: Light": 2,
+			"Streetwise": 3
+		},
+		"talents": ["Adversary 1", "Nobody’s Fool 3", "Plausible Deniability 3", "Scathing Tirade"],
+		"abilities": [],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Datapad", "Comlink"],
+		"tags": ["book:sor", "location:Ord Gimmel", "adventure:The Geharr Incident", "agitator"]
 	},
 	{
 		"name": "Thamoss",

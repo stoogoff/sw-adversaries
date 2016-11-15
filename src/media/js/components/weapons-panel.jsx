@@ -1,6 +1,6 @@
 
 import React from "react";
-import { dice, id, symbolise } from "lib/utils";
+import { dice, id, symbolise, sortByProperty } from "lib/utils";
 
 function getWeaponDetails(weapon, character, allSkills, minions) {
 	if(!("id" in weapon)) {
@@ -36,6 +36,8 @@ function getWeaponDetails(weapon, character, allSkills, minions) {
 	if("notes" in weapon && weapon.qualities.indexOf("Notes") == -1) {
 		weapon.qualities.push("Notes");
 	}
+
+	weapon.qualities.sort();
 
 	return weapon;
 }
@@ -117,6 +119,8 @@ export default class WeaponsPanel extends React.Component {
 		if("specialist-weapons" in character) {
 			character["specialist-weapons"].forEach(w => weapons.push(getWeaponDetails(w, character, allSkills, this.props.minions)));
 		}
+
+		weapons.sort(sortByProperty("name"));
 
 		return <div className="info">
 			<h2>Weapons</h2>

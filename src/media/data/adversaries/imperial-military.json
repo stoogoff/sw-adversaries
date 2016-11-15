@@ -538,7 +538,7 @@
 			}
 		],
 		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 soak)", "2 Frag grenades"],
-		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad"]
+		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad", "adventure:Rescue at Glare Peak"]
 	},
 	{
 		"name": "Stormtrooper Sergeant",

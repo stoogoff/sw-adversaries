@@ -1362,6 +1362,47 @@
 		"tags": ["civilian", "book:eote"]
 	},
 	{
+		"name": "SoroSuub Corporate Security",
+		"type": "Minion",
+		"description": "Well-paid and well-trained, these private security officers are tasked with keeping the various SoroSuub facilities throughout SoroSuub Central safe for their corporate masters. While a majority are native Sullustans, a handful of other species can be found among their ranks. Equipped with the latest and best that SoroSuub can supply, and using military-style tactics in their policing, these officers are not to be trifled with.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 5,
+			"defence": [2, 2]
+		},
+		"skills": {
+			"Coercion": 0,
+			"Melee": 0,
+			"Perception": 0,
+			"Ranged: Heavy": 0,
+			"Resilience": 0,
+			"Vigilance": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster carbine"],
+		"specialist-weapons": [
+			{
+				"name": "Stun baton",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": ["Disorient 2", "Stun Damage"]
+			}
+		],
+		"gear": ["Padded armour (+2 Soak)", "Binders", "Comlink"],
+		"tags": ["book:sor", "civilian", "security", "sorosuub", "adventure:Claustrophobia"]
+	},
+	{
 		"name": "Toydarian Farmer",
 		"type": "Minion",
 		"description": "Most Toydarians make their living as subsistence farmers, growing or gathering swamp crops, paying their tithes to the king, and generally trying their best to avoid unwanted attention from the authorities, whether they be local, Hutt, or Imperial. The marshes of their homeworld can be extremely dangerous, but the farmers know them better than anyone else. Thanks to the harsh rule of King Maalva, they are often wary of outsiders, but can be convinced to help wanderers who make a favorable impression.",

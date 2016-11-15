@@ -331,6 +331,14 @@
 		"qualities": ["Breach 1", "Sunder"]
 	},
 	{
+		"name": "Riot shield",
+		"skill": "Melee",
+		"plus-damage": 0,
+		"critical": 6,
+		"range": "Engaged",
+		"qualities": ["Cumbersome 3", "Defensive 2", "Deflection 2", "Disorient 1"]
+	},
+	{
 		"name": "Truncheon",
 		"skill": "Melee",
 		"plus-damage": 2,
