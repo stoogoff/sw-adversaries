@@ -118,7 +118,7 @@
 		"name": "Slugthrower pistol",
 		"skill": "Ranged: Light",
 		"damage": 4,
-		"critical": 2,
+		"critical": 5,
 		"range": "Short",
 		"qualities": []
 	},
@@ -126,7 +126,7 @@
 		"name": "Slugthrower rifle",
 		"skill": "Ranged: Heavy",
 		"damage": 7,
-		"critical": 2,
+		"critical": 5,
 		"range": "Medium",
 		"qualities": ["Cumbersome 2"]
 	},
@@ -281,6 +281,14 @@
 		"critical": 3,
 		"range": "Engaged",
 		"qualities": ["Cortosis", "Defensive 1"]
+	},
+	{
+		"name": "Diiro",
+		"skill": "Melee",
+		"plus-damage": 1,
+		"critical": 3,
+		"range": "Engaged",
+		"qualities": ["Defensive 1"]
 	},
 	{
 		"name": "Electrostaff",

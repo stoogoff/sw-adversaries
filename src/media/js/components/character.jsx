@@ -1,5 +1,6 @@
 
 import React from "react";
+import Remarkable from "remarkable";
 import InfoPanel from "./info-panel";
 import SkillPanel from "./skill-panel";
 import TextPanel from "./text-panel";
@@ -14,6 +15,8 @@ export default class Character extends React.Component {
 		this.state = {
 			minions: 1
 		};
+
+		this.md = new Remarkable();
 	}
 
 	setMinions(minions) {
@@ -56,7 +59,7 @@ export default class Character extends React.Component {
 			<h1>{ icon } { character.name }</h1>
 			<h2 className={ "subtitle " + character.type.toLowerCase() }>{ character.type }</h2>
 			<TextPanel text={ character.description } />
-			{ character.notes ? <div className="text"><p><em>{ character.notes }</em></p></div> : null }
+			{ character.notes ? <div className="text" dangerouslySetInnerHTML={ { __html: this.md.render(`*${character.notes}*`) } }></div> : null }
 			<div className="column small">
 				<div className="stats" id="characteristics">
 					{ characteristics.map(c => {

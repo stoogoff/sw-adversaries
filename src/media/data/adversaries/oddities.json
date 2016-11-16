@@ -327,8 +327,8 @@
 			"Cool": 2,
 			"Deception": 2,
 			"Dis­cipline": 5,
-			"Knowledge: Lore": 4,
-			"Leadership": 5,
+			"Knowledge: Lore": 4
+,			"Leadership": 5,
 			"Melee": 1,
 			"Negotiate": 2,
 			"Vigilance": 5
@@ -348,5 +348,151 @@
 		],
 		"gear": [],
 		"tags": ["galactic oddity", "species:Klatooinian", "location:Hutt Space", "book:lonh"]
+	},
+	{
+		"name": "Tusken Raider",
+		"type": "Minion",
+		"description": "The most commonly encountered Tusken Raider is the simple minion. Hardly a threat by themselves, they can put up stiff opposition in larger numbers... and a Tusken Raider is almost never known to travel alone.\n\nSimple minions are generally only armed with a Gaffi Stick, the traditional weapon of the Sand People. Although they don't like much, in trained hands a Gaffi Stick can be used effectively to defend, and are particularly well suited to delivering dazing blows to opponents.\n\nA Tusken Raiders is only ever seen swaddled from head to feet in their traditional padded, desert wrappings and filter masks. These robes not only serve as armor, but help them endure the heat and sandstorms of the Tatooine badlands.",
+		"notes": "Tusken stats provided by [Never Tell Me the Odds](http://www.starwarsrpgpodcast.com/). Click to [view original stats and descriptions](http://www.starwarsrpgpodcast.com/2015/09/tusken-raiders-sand-people-star-wars.html).",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 3,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Brawl": 0,
+			"Resilience": 0,
+			"Survival": 0
+		},
+		"talents": ["Forager"],
+		"abilities": ["Bantha Affinity"],
+		"weapons": ["Gaffi stick"],
+		"gear": ["Reinforced environment gear (+1 Soak; remove :setback: imposed by environmental conditions; add :boost: to Resilience checks to resist toxic atmospheres or airborne toxins)"],
+		"tags": ["galactic oddity", "species:Tusken", "source:Never Tell Me the Odds", "location:Tatooine"]
+	},
+	{
+		"name": "Tusken Raider Huntsman",
+		"type": "Rival",
+		"description": "Tusken Raider Huntsmen are responsible for the day-to-day survival of their clan. Skilled hunters, they prowl the twisted canyons and rocky flats of their territory hunting womp rats, eopie, dewbacks, rontos – and even human settlers.\n\nIn addition to their Gaffi Sticks, a Tusken Raider Huntsman carries his long-barreled slugthrower rifle known as a Cycler Rifle. Antiquated in the extreme, these loud, cumbersome weapons are still capable of taking down prey - particularly if the Hunstman has time to line up his shots from a good distance.\n\nIntimately familiar with their hunting grounds, Tusken Raider Huntsman are excellent at chasing down prey and cutting it off at the pass - as represented by his “Outdoorsman” and “Shortcut” talents. An unwary animal, or human interloper, can find themselves ambushed and outpaced if they stumble into Tusken Raider territory.\n\nA favorite tactic of Tusken Raider Huntsmen is to snipe foes from long range, then disappear into the terrain, only to harry their foe again later from a different angle. In this way, even a few Tusken Raiders Huntsman are capable of holding off much larger numbers.",
+		"notes": "Tusken stats provided by [Never Tell Me the Odds](http://www.starwarsrpgpodcast.com/). Click to [view original stats and descriptions](http://www.starwarsrpgpodcast.com/2015/09/tusken-raiders-sand-people-star-wars.html).",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Melee": 3,
+			"Perception": 1,
+			"Ranged: Heavy": 2,
+			"Resilience": 2,
+			"Survival": 3,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1", "Disorient 1", "Forager", "Outdoorsman 1", "Shortcut 2"],
+		"abilities": ["Bantha Affinity"],
+		"weapons": ["Gaffi stick"],
+		"specialist-weapons": [
+			{
+				"name": "Slugthrower rifle with telescopic optical sight",
+				"skill": "Ranged: Heavy",
+				"damage": 7,
+				"critical": 5,
+				"range": "Medium",
+				"qualities": ["Cumbersome 2", "Sniper Shot"]
+			}
+		],
+		"gear": ["Reinforced environment gear (+1 Soak; remove :setback: imposed by environmental conditions; add :boost: to Resilience checks to resist toxic atmospheres or airborne toxins)"],
+		"tags": ["galactic oddity", "species:Tusken", "source:Never Tell Me the Odds", "location:Tatooine"]
+	},
+	{
+		"name": "Tusken Raider Chieftain",
+		"type": "Nemesis",
+		"description": "Tusken Raider Chieftains lead whole tribes of Sand People - holding their position not through wisdom, but through brute savagery. Governing their clans through force and intimidation, the Chieftain is rarely encountered outside of their current campsite – instead feeding off the efforts of their Tusken Raider underlings and living in relative luxury. Less consummate stalkers than the Tusken Raider Huntsman, they are nonetheless a force to be reckoned with in combat.\n\nThe Chieftain represented here has claimed an advanced hunting rifle as a trophy (pillaged from an unlucky settler), but his real strength is in melee. In close quarters the Tusken Raider Chieftain is able to bring his vicious strength to bear, relying on his “Frenzied Attack” and “Feral Strength” talents.\n\nTravelers on who are captured by Tusken Raiders may awaken to find themselves in a Tusken Raider campsite, bound and at the mercy of a Tusken Raider Chieftain. There is little hope in reasoning with these barbaric figures – often a captive's only hope is the timely intervention of a well-armed rescue party.",
+		"notes": "Tusken stats provided by [Never Tell Me the Odds](http://www.starwarsrpgpodcast.com/). Click to [view original stats and descriptions](http://www.starwarsrpgpodcast.com/2015/09/tusken-raiders-sand-people-star-wars.html).",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 18,
+			"strain": 12,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Coercion": 2,
+			"Melee": 3,
+			"Perception": 1,
+			"Ranged: Heavy": 3,
+			"Resilience": 2,
+			"Survival": 3,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 2", "Feral Strength 2", "Forager", "Frenzied Attack 1", "Outdoorsman 1"],
+		"abilities": ["Bantha Affinity"],
+		"weapons": ["Gaffi stick"],
+		"specialist-weapons": [
+			{
+				"name": "Mark V “Sand Panther” hunting rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 5,
+				"range": "Long",
+				"qualities": ["Accurate 1", "Cumbersome 2", "Superior", "Sniper Shot"]
+			}
+		],
+		"gear": ["Reinforced environment gear (+1 Soak; remove :setback: imposed by environmental conditions; add :boost: to Resilience checks to resist toxic atmospheres or airborne toxins)"],
+		"tags": ["galactic oddity", "species:Tusken", "source:Never Tell Me the Odds", "location:Tatooine"]
+	},
+	{
+		"name": "Tusken Raider Lorekeeper",
+		"type": "Rival",
+		"description": "Tusken Raiders are widely regarded as unsophisticated savages, and while they do little to disabuse that notion, the Sand People of Tatooine do have a culture all their own. A Tusken Raider Chieftain may rule the tribe, but in any community the most important figure is the Lorekeeper.\n\nLorekeepers are the stewards of the history and mythology of the Tusken Raider race - memorizing the long and complex tale of their kind with perfect accuracy. An illiterate culture, without the oral tradition of these storytellers the Tusken Raiders would lose all sense of history and racial identity.\n\nPreserving their past is so important to the Sand People that reciting even a single word of the histories incorrectly is seen as a blasphemy to the race - and a crime punishable by death. As such, Lorekeppers are trained from birth to fill the role. If a Lorekeeper of a tribe dies before they are able to train an apprentice, the tribe is considered to be unworthy of existence, and quickly collapses due to infighting.\n\nDue to the perfect preservation of a long history otherwise lost or unrecorded, Tusken Raider Lorekeepers may be sought out as a valuable resource by those looking to learn more about the past of Tatooine.",
+		"notes": "Tusken stats provided by [Never Tell Me the Odds](http://www.starwarsrpgpodcast.com/). Click to [view original stats and descriptions](http://www.starwarsrpgpodcast.com/2015/09/tusken-raiders-sand-people-star-wars.html).",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 11,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Resilience": 1,
+			"Survival": 3,
+			"Lore": 3,
+			"Medicine": 2
+		},
+		"talents": ["Forager"],
+		"abilities": ["Bantha Affinity", "Lorekeeper 2"],
+		"weapons": ["Gaffi stick"],
+		"gear": ["Reinforced environment gear (+1 Soak; remove :setback: imposed by environmental conditions; add :boost: to Resilience checks to resist toxic atmospheres or airborne toxins)"],
+		"tags": ["galactic oddity", "species:Tusken", "source:Never Tell Me the Odds", "location:Tatooine"]
 	}
 ]

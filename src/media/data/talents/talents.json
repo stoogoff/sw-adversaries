@@ -333,7 +333,7 @@
 	},
 	{
 		"name": "Disorient",
-		"description": ""
+		"description": "After hitting with a combat check, may spend :advantage::advantage: to disorient target for 1 round per rank."
 	},
 	{
 		"name": "Disruptive Strike",
@@ -481,7 +481,7 @@
 	},
 	{
 		"name": "Forager",
-		"description": ""
+		"description": "Remove up to :setback::setback: from skill checks to find food, water, or shelter; Suvival checks take half the time."
 	},
 	{
 		"name": "Force Assault",
@@ -1017,7 +1017,7 @@
 	},
 	{
 		"name": "Outdoorsman",
-		"description": ""
+		"description": "Remove :setback: per rank from checks to move through terrain or manage environmental effects; reduce overland travel times by 50%."
 	},
 	{
 		"name": "Overbalance",
@@ -1281,7 +1281,7 @@
 	},
 	{
 		"name": "Shortcut",
-		"description": ""
+		"description": "During a chase, add :boost: per rank to any checks made to catch or escape an opponent."
 	},
 	{
 		"name": "Shortcut (Improved)",

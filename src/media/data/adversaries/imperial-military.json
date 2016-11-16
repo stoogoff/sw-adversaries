@@ -106,7 +106,7 @@
 		"talents": [],
 		"abilities": [],
 		"weapons": ["Blaster rifle", "Frag grenade"],
-		"gear": ["Trooper uniform and helmet (+1 soak)", "2 Frag grenades"],
+		"gear": ["Trooper uniform and helmet (+1 Soak)", "2 Frag grenades"],
 		"tags": ["empire", "imperial military", "book:aor"]
 	},
 	{
@@ -180,7 +180,7 @@
 		"talents": [],
 		"abilities": [],
 		"weapons": ["Riot gun", "Truncheon"],
-		"gear": ["Binders", "Comlink", "Padded armour (+2 soak)"],
+		"gear": ["Binders", "Comlink", "Padded armour (+2 Soak)"],
 		"tags": ["empire", "imperial military", "book:fad"]
 	},
 	{
@@ -205,7 +205,7 @@
 		"talents": [],
 		"abilities": ["Gun Crew"],
 		"weapons": ["Holoudt blaster", "Heavy repeating blaster"],
-		"gear": ["Trooper uniform and helmet (+1 soak)"],
+		"gear": ["Trooper uniform and helmet (+1 Soak)"],
 		"tags": ["empire", "imperial military", "book:aor"]
 	},
 	{
@@ -233,7 +233,7 @@
 		"talents": ["Adversary 1"],
 		"abilities": ["Tactical Direction"],
 		"weapons": ["Blaster pistol"],
-		"gear": ["Officer uniform (+1 soak)", "Long range comlink"],
+		"gear": ["Officer uniform (+1 Soak)", "Long range comlink"],
 		"tags": ["empire", "imperial military", "book:aor"]
 	},
 	{
@@ -259,7 +259,7 @@
 		"talents": [],
 		"abilities": [],
 		"weapons": ["Blaster pistol"],
-		"gear": ["Blast vest and helmet (+1 soak)"],
+		"gear": ["Blast vest and helmet (+1 Soak)"],
 		"tags": ["empire", "imperial military", "book:aor", "book:eote"]
 	},
 	{
@@ -286,7 +286,7 @@
 		"talents": ["Adversary 1"],
 		"abilities": ["Tactical Direction"],
 		"weapons": ["Blaster pistol"],
-		"gear": ["Heavy uniform (+1 soak)"],
+		"gear": ["Heavy uniform (+1 Soak)"],
 		"tags": ["empire", "imperial military", "book:eote"]
 	},
 	{
@@ -328,7 +328,7 @@
 				"qualities": ["Cortosis", "Pierce 2", "Stun Setting"]
 			}
 		],
-		"gear": ["Heavy battler armour (+2 soak, +1 defence)"],
+		"gear": ["Heavy battler armour (+2 Soak, +1 defence)"],
 		"tags": ["empire", "imperial military", "book:fad"]
 	},
 	{
@@ -412,7 +412,7 @@
 		"talents": [],
 		"abilities": [],
 		"weapons": ["Blaster carbine"],
-		"gear": ["Trooper uniform and helmet (+1 soak)"],
+		"gear": ["Trooper uniform and helmet (+1 Soak)"],
 		"tags": ["empire", "imperial military", "book:aor"]
 	},
 	{
@@ -537,7 +537,7 @@
 				"qualities": ["Auto-Fire", "Cumbersome 4", "Pierce 1", "Weapon Sling"]
 			}
 		],
-		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 soak)", "2 Frag grenades"],
+		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 Soak)", "2 Frag grenades"],
 		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad", "adventure:Rescue at Glare Peak"]
 	},
 	{
@@ -569,7 +569,7 @@
 		"talents": ["Adversary 1"],
 		"abilities": ["Tactical Direction", "Overwhelming Fire"],
 		"weapons": ["Heavy blaster rifle", "Vibroknife", "Frag grenade"],
-		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 soak)", "2 Frag grenades"],
+		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 Soak)", "2 Frag grenades"],
 		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad"]
 	},
 	{
@@ -608,7 +608,7 @@
 				"qualities": ["Auto-Fire", "Breach 1", "Concussive 1", "Cumbersome 4", "Inaccurate 1"]
 			}
 		],
-		"gear": ["Powered armour (+2 soak, +1 defence)", "Jetpack", "Internal comlink"],
+		"gear": ["Powered armour (+2 Soak, +1 defence)", "Jetpack", "Internal comlink"],
 		"tags": ["empire", "imperial military", "stormtrooper", "droid", "book:aor"]
 	},
 	{
@@ -639,7 +639,7 @@
 		"talents": [],
 		"abilities": [],
 		"weapons": ["Blaster rifle", "Vibroknife"],
-		"gear": ["Utility belt", "Extra reloads", "High-temp stormtrooper armour (+2 soak; when making skill checks, sandtroopers may remove :setback::setback: imposed due to arid or hot environmental conditions)", "Food and water packs"],
+		"gear": ["Utility belt", "Extra reloads", "High-temp stormtrooper armour (+2 Soak; when making skill checks, sandtroopers may remove :setback::setback: imposed due to arid or hot environmental conditions)", "Food and water packs"],
 		"tags": ["empire", "imperial military", "stormtrooper", "book:aor"]
 	},
 	{
@@ -679,7 +679,7 @@
 				"qualities": ["Accurate 1", "Cumbersome 3", "Pierce 2", "Slow-Firing 1", "Sniper Shot"]
 			}
 		],
-		"gear": ["Utility belt", "Extra reloads", "Scouttrooper armour (+1 soak)", "1 Frag grenade"],
+		"gear": ["Utility belt", "Extra reloads", "Scouttrooper armour (+1 Soak)", "1 Frag grenade"],
 		"tags": ["empire", "imperial military", "stormtrooper", "book:aor"]
 	},
 	{
@@ -753,7 +753,7 @@
 				"qualities": ["Stun Setting", "Multi-optic Sight"]
 			}
 		],
-		"gear": ["Snowtrooper armour (+2 soak; when making skill checks, snowtroopers may remove :setback::setback: imposed due to cold or icy environmental conditions"],
+		"gear": ["Snowtrooper armour (+2 Soak; when making skill checks, snowtroopers may remove :setback::setback: imposed due to cold or icy environmental conditions"],
 		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:ragp", "adventure:Rescue at Glare Peak"]
 	},
 	{

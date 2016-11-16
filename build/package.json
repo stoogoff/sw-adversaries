@@ -1,7 +1,8 @@
 {
-  "name": "Star Wars Adversaries",
+  "name": "star-wars-adversaries",
   "version": "1.0.0",
   "description": "",
+  "repository": "https://github.com/stoogoff/sw-adversaries",
   "main": "gulpfile.js",
   "devDependencies": {
     "babel-plugin-transform-es2015-modules-systemjs": "^6.14.0",
@@ -21,6 +22,7 @@
     "babel-polyfill": "^6.16.0",
     "nanoajax": "^0.4.3",
     "react-dom": "^15.3.2",
+    "react-remarkable": "^1.1.1",
     "systemjs": "^0.19.39"
   },
   "scripts": {

@@ -1,5 +1,44 @@
 [
 	{
+		"name": "Bearsloth",
+		"type": "Rival",
+		"description": "Bearsloths are dreaded and vicious predators native to Arbooine. These large, shaggy beasts possess six limbs, each tipped with fearsome claws that aid them in traversing the forest canopy and slaying prey. Bearsloths use their cam­ouflage patterning and natural stealth skills to ambush their victims, and make no distinction between wildlife and sentient prey. Even more than their ferocity, bearsloths are known for their venomous bite, which slowly kills their prey.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 20,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Cool": 3,
+			"Stealth": 3,
+			"Survival": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Arboreal Creature", "Envenomed Bite", "Silhouette 2"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Claws and fangs",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Linked 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Arbooine", "creature"]
+	},
+	{
 		"name": "Blackback",
 		"type": "Rival",
 		"description": "Blackbacks, birds of prey with a wingspans over five meters, feed on squalls and other small rodents. Prized trophy birds, these majestic creatures were almost hunted to extinction centuries ago. Overhunting led to rampant growth in the squall populations, which had negative impacts on Chandrilan crops. Blackbacks are now protected by the Chandrilan government and given vast conservation habitats, including the Hanna Wild Game Preserve. Hunting permits for blackbacks are upwards of 200,000 credits per kill, which is then put back into blackback breeding programs.",
@@ -1427,6 +1466,43 @@
 		],
 		"gear": [],
 		"tags": ["creature", "book:fad"]
+	},
+	{
+		"name": "Tarvix",
+		"type": "Rival",
+		"description": "The tarvix is a domesticated riding beast common through­ out Arbooine. This arboreal mammal has four small eyes to­ward the front of its squat head, although it depends more on its acute sense of smell to find its way. It has a thick coat of dark bristles, which offers some degree of protection against bearsloths and other predators. Although not par­ticularly fast, tarvixes are tough and dependable, and just as adept at scaling trees as walking on the forest floor.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 1,
+			"Perception": 2
+		},
+		"talents": [],
+		"abilities": ["Arboreal Creature", "Silhouette 2"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Claws and teeth",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": [],
+		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "creature", "location:Arbooine"]
 	},
 	{
 		"name": "Tauntaun",
