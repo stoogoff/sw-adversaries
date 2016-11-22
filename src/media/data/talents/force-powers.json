@@ -4,6 +4,10 @@
 		"description": "Use :darkside: to generate Force pips."
 	},
 	{
+		"name": "Force power: Battle Meditation",
+		"description": "Spend :force: to add :success: to all checks made by a number of Engaged friendly targets up to the character’s Presence for one turn, but using :darkside: reduces their Willpower by one; targets must make an :easy: Discipline check if they wish to resist orders given as part of this power."
+	},
+	{
 		"name": "Force power: Move",
 		"description": ":lightside:: Move one object Silhouette 1 at Short range; may make ranged attacks with this power."
 	},

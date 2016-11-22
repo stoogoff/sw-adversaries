@@ -988,6 +988,31 @@
 		"tags": ["civilian", "security", "book:ragp", "adventure:Rescue at Glare Peak"]
 	},
 	{
+		"name": "Nemoidian Citizen",
+		"type": "Minion",
+		"description": "Most citizens of Cato Neimoidia are individually tim id, but fear is a powerful motivator. Rumors of Jedi or allies of Suljo Warde are sufficient to rile up an angry mob.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 3
+		},
+		"skills": {
+			"Melee": 0
+		},
+		"talents": [],
+		"abilities": ["Strength in Numbers"],
+		"weapons": ["Light blaster pistol", "Truncheon"],
+		"gear": [],
+		"tags": ["book:cotgk", "location:Cato Nemoidia", "species:Nemoidian"]
+	},
+	{
 		"name": "Planetary Defence Trooper",
 		"type": "Minion",
 		"description": "There are very few planets that rely entirely on an out­side agency for their protection. Most possess at least a marginal military force of their own, dedicated to pro­tecting the planet’s most valuable or sacred sites. Plan­etary defense troopers rarely have the most advanced or most up-to-date equipment, often employing locally produced weaponry and armor, but what they do have is typically well made and serves its purpose.",
@@ -1165,7 +1190,7 @@
 		"abilities": ["Glider"],
 		"weapons": ["Slugthrower rifle", "Diiro"],
 		"gear": ["1 Dose bearsloth venom", "Thick furs and leathers (++1 Soak)"],
-		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "civilian", "location:Arbooine", "location:Quolas", "species:Sathari"]
+		"tags": ["book:cotgk", "civilian", "location:Arbooine", "location:Quolas", "species:Sathari"]
 	},
 	{
 		"name": "Quolas Elder",
@@ -1194,7 +1219,7 @@
 		"abilities": ["Glider"],
 		"weapons": ["Diiro"],
 		"gear": ["5 Doses bearsloth venom", "Ornate thick furs and leathers (++1 Soak)"],
-		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "civilian", "location:Arbooine", "location:Quolas", "species:Sathari"]
+		"tags": ["book:cotgk", "civilian", "location:Arbooine", "location:Quolas", "species:Sathari"]
 	},
 	{
 		"name": "Quolas Guard",
@@ -1223,7 +1248,7 @@
 		"abilities": ["Glider"],
 		"weapons": ["Slugthrower pistol", "Diiro"],
 		"gear": ["2 Doses of bearsloth venom", "Padded armour (+2 Soak)", "Binders"],
-		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "civilian", "security", "location:Arbooine", "location:Quolas", "species:Sathari"]
+		"tags": ["book:cotgk", "civilian", "security", "location:Arbooine", "location:Quolas", "species:Sathari"]
 	},
 	{
 		"name": "Quolas Guard Captain",
@@ -1253,7 +1278,7 @@
 		"abilities": ["Glider", "Restraint"],
 		"weapons": ["Slugthrower pistol", "Diiro"],
 		"gear": ["10 Doses of bearsloth venom", "2 Doses of bearsloth anti-venom", "Padded armour (+2 Soak)", "Binders", "Comlink"],
-		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "civilian", "security", "location:Arbooine", "location:Quolas", "species:Sathari"]
+		"tags": ["book:cotgk", "civilian", "security", "location:Arbooine", "location:Quolas", "species:Sathari"]
 	},
 	{
 		"name": "Sector Ranger",

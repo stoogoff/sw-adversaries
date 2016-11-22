@@ -585,6 +585,38 @@
 		"tags": ["book:sor", "empire", "imperial military", "pilot", "adventure:Phantoms in the Dark"]
 	},
 	{
+		"name": "Gel Marcolf",
+		"type": "Nemesis",
+		"description": "Gel Marcolf has acted as Quolas’s leader since Suljo Warde placed him in the position of interim magistrate, promising to return with Republic forces and reach a permanent solution to the city's conflict. At the time, Marcolf was an ambitious young man, but fair, and he worked hard to uphold the ide­als he thought Warde would have wanted. As the years went by and Warde did not return, Marcolf grew bitter, coming to believe that his friend had abandoned him for greater things, leaving him stranded on the remote planet. Rather than leav­ing Arbooine to look for Warde or find his own destiny, Mar­colf cemented his position as reeve of the town, crafting a persona of a strong leader in the hopes that it would bring him a sense of self-worth. He found no happiness in power, and so he frequently vented his own anger and resentment through draconian proclamations and harsh punishments.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 18,
+			"strain": 20,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Coercion": 2,
+			"Discipline": 3,
+			"Leadership": 1,
+			"Melee": 3,
+			"Per­ception": 2,
+			"Ranged: Light": 2
+		},
+		"talents": ["Adversary 1", "Force Rating 2", "Enhanced Leader", "Parry 3"],
+		"abilities": ["Darkside Force User", "Force power: Battle Meditation"],
+		"weapons": ["Cortosis sword", "Blaster pistol", "Stun grenade"],
+		"gear": ["Armoured robes (+2 Soak, +1 Defence)", "Commlink", "Kyber crystal amulet", "2 Stun grenades"],
+		"tags": ["book:cotgk", "location:Arbooine", "location:Quolas"]
+	},
+	{
 		"name": "General Elora Silssusio",
 		"type": "Nemesis",
 		"description": "Polis Massa’s current Rebel commander is General Elora Silssusio. She oversees all Rebel operations and is the Alliance’s chief liai­son, coordinator, and negotiator with the Polis Massans. She once ran a private security and investigation service, called Ulterior Vision, which specialized in clandestine work for ques­tionably loyal Imperial Senators. The ISB even­ tually exposed her activities, but a friendly Sen­ator orchestrated her escape to join a fledgling resistance group in the Outer Rim. When the group joined the Rebel Alliance, she was quickly promoted to lead secret missions throughout the galaxy. She sustained serious injuries in a skirmish while escaping a Star destroyer and was sent to Polis Massa for treatment. While recovering, she used her experience negotiating with Senators to convince the Polis Massans to increase their support for the Alliance.\n\nThe Alliance was impressed, promoted her to general, and placed her in command at Polis Massa. There, she protects the Rebels’ relation­ship with their hosts, reigning in or expelling anyone who would endanger them. She person­ ally selects and briefs special operations teams. She has had a seething hatred for the Empire since the dissolution of the Senate, because some of her former clients were arrested and probably killed shortly thereafter. The General rarely wears a formal uniform, so as to avoid undue attention should outsiders see her within the research base.",
@@ -1106,7 +1138,7 @@
 		"abilities": ["For Quolas!", "Glider"],
 		"weapons": ["Slugthrower rifle", "Diiro"],
 		"gear": ["Furs and leathers (+1 Soak)", "23 Doses bearsloth venom"],
-		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "civilian", "sathari resistance", "location:Arbooine", "location:Quolas", "species:Sathari"]
+		"tags": ["book:cotgk", "civilian", "sathari resistance", "location:Arbooine", "location:Quolas", "species:Sathari"]
 	},
 	{
 		"name": "Regent Credi Solfinn",

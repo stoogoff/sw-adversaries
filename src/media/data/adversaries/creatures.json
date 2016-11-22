@@ -36,7 +36,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Arbooine", "creature"]
+		"tags": ["book:cotgk", "location:Arbooine", "creature"]
 	},
 	{
 		"name": "Blackback",
@@ -764,11 +764,56 @@
 				"damage": 8,
 				"critical": 3,
 				"range": "Engaged",
-				"qualities": ["Disorient 1", "Knockdown"]
+				"qualities": ["Disorient 1", "Knockdown", "Inferior"]
 			}
 		],
 		"gear": [],
 		"tags": ["creature", "location:Hutt Space", "book:lonh"]
+	},
+	{
+		"name": "Kirruk Riding Beast",
+		"type": "Rival",
+		"description": "These muscular, horned reptilian quadrupeds are cave dwellers, and hardy enough to survive the decimation of Ossus. The Ysanna call them “kirruk” after their squawking call, and they breed them to serve as beasts of burden and riding mounts.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 18
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 3,
+			"Resilience": 3
+		},
+		"talents": [],
+		"abilities": ["Silhouette 2", "Trained Mount 2"],
+		"weapons": [],
+		"specialist-weapons": [
+			{
+				"name": "Teeth",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 3"]
+			},
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Disorient 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:nop", "creature", "location:Ossus", "riding beast"]
 	},
 	{
 		"name": "Klatooinian Paddy Frog",
@@ -1502,7 +1547,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "creature", "location:Arbooine"]
+		"tags": ["book:cotgk", "creature", "location:Arbooine"]
 	},
 	{
 		"name": "Tauntaun",

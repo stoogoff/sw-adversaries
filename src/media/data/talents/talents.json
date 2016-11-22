@@ -413,7 +413,7 @@
 	},
 	{
 		"name": "Enhanced Leader",
-		"description": ""
+		"description": "Add :force: equal to Force rating to Leadership checks; spend :lightside: to add :success: or :advantage: to the result."
 	},
 	{
 		"name": "Essential Kill",
