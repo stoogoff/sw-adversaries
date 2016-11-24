@@ -12,12 +12,20 @@
 		"description": ":lightside:: Move one object Silhouette 1 at Short range; may make ranged attacks with this power."
 	},
 	{
+		"name": "Force power: Move (Upgrade)",
+		"description": ":lightside:: Move one object Silhouette 0 at Short range; spend :lightside: to increase the range to Long and spend :lightside: to increase the size of the object to Silhouette 2. May hurl an object at a target by making a Move Force power check and rolling a ranged attack (that uses Discipline) as part of the pool. The attack’s difficulty is equal to the Silhouette of the object being thrown instead of the normal difficulty, and only succeeds if the character can also spend enough :lightside: to move the object. The at­tack deals damage equal to the object’s Silhouette times ten (Silhouette 0 objects deal 5 damage), plus one per :success:."
+	},
+	{
 		"name": "Force power: Move (Jakobeast)",
 		"description": "A minion group of three or more jako­beasts may attempt to shove enemies away with the Force. As an action, roll :force::force:. Each :lightside: generated may be spent to move one Silhouette 1 en­emy within short range to medium range."
 	},
 	{
 		"name": "Force power: Enhance",
 		"description": ":lightside:: Gain :success: or :advantage: (user's choice) on an Athletics, Coordination, or Resilience check; :lightside:: take a Force Leap action to jump horizontally or vertically to any location in Short range."
+	},
+	{
+		"name": "Force power: Enhance (Upgrade)",
+		"description": ":lightside:: Gain :success: or :advantage: (user's choice) on an Athletics, Coordination, or Resilience check; :lightside:: take a Force Leap action to jump horizontally or vertically to any location in Short range; spend :lightside:: to increase the power’s range by 1 range band."
 	},
 	{
 		"name": "Force power: Harm",
@@ -42,6 +50,10 @@
 	{
 		"name": "Force power: Unleash",
 		"description": "Make a Force power check targeting one enemy at Short range, roll a ranged attack as part of the pool, using :average: Discipline check instead of normal dif­ficulty. If the check is successful and generates :darkside::darkside: the attack deals 3 damage with a critical rating of 4, plus 1 additional damage per :success:. May spend :darkside: to increase damage by 3, and :darkside: to increase range to medium."
+	},
+	{
+		"name": "Force power: Warde’s Foresight",
+		"description": "Warde may spend :lightside: to gain hints about what an individual within short range is like­ly to do in the near future. He may spend :lightside: to increase the range of the power to long and may spend :lightside::lightside: to gain :boost::boost: on his next check against the target. When making a check for Initiative, Warde may make a Warde’s Foresight power check. He may spend :lightside: to add :success: to his first check this encounter; if he used :darkside: for :lightside: he may immediately perform one action but each enemy adds :success: to the result of their Initiative check."
 	},
 	{
 		"name": "On the Edge",

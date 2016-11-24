@@ -40,6 +40,10 @@
 		"description": "Hutts have great physical strength but their bulk imposes severe limitations in flexibility and agility; they add :setback::setback::setback: to all Brawl, Melee, and Coordination checks they’re required to make."
 	},
 	{
+		"name": "Bad Knee",
+		"description": "If TH-31 3 generates :threat::threat::threat: or :despair: on an Athletics, Brawl, or Melee check, he is im­mobilised for one round."
+	},
+	{
 		"name": "Bantha Affinity",
 		"description": "Add :boost: to all Survival checks to handle or ride Banthas."
 	},
@@ -92,6 +96,10 @@
 		"description": "Vratix can secrete one litre of bacta per day."
 	},
 	{
+		"name": "Creature of Illusion",
+		"description": "Combat checks targeting Moraband Sith phantasms always use Willpower in place of the characteristic normally associated with that skill; the Pierce and Breach qualities do not reduce a Sith phantasm’s soak."
+	},
+	{
 		"name": "Critical Eye",
 		"description": "Gain :boost: on all rolls made to duplicate a familiar document."
 	},
@@ -110,6 +118,10 @@
 	{
 		"name": "Cybernetic Communications",
 		"description": "Due to their cybernetic modifications, Ganks can communicate silently with other Ganks."
+	},
+	{
+		"name": "Darkest Dreams",
+		"description": "A Moraband Sith phantasm can spend :advantage::advantage: on a combat check or :threat::threat: on an engaged enemy’s combat check to have the target make an :average: fear check (upgraded once for the phantasm’s terri­fying nature); if the target fails, the phantasm transforms into a figure inspired by the target’s greatest fear in addition to any other effects of the failed check."
 	},
 	{
 		"name": "Detect Force-Sensitivity",
@@ -154,6 +166,10 @@
 	{
 		"name": "Etiquette and Protocol",
 		"description": "Protocol droids allow allies to add :boost: to any Nego­tiation checks or other checks made to negotiate or mediate."
+	},
+	{
+		"name": "Fearsome Aspect",
+		"description": "Add :boost: to all Coercion checks."
 	},
 	{
 		"name": "Fire Sweep",
@@ -221,7 +237,7 @@
 	},
 	{
 		"name": "Imperial Valour",
-		"description": "May perform a maneuver to cause all ranged attacks targeting the character to instead hit one ally or helpless enemy in Engaged range, until the beginning of his next turn."
+		"description": "May perform a maneuver to cause all ranged attacks targeting the character to instead hit one ally or helpless enemy in Engaged range, until the beginning of the character’s next turn."
 	},
 	{
 		"name": "Improved Covering Fire",
@@ -250,6 +266,10 @@
 	{
 		"name": "Light-Sensitive",
 		"description": "Defel are vulnerable to bright lights, which cause them intense pain and temporary blindness if v1ewed without protection. A Defel exposed to bright light without protective goggles suffers :setback::setback: on all skill checks."
+	},
+	{
+		"name": "Living Shadow",
+		"description": "Add :setback::setback: to all combat checks and Perception checks against phantasmal beasts of Morabandand and :boost::boost: to all Stealth checks the beasts make, in addition to any dice gained for darkness; applies even to characters not hampered by normal darkness."
 	},
 	{
 		"name": "Lorekeeper",

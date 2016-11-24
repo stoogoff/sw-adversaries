@@ -138,8 +138,8 @@
 		},
 		"talents": [],
 		"abilities": [],
-		"weapons": ["Blaster pistol"],
-		"specialist-weapons": [
+		"weapons": [
+			"Blaster pistol",
 			{
 				"name": "Switchblade",
 				"skill": "Melee",
@@ -241,8 +241,8 @@
 		},
 		"talents": [],
 		"abilities": ["Pheromone Communication"],
-		"weapons": ["Blaster carbine"],
-		"specialist-weapons": [
+		"weapons": [
+			"Blaster carbine",
 			{
 				"name": "Beastmaster's vibro-glaive",
 				"skill": "Melee",
@@ -315,8 +315,7 @@
 		},
 		"talents": ["Expert Tracker 2", "Swift"],
 		"abilities": [],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "SakTek D-29 repulsor rifle",
 				"skill": "Gunnery",
@@ -450,8 +449,8 @@
 		},
 		"talents": ["Adversary 2", "Deadly Accuracy", "Lethal Blows 2", "Stalker 2"],
 		"abilities": [],
-		"weapons": ["Vibroknife", "Stun grenade"],
-		"specialist-weapons": [
+		"weapons": [
+			"Vibroknife", "Stun grenade",
 			{
 				"name": "Modded heavy blaster rifle",
 				"skill": "Ranged: Heavy",
@@ -561,6 +560,34 @@
 		"weapons": ["Holdout blaster"],
 		"gear": ["Precision electronic forging tools"],
 		"tags": ["underworld", "book:aor", "forger"]
+	},
+	{
+		"name": "Kreehawk Ganger",
+		"type": "Minion",
+		"description": "Jaded adrenaline junkies with a contemptuous disregard for their own safety and a burning desire to prove themselves, the young Neimoidian members of the Crimson Kreehawks gang make for dangerously unpredictable opponents.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4
+		},
+		"skills": {
+			"Brawl": 0,
+			"Piloting: Planetary": 0,
+			"Piloting: Space": 0,
+			"Ranged: Light": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Light blaster pistol", "Brass knuckles"],
+		"gear": ["Heavy clothing (+1 Soak)", "Mobquet Flare-V swoop bike with garish paint job"],
+		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Cato Nemoidia", "species:Nemoidian", "Location:Jorra", "kreehawk ganger", "underworld", "thug"]
 	},
 	{
 		"name": "Gank Hunter",
@@ -677,8 +704,8 @@
 		},
 		"talents": [],
 		"abilities": ["Brute Strength"],
-		"weapons": ["Fists", "Truncheon"],
-		"specialist-weapons": [
+		"weapons": [
+			"Fists", "Truncheon",
 			{
 				"name": "Fists",
 				"skill": "Brawl",
@@ -741,8 +768,7 @@
 		},
 		"talents": ["Knockdown"],
 		"abilities": [],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Crude Gamorrean vibro-ax",
 				"skill": "Melee",
@@ -813,8 +839,8 @@
 		},
 		"talents": ["Convincing Demeanor 1", "Durable 2", "Nobody’s Fool"],
 		"abilities": ["Awkward", "Ponderous"],
-		"weapons": ["Vibro-ax"],
-		"specialist-weapons": [
+		"weapons": [
+			"Vibro-ax",
 			{
 				"name": "Large-bore laster pistol",
 				"skill": "Ranged: Light",
@@ -861,8 +887,8 @@
 		},
 		"talents": ["Convincing Demeanor 2", "Durable 2", "Nobody’s Fool"],
 		"abilities": ["Awkward", "Ponderous"],
-		"weapons": ["Vibro-ax"],
-		"specialist-weapons": [
+		"weapons": [
+			"Vibro-ax",
 			{
 				"name": "Large-bore laster pistol",
 				"skill": "Ranged: Light",
@@ -910,8 +936,8 @@
 		},
 		"talents": ["Convincing Demeanor 2", "Durable 3", "Nobody’s Fool 3", "Resolve 2"],
 		"abilities": ["Awkward", "Ponderous"],
-		"weapons": ["Vibro-ax"],
-		"specialist-weapons": [
+		"weapons": [
+			"Vibro-ax",
 			{
 				"name": "Large-bore laster pistol",
 				"skill": "Ranged: Light",
@@ -993,8 +1019,8 @@
 		},
 		"talents": ["Durable 3", "Intimidating 3"],
 		"abilities": ["Awkward", "Ponderous"],
-		"weapons": ["Vibro-ax"],
-		"specialist-weapons": [
+		"weapons": [
+			"Vibro-ax",
 			{
 				"name": "Large-bore laster pistol",
 				"skill": "Ranged: Light",
@@ -1068,8 +1094,7 @@
 		},
 		"talents": [],
 		"abilities": ["Mountain Nikto", "Pale Nikto", "Green Nikto", "Red Nikto", "Southern Nikto"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Tuskbeast pike",
 				"skill": "Melee",
@@ -1206,8 +1231,8 @@
 		},
 		"talents": [],
 		"abilities": [],
-		"weapons": ["Net"],
-		"specialist-weapons": [
+		"weapons": [
+			"Net",
 			{
 				"name": "Battered stun pistol",
 				"skill": "Ranged: Light",
@@ -1273,8 +1298,7 @@
 		},
 		"talents": ["Bypass Security"],
 		"abilities": [],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Stun blaster",
 				"skill": "Ranged: Light",
@@ -1523,8 +1547,7 @@
 		},
 		"talents": [],
 		"abilities": ["Loyalty"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Vodran hunting rifle",
 				"skill": "Ranged: Heavy",

@@ -141,8 +141,8 @@
 		},
 		"talents": ["Adversary 1", "Parry 3", "Indistinguishable 2"],
 		"abilities": ["Neurotoxin Doses"],
-		"weapons": ["Disruptor rifle"],
-		"specialist-weapons": [
+		"weapons": [
+			"Disruptor rifle",
 			{
 				"name": "Combat vibroblade",
 				"skill": "Melee",
@@ -317,8 +317,8 @@
 		},
 		"talents": ["Adversary 2", "Heightened Awareness", "Parry 4"],
 		"abilities": [],
-		"weapons": ["Heavy blaster pistol"],
-		"specialist-weapons": [
+		"weapons": [
+			"Heavy blaster pistol",
 			{
 				"name": "Cortosis-plated force pike",
 				"skill": "Melee",
@@ -526,8 +526,8 @@
 		},
 		"talents": [],
 		"abilities": [],
-		"weapons": ["Blaster rifle", "Vibroknife", "Frag grenade"],
-		"specialist-weapons": [
+		"weapons": [
+			"Blaster rifle", "Vibroknife", "Frag grenade",
 			{
 				"name": "Light repeating blaster",
 				"skill": "Ranged: Heavy",
@@ -597,8 +597,8 @@
 		},
 		"talents": ["Adversary 1"],
 		"abilities": ["Droid", "Enhanced Senses"],
-		"weapons": ["Missile tube"],
-		"specialist-weapons": [
+		"weapons": [
+			"Missile tube",
 			{
 				"name": "Plasma shell assault cannon",
 				"skill": "Gunnery",
@@ -668,8 +668,8 @@
 		},
 		"talents": [],
 		"abilities": [],
-		"weapons": ["Light blaster pistol", "Frag grenade"],
-		"specialist-weapons": [
+		"weapons": [
+			"Light blaster pistol", "Frag grenade",
 			{
 				"name": "Blaster sniper rifle with scope",
 				"skill": "Ranged: Heavy",
@@ -742,8 +742,8 @@
 		},
 		"talents": [],
 		"abilities": [],
-		"weapons": ["Heavy repeating blaster"],
-		"specialist-weapons": [
+		"weapons": [
+			"Heavy repeating blaster",
 			{
 				"name": "Multi-optic sighted blaster rifle",
 				"skill": "Ranged: Heavy",

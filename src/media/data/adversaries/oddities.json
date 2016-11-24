@@ -23,8 +23,8 @@
 		},
 		"talents": [],
 		"abilities": ["Many-armed"],
-		"weapons": ["Blaster pistol"],
-		"specialist-weapons": [
+		"weapons": [
+			"Blaster pistol",
 			{
 				"name": "Brass knuckles",
 				"skill": "Melee",
@@ -62,8 +62,8 @@
 		},
 		"talents": [],
 		"abilities": ["Create Bacta"],
-		"weapons": ["Frag grenade"],
-		"specialist-weapons": [
+		"weapons": [
+			"Frag grenade",
 			{
 				"name": "Black claws",
 				"skill": "Brawl",
@@ -195,8 +195,7 @@
 		},
 		"talents": ["Adversary 1", "Lethal Blows 2"],
 		"abilities": ["Red Nikto"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Modded cortosis staff",
 				"skill": "Melee",
@@ -261,8 +260,7 @@
 		},
 		"talents": [],
 		"abilities": [],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Scrap crossbow",
 				"skill": "Ranged: Light",
@@ -335,8 +333,7 @@
 		},
 		"talents": ["Adversary 2", "Inspiring Rhetoric", "Nobody’s Fool 2", "Plausible Deniability 2"],
 		"abilities": ["Blessing of the Ancients"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Ceremonial shamshir",
 				"skill": "Melee",
@@ -406,8 +403,8 @@
 		},
 		"talents": ["Adversary 1", "Disorient 1", "Forager", "Outdoorsman 1", "Shortcut 2"],
 		"abilities": ["Bantha Affinity"],
-		"weapons": ["Gaffi stick"],
-		"specialist-weapons": [
+		"weapons": [
+			"Gaffi stick",
 			{
 				"name": "Slugthrower rifle with telescopic optical sight",
 				"skill": "Ranged: Heavy",
@@ -451,8 +448,8 @@
 		},
 		"talents": ["Adversary 2", "Feral Strength 2", "Forager", "Frenzied Attack 1", "Outdoorsman 1"],
 		"abilities": ["Bantha Affinity"],
-		"weapons": ["Gaffi stick"],
-		"specialist-weapons": [
+		"weapons": [
+			"Gaffi stick",
 			{
 				"name": "Mark V “Sand Panther” hunting rifle",
 				"skill": "Ranged: Heavy",

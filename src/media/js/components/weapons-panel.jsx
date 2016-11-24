@@ -107,7 +107,7 @@ export default class WeaponsPanel extends React.Component {
 		}
 
 		character.weapons.forEach(w => {
-			let weapon = allWeapons.find(a => a.name == w);
+			let weapon = w instanceof Object ? w : allWeapons.find(a => a.name == w);
 
 			if(!weapon) {
 				return null;
@@ -116,9 +116,9 @@ export default class WeaponsPanel extends React.Component {
 			weapons.push(getWeaponDetails(weapon, character, allSkills, this.props.minions));
 		});
 
-		if("specialist-weapons" in character) {
+		/*if("specialist-weapons" in character) {
 			character["specialist-weapons"].forEach(w => weapons.push(getWeaponDetails(w, character, allSkills, this.props.minions)));
-		}
+		}*/
 
 		weapons.sort(sortByProperty("name"));
 

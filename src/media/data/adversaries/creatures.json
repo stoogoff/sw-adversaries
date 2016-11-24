@@ -24,8 +24,7 @@
 		},
 		"talents": ["Adversary 1"],
 		"abilities": ["Arboreal Creature", "Envenomed Bite", "Silhouette 2"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Claws and fangs",
 				"skill": "Brawl",
@@ -36,7 +35,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["book:cotgk", "location:Arbooine", "creature"]
+		"tags": ["book:cotgk", "location:Arbooine", "creature", "adventure:Chronicles of the Gatekeeper"]
 	},
 	{
 		"name": "Blackback",
@@ -61,8 +60,7 @@
 		},
 		"talents": ["Adversary 1"],
 		"abilities": ["Silhouette 2"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Talons",
 				"skill": "Brawl",
@@ -99,8 +97,7 @@
 		},
 		"talents": ["Improved Stunning Blow"],
 		"abilities": ["Silhouette 3"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Razor talons",
 				"skill": "Brawl",
@@ -137,8 +134,7 @@
 		},
 		"talents": [],
 		"abilities": ["Silhouette 2"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Sharp horns",
 				"skill": "Brawl",
@@ -174,8 +170,7 @@
 		},
 		"talents": [],
 		"abilities": ["Acidic Drool", "Silhouette 3"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Toothy bite",
 				"skill": "Brawl",
@@ -211,8 +206,7 @@
 		},
 		"talents": [],
 		"abilities": ["Camouflaged (Jungle)", "Surefooted"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Serrated teeth",
 				"skill": "Brawl",
@@ -250,8 +244,7 @@
 		},
 		"talents": [],
 		"abilities": [],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Slashing claws",
 				"skill": "Brawl",
@@ -297,8 +290,7 @@
 		},
 		"talents": ["Adversary 1"],
 		"abilities": ["Amphibious", "Crushing Grip"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Tentacles",
 				"skill": "Brawl",
@@ -336,8 +328,7 @@
 		},
 		"talents": ["Adversary 1"],
 		"abilities": ["Amphibious", "Crushing Grip"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Tentacles",
 				"skill": "Brawl",
@@ -376,8 +367,7 @@
 		},
 		"talents": ["Adversary 2"],
 		"abilities": ["Amphibious", "Crushing Grip"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Tentacles",
 				"skill": "Brawl",
@@ -414,8 +404,7 @@
 		},
 		"talents": [],
 		"abilities": ["Duracrete Plating"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Bite",
 				"skill": "Brawl",
@@ -449,8 +438,7 @@
 		},
 		"talents": [],
 		"abilities": ["Fecklen Boom"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Horns",
 				"skill": "Brawl",
@@ -486,8 +474,7 @@
 		},
 		"talents": [],
 		"abilities": ["Crushing Grip"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Bite",
 				"skill": "Brawl",
@@ -531,8 +518,7 @@
 		},
 		"talents": [],
 		"abilities": ["Silhouette 2", "Trained Mount 2"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Trampling hooves",
 				"skill": "Brawl",
@@ -569,8 +555,7 @@
 		},
 		"talents": [],
 		"abilities": ["Many-armed"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Meaty fists",
 				"skill": "Brawl",
@@ -608,8 +593,7 @@
 		},
 		"talents": [],
 		"abilities": ["Companion Animal"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Teeth",
 				"skill": "Brawl",
@@ -646,8 +630,7 @@
 		},
 		"talents": [],
 		"abilities": ["Silhouette 2", "Strong as a Jakobeast", "Force power: Move (Jakobeast)"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Tusks",
 				"skill": "Brawl",
@@ -681,8 +664,7 @@
 		},
 		"talents": ["Sense Emotions"],
 		"abilities": ["Flyer", "Soothing Song", "Silhouette 0"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Claws",
 				"skill": "Brawl",
@@ -718,8 +700,7 @@
 		},
 		"talents": [],
 		"abilities": ["Force Mimic"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Claws",
 				"skill": "Brawl",
@@ -756,8 +737,7 @@
 		},
 		"talents": ["Adversary 1", "Durable 5"],
 		"abilities": ["Hard to Kill", "Reckless Strike"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Crude club",
 				"skill": "Melee",
@@ -793,8 +773,7 @@
 		},
 		"talents": [],
 		"abilities": ["Silhouette 2", "Trained Mount 2"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Teeth",
 				"skill": "Brawl",
@@ -840,7 +819,6 @@
 		"talents": [],
 		"abilities": ["Silhouette 0", "Amphibious"],
 		"weapons": [],
-		"gear": [],
 		"tags": ["creature", "location:Hutt Space", "location:Klatooine", "book:lonh"]
 	},
 	{
@@ -866,8 +844,7 @@
 		},
 		"talents": [],
 		"abilities": ["Silhouette 0", "Sticky Saliva"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Barb and teeth",
 				"skill": "Brawl",
@@ -901,8 +878,7 @@
 		},
 		"talents": [],
 		"abilities": ["Neurotoxin", "Silhouette 0"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Spine",
 				"skill": "Brawl",
@@ -950,8 +926,7 @@
 		},
 		"talents": ["Natural Hunter"],
 		"abilities": ["Cunning Ambusher 1", "Leap", "Nightvision", "Silhouette 0"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Teeth and claws",
 				"skill": "Brawl",
@@ -989,8 +964,7 @@
 		},
 		"talents": ["Adversary 1"],
 		"abilities": [],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Claws",
 				"skill": "Brawl",
@@ -1025,8 +999,7 @@
 		},
 		"talents": [],
 		"abilities": ["Cloak"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Fangs",
 				"skill": "Brawl",
@@ -1062,8 +1035,7 @@
 		},
 		"talents": [],
 		"abilities": ["Surefooted"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Pummeling fists",
 				"skill": "Brawl",
@@ -1102,8 +1074,7 @@
 		},
 		"talents": ["Adversary 1"],
 		"abilities": ["Leap", "Silhouette 2"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Tusks and Claws",
 				"skill": "Brawl",
@@ -1140,8 +1111,7 @@
 		},
 		"talents": ["Adversary 1"],
 		"abilities": ["Silhouette 2", "Trained Mount 1"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Tail",
 				"skill": "Brawl",
@@ -1177,8 +1147,7 @@
 		},
 		"talents": [],
 		"abilities": ["Silhouette 0", "Aquatic Creature"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Electric skin",
 				"skill": "Brawl",
@@ -1213,8 +1182,7 @@
 		},
 		"talents": [],
 		"abilities": ["Vacuum Dweller", "Energy Parasite", "Flyer", "Helium Allergy"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Sucker-mouths and claws",
 				"skill": "Brawl",
@@ -1226,6 +1194,44 @@
 		],
 		"gear": [],
 		"tags": ["creature", "book:eote", "book:sor"]
+	},
+	{
+		"name": "Phantasmal Beast of Moraband",
+		"type": "Rival",
+		"description": "These prowling beasts feed on terror rather than flesh. Whether they are animals twisted by the dark side or illu­sions of the Force, it is impossible to say.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 6
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 2,
+			"Cool": 1,
+			"Stealth": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Crippling Blow"],
+		"abilities": ["Living Shadow"],
+		"weapons": [
+			{
+				"name": "Claws and teeth",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1", "Vicious 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Moraband", "creature"]
 	},
 	{
 		"name": "Photon Spider",
@@ -1251,8 +1257,7 @@
 		},
 		"talents": [],
 		"abilities": ["Crystalline", "Photonic Burst", "Silhouette 2"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Bladed legs",
 				"skill": "Brawl",
@@ -1289,8 +1294,7 @@
 		},
 		"talents": [],
 		"abilities": ["Amphibious", "Silhouette 0", "Poisonous"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Tongue",
 				"skill": "Ranged: Light",
@@ -1336,8 +1340,7 @@
 		},
 		"talents": [],
 		"abilities": ["Silhouette 3", "Sweep Attack"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Massive rending claws",
 				"skill": "Brawl",
@@ -1375,8 +1378,7 @@
 		},
 		"talents": [],
 		"abilities": ["Barbed Hide", "Silhouette 2"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Deadly fangs",
 				"skill": "Brawl",
@@ -1413,8 +1415,7 @@
 		},
 		"talents": ["Adversary 1", "Force Rating 2", "Darkside Force User"],
 		"abilities": ["Drain Life", "Force power: Influence"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Grasping limbs",
 				"skill": "Brawl",
@@ -1451,8 +1452,7 @@
 		},
 		"talents": [],
 		"abilities": ["Aquatic Creature", "Silhouette 2"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Razor pincers",
 				"skill": "Brawl",
@@ -1498,8 +1498,7 @@
 		},
 		"talents": ["Adversary 1"],
 		"abilities": ["Amphibious", "Many-armed", "Silhouette 2"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Large claws",
 				"skill": "Brawl",
@@ -1535,8 +1534,7 @@
 		},
 		"talents": [],
 		"abilities": ["Arboreal Creature", "Silhouette 2"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Claws and teeth",
 				"skill": "Brawl",
@@ -1547,7 +1545,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["book:cotgk", "creature", "location:Arbooine"]
+		"tags": ["book:cotgk", "creature", "location:Arbooine", "adventure:Chronicles of the Gatekeeper"]
 	},
 	{
 		"name": "Tauntaun",
@@ -1572,8 +1570,7 @@
 		},
 		"talents": [],
 		"abilities": ["Silhouette 2", "Trained Mount 1"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Horns",
 				"skill": "Brawl",
@@ -1610,8 +1607,7 @@
 		},
 		"talents": [],
 		"abilities": ["Silhouette 0", "Dive-bomb"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Talons",
 				"skill": "Brawl",
@@ -1649,8 +1645,7 @@
 		},
 		"talents": [],
 		"abilities": ["Silhouette 3", "Aquatic Creature", "Lightning Charge", "Trained Mount 2"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Jaws",
 				"skill": "Brawl",
@@ -1688,8 +1683,7 @@
 		},
 		"talents": ["Durable 3"],
 		"abilities": ["Awkward", "Ponderous"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Claws",
 				"skill": "Brawl",
@@ -1734,8 +1728,7 @@
 		},
 		"talents": ["Stunning Blow"],
 		"abilities": ["Camouflaged (Snow)", "Suited to the Cold"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Claws",
 				"skill": "Brawl",
@@ -1772,8 +1765,7 @@
 		},
 		"talents": ["Adversary 1"],
 		"abilities": ["Silhouette 4", "Aquatic Creature"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Tail",
 				"skill": "Brawl",
@@ -1813,8 +1805,7 @@
 		},
 		"talents": [],
 		"abilities": ["Detect Force-Sensitivity", "Force Hunter"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Tail",
 				"skill": "Brawl",
@@ -1861,8 +1852,7 @@
 		},
 		"talents": [],
 		"abilities": ["Olfactory Perception"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Powerful claws",
 				"skill": "Brawl",
@@ -1894,8 +1884,7 @@
 		"skills": {},
 		"talents": [],
 		"abilities": ["Negate Force Powers", "Sessile", "Silhouette 0"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Teeth",
 				"skill": "Brawl",

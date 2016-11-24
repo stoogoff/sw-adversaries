@@ -24,8 +24,7 @@
 		},
 		"talents": [],
 		"abilities": [],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Duelist blaster pistol",
 				"skill": "Ranged: Light",
@@ -68,8 +67,7 @@
 		},
 		"talents": ["Adversary 2", "Hunter’s Quarry", "Natural Hunter"],
 		"abilities": ["Animal Combatant", "Wilderness Valor"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Scoped blaster rifle",
 				"skill": "Ranged: Heavy",
@@ -174,8 +172,7 @@
 		},
 		"talents": [],
 		"abilities": [],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Stun rifle",
 				"skill": "Ranged: Heavy",
@@ -275,8 +272,7 @@
 		},
 		"talents": ["Fire Control"],
 		"abilities": [],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Stun pistol",
 				"skill": "Ranged: Light",
@@ -546,8 +542,8 @@
 		},
 		"talents": [],
 		"abilities": [],
-		"weapons": ["Heavy blaster pistol"],
-		"specialist-weapons": [
+		"weapons": [
+			"Heavy blaster pistol",
 			{
 				"name": "Stun club",
 				"skill": "Melee",
@@ -787,8 +783,7 @@
 		},
 		"talents": [],
 		"abilities": [],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Sheperd’s crook",
 				"skill": "Melee",
@@ -945,8 +940,8 @@
 		},
 		"talents": ["Adversary 1", "Expert Tracker 2"],
 		"abilities": ["Ammonia Breather"],
-		"weapons": ["Vibroknife"],
-		"specialist-weapons": [
+		"weapons": [
+			"Vibroknife",
 			{
 				"name": "Scoped blaster rifle",
 				"skill": "Ranged: Heavy",
@@ -1010,7 +1005,7 @@
 		"abilities": ["Strength in Numbers"],
 		"weapons": ["Light blaster pistol", "Truncheon"],
 		"gear": [],
-		"tags": ["book:cotgk", "location:Cato Nemoidia", "species:Nemoidian"]
+		"tags": ["book:cotgk", "location:Cato Nemoidia", "species:Nemoidian", "adventure:Chronicles of the Gatekeeper"]
 	},
 	{
 		"name": "Planetary Defence Trooper",
@@ -1190,7 +1185,7 @@
 		"abilities": ["Glider"],
 		"weapons": ["Slugthrower rifle", "Diiro"],
 		"gear": ["1 Dose bearsloth venom", "Thick furs and leathers (++1 Soak)"],
-		"tags": ["book:cotgk", "civilian", "location:Arbooine", "location:Quolas", "species:Sathari"]
+		"tags": ["book:cotgk", "civilian", "location:Arbooine", "location:Quolas", "species:Sathari", "adventure:Chronicles of the Gatekeeper"]
 	},
 	{
 		"name": "Quolas Elder",
@@ -1219,7 +1214,7 @@
 		"abilities": ["Glider"],
 		"weapons": ["Diiro"],
 		"gear": ["5 Doses bearsloth venom", "Ornate thick furs and leathers (++1 Soak)"],
-		"tags": ["book:cotgk", "civilian", "location:Arbooine", "location:Quolas", "species:Sathari"]
+		"tags": ["book:cotgk", "civilian", "location:Arbooine", "location:Quolas", "species:Sathari", "adventure:Chronicles of the Gatekeeper"]
 	},
 	{
 		"name": "Quolas Guard",
@@ -1248,7 +1243,7 @@
 		"abilities": ["Glider"],
 		"weapons": ["Slugthrower pistol", "Diiro"],
 		"gear": ["2 Doses of bearsloth venom", "Padded armour (+2 Soak)", "Binders"],
-		"tags": ["book:cotgk", "civilian", "security", "location:Arbooine", "location:Quolas", "species:Sathari"]
+		"tags": ["book:cotgk", "civilian", "security", "location:Arbooine", "location:Quolas", "species:Sathari", "adventure:Chronicles of the Gatekeeper"]
 	},
 	{
 		"name": "Quolas Guard Captain",
@@ -1278,7 +1273,7 @@
 		"abilities": ["Glider", "Restraint"],
 		"weapons": ["Slugthrower pistol", "Diiro"],
 		"gear": ["10 Doses of bearsloth venom", "2 Doses of bearsloth anti-venom", "Padded armour (+2 Soak)", "Binders", "Comlink"],
-		"tags": ["book:cotgk", "civilian", "security", "location:Arbooine", "location:Quolas", "species:Sathari"]
+		"tags": ["book:cotgk", "civilian", "security", "location:Arbooine", "location:Quolas", "species:Sathari", "adventure:Chronicles of the Gatekeeper"]
 	},
 	{
 		"name": "Sector Ranger",
@@ -1309,8 +1304,8 @@
 		},
 		"talents": ["Adversary 1"],
 		"abilities": [],
-		"weapons": ["Blaster pistol"],
-		"specialist-weapons": [
+		"weapons": [
+			"Blaster pistol",
 			{
 				"name": "Scoped blaster rifle",
 				"skill": "Ranged: Heavy",
@@ -1530,8 +1525,8 @@
 		},
 		"talents": [],
 		"abilities": [],
-		"weapons": ["Blaster carbine"],
-		"specialist-weapons": [
+		"weapons": [
+			"Blaster carbine",
 			{
 				"name": "Stun baton",
 				"skill": "Melee",
@@ -1568,8 +1563,7 @@
 		},
 		"talents": [],
 		"abilities": ["Hoverer", "Silhouette 0"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Farming implement",
 				"skill": "Melee",
@@ -1660,8 +1654,7 @@
 		},
 		"talents": [],
 		"abilities": ["Silhouette 0", "Stubborn and Dependable"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Giant hydrospanner",
 				"skill": "Melee",

@@ -278,8 +278,8 @@
 		},
 		"talents": ["Adversary 2", "Inspiring Rhetoric"],
 		"abilities": ["Alliance Leader"],
-		"weapons": ["Disruptor pistol", "Vibroknife"],
-		"specialist-weapons": [
+		"weapons": [
+			"Disruptor pistol", "Vibroknife",
 			{
 				"name": "Fire bomb",
 				"skill": "Ranged: Light",

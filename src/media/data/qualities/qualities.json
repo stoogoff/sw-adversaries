@@ -35,6 +35,16 @@
 		"description": "Weapons with the Cortosis quality are immune to the Sunder quality.\n\nArmour with the Cortosis quality ignores the Pierce and Breach qualities."
 	},
 	{
+		"name": "Cortosis Rounds",
+		"type": "Active",
+		"description": "Spend :advantage::advantage::advantage: or :triumph: from combat check to short out and deactivate target's lightsaber; lightsaber cannot be reactivated until the last initiative slot of the next round."
+	},
+	{
+		"name": "Refined Cortosis",
+		"type": "Active",
+		"description": "Spend :advantage::advantage::advantage: or :triumph: on own combat check or :threat::threat::threat: or :despair: on attacker’s combat check to short out and deactivate target's lightsaber; lightsaber cannot be reactivated until the last initiative slot of the next round."
+	},
+	{
 		"name": "Cumbersome",
 		"type": "Passive",
 		"description": "The character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating."

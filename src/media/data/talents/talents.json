@@ -249,7 +249,7 @@
 	},
 	{
 		"name": "Crippling Blow",
-		"description": "May increase damage of attack by 1. If suc­cessful, target suffers one strain when moving for remainder of encounter."
+		"description": "May increase difficulty of attack by 1. If suc­cessful, target suffers one strain when moving for remainder of encounter."
 	},
 	{
 		"name": "Custom Loadout",
@@ -433,7 +433,7 @@
 	},
 	{
 		"name": "Expert Tracker",
-		"description": "Remove :setback: from checks to find tracks or track targets; decrease time to track a target by 25% per rank."
+		"description": "Remove :setback: per rank from checks to find tracks or track targets; decrease time to track a target by 25% per rank."
 	},
 	{
 		"name": "Eye for Detail",
@@ -1052,8 +1052,8 @@
 		"description": "When struck by a melee attack but before applying Soak, suffer 3 Strain to reduce damage by 2 plus ranks in Parry."
 	},
 	{
-		"name": "Parry (Improved)",
-		"description": ""
+		"name": "Improved Parry",
+		"description": "When struck by a melee attack but before applying Soak, suffer 3 Strain to reduce damage by 2 plus ranks in Parry; if the attack generates :despair: or :threat::threat::threat:, inflict an automatic hit with lightsaber, dealing base damage."
 	},
 	{
 		"name": "Parry (Supreme)",
@@ -1173,11 +1173,11 @@
 	},
 	{
 		"name": "Reflect",
-		"description": "When struck by a ranged attack but before apply­ing soak, suffer 3 strain to reduce damage by 2 plus ranks in Reflect."
+		"description": "When struck by a ranged attack but before apply­ing Soak, suffer 3 Strain to reduce damage by 2 plus ranks in Reflect."
 	},
 	{
-		"name": "Reflect (Improved)",
-		"description": ""
+		"name": "Improved Reflect",
+		"description": "When struck by a ranged attack but before apply­ing Soak, suffer 3 Strain to reduce damage by 2 plus ranks in Reflect; if the attack generates :despair: or :threat::threat::threat:, inflict an automatic hit on one target in Medium range, with the damage of the original hit."
 	},
 	{
 		"name": "Reflect (Supreme)",
@@ -1229,7 +1229,7 @@
 	},
 	{
 		"name": "Saber Throw",
-		"description": ""
+		"description": "Make a Lightsaber check against a target within Medium range, adding :force: up to Force rating: spend :lightside: for attack to succeed and :lightside: for lightsaber to return to hand."
 	},
 	{
 		"name": "Sarlacc Sweep",

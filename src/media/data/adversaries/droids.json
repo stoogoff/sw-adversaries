@@ -53,8 +53,8 @@
 		},
 		"talents": ["Adversary 1", "Nobody’s Fool 1"],
 		"abilities": ["Droid"],
-		"weapons": ["Blaster carbine", "Riot shield"],
-		"specialist-weapons": [
+		"weapons": [
+			"Blaster carbine", "Riot shield",
 			{
 				"name": "Stun baton",
 				"skill": "Melee",
@@ -181,8 +181,8 @@
 		},
 		"talents": ["Adversary 2", "Barrage 3", "Point Blank 3"],
 		"abilities": ["Droid"],
-		"weapons": ["Light repeating blaster"],
-		"specialist-weapons": [
+		"weapons": [
+			"Light repeating blaster",
 			{
 				"name": "Builtin-in light blaster pistol",
 				"skill": "Ranged: Light",
@@ -229,8 +229,7 @@
 		},
 		"talents": [],
 		"abilities": [],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Arc welder",
 				"skill": "Melee",
@@ -270,7 +269,7 @@
 		"abilities": ["Droid"],
 		"weapons": ["Blaster carbine", "Vibrosword", "Frag grenade", "Stun grenade"],
 		"gear": [],
-		"tags": ["species:Droid", "separatist", "book:cotgk"]
+		"tags": ["species:Droid", "separatist", "book:cotgk", "adventure:Chronicles of the Gatekeeper"]
 	},
 	{
 		"name": "CT-4 Medical Droid",
@@ -324,8 +323,7 @@
 		},
 		"talents": [],
 		"abilities": ["Droid", "Fire Sweep", "Shield Projector"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Twin heavy blasters",
 				"skill": "Gunnery",
@@ -344,7 +342,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["species:Droid", "separatist", "book:cotgk"]
+		"tags": ["species:Droid", "separatist", "book:cotgk", "adventure:Chronicles of the Gatekeeper"]
 	},
 	{
 		"name": "IG-100 MagnaGuard",
@@ -402,8 +400,7 @@
 		},
 		"talents": [],
 		"abilities": ["Droid", "Hoverer"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Built-in auto-blaster",
 				"skill": "Ranged: Light",
@@ -441,8 +438,7 @@
 		},
 		"talents": [],
 		"abilities": ["Droid", "Hoverer", "Silhouette 0"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Acid jet",
 				"skill": "Ranged: Light",
@@ -485,8 +481,7 @@
 		},
 		"talents": [],
 		"abilities": ["Droid"],
-		"weapons": [],
-			"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Arc welder",
 				"skill": "Melee",
@@ -606,8 +601,7 @@
 		},
 		"talents": [],
 		"abilities": ["Droid"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Heavy-duty drilling laser",
 				"skill": "Ranged: Light",
@@ -699,8 +693,8 @@
 		},
 		"talents": [],
 		"abilities": ["Droid"],
-		"weapons": ["Blaster pistol"],
-		"specialist-weapons": [
+		"weapons": [
+			"Blaster pistol",
 			{
 				"name": "Snare launcher",
 				"skill": "Ranged: Light",
@@ -798,8 +792,7 @@
 		},
 		"talents": [],
 		"abilities": ["Droid", "Hoverer", "Self-destruct Mechanism"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Built-in blaster",
 				"skill": "Ranged: Light",

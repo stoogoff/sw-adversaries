@@ -394,6 +394,55 @@
 		"tags": ["rebel alliance", "engineer", "location:Tierfon Outpost", "species:Sullustan", "book:sor"]
 	},
 	{
+		"name": "Dalan Oberos",
+		"type": "Nemesis",
+		"description": "To deal with true inheritors of the Jedi legacy, the duke turns to a human bounty hunter named Dalan Oberos, who specializes in dealing with such enemies of the Empire. During the Clone Wars, Oberos first came into conflict with Jedi while completing con­tracts from Count Dooku and the Separatist Alliance. In the earlier days of the Empire, he further cemented his reputation by tracking down and bringing in Jedi survivors and other Force sensitives. In more recent years, such bounties have become fewer and further between, and the bounty hunter is eager for the op­portunity to test his mettle and earn a considerable commission from Duke Irbian.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 20,
+			"strain": 20,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Discipline": 3,
+			"Melee": 3,
+			"Ranged: Light": 3,
+			"Ranged: Heavy": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Expert Tracker 2", "Quick Draw"],
+		"abilities": ["Practiced Resistance"],
+		"weapons": [
+			{
+				"name": "Custom slugthrower carbine",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Auto-Fire", "Cortosis", "Cortosis Rounds", "Superior"]
+			},
+			{
+				"name": "Cortosis gauntlets",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Cortosis"]
+			},
+			"Thermal detonator"
+		],
+		"gear": ["Cortosis-laced battle armour (+2 Soak, +1 Defence, Cortosis)", "1 Thermal detonator"],
+		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "bounty hunter", "underworld"]
+	},
+	{
 		"name": "Deck Officer Lt. Nela Arseli",
 		"type": "Rival",
 		"description": "Lt. Nela Arseli is one of a rotating pool of personnel serving as deck officers in Echo Base’s hangars. When on duty, she tracks and directs operations occurring within the hangar at any given time. She often helps with orga­nising ships and vehicles as needed within the hangar to carry out their various missions and requirements, though other staff actually direct the traffic. She nominally knows who is work­ ing in the hangar at any given time, though in practice this only applies to those assigned to the current duty shift.\n\nLt. Arseli joined the Rebellion on Dantooine, serving at that base until it was relocated. She has since served in many smaller bases in a variety of roles, enabling her to meet many more pilots and personnel than the average Rebel. She has a sharp memory and runs an efficient hangar.",
@@ -451,6 +500,42 @@
 		"weapons": [],
 		"gear": ["Spatula", "Puffy chef’s hat", "Utility apron"],
 		"tags": ["civilian", "species:Toydarian", "location:Hutt Space", "book:lonh", "adventure:Toydarian Grocery Shopping", "location:toydaria"]
+	},
+	{
+		"name": "Duke Erron Irbian",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 14
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 3,
+			"Cool": 2,
+			"Deception": 3,
+			"Discipline": 2,
+			"Education": 2,
+			"Knowledge: Core Worlds": 3,
+			"Leadership": 3,
+			"Ranged: Light": 2,
+			"Streetwise": 1,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Plausible Deniability 2"],
+		"abilities": ["Imperial Valour"],
+		"weapons": ["Blaster pistol"],
+		"gear": [],
+		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "empire", "imperial bureaucracy", "location:Cato Nemoidia", "location:Jorra"]
 	},
 	{
 		"name": "Fereallis Pirate Crewmate",
@@ -614,7 +699,7 @@
 		"abilities": ["Darkside Force User", "Force power: Battle Meditation"],
 		"weapons": ["Cortosis sword", "Blaster pistol", "Stun grenade"],
 		"gear": ["Armoured robes (+2 Soak, +1 Defence)", "Commlink", "Kyber crystal amulet", "2 Stun grenades"],
-		"tags": ["book:cotgk", "location:Arbooine", "location:Quolas"]
+		"tags": ["book:cotgk", "location:Arbooine", "location:Quolas", "adventure:Chronicles of the Gatekeeper"]
 	},
 	{
 		"name": "General Elora Silssusio",
@@ -841,8 +926,8 @@
 		},
 		"talents": ["Lethal Blows", "Resolve"],
 		"abilities": ["Enhanced Nemesis Combat"],
-		"weapons": ["Heavy blaster pistol"],
-		"specialist-weapons": [
+		"weapons": [
+			"Heavy blaster pistol",
 			{
 				"name": "Claws",
 				"skill": "Brawl",
@@ -886,8 +971,7 @@
 		},
 		"talents": ["Nobody’s Fool 1", "Plausible Deniability 2", "Scathing Tirade"],
 		"abilities": ["Hoverer", "Silhouette 0"],
-		"weapons": [],
-		"specialist-weapons": [
+		"weapons": [
 			{
 				"name": "Ceremonial sword",
 				"skill": "Melee",
@@ -957,8 +1041,8 @@
 		},
 		"talents": ["Knockdown"],
 		"abilities": [],
-		"weapons": ["Heavy blaster pistol"],
-		"specialist-weapons": [
+		"weapons": [
+			"Heavy blaster pistol",
 			{
 				"name": "Poisoned claws",
 				"skill": "Brawl",
@@ -1011,6 +1095,46 @@
 		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Comlink", "Encrypted datapad with Imperial holonet uplink"],
 		"tags": ["book:sor", "adventure:In Too Deep", "empire", "imperial security bureau"]
 	},
+	{
+		"name": "Lor Keln",
+		"type": "Rival",
+		"description": "Lor Keln is the cruel, one-eyed leader of the Crimson Kree­hawks, reporting directly, if infrequently, to Onrein Hasar. Keln takes a perverse joy in inflicting pain on her enemies, preferring to humiliate foes before delivering a killing blow, unnecessarily prolonging fights.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Piloting: Planetary": 3,
+			"Ranged: Light": 2,
+			"Streetwise": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Push the Limit"],
+		"weapons": [
+			"Vibroknuckles",
+			{
+				"name": "Custom heavy blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			}
+		],
+		"gear": ["Armoured clothin (+1 Soak, +1 Defence)", "Mobquet Flare-V swoop bike with particularly garish paint job"],
+		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Cato Nemoidia", "location:Jorra", "species:Nemoidian", "kreehawk ganger", "underworld"]
+	},	
 	{
 		"name": "Mehmet Alovar",
 		"type": "Rival",
@@ -1081,6 +1205,59 @@
 		"tags": ["book:sor", "species:Chadra-Fan", "adventure:The Geharr Incident", "location:Ord Gimmel", "gambler", "imperial security bureau", "double-agent", "rebel alliance"]
 	},
 	{
+		"name": "Onrein Hasa",
+		"type": "Nemesis",
+		"description": "Onrein Hasar was once a successful executive in the Trade Federation and, once the Clone Wars broke out, an influential diplomat for the Separatist Alliance. She was one of the del­egates who arrived in Jorra to negotiate a cease-fire, and was the only one to survive Warde’s assault. Although she lived, Flasar was wounded almost unto death, and the evidence of the attack is clear to this day. Scar tissue laces much of Hasar’s face, and her gray skin is gnarled from a lifetime of strife. Her glaring cybernetic eyes stare out from among the surgical grafts and cybernetic components. An implanted res­pirator unit projects an intimidating synthesized voice and the wheeze of cybernetic lungs. Although usually hidden beneath opulent robes reminiscent of the greatest of Trade Federation leaders, the rest of Flasar’s body features similar mechanical replacements for the flesh and bone Warde took from her.\n\nAlthough she has built a thriving criminal empire, this is the not the life Flasar had planned. To this day, she hates Warde, and it is this spite that drives her in all she does. Flasar would savor the opportunity to vent that rage on any whom she perceives as allies of Warde, whether or not they have ever actually met the fallen Jedi.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16,
+			"strain": 20,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Coercion": 4,
+			"Cool": 3,
+			"Deception": 4,
+			"Discipline": 4,
+			"Knowl­edge: Underworld": 4,
+			"Leadership": 3,
+			"Melee": 2,
+			"Negotiation": 3,
+			"Ranged: Light": 2,
+			"Streetwise": 3
+		},
+		"talents": ["Adversary 1", "Intimidating 2"],
+		"abilities": ["Fearsome Aspect"],
+		"weapons": [
+			{
+				"name": "Modded blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting", "Superior"]
+			},
+			{
+				"name": "Refined cortosis staff",
+				"skill": "Melee",
+				"plus-damage": 3,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Stun Setting", "Cortosis", "Refined Cortosis"]
+			}
+		],
+		"gear": ["Armoured robes (+2 Soak, +1 Defence)", "Comlink"],
+		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Jorra", "location:Cato Nemoidia", "species:Nemoidian"]
+	},
+	{
 		"name": "Pashna Genko",
 		"type": "Rival",
 		"description": "A native of the Mon Cala capital of Coral City, Pashna is one of the few Mon Calamari women in the Alliance’s fighter corps. She is currently the leader of the 88th Attack Squadron, the Y-wing squadron recently assigned to Polis Massa. Her squadron has taken the brunt of the attacks, as the slower, heavier Y-wings make easy targets for the speedy phantoms. Only six Y-wings remain, including hers.",
@@ -1138,7 +1315,7 @@
 		"abilities": ["For Quolas!", "Glider"],
 		"weapons": ["Slugthrower rifle", "Diiro"],
 		"gear": ["Furs and leathers (+1 Soak)", "23 Doses bearsloth venom"],
-		"tags": ["book:cotgk", "civilian", "sathari resistance", "location:Arbooine", "location:Quolas", "species:Sathari"]
+		"tags": ["book:cotgk", "civilian", "sathari resistance", "location:Arbooine", "location:Quolas", "species:Sathari", "adventure:Chronicles of the Gatekeeper"]
 	},
 	{
 		"name": "Regent Credi Solfinn",
@@ -1358,6 +1535,51 @@
 		"tags": ["underworld", "book:uabs", "adventure:Under a Black Sun", "location:Coruscant"]
 	},
 	{
+		"name": "Suljo Warde",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 20,
+			"strain": 22,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 4,
+			"Cool": 3,
+			"Deception": 3,
+			"Discipline": 3,
+			"Lightsaber": 4,
+			"Perception": 3,
+			"Resilience": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 3", "Improved Centre of Being 2", "Force Rating 5", "Improved Parry 3", "Improved Reflect 3", "Saber Throw"],
+		"abilities": ["Darkside Force User", "Force power: Enhance (Upgrade)", "Force power: Move (Upgrade)", "Force power: Warde’s Foresight"],
+		"weapons": [
+			{
+				"name": "Modified lightsaber",
+				"skill": "Lightsaber",
+				"damage": 9,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder"],
+				"notes": "Dantari crystal\n\nSpend :force: on Force power checks to recover 2 Strain."
+			}
+		],
+		"gear": ["Armoured robes (+2 Soak, +1 Defence)", "Kyber crystal"],
+		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Moraband", "fallen jedi", "force sensitive"]
+	},
+	{
 		"name": "Taska Mastigar",
 		"type": "Rival",
 		"description": "Taska Mastigar, a charming, handsome young woman from Coruscant, is a highly troublesome agitator and rabble-rouser devoted solely to her own wealth and comfort. A gifted orator and master of at least a dozen languages, she has a gift for whipping a crowd into a frenzy with fiery rhetoric and then unleashing them to run riot. She has sold her skills to the highest bidder for at least a decade now and shows no signs of slow­ing down. Dealing with her is a dangerous proposition, as she is untrustworthy in the extreme and will turn on an employer at a moment’s notice if the price is right. ",
@@ -1422,8 +1644,8 @@
 		},
 		"talents": ["Adversary 1"],
 		"abilities": [],
-		"weapons": ["Disruptor pistol", "Holdout blaster"],
-		"specialist-weapons": [
+		"weapons": [
+			"Disruptor pistol", "Holdout blaster",
 			{
 				"name": "Claws",
 				"skill": "Brawl",
@@ -1495,8 +1717,8 @@
 		},
 		"talents": ["Adversary 1", "Soft Spot"],
 		"abilities": [],
-		"weapons": ["Blaster pistol", "Vibroknife"],
-		"specialist-weapons": [
+		"weapons": [
+			"Blaster pistol", "Vibroknife",
 			{
 				"name": "Blaster rifle with spin barrel mod",
 				"skill": "Ranged: Heavy",
@@ -1508,6 +1730,36 @@
 		],
 		"gear": ["Padded armour (+2 Soak)", "Comlink", "Utility belt"],
 		"tags": ["underworld", "species:Rodian", "assassin", "book:lonh", "adventure:Rubbing Slimy Elbows"]
+	},
+	{
+		"name": "Tor Haido",
+		"type": "Tor Haido is a Neimoidian male of late middle age. Unre­markable and unassuming, he works as a factory supervisor, which suits-him. During the Clone Wars, Haido briefly served as an informant for Suljo Warde and the Republic. As Warde became increasingly paranoid and vindictive, Haido began to fear for his own safety. In the years since Warde left, he has tried to hide his affiliation.",
+		"description": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10
+		},
+		"skills": {
+			"Cool": 1,
+			"Discipline": 1,
+			"Mechanics": 2,
+			"Negotiation": 1,
+			"Perception": 1,
+			"Skulduggery": 1
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Holdout blaster"],
+		"gear": [],
+		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "species:Nemoidian", "location:Cato Nemoidia", "location:Jorra"]
 	},
 	{
 		"name": "Tracer",
@@ -1540,6 +1792,50 @@
 		"weapons": [],
 		"gear": ["Detention centre prison uniform"],
 		"tags": ["rebel alliance", "book:ragp", "adventure:Rescue at Glare Peak"]
+	},
+	{
+		"name": "Stormtrooper Captain TH-313",
+		"type": "Rival",
+		"description": "TH-31 3, sometimes known as Tacker, served under Suljo Warde during the Clone Wars. Tacker was very fond of Warde and held him in high esteem. His respect for Warde remained even as sentiment began to turn against Warde due to the harsh measures he took to maintain Republic control of the city. Clone troopers rarely questioned their superiors’ orders, and though Tacker had some reservations about Warde’s methods, he never gave voice to them openly. As a combatant, Tacker saw Warde as peerless even among the Jedi he knew and served. He can recount numerous an­ecdotes in which Warde’s power of foresight saved his life and those of his fellow soldiers. If the PCs engage him in con­versation about Warde and the days of the Clone Wars, he also tells them of the Jedi Knight’s skill with the lightsaber, his ability to lift objects with his mind, and the superhuman feats he performed in combat, leaping from one foe to an­other with incredible speed. Tacker expresses regret that such warriors are so rare today, and encourages them to pursue their own gifts as the Jedi of old once did.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 20
+		},
+		"skills": {
+			"Athletics": 2,
+			"Deception": 1,
+			"Discipline": 2,
+			"Leadership": 3,
+			"Melee": 2,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 2,
+			"Resil­ience": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Bad Knee"],
+		"weapons": [
+			"Vibroknife",
+			"Frag grenade",
+			{
+				"name": "Two SE-14r light repeating blaster pistols",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Auto-Fire", "Stun Setting"]
+			}
+		],
+		"gear": ["2 Frag grenades", "Stormtrooper armour (+2 Soak)", "Utility belt", "Extra reloads"],
+		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "empire", "imperial military", "stormtrooper", "location:Cato Nemoidia", "location:Jorra"]
 	},
 	{
 		"name": "Verannis",
@@ -1600,5 +1896,37 @@
 		"weapons": [],
 		"gear": ["100 credits", "Morbo’s Place cantina"],
 		"tags": ["civilian", "rebel alliance", "book:sor", "location:Thyferra"]
+	},
+	{
+		"name": "Zel N’got",
+		"type": "Rival",
+		"description": "Zel N’got served as a spy for the Confederacy of Indepen­dent Systems during the Clone Wars. He is now in his old age, and his constant anxiety in the intervening years has further taken its toll on him. Although his mind is still sharp, N’got is physically weak. While his priority is his own survival, N’got strongly resents the Republic’s victory in the Clone Wars and the Empire’s control of Cato Neimoidia, for which he still places part of the blame on Suljo Warde.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 8
+		},
+		"skills": {
+			"Computers": 2,
+			"Cool": 1,
+			"Discipline": 1,
+			"Mechanics": 2,
+			"Per­ception": 1,
+			"Ranged: Light": 1,
+			"Skulduggery": 1,
+			"Stealth": 1
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Holdout blaster", "Stun grenade"],
+		"gear": ["2 Stun grenades"],
+		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Cato Neimoidia", "location:Jorra", "species:Nemoidian", "separatist", "spy"]
 	}
 ]
