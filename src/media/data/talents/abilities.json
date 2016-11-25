@@ -400,6 +400,10 @@
 		"description": "Can survive in vacuum without penalty and can move in a vacuum envi­ronment."
 	},
 	{
+		"name": "Vulnerable to Blasts",
+		"description": "Add :boost::boost: to checks made with weapons with the Blast qualiLy targeting minion groups of butterbug remotes."
+	},
+	{
 		"name": "Wilderness Valor",
 		"description": "Add :boost::boost: to resist fear against wild creatures."
 	},
@@ -427,5 +431,4 @@
 		"name": "Southern Nikto",
 		"description": "Add 1 rank in Perception. A Southern Nikto may add :boost: to Perception and Vigilance checks to detect sound."
 	}
-
 ]

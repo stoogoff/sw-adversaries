@@ -243,6 +243,41 @@
 		"tags": ["species:Droid", "engineer", "book:aor", "book:eote"]
 	},
 	{
+		"name": "Butterbug Remote",
+		"type": "Minion",
+		"description": "These small palm-sized remotes transmit localised information to each other and to the user. Whole batches can be linked together as a networked swarm.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 3
+		},
+		"skills": {
+			"Mechanics": 0,
+			"Melee": 0
+		},
+		"talents": [],
+		"abilities": ["Droid", "Silhouette 0", "Vulnerable to Blasts"],
+		"weapons": [
+			{
+				"name": "Micro-tools and drills",
+				"skill": "Melee",
+				"damage": 2,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sm", "species:Droid", "remote"]
+	},
+	{
 		"name": "BX Commando Droid",
 		"type": "Minion",
 		"description": "Relics of the Separatist droid army of the Clone Wars, BX-series commando droids served as infiltrators and assas­sins. More cunning, skilled, durable, and dangerous than the more common BI battle droids, commando droids were more expensive to produce, and their use was thus limited to vital missions and support duties.\n\nWhile their less deadly counterparts are still seen occa­sionally across the galaxy, serving at the behest of criminals and mercenaries, active commando droids are, thankfully, all but unheard of in current times.",
@@ -343,6 +378,31 @@
 		],
 		"gear": [],
 		"tags": ["species:Droid", "separatist", "book:cotgk", "adventure:Chronicles of the Gatekeeper"]
+	},
+	{
+		"name": "Generic Remote",
+		"type": "Minion",
+		"description": "Small wheeled devices, spheres with miniature repul­sorlifts, and various other chasses house generic remotes. which can perform basic preprogrammed tasks in response to simple commands from users.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": {
+			"Perception": 0
+		},
+		"talents": [],
+		"abilities": ["Droid", "Silhouette 0"],
+		"weapons": [],
+		"gear": [],
+		"tags": ["book:sm", "species:Droid", "remote"]
 	},
 	{
 		"name": "IG-100 MagnaGuard",
@@ -706,6 +766,58 @@
 		],
 		"gear": [],
 		"tags": ["species:Droid", "security", "book:eote"]
+	},
+	{
+		"name": "Service Patch Remote",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": {
+			"Computers": 0,
+			"Mechanics": 0
+		},
+		"talents": ["Technical Aptitude 1"],
+		"abilities": ["Droid", "Silhouette 0"],
+		"weapons": [],
+		"gear": ["Built-in toolkit"],
+		"tags": ["book:sm", "species:Droid", "remote"]
+	},
+	{
+		"name": "Shield Remote",
+		"type": "Minion",
+		"description": "This asymmetrical remoLe has an armored shield on one side and motion-tracking sensors scattered across its shell. The remote places itself between aggressors and the user, physically impeding aLtacks.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 6,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Vigilance": 0
+		},
+		"talents": ["Body Guard 1"],
+		"abilities": ["Droid", "Silhouette 0"],
+		"weapons": [],
+		"gear": ["General purpose scanner"],
+		"tags": ["book:sm", "species:Droid", "remote"]
 	},
 	{
 		"name": "Sorosuub G2 Repair Droid",

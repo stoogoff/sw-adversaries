@@ -101,7 +101,7 @@
 	},
 	{
 		"name": "Body Guard",
-		"description": ""
+		"description": "Once per round, may suffer 1 Strain per rank to take the Body Guard maneuver to protect an engaged ally; until the end of the character's next turn, upgrade the difficulty of all combat checks targeting the protected ally once per Strain spent."
 	},
 	{
 		"name": "Body Guard (Improved)",

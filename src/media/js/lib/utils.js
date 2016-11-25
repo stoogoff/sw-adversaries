@@ -95,6 +95,9 @@ let bookMap = {
 	"book:sor": "Strongholds of Resistance",
 	"book:nop": "Nexus of Power",
 
+	// career books
+	"book:sm": "Special Modifications",
+
 	// adventures
 	"book:uabs": "Under a Black Sun",
 	"book:cotgk": "Chronicles of the Gate Keeper",

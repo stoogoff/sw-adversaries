@@ -67,3 +67,4 @@ Main tasks:
 - Favourite adversaries
 - Favicon
 - Links between adversaries
+- Proper force pips rather than using the light side icon
