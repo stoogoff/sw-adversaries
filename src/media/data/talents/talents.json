@@ -69,7 +69,7 @@
 	},
 	{
 		"name": "Barrage",
-		"description": "Add 3 to the damage of all Gunnery and Ranged attacks at Medium or Long range."
+		"description": "Add 1 damage per rank to all Gunnery and Ranged attacks at Medium or Long range."
 	},
 	{
 		"name": "Basic Combat Training",
@@ -917,7 +917,7 @@
 	},
 	{
 		"name": "Natural Brawler",
-		"description": ""
+		"description": "Once per session, may reroll any one Brawl or Melee check."
 	},
 	{
 		"name": "Natural Charmer",

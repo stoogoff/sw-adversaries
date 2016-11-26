@@ -377,5 +377,13 @@
 		"critical": 2,
 		"range": "Engaged",
 		"qualities": ["Defensive 1", "Pierce 2", "Vicious 1"]
+	},
+	{
+		"name": "Arc welder",
+		"skill": "Melee",
+		"damage": 3,
+		"critical": null,
+		"range": "Engaged",
+		"qualities": ["Stun Damage"]
 	}
 ]

@@ -260,7 +260,36 @@
 		"abilities": [],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Blast vest and helmet (+1 Soak)"],
-		"tags": ["empire", "imperial military", "book:aor", "book:eote"]
+		"tags": ["empire", "imperial military", "book:aor", "book:eote", "adventure:Perlemian Haul"]
+	},
+	{
+		"name": "M226 Navy Trooper",
+		"type": "Minion",
+		"description": "The Navy troopers assigned to the Perlemian Haul's freighters are pulled from some of the Imperial Navy's best personnel. As such, they are highly motivated and willing to die for the Empire if need be. A group of four of these troopers, commanded by Petty Ofhcer Wen, is assigned to provide security in M226's loading bay.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": {
+			"Discipline": 0,
+			"Perception": 0,
+			"Piloting: Planetary": 0,
+			"Ranged: Light": 0,
+			"Vigilance": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Blast vest and helmet (+1 Soak)", "Comlink (handheld)"],
+		"tags": ["book:aor", "adventure:Perlemian Haul", "empire", "imperial military", "location:M226 Freighter"]
 	},
 	{
 		"name": "Imperial Navy Officer",
@@ -500,6 +529,95 @@
 		"weapons": ["Light blaster pistol"],
 		"gear": [],
 		"tags": ["empire", "imperial military", "engineer", "book:aor"]
+	},
+	{
+		"name": "M226 Bridge Crew",
+		"type": "Minion",
+		"description": "The bridge crew of M226 are an experienced lot, and many of them have served aboard the heavy freighter since it was first commissioned. Though loyal to the Empire and willing to follow Noor's orders, they are much more comfortable under the command of their executive officer, Lieutenant Troo.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": {
+			"Astrogation": 0,
+			"Computers": 0,
+			"Piloting: Space": 0,
+			"Ranged: Light": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Uniform"],
+		"tags": ["book:aor", "adventure:Perlemian Haul", "empire", "imperial military", "location:M226 Freighter"]
+	},
+	{
+		"name": "M226 Crew Chief",
+		"type": "Rival",
+		"description": "The typical naval crew chief is a seasoned veteran who has been serving aboard Imperial ships for many years. Crew chiefs are the most technically proficient in their areas of expertise and are often looked up to by their subordinates. Like other crew, they wear grey Navy jumpsuits, but their rank is easily distinguished by the insignia on their lapel.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Coercion": 1,
+			"Discipline": 2,
+			"Leadership": 3,
+			"Mechanics": 3,
+			"Melee": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [],
+		"gear": ["Comlink (handheld)", "Breath mask", "Utility belt", "Datapad"],
+		"tags": ["book:aor", "adventure:Perlemian Haul", "imperial miliatry", "empire", "engineer", "location:M226 Freighter"]
+	},
+	{
+		"name": "M226 Navy Crewman",
+		"type": "Minion",
+		"description": "The crew of M226 are typical Navy personnel with very little to set them apart from their peers on other ships. They are hard-working and loyal, but aren't extraordinary in any way. They tend to work in groups of 3 or 4 individuals. Each one wears a grey Navy jumpsuit.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 4
+		},
+		"skills": {
+			"Athletics": 0,
+			"Brawl": 0,
+			"Mechanics": 0,
+			"Melee": 0,
+			"Vigilance": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [],
+		"gear": ["Comlink (handheld)", "Breath mask", "Utility belt"],
+		"tags": ["book:aor", "adventure:Perlemian Haul", "imperial miliatry", "empire", "engineer", "location:M226 Freighter"]
 	},
 	{
 		"name": "Imperial Stormtrooper",

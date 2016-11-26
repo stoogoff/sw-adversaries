@@ -325,8 +325,8 @@
 			"Cool": 2,
 			"Deception": 2,
 			"Dis­cipline": 5,
-			"Knowledge: Lore": 4
-,			"Leadership": 5,
+			"Knowledge: Lore": 4,
+			"Leadership": 5,
 			"Melee": 1,
 			"Negotiate": 2,
 			"Vigilance": 5
@@ -345,6 +345,97 @@
 		],
 		"gear": [],
 		"tags": ["galactic oddity", "species:Klatooinian", "location:Hutt Space", "book:lonh"]
+	},
+	{
+		"name": "Ranat Scout",
+		"type": "Minion",
+		"description": "Ranat scouts are small of frame and wiry. They are able to easily squeeze into spaces too small for other creatures, and they use this to their advantage as they sneak about the freighter. Though they aren't large by any stretch of the imagination, they are just as dangerous when cornered as are their larger kin.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 6
+		},
+		"skills": {
+			"Brawl": 0,
+			"Melee": 0,
+			"Skulduggery": 0,
+			"Stealth": 0,
+			"Survival": 0
+		},
+		"talents": [],
+		"abilities": ["Cornered Fury"],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"plus-damage": 0,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			},
+			{
+				"name": "Makeshift knife",
+				"skill": "Melee",
+				"plus-damage": 1,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": [],
+		"tags": ["book:aor", "adventure:Perlemian Haul", "location:M226 Freighter", "species:Ranat", "galactic oddity"]
+	},
+	{
+		"name": "Ranat Stalker",
+		"type": "Minion",
+		"description": "The stalkers who accompany Tik on his hunting expeditions are completely subservient to their leader. They flee from their foes if Tik dies; otherwise, they bare their yellow fangs and fight.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 8
+		},
+		"skills": {
+			"Brawl": 0,
+			"Melee": 0,
+			"Stealth": 0,
+			"Survival": 0
+		},
+		"talents": [],
+		"abilities": ["Cornered Fury"],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"plus-damage": 0,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			},
+			{
+				"name": "Makeshift spear",
+				"skill": "Melee",
+				"plus-damage": 1,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": [],
+		"tags": ["book:aor", "adventure:Perlemian Haul", "location:M226 Freighter", "species:Ranat", "galactic oddity"]
 	},
 	{
 		"name": "Tusken Raider",

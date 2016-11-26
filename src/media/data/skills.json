@@ -139,12 +139,12 @@
 		"characteristic": "Cunning",
 		"type": "General"
 	},
-
 	{
 		"name": "Vigilance",
 		"characteristic": "Willpower",
 		"type": "General"
 	},
+
 	{
 		"name": "Knowledge: Core Worlds",
 		"characteristic": "Intellect",

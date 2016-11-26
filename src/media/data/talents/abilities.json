@@ -88,6 +88,10 @@
 		"description": "Add automatic :threat: per rank to all social checks made to convince a constable to act against the best interest of Sullust."
 	},
 	{
+		"name": "Cornered Fury",
+		"description": "May upgrade one skill die when engaged and outnumbered by enemies."
+	},
+	{
 		"name": "Covering Fire",
 		"description": "May spend a maneuver to add +1 ranged defense to up to three allied characters or minion groups within short range until the end of the next round; this does not stack with multiple uses."
 	},

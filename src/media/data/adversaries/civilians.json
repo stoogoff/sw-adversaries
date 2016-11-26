@@ -1,5 +1,33 @@
 [
 	{
+		"name": "Armed Security Guard",
+		"type": "Minion",
+		"description": "The Archive's armed security forces are a subset of regular campus security. Their main difference is that they are authorized to carry weapons. However, they are under strict instructions to leave their blasters on stun unless they are confronted with deadly force.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 4
+		},
+		"skills": {
+			"Coercion": 0,
+			"Melee": 0,
+			"Perception": 0,
+			"Ranged: Light": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Truncheon", "Light blaster pistol"],
+		"gear": ["Comlink (handheld)", "Padded armour (+2 Soak)"],
+		"tags": ["book:fad", "adventure:Lessons from the Past", "security"]
+	},
+	{
 		"name": "Arrogant Heir",
 		"type": "Rival",
 		"description": "Wealthy citizens of the Core Worlds are usually blind to the privilege and arrogance that are the hallmarks of their lives. Since birth, they have been taught that they are the leaders of the galaxy-economically, politically, spiritually, and in all other ways Inevitably, there are those amongst the people who have everything who want more, and these arrogant heirs may well come into conflict or contact with the galactic underworld. The in­dependent operators of the fringe must tread carefully around these individuals, for fear of drawing the atten­tion of more powerful Core World interests.",
@@ -146,6 +174,34 @@
 		"weapons": [],
 		"gear": ["Comlink", "Datapad", "Academy uniform"],
 		"tags": ["military", "location:Chandrila", "book:sor", "species:Chandrilan"]
+	},
+	{
+		"name": "Campus Security",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 4
+		},
+		"skills": {
+			"Brawl": 0,
+			"Coercion": 0,
+			"Melee": 0,
+			"Perception": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Truncheon"],
+		"gear": ["Comlink (handheld)", "Padded armour (+2 Soak)"],
+		"tags": ["book:fad", "adventure:Lessons from the Past"]
 	},
 	{
 		"name": "Chandrilan Agriculturalist",
@@ -981,6 +1037,35 @@
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Glare peak guard uniform (+1 Soak)", "Glarre Peak guard badge"],
 		"tags": ["civilian", "security", "book:ragp", "adventure:Rescue at Glare Peak"]
+	},
+	{
+		"name": "Martle Station Dockhand",
+		"type": "Minion",
+		"description": "The dockhands of Martle Station work together in tight-knit groups called workgangs. Each workgang dresses in a similar fashion, using distinguishing markings and colours to proclaim their allegiance. Some workgangs are divided along species lines, though most integrate members of any species so long as they are loyal and productive.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4
+		},
+		"skills": {
+			"Athletics": 0,
+			"Brawl": 0,
+			"Coercion": 0,
+			"Mechanics": 0,
+			"Melee": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Truncheon"],
+		"gear": ["Workgang uniform", "Breath mask", "Space suit"],
+		"tags": ["book:aor", "adventure:Perlemian Haul", "location:Martle Station", "civilian"]
 	},
 	{
 		"name": "Nemoidian Citizen",
