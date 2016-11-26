@@ -265,7 +265,7 @@
 	{
 		"name": "M226 Navy Trooper",
 		"type": "Minion",
-		"description": "The Navy troopers assigned to the Perlemian Haul's freighters are pulled from some of the Imperial Navy's best personnel. As such, they are highly motivated and willing to die for the Empire if need be. A group of four of these troopers, commanded by Petty Ofhcer Wen, is assigned to provide security in M226's loading bay.",
+		"description": "The Navy troopers assigned to the Perlemian Haul’s freighters are pulled from some of the Imperial Navy’s best personnel. As such, they are highly motivated and willing to die for the Empire if need be. A group of four of these troopers, commanded by Petty Ofhcer Wen, is assigned to provide security in M226’s loading bay.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -533,7 +533,7 @@
 	{
 		"name": "M226 Bridge Crew",
 		"type": "Minion",
-		"description": "The bridge crew of M226 are an experienced lot, and many of them have served aboard the heavy freighter since it was first commissioned. Though loyal to the Empire and willing to follow Noor's orders, they are much more comfortable under the command of their executive officer, Lieutenant Troo.",
+		"description": "The bridge crew of M226 are an experienced lot, and many of them have served aboard the heavy freighter since it was first commissioned. Though loyal to the Empire and willing to follow Noor’s orders, they are much more comfortable under the command of their executive officer, Lieutenant Troo.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -593,7 +593,7 @@
 	{
 		"name": "M226 Navy Crewman",
 		"type": "Minion",
-		"description": "The crew of M226 are typical Navy personnel with very little to set them apart from their peers on other ships. They are hard-working and loyal, but aren't extraordinary in any way. They tend to work in groups of 3 or 4 individuals. Each one wears a grey Navy jumpsuit.",
+		"description": "The crew of M226 are typical Navy personnel with very little to set them apart from their peers on other ships. They are hard-working and loyal, but aren’t extraordinary in any way. They tend to work in groups of 3 or 4 individuals. Each one wears a grey Navy jumpsuit.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,

@@ -244,7 +244,7 @@
 		"weapons": [
 			"Blaster carbine",
 			{
-				"name": "Beastmaster's vibro-glaive",
+				"name": "Beastmaster’s vibro-glaive",
 				"skill": "Melee",
 				"plus-damage": 2,
 				"critical": 2,
@@ -1498,7 +1498,7 @@
 	{
 		"name": "Twi’lek Dancer",
 		"type": "Minion",
-		"description": "Dance is a highly valued form of entertainment through­ out the galaxy and there are few traditions that are more famous than the Twi'lek dancing girls of Ryloth. The sen­sual beauty of a Twi'lek is something that few who have witnessed it ever forget, and it is the popularity of their skills that has contributed, at least in part, to the tradi­tion of slavery that is so rampant on Ryloth Not only are there countless parties eager to make a profit by captur­ing and selling young Twi'leks, but unfortunately, there are many influential members of the race who are con­tent to line their own pockets by doing the same thing. Among those who enter the life of a dancer, however, there are some who find that they enjoy it Those who do are typically able to make a good living entertaining the masses, although there are always those who find themselves in servitude to horrible masters like Jabba the Hutt, who is known to favor such dancers in his wretched court on the planet of Tatooine.",
+		"description": "Dance is a highly valued form of entertainment through­ out the galaxy and there are few traditions that are more famous than the Twi’lek dancing girls of Ryloth. The sen­sual beauty of a Twi’lek is something that few who have witnessed it ever forget, and it is the popularity of their skills that has contributed, at least in part, to the tradi­tion of slavery that is so rampant on Ryloth Not only are there countless parties eager to make a profit by captur­ing and selling young Twi’leks, but unfortunately, there are many influential members of the race who are con­tent to line their own pockets by doing the same thing. Among those who enter the life of a dancer, however, there are some who find that they enjoy it Those who do are typically able to make a good living entertaining the masses, although there are always those who find themselves in servitude to horrible masters like Jabba the Hutt, who is known to favor such dancers in his wretched court on the planet of Tatooine.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,

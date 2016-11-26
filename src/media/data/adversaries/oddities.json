@@ -349,7 +349,7 @@
 	{
 		"name": "Ranat Scout",
 		"type": "Minion",
-		"description": "Ranat scouts are small of frame and wiry. They are able to easily squeeze into spaces too small for other creatures, and they use this to their advantage as they sneak about the freighter. Though they aren't large by any stretch of the imagination, they are just as dangerous when cornered as are their larger kin.",
+		"description": "Ranat scouts are small of frame and wiry. They are able to easily squeeze into spaces too small for other creatures, and they use this to their advantage as they sneak about the freighter. Though they aren’t large by any stretch of the imagination, they are just as dangerous when cornered as are their larger kin.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 3,
@@ -440,7 +440,7 @@
 	{
 		"name": "Tusken Raider",
 		"type": "Minion",
-		"description": "The most commonly encountered Tusken Raider is the simple minion. Hardly a threat by themselves, they can put up stiff opposition in larger numbers... and a Tusken Raider is almost never known to travel alone.\n\nSimple minions are generally only armed with a Gaffi Stick, the traditional weapon of the Sand People. Although they don't like much, in trained hands a Gaffi Stick can be used effectively to defend, and are particularly well suited to delivering dazing blows to opponents.\n\nA Tusken Raiders is only ever seen swaddled from head to feet in their traditional padded, desert wrappings and filter masks. These robes not only serve as armor, but help them endure the heat and sandstorms of the Tatooine badlands.",
+		"description": "The most commonly encountered Tusken Raider is the simple minion. Hardly a threat by themselves, they can put up stiff opposition in larger numbers... and a Tusken Raider is almost never known to travel alone.\n\nSimple minions are generally only armed with a Gaffi Stick, the traditional weapon of the Sand People. Although they don’t like much, in trained hands a Gaffi Stick can be used effectively to defend, and are particularly well suited to delivering dazing blows to opponents.\n\nA Tusken Raiders is only ever seen swaddled from head to feet in their traditional padded, desert wrappings and filter masks. These robes not only serve as armor, but help them endure the heat and sandstorms of the Tatooine badlands.",
 		"notes": "Tusken stats provided by [Never Tell Me the Odds](http://www.starwarsrpgpodcast.com/). Click to [view original stats and descriptions](http://www.starwarsrpgpodcast.com/2015/09/tusken-raiders-sand-people-star-wars.html).",
 		"characteristics": {
 			"Brawn": 2,
@@ -511,7 +511,7 @@
 	{
 		"name": "Tusken Raider Chieftain",
 		"type": "Nemesis",
-		"description": "Tusken Raider Chieftains lead whole tribes of Sand People - holding their position not through wisdom, but through brute savagery. Governing their clans through force and intimidation, the Chieftain is rarely encountered outside of their current campsite – instead feeding off the efforts of their Tusken Raider underlings and living in relative luxury. Less consummate stalkers than the Tusken Raider Huntsman, they are nonetheless a force to be reckoned with in combat.\n\nThe Chieftain represented here has claimed an advanced hunting rifle as a trophy (pillaged from an unlucky settler), but his real strength is in melee. In close quarters the Tusken Raider Chieftain is able to bring his vicious strength to bear, relying on his “Frenzied Attack” and “Feral Strength” talents.\n\nTravelers on who are captured by Tusken Raiders may awaken to find themselves in a Tusken Raider campsite, bound and at the mercy of a Tusken Raider Chieftain. There is little hope in reasoning with these barbaric figures – often a captive's only hope is the timely intervention of a well-armed rescue party.",
+		"description": "Tusken Raider Chieftains lead whole tribes of Sand People - holding their position not through wisdom, but through brute savagery. Governing their clans through force and intimidation, the Chieftain is rarely encountered outside of their current campsite – instead feeding off the efforts of their Tusken Raider underlings and living in relative luxury. Less consummate stalkers than the Tusken Raider Huntsman, they are nonetheless a force to be reckoned with in combat.\n\nThe Chieftain represented here has claimed an advanced hunting rifle as a trophy (pillaged from an unlucky settler), but his real strength is in melee. In close quarters the Tusken Raider Chieftain is able to bring his vicious strength to bear, relying on his “Frenzied Attack” and “Feral Strength” talents.\n\nTravelers on who are captured by Tusken Raiders may awaken to find themselves in a Tusken Raider campsite, bound and at the mercy of a Tusken Raider Chieftain. There is little hope in reasoning with these barbaric figures – often a captive’s only hope is the timely intervention of a well-armed rescue party.",
 		"notes": "Tusken stats provided by [Never Tell Me the Odds](http://www.starwarsrpgpodcast.com/). Click to [view original stats and descriptions](http://www.starwarsrpgpodcast.com/2015/09/tusken-raiders-sand-people-star-wars.html).",
 		"characteristics": {
 			"Brawn": 4,

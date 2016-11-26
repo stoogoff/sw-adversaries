@@ -745,7 +745,7 @@
 	{
 		"name": "Gel Marcolf",
 		"type": "Nemesis",
-		"description": "Gel Marcolf has acted as Quolas’s leader since Suljo Warde placed him in the position of interim magistrate, promising to return with Republic forces and reach a permanent solution to the city's conflict. At the time, Marcolf was an ambitious young man, but fair, and he worked hard to uphold the ide­als he thought Warde would have wanted. As the years went by and Warde did not return, Marcolf grew bitter, coming to believe that his friend had abandoned him for greater things, leaving him stranded on the remote planet. Rather than leav­ing Arbooine to look for Warde or find his own destiny, Mar­colf cemented his position as reeve of the town, crafting a persona of a strong leader in the hopes that it would bring him a sense of self-worth. He found no happiness in power, and so he frequently vented his own anger and resentment through draconian proclamations and harsh punishments.",
+		"description": "Gel Marcolf has acted as Quolas’s leader since Suljo Warde placed him in the position of interim magistrate, promising to return with Republic forces and reach a permanent solution to the city’s conflict. At the time, Marcolf was an ambitious young man, but fair, and he worked hard to uphold the ide­als he thought Warde would have wanted. As the years went by and Warde did not return, Marcolf grew bitter, coming to believe that his friend had abandoned him for greater things, leaving him stranded on the remote planet. Rather than leav­ing Arbooine to look for Warde or find his own destiny, Mar­colf cemented his position as reeve of the town, crafting a persona of a strong leader in the hopes that it would bring him a sense of self-worth. He found no happiness in power, and so he frequently vented his own anger and resentment through draconian proclamations and harsh punishments.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -1244,7 +1244,7 @@
 	{
 		"name": "Lieutenant Hyzhan Troo",
 		"type": "Rival",
-		"description": "Hyzhan Troo was set to take command of M226 following the promotion of the ship's last commanding officer. Unfortunately, Noor was assigned to the ship before her promotion could take place. Troo is a competent-looking and authoritative human female in her late twenties.",
+		"description": "Hyzhan Troo was set to take command of M226 following the promotion of the ship’s last commanding officer. Unfortunately, Noor was assigned to the ship before her promotion could take place. Troo is a competent-looking and authoritative human female in her late twenties.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -1498,7 +1498,7 @@
 	{
 		"name": "Petty Officer Tera Wen",
 		"type": "Rival",
-		"description": "Tera Wen is a stern-looking young woman from the Core Worlds with regulation-length blond hair, brown eyes, and a fair complexion. She's been assigned to Freighter M226 for several months, and has made a name for herself as someone who can be counted on to get the job done. She is just as loyal to the Empire as the troopers who serve under her.",
+		"description": "Tera Wen is a stern-looking young woman from the Core Worlds with regulation-length blond hair, brown eyes, and a fair complexion. She’s been assigned to Freighter M226 for several months, and has made a name for herself as someone who can be counted on to get the job done. She is just as loyal to the Empire as the troopers who serve under her.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,

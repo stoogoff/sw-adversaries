@@ -70,7 +70,7 @@
 	{
 		"name": "Analysis Droid",
 		"type": "Minion",
-		"description": "Almost always found working in groups, analysis droids have served governments, corporations, wealthy private individuals, and even the defunct Jedi Knights. Most manufacturers make analysis droids, but the enduring popularity of Cybot Galactica's SP-4 and JN-66 models make them the category leaders. All analysis droids come equipped with a sophisticated sensory suite and a set of onboard analysis protocols that make them invaluable in aiding research, analysing data, and performing experiments.",
+		"description": "Almost always found working in groups, analysis droids have served governments, corporations, wealthy private individuals, and even the defunct Jedi Knights. Most manufacturers make analysis droids, but the enduring popularity of Cybot Galactica’s SP-4 and JN-66 models make them the category leaders. All analysis droids come equipped with a sophisticated sensory suite and a set of onboard analysis protocols that make them invaluable in aiding research, analysing data, and performing experiments.",
 		"notes": "Cost 7,500",
 		"characteristics": {
 			"Brawn": 1,
@@ -623,7 +623,7 @@
 	{
 		"name": "Mark IV Patrol Droid",
 		"type": "Minion",
-		"description": "The Mark IV patrol droid is a small, spherical hovering droid with a number of small control surfaces that emerge from its rear quarter. A single optic protrudes from the droid's front.",
+		"description": "The Mark IV patrol droid is a small, spherical hovering droid with a number of small control surfaces that emerge from its rear quarter. A single optic protrudes from the droid’s front.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 3,
@@ -806,7 +806,7 @@
 	{
 		"name": "Roche J9 Worker Drone",
 		"type": "Rival",
-		"description": "Despite its capabilities, the J9 worker drone was an abject commercial failure. Designed as a protocol droid, the series’ moniker, “worker drone,” was decep­tive to potential customers, who assumed it was just another labor droid. In addition, the unit's appear­ance, which was distinctly bug-like, in conjunction with its flat personality, turned many mammalian species off. The Verpine even attempted to market the droid to other insectoid species, still without much success.\n\nMost of the J9 worker drones purchased by the public were placed in labor jobs, wasting their more advanced systems and programming on menial tasks. Because of this, J9s are some of the most intelligent labor droids on the market. Over time, however, they develop somewhat bitter personalities, as they feel they were destined for something greater but were somehow cheated out of it.\n\nThe Rebel Alliance has acquired a large number of surplus J9 worker drones directly from Roche and has put them to good use. The Alliance realizes that the J9 is much more than a simple labor droid, and many of the units have been assigned to Rebel teams to assist them with translation and analysis. So far, the majority of these J9s have been a success in the field.",
+		"description": "Despite its capabilities, the J9 worker drone was an abject commercial failure. Designed as a protocol droid, the series’ moniker, “worker drone,” was decep­tive to potential customers, who assumed it was just another labor droid. In addition, the unit’s appear­ance, which was distinctly bug-like, in conjunction with its flat personality, turned many mammalian species off. The Verpine even attempted to market the droid to other insectoid species, still without much success.\n\nMost of the J9 worker drones purchased by the public were placed in labor jobs, wasting their more advanced systems and programming on menial tasks. Because of this, J9s are some of the most intelligent labor droids on the market. Over time, however, they develop somewhat bitter personalities, as they feel they were destined for something greater but were somehow cheated out of it.\n\nThe Rebel Alliance has acquired a large number of surplus J9 worker drones directly from Roche and has put them to good use. The Alliance realizes that the J9 is much more than a simple labor droid, and many of the units have been assigned to Rebel teams to assist them with translation and analysis. So far, the majority of these J9s have been a success in the field.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 2,

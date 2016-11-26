@@ -2,7 +2,7 @@
 	{
 		"name": "Armed Security Guard",
 		"type": "Minion",
-		"description": "The Archive's armed security forces are a subset of regular campus security. Their main difference is that they are authorized to carry weapons. However, they are under strict instructions to leave their blasters on stun unless they are confronted with deadly force.",
+		"description": "The Archive’s armed security forces are a subset of regular campus security. Their main difference is that they are authorized to carry weapons. However, they are under strict instructions to leave their blasters on stun unless they are confronted with deadly force.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,

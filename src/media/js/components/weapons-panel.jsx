@@ -116,10 +116,6 @@ export default class WeaponsPanel extends React.Component {
 			weapons.push(getWeaponDetails(weapon, character, allSkills, this.props.minions));
 		});
 
-		/*if("specialist-weapons" in character) {
-			character["specialist-weapons"].forEach(w => weapons.push(getWeaponDetails(w, character, allSkills, this.props.minions)));
-		}*/
-
 		weapons.sort(sortByProperty("name"));
 
 		return <div className="info">
