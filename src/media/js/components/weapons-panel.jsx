@@ -57,7 +57,7 @@ export default class WeaponsPanel extends React.Component {
 
 		if(name == "Notes") {
 			let id = evt.target.getAttribute("data-weapon");
-			let weapon = this.props.weapons.all().concat(this.props.character["specialist-weapons"]).find(w => w.id == id);
+			let weapon = this.props.weapons.all().concat(this.props.character.weapons).find(w => w.id == id);
 
 			quality = {
 				name: "Notes",
@@ -115,6 +115,7 @@ export default class WeaponsPanel extends React.Component {
 
 			weapons.push(getWeaponDetails(weapon, character, allSkills, this.props.minions));
 		});
+
 
 		weapons.sort(sortByProperty("name"));
 
