@@ -1,6 +1,6 @@
 
 import React from "react";
-import { dice } from "lib/utils";
+import { dice, minionSkill } from "lib/utils";
 
 export default class SkillPanel extends React.Component {
 	constructor(props) {
@@ -52,8 +52,8 @@ export default class SkillPanel extends React.Component {
 				let stat = character.characteristics[skill.characteristic];
 				let value = character.skills[skill.name] || 0;
 
-				if(this.props.minions > 0 && character.type == "Minion" && skill.name in character.skills) {
-					value += this.props.minions - 1;
+				if(character.type == "Minion") {
+					value = minionSkill(this.props.minions, skill.name, character.skills);
 				}
 
 				skills.push({

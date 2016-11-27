@@ -24,6 +24,16 @@ export let sortByProperty = function sortByProperty(prop) {
 	};
 };
 
+export let minionSkill = function(minions, skill, skills) {
+	let value = 0;
+
+	if(minions > 0 && skill in skills) {
+		value += minions - 1;
+	}
+
+	return  Math.min(value, 5);
+}
+
 export let dice = function dice(stat, skill) {
 	let total = Math.max(stat, skill);
 	let upgrade = Math.min(stat, skill);
@@ -96,10 +106,14 @@ let bookMap = {
 	"book:nop": "Nexus of Power",
 
 	// career books
+	"book:da": "Desparate Allies",
+	"book:fh": "Far Horizons",
+	"book:ktp": "Keeping the Peace",
 	"book:sm": "Special Modifications",
+	"book:sot": "Stay on Target",
 
 	// adventures
-	"book:uabs": "Under a Black Sun",
 	"book:cotgk": "Chronicles of the Gate Keeper",
 	"book:ragp": "Rescue at Glare Peak",
+	"book:uabs": "Under a Black Sun"
 };

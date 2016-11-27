@@ -1,5 +1,66 @@
 [
 	{
+		"name": "Aiwha",
+		"type": "Rival",
+		"description": "Thought to be native to the waters of Naboo, aiwhas are also found on Kamino, and have been imported to other oceanic worlds. As water-based mounts, aiwhas have unique physiological adaptations that allow these air-breathing cetaceans to take flight for brief distances in the open air. While not truly domesticated creatures, they are friendly and are often trained as mounts amongst amphibious species.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 20
+		},
+		"skills": {
+			"Athletics": 1,
+			"Coordination": 1
+		},
+		"talents": [],
+		"abilities": ["Silhouette 3", "Amphibious", "Flyer", "Creature of the Sea"],
+		"weapons": [],
+		"gear": [],
+		"tags": ["book:sot", "creature"]
+	},
+	{
+		"name": "Bantha",
+		"type": "Rival",
+		"description": "The ubiquitous bantha is found on thousands of worlds across the galaxy, with hundreds of variant species demonstrating this mammal’s adaptability. Easily domesticated, banthas are primarily used as beasts of burden and a food source. Some cultures, including the Tusken Raiders of Tatooine, are known to use them as mounts. Found in herds of up to twenty-five individuals, banthas are known for their heavy, bulky frames, large curling horns, and iconic blue milk.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 10,
+			"wounds": 26
+		},
+		"skills": {
+			"Brawl": 1,
+			"Resillience": 2
+		},
+		"talents": [],
+		"abilities": ["Silhouette 3", "Domesticable 1", "Trained Mount 1", "Beast of Burden 10"],
+		"weapons": [
+			{
+				"name": "Horns",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sot", "creature"]
+	},
+	{
 		"name": "Bearsloth",
 		"type": "Rival",
 		"description": "Bearsloths are dreaded and vicious predators native to Arbooine. These large, shaggy beasts possess six limbs, each tipped with fearsome claws that aid them in traversing the forest canopy and slaying prey. Bearsloths use their cam­ouflage patterning and natural stealth skills to ambush their victims, and make no distinction between wildlife and sentient prey. Even more than their ferocity, bearsloths are known for their venomous bite, which slowly kills their prey.",
@@ -220,6 +281,51 @@
 		"tags": ["creature", "location:Yavin 4", "book:sor"]
 	},
 	{
+		"name": "Cracian Thumper",
+		"type": "Rival",
+		"description": "Exported from Craci in the Corporate Sector, Cracian thumpers have become one of the most widespread riding animals in the galaxy. These bipedal herbivores bear features resembling a mix between that of a large rodent and a horse, and sport sharp claws on both their forelimbs and large, powerful hind legs. They have long faces with broad snouts and upright ears. There are numerous breeds of Cracian thumpers, primarily distinguished between long- and short-hair varieties. The former are well-suited to colder environments, resembling the tauntauns of Hoth. Despite their name, Cracian thumpers naturally move with great stealth, making them ideal mounts for Rebel Beast Riders.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15
+		},
+		"skills": {
+			"Brawl": 2,
+			"Cool": 1,
+			"Perception": 1,
+			"Stealth": 3
+		},
+		"talents": [],
+		"abilities": ["Silhouette 2", "Domesticable 1", "Trained Mount 2"],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": []
+			},
+			{
+				"name": "Tail",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sot", "creature"]
+	},
+	{
 		"name": "Dark Wolf",
 		"type": "Rival",
 		"description": "Said to be deadly servants of the night god Raquor, dark wolves are nocturnal predators of the Sriluurian wilds. The frightening quadruped stands 1.5 meters tall and has thick dark fur, a long stinger-tipped tail, and a thick leathery hide on its back. Its serrated claws can both rend the flesh of its prey and pierce stone to help it navigate the narrow canyon ridges as it hunts the local bandingos. As this silent predator roams the nighttime desert plains, only its menacing yellow eyes glisten in the moonlight.",
@@ -264,6 +370,77 @@
 		],
 		"gear": [],
 		"tags": ["creature", "location:Hutt Space", "raquor’daan", "book:lonh"]
+	},
+	{
+		"name": "Dalgo",
+		"type": "Rival",
+		"description": "The imposing dalgo is a riding beast native to Onderon and has a long history as both a beast of burden and a powerful mount. Though they resemble other equinoids, the herbivorous dalgos are larger and heavier, sporting short defensive tusks from their large mouths. While they make effective mounts, dalgos are often stubborn, and can spook if their riders are inexperienced or careless.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 16
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 1
+		},
+		"talents": [],
+		"abilities": ["Silhouette 2", "Trained Mount 2"],
+		"weapons": [
+			{
+				"name": "Trampling Hooves",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sot", "creature"]
+	},
+	{
+		"name": "Dewback",
+		"type": "Rival",
+		"description": "Originating from the Dune Sea on Tatooine, dewbacks are large four-legged reptiles who are well-suited to desert environments. Easily domesticated, dewbacks are used as both beasts of burden and reliable, hardy mounts, and like banthas, have been exported off-world for generations. Because of their resilience, these creatures are found in both Imperial and Alliance military forces. In the Stormtrooper Specialty Corps, sandtroopers make good use of their strengths in arid conditions; amongst the Alliance, dewbacks are deployed to SpecForce's 4th Regiment.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 18,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Resilience": 2
+		},
+		"talents": [],
+		"abilities": ["Silhouette 2", "Domesticable 1", "Sand Walker"],
+		"weapons": [
+			{
+				"name": "Teeth",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Ensnare 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sot", "creature"]
 	},
 	{
 		"name": "Dianoga",
@@ -418,6 +595,78 @@
 		"tags": ["creature", "location:Coruscant", "book:uabs", "adventure:Under a Black Sun"]
 	},
 	{
+		"name": "Eopie (Cameloid)",
+		"type": "Rival",
+		"description": "Eopies are ponderous but surprisingly strong and resilient animals used as both mounts and labour animals on their native Tatooine. Eopies are inelegant beasts with an awkward gait and strong natural odour. Despite their stubborn nature, eopies are excellent beasts of burden, capable of carrying far more than their lanky frame might suggest. They are well-adapted to desert conditions, capable of traveling for days without needing water.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 14
+		},
+		"skills": {
+			"Resilience": 2,
+			"Survival": 2
+		},
+		"talents": [],
+		"abilities": ["Silhouette 2", "Stubborn 1", "Trained Mount 1", "Sand Walker", "Beast of Burden 5"],
+		"weapons": [
+			{
+				"name": "Trampling hooves",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sot", "creature"]
+	},
+	{
+		"name": "Fambaa",
+		"type": "Rival",
+		"description": "The enormous fambaa are have been famously domesticated by Gungans for thousands of years on Naboo, but have long been exported to many other worlds including Onderon. They are sometimes compared to the much smaller dewbacks, to which they bear some physiological similarities. Herbivorous creatures, fambaa are most often used as beasts of burden. They are also effective multi-passenger mounts, having seen combat action in the Grand Gungan Army in the decade before the Clone Wars. Despite their immense size, they are docile creatures, and are rarely phased or startled, even by the noise of battle. Gungans used them to carry immense shield generators, cannons, or armored howdahs that could transport numerous individuals into battle.",
+		"characteristics": {
+			"Brawn": 7,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 16,
+			"wounds": 55,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 1,
+			"Cool": 2,
+			"Resilience": 3
+		},
+		"talents": [],
+		"abilities": ["Silhouette 4", "Beast of Burden 20", "Fearless"],
+		"weapons": [
+			{
+				"name": "Massive teeth",
+				"skill": "Brawl",
+				"damage": 12,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Breach 2", "Slow-Firing"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sot", "creature"]
+	},
+	{
 		"name": "Fecklen",
 		"type": "Minion",
 		"description": "The dominant ranching animal on the planet, the squat, stumpy fecklen is ubiquitous across Chandrila, and known for its savory meat and pure milk. Fecklen wander the Chandrilan countryside, grazing on balmgrass and occasionally blocking traffic. The fecklen is a peaceful herd animal known for its booming call, evolved to echo across the hilly landscape to frighten predators and locate the herd.",
@@ -569,6 +818,41 @@
 		"tags": ["creature", "book:aor", "book:eote"]
 	},
 	{
+		"name": "Horse (Equinoid)",
+		"type": "Rival",
+		"description": "“Horse” is the generic term in Basic for a wide array of single-hoofed quadruped species found throughout the galaxy. While more properly described as equinoids, they share a common physiology in size, speed, and the ease with which they can be trained as swift mounts. Many varieties of equinoids are found throughout the galaxy, as they have been traded as livestock for generations. Some are larger, more suited as draft horses and excellent at pulling large loads, while others are smaller and can be very stubborn. Such beasts are frequently used as pack animals, rather than riding mounts. The following profile is for a standard equinoid riding mount.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16
+		},
+		"skills": {
+			"Athletics": 2,
+			"Coordination": 1
+		},
+		"talents": [],
+		"abilities": ["Silhouette 2", "Domesticable 2", "Trained Mount 2"],
+		"weapons": [
+			{
+				"name": "Trampling hooves",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sot", "creature"]
+	},
+	{
 		"name": "Houjix",
 		"type": "Rival",
 		"description": "Perhaps most famous for its place as a game piece in dejarik holochess, the houjix is a large, skittering split-legged lizard with toothy spikes on its tail and in its mouth. On Hok, houjix are bred for aggression and forced to fight for sport. This practice is condemned on Kinyen, where the slobbering beasts are known to be very affectionate. Renowned for its ability to help Gran cope with brief periods of isolation, the houjix is the preferred companion animal among Gran.",
@@ -712,6 +996,41 @@
 		],
 		"gear": [],
 		"tags": ["creature", "force sensitive", "book:fad"]
+	},
+	{
+		"name": "Kaadu",
+		"type": "Rival",
+		"description": "Sometimes compared to the Cracian thumper or kybuck, kaadu are swift bipedal duck-billed reptavians native to the swamps of Naboo. As with the fambaa, Gungans have expertly trained these amphibious beasts for use in a variety of ways in their society. Gungan warriors often take kaadu for reliable mounts, developing a close personal bond with their beasts. As with the fambaa, the kaadu saw action in the Battle of Naboo in 32 BBY. Unlike fambaa, however, Gungans are quite possessive of kaadu. As a result, these creatures are not traded as often as other beasts they train.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15
+		},
+		"skills": {
+			"Athletics": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": ["Silhouette 2", "Amphibious", "Domesticable 1"],
+		"weapons": [
+			{
+				"name": "Legs",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": [],
+		"tags": ["book:sot", "creature"]
 	},
 	{
 		"name": "Kintan Strider",
@@ -898,6 +1217,42 @@
 		],
 		"gear": [],
 		"tags": ["creature", "book:fad"]
+	},
+	{
+		"name": "Kybuck",
+		"type": "Rival",
+		"description": "The amazingly swift kybuck is native to the Woolwarricca plains on the Wookiee homeworld of Kashyyyk. Vaguely resembling the larger tauntaun, kybucks have short tan-to-brown fur with small tails and thick horns. Unlike many other bipedal mounts, kybucks have split hoofs rather than claws or pads, which may help them reach immense speeds for a bipedal animal. Unlike most other riding animals, kybucks are not very effective beasts of burden. While they are very fast and well-trained mounts, they are only capable of carrying smaller individuals as riders.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 6,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 13
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 1,
+			"Survival": 1
+		},
+		"talents": [],
+		"abilities": ["Silhouette 2", "Surefooted"],
+		"weapons": [
+			{
+				"name": "Horns",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sot", "creature"]
 	},
 	{
 		"name": "Loth-Cat",
@@ -1161,6 +1516,41 @@
 		"tags": ["creature", "location:Mon Cala", "book:sor"]
 	},
 	{
+		"name": "Mustafarian Lava Flea",
+		"type": "Rival",
+		"description": "Perhaps one of the most unusual mounts in the galaxy, the Mustafarian lava flea is a giant arthropod that evolved for life on the volcanic environment of its homeworld. While considerably larger than the average equinoid, lava fleas have an uncharacteristically lightweight frame. This makes them ideal for leaping considerable distances, but less adapted for hauling heavy loads. The creature's exoskeleton evolved an internal structure of spindles not unlike an internal bone structure, made from the minerals the lava flea digests. This allows these extraordinary beasts to grow to sizes far beyond normal evolutionary constraints. Mustafarians often fashion discarded lava flea shells into heat-resistant armour.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 16
+		},
+		"skills": {
+			"Athletics": 2,
+			"Resilience": 3
+		},
+		"talents": [],
+		"abilities": ["Silhouette 3", "Domesticable 1", "Suited to the Heat", "Leap"],
+		"weapons": [
+			{
+				"name": "Proboscis",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": [],
+		"tags": ["book:sot", "creature"]
+	},
+	{
 		"name": "Mynock",
 		"type": "Minion",
 		"description": "Mynocks are disgusting, silicon-based space para­sites that survive by latching onto the hulls of star­ ships and feeding off power cables and other vital systems. About a meter long with wings that could be used in atmosphere. they have spread through­ out the galaxy by hitching rides on passing starships. They absorb matter and energy from their hosts. which can eventually cause sys­tem failure. Mynocks can be found on the surface of several different worlds, although their allergy to helium limits the number of habitats which they can survive.",
@@ -1194,6 +1584,43 @@
 		],
 		"gear": [],
 		"tags": ["creature", "book:eote", "book:sor"]
+	},
+	{
+		"name": "Narglatch",
+		"type": "Rival",
+		"description": "It is unclear exactly where the narglatch evolved, but they are used as mounts for the Talz in the brutal cold of Orto Plutonia; additionally, several variants of this species can be found on other worlds throughout the galaxy, including the swamps of Naboo. Not truly domesticated, these felinoid beasts can be trained to be loyal and fearsome mounts, if a bit headstrong. Unlike most other riding beasts, narglatch are apex predators with hunting instincts, moving quietly to stalk their prey.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 17
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 2,
+			"Perception": 1,
+			"Stealth": 2
+		},
+		"talents": [],
+		"abilities": ["Silhouette 2", "Suited to the Cold", "Fearless", "Fierce Pounce"],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 9,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Linked 1", "Vicious 3"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sot", "creature"]
 	},
 	{
 		"name": "Phantasmal Beast of Moraband",
@@ -1392,6 +1819,77 @@
 		"tags": ["creature", "location:Hutt Space", "book:lonh"]
 	},
 	{
+		"name": "Ronto",
+		"type": "Rival",
+		"description": "Often seen as beasts of burden and mounts for Jawas, rontos are known to be effective, if skittish, mounts. Found on many worlds, including Nubia, Tatooine, and Kashyyyk, rontos are often employed away from populated areas, to reduce contact with technologies that might spook the beasts. Even so, they remain a common sight in many of Tatooine's spaceports, and those who work with these animals place great stock in their loyalty.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 18
+		},
+		"skills": {
+			"Survival": 2
+		},
+		"talents": [],
+		"abilities": ["Silhouette 2", "Domesticable 1", "Trained Mount 1", "Beast of Burden 10"],
+		"weapons": [
+			{
+				"name": "Trampling hooves",
+				"skill": "Brawl",
+				"damage": 12,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sot", "creature"]
+	},
+	{
+		"name": "Ruping",
+		"type": "Rival",
+		"description": "The soaring rupings of Onderon are graceful, noble reptavians that have been trained as flying mounts for generations on their homeworld. Thinner than the Alderaanian thranta, rupings were used both as scouts and battle mounts in the Battle of Onderon during the Clone Wars. Capable of flying to great heights, rupings have two sets of eyes that can focus on both predator and prey simultaneously, giving them exceptional situational awareness. Often rupings alert to danger long before their riders do, and are rarely caught off guard.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 18,
+			"defence": [0, 1]
+		},
+		"skills": {
+			"Coordination": 2,
+			"Survival": 3,
+			"Vigilance": 3
+		},
+		"talents": [],
+		"abilities": ["Silhouette 2", "Flyer", "Trained Mount 1"],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": [],
+		"tags": ["book:sot", "creature"]
+	},
+	{
 		"name": "Shaoryn",
 		"type": "Rival",
 		"description": "Shaoryn are ghostly swamp predators that haunt the southern marshes of Toydaria. They appear as a col­lection of wispy, yellow-white lights floating through the swamp, which has earned them the nickname “swamp pixies” among the locals. Beyond their illu­sions and trickery, shaoryn are tall, slender amphib­ians with spongy green bodies and leathery tendrils used to envelop and suck the life out of their prey.",
@@ -1581,7 +2079,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "location:Hoth", "book:sor"]
+		"tags": ["creature", "location:Hoth", "book:sor", "book:sot"]
 	},
 	{
 		"name": "Tayan Falcon",
@@ -1619,6 +2117,41 @@
 		],
 		"gear": [],
 		"tags": ["creature", "location:Kinyen", "book:sor"]
+	},
+	{
+		"name": "Thranta",
+		"type": "Rival",
+		"description": "Now an endangered species, the thranta were once a common sight in the skies of Alderaan prior to the planet's destruction. Unlike many other flying creatures, thrantas do not use their wings as a primary source of lift. Rather, their bodies naturally produce hydrogen, which is stored in several internal air sacs that keep them aloft. This may be one reason why thrantas evolved to be creatures purely of the air, no longer needing legs on which to land. Over time, Alderaanians domesticated numerous breeds of this beast to be used as mounts. Today, only the common and baleen thrantas survive in any measurable quantity. One of the few places one can find a thranta is above the clouds on the tibanna-producing gas giants of Bespin.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15
+		},
+		"skills": {
+			"Cool": 1,
+			"Coordination": 1
+		},
+		"talents": [],
+		"abilities": ["Silhouette 2", "Flyer", "Hover", "Domesticated", "Unstable 4"],
+		"weapons": [
+			{
+				"name": "Beak",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": [],
+		"tags": ["book:sot", "creature"]
 	},
 	{
 		"name": "Trained Keelkana",
@@ -1777,6 +2310,43 @@
 		],
 		"gear": [],
 		"tags": ["creature", "location:Mon Cala", "book:sor"]
+	},
+	{
+		"name": "Varactyl",
+		"type": "Rival",
+		"description": "Domesticated and trained by the Utai of Utapau, varactyls are large, four-legged, long-necked reptavians known for their surprising speed and agility. These beasts have been exported for thousands of years, and as such can be found on many different worlds, including in the wilds of Kashyyyk and Belsavis. Varactyls make excellent fast-moving mounts, and have been known to rival the speeds of airspeeders in short sprints, with powerful claws that allow them to climb over many obstacles that would hinder most other mounts.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 5,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 22
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Perception": 1,
+			"Vigilance": 1
+		},
+		"talents": [],
+		"abilities": ["Silhouette 2", "Glider"],
+		"weapons": [
+			{
+				"name": "Beak",
+				"skill": "Brawl",
+				"damage": 11,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 3"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sot", "creature"]
 	},
 	{
 		"name": "Vornskr",

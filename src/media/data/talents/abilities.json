@@ -4,6 +4,10 @@
 		"description": "As an incidental, spend a dark side Destiny Point to give the toothy bite weapon the Burn 2 quality until the end of the chemilizard’s turn; this is a chemical burn."
 	},
 	{
+		"name": "Advanced Language Module",
+		"description": "When encountering a new species or language not in its databases, a TC-series protocol droid may make an :easy: Knowledge (Education) check to learn enough of the new dialect to communicate."
+	},
+	{
 		"name": "All the Luck in the Galaxy",
 		"description": "When making a check to gamble, a Deception check, or a Negotia­tion check, add :force: to the check. Each :lightside: result automatically adds :success: to the check. :darkside::darkside: results auto­matically add :despair: to the check."
 	},
@@ -40,6 +44,10 @@
 		"description": "Hutts have great physical strength but their bulk imposes severe limitations in flexibility and agility; they add :setback::setback::setback: to all Brawl, Melee, and Coordination checks they’re required to make."
 	},
 	{
+		"name": "Backup Entertainer",
+		"description": "When a SDMN Session Droid performs the Assist maneuver to help a character make a check as part of a performance, that character adds automatic :advantage::advantage: to the result."
+	},
+	{
 		"name": "Bad Knee",
 		"description": "If TH-31 3 generates :threat::threat::threat: or :despair: on an Athletics, Brawl, or Melee check, he is im­mobilised for one round."
 	},
@@ -50,6 +58,10 @@
 	{
 		"name": "Barbed Hide",
 		"description": "When the rass is hit by a melee attack, the GM can spend :threat::threat: to inflict 1 Wound (ignoring Soak) on the attacker."
+	},
+	{
+		"name": "Beast of Burden",
+		"description": "Add ranks in Beast of Burden to the creature’s encumbrance threshold."
 	},
 	{
 		"name": "Brute Strength",
@@ -104,6 +116,10 @@
 		"description": "Combat checks targeting Moraband Sith phantasms always use Willpower in place of the characteristic normally associated with that skill; the Pierce and Breach qualities do not reduce a Sith phantasm’s soak."
 	},
 	{
+		"name": "Creature of the Sea",
+		"description": "Aiwhas are not capable of operating on land."
+	},
+	{
 		"name": "Critical Eye",
 		"description": "Gain :boost: on all rolls made to duplicate a familiar document."
 	},
@@ -146,6 +162,14 @@
 	{
 		"name": "Destabilizing Influence",
 		"description": "As a maneuver once per encounter, may add :threat: to all subsequent Cool and Discipline checks made by enemies within Medium range for the remainder of the encounter."
+	},
+	{
+		"name": "Domesticable",
+		"description": "Downgrade the difficulty of checks to train this creature by one per rank."
+	},
+	{
+		"name": "Domesticated",
+		"description": "Difficulty for training this creature is not upgraded."
 	},
 	{
 		"name": "Duracrete Plating",
@@ -200,6 +224,14 @@
 		"description": "As an action, may make an :easy: Survival check; each :success: causes one target in Medium range to be disoriented for 1 round. Each :advantage::advantage: extends the number of rounds by 1 (a disori­ented target adds :setback: to all skill checks performed)."
 	},
 	{
+		"name": "Fearless",
+		"description": "Immune to the effects of fear."
+	},
+	{
+		"name": "Fierce Pounce",
+		"description": "If the narglatch uses the aim maneuver, it also gains Knockdown on its next attack."
+	},
+	{
 		"name": "Flyer",
 		"description": "This creature can fly."
 	},
@@ -208,8 +240,12 @@
 		"description": "As an action, make an :average: Leadership check to add :boost: to all combat checks by allies within short range for one round."
 	},
 	{
-		"name": "Glider",
+		"name": "Sathari Glider",
 		"description": "A Sathari can glide over small dis­tances while falling and does not suffer damage from falling while conscious."
+	},
+	{
+		"name": "Glider",
+		"description": "Varactyls can suffer 2 strain to count as a flyer for the remainder of the turn."
 	},
 	{
 		"name": "Gun Crew",
@@ -226,6 +262,10 @@
 	{
 		"name": "Helium Allergy",
 		"description": "When exposed to helium mynocks suffer 1 Wound per round ignoring Soak until their bodies inflate and explode."
+	},
+	{
+		"name": "Hover",
+		"description": "May reduce speed to 0 and remain aloft."
 	},
 	{
 		"name": "Hoverer",
@@ -256,6 +296,10 @@
 		"description": "Once per encounter, as an out-of-turn incidental, a Quarren may spit ink from a specialised sac within their gills, suffering 2 Strain to add :setback: to a combat check made by a character within Short range (under water, it adds :setback::setback::setback: to the combat check instead)."
 	},
 	{
+		"name": "Insectoid Appear­ance",
+		"description": "LOM-series protocol droids allow allies to remove :setback: from Nego­tiation checks or other checks made to negotiate or mediate when dealing with insectoid species."
+	},
+	{
 		"name": "Leap",
 		"description": "Add :boost::boost: to all Athletics checks made to perform vertical or horizontal jumps."
 	},
@@ -284,6 +328,14 @@
 		"description": "Upgrade the difficulty of social checks targeting the Vodran enforcer once if they conflict with the Vodran enforcer’s loyalty or interfere with his duty to his Hutt masters."
 	},
 	{
+		"name": "Loyalty Imprint",
+		"description": "Add :boost: lo all checks made to defend its designated master."
+	},
+	{
+		"name": "Military Analyst",
+		"description": "M-3PO-series military protocol droids allow allies to add :boost: to any Knowledge (Warfare) checks that benefit from an understanding of logistics or military procedure."
+	},
+	{
 		"name": "Negate Force Powers",
 		"description": "An adult ysalamir creates a spherical zone extending out to short range, inside which Force-sensitive characters and creatures cannot exert influence over the Force. Inside this zone, any Force powers, Force talents, or other abilities that the GM decides work via the Force do not function. Likewise, such powers may not affect or detect any­thing within this zone."
 	},
@@ -302,6 +354,10 @@
 	{
 		"name": "Olfactory Perception",
 		"description": "Gain :boost: on all Sur­vival checks made to track prey, and adds :setback: to enemy Stealth checks made against the vrblthers."
+	},
+	{
+		"name": "Olfactory Sensor Suite",
+		"description": "Reduces the difficulty of scent-based Perception checks by 1."
 	},
 	{
 		"name": "Pheromone Communication",
@@ -330,6 +386,14 @@
 	{
 		"name": "Restraint",
 		"description": "Increase the difficulty of a Melee or Ranged: Light attack check by one in order to in­flict Stun damage and gain the Knockdown quality; spend :advantage: to grant this ability to a Quolas guard minion group at Short range for one round."
+	},
+	{
+		"name": "Rhetoric Mimic",
+		"description": "May make Charm, Deception, and Negotiation checks using the characteristics of its master; such checks suffer :setback::setback: due to the imperfect mimicry, and the droid does not benefit from any relevant talents its master possesses."
+	},
+	{
+		"name": "Sand Walker",
+		"description": "Remove :setback: from any checks made to traverse sandy or desert terrain."
 	},
 	{
 		"name": "Self-destruct Mechanism",
@@ -372,12 +436,24 @@
 		"description": "Jako­beasts have an encumbrance threshold of 20"
 	},
 	{
+		"name": "Stubborn",
+		"description": "Upgrade the difficulty of checks to train eopies by one."
+	},
+	{
 		"name": "Suited to the Cold",
-		"description": "Wampas are immune to the effects of freezing and cold environments."
+		"description": "Immune to the effects of freezing and cold environments."
+	},
+	{
+		"name": "Suited to the Heat",
+		"description": "Immune to the effects of heat and hot environments."
 	},
 	{
 		"name": "Surefooted",
 		"description": "Suffer no penalties when moving through difficult terrain."
+	},
+	{
+		"name": "Surgeon’s Aid",
+		"description": "When a minion group of one or more Mini-Meds performs the Assist maneuver to help a character with a Medicine check, that character counts as having +1 rank in the Surgeon talent per Mini-Med in the group."
 	},
 	{
 		"name": "Sweep Attack",
@@ -394,6 +470,10 @@
 	{
 		"name": "Trained Mount",
 		"description": "Add :boost: per rank to a rider’s Survival checks while mounted."
+	},
+	{
+		"name": "Unstable",
+		"description": "When thrantas suffer a Critical Injury, they add +10 per rank to the Critical Injury roll."
 	},
 	{
 		"name": "Overwhelming Fire",

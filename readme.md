@@ -68,3 +68,4 @@ Main tasks:
 - Favicon
 - Links between adversaries
 - Proper force pips rather than using the light side icon
+- Add ability to search by adversary type

@@ -1,6 +1,6 @@
 
 import React from "react";
-import { dice, id, symbolise, sortByProperty } from "lib/utils";
+import { dice, id, symbolise, sortByProperty, minionSkill } from "lib/utils";
 
 function getWeaponDetails(weapon, character, allSkills, minions) {
 	if(!("id" in weapon)) {
@@ -26,8 +26,8 @@ function getWeaponDetails(weapon, character, allSkills, minions) {
 	let stat = character.characteristics[skill.characteristic] || 0;
 	let value = character.skills[weapon.skill] || 0;
 
-	if(minions > 0 && character.type == "Minion" && weapon.skill in character.skills) {
-		value += minions - 1;
+	if(character.type == "Minion") {
+		value = minionSkill(minions, weapon.skill, character.skills);
 	}
 
 	weapon.icons = dice(stat, value);

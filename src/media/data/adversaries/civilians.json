@@ -141,7 +141,7 @@
 		"abilities": ["Keen Senses"],
 		"weapons": [],
 		"gear": ["Musical instrument"],
-		"tags": ["civilian", "location:Rim Worlds", "species:Bith", "book:fad"]
+		"tags": ["civilian", "location:Rim Worlds", "species:Bith", "book:fad", "entertainer"]
 	},
 	{
 		"name": "Brionelle Army Cadet",
@@ -1267,7 +1267,7 @@
 			"Survival": 0
 		},
 		"talents": [],
-		"abilities": ["Glider"],
+		"abilities": ["Sathari Glider"],
 		"weapons": ["Slugthrower rifle", "Diiro"],
 		"gear": ["1 Dose bearsloth venom", "Thick furs and leathers (++1 Soak)"],
 		"tags": ["book:cotgk", "civilian", "location:Arbooine", "location:Quolas", "species:Sathari", "adventure:Chronicles of the Gatekeeper"]
@@ -1296,7 +1296,7 @@
 			"Negotiation": 3
 		},
 		"talents": ["Inspiring Rhetoric"],
-		"abilities": ["Glider"],
+		"abilities": ["Sathari Glider"],
 		"weapons": ["Diiro"],
 		"gear": ["5 Doses bearsloth venom", "Ornate thick furs and leathers (++1 Soak)"],
 		"tags": ["book:cotgk", "civilian", "location:Arbooine", "location:Quolas", "species:Sathari", "adventure:Chronicles of the Gatekeeper"]
@@ -1325,7 +1325,7 @@
 			"Survival": 0
 		},
 		"talents": [],
-		"abilities": ["Glider"],
+		"abilities": ["Sathari Glider"],
 		"weapons": ["Slugthrower pistol", "Diiro"],
 		"gear": ["2 Doses of bearsloth venom", "Padded armour (+2 Soak)", "Binders"],
 		"tags": ["book:cotgk", "civilian", "security", "location:Arbooine", "location:Quolas", "species:Sathari", "adventure:Chronicles of the Gatekeeper"]
@@ -1355,7 +1355,7 @@
 			"Vigilance": 1
 		},
 		"talents": ["Adversary 1"],
-		"abilities": ["Glider", "Restraint"],
+		"abilities": ["Sathari Glider", "Restraint"],
 		"weapons": ["Slugthrower pistol", "Diiro"],
 		"gear": ["10 Doses of bearsloth venom", "2 Doses of bearsloth anti-venom", "Padded armour (+2 Soak)", "Binders", "Comlink"],
 		"tags": ["book:cotgk", "civilian", "security", "location:Arbooine", "location:Quolas", "species:Sathari", "adventure:Chronicles of the Gatekeeper"]

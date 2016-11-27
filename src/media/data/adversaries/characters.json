@@ -531,7 +531,7 @@
 			"Knowledge: Underworld": 3,
 			"Negotiation": 3
 		},
-		"talents": ["Smooth Talker"],
+		"talents": ["Smooth Talker (Negotiation) 1"],
 		"abilities": ["Hoverer", "Silhouette 0"],
 		"weapons": [],
 		"gear": ["Spatula", "Puffy chef’s hat", "Utility apron"],
@@ -1490,7 +1490,7 @@
 			"Survival": 2
 		},
 		"talents": ["Adversary 1"],
-		"abilities": ["For Quolas!", "Glider"],
+		"abilities": ["For Quolas!", "Sathari Glider"],
 		"weapons": ["Slugthrower rifle", "Diiro"],
 		"gear": ["Furs and leathers (+1 Soak)", "23 Doses bearsloth venom"],
 		"tags": ["book:cotgk", "civilian", "sathari resistance", "location:Arbooine", "location:Quolas", "species:Sathari", "adventure:Chronicles of the Gatekeeper"]
@@ -1678,7 +1678,7 @@
 			"Ranged: Light": 2,
 			"Streetwise": 3
 		},
-		"talents": ["Adversary 1", "Gang Leader", "Smooth Talker 1"],
+		"talents": ["Adversary 1", "Gang Leader", "Smooth Talker (Deception) 1"],
 		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Fine dinner clothes", "Personal deflector shield (+2 Defence)"],
@@ -1767,7 +1767,7 @@
 			"Streetwise": 2,
 			"Vigilance": 2
 		},
-		"talents": ["Smooth Talker"],
+		"talents": ["Smooth Talker (Negotiation) 2"],
 		"abilities": [],
 		"weapons": ["Blaster pistol"],
 		"gear": ["6 Death sticks (induces mild hallucinations, adds :setback: to any task the character attempts and prohibits the expenditure of Destiny points for the duration of the combat or scene)"],

@@ -101,7 +101,7 @@
 	},
 	{
 		"name": "Body Guard",
-		"description": "Once per round, may suffer 1 Strain per rank to take the Body Guard maneuver to protect an engaged ally; until the end of the character's next turn, upgrade the difficulty of all combat checks targeting the protected ally once per Strain spent."
+		"description": "Once per round, may suffer 1 Strain per rank to take the Body Guard maneuver to protect an engaged ally; until the end of the character’s next turn, upgrade the difficulty of all combat checks targeting the protected ally once per Strain spent."
 	},
 	{
 		"name": "Body Guard (Improved)",
@@ -621,7 +621,7 @@
 	},
 	{
 		"name": "Hold Together",
-		"description": ""
+		"description": "Flip one Destiny Point to make a Hold Together incidental immediately after a starship takes damage to convert the suffered Hull Trauma to System Strain."
 	},
 	{
 		"name": "Holistic Navigation",
@@ -1324,8 +1324,20 @@
 		"description": ""
 	},
 	{
-		"name": "Smooth Talker",
-		"description": "When making Negotiation checks, spend :triumph: to gain additional :success:."
+		"name": "Smooth Talker (Charm)",
+		"description": "When making Charm checks, spend :triumph: to gain additional :success: per rank."
+	},
+	{
+		"name": "Smooth Talker (Coercion)",
+		"description": "When making Coercion checks, spend :triumph: to gain additional :success: per rank."
+	},
+	{
+		"name": "Smooth Talker (Deception)",
+		"description": "When making Deception checks, spend :triumph: to gain additional :success: per rank."
+	},
+	{
+		"name": "Smooth Talker (Negotiation)",
+		"description": "When making Negotiation checks, spend :triumph: to gain additional :success: per rank."
 	},
 	{
 		"name": "Sniper Shot",
