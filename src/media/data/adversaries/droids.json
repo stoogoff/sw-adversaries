@@ -27,7 +27,7 @@
 		"tags": ["species:Droid", "book:ragp", "adventure:Rescue at Glare Peak", "medic"]
 	},
 	{
-		"name": "3PX Series Protocol Droid",
+		"name": "3PX-Series Protocol Droid",
 		"type": "Rival",
 		"description": "Cybot Galctica, manufacturers of the renowned 3PO-series protocol droids, took a decidedly less human-centric approach to the design of the variant 3PX line marketed to customers in the Outer Rim. Because of the the diversity of species through the vast region, the droid was designed with a face based on no particular species, but with elements of several prominent groups through a wide swath of the Outer Rim territories.\n\nThe final result was recognisable to almost every species it encountered, but lacked the ability to connect with specific species as well as a more clearly defined 3PO model. Sales of the 3PX line suffered as a result, leading to a limited production run. However, resold droids tend to command the price of brand-new droids, thanks to the droid’s extensive cultural and linguistic databases. The Rebellion also favours use of 3PX-series droids, seeing them as a symbol that distances the Alliance from the Empire’s pro-human sentiment.",
 		"notes": "Cost 7,750 Credits, Rarity 4",
@@ -99,7 +99,7 @@
 		"tags": ["book:sor", "species:Droid", "location:Sullust", "security", "sorosuub", "adventure:Claustrophobia"]
 	},
 	{
-		"name": "5YQ Series Protocol Droid",
+		"name": "5YQ-Series Protocol Droid",
 		"type": "Rival",
 		"description": "The protocol droids of the 5YQ-series, while perfectly functional mediators, are widely regarded as cheap knockoffs of more popular models. They were produced by Cybot Galactica to compete with Serv-O-Droid Incorporated’s near monopoly on sales in the Mid Rim, but the project was not given adequate resources to break into such a diverse market. The 5YQ design team ended up recycling most of the work done on the earlier 3PO-series, but replaced the deep cultural databases previously used with a wide but shallow array of details on every conceivable topic. The final result was a droid that could operate in any part of the galaxy, but with considerably less effectiveness than a more specialised model. Given time, the 5YQ line might have been able to develop a market, but the production lines were shut because of a lawsuit against Cybot Galactica for using Serv-O-Droid parts in the 5YQ-series. This was the final black mark for the line, leaving them with a market share far lower than their relatively unremarkable performance would merit.",
 		"notes": "Cost 5,500 Credits, Rarity 3",
@@ -235,7 +235,7 @@
 		"name": "Antiquated Battle Droid",
 		"type": "Minion",
 		"description": "The most frequently encountered droid of this type is the B1 battle droid produced by Baktoid Combat Au­tomata. A generation ago, these frail-looking droids were the terror of the galaxy. Legions of them formed the Separatist armies during the Clone Wars but the intervening years have not been kind to their design, which was inexpensive to begin with. Although no rep­ utable military still employs these droids in number, they can be found in limited quantities in the forces of crime lords, mercenaries, and various other ne’er-do­-wells throughout the underbelly of the galaxy.",
-		"notes": "Cost 6,500.",
+		"notes": "Cost 6,500, Rarity 5",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -261,7 +261,7 @@
 		"name": "Assassin Droid",
 		"type": "Nemesis",
 		"description": "Assassin droids embody the worst fears organic beings have of mechanical life—specifically that it will employ violence against its creators in an attempt to replace them. While assassin droids are not so universally genocidal in their function, they are designed with the intent to kill living creatures. As such, they are a constant danger to all who interact with them, as they are motivated not by profit or ideology, but by pure, programmed instinct. Officially, of course, the Imperials do not employ assassin droids, which are illegal in virtually every sector of the galaxy. Unofficially, the Empire employs them discreetly to seek out specific targets that are impossible, or at least inconvenient, for them to deal with personally. On general principle, the Alliance eschews assassin droids completely.",
-		"notes": "Cost 65,000.",
+		"notes": "Cost 65,000, Rarity 8, Restricted",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,
@@ -316,7 +316,7 @@
 		"name": "Astromech Droid",
 		"type": "Rival",
 		"description": "Astromech droids are incredibly common through-out the galaxy. Although they all share a common purpose, they vary considerably in terms of their sophistication. At the lower end of the spectrum, early astromech droids were little more than automated navicomputers with some maintenance capabilities. The more sophisticated among them, specifically the universally successful R-series droids from Industrial Automaton, are among the most intelligent and advanced of all Class Two droids. The R2 model of droids in particular are notorious for developing quirky personalities in the absence of regular memory wipes. Part, of the reason that Alliance starhghters are so much more advanced than their Imperial counterparts without a significant increase in size is the utilization of astromech droids, which facilitate many of the more difficult computer functions necessary for the fighters to operate. In Imperial forces, astromech droid use is limited largely to capital-scale vessels that require redundant backups to ensure smooth functioning, regardless of circumstance.",
-		"notes": "Cost 8,250.",
+		"notes": "Cost 8,250, Rarity 3",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 1,
@@ -355,6 +355,7 @@
 		"name": "Butterbug Remote",
 		"type": "Minion",
 		"description": "These small palm-sized remotes transmit localised information to each other and to the user. Whole batches can be linked together as a networked swarm.",
+		"notes": "Cost 700 credits, Rarity 4",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 1,
@@ -419,6 +420,7 @@
 		"name": "CT-4 Medical Droid",
 		"type": "Rival",
 		"description": "The CT-4 series medical droids are manufactured in Polis Massa by Polis Massa Pria Assemblage, and are almost exclusively used there. They are similar in many respects to the EW-3 midwife droid but are more generalized in their application. A handful of the units are on loan to the Rebel Alliance, though they are rarelv used awav from the Rebel Fleet.\n\nSpecializing in the application of bacta, the CT-4 possesses programming that makes it familiar with thousands of sentient species and their physiologi­cal peculiarities. Their personalities are caring and thoughtful, and their relatively small size and non­-human shape rarely sets patients at ease in the same way as does the more familiar 2-1 B surgical droid.",
+		"notes": "Cost 20,000 credits, Rarity 8",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 1,
@@ -445,7 +447,7 @@
 		"tags": ["species:Droid", "medic", "book:sor"]
 	},
 	{
-		"name": "CZ Series Communicationss / Business Droid",
+		"name": "CZ-Series Communicationss / Business Droid",
 		"type": "Rival",
 		"description": "The CZ-series communications/business droid exemplifies extreme specialisation in protocol droid manufacture. Its databanks feature a suite of languages and cultural customs smaller than comparable models, and it lacks information on species or cultures beyond the Core Worlds. Instead, the CZ-series is programmed with a near-complete database of banking and financial regulations, as well as storage space to record current market prices for any goods it might encounter. A long-range comlink enables the droid to observe markets across a whole planet or to access interstellar communications networks to track deals made throughout the galaxy. The model’s one universally reviled downside is the standard paintjob designed to draw attention to the droid in dealerships. It is a truly vulgar mix of bright green and orange – obviously, many owners have these droids repainted.\n\nAlthough the Rebellion has limited need for the business acumen the CZ-series is built for, the droids are top-notch negotiators, often capable of reaching settlements solely on the strength of their programming. Furthermore, the droid’s long-range comlink can serve as a distress beacon or homing device for Rebel cells in negotiations with groups of dubious trustworthiness.",
 		"notes": "Cost 9,000 Credits, Rarity 4",
@@ -554,6 +556,34 @@
 		"tags": ["species:Droid", "separatist", "book:cotgk", "adventure:Chronicles of the Gatekeeper"]
 	},
 	{
+		"name": "Dum-Series Pit Droid",
+		"type": "Minion",
+		"description": "Produced in huge numbers by Serv-O Droid, the ubiquitous DUM-series droids are a common sight in workshops, mechanics’ garages, and racing pits all across the galaxy. Introduced during the days of the Galactic Republic, these droids were constructed at the Serv-O Droid facility on Cyrillia for labour, repair and light construction use. Throughout the decades during which the DUM series has been in service, these droids have gained an unfortunate reputation as poorly programmed, hapless, and clumsy things that are often not worth the trouble of keeping. They are also highly disposable , thanks to their cheap construction and low price point; most DUM-series droids are simply destroyed or recycled when damaged rather than repaired. Scrapyards throughout the galaxy are littered with the remains of DUM-series droids, and few individuals consider them to have any worth at all.",
+		"notes": "Cost 450 credits, Rarity 1",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 0,
+			"Cunning": 0,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 2
+		},
+		"skills": {
+			"Computers": 0,
+			"Mechanics": 0,
+			"Perception": 0
+		},
+		"talents": ["Fine Tuning 2"],
+		"abilities": ["Droid", "Networking", "Silhouette 0"],
+		"weapons": [],
+		"gear": ["Built-in comms suite"],
+		"tags": ["book:ev", "species:Droid", "engineer"]
+	},
+	{
 		"name": "DZ-70 Fugitive Tracker Droid",
 		"type": "Rival",
 		"description": "The DZ-70 by Arakyd Industries is one of the most popular tracking droids on the market today. Used by militaries and law enforcement agencies throughout the galaxy, these small droids are not particularly bright but are expert trackers and are incredibly persistent in the pursuit of a target. Around two metres across, the DZ-70 is a small, spherical droid equipped with a powerful repulsorlift system that provides excellent agility and overland speed. The droid’s hull is studded with photoreceptors and assorted sensors that give it an unrestricted, 360 degree view of its surroundings. Two powerful, retractable claws are housed in covered bays along the droid’s bottom and it carries a blaster pistol and ion blaster as standard armament. While quite competent despite its low intelligence, a DZ-70’s natural zeal and tenaciousness may occasionally lead to the development of an “at all costs” metnatility if the droid isn’t given proper maintenance and regular memory wipes. This means that the droid does everything in its power, including the use of lethal force, to bring a fugitive to justice.",
@@ -597,6 +627,7 @@
 		"name": "Generic Remote",
 		"type": "Minion",
 		"description": "Small wheeled devices, spheres with miniature repul­sorlifts, and various other chassis house generic remotes. which can perform basic preprogrammed tasks in response to simple commands from users.",
+		"notes": "Cost 400 credits, Rarity 2",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 1,
@@ -619,7 +650,39 @@
 		"tags": ["book:sm", "species:Droid", "remote"]
 	},
 	{
-		"name": "GV/3 Series Guardian Droid",
+		"name": "Guardian Police Droid",
+		"type": "Rival",
+		"description": "GU-series “Guardian” police droids were the primary law enforcement droids operated by the Coruscant Security Force during the final years of the Republic. Designed and built by Cybot Galactica specifically for the CSF, countless thousands of these droids patrolled the sprawling upper levels of Coruscant’s Galactic City for generations. While in service GU-series droids gained a reputation as solid and level-headed, if unimaginative, law enforcers. They were programmed for various police work, such as patrol, peacekeeping, crime scene investigation, detective work and riot control. Although they were reliable, the GU-series droids suffered from a lack of initiative. Clever or dedicated criminals could usually out think them with little difficulty.",
+		"notes": "Cost 8,100 credits, Rarity 6",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10
+		},
+		"skills": {
+			"Athletics": 2,
+			"Melee": 1,
+			"Perception": 3,
+			"Piloting: Planetary": 2,
+			"Ranged: Light": 2,
+			"Streetwise": 1,
+			"Vigilance": 2
+		},
+		"talents": ["Nobody’s Fool 1"],
+		"abilities": ["Droid"],
+		"weapons": ["Blaster pistol", "Truncheon"],
+		"gear": [],
+		"tags": ["book:ev", "species:Droid", "security"]
+	},
+	{
+		"name": "GV/3-Series Guardian Droid",
 		"type": "Rival",
 		"description": "The GV/3 guardian droid, manufactured by Cybot Galactica. is one of the most advanced security droids on the market. Designed to resemble a four-legged canine. the GV/3 is broad and powerful in appearance. The droid’s sturdy construction is further reinforced with plasteel plates. and integrated so­ lar panels guarantee that it rarely needs recharging.\n\nThe droid’s programming emulates that of a very intelligent beast. and it communicates with its master in a series or yips. yelps. barks. and growls. GV/3 guardian droids come standard with strong loyalty imprint software that can be keyed to any number of subjects As long as a specific individual is imprinted in the droid’s memory, it follows that being’s com­mands and. to the best of its ability, prevents that person ’rom being injured. whether by deliberate action or by ac­cident. Despite the GV/3’s physical strength, it is capable of being gentle and even playful. especially around children. The GV/3 is popularly used for home security and by law enforcement agencies. It has also been adapted to search and rescue operations with much success. Though it is considered a benign droid in most areas. some models have been modi­fied by unscfUpulous individuals for criminal applications.",
 		"notes": "Cost 8,000 credits, Rarity 7",
@@ -666,7 +729,7 @@
 		"tags": ["book:ktp", "species:Droid", "security"]
 	},
 	{
-		"name": "Gyrowheel 1.42.08 Series Recycling Droid",
+		"name": "Gyrowheel 1.42.08-Series Recycling Droid",
 		"type": "Minion",
 		"description": "A relatively common sight aboard colony ships and in the streets and alleys of countless settlements, Veril Line Systems’ Gyrowheel series recycling droid is, in its way, perhaps the most useful and important droid a colony can possess. Using a powerful cocktail of natural and artificial enzymes contained within their bodies, these droids turn garbage, food scraps, and other organic refuse into a nourishing nutrient sludge that can make up the large part of many a colonist’s daily caloric intake.\n\nStanding around two metres high, these had working droids consist of a broad, round body like a high-walled serving platter around 2.5 metres across covered by a retractable clamshell cover. Dexterous manipulator arms ring the droid’s body, and a dull red photoreceptor constantly scans its surroundings for trash. The droid’s body is perched on a single hard rubber wheel and is kept balanced by a sophisticated gyro-stabilisation system. More a remote than an actual sentient droid, these extremely dim-witted constructs are devoid of individual personality beyond a desire to hunt trash. They operate in packs, scouring their surroundings for organic refuse under the command of a central monitoring computer system.",
 		"notes": "Cost 6,500 credits, Rarity 4",
@@ -847,7 +910,7 @@
 		"tags": ["book:aor", "adventure:Perlemian Haul", "species:Droid"]
 	},
 	{
-		"name": "LOM Series Protocol Droid",
+		"name": "LOM-Series Protocol Droid",
 		"type": "Rival",
 		"description": "When Industrial Automaton entered the protocol droid market with the LOM-series, they gambled on an unusual strategy. Rather than compete directly with the dominant Cybot Galactica for the core of the market, they released a droid designed for a more niche buyer. The LOM-series has over-sized optical sensors reminiscent of compound eyes and other insectoid facial features designed to maximise appeal with similarly-featured alien species such as the Gand and Verpine. The LOM-series was a huge success, earning Industrial Automaton not only customers from that market but also among those who frequently do business with insectoid species.\n\nAs a gesture of goodwill, the Rebellion often employs LOM-series droids when working with insectoid species. However, the LOM-series is perfectly functional in any circumstance requiring a protocol droid, so they are often assigned to assist Alliance representatives, regardless of the species involved.",
 		"notes": "Cost 8,500 Credits, Rarity 5",
@@ -877,7 +940,7 @@
 		"tags": ["book:da", "species:Droid", "protocol droid"]
 	},
 	{
-		"name": "LRD Series Envoy Droid",
+		"name": "LRD-Series Envoy Droid",
 		"type": "Rival",
 		"description": "Envoy droids fill an obscure but significant niche in the protocol droid market. Programmed for greater independence of thought than most and featuring expanded loyalty protocols, envoy droids are able to speak in their master’s stead without supervision. While there are entirely legitimate uses of droid envoys, sending one is nevertheless considered a snub in most circles – usually taken to indicate that the droid’s master considers his opposite number to be untrustworthy or unworthy of a direct meeting. Nevertheless, the Rebellion often risks the hard feelings, taking the opportunity to conduct negotiations without risking the lives of its agents by deploying LRD-series droids to suspect meetings whenever possible.\n\nThe LRD-series is one of the few envoy droids that receives a measure of respect when sent to a meeting. The droid’s mimic circuits allow it to imitate its master with astounding precision. Having an LRD-series envoy at negotiations is considered nearly the same thing as having its master present; given the price of the model, it is generally not taken as harshly to see one arrive instead of a flesh-and-blood negotiator.",
 		"notes": "Cost 15,000 Credits, Rarity 5",
@@ -906,7 +969,7 @@
 		"tags": ["book:da", "species:Droid", "protocol droid"]
 	},
 	{
-		"name": "M-3PO Series Military Protocol Droid",
+		"name": "M-3PO-Series Military Protocol Droid",
 		"type": "Rival",
 		"description": "Technically classified as a protocol droid, the M-3PO-series was never intended to assist in negotiations or cultural exchanges. An M-3PO military protocol droid manages logistical and analytical efforts for soldiers. Its chassis is better protected than a typical protocol droid, and it is programmed for military discipline in all situations. However, the M-3PO-series cannot withstand the rigours of actual combat. An M-3PO unit is best deployed inside a secure installation where it can access tactical data or manage communications. The droid uses its encyclopaedic knowledge of military protocols, tactics and doctrines to assist nearby personnel. A commander with an M-3PO advisor gains the edge of keen, dispassionate logic, while a quartermaster assisted by a similar aide always knows how to efficiently supply troops. M-3PO units are sticklers for obeying whatever regulations apply to the group they are serving, and they are notoriously inflexible.",
 		"notes": "Cost 12,000 Credits, Rarity 5, Restricted",
@@ -938,7 +1001,7 @@
 		"name": "Maintenance Droid",
 		"type": "Minion",
 		"description": "The term maintenance droid applies to an extremely broad array of Class Five droids that are created to perform simple repairs and upkeep on different equipment and vehicles. Typically these are the less sophisticated Class Five droids. They are not tasked with advanced repairs. Instead, they are afforded simple work that trained laborers would be able to perform - only without the need for rest, payment, or food. They are employed in most starports throughout the galaxy, including those controlled by both the Galactic Empire and the Rebel Alliance.",
-		"notes": "Cost 7,500.",
+		"notes": "Cost 7,500, Rarity 3",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 1,
@@ -1029,7 +1092,7 @@
 		"name": "Medical Droid",
 		"type": "Rival",
 		"description": "Medical droids see extensive use on both sides of the Galactic Civil War, though in different ways and for different reasons. Although expensive, medical droids cost less and are quicker to produce than organic doctors. The Empire employs them for this reason, and because less sophisticated droids can be counted upon to make critical decisions without permitting emotion to come into play. The Rebellion employs them because trained medics and physicians are in extremely short supply, and the more sophisticated medical droids can display not only significant expertise, but a bedside manner that promotes quick recovery for Alliance personnel.",
-		"notes": "Cost 12,000.",
+		"notes": "Cost 12,000, Rarity 4",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 1,
@@ -1078,6 +1141,63 @@
 		"weapons": [],
 		"gear": [],
 		"tags": ["book:fh", "species:Droid", "medic"]
+	},
+	{
+		"name": "MI-Series Security Droid",
+		"type": "nemesis",
+		"description": "Holowan Mechanicals’ imposing MI-series security droids are some of the most efficient and dangerous droids in the galaxy. A recent entry into an already crowded security droid field, Holowan made its new droids stand out by arming them to their metaphorical teeth and marketing them heavily among wealthy civilians and small planetary governments. Its plan paid off, and within a scant few years it has a nearly two-year waiting list for new MI-series models.",
+		"notes": "Cost 41,225 credits, Rarity 7, Restricted",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15,
+			"strain": 10,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Coercion": 4,
+			"Perception": 3,
+			"Ranged: Heavy": 4,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Droid", "Fire Sweep"],
+		"weapons": [
+			{
+				"name": "Twin light repeating blasters",
+				"skill": "Ranged: Heavy",
+				"damage": 11,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Auto-Fire", "Linked 1", "Pierce 1"]
+			},
+			{
+				"name": "Twin stun blasters",
+				"skill": "Ranged: Heavy",
+				"damage": 6,
+				"critical": null,
+				"range": "Close",
+				"qualities": ["Linked 1", "Stun Damage"]
+			},
+			{
+				"name": "Over-sized arms",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:ev", "species:Droid", "security"]
 	},
 	{
 		"name": "NR-5 Maintenance Droid",
@@ -1145,7 +1265,7 @@
 		"name": "Protocol Droid",
 		"type": "Rival",
 		"description": "The purpose of a protocol droid is to facilitate the interaction of organic beings in a galaxy that has literally thousands upon thousands of unique cultures and civilizations, many of them with conflicting or otherwise exclusive customs and beliefs. Protocol droids were created to prevent offense between different cultures. The advent of the Galactic Empire has lessened the value of protocol droids, since the Empire cares nothing for the culture of its member worlds, but the Alliance has found great use in them to help bridge the gap between the many races that have banded together in hopes of overthrowing the Emperor and his oppressive regime.",
-		"notes": "Cost 8,000.",
+		"notes": "Cost 8,000, Rarity 4",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 1,
@@ -1172,7 +1292,7 @@
 		"tags": ["species:Droid", "book:aor", "book:eote", "book:ragp", "adventure:Rescue at Glare Peak", "protocol droid"]
 	},
 	{
-		"name": "Q7 Series Astromech Droid",
+		"name": "Q7-Series Astromech Droid",
 		"type": "Rival",
 		"description": "The Q7 was the result of a joint venture between Industrial Automaton and Kuat Systems Engineering. Designed specifically for use in KSE’s A3 Nimbus short-range interceptor, the Q7 is unique among IA’s astromech droid catalog in both construction and personality. Using design specifications and access to the Nimbus’ advanced new software architecture, IA developed its new droid specifically for use in the new fighter, a process that both companies felt would be a growing trend in the near future. After numerous failed prototypes, IA finally perfected the interface systems and the brand new Q7 was revealed along with the Nimbus to overwhelming praise from both the military and civilian sectors.",
 		"notes": "Cost 6,500 Credits, Rarity 8",
@@ -1205,6 +1325,7 @@
 		"name": "Q-4 Borerr Droid",
 		"type": "Minion",
 		"description": "Manufactured by Quarren Industrial on the planet Mon Cala, the Q-4 borer is a diminutive cylindrical mining droid .7 meters in length and .2 meters in diameter. Moving via a repulsorlift engine, the droids use drilling lasers to burrow through dirt and soft rock in search of veins of ore, which they can detect with the use of specialized sensors. Once the Q-4 discovers ore, it con­tinues to search for additional veins, while larger mining droids are called in to extract the discovery.\n\nReferred to as “ mole droids” by the miners who use them, Q-4s possess a cheerful demeanor and pursue their work with apparent glee. Despite their carefree and can-do attitudes, Q-4s aren’t particularly bright, and they often bite off more than they can chew if left unattended for long periods of time. They are used in small teams and deployed in large formations to search for ore, and they operated easily both in atmo­sphere and underwater.",
+		"notes": "Cost 2,000 credits, Rarity 5",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 2,
@@ -1237,7 +1358,7 @@
 		"tags": ["species:Droid", "book:sor"]
 	},
 	{
-		"name": "R7 Series Astromech Droid",
+		"name": "R7-Series Astromech Droid",
 		"type": "Rival",
 		"description": "The R7-series is the latest member of Industrial Automaton’s highly respected R-series family of astromech droids. Designed specifically for use in the newly released E-wing multi-role starfighter, the R7-series was developed in secret, along with its bespoke starfighter, as part of a joint venture between IA and FreiTek Incorporated. Using the development of lA’s R6-series astromechs as cover, the R7 project set out to build the most competent and reliable astromech droid ever produced. Using an all-new, highly-advanced droid brain and the latest versions of lA’s tried-and-true astromech programming, the R7-series outshines even the venerable R2-series as an astrogator, technician, and starship pilot.\n\nThe R7 is an extremely novel design, using few parts or systems from earlier R-series droids. While it still has the iconic R-series barrel-shaped body, domed head, and two outboard legs with broad, treaded feet, that’s where the resemblance to its older cousins ends. The internal systems of the R7 are all new, and its power and computer systems are heavily shielded using circuit-hardening technology typically found in starfighters. The droid’s chassis is reinforced and constructed from stronger and lighter alloys than previous models. The triangle-shaped sensor eye is packed with advanced optical sensors that allow the droid to see in nearly any light as well as scan and analyze materials and structures for microfractures and stress fatigue. R7s are programmed with an eager, can-do personality that stands in stark contrast to the strange and surly personalities exhibited by their R5 predecessors.\n\nUnfortunately, despite all their advanced systems and genial personalities, the capabilities of the R7 series are limited. While they enjoy incredible synchronicity between their systems and the systems of the new E-wing starfighters for which they were designed, R7s find it difficult or even impossible to interface with older starfighters. Even the vaunted X-wing’s systems are too slow and clunky for an R7 to use fully. R7s can be programmed to interface with other starfighters, but their compatibility can never be one hundred percent. In game terms, this means that when connected with any starfighter or other vessel that isn’t an E-wing, an R7 loses the benefits of its Galaxy Mapper and Hold Together talents.",
 		"notes": "Cost 11,000 Credits, Rarity 6",
@@ -1297,6 +1418,7 @@
 		"name": "Roche J9 Worker Drone",
 		"type": "Rival",
 		"description": "Despite its capabilities, the J9 worker drone was an abject commercial failure. Designed as a protocol droid, the series’ moniker, “worker drone,” was decep­tive to potential customers, who assumed it was just another labor droid. In addition, the unit’s appear­ance, which was distinctly bug-like, in conjunction with its flat personality, turned many mammalian species off. The Verpine even attempted to market the droid to other insectoid species, still without much success.\n\nMost of the J9 worker drones purchased by the public were placed in labor jobs, wasting their more advanced systems and programming on menial tasks. Because of this, J9s are some of the most intelligent labor droids on the market. Over time, however, they develop somewhat bitter personalities, as they feel they were destined for something greater but were somehow cheated out of it.\n\nThe Rebel Alliance has acquired a large number of surplus J9 worker drones directly from Roche and has put them to good use. The Alliance realizes that the J9 is much more than a simple labor droid, and many of the units have been assigned to Rebel teams to assist them with translation and analysis. So far, the majority of these J9s have been a success in the field.",
+		"notes": "Cost 7,000 credits, Rarity 3",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 2,
@@ -1325,6 +1447,7 @@
 		"name": "Roche Siak-Series Protocol Droid",
 		"type": "Rival",
 		"description": "Following the stunning failure of the J9 worker drone, the Verpine decided to redesign their protocol droid from the ground up. Roche hired a group of human contractors to assist with the new design, ensuring that the droid’s chassis and personality matrix were more appealing to a mammalian customer base.\n\nThe Siak’s personality is businesslike while remain­ing personable, and it can readily converse for hours about nearly any topic. Physically, the droid is a lot more human than its predecessor, while retaining some obvious Verpine characteristics. As a result, the Siak-series protocol droid represents one of Roche’s most successful products.",
+		"notes": "Cost 10,000 credits, Rarity 4",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 1,
@@ -1350,7 +1473,7 @@
 		"tags": ["species:Droid", "book:sor", "protocol droid"]
 	},
 	{
-		"name": "SDMN Series Session Droid",
+		"name": "SDMN-Series Session Droid",
 		"type": "Rival",
 		"description": "The SDMN “Side Man” series entertainment droids were designed by Cybot Galactica to be the ultimate entertainer’s sidekick. Designed by focus group and committee, the Side Man droids are built to be as inoffensive and engaging as droid technology allows. They can be ordered from the factory with a number of add-ons and special programmes tailored to their owner’s particular needs, from an illusionist’s assistant to a wail band’s percussionist. A Side Man has an obsequious, eager to please personality that professional entertainers tend to find incredibly irritating. As such, most SDMN droids working throughout the galaxy, especially those owned by musicians, have been reprogrammed to be both more enjoyable to be around and better suited to operating in the often seedy, disreputable trenches of the galactic entertainment industry. Despite their built-in personality flaws, Side Men are quite competent and are in high demand by professional and aspiring entertainers.",
 		"notes": "Cost 4,000 credits, Rarity 5",
@@ -1383,7 +1506,7 @@
 		"name": "Security Droid",
 		"type": "Rival",
 		"description": "A more civilized and restricted version of assassin droids, security droids are not illegal but are carefully regulated because of the potential for abuse. Security droids are typically programmed with significant knowledge of law enforcement protocols and often update using local databases when traveling to ensure that their actions are in accordance with planetary, system, and sector law. Typically, security droids are assigned to protect specific locations or individuals and will respond to any threat against their charge with appropriate, sometimes lethal, force.",
-		"notes": "Cost 9,600. The blaster pistol is built in.",
+		"notes": "Cost 9,600, Rarity 5",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -1403,7 +1526,14 @@
 		"talents": [],
 		"abilities": ["Droid"],
 		"weapons": [
-			"Blaster pistol",
+			{
+				"name": "Built-in blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			},
 			{
 				"name": "Snare launcher",
 				"skill": "Ranged: Light",
@@ -1419,7 +1549,8 @@
 	{
 		"name": "Service Patch Remote",
 		"type": "Minion",
-		"description": "",
+		"description": "The service patch remote analyses damage to a star­ship’s systems and repairs broken circuits. Slicers sometimes use service patch remotes to compromise physical security measures protecting computers.",
+		"notes": "Cost 900 credits, Rarity 3",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 1,
@@ -1445,7 +1576,8 @@
 	{
 		"name": "Shield Remote",
 		"type": "Minion",
-		"description": "This asymmetrical remoLe has an armored shield on one side and motion-tracking sensors scattered across its shell. The remote places itself between aggressors and the user, physically impeding aLtacks.",
+		"description": "This asymmetrical remoLe has an armoured shield on one side and motion-tracking sensors scattered across its shell. The remote places itself between aggressors and the user, physically impeding aLtacks.",
+		"notes": "Cost 1,100 credits, Rarity 5",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 1,
@@ -1472,6 +1604,7 @@
 		"name": "Sorosuub G2 Repair Droid",
 		"type": "Rival",
 		"description": "The G2 repair droid is a custom Sullustan design produced by SoroSuub. Intended to assist with shipboard repair, many of these droids instead found themselves utilized as pilots and tour guides for civil­ ian charter vessels. Referred to as “goose droids” due to their widely spaced feet, long necks, and clumsy gait, G2s tend to possess a quirky demeanor and exhibit exces­sively chatty behavior. Over time, the droids also develop a unique sense of humor, trading witticisms and bad jokes with anyone who takes the time to listen.\n\nOverall, the G2 series droids were appreciated by their owners and the tourists they were charged with. Many G2 owners would relieve their droids of their jobs and keep them around as companions. The series’s down­ fall, however, lay in the fact that larger corporations considered them a waste of money due to their tendency to talk rather than work.",
+		"notes": "Cost 6,000 credits, Rarity 5",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 2,
@@ -1502,6 +1635,7 @@
 		"name": "Sorosuub Wanderer Scout Survey Droid",
 		"type": "Rival",
 		"description": "Often used to collect indigenous wildlife for further study and research, the SoroSuub wanderer scout survey droid is part of a larger set of droids deployed planetside as scouts and collectors. The wanderer scout’s powerful stun blasters, swivel-mounted pho­toreceptor, and dedicated medical and scouting programming make it an excellent tool for informa­tion gathering. Many have been turned to the more serious business of espionage against sentient tar­gets and critical locations. Most of the scout survey’s two-meter height is made up of eight spiderlike legs arranged around a relatively small spherical body. While the wanderer is quick and agile, the medical and scouting modules take up most of the available interior space, leaving little room for a personality matrix. As such, these droids lack any personality fea­tures, but they are well regarded for the depth, detail, and unprejudiced nature of the information they col­lect as a result.",
+		"notes": "Cost 2,500 credits, Rarity 6",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 4,
@@ -1564,7 +1698,7 @@
 		"tags": ["book:fad", "adventure:Lessons from the Past", "species:Droid"]
 	},
 	{
-		"name": "TC Series Protocol Droid",
+		"name": "TC-Series Protocol Droid",
 		"type": "Rival",
 		"description": "The TC-series, produced by Cybot Galactica, is less widely known than the more affordable 3PO models from the same manufacturer, but it remains one of the most highly regarded lines of protocol droids. Officially registered as a variant line on the more common 3PO models, the TC-series is actually a solid upgrade in most aspects. The differences are not apparent to the casual observer, as the two droids are nearly identical visually. Instead, the improvements of the TC-series lie in two key areas of programming.\n\nFirst, TC units have benefited from increased design attention, giving them more stable and helpful personalities after some 3PO-series droids were reported to develop eccentric and grating personalities. Secondly, and perhaps more significantly, the TC-series is equipped with a more advanced version of the TranLang III communications module used throughout the protocol droid market.\n\nWhile almost any protocol droid is programmed with a vast array of languages and the capacity to decipher new ones with impressive speed, the TC-series excels above its competitors. The TranLang variant used in these droids uses adaptive programming to improve the unit’s grasp on a language throughout a conversation, enabling them to attempt communication after only a few words spoken by a new species or culture.",
 		"notes": "Cost 10,000 Credits, Rarity 4",
@@ -1592,6 +1726,42 @@
 		"weapons": [],
 		"gear": [],
 		"tags": ["book:da", "species:Droid", "protocol droid"]
+	},
+	{
+		"name": "TC-SC Infiltration Droid",
+		"type": "Nemesis",
+		"description": "Produced by Cybot Galactica and marketed primarily to government and military intelligence agencies, TC-SC droids are frighteningly effective tools for espionage, infiltration, and assassination. Particularly inconspicuous-looking, they stand just under two metres tall and appears to be normal third-degree droids, such as protocol models or teaching units. They have spindly limbs, an over-sized, humanoid head with a featureless faceplate, and a set of four small, red photoreceptors. These droids come in a variety of gender programming options, and thier personalities are usually quiet and conciliatory. They seem, at first glance, to be simple, uncomplicated droids going about their drudgery with little fanfare. Which, of course, is exactly what their designers want.",
+		"notes": "Cost 15,600 credits, Rarity 8, Restricted",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10,
+			"strain": 10
+		},
+		"skills": {
+			"Athletics": 2,
+			"Computers": 3,
+			"Cool": 3,
+			"Deception": 4,
+			"Melee": 3,
+			"Perception": 3,
+			"Ranged: Light": 3,
+			"Skulduggery": 3,
+			"Stealth": 4,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Indistinguishable 2"],
+		"abilities": ["Droid"],
+		"weapons": [],
+		"gear": ["Multi-spectrum disguise suite"],
+		"tags": ["book:ev", "species:Droid"]
 	},
 	{
 		"name": "Viper Probe Droid",

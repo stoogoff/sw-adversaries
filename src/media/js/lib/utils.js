@@ -106,8 +106,11 @@ let bookMap = {
 	"book:nop": "Nexus of Power",
 
 	// career books
+	"book:dc": "Dangerous Covenants", // no stats
 	"book:da": "Desparate Allies",
+	"book:ev": "Endless Vigil",
 	"book:fh": "Far Horizons",
+	"book:fc": "Fly Casual",          // no stats
 	"book:ktp": "Keeping the Peace",
 	"book:sm": "Special Modifications",
 	"book:sot": "Stay on Target",

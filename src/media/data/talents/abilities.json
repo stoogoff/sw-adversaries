@@ -201,7 +201,7 @@
 	},
 	{
 		"name": "Fire Sweep",
-		"description": "As an action, a droideka can make a :hard: Gunnery check to inflict one hit that deals base damage with its built-in twin heavy blasters on up to two targets within Medium range, plus one additional target per :advantage: on the check; it can only hit each target once this way."
+		"description": "As an action, can make a :hard: ranged combat check to inflict one hit that deals base damage with its built-in twin blasters on up to two targets within Medium range, plus one additional target per :advantage: on the check; it can only hit each target once this way."
 	},
 	{
 		"name": "Force Hunter",
@@ -338,6 +338,10 @@
 	{
 		"name": "Negate Force Powers",
 		"description": "An adult ysalamir creates a spherical zone extending out to short range, inside which Force-sensitive characters and creatures cannot exert influence over the Force. Inside this zone, any Force powers, Force talents, or other abilities that the GM decides work via the Force do not function. Likewise, such powers may not affect or detect any­thing within this zone."
+	},
+	{
+		"name": "Networking",
+		"description": "For every three DUM-series droids in a group, add :boost: to all Computers, Mechanics, and Perceptions checks."
 	},
 	{
 		"name": "Neurotoxin Doses",

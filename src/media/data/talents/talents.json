@@ -473,7 +473,7 @@
 	},
 	{
 		"name": "Fine Tuning",
-		"description": ""
+		"description": "Repait an additional System Strain per rank when repairing ships or vehicles."
 	},
 	{
 		"name": "Fire Control",
@@ -669,7 +669,7 @@
 	},
 	{
 		"name": "Indistinguishable",
-		"description": "Opposing characters upgrade the difficulty of any checks made to identify the character once."
+		"description": "Opposing characters upgrade the difficulty of any checks made to identify the character once per rank."
 	},
 	{
 		"name": "Informant",
