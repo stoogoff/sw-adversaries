@@ -298,44 +298,6 @@
 		"tags": ["force sensitive", "jedi", "book:aor"]
 	},
 	{
-		"name": "Moraband Sith Phantasm",
-		"type": "Rival",
-		"description": "",
-		"characteristics": {
-			"Brawn": 3,
-			"Agility": 3,
-			"Intellect": 2,
-			"Cunning": 2,
-			"Willpower": 2,
-			"Presence": 3
-		},
-		"derived": {
-			"soak": 7,
-			"wounds": 1,
-			"defence": [1, 1]
-		},
-		"skills": {
-			"Coercion": 1,
-			"Discipline": 3,
-			"Lightsaber": 2,
-			"Stealth": 4
-		},
-		"talents": [],
-		"abilities": ["Creature of Illusion", "Darkest Dreams"],
-		"weapons": [
-			{
-				"name": "Spectral blade",
-				"skill": "Lightsaber",
-				"damage": 6,
-				"critical": 4,
-				"range": "Engaged",
-				"qualities": ["Breach 1", "Disorient 2", "Stun Damage"]
-			}
-		],
-		"gear": [],
-		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Moraband", "sith"]
-	},
-	{
 		"name": "Murderous Fugitive",
 		"type": "Nemesis",
 		"description": "Without the benefit of Jedi training, some Force-sensitive individuals who might otherwise have been able to control their abilities are left confused and over­whelmed. They find delight in murder and inflicting pain, especially when using their Force-sensitivity to fuel their urges. Often hunted for these crimes, these individuals are extremely dangerous to everyone they encounter.",

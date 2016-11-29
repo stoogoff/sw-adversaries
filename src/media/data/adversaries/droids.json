@@ -388,35 +388,6 @@
 		"tags": ["book:sm", "species:Droid", "remote"]
 	},
 	{
-		"name": "BX Commando Droid",
-		"type": "Minion",
-		"description": "Relics of the Separatist droid army of the Clone Wars, BX-series commando droids served as infiltrators and assas­sins. More cunning, skilled, durable, and dangerous than the more common BI battle droids, commando droids were more expensive to produce, and their use was thus limited to vital missions and support duties.\n\nWhile their less deadly counterparts are still seen occa­sionally across the galaxy, serving at the behest of criminals and mercenaries, active commando droids are, thankfully, all but unheard of in current times.",
-		"characteristics": {
-			"Brawn": 3,
-			"Agility": 3,
-			"Intellect": 1,
-			"Cunning": 2,
-			"Willpower": 1,
-			"Presence": 1
-		},
-		"derived": {
-			"soak": 5,
-			"wounds": 5
-		},
-		"skills": {
-			"Cool": 0,
-			"Melee": 0,
-			"Ranged: Heavy": 0,
-			"Ranged: Light": 0,
-			"Stealth": 0
-		},
-		"talents": [],
-		"abilities": ["Droid"],
-		"weapons": ["Blaster carbine", "Vibrosword", "Frag grenade", "Stun grenade"],
-		"gear": [],
-		"tags": ["species:Droid", "separatist", "book:cotgk", "adventure:Chronicles of the Gatekeeper"]
-	},
-	{
 		"name": "CT-4 Medical Droid",
 		"type": "Rival",
 		"description": "The CT-4 series medical droids are manufactured in Polis Massa by Polis Massa Pria Assemblage, and are almost exclusively used there. They are similar in many respects to the EW-3 midwife droid but are more generalized in their application. A handful of the units are on loan to the Rebel Alliance, though they are rarelv used awav from the Rebel Fleet.\n\nSpecializing in the application of bacta, the CT-4 possesses programming that makes it familiar with thousands of sentient species and their physiologi­cal peculiarities. Their personalities are caring and thoughtful, and their relatively small size and non­-human shape rarely sets patients at ease in the same way as does the more familiar 2-1 B surgical droid.",
@@ -510,50 +481,6 @@
 		],
 		"gear": [],
 		"tags": ["book:fad", "adventure:Lessons from the Past", "species:Droid"]
-	},
-	{
-		"name": "Destroyer Droid",
-		"type": "Rival",
-		"description": "Droidekas, greatly feared by Republic troops during the Clone Wars, were manufactured by the Colicoid species. These durable droids are capable of collapsing into a wheel­ like form for swift movement or unfolding into a tripodal walking gun platform protected by a powerful deflector shield. A single droideka can unleash tremendous salvos of blaster fire while remaining all but immune from return fire thanks to its shields, making droidekas more than a match for many times their own number in soldiers. Thankfully, few of these fearsome machines remain active.",
-		"characteristics": {
-			"Brawn": 5,
-			"Agility": 3,
-			"Intellect": 1,
-			"Cunning": 1,
-			"Willpower": 1,
-			"Presence": 1
-		},
-		"derived": {
-			"soak": 8,
-			"wounds": 18
-		},
-		"skills": {
-			"Gunnery": 2,
-			"Perception": 3,
-			"Resilience": 3
-		},
-		"talents": [],
-		"abilities": ["Droid", "Fire Sweep", "Shield Projector"],
-		"weapons": [
-			{
-				"name": "Twin heavy blasters",
-				"skill": "Gunnery",
-				"damage": 12,
-				"critical": 3,
-				"range": "Long",
-				"qualities": ["Auto-Fire", "Linked", "Pierce 1", "Vicious 1"]
-			},
-			{
-				"name": "Stomp",
-				"skill": "Brawl",
-				"damage": 5,
-				"critical": 5,
-				"range": "Engaged",
-				"qualities": ["Knockdown 1"]
-			}
-		],
-		"gear": [],
-		"tags": ["species:Droid", "separatist", "book:cotgk", "adventure:Chronicles of the Gatekeeper"]
 	},
 	{
 		"name": "Dum-Series Pit Droid",
@@ -1545,6 +1472,32 @@
 		],
 		"gear": [],
 		"tags": ["species:Droid", "security", "book:eote"]
+	},
+	{
+		"name": "Sentry Droid",
+		"type": "Rival",
+		"description": "The Sentry Droid is a small drone spacecraft tasked with orbiting the asteroid and monitoring the surround­ing area for incoming vessels or other hazards. It is pro­grammed to alert Bandin Dobah if it identifies a likely hazard, then intercept it.\n\nThe Sentry Droid is a small spacecraft managed by a droid brain with the following characteristics and skills. The droid brain is a part of the spacecraft, so does not have soak or wound thresholds, or any equipment or abilities. If it ever needs to suffer strain, the ship suffers system strain instead. It ignores any wounds.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 5
+		},
+		"skills": {
+			"Gunnery:": 2,
+			"Piloting: Space": 2
+		},
+		"talents": [],
+		"abilities": ["Droid"],
+		"weapons": [],
+		"gear": [],
+		"tags": ["book:eote", "adventure:Trouble Brewing", "pilot", "species:Droid"]
 	},
 	{
 		"name": "Service Patch Remote",

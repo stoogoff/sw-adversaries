@@ -562,34 +562,6 @@
 		"tags": ["underworld", "book:aor", "forger"]
 	},
 	{
-		"name": "Kreehawk Ganger",
-		"type": "Minion",
-		"description": "Jaded adrenaline junkies with a contemptuous disregard for their own safety and a burning desire to prove themselves, the young Neimoidian members of the Crimson Kreehawks gang make for dangerously unpredictable opponents.",
-		"characteristics": {
-			"Brawn": 2,
-			"Agility": 3,
-			"Intellect": 2,
-			"Cunning": 3,
-			"Willpower": 1,
-			"Presence": 2
-		},
-		"derived": {
-			"soak": 3,
-			"wounds": 4
-		},
-		"skills": {
-			"Brawl": 0,
-			"Piloting: Planetary": 0,
-			"Piloting: Space": 0,
-			"Ranged: Light": 0
-		},
-		"talents": [],
-		"abilities": [],
-		"weapons": ["Light blaster pistol", "Brass knuckles"],
-		"gear": ["Heavy clothing (+1 Soak)", "Mobquet Flare-V swoop bike with garish paint job"],
-		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Cato Nemoidia", "species:Nemoidian", "Location:Jorra", "kreehawk ganger", "underworld", "thug"]
-	},
-	{
 		"name": "Gank Hunter",
 		"type": "Rival",
 		"description": "Ganks are a war-loving, bipedal species used by the Hutts and others as bounty hunters, mercenaries, and assassins. Although little is known about the species’ origins, the Ganks’ reputation as cold-blooded killers is well known across the galaxy. Ganks cover themselves from head to toe in battle armor, and they are rarely alone, preferring to work in packs. As to what Ganks look like under the armor and prosthetics, one would have to ask a Gank to find out—a daunting prospect. Almost all Ganks augment their bodies with cybernet­ ics, the better to accomplish their violent work.",
