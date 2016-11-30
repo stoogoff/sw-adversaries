@@ -3,18 +3,6 @@ export let id = function id(input) {
 	return input.trim().replace(/\s{1,}/g, "-").toLowerCase();
 }
 
-export let keys = function keys(obj) {
-	let arr = [];
-
-	for(var i in obj) {
-		if(obj.hasOwnProperty(i)) {
-			arr.push(i);
-		}
-	}
-
-	return arr;
-}
-
 export let sortByProperty = function sortByProperty(prop) {
 	return function sort(a, b) {
 		a = a[prop];
@@ -51,7 +39,7 @@ export let dice = function dice(stat, skill) {
 }
 
 export let symbolise = function symbolise(text) {
-	keys(diceMap).forEach(k => {
+	Object.keys(diceMap).forEach(k => {
 		let reg = new RegExp(`:${k}:`, "g");
 
 		text = text.replace(reg, diceMap[k]);

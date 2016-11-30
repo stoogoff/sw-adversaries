@@ -8,7 +8,8 @@ import LinkList from "components/link-list";
 import Filter from "components/filter";
 import Loader from "components/loader";
 import Tabs from "components/tabs";
-import { keys, sortByProperty } from "lib/utils";
+import TagMenu from "components/tag-menu";
+import { sortByProperty } from "lib/utils";
 import * as CONFIG from "lib/config";
 
 
@@ -21,6 +22,7 @@ class App extends React.Component {
 			selectedIndex: 0,
 			list: null,
 			filter: "",
+			tags: [],
 			isLoaded: false
 		};
 		this.events = {};
@@ -48,10 +50,22 @@ class App extends React.Component {
 				adversary = adversaries.sort(sortByProperty("name"))[0];
 			}
 
-			this._updateState(adversary, adversaries);
+			let tags = [];
+
+			adversaries.forEach(a => {
+				a.tags.forEach(t => {
+					if(tags.indexOf(t) == -1) {
+						tags.push(t);
+					}
+				});
+			});
+
+			console.log(tags)
+
+			this._updateState(adversary, adversaries, null, tags);
 		});
 
-		keys(this.stores).forEach(key => {
+		Object.keys(this.stores).forEach(key => {
 			if(key != "adversaries") {
 				this.events[key] = this.stores[key].on("change", () => this._updateState());
 			}
@@ -107,7 +121,7 @@ class App extends React.Component {
 		});
 	}
 
-	_updateState(adversary, list, filter) {
+	_updateState(adversary, list, filter, tags) {
 		let selected = null;
 
 		if(adversary) {
@@ -119,7 +133,8 @@ class App extends React.Component {
 			selected: selected || this.state.selected,
 			list:     list     || this.state.list,
 			filter:   filter   || this.state.filter,
-			isLoaded: this.loadedTotal == keys(this.stores).length,
+			tags:     tags     || this.state.tags,
+			isLoaded: this.loadedTotal == Object.keys(this.stores).length,
 			selectedIndex: this.state.selectedIndex
 		});
 
@@ -129,7 +144,7 @@ class App extends React.Component {
 	}
 
 	componentWillUnmount() {
-		keys(this.stores).forEach(key => this.stores[key].off(this.events[key]));
+		Object.keys(this.stores).forEach(key => this.stores[key].off(this.events[key]));
 	}
 
 	render() {
@@ -138,6 +153,7 @@ class App extends React.Component {
 
 		return <div>
 			<div id="navigation" className="column small">
+				<TagMenu tags={ this.state.tags } />
 				<Filter filter={ this.state.filter } />
 				<p><small>Showing { x } of { y }.</small></p>
 				<LinkList data={ this.state.list } selected={ this.state.selected.length > 0 ? this.state.selected[this.state.selectedIndex].id : "" } />

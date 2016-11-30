@@ -18,6 +18,7 @@ $heading: rgb(65,60,66)
 $body: rgb(255,250,244)
 $font: rgb(110,105,101)
 $link: rgb(68,103,127)
+$tabBgColour: rgb(179,176,172)
 
 html
 	margin: 0
@@ -127,7 +128,6 @@ input[type="text"]
 	background-color: white
 	border: 1px solid darken($link, 20%)
 	border-radius: 0.2em
-	max-width: 80%
 	@include hover()
 
 	&:focus
@@ -182,10 +182,22 @@ a, .link
 	margin-left: 1.5em
 
 	&.small
-		width: 17em
+		width: 20em
 
 .filter
-	margin-top: 1.5em
+	margin-top: 1em
+	margin-right: 1em
+	position: relative
+
+	input[type="text"]
+		width: 100%
+
+	#clear
+		position: absolute
+		top: 0.3em
+		right: 0.3em
+		background-color: white
+		padding: 0.2em 0.2em 0.2em 0.5em
 
 #container > .loading
 	margin-top: 6em
@@ -202,9 +214,43 @@ a, .link
 	border-right: 2px solid $derived
 	z-index: 100
 
-	ul
+	ul#menu
+		margin-top: 0
+		margin-bottom: 0.5em
+		position: relative
+		left: -0.5em
+		z-index: 200
+
+		&>li
+			display: inline-block
+			padding: 0.5em
+			cursor: pointer
+			border-radius: 0 0 0.2em 0.2em
+			@include hover()
+
+			&:hover, &.active
+				background-color: $tabBgColour
+				color: darken($font, 20%)
+
+		&>li.active ul
+			display: block
+
+
+		ul
+			background-color: $tabBgColour
+			position: absolute
+			margin: 0
+			padding: 0.5em
+			left: 0
+			display: none
+
+			li
+				padding: 0.2em 0
+
+
+	ul#adversaries
 		position: absolute
-		top: 7em
+		top: 8.5em
 		right: 0
 		bottom: 0
 		left: 1.5em
@@ -212,24 +258,24 @@ a, .link
 		overflow-y: auto
 		padding-bottom: 2em
 
-	li
-		padding: 0.2em 0
-		@include hover()
+		li
+			padding: 0.2em 0
+			@include hover()
 
-		&:hover, &.selected
-			background-color: white
+			&:hover, &.selected
+				background-color: white
 
-		&.selected
-			font-weight: bold
-			padding: 0.3em
+			&.selected
+				font-weight: bold
+				padding: 0.3em
 
-			.link
-				text-decoration: none
+				.link
+					text-decoration: none
 
 #tabs
 	margin: 0
-	padding: 0 0 0.5em 20rem
-	background-color: rgb(179,176,172)
+	padding: 0 0 0.5em 23rem
+	background-color: $tabBgColour
 	position: fixed
 	bottom: 0
 	right: 0
@@ -261,7 +307,7 @@ a, .link
 			color: $link
 
 #content
-	margin-left: 18.5em
+	margin-left: 21.5em
 	width: 58em
 
 	.loading
@@ -355,7 +401,7 @@ a, .link
 		color: $derived
 
 .text p
-		margin-left: 1rem
+		margin-left: 2rem
 		margin-right: 1rem
 
 .skills td

@@ -18,7 +18,7 @@ export default class LinkList extends React.Component {
 			return null;
 		}
 
-		return <ul>
+		return <ul id="adversaries">
 			{ list.sort(sortByProperty("name")).map(l => {
 				let isSelected = l.id == (this.props.selected || "");
 
