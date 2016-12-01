@@ -6,10 +6,11 @@ export default class InfoPanel extends React.Component {
 	render() {
 		return <div className="info">
 			<h2>{ this.props.title }</h2>
-			{ this.props.data.length == 0 ? "–" : 
+			{ this.props.data && this.props.data.length > 0 ? 
 				<ul className="inline-list">
 					{ this.props.data.map((d, i) => <li key={ i }><span dangerouslySetInnerHTML= { symbolise(d) } /></li>) }
 				</ul>
+				: "–"
 			}
 		</div>;
 	}

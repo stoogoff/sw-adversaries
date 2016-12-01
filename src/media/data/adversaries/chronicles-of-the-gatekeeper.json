@@ -82,7 +82,7 @@
 		"abilities": ["Imperial Valour"],
 		"weapons": ["Blaster pistol"],
 		"gear": [],
-		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "empire", "imperial bureaucracy", "location:Cato Nemoidia", "location:Jorra"]
+		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "empire", "imperial bureaucracy", "location:Cato Neimoidia", "location:Jorra"]
 	},
 	{
 		"name": "Gel Marcolf",
@@ -154,7 +154,7 @@
 			}
 		],
 		"gear": ["Armoured clothin (+1 Soak, +1 Defence)", "Mobquet Flare-V swoop bike with particularly garish paint job"],
-		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Cato Nemoidia", "location:Jorra", "species:Nemoidian", "kreehawk ganger", "underworld"]
+		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Cato Neimoidia", "location:Jorra", "species:Neimoidian", "kreehawk ganger", "underworld"]
 	},
 	{
 		"name": "Onrein Hasa",
@@ -207,7 +207,7 @@
 			}
 		],
 		"gear": ["Armoured robes (+2 Soak, +1 Defence)", "Comlink"],
-		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Jorra", "location:Cato Nemoidia", "species:Nemoidian"]
+		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Jorra", "location:Cato Neimoidia", "species:Neimoidian"]
 	},
 	{
 		"name": "Pathran Helshar",
@@ -314,7 +314,7 @@
 		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": [],
-		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "species:Nemoidian", "location:Cato Nemoidia", "location:Jorra"]
+		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "species:Neimoidian", "location:Cato Neimoidia", "location:Jorra"]
 	},
 	{
 		"name": "Stormtrooper Captain TH-313",
@@ -358,7 +358,7 @@
 			}
 		],
 		"gear": ["2 Frag grenades", "Stormtrooper armour (+2 Soak)", "Utility belt", "Extra reloads"],
-		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "empire", "imperial military", "stormtrooper", "location:Cato Nemoidia", "location:Jorra"]
+		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "empire", "imperial military", "stormtrooper", "location:Cato Neimoidia", "location:Jorra"]
 	},
 	{
 		"name": "Zel N’got",
@@ -390,7 +390,7 @@
 		"abilities": [],
 		"weapons": ["Holdout blaster", "Stun grenade"],
 		"gear": ["2 Stun grenades"],
-		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Cato Neimoidia", "location:Jorra", "species:Nemoidian", "separatist", "spy"]
+		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Cato Neimoidia", "location:Jorra", "species:Neimoidian", "separatist", "spy"]
 	},
 	{
 		"name": "Nemoidian Citizen",
@@ -415,7 +415,7 @@
 		"abilities": ["Strength in Numbers"],
 		"weapons": ["Light blaster pistol", "Truncheon"],
 		"gear": [],
-		"tags": ["book:cotgk", "location:Cato Nemoidia", "species:Nemoidian", "adventure:Chronicles of the Gatekeeper"]
+		"tags": ["book:cotgk", "location:Cato Neimoidia", "species:Neimoidian", "adventure:Chronicles of the Gatekeeper"]
 	},
 	{
 		"name": "Quolas Citizen",
@@ -784,6 +784,6 @@
 		"abilities": [],
 		"weapons": ["Light blaster pistol", "Brass knuckles"],
 		"gear": ["Heavy clothing (+1 Soak)", "Mobquet Flare-V swoop bike with garish paint job"],
-		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Cato Nemoidia", "species:Nemoidian", "Location:Jorra", "kreehawk ganger", "underworld", "thug"]
+		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Cato Neimoidia", "species:Neimoidian", "location:Jorra", "kreehawk ganger", "underworld", "thug"]
 	}
 ]

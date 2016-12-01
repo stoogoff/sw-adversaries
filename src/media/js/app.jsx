@@ -60,7 +60,7 @@ class App extends React.Component {
 				});
 			});
 
-			console.log(tags)
+			//console.log(tags)
 
 			this._updateState(adversary, adversaries, null, tags);
 		});

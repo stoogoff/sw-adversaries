@@ -588,7 +588,7 @@
 		"abilities": [],
 		"weapons": [],
 		"gear": ["Comlink (handheld)", "Breath mask", "Utility belt", "Datapad"],
-		"tags": ["book:aor", "adventure:Perlemian Haul", "imperial miliatry", "empire", "engineer", "location:M226 Freighter"]
+		"tags": ["book:aor", "adventure:Perlemian Haul", "imperial military", "empire", "engineer", "location:M226 Freighter"]
 	},
 	{
 		"name": "M226 Navy Crewman",
@@ -617,7 +617,7 @@
 		"abilities": [],
 		"weapons": [],
 		"gear": ["Comlink (handheld)", "Breath mask", "Utility belt"],
-		"tags": ["book:aor", "adventure:Perlemian Haul", "imperial miliatry", "empire", "engineer", "location:M226 Freighter"]
+		"tags": ["book:aor", "adventure:Perlemian Haul", "imperial military", "empire", "engineer", "location:M226 Freighter"]
 	},
 	{
 		"name": "Imperial Stormtrooper",

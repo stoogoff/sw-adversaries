@@ -948,7 +948,7 @@
 		"abilities": ["Droid"],
 		"weapons": ["Arc welder"],
 		"gear": ["Built-in repair tools (counts as tool kit as well as emergency repair kit that can be used once per session)"],
-		"tags": ["species:Droid", "engineer", "book:aor", "book:eote", "book:ragp", "adventure:Resuce at Glare Peak"]
+		"tags": ["species:Droid", "engineer", "book:aor", "book:eote", "book:ragp", "adventure:Rescue at Glare Peak"]
 	},
 	{
 		"name": "Mark IV Patrol Droid",

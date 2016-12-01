@@ -17,7 +17,7 @@ export default class SkillPanel extends React.Component {
 			this.setState({
 				showAll: false,
 				minions: 0
-			})
+			});
 		}
 	}
 

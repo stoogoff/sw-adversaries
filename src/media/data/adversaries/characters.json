@@ -245,7 +245,7 @@
 		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Fine robes", "Narcotic inhaler"],
-		"tags": ["underworld", "species:zabrak", "book:lonh", "adventure:Rubbing Slimy Elbows"]
+		"tags": ["underworld", "species:Zabrak", "book:lonh", "adventure:Rubbing Slimy Elbows"]
 	},
 	{
 		"name": "Captain Gideon",
@@ -282,7 +282,7 @@
 		"abilities": [],
 		"weapons": ["Heavy blaster pistol", "Vibrosword"],
 		"gear": ["Padded armour (+2 Soak)", "Breath mask", "Utility belt"],
-		"tags": ["underworld", "pirate", "species:devaronian", "book:lonh", "adventure:Welcome Aboard"]
+		"tags": ["underworld", "pirate", "species:Devaronian", "book:lonh", "adventure:Welcome Aboard"]
 	},
 	{
 		"name": "Chief Warden Lina Naras",
@@ -442,7 +442,7 @@
 		"abilities": [],
 		"weapons": ["Heavy blaster pistol"],
 		"gear": ["Heavy clothing (+1 Soak)", "Datapad"],
-		"tags": ["underworld", "smuggler", "species:twi’lek", "book:lonh", "adventure:A Deal Gone Wrong", "location:Hutt Space", "location:Kwenn Station"]
+		"tags": ["underworld", "smuggler", "species:Twi’lek", "book:lonh", "adventure:A Deal Gone Wrong", "location:Hutt Space", "location:Kwenn Station"]
 	},
 	{
 		"name": "Corte’s Smuggler Cew",
@@ -598,7 +598,7 @@
 		"abilities": ["Hoverer", "Silhouette 0"],
 		"weapons": [],
 		"gear": ["Spatula", "Puffy chef’s hat", "Utility apron"],
-		"tags": ["civilian", "species:Toydarian", "location:Hutt Space", "book:lonh", "adventure:Toydarian Grocery Shopping", "location:toydaria"]
+		"tags": ["civilian", "species:Toydarian", "location:Hutt Space", "book:lonh", "adventure:Toydarian Grocery Shopping", "location:Toydaria"]
 	},
 	{
 		"name": "Agent Eren Garai",
