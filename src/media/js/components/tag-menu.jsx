@@ -83,7 +83,7 @@ export default class TagMenu extends React.Component {
 
 	render() {
 		return <ul id="menu">
-			{ Object.keys(this.menu).map(m => {
+			{ Object.keys(this.menu).sort().map(m => {
 				return <li className={ this.state.active ==  m ? "active" : "" } key={ m }><div data-menu={ m } onClick={ this.openMenu.bind(this) }>{ titlecase(m) } <small className="fa fa-angle-down" data-menu={ m }></small></div>
 					<ul>
 						{ this.menu[m].map(t => <li key={ t.tag }><span className="link" onClick={ this.handler.bind(this) } data-href={ t.tag }>{ t.text }</span></li>)}
