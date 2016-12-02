@@ -9,7 +9,7 @@
 	},
 	{
 		"name": "All the Luck in the Galaxy",
-		"description": "When making a check to gamble, a Deception check, or a Negotia­tion check, add :force: to the check. Each :lightside: result automatically adds :success: to the check. :darkside::darkside: results auto­matically add :despair: to the check."
+		"description": "When making a check to gamble, a Deception check, or a Negotia­tion check, add :force: to the check. Each :lightside: result automatically adds :success: to the check. :darkside::darkside: results automatically add :despair: to the check."
 	},
 	{
 		"name": "Alliance Leader",
@@ -25,7 +25,7 @@
 	},
 	{
 		"name": "Amphibious",
-		"description": "May breathe underwater without penalty and never suffer movement penalties for traveling through water."
+		"description": "May breathe underwater without penalty and never suffer movement penalties for travelling through water."
 	},
 	{
 		"name": "Animal Combatant",
@@ -49,7 +49,7 @@
 	},
 	{
 		"name": "Bad Knee",
-		"description": "If TH-31 3 generates :threat::threat::threat: or :despair: on an Athletics, Brawl, or Melee check, he is im­mobilised for one round."
+		"description": "If TH-31 3 generates :threat::threat::threat: or :despair: on an Athletics, Brawl, or Melee check, he is immobilised for one round."
 	},
 	{
 		"name": "Bantha Affinity",
@@ -69,7 +69,7 @@
 	},
 	{
 		"name": "Blessing of the Ancients",
-		"description": "Once per game session as an incidental, the elder may have a charac­ter within Short range heal 4 wounds."
+		"description": "Once per game session as an incidental, the elder may have a character within Short range heal 4 wounds."
 	},
 	{
 		"name": "Bite at Their Heels",
@@ -77,11 +77,11 @@
 	},
 	{
 		"name": "Camouflaged (Snow)",
-		"description": "When in snowy environ­ments, add :boost::boost: to ail Stealth checks."
+		"description": "When in snowy environments, add :boost::boost: to ail Stealth checks."
 	},
 	{
 		"name": "Camouflaged (Jungle)",
-		"description": "When in jungle environ­ments, add :boost::boost: to ail Stealth checks."
+		"description": "When in jungle environments, add :boost::boost: to ail Stealth checks."
 	},
 	{
 		"name": "Cloak",
@@ -512,6 +512,10 @@
 		"description": "Anyone hearing the howl of a wrix must make a :hard: Discipline check or become disoriented for one round plus one additional round for every :threat: generated; spend :despair: to stagger the target for one round."
 	},
 	{
+		"name": "Tunnelling",
+		"description": "Using their powerful maws and their quick-acting acidic saliva, tunnel worms can move through solid stone as if it were difficult terrain."
+	},
+	{
 		"name": "Unstable",
 		"description": "When thrantas suffer a Critical Injury, they add +10 per rank to the Critical Injury roll."
 	},
@@ -521,7 +525,7 @@
 	},
 	{
 		"name": "Vacuum Dweller",
-		"description": "Can survive in vacuum without penalty and can move in a vacuum envi­ronment."
+		"description": "Can survive in vacuum without penalty and can move in a vacuum environment."
 	},
 	{
 		"name": "Venomous",
@@ -537,15 +541,15 @@
 	},
 	{
 		"name": "Wookiee Rage",
-		"description": "Deal +1 damage with Brawl and Melee attacks when suffering any Wounds. When suffering a Critical Injury, deal +2 damage with Brawl and Melee at­tacks instead."
+		"description": "Deal +1 damage with Brawl and Melee attacks when suffering any Wounds. When suffering a Critical Injury, deal +2 damage with Brawl and Melee attacks instead."
 	},
 	{
 		"name": "Mountain Nikto",
-		"description": "Add 1 rank in Sur­vival and the Natural Outdoorsman talent (once per game session, a Mountain Nikto may reroll any one Resilience or Survival check)."
+		"description": "Add 1 rank in Survival and the Natural Outdoorsman talent (once per game session, a Mountain Nikto may reroll any one Resilience or Survival check)."
 	},
 	{
 		"name": "Pale Nikto",
-		"description": "Add 1 rank in Athlet­ics. A Pale Nikto never suffers movement penalties for travelling through water and can hold his breath for a number of rounds equal to twice his Brawn rating before beginning to drown."
+		"description": "Add 1 rank in Athletics. A Pale Nikto never suffers movement penalties for travelling through water and can hold his breath for a number of rounds equal to twice his Brawn rating before beginning to drown."
 	},
 	{
 		"name": "Green Nikto",

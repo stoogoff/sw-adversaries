@@ -2021,6 +2021,44 @@
 		"tags": ["book:sot", "creature"]
 	},
 	{
+		"name": "Salerodrex",
+		"type": "Nemesis",
+		"description": "Massive, black-eyed, single-minded killing machines, the salerodrex are the dominant predator of Selonia’s endless seas. These sleek, torpedo-shaped creatures have smooth blue-white skin with occasional grey or black mottling along their spines, and a prominent ridge of dorsal spikes. Their broad mouths are filled with a triple row of sharp, constantly growing teeth that can easily pierce the hulls of ocean-going vessels or bite a grown human in two. They have incredibly sensitive hearing and olfactory senses, and can hear the thrum of an engine or smell blood in the water dozens of kilometres away. Constantly on the prowl for food, these monsters prey on anything they can fit in their maws, but they seem to prefer live, warm-blooded creatures. ",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 22,
+			"strain": 24
+		},
+		"skills": {
+			"Athletics": 4,
+			"Brawl": 4,
+			"Perception": 4,
+			"Survival": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Aquatic Creature", "Silhouette 3"],
+		"weapons": [
+			{
+				"name": "Teeth",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 4", "Vicious 4"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "creature", "location:Selonia"]
+	},
+	{
 		"name": "Sand Panther",
 		"type": "Rival",
 		"description": "Sand panthers are large, solitary, feline predators who inhabit the high desert regions oc Corellia. They are long and lithe, with muscular forms covered in short, tawny fur. Their claws secrete a soporific venom that weakens their prey, and they are said to be the quietest animal predator in the galaxy. While they enjoy a protected status as a rare species, there is a brisk underground trade in sand panther hides and venom. Poachers and smugglers involved in the sand panther trade are typically ruthless, amoral, and very dangerous individuals who do not hesitate to kill when cornered or captured in the act.",
@@ -2291,6 +2329,43 @@
 		"tags": ["creature", "location:Kinyen", "book:sor"]
 	},
 	{
+		"name": "Teryx",
+		"type": "Minion",
+		"description": "Teryx are small, feathered species of reptavian found in abundance all throughout the Cloudland Peaks. Tiny and exceedingly nimble, these fist-sized creatures have long, sharp, needle-like beaks and lovely, multi-coloured plumage that shimmers in the sunlight as they dart among the small alpine meadows where they make their nests. They feed on insects and the bodily fluids of small rodents, stabbing their prey with their beaks, injecting the target with a numbing venom, and drinking its blood. While individually they are not particularly dangerous, their habit of swarming around any creature and draining them completely of blood is one of the many well-documented dangers of exploring the Cloudland Peaks.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 0,
+			"wounds": 2,
+			"defence": [0, 1]
+		},
+		"skills": {
+			"Brawl": 0,
+			"Coordination": 0,
+			"Vigilance": 0
+		},
+		"talents": [],
+		"abilities": ["Flyer", "Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Beak",
+				"skill": "Brawl",
+				"damage": 2,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Disorient 2", "Pierce 3", "Stun 3"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "creature", "location:Selonia"]
+	},
+	{
 		"name": "Thranta",
 		"type": "Rival",
 		"description": "Now an endangered species, the thranta were once a common sight in the skies of Alderaan prior to the planet’s destruction. Unlike many other flying creatures, thrantas do not use their wings as a primary source of lift. Rather, their bodies naturally produce hydrogen, which is stored in several internal air sacs that keep them aloft. This may be one reason why thrantas evolved to be creatures purely of the air, no longer needing legs on which to land. Over time, Alderaanians domesticated numerous breeds of this beast to be used as mounts. Today, only the common and baleen thrantas survive in any measurable quantity. One of the few places one can find a thranta is above the clouds on the tibanna-producing gas giants of Bespin.",
@@ -2325,10 +2400,11 @@
 		"gear": [],
 		"tags": ["book:sot", "creature"]
 	},
+
 	{
 		"name": "Trained Keelkana",
 		"type": "Rival",
-		"description": "During the reign of the Mon Calamari monarchy, the order of Mon Calamari knights defended the kingdom from a variety of undersea threats while mounted atop armored keelkana eels. While undersea war mounts lost favor after the Clone Wars, keelkana racing has recently grown in popularity in Mon Calamari Space. The massive, snakelike fish have a vicious tempera­ment and teeth sharp enough to pierce armor plat­ing. Wild keelkana can be found in deep sea trenches across Mon Cala.",
+		"description": "During the reign of the Mon Calamari monarchy, the order of Mon Calamari knights defended the kingdom from a variety of undersea threats while mounted atop armoured keelkana eels. While undersea war mounts lost favour after the Clone Wars, keelkana racing has recently grown in popularity in Mon Calamari Space. The massive, snakelike fish have a vicious temperament and teeth sharp enough to pierce armour-plat­ing. Wild keelkana can be found in deep sea trenches across Mon Cala.",
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 3,
@@ -2361,12 +2437,55 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "location:Mon Cala", "book:sor"]
+		"tags": ["creature", "location:Mon Cala", "book:sor", "riding beast"]
+	},
+	{
+		"name": "Tunnel Worm",
+		"type": "Rival",
+		"description": "Tunnel worms are immense, eyeless, ravenous worms raised by Selonians as both beasts of burden and a food source. Growing upwards of ten metres and weighing hundreds of kilogrammes, tunnel worms have smooth, glistening, limbless, mottled grey bodies that are dominated by a round, slavering mouth filled with saw-like teeth on one end and taper to a point at the other. Incredibly dim-witted, tunnel worms are instinct-driven creatures who live only to eat, grow and reproduce. Their diet consists of stones and a luminous fungus native to the Selonian tunnels. Their mynock-like mouths contain powerful olfactory sensors which differentiate between the faintest smells at great distances, and secrete a thick, powerful acid with the consistency of wet ferrocrete that sticks to everything. Given enough time, the sticky acid can reduce nearly any material to sludge.\n\nWhen left to their own devices, tunnel worms trundle through the Selonian den complexes eating fungus, debris, and filth. They keep the tunnels clean and occasionally burrow new tunnels or excavate long lost dens in their constant search for food. They are difficulty to provoke, but once angered, they spit their caustic saliva and lash about with their tails until the threat is melted or pummelled into submission.",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 15,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Survival": 2
+		},
+		"talents": [],
+		"abilities": ["Silhouette 3", "Tunnelling"],
+		"weapons": [
+			{
+				"name": "Serrated maw",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Burn 4", "Sunder", "Vicious 2"]
+			},
+			{
+				"name": "Crushing tail",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Concussive 3", "Knockdown", "Prepare 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "creature", "location:Selonia"]
 	},
 	{
 		"name": "The Lost",
 		"type": "Rival",
-		"description": "Not all Hutts fled Varl when the world was deemed lost. Some lesser Hutts, trapped deep underground in slums, were cut off from the evacuation routes and unable to escape. These creatures devolved over the millennia and have become the Lost. Albino, feral creatures, the Lost survive in pockets of air deep underground, harassing and preying on miners work­ ing on Varl. The Lost maintain a great deal of devious cunning even as their rational minds have faded away.",
+		"description": "Not all Hutts fled Varl when the world was deemed lost. Some lesser Hutts, trapped deep underground in slums, were cut off from the evacuation routes and unable to escape. These creatures devolved over the millennia and have become the Lost. Albino, feral creatures, the Lost survive in pockets of air deep underground, harassing and preying on miners work­ing on Varl. The Lost maintain a great deal of devious cunning even as their rational minds have faded away.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 2,
