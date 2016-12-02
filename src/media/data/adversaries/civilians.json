@@ -397,9 +397,126 @@
 		"tags": ["civilian", "spaceport personnel", "book:eote"]
 	},
 	{
+		"name": "CorSec Officer",
+		"type": "Minion",
+		"description": "CoreSec Officers are the rank and file members of the Corellian Security Force, and make up the bulk of its membership. These are the hard-working men and women tasked with keeping the peace among their fractious, headstrong fellow Corellians (a generally thankless task). They spend their days walking beats in neighbourhoods, patrolling and monitoring traffic on the ground and in the air, writing tickets, performing community outreach, arresting scofflaws, and performing the kind of general policing and peacekeeping jobs that police forces throughout the galaxy have performed for millennia.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 6
+		},
+		"skills": {
+			"Athletics": 0,
+			"Brawl": 0,
+			"Coercion": 0,
+			"Melee": 0,
+			"Perception": 0,
+			"Ranged: Light": 0,
+			"Streetwise": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			"Truncheon",
+			{
+				"name": "CDEF Blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Inferior", "Stun Setting"]
+			}
+		],
+		"gear": ["CorSec Mark IV armoured vest (+2 Soak)", "Comlink", "Binders", "Badge"],
+		"tags": ["book:sof", "location:Corellia", "corsec", "security", "civilian"]
+	},
+	{
+		"name": "CorSec Investigator",
+		"type": "Rival",
+		"description": "Better trained and better paid than the average officer, CorSec Investigators are responsible for investigating major crimes and dealings with open cases within different CorSec precincts. Investigators work in pairs, and their work involves tracking down leads, interrogating suspects, analysing clues, doing research, and filling out reams and reams of paperwork. During the course of their work, they often develop wide networks of criminal, law enforcement, civilian, and military contacts.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 3,
+			"Cool": 2,
+			"Melee": 2,
+			"Knowledge: Underworld": 3,
+			"Perception": 3,
+			"Ranged: Light": 2,
+			"Streetwise": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [],
+		"weapons": [
+			"Blaster pistol",
+			"Truncheon"
+		],
+		"gear": ["CorSec Mark IV armoured vest (+2 Soak)", "Comlink", "Datapad", "Badge"],
+		"tags": ["book:sof", "location:Corellia", "corsec", "security", "civilian"]
+	},
+	{
+		"name": "CorSec Tactical Response Team Member",
+		"type": "Nemesis",
+		"description": "The Tactical Response Team is an elite para-military unit formed form the best and brightest members of CorSec. A combination of pilot, commando, and investigator, TRT members are trained in both police and military tactics. They carry out the most dangerous missions undertaken by CorSec, such as infiltrating crime syndicates or hunting the pirates that haunt the Corellian System’s far-flung asteroid fields. Unlike the majority of CorSec, TRT members operate throughout the entire system, working closely with military and police forces from the rest of the Five Brothers as well as those aboard Centrepoint Station.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15,
+			"strain": 15,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Coercion": 3,
+			"Cool": 3,
+			"Discipline": 2,
+			"Melee": 2,
+			"Perception": 3,
+			"Pilot: Planetary": 2,
+			"Pilot: Space": 2,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 2,
+			"Streetwise": 3,
+			"Stealth": 2,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 2", "Defensive Driving 1", "Natural Pilot 1"],
+		"abilities": [],
+		"weapons": [
+			"Heavy blaster pistol", "Blaster carbine", "Vibroknife"],
+		"gear": ["Reinforced flight suit (+1 Soak, +1 Defence)", "Comlink", "Binders", "Badge"],
+		"tags": ["book:sof", "location:Corellia", "corsec", "security", "civilian"]
+	},
+	{
 		"name": "Corporate Representative",
 		"type": "Rival",
-		"description": "In the waning days of the Republic, many people were gravely concerned about the increasing power held by corporations. Many such corporations were afforded the rights of planetary governments, including seats within the Senate. Since the Republic gave way to the Empire, the problem has increased significantly, despite the defeat of the Separatists during the Clone Wars—though only with regard to those corporations that supported the Empire. Corporations with strong Imperial partnerships, particularly with the military, are virtually above the law, and their representatives tend to be viewed in the same way as ambassadors, diplomats, or even senators—albeit with vastly greater resources and a generally more menacing demeanor.",
+		"description": "In the waning days of the Republic, many people were gravely concerned about the increasing power held by corporations. Many such corporations were afforded the rights of planetary governments, including seats within the Senate. Since the Republic gave way to the Empire, the problem has increased significantly, despite the defeat of the Separatists during the Clone Wars—though only with regard to those corporations that supported the Empire. Corporations with strong Imperial partnerships, particularly with the military, are virtually above the law, and their representatives tend to be viewed in the same way as ambassadors, diplomats, or even senators—albeit with vastly greater resources and a generally more menacing demeanour.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,

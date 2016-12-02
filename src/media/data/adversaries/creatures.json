@@ -171,6 +171,52 @@
 		"tags": ["creature", "location:Chandrila", "book:sor"]
 	},
 	{
+		"name": "Carrion Spat",
+		"type": "Rival",
+		"description": "Strangely proportioned, gangly, and incredibly ugly, carrion spats are often said to be the most unlikely creature in the galaxy. They seem to be an evolutionary dead-end; they are primitive, flightless birds with reptilian features, a sharp black beak, beady eyers, and long powerful, legs that can kick holes in a ferrocrete wall. They are spiteful, cross-grained, and aggressive beasts that are hard to tame and dangerous to work with, even after they’ve been domesticated. As their name suggests, carrion spats feed on dead and decayed animals, which makes them unpleasant to be around due to the lingering stench of death that surrounds them. However, this diet makes them nearly immune to poisons and toxins, and some have even been reported to eat hazardous chemicals and industrial waste with no negative effects.\n\nDespite these shortcomings, they enjoy a fair amount of popularity as riding animals thanks to their size and endurance. Once tamed and used to both saddle and rider, carrions spats make excellent mounts, especially in rough or mountainous country where their innate sense of balance and wide-splayed feet allow them to move through broken terrain with ease. Eventually, after long periods of work with a rider, a carrion spat becomes bonded; after that, it will protect its rider at all costs, even to its death. In combat, unless otherwise directed, these creatures charge headlong into their enemies at incredible speeds, lashing out with their deadly feet and snapping at anything within range of their beaks. Once engaged, they are hard to extract and if they can’t be brought under control , they will fight until exhausted or killed.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 8
+		},
+		"skills": {
+			"Brawl": 3,
+			"Coordination": 2,
+			"Resilience": 3,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": ["Surefooted", "Lightning Charge"],
+		"weapons": [
+			{
+				"name": "Beak",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Sunder", "Vicious 1"]
+			},
+			{
+				"name": "Powerful legs",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "location:Corellia", "creature", "riding beast"]
+	},
+	{
 		"name": "Chemilizard",
 		"type": "Rival",
 		"description": "Also known as orpali dragons, chemilizards are native Nal Hutta reptiles that can grow to massive size. A typical adult ranges from ten to twenty meters in length and lives deep in the swamps, preying upon any crea­tures or beings that venture near its lair. Chemilizards have evolved the ability to extract nutrients from the planet’s polluted swamps, surviving in conditions that would kill most other creatures.",
@@ -371,7 +417,7 @@
 	{
 		"name": "Dewback",
 		"type": "Rival",
-		"description": "Originating from the Dune Sea on Tatooine, dewbacks are large four-legged reptiles who are well-suited to desert environments. Easily domesticated, dewbacks are used as both beasts of burden and reliable, hardy mounts, and like banthas, have been exported off-world for generations. Because of their resilience, these creatures are found in both Imperial and Alliance military forces. In the Stormtrooper Specialty Corps, sandtroopers make good use of their strengths in arid conditions; amongst the Alliance, dewbacks are deployed to SpecForce's 4th Regiment.",
+		"description": "Originating from the Dune Sea on Tatooine, dewbacks are large four-legged reptiles who are well-suited to desert environments. Easily domesticated, dewbacks are used as both beasts of burden and reliable, hardy mounts, and like banthas, have been exported off-world for generations. Because of their resilience, these creatures are found in both Imperial and Alliance military forces. In the Stormtrooper Specialty Corps, sandtroopers make good use of their strengths in arid conditions; amongst the Alliance, dewbacks are deployed to SpecForce’s 4th Regiment.",
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 2,
@@ -661,6 +707,96 @@
 		],
 		"gear": [],
 		"tags": ["creature", "location:Chandrila", "book:sor"]
+	},
+	{
+		"name": "Flame Ibbot",
+		"type": "Minion",
+		"description": "One of the more common of the ibbot species, the flame ibbot is a mild-tempered, medium-sized raptor that makes its home on the shore of the Boiling Sea. They stand a little over a metre high and have a wingspan of roughly two and a half metres. Their plumage is primarily copper or brass coloured with crimson, orange, and white highlights. Occasionally, a flame ibbot develops primarily iridescent, blue-black plumage with coppery or crimson highlights, and these rare creatures are highly sought as pets. The flame ibbot’s diet consists of both small fish and insects native to the Boiling Sea, as well as the kettleweed that grows there. In fact, it is more from their habit of eating kettleweed, and not their colouration, that gives the flame ibbot its name. When threatened, flame ibbots spit a powerful jet of caustic bile and steaming hot water that builds up in their stomachs as they digest kettleweed. This viscous liquid causes extreme discomfort, disorientation and temporary blindness.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4,
+			"defence": [0, 1]
+		},
+		"skills": {
+			"Brawl": 0,
+			"Perception": 0,
+			"Vigilance": 0
+		},
+		"talents": [],
+		"abilities": ["Flyer", "Sight Hunter"],
+		"weapons": [
+			{
+				"name": "Sharp beak and slashing talons",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			},
+			{
+				"name": "Scalding bile",
+				"skill": "Brawl",
+				"damage": 2,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Burn 2", "Disorient 3", "Slow-Firing 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "creature", "location:Drall", "species:Ibbot"]
+	},
+	{
+		"name": "Great Ibbot",
+		"type": "Rival",
+		"description": "The largest living species of avifauna on Drall, the great ibbot is a majestic and imposing bird with a high animal intelligence and a fierce demeanour. These gigantic birds stand three to four metres tall on average and have a wingspan of over ten metres. Their plumage is similar to the flame ibbot, primarily copper- or brass-coloured with black and brown highlights, with white or cream-coloured feathers on their abdomen and the undersides of their wings. Great ibbots have wicked, serrated orange beaks that can slice through nearly any material as if it were rotten cloth, and powerful talons that can tear a gundark limb from limb. They feed primarily on fish and other aquatic life-forms, and are particular to spikefish, snatching the massive creatures from lakes and seas when they surface for air. Although they prefer fish, wild specimens have a tendency to prey on herd animals (and even domesticated pets, on occasion).\n\nDue to their size and relative intelligence, great ibbots are easily domesticated. They take training quite well and can follow complicated multi-step instructions. The Wingriders, Drall’s state police force cum courier service, are mounted on these great beings and are the most visible keeper of great ibbots. There are also a number of tour companies who offer adventure tours of Drall’s countryside mounted on great ibbots, although these are rare due to the danger of mounting untrained individuals on willful, intelligent giant raptors.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 25
+		},
+		"skills": {
+			"Brawl": 2,
+			"Perception": 4,
+			"Survival": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1", "Crippling Blow"],
+		"abilities": ["Flyer", "Sight Hunter", "Silhouette 3"],
+		"weapons": [
+			{
+				"name": "Sharp beak and slashing claws",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 3", "Sunder"]
+			},
+			{
+				"name": "Stoop",
+				"skill": "Brawl",
+				"damage": 12,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Concussive 2", "Knockdown", "Prepare 1", "Vicious 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "creature", "location:Drall", "species:Ibbot", "riding beast"]
 	},
 	{
 		"name": "Grabworm",
@@ -1332,7 +1468,7 @@
 	{
 		"name": "Mamien",
 		"type": "Rival",
-		"description": "An oversized simian of the Yavin 4 jungles, the aver­age mamien stands upright and measures almost three meters tall. Mamiens appear as woolly, potbel­lied humanoids with spindly arms and legs, stubby noses, and heavy brows. Mamien are unafraid of most species and possess a curious and casual demeanor. However, they are highly protective of their young: entire troupes may turn violent in a heartbeat if an infant is threatened.",
+		"description": "An oversized simian of the Yavin 4 jungles, the aver­age mamien stands upright and measures almost three meters tall. Mamiens appear as woolly, potbel­lied humanoids with spindly arms and legs, stubby noses, and heavy brows. Mamien are unafraid of most species and possess a curious and casual demeanour. However, they are highly protective of their young: entire troupes may turn violent in a heartbeat if an infant is threatened.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 2,
@@ -1478,9 +1614,45 @@
 		"tags": ["creature", "location:Mon Cala", "book:sor"]
 	},
 	{
+		"name": "Murra",
+		"type": "Minion",
+		"description": "Murra are tall, mammalian herbivores native to the flat grasslands of Corellia’s northern continent. Slow-witted and incredibly strong, murra are raised by the ranchers for their meat, for their thick hides, and as beasts of burden. A murra has four large, curved tusks growing from its lower jaw, and two long horns that sweep backwards from the crown of its blunt head. The murra’s hide is thick yet supple, and covered with a dense mat of stout, coarse hairs like the bristles of a scrubbing brush. Despite their fearsome looks, murra are quite docile and biddable. They have a slow, plodding gait that they can maintain over many, many kilometres of rough terrain, and can haul or pull loads well out of scale with their stature. Though not aggressive, murra can spook easily, and if startled will kick or lash out with their horns. Entire herds of murra, often frightened by loud noises or storms, have been known to stampede en masse, causing incredible amounts of damage as they go.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 8
+		},
+		"skills": {
+			"Athletics": 0,
+			"Brawl": 0,
+			"Resilience": 0
+		},
+		"talents": [],
+		"abilities": ["Hardy", "Strong as a Murra"],
+		"weapons": [
+			{
+				"name": "Horns and hooves",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Pierce 3", "Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "creature", "location:Corellia"]
+	},
+	{
 		"name": "Mustafarian Lava Flea",
 		"type": "Rival",
-		"description": "Perhaps one of the most unusual mounts in the galaxy, the Mustafarian lava flea is a giant arthropod that evolved for life on the volcanic environment of its homeworld. While considerably larger than the average equinoid, lava fleas have an uncharacteristically lightweight frame. This makes them ideal for leaping considerable distances, but less adapted for hauling heavy loads. The creature's exoskeleton evolved an internal structure of spindles not unlike an internal bone structure, made from the minerals the lava flea digests. This allows these extraordinary beasts to grow to sizes far beyond normal evolutionary constraints. Mustafarians often fashion discarded lava flea shells into heat-resistant armour.",
+		"description": "Perhaps one of the most unusual mounts in the galaxy, the Mustafarian lava flea is a giant arthropod that evolved for life on the volcanic environment of its homeworld. While considerably larger than the average equinoid, lava fleas have an uncharacteristically lightweight frame. This makes them ideal for leaping considerable distances, but less adapted for hauling heavy loads. The creature’s exoskeleton evolved an internal structure of spindles not unlike an internal bone structure, made from the minerals the lava flea digests. This allows these extraordinary beasts to grow to sizes far beyond normal evolutionary constraints. Mustafarians often fashion discarded lava flea shells into heat-resistant armour.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 4,
@@ -1745,7 +1917,7 @@
 	{
 		"name": "Ronto",
 		"type": "Rival",
-		"description": "Often seen as beasts of burden and mounts for Jawas, rontos are known to be effective, if skittish, mounts. Found on many worlds, including Nubia, Tatooine, and Kashyyyk, rontos are often employed away from populated areas, to reduce contact with technologies that might spook the beasts. Even so, they remain a common sight in many of Tatooine's spaceports, and those who work with these animals place great stock in their loyalty.",
+		"description": "Often seen as beasts of burden and mounts for Jawas, rontos are known to be effective, if skittish, mounts. Found on many worlds, including Nubia, Tatooine, and Kashyyyk, rontos are often employed away from populated areas, to reduce contact with technologies that might spook the beasts. Even so, they remain a common sight in many of Tatooine’s spaceports, and those who work with these animals place great stock in their loyalty.",
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 3,
@@ -1774,7 +1946,42 @@
 			}
 		],
 		"gear": [],
-		"tags": ["book:sot", "creature"]
+		"tags": ["book:sot", "creature", "species:Ronto"]
+	},
+	{
+		"name": "Spooked Ronto",
+		"type": "Rival",
+		"description": "The average ronto is easily domesticated for farm work and other means. Though not brilliant by any means, rontos are receptive to training and form string attachments to those they deem their masters. Strong and loyal, they can be ideal creatures for rural settings, but they have a strong tendency to spook readily around machines and loud noises.\n\nTypically, rontos are not dangerous. However, if they are being ridden by someone who intends another harm, they can be used to cause great damage. In addition, a spooked ronto will stop at nothing to get away from whatever startled it, making it very dangerous.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 18
+		},
+		"skills": {
+			"Brawl": 1,
+			"Perception": 2
+		},
+		"talents": [],
+		"abilities": ["Silhouette 2", "Overrun", "Trample"],
+		"weapons": [
+			{
+				"name": "Legs",
+				"skill": "Brawl",
+				"damage": 12,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "creature", "species:Ronto", "location:Nubia"]
 	},
 	{
 		"name": "Ruping",
@@ -1812,6 +2019,45 @@
 		],
 		"gear": [],
 		"tags": ["book:sot", "creature"]
+	},
+	{
+		"name": "Sand Panther",
+		"type": "Rival",
+		"description": "Sand panthers are large, solitary, feline predators who inhabit the high desert regions oc Corellia. They are long and lithe, with muscular forms covered in short, tawny fur. Their claws secrete a soporific venom that weakens their prey, and they are said to be the quietest animal predator in the galaxy. While they enjoy a protected status as a rare species, there is a brisk underground trade in sand panther hides and venom. Poachers and smugglers involved in the sand panther trade are typically ruthless, amoral, and very dangerous individuals who do not hesitate to kill when cornered or captured in the act.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coordination": 2,
+			"Perception": 3,
+			"Stealth": 3,
+			"Survival": 2
+		},
+		"talents": ["Lethal Blows 2"],
+		"abilities": ["Venomous", "Keen Senses", "Silent Hunter"],
+		"weapons": [
+			{
+				"name": "Teeth and claws",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "creature", "location:Corellia"]
 	},
 	{
 		"name": "Shaoryn",
@@ -1894,6 +2140,44 @@
 		],
 		"gear": [],
 		"tags": ["creature", "location:Hutt Space", "book:lonh"]
+	},
+	{
+		"name": "Spukami",
+		"type": "Rival",
+		"description": "Spukami are domesticated felines native to Corellia, sometimes referred to as “house cats.” Large and seemingly intelligent, spukami have long, silky, blue-black fur with white or yellow highlights, piercing gold eyes, and long retractable claws on their front paws. The size of an average human toddler, these cats are widely popular as pets on Corellia. However, thanks to their haughty nature, stubbornness, short attention spans, destructive tendencies, and general lack of affection, they make indifferent pets. Many spukami owners jokingly state that they themselves are the pets, good only to serve the needs of their magisterial and mercurial cats. Spukami are also incredibly territorial, and savagely attack any other members of their species that enter into their territory. Even during their mating season, they can barely tolerate one another, leading Corellians to wonder how the spukami species manages to survive at all.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 2,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coordination": 2,
+			"Perception": 2,
+			"Stealth": 3
+		},
+		"talents": ["Jump Up"],
+		"abilities": ["Territorial", "Leap", "Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Teeth and claws",
+				"skill": "Brawl",
+				"damage": 1,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "creature", "location:Corellia"]
 	},
 	{
 		"name": "Stalking Acklay",
@@ -2009,7 +2293,7 @@
 	{
 		"name": "Thranta",
 		"type": "Rival",
-		"description": "Now an endangered species, the thranta were once a common sight in the skies of Alderaan prior to the planet's destruction. Unlike many other flying creatures, thrantas do not use their wings as a primary source of lift. Rather, their bodies naturally produce hydrogen, which is stored in several internal air sacs that keep them aloft. This may be one reason why thrantas evolved to be creatures purely of the air, no longer needing legs on which to land. Over time, Alderaanians domesticated numerous breeds of this beast to be used as mounts. Today, only the common and baleen thrantas survive in any measurable quantity. One of the few places one can find a thranta is above the clouds on the tibanna-producing gas giants of Bespin.",
+		"description": "Now an endangered species, the thranta were once a common sight in the skies of Alderaan prior to the planet’s destruction. Unlike many other flying creatures, thrantas do not use their wings as a primary source of lift. Rather, their bodies naturally produce hydrogen, which is stored in several internal air sacs that keep them aloft. This may be one reason why thrantas evolved to be creatures purely of the air, no longer needing legs on which to land. Over time, Alderaanians domesticated numerous breeds of this beast to be used as mounts. Today, only the common and baleen thrantas survive in any measurable quantity. One of the few places one can find a thranta is above the clouds on the tibanna-producing gas giants of Bespin.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 2,
@@ -2198,6 +2482,45 @@
 		],
 		"gear": [],
 		"tags": ["creature", "location:Mon Cala", "book:sor"]
+	},
+	{
+		"name": "Wrix",
+		"type": "Nemesis",
+		"description": "Wrix are huge, savage creatures with thick hides and long, sharp tusks. Incredibly powerful and savage, they seem to subsist solely on raw meat and rage, and are one of the few extant animal species in the galaxy that kill for sport. The average wrix stands around 1.5 metres high. They have huge, brutish, ugly heads with short snouts, red eyes, porcine ears, and broad mouths filled with long, tearing teeth. Their hairless skin is usually mottled brown, tan, and green (though black and even gold-coloured individuals are not uncommon) and appears stretched to near bursting over their powerful muscles. Corellian biologists are unsure from whence the wrix originates. They seem to have no natural ecological niche on Corellia, nor is there anything like them found in the planet’s fossil record. Some believe they are genetically engineered solely as competitor animals for underground fighting rings. Whatever the case, the population of wrix has steadily grown over the past few decades, causing much alarm in Corellia’s farming and ecological communities.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 20,
+			"strain": 15
+		},
+		"skills": {
+			"Brawl": 3,
+			"Perception": 2,
+			"Resilience": 2,
+			"Survival": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Terrifying Howl", "Surefooted"],
+		"weapons": [
+			{
+				"name": "Teeth and claws",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Vicious 2", "Sunder"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "creature", "location:Corellia"]
 	},
 	{
 		"name": "Varactyl",

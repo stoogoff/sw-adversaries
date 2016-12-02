@@ -256,6 +256,10 @@
 		"description": "The GM may flip one dark side Destiny Point to have the Kintan Strider heal 5 Wounds"
 	},
 	{
+		"name": "Hardy",
+		"description": "Murra add :boost: to all Resilience checks."
+	},
+	{
 		"name": "Heat Resistance",
 		"description": "Remove up to :setback: from any checks due to hot or arid environmen­tal conditions."
 	},
@@ -300,6 +304,10 @@
 		"description": "LOM-series protocol droids allow allies to remove :setback: from Nego­tiation checks or other checks made to negotiate or mediate when dealing with insectoid species."
 	},
 	{
+		"name": "Keen Senses",
+		"description": "Thanks to their finely honed senses of sight and hearing, sand panthers gain :boost: on all Perception checks."
+	},
+	{
 		"name": "Leap",
 		"description": "Add :boost::boost: to all Athletics checks made to perform vertical or horizontal jumps."
 	},
@@ -309,7 +317,7 @@
 	},
 	{
 		"name": "Lightning Charge",
-		"description": "Once per encounter, a keelkana can use a maneuver to move to Engaged with a target at Medium range; any melee attacks made by the keel­kana or its rider against that target this turn add 2 damage."
+		"description": "Once per encounter, can use a maneuver to move to Engaged with a target at Medium range; any melee attacks made by the beast or its rider against that target this turn add 2 damage."
 	},
 	{
 		"name": "Light-Sensitive",
@@ -364,6 +372,10 @@
 		"description": "Reduces the difficulty of scent-based Perception checks by 1."
 	},
 	{
+		"name": "Overrun",
+		"description": "The ronto may spend :advantage: to hit an additional target with a successful Brawl check, provided the additional target is engaged with the first target. "
+	},
+	{
 		"name": "Pheromone Communication",
 		"description": "Weequay may communicate with other Weequay using pheromones if they are within Short range of each other."
 	},
@@ -416,6 +428,14 @@
 		"description": "Maneuver to activate or deactivate; while active, gains defense 2 and upgrades the difficulty of all combat attacks targeting the droideka once, but droideka cannot use the Move maneuver."
 	},
 	{
+		"name": "Sight Hunter",
+		"description": "Ibbots decrease the difficulty of any Perception or Vigilance checks they make by one."
+	},
+	{
+		"name": "Silent Hunter",
+		"description": "Opponents suffer :setback::setback: on any Perception or Vigilance checks made to detect a sand panther while it is hunting."
+	},
+	{
 		"name": "Silhouette",
 		"description": ""
 	},
@@ -437,7 +457,11 @@
 	},
 	{
 		"name": "Strong as a Jakobeast",
-		"description": "Jako­beasts have an encumbrance threshold of 20"
+		"description": "Jako­beasts have an encumbrance threshold of 20."
+	},
+	{
+		"name": "Strong as a Murra",
+		"description": "Murra have an encumbrance threshold of 25, and the difficulty of all Athlet­ics checks made to lift excessive encumbrance is reduced by one."
 	},
 	{
 		"name": "Stubborn",
@@ -476,6 +500,18 @@
 		"description": "Add :boost: per rank to a rider’s Survival checks while mounted."
 	},
 	{
+		"name": "Trample",
+		"description": "If a ronto takes a maneuver to move closer to its target before attacking, it gains :boost: to its attack check and deals +2 damage."
+	},
+	{
+		"name": "Territorial",
+		"description": "Spukami are incredibly territorial, and gain :boost: to all Brawl checks made when attacking any intruders into what they consider their territory."
+	},
+	{
+		"name": "Terrifying Howl",
+		"description": "Anyone hearing the howl of a wrix must make a :hard: Discipline check or become disoriented for one round plus one additional round for every :threat: generated; spend :despair: to stagger the target for one round."
+	},
+	{
 		"name": "Unstable",
 		"description": "When thrantas suffer a Critical Injury, they add +10 per rank to the Critical Injury roll."
 	},
@@ -486,6 +522,10 @@
 	{
 		"name": "Vacuum Dweller",
 		"description": "Can survive in vacuum without penalty and can move in a vacuum envi­ronment."
+	},
+	{
+		"name": "Venomous",
+		"description": "Anyone who suffers damage from the Sand Panther must immediately make an :average: Resilience check, suffering 5 Strain on failure; any :threat: generated on the Resilience check adds :setback: to all of the target’s actions for a number of rounds equal to the :threat: generated; :despair: can be spent to make the target test against the venom during the next round."
 	},
 	{
 		"name": "Vulnerable to Blasts",
@@ -505,7 +545,7 @@
 	},
 	{
 		"name": "Pale Nikto",
-		"description": "Add 1 rank in Athlet­ics. A Pale Nikto never suffers movement penalties for traveling through water and can hold his breath for a number of rounds equal to twice his Brawn rating before beginning to drown."
+		"description": "Add 1 rank in Athlet­ics. A Pale Nikto never suffers movement penalties for travelling through water and can hold his breath for a number of rounds equal to twice his Brawn rating before beginning to drown."
 	},
 	{
 		"name": "Green Nikto",

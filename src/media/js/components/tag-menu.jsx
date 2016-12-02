@@ -78,7 +78,7 @@ export default class TagMenu extends React.Component {
 
 		this.setState({
 			active: oldActive == newActive ? null : newActive
-		})
+		});
 	}
 
 	render() {

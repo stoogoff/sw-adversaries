@@ -582,5 +582,55 @@
 		"weapons": ["Gaffi stick"],
 		"gear": ["Reinforced environment gear (+1 Soak; remove :setback: imposed by environmental conditions; add :boost: to Resilience checks to resist toxic atmospheres or airborne toxins)"],
 		"tags": ["galactic oddity", "species:Tusken", "source:Never Tell Me the Odds", "location:Tatooine"]
+	},
+	{
+		"name": "Wingrider",
+		"type": "Rival",
+		"description": "The Wingriders of Drall are a quasi-governmental organisation made up of daring young Drall who patrol the skies of their verdant world mounted on massive and majestic great ibbots. Chosen from among the most intrepid young Drall in each clan, the Wingriders are invested with wide-ranging powers and are granted jurisdiction over the entire planet by edict of the Confederation of the Clans. As a group, the Wingriders are a combination planetary police force and courier service. Typically deployed in pairs, they are tasked with keeping the peace in the wildlands between Drall's far-flung cities, making constant patrols and ensuring that people and goods can travel safely and securely.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10
+		},
+		"skills": {
+			"Athletics": 2,
+			"Cool": 2,
+			"Coordination": 3,
+			"Melee": 3,
+			"Perception": 3,
+			"Ranged: Heavy": 3,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Let’s Ride", "Feral Strength 2"],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Flashstick",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": null,
+				"range": "Engaged",
+				"qualities": ["Disorient 3", "Stun Damage"]
+			},
+			{
+				"name": "Light blaster carbine",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"],
+				"notes": "Used one handed."
+			}
+		],
+		"gear": ["Electrobinoculars", "Great ibbot mount", "Heavy uniform (+1 Soak)", "Datapad"],
+		"tags": ["book:sof", "location:Drall", "species:Drall", "galactic oddity", "security"]
 	}
 ]

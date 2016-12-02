@@ -91,6 +91,7 @@ let bookMap = {
 	// source books
 	"book:lonh": "Lords of Nal Hutta",
 	"book:sor": "Strongholds of Resistance",
+	"book:sof": "Suns of Fortune",
 	"book:nop": "Nexus of Power",
 
 	// career books
