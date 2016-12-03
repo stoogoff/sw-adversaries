@@ -551,6 +551,32 @@
 		"tags": ["book:fh", "species:Droid"]
 	},
 	{
+		"name": "FD-Series Extinguisher Droid",
+		"type": "Minion",
+		"description": "A highly specialized maintenance droid, fire suppression droids perform the singular function of putting out fires. These droids are particularly useful aboard starships, where fires can quickly burn up the oxygen and cause irreparable damage to a vessel. Generally mounted on tracked chassis or repulsorlifts and fitted with large tanks of chemical fire retardants, fire suppression droids can quickly respond to out-of-control fires raging through a ship and are able to safely work under conditions that would be hazardous or even lethal to organic beings.\n\nFire suppression droids can be used aboard any vehicle or starship with a silhouette of 4 or larger. Plowever, the larger the vessel, the more droids are needed to adequately protect the vessel from fires. A vessel with a silhouette of 4 may require only one fire suppression droid, while a bulk transport or corvette would need several; a starship the size of an Imperial Star Destroyer would need hundreds of droids to adequately protect its massive bulkheads and kilometres of corridors and access shafts. These droids are able to put out small fires independently.",
+		"notes": "Cost 8,000 credits, Rarity 4",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 2
+		},
+		"skills": {
+			"Athletics": 0
+		},
+		"talents": [],
+		"abilities": ["Droid", "Firefighter", "Fire Resistant"],
+		"weapons": [],
+		"gear": ["Fire suppression equipment"],
+		"tags": ["book:sof", "species:Droid"]
+	},
+	{
 		"name": "Generic Remote",
 		"type": "Minion",
 		"description": "Small wheeled devices, spheres with miniature repul­sorlifts, and various other chassis house generic remotes. which can perform basic preprogrammed tasks in response to simple commands from users.",
@@ -681,6 +707,33 @@
 		"weapons": [],
 		"gear": ["Cleaning devices", "Grabber claws"],
 		"tags": ["book:fh", "species:Droid"]
+	},
+	{
+		"name": "Hologlide J57 Cam Droid",
+		"type": "Minion",
+		"description": "Cam droids, or hovercams, are small, relatively simple droids equipped with repulsorlifts and recording devices. Used to record news, sports and entertainment events, as well as for security, cam droids are a common sight throughout the galaxy. As such, they are also ideal for scouting and espionage purposes, able to go virtually anywhere without drawing undo attention. While some cam droids are highly intelligent and capable of autonomous action, most are simple devices. Most cam droids can broadcast whatever they record in real-time, up to a distance of several kilometers, allowing the holovids to be rebroadcast or viewed by a remote operator.",
+		"notes": "Cost 800 credits, Rarity 3",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 0,
+			"wounds": 2
+		},
+		"skills": {
+			"Perception": 0,
+			"Vigilance": 0
+		},
+		"talents": [],
+		"abilities": ["Droid", "Flyer"],
+		"weapons": [],
+		"gear": ["Holocam"],
+		"tags": ["book:sof", "species:Droid"]
 	},
 	{
 		"name": "IG-100 MagnaGuard",

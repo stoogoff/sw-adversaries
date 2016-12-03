@@ -100,6 +100,10 @@
 		"description": "Add automatic :threat: per rank to all social checks made to convince a constable to act against the best interest of Sullust."
 	},
 	{
+		"name": "Constrictor",
+		"description": "Opponents affected by the En­snare quality immediately begin suffering the effects of suffocation."
+	},
+	{
 		"name": "Cornered Fury",
 		"description": "May upgrade one skill die when engaged and outnumbered by enemies."
 	},
@@ -128,6 +132,10 @@
 		"description": "Can maintain a grip on an unfortunate target; as long as it has a victim immobilized in its tentacles, it inflicts 2 strain and 1 wound at the start of the victim’s turn."
 	},
 	{
+		"name": "Crushing Body",
+		"description": "Any victim affected by the korrak’s Ensnare quality suffers 2 Strain and 1 Wound ignoring soak at the beginning of their turn."
+	},
+	{
 		"name": "Crystalline",
 		"description": "Does not need to breathe and can survive in vacuum and underwater; immune to poisons and toxins"
 	},
@@ -144,8 +152,16 @@
 		"description": "A Moraband Sith phantasm can spend :advantage::advantage: on a combat check or :threat::threat: on an engaged enemy’s combat check to have the target make an :average: fear check (upgraded once for the phantasm’s terri­fying nature); if the target fails, the phantasm transforms into a figure inspired by the target’s greatest fear in addition to any other effects of the failed check."
 	},
 	{
+		"name": "Death Lunge",
+		"description": "When incapacitated, daly­rakes make one out-of-turn Brawl attack against one opponent with whom they are engaged. This check gains :boost:."
+	},
+	{
 		"name": "Detect Force-Sensitivity",
-		"description": "The vornskr may make an :average: Perception check to detect all Force-sensitive creatures or characters with a Force rating within medium range; this ability functions re­gardless of intervening terrain or material."
+		"description": "The vornskr may make an :average: Perception check to detect all Force-sensitive creatures or characters with a Force rating within medium range; this ability functions regardless of intervening terrain or material."
+	},
+	{
+		"name": "Dive Attack",
+		"description": "The first attack made during an encounter gains +2 damage and :boost:."
 	},
 	{
 		"name": "Dive-bomb",
@@ -202,6 +218,14 @@
 	{
 		"name": "Fire Sweep",
 		"description": "As an action, can make a :hard: ranged combat check to inflict one hit that deals base damage with its built-in twin blasters on up to two targets within Medium range, plus one additional target per :advantage: on the check; it can only hit each target once this way."
+	},
+	{
+		"name": "Firefighter",
+		"description": "May make an :average: Athletics check to extinguish a fire; success extinguishes the fire within a number of rounds determined by the GM, and additional successes may reduce the time needed to extinguish the fire. Particularly large or dangerous fires may require more difficult checks at the GM’s discretion."
+	},
+	{
+		"name": "Fire Resistant",
+		"description": "Immune to fire damage or damage from weapons with the Burn quality."
 	},
 	{
 		"name": "Force Hunter",
@@ -304,6 +328,10 @@
 		"description": "LOM-series protocol droids allow allies to remove :setback: from Nego­tiation checks or other checks made to negotiate or mediate when dealing with insectoid species."
 	},
 	{
+		"name": "Jungle Hunter",
+		"description": "Sludge panthers suffer no penalties when moving through rough terrain in dense jungle, dense forest, or swampy environments."
+	},
+	{
 		"name": "Keen Senses",
 		"description": "Thanks to their finely honed senses of sight and hearing, sand panthers gain :boost: on all Perception checks."
 	},
@@ -328,6 +356,10 @@
 		"description": "Add :setback::setback: to all combat checks and Perception checks against phantasmal beasts of Morabandand and :boost::boost: to all Stealth checks the beasts make, in addition to any dice gained for darkness; applies even to characters not hampered by normal darkness."
 	},
 	{
+		"name": "Long Arms",
+		"description": "The grey bear’s arms are surprisingly long and nimble, removing :setback: imposed on its combat checks due to an opponent’s defence."
+	},
+	{
 		"name": "Lorekeeper",
 		"description": "Remove :setback: per rank from all Knowledge: Lore checks."
 	},
@@ -342,6 +374,10 @@
 	{
 		"name": "Military Analyst",
 		"description": "M-3PO-series military protocol droids allow allies to add :boost: to any Knowledge (Warfare) checks that benefit from an understanding of logistics or military procedure."
+	},
+	{
+		"name": "Natural Camouflage",
+		"description": "Any Perception checks made to detect a sludge panther suffer :setback::setback:; this affects scanners and macrobinoculars using thermal sensors or passive light amplification as well."
 	},
 	{
 		"name": "Negate Force Powers",
@@ -374,6 +410,10 @@
 	{
 		"name": "Overrun",
 		"description": "The ronto may spend :advantage: to hit an additional target with a successful Brawl check, provided the additional target is engaged with the first target. "
+	},
+	{
+		"name": "Paralysing Neurotoxin",
+		"description": "If the korrak hits its target with a bite attack, the target must immediately make a :hard: Resilience check; failure means the target is immobilised for 1 round, plus 1 round per :threat: generated; :despair: on a successful or failed check means the target is staggered for one round."
 	},
 	{
 		"name": "Pheromone Communication",
@@ -438,6 +478,10 @@
 	{
 		"name": "Silhouette",
 		"description": ""
+	},
+	{
+		"name": "Skilled Cheater",
+		"description": "Once per session when gambling, the character may cancel a :despair: he rolls on a skill check, or add a :despair: to another character’s check."
 	},
 	{
 		"name": "Spaceport Leader",
@@ -506,6 +550,10 @@
 	{
 		"name": "Territorial",
 		"description": "Spukami are incredibly territorial, and gain :boost: to all Brawl checks made when attacking any intruders into what they consider their territory."
+	},
+	{
+		"name": "Terrifying",
+		"description": "Upon first seeing a dimlurker, an individual must make a :hard: fear check."
 	},
 	{
 		"name": "Terrifying Howl",

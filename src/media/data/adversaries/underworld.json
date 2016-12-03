@@ -955,7 +955,7 @@
 		"abilities": [],
 		"weapons": [],
 		"gear": ["Fine robes"],
-		"tags": ["underworld", "book:lonh"]
+		"tags": ["underworld", "book:lonh", "majordomo"]
 	},
 	{
 		"name": "Hutt Slave Dealer",
@@ -1149,6 +1149,53 @@
 		"weapons": ["Heavy blaster rifle", "Vibro-ax"],
 		"gear": ["Armoured clothing (+1 soak, +1 defence)"],
 		"tags": ["underworld", "pirate", "book:aor", "book:eote"]
+	},
+	{
+		"name": "Selonian Thug",
+		"type": "Minion",
+		"description": "The Selonians of Den Kimotte act as the enforcers of Baron Kaldo’s criminal empire. They are trained to be silent and without mercy in the execution of their tasks. Kaldo’s killers always travel in groups of three.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 6
+		},
+		"skills": {
+			"Brawl": 0,
+			"Melee": 0,
+			"Perception": 0,
+			"Stealth": 0,
+			"Vigilance": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Selonian glaive",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Cumbersome 2", "Pierce 2", "Sunder"]
+			},
+			{
+				"name": "Tail",
+				"skill": "Brawl",
+				"plus-damage": 4,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 2", "Knockdown"],
+				"notes": "Use Agility rather than Brawn with this weapon."
+			}
+		],
+		"gear": ["Padded armour (+2 Soak)"],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Centerpoint Station", "species:Selonian", "underworld", "thug"]
 	},
 	{
 		"name": "Shadowport Mechanic",

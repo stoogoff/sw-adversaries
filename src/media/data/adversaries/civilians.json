@@ -435,7 +435,7 @@
 			}
 		],
 		"gear": ["CorSec Mark IV armoured vest (+2 Soak)", "Comlink", "Binders", "Badge"],
-		"tags": ["book:sof", "location:Corellia", "corsec", "security", "civilian"]
+		"tags": ["book:sof", "location:Corellia", "corsec", "security", "civilian", "location:Corellian Sector"]
 	},
 	{
 		"name": "CorSec Investigator",
@@ -471,7 +471,7 @@
 			"Truncheon"
 		],
 		"gear": ["CorSec Mark IV armoured vest (+2 Soak)", "Comlink", "Datapad", "Badge"],
-		"tags": ["book:sof", "location:Corellia", "corsec", "security", "civilian"]
+		"tags": ["book:sof", "location:Corellia", "corsec", "security", "civilian", "location:Corellian Sector"]
 	},
 	{
 		"name": "CorSec Tactical Response Team Member",
@@ -511,7 +511,7 @@
 		"weapons": [
 			"Heavy blaster pistol", "Blaster carbine", "Vibroknife"],
 		"gear": ["Reinforced flight suit (+1 Soak, +1 Defence)", "Comlink", "Binders", "Badge"],
-		"tags": ["book:sof", "location:Corellia", "corsec", "security", "civilian"]
+		"tags": ["book:sof", "location:Corellia", "corsec", "security", "civilian", "location:Corellian Sector"]
 	},
 	{
 		"name": "Corporate Representative",
@@ -630,9 +630,48 @@
 		"tags": ["civilian", "species:Gran", "location:Kinyen", "book:sor", "priest"]
 	},
 	{
+		"name": "Duros Ship Mechanic",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 11
+		},
+		"skills": {
+			"Astrogation": 1,
+			"Computers": 1,
+			"Mechanics": 3,
+			"Melee": 1,
+			"Perception": 2,
+			"Piloting: Space": 1
+		},
+		"talents": ["Fine Tuning 2", "Gearhead 1"],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Oversized hydrospanner",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Inaccurate 1"]
+			}
+		],
+		"gear": ["Tool kit", "Emergency repair patch"],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Duros", "civilian", "engineer", "species:Duros"]
+	},
+	{
 		"name": "Mon Calamari Mechanic",
 		"type": "Rival",
-		"description": "Mechanics are a regular sight at any modern space­ port and most keep at least one trained mechanic per berth on staff to ensure that there are enough to meet the needs of their clients. Of course, many clients pre­fer to maintain their own vessels, but those who have access to trained staff, like the naturally talented en­gineers of the Mon Calamari race, are often wise to make use of such an opportunity. Mon Calaman typi­cally take great pride in their work and are careful to ensure that any ship on which they are working oper­ates at least as well as it did when it came off the showroom floor.",
+		"description": "Mechanics are a regular sight at any modern spaceport and most keep at least one trained mechanic per berth on staff to ensure that there are enough to meet the needs of their clients. Of course, many clients prefer to maintain their own vessels, but those who have access to trained staff, like the naturally talented engineers of the Mon Calamari race, are often wise to make use of such an opportunity. Mon Calaman typically take great pride in their work and are careful to ensure that any ship on which they are working operates at least as well as it did when it came off the showroom floor.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -1378,6 +1417,71 @@
 
 		"gear": ["Heavy clothing (+1 Soak)"],
 		"tags": ["civilian", "book:eote"]
+	},
+	{
+		"name": "Security Enforcer",
+		"type": "Minion",
+		"description": "Sacorrian Security Police tend to be Selonian or human due to their physical advantages. Drall tend to work as investigators or surveillance operatives, instead.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 6
+		},
+		"skills": {
+			"Melee": 0,
+			"Perception": 0,
+			"Ranged: Heavy": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			"Blaster carbine",
+			{
+				"name": "Shock truncheon",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Stun 3"]
+			}
+		],
+		"gear": ["Uniform (+1 Soak)"],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Sacorria", "civilian", "security"]
+	},
+	{
+		"name": "Security Investigator",
+		"type": "Rival",
+		"description": "A large number of Security Investigators tend to be Drall; their high intelligence and logical prowess mean they thrive in the position.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 14
+		},
+		"skills": {
+			"Coercion": 2,
+			"Deception": 2,
+			"Discipline": 2,
+			"Perception": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Disruptor pistol"],
+		"gear": ["Uniform (+1 Soak)"],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Sacorria", "civilian", "security"]
 	},
 	{
 		"name": "Spaceport Security Detail",

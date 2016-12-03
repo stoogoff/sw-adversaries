@@ -438,6 +438,53 @@
 		"tags": ["book:aor", "adventure:Perlemian Haul", "location:M226 Freighter", "species:Ranat", "galactic oddity"]
 	},
 	{
+		"name": "Selonian Wanderer",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Brawl": 1,
+			"Melee": 1,
+			"Resilience": 1,
+			"Vigilance": 1
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Selonian glaive",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Defensive 1", "Pierce 3"]
+			},
+			{
+				"name": "Tail",
+				"skill": "Brawl",
+				"plus-damage": 4,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 2", "Knockdown"],
+				"notes": "Use Agility rather than Brawn with this weapon."
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "location:Corellian Sector", "adventure:Tunnel Delving", "oddity", "species:Selonian"]
+	},
+	{
 		"name": "Tusken Raider",
 		"type": "Minion",
 		"description": "The most commonly encountered Tusken Raider is the simple minion. Hardly a threat by themselves, they can put up stiff opposition in larger numbers... and a Tusken Raider is almost never known to travel alone.\n\nSimple minions are generally only armed with a Gaffi Stick, the traditional weapon of the Sand People. Although they don’t like much, in trained hands a Gaffi Stick can be used effectively to defend, and are particularly well suited to delivering dazing blows to opponents.\n\nA Tusken Raiders is only ever seen swaddled from head to feet in their traditional padded, desert wrappings and filter masks. These robes not only serve as armor, but help them endure the heat and sandstorms of the Tatooine badlands.",
@@ -631,6 +678,6 @@
 			}
 		],
 		"gear": ["Electrobinoculars", "Great ibbot mount", "Heavy uniform (+1 Soak)", "Datapad"],
-		"tags": ["book:sof", "location:Drall", "species:Drall", "galactic oddity", "security"]
+		"tags": ["book:sof", "location:Drall", "species:Drall", "galactic oddity", "security", "location:Corellian Sector"]
 	}
 ]

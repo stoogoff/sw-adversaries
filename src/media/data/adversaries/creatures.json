@@ -26,6 +26,41 @@
 		"tags": ["book:sot", "creature"]
 	},
 	{
+		"name": "Aurean Vulture",
+		"type": "Rival",
+		"description": "With a wingspan of more than four metres, an Aurean vulture won’t hesitate to swoop down on a humanoid for a chance at a solid meal. The creature has excellent long-range eyesight, enabling it to find prey while it drifts on warm updrafts over the planet’s desert lands. Flocks follow their prey for days. Then, at the height of the day, they dive in from the angle of the sun, hoping to blind their targets long enough to slay them.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Brawl": 1,
+			"Perception": 1
+		},
+		"talents": [],
+		"abilities": ["Dive Attack", "Flyer"],
+		"weapons": [
+			{
+				"name": "Beak and talons",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Aurea", "creature"]
+	},
+	{
 		"name": "Bantha",
 		"type": "Rival",
 		"description": "The ubiquitous bantha is found on thousands of worlds across the galaxy, with hundreds of variant species demonstrating this mammal’s adaptability. Easily domesticated, banthas are primarily used as beasts of burden and a food source. Some cultures, including the Tusken Raiders of Tatooine, are known to use them as mounts. Found in herds of up to twenty-five individuals, banthas are known for their heavy, bulky frames, large curling horns, and iconic blue milk.",
@@ -214,7 +249,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["book:sof", "location:Corellia", "creature", "riding beast"]
+		"tags": ["book:sof", "location:Corellia", "creature", "riding beast", "location:Corellian Sector"]
 	},
 	{
 		"name": "Chemilizard",
@@ -415,6 +450,53 @@
 		"tags": ["book:sot", "creature"]
 	},
 	{
+		"name": "Dalyrake",
+		"type": "Rival",
+		"description": "Dalyrakes are amphibious arachnids who inhabit the lakes and tidal waters of both Talus and Tralus. They stand about a meter high and are half again as long, with two flat, oval-shaped body segments, six multi-jointed walking legs tipped with wicked talons, and two crab-like pincers held well forward. The smaller, forward body segment contains their primitive gan­glia, eyes, and mandibles, along with a number of long tentacles tipped with bioluminescent glands. The larger, longer rear segment contains the creature’s powerful heart and is tipped with a sharp and danger­ ous stinger. Strange and quite beautiful in their way, dalyrakes move with a purposeful, spidery grace.\n\nDespite their strange, occasionally frightening looks and their low intelligence, dalyrakes are easily domesti­cated and can be found in many homes and businesses throughout the Corellian System. While they are not affectionate, they are well-suited as pest control ani­mals. Whether domesticated or wild, dalyrakes are slow and deliberate hunters. Typically, they submerge themselves in water or hide in bracken, underbrush, deadfalls, or piles of debris, then lure in prey with their waving tentacles. Once approached by a prey animal, a dalyrake pounces quickly and injects its target with the soporific venom produced by its stinger.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 10
+		},
+		"skills": {
+			"Brawl": 3,
+			"Coordination": 2,
+			"Deception": 3,
+			"Percep­tion": 3,
+			"Stealth": 4,
+			"Survival": 2
+		},
+		"talents": [],
+		"abilities": ["Death Lunge"],
+		"weapons": [
+			{
+				"name": "Talons, pincers and mandibles",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": []
+			},
+			{
+				"name": "Poisonous stinger",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Disorient 3", "Prepare 1", "Pierce 3"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "creature", "location:Tralus/Talus", "location:Corellian Sector"]
+	},
+	{
 		"name": "Dewback",
 		"type": "Rival",
 		"description": "Originating from the Dune Sea on Tatooine, dewbacks are large four-legged reptiles who are well-suited to desert environments. Easily domesticated, dewbacks are used as both beasts of burden and reliable, hardy mounts, and like banthas, have been exported off-world for generations. Because of their resilience, these creatures are found in both Imperial and Alliance military forces. In the Stormtrooper Specialty Corps, sandtroopers make good use of their strengths in arid conditions; amongst the Alliance, dewbacks are deployed to SpecForce’s 4th Regiment.",
@@ -564,6 +646,44 @@
 		],
 		"gear": [],
 		"tags": ["creature", "species:Dianoga", "book:lonh"]
+	},
+	{
+		"name": "Dimlurker",
+		"type": "Rival",
+		"description": "Dimlurkers are hideous, worm-like creatures native to the dark, winding tunnels far beneath the Kystes’ Spine. One end terminates in a grasping, toothless maw, flanked by a pair of long, prehensile tentacles tipped with hard, spiked spheres of solid chitin. These lashing tentacles are the dimlurker’s primary weapons, and are used both to strangle prey and to stuff food down their gaping gullet.\n\nDimlurkers patrol the dark places beneath the Spine, eating carrion, filth, and preying on other subterranean creatures, including the Kystes’ Spine Selonians and the occasional (and unlucky) spelunker. They are completely blind and deaf, having neither eyes nor ears, and hunt by sensing heat and vibrations through the numerous clusters of receptor cells scattered throughout their bodies. In combat, they lash out with their flailing tentacles in an attempt to grab and entangle their prey. Once entangled, the prey is squeezed to death in the dimlurker’s powerful embrace and then swallowed whole.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 10,
+			"defence": [3, 1]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Perception": 4,
+			"Resilience": 4,
+			"Survival": 3
+		},
+		"talents": [],
+		"abilities": ["Constrictor", "Terrifying"],
+		"weapons": [
+			{
+				"name": "Chitinous limbs",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Ensnare 2", "Stun 3"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Tralus/Talus", "creature"]
 	},
 	{
 		"name": "Duracrete Slug",
@@ -751,7 +871,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["book:sof", "creature", "location:Drall", "species:Ibbot"]
+		"tags": ["book:sof", "creature", "location:Drall", "species:Ibbot", "location:Corellian Sector"]
 	},
 	{
 		"name": "Great Ibbot",
@@ -796,7 +916,61 @@
 			}
 		],
 		"gear": [],
-		"tags": ["book:sof", "creature", "location:Drall", "species:Ibbot", "riding beast"]
+		"tags": ["book:sof", "creature", "location:Drall", "species:Ibbot", "riding beast", "location:Corellian Sector"]
+	},
+	{
+		"name": "Fefze Beetle",
+		"type": "Rival",
+		"description": "The dominant—and principle remaining—life form on Duro’s surface, the fefze beetle is a devolved and non-sentient subspecies of the insectoid Fefze. Originally, a large swarm of Fefze was recruited to immigrate to Duro as workers. The Duros believed the Fefze would be able to handle the poisonous atmosphere and environmental damage of the mining areas; unfortunately, the toxicity levels were beyond even the Fefze, and they mutated. As the ecosystem completely collapsed and the Duros abandoned the planet, the fefze beetles were left behind to breed unchecked and scour all organic matter from the world.\n\nFefze beetles are as large as a two-person landspeeder. They are predatory by nature and attack any organic beings in their sensory range rapidly and voraciously. In addition, their digestive acids (powerful enough to break down anything remotely edible) can be spit at short ranges. The only saving grace for any group unlucky enough to encounter fefze beetles is that only a handful share a hunting area at a time.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 15
+		},
+		"skills": {
+			"Brawl": 1,
+			"Perception": 1,
+			"Ranged: Light": 1,
+			"Stealth": 1,
+			"Vigilance": 1
+		},
+		"talents": [],
+		"abilities": ["Silhouette 2", "Toxic Environment Dweller"],
+		"weapons": [
+			{
+				"name": "Legs",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			},
+			{
+				"name": "Mandibles",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 4", "Pierce 1"]
+			},
+			{
+				"name": "Acid spit",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Burn 3", "Slow-Firing 4"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Duros", "creature"]
 	},
 	{
 		"name": "Grabworm",
@@ -841,6 +1015,50 @@
 		],
 		"gear": [],
 		"tags": ["creature", "location:Hutt Space", "location:Toydaria", "book:lonh", "adventure:Toydarian Grocery Shopping"]
+	},
+	{
+		"name": "Guf Drolg",
+		"type": "Rival",
+		"description": "Huge, dim-witted, and evil tempered, guf drolgs are perhaps the most disruptive and despised creatures on Talus. Roughly the size of a large speeder truck (and half as intelligent), guf drolgs are massive, qua­drupedal, reptilian herbivores who make their homes on the broad grassy Talusian plains. The guf drolg’s powerful frame is draped in thick, rust-coloured hide which falls about it in loose folds, protecting it from both the elements and predators.\n\nGuf drolg herds of thousands are constantly on the move, migrating across the planet with the seasons and devouring everything in sight. Great migrations of guf drolgs cause incredible damage to local economies and ecosystems as they consume crops, destroy fences and buildings, trample livestock, and ruin the land with their acidic droppings. While they are difficult to hunt and roundly despised, guf drolgs do have some value, mostly as a source of food and hides. Their meat is surprisingly delicious, and their thick, supple hides are easy to work with, take dyes easily, and are used to make everything from armoured clothing to designer shoes.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 12
+		},
+		"skills": {
+			"Brawl": 2,
+			"Resilience": 3,
+			"Survival": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Goring horn",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 3", "Prepare 1", "Vicious 1"]
+			},
+			{
+				"name": "Trample",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 3", "Inaccurate 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "location:Tralus/Talus", "creature", "location:Corellian Sector"]
 	},
 	{
 		"name": "Ghorla",
@@ -1275,6 +1493,51 @@
 		"tags": ["creature", "book:sor", "location:Thyferra"]
 	},
 	{
+		"name": "Korrak",
+		"type": "Rival",
+		"description": "Korraks are long, sinuous reptiles resembling a large serpent with pebbly scales and stubby legs. With eight short, powerful legs, korraks are incredibly fast and agile, and their clawed feet enable them to climb trees almost as fast as they can run. When a korrak attacks a target, it tries to wrap its long body around its prey, crushing it. The korrak’s bite also contains a potent neurotoxin.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14
+		},
+		"skills": {
+			"Brawl": 2,
+			"Perception": 1,
+			"Survival": 1
+		},
+		"talents": [],
+		"abilities": ["Paralysing Neurotoxin", "Crushing Body"],
+		"weapons": [
+			{
+				"name": "Sinuous body",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Ensnare 2", "Knockdown"]
+			},
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": [],
+				"notes": "This attack may only target victims affected by the korrak’s Ensnare quality."
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Sacorria", "creature"]
+	},
+	{
 		"name": "Kouhun",
 		"type": "Minion",
 		"description": "Kouhuns are small, multi-legged, venomous arthro­pods approximately thirty centimeters long, with gray, segmented bodies and large mandibles. Kouhun bites deliver a fast-acting and fatal neurotoxin, making them a favorite “w eapon” of many assassins. On their home planet of Indoumodo, they are simple preda­tors who track prey by heat. Their tiny size makes them adept at slipping through ventilation systems, windows, cracks in masonry, and other tight spaces. When cornered, kouhuns can also use a sharp, non-venomous tail spine to defend themselves.",
@@ -1647,7 +1910,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["book:sof", "creature", "location:Corellia"]
+		"tags": ["book:sof", "creature", "location:Corellia", "location:Corellian Sector"]
 	},
 	{
 		"name": "Mustafarian Lava Flea",
@@ -1949,6 +2212,42 @@
 		"tags": ["book:sot", "creature", "species:Ronto"]
 	},
 	{
+		"name": "Sacorrian Grey Bear",
+		"type": "Rival",
+		"description": "The grey bear of Sacorria stands anywhere from two-and-a-half to three metres tall. With extremely long arms, blade-sharp claws, and a voracious appetite for anything it can get into its omnivorous jaws, the safest way to deal with one is avoidance or heavy firepower.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 17
+		},
+		"skills": {
+			"Brawl": 1,
+			"Perception": 1,
+			"Survival": 3
+		},
+		"talents": [],
+		"abilities": ["Long Arms"],
+		"weapons": [
+			{
+				"name": "Vicious claws and teeth",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Sacorria", "creature"]
+	},
+	{
 		"name": "Spooked Ronto",
 		"type": "Rival",
 		"description": "The average ronto is easily domesticated for farm work and other means. Though not brilliant by any means, rontos are receptive to training and form string attachments to those they deem their masters. Strong and loyal, they can be ideal creatures for rural settings, but they have a strong tendency to spook readily around machines and loud noises.\n\nTypically, rontos are not dangerous. However, if they are being ridden by someone who intends another harm, they can be used to cause great damage. In addition, a spooked ronto will stop at nothing to get away from whatever startled it, making it very dangerous.",
@@ -1981,7 +2280,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["book:sof", "creature", "species:Ronto", "location:Nubia"]
+		"tags": ["book:sof", "creature", "species:Ronto", "location:Nubia", "location:Corellian Sector"]
 	},
 	{
 		"name": "Ruping",
@@ -2056,7 +2355,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["book:sof", "creature", "location:Selonia"]
+		"tags": ["book:sof", "creature", "location:Selonia", "location:Corellian Sector"]
 	},
 	{
 		"name": "Sand Panther",
@@ -2095,7 +2394,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["book:sof", "creature", "location:Corellia"]
+		"tags": ["book:sof", "creature", "location:Corellia", "location:Corellian Sector"]
 	},
 	{
 		"name": "Shaoryn",
@@ -2180,6 +2479,55 @@
 		"tags": ["creature", "location:Hutt Space", "book:lonh"]
 	},
 	{
+		"name": "Sludge Panther",
+		"type": "Nemesis",
+		"description": "Sludge panthers are carnivorous feline predators who live in the steaming jungles and fetid swamp lands of Talus. Typically around two meters long and over a meter high at the shoulder, sludge panthers have lean, muscular bodies covered in a dense mat of mottled brown and grey water-resistant fur. Their necks are thick and their heads are large and leonine, with small ears, yellow eyes, and powerful jaws full of sharp, rending teeth. Their paws are broad with black, non-retractable claws used for climbing and hunting, and thick pads which help absorb the sound of their movement. A thick, horny ridge runs from between their ears to the middle of their back, protecting the neck, shoulders, and spine from damage.\n\nIn the jungles and swamps where they make their homes, sludge panthers have few natural enemies and are usually the apex predator in their range. Sludge panthers are exceedingly cunning hunters and are nearly undetectable in their native environs. When stalking their prey, these big cats use cover, natural camouflage, counter tracking, and other tactics in­tended to confuse and harry. One of their most common ruses is to slather cool mud over their bodies to mask both their scent and their body heat, a tactic that makes them nearly impossible to detect.\n\nSludge panthers are social creatures who live and travel in small bands, the females hunting for food and the males protecting the nests and young from predators. Although they rarely hunt sentients, those who go against them should remember they seldom hunt alone.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 14,
+			"strain": 8,
+			"defence": [2, 2]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Coordination": 3,
+			"Resilience": 3,
+			"Stealth": 4,
+			"Survival": 3,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 1", "Blooded 2", "Lethal Blows 2"],
+		"abilities": ["Natural Camouflage", "Jungle Hunter"],
+		"weapons": [
+			{
+				"name": "Teeth and claws",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			},
+			{
+				"name": "Pounce",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 2", "Knockdown", "Prepare 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "location:Corellian Sector", "creature", "location:Tralus/Talus"]
+	},
+	{
 		"name": "Spukami",
 		"type": "Rival",
 		"description": "Spukami are domesticated felines native to Corellia, sometimes referred to as “house cats.” Large and seemingly intelligent, spukami have long, silky, blue-black fur with white or yellow highlights, piercing gold eyes, and long retractable claws on their front paws. The size of an average human toddler, these cats are widely popular as pets on Corellia. However, thanks to their haughty nature, stubbornness, short attention spans, destructive tendencies, and general lack of affection, they make indifferent pets. Many spukami owners jokingly state that they themselves are the pets, good only to serve the needs of their magisterial and mercurial cats. Spukami are also incredibly territorial, and savagely attack any other members of their species that enter into their territory. Even during their mating season, they can barely tolerate one another, leading Corellians to wonder how the spukami species manages to survive at all.",
@@ -2215,7 +2563,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["book:sof", "creature", "location:Corellia"]
+		"tags": ["book:sof", "creature", "location:Corellia", "location:Corellian Sector"]
 	},
 	{
 		"name": "Stalking Acklay",
@@ -2254,6 +2602,52 @@
 		],
 		"gear": [],
 		"tags": ["creature", "book:fad"]
+	},
+	{
+		"name": "Styanax",
+		"type": "Nemesis",
+		"description": "Native to the seas and oceans of Tralus, the styanax are among the most savage aquatic predators known to exist in the Corellian System. These atavistic reptilian carnivores have long, muscular bodies covered in thick, iridescent green scales which shimmer as they move through the water. A ridge of sharp spines runs along a styanax’s dorsal ridge, and it possesses a powerful prehensile tail tipped with a wicked and venomous stinger.\n\nStyanax are, thankfully, largely solitary hunters. Territorial in the extreme, they only tolerate the presence of others of their kind during their short, violent mating season. Aggressive and forward, styanax are unsubtle in combat. They charge directly at their target, attempting to sting their prey with a soporific venom. Once incapacitated, a styanax grabs its prey in its powerful jaws and proceeds to shake it to death.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16,
+			"strain": 6,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Brawl": 4,
+			"Resilience": 3,
+			"Survival": 3
+		},
+		"talents": ["Adversary 1", "Crippling Blow"],
+		"abilities": ["Silhouette 3", "Aquatic Creature"],
+		"weapons": [
+			{
+				"name": "Tooth-filled maw",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Vicious 3"]
+			},
+			{
+				"name": "Poisonous stinger",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 3", "Stun 4"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Tralus/Talus", "creature"]
 	},
 	{
 		"name": "Tauntaun",
@@ -2363,7 +2757,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["book:sof", "creature", "location:Selonia"]
+		"tags": ["book:sof", "creature", "location:Selonia", "location:Corellian Sector"]
 	},
 	{
 		"name": "Thranta",
@@ -2480,7 +2874,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["book:sof", "creature", "location:Selonia"]
+		"tags": ["book:sof", "creature", "location:Selonia", "location:Corellian Sector", "adventure:Tunnel Delving"]
 	},
 	{
 		"name": "The Lost",
@@ -2639,7 +3033,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["book:sof", "creature", "location:Corellia"]
+		"tags": ["book:sof", "creature", "location:Corellia", "location:Corellian Sector"]
 	},
 	{
 		"name": "Varactyl",
