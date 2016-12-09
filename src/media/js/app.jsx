@@ -50,7 +50,7 @@ class App extends React.Component {
 				adversary = adversaries.sort(sortByProperty("name"))[0];
 			}
 
-			let tags = [];
+			let tags = ["minion", "rival", "nemesis"];
 
 			adversaries.forEach(a => {
 				a.tags.forEach(t => {
@@ -58,9 +58,9 @@ class App extends React.Component {
 						tags.push(t);
 					}
 				});
-			});
 
-			//console.log(tags)
+				a.tags.push(a.type.toLowerCase());
+			});
 
 			this._updateState(adversary, adversaries, null, tags);
 		});
