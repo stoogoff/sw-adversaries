@@ -62,7 +62,6 @@ Main tasks:
 ## TODO
 
 - More adversaries
-- Tracking of Wounds and Strain
 - Mobile friendly
 - Favourite adversaries
 - Favicon

@@ -127,20 +127,6 @@ th, td
 td
 	padding: 0.3em
 
-input[type="text"]
-	color: $heading
-	font-size: 1.1em
-	padding: 0.2em 0.5em
-	background-color: white
-	border: 1px solid darken($link, 20%)
-	border-radius: 0.2em
-	@include hover()
-
-	&:focus
-		outline: 2px solid rgba($link, 0.5)
-		border-color: $link
-		@include shadow-input($font, $link)
-
 .text-right
 	text-align: right
 
@@ -197,6 +183,18 @@ a, .link
 
 	input[type="text"]
 		width: 100%
+		color: $heading
+		font-size: 1.1em
+		padding: 0.2em 0.5em
+		background-color: white
+		border: 1px solid darken($link, 20%)
+		border-radius: 0.2em
+		@include hover()
+
+		&:focus
+			outline: 2px solid rgba($link, 0.5)
+			border-color: $link
+			@include shadow-input($font, $link)
 
 	#clear
 		position: absolute
@@ -414,6 +412,21 @@ a, .link
 		small
 			display: block
 			font-size: 0.7em
+
+	input[type="text"]
+		display: inline-block
+		border-width: 0
+		border-bottom: 2px solid $derived
+		font-size: 2em
+		width: 1.5em
+		margin: 0.2em 0.2em 0.3em 0.3em
+		padding: 0.2em
+		text-align: center
+		font-weight: bold
+		color: $heading
+
+		&:hover
+			background-color: #eee
 
 .info
 	margin-bottom: 1.5em

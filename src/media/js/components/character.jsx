@@ -72,10 +72,11 @@ export default class Character extends React.Component {
 						<span>{ character.derived.soak }</span>
 					</div>
 					<div>
-						<h3>Wounds</h3>
-						<span>{ character.type === "Minion" ? character.derived.wounds * this.state.minions : character.derived.wounds }</span>
+						<h3>Wounds <small>Threshold | Current</small></h3>
+						<span>{ character.type === "Minion" ? character.derived.wounds * this.state.minions : character.derived.wounds } |</span>
+						<input type="text" defaultValue="0" maxLength="2" />
 					</div>
-					{ character.type === "Nemesis" ? <div><h3>Strain</h3><span>{ character.derived.strain }</span></div> : null }
+					{ character.type === "Nemesis" ? <div><h3>Strain <small>Threshold | Current</small></h3><span>{ character.derived.strain } |</span><input type="text" defaultValue="0" maxLength="2" /></div> : null }
 					<div>
 						<h3>Defence <small>&nbsp; Melee | Ranged</small></h3>
 						<span>{ defence }</span>
