@@ -23,8 +23,8 @@ export default class Tabs extends React.Component {
 
 		return <ul id="tabs">
 			{ tabs.map((t, i) => <li key={ i } className={ i == this.props.selectedIndex ? "active" : null }><span className="btn" onClick={ this.view.bind(this) } data-index={ i }>{ t }</span></li>) }
-			<li className="tools"><small className="btn" onClick={ this.add.bind(this) }><span className="fa fa-plus"></span> Add</small></li>
-			{ tabs.length > 1 ? <li className="tools"><small className="btn" onClick={ this.remove.bind(this) }><span className="fa fa-remove"></span> Remove</small></li> : null }
+			<li className="tools"><small className="btn" onClick={ this.add.bind(this) }><svg><use href="#icon-plus"></use></svg> Add</small></li>
+			{ tabs.length > 1 ? <li className="tools"><small className="btn" onClick={ this.remove.bind(this) }><svg><use href="#icon-cross"></use></svg> Remove</small></li> : null }
 		</ul>;
 	}
 }

@@ -49,10 +49,10 @@ export default class Character extends React.Component {
 		let icon = null;
 
 		if(character.tags.indexOf("rebel alliance") != -1) {
-			icon = <span className="fa fa-ra"></span>;
+			icon = <svg><use href="#rebel-alliance"></use></svg>;
 		}
 		else if(character.tags.indexOf("empire") != -1) {
-			icon = <span className="fa fa-empire"></span>;
+			icon = <svg><use href="#galactic-empire"></use></svg>;
 		}
 
 		return <div className={ !this.props.visible ? "hidden" : null }>

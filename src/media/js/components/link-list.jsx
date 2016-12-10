@@ -23,7 +23,7 @@ export default class LinkList extends React.Component {
 				let isSelected = l.id == (this.props.selected || "");
 
 				return <li key={ l.id } className={ isSelected ? "selected": "" }>
-					<span className="link" onClick={ this.handler.bind(this) } data-target={ l.id }>{ isSelected ? <span className="fa fa-caret-right"></span> : null } { l.name }</span>
+					<span className="link" onClick={ this.handler.bind(this) } data-target={ l.id }>{ isSelected ? <svg><use href="#icon-circle-right"></use></svg> : null } { l.name }</span>
 				</li>
 			}) }
 		</ul>;

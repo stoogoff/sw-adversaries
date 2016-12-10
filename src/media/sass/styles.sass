@@ -42,6 +42,10 @@ h1
 	padding: 1rem 3rem 1rem 1rem
 	border-radius: 0 3rem 3rem 0
 
+	svg
+		position: relative
+		top: 0.15em
+
 h2.subtitle
 	font-size: 1.25rem
 	text-align: right
@@ -88,6 +92,14 @@ ul
 
 			&:last-of-type:after
 				content: ""
+
+svg
+	display: inline-block
+	width: 1em
+	height: 1em
+	stroke-width: 0
+	stroke: currentColor
+	fill: currentColor
 
 .directory
 	margin-bottom: 1em
@@ -156,9 +168,6 @@ a, .link
 	&:hover
 		background-color: rgba(0, 0, 0, 0.1)
 
-	.fa.nudge
-		margin-top: 0.1em
-
 #built-by
 	position: fixed
 	bottom: 0
@@ -198,10 +207,11 @@ a, .link
 
 	#clear
 		position: absolute
-		top: 0.3em
-		right: 0.3em
+		top: 0.1em
+		right: 0.1em
+		bottom: 0.1em
 		background-color: white
-		padding: 0.2em 0.2em 0.2em 0.5em
+		padding: 0.35em 0.3em 0 0.5em
 
 #container > .loading
 	margin-top: 6em
@@ -235,6 +245,10 @@ a, .link
 			&:hover, &.active
 				background-color: $tabBgColour
 				color: darken($font, 20%)
+
+			svg
+				position: relative
+				top: 0.2em
 
 		&>li.active ul
 			display: block
@@ -289,6 +303,10 @@ a, .link
 				font-weight: bold
 				padding: 0.3em
 
+				svg
+					position: relative
+					top: 0.1em
+
 				.link
 					text-decoration: none
 
@@ -322,6 +340,9 @@ a, .link
 
 		&.tools
 			padding: 0 0 0 0.5em
+
+			svg
+				font-size: 0.7em
 
 		.btn:hover
 			color: $link
@@ -463,6 +484,10 @@ a, .link
 	margin-top: -2.5em
 	margin-bottom: 1em
 
+	svg
+		position: relative
+		top: 0.1em
+
 // dice icons
 .icon
 	font-family: StarWarsSymbols
@@ -524,3 +549,15 @@ a, .link
 @font-face
 	font-family: StarWarsSymbols
 	src: url(../fonts/starwars-dice-symbols.otf), url(../fonts/starwars-dice-symbols.woff) format("woff")
+
+.spinner
+	animation-name: spin
+	animation-duration: 2s
+	animation-iteration-count: infinite
+	animation-timing-function: linear
+
+@keyframes spin
+	from
+		transform: rotate(0deg)
+	to
+		transform: rotate(360deg)
