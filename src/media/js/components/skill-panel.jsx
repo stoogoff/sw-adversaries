@@ -50,6 +50,10 @@ export default class SkillPanel extends React.Component {
 
 		allSkills.forEach(skill => {
 			if(this.state.showAll || skill.name in character.skills) {
+				if(this.state.showAll && "hide" in skill && skill.hide && !(skill.name in character.skills)) {
+					return;
+				}
+
 				let stat = character.characteristics[skill.characteristic];
 				let value = character.skills[skill.name] || 0;
 

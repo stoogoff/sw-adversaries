@@ -70,9 +70,34 @@
 		"type": "Combat"
 	},
 	{
+		"name": "Lightsaber (Agility)",
+		"characteristic": "Agility",
+		"type": "Combat",
+		"hide": true
+	},
+	{
+		"name": "Lightsaber (Intellect)",
+		"characteristic": "Intellect",
+		"type": "Combat",
+		"hide": true
+	},
+	{
+		"name": "Lightsaber (Cunning)",
+		"characteristic": "Cunning",
+		"type": "Combat",
+		"hide": true
+	},
+	{
 		"name": "Lightsaber (Willpower)",
 		"characteristic": "Willpower",
-		"type": "Combat"
+		"type": "Combat",
+		"hide": true
+	},
+	{
+		"name": "Lightsaber (Presence)",
+		"characteristic": "Presence",
+		"type": "Combat",
+		"hide": true
 	},
 	{
 		"name": "Mechanics",
