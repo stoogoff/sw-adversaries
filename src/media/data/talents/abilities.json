@@ -40,6 +40,10 @@
 		"description": "Bearsloths treat trees and branches as normal terrain and do not make checks or spend extra maneuvers in order to move along them vertically or horizontally."
 	},
 	{
+		"name": "Aura of Command",
+		"description": "Spend a maneuver to allow one allied minion group at Medium range to immediately perform one maneuver or action. Add :boost: to any actions they perform."
+	},
+	{
 		"name": "Awkward",
 		"description": "Hutts have great physical strength but their bulk imposes severe limitations in flexibility and agility; they add :setback::setback::setback: to all Brawl, Melee, and Coordination checks they’re required to make."
 	},

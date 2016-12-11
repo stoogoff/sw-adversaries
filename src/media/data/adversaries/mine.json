@@ -1,0 +1,58 @@
+[
+	{
+		"name": "Jeela Scoria Harik",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 5,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 22,
+			"strain": 25,
+			"defence": [2, 2]
+		},
+		"skills": {
+
+			"Athletics": 3,
+			"Brawl": 3,
+			"Charm": 2,
+			"Coercion": 2,
+			"Deception": 1,
+			"Discipline": 4,
+			"Knowledge: Core Worlds": 2,
+			"Knowledge: Education": 2,
+			"Knowledge: Lore": 2,
+			"Knowledge: Outer Rim": 2,
+			"Knowledge: Underworld": 2,
+			"Knowledge: Warfare": 2,
+			"Knowledge: Xenology": 2,
+			"Leadership": 2,
+			"Lightsaber (Willpower)": 4,
+			"Melee": 2,
+			"Perception": 2,
+			"Survival": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 3", "Reflect 4", "Parry 4"],
+		"abilities": ["Force power: Influence", "Force power: Harm", "Aura of Command", "Darkside Force User", "Force Rating 3"],
+		"weapons": [
+		{
+			"name": "Double-bladed lightsaber",
+			"skill": "Lightsaber (Willpower)",
+			"damage": 10,
+			"critical": 1,
+			"range": "Engaged",
+			"qualities": ["Breach 1", "Sunder", "Vicious 2", "Linked 1", "Unwieldy 3"]
+		}
+		],
+		"gear": ["Superior Jedi Temple Guard Armour (+2 Soak, +2 Defence, remove :setback: from darkness or similar environemental effects, built-in comlink)"],
+		"tags": ["empire", "inquisitor", "force sensitive", "jedi"],
+		"devOnly": true
+	}
+]

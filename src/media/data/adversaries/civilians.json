@@ -792,7 +792,7 @@
 		"talents": [],
 		"abilities": [],
 		"weapons": ["Riot gun", "Truncheon"],
-		"gear": ["Riot armour (+2 soak)"],
+		"gear": ["Riot armour (+2 Soak)"],
 		"tags": ["civilian", "coprorate security authority", "security", "book:eote"]
 	},
 	{
@@ -823,7 +823,7 @@
 		"talents": ["Adversary 1"],
 		"abilities": ["Riot Tactics"],
 		"weapons": ["Riot gun", "Truncheon"],
-		"gear": ["Riot armour (+2 soak)"],
+		"gear": ["Riot armour (+2 Soak)"],
 		"tags": ["civilian", "coprorate security authority", "security", "book:eote"]
 	},
 	{
@@ -1248,7 +1248,7 @@
 		"talents": [],
 		"abilities": [],
 		"weapons": ["Blaster carbine", "Frag grenade"],
-		"gear": ["Blast vest  (+1 soak)", "2 Frag grenades"],
+		"gear": ["Blast vest  (+1 Soak)", "2 Frag grenades"],
 		"tags": ["military", "security", "location:Rim Worlds", "book:eote", "book:fad"]
 	},
 	{
@@ -1312,7 +1312,7 @@
 		"talents": ["Improved Inspiring Rhetoric", "Kill with Kindness 2", "Nobody’s Fool 2"],
 		"abilities": ["Leader"],
 		"weapons": ["Light blaster pistol"],
-		"gear": ["Rich clothing (+1 soak)"],
+		"gear": ["Rich clothing (+1 Soak)"],
 		"tags": ["civilian", "book:eote"]
 	},
 	{
@@ -1506,7 +1506,7 @@
 		"talents": [],
 		"abilities": [],
 		"weapons": ["Blaster pistol", "Stun grenade"],
-		"gear": ["Padded armour (+2 soak)", "2 Stun grenades"],
+		"gear": ["Padded armour (+2 Soak)", "2 Stun grenades"],
 		"tags": ["civilian", "security", "spaceport personnel", "book:eote"]
 	},
 	{
@@ -1537,7 +1537,7 @@
 		"talents": ["Adversary 1"],
 		"abilities": [],
 		"weapons": ["Blaster rifle"],
-		"gear": ["Padded armour (+2 soak)", "Stimpack"],
+		"gear": ["Padded armour (+2 Soak)", "Stimpack"],
 		"tags": ["civilian", "security", "spaceport personnel", "book:eote"]
 	},
 	{
@@ -1569,7 +1569,7 @@
 		"talents": [],
 		"abilities": [],
 		"weapons": ["Blaster pistol"],
-		"gear": ["Padded flight suit (+1 soak)"],
+		"gear": ["Padded flight suit (+1 Soak)"],
 		"tags": ["civilian", "species:Sullustan", "pilot", "book:eote"]
 	},
 	{
@@ -1792,7 +1792,7 @@
 		"talents": ["Bodyguard"],
 		"abilities": ["Hoverer", "Silhouette 0"],
 		"weapons": ["Blaster rifle", "Cortosis sword", "Frag grenade"],
-		"gear": ["Electro-visor (removes :setback: imposed due to long range or poor light)", "2 Frag grenades", "Padded armour (+2 soak)"],
+		"gear": ["Electro-visor (removes :setback: imposed due to long range or poor light)", "2 Frag grenades", "Padded armour (+2 Soak)"],
 		"tags": ["civilian", "species:Toydarian", "location:Hutt Space", "book:lonh"]
 	},
 	{
@@ -1828,7 +1828,7 @@
 				"qualities": ["Knockdown"]
 			}
 		],
-		"gear": ["Durable clothing (+1 soak)", "Tool kit", "Utility belt"],
+		"gear": ["Durable clothing (+1 Soak)", "Tool kit", "Utility belt"],
 		"tags": ["civilian", "location:Rim Worlds", "book:fad", "engineer", "species:Ugnaught"]
 	},
 	{

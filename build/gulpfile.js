@@ -73,9 +73,13 @@ gulp.task("merge-data", function() {
 			if(!isDev && m == "adversaries") {
 				for(var i = 0, len = output.length; i < len; ++i) {
 					if("description" in output[i]) {
-						output[i]["description"] = "";
+						delete output[i]["description"];
 					}
 				}
+
+				output = output.filter(function(a) {
+					return !("devOnly" in a && a["devOnly"]);
+				});
 			}
 
 			return new Buffer(JSON.stringify(output));
