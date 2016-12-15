@@ -39,8 +39,8 @@
 			"Survival": 3,
 			"Vigilance": 3
 		},
-		"talents": ["Adversary 3", "Reflect 4", "Parry 4"],
-		"abilities": ["Force power: Influence", "Force power: Harm", "Aura of Command", "Darkside Force User", "Force Rating 3"],
+		"talents": ["Adversary 3", "Reflect 4", "Parry 4", "Draw Closer"],
+		"abilities": ["Force power: Harm (Upgrade)", "Aura of Command", "Darkside Force User", "Force Rating 3"],
 		"weapons": [
 		{
 			"name": "Double-bladed lightsaber",

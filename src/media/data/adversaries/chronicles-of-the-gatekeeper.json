@@ -284,7 +284,7 @@
 			}
 		],
 		"gear": ["Armoured robes (+2 Soak, +1 Defence)", "Kyber crystal"],
-		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Moraband", "fallen jedi", "force sensitive"]
+		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Moraband", "fallen jedi", "force sensitive", "jedi"]
 	},
 	{
 		"name": "Tor Haido",

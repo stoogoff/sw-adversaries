@@ -373,7 +373,7 @@
 	},
 	{
 		"name": "Draw Closer",
-		"description": ""
+		"description": "Perform Draw Closer action; make a Lightsaber (Willpow­er) combat check against one Silhouette 1 target within Medium range, adding :force: no greater than Force rating to check. Spend :lightside: to move target one range band closer or to add :success: to check."
 	},
 	{
 		"name": "Drive Back",
