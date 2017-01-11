@@ -91,7 +91,7 @@ let bookMap = {
 	// source books
 	"book:lonh": "Lords of Nal Hutta",
 	"book:sor": "Strongholds of Resistance",
-	"book:sof": "Suns of Fortune",
+	"book:sof": "Suns of Fortune", // there's a barabel enforcer with different weapon load out
 	"book:nop": "Nexus of Power",
 
 	// career books

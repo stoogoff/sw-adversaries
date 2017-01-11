@@ -109,42 +109,6 @@
 		"tags": ["civilian", "book:ragp", "adventure:Rescue at Glare Peak"]
 	},
 	{
-		"name": "Baron Kaldo",
-		"type": "Nemesis",
-		"description": "One of Hollowtown’s billionaire elite, Benton Kaldo can trace his lineage to Corellian nobility. Kaldo’s wealth originated from ancestral successes in corporate investments, though his true nature is less be­nign. From his sprawling vineyard estate in Hollowtown, Baron Kaldo controls most criminal activity on Centerpoint Station. His organization primarily deals in spice and corporate espionage, but the occasional underground swoop or podracing event in active turbovator corridors nets Kaldo hefty gambling profits.\n\nA dark-haired and hawk-faced man in his early fifties, Baron Kaldo considers himself a blue-blood nobleman, and is always immaculately coiffed and clothed. Layers of servants insulate him from common citizens, whom he finds repellent. Despite this outward appearance of typi­cal elitism, he is a shrewd manager of his organisation and unafraid to take risks. He often poses as a rival buy­ er or seller at Gustip’s more important dealings, where they use a sort of verbal code for Kaldo to covertly direct any decision-making right under the nose of others.",
-		"characteristics": {
-			"Brawn": 2,
-			"Agility": 2,
-			"Intellect": 3,
-			"Cunning": 4,
-			"Willpower": 3,
-			"Presence": 3
-		},
-		"derived": {
-			"soak": 4,
-			"wounds": 16,
-			"strain": 18,
-			"defence": [1, 1]
-		},
-		"skills": {
-			"Charm": 3,
-			"Coercion": 4,
-			"Cool": 3,
-			"Deception": 3,
-			"Dis­cipline": 3,
-			"Knowledge: Underworld": 3,
-			"Negotiation": 3,
-			"Perception": 4,
-			"Streetwise": 4,
-			"Vigilance": 2
-		},
-		"talents": ["Adversary 2", "Plausible Deniability 2", "Natural Charmer", "Natural Negotiator"],
-		"abilities": [],
-		"weapons": ["Heavy blaster pistol"],
-		"gear": ["Superior concealed armoured clothing (+2 Soak, +1 Defence)", "Comlink"],
-		"tags": ["book:sof", "location:Corellian Sector", "location:Centerpoint Station"]
-	},
-	{
 		"name": "Bandin Dobah",
 		"type": "Nemesis",
 		"description": "Bandin Dobah is a stereotypical pirate captain: reckless, crude, and aggressive. His belligerence soon earned him the respect of several of his fellows on the Aqual­ish home world of Ando and he proved a natural gang leader. Dobah’s impressive force of will compensated for his natural lack of charm. He soon made a number of enemies for himself on Ando, and so he embarked on a career as a spacefarer, captaining a roguish crew willing to undertake all manner of mercenary activity or acts of piracy in order to keep the credits rolling in.\n\nAge has mellowed Dobah to some degree, though by any civilized measure he’s still a violent brute. He no longer has the energy to ply the hyperspace routes of the galaxy in search of easy pickings, but he has been able to turn his resources into effectively managing his network of smuggling teams around the Kessel Run. He tends to conduct his business through a series of intermediaries such as Daro Blunt.\n\nDobah still rules through intimidation rather than true leadership qualities, and his crew obeys him more out of fear than loyalty. His bullying and boorishness offend all but the most hardened of space pirates, but while the profits from the black market glitterstim trade continue to flow, they remain loyal nevertheless.",
@@ -330,88 +294,6 @@
 		"tags": ["underworld", "pirate", "species:Devaronian", "book:lonh", "adventure:Welcome Aboard"]
 	},
 	{
-		"name": "Carn Truuvik",
-		"type": "Nemesis",
-		"description": "Though by no means a crime lord, the human Cam has achieved some success in the Blue Sector. He is very charming, able to put forth a congenial and disarming demeanour even when he has someone at blaster point. He always presents the choices he intends for his marks and his prisoners in the same manner—this is what is best for them, and it’s a “win-win” for everyone.",
-		"characteristics": {
-			"Brawn": 2,
-			"Agility": 3,
-			"Intellect": 3,
-			"Cunning": 3,
-			"Willpower": 3,
-			"Presence": 3
-		},
-		"derived": {
-			"soak": 3,
-			"wounds": 14,
-			"strain": 15,
-			"defence": [1, 1]
-		},
-		"skills": {
-			"Charm": 3,
-			"Computers": 2,
-			"Cool": 3,
-			"Deception": 3,
-			"Knowledge: Underworld": 2,
-			"Negotiation": 2,
-			"Perception": 1,
-			"Ranged: Light": 3,
-			"Skulduggery": 2,
-			"Streetwise": 2
-		},
-		"talents": ["Adversary 1", "Convincing Demeanor 2"],
-		"abilities": ["Skilled Cheater"],
-		"weapons": [
-			{
-				"name": "Filed blaster pistol",
-				"skill": "Ranged: Light",
-				"damage": 6,
-				"critical": 3,
-				"range": "Medium",
-				"qualities": ["Stun Setting"]
-			}
-		],
-		"gear": ["Armoured clothing (+1 Soak, +1 Defence)"],
-		"tags": ["book:sof", "adventure:Sabacc Game on the Row", "location:Corellian Sector", "location:Corellia", "gambler"]
-	},
-	{
-		"name": "Catrinna",
-		"type": "Nemesis",
-		"description": "Catrinna is a beautiful, charming, and alluring young woman who dresses well and presents herself as possessed of class and refinement. She is, however, born of the streets and has a ruthless streak that bares itself whenever she is cornered or is in competition to get something she wants. She is a capable thief and con artist, and is currently partnered with Cam Truuvik. He came up with their current scam, but she refined it to perfection.",
-		"characteristics": {
-			"Brawn": 2,
-			"Agility": 3,
-			"Intellect": 3,
-			"Cunning": 3,
-			"Willpower": 3,
-			"Presence": 3
-		},
-		"derived": {
-			"soak": 2,
-			"wounds": 14,
-			"strain": 15
-		},
-		"skills": {
-			"Charm": 3,
-			"Computers": 1,
-			"Cool": 2,
-			"Deception": 2,
-			"Knowledge: Underworld": 2,
-			"Melee": 2,
-			"Negotiation": 2,
-			"Perception": 1,
-			"Ranged: Light": 2,
-			"Skulduggery": 2,
-			"Streetwise": 2,
-			"Vigilance": 2
-		},
-		"talents": ["Adversary 1", "Natural Charmer"],
-		"abilities": [],
-		"weapons": ["Blaster pistol", "Vibroknife"],
-		"gear": [],
-		"tags": ["book:sof", "adventure:Sabacc Game on the Row", "location:Corellian Sector", "location:Corellia", "gambler"]
-	},
-	{
 		"name": "Chief Warden Lina Naras",
 		"type": "Nemesis",
 		"description": "",
@@ -469,33 +351,6 @@
 		"weapons": [],
 		"gear": ["Tool kit", "Employee ID", "General datapad", "Comlink", "Maintenance overalls"],
 		"tags": ["civilian", "engineer", "book:ragp", "adventure:Rescue at Glare Peak"]
-	},
-	{
-		"name": "Clay “Pops” Merra",
-		"type": "Rival",
-		"description": "“His name’s Clay and he’s old as mud.” The joke has been around Gus Treta longer than Gormo the Hutt, but despite his age. Clay hasn’t lost his touch with a hydrospanner. Widely regarded as one of the best outlaw techs in the system, most claim there isn’t a smuggling ship in the system he hasn’t laid hands on. His specialty is altering ships’ transponder codes.",
-		"characteristics": {
-			"Brawn": 2,
-			"Agility": 1,
-			"Intellect": 3,
-			"Cunning": 2,
-			"Willpower": 2,
-			"Presence": 2
-		},
-		"derived": {
-			"soak": 2,
-			"wounds": 10
-		},
-		"skills": {
-			"Computers": 4,
-			"Mechanics": 5,
-			"Negotiation": 2
-		},
-		"talents": [],
-		"abilities": [],
-		"weapons": [],
-		"gear": ["Tool kit", "Datapad", "Emergency repair patch", "Hand scanner"],
-		"tags": ["book:sof", "location:Corellian Sector", "location:Gus Treta Market Station", "underworld", "engineer"]
 	},
 	{
 		"name": "Colonel Romar Kek",
@@ -1001,40 +856,6 @@
 		"tags": ["book:eote", "adventure:Trouble Brewing", "underworld", "bounty hunter", "species:Rodian"]
 	},
 	{
-		"name": "Gormo Vosadii Grasso",
-		"type": "Nemesis",
-		"description": "Gormo owns Gus Treta Market Station, which he runs as a legitimate business. Most consider him very trustworthy, for a Hutt. The truth is Gormo has little interest in the station beyond profits and information. Decades ago, Gormo was dishonored among his clan for a botched spice smuggling enterprise and Gormo has been actively seeking a new scheme to restore his reputation ever since.",
-		"characteristics": {
-			"Brawn": 6,
-			"Agility": 1,
-			"Intellect": 4,
-			"Cunning": 6,
-			"Willpower": 5,
-			"Presence": 3
-		},
-		"derived": {
-			"soak": 10,
-			"wounds": 30,
-			"strain": 20
-		},
-		"skills": {
-			"Charm": 2,
-			"Coercion": 3,
-			"Cool": 4,
-			"Deception": 2,
-			"Discipline": 4,
-			"Knowledge: Outer Rim": 3,
-			"Knowledge: Underworld": 3,
-			"Negotiation": 4,
-			"Resilience": 3
-		},
-		"talents": ["Resolve 2"],
-		"abilities": ["Awkward", "Ponderous"],
-		"weapons": [],
-		"gear": ["Comlink", "Datapad"],
-		"tags": ["book:sof", "location:Corellian Sector", "location:Gus Treta Market Station", "species:Hutt", "underworld"]
-	},
-	{
 		"name": "Graayl Nor",
 		"type": "Nemesis",
 		"description": "Graayl Nor, the leader of the bounty hunters, is a cold and calculating Barabel who has amassed an impres­sive twelve bounties in the past cycle alone. His group, the Red Pact, has made a name for itself, earning a reputation for getting the job done at all costs. The Red Pact includes numerous thugs and gunslingers, including a Twi’lek, a Rodian, and a Defel.",
@@ -1094,74 +915,6 @@
 		"weapons": ["Blaster pistol"],
 		"gear": ["Padded armour (+2 Soak)"],
 		"tags": ["underworld", "book:lonh", "adventure:The Dead Road", "thug"]
-	},
-	{
-		"name": "Grenzo",
-		"type": "Rival",
-		"description": "Grenzo is a Rodian bounty hunter who has taken up a long-term contract with Cam. Cam is Grenzo’s meal ticket, and he won’t let anything threaten that. Should things turn ugly, the Rodian will not hesitate to kill anyone he sees as an opponent.",
-		"characteristics": {
-			"Brawn": 3,
-			"Agility": 4,
-			"Intellect": 2,
-			"Cunning": 2,
-			"Willpower": 1,
-			"Presence": 2
-		},
-		"derived": {
-			"soak": 5,
-			"wounds": 16
-		},
-		"skills": {
-			"Brawl": 1,
-			"Coercion": 1,
-			"Coordination": 1,
-			"Deception": 1,
-			"Perception": 1,
-			"Piloting: Space": 1,
-			"Ranged: Heavy": 1,
-			"Ranged: Light": 2,
-			"Stealth": 1,
-			"Streetwise": 1,
-			"Survival": 1,
-			"Vigilance": 2
-		},
-		"talents": ["Lethal Blows 2"],
-		"abilities": [],
-		"weapons": ["Heavy blaster pistol"],
-		"gear": ["Laminate armour (+2 Soak)"],
-		"tags": ["book:sof", "adventure:Sabacc Game on the Row", "location:Corellian Sector", "location:Corellia", "gambler", "species:Rodian", "bounty hunter"]
-	},
-	{
-		"name": "Gusto",
-		"type": "Rival",
-		"description": "Baron Kaldo depends on Gustip, his fastidious Drall majordomo, to manage the day-to-day affairs of his criminal empire. Gustip carries himself like an aristocrat, and is never without his aurodium-plated cane. When not on Kaldo’s Hollowtown or Null Town estates, Gustip is accompanied by a gang of Selonian thugs.",
-		"characteristics": {
-			"Brawn": 1,
-			"Agility": 1,
-			"Intellect": 5,
-			"Cunning": 3,
-			"Willpower": 3,
-			"Presence": 2
-		},
-		"derived": {
-			"soak": 3,
-			"wounds": 14,
-			"defence": [1, 1]
-		},
-		"skills": {
-			"Cool": 2,
-			"Knowledge: Core Worlds": 3,
-			"Knowl­edge: Education": 3,
-			"Knowledge: Underworld": 3,
-			"Ne­gotiation": 2,
-			"Perception": 1,
-			"Streetwise": 2
-		},
-		"talents": ["Stroke of Genius"],
-		"abilities": [],
-		"weapons": ["Holdout blaster"],
-		"gear": ["Superior concealed armoured clothing (+2 Soak, +1 Defence)", "Aurodium cane", "Encrypted datapad", "Comlink"],
-		"tags": ["book:sof", "location:Corellian Sector", "location:Centerpoint Station", "species:Drall", "underworld", "majordomo"]
 	},
 	{
 		"name": "Gut-Guro",
@@ -1291,39 +1044,6 @@
 		"tags": ["empire", "imperial security bureau", "book:ragp", "adventure:Rescue at Glare Peak"]
 	},
 	{
-		"name": "Jalla",
-		"type": "Rival",
-		"description": "Presenting herself as a bubble-headed blonde human with far too much makeup and far too much interest in clothing and jewels, Jalla’s persona is a well-crafted act to hide a sharp and cunning mind. She and Cam are currently lovers, though she’d leave him if the right opportunity presented itself.",
-		"characteristics": {
-			"Brawn": 2,
-			"Agility": 2,
-			"Intellect": 3,
-			"Cunning": 3,
-			"Willpower": 2,
-			"Presence": 2
-		},
-		"derived": {
-			"soak": 2,
-			"wounds": 12
-		},
-		"skills": {
-			"Charm": 2,
-			"Coordination": 1,
-			"Deception": 1,
-			"Knowledge: Education": 2,
-			"Perception": 1,
-			"Ranged: Light": 1,
-			"Skulduggery": 2,
-			"Stealth": 2,
-			"Streetwise": 2
-		},
-		"talents": ["Nobody’s Fool 1"],
-		"abilities": [],
-		"weapons": ["Holdout blaster"],
-		"gear": [],
-		"tags": ["book:sof", "adventure:Sabacc Game on the Row", "location:Corellian Sector", "location:Corellia", "gambler"]
-	},
-	{
 		"name": "Kaa’to Leeachos",
 		"type": "Nemesis",
 		"description": "Kaa’to once worked security for a minor Hutt named Morbiss, a slaver operating from Nar Shaddaa. This depraved Hutt had many enemies throughout the Outer Rim territories, and always kept a large detail of thugs and warriors around him. Yet, even that could not save him from his determined rivals. The slave master fell victim to a bomb placed in his ship’s docking bay while on Malastare to bet on the Podraces. The explosion wiped out Morbiss, his ship, his guards, and a large group of “cargo” the Hutt brought along to sell. It was only through sheer luck that the Nikto survived. The enforcer was dealing with a petulant slave who was giving his new master a hard time, which kept him at the edge of the docking bay when the bomb detonated.\n\nThe blast that set Kaa’to free also took his right leg and burned much of his right arm. Luckily, he had a hidden stash of credits on his person. When the medics arrived, the Nikto bargained with the Gran who found him to replace his leg. It exhausted all his credits, but Kaa’to Leeachos would live to finally throw off the shackles of the Hutts.\n\n With his credits wiped out, Kaa’to took to working as a hired guard on Malastare until he could buy passage on a transport offworld. As fate would have it, the only transport he could get took him to the world of Rodia, where his new career would begin. While on Rodia, Kaa’to found himself in the employ of the bounty hunter Knoke, a gruff Rodian who took a liking to the Nikto and taught him the ways of the hunt. Knoke was a successful hunter, but he met his end while on a contract to capture a rogue Jedi during the Great Purge. Kaa’to assumed the contract and finished the job. His reputation quickly grew after such a high-profile job. Within a few years he was in steady employ, with many clients. Knoke left his ship and equipment to Kaa’to, and with these at his disposal, the Nikto set out to earn a fortune for himself. \n\nUltimately, Kaa’to’s pride grew into hubris, and he began to look down on those who employed him, thinking himself nigh untouchable. Soon after staking out territory on Coruscant, the Nikto backstabbed the Pykes, bringing the Player Characters down on his trail.",
@@ -1363,37 +1083,6 @@
 		],
 		"gear": ["Custom laminate armour (+2 Soak)", "Faulty jet pack (spend a maneuver to make a Piloting (Planetary) check with a difficulty of :challenge: to fly; explodes on :despair: or after sustaining 10 damage as if it were a frag grenade)"],
 		"tags": ["underworld", "book:uabs", "adventure:Under a Black Sun", "species:Nikto", "bounty hunter"]
-	},
-	{
-		"name": "Kanz",
-		"type": "Rival",
-		"description": "",
-		"characteristics": {
-			"Brawn": 2,
-			"Agility": 2,
-			"Intellect": 2,
-			"Cunning": 2,
-			"Willpower": 3,
-			"Presence": 1
-		},
-		"derived": {
-			"soak": 2,
-			"wounds": 12
-		},
-		"skills": {
-			"Coercion": 1,
-			"Cool": 3,
-			"Deception": 2,
-			"Melee": 3,
-			"Perception": 1,
-			"Skulduggery": 2,
-			"Stealth": 1
-		},
-		"talents": ["Expert Tracker 1"],
-		"abilities": [],
-		"weapons": ["Vibroknife"],
-		"gear": [],
-		"tags": ["book:sof", "adventure:Sabacc Game on the Row", "location:Corellian Sector", "location:Corellia", "species:Twi’lek", "gambler"]
 	},
 	{
 		"name": "King Maalva",
@@ -1510,35 +1199,6 @@
 		],
 		"gear": ["Padded armour (+2 Soak)"],
 		"tags": ["underworld", "book:uabs", "adventure:Under a Black Sun", "location:Coruscant", "species:Trandoshan"]
-	},
-	{
-		"name": "Liddy Ravora",
-		"type": "Rival",
-		"description": "Liddy used to waitress at Bell’s Cantina, a veteran spacers’ hangout. However, once she recognised the value of information, she became an amateur infochant. Liddy amassed a small fortune trading secrets and purchased the cantina a decade ago. Spacers trust her, and she has been known to help many a down-on-his-luck spacer find work. Still, her first loyalty is to her top-paying customer, Gormo the Hutt.",
-		"characteristics": {
-			"Brawn": 2,
-			"Agility": 2,
-			"Intellect": 3,
-			"Cunning": 4,
-			"Willpower": 2,
-			"Presence": 3
-		},
-		"derived": {
-			"soak": 2,
-			"wounds": 10
-		},
-		"skills": {
-			"Charm": 2,
-			"Deception": 2,
-			"Negotiation": 2,
-			"Perception": 3,
-			"Surveillance": 3
-		},
-		"talents": [],
-		"abilities": [],
-		"weapons": ["Holdout blaster"],
-		"gear": ["Encrypted datapad", "Comlink"],
-		"tags": ["book:sof", "location:Corellian Sector", "location:Gus Treta Market Station", "underworld", "infochant"]
 	},
 	{
 		"name": "Lieutenant Montra Varn",
@@ -1813,36 +1473,6 @@
 		"tags": ["book:aor", "adventure:Perlemian Haul", "empire", "imperial military", "location:M226 Freighter"]
 	},
 	{
-		"name": "Pol Orrich",
-		"type": "Rival",
-		"description": "A sergeant in Centerpoint Security, Pol Orrich has also been on Kaldo’s payroll for most of his career. Pol has a gambling addiction and is often forced into doing favours to cover his debts. Orrich does not hesitate to use his uniform to threaten and intimidate, and is known as Orrich the Brute by his fellow officers.",
-		"characteristics": {
-			"Brawn": 4,
-			"Agility": 2,
-			"Intellect": 2,
-			"Cunning": 3,
-			"Willpower": 2,
-			"Presence": 2
-		},
-		"derived": {
-			"soak": 6,
-			"wounds": 16
-		},
-		"skills": {
-			"Brawl": 3,
-			"Coercion": 3,
-			"Ranged: Heavy": 2,
-			"Resil­ience": 2,
-			"Streetwise": 2,
-			"Vigilance": 2
-		},
-		"talents": [],
-		"abilities": [],
-		"weapons": ["Blaster carbine"],
-		"gear": ["Padded armour (+2 Soak)", "Comlink", "Sabacc deck",  "Stimpack", "Utility belt"],
-		"tags": ["book:sof", "location:Corellian Sector", "location:Centerpoint Station", "civilian", "security"]
-	},
-	{
 		"name": "Raf, Workgang Leader",
 		"type": "Rival",
 		"description": "Raf is a large, muscular, and albino Zabrak, with pale skin and pink, brooding eyes. A large black spot has been tattooed in the center of his forehead. He dresses in a worn work suit and carries a number of vibroknives. Raf has a reputation on the docks for being easily insulted.",
@@ -1995,38 +1625,6 @@
 		"weapons": ["Blaster pistol"],
 		"gear": ["Comlink", "Personal deflector shield (+2 Defence)"],
 		"tags": ["rebel alliance", "book:sor", "location:Ord Gimmel", "species:Deaon"]
-	},
-	{
-		"name": "Sera Riggers",
-		"type": "Nemesis",
-		"description": "Sera is a mid-level officer in the secretariat and frequently acts as the Officer on Duty, where she is responsible for the day-to-day operations of Centerpoint Station. She is driven to keep Centerpoint a safe place for tourism and research, and is obsessed with rooting out organized crime, much to the annoyance of her politically connected superiors. She is not above enlisting independent contractors to gather evidence.",
-		"characteristics": {
-			"Brawn": 2,
-			"Agility": 2,
-			"Intellect": 3,
-			"Cunning": 3,
-			"Willpower": 3,
-			"Presence": 3
-		},
-		"derived": {
-			"soak": 3,
-			"wounds": 14,
-			"strain": 16
-		},
-		"skills": {
-			"Cool": 3,
-			"Leadership": 3,
-			"Negotiation": 2,
-			"Percep­tion": 4,
-			"Ranged: Light": 2,
-			"Streetwise": 3,
-			"Vigilance": 2
-		},
-		"talents": ["Adversary 1", "Nobody’s Fool 1"],
-		"abilities": ["Spaceport Leader"],
-		"weapons": ["Blaster pistol"],
-		"gear": ["Uniform (+1 Soak)", "Datapad", "Comlink"],
-		"tags": ["book:sof", "location:Corellian Sector", "location:Centerpoint Station", "civilian", "security", "spaceport personnel"]
 	},
 	{
 		"name": "Shalo Sherin",

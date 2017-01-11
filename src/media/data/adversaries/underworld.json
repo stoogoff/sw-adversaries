@@ -54,7 +54,7 @@
 		"abilities": [],
 		"weapons": ["Blaster carbine", "Combat knife"],
 		"gear": [],
-		"tags": ["underworld", "species:Barabel", "thug", "book:eote"]
+		"tags": ["underworld", "species:Barabel", "thug", "book:eote", "book:sof", "adventure:Hard Bargain"]
 	},
 	{
 		"name": "Black Marketeer",
@@ -695,12 +695,12 @@
 		"type": "Minion",
 		"description": "Slightly more intelligent and more likely to use ad­vanced technology than the Gamorrean enforcers that are popular with many crime lords, Aqualish are no less physically powerful than their porcine counterparts and equally prone to violence as a means of resolving even the mildest dispute. Although not all members of the Aqualish people are crude and thuggish, enough of them are that the sight of them acting as enforcers and henchmen for all manner of unpleasant figures is hard­ ly surprising to any well traveled citizen of the galaxy’s seedy underbelly.",
 		"characteristics": {
-			"Brawn": 2,
+			"Brawn": 3,
 			"Agility": 2,
 			"Intellect": 2,
 			"Cunning": 2,
-			"Willpower": 2,
-			"Presence": 2
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
 			"soak": 3,
@@ -714,9 +714,9 @@
 		},
 		"talents": [],
 		"abilities": [],
-		"weapons": ["Blaster pistol"],
+		"weapons": ["Blaster pistol", "Brass knuckles"],
 		"gear": [],
-		"tags": ["underworld", "thug", "species:Aqualish", "book:eote"]
+		"tags": ["underworld", "thug", "species:Aqualish", "book:eote", "book:sof", "adventure:Hard Bargain"]
 	},
 	{
 		"name": "Gamorrean Thug",
@@ -1149,53 +1149,6 @@
 		"weapons": ["Heavy blaster rifle", "Vibro-ax"],
 		"gear": ["Armoured clothing (+1 soak, +1 defence)"],
 		"tags": ["underworld", "pirate", "book:aor", "book:eote"]
-	},
-	{
-		"name": "Selonian Thug",
-		"type": "Minion",
-		"description": "The Selonians of Den Kimotte act as the enforcers of Baron Kaldo’s criminal empire. They are trained to be silent and without mercy in the execution of their tasks. Kaldo’s killers always travel in groups of three.",
-		"characteristics": {
-			"Brawn": 3,
-			"Agility": 3,
-			"Intellect": 1,
-			"Cunning": 1,
-			"Willpower": 2,
-			"Presence": 1
-		},
-		"derived": {
-			"soak": 5,
-			"wounds": 6
-		},
-		"skills": {
-			"Brawl": 0,
-			"Melee": 0,
-			"Perception": 0,
-			"Stealth": 0,
-			"Vigilance": 0
-		},
-		"talents": [],
-		"abilities": [],
-		"weapons": [
-			{
-				"name": "Selonian glaive",
-				"skill": "Melee",
-				"damage": 6,
-				"critical": 3,
-				"range": "Engaged",
-				"qualities": ["Cumbersome 2", "Pierce 2", "Sunder"]
-			},
-			{
-				"name": "Tail",
-				"skill": "Brawl",
-				"plus-damage": 4,
-				"critical": 5,
-				"range": "Engaged",
-				"qualities": ["Disorient 2", "Knockdown"],
-				"notes": "Use Agility rather than Brawn with this weapon."
-			}
-		],
-		"gear": ["Padded armour (+2 Soak)"],
-		"tags": ["book:sof", "location:Corellian Sector", "location:Centerpoint Station", "species:Selonian", "underworld", "thug"]
 	},
 	{
 		"name": "Shadowport Mechanic",

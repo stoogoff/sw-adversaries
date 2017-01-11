@@ -532,8 +532,8 @@
 		"description": "Take a Full Throttle action and make a :hard: Piloting (Space or Planetary) check to increase a vehicle’s top speed by 1 for three rounds."
 	},
 	{
-		"name": "Full Throttle [Improved]",
-		"description": ""
+		"name": "Improved Full Throttle",
+		"description": "Suffer one Strain to make an :average: Piloting: Planetary check as maneuver and in­crease top speed by 1 for a number of rounds equal to Cunning."
 	},
 	{
 		"name": "Full Throttle [Supreme]",
@@ -929,7 +929,7 @@
 	},
 	{
 		"name": "Natural Driver",
-		"description": ""
+		"description": "Once per session, may reroll any one Piloting: Planetary or Gunnery check."
 	},
 	{
 		"name": "Natural Enforcer",

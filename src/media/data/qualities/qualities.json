@@ -57,7 +57,7 @@
 	{
 		"name": "Deflection",
 		"type": "Passive",
-		"description": "Increase ranged defence by the weapon’s Defensive rating."
+		"description": "Increase ranged defence by the weapon’s Deflection rating."
 	},
 	{
 		"name": "Disorient",

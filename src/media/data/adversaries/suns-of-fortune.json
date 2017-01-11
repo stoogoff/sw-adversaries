@@ -1690,7 +1690,7 @@
 			}
 		],
 		"gear": ["Armoured clothing (+1 Spal. +1 Defence)"],
-		"tags": ["book:sof", "species:Duros", "adventure:Hard Bargain"]
+		"tags": ["book:sof", "species:Duros", "adventure:Hard Bargain", "civilian"]
 	},
 	{
 		"name": "Oom Security Droid",
@@ -1716,7 +1716,7 @@
 		"abilities": [],
 		"weapons": ["Blaster rifle"],
 		"gear": [],
-		"tags": ["book:sof", "adventure:Hard Bargain", "species:Droid"]
+		"tags": ["book:sof", "adventure:Hard Bargain", "species:Droid", "security"]
 	},
 	{
 		"name": "Rasz Kal",
@@ -1749,5 +1749,493 @@
 		"weapons": ["Blaster pistol", "Brass knuckles"],
 		"gear": ["Padded armour (+2 Soak)", "Broken hyperdrive motivator"],
 		"tags": ["book:sof", "adventure:Hard Bargain", "underworld"]
+	},
+	{
+		"name": "Lt.-Constable Kreeg and Security Detail",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12
+		},
+		"skills": {
+			"Discipline": 1,
+			"Melee": 1,
+			"Perception": 2,
+			"Ranged: Light": 1,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Heavy blaster pistol", "Truncheon"],
+		"gear": ["Padded armour (+2 Soak)", "1 Stimpack", "Comlink"],
+		"tags": ["book:sof", "adventure:Hard Bargain", "species:Duros", "security"]
+	},
+	{
+		"name": "Lt. Corran Costi and CorSec Boarding Officers",
+		"type": "Rival",
+		"description": "A no-nonsense lawman, Costi is relatively dogmatic and honest, though he isn’t above taking a bribe from small-time smugglers and nonviolent criminals in ex­change for looking the other way. His fellow officers follow his lead (this profile represents both).",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12
+		},
+		"skills": {
+			"Cool": 1,
+			"Discipline": 2,
+			"Gunnery": 1,
+			"Melee": 2,
+			"Per­ception": 5,
+			"Ranged: Light": 2,
+			"Resilience": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "CR-2 Heavy blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			},
+			{
+				"name": "Stun baton",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Stun 3"]
+			}
+		],
+		"gear": ["Armoured uniform suit (+1 Soak)"],
+		"tags": ["book:sof", "adventure:Long Arm of the Law", "corsec", "security"]
+	},
+	{
+		"name": "Sunny Bounder",
+		"type": "Nemesis",
+		"description": "Sunny is a tall, narrow, hard-eyed young woman somewhere between 25 and 30 years old. A swoop and speeder bike rider from her earliest memory, Sunny eventually took to fixing races, organising ille­gal swoop races for herself and others, and organising all the various and sundry aspects of racing, such as security, bribes, and gambling takes. A few years ago, Sunny formed the Black Seraphs from the dregs of another swoop gang that she’d helped destroy. She organised the survivors into an effective group of grifters, con artists, and hustlers.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 16,
+			"strain": 12,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Coercion": 2,
+			"Cool": 4,
+			"Leadership": 1,
+			"Melee": 3,
+			"Pilot­ing: Planetary": 3,
+			"Ranged: Light": 2,
+			"Streetwise": 3
+		},
+		"talents": ["Adversary 1", "Improved Full Throttle", "Natural Driver"],
+		"abilities": [],
+		"weapons": [
+			"Blaster pistol",
+			{
+				"name": "Chain",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Inaccurate 1", "Knockdown"]
+			}
+		],
+		"gear": ["Riding armour (+1 Soak, +1 Defence)"],
+		"tags": ["book:sof", "adventure:Taming the Dragon", "swoop racer", "underworld", "black seraph gang"]
+	},
+	{
+		"name": "Grinder",
+		"type": "Rival",
+		"description": "Grinder is quite possibly the most unpleasant person on Corellia. He is a short, bald, heavily muscled brute of a man with a face like a hatchet wound, a beard that can stop blaster bolts, and a litany of bad choices and bad breaks picked out in bold, tattooed colours all over his arms and torso. He is Sunny’s chief mechanic as well as her selectively loyal second-in-command. Grinder rarely bathes, as evidenced by his pungent odour and the grease caked in the creases of his hands, and he wears his racing hides at all times (mostly be­cause he is terrified of them being stolen). A savant with a swoop or speeder engine but a failure as a de­cent human being, Grinder never has a kind word or helping hand for anyone without a reward. The rest of the Seraphs who race drive CEC D-22 “Screamers,” high-performance Corellian machines.\n\nFor the right price (such as leadership of the gang, or lots of credits), Grinder turns on Sunny in the blink of an eye. If so, he spells out Sunny’s plans, sketches a quick map of the race course, and lists the probable traps and where they might be deployed against the racer. He’s also willing to back the PCs if things come to a fight at the end of the race.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15
+		},
+		"skills": {
+			"Computers": 1,
+			"Mechanics": 4,
+			"Melee": 2,
+			"Piloting: Planetary": 3,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Vibroknife", "Holdout blaster"],
+		"gear": ["Disgusting racing hides (+1 Soak)", "Toolkit", "Emergency repair kit"],
+		"tags": ["book:sof", "adventure:Taming the Dragon", "mechanic", "underworld", "black seraph gang"]
+	},
+	{
+		"name": "Seraphs Gang Member",
+		"type": "Minion",
+		"description": "The members of the Black Seraphs are the very essence of swoop gangers: young, violent, disaffected punks who have no ambitions beyond drinking, fighting, and racing.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": {
+			"Melee": 0,
+			"Piloting: Planetary": 0,
+			"Ranged: Light": 0,
+			"Streetwise": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			"Light blaster pistol",
+			{
+				"name": "Chain",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Inaccurate 1", "Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "adventure:Taming the Dragon", "swoop racer", "underworld", "black seraph gang"]
+	},
+	{
+		"name": "Enraged Ronto",
+		"type": "Rival",
+		"description": "This ronto cannot calm down and cannot be stopped. It wants to trample the cantina and everyone in it.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 18
+		},
+		"skills": {
+			"Brawl": 1,
+			"Perception": 2
+		},
+		"talents": [],
+		"abilities": ["Silhouette 2", "Overrun", "Trample"],
+		"weapons": [
+			{
+				"name": "Legs",
+				"skill": "Brawl",
+				"damage": 12,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "adventure:A Quick Stopover", "species:Ronto", "creature"]
+	},
+	{
+		"name": "IA Security Agent",
+		"type": "Rival",
+		"description": "Employed by Industrial Automaton to investigate any breaches of their corporate security, these agents are ruthless and efficient.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14
+		},
+		"skills": {
+			"Brawl": 2,
+			"Discipline": 2,
+			"Perception": 2,
+			"Ranged: Light": 3,
+			"Surveillance": 3,
+			"Vigi­lance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [],
+		"weapons": [
+			"Blaster pistol",
+			{
+				"name": "Shock gloves",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Stun 3"]
+			}
+		],
+		"gear": ["Heavy clothing (+1 Soak)", "1 Stimpack", "Comlink"],
+		"tags": ["book:sof", "adventure:A Quick Stopover", "security", "location:Nubia", "location:The Sleeping Rancor"]
+	},
+	{
+		"name": "Bim Gozzo",
+		"type": "Rival",
+		"description": "A skilled operator who makes his living obtaining con­fidential information for his various employers, Bim Gizzo is virtually devoid of scruples. Clever, quick, and an expert at sleight-of-hand, his left hand is artificial and conceals a cybernetic weapon.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13,
+			"defence": [0, 1]
+		},
+		"skills": {
+			"Charm": 2,
+			"Deception": 3,
+			"Perception": 3,
+			"Ranged: Light": 2,
+			"Skulduggery": 3,
+			"Stealth": 2,
+			"Streetwise": 2
+		},
+		"talents": ["Adversary 1", "Convincing Demeanor 2"],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Cybernetic light blaster",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			}
+		],
+		"gear": ["Heavy clothing (+1 Soak)"],
+		"tags": ["book:sof", "adventure:A Quick Stopover", "species:Bothan", "cybot galactica", "civilian", "location:Nubia", "location:The Sleeping Rancor"]
+	},
+	{
+		"name": "Brom",
+		"type": "Rival",
+		"description": "Brom is a surly brute with a reputation for violence. He’s reliable, however, and clever about his brutality.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16
+		},
+		"skills": {
+			"Brawl": 3,
+			"Cool": 2,
+			"Coercion": 3,
+			"Ranged: Light": 2,
+			"Resilience": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [],
+		"weapons": ["Heavy blaster pistol", "Brass knuckles"],
+		"gear": ["Padded armour (+2 Soak)", "1 Stimpack"],
+		"tags": ["book:sof", "adventure:A Quick Stopover", "thug", "underworld", "location:Nubia", "location:The Sleeping Rancor"]
+	},
+	{
+		"name": "Boffen Nibs",
+		"type": "Rival",
+		"description": "The wayward son of Duchess Lassa Nibs, Boffen seeks thrills and adventure. Having decided to undertake a life of crime, Boffen stole the Eye of Corell from his mother in order to fund his underworld career. Un­like most of his kin, Boffen has a talent for lying and underhanded duplicity. Though not malicious in any sense, Boffen is self-centered and relatively naive about the dangers of the galaxy.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 11
+		},
+		"skills": {
+			"Charm": 1,
+			"Deception": 1,
+			"Education": 2,
+			"Percep­tion": 2,
+			"Skulduggery": 5,
+			"Stealth": 2,
+			"Streetwise": 1
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [],
+		"gear": ["Utility belt", "Cred stick with 2,000 credits", "Stolen gem (Eye of Corell)"],
+		"tags": ["book:sof", "adventure:Beyond the Boiling Sea", "location:Drall", "species:Drall", "nobility"]
+	},
+	{
+		"name": "Drall Police sergeant",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14
+		},
+		"skills": {
+			"Discipline": 2,
+			"Leadership": 2,
+			"Melee": 3,
+			"Percep­tion": 3,
+			"Ranged: Light": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [],
+		"weapons": [
+			"Stun grenade",
+			{
+				"name": "Flash stick",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": null,
+				"range": "Engaged",
+				"qualities": ["Disorient 3", "Stun Damage"]
+			}
+		],
+		"gear": ["2 Stun grenades", "1 Stimpack", "Comlink"],
+		"tags": ["book:sof", "adventure:Beyond the Boiling Sea", "location:Drall", "species:Drall", "security"]
+	},
+	{
+		"name": "Drall Constable",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 7
+		},
+		"skills": {
+			"Melee": 0,
+			"Perception": 0,
+			"Ranged: Light": 0,
+			"Vigilance": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			"Stun grenade",
+			{
+				"name": "Flash stick",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": null,
+				"range": "Engaged",
+				"qualities": ["Disorient 3", "Stun Damage"]
+			}
+		],
+		"gear": ["2 Stun grenades", "Comlink"],
+		"tags": ["book:sof", "adventure:Beyond the Boiling Sea", "location:Drall", "species:Drall", "security"]
+	},
+	{
+		"name": "Vynock",
+		"type": "Minion",
+		"description": "The vynock is a genetic cousin of the mynock. Known for eating raw and refined metal with equal relish, vynocks are found on terrestrial worlds throughout the galaxy. Their mouths secrete a powerful acid that renders even the hardest metals digestible. Like mynocks, vynocks have worm-like bodies with round, toothy maws, and clawed, leathery wings.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 4,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 0,
+			"Coordination": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Sucker mouth",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": ["Burn 4"]
+			},
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "adventure:Conical Six Summit"]
 	}
 ]

@@ -154,7 +154,7 @@
 			}
 		],
 		"gear": ["Armoured clothin (+1 Soak, +1 Defence)", "Mobquet Flare-V swoop bike with particularly garish paint job"],
-		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Cato Neimoidia", "location:Jorra", "species:Neimoidian", "kreehawk ganger", "underworld"]
+		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Cato Neimoidia", "location:Jorra", "species:Neimoidian", "kreehawk ganger", "underworld", "swoop racer"]
 	},
 	{
 		"name": "Onrein Hasa",
@@ -784,6 +784,6 @@
 		"abilities": [],
 		"weapons": ["Light blaster pistol", "Brass knuckles"],
 		"gear": ["Heavy clothing (+1 Soak)", "Mobquet Flare-V swoop bike with garish paint job"],
-		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Cato Neimoidia", "species:Neimoidian", "location:Jorra", "kreehawk ganger", "underworld", "thug"]
+		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Cato Neimoidia", "species:Neimoidian", "location:Jorra", "kreehawk ganger", "underworld", "thug", "swoop racer"]
 	}
 ]
