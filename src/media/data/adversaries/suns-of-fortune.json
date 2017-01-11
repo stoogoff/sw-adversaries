@@ -1,0 +1,1753 @@
+[
+	{
+		"name": "Baron Kaldo",
+		"type": "Nemesis",
+		"description": "One of Hollowtown’s billionaire elite, Benton Kaldo can trace his lineage to Corellian nobility. Kaldo’s wealth originated from ancestral successes in corporate investments, though his true nature is less be­nign. From his sprawling vineyard estate in Hollowtown, Baron Kaldo controls most criminal activity on Centerpoint Station. His organization primarily deals in spice and corporate espionage, but the occasional underground swoop or podracing event in active turbovator corridors nets Kaldo hefty gambling profits.\n\nA dark-haired and hawk-faced man in his early fifties, Baron Kaldo considers himself a blue-blood nobleman, and is always immaculately coiffed and clothed. Layers of servants insulate him from common citizens, whom he finds repellent. Despite this outward appearance of typi­cal elitism, he is a shrewd manager of his organisation and unafraid to take risks. He often poses as a rival buy­ er or seller at Gustip’s more important dealings, where they use a sort of verbal code for Kaldo to covertly direct any decision-making right under the nose of others.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 16,
+			"strain": 18,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Charm": 3,
+			"Coercion": 4,
+			"Cool": 3,
+			"Deception": 3,
+			"Dis­cipline": 3,
+			"Knowledge: Underworld": 3,
+			"Negotiation": 3,
+			"Perception": 4,
+			"Streetwise": 4,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Plausible Deniability 2", "Natural Charmer", "Natural Negotiator"],
+		"abilities": [],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Superior concealed armoured clothing (+2 Soak, +1 Defence)", "Comlink"],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Centerpoint Station"]
+	},
+	{
+		"name": "Carn Truuvik",
+		"type": "Nemesis",
+		"description": "Though by no means a crime lord, the human Cam has achieved some success in the Blue Sector. He is very charming, able to put forth a congenial and disarming demeanour even when he has someone at blaster point. He always presents the choices he intends for his marks and his prisoners in the same manner—this is what is best for them, and it’s a “win-win” for everyone.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"strain": 15,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Charm": 3,
+			"Computers": 2,
+			"Cool": 3,
+			"Deception": 3,
+			"Knowledge: Underworld": 2,
+			"Negotiation": 2,
+			"Perception": 1,
+			"Ranged: Light": 3,
+			"Skulduggery": 2,
+			"Streetwise": 2
+		},
+		"talents": ["Adversary 1", "Convincing Demeanor 2"],
+		"abilities": ["Skilled Cheater"],
+		"weapons": [
+			{
+				"name": "Filed blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			}
+		],
+		"gear": ["Armoured clothing (+1 Soak, +1 Defence)"],
+		"tags": ["book:sof", "adventure:Sabacc Game on the Row", "location:Corellian Sector", "location:Corellia", "gambler"]
+	},
+	{
+		"name": "Catrinna",
+		"type": "Nemesis",
+		"description": "Catrinna is a beautiful, charming, and alluring young woman who dresses well and presents herself as possessed of class and refinement. She is, however, born of the streets and has a ruthless streak that bares itself whenever she is cornered or is in competition to get something she wants. She is a capable thief and con artist, and is currently partnered with Cam Truuvik. He came up with their current scam, but she refined it to perfection.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 14,
+			"strain": 15
+		},
+		"skills": {
+			"Charm": 3,
+			"Computers": 1,
+			"Cool": 2,
+			"Deception": 2,
+			"Knowledge: Underworld": 2,
+			"Melee": 2,
+			"Negotiation": 2,
+			"Perception": 1,
+			"Ranged: Light": 2,
+			"Skulduggery": 2,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Natural Charmer"],
+		"abilities": [],
+		"weapons": ["Blaster pistol", "Vibroknife"],
+		"gear": [],
+		"tags": ["book:sof", "adventure:Sabacc Game on the Row", "location:Corellian Sector", "location:Corellia", "gambler"]
+	},
+	{
+		"name": "Clay “Pops” Merra",
+		"type": "Rival",
+		"description": "“His name’s Clay and he’s old as mud.” The joke has been around Gus Treta longer than Gormo the Hutt, but despite his age. Clay hasn’t lost his touch with a hydrospanner. Widely regarded as one of the best outlaw techs in the system, most claim there isn’t a smuggling ship in the system he hasn’t laid hands on. His specialty is altering ships’ transponder codes.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10
+		},
+		"skills": {
+			"Computers": 4,
+			"Mechanics": 5,
+			"Negotiation": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [],
+		"gear": ["Tool kit", "Datapad", "Emergency repair patch", "Hand scanner"],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Gus Treta Market Station", "underworld", "engineer"]
+	},
+	{
+		"name": "Gormo Vosadii Grasso",
+		"type": "Nemesis",
+		"description": "Gormo owns Gus Treta Market Station, which he runs as a legitimate business. Most consider him very trustworthy, for a Hutt. The truth is Gormo has little interest in the station beyond profits and information. Decades ago, Gormo was dishonored among his clan for a botched spice smuggling enterprise and Gormo has been actively seeking a new scheme to restore his reputation ever since.",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 1,
+			"Intellect": 4,
+			"Cunning": 6,
+			"Willpower": 5,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 10,
+			"wounds": 30,
+			"strain": 20
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 3,
+			"Cool": 4,
+			"Deception": 2,
+			"Discipline": 4,
+			"Knowledge: Outer Rim": 3,
+			"Knowledge: Underworld": 3,
+			"Negotiation": 4,
+			"Resilience": 3
+		},
+		"talents": ["Resolve 2"],
+		"abilities": ["Awkward", "Ponderous"],
+		"weapons": [],
+		"gear": ["Comlink", "Datapad"],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Gus Treta Market Station", "species:Hutt", "underworld"]
+	},
+	{
+		"name": "Grenzo",
+		"type": "Rival",
+		"description": "Grenzo is a Rodian bounty hunter who has taken up a long-term contract with Cam. Cam is Grenzo’s meal ticket, and he won’t let anything threaten that. Should things turn ugly, the Rodian will not hesitate to kill anyone he sees as an opponent.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coercion": 1,
+			"Coordination": 1,
+			"Deception": 1,
+			"Perception": 1,
+			"Piloting: Space": 1,
+			"Ranged: Heavy": 1,
+			"Ranged: Light": 2,
+			"Stealth": 1,
+			"Streetwise": 1,
+			"Survival": 1,
+			"Vigilance": 2
+		},
+		"talents": ["Lethal Blows 2"],
+		"abilities": [],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Laminate armour (+2 Soak)"],
+		"tags": ["book:sof", "adventure:Sabacc Game on the Row", "location:Corellian Sector", "location:Corellia", "gambler", "species:Rodian", "bounty hunter"]
+	},
+	{
+		"name": "Gusto",
+		"type": "Rival",
+		"description": "Baron Kaldo depends on Gustip, his fastidious Drall majordomo, to manage the day-to-day affairs of his criminal empire. Gustip carries himself like an aristocrat, and is never without his aurodium-plated cane. When not on Kaldo’s Hollowtown or Null Town estates, Gustip is accompanied by a gang of Selonian thugs.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 5,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Cool": 2,
+			"Knowledge: Core Worlds": 3,
+			"Knowl­edge: Education": 3,
+			"Knowledge: Underworld": 3,
+			"Ne­gotiation": 2,
+			"Perception": 1,
+			"Streetwise": 2
+		},
+		"talents": ["Stroke of Genius"],
+		"abilities": [],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Superior concealed armoured clothing (+2 Soak, +1 Defence)", "Aurodium cane", "Encrypted datapad", "Comlink"],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Centerpoint Station", "species:Drall", "underworld", "majordomo"]
+	},
+	{
+		"name": "Jalla",
+		"type": "Rival",
+		"description": "Presenting herself as a bubble-headed blonde human with far too much makeup and far too much interest in clothing and jewels, Jalla’s persona is a well-crafted act to hide a sharp and cunning mind. She and Cam are currently lovers, though she’d leave him if the right opportunity presented itself.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 2,
+			"Coordination": 1,
+			"Deception": 1,
+			"Knowledge: Education": 2,
+			"Perception": 1,
+			"Ranged: Light": 1,
+			"Skulduggery": 2,
+			"Stealth": 2,
+			"Streetwise": 2
+		},
+		"talents": ["Nobody’s Fool 1"],
+		"abilities": [],
+		"weapons": ["Holdout blaster"],
+		"gear": [],
+		"tags": ["book:sof", "adventure:Sabacc Game on the Row", "location:Corellian Sector", "location:Corellia", "gambler"]
+	},
+	{
+		"name": "Kanz",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Coercion": 1,
+			"Cool": 3,
+			"Deception": 2,
+			"Melee": 3,
+			"Perception": 1,
+			"Skulduggery": 2,
+			"Stealth": 1
+		},
+		"talents": ["Expert Tracker 1"],
+		"abilities": [],
+		"weapons": ["Vibroknife"],
+		"gear": [],
+		"tags": ["book:sof", "adventure:Sabacc Game on the Row", "location:Corellian Sector", "location:Corellia", "species:Twi’lek", "gambler"]
+	},
+	{
+		"name": "Liddy Ravora",
+		"type": "Rival",
+		"description": "Liddy used to waitress at Bell’s Cantina, a veteran spacers’ hangout. However, once she recognised the value of information, she became an amateur infochant. Liddy amassed a small fortune trading secrets and purchased the cantina a decade ago. Spacers trust her, and she has been known to help many a down-on-his-luck spacer find work. Still, her first loyalty is to her top-paying customer, Gormo the Hutt.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10
+		},
+		"skills": {
+			"Charm": 2,
+			"Deception": 2,
+			"Negotiation": 2,
+			"Perception": 3,
+			"Surveillance": 3
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Encrypted datapad", "Comlink"],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Gus Treta Market Station", "underworld", "infochant"]
+	},
+	{
+		"name": "Pol Orrich",
+		"type": "Rival",
+		"description": "A sergeant in Centerpoint Security, Pol Orrich has also been on Kaldo’s payroll for most of his career. Pol has a gambling addiction and is often forced into doing favours to cover his debts. Orrich does not hesitate to use his uniform to threaten and intimidate, and is known as Orrich the Brute by his fellow officers.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 16
+		},
+		"skills": {
+			"Brawl": 3,
+			"Coercion": 3,
+			"Ranged: Heavy": 2,
+			"Resil­ience": 2,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster carbine"],
+		"gear": ["Padded armour (+2 Soak)", "Comlink", "Sabacc deck",  "Stimpack", "Utility belt"],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Centerpoint Station", "civilian", "security"]
+	},
+	{
+		"name": "Sera Riggers",
+		"type": "Nemesis",
+		"description": "Sera is a mid-level officer in the secretariat and frequently acts as the Officer on Duty, where she is responsible for the day-to-day operations of Centerpoint Station. She is driven to keep Centerpoint a safe place for tourism and research, and is obsessed with rooting out organized crime, much to the annoyance of her politically connected superiors. She is not above enlisting independent contractors to gather evidence.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"strain": 16
+		},
+		"skills": {
+			"Cool": 3,
+			"Leadership": 3,
+			"Negotiation": 2,
+			"Percep­tion": 4,
+			"Ranged: Light": 2,
+			"Streetwise": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Nobody’s Fool 1"],
+		"abilities": ["Spaceport Leader"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Uniform (+1 Soak)", "Datapad", "Comlink"],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Centerpoint Station", "civilian", "security", "spaceport personnel"]
+	},
+	{
+		"name": "CorSec Officer",
+		"type": "Minion",
+		"description": "CoreSec Officers are the rank and file members of the Corellian Security Force, and make up the bulk of its membership. These are the hard-working men and women tasked with keeping the peace among their fractious, headstrong fellow Corellians (a generally thankless task). They spend their days walking beats in neighbourhoods, patrolling and monitoring traffic on the ground and in the air, writing tickets, performing community outreach, arresting scofflaws, and performing the kind of general policing and peacekeeping jobs that police forces throughout the galaxy have performed for millennia.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 6
+		},
+		"skills": {
+			"Athletics": 0,
+			"Brawl": 0,
+			"Coercion": 0,
+			"Melee": 0,
+			"Perception": 0,
+			"Ranged: Light": 0,
+			"Streetwise": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			"Truncheon",
+			{
+				"name": "CDEF Blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Inferior", "Stun Setting"]
+			}
+		],
+		"gear": ["CorSec Mark IV armoured vest (+2 Soak)", "Comlink", "Binders", "Badge"],
+		"tags": ["book:sof", "location:Corellia", "corsec", "security", "civilian", "location:Corellian Sector"]
+	},
+	{
+		"name": "CorSec Investigator",
+		"type": "Rival",
+		"description": "Better trained and better paid than the average officer, CorSec Investigators are responsible for investigating major crimes and dealings with open cases within different CorSec precincts. Investigators work in pairs, and their work involves tracking down leads, interrogating suspects, analysing clues, doing research, and filling out reams and reams of paperwork. During the course of their work, they often develop wide networks of criminal, law enforcement, civilian, and military contacts.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 3,
+			"Cool": 2,
+			"Melee": 2,
+			"Knowledge: Underworld": 3,
+			"Perception": 3,
+			"Ranged: Light": 2,
+			"Streetwise": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [],
+		"weapons": [
+			"Blaster pistol",
+			"Truncheon"
+		],
+		"gear": ["CorSec Mark IV armoured vest (+2 Soak)", "Comlink", "Datapad", "Badge"],
+		"tags": ["book:sof", "location:Corellia", "corsec", "security", "civilian", "location:Corellian Sector"]
+	},
+	{
+		"name": "CorSec Tactical Response Team Member",
+		"type": "Nemesis",
+		"description": "The Tactical Response Team is an elite para-military unit formed form the best and brightest members of CorSec. A combination of pilot, commando, and investigator, TRT members are trained in both police and military tactics. They carry out the most dangerous missions undertaken by CorSec, such as infiltrating crime syndicates or hunting the pirates that haunt the Corellian System’s far-flung asteroid fields. Unlike the majority of CorSec, TRT members operate throughout the entire system, working closely with military and police forces from the rest of the Five Brothers as well as those aboard Centrepoint Station.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15,
+			"strain": 15,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Coercion": 3,
+			"Cool": 3,
+			"Discipline": 2,
+			"Melee": 2,
+			"Perception": 3,
+			"Pilot: Planetary": 2,
+			"Pilot: Space": 2,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 2,
+			"Streetwise": 3,
+			"Stealth": 2,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 2", "Defensive Driving 1", "Natural Pilot 1"],
+		"abilities": [],
+		"weapons": [
+			"Heavy blaster pistol", "Blaster carbine", "Vibroknife"],
+		"gear": ["Reinforced flight suit (+1 Soak, +1 Defence)", "Comlink", "Binders", "Badge"],
+		"tags": ["book:sof", "location:Corellia", "corsec", "security", "civilian", "location:Corellian Sector"]
+	},
+	{
+		"name": "Duros Ship Mechanic",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 11
+		},
+		"skills": {
+			"Astrogation": 1,
+			"Computers": 1,
+			"Mechanics": 3,
+			"Melee": 1,
+			"Perception": 2,
+			"Piloting: Space": 1
+		},
+		"talents": ["Fine Tuning 2", "Gearhead 1"],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Oversized hydrospanner",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Inaccurate 1"]
+			}
+		],
+		"gear": ["Tool kit", "Emergency repair patch"],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Duros", "civilian", "engineer", "species:Duros"]
+	},
+	{
+		"name": "Security Enforcer",
+		"type": "Minion",
+		"description": "Sacorrian Security Police tend to be Selonian or human due to their physical advantages. Drall tend to work as investigators or surveillance operatives, instead.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 6
+		},
+		"skills": {
+			"Melee": 0,
+			"Perception": 0,
+			"Ranged: Heavy": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			"Blaster carbine",
+			{
+				"name": "Shock truncheon",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Stun 3"]
+			}
+		],
+		"gear": ["Uniform (+1 Soak)"],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Sacorria", "civilian", "security"]
+	},
+	{
+		"name": "Security Investigator",
+		"type": "Rival",
+		"description": "A large number of Security Investigators tend to be Drall; their high intelligence and logical prowess mean they thrive in the position.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 14
+		},
+		"skills": {
+			"Coercion": 2,
+			"Deception": 2,
+			"Discipline": 2,
+			"Perception": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Disruptor pistol"],
+		"gear": ["Uniform (+1 Soak)"],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Sacorria", "civilian", "security"]
+	},
+	{
+		"name": "Aurean Vulture",
+		"type": "Rival",
+		"description": "With a wingspan of more than four metres, an Aurean vulture won’t hesitate to swoop down on a humanoid for a chance at a solid meal. The creature has excellent long-range eyesight, enabling it to find prey while it drifts on warm updrafts over the planet’s desert lands. Flocks follow their prey for days. Then, at the height of the day, they dive in from the angle of the sun, hoping to blind their targets long enough to slay them.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Brawl": 1,
+			"Perception": 1
+		},
+		"talents": [],
+		"abilities": ["Dive Attack", "Flyer"],
+		"weapons": [
+			{
+				"name": "Beak and talons",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Aurea", "creature"]
+	},
+	{
+		"name": "Carrion Spat",
+		"type": "Rival",
+		"description": "Strangely proportioned, gangly, and incredibly ugly, carrion spats are often said to be the most unlikely creature in the galaxy. They seem to be an evolutionary dead-end; they are primitive, flightless birds with reptilian features, a sharp black beak, beady eyers, and long powerful, legs that can kick holes in a ferrocrete wall. They are spiteful, cross-grained, and aggressive beasts that are hard to tame and dangerous to work with, even after they’ve been domesticated. As their name suggests, carrion spats feed on dead and decayed animals, which makes them unpleasant to be around due to the lingering stench of death that surrounds them. However, this diet makes them nearly immune to poisons and toxins, and some have even been reported to eat hazardous chemicals and industrial waste with no negative effects.\n\nDespite these shortcomings, they enjoy a fair amount of popularity as riding animals thanks to their size and endurance. Once tamed and used to both saddle and rider, carrions spats make excellent mounts, especially in rough or mountainous country where their innate sense of balance and wide-splayed feet allow them to move through broken terrain with ease. Eventually, after long periods of work with a rider, a carrion spat becomes bonded; after that, it will protect its rider at all costs, even to its death. In combat, unless otherwise directed, these creatures charge headlong into their enemies at incredible speeds, lashing out with their deadly feet and snapping at anything within range of their beaks. Once engaged, they are hard to extract and if they can’t be brought under control , they will fight until exhausted or killed.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 8
+		},
+		"skills": {
+			"Brawl": 3,
+			"Coordination": 2,
+			"Resilience": 3,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": ["Surefooted", "Lightning Charge"],
+		"weapons": [
+			{
+				"name": "Beak",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Sunder", "Vicious 1"]
+			},
+			{
+				"name": "Powerful legs",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "location:Corellia", "creature", "riding beast", "location:Corellian Sector"]
+	},
+	{
+		"name": "Dalyrake",
+		"type": "Rival",
+		"description": "Dalyrakes are amphibious arachnids who inhabit the lakes and tidal waters of both Talus and Tralus. They stand about a meter high and are half again as long, with two flat, oval-shaped body segments, six multi-jointed walking legs tipped with wicked talons, and two crab-like pincers held well forward. The smaller, forward body segment contains their primitive gan­glia, eyes, and mandibles, along with a number of long tentacles tipped with bioluminescent glands. The larger, longer rear segment contains the creature’s powerful heart and is tipped with a sharp and danger­ ous stinger. Strange and quite beautiful in their way, dalyrakes move with a purposeful, spidery grace.\n\nDespite their strange, occasionally frightening looks and their low intelligence, dalyrakes are easily domesti­cated and can be found in many homes and businesses throughout the Corellian System. While they are not affectionate, they are well-suited as pest control ani­mals. Whether domesticated or wild, dalyrakes are slow and deliberate hunters. Typically, they submerge themselves in water or hide in bracken, underbrush, deadfalls, or piles of debris, then lure in prey with their waving tentacles. Once approached by a prey animal, a dalyrake pounces quickly and injects its target with the soporific venom produced by its stinger.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 10
+		},
+		"skills": {
+			"Brawl": 3,
+			"Coordination": 2,
+			"Deception": 3,
+			"Percep­tion": 3,
+			"Stealth": 4,
+			"Survival": 2
+		},
+		"talents": [],
+		"abilities": ["Death Lunge"],
+		"weapons": [
+			{
+				"name": "Talons, pincers and mandibles",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": []
+			},
+			{
+				"name": "Poisonous stinger",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Disorient 3", "Prepare 1", "Pierce 3"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "creature", "location:Tralus/Talus", "location:Corellian Sector"]
+	},
+	{
+		"name": "Dimlurker",
+		"type": "Rival",
+		"description": "Dimlurkers are hideous, worm-like creatures native to the dark, winding tunnels far beneath the Kystes’ Spine. One end terminates in a grasping, toothless maw, flanked by a pair of long, prehensile tentacles tipped with hard, spiked spheres of solid chitin. These lashing tentacles are the dimlurker’s primary weapons, and are used both to strangle prey and to stuff food down their gaping gullet.\n\nDimlurkers patrol the dark places beneath the Spine, eating carrion, filth, and preying on other subterranean creatures, including the Kystes’ Spine Selonians and the occasional (and unlucky) spelunker. They are completely blind and deaf, having neither eyes nor ears, and hunt by sensing heat and vibrations through the numerous clusters of receptor cells scattered throughout their bodies. In combat, they lash out with their flailing tentacles in an attempt to grab and entangle their prey. Once entangled, the prey is squeezed to death in the dimlurker’s powerful embrace and then swallowed whole.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 10,
+			"defence": [3, 1]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Perception": 4,
+			"Resilience": 4,
+			"Survival": 3
+		},
+		"talents": [],
+		"abilities": ["Constrictor", "Terrifying"],
+		"weapons": [
+			{
+				"name": "Chitinous limbs",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Ensnare 2", "Stun 3"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Tralus/Talus", "creature"]
+	},
+	{
+		"name": "Flame Ibbot",
+		"type": "Minion",
+		"description": "One of the more common of the ibbot species, the flame ibbot is a mild-tempered, medium-sized raptor that makes its home on the shore of the Boiling Sea. They stand a little over a metre high and have a wingspan of roughly two and a half metres. Their plumage is primarily copper or brass coloured with crimson, orange, and white highlights. Occasionally, a flame ibbot develops primarily iridescent, blue-black plumage with coppery or crimson highlights, and these rare creatures are highly sought as pets. The flame ibbot’s diet consists of both small fish and insects native to the Boiling Sea, as well as the kettleweed that grows there. In fact, it is more from their habit of eating kettleweed, and not their colouration, that gives the flame ibbot its name. When threatened, flame ibbots spit a powerful jet of caustic bile and steaming hot water that builds up in their stomachs as they digest kettleweed. This viscous liquid causes extreme discomfort, disorientation and temporary blindness.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4,
+			"defence": [0, 1]
+		},
+		"skills": {
+			"Brawl": 0,
+			"Perception": 0,
+			"Vigilance": 0
+		},
+		"talents": [],
+		"abilities": ["Flyer", "Sight Hunter"],
+		"weapons": [
+			{
+				"name": "Sharp beak and slashing talons",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			},
+			{
+				"name": "Scalding bile",
+				"skill": "Brawl",
+				"damage": 2,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Burn 2", "Disorient 3", "Slow-Firing 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "creature", "location:Drall", "species:Ibbot", "location:Corellian Sector"]
+	},
+	{
+		"name": "Great Ibbot",
+		"type": "Rival",
+		"description": "The largest living species of avifauna on Drall, the great ibbot is a majestic and imposing bird with a high animal intelligence and a fierce demeanour. These gigantic birds stand three to four metres tall on average and have a wingspan of over ten metres. Their plumage is similar to the flame ibbot, primarily copper- or brass-coloured with black and brown highlights, with white or cream-coloured feathers on their abdomen and the undersides of their wings. Great ibbots have wicked, serrated orange beaks that can slice through nearly any material as if it were rotten cloth, and powerful talons that can tear a gundark limb from limb. They feed primarily on fish and other aquatic life-forms, and are particular to spikefish, snatching the massive creatures from lakes and seas when they surface for air. Although they prefer fish, wild specimens have a tendency to prey on herd animals (and even domesticated pets, on occasion).\n\nDue to their size and relative intelligence, great ibbots are easily domesticated. They take training quite well and can follow complicated multi-step instructions. The Wingriders, Drall’s state police force cum courier service, are mounted on these great beings and are the most visible keeper of great ibbots. There are also a number of tour companies who offer adventure tours of Drall’s countryside mounted on great ibbots, although these are rare due to the danger of mounting untrained individuals on willful, intelligent giant raptors.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 25
+		},
+		"skills": {
+			"Brawl": 2,
+			"Perception": 4,
+			"Survival": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1", "Crippling Blow"],
+		"abilities": ["Flyer", "Sight Hunter", "Silhouette 3"],
+		"weapons": [
+			{
+				"name": "Sharp beak and slashing claws",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 3", "Sunder"]
+			},
+			{
+				"name": "Stoop",
+				"skill": "Brawl",
+				"damage": 12,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Concussive 2", "Knockdown", "Prepare 1", "Vicious 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "creature", "location:Drall", "species:Ibbot", "riding beast", "location:Corellian Sector"]
+	},
+	{
+		"name": "Fefze Beetle",
+		"type": "Rival",
+		"description": "The dominant—and principle remaining—life form on Duro’s surface, the fefze beetle is a devolved and non-sentient subspecies of the insectoid Fefze. Originally, a large swarm of Fefze was recruited to immigrate to Duro as workers. The Duros believed the Fefze would be able to handle the poisonous atmosphere and environmental damage of the mining areas; unfortunately, the toxicity levels were beyond even the Fefze, and they mutated. As the ecosystem completely collapsed and the Duros abandoned the planet, the fefze beetles were left behind to breed unchecked and scour all organic matter from the world.\n\nFefze beetles are as large as a two-person landspeeder. They are predatory by nature and attack any organic beings in their sensory range rapidly and voraciously. In addition, their digestive acids (powerful enough to break down anything remotely edible) can be spit at short ranges. The only saving grace for any group unlucky enough to encounter fefze beetles is that only a handful share a hunting area at a time.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 15
+		},
+		"skills": {
+			"Brawl": 1,
+			"Perception": 1,
+			"Ranged: Light": 1,
+			"Stealth": 1,
+			"Vigilance": 1
+		},
+		"talents": [],
+		"abilities": ["Silhouette 2", "Toxic Environment Dweller"],
+		"weapons": [
+			{
+				"name": "Legs",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			},
+			{
+				"name": "Mandibles",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 4", "Pierce 1"]
+			},
+			{
+				"name": "Acid spit",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Burn 3", "Slow-Firing 4"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Duros", "creature"]
+	},
+	{
+		"name": "Guf Drolg",
+		"type": "Rival",
+		"description": "Huge, dim-witted, and evil tempered, guf drolgs are perhaps the most disruptive and despised creatures on Talus. Roughly the size of a large speeder truck (and half as intelligent), guf drolgs are massive, qua­drupedal, reptilian herbivores who make their homes on the broad grassy Talusian plains. The guf drolg’s powerful frame is draped in thick, rust-coloured hide which falls about it in loose folds, protecting it from both the elements and predators.\n\nGuf drolg herds of thousands are constantly on the move, migrating across the planet with the seasons and devouring everything in sight. Great migrations of guf drolgs cause incredible damage to local economies and ecosystems as they consume crops, destroy fences and buildings, trample livestock, and ruin the land with their acidic droppings. While they are difficult to hunt and roundly despised, guf drolgs do have some value, mostly as a source of food and hides. Their meat is surprisingly delicious, and their thick, supple hides are easy to work with, take dyes easily, and are used to make everything from armoured clothing to designer shoes.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 12
+		},
+		"skills": {
+			"Brawl": 2,
+			"Resilience": 3,
+			"Survival": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Goring horn",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 3", "Prepare 1", "Vicious 1"]
+			},
+			{
+				"name": "Trample",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 3", "Inaccurate 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "location:Tralus/Talus", "creature", "location:Corellian Sector"]
+	},
+	{
+		"name": "Korrak",
+		"type": "Rival",
+		"description": "Korraks are long, sinuous reptiles resembling a large serpent with pebbly scales and stubby legs. With eight short, powerful legs, korraks are incredibly fast and agile, and their clawed feet enable them to climb trees almost as fast as they can run. When a korrak attacks a target, it tries to wrap its long body around its prey, crushing it. The korrak’s bite also contains a potent neurotoxin.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14
+		},
+		"skills": {
+			"Brawl": 2,
+			"Perception": 1,
+			"Survival": 1
+		},
+		"talents": [],
+		"abilities": ["Paralysing Neurotoxin", "Crushing Body"],
+		"weapons": [
+			{
+				"name": "Sinuous body",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Ensnare 2", "Knockdown"]
+			},
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": [],
+				"notes": "This attack may only target victims affected by the korrak’s Ensnare quality."
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Sacorria", "creature"]
+	},
+	{
+		"name": "Murra",
+		"type": "Minion",
+		"description": "Murra are tall, mammalian herbivores native to the flat grasslands of Corellia’s northern continent. Slow-witted and incredibly strong, murra are raised by the ranchers for their meat, for their thick hides, and as beasts of burden. A murra has four large, curved tusks growing from its lower jaw, and two long horns that sweep backwards from the crown of its blunt head. The murra’s hide is thick yet supple, and covered with a dense mat of stout, coarse hairs like the bristles of a scrubbing brush. Despite their fearsome looks, murra are quite docile and biddable. They have a slow, plodding gait that they can maintain over many, many kilometres of rough terrain, and can haul or pull loads well out of scale with their stature. Though not aggressive, murra can spook easily, and if startled will kick or lash out with their horns. Entire herds of murra, often frightened by loud noises or storms, have been known to stampede en masse, causing incredible amounts of damage as they go.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 8
+		},
+		"skills": {
+			"Athletics": 0,
+			"Brawl": 0,
+			"Resilience": 0
+		},
+		"talents": [],
+		"abilities": ["Hardy", "Strong as a Murra"],
+		"weapons": [
+			{
+				"name": "Horns and hooves",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Pierce 3", "Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "creature", "location:Corellia", "location:Corellian Sector"]
+	},
+	{
+		"name": "Sacorrian Grey Bear",
+		"type": "Rival",
+		"description": "The grey bear of Sacorria stands anywhere from two-and-a-half to three metres tall. With extremely long arms, blade-sharp claws, and a voracious appetite for anything it can get into its omnivorous jaws, the safest way to deal with one is avoidance or heavy firepower.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 17
+		},
+		"skills": {
+			"Brawl": 1,
+			"Perception": 1,
+			"Survival": 3
+		},
+		"talents": [],
+		"abilities": ["Long Arms"],
+		"weapons": [
+			{
+				"name": "Vicious claws and teeth",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Sacorria", "creature"]
+	},
+	{
+		"name": "Spooked Ronto",
+		"type": "Rival",
+		"description": "The average ronto is easily domesticated for farm work and other means. Though not brilliant by any means, rontos are receptive to training and form string attachments to those they deem their masters. Strong and loyal, they can be ideal creatures for rural settings, but they have a strong tendency to spook readily around machines and loud noises.\n\nTypically, rontos are not dangerous. However, if they are being ridden by someone who intends another harm, they can be used to cause great damage. In addition, a spooked ronto will stop at nothing to get away from whatever startled it, making it very dangerous.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 18
+		},
+		"skills": {
+			"Brawl": 1,
+			"Perception": 2
+		},
+		"talents": [],
+		"abilities": ["Silhouette 2", "Overrun", "Trample"],
+		"weapons": [
+			{
+				"name": "Legs",
+				"skill": "Brawl",
+				"damage": 12,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "creature", "species:Ronto", "location:Nubia", "location:Corellian Sector"]
+	},
+	{
+		"name": "Salerodrex",
+		"type": "Nemesis",
+		"description": "Massive, black-eyed, single-minded killing machines, the salerodrex are the dominant predator of Selonia’s endless seas. These sleek, torpedo-shaped creatures have smooth blue-white skin with occasional grey or black mottling along their spines, and a prominent ridge of dorsal spikes. Their broad mouths are filled with a triple row of sharp, constantly growing teeth that can easily pierce the hulls of ocean-going vessels or bite a grown human in two. They have incredibly sensitive hearing and olfactory senses, and can hear the thrum of an engine or smell blood in the water dozens of kilometres away. Constantly on the prowl for food, these monsters prey on anything they can fit in their maws, but they seem to prefer live, warm-blooded creatures. ",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 22,
+			"strain": 24
+		},
+		"skills": {
+			"Athletics": 4,
+			"Brawl": 4,
+			"Perception": 4,
+			"Survival": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Aquatic Creature", "Silhouette 3"],
+		"weapons": [
+			{
+				"name": "Teeth",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 4", "Vicious 4"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "creature", "location:Selonia", "location:Corellian Sector"]
+	},
+	{
+		"name": "Sand Panther",
+		"type": "Rival",
+		"description": "Sand panthers are large, solitary, feline predators who inhabit the high desert regions oc Corellia. They are long and lithe, with muscular forms covered in short, tawny fur. Their claws secrete a soporific venom that weakens their prey, and they are said to be the quietest animal predator in the galaxy. While they enjoy a protected status as a rare species, there is a brisk underground trade in sand panther hides and venom. Poachers and smugglers involved in the sand panther trade are typically ruthless, amoral, and very dangerous individuals who do not hesitate to kill when cornered or captured in the act.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coordination": 2,
+			"Perception": 3,
+			"Stealth": 3,
+			"Survival": 2
+		},
+		"talents": ["Lethal Blows 2"],
+		"abilities": ["Venomous", "Keen Senses", "Silent Hunter"],
+		"weapons": [
+			{
+				"name": "Teeth and claws",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "creature", "location:Corellia", "location:Corellian Sector"]
+	},
+	{
+		"name": "Sludge Panther",
+		"type": "Nemesis",
+		"description": "Sludge panthers are carnivorous feline predators who live in the steaming jungles and fetid swamp lands of Talus. Typically around two meters long and over a meter high at the shoulder, sludge panthers have lean, muscular bodies covered in a dense mat of mottled brown and grey water-resistant fur. Their necks are thick and their heads are large and leonine, with small ears, yellow eyes, and powerful jaws full of sharp, rending teeth. Their paws are broad with black, non-retractable claws used for climbing and hunting, and thick pads which help absorb the sound of their movement. A thick, horny ridge runs from between their ears to the middle of their back, protecting the neck, shoulders, and spine from damage.\n\nIn the jungles and swamps where they make their homes, sludge panthers have few natural enemies and are usually the apex predator in their range. Sludge panthers are exceedingly cunning hunters and are nearly undetectable in their native environs. When stalking their prey, these big cats use cover, natural camouflage, counter tracking, and other tactics in­tended to confuse and harry. One of their most common ruses is to slather cool mud over their bodies to mask both their scent and their body heat, a tactic that makes them nearly impossible to detect.\n\nSludge panthers are social creatures who live and travel in small bands, the females hunting for food and the males protecting the nests and young from predators. Although they rarely hunt sentients, those who go against them should remember they seldom hunt alone.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 14,
+			"strain": 8,
+			"defence": [2, 2]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Coordination": 3,
+			"Resilience": 3,
+			"Stealth": 4,
+			"Survival": 3,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 1", "Blooded 2", "Lethal Blows 2"],
+		"abilities": ["Natural Camouflage", "Jungle Hunter"],
+		"weapons": [
+			{
+				"name": "Teeth and claws",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			},
+			{
+				"name": "Pounce",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 2", "Knockdown", "Prepare 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "location:Corellian Sector", "creature", "location:Tralus/Talus"]
+	},
+	{
+		"name": "Spukami",
+		"type": "Rival",
+		"description": "Spukami are domesticated felines native to Corellia, sometimes referred to as “house cats.” Large and seemingly intelligent, spukami have long, silky, blue-black fur with white or yellow highlights, piercing gold eyes, and long retractable claws on their front paws. The size of an average human toddler, these cats are widely popular as pets on Corellia. However, thanks to their haughty nature, stubbornness, short attention spans, destructive tendencies, and general lack of affection, they make indifferent pets. Many spukami owners jokingly state that they themselves are the pets, good only to serve the needs of their magisterial and mercurial cats. Spukami are also incredibly territorial, and savagely attack any other members of their species that enter into their territory. Even during their mating season, they can barely tolerate one another, leading Corellians to wonder how the spukami species manages to survive at all.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 2,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coordination": 2,
+			"Perception": 2,
+			"Stealth": 3
+		},
+		"talents": ["Jump Up"],
+		"abilities": ["Territorial", "Leap", "Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Teeth and claws",
+				"skill": "Brawl",
+				"damage": 1,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "creature", "location:Corellia", "location:Corellian Sector"]
+	},
+	{
+		"name": "Styanax",
+		"type": "Nemesis",
+		"description": "Native to the seas and oceans of Tralus, the styanax are among the most savage aquatic predators known to exist in the Corellian System. These atavistic reptilian carnivores have long, muscular bodies covered in thick, iridescent green scales which shimmer as they move through the water. A ridge of sharp spines runs along a styanax’s dorsal ridge, and it possesses a powerful prehensile tail tipped with a wicked and venomous stinger.\n\nStyanax are, thankfully, largely solitary hunters. Territorial in the extreme, they only tolerate the presence of others of their kind during their short, violent mating season. Aggressive and forward, styanax are unsubtle in combat. They charge directly at their target, attempting to sting their prey with a soporific venom. Once incapacitated, a styanax grabs its prey in its powerful jaws and proceeds to shake it to death.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16,
+			"strain": 6,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Brawl": 4,
+			"Resilience": 3,
+			"Survival": 3
+		},
+		"talents": ["Adversary 1", "Crippling Blow"],
+		"abilities": ["Silhouette 3", "Aquatic Creature"],
+		"weapons": [
+			{
+				"name": "Tooth-filled maw",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Vicious 3"]
+			},
+			{
+				"name": "Poisonous stinger",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 3", "Stun 4"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Tralus/Talus", "creature"]
+	},
+	{
+		"name": "Teryx",
+		"type": "Minion",
+		"description": "Teryx are small, feathered species of reptavian found in abundance all throughout the Cloudland Peaks. Tiny and exceedingly nimble, these fist-sized creatures have long, sharp, needle-like beaks and lovely, multi-coloured plumage that shimmers in the sunlight as they dart among the small alpine meadows where they make their nests. They feed on insects and the bodily fluids of small rodents, stabbing their prey with their beaks, injecting the target with a numbing venom, and drinking its blood. While individually they are not particularly dangerous, their habit of swarming around any creature and draining them completely of blood is one of the many well-documented dangers of exploring the Cloudland Peaks.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 0,
+			"wounds": 2,
+			"defence": [0, 1]
+		},
+		"skills": {
+			"Brawl": 0,
+			"Coordination": 0,
+			"Vigilance": 0
+		},
+		"talents": [],
+		"abilities": ["Flyer", "Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Beak",
+				"skill": "Brawl",
+				"damage": 2,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Disorient 2", "Pierce 3", "Stun 3"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "creature", "location:Selonia", "location:Corellian Sector"]
+	},
+	{
+		"name": "Tunnel Worm",
+		"type": "Rival",
+		"description": "Tunnel worms are immense, eyeless, ravenous worms raised by Selonians as both beasts of burden and a food source. Growing upwards of ten metres and weighing hundreds of kilogrammes, tunnel worms have smooth, glistening, limbless, mottled grey bodies that are dominated by a round, slavering mouth filled with saw-like teeth on one end and taper to a point at the other. Incredibly dim-witted, tunnel worms are instinct-driven creatures who live only to eat, grow and reproduce. Their diet consists of stones and a luminous fungus native to the Selonian tunnels. Their mynock-like mouths contain powerful olfactory sensors which differentiate between the faintest smells at great distances, and secrete a thick, powerful acid with the consistency of wet ferrocrete that sticks to everything. Given enough time, the sticky acid can reduce nearly any material to sludge.\n\nWhen left to their own devices, tunnel worms trundle through the Selonian den complexes eating fungus, debris, and filth. They keep the tunnels clean and occasionally burrow new tunnels or excavate long lost dens in their constant search for food. They are difficulty to provoke, but once angered, they spit their caustic saliva and lash about with their tails until the threat is melted or pummelled into submission.",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 15,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Survival": 2
+		},
+		"talents": [],
+		"abilities": ["Silhouette 3", "Tunnelling"],
+		"weapons": [
+			{
+				"name": "Serrated maw",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Burn 4", "Sunder", "Vicious 2"]
+			},
+			{
+				"name": "Crushing tail",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Concussive 3", "Knockdown", "Prepare 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "creature", "location:Selonia", "location:Corellian Sector", "adventure:Tunnel Delving"]
+	},
+	{
+		"name": "Wrix",
+		"type": "Nemesis",
+		"description": "Wrix are huge, savage creatures with thick hides and long, sharp tusks. Incredibly powerful and savage, they seem to subsist solely on raw meat and rage, and are one of the few extant animal species in the galaxy that kill for sport. The average wrix stands around 1.5 metres high. They have huge, brutish, ugly heads with short snouts, red eyes, porcine ears, and broad mouths filled with long, tearing teeth. Their hairless skin is usually mottled brown, tan, and green (though black and even gold-coloured individuals are not uncommon) and appears stretched to near bursting over their powerful muscles. Corellian biologists are unsure from whence the wrix originates. They seem to have no natural ecological niche on Corellia, nor is there anything like them found in the planet’s fossil record. Some believe they are genetically engineered solely as competitor animals for underground fighting rings. Whatever the case, the population of wrix has steadily grown over the past few decades, causing much alarm in Corellia’s farming and ecological communities.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 20,
+			"strain": 15
+		},
+		"skills": {
+			"Brawl": 3,
+			"Perception": 2,
+			"Resilience": 2,
+			"Survival": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Terrifying Howl", "Surefooted"],
+		"weapons": [
+			{
+				"name": "Teeth and claws",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Vicious 2", "Sunder"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "creature", "location:Corellia", "location:Corellian Sector"]
+	},
+	{
+		"name": "FD-Series Extinguisher Droid",
+		"type": "Minion",
+		"description": "A highly specialized maintenance droid, fire suppression droids perform the singular function of putting out fires. These droids are particularly useful aboard starships, where fires can quickly burn up the oxygen and cause irreparable damage to a vessel. Generally mounted on tracked chassis or repulsorlifts and fitted with large tanks of chemical fire retardants, fire suppression droids can quickly respond to out-of-control fires raging through a ship and are able to safely work under conditions that would be hazardous or even lethal to organic beings.\n\nFire suppression droids can be used aboard any vehicle or starship with a silhouette of 4 or larger. Plowever, the larger the vessel, the more droids are needed to adequately protect the vessel from fires. A vessel with a silhouette of 4 may require only one fire suppression droid, while a bulk transport or corvette would need several; a starship the size of an Imperial Star Destroyer would need hundreds of droids to adequately protect its massive bulkheads and kilometres of corridors and access shafts. These droids are able to put out small fires independently.",
+		"notes": "Cost 8,000 credits, Rarity 4",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 2
+		},
+		"skills": {
+			"Athletics": 0
+		},
+		"talents": [],
+		"abilities": ["Droid", "Firefighter", "Fire Resistant"],
+		"weapons": [],
+		"gear": ["Fire suppression equipment"],
+		"tags": ["book:sof", "species:Droid"]
+	},
+	{
+		"name": "Hologlide J57 Cam Droid",
+		"type": "Minion",
+		"description": "Cam droids, or hovercams, are small, relatively simple droids equipped with repulsorlifts and recording devices. Used to record news, sports and entertainment events, as well as for security, cam droids are a common sight throughout the galaxy. As such, they are also ideal for scouting and espionage purposes, able to go virtually anywhere without drawing undo attention. While some cam droids are highly intelligent and capable of autonomous action, most are simple devices. Most cam droids can broadcast whatever they record in real-time, up to a distance of several kilometers, allowing the holovids to be rebroadcast or viewed by a remote operator.",
+		"notes": "Cost 800 credits, Rarity 3",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 0,
+			"wounds": 2
+		},
+		"skills": {
+			"Perception": 0,
+			"Vigilance": 0
+		},
+		"talents": [],
+		"abilities": ["Droid", "Flyer"],
+		"weapons": [],
+		"gear": ["Holocam"],
+		"tags": ["book:sof", "species:Droid"]
+	},
+	{
+		"name": "Selonian Wanderer",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Brawl": 1,
+			"Melee": 1,
+			"Resilience": 1,
+			"Vigilance": 1
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Selonian glaive",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Defensive 1", "Pierce 3"]
+			},
+			{
+				"name": "Tail",
+				"skill": "Brawl",
+				"plus-damage": 4,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 2", "Knockdown"],
+				"notes": "Use Agility rather than Brawn with this weapon."
+			}
+		],
+		"gear": [],
+		"tags": ["book:sof", "location:Corellian Sector", "adventure:Tunnel Delving", "oddity", "species:Selonian"]
+	},
+	{
+		"name": "Wingrider",
+		"type": "Rival",
+		"description": "The Wingriders of Drall are a quasi-governmental organisation made up of daring young Drall who patrol the skies of their verdant world mounted on massive and majestic great ibbots. Chosen from among the most intrepid young Drall in each clan, the Wingriders are invested with wide-ranging powers and are granted jurisdiction over the entire planet by edict of the Confederation of the Clans. As a group, the Wingriders are a combination planetary police force and courier service. Typically deployed in pairs, they are tasked with keeping the peace in the wildlands between Drall's far-flung cities, making constant patrols and ensuring that people and goods can travel safely and securely.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10
+		},
+		"skills": {
+			"Athletics": 2,
+			"Cool": 2,
+			"Coordination": 3,
+			"Melee": 3,
+			"Perception": 3,
+			"Ranged: Heavy": 3,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Let’s Ride", "Feral Strength 2"],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Flashstick",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": null,
+				"range": "Engaged",
+				"qualities": ["Disorient 3", "Stun Damage"]
+			},
+			{
+				"name": "Light blaster carbine",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"],
+				"notes": "Used one handed."
+			}
+		],
+		"gear": ["Electrobinoculars", "Great ibbot mount", "Heavy uniform (+1 Soak)", "Datapad"],
+		"tags": ["book:sof", "location:Drall", "species:Drall", "galactic oddity", "security", "location:Corellian Sector"]
+	},
+	{
+		"name": "Selonian Thug",
+		"type": "Minion",
+		"description": "The Selonians of Den Kimotte act as the enforcers of Baron Kaldo’s criminal empire. They are trained to be silent and without mercy in the execution of their tasks. Kaldo’s killers always travel in groups of three.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 6
+		},
+		"skills": {
+			"Brawl": 0,
+			"Melee": 0,
+			"Perception": 0,
+			"Stealth": 0,
+			"Vigilance": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Selonian glaive",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Cumbersome 2", "Pierce 2", "Sunder"]
+			},
+			{
+				"name": "Tail",
+				"skill": "Brawl",
+				"plus-damage": 4,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 2", "Knockdown"],
+				"notes": "Use Agility rather than Brawn with this weapon."
+			}
+		],
+		"gear": ["Padded armour (+2 Soak)"],
+		"tags": ["book:sof", "location:Corellian Sector", "location:Centerpoint Station", "species:Selonian", "underworld", "thug"]
+	},
+	{
+		"name": "Gorn Vorrox",
+		"type": "Rival",
+		"description": "Corn himself is a fairly average-looking male Duros, slightly less than two meters tall, with blue-green skin and bright red eyes. Outwardly friendly, Corn is an opportunist, swindler, and skilled negotiator. The mer­chant drives a hard bargain and almost never gives anvthine awav for free.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 14,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Deception": 2,
+			"Negotiation": 3,
+			"Perception": 2,
+			"Ranged: Light": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Scattergun blaster stashed behind counter",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Blast 4"]
+			}
+		],
+		"gear": ["Armoured clothing (+1 Spal. +1 Defence)"],
+		"tags": ["book:sof", "species:Duros", "adventure:Hard Bargain"]
+	},
+	{
+		"name": "Oom Security Droid",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 4
+		},
+		"skills": {
+			"Ranged: Heavy": 0,
+			"Vigilance": 0
+		},
+		"talents": ["Droid"],
+		"abilities": [],
+		"weapons": ["Blaster rifle"],
+		"gear": [],
+		"tags": ["book:sof", "adventure:Hard Bargain", "species:Droid"]
+	},
+	{
+		"name": "Rasz Kal",
+		"type": "Rival",
+		"description": "Rasz Kal is a small-time crook, smuggler, and thief who fancies himself a crime boss. Fairly short and small in stature, with a quick wit and quicker reflexes, Rasz is uncharacteristically brash and bellicose for a Duros. Easily angered and difficult to deal with, Rasz leads a motley gang of thugs, including a Barabel, an Aqualish, and a Rodian.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15,
+			"defence": [0, 2]
+		},
+		"skills": {
+			"Deception": 3,
+			"Knowledge: Underworld": 2,
+			"Per­ception": 2,
+			"Piloting: Space": 2,
+			"Ranged: Light": 3,
+			"Skul­duggery": 2,
+			"Streetwise": 2
+		},
+		"talents": ["Adversary 2"],
+		"abilities": [],
+		"weapons": ["Blaster pistol", "Brass knuckles"],
+		"gear": ["Padded armour (+2 Soak)", "Broken hyperdrive motivator"],
+		"tags": ["book:sof", "adventure:Hard Bargain", "underworld"]
+	}
+]
