@@ -1,0 +1,212 @@
+[
+	{
+		"name": "Hotel Security",
+		"type": "Minion",
+		"description": "Below is a profile for a hotel security officer. The hotel’s security personnel carry blaster pistols, but they have strict instructions to leave their weapons on stun except in life-threatening situations. If the GM needs a profile for other hotel staff, he can use this one, removing the padded jackets and blaster pistols.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4
+		},
+		"skills": {
+			"Perception": 0,
+			"Ranged: Light": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Padded jacket (++1 Soak)"],
+		"tags": ["adventure:Lost Knowledge", "location:Athiss", "civilian", "security"]
+	},
+	{
+		"name": "Wild Felid Hunter",
+		"type": "Minion",
+		"description": "The PCs are attacked by a pack of local predators, large feline beasts with bristly fur and large tusks.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 6
+		},
+		"skills": {
+			"Brawl": 0,
+			"Perception": 0,
+			"Stealth": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Sharp teeth and claws",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": [],
+		"tags": ["adventure:Lost Knowledge", "location:Athiss", "creature"]
+	},
+	{
+		"name": "Deranged Expedition Guide",
+		"type": "Rival",
+		"description": "The guides from the Far Orbit’s hunting lodge are professional outdoorsmen. Dark side corruption has twisted their love of hunting to a simple lust for violence, but they have not lost their skill as they have gained their new cruelty.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 11
+		},
+		"skills": {
+			"Coercion": 1,
+			"Melee": 1,
+			"Perception": 2,
+			"Ranged: Heavy": 2,
+			"Survival": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			"Vibroknife",
+			{
+				"name": "Hunting blaster",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 3,
+				"range": "Long",
+				"qualities": []
+			}
+		],
+		"gear": ["Heavy clothing (+1 Soak)"],
+		"tags": ["adventure:Lost Knowledge", "location:Athiss", "hunter"]
+	},
+	{
+		"name": "Expedition Hunter",
+		"type": "Minion",
+		"description": "The hunters on the expedition were spared the brunt of the corruption’s effects that twisted their hired guides. The only sign of their condition is the lost, befuddled look in their eyes.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4
+		},
+		"skills": {
+			"Ranged: Heavy": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			"Vibroknife",
+			{
+				"name": "Hunting blaster",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 3,
+				"range": "Long",
+				"qualities": []
+			}
+		],
+		"gear": ["Heavy clothing (+1 Soak)"],
+		"tags": ["adventure:Lost Knowledge", "location:Athiss", "hunter"]
+	},
+	{
+		"name": "Twisted Beast",
+		"type": "Rival",
+		"description": "These beasts are the descendants of creatures created by ancient experiments in Sith alchemy. They possess flat, scaly faces framed by horns, but their misshapen musculature gives away their origin, as does their cruel and unnatural delight in toying with prey.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 11
+		},
+		"skills": {
+			"Brawl": 1,
+			"Perception": 1,
+			"Stealth": 1,
+			"Survival": 2
+		},
+		"talents": [],
+		"abilities": ["Barbed Hide"],
+		"weapons": [
+			{
+				"name": "Vicious bite",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"gear": [],
+		"tags": ["adventure:Lost Knowledge", "location:Athiss"]
+	},
+	{
+		"name": "Twisted Beast Alpha",
+		"type": "Rival",
+		"description": "These are the strongest and most vicious examples of their kind and the ones closest to the original creations of Sith alchemy.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 13
+		},
+		"skills": {
+			"Brawl": 2,
+			"Perception": 1,
+			"Stealth": 1,
+			"Survival": 2
+		},
+		"talents": [],
+		"abilities": ["Barbed Hide"],
+		"weapons": [
+			{
+				"name": "Vicious bite",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["adventure:Lost Knowledge", "location:Athiss", "creature"]
+	}
+]

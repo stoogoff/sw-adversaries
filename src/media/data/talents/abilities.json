@@ -61,7 +61,7 @@
 	},
 	{
 		"name": "Barbed Hide",
-		"description": "When the rass is hit by a melee attack, the GM can spend :threat::threat: to inflict 1 Wound (ignoring Soak) on the attacker."
+		"description": "When the creature is hit by a melee attack, the GM can spend :threat::threat: to inflict 1 Wound (ignoring Soak) on the attacker."
 	},
 	{
 		"name": "Beast of Burden",
