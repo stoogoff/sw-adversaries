@@ -260,7 +260,33 @@
 		"abilities": [],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Blast vest and helmet (+1 Soak)"],
-		"tags": ["empire", "imperial military", "book:aor", "book:eote", "adventure:Perlemian Haul"]
+		"tags": ["empire", "imperial military", "book:aor", "book:eote", "adventure:Perlemian Haul", "adventure:Operation Shell Game"]
+	},
+	{
+		"name": "Imperial Naval Engineer",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": {
+			"Computers": 0,
+			"Mechanics": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Light blaster pistol"],
+		"gear": [],
+		"tags": ["adventure:Operation Shell Game", "empire", "imperial military", "mechanic"]
 	},
 	{
 		"name": "M226 Navy Trooper",
@@ -389,6 +415,57 @@
 		"weapons": ["Blaster pistol"],
 		"gear": ["Tool kit", "Specialised electronics gear", "ISB uniform", "ISB ID"],
 		"tags": ["empire", "imperial security bureau", "book:ragp", "adventure:Rescue at Glare Peak"]
+	},
+	{
+		"name": "Imperial Technician",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 4
+		},
+		"skills": {
+			"Mechanics": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Tool kit"],
+		"tags": ["adventure:Operation Shell Game", "empire", "imperial military"]
+	},
+	{
+		"name": "Imperial Security Detail",
+		"type": "Minion",
+		"description": "",
+		"notes": "Wound Threshold has been reduced to 5 as the 10 in the adventure seems wrong for a minion squad.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": {
+			"Ranged: Heavy": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Blaster carbine"],
+		"gear": ["Blast vest (+1 Soak)", "Military comlink"],
+		"tags": ["adventure:Operation Shell Game", "empire", "imperial military"]
 	},
 	{
 		"name": "Imperial Test Pilot",
@@ -898,7 +975,7 @@
 		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Flight suit"],
-		"tags": ["empire", "imperial military", "pilot", "book:aor", "book:fad"]
+		"tags": ["empire", "imperial military", "pilot", "book:aor", "book:fad", "adventure:Operation Shell Game"]
 	},
 	{
 		"name": "TIE Ace",

@@ -373,7 +373,7 @@
 		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Flight suit"],
-		"tags": ["rebel alliance", "pilot", "book:aor"]
+		"tags": ["rebel alliance", "pilot", "book:aor", "adventure:Operation Shell Game"]
 	},
 	{
 		"name": "Sullustan Resistance Fighter",

@@ -215,7 +215,7 @@
 		"tags": ["book:sof", "adventure:Sabacc Game on the Row", "location:Corellian Sector", "location:Corellia", "gambler", "species:Rodian", "bounty hunter"]
 	},
 	{
-		"name": "Gusto",
+		"name": "Gustip",
 		"type": "Rival",
 		"description": "Baron Kaldo depends on Gustip, his fastidious Drall majordomo, to manage the day-to-day affairs of his criminal empire. Gustip carries himself like an aristocrat, and is never without his aurodium-plated cane. When not on Kaldo’s Hollowtown or Null Town estates, Gustip is accompanied by a gang of Selonian thugs.",
 		"characteristics": {
@@ -244,7 +244,7 @@
 		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Superior concealed armoured clothing (+2 Soak, +1 Defence)", "Aurodium cane", "Encrypted datapad", "Comlink"],
-		"tags": ["book:sof", "location:Corellian Sector", "location:Centerpoint Station", "species:Drall", "underworld", "majordomo"]
+		"tags": ["book:sof", "location:Corellian Sector", "location:Centerpoint Station", "species:Drall", "underworld", "majordomo", "adventure:The Corellian Shuffle"]
 	},
 	{
 		"name": "Jalla",
@@ -2016,7 +2016,7 @@
 		"tags": ["book:sof", "adventure:A Quick Stopover", "security", "location:Nubia", "location:The Sleeping Rancor"]
 	},
 	{
-		"name": "Bim Gozzo",
+		"name": "Bim Gizzo",
 		"type": "Rival",
 		"description": "A skilled operator who makes his living obtaining con­fidential information for his various employers, Bim Gizzo is virtually devoid of scruples. Clever, quick, and an expert at sleight-of-hand, his left hand is artificial and conceals a cybernetic weapon.",
 		"characteristics": {
@@ -2117,7 +2117,7 @@
 		"tags": ["book:sof", "adventure:Beyond the Boiling Sea", "location:Drall", "species:Drall", "nobility"]
 	},
 	{
-		"name": "Drall Police sergeant",
+		"name": "Drall Police Sergeant",
 		"type": "Rival",
 		"description": "",
 		"characteristics": {
@@ -2237,5 +2237,123 @@
 		],
 		"gear": [],
 		"tags": ["book:sof", "adventure:Conical Six Summit"]
+	},
+	{
+		"name": "Oso Maduk",
+		"type": "Rival",
+		"description": "The Duros prisoner is wearing a dark, dingy tunic and trousers with brown mid-calf boots. A pair of scanner goggles hangs from his neck, and he is immobilised in a stun harness. Once in hyperspace, Oso talks to anyone nearby.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 2,
+			"Deception": 2,
+			"Perception": 2,
+			"Skuldug­gery": 2,
+			"Stealth": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [],
+		"gear": ["Scanner goggles"],
+		"tags": ["book:sof", "adventure:The Corellian Shuffle", "species:Duros"]
+	},
+	{
+		"name": "Verd Ramos",
+		"type": "Rival",
+		"description": "Verd Ramos is an older man of about sixty with a quiet, but tired dignity. He is polite and wears a pressed dark green tunic and dark pants. Verd has little information to offer, having never met Oso Maduk or Gustip before. He claims to have been politically exiled from Corellia, and is returning in secret to visit his ill mother.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 16
+		},
+		"skills": {
+			"Cool": 4,
+			"Coordination": 3,
+			"Discipline": 4,
+			"Melee": 4,
+			"Negotiation": 2,
+			"Perception": 2,
+			"Stealth": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [],
+		"gear": ["Datapad", "Comlink"],
+		"tags": ["book:sof", "adventure:The Corellian Shuffle"]
+	},
+	{
+		"name": "Captain Jostero",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 17
+		},
+		"skills": {
+			"Coercion": 3,
+			"Deception": 3,
+			"Gunnery": 2,
+			"Lead­ership": 2,
+			"Perception": 2,
+			"Piloting: Space": 3,
+			"Ranged: Light": 3
+		},
+		"talents": [],
+		"abilities": ["Pirate Leader"],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Padded armour (+2 Soak)", "Comlink"],
+		"tags": ["book:sof", "adventure:The Corellian Shuffle", "silestro privateers", "pirate"]
+	},
+	{
+		"name": "Jostero Pirate",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 5
+		},
+		"skills": {
+			"Gunnery": 0,
+			"Piloting: Space": 0,
+			"Ranged: Light": 0
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Armoured flight suit (+2 Soak)", "Modified Cloakshape starfighter"],
+		"tags": ["book:sof", "adventure:The Corellian Shuffle"]
 	}
 ]
