@@ -157,7 +157,7 @@
 	{
 		"name": "Fallen Apprentice",
 		"type": "Rival",
-		"description": "For every Force user who sees the myths of the an­cient Jed i as an ideal to live up to, someone else de­cides to follow a darker path. Sometimes, these devi­ants seek out apprentices who will aid and emulate them. Such apprentices are often weak-willed, eager for the easy power their new master promises.",
+		"description": "For every Force user who sees the myths of the an­cient Jedi as an ideal to live up to, someone else de­cides to follow a darker path. Sometimes, these devi­ants seek out apprentices who will aid and emulate them. Such apprentices are often weak-willed, eager for the easy power their new master promises.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -285,7 +285,7 @@
 			"Deception": 2,
 			"Discipline": 4,
 			"Knowledge: Lore": 3,
-			"Lighsaber": 4,
+			"Lightsaber": 4,
 			"Perception": 4,
 			"Piloting: Space": 2,
 			"Resilience": 2,

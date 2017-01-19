@@ -677,7 +677,7 @@
 		"tags": ["species:Droid", "separatist", "book:cotgk", "adventure:Chronicles of the Gatekeeper"]
 	},
 	{
-		"name": "Destroyer Droid",
+		"name": "Droideka (Destroyer Droid)",
 		"type": "Rival",
 		"description": "Droidekas, greatly feared by Republic troops during the Clone Wars, were manufactured by the Colicoid species. These durable droids are capable of collapsing into a wheel­ like form for swift movement or unfolding into a tripodal walking gun platform protected by a powerful deflector shield. A single droideka can unleash tremendous salvos of blaster fire while remaining all but immune from return fire thanks to its shields, making droidekas more than a match for many times their own number in soldiers. Thankfully, few of these fearsome machines remain active.",
 		"characteristics": {

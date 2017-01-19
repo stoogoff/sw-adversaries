@@ -1667,7 +1667,7 @@
 		"tags": ["creature", "location:Hutt Space", "book:lonh", "adventure:The Dead Road"]
 	},
 	{
-		"name": "Rancor",
+		"name": "Captive Rancor",
 		"type": "Nemesis",
 		"description": "Rancors are terrifying predators, found on worlds throughout the galaxy. Complete carnivores, an adult rancor can grow to be up to 10 meters tall. They often walk with a hunched, simian gait using their arms and hands as well as their legs. Their hands and wicked claws can be used for grasping and holding prey. Com­bined with their prodigious strength, a rancor can be­come an apex predator on most worlds it lives in. Their fearsome combat ability makes rancors popular amongst crime lords as gladiatorial opponents or “pets.” The infamous gangster Jabba the Hutt is known to keep a rancor in a cavern below his palace, and those who displease the crime lord all too often become the rancor’s next meal.",
 		"characteristics": {
@@ -1946,8 +1946,8 @@
 			"Presence": 1
 		},
 		"derived": {
-			"soak": 3,
-			"wounds": 5
+			"soak": 5,
+			"wounds": 15
 		},
 		"skills": {
 			"Resilience": 3,

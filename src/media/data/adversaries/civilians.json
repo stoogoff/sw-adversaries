@@ -1150,7 +1150,7 @@
 			"Piloting: Planetary": 2,
 			"Resilience": 2,
 			"Streetwise": 2,
-			"Skullduggery": 3,
+			"Skulduggery": 3,
 			"Vigilance": 2
 		},
 		"talents": ["Improved Inspiring Rhetoric", "Kill with Kindness 2", "Nobody’s Fool 2"],
@@ -1663,7 +1663,17 @@
 		},
 		"talents": [],
 		"abilities": [],
-		"weapons": ["Holdout blaster", "Vibrosword"],
+		"weapons": [
+			"Holdout blaster",
+			{
+				"name": "Antique vibrosword",
+				"skill": "Melee",
+				"plus-damage": 2,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1", "Pierce 2", "Vicious 1"]
+			}
+		],
 		"gear": ["Personal shuttle"],
 		"tags": ["nobility", "location:Core Worlds", "book:aor", "book:eote"]
 	},

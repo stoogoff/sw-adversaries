@@ -433,7 +433,7 @@
 	},
 	{
 		"name": "Expert Tracker",
-		"description": "Remove :setback: per rank from checks to find tracks or track targets; decrease time to track a target by 25% per rank."
+		"description": "Remove :setback: per rank from checks to find tracks or track targets; decrease time to track a target by 50%."
 	},
 	{
 		"name": "Eye for Detail",

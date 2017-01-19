@@ -204,7 +204,7 @@
 		},
 		"talents": [],
 		"abilities": ["Gun Crew"],
-		"weapons": ["Holoudt blaster", "Heavy repeating blaster"],
+		"weapons": ["Holdout blaster", "Heavy repeating blaster"],
 		"gear": ["Trooper uniform and helmet (+1 Soak)"],
 		"tags": ["empire", "imperial military", "book:aor"]
 	},
@@ -227,7 +227,7 @@
 		"skills": {
 			"Discipline": 3,
 			"Knowledge (Warfare)": 2,
-			"Ranged: (Light": 2,
+			"Ranged: Light": 2,
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 1"],
@@ -762,7 +762,7 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 1"],
-		"abilities": ["Tactical Direction", "Overwhelming Fire"],
+		"abilities": ["Tactical Direction"],
 		"weapons": ["Heavy blaster rifle", "Vibroknife", "Frag grenade"],
 		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 Soak)", "2 Frag grenades"],
 		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad"]

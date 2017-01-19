@@ -105,7 +105,7 @@ let bookMap = {
 	"book:sot": "Stay on Target",
 
 	// adventures
-	"book:cotgk": "Chronicles of the Gate Keeper",
+	"book:cotgk": "Chronicles of the Gatekeeper",
 	"book:ragp": "Rescue at Glare Peak",
 	"book:uabs": "Under a Black Sun"
 };

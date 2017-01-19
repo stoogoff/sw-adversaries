@@ -293,7 +293,7 @@
 		"weapons": [
 			"Light repeating blaster",
 			{
-				"name": "Builtin-in light blaster pistol",
+				"name": "Built-in light blaster pistol",
 				"skill": "Ranged: Light",
 				"damage": 5,
 				"critical": 4,

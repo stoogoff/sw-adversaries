@@ -418,7 +418,7 @@
 		"tags": ["underworld", "bounty hunter", "book:eote"]
 	},
 	{
-		"name": "Master Hunter",
+		"name": "Master Bounty Hunter",
 		"type": "Nemesis",
 		"description": "Master hunters have reached a level of independence that permits them to choose any hunts they desire. The guilds never give master hunters orders, only requests. Master hunters typically have a ship at their disposal and can pursue their prey across the entire galaxy as needed. Master hunters occasionally have journeymen assigned to them as staff, although they often work alone. They are also authorized to deploy apprentice hunters as necessary to complete a hunt.",
 		"characteristics": {
@@ -468,7 +468,7 @@
 				"qualities": ["Burn 5", "Blast 8"]
 			}
 		],
-		"gear": ["Heavy battle armour (+2 soak, +1 defence)", "2 Stun grenades"],
+		"gear": ["Heavy battle armour (+2 Soak, +1 Sefence)", "4 Stun grenades"],
 		"tags": ["underworld", "bounty hunter", "book:eote"]
 	},
 	{
@@ -1171,7 +1171,7 @@
 			"Computers": 2,
 			"Mechanics": 3,
 			"Streetwise": 2,
-			"Underworld": 2
+			"Knowledge: Underworld": 2
 		},
 		"talents": [],
 		"abilities": [],
@@ -1204,7 +1204,7 @@
 		"talents": [],
 		"abilities": [],
 		"weapons": [
-			"Net",
+			"Net", "Truncheon",
 			{
 				"name": "Battered stun pistol",
 				"skill": "Ranged: Light",
@@ -1220,7 +1220,7 @@
 	{
 		"name": "Shipjacker",
 		"type": "Rival",
-		"description": "A terror that haunts the shadows of a major spaceport, a shipjacker is a thief who specializes in stealing and quickly reselling starships. An expert at circum­venting electronic security of all forms, a successful shipJacker is also intimately familiar with the proto­cols and procedures of whatever spaceports he chooses to prey upon Likewise, most shipjack­ ers have close relationships with expert forgers to ensure that the documentation required to remove a vessel from the spaceport can be quickly and convincingly acquired. Most shipjackers have a network of contacts to ensure that a starship, once stolen, can be quickly sold and moved to a dis­tant part of the galaxy or, failing that, dismantled for parts and sold in a dozen different locations in as many different systems.",
+		"description": "A terror that haunts the shadows of a major spaceport, a shipjacker is a thief who specializes in stealing and quickly reselling starships. An expert at circum­venting electronic security of all forms, a successful shipjacker is also intimately familiar with the proto­cols and procedures of whatever spaceports he chooses to prey upon Likewise, most shipjack­ ers have close relationships with expert forgers to ensure that the documentation required to remove a vessel from the spaceport can be quickly and convincingly acquired. Most shipjackers have a network of contacts to ensure that a starship, once stolen, can be quickly sold and moved to a dis­tant part of the galaxy or, failing that, dismantled for parts and sold in a dozen different locations in as many different systems.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -1244,7 +1244,7 @@
 		"talents": ["Adversary 1"],
 		"abilities": [],
 		"weapons": ["Heavy blaster pistol", "Stun grenade"],
-		"gear": ["Electronic lock breaker", "2 Frag grenades"],
+		"gear": ["Electronic lock breaker", "2 Stun grenades"],
 		"tags": ["underworld", "book:eote"]
 	},
 	{

@@ -516,6 +516,10 @@
 		"description": "Upgrade the difficulty of checks to train eopies by one."
 	},
 	{
+		"name": "Stubborn and Dependable",
+		"description": "Remove :setback: from all checks Ugnaught mechanics perform."
+	},
+	{
 		"name": "Suited to the Cold",
 		"description": "Immune to the effects of freezing and cold environments."
 	},
