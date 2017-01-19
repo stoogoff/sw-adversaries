@@ -1,6 +1,6 @@
 
 export let id = function id(input) {
-	return input.trim().replace(/\s{1,}/g, "-").toLowerCase();
+	return input.trim().replace(/[^a-z0-9\s]/gi, '').replace(/\s{1,}/g, "-").toLowerCase();
 }
 
 export let sortByProperty = function sortByProperty(prop) {
