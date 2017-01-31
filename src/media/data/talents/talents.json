@@ -453,7 +453,7 @@
 	},
 	{
 		"name": "Fearsome",
-		"description": ""
+		"description": "May force Engaged opponents to make a fear check with the difficulty equal to ranks in Fearsome."
 	},
 	{
 		"name": "Feint",

@@ -40,6 +40,10 @@
 		"description": "Bearsloths treat trees and branches as normal terrain and do not make checks or spend extra maneuvers in order to move along them vertically or horizontally."
 	},
 	{
+		"name": "Asharl Pelt",
+		"description": "Remove :setback: on Survival checks due to cold environments."
+	},
+	{
 		"name": "Aura of Command",
 		"description": "Spend a maneuver to allow one allied minion group at Medium range to immediately perform one maneuver or action. Add :boost: to any actions they perform."
 	},
@@ -164,6 +168,10 @@
 		"description": "When incapacitated, daly­rakes make one out-of-turn Brawl attack against one opponent with whom they are engaged. This check gains :boost:."
 	},
 	{
+		"name": "Dense Feathers",
+		"description": "Immune to the effects of cold and hazardous weather."
+	},
+	{
 		"name": "Detect Force-Sensitivity",
 		"description": "The vornskr may make an :average: Perception check to detect all Force-sensitive creatures or characters with a Force rating within medium range; this ability functions regardless of intervening terrain or material."
 	},
@@ -240,6 +248,10 @@
 		"description": "Gain :boost: to all combat checks made against Force-sensitive creatures or characters with a Force rating."
 	},
 	{
+		"name": "Frightening Visage",
+		"description": "As an ac­tion, may make an opposed Deception check vs. Vigilance (when multiple opponents are present, the best Vigilance skill determines difficulty) to create illusion of greater size and threat. If the snowfeather succeeds, all opponents present must make a :hard: fear check. Force-sensitive characters add :setback: to the fear check; droids and other characters immune to Force powers automatically pass the check."
+	},
+	{
 		"name": "Force Mimic",
 		"description": "At the GM’s discretion, the kaaten may make an opposed Charm or Deception versus Vigilance check as an action to pretend to be a friend, companion, loved one, or of the same spe­cies as its target. When doing so, add :force: to the check; :lightside: results add :success: to Charm checks, while :darkside: results add :success: to Deception checks. If the check succeeds, the illusion is successful, though what effect this has on gameplay depends on the situation and can be determined by the GM. Targets immune to Force powers are immune to these effects."
 	},
@@ -296,6 +308,10 @@
 		"description": "Remove up to :setback: from any checks due to hot or arid environmen­tal conditions."
 	},
 	{
+		"name": "Heightened Sense of Smell",
+		"description": "Razhak upgrade all Perception checks once."
+	},
+	{
 		"name": "Helium Allergy",
 		"description": "When exposed to helium mynocks suffer 1 Wound per round ignoring Soak until their bodies inflate and explode."
 	},
@@ -341,7 +357,7 @@
 	},
 	{
 		"name": "Keen Senses",
-		"description": "Thanks to their finely honed senses of sight and hearing, sand panthers gain :boost: on all Perception checks."
+		"description": "Thanks to their finely honed senses of sight and hearing, they gain :boost: on all Perception checks."
 	},
 	{
 		"name": "Leap",
@@ -405,7 +421,7 @@
 	},
 	{
 		"name": "Nightvision",
-		"description": "Loth-cats remove all :setback: added to checks due to low-light conditions or darkness."
+		"description": "Remove all :setback: added to checks due to low-light conditions or darkness."
 	},
 	{
 		"name": "Olfactory Perception",
@@ -416,12 +432,16 @@
 		"description": "Reduces the difficulty of scent-based Perception checks by 1."
 	},
 	{
+		"name": "Ornery",
+		"description": "Add :setback::setback: to all checks made to handle, domesticate, or otherwise work with a nerf."
+	},
+	{
 		"name": "Overrun",
 		"description": "The ronto may spend :advantage: to hit an additional target with a successful Brawl check, provided the additional target is engaged with the first target. "
 	},
 	{
 		"name": "Pack Instincts",
-		"description": "When performing the assist maneuver, kath hounds grant :boost::boost: instead of :boost:."
+		"description": "When performing the assist maneuver, they grant :boost::boost: instead of :boost:."
 	},
 	{
 		"name": "Paralysing Neurotoxin",
@@ -464,6 +484,10 @@
 		"description": "Remove :setback: from any checks made to traverse sandy or desert terrain."
 	},
 	{
+		"name": "Searing Touch",
+		"description": "When an opponent ends its turn engaged with the razhak, the opponent suffers 2 Wounds and 2 Strain."
+	},
+	{
 		"name": "Self-destruct Mechanism",
 		"description": "Should the probe droid’s mission become compromised, it may self-destruct as an out of turn incidental; this expliosion does 10 damage to engaged characters."
 	},
@@ -478,6 +502,10 @@
 	{
 		"name": "Shield Projector",
 		"description": "Maneuver to activate or deactivate; while active, gains defense 2 and upgrades the difficulty of all combat attacks targeting the droideka once, but droideka cannot use the Move maneuver."
+	},
+	{
+		"name": "Shriek",
+		"description": "A minion group of four or more blismal can set up a shrieking racket as an action. All targets within Close range must make a :hard: Resilience check. Failure causes a target to suffer 4 Strain and become disoriented until the noise stops. Characters in sealed armour or who are wearing ear protection are not affected."
 	},
 	{
 		"name": "Sight Hunter",
