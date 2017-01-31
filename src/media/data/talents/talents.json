@@ -473,7 +473,7 @@
 	},
 	{
 		"name": "Fine Tuning",
-		"description": "Repait an additional System Strain per rank when repairing ships or vehicles."
+		"description": "Repair an additional System Strain per rank when repairing ships or vehicles."
 	},
 	{
 		"name": "Fire Control",

@@ -8,7 +8,7 @@ Built using:
 - [Babel](https://babeljs.io)
 - [React](https://facebook.github.io/react/)
 - [Gulp](http://gulpjs.com/)
-- Icons by [FontAwesome](http://fontawesome.io/)
+- Icons by [IcoMoon](https://icomoon.io/app/)
 - Dice font from [The Alexandrian](http://thealexandrian.net/wordpress/37660/roleplaying-games/star-wars-force-and-destiny-system-cheat-sheet)
 
 ## Structure

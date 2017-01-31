@@ -68,6 +68,10 @@
 		"description": "Add ranks in Beast of Burden to the creature’s encumbrance threshold."
 	},
 	{
+		"name": "Bloodfly Sickness",
+		"description": "A character who takes damage from a bloodfly bite must make an :average: Resilience check; failure results in 4 damage, ignoring Soak, and the character halves their Strain Threshold, rounding up, until the character spends at least an hour in a bacta tank or undergoes similarly extensive medical treatment (as determined by the GM)."
+	},
+	{
 		"name": "Brute Strength",
 		"description": "May add :advantage: to all Brawn-related skill checks."
 	},
@@ -416,6 +420,10 @@
 		"description": "The ronto may spend :advantage: to hit an additional target with a successful Brawl check, provided the additional target is engaged with the first target. "
 	},
 	{
+		"name": "Pack Instincts",
+		"description": "When performing the assist maneuver, kath hounds grant :boost::boost: instead of :boost:."
+	},
+	{
 		"name": "Paralysing Neurotoxin",
 		"description": "If the korrak hits its target with a bite attack, the target must immediately make a :hard: Resilience check; failure means the target is immobilised for 1 round, plus 1 round per :threat: generated; :despair: on a successful or failed check means the target is staggered for one round."
 	},
@@ -534,6 +542,10 @@
 	{
 		"name": "Surgeon’s Aid",
 		"description": "When a minion group of one or more Mini-Meds performs the Assist maneuver to help a character with a Medicine check, that character counts as having +1 rank in the Surgeon talent per Mini-Med in the group."
+	},
+	{
+		"name": "Swarm",
+		"description": "Halve the damage dealt to the swarm before applying soak unless the weapon has the Blast or Burn quality, regardless of whether or not that quality is activated."
 	},
 	{
 		"name": "Sweep Attack",

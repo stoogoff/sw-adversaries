@@ -995,6 +995,52 @@
 		"tags": ["book:sot", "creature"]
 	},
 	{
+		"name": "Kath Hound",
+		"type": "Rival",
+		"description": "The kath hounds of Dantooine are a species of fierce canine pack hunters, averaging about one metre tall at the shoulders. There are a number of subspecies of kath hounds, including variants with powerful, curving horns, although all are notable for their cloven hooves, thick fur, and strong jaws. Some xenobiologists attempt to categorise some varieties as more powerful or dangerous than others, but in truth, all members of the species are lethal hunters, especially when hunting alongside their pack mates. Alone or in packs, kath hounds have been trained as guard or attack animals across the galaxy for centuries. Some attempts have been made to breed or genetically engineer improved versions of the species, such as the highly aggressive and near uncontrollable salky hounds, but few real improvements have been made.",
+		"notes": "Not all species of kath hound have horns.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 2,
+			"Perception": 2,
+			"Vigilance": 3
+		},
+		"talents": [],
+		"abilities": ["Pack Instincts"],
+		"weapons": [
+			{
+				"name": "Teeth",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": []
+			},
+			{
+				"name": "Horns",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Disorient 1", "Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:ss", "creature", "location:Dantooine"]
+	},
+	{
 		"name": "Kintan Strider",
 		"type": "Rival",
 		"description": "Now extinct on the planet that gave the Kintan Strider its name, these enormous semisentient beasts were bred for centuries offworld. They can now be found on various planets around the galaxy, where they are most often used as guards by Hutt crime lords. Their incred­ible self-healing properties and the thick layer of fat and hide that covers their bodies make Kintan Striders formidable opponents. Most citizens of the galaxy know the Kintan Strider as a piece in dejarik, around which the tactic of sacrificing it to create long-term opportunities (called the “Kintan Strider Death Gambit”) developed.",
@@ -1030,50 +1076,6 @@
 		],
 		"gear": [],
 		"tags": ["creature", "location:Hutt Space", "book:lonh"]
-	},
-	{
-		"name": "Kirruk Riding Beast",
-		"type": "Rival",
-		"description": "These muscular, horned reptilian quadrupeds are cave dwellers, and hardy enough to survive the decimation of Ossus. The Ysanna call them “kirruk” after their squawking call, and they breed them to serve as beasts of burden and riding mounts.",
-		"characteristics": {
-			"Brawn": 4,
-			"Agility": 3,
-			"Intellect": 1,
-			"Cunning": 1,
-			"Willpower": 2,
-			"Presence": 1
-		},
-		"derived": {
-			"soak": 7,
-			"wounds": 18
-		},
-		"skills": {
-			"Athletics": 3,
-			"Brawl": 3,
-			"Resilience": 3
-		},
-		"talents": [],
-		"abilities": ["Silhouette 2", "Trained Mount 2"],
-		"weapons": [
-			{
-				"name": "Teeth",
-				"skill": "Brawl",
-				"damage": 8,
-				"critical": 2,
-				"range": "Engaged",
-				"qualities": ["Pierce 3"]
-			},
-			{
-				"name": "Claws",
-				"skill": "Brawl",
-				"damage": 6,
-				"critical": 3,
-				"range": "Engaged",
-				"qualities": ["Disorient 1"]
-			}
-		],
-		"gear": [],
-		"tags": ["book:nop", "creature", "location:Ossus", "riding beast"]
 	},
 	{
 		"name": "Klatooinian Paddy Frog",
@@ -1215,46 +1217,6 @@
 		],
 		"gear": [],
 		"tags": ["book:sot", "creature"]
-	},
-	{
-		"name": "Loth-Cat",
-		"type": "Rival",
-		"description": "Members of the far-flung tooka family, loth-cats are small, wild felines native to Lothal. They are, on average, about a metre long and can weigh as much as fifteen kilograms. They have short, brindled coats with white bellies; long, thick tails; and narrow, black legs that end in long, sharp claws. Their faces are remarkably expressive, with solid black eyes, large ears, and a broad mouth full of needle-sharp teeth.\n\nLoth-cats live solitary lives primarily in Lothal’s vast grasslands, coming together only to breed and raise kits. Hunting by sight and hearing, they prey largely on loth-rats and other assorted rodents and avifauna. Expert stalkers, loth-cats hunt their prey for hours or even days, waiting for the perfect time to attack. Once committed, a loth-cat springs from hiding and attempts to kill its prey as quickly as possible. When attacking prey larger than themselves, usually when frightened or cornered, a loth-cat typically goes for a target’s face first, clawing at eyes and any other sensitive areas. Loth-cats only fight larger prey until they can escape or the creature is driven off, and will run if they can.\n\nWhile most are wild, loth-cats can be domesticated, with varying degrees of success. They make fine, if capricious and slightly destructive, pets. With enough patience, they can even be trained to hunt and retrieve.",
-		"characteristics": {
-			"Brawn": 2,
-			"Agility": 4,
-			"Intellect": 1,
-			"Cunning": 3,
-			"Willpower": 2,
-			"Presence": 2
-		},
-		"derived": {
-			"soak": 2,
-			"wounds": 6,
-			"defence": [1, 1]
-		},
-		"skills": {
-			"Athletics": 2,
-			"Brawl": 2,
-			"Coordination": 3,
-			"Perception": 2,
-			"Stealth": 3,
-			"Vigilance": 2
-		},
-		"talents": ["Natural Hunter"],
-		"abilities": ["Cunning Ambusher 1", "Leap", "Nightvision", "Silhouette 0"],
-		"weapons": [
-			{
-				"name": "Teeth and claws",
-				"skill": "Brawl",
-				"damage": 4,
-				"critical": 2,
-				"range": "Engaged",
-				"qualities": ["Pierce 2", "Knockdown"]
-			}
-		],
-		"gear": [],
-		"tags": ["creature", "book:nop", "location:Lothal"]
 	},
 	{
 		"name": "Massiff",
@@ -1551,6 +1513,7 @@
 		"name": "Narglatch",
 		"type": "Rival",
 		"description": "It is unclear exactly where the narglatch evolved, but they are used as mounts for the Talz in the brutal cold of Orto Plutonia; additionally, several variants of this species can be found on other worlds throughout the galaxy, including the swamps of Naboo. Not truly domesticated, these felinoid beasts can be trained to be loyal and fearsome mounts, if a bit headstrong. Unlike most other riding beasts, narglatch are apex predators with hunting instincts, moving quietly to stalk their prey.",
+		"notes": "The stats in **Stay on Target** and **Savage Spirits** are slightly different and have been merged.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 4,
@@ -1566,6 +1529,7 @@
 		"skills": {
 			"Athletics": 3,
 			"Brawl": 2,
+			"Discipline": 2,
 			"Perception": 1,
 			"Stealth": 2
 		},
@@ -1582,7 +1546,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["book:sot", "creature"]
+		"tags": ["book:sot", "book:ss", "creature"]
 	},
 	{
 		"name": "Photon Spider",
@@ -2235,7 +2199,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["book:sot", "creature"]
+		"tags": ["book:sot", "book:ss", "creature"]
 	},
 	{
 		"name": "Vornskr",
@@ -2286,7 +2250,7 @@
 		"tags": ["creature", "book:fad"]
 	},
 	{
-		"name": "Vrblthers",
+		"name": "Vrblther",
 		"type": "Minion",
 		"description": "Vrblthers are bipedal, carnivorous predators that are distinguished by powerful clawed hands and feet, long tails, and thick leathery hides that range in color from black to dark green to brown. Originally native to Varl, vrblthers were brought to Nar Shaddaa by the Hutts during their emigration to Evocar, the planet that became Nal Hutta. Hutts still make pets of vrblthers, and feral specimens can often be found hunting in packs in the lower reaches of Nar Shaddaa.",
 		"characteristics": {
@@ -2305,7 +2269,7 @@
 		"skills": {
 			"Athletics": 0,
 			"Brawl": 0,
-			"Resilience,": 0,
+			"Resilience": 0,
 			"Stealth": 0,
 			"Survival": 0
 		},
@@ -2322,7 +2286,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["creature", "location:Hutt Space", "book:lonh"]
+		"tags": ["creature", "location:Hutt Space", "book:lonh", "book:ss"]
 	},
 	{
 		"name": "Ysalamir",

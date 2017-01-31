@@ -103,6 +103,7 @@ let bookMap = {
 	"book:ktp": "Keeping the Peace",
 	"book:sm": "Special Modifications",
 	"book:sot": "Stay on Target",
+	"book:ss": "Savage Spirits",
 
 	// adventures
 	"book:cotgk": "Chronicles of the Gatekeeper",

@@ -582,5 +582,40 @@
 		"weapons": ["Gaffi stick"],
 		"gear": ["Reinforced environment gear (+1 Soak; remove :setback: imposed by environmental conditions; add :boost: to Resilience checks to resist toxic atmospheres or airborne toxins)"],
 		"tags": ["galactic oddity", "species:Tusken", "source:Never Tell Me the Odds", "location:Tatooine"]
+	},
+	{
+		"name": "Gamorrean Villager",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 14
+		},
+		"skills": {
+			"Brawl": 5,
+			"Melee": 3
+		},
+		"talents": ["Knockdown"],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Huge axe",
+				"skill": "Melee",
+				"damage": 9,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Cumbersome 5"]
+			}
+		],
+		"gear": [],
+		"tags": ["galactic oddity", "species:Gamorrean", "book:ss"]
 	}
 ]
