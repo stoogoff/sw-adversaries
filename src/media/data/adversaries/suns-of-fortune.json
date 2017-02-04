@@ -30,7 +30,6 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 2", "Plausible Deniability 2", "Natural Charmer", "Natural Negotiator"],
-		"abilities": [],
 		"weapons": ["Heavy blaster pistol"],
 		"gear": ["Superior concealed armoured clothing (+2 Soak, +1 Defence)", "Comlink"],
 		"tags": ["book:sof", "location:Corellian Sector", "location:Centerpoint Station"]
@@ -112,9 +111,7 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 1", "Natural Charmer"],
-		"abilities": [],
 		"weapons": ["Blaster pistol", "Vibroknife"],
-		"gear": [],
 		"tags": ["book:sof", "adventure:Sabacc Game on the Row", "location:Corellian Sector", "location:Corellia", "gambler"]
 	},
 	{
@@ -138,9 +135,6 @@
 			"Mechanics": 5,
 			"Negotiation": 2
 		},
-		"talents": [],
-		"abilities": [],
-		"weapons": [],
 		"gear": ["Tool kit", "Datapad", "Emergency repair patch", "Hand scanner"],
 		"tags": ["book:sof", "location:Corellian Sector", "location:Gus Treta Market Station", "underworld", "engineer"]
 	},
@@ -174,7 +168,6 @@
 		},
 		"talents": ["Resolve 2"],
 		"abilities": ["Awkward", "Ponderous"],
-		"weapons": [],
 		"gear": ["Comlink", "Datapad"],
 		"tags": ["book:sof", "location:Corellian Sector", "location:Gus Treta Market Station", "species:Hutt", "underworld"]
 	},
@@ -209,7 +202,6 @@
 			"Vigilance": 2
 		},
 		"talents": ["Lethal Blows 2"],
-		"abilities": [],
 		"weapons": ["Heavy blaster pistol"],
 		"gear": ["Laminate armour (+2 Soak)"],
 		"tags": ["book:sof", "adventure:Sabacc Game on the Row", "location:Corellian Sector", "location:Corellia", "gambler", "species:Rodian", "bounty hunter"]
@@ -241,7 +233,6 @@
 			"Streetwise": 2
 		},
 		"talents": ["Stroke of Genius"],
-		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Superior concealed armoured clothing (+2 Soak, +1 Defence)", "Aurodium cane", "Encrypted datapad", "Comlink"],
 		"tags": ["book:sof", "location:Corellian Sector", "location:Centerpoint Station", "species:Drall", "underworld", "majordomo", "adventure:The Corellian Shuffle"]
@@ -274,9 +265,7 @@
 			"Streetwise": 2
 		},
 		"talents": ["Nobody’s Fool 1"],
-		"abilities": [],
 		"weapons": ["Holdout blaster"],
-		"gear": [],
 		"tags": ["book:sof", "adventure:Sabacc Game on the Row", "location:Corellian Sector", "location:Corellia", "gambler"]
 	},
 	{
@@ -305,9 +294,7 @@
 			"Stealth": 1
 		},
 		"talents": ["Expert Tracker 1"],
-		"abilities": [],
 		"weapons": ["Vibroknife"],
-		"gear": [],
 		"tags": ["book:sof", "adventure:Sabacc Game on the Row", "location:Corellian Sector", "location:Corellia", "species:Twi’lek", "gambler"]
 	},
 	{
@@ -333,8 +320,6 @@
 			"Perception": 3,
 			"Surveillance": 3
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Encrypted datapad", "Comlink"],
 		"tags": ["book:sof", "location:Corellian Sector", "location:Gus Treta Market Station", "underworld", "infochant"]
@@ -363,8 +348,6 @@
 			"Streetwise": 2,
 			"Vigilance": 2
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Blaster carbine"],
 		"gear": ["Padded armour (+2 Soak)", "Comlink", "Sabacc deck",  "Stimpack", "Utility belt"],
 		"tags": ["book:sof", "location:Corellian Sector", "location:Centerpoint Station", "civilian", "security"]
@@ -417,17 +400,7 @@
 			"soak": 4,
 			"wounds": 6
 		},
-		"skills": {
-			"Athletics": 0,
-			"Brawl": 0,
-			"Coercion": 0,
-			"Melee": 0,
-			"Perception": 0,
-			"Ranged: Light": 0,
-			"Streetwise": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Athletics", "Brawl", "Coercion", "Melee", "Perception", "Ranged: Light", "Streetwise"],
 		"weapons": [
 			"Truncheon",
 			{
@@ -470,7 +443,6 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 1"],
-		"abilities": [],
 		"weapons": [
 			"Blaster pistol",
 			"Truncheon"
@@ -512,7 +484,6 @@
 			"Vigilance": 4
 		},
 		"talents": ["Adversary 2", "Defensive Driving 1", "Natural Pilot 1"],
-		"abilities": [],
 		"weapons": [
 			"Heavy blaster pistol", "Blaster carbine", "Vibroknife"],
 		"gear": ["Reinforced flight suit (+1 Soak, +1 Defence)", "Comlink", "Binders", "Badge"],
@@ -543,7 +514,6 @@
 			"Piloting: Space": 1
 		},
 		"talents": ["Fine Tuning 2", "Gearhead 1"],
-		"abilities": [],
 		"weapons": [
 			{
 				"name": "Oversized hydrospanner",
@@ -573,13 +543,7 @@
 			"soak": 4,
 			"wounds": 6
 		},
-		"skills": {
-			"Melee": 0,
-			"Perception": 0,
-			"Ranged: Heavy": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Melee", "Perception", "Ranged: Heavy"],
 		"weapons": [
 			"Blaster carbine",
 			{
@@ -616,8 +580,6 @@
 			"Discipline": 2,
 			"Perception": 2
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Disruptor pistol"],
 		"gear": ["Uniform (+1 Soak)"],
 		"tags": ["book:sof", "location:Corellian Sector", "location:Sacorria", "civilian", "security"]
@@ -642,7 +604,6 @@
 			"Brawl": 1,
 			"Perception": 1
 		},
-		"talents": [],
 		"abilities": ["Dive Attack", "Flyer"],
 		"weapons": [
 			{
@@ -654,7 +615,6 @@
 				"qualities": ["Vicious 2"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sof", "location:Corellian Sector", "location:Aurea", "creature"]
 	},
 	{
@@ -680,7 +640,6 @@
 			"Survival": 2,
 			"Vigilance": 2
 		},
-		"talents": [],
 		"abilities": ["Surefooted", "Lightning Charge"],
 		"weapons": [
 			{
@@ -700,7 +659,6 @@
 				"qualities": []
 			}
 		],
-		"gear": [],
 		"tags": ["book:sof", "location:Corellia", "creature", "riding beast", "location:Corellian Sector"]
 	},
 	{
@@ -727,7 +685,6 @@
 			"Stealth": 4,
 			"Survival": 2
 		},
-		"talents": [],
 		"abilities": ["Death Lunge"],
 		"weapons": [
 			{
@@ -747,7 +704,6 @@
 				"qualities": ["Disorient 3", "Prepare 1", "Pierce 3"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sof", "creature", "location:Tralus/Talus", "location:Corellian Sector"]
 	},
 	{
@@ -773,7 +729,6 @@
 			"Resilience": 4,
 			"Survival": 3
 		},
-		"talents": [],
 		"abilities": ["Constrictor", "Terrifying"],
 		"weapons": [
 			{
@@ -785,7 +740,6 @@
 				"qualities": ["Ensnare 2", "Stun 3"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sof", "location:Corellian Sector", "location:Tralus/Talus", "creature"]
 	},
 	{
@@ -805,12 +759,7 @@
 			"wounds": 4,
 			"defence": [0, 1]
 		},
-		"skills": {
-			"Brawl": 0,
-			"Perception": 0,
-			"Vigilance": 0
-		},
-		"talents": [],
+		"skills": ["Brawl", "Perception", "Vigilance"],
 		"abilities": ["Flyer", "Sight Hunter"],
 		"weapons": [
 			{
@@ -830,7 +779,6 @@
 				"qualities": ["Burn 2", "Disorient 3", "Slow-Firing 1"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sof", "creature", "location:Drall", "species:Ibbot", "location:Corellian Sector"]
 	},
 	{
@@ -875,7 +823,6 @@
 				"qualities": ["Concussive 2", "Knockdown", "Prepare 1", "Vicious 2"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sof", "creature", "location:Drall", "species:Ibbot", "riding beast", "location:Corellian Sector"]
 	},
 	{
@@ -901,7 +848,6 @@
 			"Stealth": 1,
 			"Vigilance": 1
 		},
-		"talents": [],
 		"abilities": ["Silhouette 2", "Toxic Environment Dweller"],
 		"weapons": [
 			{
@@ -929,7 +875,6 @@
 				"qualities": ["Burn 3", "Slow-Firing 4"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sof", "location:Corellian Sector", "location:Duros", "creature"]
 	},
 	{
@@ -973,7 +918,6 @@
 				"qualities": ["Disorient 3", "Inaccurate 1"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sof", "location:Tralus/Talus", "creature", "location:Corellian Sector"]
 	},
 	{
@@ -997,7 +941,6 @@
 			"Perception": 1,
 			"Survival": 1
 		},
-		"talents": [],
 		"abilities": ["Paralysing Neurotoxin", "Crushing Body"],
 		"weapons": [
 			{
@@ -1018,7 +961,6 @@
 				"notes": "This attack may only target victims affected by the korrak’s Ensnare quality."
 			}
 		],
-		"gear": [],
 		"tags": ["book:sof", "location:Corellian Sector", "location:Sacorria", "creature"]
 	},
 	{
@@ -1037,12 +979,7 @@
 			"soak": 7,
 			"wounds": 8
 		},
-		"skills": {
-			"Athletics": 0,
-			"Brawl": 0,
-			"Resilience": 0
-		},
-		"talents": [],
+		"skills": ["Athletics", "Brawl", "Resilience"],
 		"abilities": ["Hardy", "Strong as a Murra"],
 		"weapons": [
 			{
@@ -1054,7 +991,6 @@
 				"qualities": ["Pierce 3", "Knockdown"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sof", "creature", "location:Corellia", "location:Corellian Sector"]
 	},
 	{
@@ -1078,7 +1014,6 @@
 			"Perception": 1,
 			"Survival": 3
 		},
-		"talents": [],
 		"abilities": ["Long Arms"],
 		"weapons": [
 			{
@@ -1090,7 +1025,6 @@
 				"qualities": []
 			}
 		],
-		"gear": [],
 		"tags": ["book:sof", "location:Corellian Sector", "location:Sacorria", "creature"]
 	},
 	{
@@ -1113,7 +1047,6 @@
 			"Brawl": 1,
 			"Perception": 2
 		},
-		"talents": [],
 		"abilities": ["Silhouette 2", "Overrun", "Trample"],
 		"weapons": [
 			{
@@ -1125,7 +1058,6 @@
 				"qualities": ["Knockdown"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sof", "creature", "species:Ronto", "location:Nubia", "location:Corellian Sector"]
 	},
 	{
@@ -1163,7 +1095,6 @@
 				"qualities": ["Pierce 4", "Vicious 4"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sof", "creature", "location:Selonia", "location:Corellian Sector"]
 	},
 	{
@@ -1202,7 +1133,6 @@
 				"qualities": ["Pierce 2"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sof", "creature", "location:Corellia", "location:Corellian Sector"]
 	},
 	{
@@ -1251,7 +1181,6 @@
 				"qualities": ["Disorient 2", "Knockdown", "Prepare 1"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sof", "location:Corellian Sector", "creature", "location:Tralus/Talus"]
 	},
 	{
@@ -1289,7 +1218,6 @@
 				"qualities": []
 			}
 		],
-		"gear": [],
 		"tags": ["book:sof", "creature", "location:Corellia", "location:Corellian Sector"]
 	},
 	{
@@ -1335,7 +1263,6 @@
 				"qualities": ["Pierce 3", "Stun 4"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sof", "location:Corellian Sector", "location:Tralus/Talus", "creature"]
 	},
 	{
@@ -1355,12 +1282,7 @@
 			"wounds": 2,
 			"defence": [0, 1]
 		},
-		"skills": {
-			"Brawl": 0,
-			"Coordination": 0,
-			"Vigilance": 0
-		},
-		"talents": [],
+		"skills": ["Brawl", "Coordination", "Vigilance"],
 		"abilities": ["Flyer", "Silhouette 0"],
 		"weapons": [
 			{
@@ -1372,7 +1294,6 @@
 				"qualities": ["Disorient 2", "Pierce 3", "Stun 3"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sof", "creature", "location:Selonia", "location:Corellian Sector"]
 	},
 	{
@@ -1395,7 +1316,6 @@
 		"skills": {
 			"Survival": 2
 		},
-		"talents": [],
 		"abilities": ["Silhouette 3", "Tunnelling"],
 		"weapons": [
 			{
@@ -1415,7 +1335,6 @@
 				"qualities": ["Concussive 3", "Knockdown", "Prepare 1"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sof", "creature", "location:Selonia", "location:Corellian Sector", "adventure:Tunnel Delving"]
 	},
 	{
@@ -1454,7 +1373,6 @@
 				"qualities": ["Vicious 2", "Sunder"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sof", "creature", "location:Corellia", "location:Corellian Sector"]
 	},
 	{
@@ -1474,12 +1392,8 @@
 			"soak": 3,
 			"wounds": 2
 		},
-		"skills": {
-			"Athletics": 0
-		},
-		"talents": [],
+		"skills": ["Athletics"],
 		"abilities": ["Droid", "Firefighter", "Fire Resistant"],
-		"weapons": [],
 		"gear": ["Fire suppression equipment"],
 		"tags": ["book:sof", "species:Droid"]
 	},
@@ -1500,13 +1414,8 @@
 			"soak": 0,
 			"wounds": 2
 		},
-		"skills": {
-			"Perception": 0,
-			"Vigilance": 0
-		},
-		"talents": [],
+		"skills": ["Perception", "Vigilance"],
 		"abilities": ["Droid", "Flyer"],
-		"weapons": [],
 		"gear": ["Holocam"],
 		"tags": ["book:sof", "species:Droid"]
 	},
@@ -1533,8 +1442,6 @@
 			"Resilience": 1,
 			"Vigilance": 1
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": [
 			{
 				"name": "Selonian glaive",
@@ -1554,7 +1461,6 @@
 				"notes": "Use Agility rather than Brawn with this weapon."
 			}
 		],
-		"gear": [],
 		"tags": ["book:sof", "location:Corellian Sector", "adventure:Tunnel Delving", "oddity", "species:Selonian"]
 	},
 	{
@@ -1584,7 +1490,6 @@
 			"Vigilance": 2
 		},
 		"talents": ["Let’s Ride", "Feral Strength 2"],
-		"abilities": [],
 		"weapons": [
 			{
 				"name": "Flashstick",
@@ -1623,15 +1528,7 @@
 			"soak": 5,
 			"wounds": 6
 		},
-		"skills": {
-			"Brawl": 0,
-			"Melee": 0,
-			"Perception": 0,
-			"Stealth": 0,
-			"Vigilance": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Brawl", "Melee", "Perception", "Stealth", "Vigilance"],
 		"weapons": [
 			{
 				"name": "Selonian glaive",
@@ -1677,8 +1574,6 @@
 			"Perception": 2,
 			"Ranged: Light": 2
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": [
 			{
 				"name": "Scattergun blaster stashed behind counter",
@@ -1708,14 +1603,9 @@
 			"soak": 4,
 			"wounds": 4
 		},
-		"skills": {
-			"Ranged: Heavy": 0,
-			"Vigilance": 0
-		},
+		"skills": ["Ranged: Heavy", "Vigilance"],
 		"talents": ["Droid"],
-		"abilities": [],
 		"weapons": ["Blaster rifle"],
-		"gear": [],
 		"tags": ["book:sof", "adventure:Hard Bargain", "species:Droid", "security"]
 	},
 	{
@@ -1745,7 +1635,6 @@
 			"Streetwise": 2
 		},
 		"talents": ["Adversary 2"],
-		"abilities": [],
 		"weapons": ["Blaster pistol", "Brass knuckles"],
 		"gear": ["Padded armour (+2 Soak)", "Broken hyperdrive motivator"],
 		"tags": ["book:sof", "adventure:Hard Bargain", "underworld"]
@@ -1774,8 +1663,6 @@
 			"Streetwise": 2,
 			"Vigilance": 2
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Heavy blaster pistol", "Truncheon"],
 		"gear": ["Padded armour (+2 Soak)", "1 Stimpack", "Comlink"],
 		"tags": ["book:sof", "adventure:Hard Bargain", "species:Duros", "security"]
@@ -1807,7 +1694,6 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 1"],
-		"abilities": [],
 		"weapons": [
 			{
 				"name": "CR-2 Heavy blaster pistol",
@@ -1857,7 +1743,6 @@
 			"Streetwise": 3
 		},
 		"talents": ["Adversary 1", "Improved Full Throttle", "Natural Driver"],
-		"abilities": [],
 		"weapons": [
 			"Blaster pistol",
 			{
@@ -1896,8 +1781,6 @@
 			"Streetwise": 2,
 			"Vigilance": 2
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Vibroknife", "Holdout blaster"],
 		"gear": ["Disgusting racing hides (+1 Soak)", "Toolkit", "Emergency repair kit"],
 		"tags": ["book:sof", "adventure:Taming the Dragon", "mechanic", "underworld", "black seraph gang"]
@@ -1918,14 +1801,7 @@
 			"soak": 3,
 			"wounds": 5
 		},
-		"skills": {
-			"Melee": 0,
-			"Piloting: Planetary": 0,
-			"Ranged: Light": 0,
-			"Streetwise": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Melee", "Piloting: Planetary", "Ranged: Light", "Streetwise"],
 		"weapons": [
 			"Light blaster pistol",
 			{
@@ -1937,7 +1813,6 @@
 				"qualities": ["Inaccurate 1", "Knockdown"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sof", "adventure:Taming the Dragon", "swoop racer", "underworld", "black seraph gang"]
 	},
 	{
@@ -1960,7 +1835,6 @@
 			"Brawl": 1,
 			"Perception": 2
 		},
-		"talents": [],
 		"abilities": ["Silhouette 2", "Overrun", "Trample"],
 		"weapons": [
 			{
@@ -1972,7 +1846,6 @@
 				"qualities": ["Knockdown"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sof", "adventure:A Quick Stopover", "species:Ronto", "creature"]
 	},
 	{
@@ -2000,7 +1873,6 @@
 			"Vigi­lance": 2
 		},
 		"talents": ["Adversary 1"],
-		"abilities": [],
 		"weapons": [
 			"Blaster pistol",
 			{
@@ -2042,7 +1914,6 @@
 			"Streetwise": 2
 		},
 		"talents": ["Adversary 1", "Convincing Demeanor 2"],
-		"abilities": [],
 		"weapons": [
 			{
 				"name": "Cybernetic light blaster",
@@ -2080,7 +1951,6 @@
 			"Resilience": 2
 		},
 		"talents": ["Adversary 1"],
-		"abilities": [],
 		"weapons": ["Heavy blaster pistol", "Brass knuckles"],
 		"gear": ["Padded armour (+2 Soak)", "1 Stimpack"],
 		"tags": ["book:sof", "adventure:A Quick Stopover", "thug", "underworld", "location:Nubia", "location:The Sleeping Rancor"]
@@ -2110,9 +1980,6 @@
 			"Stealth": 2,
 			"Streetwise": 1
 		},
-		"talents": [],
-		"abilities": [],
-		"weapons": [],
 		"gear": ["Utility belt", "Cred stick with 2,000 credits", "Stolen gem (Eye of Corell)"],
 		"tags": ["book:sof", "adventure:Beyond the Boiling Sea", "location:Drall", "species:Drall", "nobility"]
 	},
@@ -2141,7 +2008,6 @@
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 1"],
-		"abilities": [],
 		"weapons": [
 			"Stun grenade",
 			{
@@ -2172,14 +2038,7 @@
 			"soak": 3,
 			"wounds": 7
 		},
-		"skills": {
-			"Melee": 0,
-			"Perception": 0,
-			"Ranged: Light": 0,
-			"Vigilance": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Melee", "Perception", "Ranged: Light", "Vigilance"],
 		"weapons": [
 			"Stun grenade",
 			{
@@ -2211,12 +2070,7 @@
 			"wounds": 4,
 			"defence": [1, 1]
 		},
-		"skills": {
-			"Brawl": 0,
-			"Coordination": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Brawl", "Coordination"],
 		"weapons": [
 			{
 				"name": "Sucker mouth",
@@ -2235,7 +2089,6 @@
 				"qualities": []
 			}
 		],
-		"gear": [],
 		"tags": ["book:sof", "adventure:Conical Six Summit"]
 	},
 	{
@@ -2261,9 +2114,6 @@
 			"Skuldug­gery": 2,
 			"Stealth": 2
 		},
-		"talents": [],
-		"abilities": [],
-		"weapons": [],
 		"gear": ["Scanner goggles"],
 		"tags": ["book:sof", "adventure:The Corellian Shuffle", "species:Duros"]
 	},
@@ -2292,9 +2142,6 @@
 			"Perception": 2,
 			"Stealth": 2
 		},
-		"talents": [],
-		"abilities": [],
-		"weapons": [],
 		"gear": ["Datapad", "Comlink"],
 		"tags": ["book:sof", "adventure:The Corellian Shuffle"]
 	},
@@ -2323,7 +2170,6 @@
 			"Piloting: Space": 3,
 			"Ranged: Light": 3
 		},
-		"talents": [],
 		"abilities": ["Pirate Leader"],
 		"weapons": ["Heavy blaster pistol"],
 		"gear": ["Padded armour (+2 Soak)", "Comlink"],
@@ -2345,13 +2191,7 @@
 			"soak": 5,
 			"wounds": 5
 		},
-		"skills": {
-			"Gunnery": 0,
-			"Piloting: Space": 0,
-			"Ranged: Light": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Gunnery", "Piloting: Space", "Ranged: Light"],
 		"weapons": ["Heavy blaster pistol"],
 		"gear": ["Armoured flight suit (+2 Soak)", "Modified Cloakshape starfighter"],
 		"tags": ["book:sof", "adventure:The Corellian Shuffle"]

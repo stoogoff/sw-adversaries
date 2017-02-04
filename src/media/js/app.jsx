@@ -53,11 +53,16 @@ class App extends React.Component {
 			let tags = ["minion", "rival", "nemesis"];
 
 			adversaries.forEach(a => {
-				a.tags.forEach(t => {
-					if(tags.indexOf(t) == -1) {
-						tags.push(t);
-					}
-				});
+				if(a.tags == null) {
+					a.tags = [];
+				}
+				else {
+					a.tags.forEach(t => {
+						if(tags.indexOf(t) == -1) {
+							tags.push(t);
+						}
+					});
+				}
 
 				a.tags.push(a.type.toLowerCase());
 			});

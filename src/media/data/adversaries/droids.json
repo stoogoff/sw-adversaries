@@ -2,7 +2,6 @@
 	{
 		"name": "2-1B Medical Droid",
 		"type": "Rival",
-		"description": "",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 1,
@@ -20,9 +19,7 @@
 			"Medicine": 3,
 			"Perception": 2
 		},
-		"talents": [],
 		"abilities": ["Droid"],
-		"weapons": [],
 		"gear": ["Built-in diagnostic and surgical tools (adds a :boost: to Medicine checks and counts as a stimpack that can be used once per session)"],
 		"tags": ["species:Droid", "book:ragp", "adventure:Rescue at Glare Peak", "medic"]
 	},
@@ -51,10 +48,7 @@
 			"Negotiation": 2
 
 		},
-		"talents": [],
 		"abilities": ["Droid", "Etiquette and Protocol"],
-		"weapons": [],
-		"gear": [],
 		"tags": ["book:da", "species:Droid", "protocol droid"]
 	},
 	{
@@ -95,7 +89,6 @@
 				"qualities": ["Disorient 2", "Stun Damage"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sor", "species:Droid", "location:Sullust", "security", "sorosuub", "adventure:Claustrophobia"]
 	},
 	{
@@ -126,10 +119,7 @@
 			"Knowledge: Xenology": 1
 
 		},
-		"talents": [],
 		"abilities": ["Droid", "Etiquette and Protocol"],
-		"weapons": [],
-		"gear": [],
 		"tags": ["book:da", "species:Droid", "protocol droid"]
 	},
 	{
@@ -193,13 +183,9 @@
 			"soak": 3,
 			"wounds": 3
 		},
-		"skills": {
-			"Computers": 0,
-			"Knowledge: Education": 0
-		},
+		"skills": ["Computers", "Knowledge: Education"],
 		"talents": ["Technical Aptitude 2"],
 		"abilities": ["Droid"],
-		"weapons": [],
 		"gear": ["Datapad"],
 		"tags": ["species:Droid", "book:fad"]
 	},
@@ -225,10 +211,8 @@
 			"Ranged: Heavy": 2,
 			"Vigilance": 3
 		},
-		"talents": [],
 		"abilities": ["Droid", "Huttese"],
 		"weapons": ["Blaster carbine", "Vibrosword"],
-		"gear": [],
 		"tags": ["species:Droid", "location:Hutt Space", "security", "book:lonh", "adventure:The Dead Road"]
 	},
 	{
@@ -248,13 +232,9 @@
 			"soak": 4,
 			"wounds": 4
 		},
-		"skills": {
-			"Ranged: Heavy": 0
-		},
-		"talents": [],
+		"skills": ["Ranged: Heavy"],
 		"abilities": ["Droid"],
 		"weapons": ["Blaster rifle"],
-		"gear": [],
 		"tags": ["species:Droid", "book:eote"]
 	},
 	{
@@ -309,7 +289,6 @@
 				"qualities": ["Blast 10", "Cumbersome 3", "Guided 3", "Breach 1", "Limited Ammo 6"]
 			}
 		],
-		"gear": [],
 		"tags": ["species:Droid", "assassin", "book:aor", "book:eote"]
 	},
 	{
@@ -336,8 +315,7 @@
 			"Mechanics": 2,
 			"Piloting: Space": 2
 		},
-		"talents": [],
-		"abilities": [],
+		"abilities": ["Droid"],
 		"weapons": [
 			{
 				"name": "Arc welder",
@@ -368,11 +346,7 @@
 			"soak": 2,
 			"wounds": 3
 		},
-		"skills": {
-			"Mechanics": 0,
-			"Melee": 0
-		},
-		"talents": [],
+		"skills": ["Mechanics", "Melee"],
 		"abilities": ["Droid", "Silhouette 0", "Vulnerable to Blasts"],
 		"weapons": [
 			{
@@ -384,7 +358,6 @@
 				"qualities": ["Pierce 2"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sm", "species:Droid", "remote"]
 	},
 	{
@@ -413,7 +386,6 @@
 		},
 		"talents": ["Bacta Specialist 2", "Surgeon 1"],
 		"abilities": ["Droid"],
-		"weapons": [],
 		"gear": ["Built-in diagnostic and surgical tools (counts as medpac as well as stimpack that can be used once per session)", "Synthflesh applicator (can adminis­ter application of synthflesh five times per session)"],
 		"tags": ["species:Droid", "medic", "book:sor"]
 	},
@@ -440,9 +412,7 @@
 			"Negotiation": 4,
 			"Perception": 1
 		},
-		"talents": [],
 		"abilities": ["Droid", "Etiquette and Protocol"],
-		"weapons": [],
 		"gear": ["In-built datapad", "Long-range comlink"],
 		"tags": ["book:da", "species:Droid", "protocol droid"]
 	},
@@ -479,7 +449,6 @@
 				"qualities": ["Vicious 1"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:fad", "adventure:Lessons from the Past", "species:Droid"]
 	},
 	{
@@ -499,14 +468,9 @@
 			"soak": 3,
 			"wounds": 2
 		},
-		"skills": {
-			"Computers": 0,
-			"Mechanics": 0,
-			"Perception": 0
-		},
+		"skills": ["Computers", "Mechanics", "Perception"],
 		"talents": ["Fine Tuning 2"],
 		"abilities": ["Droid", "Networking", "Silhouette 0"],
-		"weapons": [],
 		"gear": ["Built-in comms suite"],
 		"tags": ["book:ev", "species:Droid", "engineer"]
 	},
@@ -547,7 +511,6 @@
 				"notes": "Affects droids only."
 			}
 		],
-		"gear": [],
 		"tags": ["book:fh", "species:Droid"]
 	},
 	{
@@ -567,13 +530,8 @@
 			"soak": 2,
 			"wounds": 5
 		},
-		"skills": {
-			"Perception": 0
-		},
-		"talents": [],
+		"skills": ["Perception"],
 		"abilities": ["Droid", "Silhouette 0"],
-		"weapons": [],
-		"gear": [],
 		"tags": ["book:sm", "species:Droid", "remote"]
 	},
 	{
@@ -605,7 +563,6 @@
 		"talents": ["Nobody’s Fool 1"],
 		"abilities": ["Droid"],
 		"weapons": ["Blaster pistol", "Truncheon"],
-		"gear": [],
 		"tags": ["book:ev", "species:Droid", "security"]
 	},
 	{
@@ -632,7 +589,6 @@
 			"Ranged: Light": 2,
 			"Vigilance": 2
 		},
-		"talents": [],
 		"abilities": ["Droid", "Loyalty Imprint", "Olfactory Sensor Suite"],
 		"weapons": [
 			{
@@ -652,7 +608,6 @@
 				"qualities": ["Stun Setting"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:ktp", "species:Droid", "security"]
 	},
 	{
@@ -672,13 +627,8 @@
 			"soak": 4,
 			"wounds": 4
 		},
-		"skills": {
-			"Athletics": 0,
-			"Coordination": 0
-		},
-		"talents": [],
+		"skills": ["Athletics", "Coordination"],
 		"abilities": ["Droid"],
-		"weapons": [],
 		"gear": ["Cleaning devices", "Grabber claws"],
 		"tags": ["book:fh", "species:Droid"]
 	},
@@ -718,7 +668,6 @@
 	{
 		"name": "Imperial Security Droid",
 		"type": "Rival",
-		"description": "",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -736,7 +685,6 @@
 			"Ranged: Light": 2,
 			"Vigilance": 2
 		},
-		"talents": [],
 		"abilities": ["Droid", "Hoverer"],
 		"weapons": [
 			{
@@ -748,7 +696,6 @@
 				"qualities": ["Auto-Fire"]
 			}
 		],
-		"gear": [],
 		"tags": ["species:Droid", "empire", "security", "book:ragp", "adventure:Rescue at Glare Peak"]
 	},
 	{
@@ -774,7 +721,6 @@
 			"Perception": 2,
 			"Ranged: Light": 3
 		},
-		"talents": [],
 		"abilities": ["Droid", "Hoverer", "Silhouette 0"],
 		"weapons": [
 			{
@@ -821,7 +767,6 @@
 			"Melee": 2,
 			"Perception": 2
 		},
-		"talents": [],
 		"abilities": ["Droid"],
 		"weapons": [
 			{
@@ -860,10 +805,7 @@
 			"Knowledge: Xenology": 3,
 			"Negotiation": 2
 		},
-		"talents": [],
 		"abilities": ["Droid", "Etiquette and Protocol", "Insectoid Appear­ance"],
-		"weapons": [],
-		"gear": [],
 		"tags": ["book:da", "species:Droid", "protocol droid"]
 	},
 	{
@@ -889,10 +831,7 @@
 			"Negotiation": 2,
 			"Perception": 2
 		},
-		"talents": [],
 		"abilities": ["Droid", "Rhetoric Mimic"],
-		"weapons": [],
-		"gear": [],
 		"tags": ["book:da", "species:Droid", "protocol droid"]
 	},
 	{
@@ -918,10 +857,7 @@
 			"Knowledge: Warfare": 3,
 			"Vigilance": 2
 		},
-		"talents": [],
 		"abilities": ["Droid", "Military Analyst"],
-		"weapons": [],
-		"gear": [],
 		"tags": ["book:da", "species:Droid", "protocol droid"]
 	},
 	{
@@ -941,10 +877,7 @@
 			"soak": 3,
 			"wounds": 3
 		},
-		"skills": {
-			"Mechanics": 0
-		},
-		"talents": [],
+		"skills": ["Mechanics"],
 		"abilities": ["Droid"],
 		"weapons": ["Arc welder"],
 		"gear": ["Built-in repair tools (counts as tool kit as well as emergency repair kit that can be used once per session)"],
@@ -967,14 +900,8 @@
 			"wounds": 4,
 			"defence": [0, 3]
 		},
-		"skills": {
-			"Discipline": 0,
-			"Perception": 0,
-			"Stealth.": 0
-		},
-		"talents": [],
+		"skills": ["Discipline", "Perception", "Stealth"],
 		"abilities": ["Droid"],
-		"weapons": [],
 		"gear": ["Holorecorder", "Military comlink"],
 		"tags": ["book:aor", "adventure:Perlemian Haul", "species:Droid", "location:M226 Freighter", "empire", "imperial military"]
 	},
@@ -996,11 +923,7 @@
 			"wounds": 3,
 			"defence": [1, 1]
 		},
-		"skills": {
-			"Perception": 0,
-			"Ranged: Light": 0
-		},
-		"talents": [],
+		"skills": ["Perception", "Ranged: Light"],
 		"abilities": ["Droid", "Hoverer", "Silhouette 0"],
 		"weapons": [
 			{
@@ -1012,7 +935,6 @@
 				"qualities": ["Stun Damage"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:ktp", "species:Droid", "remote"]
 	},
 	{
@@ -1037,9 +959,7 @@
 			"Medicine": 3,
 			"Perception": 2
 		},
-		"talents": [],
 		"abilities": ["Droid"],
-		"weapons": [],
 		"gear": ["Built-in diagnostic and surgical tools (counts as medpac as well as stimpack that can be used once per session)"],
 		"tags": ["species:Droid", "medic", "book:aor", "book:eote", "book:fad"]
 	},
@@ -1060,18 +980,13 @@
 			"soak": 2,
 			"wounds": 1
 		},
-		"skills": {
-
-		},
-		"talents": [],
+		"skills": [],
 		"abilities": ["Droid", "Silhouette 0", "Surgeon’s Aid"],
-		"weapons": [],
-		"gear": [],
 		"tags": ["book:fh", "species:Droid", "medic"]
 	},
 	{
 		"name": "MI-Series Security Droid",
-		"type": "nemesis",
+		"type": "Nemesis",
 		"description": "Holowan Mechanicals’ imposing MI-series security droids are some of the most efficient and dangerous droids in the galaxy. A recent entry into an already crowded security droid field, Holowan made its new droids stand out by arming them to their metaphorical teeth and marketing them heavily among wealthy civilians and small planetary governments. Its plan paid off, and within a scant few years it has a nearly two-year waiting list for new MI-series models.",
 		"notes": "Cost 41,225 credits, Rarity 7, Restricted",
 		"characteristics": {
@@ -1123,7 +1038,6 @@
 				"qualities": ["Knockdown"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:ev", "species:Droid", "security"]
 	},
 	{
@@ -1146,7 +1060,6 @@
 			"Computers": 2,
 			"Mechanics": 2
 		},
-		"talents": [],
 		"abilities": ["Droid"],
 		"weapons": ["Arc welder",
 			{
@@ -1177,15 +1090,9 @@
 			"soak": 3,
 			"wounds": 6
 		},
-		"skills": {
-			"Ranged: Light": 0,
-			"Vigilance": 0
-
-		},
-		"talents": [],
+		"skills": ["Ranged: Light", "Vigilance"],
 		"abilities": ["Droid"],
 		"weapons": ["Light blaster pistol"],
-		"gear": [],
 		"tags": ["security", "location:Coruscant", "species:Droid", "book:uabs", "adventure:Under a Black Sun"]
 	},
 	{
@@ -1212,10 +1119,7 @@
 			"Negotiation": 2,
 			"Perception": 1
 		},
-		"talents": [],
 		"abilities": ["Droid", "Etiquette and Protocol"],
-		"weapons": [],
-		"gear": [],
 		"tags": ["species:Droid", "book:aor", "book:eote", "book:ragp", "adventure:Rescue at Glare Peak", "protocol droid"]
 	},
 	{
@@ -1242,9 +1146,7 @@
 			"Mechanics": 2,
 			"Piloting: Space": 2
 		},
-		"talents": [],
 		"abilities": ["Droid"],
-		"weapons": [],
 		"gear": ["On-board repair and diagnostic suite"],
 		"tags": ["book:sot", "species:Droid", "astromech", "engineer"]
 	},
@@ -1265,11 +1167,7 @@
 			"soak": 2,
 			"wounds": 3
 		},
-		"skills": {
-			"Perception": 0,
-			"Ranged: Light": 0
-		},
-		"talents": [],
+		"skills": ["Perception", "Ranged: Light"],
 		"abilities": ["Droid"],
 		"weapons": [
 			{
@@ -1331,13 +1229,8 @@
 			"soak": 1,
 			"wounds": 3
 		},
-		"skills": {
-			"Perception": 0,
-			"Vigilance": 0
-		},
-		"talents": [],
+		"skills": ["Perception", "Vigilance"],
 		"abilities": ["Droid", "Hoverer", "Silhouette 0"],
-		"weapons": [],
 		"gear": ["Recording holocam"],
 		"tags": ["book:ktp", "species:Droid", "remote"]
 	},
@@ -1364,9 +1257,7 @@
 			"Knowledge: Xenology": 3,
 			"Negotiation": 2
 		},
-		"talents": [],
 		"abilities": ["Droid"],
-		"weapons": [],
 		"gear": ["Olfactory and microwave sensors (add :boost::boost: to Perception checks)"],
 		"tags": ["species:Droid", "book:sor"]
 	},
@@ -1393,10 +1284,7 @@
 			"Knowledge: Xenology": 3,
 			"Negotiation": 3
 		},
-		"talents": [],
 		"abilities": ["Droid"],
-		"weapons": [],
-		"gear": [],
 		"tags": ["species:Droid", "book:sor", "protocol droid"]
 	},
 	{
@@ -1425,8 +1313,6 @@
 		},
 		"talents": ["Plausible Deniability 1", "Smooth Talker (Charm) 1"],
 		"abilities": ["Droid", "Backup Entertainer"],
-		"weapons": [],
-		"gear": [],
 		"tags": ["book:fh", "species:Droid", "entertainer"]
 	},
 	{
@@ -1450,7 +1336,6 @@
 			"Ranged: Light": 3,
 			"Vigilance": 3
 		},
-		"talents": [],
 		"abilities": ["Droid"],
 		"weapons": [
 			{
@@ -1470,7 +1355,6 @@
 				"qualities": ["Ensnare 5", "Limited Ammo 1"]
 			}
 		],
-		"gear": [],
 		"tags": ["species:Droid", "security", "book:eote"]
 	},
 	{
@@ -1493,10 +1377,7 @@
 			"Gunnery:": 2,
 			"Piloting: Space": 2
 		},
-		"talents": [],
 		"abilities": ["Droid"],
-		"weapons": [],
-		"gear": [],
 		"tags": ["book:eote", "adventure:Trouble Brewing", "pilot", "species:Droid"]
 	},
 	{
@@ -1516,13 +1397,9 @@
 			"soak": 2,
 			"wounds": 5
 		},
-		"skills": {
-			"Computers": 0,
-			"Mechanics": 0
-		},
+		"skills": ["Computers", "Mechanics"],
 		"talents": ["Technical Aptitude 1"],
 		"abilities": ["Droid", "Silhouette 0"],
-		"weapons": [],
 		"gear": ["Built-in toolkit"],
 		"tags": ["book:sm", "species:Droid", "remote"]
 	},
@@ -1544,12 +1421,9 @@
 			"wounds": 6,
 			"defence": [1, 1]
 		},
-		"skills": {
-			"Vigilance": 0
-		},
+		"skills": ["Vigilance"],
 		"talents": ["Body Guard 1"],
 		"abilities": ["Droid", "Silhouette 0"],
-		"weapons": [],
 		"gear": ["General purpose scanner"],
 		"tags": ["book:sm", "species:Droid", "remote"]
 	},
@@ -1578,10 +1452,7 @@
 			"Mechanics": 3,
 			"Piloting: Space": 2
 		},
-		"talents": [],
 		"abilities": ["Droid"],
-		"weapons": [],
-		"gear": [],
 		"tags": ["species:Droid", "book:sor", "sorosuub"]
 	},
 	{
@@ -1610,13 +1481,11 @@
 		"talents": ["Hunter 1", "Swift"],
 		"abilities": ["Droid"],
 		"weapons": ["Stun blaster"],
-		"gear": [],
 		"tags": ["species:Droid", "book:sor", "sorosuub"]
 	},
 	{
 		"name": "Tactical Assassin Droid",
 		"type": "Rival",
-		"description": "",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -1634,7 +1503,6 @@
 			"Ranged: Light": 1,
 			"Vigilance": 3
 		},
-		"talents": [],
 		"abilities": ["Droid"],
 		"weapons": [
 			"Force pike",
@@ -1647,7 +1515,6 @@
 				"qualities": ["Stun Setting"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:fad", "adventure:Lessons from the Past", "species:Droid"]
 	},
 	{
@@ -1674,10 +1541,7 @@
 			"Negotiation": 1,
 			"Perception": 2
 		},
-		"talents": [],
 		"abilities": ["Droid", "Etiquette and Protocol", "Advanced Language Module"],
-		"weapons": [],
-		"gear": [],
 		"tags": ["book:da", "species:Droid", "protocol droid"]
 	},
 	{
@@ -1712,7 +1576,6 @@
 		},
 		"talents": ["Adversary 2", "Indistinguishable 2"],
 		"abilities": ["Droid"],
-		"weapons": [],
 		"gear": ["Multi-spectrum disguise suite"],
 		"tags": ["book:ev", "species:Droid"]
 	},
@@ -1741,7 +1604,6 @@
 			"Survival": 2,
 			"Vigilance": 2
 		},
-		"talents": [],
 		"abilities": ["Droid", "Hoverer", "Self-destruct Mechanism"],
 		"weapons": [
 			{

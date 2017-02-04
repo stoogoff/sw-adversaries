@@ -153,7 +153,7 @@
 	},
 	{
 		"name": "Cunning Ambusher",
-		"description": "Opponents add :setback: per rank to Initiative checks using vigilance."
+		"description": "Opponents add :setback: per rank to Initiative checks using Vigilance."
 	},
 	{
 		"name": "Cybernetic Communications",
@@ -564,6 +564,10 @@
 		"description": "Immune to the effects of heat and hot environments."
 	},
 	{
+		"name": "Su­premely Terrifying",
+		"description": "Upon first seeing a sando aqua monster, an individual must make a :daunting: fear check with the difficulty upgraded once to reflect the sheer dread the beast invokes."
+	},
+	{
 		"name": "Surefooted",
 		"description": "Suffer no penalties when moving through difficult terrain."
 	},
@@ -577,7 +581,7 @@
 	},
 	{
 		"name": "Sweep Attack",
-		"description": "The rancor can spend :triumph: on a successful Brawl check to hit the target as well as anyone engaged with the target."
+		"description": "The creature can spend :triumph: on a successful Brawl check to hit the target as well as anyone engaged with the target."
 	},
 	{
 		"name": "Swipe",
@@ -601,7 +605,7 @@
 	},
 	{
 		"name": "Terrifying",
-		"description": "Upon first seeing a dimlurker, an individual must make a :hard: fear check."
+		"description": "Upon first sight, an individual must make a :hard: fear check."
 	},
 	{
 		"name": "Terrifying Howl",

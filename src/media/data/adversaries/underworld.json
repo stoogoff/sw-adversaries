@@ -21,8 +21,6 @@
 			"Ranged: Light": 2,
 			"Vigilance": 1
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Heavy blaster pistol", "Vibroknife"],
 		"gear": ["Heavy clothing (+1 soak)"],
 		"tags": ["underworld", "book:eote"]
@@ -50,10 +48,7 @@
 			"Survival": 2,
 			"Vigilance": 1
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Blaster carbine", "Combat knife"],
-		"gear": [],
 		"tags": ["underworld", "species:Barabel", "thug", "book:eote", "book:sof", "adventure:Hard Bargain"]
 	},
 	{
@@ -81,9 +76,7 @@
 			"Vigilance": 2
 		},
 		"talents": ["Black Market Contacts 2"],
-		"abilities": [],
 		"weapons": ["Blaster pistol"],
-		"gear": [],
 		"tags": ["underworld", "black marketeer", "book:aor"]
 	},
 	{
@@ -102,21 +95,13 @@
 			"soak": 3,
 			"wounds": 6
 		},
-		"skills": {
-			"Brawl": 0,
-			"Coercion": 0,
-			"Ranged: Light": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Brawl", "Coercion", "Ranged: Light"],
 		"weapons": ["Blaster pistol"],
-		"gear": [],
 		"tags": ["underworld", "black sun", "thug", "book:uabs", "adventure:Under a Black Sun"]
 	},
 	{
 		"name": "Black Sun Lackey",
 		"type": "Minion",
-		"description": "",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -129,15 +114,7 @@
 			"soak": 4,
 			"wounds": 8
 		},
-		"skills": {
-			"Brawl": 0,
-			"Coercion": 0,
-			"Melee": 0,
-			"Ranged :Light": 0,
-			"Stealth": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Brawl", "Coercion", "Melee", "Ranged :Light", "Stealth"],
 		"weapons": [
 			"Blaster pistol",
 			{
@@ -211,7 +188,6 @@
 			"Skulduggery": 2
 		},
 		"talents": ["Convincing Demeanor 1", "Nobody’s Fool 1"],
-		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Comm jammer", "Disguise kit"],
 		"tags": ["underworld", "book:fad"]
@@ -239,7 +215,6 @@
 			"Resilience": 5,
 			"Survival": 3
 		},
-		"talents": [],
 		"abilities": ["Pheromone Communication"],
 		"weapons": [
 			"Blaster carbine",
@@ -252,7 +227,6 @@
 				"qualities": ["Defensive 2", "Pierce 3"]
 			}
 		],
-		"gear": [],
 		"tags": ["underworld", "location:Hutt Space", "species:Weequay", "raquor’daan", "book:lonh"]
 	},
 	{
@@ -285,7 +259,6 @@
 		"talents": ["Adversary 3", "Deadly Accuracy", "Lethal Blows 2"],
 		"abilities": ["Light-Sensitive", "Shadowed"],
 		"weapons": ["Blaster pistol"],
-		"gear": [],
 		"tags": ["underworld", "species:Defel", "assassin", "book:eote"]
 	},
 	{
@@ -314,7 +287,6 @@
 			"Vigilance": 1
 		},
 		"talents": ["Expert Tracker 2", "Swift"],
-		"abilities": [],
 		"weapons": [
 			{
 				"name": "SakTek D-29 repulsor rifle",
@@ -344,12 +316,7 @@
 			"soak": 3,
 			"wounds": 6
 		},
-		"skills": {
-			"Perception": 0,
-			"Ranged: Light": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Perception", "Ranged: Light"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Heavy clothing (+1 soak)"],
 		"tags": ["underworld", "bounty hunter", "book:eote"]
@@ -381,7 +348,6 @@
 			"Survival": 2
 		},
 		"talents": ["Expert Tracker", "Quick Draw"],
-		"abilities": [],
 		"weapons": ["Disruptor pistol", "Stun grenade", "Bolas"],
 		"gear": ["Armoured clothing (+1 soak, +1 defence)", "Jetpack", "Utility belt", "2 Stun grenades"],
 		"tags": ["underworld", "bounty hunter", "book:aor", "book:fad"]
@@ -412,7 +378,6 @@
 			"Vigilance": 1
 		},
 		"talents": ["Adversary 1", "Lethal Blows 1"],
-		"abilities": [],
 		"weapons": ["Heavy blaster pistol", "Disruptor rifle"],
 		"gear": ["Laminate armour (+2 soak)"],
 		"tags": ["underworld", "bounty hunter", "book:eote"]
@@ -448,7 +413,6 @@
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 2", "Deadly Accuracy", "Lethal Blows 2", "Stalker 2"],
-		"abilities": [],
 		"weapons": [
 			"Vibroknife", "Stun grenade",
 			{
@@ -494,8 +458,6 @@
 			"Skulduggery": 2,
 			"Vigilance": 1
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Electronic forgers kit and tools"],
 		"tags": ["underworld", "book:eote", "forger"]
@@ -528,7 +490,6 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 1", "Natural Negotiater", "Spare Clip"],
-		"abilities": [],
 		"weapons": ["Disruptor pistol", "Holdout blaster"],
 		"gear": ["Armoured cloating (+1 soak, +1 defence)"],
 		"tags": ["underworld", "book:eote"]
@@ -555,7 +516,6 @@
 			"Streetwise": 2,
 			"Vigilance": 1
 		},
-		"talents": [],
 		"abilities": ["Critical Eye"],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Precision electronic forging tools"],
@@ -616,8 +576,6 @@
 			"Ranged: Light": 1,
 			"Survival": 1
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Vibro-ax", "Frag grenade"],
 		"gear": ["Beast-hide armout (+1 soak)", "2 Frag grenades"],
 		"tags": ["underworld", "thug", "species:Weequay", "book:aor"]
@@ -638,14 +596,7 @@
 			"soak": 4,
 			"wounds": 6
 		},
-		"skills": {
-			"Melee": 0,
-			"Perception": 0,
-			"Ranged: Light": 0,
-			"Vigilance": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Melee", "Perception", "Ranged: Light", "Vigilance"],
 		"weapons": ["Blaster pistol", "Vibroknife"],
 		"gear": ["Heavy clothing (+1 soak)"],
 		"tags": ["underworld", "species:Klatooinian", "thug", "book:lonh"]
@@ -674,7 +625,6 @@
 			"Resilience": 2,
 			"Stealth": 1
 		},
-		"talents": [],
 		"abilities": ["Brute Strength"],
 		"weapons": [
 			"Fists", "Truncheon",
@@ -687,7 +637,6 @@
 				"qualities": ["Disorient 1", "Knockdown"]
 			}
 		],
-		"gear": [],
 		"tags": ["underworld", "thug", "species:Houk", "book:lonh"]
 	},
 	{
@@ -706,16 +655,8 @@
 			"soak": 3,
 			"wounds": 6
 		},
-		"skills": {
-			"Brawl": 0,
-			"Coercion": 0,
-			"Melee": 0,
-			"Ranged: Light": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Brawl", "Coercion", "Melee", "Ranged: Light"],
 		"weapons": ["Blaster pistol", "Brass knuckles"],
-		"gear": [],
 		"tags": ["underworld", "thug", "species:Aqualish", "book:eote", "book:sof", "adventure:Hard Bargain"]
 	},
 	{
@@ -739,7 +680,6 @@
 			"Melee": 3
 		},
 		"talents": ["Knockdown"],
-		"abilities": [],
 		"weapons": [
 			{
 				"name": "Crude Gamorrean vibro-ax",
@@ -769,14 +709,9 @@
 			"soak": 3,
 			"wounds": 15
 		},
-		"skills": {
-			"Brawl": 0,
-			"Resilience": 0
-		},
+		"skills": ["Brawl", "Resilience"],
 		"talents": ["Durable 1"],
 		"abilities": ["Awkward", "Stinky"],
-		"weapons": [],
-		"gear": [],
 		"tags": ["underworld", "species:Hutt", "book:lonh"]
 	},
 	{
@@ -822,7 +757,6 @@
 				"qualities": ["Stun Setting"]
 			}
 		],
-		"gear": [],
 		"tags": ["underworld", "species:Hutt", "book:lonh"]
 	},
 	{
@@ -870,7 +804,6 @@
 				"qualities": ["Stun Setting"]
 			}
 		],
-		"gear": [],
 		"tags": ["underworld", "species:Hutt", "book:lonh"]
 	},
 	{
@@ -919,7 +852,6 @@
 				"qualities": ["Stun Setting"]
 			}
 		],
-		"gear": [],
 		"tags": ["underworld", "species:Hutt", "book:aor", "book:eote"]
 	},
 	{
@@ -952,8 +884,6 @@
 			"Vigilance": 2
 		},
 		"talents": ["Intimidating 2", "Nobody’s Fool 1", "Plausible Deniability 1"],
-		"abilities": [],
-		"weapons": [],
 		"gear": ["Fine robes"],
 		"tags": ["underworld", "book:lonh", "majordomo"]
 	},
@@ -1002,7 +932,6 @@
 				"qualities": ["Stun Setting"]
 			}
 		],
-		"gear": [],
 		"tags": ["underworld", "species:Hutt", "slaver", "book:fad"]
 	},
 	{
@@ -1033,8 +962,6 @@
 			"Perception": 2,
 			"Vigilance": 1
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Encrypted datapad", "Comlink"],
 		"tags": ["underworld", "book:aor", "book:eote"]
@@ -1064,7 +991,6 @@
 			"Resilience": 1,
 			"Survival": 1
 		},
-		"talents": [],
 		"abilities": ["Mountain Nikto", "Pale Nikto", "Green Nikto", "Red Nikto", "Southern Nikto"],
 		"weapons": [
 			{
@@ -1103,13 +1029,7 @@
 			"soak": 4,
 			"wounds": 5
 		},
-		"skills": {
-			"Cool": 0,
-			"Ranged: Heavy": 0,
-			"Ranged: Light": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Cool", "Ranged: Heavy", "Ranged: Light"],
 		"weapons": ["Heavy blaster pistol", "Blaster carbine", "Vibroknife"],
 		"gear": ["Padded armour (+2 soak)"],
 		"tags": ["underworld", "pirate", "book:aor", "book:eote"]
@@ -1173,8 +1093,6 @@
 			"Streetwise": 2,
 			"Knowledge: Underworld": 2
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Heavy hydrospanner"],
 		"gear": ["Tool kit"],
 		"tags": ["underworld", "engineer", "book:aor"]
@@ -1201,8 +1119,6 @@
 			"Ranged: Light": 2,
 			"Vigilance": 2
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": [
 			"Net", "Truncheon",
 			{
@@ -1214,7 +1130,6 @@
 				"qualities": ["Stun Damage"]
 			}
 		],
-		"gear": [],
 		"tags": ["underworld", "book:eote", "slaver"]
 	},
 	{
@@ -1242,7 +1157,6 @@
 			"Vigilance": 1
 		},
 		"talents": ["Adversary 1"],
-		"abilities": [],
 		"weapons": ["Heavy blaster pistol", "Stun grenade"],
 		"gear": ["Electronic lock breaker", "2 Stun grenades"],
 		"tags": ["underworld", "book:eote"]
@@ -1269,7 +1183,6 @@
 			"Skulduggery": 1
 		},
 		"talents": ["Bypass Security"],
-		"abilities": [],
 		"weapons": [
 			{
 				"name": "Stun blaster",
@@ -1308,10 +1221,8 @@
 			"Streetwise": 2,
 			"Vigilance": 1
 		},
-		"talents": [],
 		"abilities": ["Adversary 1", "Skilled Jockey 2"],
 		"weapons": ["Blaster pistol"],
-		"gear": [],
 		"tags": ["underworld", "smuggler", "book:aor", "book:eote"]
 	},
 	{
@@ -1346,7 +1257,6 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 1", "Master Pilot", "Skilled Jockey 2"],
-		"abilities": [],
 		"weapons": ["Heavy blaster pistol"],
 		"gear": ["Armoured cloathing (+1 soak, +1 defence)", "YT-2400 Freighter"],
 		"tags": ["underworld", "smuggler", "book:eote"]
@@ -1374,8 +1284,6 @@
 			"Skulduggery": 3,
 			"Streetwise": 4
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Heavy blaster pistol", "Vibroknife"],
 		"gear": ["Avabush spice", "Death sticks", "Glitterstim"],
 		"tags": ["underworld", "book:fad"]
@@ -1397,14 +1305,7 @@
 			"soak": 4,
 			"wounds": 5
 		},
-		"skills": {
-			"Melee": 0,
-			"Ranged: Light": 0,
-			"Ranged: Heavy": 0,
-			"Skulduggery": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Melee", "Ranged: Light", "Ranged: Heavy", "Skulduggery"],
 		"weapons": ["Blaster pistol", "Slugthrower rifle", "Truncheon"],
 		"gear": ["Heavy clothing (+1 soak)"],
 		"tags": ["underworld", "thug", "book:eote", "book:fad"]
@@ -1431,8 +1332,6 @@
 			"Ranged: Light": 1,
 			"Streetwise": 1
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Modified swoop bike"],
 		"tags": ["underworld", "book:eote", "thug"]
@@ -1462,9 +1361,7 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 1", "Black Market Contacts 2"],
-		"abilities": [],
 		"weapons": ["Blaster pistol", "Thermal detonator", "Shock gloves"],
-		"gear": [],
 		"tags": ["underworld", "species:Twi’lek", "black marketeer", "book:eote"]
 	},
 	{
@@ -1483,13 +1380,7 @@
 			"soak": 3,
 			"wounds": 5
 		},
-		"skills": {
-			"Charm": 0,
-			"Coordination": 0
-		},
-		"talents": [],
-		"abilities": [],
-		"weapons": [],
+		"skills": ["Charm", "Coordination"],
 		"gear": ["Dancing attire"],
 		"tags": ["underworld", "species:Twi’lek", "book:eote"]
 	},
@@ -1517,7 +1408,6 @@
 			"Survival": 1,
 			"Vigilance": 1
 		},
-		"talents": [],
 		"abilities": ["Loyalty"],
 		"weapons": [
 			{
@@ -1559,7 +1449,6 @@
 		"talents": ["Adversary 1"],
 		"abilities": ["Wookiee Rage"],
 		"weapons": ["Vibro-ax"],
-		"gear": [],
 		"tags": ["underworld", "species:Wookiee", "gladiator", "book:eote"]
 	}
 ]

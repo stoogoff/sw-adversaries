@@ -106,18 +106,19 @@ export default class WeaponsPanel extends React.Component {
 			return null;
 		}
 
-		character.weapons.forEach(w => {
-			let weapon = w instanceof Object ? w : allWeapons.find(a => a.name == w);
+		if(character.weapons != null) {
+			character.weapons.forEach(w => {
+				let weapon = w instanceof Object ? w : allWeapons.find(a => a.name == w);
 
-			if(!weapon) {
-				return null;
-			}
+				if(!weapon) {
+					return null;
+				}
 
-			weapons.push(getWeaponDetails(weapon, character, allSkills, this.props.minions));
-		});
+				weapons.push(getWeaponDetails(weapon, character, allSkills, this.props.minions));
+			});
 
-
-		weapons.sort(sortByProperty("name"));
+			weapons.sort(sortByProperty("name"));
+		}
 
 		return <div className="info">
 			<h2>Weapons</h2>

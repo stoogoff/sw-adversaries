@@ -21,7 +21,6 @@
 			"Survival": 2,
 			"Vigilance": 2
 		},
-		"talents": [],
 		"abilities": ["Many-armed"],
 		"weapons": [
 			"Blaster pistol",
@@ -54,13 +53,7 @@
 			"wounds": 5,
 			"defence": [1, 0]
 		},
-		"skills": {
-			"Brawl": 0,
-			"Mechanics": 0,
-			"Ranged: Light": 0,
-			"Stealth": 0
-		},
-		"talents": [],
+		"skills": ["Brawl", "Mechanics", "Ranged: Light", "Stealth"],
 		"abilities": ["Create Bacta"],
 		"weapons": [
 			"Frag grenade",
@@ -131,10 +124,7 @@
 			"Cool": 1,
 			"Knowledge: Lore": 3
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Holdout blaster"],
-		"gear": [],
 		"tags": ["galactic oddity", "civilian", "species:Ithorian", "book:eote"]
 	},
 	{
@@ -160,8 +150,6 @@
 		},
 		"talents": ["Blooded 2"],
 		"abilities": ["Humming Vibrations"],
-		"weapons": [],
-		"gear": [],
 		"tags": ["galactic oddity", "location:Hutt Space", "book:lonh"]
 	},
 	{
@@ -234,7 +222,6 @@
 		"talents": ["Adversary 1"],
 		"abilities": ["Heat Resistance"],
 		"weapons": ["Vibro-ax"],
-		"gear": [],
 		"tags": ["galactic oddity", "civilian", "species:Mustafarian", "book:fad"]
 	},
 	{
@@ -253,13 +240,7 @@
 			"soak": 2,
 			"wounds": 5
 		},
-		"skills": {
-			"Coordination": 0,
-			"Survival": 0,
-			"Vigilance": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Coordination", "Survival", "Vigilance"],
 		"weapons": [
 			{
 				"name": "Scrap crossbow",
@@ -296,10 +277,7 @@
 			"Deception": 4,
 			"Knowledge: Lore": 2
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Heavy blaster pistol"],
-		"gear": [],
 		"tags": ["galactic oddity", "species:Yarkora", "book:eote"]
 	},
 	{
@@ -343,7 +321,6 @@
 				"qualities": ["Pierce 1", "Vicious 1"]
 			}
 		],
-		"gear": [],
 		"tags": ["galactic oddity", "species:Klatooinian", "location:Hutt Space", "book:lonh"]
 	},
 	{
@@ -362,14 +339,7 @@
 			"soak": 1,
 			"wounds": 6
 		},
-		"skills": {
-			"Brawl": 0,
-			"Melee": 0,
-			"Skulduggery": 0,
-			"Stealth": 0,
-			"Survival": 0
-		},
-		"talents": [],
+		"skills": ["Brawl", "Melee", "Skulduggery", "Stealth", "Survival"],
 		"abilities": ["Cornered Fury"],
 		"weapons": [
 			{
@@ -389,7 +359,6 @@
 				"qualities": []
 			}
 		],
-		"gear": [],
 		"tags": ["book:aor", "adventure:Perlemian Haul", "location:M226 Freighter", "species:Ranat", "galactic oddity"]
 	},
 	{
@@ -408,13 +377,7 @@
 			"soak": 2,
 			"wounds": 8
 		},
-		"skills": {
-			"Brawl": 0,
-			"Melee": 0,
-			"Stealth": 0,
-			"Survival": 0
-		},
-		"talents": [],
+		"skills": ["Brawl", "Melee", "Stealth", "Survival"],
 		"abilities": ["Cornered Fury"],
 		"weapons": [
 			{
@@ -434,7 +397,6 @@
 				"qualities": []
 			}
 		],
-		"gear": [],
 		"tags": ["book:aor", "adventure:Perlemian Haul", "location:M226 Freighter", "species:Ranat", "galactic oddity"]
 	},
 	{
@@ -455,11 +417,7 @@
 			"wounds": 3,
 			"defence": [1, 0]
 		},
-		"skills": {
-			"Brawl": 0,
-			"Resilience": 0,
-			"Survival": 0
-		},
+		"skills": ["Brawl", "Resilience", "Survival"],
 		"talents": ["Forager"],
 		"abilities": ["Bantha Affinity"],
 		"weapons": ["Gaffi stick"],
@@ -604,7 +562,6 @@
 			"Melee": 3
 		},
 		"talents": ["Knockdown"],
-		"abilities": [],
 		"weapons": [
 			{
 				"name": "Huge axe",
@@ -615,7 +572,6 @@
 				"qualities": ["Cumbersome 5"]
 			}
 		],
-		"gear": [],
 		"tags": ["galactic oddity", "species:Gamorrean", "book:ss"]
 	}
 ]

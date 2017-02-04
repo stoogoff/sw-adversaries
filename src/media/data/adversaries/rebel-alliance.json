@@ -15,12 +15,7 @@
 			"soak": 3,
 			"wounds": 5
 		},
-		"skills": {
-			"Melee": 0,
-			"Ranged: Heavy": 0,
-			"Vigilance": 0
-		},
-		"talents": [],
+		"skills": ["Melee", "Ranged: Heavy", "Vigilance"],
 		"abilities": ["Covering Fire"],
 		"weapons": ["Blaster rifle", "Combat knife"],
 		"gear": ["Blast vest (+1 soak)"],
@@ -48,8 +43,6 @@
 			"Streetwise": 1,
 			"Skulduggery": 2
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Encoded datapad", "Secure comlink"],
 		"tags": ["rebel alliance", "book:aor"]
@@ -77,8 +70,6 @@
 			"Negotiation": 2
 		},
 		"talents": ["Kill with Kindness"],
-		"abilities": [],
-		"weapons": [],
 		"gear": ["Comlink", "Datapad", "Robes (+1 soak)"],
 		"tags": ["rebel alliance", "book:aor"]
 	},
@@ -136,7 +127,6 @@
 			"Mechanics": 2
 		},
 		"talents": ["Gearhead 1"],
-		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Datapad with schematics", "Repair tools"],
 		"tags": ["rebel alliance", "engineer", "book:aor"]
@@ -157,11 +147,7 @@
 			"soak": 3,
 			"wounds": 4
 		},
-		"skills": {
-			"Mechanics": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Mechanics"],
 		"weapons": ["Heavy hydrospanner"],
 		"gear": ["Repair tools"],
 		"tags": ["rebel alliance", "engineer", "book:aor"]
@@ -182,13 +168,7 @@
 			"soak": 2,
 			"wounds": 5
 		},
-		"skills": {
-			"Cool": 0,
-			"Gunnery": 0,
-			"Piloting: Space": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Cool", "Gunnery", "Piloting: Space"],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Flight suit", "Y-wing or X-wing"],
 		"tags": ["book:sor", "rebel alliance", "pilot", "location:Polis Massa", "adventure:Phantoms in the Dark"]
@@ -242,7 +222,6 @@
 			"Streetwise": 2
 		},
 		"talents": ["Know Somebody 2", "Nobody’s Fool 1"],
-		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Blast vest (+1 soak)"],
 		"tags": ["rebel alliance", "book:aor"]
@@ -342,8 +321,6 @@
 			"Gunnery": 2,
 			"Piloting: Space": 3
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Flight suit", "Astromech droid"],
 		"tags": ["rebel alliance", "pilot", "book:aor"]
@@ -364,13 +341,7 @@
 			"soak": 2,
 			"wounds": 5
 		},
-		"skills": {
-			"Cool": 0,
-			"Gunnery": 0,
-			"Piloting: Space": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Cool", "Gunnery", "Piloting: Space"],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Flight suit"],
 		"tags": ["rebel alliance", "pilot", "book:aor", "adventure:Operation Shell Game"]
@@ -391,16 +362,7 @@
 			"soak": 5,
 			"wounds": 5
 		},
-		"skills": {
-			"Melee": 0,
-			"Perception": 0,
-			"Ranged: Heavy": 0,
-			"Ranged: Light": 0,
-			"Skulduggery": 0,
-			"Stealth": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Melee", "Perception", "Ranged: Heavy", "Ranged: Light", "Skulduggery", "Stealth"],
 		"weapons": ["Blaster carbine", "Combat knife", "Frag grenade"],
 		"gear": ["Padded armour (+2 Soak)", "Comlink", "3 Frag grenades"],
 		"tags": ["book:sor", "rebel alliance", "species:Sullustan", "location:Sullust", "sullustan resistance", "adventure:Claustrophobia"]

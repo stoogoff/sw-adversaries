@@ -2,7 +2,6 @@
 	{
 		"name": "Detention Centre Guard",
 		"type": "Minion",
-		"description": "",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -15,15 +14,7 @@
 			"soak": 3,
 			"wounds": 5
 		},
-		"skills": {
-			"Coercion": 0,
-			"Discipline": 0,
-			"Melee": 0,
-			"Ranged: Light": 0,
-			"Vigilance": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Coercion", "Discipline", "Melee", "Ranged: Light", "Vigilance"],
 		"weapons": ["Blaster pistol", "Stun baton"],
 		"gear": ["Guard uniform and helmet (+1 Soak)", "Imperial ID"],
 		"tags": ["empire", "imperial military", "book:ragp", "adventure:Rescue at Glare Peak"]
@@ -31,7 +22,6 @@
 	{
 		"name": "Detention Centre Officer",
 		"type": "Rival",
-		"description": "",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -58,7 +48,6 @@
 	{
 		"name": "Detention Centre Staff",
 		"type": "Minion",
-		"description": "",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -71,14 +60,7 @@
 			"soak": 2,
 			"wounds": 5
 		},
-		"skills": {
-			"Computers": 0,
-			"Mechanics": 0,
-			"Perception": 0
-		},
-		"talents": [],
-		"abilities": [],
-		"weapons": [],
+		"skills": ["Computers", "Mechanics", "Perception"],
 		"gear": ["Imperial ID", "General datapad", "Detention centre uniform or maintenance coverall"],
 		"tags": ["empire", "imperial military", "book:ragp", "adventure:Rescue at Glare Peak"]
 	},
@@ -98,13 +80,7 @@
 			"soak": 3,
 			"wounds": 5
 		},
-		"skills": {
-			"Discipline": 0,
-			"Ranged: Heavy": 0,
-			"Ranged: Light": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Discipline", "Ranged: Heavy", "Ranged: Light"],
 		"weapons": ["Blaster rifle", "Frag grenade"],
 		"gear": ["Trooper uniform and helmet (+1 Soak)", "2 Frag grenades"],
 		"tags": ["empire", "imperial military", "book:aor"]
@@ -152,7 +128,6 @@
 				"qualities": ["Pierce 2", "Vicious 2"]
 			}
 		],
-		"gear": [],
 		"tags": ["empire", "imperial military", "assassin", "book:fad"]
 	},
 	{
@@ -171,14 +146,7 @@
 			"soak": 5,
 			"wounds": 5
 		},
-		"skills": {
-			"Coercion": 0,
-			"Melee": 0,
-			"Ranged: Heavy": 0,
-			"Vigilance": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Coercion", "Melee", "Ranged: Heavy", "Vigilance"],
 		"weapons": ["Riot gun", "Truncheon"],
 		"gear": ["Binders", "Comlink", "Padded armour (+2 Soak)"],
 		"tags": ["empire", "imperial military", "book:fad"]
@@ -199,10 +167,7 @@
 			"soak": 3,
 			"wounds": 5
 		},
-		"skills": {
-			"Gunnery": 0
-		},
-		"talents": [],
+		"skills": ["Gunnery"],
 		"abilities": ["Gun Crew"],
 		"weapons": ["Holdout blaster", "Heavy repeating blaster"],
 		"gear": ["Trooper uniform and helmet (+1 Soak)"],
@@ -252,12 +217,7 @@
 			"soak": 3,
 			"wounds": 5
 		},
-		"skills": {
-			"Perception": 0,
-			"Ranged: Light": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Perception", "Ranged: Light"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Blast vest and helmet (+1 Soak)"],
 		"tags": ["empire", "imperial military", "book:aor", "book:eote", "adventure:Perlemian Haul", "adventure:Operation Shell Game"]
@@ -265,7 +225,6 @@
 	{
 		"name": "Imperial Naval Engineer",
 		"type": "Minion",
-		"description": "",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -278,14 +237,8 @@
 			"soak": 2,
 			"wounds": 5
 		},
-		"skills": {
-			"Computers": 0,
-			"Mechanics": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Computers", "Mechanics"],
 		"weapons": ["Light blaster pistol"],
-		"gear": [],
 		"tags": ["adventure:Operation Shell Game", "empire", "imperial military", "mechanic"]
 	},
 	{
@@ -304,15 +257,7 @@
 			"soak": 4,
 			"wounds": 5
 		},
-		"skills": {
-			"Discipline": 0,
-			"Perception": 0,
-			"Piloting: Planetary": 0,
-			"Ranged: Light": 0,
-			"Vigilance": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Discipline", "Perception", "Piloting: Planetary", "Ranged: Light", "Vigilance"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Blast vest and helmet (+1 Soak)", "Comlink (handheld)"],
 		"tags": ["book:aor", "adventure:Perlemian Haul", "empire", "imperial military", "location:M226 Freighter"]
@@ -371,7 +316,6 @@
 			"Vigilance": 4
 		},
 		"talents": ["Adversary 2", "Heightened Awareness", "Parry 4"],
-		"abilities": [],
 		"weapons": [
 			"Heavy blaster pistol",
 			{
@@ -389,7 +333,6 @@
 	{
 		"name": "ISB Technician",
 		"type": "Minion",
-		"description": "",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -402,16 +345,7 @@
 			"soak": 2,
 			"wounds": 5
 		},
-		"skills": {
-			"Computers": 0,
-			"Discipline": 0,
-			"Mechanics": 0,
-			"Melee": 0,
-			"Ranged: Light": 0,
-			"Vigilance": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Computers", "Discipline", "Mechanics", "Melee", "Ranged: Light", "Vigilance"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Tool kit", "Specialised electronics gear", "ISB uniform", "ISB ID"],
 		"tags": ["empire", "imperial security bureau", "book:ragp", "adventure:Rescue at Glare Peak"]
@@ -419,7 +353,6 @@
 	{
 		"name": "Imperial Technician",
 		"type": "Minion",
-		"description": "",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -432,11 +365,7 @@
 			"soak": 2,
 			"wounds": 4
 		},
-		"skills": {
-			"Mechanics": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Mechanics"],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Tool kit"],
 		"tags": ["adventure:Operation Shell Game", "empire", "imperial military"]
@@ -444,7 +373,6 @@
 	{
 		"name": "Imperial Security Detail",
 		"type": "Minion",
-		"description": "",
 		"notes": "Wound Threshold has been reduced to 5 as the 10 in the adventure seems wrong for a minion squad.",
 		"characteristics": {
 			"Brawn": 3,
@@ -458,11 +386,7 @@
 			"soak": 4,
 			"wounds": 5
 		},
-		"skills": {
-			"Ranged: Heavy": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Ranged: Heavy"],
 		"weapons": ["Blaster carbine"],
 		"gear": ["Blast vest (+1 Soak)", "Military comlink"],
 		"tags": ["adventure:Operation Shell Game", "empire", "imperial military"]
@@ -490,7 +414,6 @@
 			"Piloting: Space": 2
 		},
 		"talents": ["Adversary 1", "Natural Pilot", "Skilled Jockey 1"],
-		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Flight suit", "Sensory augmentation package (add :advantage: to all Perception checks)"],
 		"tags": ["book:sor", "empire", "imperial military", "adventure:Phantoms in the Dark", "pilot"]
@@ -515,8 +438,6 @@
 			"Gunnery": 2,
 			"Piloting: Planetary": 2
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Blaster carbine"],
 		"gear": ["Trooper uniform and helmet (+1 Soak)"],
 		"tags": ["empire", "imperial military", "book:aor"]
@@ -547,8 +468,6 @@
 			"Streetwise": 2,
 			"Vigilance": 2
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Encrypted datapad", "Secure comlink"],
 		"tags": ["empire", "imperial military", "book:aor"]
@@ -576,7 +495,6 @@
 			"Vigilance": 1
 		},
 		"talents": ["Indistinguishable 1"],
-		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Disguise kit", "Disassembly-capable secure military comlink"],
 		"tags": ["empire", "imperial military", "book:aor"]
@@ -597,14 +515,8 @@
 			"soak": 2,
 			"wounds": 5
 		},
-		"skills": {
-			"Computers": 0,
-			"Mechanics": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Computers", "Mechanics"],
 		"weapons": ["Light blaster pistol"],
-		"gear": [],
 		"tags": ["empire", "imperial military", "engineer", "book:aor"]
 	},
 	{
@@ -623,14 +535,7 @@
 			"soak": 2,
 			"wounds": 5
 		},
-		"skills": {
-			"Astrogation": 0,
-			"Computers": 0,
-			"Piloting: Space": 0,
-			"Ranged: Light": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Astrogation", "Computers", "Piloting: Space", "Ranged: Light"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Uniform"],
 		"tags": ["book:aor", "adventure:Perlemian Haul", "empire", "imperial military", "location:M226 Freighter"]
@@ -661,9 +566,6 @@
 			"Melee": 2,
 			"Vigilance": 2
 		},
-		"talents": [],
-		"abilities": [],
-		"weapons": [],
 		"gear": ["Comlink (handheld)", "Breath mask", "Utility belt", "Datapad"],
 		"tags": ["book:aor", "adventure:Perlemian Haul", "imperial military", "empire", "engineer", "location:M226 Freighter"]
 	},
@@ -683,16 +585,7 @@
 			"soak": 2,
 			"wounds": 4
 		},
-		"skills": {
-			"Athletics": 0,
-			"Brawl": 0,
-			"Mechanics": 0,
-			"Melee": 0,
-			"Vigilance": 0
-		},
-		"talents": [],
-		"abilities": [],
-		"weapons": [],
+		"skills": ["Athletics", "Brawl", "Mechanics", "Melee", "Vigilance"],
 		"gear": ["Comlink (handheld)", "Breath mask", "Utility belt"],
 		"tags": ["book:aor", "adventure:Perlemian Haul", "imperial military", "empire", "engineer", "location:M226 Freighter"]
 	},
@@ -713,14 +606,7 @@
 			"soak": 5,
 			"wounds": 5
 		},
-		"skills": {
-			"Athletics": 0,
-			"Discipline": 0,
-			"Melee": 0,
-			"Ranged: Heavy": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Athletics", "Discipline", "Melee", "Ranged: Heavy"],
 		"weapons": [
 			"Blaster rifle", "Vibroknife", "Frag grenade",
 			{
@@ -823,16 +709,7 @@
 			"soak": 5,
 			"wounds": 5
 		},
-		"skills": {
-			"Athletics": 0,
-			"Discipline": 0,
-			"Melee": 0,
-			"Ranged: Heavy": 0,
-			"Resilience": 0,
-			"Survival": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Athletics", "Discipline", "Melee", "Ranged: Heavy", "Resilience", "Survival"],
 		"weapons": ["Blaster rifle", "Vibroknife"],
 		"gear": ["Utility belt", "Extra reloads", "High-temp stormtrooper armour (+2 Soak; when making skill checks, sandtroopers may remove :setback::setback: imposed due to arid or hot environmental conditions)", "Food and water packs"],
 		"tags": ["empire", "imperial military", "stormtrooper", "book:aor"]
@@ -853,16 +730,7 @@
 			"soak": 4,
 			"wounds": 5
 		},
-		"skills": {
-			"Athletics": 0,
-			"Discipline": 0,
-			"Melee": 0,
-			"Ranged: Heavy": 0,
-			"Ranged: Light": 0,
-			"Vigilance": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Athletics", "Discipline", "Melee", "Ranged: Heavy", "Ranged: Light", "Vigilance"],
 		"weapons": [
 			"Light blaster pistol", "Frag grenade",
 			{
@@ -893,18 +761,7 @@
 			"soak": 5,
 			"wounds": 5
 		},
-		"skills": {
-			"Athletics": 0,
-			"Discipline": 0,
-			"Melee": 0,
-			"Percep­tion": 0,
-			"Ranged: Heavy": 0,
-			"Ranged: Light": 0,
-			"Survival": 0,
-			"Vigilance": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Athletics", "Discipline", "Melee", "Percep­tion", "Ranged: Heavy", "Ranged: Light", "Survival", "Vigilance"],
 		"weapons": ["Blaster carbine", "Frag grenade"],
 		"gear": ["Electrobinoculars", "Extra reloads", "2 Frag grenades", "Rebreather", "Swamptrooper armour (+2 Soak, adds :boost: to Stealth checks made within a forest or swamp environment)", "Utility belt"],
 		"tags": ["empire", "imperial military", "stormtrooper", "book:lonh", "adventure:Toydarian Grocery Shopping"]
@@ -926,17 +783,7 @@
 			"soak": 5,
 			"wounds": 5
 		},
-		"skills": {
-			"Athletics": 0,
-			"Discipline": 0,
-			"Gunnery": 0,
-			"Melee": 0,
-			"Ranged: Heavy": 0,
-			"Resilience": 0,
-			"Survival": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Athletics", "Discipline", "Gunnery", "Melee", "Ranged: Heavy", "Resilience", "Survival"],
 		"weapons": [
 			"Heavy repeating blaster",
 			{
@@ -967,12 +814,7 @@
 			"soak": 2,
 			"wounds": 5
 		},
-		"skills": {
-			"Gunnery": 0,
-			"Piloting: Space": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Gunnery", "Piloting: Space"],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Flight suit"],
 		"tags": ["empire", "imperial military", "pilot", "book:aor", "book:fad", "adventure:Operation Shell Game"]
@@ -997,8 +839,6 @@
 			"Gunnery": 2,
 			"Piloting: Space": 2
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Flight suit", "Sensory augmentation package (add :advantage: to any Perception checks made by the character)"],
 		"tags": ["empire", "imperial military", "pilot", "book:aor"]

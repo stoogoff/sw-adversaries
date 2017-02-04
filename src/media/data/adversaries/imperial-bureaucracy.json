@@ -20,7 +20,6 @@
 			"Computers": 1
 		},
 		"talents": ["Nobody’s Fool 1"],
-		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Secure datapad with uplink to BoSS database", "Comlink"],
 		"tags": ["empire", "imperial bureaucracy", "book:aor"]
@@ -49,8 +48,6 @@
 			"Knowledge: Core Worlds": 2,
 			"Knowledge: Warfare": 2
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Disruptor pistol"],
 		"gear": ["Military comlink"],
 		"tags": ["empire", "imperial bureaucracy", "book:aor"]
@@ -80,8 +77,6 @@
 			"Negotiation": 3
 		},
 		"talents": ["Nobody’s Fool 2"],
-		"abilities": [],
-		"weapons": [],
 		"gear": ["Datapad of Imperial regulations"],
 		"tags": ["empire", "imperial bureaucracy", "book:fad"]
 	},
@@ -114,8 +109,6 @@
 			"Vigilance": 3
 		},
 		"talents": ["Natural Charmer", "Nobody’s Fool 2", "Plausible Deniability 2"],
-		"abilities": [],
-		"weapons": [],
 		"gear": ["Lavishly adorned robes", "Extensive credentials", "Sundry personal staff"],
 		"tags": ["empire", "imperial bureaucracy", "book:aor"]
 	},
@@ -145,7 +138,6 @@
 		"talents": ["Improved Scathing Tirade"],
 		"abilities": ["Destabilizing Influence"],
 		"weapons": ["Holdout blaster"],
-		"gear": [],
 		"tags": ["empire", "imperial bureaucracy", "book:aor"]
 	},
 	{
@@ -174,7 +166,6 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 1"],
-		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Scanner"],
 		"tags": ["empire", "imperial bureaucracy", "book:eote"]
@@ -211,7 +202,6 @@
 		"talents": ["Adversary 1", "Plausible Deniability 4", "Supreme Inspiring Rhetoric"],
 		"abilities": ["Imperial Valour"],
 		"weapons": ["Blaster pistol"],
-		"gear": [],
 		"tags": ["empire", "imperial bureaucracy", "book:aor", "book:eote"]
 	}
 ]

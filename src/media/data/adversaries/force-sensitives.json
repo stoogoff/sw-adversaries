@@ -22,7 +22,6 @@
 			"Vigilance": 1
 		},
 		"talents": ["Gearhead", "Force Rating 1", "Imbue Item"],
-		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Toolkit", "Emergency repair kit"],
 		"tags": ["force sensitive", "engineer", "book:fad"]
@@ -56,7 +55,6 @@
 		"talents": ["Force Rating 1", "Intuitive Evasion", "Skilled Jockey 2"],
 		"abilities": ["Force power: Influence (Upgrade)"],
 		"weapons": ["Blaster pistol"],
-		"gear": [],
 		"tags": ["force sensitive", "underworld", "smuggler", "book:fad"]
 	},
 	{
@@ -113,7 +111,6 @@
 		"talents": ["Force Rating 1", "Second Chances 2"],
 		"abilities": ["All the Luck in the Galaxy"],
 		"weapons": ["Holdout blaster"],
-		"gear": [],
 		"tags": ["force sensitive", "underworld", "book:fad", "gambler"]
 	},
 	{
@@ -257,7 +254,6 @@
 		"talents": ["Adversary 2", "Force Rating 3", "Sense Danger", "Sense Emotions", "Uncanny Senses 2"],
 		"abilities": ["Force power: Move", "Force power: Sense", "On the Edge"],
 		"weapons": ["Lightsaber"],
-		"gear": [],
 		"tags": ["force sensitive", "jedi", "book:eote"]
 	},
 	{
@@ -334,7 +330,6 @@
 				"qualities": ["Pierce 2", "Vicious 2"]
 			}
 		],
-		"gear": [],
 		"tags": ["force sensitive", "underworld", "book:fad"]
 	},
 	{

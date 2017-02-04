@@ -15,14 +15,7 @@
 			"soak": 4,
 			"wounds": 4
 		},
-		"skills": {
-			"Coercion": 0,
-			"Melee": 0,
-			"Perception": 0,
-			"Ranged: Light": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Coercion", "Melee", "Perception", "Ranged: Light"],
 		"weapons": ["Truncheon", "Light blaster pistol"],
 		"gear": ["Comlink (handheld)", "Padded armour (+2 Soak)"],
 		"tags": ["book:fad", "adventure:Lessons from the Past", "security"]
@@ -50,8 +43,6 @@
 			"Knowledge: Core Worlds": 2,
 			"Knowledge: Education": 2
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": [
 			{
 				"name": "Duelist blaster pistol",
@@ -132,14 +123,8 @@
 			"soak": 1,
 			"wounds": 4
 		},
-		"skills": {
-			"Charm": 0,
-			"Cool": 0,
-			"Perception": 0
-		},
-		"talents": [],
+		"skills": ["Charm", "Cool", "Perception"],
 		"abilities": ["Keen Senses"],
-		"weapons": [],
 		"gear": ["Musical instrument"],
 		"tags": ["civilian", "location:Rim Worlds", "species:Bith", "book:fad", "entertainer"]
 	},
@@ -159,26 +144,13 @@
 			"soak": 3,
 			"wounds": 4
 		},
-		"skills": {
-			"Athletics": 0,
-			"Coordination": 0,
-			"Knowl­edge: Education": 0,
-			"Knowledge: Warfare": 0,
-			"Discipline,": 0,
-			"Piloting: Planetary": 0,
-			"Ranged: Light": 0,
-			"Vigilance.": 0
-		},
-		"talents": [],
-		"abilities": [],
-		"weapons": [],
+		"skills": ["Athletics", "Coordination", "Knowl­edge: Education", "Knowledge: Warfare", "Discipline,", "Piloting: Planetary", "Ranged: Light", "Vigilance."],
 		"gear": ["Comlink", "Datapad", "Academy uniform"],
 		"tags": ["military", "location:Chandrila", "book:sor", "species:Chandrilan"]
 	},
 	{
 		"name": "Campus Security",
 		"type": "Minion",
-		"description": "",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -191,14 +163,7 @@
 			"soak": 4,
 			"wounds": 4
 		},
-		"skills": {
-			"Brawl": 0,
-			"Coercion": 0,
-			"Melee": 0,
-			"Perception": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Brawl", "Coercion", "Melee", "Perception"],
 		"weapons": ["Truncheon"],
 		"gear": ["Comlink (handheld)", "Padded armour (+2 Soak)"],
 		"tags": ["book:fad", "adventure:Lessons from the Past"]
@@ -226,8 +191,6 @@
 			"Resil­ience": 3,
 			"Survival": 2
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": [
 			{
 				"name": "Stun rifle",
@@ -238,7 +201,6 @@
 				"qualities": ["Stun Damage"]
 			}
 		],
-		"gear": [],
 		"tags": ["civilian", "location:Chandrila", "book:sor", "species:Chandrilan"]
 	},
 	{
@@ -257,15 +219,7 @@
 			"soak": 2,
 			"wounds": 3
 		},
-		"skills": {
-			"Knowledge: Core Worlds": 0,
-			"Knowl­edge: Education": 0,
-			"Negotiation": 0,
-			"Perception": 0
-		},
-		"talents": [],
-		"abilities": [],
-		"weapons": [],
+		"skills": ["Knowledge: Core Worlds", "Knowl­edge: Education", "Negotiation", "Perception"],
 		"gear": ["Comlink", "Datapad", "100 credits"],
 		"tags": ["civilian", "location:Chandrila", "book:sor", "species:Chandrilan"]
 	},
@@ -300,7 +254,6 @@
 		"talents": ["Improved Inspiring Rhetoric", "Kill with Kindness 2"],
 		"abilities": ["Leader"],
 		"weapons": ["Light blaster pistol"],
-		"gear": [],
 		"tags": ["civilian", "location:Chandrila", "book:sor", "species:Chandrilan"]
 	},
 	{
@@ -327,7 +280,6 @@
 			"Leadership": 3
 		},
 		"talents": ["Fire Control"],
-		"abilities": [],
 		"weapons": [
 			{
 				"name": "Stun pistol",
@@ -338,13 +290,11 @@
 				"qualities": ["Stun Damage"]
 			}
 		],
-		"gear": [],
 		"tags": ["military", "location:Chandrila", "book:sor", "species:Chandrilan"]
 	},
 	{
 		"name": "Club Hired Guard",
 		"type": "Minion",
-		"description": "",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -357,13 +307,7 @@
 			"soak": 4,
 			"wounds": 6
 		},
-		"skills": {
-			"Brawl": 0,
-			"Coercion": 0,
-			"Ranged: Light": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Brawl", "Coercion", "Ranged: Light"],
 		"weapons": ["Blaster pistol", "Brass knuckles"],
 		"gear": ["Flak vest (+1 Soak)"],
 		"tags": ["civilian", "security", "thug", "book:uabs", "adventure:Under a Black Sun"]
@@ -390,8 +334,6 @@
 			"Cool": 1,
 			"Knowledge: Out­er Rim": 3
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Encrypted comlink"],
 		"tags": ["civilian", "spaceport personnel", "book:eote"]
@@ -420,7 +362,6 @@
 			"Negotiation": 2
 		},
 		"talents": ["Know Somebody 2"],
-		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Datapad", "Expense voucher"],
 		"tags": ["civilian", "book:aor"]
@@ -449,9 +390,7 @@
 			"Negotiation": 4
 		},
 		"talents": ["Plausible Deniability 1", "Nobody’s Fool 2"],
-		"abilities": [],
 		"weapons": ["Light blaster pistol"],
-		"gear": [],
 		"tags": ["civilian", "book:eote"]
 	},
 	{
@@ -475,8 +414,6 @@
 			"Perception": 3,
 			"Vigilance": 2
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Hand scanner"],
 		"tags": ["civilian", "spaceport personnel", "book:eote"]
@@ -508,7 +445,6 @@
 		},
 		"talents": ["Command 2", "Inspiring Rhetoric", "Kill with Kindness 2", "Nobody’s Fool 2"],
 		"abilities": ["Invoke Doellin"],
-		"weapons": [],
 		"gear": ["Comlink", "Datapad", "Tayan staff", "Priestly robes", "500 credits"],
 		"tags": ["civilian", "species:Gran", "location:Kinyen", "book:sor", "priest"]
 	},
@@ -534,7 +470,6 @@
 			"Mechanics": 2,
 			"Vigilance": 1
 		},
-		"talents": [],
 		"abilities": ["Amphibious"],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Tool kit", "Emergency repair kit"],
@@ -566,8 +501,6 @@
 			"Negotiation": 4,
 			"Vigilance": 1
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Aides"],
 		"tags": ["civilian", "location:Core Worlds", "book:eote"]
@@ -596,8 +529,6 @@
 			"Ranged: Light": 2,
 			"Vigilance": 1
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": [
 			"Heavy blaster pistol",
 			{
@@ -628,13 +559,7 @@
 			"soak": 4,
 			"wounds": 5
 		},
-		"skills": {
-			"Coercion": 0,
-			"Melee": 0,
-			"Ranged: Heavy": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Coercion", "Melee", "Ranged: Heavy"],
 		"weapons": ["Riot gun", "Truncheon"],
 		"gear": ["Riot armour (+2 Soak)"],
 		"tags": ["civilian", "coprorate security authority", "security", "book:eote"]
@@ -699,7 +624,6 @@
 			"Knowledge: Outer Rim": 2
 		},
 		"talents": ["Adversary 1", "Improved Scathing Tirade", "Improved Inspiring Rhetoric"],
-		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Personal deflector shield (+2 ranged defence)", "Encrypted expense voucher with 5,000-10,000 credits"],
 		"tags": ["civilian", "coprorate security authority", "book:eote"]
@@ -724,7 +648,6 @@
 			"Computers": 3,
 			"Perception": 1
 		},
-		"talents": [],
 		"abilities": ["Enhanced Senses"],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Comlink", "Datapad with direct access port"],
@@ -755,7 +678,6 @@
 			"Ranged: Light": 1
 		},
 		"talents": ["Galaxy Mapper 3"],
-		"abilities": [],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Datapad", "Scout ship"],
 		"tags": ["civilian", "location:Rim Worlds", "book:fad"]
@@ -783,14 +705,12 @@
 		},
 		"talents": ["Known Schematic"],
 		"abilities": ["Amphibious"],
-		"weapons": [],
 		"gear": ["Comlink", "Datapad with schematics", "Repair tools"],
 		"tags": ["civilian", "species:Mon Calamari", "book:sor", "engineer"]
 	},
 	{
 		"name": "Mon Calamari Commander",
 		"type": "Nemesis",
-		"description": "",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -814,7 +734,6 @@
 		},
 		"talents": ["Adversary 1", "Commanding Presence", "Fire Control"],
 		"abilities": ["Amphibious"],
-		"weapons": [],
 		"gear": ["Comlink", "Datapad"],
 		"tags": ["military", "species:Mon Calamari", "book:sor"]
 	},
@@ -834,11 +753,7 @@
 			"soak": 2,
 			"wounds": 3
 		},
-		"skills": {
-			"Survival": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Survival"],
 		"weapons": [
 			{
 				"name": "Sheperd’s crook",
@@ -869,13 +784,7 @@
 			"wounds": 4,
 			"defence": [1, 1]
 		},
-		"skills": {
-			"Discipline": 0,
-			"Perception": 0,
-			"Piloting: Planetary": 0,
-			"Ranged: Light": 0,
-			"Vigilance": 0
-		},
+		"skills": ["Discipline", "Perception", "Piloting: Planetary", "Ranged: Light", "Vigilance"],
 		"talents": ["Skilled Jockey"],
 		"abilities": ["Constabulary Honour 2"],
 		"weapons": ["Blaster pistol"],
@@ -936,8 +845,6 @@
 			"Medicine": 3
 		},
 		"talents": ["Bacta Specialist 2", "Surgeon 2"],
-		"abilities": [],
-		"weapons": [],
 		"gear": ["Bacta", "Medpack", "Synthskin"],
 		"tags": ["civilian", "medic", "book:aor"]
 	},
@@ -964,7 +871,6 @@
 			"Streetwise": 2
 		},
 		"talents": ["Full Throttle", "Skilled Jockey 1"],
-		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Toolkit", "Podracer"],
 		"tags": ["civilian", "pilot", "location:Rim Worlds", "book:fad"]
@@ -1013,7 +919,6 @@
 	{
 		"name": "Glare Peak Security Personnel",
 		"type": "Minion",
-		"description": "",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -1026,14 +931,8 @@
 			"soak": 3,
 			"wounds": 4
 		},
-		"skills": {
-			"Coercion": 0,
-			"Discipline": 0,
-			"Ranged: Light": 0,
-			"Vigilance": 0
-		},
+		"skills": ["Coercion", "Discipline", "Ranged: Light", "Vigilance"],
 		"talents": ["Intimidating 1"],
-		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Glare peak guard uniform (+1 Soak)", "Glarre Peak guard badge"],
 		"tags": ["civilian", "security", "book:ragp", "adventure:Rescue at Glare Peak"]
@@ -1054,15 +953,7 @@
 			"soak": 3,
 			"wounds": 4
 		},
-		"skills": {
-			"Athletics": 0,
-			"Brawl": 0,
-			"Coercion": 0,
-			"Mechanics": 0,
-			"Melee": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Athletics", "Brawl", "Coercion", "Mechanics", "Melee"],
 		"weapons": ["Truncheon"],
 		"gear": ["Workgang uniform", "Breath mask", "Space suit"],
 		"tags": ["book:aor", "adventure:Perlemian Haul", "location:Martle Station", "civilian"]
@@ -1083,14 +974,7 @@
 			"soak": 3,
 			"wounds": 5
 		},
-		"skills": {
-			"Brawl": 0,
-			"Discipline": 0,
-			"Ranged: Light": 0,
-			"Ranged: Heavy": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Brawl", "Discipline", "Ranged: Light", "Ranged: Heavy"],
 		"weapons": ["Blaster carbine", "Frag grenade"],
 		"gear": ["Blast vest  (+1 Soak)", "2 Frag grenades"],
 		"tags": ["military", "security", "location:Rim Worlds", "book:eote", "book:fad"]
@@ -1111,12 +995,7 @@
 			"soak": 2,
 			"wounds": 5
 		},
-		"skills": {
-			"Gunnery": 0,
-			"Piloting: Space": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Gunnery", "Piloting: Space"],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Vacuum sealed flight suit"],
 		"tags": ["military", "book:eote", "pilot"]
@@ -1185,8 +1064,6 @@
 			"Negotiation": 2
 		},
 		"talents": ["Commanding Presence 2", "Works Like a Charm"],
-		"abilities": [],
-		"weapons": [],
 		"gear": ["Bodyguards", "Datapad", "Comlink"],
 		"tags": ["civilian", "book:aor"]
 	},
@@ -1206,14 +1083,7 @@
 			"soak": 4,
 			"wounds": 4
 		},
-		"skills": {
-			"Coercion": 0,
-			"Perceptio": 0,
-			"nRanged: Light": 0,
-			"Vigilance": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Coercion", "Perceptio", "Ranged: Light", "Vigilance"],
 		"weapons": ["Blaster pistol", "Truncheon"],
 		"gear": ["Police Armour (+1 Soak)", "Comlink (handheld)"],
 		"tags": ["civilian", "location:Rim Worlds", "security", "book:fad"]
@@ -1246,7 +1116,6 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 1"],
-		"abilities": [],
 		"weapons": [
 			"Blaster pistol",
 			{
@@ -1278,12 +1147,7 @@
 			"soak": 4,
 			"wounds": 4
 		},
-		"skills": {
-			"Perception": 0,
-			"Ranged: Light": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Perception", "Ranged: Light"],
 		"weapons": ["Blaster pistol", "Stun grenade"],
 		"gear": ["Padded armour (+2 Soak)", "2 Stun grenades"],
 		"tags": ["civilian", "security", "spaceport personnel", "book:eote"]
@@ -1314,7 +1178,6 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 1"],
-		"abilities": [],
 		"weapons": ["Blaster rifle"],
 		"gear": ["Padded armour (+2 Soak)", "Stimpack"],
 		"tags": ["civilian", "security", "spaceport personnel", "book:eote"]
@@ -1345,8 +1208,6 @@
 			"Piloting: Space": 3,
 			"Survival": 1
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Padded flight suit (+1 Soak)"],
 		"tags": ["civilian", "species:Sullustan", "pilot", "book:eote"]
@@ -1407,8 +1268,6 @@
 			"Streetwise": 3,
 			"Vigilance": 3
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Datapad", "Comlink"],
 		"tags": ["civilian", "spaceport personnel", "book:aor"]
@@ -1429,16 +1288,7 @@
 			"soak": 1,
 			"wounds": 3
 		},
-		"skills": {
-			"Skulduggery": 0,
-			"Stealth": 0,
-			"Streetwise": 0,
-			"Survival": 0
-		},
-		"talents": [],
-		"abilities": [],
-		"weapons": [],
-		"gear": [],
+		"skills": ["Skulduggery", "Stealth", "Streetwise", "Survival"],
 		"tags": ["civilian", "book:eote"]
 	},
 	{
@@ -1458,16 +1308,7 @@
 			"wounds": 5,
 			"defence": [2, 2]
 		},
-		"skills": {
-			"Coercion": 0,
-			"Melee": 0,
-			"Perception": 0,
-			"Ranged: Heavy": 0,
-			"Resilience": 0,
-			"Vigilance": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Coercion", "Melee", "Perception", "Ranged: Heavy", "Resilience", "Vigilance"],
 		"weapons": [
 			"Blaster carbine",
 			{
@@ -1498,13 +1339,7 @@
 			"soak": 1,
 			"wounds": 4
 		},
-		"skills": {
-			"Athletics": 0,
-			"Melee": 0,
-			"Negotiate": 0,
-			"Survival": 0
-		},
-		"talents": [],
+		"skills": ["Athletics", "Melee", "Negotiate", "Survival"],
 		"abilities": ["Hoverer", "Silhouette 0"],
 		"weapons": [
 			{
@@ -1516,7 +1351,6 @@
 				"qualities": ["Disorient 1"]
 			}
 		],
-		"gear": [],
 		"tags": ["civilian", "species:Toydarian", "location:Hutt Space", "book:lonh"]
 	},
 	{
@@ -1590,12 +1424,7 @@
 			"soak": 3,
 			"wounds": 3
 		},
-		"skills": {
-			"Athletics": 0,
-			"Mechanics": 0,
-			"Resilience": 0
-		},
-		"talents": [],
+		"skills": ["Athletics", "Mechanics", "Resilience"],
 		"abilities": ["Silhouette 0", "Stubborn and Dependable"],
 		"weapons": [
 			{
@@ -1613,7 +1442,6 @@
 	{
 		"name": "Viewponte Tower Security",
 		"type": "Rival",
-		"description": "",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -1632,8 +1460,6 @@
 			"Discipline": 1,
 			"Brawl": 2
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Shock gloves"],
 		"gear": ["Security guard uniform (+1 Soak)"],
 		"tags": ["civilian", "security", "book:ragp", "adventure:Rescue at Glare Peak"]
@@ -1661,8 +1487,6 @@
 			"Knowledge: Education": 2,
 			"Melee": 2
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": [
 			"Holdout blaster",
 			{
@@ -1680,7 +1504,6 @@
 	{
 		"name": "Zelcomm Enforcer",
 		"type": "Minion",
-		"description": "",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -1693,13 +1516,7 @@
 			"soak": 4,
 			"wounds": 5
 		},
-		"skills": {
-			"Brawl": 0,
-			"Coercion": 0,
-			"Ranged: Light": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Brawl", "Coercion", "Ranged: Light"],
 		"weapons": ["Heavy blaster pistol"],
 		"gear": ["Comlink", "Access card to sublevel 1A", "Zelcomm guard uniform (+2 Soak)"],
 		"tags": ["civilian", "book:uabs", "adventure:Under a Black Sun", "security"]

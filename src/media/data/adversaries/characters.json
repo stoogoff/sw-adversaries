@@ -75,9 +75,6 @@
 			"Perception": 1,
 			"Vigilance": 1
 		},
-		"talents": [],
-		"abilities": [],
-		"weapons": [],
 		"gear": ["Breath mask", "Datapad", "Stylus"],
 		"tags": ["book:fad", "adventure:Lessons from the Past", "civilian", "scholar"]
 	},
@@ -102,9 +99,6 @@
 			"Cool": 1,
 			"Deception": 3
 		},
-		"talents": [],
-		"abilities": [],
-		"weapons": [],
 		"gear": ["City government datapad (encrypted) containing current city energy and utility grid status and reports", "City government ID", "Imperial ID", "City-issued luxury airspeeder", "Two personal 3PO protocol droids"],
 		"tags": ["civilian", "book:ragp", "adventure:Rescue at Glare Peak"]
 	},
@@ -137,7 +131,6 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 2", "Quick Draw"],
-		"abilities": [],
 		"weapons": ["Heavy blaster pistol", "Vibro-ax"],
 		"gear": ["Heavy clothing (+1 Soak)"],
 		"tags": ["book:eote", "adventure:Trouble Brewing", "crime boss", "pirate", "species:Aqualish", "underworld"]
@@ -167,8 +160,6 @@
 			"Piloting: Space": 1,
 			"Vigilance": 2
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": [
 			"Holdout blaster",
 			{
@@ -217,7 +208,6 @@
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 2", "Convincing Demeanor 2", "Durable 2", "Knockdown", "Jump Up", "Natural Rogue", "Soft Spot"],
-		"abilities": [],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Comlink", "Datapad"],
 		"tags": ["book:sor", "adventure:The Geharr Incident", "location:Ord Gimmel", "rebel alliance"]
@@ -251,7 +241,6 @@
 			"Vigilance": 2
 		},
 		"talents": ["Kill with Kindness 1"],
-		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Fine robes", "Narcotic inhaler"],
 		"tags": ["underworld", "species:Zabrak", "book:lonh", "adventure:Rubbing Slimy Elbows"]
@@ -288,7 +277,6 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 2", "Nobody’s Fool 2", "Skilled Jockey 2"],
-		"abilities": [],
 		"weapons": ["Heavy blaster pistol", "Vibrosword"],
 		"gear": ["Padded armour (+2 Soak)", "Breath mask", "Utility belt"],
 		"tags": ["underworld", "pirate", "species:Devaronian", "book:lonh", "adventure:Welcome Aboard"]
@@ -321,7 +309,6 @@
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 1", "Improved Scathing Tirade"],
-		"abilities": [],
 		"weapons": ["Stun baton"],
 		"gear": ["Imperial ID", "Code cylinder", "Comlink", "Datapad (with detention centre reports)", "Detention centre administrator’s uniform"],
 		"tags": ["empire", "imperial bureaucracy", "book:ragp", "adventure:Rescue at Glare Peak"]
@@ -346,9 +333,6 @@
 			"Computers": 1,
 			"Mechanics": 1
 		},
-		"talents": [],
-		"abilities": [],
-		"weapons": [],
 		"gear": ["Tool kit", "Employee ID", "General datapad", "Comlink", "Maintenance overalls"],
 		"tags": ["civilian", "engineer", "book:ragp", "adventure:Rescue at Glare Peak"]
 	},
@@ -415,9 +399,7 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 2", "Natural Pilot"],
-		"abilities": [],
 		"weapons": ["Blaster pistol"],
-		"gear": [],
 		"tags": ["military", "rebel alliance", "pilot", "species:Chandrilan", "location:Keff Base", "location:Sullust", "book:sor"]
 	},
 	{
@@ -448,7 +430,6 @@
 			"Streetwise": 2
 		},
 		"talents": ["Adversary 1", "Quick Draw", "Rapid Reaction 2", "Soft Spot"],
-		"abilities": [],
 		"weapons": ["Heavy blaster pistol"],
 		"gear": ["Heavy clothing (+1 Soak)", "Datapad"],
 		"tags": ["underworld", "smuggler", "species:Twi’lek", "book:lonh", "adventure:A Deal Gone Wrong", "location:Hutt Space", "location:Kwenn Station"]
@@ -469,15 +450,7 @@
 			"soak": 3,
 			"wounds": 4
 		},
-		"skills": {
-			"Athletics": 0,
-			"Brawl": 0,
-			"Cool": 0,
-			"Gunnery": 0,
-			"Ranged: Light": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Athletics", "Brawl", "Cool", "Gunnery", "Ranged: Light"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Heavy clothing (+1 Soak)"],
 		"tags": ["underworld", "smuggler", "book:lonh", "adventure:A Deal Gone Wrong", "location:Hutt Space", "location:Kwenn Station"]
@@ -508,7 +481,6 @@
 			"Ranged: Light": 2
 		},
 		"talents": ["Gearhead 1"],
-		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Too kit", "Comlink", "Datapad"],
 		"tags": ["rebel alliance", "engineer", "location:Tierfon Outpost", "species:Sullustan", "book:sor"]
@@ -534,8 +506,6 @@
 			"Cool": 1,
 			"Ranged: Light": 3
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": [
 			{
 				"name": "Two modified quick-draw blaster pistols",
@@ -574,7 +544,6 @@
 			"Perception": 2,
 			"Vigilance": 2
 		},
-		"talents": [],
 		"abilities": ["Tactical Direction", "Overwhelming Fire"],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Adverse environment gear (+1 Soak)", "Comlink", "Datapad"],
@@ -605,7 +574,6 @@
 		},
 		"talents": ["Smooth Talker (Negotiation) 1"],
 		"abilities": ["Hoverer", "Silhouette 0"],
-		"weapons": [],
 		"gear": ["Spatula", "Puffy chef’s hat", "Utility apron"],
 		"tags": ["civilian", "species:Toydarian", "location:Hutt Space", "book:lonh", "adventure:Toydarian Grocery Shopping", "location:Toydaria"]
 	},
@@ -641,7 +609,6 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 2"],
-		"abilities": [],
 		"weapons": ["Disruptor pistol"],
 		"gear": ["Breath mask", "Cybernetic brain implant", "Hand scanner"],
 		"tags": ["book:fad", "adventure:Lessons from the Past", "location:Eriadu", "location:Phelar University Archive", "empire", "imperial security bureau"]
@@ -670,8 +637,6 @@
 			"Ranged (Light)": 3,
 			"Vigilance": 1
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Heavy blaster pistol", "Vibroknife", "Shock gloves"],
 		"gear": ["Padded armour (+2 Soak)", "Breath mask"],
 		"tags": ["underworld", "pirate", "book:lonh", "adventure:Welcome Aboard"]
@@ -708,7 +673,6 @@
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 2", "Commanding Presence 3", "Confidence 2", "Improved Field Commander", "Natural Leader", "Improved Scathing Tirade"],
-		"abilities": [],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Armoured imperial uniform (+1 Soak, +1 Defence)"],
 		"tags": ["book:sor", "location:Sullust", "sorosuub", "security", "empire", "imperial bureaucracy", "adventure:Claustrophobia", "commander"]
@@ -743,7 +707,6 @@
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 1", "Master Grenadier", "Powerful Blast 2", "Selective Detonation 1", "Skilled Jockey 1", "Time to Go"],
-		"abilities": [],
 		"weapons": ["Blaster carbine", "Frag grenade"],
 		"gear": ["Padded armour (+2 Soak)", "3 Frag grenades"],
 		"tags": ["book:sor", "location:Sullust", "species:Sullustan", "sullustan resistance", "rebel alliance", "adventure:Claustrophobia"]
@@ -773,7 +736,6 @@
 			"Piloting: Space": 4
 		},
 		"talents": ["Adversary 2", "Command 2", "Defensive Driving 2", "Form on Me", "Master Pilot", "Quick Strike 2", "Skilled Jockey 2"],
-		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Flight suit", "Sensory augmentation package (add :advantage: to all Perception checks)"],
 		"tags": ["book:sor", "empire", "imperial military", "pilot", "adventure:Phantoms in the Dark", "commander"]
@@ -808,9 +770,7 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 2", "Command 2", "Improved Field Commander"],
-		"abilities": [],
 		"weapons": ["Holdout blaster", "Light blaster pistol"],
-		"gear": [],
 		"tags": ["rebel alliance", "book:sor", "location:Polis Massa"]
 	},
 	{
@@ -839,8 +799,6 @@
 			"Streetwise": 1,
 			"Vigilance": 1
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": [
 			"Disruptor pistol",
 			{
@@ -882,7 +840,6 @@
 			"Streetwise": 2
 		},
 		"talents": ["Adversary 1"],
-		"abilities": [],
 		"weapons": ["Heavy blaster pistol", "Brass knuckles"],
 		"gear": ["Padded armour (+2 Soak)"],
 		"tags": ["underworld", "book:lonh", "adventure:The Dead Road", "species:Barabel", "bounty hunter"]
@@ -911,7 +868,6 @@
 			"Vigilance": 1
 		},
 		"talents": ["Quick Draw"],
-		"abilities": [],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Padded armour (+2 Soak)"],
 		"tags": ["underworld", "book:lonh", "adventure:The Dead Road", "thug"]
@@ -932,11 +888,7 @@
 			"soak": 5,
 			"wounds": 8
 		},
-		"skills": {
-
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": [],
 		"weapons": ["Vibroknife"],
 		"gear": ["Padded armour (+2 Soak)"],
 		"tags": ["book:eote", "adventure:Trouble Brewing", "smuggler", "species:Weequay", "underworld"]
@@ -1008,7 +960,6 @@
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 2", "Bypass Security 2", "Codebreaker 3", "Defensive Slicing 2", "Technical Aptitude 3", "Natural Programmer"],
-		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "BioTech borg construct Ax8"],
 		"tags": ["book:sor", "empire", "imperial security bureau", "adventure:The Geharr Incident", "location:Ord Gimmel"]
@@ -1037,8 +988,6 @@
 			"Ranged: Light": 1,
 			"Vigilance": 1
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Blaster pistol"],
 		"gear": ["ISB uniform", "ISB ID", "Comlink"],
 		"tags": ["empire", "imperial security bureau", "book:ragp", "adventure:Rescue at Glare Peak"]
@@ -1184,7 +1133,6 @@
 			"Vigilance": 1
 		},
 		"talents": ["Knockdown"],
-		"abilities": [],
 		"weapons": [
 			"Heavy blaster pistol",
 			{
@@ -1234,7 +1182,6 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 2", "Clever Solution", "Convincing Demeanor 2", "Natural Charmer"],
-		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Comlink", "Encrypted datapad with Imperial holonet uplink"],
 		"tags": ["book:sor", "adventure:In Too Deep", "empire", "imperial security bureau"]
@@ -1297,8 +1244,6 @@
 			"Piloting: Space": 3,
 			"Ranged: Light": 2
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Uniform", "Military comlink", "datapad"],
 		"tags": ["book:aor", "adventure:Perlemian Haul", "empire", "imperial military", "location:M226 Freighter", "commander"]
@@ -1367,7 +1312,6 @@
 			"Streetwise": 3
 		},
 		"talents": ["Adversary 1", "Bought Info", "Convincing Demeanor 3", "Greased Palms 2", "Know Somebody 1", "Natural Charmer", "Nobody’s Fool 2", "Wheel and Deal 3"],
-		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Comlink", "Datapad", "2,000 credits"],
 		"tags": ["book:sor", "species:Chadra-Fan", "adventure:The Geharr Incident", "location:Ord Gimmel", "gambler", "imperial security bureau", "double-agent", "rebel alliance"]
@@ -1425,8 +1369,6 @@
 			"Negotiation": 3,
 			"Ranged: Light": 2
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": [
 			"Holdout blaster",
 			{
@@ -1467,7 +1409,6 @@
 			"Vigilance": 3
 		},
 		"talents": ["Coordinated Assault 1"],
-		"abilities": [],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Blast vest and helmet (+1 Soak)", "Comlink (handheld)"],
 		"tags": ["book:aor", "adventure:Perlemian Haul", "empire", "imperial military", "location:M226 Freighter"]
@@ -1497,7 +1438,6 @@
 			"Vigilance": 3
 		},
 		"talents": ["Soft Spot"],
-		"abilities": [],
 		"weapons": ["Vibroknife"],
 		"gear": ["3 Vibroknives", "Space suit", "Breath mask", "Datapad"],
 		"tags": ["book:aor", "adventure:Perlemian Haul", "location:Martle Station", "species:Zabrak"]
@@ -1525,7 +1465,6 @@
 			"Mechan­ics": 2,
 			"Piloting: Space": 2
 		},
-		"talents": [],
 		"abilities": ["Droid"],
 		"weapons": ["Arc welder"],
 		"gear": ["Built-in repair tools"],
@@ -1558,8 +1497,6 @@
 			"Perception": 2
 		},
 		"talents": ["Adversary 2", "Kill with Kindness 1"],
-		"abilities": [],
-		"weapons": [],
 		"gear": ["Comlink", "Datapad", "Royal guards"],
 		"tags": ["civilian", "book:sor", "location:Ord Gimmel"]
 	},
@@ -1579,14 +1516,8 @@
 			"soak": 3,
 			"wounds": 4
 		},
-		"skills": {
-			"Brawl": 0,
-			"Melee": 0,
-			"Ranged: Light": 0,
-			"Vigilance": 0
-		},
+		"skills": ["Brawl", "Melee", "Ranged,Light", "Vigilance"],
 		"talents": ["Quick Strike"],
-		"abilities": [],
 		"weapons": ["Blaster pistol", "Combat knife"],
 		"gear": ["Heavy clothing (+1 Soak)"],
 		"tags": ["underworld", "species:Rodian", "thug", "book:lonh", "adventure:Rubbing Slimy Elbows"]
@@ -1621,7 +1552,6 @@
 			"Streetwise": 3
 		},
 		"talents": ["Adversary 2", "Inspiring Rhetoric"],
-		"abilities": [],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Comlink", "Personal deflector shield (+2 Defence)"],
 		"tags": ["rebel alliance", "book:sor", "location:Ord Gimmel", "species:Deaon"]
@@ -1655,7 +1585,6 @@
 			"Streetwise": 3
 		},
 		"talents": ["Adversary 1", "Gang Leader", "Smooth Talker (Deception) 1"],
-		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Fine dinner clothes", "Personal deflector shield (+2 Defence)"],
 		"tags": ["civilian", "book:lonh", "adventure:Rubbing Slimy Elbows"]
@@ -1684,8 +1613,6 @@
 			"Ranged: Light": 3,
 			"Vigilance": 2
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Vibro-ax"],
 		"gear": ["Armoured clothing (+1 Soak"],
 		"tags": ["civilian", "bodyguard", "book:lonh", "adventure:Rubbing Slimy Elbows"]
@@ -1713,8 +1640,6 @@
 			"Ranged: Light": 3,
 			"Vigilance": 2
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Armoured clothing (+1 Soak", "Comlink", "Scanner goggles", "Datapad", "Utility belt"],
 		"tags": ["civilian", "bodyguard", "book:lonh", "adventure:Rubbing Slimy Elbows"]
@@ -1744,7 +1669,6 @@
 			"Vigilance": 2
 		},
 		"talents": ["Smooth Talker (Negotiation) 2"],
-		"abilities": [],
 		"weapons": ["Blaster pistol"],
 		"gear": ["6 Death sticks (induces mild hallucinations, adds :setback: to any task the character attempts and prohibits the expenditure of Destiny points for the duration of the combat or scene)"],
 		"tags": ["underworld", "book:uabs", "adventure:Under a Black Sun", "location:Coruscant"]
@@ -1765,13 +1689,8 @@
 			"soak": 2,
 			"wounds": 6
 		},
-		"skills": {
-
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": [],
 		"weapons": ["Heavy blaster pistol"],
-		"gear": [],
 		"tags": ["book:eote", "adventure:Trouble Brewing", "smuggler", "underworld"]
 	},
 	{
@@ -1806,7 +1725,6 @@
 			"Streetwise": 3
 		},
 		"talents": ["Adversary 1", "Nobody’s Fool 3", "Plausible Deniability 3", "Scathing Tirade"],
-		"abilities": [],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Datapad", "Comlink"],
 		"tags": ["book:sor", "location:Ord Gimmel", "adventure:The Geharr Incident", "agitator"]
@@ -1838,7 +1756,6 @@
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 1"],
-		"abilities": [],
 		"weapons": [
 			"Disruptor pistol", "Holdout blaster",
 			{
@@ -1870,15 +1787,8 @@
 			"wounds": 5,
 			"defence": [1, 1]
 		},
-		"skills": {
-			"Deception": 0,
-			"Perception": 0,
-			"Ranged: Heavy": 0,
-			"Ranged: Light": 0,
-			"Vigilance": 0
-		},
+		"skills": ["Deception", "Perception", "Ranged: Heavy", "Ranged: Light", "Vigilance"],
 		"talents": ["Quick Strike"],
-		"abilities": [],
 		"weapons": ["Blaster carbine", "Blaster pistol", "Combat knife"],
 		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Comlink", "Thermal cloak"],
 		"tags": ["underworld", "book:lonh", "adventure:A Deal Gone Wrong", "location:Hutt Space", "location:Kwenn Station", "mercenary", "thug"]
@@ -1959,7 +1869,6 @@
 			"Survival": 3
 		},
 		"talents": ["Adversary 1", "Soft Spot"],
-		"abilities": [],
 		"weapons": [
 			"Blaster pistol", "Vibroknife",
 			{
@@ -2001,8 +1910,6 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 1"],
-		"abilities": [],
-		"weapons": [],
 		"gear": ["Detention centre prison uniform"],
 		"tags": ["rebel alliance", "book:ragp", "adventure:Rescue at Glare Peak"]
 	},
@@ -2031,8 +1938,6 @@
 			"Negotiation": 3,
 			"Ranged: Light": 1
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Fine clothing", "Jewellery", "Uniform"],
 		"tags": ["book:aor", "adventure:Perlemian Haul", "empire", "imperial bureaucracy", "location:Martle Station"]
@@ -2067,7 +1972,6 @@
 		"talents": ["Resolve"],
 		"abilities": ["Allelochemical Transmitters"],
 		"weapons": ["Blaster pistol"],
-		"gear": [],
 		"tags": ["underworld", "location:Coruscant", "black sun", "book:uabs", "adventure:Under a Black Sun", "species:Falleen"]
 	},
 	{
@@ -2092,8 +1996,6 @@
 			"Perception": 2
 		},
 		"talents": ["Kill with Kindness 1"],
-		"abilities": [],
-		"weapons": [],
 		"gear": ["100 credits", "Morbo’s Place cantina"],
 		"tags": ["civilian", "rebel alliance", "book:sor", "location:Thyferra"]
 	}

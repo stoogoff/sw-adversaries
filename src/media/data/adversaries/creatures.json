@@ -19,10 +19,7 @@
 			"Athletics": 1,
 			"Coordination": 1
 		},
-		"talents": [],
 		"abilities": ["Silhouette 3", "Amphibious", "Flyer", "Creature of the Sea"],
-		"weapons": [],
-		"gear": [],
 		"tags": ["book:sot", "creature"]
 	},
 	{
@@ -45,7 +42,6 @@
 			"Brawl": 1,
 			"Resillience": 2
 		},
-		"talents": [],
 		"abilities": ["Silhouette 3", "Domesticable 1", "Trained Mount 1", "Beast of Burden 10"],
 		"weapons": [
 			{
@@ -57,7 +53,6 @@
 				"qualities": ["Disorient 2"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sot", "creature"]
 	},
 	{
@@ -93,7 +88,6 @@
 				"qualities": ["Ensnare 3"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "location:Chandrila", "book:sor"]
 	},
 	{
@@ -130,7 +124,6 @@
 				"qualities": ["Ensnare 3", "Pierce 2", "Vicious 2"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "book:sor", "location:Thyferra"]
 	},
 	{
@@ -150,12 +143,7 @@
 			"wounds": 9,
 			"defence": [1, 0]
 		},
-		"skills": {
-			"Brawl": 0,
-			"Coercion": 0,
-			"Survival": 0
-		},
-		"talents": [],
+		"skills": ["Brawl", "Coercion", "Survival"],
 		"abilities": ["Silhouette 2"],
 		"weapons": [
 			{
@@ -167,7 +155,6 @@
 				"qualities": ["Knockdown"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "location:Chandrila", "book:sor"]
 	},
 	{
@@ -191,7 +178,6 @@
 			"Resilience": 2,
 			"Vigilance": 2
 		},
-		"talents": [],
 		"abilities": ["Acidic Drool", "Silhouette 3"],
 		"weapons": [
 			{
@@ -203,7 +189,6 @@
 				"qualities": ["Pierce 3"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "location:Hutt Space", "book:lonh"]
 	},
 	{
@@ -222,12 +207,7 @@
 			"soak": 2,
 			"wounds": 4
 		},
-		"skills": {
-			"Brawl": 0,
-			"Coordination": 0,
-			"Stealth": 0
-		},
-		"talents": [],
+		"skills": ["Brawl", "Coordination", "Stealth"],
 		"abilities": ["Camouflaged (Jungle)", "Surefooted"],
 		"weapons": [
 			{
@@ -239,7 +219,6 @@
 				"qualities": ["Vicious 1"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "location:Yavin 4", "book:sor"]
 	},
 	{
@@ -264,7 +243,6 @@
 			"Perception": 1,
 			"Stealth": 3
 		},
-		"talents": [],
 		"abilities": ["Silhouette 2", "Domesticable 1", "Trained Mount 2"],
 		"weapons": [
 			{
@@ -284,7 +262,6 @@
 				"qualities": ["Disorient 2"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sot", "creature"]
 	},
 	{
@@ -310,8 +287,6 @@
 			"Survival": 3,
 			"Vigilance": 1
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": [
 			{
 				"name": "Slashing claws",
@@ -330,7 +305,6 @@
 				"qualities": ["Pierce 1", "Stun Damage"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "location:Hutt Space", "raquor’daan", "book:lonh"]
 	},
 	{
@@ -353,7 +327,6 @@
 			"Athletics": 2,
 			"Brawl": 1
 		},
-		"talents": [],
 		"abilities": ["Silhouette 2", "Trained Mount 2"],
 		"weapons": [
 			{
@@ -365,7 +338,6 @@
 				"qualities": ["Knockdown"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sot", "creature"]
 	},
 	{
@@ -389,7 +361,6 @@
 			"Brawl": 2,
 			"Resilience": 2
 		},
-		"talents": [],
 		"abilities": ["Silhouette 2", "Domesticable 1", "Sand Walker"],
 		"weapons": [
 			{
@@ -401,7 +372,6 @@
 				"qualities": ["Ensnare 2"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sot", "creature"]
 	},
 	{
@@ -439,7 +409,6 @@
 				"qualities": ["Ensnare 2", "Knockdown", "Linked 6"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "species:Dianoga", "book:aor", "book:eote"]
 	},
 	{
@@ -477,7 +446,6 @@
 				"qualities": ["Ensnare 3", "Knockdown"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "species:Dianoga", "book:lonh"]
 	},
 	{
@@ -516,7 +484,6 @@
 				"qualities": ["Ensnare 4", "Knockdown"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "species:Dianoga", "book:lonh"]
 	},
 	{
@@ -541,7 +508,6 @@
 			"Coordination": 1,
 			"Resilience": 2
 		},
-		"talents": [],
 		"abilities": ["Duracrete Plating"],
 		"weapons": [
 			{
@@ -576,7 +542,6 @@
 			"Resilience": 2,
 			"Survival": 2
 		},
-		"talents": [],
 		"abilities": ["Silhouette 2", "Stubborn 1", "Trained Mount 1", "Sand Walker", "Beast of Burden 5"],
 		"weapons": [
 			{
@@ -588,7 +553,6 @@
 				"qualities": ["Knockdown"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sot", "creature"]
 	},
 	{
@@ -613,8 +577,7 @@
 			"Cool": 2,
 			"Resilience": 3
 		},
-		"talents": [],
-		"abilities": ["Silhouette 4", "Beast of Burden 20", "Fearless"],
+		"abilities": ["Silhouette 4", "Beast of Burden 20", "Fearless", "Amphibious"],
 		"weapons": [
 			{
 				"name": "Massive teeth",
@@ -625,8 +588,7 @@
 				"qualities": ["Breach 2", "Slow-Firing"]
 			}
 		],
-		"gear": [],
-		"tags": ["book:sot", "creature"]
+		"tags": ["book:sot", "creature", "book:nop", "location:Naboo"]
 	},
 	{
 		"name": "Fecklen",
@@ -644,10 +606,7 @@
 			"soak": 3,
 			"wounds": 7
 		},
-		"skills": {
-			"Perception": 0
-		},
-		"talents": [],
+		"skills": ["Perception"],
 		"abilities": ["Fecklen Boom"],
 		"weapons": [
 			{
@@ -659,7 +618,6 @@
 				"qualities": ["Knockdown"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "location:Chandrila", "book:sor"]
 	},
 	{
@@ -678,12 +636,7 @@
 			"soak": 3,
 			"wounds": 4
 		},
-		"skills": {
-			"Brawl": 0,
-			"Survival": 0,
-			"Vigilance": 0
-		},
-		"talents": [],
+		"skills": ["Brawl", "Survival", "Vigilance"],
 		"abilities": ["Crushing Grip"],
 		"weapons": [
 			{
@@ -703,7 +656,6 @@
 				"qualities": ["Ensnare 3", "Knockdown"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "location:Hutt Space", "location:Toydaria", "book:lonh", "adventure:Toydarian Grocery Shopping"]
 	},
 	{
@@ -727,7 +679,6 @@
 			"Coordination": 1,
 			"Discipline": 2
 		},
-		"talents": [],
 		"abilities": ["Silhouette 2", "Trained Mount 2"],
 		"weapons": [
 			{
@@ -739,7 +690,6 @@
 				"qualities": ["Knockdown"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "location:Chandrila", "book:sor"]
 	},
 	{
@@ -764,7 +714,6 @@
 			"Survival": 3,
 			"Vigilance": 3
 		},
-		"talents": [],
 		"abilities": ["Many-armed"],
 		"weapons": [
 			{
@@ -776,7 +725,6 @@
 				"qualities": ["Disorient 1", "Knockdown"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "book:aor", "book:eote"]
 	},
 	{
@@ -799,7 +747,6 @@
 			"Athletics": 2,
 			"Coordination": 1
 		},
-		"talents": [],
 		"abilities": ["Silhouette 2", "Domesticable 2", "Trained Mount 2"],
 		"weapons": [
 			{
@@ -811,7 +758,6 @@
 				"qualities": ["Knockdown"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sot", "creature"]
 	},
 	{
@@ -837,7 +783,6 @@
 			"Perception": 1,
 			"Survival": 1
 		},
-		"talents": [],
 		"abilities": ["Companion Animal"],
 		"weapons": [
 			{
@@ -849,7 +794,6 @@
 				"qualities": ["Knockdown"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "location:Kinyen", "location:Hok", "book:sor"]
 	},
 	{
@@ -868,13 +812,7 @@
 			"soak": 3,
 			"wounds": 9
 		},
-		"skills": {
-			"Athletics": 0,
-			"Brawl": 0,
-			"Resilience": 0,
-			"Survival": 0
-		},
-		"talents": [],
+		"skills": ["Athletics", "Brawl", "Resilience", "Survival"],
 		"abilities": ["Silhouette 2", "Strong as a Jakobeast", "Force power: Move (Jakobeast)"],
 		"weapons": [
 			{
@@ -886,7 +824,6 @@
 				"qualities": []
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "force sensitive", "book:fad"]
 	},
 	{
@@ -920,7 +857,6 @@
 				"qualities": []
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "force sensitive", "book:fad"]
 	},
 	{
@@ -944,7 +880,6 @@
 			"Deception": 3,
 			"Stealth": 3
 		},
-		"talents": [],
 		"abilities": ["Force Mimic"],
 		"weapons": [
 			{
@@ -956,7 +891,6 @@
 				"qualities": ["Pierce 2"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "force sensitive", "book:fad"]
 	},
 	{
@@ -979,7 +913,6 @@
 			"Athletics": 2,
 			"Vigilance": 2
 		},
-		"talents": [],
 		"abilities": ["Silhouette 2", "Amphibious", "Domesticable 1"],
 		"weapons": [
 			{
@@ -991,8 +924,7 @@
 				"qualities": []
 			}
 		],
-		"gear": [],
-		"tags": ["book:sot", "creature"]
+		"tags": ["book:sot", "creature", "book:nop", "location:Naboo"]
 	},
 	{
 		"name": "Kath Hound",
@@ -1017,7 +949,6 @@
 			"Perception": 2,
 			"Vigilance": 3
 		},
-		"talents": [],
 		"abilities": ["Pack Instincts"],
 		"weapons": [
 			{
@@ -1037,7 +968,6 @@
 				"qualities": ["Disorient 1", "Knockdown"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:ss", "creature", "location:Dantooine"]
 	},
 	{
@@ -1074,7 +1004,6 @@
 				"qualities": ["Disorient 1", "Knockdown", "Inferior"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "location:Hutt Space", "book:lonh"]
 	},
 	{
@@ -1094,14 +1023,8 @@
 			"wounds": 3,
 			"defence": [1, 1]
 		},
-		"skills": {
-			"Athletics": 0,
-			"Stealth": 0,
-			"Survival": 0
-		},
-		"talents": [],
+		"skills": ["Athletics", "Stealth", "Survival"],
 		"abilities": ["Silhouette 0", "Amphibious"],
-		"weapons": [],
 		"tags": ["creature", "location:Hutt Space", "location:Klatooine", "book:lonh"]
 	},
 	{
@@ -1120,12 +1043,7 @@
 			"soak": 1,
 			"wounds": 2
 		},
-		"skills": {
-			"Athletics": 0,
-			"Brawl": 0,
-			"Survival": 0
-		},
-		"talents": [],
+		"skills": ["Athletics", "Brawl", "Survival"],
 		"abilities": ["Silhouette 0", "Sticky Saliva"],
 		"weapons": [
 			{
@@ -1137,7 +1055,6 @@
 				"qualities": []
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "book:sor", "location:Thyferra"]
 	},
 	{
@@ -1156,10 +1073,7 @@
 			"soak": 1,
 			"wounds": 3
 		},
-		"skills": {
-			"Brawl": 0
-		},
-		"talents": [],
+		"skills": ["Brawl"],
 		"abilities": ["Neurotoxin", "Silhouette 0"],
 		"weapons": [
 			{
@@ -1179,7 +1093,6 @@
 				"qualities": ["Pierce 2"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "book:fad"]
 	},
 	{
@@ -1203,7 +1116,6 @@
 			"Brawl": 1,
 			"Survival": 1
 		},
-		"talents": [],
 		"abilities": ["Silhouette 2", "Surefooted"],
 		"weapons": [
 			{
@@ -1215,7 +1127,6 @@
 				"qualities": ["Disorient 1"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sot", "creature"]
 	},
 	{
@@ -1242,7 +1153,6 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 1"],
-		"abilities": [],
 		"weapons": [
 			{
 				"name": "Claws",
@@ -1253,7 +1163,6 @@
 				"qualities": ["Vicious 3"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "location:Hutt Space", "book:lonh", "adventure:Rubbing Slimy Elbows"]
 	},
 	{
@@ -1276,7 +1185,6 @@
 			"Brawl": 3,
 			"Stealth": 4
 		},
-		"talents": [],
 		"abilities": ["Cloak"],
 		"weapons": [
 			{
@@ -1288,7 +1196,6 @@
 				"qualities": ["Ensnare 2"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "book:fad"]
 	},
 	{
@@ -1312,7 +1219,6 @@
 			"Survival": 3,
 			"Vigilance": 2
 		},
-		"talents": [],
 		"abilities": ["Surefooted"],
 		"weapons": [
 			{
@@ -1324,7 +1230,6 @@
 				"qualities": ["Knockdown", "Vicious 2"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "book:sor", "location:Yavin 4"]
 	},
 	{
@@ -1363,7 +1268,6 @@
 				"qualities": ["Pierce 2"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "book:fad"]
 	},
 	{
@@ -1400,7 +1304,6 @@
 				"qualities": ["Knockdown"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "location:Sullust", "book:sor"]
 	},
 	{
@@ -1419,12 +1322,7 @@
 			"soak": 2,
 			"wounds": 4
 		},
-		"skills": {
-			"Athletics": 0,
-			"Brawl": 0,
-			"Vigilance": 0
-		},
-		"talents": [],
+		"skills": ["Athletics", "Brawl", "Vigilance"],
 		"abilities": ["Silhouette 0", "Aquatic Creature"],
 		"weapons": [
 			{
@@ -1436,7 +1334,6 @@
 				"qualities": ["Stun Damage"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "location:Mon Cala", "book:sor"]
 	},
 	{
@@ -1459,7 +1356,6 @@
 			"Athletics": 2,
 			"Resilience": 3
 		},
-		"talents": [],
 		"abilities": ["Silhouette 3", "Domesticable 1", "Suited to the Heat", "Leap"],
 		"weapons": [
 			{
@@ -1471,7 +1367,6 @@
 				"qualities": []
 			}
 		],
-		"gear": [],
 		"tags": ["book:sot", "creature"]
 	},
 	{
@@ -1490,11 +1385,7 @@
 			"soak": 1,
 			"wounds": 4
 		},
-		"skills": {
-			"Brawl": 0,
-			"Coordination": 0
-		},
-		"talents": [],
+		"skills": ["Brawl", "Coordination"],
 		"abilities": ["Vacuum Dweller", "Energy Parasite", "Flyer", "Helium Allergy"],
 		"weapons": [
 			{
@@ -1506,7 +1397,6 @@
 				"qualities": []
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "book:eote", "book:sor"]
 	},
 	{
@@ -1533,7 +1423,6 @@
 			"Perception": 1,
 			"Stealth": 2
 		},
-		"talents": [],
 		"abilities": ["Silhouette 2", "Suited to the Cold", "Fearless", "Fierce Pounce"],
 		"weapons": [
 			{
@@ -1545,7 +1434,6 @@
 				"qualities": ["Linked 1", "Vicious 3"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sot", "book:ss", "creature"]
 	},
 	{
@@ -1564,13 +1452,7 @@
 			"soak": 4,
 			"wounds": 7
 		},
-		"skills": {
-			"Athletics": 0,
-			"Brawl": 0,
-			"Resilience": 0,
-			"Vigilance": 0
-		},
-		"talents": [],
+		"skills": ["Athletics", "Brawl", "Resilience", "Vigilance"],
 		"abilities": ["Crystalline", "Photonic Burst", "Silhouette 2"],
 		"weapons": [
 			{
@@ -1582,7 +1464,6 @@
 				"qualities": ["Vicious 2"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "location:Hutt Space", "book:lonh"]
 	},
 	{
@@ -1602,12 +1483,7 @@
 			"wounds": 5,
 			"defence": [1, 0]
 		},
-		"skills": {
-			"Brawl": 0,
-			"Ranged: light": 0,
-			"Stealth": 0
-		},
-		"talents": [],
+		"skills": ["Brawl", "Ranged: light", "Stealth"],
 		"abilities": ["Amphibious", "Silhouette 0", "Poisonous"],
 		"weapons": [
 			{
@@ -1627,7 +1503,6 @@
 				"qualities": ["Linked 1", "Pierce 2"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "location:Hutt Space", "book:lonh", "adventure:The Dead Road"]
 	},
 	{
@@ -1653,7 +1528,6 @@
 			"Survival": 3,
 			"Vigilance": 2
 		},
-		"talents": [],
 		"abilities": ["Silhouette 3", "Sweep Attack"],
 		"weapons": [
 			{
@@ -1665,7 +1539,6 @@
 				"qualities": ["Knockdown", "Sunder"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "book:eote"]
 	},
 	{
@@ -1691,7 +1564,6 @@
 			"Survival": 3,
 			"Vigilance": 2
 		},
-		"talents": [],
 		"abilities": ["Barbed Hide", "Silhouette 2"],
 		"weapons": [
 			{
@@ -1703,7 +1575,6 @@
 				"qualities": ["Knockdown", "Sunder"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "location:Hutt Space", "book:lonh"]
 	},
 	{
@@ -1725,7 +1596,6 @@
 		"skills": {
 			"Survival": 2
 		},
-		"talents": [],
 		"abilities": ["Silhouette 2", "Domesticable 1", "Trained Mount 1", "Beast of Burden 10"],
 		"weapons": [
 			{
@@ -1737,7 +1607,6 @@
 				"qualities": ["Knockdown"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sot", "creature", "species:Ronto"]
 	},
 	{
@@ -1762,7 +1631,6 @@
 			"Survival": 3,
 			"Vigilance": 3
 		},
-		"talents": [],
 		"abilities": ["Silhouette 2", "Flyer", "Trained Mount 1"],
 		"weapons": [
 			{
@@ -1774,7 +1642,6 @@
 				"qualities": []
 			}
 		],
-		"gear": [],
 		"tags": ["book:sot", "creature"]
 	},
 	{
@@ -1811,7 +1678,6 @@
 				"qualities": ["Ensnare 3"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "location:Hutt Space", "location:Toydaria", "book:lonh", "adventure:Toydarian Grocery Shopping"]
 	},
 	{
@@ -1836,7 +1702,6 @@
 			"Resilience": 2,
 			"Survival": 1
 		},
-		"talents": [],
 		"abilities": ["Aquatic Creature", "Silhouette 2"],
 		"weapons": [
 			{
@@ -1856,7 +1721,6 @@
 				"qualities": ["Vicious 3"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "location:Hutt Space", "book:lonh"]
 	},
 	{
@@ -1894,7 +1758,6 @@
 				"qualities": ["Knockdown", "Pierce 3"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "book:fad"]
 	},
 	{
@@ -1918,7 +1781,6 @@
 			"Survival": 1,
 			"Vigilance": 1
 		},
-		"talents": [],
 		"abilities": ["Silhouette 2", "Trained Mount 1"],
 		"weapons": [
 			{
@@ -1930,7 +1792,6 @@
 				"qualities": ["Disorient 1"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "location:Hoth", "book:sor", "book:sot"]
 	},
 	{
@@ -1955,7 +1816,6 @@
 			"Perception": 3,
 			"Vigilance": 2
 		},
-		"talents": [],
 		"abilities": ["Silhouette 0", "Dive-bomb"],
 		"weapons": [
 			{
@@ -1967,7 +1827,6 @@
 				"qualities": ["Pierce 2"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "location:Kinyen", "book:sor"]
 	},
 	{
@@ -1990,7 +1849,6 @@
 			"Cool": 1,
 			"Coordination": 1
 		},
-		"talents": [],
 		"abilities": ["Silhouette 2", "Flyer", "Hover", "Domesticated", "Unstable 4"],
 		"weapons": [
 			{
@@ -2002,7 +1860,6 @@
 				"qualities": []
 			}
 		],
-		"gear": [],
 		"tags": ["book:sot", "creature"]
 	},
 
@@ -2029,7 +1886,6 @@
 			"Survival": 2,
 			"Vigilance": 2
 		},
-		"talents": [],
 		"abilities": ["Silhouette 3", "Aquatic Creature", "Lightning Charge", "Trained Mount 2"],
 		"weapons": [
 			{
@@ -2041,7 +1897,6 @@
 				"qualities": ["Pierce 3", "Vicious 3"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "location:Mon Cala", "book:sor", "riding beast"]
 	},
 	{
@@ -2087,7 +1942,6 @@
 				"qualities": ["Vicious 4"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "species:Hutt", "location:Hutt Space", "book:lonh"]
 	},
 	{
@@ -2124,7 +1978,6 @@
 				"qualities": ["Pierce 3", "Vicious 2"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "location:Hoth", "book:sor"]
 	},
 	{
@@ -2161,7 +2014,6 @@
 				"qualities": ["Concussive 1", "Slow-Firing 1"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "location:Mon Cala", "book:sor"]
 	},
 	{
@@ -2186,7 +2038,6 @@
 			"Perception": 1,
 			"Vigilance": 1
 		},
-		"talents": [],
 		"abilities": ["Silhouette 2", "Glider"],
 		"weapons": [
 			{
@@ -2198,7 +2049,6 @@
 				"qualities": ["Vicious 3"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:sot", "book:ss", "creature"]
 	},
 	{
@@ -2226,7 +2076,6 @@
 			"Survival": 1,
 			"Vigilance": 2
 		},
-		"talents": [],
 		"abilities": ["Detect Force-Sensitivity", "Force Hunter"],
 		"weapons": [
 			{
@@ -2246,7 +2095,6 @@
 				"qualities": ["Vicious 2"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "book:fad"]
 	},
 	{
@@ -2266,14 +2114,7 @@
 			"wounds": 9,
 			"defence": [1, 1]
 		},
-		"skills": {
-			"Athletics": 0,
-			"Brawl": 0,
-			"Resilience": 0,
-			"Stealth": 0,
-			"Survival": 0
-		},
-		"talents": [],
+		"skills": ["Athletics", "Brawl", "Resilience", "Stealth", "Survival"],
 		"abilities": ["Olfactory Perception"],
 		"weapons": [
 			{
@@ -2285,7 +2126,6 @@
 				"qualities": ["Knockdown", "Sunder"]
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "location:Hutt Space", "book:lonh", "book:ss"]
 	},
 	{
@@ -2304,8 +2144,7 @@
 			"soak": 1,
 			"wounds": 2
 		},
-		"skills": {},
-		"talents": [],
+		"skills": [],
 		"abilities": ["Negate Force Powers", "Sessile", "Silhouette 0"],
 		"weapons": [
 			{
@@ -2317,7 +2156,6 @@
 				"qualities": []
 			}
 		],
-		"gear": [],
 		"tags": ["creature", "book:fad"]
 	}
 ]

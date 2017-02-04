@@ -15,12 +15,7 @@
 			"soak": 3,
 			"wounds": 4
 		},
-		"skills": {
-			"Perception": 0,
-			"Ranged: Light": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Perception", "Ranged: Light"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Padded jacket (++1 Soak)"],
 		"tags": ["adventure:Lost Knowledge", "location:Athiss", "civilian", "security"]
@@ -41,13 +36,7 @@
 			"soak": 2,
 			"wounds": 6
 		},
-		"skills": {
-			"Brawl": 0,
-			"Perception": 0,
-			"Stealth": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Brawl", "Perception", "Stealth"],
 		"weapons": [
 			{
 				"name": "Sharp teeth and claws",
@@ -58,7 +47,6 @@
 				"qualities": []
 			}
 		],
-		"gear": [],
 		"tags": ["adventure:Lost Knowledge", "location:Athiss", "creature"]
 	},
 	{
@@ -84,8 +72,6 @@
 			"Ranged: Heavy": 2,
 			"Survival": 2
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": [
 			"Vibroknife",
 			{
@@ -116,11 +102,7 @@
 			"soak": 3,
 			"wounds": 4
 		},
-		"skills": {
-			"Ranged: Heavy": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Ranged: Heavy"],
 		"weapons": [
 			"Vibroknife",
 			{
@@ -157,7 +139,6 @@
 			"Stealth": 1,
 			"Survival": 2
 		},
-		"talents": [],
 		"abilities": ["Barbed Hide"],
 		"weapons": [
 			{
@@ -169,7 +150,6 @@
 				"qualities": []
 			}
 		],
-		"gear": [],
 		"tags": ["adventure:Lost Knowledge", "location:Athiss"]
 	},
 	{
@@ -194,7 +174,6 @@
 			"Stealth": 1,
 			"Survival": 2
 		},
-		"talents": [],
 		"abilities": ["Barbed Hide"],
 		"weapons": [
 			{
@@ -206,7 +185,6 @@
 				"qualities": ["Pierce 2"]
 			}
 		],
-		"gear": [],
 		"tags": ["adventure:Lost Knowledge", "location:Athiss", "creature"]
 	}
 ]

@@ -81,7 +81,6 @@
 		"talents": ["Adversary 1", "Plausible Deniability 2"],
 		"abilities": ["Imperial Valour"],
 		"weapons": ["Blaster pistol"],
-		"gear": [],
 		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "empire", "imperial bureaucracy", "location:Cato Neimoidia", "location:Jorra"]
 	},
 	{
@@ -310,10 +309,7 @@
 			"Perception": 1,
 			"Skulduggery": 1
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Holdout blaster"],
-		"gear": [],
 		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "species:Neimoidian", "location:Cato Neimoidia", "location:Jorra"]
 	},
 	{
@@ -386,8 +382,6 @@
 			"Skulduggery": 1,
 			"Stealth": 1
 		},
-		"talents": [],
-		"abilities": [],
 		"weapons": ["Holdout blaster", "Stun grenade"],
 		"gear": ["2 Stun grenades"],
 		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Cato Neimoidia", "location:Jorra", "species:Neimoidian", "separatist", "spy"]
@@ -408,13 +402,9 @@
 			"soak": 2,
 			"wounds": 3
 		},
-		"skills": {
-			"Melee": 0
-		},
-		"talents": [],
+		"skills": ["Melee"],
 		"abilities": ["Strength in Numbers"],
 		"weapons": ["Light blaster pistol", "Truncheon"],
-		"gear": [],
 		"tags": ["book:cotgk", "location:Cato Neimoidia", "species:Neimoidian", "adventure:Chronicles of the Gatekeeper"]
 	},
 	{
@@ -434,13 +424,7 @@
 			"wounds": 4,
 			"defence": [1, 0]
 		},
-		"skills": {
-			"Coordination": 0,
-			"Melee": 0,
-			"Ranged: Heavy": 0,
-			"Survival": 0
-		},
-		"talents": [],
+		"skills": ["Coordination", "Melee", "Ranged: Heavy", "Survival"],
 		"abilities": ["Sathari Glider"],
 		"weapons": ["Slugthrower rifle", "Diiro"],
 		"gear": ["1 Dose bearsloth venom", "Thick furs and leathers (++1 Soak)"],
@@ -492,13 +476,7 @@
 			"wounds": 4,
 			"defence": [1, 0]
 		},
-		"skills": {
-			"Coordination": 0,
-			"Melee": 0,
-			"Ranged:Light": 0,
-			"Survival": 0
-		},
-		"talents": [],
+		"skills": ["Coordination", "Melee", "Ranged:Light", "Survival"],
 		"abilities": ["Sathari Glider"],
 		"weapons": ["Slugthrower pistol", "Diiro"],
 		"gear": ["2 Doses of bearsloth venom", "Padded armour (+2 Soak)", "Binders"],
@@ -569,7 +547,6 @@
 				"qualities": ["Linked 1"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:cotgk", "location:Arbooine", "creature", "adventure:Chronicles of the Gatekeeper"]
 	},
 	{
@@ -607,7 +584,6 @@
 				"qualities": ["Ensnare 1", "Vicious 2"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Moraband", "creature"]
 	},
 	{
@@ -631,7 +607,6 @@
 			"Brawl": 1,
 			"Perception": 2
 		},
-		"talents": [],
 		"abilities": ["Arboreal Creature", "Silhouette 2"],
 		"weapons": [
 			{
@@ -643,7 +618,6 @@
 				"qualities": []
 			}
 		],
-		"gear": [],
 		"tags": ["book:cotgk", "creature", "location:Arbooine", "adventure:Chronicles of the Gatekeeper"]
 	},
 
@@ -663,17 +637,9 @@
 			"soak": 5,
 			"wounds": 5
 		},
-		"skills": {
-			"Cool": 0,
-			"Melee": 0,
-			"Ranged: Heavy": 0,
-			"Ranged: Light": 0,
-			"Stealth": 0
-		},
-		"talents": [],
+		"skills": ["Cool", "Melee", "Ranged: Heavy", "Ranged: Light", "Stealth"],
 		"abilities": ["Droid"],
 		"weapons": ["Blaster carbine", "Vibrosword", "Frag grenade", "Stun grenade"],
-		"gear": [],
 		"tags": ["species:Droid", "separatist", "book:cotgk", "adventure:Chronicles of the Gatekeeper"]
 	},
 	{
@@ -697,7 +663,6 @@
 			"Perception": 3,
 			"Resilience": 3
 		},
-		"talents": [],
 		"abilities": ["Droid", "Fire Sweep", "Shield Projector"],
 		"weapons": [
 			{
@@ -717,7 +682,6 @@
 				"qualities": ["Knockdown 1"]
 			}
 		],
-		"gear": [],
 		"tags": ["species:Droid", "separatist", "book:cotgk", "adventure:Chronicles of the Gatekeeper"]
 	},
 	{
@@ -743,7 +707,6 @@
 			"Lightsaber": 2,
 			"Stealth": 4
 		},
-		"talents": [],
 		"abilities": ["Creature of Illusion", "Darkest Dreams"],
 		"weapons": [
 			{
@@ -755,7 +718,6 @@
 				"qualities": ["Breach 1", "Disorient 2", "Stun Damage"]
 			}
 		],
-		"gear": [],
 		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Moraband", "sith"]
 	},
 	{
@@ -774,14 +736,7 @@
 			"soak": 3,
 			"wounds": 4
 		},
-		"skills": {
-			"Brawl": 0,
-			"Piloting: Planetary": 0,
-			"Piloting: Space": 0,
-			"Ranged: Light": 0
-		},
-		"talents": [],
-		"abilities": [],
+		"skills": ["Brawl", "Piloting: Planetary", "Piloting: Space", "Ranged: Light"],
 		"weapons": ["Light blaster pistol", "Brass knuckles"],
 		"gear": ["Heavy clothing (+1 Soak)", "Mobquet Flare-V swoop bike with garish paint job"],
 		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Cato Neimoidia", "species:Neimoidian", "location:Jorra", "kreehawk ganger", "underworld", "thug", "swoop racer"]
