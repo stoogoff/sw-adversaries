@@ -52,7 +52,7 @@
 		}
 		],
 		"gear": ["Superior Jedi Temple Guard Armour (+2 Soak, +2 Defence, remove :setback: from darkness or similar environemental effects, built-in comlink)"],
-		"tags": ["empire", "inquisitor", "force sensitive", "jedi"],
+		"tags": ["empire", "inquisitor", "force sensitive", "jedi", "darkside"],
 		"devOnly": true
 	}
 ]

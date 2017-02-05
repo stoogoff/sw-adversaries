@@ -149,7 +149,7 @@
 		"abilities": ["Force power: Influence", "Darkside Force User"],
 		"weapons": ["Disruptor pistol", "Vibrosword", "Frag grenade"],
 		"gear": ["1 Frag grenade"],
-		"tags": ["force sensitive", "empire", "book:eote"]
+		"tags": ["force sensitive", "empire", "book:eote", "darkside"]
 	},
 	{
 		"name": "Fallen Apprentice",
@@ -178,7 +178,7 @@
 		"abilities": ["Darkside Force User"],
 		"weapons": ["Basic lightsaber"],
 		"gear": ["Black robes (+1 Soak)"],
-		"tags": ["force sensitive", "book:fad", "fallen jedi"]
+		"tags": ["force sensitive", "book:fad", "darkside"]
 	},
 	{
 		"name": "Fallen Master",
@@ -219,7 +219,7 @@
 			}
 		],
 		"gear": ["Black robes (+1 Soak)"],
-		"tags": ["force sensitive", "book:fad", "fallen jedi"]
+		"tags": ["force sensitive", "book:fad", "darkside"]
 	},
 	{
 		"name": "Forsaken Jedi",
@@ -330,7 +330,7 @@
 				"qualities": ["Pierce 2", "Vicious 2"]
 			}
 		],
-		"tags": ["force sensitive", "underworld", "book:fad"]
+		"tags": ["force sensitive", "underworld", "book:fad", "darkside"]
 	},
 	{
 		"name": "Scarred Gladiator",
@@ -373,6 +373,6 @@
 			}
 		],
 		"gear": ["Gladiatorial leathers (+2 Soak)"],
-		"tags": ["force sensitive", "underworld", "gladiator", "book:fad"]
+		"tags": ["force sensitive", "underworld", "gladiator", "book:fad", "darkside"]
 	}
 ]

@@ -48,6 +48,10 @@
 		"description": ":lightside:: Gain vague hints of events to come, up to a day into own future; :lightside:: Gain :advantage: per point on an Initiative check."
 	},
 	{
+		"name": "Force power: Misdirect",
+		"description": ":lightside:: Make one target within Short range unable to perceive one Silhoutte 1 object, or perceive one non-existent Silhoutte 1 object; spend :lightside::lightside: to create up to six additional illusory people or objects; spend :lightside: to increase the number of affected targets by 3."
+	},
+	{
 		"name": "Force power: Sense",
 		"description": ":lightside:: Sense all living things within Short range. :lightside:: Sense the emotional state of one target within Short range. Ongoing effect, commit :force: upto Force rating to upgrade difficulty of at­tacks targeting the character once."
 	},

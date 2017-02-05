@@ -113,7 +113,7 @@
 		"abilities": ["Darkside Force User", "Force power: Battle Meditation"],
 		"weapons": ["Cortosis sword", "Blaster pistol", "Stun grenade"],
 		"gear": ["Armoured robes (+2 Soak, +1 Defence)", "Commlink", "Kyber crystal amulet", "2 Stun grenades"],
-		"tags": ["book:cotgk", "location:Arbooine", "location:Quolas", "adventure:Chronicles of the Gatekeeper"]
+		"tags": ["book:cotgk", "location:Arbooine", "location:Quolas", "adventure:Chronicles of the Gatekeeper", "darkside"]
 	},
 	{
 		"name": "Lor Keln",
@@ -283,7 +283,7 @@
 			}
 		],
 		"gear": ["Armoured robes (+2 Soak, +1 Defence)", "Kyber crystal"],
-		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Moraband", "fallen jedi", "force sensitive", "jedi"]
+		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Moraband", "force sensitive", "jedi", "darkside"]
 	},
 	{
 		"name": "Tor Haido",

@@ -9,9 +9,7 @@ function getWeaponDetails(weapon, character, allSkills, minions) {
 
 	// melee weapon so work out brawn damage
 	if("plus-damage" in weapon) {
-		let brawn  = character.characteristics.Brawn;
-
-		weapon["damage"] = weapon["plus-damage"] + brawn;
+		weapon["damage"] = weapon["plus-damage"] + character.characteristics.Brawn;
 	}
 
 	// get dice values

@@ -1,6 +1,6 @@
 
 import React from "react";
-import { symbolise, sortByProperty } from "lib/utils";
+import { id, symbolise, sortByProperty } from "lib/utils";
 
 export default class TalentPanel extends React.Component {
 	render() {
@@ -13,6 +13,16 @@ export default class TalentPanel extends React.Component {
 		let allTalents = this.props.talents.all();
 
 		data.forEach(t => {
+			if(t instanceof Object) {
+				if(!("id" in t)) {
+					t.id = id(t.name);
+				}
+
+				talents.push(t);
+
+				return;
+			}
+
 			let talentName = t.replace(/\s\d+$/, "");
 			let talent = allTalents.find(i => i.name == talentName)
 

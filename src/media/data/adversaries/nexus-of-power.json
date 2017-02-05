@@ -1037,7 +1037,7 @@
 			}
 		],
 		"gear": ["Ceremonial armour (+2 Soak, +1 Defence)", "Binders", "Comlink"],
-		"tags": ["security", "book:nop", "location:Empress Teta"]
+		"tags": ["security", "book:nop", "location:Empress Teta", "adventure:Witch’s Wrath"]
 	},
 	{
 		"name": "Mining Guild Enforcer",
@@ -1216,6 +1216,269 @@
 			}
 		],
 		"gear": ["Integrated Secure Tech “Night-sight” passive sensor suite (allows the droid to see in dim and dark conditions and to hear sounds far above and below a human’s range of hearing; adds :boost: to Vigilance checks)"],
-		"tags": ["droid", "book:nop", "security"]
+		"tags": ["species:Droid", "book:nop", "security"]
+	},
+	{
+		"name": "Ursosaur",
+		"type": "Rival",
+		"description": "The ursosaur is a stocky, scaled quadruped covered in thick scales ranging in color from light brown to verdant green. Its dark beak is capable of clipping off the twigs of young neelee trees for nesting, but it could just as easily snap a charac­ter’s limb clean off. While they primarily subsist on a diet of berries and freshwater fish, these massive reptiles are still considered a threat to those who wander close. Ursosaurs are verv territorial, especially if still caring for their young.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 16
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Coercion": 4,
+			"Perception": 1,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Beak",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Inaccurate 2", "Vicious 4"]
+			},
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"tags": ["creature", "book:nop", "adventure:Exploring the Acablas Ruins", "location:Auratera"]
+	},
+	{
+		"name": "Cultist War Doid",
+		"type": "Minion",
+		"description": "These custom war droids look like skeletal humanoids with smooth, blank faces. Each carries a unique pulse-wave array that looks like a metallic unstringed bow, but fires a powerful disrupter blast. The ends are filed to sharp points suitable for spearing opponents if necessary.\n\nThe droids identify the strongest opponent within range and swarm until victorious, then systematically move to the next most powerful target. Sianna Sekko programmed the droids to fight the Jedi, so they always favour a target with an activated lightsaber.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 6,
+			"defence": [2, 2]
+		},
+		"skills": ["Brawl", "Melee", "Ranged: Light", "Vigilance"],
+		"abilities": [
+			"Droid", 
+			{
+				"name": "Coordinated Assault",
+				"description": "When a minion group of three or more cultist war droids attacks a target, increase the Strain cost to use the Dodge, Parry, or Reflect talents by 2."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Pulse-wave array",
+				"skill": "Ranged: Light",
+				"damage": 8,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Vicious 3"]
+			},
+			{
+				"name": "Pulse-wave edges",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"gear": ["Ablative plating (+1 Soak, +2 Defence)"],
+		"tags": ["species:Droid", "book:nop", "adventure:Witch’s Wrath", "location:Empress Teta"]
+	},
+	{
+		"name": "Sianna Sekko",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 18,
+			"strain": 18,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Deception": 2,
+			"Discipline": 3,
+			"Lightsaber (Agility)": 3,
+			"Ranged: Light": 1,
+			"Stealth": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Ataru Technique", "Force Rating 3", "Improved Parry", "Parry 3", "Reflect 3"],
+		"abilities": [
+			"Force power: Misdirect",
+			{
+				"name": "Force power: Enhance",
+				"description": ":lightside:: Gain :success: or :advantage: (user's choice) on an Athletics, Coordination, or Resilience check; :lightside::lightside:: take a Force Leap action to jump horizontally or vertically to any location in Medium range."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Blood blade",
+				"skill": "Lightsaber (Agility)",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Cortosis", "Pierce 3", "Vicious 3"]
+			},
+			{
+				"name": "SE-14r Blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Auto-Fire", "Stun Setting"]
+			}
+		],
+		"gear": ["Combat robes (+2 Soak, +1 Defence)", "Stimpack"],
+		"tags": ["force sensitive", "book:nop", "adventure:Witch’s Wrath", "location:Empress Teta"]
+	},
+	{
+		"name": "Ossus Stone Guardian",
+		"type": "Rival",
+		"description": "Statues of ancient Jedi heroes were a common enough sight at Jedi Temples so as to not draw much attention. However, while most are merely statues, some conceal a secret be­neath their polished stone exteriors. Jedi defense droids disguised as minimalist statues were popular in Jedi temples constructed around the time of the Qel-Droma Epics. These simple droids could remain still for millennia without main­tenance, moving only when their sensors detected a threat. The powerful juggernauts would then attack all targets within their assigned area. Operating under the most basic of pro­gramming, most were unable to distinguish between friend and foe. The droids were heavily armored and, in some cases, layers of cortosis lined the droid chassis beneath their heavy stone exteriors. Still, the droids had a built-in weakness—Jedi who thought to do so could use the Force to move a shutdown switch located within a droid’s torso.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 10
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Melee": 2,
+			"Perception": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Durable 2"],
+		"abilities": ["Droid"],
+		"weapons": [
+			{
+				"name": "Stone sword",
+				"skill": "Melee",
+				"damage": 9,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Cortosis", "Vicious 2"]
+			},
+			{
+				"name": "Stone fists",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Cortosis", "Concussive 1"]
+			}
+		],
+		"gear": ["Cortosis chassis (+2 Soak, Cortosis)", "Integrated Secure Tech “Night-sight” passive sensor suite (allows the droid to see in dim and dark conditions and to hear sounds far above and below a human’s range of hearing; adds :boost: to Vigilance checks)"],
+		"tags": ["species:Droid", "book:nop", "security", "location:Ossus", "adventure:Vault of Justice"]
+	},
+	{
+		"name": "Blaster Drone",
+		"type": "Rival",
+		"description": "This small, robotic drone is designed to fire weak blaster shots as part of a training programme. It hovers approximately 1.5 metres from the ground, and can be set to fire shots at regular or irregular intervals.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 6
+		},
+		"skills": {
+			"Ranged: Light": 3
+		},
+		"abilities": ["Droid", "Hoverer"],
+		"weapons": [
+			{
+				"name": "Training blaster",
+				"skill": "Ranged: Light",
+				"damage": 2,
+				"critical": null,
+				"range": "Short",
+				"qualities": ["Stun Damage"]
+			}
+		],
+		"tags": ["species:Droid", "book:nop", "security", "location:Ossus", "adventure:The Trial of Skill"]
+	},
+	{
+		"name": "Dark Hunter",
+		"type": "Rival",
+		"description": "Dark Hunters were likely once members of a predatory sim­ian species, but dark side adepts transformed them into something different. They retain their aggressive instincts and pack tactics, but they no longer hunt solely for food. In­stead, these creatures revel in the act of destruction. Weigh­ing in at more than sixty kilograms each, the bow-legged beasts stand over three meters tall and have huge arms with grasping, clawed hands. Their bodies weep with open sores, and hornlike bone spurs jut out at odd angles in numerous locations. Dark Hunters appear to be in constant pain. It may be that their violent tendencies are a response to that agony.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Perception": 2,
+			"Stealth": 2,
+			"Survival": 1,
+			"Vigilance": 2
+		},
+		"talents": ["Quick Strike 2"],
+		"abilities": ["Cunning Ambusher", "Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Teeth and claws",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Burn 2"]
+			}
+		],
+		"tags": ["creature", "book:nop", "adventure:The Light Within", "darkside"]
 	}
 ]

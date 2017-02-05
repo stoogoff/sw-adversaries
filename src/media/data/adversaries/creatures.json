@@ -1060,7 +1060,7 @@
 	{
 		"name": "Kouhun",
 		"type": "Minion",
-		"description": "Kouhuns are small, multi-legged, venomous arthro­pods approximately thirty centimeters long, with gray, segmented bodies and large mandibles. Kouhun bites deliver a fast-acting and fatal neurotoxin, making them a favorite “w eapon” of many assassins. On their home planet of Indoumodo, they are simple preda­tors who track prey by heat. Their tiny size makes them adept at slipping through ventilation systems, windows, cracks in masonry, and other tight spaces. When cornered, kouhuns can also use a sharp, non-venomous tail spine to defend themselves.",
+		"description": "Kouhuns are small, multi-legged, venomous arthro­pods approximately thirty centimeters long, with gray, segmented bodies and large mandibles. Kouhun bites deliver a fast-acting and fatal neurotoxin, making them a favorite “weapon” of many assassins. On their home planet of Indoumodo, they are simple preda­tors who track prey by heat. Their tiny size makes them adept at slipping through ventilation systems, windows, cracks in masonry, and other tight spaces. When cornered, kouhuns can also use a sharp, non-venomous tail spine to defend themselves.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 2,
