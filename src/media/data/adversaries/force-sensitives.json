@@ -252,7 +252,7 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 2", "Force Rating 3", "Sense Danger", "Sense Emotions", "Uncanny Senses 2"],
-		"abilities": ["Force power: Move", "Force power: Sense", "On the Edge"],
+		"abilities": ["Force power: Move", "Force power: Sense (Upgrade)", "On the Edge"],
 		"weapons": ["Lightsaber"],
 		"tags": ["force sensitive", "jedi", "book:eote"]
 	},

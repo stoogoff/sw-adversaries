@@ -20,6 +20,14 @@
 		"description": "A minion group of three or more jako­beasts may attempt to shove enemies away with the Force. As an action, roll :force::force:. Each :lightside: generated may be spent to move one Silhouette 1 en­emy within short range to medium range."
 	},
 	{
+		"name": "Force power: Bind",
+		"description": "Once per round may make a Bind Force power check. :lightside: to immobilise one target within Short range; :lightside: to increase the range of the power by one; :lightside::lightside: to affect one additional target, and :lightside: to inflict 3 Strain whenever an affected target takes an action."
+	},
+	{
+		"name": "Force power: Bind (Upgrade)",
+		"description": "Once per round may make a Bind Force power check. :lightside: to immobilise one target within Short range; :lightside: to affect one additional target, and :lightside: to inflict 5 Strain whenever an affected target takes an action."
+	},
+	{
 		"name": "Force power: Enhance",
 		"description": ":lightside:: Gain :success: or :advantage: (user's choice) on an Athletics, Coordination, or Resilience check; :lightside:: take a Force Leap action to jump horizontally or vertically to any location in Short range."
 	},
@@ -41,7 +49,11 @@
 	},
 	{
 		"name": "Force power: Sense",
-		"description": ":lightside:: Sense all living things within Medium range. :lightside:: Sense the emotional state of one target within Medium range. Ongoing effect :force: Upgrade difficulty of at­tacks targeting the character twice."
+		"description": ":lightside:: Sense all living things within Short range. :lightside:: Sense the emotional state of one target within Short range. Ongoing effect, commit :force: upto Force rating to upgrade difficulty of at­tacks targeting the character once."
+	},
+	{
+		"name": "Force power: Sense (Upgrade)",
+		"description": ":lightside:: Sense all living things within Medium range. :lightside:: Sense the emotional state of one target within Medium range. Ongoing effect, commit :force: upto Force rating to upgrade difficulty of at­tacks targeting the character twice."
 	},
 	{
 		"name": "Force power: Influence",
@@ -62,5 +74,9 @@
 	{
 		"name": "On the Edge",
 		"description": "Once per Force check, may suffer 1 Strain to use :darkside: result to generate :lightside:."
+	},
+	{
+		"name": "Projectile Guidance",
+		"description": "When making a ranged attack with a concussion bow, a Ysanna hunter can add :force: to the check and spend :lightside: to give the attack the Pierce 3 quality."
 	}
 ]

@@ -25,7 +25,7 @@
 	},
 	{
 		"name": "Animal Empathy",
-		"description": ""
+		"description": "When attempting to handle or tame animals, add :force: no greater than Force rating to the check and spend :lightside: to add :success: or :advantage:."
 	},
 	{
 		"name": "Armor Master",
@@ -809,7 +809,7 @@
 	},
 	{
 		"name": "Loom",
-		"description": ""
+		"description": "When an Engaged ally makes a successful Charm, Deception, or Negotia­tion check, add :advantage: per rank in Coercion to the check."
 	},
 	{
 		"name": "Machine Mender",

@@ -1,0 +1,1221 @@
+[
+	{
+		"name": "Kirruk Riding Beast",
+		"type": "Rival",
+		"description": "These muscular, horned reptilian quadrupeds are cave dwellers, and hardy enough to survive the decimation of Ossus. The Ysanna call them “kirruk” after their squawking call, and they breed them to serve as beasts of burden and riding mounts.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 18
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 3,
+			"Resilience": 3
+		},
+		"abilities": ["Silhouette 2", "Trained Mount 2"],
+		"weapons": [
+			{
+				"name": "Teeth",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 3"]
+			},
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Disorient 1"]
+			}
+		],
+		"tags": ["book:nop", "creature", "location:Ossus", "riding beast"]
+	},
+	{
+		"name": "Loth-Cat",
+		"type": "Rival",
+		"description": "Members of the far-flung tooka family, loth-cats are small, wild felines native to Lothal. They are, on average, about a metre long and can weigh as much as fifteen kilograms. They have short, brindled coats with white bellies; long, thick tails; and narrow, black legs that end in long, sharp claws. Their faces are remarkably expressive, with solid black eyes, large ears, and a broad mouth full of needle-sharp teeth.\n\nLoth-cats live solitary lives primarily in Lothal’s vast grasslands, coming together only to breed and raise kits. Hunting by sight and hearing, they prey largely on loth-rats and other assorted rodents and avifauna. Expert stalkers, loth-cats hunt their prey for hours or even days, waiting for the perfect time to attack. Once committed, a loth-cat springs from hiding and attempts to kill its prey as quickly as possible. When attacking prey larger than themselves, usually when frightened or cornered, a loth-cat typically goes for a target’s face first, clawing at eyes and any other sensitive areas. Loth-cats only fight larger prey until they can escape or the creature is driven off, and will run if they can.\n\nWhile most are wild, loth-cats can be domesticated, with varying degrees of success. They make fine, if capricious and slightly destructive, pets. With enough patience, they can even be trained to hunt and retrieve.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 6,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Coordination": 3,
+			"Perception": 2,
+			"Stealth": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Natural Hunter"],
+		"abilities": ["Cunning Ambusher 1", "Leap", "Nightvision", "Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Teeth and claws",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Knockdown"]
+			}
+		],
+		"tags": ["creature", "book:nop", "location:Lothal"]
+	},
+	{
+		"name": "Bloodfly",
+		"type": "Minion",
+		"description": "Bloodflies are swarming insects common to the broad plains of Lothal. Large and highly aggressive, they measure be­tween ten and fourteen milli­meters long. They have band­ed, black-and-white bodies; iridescent wings; and huge, bright green eyes. As their name suggests, bloodflies feed on mammal blood, al­though they also ingest pol­len and nectar. They tend to gather around herds of large animals such as nerfs, where the food is plentiful.\n\nWhile they have an ex­tremely painful bite, they are also extremely noisy fly­ers, which makes them, at least for sentients, relatively a easy to avoid. Bloodflies occasionally carry a blood-borne disease called “bloodfly sickness”, which saps afflicted sentients’ strength and energy and causes fever, vomiting, and painful rashes. Thankfully, this disease is easily treated with bacta immersion and rest.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 0,
+			"wounds": 1,
+			"defence": [1, 1]
+		},
+		"skills": ["Brawl"],
+		"abilities": ["Flyer", "Bloodfly Sickness", "Swarm", "Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Mandibles",
+				"skill": "Brawl",
+				"damage": 2,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 4", "Vicious 1"]
+			}
+		],
+		"tags": ["creature", "book:nop", "location:Lothal"]
+	},
+	{
+		"name": "Loth-Rat",
+		"type": "Minion",
+		"description": "Loth-rats are large, hairless rodents native to Lothal. Roughly the size of domesticated felines, these burrowing creatures typically live in underground colonies compris­ing dozens of members. True omnivores, loth-rats have a reputation for being able to eat nearly anything, though they prefer grubs and grains. A hungry pack of loth-rats will uproot an entire field of grain and leave nothing but muddy, trampled dirt; or destroy a plasteel silo of harvested veg­etables in search of their next meal. Their strong jaws and sharp, jagged teeth allow them to chew through the tough­ est materials; Imperial Navy pilots have reported them gnawing at the bottom of TIE/ln solar panels and chewing holes in duracrete fortifications at airbases.\n\nTypically shy of sentients, loth-rats are easily frightened off. In numbers, however, they can be exceedingly danger­ ous, especially when cornered, defending their young, or kept from a meal. Angry or frightened loth-rats attack in a massive swarm, each one rushing and leaping onto its target and tearing at it with teeth and claws.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 2
+		},
+		"skills": ["Brawl", "Survival"],
+		"abilities": ["Swarm", "Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Teeth",
+				"skill": "Brawl",
+				"damage": 2,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 1"]
+			}
+		],
+		"tags": ["creature", "book:nop", "location:Lothal"]
+	},
+	{
+		"name": "Nerf",
+		"type": "Minion",
+		"description": "Perhaps the most ubiquitous beasts in the galaxy, nerfs are found nearly everywhere there are humans. These cloven-hoofed, goat-like ruminants stand between 1.3 and 1.5 me­tres tall at the shoulder, have thick matted hair, and sport two sets of horns. They are remarkably unpleasant creatures on the whole, thanks to their stubbornness, powerful body odour, and thick, black, ropey saliva, which is extremely caus­tic and stains anything it touches.\n\nDocile and not easily spooked, the hardy creatures can adapt to nearly any environment, which largely makes up for their more unpleasant traits. These qualities, along with the fact that nerfs are completely unfazed by space travel, is what makes them so common throughout the galaxy. Nerfs found on Lothal are descended from ones the first colonists brought there generations ago. A number of breeds unique to Lothal have since developed, and Lothal nerfs are prized for the flavor and quality of their meat.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 12
+		},
+		"skills": ["Athletics", "Brawl", "Perception"],
+		"abilities": ["Nightvision", "Ornery"],
+		"weapons": [
+			{
+				"name": "Horns",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 1"]
+			}
+		],
+		"tags": ["creature", "book:nop", "location:Lothal"]
+	},
+	{
+		"name": "Asharl Panther",
+		"type": "Rival",
+		"description": "Asharl panthers are one of the more common predators on Ilum. They are large, aggressive, territorial felines that make their homes in Ilum’s high northern and southern latitudes. Adult asharl panthers average between two and three metres long and stand roughly one metre high at the shoulder. Their four powerful legs end in two-toed feet equipped with nonretractable claws. The creatures’ bodies are covered in dense, smooth fur in shades of white, grey, and blue that holds their body heat in to protect them from the cold and driving wind. They have broad, earless heads with pronounced brow ridges, and their faces are remark­ably expressive, with short, blunt snouts and golden eyes. The most noticeable feature is a pair of long, tentacle-like sensory organs that grow from their shoulders. Asharl panthers live in small family groups and typically hunt in pairs or in groups of four.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coordination": 2,
+			"Perception": 3,
+			"Stealth": 2,
+			"Sur­vival": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Asharl Pelt", "Keen Senses", "Pack Instincts"],
+		"weapons": [
+			{
+				"name": "Teeth and Claws",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"tags": ["creature", "book:nop", "location:Ilum"]
+	},
+	{
+		"name": "Blismal",
+		"type": "Minion",
+		"description": "Blismal are small, furry, inoffensive rodents who live in the tunnels and caverns deep beneath Ilum’s surface. About the size of a grown human’s hand, blismal have four legs; sharp-featured faces with small black eyes, round ears, and long snouts; and short, hairless tails. Their bodies are covered in thick, luxurious, silvery fur that keeps them warm and sheds water and dirt. They feed mostly on cave fungus and insects, and they are happy to be left alone in the dark to live out their lives.\n\nLike the harmless snowfeathers, which live on the surface, blismal have few natural predators. This is largely due to their speed and cautious natures, although they do have a frighteningly effective defense mechanism. When frightened, blismal make a shrill, painful, and sustained shrieking noise to ward off attackers and call for assistance from other blis­mal. When three or more blismal join in, they create a howl loud enough to shatter crystals and cause cave-ins, an ability that Jedi experienced firsthand long ago. The Jedi attributed this ability to the blismal’s close connection to the Force, and were able to counter the effects of the shrieking by ma­nipulating the Force around the creatures. In doing so, Jedi exploring Ilum’s cavern system were able to capture blismal, which turned out to be relatively easy to domesticate.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 1
+		},
+		"skills": ["Athletics", "Brawl", "Stealth"],
+		"abilities": ["Shriek", "Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Teeth",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 3"]
+			}
+		],
+		"tags": ["creature", "book:nop", "location:Ilum"]
+	},
+	{
+		"name": "Gorgodon",
+		"type": "Rival",
+		"description": "Gorgodons are, perhaps, the most famous creatures to live on frozen Ilum. They are massive, non-sentient, thick-skinned reptilian creatures with long, powerful arms, short legs, and an axe-shaped head. A thick, shaggy coat of dark grey fur covers them from their shoulders to their feet, leav­ing only their head, which is a sickly orange color, bare to the elements. Gorgodons are incredibly strong and can with­ stand almost any punishment. It is said that they can even shrug off blaster bolts. They are a dangerous combination of dumb, aggressive, and brutal, and are one of the few animals that attack for no good reason. When the Jedi first arrived on Ilum, the gorgodons were the creatures that gave them the most trouble. Throughout the Jedi Order, the name of this creature was used in threats and curses, such as “thick as a gorgodon” or “as angry as a gorgodon’s mother.”",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 21,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Brawl": 4,
+			"Perception": 2,
+			"Survival": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Constrictor", "Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Teeth and Claws",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Ensnare 3", "Vicious 1"]
+			},
+			{
+				"name": "Tail",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Concussive 1", "Knockdown"]
+			}
+		],
+		"tags": ["creature", "book:nop", "location:Ilum"]
+	},
+	{
+		"name": "Razhak",
+		"type": "Nemesis",
+		"description": "Among the most fearsome predators on Ilum, these massive creatures are as agile as they are deadly. Averaging around eight meters in length, razhak-are armored, segmented, wormlike creatures that propel themselves using rippling muscle ridges. Their bodies are broad and flat, covered with thick, chitinous plates in shades of white and blue. While they have no apparent eyes, their heads are topped with long, segmented antennae that serve as sensory organs. Their huge mouths feature multiple rows of serrated teeth.\n\nAggressive and solitary, razhak live in the endless tunnel systems beneath Ilum’s surface. They are deceptively fast and, when they attack, they rear up like a serpent and at­tempt to swallow prey whole. Anything they can’t-eat in one bite they tear into pieces by grasping it in their mouth and shaking it violently.\n\nIn addition to possessing great speed and a savage de­meanour, razhak also can generate intense heat strong enough to rapidly melt solid ice and cause serious burns to exposed flesh. This ability allows them to tunnel through ice as though it were soft sand. Razhak usually build their nests inside of ice walls or densely packed snow, typically leaving the nest only to eat or mate.\n\nThankfully, while they are terrifying to behold and ex­tremely dangerous, razhak are also easily distracted and creatures of minimal intelligence. Keeping this in mind, a clever opponent can easily outflank them, lead them into traps, or make them lose interest in attacking altogether.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 12,
+			"wounds": 25,
+			"strain": 11
+		},
+		"skills": {
+			"Athletics": 4,
+			"Brawl": 4,
+			"Perception": 3,
+			"Resilience": 3
+		},
+		"talents": ["Adversary 1", "Fearsome 3"],
+		"abilities": ["Heightened Sense of Smell", "Searing Touch", "Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Mandibles",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 4", "Knockdown", "Sunder"]
+			}
+		],
+		"tags": ["creature", "book:nop", "location:Ilum"]
+	},
+	{
+		"name": "Snowfeather",
+		"type": "Minion",
+		"description": "Snowfeathers are small, clever, flightless birds native to Ilum. Their bodies are covered in a dense layer of oily, white feath­ers that protects them from Ilum’s bone-chilling cold and vicious weather. Relatively harmless creatures, they live in nesting colonies built into ice shelves or cliff faces.\n\nDespite their inoffensive nature and inability to fly, snowfeathers have few natural predators, for two reasons. First, their meat tastes terrible and is m ildly poisonous, causing painful cramps, bloating, and loosening of the bowels in those unfortunate enough to eat them. Second, they have a connection to the Force that gives them the ability to project an illusion that makes them seem larger and more formidable than they really are. These charac­teristics have allowed them to survive and even thrive on an inhospitable planet full of savage creatures like gorgodons and asharl panthers.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 3
+		},
+		"skills": ["Brawl", "Deception", "Survival"],
+		"abilities": ["Dense Feathers", "Frightening Visage"],
+		"weapons": [
+			{
+				"name": "Beak",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			}
+		],
+		"tags": ["creature", "book:nop", "location:Ilum"]
+	},
+	{
+		"name": "Colo Claw Fish",
+		"type": "Rival",
+		"description": "The Cungans know and fear colo claw fish as a vicious killer that haunts the depths of Naboo’s oceans. An eel-like crea­ture of monstrous size, the colo has a long, flat, and finned body that builds up to huge, jutting jaws. These, along with the vicious mandibles on either side of the mouth, allow colo claw fish to grasp ahold of their prey and swallow them whole. Colo claw fish can grow to as long as 40 meters, mak­ing them one of the largest predators in Naboo’s seas.\n\nColo claw fish are indiscriminate hunters, willing to eat anything they can swallow. They use bioluminescent strips along their flanks to distract and lure prey, although the creatures also use ambush tactics to hunt unwary creatures. More than a few Gungan submersibles have been destroyed when a colo claw fish boiled out of an unassuming hole and tore them apart.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 45
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 1,
+			"Cool": 3,
+			"Coordination": 2,
+			"Stealth": 2,
+			"Survival": 2
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Aquatic Creature", "Cunning Ambusher 1", "Silhouette 4", "Terrifying"],
+		"weapons": [
+			{
+				"name": "Massive maw and mandibles",
+				"skill": "Brawl",
+				"damage": 12,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 4", "Ensnare 3", "Vicious 2"]
+			}
+		],
+		"tags": ["creature", "book:nop", "location:Naboo"]
+	},
+	{
+		"name": "Gualaar",
+		"type": "Rival",
+		"description": "The human population of Naboo domesticated the majestic gualaar long ago, and now it is one of the more common such animals on the planet. Possessing traits common to both equines and caprines, gualaar are tall, broad-barreled ungulates native to Naboo’s mountain and hill regions. They have short, bright white coats that shed water and provide excellent insulation and thick, shaggy, dark-colored manes. Their broad cleft hooves are well suited for climbing, with inner pads covered in thick, grippy skin and sharp dewclaws that keep them firmly planted on even the steepest surface. The gualaar’s most striking characteristic is the two pairs of horns that grow from its forehead. The upper pair are mas­sive, forward-curving horns used for butting and mating displays, while the smaller, sharper horns near its snout are used to gore and toss predators. Thanks to their strength and sturdiness, gualaar make excellent beasts of burden. The royal house of Naboo keeps a stable of specially bred gualaar that are used to pull carriages and carry important individuals during state functions.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 18
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 2,
+			"Resilience": 2
+		},
+		"abilities": ["Beast of Burden 5", "Sure-Footed", "Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Horns",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"tags": ["creature", "book:nop", "location:Naboo"]
+	},
+	{
+		"name": "Sando Aqua Monster",
+		"type": "Nemesis",
+		"description": "The sando aqua monster is more a creature of myth and legend than reality, as few have seen this leviathan of the deep and survived. These huge, quadruped creatures are believed to be aquatic mammals, and can grow to be more than 200 meters from fang-filled snout to finned tail. Some scientists on Naboo speculate that the creatures can breathe air as well as water, a terrifying possibility that makes those who study these monsters happy that they tend to be very reclusive.\n\nA true apex predator, sando aqua monsters hunt colo claw fish and opee sea killers, while some unconfirmed re­ports from swamp hunters and Gungan trappers claim that they can sometimes strike at fambaa herds when the gigan­tic herbivores come to drink from marsh lakes. Breathless tales of these leviathans exploding out of the water to drag an unfortunate fambaa to its doom are popular in the can­tinas of Naboo’s outlying settlements, but whether they’re true remains unknown.",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 15,
+			"wounds": 64,
+			"strain": 42
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Resilience": 4,
+			"Survival": 2
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Amphibious", "Silhouette 5", "Su­premely Terrifying", "Sweep Attack"],
+		"weapons": [
+			{
+				"name": "Massive toothy maw",
+				"skill": "Brawl",
+				"damage": 15,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 4", "Vicious 4"]
+			},
+			{
+				"name": "Large claws",
+				"skill": "Brawl",
+				"damage": 20,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Concussive 2", "Ensnare 2"]
+			}
+		],
+		"tags": ["creature", "book:nop", "location:Naboo"]
+	},
+	{
+		"name": "Creeping Posenaur",
+		"type": "Rival",
+		"description": "These small but vicious lizards roam the few solid patches of land on Dagobah. They stand one meter tall and have only two legs. Their long tails allow them to run quickly, and webbed feet help them cross small patches of water or boggy land. They primarily eat rodents and other small prey. Posenaurs are pack hunters. If a large enough group bands together, its members can take down prey many times their size with their powerful jaws and razor-sharp claws. While individual posenaurs avoid larger creatures, a pack can be extremely dangerous.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 14
+		},
+		"skills": {
+			"Brawl": 3
+		},
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 3"]
+			}
+		],
+		"tags": ["creature", "book:nop", "location:Dagobah"]
+	},
+	{
+		"name": "Flying Leaf-Tail",
+		"type": "Minion",
+		"description": "The flying leaf-tail is a wfnged rodent about thirty centimetres long, with an equally wide wingspan. It takes its name from a membrane on the end of its tail that looks like a gnarl-tree leaf: this natural camouflage helps the leaf-tail hide from larger predators. A Leaf-tail is omnivorous: it prefers berries, but can exist on insects and smaller rodents.\n\nIndividually, flying leaf-tails are not a threat. However, if someone inadvertently stumbles across a leaf-tail nest, the creatures attack in swarms of dozens. The smugglers who occasionally catch jubba birds on Dagobah have told stories of leaf-tails ripping out a ship’s wiring, causing near-catastrophic damage.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 3
+		},
+		"skills": ["Athletics", "Brawl"],
+		"abilities": ["Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Rodent teeth",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			}
+		],
+		"tags": ["creature", "book:nop", "location:Dagobah"]
+	},
+	{
+		"name": "Gigantic Dragonsnake",
+		"type": "Nemesis",
+		"description": "Few creatures on Dagobah are as feared as the dragonsnake. This large, omnivorous predator lurks beneath debris float­ing on the swampy surface, ready to snatch prey in its power­ful jaws or attack it with its large, rending forelimbs.\n\nThe dragonsnake measures almost five meters long. Half of its body is its long, serpentine tail, which it uses to swim through the shallows with alarming alacrity and to raise itself out of the water when attacking larger prey. Unlike true snakes, a dragonsnake has two large forearms that end in several clawed digits. Any prey it can’t swal­low whole, it tears into bite-sized pieces with its claws. These solitary creatures have only one natural predator on Dagobah: the scrange.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 12,
+			"wounds": 22,
+			"strain": 24,
+			"defence": [2, 0]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 4,
+			"Stealth": 3
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Aquatic Creature", "Silhouette 2", "Terrifying"],
+		"weapons": [
+			{
+				"name": "Large claws",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Knockdown", "Pierce 3"]
+			},
+			{
+				"name": "Toothy maw",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"tags": ["creature", "book:nop", "location:Dagobah"]
+	},
+	{
+		"name": "Lesser Bogwing",
+		"type": "Minion",
+		"description": "Lesser bogwings are a constant sight throughout the swamps and jungles of Dagobah. They rarely venture into the canopy, where they become the prey of much larger flying creatures; instead, they feast on rodents, lizards, and other inhabitants of the swamps. Lesser bogwings are winged reptavians with four spindly legs and leathery, cold skin. They’re usually dark brown in color, although their cousins the greater bogwings, which have adapted to life above the canopy, are a bluish green. Lesser bogwings are harmless individually, but a flock of them could quickly be­come a nuisance.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 2,
+			"defence": [0, 2]
+		},
+		"skills": ["Brawl"],
+		"abilities": ["Flyer", "Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": []
+			}
+		],
+		"tags": ["creature", "book:nop", "location:Dagobah"]
+	},
+	{
+		"name": "Lurking Scrange",
+		"type": "Nemesis",
+		"description": "The scrange is Dagobah’s apex predator, an eight-metre-long reptilian nightmare with a powerful beaked mouth and two enormous clawed hands. The scrange looks like a large knobby lizard with bioluminescent bumps on its back, ar­ranged in a ridge that travels the length of its spine. Instead of two hind legs, the scrange has six crustacean-like limbs it uses to skitter through swamp and over land in quick bursts. Its long tail ends in a set of four bony spikes, perfect for impaling prey.\n\nThe scrange prefers to lure unwary prey close, using its bioluminescence or its ability to camouflage itself as a log or piece of debris. When a creature moves within range, the scrange strikes. Death is usually swift.",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 18,
+			"strain": 18,
+			"defence": [3, 0]
+		},
+		"skills": {
+			"Athletics": 4,
+			"Brawl": 4,
+			"Cool": 3,
+			"Coordination": 2,
+			"Stealth": 2
+		},
+		"talents": ["Adversary 2", "Quick Strike 2"],
+		"abilities": ["Amphibious", "Natural Camouflage", "Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Beaked mouth",
+				"skill": "Brawl",
+				"damage": 12,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 2"]
+			},
+			{
+				"name": "Triangular claws",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 3"]
+			},
+			{
+				"name": "Tail spikes",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 3"]
+			}
+		],
+		"tags": ["creature", "book:nop", "location:Dagobah"]
+	},
+	{
+		"name": "Soaring Accipiptero",
+		"type": "Rival",
+		"description": "These large, birdlike reptavians are the unchallenged kings of Dagobah’s jungle canopy. Accipipteros spend their entire lives in the branches of the gnarltrees that cover the planet’s swamps. They feast on bogwings and any other creature that climbs or soars to the top of, or above, the grasping trees. The accipipteros’ lower jaws end in a wicked hook, which they use to snare prey; they then maneuver the hapless creatures into their mouths with the small clawed hands on their wings. Once ensnared, the prey is eaten alive.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2
+		},
+		"abilities": ["Flyer"],
+		"weapons": [
+			{
+				"name": "Hooked jaw",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 2"]
+			},
+			{
+				"name": "Clawed hands",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 3"]
+			}
+		],
+		"tags": ["creature", "book:nop", "location:Dagobah"]
+	},
+	{
+		"name": "Spade-Headed Smooka",
+		"type": "Minion",
+		"description": "A tiny, vicious winged predator, the spade-headed smooka is one of the few species comfortable in both the canopy and the lower swamps. Itself popular prey for larger animals, it feasts on insects, eggs, and young rodents.\n\nSpade-headed smookas grow no more than ten centi­metres long, and their appearance, which many beings find adorable, means they are often underestimated. Their large, flat heads and deep-brown eyes, combined with their furry bodies, give smookas the look of a potential pet. However, no smooka has ever been domesticated. Their bite, which is extremely painful, can tear through most kinds of armor and the bars of many cages.\n\nSmookas dwell in caves and the hollow trunks of long-dead gnarltrees. They roost upside down in flocks that can number in the hundreds, and typically hunt at night.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 2
+		},
+		"skills": ["Brawl"],
+		"abilities": ["Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Rodent teeth",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Pierce 3"]
+			}
+		],
+		"tags": ["creature", "book:nop", "location:Dagobah"]
+	},
+	{
+		"name": "Bardottan Palace Guard",
+		"type": "Minion",
+		"description": "Only the finest Bardottan warriors can train to become guards in the Royal Palace. Guards are formidable opponents, but their combat skills are rarely tested; most troublemakers know better than to assault the palace or its inhabitants.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 8,
+			"defence": [2, 0]
+		},
+		"skills": ["Cool", "Melee"],
+		"weapons": [
+			{
+				"name": "Bardottan electrolance",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Defensive 2", "Stun Setting"]
+			}
+		],
+		"tags": ["security", "book:nop", "location:Bardotta", "species:Bardottan"]
+	},
+	{
+		"name": "Dagoyan Master",
+		"type": "Nemesis",
+		"description": "Dagoyan Masters spend years in intense study and medita­tion before achieving a state in which they are worthy of the title “Master.” There are only a few dozen Dagoyan Masters every generation, and only twelve of them can sit on the council at any time. The others spend their time teaching and leading various Dagoyan mystic communities.\n\nDagoyan Masters do not typically engage in combat. Infact, they will use their connection with the Force to avoid it whenever possible, viewing conflict as a sad artifact from Bardotta’s distant past.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 1,
+			"Willpower": 5,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 14,
+			"strain": 21
+		},
+		"skills": {
+			"Coercion": 3,
+			"Cool": 2,
+			"Discipline": 3,
+			"Education": 3,
+			"Leader­ship": 2,
+			"Perception": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Force Rating 3"],
+		"abilities": ["Force power: Bind (Upgrade)", "Force power: Sense"],
+		"weapons": [
+			{
+				"name": "Walking stick",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 1"]
+			}
+		],
+		"gear": ["Robes"],
+		"tags": ["book:nop", "location:Bardotta", "species:Bardottan", "force sensitive"]
+	},
+	{
+		"name": "Frangawl Cultist",
+		"type": "Rival",
+		"description": "A tiny minority of Bardottans long for a return to the days when the Frangawl ruled their planet. These cultists are usu­ally content to stay in the shadows, their heretical beliefs hidden, but occasionally the cult grows in power enough to make a political move against the Dagoyan Masters.\n\nFrangawl cultists wear large, fearsome masks carved from wood in the shape of fantastic creatures. In addition to creating an unsettling appearance, these masks hide the cultists’ identities.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Coercion": 2,
+			"Melee": 2,
+			"Perception": 1,
+			"Vigilance": 2
+		},
+		"weapons": [
+			{
+				"name": "Spear",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": []
+			},
+			{
+				"name": "Thrown spear",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Short",
+				"qualities": []
+			},
+			{
+				"name": "Bag of sleeping powder",
+				"skill": "Ranged: Light",
+				"damage": null,
+				"critical": null,
+				"range": "Short",
+				"qualities": ["Limited Ammo 1"],
+				"notes": "If a tar­get is hit by this attack, it must make a :hard: Resilience check; the target suffers 10 Strain if failed, plus 1 strain per :threat:."
+			}
+		],
+		"tags": ["book:nop", "location:Bardotta", "species:Bardottan"]
+	},
+	{
+		"name": "Aurateran Reenee",
+		"type": "Rival",
+		"description": "The Aurateran reenee is one of the primary working beasts used by local inhabitants. The original reenee was geneti­cally engineered during the Republic from what is now a long-lost species to serve as a pack animal. The reenee is a four-legged beast with clawed feet able to grasp rocks, branches, and other footholds. It stands one to one and a half metres tall. The beast’s strong, thick neck ends in a wide, domed head encircled by a half-dozen eyes, and its metre-long snout is prehensile. Its tail can extend in whip-like fash­ion from its normal half-meter coil out to three metres.\n\nThe Aurateran reenee is configured for low gravity with moderate-weight fur in shades of gray, green, and brown. It is lighter in weight than many of its cousins, but is perfectly serviceable on Auratera. The inhabitants still use domesti­cated reenee, but massive wild herds run free in some of the larger grassy plains. Such herds formed from the thousands of reenee left behind by their owners when colonists aban­doned the planet during the ancient wars.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 1,
+			"Coordination": 1,
+			"Resilience": 2,
+			"Survival": 2
+		},
+		"abilities": ["Beast of Burden 4", "Domesticable 2", "Silhouette 2", "Trained Mount 2"],
+		"weapons": [
+			{
+				"name": "Prehensile snout",
+				"skill": "Brawl",
+				"damage": 2,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1", "Knockdown"]
+			},
+			{
+				"name": "Tail",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Disorient 2", "Knockdown"]
+			}
+		],
+		"tags": ["creature", "book:nop", "location:Auratera", "riding beast"]
+	},
+	{
+		"name": "Skysnare",
+		"type": "Rival",
+		"description": "The skysnare is a large avian creature with a wingspan of up to four meters. Its mottled, blue-white plumage gives it natu­ral camouflage and white feathers adorn the leading edges of its wings. Its four limbs end in powerful talons, which, along with its long, hooked beak, are stark white. The crea­ture has four deep-blue eyes, two at the top of its head and two on the bottom. This allows the skysnare to constantly survey the ground, even while flying and navigating at high speed. Skysnares are found mainly in Auratera’s mountain ranges, including on the Erkeere Ridge, but a small flock also lives near the Acablas Ruins.\n\nAside from their enormous size, the most frightening as­pect of the skysnares that live near the ruins is their limited Force ability. A skysnare can sense living creatures and po­tential prey while flying several hundred meters above the ground. However, instead of simply diving and grabbing its prey, it uses the Force to pull its target into the air, where it catches it with its talons. Given the creature’s natural stealth and camouflage while flying, it is highly skilled at sneaking up on its prey unnoticed before yanking it into the air.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10
+		},
+		"skills": {
+			"Brawl": 3,
+			"Coordination": 1,
+			"Perception": 2,
+			"Stealth": 2,
+			"Vigi­lance": 2
+		},
+		"talents": ["Draw Closer (Skysnare)"],
+		"abilities": ["Flyer", "Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Hooked beak",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 3"]
+			},
+			{
+				"name": "Talons",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Ensnare 3"]
+			}
+		],
+		"tags": ["creature", "book:nop", "location:Auratera"]
+	},
+	{
+		"name": "Kindalo Guardian",
+		"type": "Rival",
+		"description": "The caverns immediately beneath the Great Seal are pa­trolled by the zealous Kindalo Guardians, the most martial members of their species. Tasked by the loosely govern­ing consensus to guard against any traffic between the surface and Underworld, the Kindalo Guardians depend on their great strength and extraordinary reach in physi­cal altercations, though their eerie appearance often cows opponents into fleeing before physical confrontations can even break out.\n\nThe remit of the Guardians is to warn away or otherwise prevent any beings from the surface from penetrating the Underworld. They are likewise to prevent any denizens of the Underworld from traveling upward. Though they are exquisitely trained and prepared for their tasks, in point of fact they very rarely do anything more than stand their si­lent watches in the quiet of the upper caverns. Entire lengthy Kindalo generations have passed without the Guardians be­ ing tested in their resolve, but to doubt that resolve would be a grave error. Though relatively slow (like many humans and near-humans possessed of their great height), the Kindalo Guardians are obsessively single-minded in following the edicts that govern their ancient order.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 17
+		},
+		"skills": {
+			"Brawl": 3,
+			"Resilience": 2,
+			"Vigi­lance": 2
+		},
+		"talents": ["Natural Brawler"],
+		"abilities": ["Nightvision", "Ponderous"],
+		"weapons": [
+			{
+				"name": "Massive woody fists",
+				"skill": "Brawl",
+				"damage": 9,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Concussive 1", "Knockdown"]
+			}
+		],
+		"tags": ["oddity", "book:nop", "location:Aleen"]
+	},
+	{
+		"name": "Aleena Wanderer",
+		"type": "Minion",
+		"description": "The deeply spiritual Aleena often embark on quasi-spiritual journeys when the mood strikes them, traveling from village to village across Aleen. These usually elderly Aleena gather in groups of like-minded individuals to wander the stony wildernesses between the widely separated Aleena communi­ties and homesteads. They use the isolation to observe the natural world and discuss their species’ place in the galaxy. Although many wanderers leave behind friends and family, it is not in the nature of the gregarious Aleena to cut them­ selves off from family permanently. The wanderers usually circle back to home and hearth at least once every year or two to check on the health and happiness of their clan mem­bers, bless any newborn children, and enjoy a few days with a roof over their heads.\n\nIn addition to their travels, these groups of wanderers often maintain the colossal statues built by earlier genera­tions. Usually, this is a simple matter of keeping a passage­ way clear of debris or driving off native fauna that seek to make their dens there. However, on occasion, as in the wake of one of the not-infrequent groundquakes that plague the planet, groups of Aleena must band together to effect larger repairs, usually drawing on the resources of nearby communities. In these cases, the Aleena communi­ties showcase their knowledge of engineering and masonry, following the directions of the travelers in righting fallen statues and repairing damaged features. Sometimes these repairs are so extensive as to constitute practical replace­ments of entire statues. It was these rare instances that disproved earlier theories, held by offworld xenologists, that stated the Aleena could not have been responsible for building the monuments in the first place.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15
+		},
+		"skills": ["Coordination", "Charm", "Knowledge: Lore", "Mechanics", "Medicine", "Survival"],
+		"abilities": ["Silhouette 0"],
+		"gear": ["Robes", "Travelling pack"],
+		"tags": ["oddity", "book:nop", "location:Aleen", "species:Aleena"]
+	},
+	{
+		"name": "Tetan Guard",
+		"type": "Rival",
+		"description": "The Tetan monarchy trains the most loyal and capable members of its system defense force for a spot on the Tetan Guard. The guards are responsible for the security of the palace and the ruling family. To a lesser extent, they protect the entire royal bloodline and that of any Tetan noble. As warriors, they are fearless when defending their leadership, and as investigators they are tireless at seeking justice for those who threaten the security of the Tetan elite.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 12,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Coercion": 2,
+			"Cool": 3,
+			"Discipline": 3,
+			"Ranged: Light": 2,
+			"Ranged: Heavy": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Body Guard 2"],
+		"weapons": [
+			{
+				"name": "Ceremonial rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Stun Setting"]
+			}
+		],
+		"gear": ["Ceremonial armour (+2 Soak, +1 Defence)", "Binders", "Comlink"],
+		"tags": ["security", "book:nop", "location:Empress Teta"]
+	},
+	{
+		"name": "Mining Guild Enforcer",
+		"type": "Rival",
+		"description": "The Mining Guild is one of the single most powerful organi­sations on Empress Teta. While it uses subtle political maneuverings In the rarified halls of the planet’s government, on the streets it enforces its authority with tough individuals who can be as brutal as any mobster.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 11
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coercion": 2,
+			"Discipline": 1,
+			"Streetwise": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Loom"],
+		"weapons": [
+			{
+				"name": "Spiked knuckle gloves",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"gear": ["Leather jacket (+1 Soak)", "Comlink", "Guild membership"],
+		"tags": ["civilian", "book:nop", "location:Empress Teta", "thug"]
+	},
+	{
+		"name": "Ysanna Hunter",
+		"type": "Rival",
+		"description": "The Ysanna are humanoids who wear tribal masks and ride the powerful kirruk. While farming is the Ysanna’s main source of food, hunting is becoming more useful as creatures repopulate. The Ysanna hunt with a concussion bow, which fires projectiles whose trajectories they can influence with the Force. The tribes feel a duty to protect the Jedi ruins from each other and from outsiders, though they can’t explain why.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 11
+		},
+		"skills": {
+			"Discipline": 1,
+			"Ranged: Heavy": 2,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Animal Empathy", "Force Rating 1"],
+		"abilities": ["Projectile Guidance"],
+		"weapons": [
+			{
+				"name": "Concussion bow",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 5,
+				"range": "Medium",
+				"qualities": ["Cumbersome 2", "limited Ammo 1", "Prepare 1"]
+			}
+		],
+		"gear": ["Beast-hide armour (+1 Soak)", "Travel rations"],
+		"tags": ["oddity", "book:nop", "location:Ossus", "force sensitive"]
+	},
+	{
+		"name": "Jedi Temple Guardian",
+		"type": "Nemesis",
+		"description": "During the heyday of the Republic, the Jedi Tem­ple Guards protected the Coruscant Jedi Temple. Selected from the ranks of the Jedi by the temple’s head of security, the Temple Guards cloaked their identities behind ceremonial robes and masks. Their anonymity represented their total commitment to the ideals of the Jedi, and allowed them to serve as impartial arbitrators of conflicts within the temple.\n\nThe Temple Guardians wielded unique, double-bladed lightsabers with distinctive yellow blades. Their armour appeared purely ceremonial, but wove cunning layers of protective fabrics together to create a subtle but effective defense against blaster bolts and blades.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 18,
+			"strain": 18,
+			"defence": [2, 2]
+		},
+		"skills": {
+			"Discipline": 2,
+			"Medicine": 2,
+			"Melee": 2,
+			"Lightsaber": 2,
+			"Perception": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Force Rating 4", "Parry 4", "Reflect 4"],
+		"abilities": ["Force power: Bind"],
+		"weapons": [
+			{
+				"name": "Temple guard lightsaber pike",
+				"skill": "Lightsaber",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Defensive 1", "Linked 1", "Sunder", "Stun 4", "Unwieldy 3"]
+			}
+		],
+		"gear": ["Jedi temple guard armour (+1 Soak, +2 Defence)", "Keys"],
+		"tags": ["security", "book:nop", "location:Coruscant", "force sensitive", "jedi"]
+	},
+	{
+		"name": "Chameleon Droid",
+		"type": "Rival",
+		"description": "The Arakyd Industries spelunker droid was originally in­tended for mining purposes. The Confederacy of Indepen­dent Systems modified and armed these droids for combat purposes. Removing the heavy mining gear, they added a minelayer, blasters, and a holographic cloaking array. It is the last item that led to their new name, “chameleon droids.”",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 8
+		},
+		"skills": {
+			"Perception": 2,
+			"Ranged: Heavy": 1,
+			"Stealth": 2
+		},
+		"talents": ["Stalker 2", "Cunning Ambusher 2"],
+		"abilities": ["Droid"],
+		"weapons": ["Blaster carbine"],
+		"gear": ["Minelayer with 24 anti-personnel mines (drop one mine as a maneuver, deto­nates when another character moves to engage with the mine, dealing 12 damage to each character engaged with the mine)"],
+		"tags": ["droid", "book:nop", "Arakyd Industries", "security"]
+	},
+	{
+		"name": "Stone Guardian",
+		"type": "Rival",
+		"description": "Some facilities require discretion and art as much as they do security. Stone guardian droids are specifically designed for these situations. They provide a potent defense that is utterly in keeping with the overall tone of a site.\n\nDespite the name, stone guardians are not actually con­structed out of stone. Their armored shells are simply sculpted and painted to resemble some form of rock or marble. When inactive, stone guardians appear to be decorative statues. The statues might be freestanding, or they could appear to be a support pillar or a part of a wall. Only when they activate does their true nature become clear. A stone guardian's passive detectors are extremely sensitive and rigged to detect any intruders who enter its domain. When they identify a threat, the droids activate and attempt to eliminate it.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 10
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Perception": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Durable 2"],
+		"abilities": ["Droid"],
+		"weapons": [
+			{
+				"name": "Stoney fists",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Concussive 1"]
+			}
+		],
+		"gear": ["Integrated Secure Tech “Night-sight” passive sensor suite (allows the droid to see in dim and dark conditions and to hear sounds far above and below a human’s range of hearing; adds :boost: to Vigilance checks)"],
+		"tags": ["droid", "book:nop", "security"]
+	}
+]

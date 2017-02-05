@@ -188,6 +188,10 @@
 		"description": "Whenever a shaoryn inflicts damage on a target after Soak, it heals half that many wounds (rounded up)."
 	},
 	{
+		"name": "Draw Closer (Skysnare)",
+		"description": "The skysnare may take a Draw Closer action, making a Brawl combat check against one Silhouette 1 (or smaller) target within Medium range and adding :force::force: to the check. The skysnare may spend :lightside: before resolving the success or failure of the check to move the target one range band closer to the skysnare (including from Short to Engaged). It may also spend :lightside: to add :success: to the combat check. If the skysnare cannot move its target to engage it, the combat check automatically misses."
+	},
+	{
 		"name": "Droid",
 		"description": "Does not need to breathe, eat, or drink and can survive in vacuum or underwater; immune to poisons and toxins."
 	},
@@ -401,7 +405,7 @@
 	},
 	{
 		"name": "Natural Camouflage",
-		"description": "Any Perception checks made to detect a sludge panther suffer :setback::setback:; this affects scanners and macrobinoculars using thermal sensors or passive light amplification as well."
+		"description": "Any Perception checks made to detect the creature suffer :setback::setback:; this affects scanners and macrobinoculars using thermal sensors or passive light amplification as well."
 	},
 	{
 		"name": "Negate Force Powers",
@@ -457,7 +461,7 @@
 	},
 	{
 		"name": "Ponderous",
-		"description": "Hutts can never spend more than one maneuver moving per turn."
+		"description": "Can never spend more than one maneuver moving per turn."
 	},
 	{
 		"name": "Photonic Burst",
