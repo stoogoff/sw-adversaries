@@ -690,7 +690,7 @@
 			}
 		],
 		"gear": ["Powered armour (+2 Soak, +1 defence)", "Jetpack", "Internal comlink"],
-		"tags": ["empire", "imperial military", "stormtrooper", "droid", "book:aor"]
+		"tags": ["empire", "imperial military", "stormtrooper", "species:Droid", "book:aor"]
 	},
 	{
 		"name": "Stormtrooper: Sandtrooper",

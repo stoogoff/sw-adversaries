@@ -260,6 +260,10 @@
 		"description": "At the GM’s discretion, the kaaten may make an opposed Charm or Deception versus Vigilance check as an action to pretend to be a friend, companion, loved one, or of the same spe­cies as its target. When doing so, add :force: to the check; :lightside: results add :success: to Charm checks, while :darkside: results add :success: to Deception checks. If the check succeeds, the illusion is successful, though what effect this has on gameplay depends on the situation and can be determined by the GM. Targets immune to Force powers are immune to these effects."
 	},
 	{
+		"name": "Intimidating Presence",
+		"description": "All enemies within short range add :threat: to all skill checks they make."
+	},
+	{
 		"name": "Invoke Doellin",
 		"description": "Once per encounter, the Doellinist High Priest may re-roll a social skill check that targeted a Gran character."
 	},

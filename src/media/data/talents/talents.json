@@ -377,7 +377,7 @@
 	},
 	{
 		"name": "Drive Back",
-		"description": ""
+		"description": "Spend :triumph: or :advantage::advantage::advantage: on a missed Brawl, Lightsaber, or Melee combat check to force the target to make a move maneuver in a direc­tion of the character’s choice."
 	},
 	{
 		"name": "Duelist&#39;s Training",
@@ -989,7 +989,7 @@
 	},
 	{
 		"name": "Niman Technique",
-		"description": ""
+		"description": "May use Willpower instead of Brawn when mak­ing lightsaber checks."
 	},
 	{
 		"name": "No Escape",
