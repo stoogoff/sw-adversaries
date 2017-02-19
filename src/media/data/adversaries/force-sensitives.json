@@ -288,7 +288,13 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 2", "Force Rating 3", "Uncanny Senses 1", "Uncanny Reactions 2"],
-		"abilities": ["Force power: Move", "Force power: Enhance", "Force power: Foresee"],
+		"abilities": [
+			"Force power: Move", "Force power: Enhance",
+			{
+				"name": "Force power: Foresee",
+				"description": ":lightside:: Gain vague hints of events to come, up to a day into own future; :lightside:: Gain :advantage: per point on an Initiative check."
+			}
+		],
 		"weapons": ["Lightsaber"],
 		"gear": ["Jedi Robes (+1 soak)"],
 		"tags": ["force sensitive", "jedi", "book:aor"]

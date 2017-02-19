@@ -717,7 +717,7 @@
 	},
 	{
 		"name": "Intuitive Improvements",
-		"description": ""
+		"description": "When mak­ing a check to repair or craft an item, may add Force dice upt to Force Rating to the check. Spend :lightside::lightside: to permanently increase the item’s hard points by 1."
 	},
 	{
 		"name": "Intuitive Navigation",
@@ -1221,7 +1221,7 @@
 	},
 	{
 		"name": "Ritual Caster",
-		"description": ""
+		"description": "Must spend a maneuver before using any Force powers. In addition, may only use the Foresee power out­ doors and at night."
 	},
 	{
 		"name": "Saber Swarm",

@@ -385,5 +385,21 @@
 		"critical": null,
 		"range": "Engaged",
 		"qualities": ["Stun Damage"]
+	},
+	{
+		"name": "Wizard’s staff",
+		"skill": "Melee",
+		"damage": 4,
+		"critical": 4,
+		"range": "Engaged",
+		"qualities": ["Disorient 2"]
+	},
+	{
+		"name": "Hidden razor-dagger",
+		"skill": "Melee",
+		"damage": 2,
+		"critical": 2,
+		"range": "Engaged",
+		"qualities": ["Pierce 3", "Vicious 3"]
 	}
 ]

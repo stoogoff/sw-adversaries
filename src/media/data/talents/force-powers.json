@@ -36,16 +36,16 @@
 		"description": ":lightside:: Gain :success: or :advantage: (user's choice) on an Athletics, Coordination, or Resilience check; :lightside:: take a Force Leap action to jump horizontally or vertically to any location in Short range; spend :lightside:: to increase the power’s range by 1 range band."
 	},
 	{
+		"name": "Force power: Foresee",
+		"description": "Spend :lightside: to gain vague hints of events to come, up to a day into own future. Spend :lightside: to increase the number of days seen into future by 2. Spend :lightside: to gain more specific details."
+	},
+	{
 		"name": "Force power: Harm",
 		"description": "May make a Harm Force power check against one engaged target. Spend :darkside: to inflict a number of Wounds equal to Intellect on the target, ignoring Soak. Spend :darkside: to increase wounds inflicted by Intellect (may activate this multiple times), and spend :darkside: to heal wounds equal to wounds inflicted."
 	},
 	{
 		"name": "Force power: Harm (Upgrade)",
 		"description": "May make a Harm Force power check against one engaged target. Spend :darkside: to inflict a number of Wounds equal to Intellect on the target, ignoring Soak. Spend :darkside: to increase wounds inflicted by Intellect (may activate this multiple times), and spend :darkside: to heal wounds equal to wounds inflicted on self or an Engaged ally. May spend :darkside: to increase the range of the power by one range band (may activate multiple times) and may spend :darkside: to increase the number of enemies affected by one (may activate multiple times)."
-	},
-	{
-		"name": "Force power: Foresee",
-		"description": ":lightside:: Gain vague hints of events to come, up to a day into own future; :lightside:: Gain :advantage: per point on an Initiative check."
 	},
 	{
 		"name": "Force power: Misdirect",
