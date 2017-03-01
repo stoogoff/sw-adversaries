@@ -1604,7 +1604,7 @@
 			"wounds": 4
 		},
 		"skills": ["Ranged: Heavy", "Vigilance"],
-		"talents": ["Droid"],
+		"abilities": ["Droid"],
 		"weapons": ["Blaster rifle"],
 		"tags": ["book:sof", "adventure:Hard Bargain", "species:Droid", "security"]
 	},

@@ -14,8 +14,16 @@ export let sortByProperty = function sortByProperty(prop) {
 
 export let minionSkill = function(minions, skill, skills) {
 	let value = 0;
+	let skillsHash = {};
 
-	if(minions > 0 && skill in skills) {
+	if(Array.isArray(skills)) {
+		skills.forEach(s => skillsHash[s] = 0);
+	}
+	else {
+		skillsHash = skills;
+	}
+
+	if(minions > 0 && skill in skillsHash) {
 		value += minions - 1;
 	}
 

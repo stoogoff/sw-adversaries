@@ -62,6 +62,29 @@ Main tasks:
 ## TODO
 
 - More adversaries
+	- core books (DONE)
+		- Age of Rebellion
+		- Edge of the Empire
+		- Force and Destiny
+	- source books
+		- Lords of Nal Hutta
+		- Strongholds of Resistance
+		- Suns of Fortune (there's a barabel enforcer with different weapon load out)
+		- Nexus of Power
+	- career books
+		- Dangerous Covenants (no stats)
+		- Desparate Allies
+		- Endless Vigil
+		- Far Horizons
+		- Fly Casual (no stats)
+		- Keeping the Peace
+		- Special Modifications
+		- Stay on Target
+		- Savage Spirits (incomplete)
+	- adventure books
+		- Chronicles of the Gatekeeper
+		- Rescue at Glare Peak
+		- Under a Black Sun
 - Mobile friendly
 - Favourite adversaries
 - Favicon

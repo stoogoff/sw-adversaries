@@ -89,11 +89,11 @@
 	},
 	{
 		"name": "Camouflaged (Snow)",
-		"description": "When in snowy environments, add :boost::boost: to ail Stealth checks."
+		"description": "When in snowy environments, add :boost::boost: to all Stealth checks."
 	},
 	{
 		"name": "Camouflaged (Jungle)",
-		"description": "When in jungle environments, add :boost::boost: to ail Stealth checks."
+		"description": "When in jungle environments, add :boost::boost: to all Stealth checks."
 	},
 	{
 		"name": "Cloak",

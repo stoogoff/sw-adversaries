@@ -51,8 +51,65 @@
 			"qualities": ["Breach 1", "Sunder", "Vicious 2", "Linked 1", "Unwieldy 3"]
 		}
 		],
-		"gear": ["Superior Jedi Temple Guard Armour (+2 Soak, +2 Defence, remove :setback: from darkness or similar environemental effects, built-in comlink)"],
+		"gear": ["Superior Jedi Temple Guard Armour (+2 Soak, +2 Defence, remove :setback: from darkness or similar environmental effects, built-in comlink)"],
 		"tags": ["empire", "inquisitor", "force sensitive", "jedi", "darkside"],
 		"devOnly": true
+	},
+	{
+		"name": "Death Trooper",
+		"type": "Minion",
+		"description": "Encased in specialised stormtrooper armour that shines with an ominous gleam, the death troopers comprise an elite unit created to defend the most important operations and operatives within the Imperial military hierarchy. Recruited by Imperial Intelligence, these troopers form protection squadrons of bodyguards and enforcers for the leadership of the Tarkin Initiative and key fleet officials.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 5,
+			"defence": [1, 1]
+		},
+		"skills": ["Athletics", "Discipline", "Melee", "Ranged: Heavy", "Coercion"],
+		"talents": ["Loom"],
+		"weapons": ["Heavy blaster rifle", "Vibroknife", "Frag grenade", "Thermal detonator"],
+		"gear": ["Utility belt", "Extra reloads", "Death trooper armour (+2 Soak, +1 Defence, remove :setback: from darkness or similar environmental effects, built-in encrypted comlink)", "3 Frag grenades", "1 Thermal detonator"],
+		"tags": ["empire", "imperial military", "stormtrooper"]
+	},
+	{
+		"name": "Death Trooper Commando",
+		"type": "Rival",
+		"description":  "Encased in specialised stormtrooper armour that shines with an ominous gleam, the death troopers comprise an elite unit created to defend the most important operations and operatives within the Imperial military hierarchy. Recruited by Imperial Intelligence, these troopers form protection squadrons of bodyguards and enforcers for the leadership of the Tarkin Initiative and key fleet officials.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Coercion": 2,
+			"Discipline": 2,
+			"Leadership": 3,
+			"Melee": 2,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 2,
+			"Resilience": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Loom"],
+		"abilities": ["Tactical Direction"],
+		"weapons": ["Heavy blaster rifle", "Vibroknife", "Frag grenade", "Thermal detonator"],
+		"gear": ["Utility belt", "Extra reloads", "Death trooper armour (+2 Soak, +1 Defence, remove :setback: from darkness or similar environmental effects, built-in encrypted comlink)", "3 Frag grenades", "1 Thermal detonator"],
+		"tags": ["empire", "imperial military", "stormtrooper"]
 	}
 ]

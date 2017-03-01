@@ -711,7 +711,7 @@
 		},
 		"skills": ["Athletics", "Discipline", "Melee", "Ranged: Heavy", "Resilience", "Survival"],
 		"weapons": ["Blaster rifle", "Vibroknife"],
-		"gear": ["Utility belt", "Extra reloads", "High-temp stormtrooper armour (+2 Soak; when making skill checks, sandtroopers may remove :setback::setback: imposed due to arid or hot environmental conditions)", "Food and water packs"],
+		"gear": ["Utility belt", "Extra reloads", "High-temp stormtrooper armour (+2 Soak, remove :setback::setback: imposed due to arid or hot environmental conditions)", "Food and water packs"],
 		"tags": ["empire", "imperial military", "stormtrooper", "book:aor"]
 	},
 	{
@@ -748,7 +748,7 @@
 	{
 		"name": "Stormtrooper: Swamptrooper",
 		"type": "Minion",
-		"description": "This specialized unit of the Stormtrooper Corps spe­cialises in operating in swamps, bogs, and wetlands. Swamptroopers’ armor is watertight, has an internal one-hour oxygen supply, and includes camouflage. Swamptroopers patrol the area in teams of three.",
+		"description": "This specialised unit of the Stormtrooper Corps spe­cialises in operating in swamps, bogs, and wetlands. Swamptroopers’ armour is watertight, has an internal one-hour oxygen supply, and includes camouflage. Swamptroopers patrol the area in teams of three.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -795,7 +795,7 @@
 				"qualities": ["Stun Setting", "Multi-optic Sight"]
 			}
 		],
-		"gear": ["Snowtrooper armour (+2 Soak; when making skill checks, snowtroopers may remove :setback::setback: imposed due to cold or icy environmental conditions"],
+		"gear": ["Snowtrooper armour (+2 Soak, remove :setback::setback: imposed due to cold or icy environmental conditions)"],
 		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:ragp", "adventure:Rescue at Glare Peak"]
 	},
 	{
