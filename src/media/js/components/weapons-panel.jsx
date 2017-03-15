@@ -127,7 +127,7 @@ export default class WeaponsPanel extends React.Component {
 						<th>Weapon</th>
 						<th>Range</th>
 						<th>Damage</th>
-						<th>Roll { character.type == "Minion"
+						<th className="hide-small hide-medium">Roll { character.type == "Minion"
 							? <small> (for { this.props.minions })</small> 
 							: null }
 						</th>
@@ -140,10 +140,10 @@ export default class WeaponsPanel extends React.Component {
 							<td>{ w.name }<br /><small>{ w.skill }</small></td>
 							<td><small>{ w.range }</small></td>
 							<td>
-								<div><small className="damage">Damage:</small> { w.damage || "–" }</div>
-								<div><small className="damage">Critical:</small> { w.critical || "–" }</div>
+								<div className="damage"><small className="hide-small">Damage:</small> { w.damage || "–" }</div>
+								<div className="damage"><small className="hide-small">Critical:</small> { w.critical || "–" }</div>
 							</td>
-							<td dangerouslySetInnerHTML={ w.icons } />
+							<td className="hide-small hide-medium" dangerouslySetInnerHTML={ w.icons } />
 							<td>{ w.qualities.length == 0 ?  "–" : w.qualities.map(q => <div key={ id(q) }><span className="link" onClick={ this.setQuality.bind(this) } data-weapon={ w.id }>{ q }</span></div>) }</td>
 						</tr>
 					}) }

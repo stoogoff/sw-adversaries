@@ -1,0 +1,122 @@
+
+@import "_variables.sass"
+@import "_mixins.sass"
+
+html
+	margin: 0
+	padding: 0
+
+body
+	background-color: $body
+	color: $font
+	font-family: 'Source Sans Pro', sans-serif
+	padding: 0
+	margin: 0
+
+h1, h2, h3
+	text-transform: uppercase
+	letter-spacing: 0.05em
+
+h2, h3
+	margin-bottom: 0.5rem
+	font-family: 'Titillium Web', sans-serif
+
+h2 + p, h3 + p
+	margin-top: 0
+
+p
+	line-height: 1.5em
+	max-width: 53em
+
+ul
+	list-style: none
+	margin: 1em 0
+	padding: 0
+
+	&.inline-list
+		margin: 0
+
+		li
+			display: inline
+
+			&:after
+				content: ", "
+
+			&:last-of-type:after
+				content: ""
+
+svg
+	display: inline-block
+	width: 1em
+	height: 1em
+	stroke-width: 0
+	stroke: currentColor
+	fill: currentColor
+	z-index: 1
+
+.directory
+	margin-bottom: 1em
+
+	strong
+		display: inline-block
+		width: 5em
+		text-align: right
+		margin-right: 0.5em
+
+strong
+	color: $heading
+
+table
+	width: 100%
+	border-collapse: collapse
+
+tbody tr
+	border-bottom: 1px solid lighten($heading, 30%)
+
+	&:last-of-type
+		border: 0
+
+	&:nth-child(odd)
+		background-color: white
+
+th
+	color: $heading
+	text-align: left
+
+th, td
+	vertical-align: top
+
+	&:first-of-type
+		padding-left: 1em
+
+td
+	padding: 0.3em
+
+.text-right
+	text-align: right
+
+.pull-right
+	float: right
+
+.hidden
+	display: none
+
+a, .link
+	color: $link
+	text-decoration: underline
+	cursor: pointer
+	@include hover()
+
+	&:hover
+		text-decoration: none
+		color: darken($link, 20%)
+
+.btn
+	display: inline-block
+	padding: 0.2em 1em
+	border-radius: 0.2em
+	cursor: pointer
+	@include hover()
+
+	&:hover
+		background-color: rgba(0, 0, 0, 0.1)

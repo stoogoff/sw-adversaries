@@ -157,8 +157,8 @@ class App extends React.Component {
 		let y = this.stores.adversaries !=null ? this.stores.adversaries.all().length : 0;
 
 		return <div>
-			<div id="navigation" className="column small">
 				<TagMenu tags={ this.state.tags } />
+			<div id="navigation" className="column small">
 				<Filter filter={ this.state.filter } />
 				<p><small>Showing { x } of { y }.</small></p>
 				<LinkList data={ this.state.list } selected={ this.state.selected.length > 0 ? this.state.selected[this.state.selectedIndex].id : "" } />

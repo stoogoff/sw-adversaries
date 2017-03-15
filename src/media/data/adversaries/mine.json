@@ -59,6 +59,7 @@
 		"name": "Death Trooper",
 		"type": "Minion",
 		"description": "Encased in specialised stormtrooper armour that shines with an ominous gleam, the death troopers comprise an elite unit created to defend the most important operations and operatives within the Imperial military hierarchy. Recruited by Imperial Intelligence, these troopers form protection squadrons of bodyguards and enforcers for the leadership of the Tarkin Initiative and key fleet officials.",
+		"notes": "These are not official stats.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -82,6 +83,7 @@
 		"name": "Death Trooper Commando",
 		"type": "Rival",
 		"description":  "Encased in specialised stormtrooper armour that shines with an ominous gleam, the death troopers comprise an elite unit created to defend the most important operations and operatives within the Imperial military hierarchy. Recruited by Imperial Intelligence, these troopers form protection squadrons of bodyguards and enforcers for the leadership of the Tarkin Initiative and key fleet officials.",
+		"notes": "These are not official stats.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,

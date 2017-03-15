@@ -82,6 +82,12 @@ gulp.task("merge-data", function() {
 				});
 			}
 
+			if(!isDev && m == "talents") {
+				output = output.filter(function(t) {
+					return t.description != "";
+				});
+			}
+
 			return new Buffer(JSON.stringify(output));
 		})).pipe(gulp.dest(path.dest("media/data/")));
 	});

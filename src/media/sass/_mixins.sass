@@ -1,0 +1,11 @@
+
+// MIXINS
+@mixin hover()
+	transition: all .3s ease-in-out
+	transition-property: color, background-color, border-color, box-shadow
+
+@mixin shadow-input($inset, $outset)
+	-webkit-box-shadow: inset 0 1px 1px $inset, 0 0 8px $outset
+	-moz-box-shadow: inset 0 1px 1px $inset, 0 0 8px $outset
+	box-shadow: inset 0 1px 1px $inset, 0 0 8px $outset
+

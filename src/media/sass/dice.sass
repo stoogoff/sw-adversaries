@@ -1,0 +1,65 @@
+
+@import "_variables.sass"
+
+
+// dice icons
+.icon
+	font-family: StarWarsSymbols
+	color: $heading
+	position: relative
+	line-height: 1em !important
+	display: inline-block
+	
+.shadowed:after
+	position: absolute
+	top: 0
+	left: 0
+	color: darken($heading, 10%)
+
+
+.ability
+	color: rgb(97,138,74) // green
+
+	&:after
+		content: "D"
+
+.proficiency
+	color: rgb(255,247,98) // yellow
+
+	&:after
+		content: "C"
+
+.setback:after
+	content: "B"
+	
+
+.boost
+	color: rgb(175,196,216) // blue
+
+	&:after
+		content: "B"
+
+.challenge
+	color: rgb(215,53,53) // red
+
+	&:after
+		content: "C"
+
+.difficulty
+	color: rgb(68,48,83) // purple
+
+.force
+	color: white
+
+	&:after
+		content: "C"
+
+.lightside
+	color: white
+
+	&:after
+		content: "Z"
+
+@font-face
+	font-family: StarWarsSymbols
+	src: url(../fonts/starwars-dice-symbols.otf), url(../fonts/starwars-dice-symbols.woff) format("woff")
