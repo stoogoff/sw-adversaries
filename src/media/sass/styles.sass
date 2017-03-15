@@ -76,16 +76,16 @@ ul#menu
 	position: relative
 	z-index: 200
 	background-color: $tabBgColour
+	border-bottom: 2px solid $derived
 
 	&>li
 		display: inline-block
 		padding: 0.5em
 		cursor: pointer
-		border-radius: 0.2em
+		border: 1px solid $tabBgColour
 		@include hover()
 
 		&:hover, &.active
-			background-color: $tabBgColour
 			color: darken($font, 20%)
 
 		svg
@@ -97,18 +97,16 @@ ul#menu
 		opacity: 1
 
 	ul
-		background-color: $tabBgColour
 		position: absolute
 		margin: 0
 		padding: 0.5em
-		border-radius: 0.2em
-		left: 0
-		right: 0
+		border-radius: 0 0 0.2em 0.2em
+		left: -1px
 		display: none
 		opacity: 0
-		transition: all .3s ease-in-out
-		transition-property: opacity
 		z-index: 10
+		box-shadow: 0 6px 12px rgba($font, 0.5)
+		background-color: $tabBgColour
 
 		li
 			padding: 0.3em
@@ -119,7 +117,7 @@ ul#menu
 			@include hover()
 
 			&:hover
-				background-color: transparent
+				background-color: $tabBgColour
 
 			.link
 				text-decoration: none
@@ -388,13 +386,40 @@ ul#menu
 	#content .large
 		padding-bottom: 3em
 
+	.stats
+		padding: 0
+
+	#characteristics
+		width: 100%
+
 	ul#menu
 		&>li
 			position: relative
 
+			&:hover, &.active
+				border-left-color: $derived
+				border-right-color: $derived
+
 		ul
 			width: 20em
+			top: 2.33em
+			border-width: 0 1px 1px 1px
+			border-style: solid
+			border-color: $derived
 
+
+@media screen and (min-width: $screen-large)
+	.column
+		float: left
+		overflow: hidden
+		margin-left: 1.5em
+
+		&.small
+			width: 20em
+
+	#content .column.small
+		width: 14.25em
+		margin-left: 0
 
 
 @media screen and (min-width: $screen-xlarge)
@@ -410,18 +435,6 @@ ul#menu
 	#navigation, #content
 		display: block
 		margin-top: 2em
-
-	.stats
-		padding: 0
-
-
-	.column
-		float: left
-		overflow: hidden
-		margin-left: 1.5em
-
-		&.small
-			width: 20em
 
 	ul#menu
 		position: fixed
@@ -452,7 +465,7 @@ ul#menu
 			padding-bottom: 5em
 
 		.small
-			width: 14.25em
+			margin-left: 1.5em
 
 	#characteristics div:nth-child(even)
 		margin-right: 0
