@@ -41,11 +41,10 @@ h2.subtitle
 #built-by
 	font-size: 0.8em
 	padding: 0.2em 1em 0.2em 0.5rem
-
+	clear: both
 
 .filter
-	margin-top: 1em
-	margin-right: 1em
+	margin: 2em 1em 0
 	position: relative
 
 	input[type="text"]
@@ -71,12 +70,15 @@ h2.subtitle
 		background-color: white
 		padding: 0.35em 0.3em 0 0.5em
 
-ul#menu
+#menu, #mobile-menu
 	margin: 0
 	position: relative
 	z-index: 200
 	background-color: $tabBgColour
 	border-bottom: 2px solid $derived
+
+#menu
+	display: none
 
 	&>li
 		display: inline-block
@@ -122,22 +124,31 @@ ul#menu
 			.link
 				text-decoration: none
 
+#mobile-menu
+	padding: 0.5em 0.2em
+	position: fixed
+	top: 0
+	left: 0
+	right: 0
+
 #navigation
-	display: none
 	margin: 0
-	padding-left: 1.5em
 	height: 100%
 	position: fixed
 	background-color: $body
 	border-right: 2px solid $derived
 	z-index: 100
+	max-width: 20em
 
-	ul#adversaries
+	p
+		padding-left: 1.5em
+
+	#adversaries
 		position: absolute
-		top: 10.5em
+		top: 7em
 		right: 0
-		bottom: 0
-		left: 1.5em
+		bottom: 2em
+		padding-left: 1.5em
 		margin: 0
 		overflow-y: auto
 		padding-bottom: 2em
@@ -198,8 +209,11 @@ ul#menu
 		.btn:hover
 			color: $link
 
-#content .loading
-	margin: 2em
+#content
+	margin-top: 2em
+
+	.loading
+		margin: 2em
 
 // STAT BLOCKS
 
@@ -299,7 +313,11 @@ ul#menu
 // SKILLS
 .info
 	clear: both
-	margin: 0 0.5rem 1.5em 0.5rem
+	margin: 0 0 1.5em
+
+	ul, .directory, p, h2
+		margin-left: 1em
+		margin-right: 1em
 
 	h2
 		margin-top: 0
@@ -333,25 +351,12 @@ ul#menu
 		margin: 0 0 0.2em
 
 #show-all
-	display: inline-block
-	float: right
+	text-align: right
 	margin-bottom: 1em
 
 	svg
 		position: relative
 		top: 0.1em
-
-.spinner
-	animation-name: spin
-	animation-duration: 2s
-	animation-iteration-count: infinite
-	animation-timing-function: linear
-
-@keyframes spin
-	from
-		transform: rotate(0deg)
-	to
-		transform: rotate(360deg)
 
 
 // MEDIA OVERRIDES
@@ -383,7 +388,7 @@ ul#menu
 	#show-all
 		margin-top: -2.5em
 
-	#content .large
+	#content.large
 		padding-bottom: 3em
 
 	.stats
@@ -391,8 +396,14 @@ ul#menu
 
 	#characteristics
 		width: 100%
+		margin: 0 1em
 
-	ul#menu
+	#menu
+		position: fixed
+		top: 0
+		left: 0
+		right: 0
+
 		&>li
 			position: relative
 
@@ -409,42 +420,43 @@ ul#menu
 
 
 @media screen and (min-width: $screen-large)
-	.column
-		float: left
-		overflow: hidden
-		margin-left: 1.5em
-
-		&.small
-			width: 20em
-
-	#content .column.small
-		width: 14.25em
-		margin-left: 0
-
-
-@media screen and (min-width: $screen-xlarge)
 	h1
-		position: fixed
 		display: inline-block
-		top: 1em
 		border-radius: 0 3rem 3rem 0
+		position: fixed
+		top: 1em
 
 	h2.subtitle
 		margin: 1.6em 3em 2.5em 0
 
-	#navigation, #content
-		display: block
-		margin-top: 2em
+	#characteristics
+		margin: 0
 
-	ul#menu
-		position: fixed
-		top: 0
-		left: 0
-		right: 0
+	.column
+		float: left
+		overflow: hidden
 
-		ul
-			max-width: 30em
+		&.small
+			width: 20em
 
+	#content
+		.column.large
+			width: 37.5em
+
+		.column.small
+			width: 16em
+			margin-left: 1.5em
+
+	#menu ul
+		max-width: 30em
+
+	.info
+		ul, .directory, p, h2
+			margin-left: 0
+			margin-right: 0
+
+
+@media screen and (min-width: $screen-xlarge)
 	#tabs
 		padding-left: 23rem
 
@@ -456,19 +468,58 @@ ul#menu
 		background-color: $body
 		z-index: 150
 
+	#navigation
+		display: block
+		margin-top: 2em
+
 	#content
 		margin-left: 21.5em
 		width: 58em
 
 		.large
-			width: 37.5em
 			padding-bottom: 5em
 
-		.small
+		.column.small
 			margin-left: 1.5em
 
 	#characteristics div:nth-child(even)
 		margin-right: 0
+
+	#menu
+		display: block
+
+	#mobile-menu
+		display: none
+
+
+// SMALLER SCREEN SLIDING MENU
+@media screen and (max-width: $screen-xlarge)
+	#navigation
+		top: 2em
+		left: 0
+		right: 0
+		bottom: 0
+		max-width: 
+
+		&.menu-closed
+			transform: translateX(-100%)
+			animation: slide-out 0.5s ease
+
+		&.menu-open
+			transform: translateX(0)
+			animation: slide-in 1s ease
+
+@keyframes slide-in
+	from
+		transform: translateX(-100%)
+	to
+		transform: translateX(0)
+
+@keyframes slide-out
+	from
+		transform: translateX(0)
+	to
+		transform: translateX(-100%)
 
 
 // DEBUG

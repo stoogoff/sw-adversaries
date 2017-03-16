@@ -23,7 +23,8 @@ class App extends React.Component {
 			list: null,
 			filter: "",
 			tags: [],
-			isLoaded: false
+			isLoaded: false,
+			menuOpen: false
 		};
 		this.events = {};
 		this.stores = {};
@@ -78,7 +79,7 @@ class App extends React.Component {
 
 		// view object from menu
 		dispatcher.register(CONFIG.OBJECT_VIEW, id => {
-			this._updateState(this.stores.adversaries.all().find(a => a.id == id));
+			this._updateState(this.stores.adversaries.all().find(a => a.id == id), null, null, null, false);
 		});
 
 		// add another object to the view
@@ -126,12 +127,22 @@ class App extends React.Component {
 		});
 	}
 
-	_updateState(adversary, list, filter, tags) {
+	toggleMenu() {
+		let menuOpen = this.state.menuOpen;
+
+		this._updateState(null, null, null, null, !menuOpen);
+	}
+
+	_updateState(adversary, list, filter, tags, menuOpen) {
 		let selected = null;
 
 		if(adversary) {
 			selected = this.state.selected;
 			selected[this.state.selectedIndex] = adversary;
+		}
+console.log(menuOpen)
+		if(menuOpen === undefined) {
+			menuOpen = this.state.menuOpen;
 		}
 
 		this.setState({
@@ -139,6 +150,7 @@ class App extends React.Component {
 			list:     list     || this.state.list,
 			filter:   filter   || this.state.filter,
 			tags:     tags     || this.state.tags,
+			menuOpen: menuOpen,
 			isLoaded: this.loadedTotal == Object.keys(this.stores).length,
 			selectedIndex: this.state.selectedIndex
 		});
@@ -157,8 +169,11 @@ class App extends React.Component {
 		let y = this.stores.adversaries !=null ? this.stores.adversaries.all().length : 0;
 
 		return <div>
-				<TagMenu tags={ this.state.tags } />
-			<div id="navigation" className="column small">
+			<div id="mobile-menu">
+				<span className="btn" onClick={ this.toggleMenu.bind(this) }><svg><use href="#icon-menu"></use></svg></span>
+			</div>
+			<TagMenu tags={ this.state.tags } />
+			<div id="navigation" className={ (this.state.menuOpen ? "menu-open" : "menu-closed") + " column small" }>
 				<Filter filter={ this.state.filter } />
 				<p><small>Showing { x } of { y }.</small></p>
 				<LinkList data={ this.state.list } selected={ this.state.selected.length > 0 ? this.state.selected[this.state.selectedIndex].id : "" } />

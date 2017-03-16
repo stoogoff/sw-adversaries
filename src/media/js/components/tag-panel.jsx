@@ -35,7 +35,7 @@ export default class TagPanel extends React.Component {
 						{ keyed.map(k => <div key={ k.link }><strong>{ k.key }:</strong> <span className="link" onClick={ this.handler.bind(this) } data-href={ k.link }>{ k.text }</span></div>) }
 					</div>
 				 }
-				{ tags.length == 0 ? "–" :
+				{ tags.length == 0 ? <p>–</p> :
 					<ul className="inline-list">
 						{ tags.map((d, i) => <li key={ i }><span className="link" onClick={ this.handler.bind(this) } data-href={ d }>{ d }</span></li>) }
 					</ul>

@@ -10,7 +10,7 @@ export default class InfoPanel extends React.Component {
 				<ul className="inline-list">
 					{ this.props.data.map((d, i) => <li key={ i }><span dangerouslySetInnerHTML= { symbolise(d) } /></li>) }
 				</ul>
-				: "–"
+				: <p>–</p>
 			}
 		</div>;
 	}

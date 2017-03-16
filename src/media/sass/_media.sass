@@ -3,7 +3,7 @@
 $screen-small:  30em
 $screen-medium: 40em
 $screen-large:  55em
-$screen-xlarge: 75em
+$screen-xlarge: 82em
 
 
 @media screen and (max-width: $screen-small)
@@ -12,4 +12,12 @@ $screen-xlarge: 75em
 
 @media screen and (max-width: $screen-medium)
 	.hide-medium
+		display: none !important
+
+@media screen and (max-width: $screen-large)
+	.hide-large
+		display: none !important
+
+@media screen and (max-width: $screen-xlarge)
+	.hide-xlarge
 		display: none !important

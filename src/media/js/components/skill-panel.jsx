@@ -83,8 +83,10 @@ export default class SkillPanel extends React.Component {
 
 		return <div className="info">
 			<h2>Skills { character.type == "Minion" ? <small>(Group Only)</small> : null }</h2>
-			<small id="show-all" className="btn" onClick={ this.toggleSkills.bind(this) }>{ this.state.showAll ? <svg className="nudge"><use href="#icon-checkbox-checked"></use></svg> : <svg className="nudge"><use href="#icon-checkbox-unchecked"></use></svg> } Show all</small>
-			{ skills.length == 0 ? "–" :
+			<div id="show-all">
+				<small className="btn" onClick={ this.toggleSkills.bind(this) }>{ this.state.showAll ? <svg className="nudge"><use href="#icon-checkbox-checked"></use></svg> : <svg className="nudge"><use href="#icon-checkbox-unchecked"></use></svg> } Show all</small>
+			</div>
+			{ skills.length == 0 ? <p>–</p> :
 			<table className="skills">
 				<thead>
 					<tr>

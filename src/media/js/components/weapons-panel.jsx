@@ -120,7 +120,7 @@ export default class WeaponsPanel extends React.Component {
 
 		return <div className="info">
 			<h2>Weapons</h2>
-			{ weapons.length == 0 ? "–" :
+			{ weapons.length == 0 ? <p>–</p> :
 			<table className="weapons">
 				<thead>
 					<tr>
