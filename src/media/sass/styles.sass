@@ -80,7 +80,10 @@ h2.subtitle
 #menu
 	display: none
 
-	&>li
+	&>ul
+		margin: 0
+
+	&>ul>li
 		display: inline-block
 		padding: 0.5em
 		cursor: pointer
@@ -94,11 +97,11 @@ h2.subtitle
 			position: relative
 			top: 0.2em
 
-	&>li.active ul
+	&>ul>li.active ul
 		display: block
 		opacity: 1
 
-	ul
+	&>ul>li>ul
 		position: absolute
 		margin: 0
 		padding: 0.5em
@@ -130,6 +133,15 @@ h2.subtitle
 	top: 0
 	left: 0
 	right: 0
+
+#mobile-menu, #menu
+	em
+		float: right
+		display: inline-block
+		margin-right: 1em
+
+#menu em
+		padding-top: 0.5em
 
 #navigation
 	margin: 0
@@ -396,26 +408,6 @@ h2.subtitle
 		width: 100%
 		margin: 0 1em
 
-	#menu
-		position: fixed
-		top: 0
-		left: 0
-		right: 0
-
-		&>li
-			position: relative
-
-			&:hover, &.active
-				border-left-color: $derived
-				border-right-color: $derived
-
-		ul
-			width: 20em
-			top: 2.33em
-			border-width: 0 1px 1px 1px
-			border-style: solid
-			border-color: $derived
-
 
 @media screen and (min-width: $screen-large)
 	h1
@@ -444,9 +436,6 @@ h2.subtitle
 		.column.small
 			width: 16em
 			margin-left: 1.5em
-
-	#menu ul
-		max-width: 30em
 
 	.info
 		ul, .directory, p, h2
@@ -487,6 +476,25 @@ h2.subtitle
 
 	#menu
 		display: block
+		position: fixed
+		top: 0
+		left: 0
+		right: 0
+
+		&>ul>li
+			position: relative
+
+			&:hover, &.active
+				border-left-color: $derived
+				border-right-color: $derived
+
+		&>ul>li>ul
+			width: 20em
+			top: 2.33em
+			border-width: 0 1px 1px 1px
+			border-style: solid
+			border-color: $derived
+
 
 	#mobile-menu
 		display: none

@@ -140,7 +140,7 @@ class App extends React.Component {
 			selected = this.state.selected;
 			selected[this.state.selectedIndex] = adversary;
 		}
-console.log(menuOpen)
+
 		if(menuOpen === undefined) {
 			menuOpen = this.state.menuOpen;
 		}
@@ -171,6 +171,7 @@ console.log(menuOpen)
 		return <div>
 			<div id="mobile-menu">
 				<span className="btn" onClick={ this.toggleMenu.bind(this) }><svg><use href="#icon-menu"></use></svg></span>
+				<em>Star Wars: Adversaries</em>
 			</div>
 			<TagMenu tags={ this.state.tags } />
 			<div id="navigation" className={ (this.state.menuOpen ? "menu-open" : "menu-closed") + " column small" }>
