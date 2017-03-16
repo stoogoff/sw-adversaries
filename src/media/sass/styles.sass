@@ -146,6 +146,7 @@ h2.subtitle
 	#adversaries
 		position: absolute
 		top: 7em
+		left: 0
 		right: 0
 		bottom: 2em
 		padding-left: 1.5em
@@ -256,9 +257,6 @@ h2.subtitle
 		border-radius: 0.5em
 		border: 2px solid $heading
 		overflow: hidden
-
-		//&:nth-child(even)
-			//margin-right: 0
 
 	span
 		background-color: white
@@ -471,6 +469,8 @@ h2.subtitle
 	#navigation
 		display: block
 		margin-top: 2em
+		width: 21.5em
+		max-width: none
 
 	#content
 		margin-left: 21.5em
@@ -499,7 +499,6 @@ h2.subtitle
 		left: 0
 		right: 0
 		bottom: 0
-		max-width: 
 
 		&.menu-closed
 			transform: translateX(-100%)
@@ -524,27 +523,42 @@ h2.subtitle
 
 // DEBUG
 #debug
-	width: 30px
-	height: 30px
+	padding: 0.5em
 	position: fixed
 	display: block
 	right: 0
 	bottom: 0
 	z-index: 1000
+	color: rgba(255,255,255,0.7)
 	background-color: red
+
+	&:after
+		content: "Screen: xsmall"
 
 @media screen and (min-width: $screen-small)
 	#debug
-		background-color: green
+		background-color: orange
+
+		&:after
+			content: "Screen: small"
 
 @media screen and (min-width: $screen-medium)
 	#debug
-		background-color: blue
+		background-color: green
+
+		&:after
+			content: "Screen: medium"
 
 @media screen and (min-width: $screen-large)
 	#debug
-		background-color: orange
+		background-color: blue
+
+		&:after
+			content: "Screen: large"
 
 @media screen and (min-width: $screen-xlarge)
 	#debug
-		background-color: grey
+		background-color: indigo
+
+		&:after
+			content: "Screen: xlarge"
