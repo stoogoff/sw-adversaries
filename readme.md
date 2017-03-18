@@ -85,7 +85,6 @@ Main tasks:
 		- Chronicles of the Gatekeeper
 		- Rescue at Glare Peak
 		- Under a Black Sun
-- Mobile friendly
 - Favourite adversaries
 - Favicon
 - Links between adversaries

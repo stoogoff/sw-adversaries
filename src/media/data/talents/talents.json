@@ -209,7 +209,7 @@
 	},
 	{
 		"name": "Congenial",
-		"description": ""
+		"description": "May suffer 1 Strain per rank to downgrade the difficulty of Charm or Negotiation checks by one per Strain spent or upgrade difficulty once per Strain spent when targetted by Charm or Negotiaion checks."
 	},
 	{
 		"name": "Contingency Plan",
@@ -249,7 +249,7 @@
 	},
 	{
 		"name": "Crippling Blow",
-		"description": "May increase difficulty of attack by 1. If suc­cessful, target suffers one strain when moving for remainder of encounter."
+		"description": "May increase difficulty of attack by 1. If suc­cessful, target suffers 1 Strain when moving for remainder of encounter."
 	},
 	{
 		"name": "Custom Loadout",
@@ -465,11 +465,11 @@
 	},
 	{
 		"name": "Field Commander",
-		"description": "As an action, may make an :average: Leadership check; 4 allies may immediately suffer 1 strain to perform a free maneuver."
+		"description": "As an action, may make an :average: Leadership check; a number of allies equal to Presence may immediately suffer 1 Strain to perform a free maneuver."
 	},
 	{
 		"name": "Improved Field Commander",
-		"description": "As an action, may make an :average: Leadership check; 4 allies may immediately suffer 1 strain to perform a free maneuver; spend :triumph: to allow one ally to perform an action instead."
+		"description": "As an action, may make an :average: Leadership check; a number of allies equal to Presence may immediately suffer 1 Strain to perform a free maneuver; spend :triumph: to allow one ally to perform an action instead."
 	},
 	{
 		"name": "Fine Tuning",
@@ -1541,7 +1541,7 @@
 	},
 	{
 		"name": "Touch of Fate",
-		"description": ""
+		"description": "Once per game session, may add :boost::boost: to any one skill check."
 	},
 	{
 		"name": "Toughened",

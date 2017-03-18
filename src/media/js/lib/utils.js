@@ -116,5 +116,6 @@ let bookMap = {
 	// adventures
 	"book:cotgk": "Chronicles of the Gatekeeper",
 	"book:ragp": "Rescue at Glare Peak",
-	"book:uabs": "Under a Black Sun"
+	"book:uabs": "Under a Black Sun",
+	"book:flt": "Friends Like These"
 };

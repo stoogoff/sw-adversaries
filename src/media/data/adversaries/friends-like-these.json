@@ -1,0 +1,217 @@
+[
+	{
+		"name": "Cacique Kal Coorsa",
+		"type": "Rival",
+		"description": "Grandson of Jans Coorsa, the legendary Phantom of Gall. Kal was still an infant when his father died resisting the Empire. Primarily raised by his mother, Kal was twelve when she died during an Impetial bombardment of their village. His infamous grandfather took him and moved him with the remnants of his clan to Xorrn.\n\nShortly after Kal’s nineteenth birthday, Jans Coorsa died under mysterious circumstances. Jans’s last will and testament designated Kal as the interim cac1que, a position he has worked hard to retain through mult1ple Clan Assembly votes. Kal does his best to govern Foundry Four with the same keen foresight as his grandfather. However, Kal's hatred of the Empire blinds his judgement, and he has frequent clashes with former Imperial Lira Hardin.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Discipline": 1,
+			"Knowledge: Underworld:": 1,
+			"Knowledge: Warfare": 2,
+			"Leadership": 3,
+			"Negotiation": 1,
+			"Ranged: Light": 1,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Enhanced Leader", "Force Rating 1", "Inspiring Rhetoric", "Touch of Fate"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Datapad", "Encrypted comlink"],
+		"tags": ["adventure:Friends Like These", "book:flt", "location:Xorrn"]
+	},
+	{
+		"name": "Patrician Lira Harding",
+		"type": "Rival",
+		"description": "A veteran with little tolerance for fools, Lira Hardin has been working on weapons of war for close to thirty years. Long before the Separatist Crisis, she left her native Gall for the Republic judicials, where she was trained as a combat engineer. She was moved to the Grand Army of the Republic for the duration of the Clone Wars, and she participated in the bombardment of Xorrn at the end of the conflict. She stayed on while the Republic became the Galactic Empire. After bearing witness to the subjugation of Rampa I, she resigned and went home to Gall.\n\nStruck by the ruin her hometown had become under Jans Coorsa’s leadership, Hardin became involved with clan politics and was quickly named patrician of the Hardin family. While she opposed Jans Coorsa at every decision, they shared a mutual respect. After the Imperial bombardment that decimated their village, Hardin convinced Coorsa to go into hiding on Xorrn. There, Hardin’s experience was invaluable in reactivating Foundry Four and creating the orbital repair yard. After Jans died, Hardin opposed his grandson, who sought higher·profile clients, particularly the Rebellion.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 10
+		},
+		"skills": {
+			"Computers": 3,
+			"Cool": 1,
+			"Knowledge: Education": 3,
+			"Leadership": 1,
+			"Mechanics": 4,
+			"Perception": 2
+		},
+		"talents": ["Gearhead 1", "Known Schematic"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Adverse environment gear (+1 Soak)", "Datapad", "Encrypted comlink", "Scanner goggles"],
+		"tags": ["adventure:Friends Like These", "book:flt", "location:Xorrn"]
+	},
+	{
+		"name": "Patrician Vilola Sargan",
+		"type": "Rival",
+		"description": "The patrician of the Sargan family. Vilola is one of the major voices in the Clan Assembly. Vilola was Jans Coorsa’s sister-in-law, a fact she uses to wield influence over Kal, claiming to know what Jans would do or want in any given situation. Vilola has contacts throughout the criminal underworld. including among the Hutts, the Zann Consortium, and the Car’das smuggling ring. She uses her position to arrange favourable deals for her criminal contacts while enriching herself. When the time is right, she hopes to oust Kal Coorsa and take over as cacique. She has quietly set Kal and Lira Hardin against each other to remove the threat of a political alliance between their families, all the while secretly allying with Hardin over their shared reluctance to work with the Rebel Alliance.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 13,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Charm": 3,
+			"Coercion": 2,
+			"Cool": 2,
+			"Deception": 3,
+			"Leadership": 2,
+			"Negotiation": 1,
+			"Perception": 2
+		},
+		"talents": ["Adversary 1", "Congenial 1"],
+		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Datapad", "Encrypted comlink"],
+		"tags": ["adventure:Friends Like These", "book:flt", "location:Xorrn"]
+	},
+	{
+		"name": "Kad Solus",
+		"type": "Rival",
+		"description": "A respected member of the Mandalorian camp at Arumorut and the second in command to Vera, the camp’s leader, Kad is a young, lanky human warrior in blue-and-green armour. Kad was born into bondage, enslaved by Nok, a Thalassian slaver expanding his business on Tatooine. A number of years later, a local crime lord hired some of the Mandalorian mercenaries at Arumorut to eliminate Nok’s operation. During the attack, Kad. at only five years of age, warned the Mandalorians before Nok could spring a trap. After the battle, a Mandalorian named Avin Solus adopted Kad and raised him as his own.\n\nNow, though still young Kad is already a battle-hardened veteran and jaded beyond his years. When the blaster bolts start flying, he often sits back at first, finding the weak point in the enemy’s strategy. Once the enemy notices him, he charges and attacks like a man expecting to die. His allies struggle to see the genius in his tactics, and call him *mir’shupla*, or “brain damaged,” despite how often he rescues them.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 13,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Coercion": 1,
+			"Cool": 3,
+			"Coordination": 1,
+			"Discipline": 2,
+			"Knowledge: Warfare": 2,
+			"Ranged: Heavy": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Mandalorian Visage"],
+		"weapons": [
+			{
+				"name": "GALAR-15 blaster carbine",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 2,
+				"range": "Long",
+				"qualities": ["Accurate 1", "Stun Setting"]
+			}
+		],
+		"gear": ["Mandalorian heavy battle armour (+2 Soak, +1 Defence)", "The Dikutruni (an Aka’jar-class shuttle)"],
+		"tags": ["adventure:Friends Like These", "book:flt", "location:Vlemoth Port", "species:Mandalorian"]
+	},
+	{
+		"name": "Ak-Mal, Weequay Hunter",
+		"type": "Rival",
+		"description": "Ak-Mal is a ruthless mercenary recently put on retainer by Teemo the Hutt, of the Desilijic kajidic on Tatooine. Ak-Mal has tracked Kad Solus to Vlemoth Port on behalf of Teemo, and has orders to capture or kill Kad and repossess his ship. Hailing from Sriluur, Ak-Mal was born into bondage and was enslaved as muscle for the Desilijic kajidic. Impressed with his skills, Teemo proposed a scheme that earned him his freedom and a generous loan, in exchange for a period of exclusivity working for Teemo.\n\nAk-Mal is aggressive, famous for charging his enemies head on and finishing them off with his vibro-ax. He often works With a horde of Klatooinian bruisers, who are usually there only to soak up a few blaster bots and confirm stories of his prowess in cantinas. To protect himself, he usually employs two weequay Snipers to cover his reckless advances in combat. He is loyal to Teemo, and convincing him to stop and listen to an offer or hep defend Xorrn is nearly impossible.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 15,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coercion": 3,
+			"Melee": 3,
+			"Perception": 2,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 1,
+			"Resilience": 1,
+			"Stealth": 2,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Pheromone Communication"],
+		"weapons": ["Blaster rifle", "Frag grenade", "Vibro-ax"],
+		"gear": ["Heavy battle armour (+2 Soak, +1 Defence)", "Utility belt", "Extra reloads", "2 Frag grenades"],
+		"tags": ["adventure:Friends Like These", "book:flt", "location:Vlemoth Port", "species:Weequay", "underworld", "mercenary", "bounty hunter"]
+	},
+	{
+		"name": "Weequay Sniper",
+		"type": "Rival",
+		"description": "Once he had won his autonomy, Ak-Mal immediately travelled to Sriluur to rescue two of his nieces before they could be enslaved. He hopes they can grow into equal partners one day, but for now they are instructed to hang back and protect Ak-Mal from a distance. Should Ak-Mal suffer too many injuries, one of the sisters attempts to rescue him while the other continues to provide protective fire from behind.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 9
+		},
+		"skills": {
+			"Athletics": 1,
+			"Ranged: Heavy": 3,
+			"Perception": 2,
+			"Survival": 1,
+			"Vigilance": 2
+		},
+		"talents": ["Expert Tracker"],
+		"abilities": ["Pheromone Communication"],
+		"weapons": ["Blaster rifle"],
+		"gear": ["Padded armour (+2 Soak)", "Extra reloads"],
+		"tags": ["adventure:Friends Like These", "book:flt", "location:Vlemoth Port", "species:Weequay", "underworld", "mercenary", "thug"]
+	},
+	{
+		"name": "Klatooinian Bruiser",
+		"type": "Minion",
+		"description": "Ak-Mal travels with a dozen Klatooinian bruisers, who operate in three fire teams of four. They tend to charge aggressively and take cover once they are in range. Most of the henchmen are enslaved to Teemo the Hutt, who allows Ak-Mal to use them as he sees fit.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 6
+		},
+		"skills": ["Brawl", "Knowledge: Underworld", "Perception", "Ranged: Light", "Vigilance"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Heavy clothing (+1 Soak)"],
+		"tags": ["adventure:Friends Like These", "book:flt", "location:Vlemoth Port", "species:Klatooinian", "underworld", "thug"]
+	}
+]
