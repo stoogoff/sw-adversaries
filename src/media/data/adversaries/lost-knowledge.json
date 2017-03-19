@@ -43,8 +43,7 @@
 				"skill": "Brawl",
 				"damage": 4,
 				"critical": 4,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"tags": ["adventure:Lost Knowledge", "location:Athiss", "creature"]
@@ -79,8 +78,7 @@
 				"skill": "Ranged: Heavy",
 				"damage": 8,
 				"critical": 3,
-				"range": "Long",
-				"qualities": []
+				"range": "Long"
 			}
 		],
 		"gear": ["Heavy clothing (+1 Soak)"],
@@ -110,8 +108,7 @@
 				"skill": "Ranged: Heavy",
 				"damage": 8,
 				"critical": 3,
-				"range": "Long",
-				"qualities": []
+				"range": "Long"
 			}
 		],
 		"gear": ["Heavy clothing (+1 Soak)"],
@@ -146,8 +143,7 @@
 				"skill": "Brawl",
 				"damage": 5,
 				"critical": 4,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"tags": ["adventure:Lost Knowledge", "location:Athiss"]

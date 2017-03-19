@@ -213,5 +213,267 @@
 		"weapons": ["Blaster pistol"],
 		"gear": ["Heavy clothing (+1 Soak)"],
 		"tags": ["adventure:Friends Like These", "book:flt", "location:Vlemoth Port", "species:Klatooinian", "underworld", "thug"]
+	},
+	{
+		"name": "Talz Chieftain",
+		"type": "Rival",
+		"description": "The Talz follow the strongest among them. The best chieftains consult with the eldest members of the tribe, while reminding the younger hunters of their strength and prowess to stave off challenges to their rule. Chieftains are responsible for protecting both the tribe and their hunting grounds from outsiders.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coercion": 3,
+			"Melee": 2,
+			"Perception": 2,
+			"Ranged: Light": 3,
+			"Stealth": 3,
+			"Survival": 3
+		},
+		"talents": ["Adversary 1"],
+		"weapons": [
+			{
+				"name": "Ceremonial spear (thrown)",
+				"skill": "Ranged: Light",
+				"damage": 9,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Limited Ammo 1"]
+			},
+			{
+				"name": "Ceremonial spear (melee)",
+				"skill": "Melee",
+				"damage": 8,
+				"critical": 2,
+				"range": "Engaged"
+			},
+			{
+				"name": "Knife",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged"
+			}
+		],
+		"gear": [],
+		"tags": ["adventure:Friends Like These", "book:flt", "location:Vlemoth Port", "species:Talz"]
+	},
+	{
+		"name": "Talz Hunter",
+		"type": "Rival",
+		"description": "The best hunters in any Talz tribe are like ghosts on the tundra, ambushing their prey from within snowdrifts, or slaying a creature with a spear from thirty metres away. The tribe’s very best hunter often aspires to the position of chieftain, a right earned through single combat.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coercion": 3,
+			"Melee": 2,
+			"Perception": 2,
+			"Ranged: Light": 3,
+			"Resilience": 2,
+			"Stealth": 3,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"weapons": [
+			{
+				"name": "Hunting spear (thrown)",
+				"skill": "Ranged: Light",
+				"damage": 9,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Limited Ammo 1"]
+			},
+			{
+				"name": "Hunting spear (melee)",
+				"skill": "Melee",
+				"damage": 7,
+				"critical": 2,
+				"range": "Engaged"
+			},
+			{
+				"name": "Knife",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged"
+			}
+		],
+		"gear": ["Two hunting spears"],
+		"tags": ["adventure:Friends Like These", "book:flt", "location:Vlemoth Port", "species:Talz"]
+	},
+	{
+		"name": "Talz Warrior",
+		"type": "Minion",
+		"description": "The Talz living in Vlemoth Port’s northern tundra are generally peaceful but very xenophobic. Thanks to frequent clashes with slavers, they view intrusions by outsiders as acts of aggression. Talz warriors tend to own at least one hunting spear which they can either throw or use as a melee weapon. Their bone knives, designed to skin animals, are also useful in combat.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12
+		},
+		"skills": ["Brawl", "Coercion", "Melee", "Ranged: Light", "Survival"],
+		"weapons": [
+			{
+				"name": "Hunting spear (thrown)",
+				"skill": "Ranged: Light",
+				"damage": 9,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Limited Ammo 1"]
+			},
+			{
+				"name": "Hunting spear (melee)",
+				"skill": "Melee",
+				"damage": 7,
+				"critical": 2,
+				"range": "Engaged"
+			},
+			{
+				"name": "Knife",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged"
+			}
+		],
+		"gear": [],
+		"tags": ["adventure:Friends Like These", "book:flt", "location:Vlemoth Port", "species:Talz"]
+	},
+	{
+		"name": "Mandalorian Warrior",
+		"type": "Rival",
+		"description": "Every sentient being born in Arumorut begins training in combat at a very young age. While many choose one specific skill to specialise in, all Mandalorians at Arumorut pride themselves on their combat prowess. It is common for younger warriors to constantly seek new challenges and ways to test their skills.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 12,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Coercion": 2,
+			"Cool": 2,
+			"Discipline": 2,
+			"Knowledge: Warfare": 2,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Point Blank 2"],
+		"weapons": [
+			{
+				"name": "Armoured gauntlet",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Disorient 3", "Knockdown"]
+			},
+			{
+				"name": "GHOVOR-22 Blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			},
+			{
+				"name": "Mythosaur axe",
+				"skill": "Melee",
+				"damage": 7,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Cortosis", "Pierce 3", "Vicious 3"]
+			}
+		],
+		"gear": ["Mandalorian heavy battle armour (+2 Soak, +1 Defence)"],
+		"tags": ["adventure:Friends Like These", "book:flt", "location:Vlemoth Port", "species:Mandalorian"]
+	},
+	{
+		"name": "Chieftain Vera Beroya",
+		"type": "Nemesis",
+		"description": "Vera became clan leader two years ago, when her father was killed (or so some think) defending the Talz from Zygerrian slavers. At twenty-eight years of age, Vera has led Mandalorians into combat countless times and has earned their respect for her tactical mind and combat prowess. Decisive and confident on the battlefield, Vera is less sure of herself in her new role as civic leader. She agonises over decisions that affect her entire clan. She relishes every chance she has to go to battle, and still leads her clan from the front.\n\nAn imposing figure, Vera is a tall, muscular woman with the powerful build of a human who has dedicated her entire life to warfare. She carries a light repeating blaster into combat, and when her ammo runs out\u2014and it always does\u2014she drops her weapon and charges to the very front lines. Screaming the entire time, she swings a massive mythosaur axe that belonged to her father, destroying everything in her path like a Mandalorian berserker of legend.",
+		"notes": "The SHUKOR-05 Light repeater has either Autofire or Slow Firing 2",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 13,
+			"strain": 15,
+			"defence": [2, 2]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Coercion": 2,
+			"Cool": 2,
+			"Discipline": 2,
+			"Knowledge: Warfare": 3,
+			"Leadership": 2,
+			"Melee": 3,
+			"Negotiate": 1,
+			"Ranged: Heavy": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Field Commander", "Side Step"],
+		"weapons": [
+			{
+				"name": "SHUKOR-05 Light repeater",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Cumbersome 4", "Inaccurate 1", "Pierce 2", "Autofire", "Slow Firing 2"]
+			},
+			{
+				"name": "Mythosaur axe",
+				"skill": "Melee",
+				"damage": 8,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Cortosis", "Pierce 3", "Vicious 3"]
+			}
+		],
+		"gear": ["Heavy Beskar’gam armour (+2 Soak, +2 Defence, Cortosis)"],
+		"tags": ["adventure:Friends Like These", "book:flt", "location:Vlemoth Port", "species:Mandalorian"]
 	}
 ]

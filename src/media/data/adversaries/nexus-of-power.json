@@ -569,8 +569,7 @@
 				"skill": "Brawl",
 				"damage": 6,
 				"critical": 4,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"tags": ["creature", "book:nop", "location:Dagobah"]
@@ -600,8 +599,7 @@
 				"skill": "Brawl",
 				"damage": 3,
 				"critical": 6,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"tags": ["creature", "book:nop", "location:Dagobah"]
@@ -831,16 +829,14 @@
 				"skill": "Melee",
 				"damage": 6,
 				"critical": 3,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			},
 			{
 				"name": "Thrown spear",
 				"skill": "Ranged: Light",
 				"damage": 6,
 				"critical": 3,
-				"range": "Short",
-				"qualities": []
+				"range": "Short"
 			},
 			{
 				"name": "Bag of sleeping powder",

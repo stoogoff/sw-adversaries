@@ -122,8 +122,7 @@
 				"skill": "Melee",
 				"plus-damage": 1,
 				"critical": 3,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"gear": ["Binders (breaking free requires a :daunting: Athletics or Coordination check)"],
@@ -1006,8 +1005,7 @@
 				"skill": "Brawl",
 				"damage": 4,
 				"critical": 3,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"gear": ["Armoured clothing (+1 soak, +1 defence)"],

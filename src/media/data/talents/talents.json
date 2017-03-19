@@ -1085,7 +1085,7 @@
 	},
 	{
 		"name": "Point Blank",
-		"description": "Add 3 damage to all Ranged (Heavy) and Ranged (Light) attacks made at Short or Engaged range."
+		"description": "Add 1 damage per rank to all Ranged (Heavy) and Ranged (Light) attacks made at Short or Engaged range."
 	},
 	{
 		"name": "Positive Spin",
@@ -1293,7 +1293,7 @@
 	},
 	{
 		"name": "Side Step",
-		"description": ""
+		"description": "As a maneuver may suffer 1 Strain per rank to upgrade the difficulty of all ranged attacks targeting this character by 1 per Strain spent until the start of the character’s next turn."
 	},
 	{
 		"name": "Signature Vehicle",

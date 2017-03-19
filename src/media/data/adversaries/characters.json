@@ -1026,8 +1026,7 @@
 				"skill": "Brawl",
 				"plus-damage": 1,
 				"critical": 3,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"gear": ["Custom laminate armour (+2 Soak)", "Faulty jet pack (spend a maneuver to make a Piloting (Planetary) check with a difficulty of :challenge: to fly; explodes on :despair: or after sustaining 10 damage as if it were a frag grenade)"],
@@ -1070,8 +1069,7 @@
 				"skill": "Melee",
 				"plus-damage": 1,
 				"critical": 3,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Encrypted credit voucher with 50,000 credits", "Royal crown"],
@@ -1141,7 +1139,6 @@
 				"damage": 5,
 				"critical": 3,
 				"range": "Engaged",
-				"qualities": [],
 				"notes": "Spend :advantage::advantage: to inflict poison: the target must succeed at an :average: Resilience check or suffer 5 Strain and lose their free maneuver for a number of rounds equal to the number of :threat: generated during the Resilience check."
 			}
 		],
@@ -1376,8 +1373,7 @@
 				"skill": "Brawl",
 				"plus-damage": 2,
 				"critical": 3,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"gear": ["Business attire", "Datapad", "Curio shop"],
@@ -1763,8 +1759,7 @@
 				"skill": "Brawl",
 				"plus-damage": 1,
 				"critical": 3,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"gear": ["Padded armour (+2 Soak)", "Comlink"],
@@ -1834,8 +1829,7 @@
 				"skill": "Melee",
 				"plus-damage": 1,
 				"critical": 3,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"gear": ["Tribal fetishes"],

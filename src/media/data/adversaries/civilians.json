@@ -100,8 +100,7 @@
 				"skill": "Melee",
 				"plus-damage": 2,
 				"critical": 3,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Utility belt", "Extra reloads", "Survival kit"],

@@ -614,8 +614,7 @@
 				"skill": "Brawl",
 				"damage": 5,
 				"critical": 4,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"tags": ["book:cotgk", "creature", "location:Arbooine", "adventure:Chronicles of the Gatekeeper"]

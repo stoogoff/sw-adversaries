@@ -250,8 +250,7 @@
 				"skill": "Brawl",
 				"damage": 6,
 				"critical": 2,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			},
 			{
 				"name": "Tail",
@@ -515,8 +514,7 @@
 				"skill": "Brawl",
 				"damage": 3,
 				"critical": 4,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"gear": ["Partially-digested landspeeder identity plate"],
@@ -820,8 +818,7 @@
 				"skill": "Brawl",
 				"damage": 6,
 				"critical": 4,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"tags": ["creature", "force sensitive", "book:fad"]
@@ -853,8 +850,7 @@
 				"skill": "Brawl",
 				"damage": 2,
 				"critical": 5,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"tags": ["creature", "force sensitive", "book:fad"]
@@ -920,8 +916,7 @@
 				"skill": "Brawl",
 				"damage": 7,
 				"critical": 4,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"tags": ["book:sot", "creature", "book:nop", "location:Naboo"]
@@ -956,8 +951,7 @@
 				"skill": "Brawl",
 				"damage": 7,
 				"critical": 3,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			},
 			{
 				"name": "Horns",
@@ -1051,8 +1045,7 @@
 				"skill": "Brawl",
 				"damage": 2,
 				"critical": null,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"tags": ["creature", "book:sor", "location:Thyferra"]
@@ -1363,8 +1356,7 @@
 				"skill": "Brawl",
 				"damage": 5,
 				"critical": 6,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"tags": ["book:sot", "creature"]
@@ -1393,8 +1385,7 @@
 				"skill": "Brawl",
 				"damage": 4,
 				"critical": 5,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"tags": ["creature", "book:eote", "book:sor"]
@@ -1638,8 +1629,7 @@
 				"skill": "Brawl",
 				"damage": 7,
 				"critical": 3,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"tags": ["book:sot", "creature"]
@@ -1856,8 +1846,7 @@
 				"skill": "Brawl",
 				"damage": 5,
 				"critical": 5,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"tags": ["book:sot", "creature"]
@@ -1930,8 +1919,7 @@
 				"skill": "Brawl",
 				"damage": 4,
 				"critical": 2,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			},
 			{
 				"name": "Diseased bite",
@@ -2152,8 +2140,7 @@
 				"skill": "Brawl",
 				"damage": 1,
 				"critical": 5,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"tags": ["creature", "book:fad"]

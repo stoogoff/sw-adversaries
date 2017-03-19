@@ -655,8 +655,7 @@
 				"skill": "Brawl",
 				"damage": 7,
 				"critical": 4,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"tags": ["book:sof", "location:Corellia", "creature", "riding beast", "location:Corellian Sector"]
@@ -692,8 +691,7 @@
 				"skill": "Brawl",
 				"damage": 5,
 				"critical": 4,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			},
 			{
 				"name": "Poisonous stinger",
@@ -957,7 +955,6 @@
 				"damage": 6,
 				"critical": 3,
 				"range": "Engaged",
-				"qualities": [],
 				"notes": "This attack may only target victims affected by the korrak’s Ensnare quality."
 			}
 		],
@@ -1021,8 +1018,7 @@
 				"skill": "Brawl",
 				"damage": 8,
 				"critical": 4,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"tags": ["book:sof", "location:Corellian Sector", "location:Sacorria", "creature"]
@@ -1214,8 +1210,7 @@
 				"skill": "Brawl",
 				"damage": 1,
 				"critical": 6,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"tags": ["book:sof", "creature", "location:Corellia", "location:Corellian Sector"]
@@ -2085,8 +2080,7 @@
 				"skill": "Brawl",
 				"damage": 4,
 				"critical": 5,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"tags": ["book:sof", "adventure:Conical Six Summit"]

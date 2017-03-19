@@ -12,6 +12,10 @@ function getWeaponDetails(weapon, character, allSkills, minions) {
 		weapon["damage"] = weapon["plus-damage"] + character.characteristics.Brawn;
 	}
 
+	if(!("qualities" in weapon)) {
+		weapon.qualities = [];
+	}
+
 	// get dice values
 	let skill = allSkills.find(s => s.name == weapon.skill);
 

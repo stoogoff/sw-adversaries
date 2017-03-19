@@ -1067,8 +1067,7 @@
 				"skill": "Melee",
 				"damage": 2,
 				"critical": 5,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"gear": ["Fine manipulator arm", "Built-in repair tools"],

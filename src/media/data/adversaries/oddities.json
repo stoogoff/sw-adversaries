@@ -355,8 +355,7 @@
 				"skill": "Melee",
 				"plus-damage": 1,
 				"critical": 4,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"tags": ["book:aor", "adventure:Perlemian Haul", "location:M226 Freighter", "species:Ranat", "galactic oddity"]
@@ -393,8 +392,7 @@
 				"skill": "Melee",
 				"plus-damage": 1,
 				"critical": 3,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 			}
 		],
 		"tags": ["book:aor", "adventure:Perlemian Haul", "location:M226 Freighter", "species:Ranat", "galactic oddity"]
