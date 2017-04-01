@@ -217,7 +217,7 @@
 	},
 	{
 		"name": "Contraption",
-		"description": ""
+		"description": "Once per session, as an action, may make a :hard: Mechanics check to fashion a device to solve a current problem using just hte tools and parts on hand."
 	},
 	{
 		"name": "Convincing Demeanor",
@@ -1197,7 +1197,7 @@
 	},
 	{
 		"name": "Researcher",
-		"description": ""
+		"description": "Remove :setback: from all Knowledge checks; researching a subject takes half the time."
 	},
 	{
 		"name": "Researcher (Improved)",
@@ -1441,7 +1441,7 @@
 	},
 	{
 		"name": "Strong Arm",
-		"description": ""
+		"description": "Treat thrown weapons as if they had one step greater in range, to a mximum of Medium range."
 	},
 	{
 		"name": "Studious Plotting",

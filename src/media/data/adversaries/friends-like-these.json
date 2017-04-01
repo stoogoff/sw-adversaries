@@ -2,7 +2,7 @@
 	{
 		"name": "Cacique Kal Coorsa",
 		"type": "Rival",
-		"description": "Grandson of Jans Coorsa, the legendary Phantom of Gall. Kal was still an infant when his father died resisting the Empire. Primarily raised by his mother, Kal was twelve when she died during an Impetial bombardment of their village. His infamous grandfather took him and moved him with the remnants of his clan to Xorrn.\n\nShortly after Kal’s nineteenth birthday, Jans Coorsa died under mysterious circumstances. Jans’s last will and testament designated Kal as the interim cac1que, a position he has worked hard to retain through mult1ple Clan Assembly votes. Kal does his best to govern Foundry Four with the same keen foresight as his grandfather. However, Kal's hatred of the Empire blinds his judgement, and he has frequent clashes with former Imperial Lira Hardin.",
+		"description": "Grandson of Jans Coorsa, the legendary Phantom of Gall. Kal was still an infant when his father died resisting the Empire. Primarily raised by his mother, Kal was twelve when she died during an Impetial bombardment of their village. His infamous grandfather took him and moved him with the remnants of his clan to Xorrn.\n\nShortly after Kal’s nineteenth birthday, Jans Coorsa died under mysterious circumstances. Jans’s last will and testament designated Kal as the interim cac1que, a position he has worked hard to retain through mult1ple Clan Assembly votes. Kal does his best to govern Foundry Four with the same keen foresight as his grandfather. However, Kal’s hatred of the Empire blinds his judgement, and he has frequent clashes with former Imperial Lira Hardin.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -30,7 +30,7 @@
 		"tags": ["adventure:Friends Like These", "book:flt", "location:Xorrn"]
 	},
 	{
-		"name": "Patrician Lira Harding",
+		"name": "Patrician Lira Hardin",
 		"type": "Rival",
 		"description": "A veteran with little tolerance for fools, Lira Hardin has been working on weapons of war for close to thirty years. Long before the Separatist Crisis, she left her native Gall for the Republic judicials, where she was trained as a combat engineer. She was moved to the Grand Army of the Republic for the duration of the Clone Wars, and she participated in the bombardment of Xorrn at the end of the conflict. She stayed on while the Republic became the Galactic Empire. After bearing witness to the subjugation of Rampa I, she resigned and went home to Gall.\n\nStruck by the ruin her hometown had become under Jans Coorsa’s leadership, Hardin became involved with clan politics and was quickly named patrician of the Hardin family. While she opposed Jans Coorsa at every decision, they shared a mutual respect. After the Imperial bombardment that decimated their village, Hardin convinced Coorsa to go into hiding on Xorrn. There, Hardin’s experience was invaluable in reactivating Foundry Four and creating the orbital repair yard. After Jans died, Hardin opposed his grandson, who sought higher·profile clients, particularly the Rebellion.",
 		"characteristics": {
@@ -475,5 +475,541 @@
 		],
 		"gear": ["Heavy Beskar’gam armour (+2 Soak, +2 Defence, Cortosis)"],
 		"tags": ["adventure:Friends Like These", "book:flt", "location:Vlemoth Port", "species:Mandalorian"]
+	},
+	{
+		"name": "Zygerrian Slaver",
+		"type": "Minion",
+		"description": "Nearly every inhabitant of the Outer Rim knows of, and rightfully fears, the slavers of Zygerria. Vicious and bold, Zygerrians will stop at nothing to subjugate their prey, as their very way of life revolves around the slave trade. This dedication makes Zygerrians the most prolific slavers in the galaxy.\n\nIn combat, Zygerrian slavers usually resort to non-lethal tactics in order to maximise the number of prisoners captured. However, they are not above making examples out of rowdy prisoners in order to terrify and intimidate other slaves.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": [	"Coercion", "Melee", "Ranged: Light"],
+		"abilities": ["Slave Authority"],
+		"weapons": [
+			"Blaster pistol",
+			{
+				"name": "Shock whip",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Ensnare 3", "Stun Damage"]
+			}
+		],
+		"gear": ["Slave collar"],
+		"tags": ["adventure:Friends Like These", "book:flt", "location:Kowak", "location:Sclavos", "species:Zygerrian", "slaver"]
+	},
+	{
+		"name": "Zygerrian Royal Guard",
+		"type": "Rival",
+		"description": "The Zygernanc; who serve within the royal guard are the elite soldiers or the Zygerrian Slave Empire. Their duties are to protect the royal family and their holdings. and to help ensure that slavery within the Empire thrives. These brutes patrol the streets of Sclavos, enforcing the Molec family’s rule and defending it from equally malicious rival slavers. Zygerrian royal guards are trained to corner, subdue, and capture their adversaries so they may be sod into slavery, but they do not hesitate to resort to lethal methods if necessary.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 12
+		},
+		"skills": {
+			"Coercion": 3,
+			"Melee": 3,
+			"Ranged: Heavy": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Body Guard 1"],
+		"weapons": [
+			"Blaster carbine",
+			{
+				"name": "Shock whip",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Ensnare 3", "Stun Damage"]
+			}
+		],
+		"gear": ["Padded armour (+2 Soak)", "Comlink", "Utility belt"],
+		"tags": ["adventure:Friends Like These", "book:flt", "location:Kowak", "location:Sclavos", "species:Zygerrian", "security"]
+	},
+	{
+		"name": "Nam Beroya",
+		"type": "Nemesis",
+		"description": "Not all Mandalorians shared the pacifistic views expressed by Duchess Satine Kryze during her rise to power on Mandalore. Nam Beroya was the Clan Awaud chieftain on Mandalore at that time. He saw no future in Satine’s great vision or of the Death Watch’s barbaric reversion to galactic conquest as part of the Shadow Collective. Beroya favoured the old ways, the path of the honourable nomadic mercenary. While Beroya’s clan fractured along factional lines, he followed his own vision and led more than three hundred like-minded Mandalorians to the snowy, evergreen forests of Vlemoth Port’s northern latitudes to live by the old ways. Over time, Beroya’s clan swelled to over eight hundred combat-ready warriors, and with the assistance of his adopted daughter, Vera, Nam Beroya led his clan on countless missions.\n\nTwo years ago, while Nam was on a hunting expedition with a local tribe of Talz, a band of Zygerrian slavers attacked, and Nam was captured defending his allies. Beroya’s clan thought he had perished in the battle, dooming him to a life of enslavement without the possibility of rescue. Prince Molec threw Beroya into his gladiatorial arena to fight for his court’s amusement, and the Mandalorian has run an undefeated streak for two years.\n\nNam Beroya is a burly, middle-aged man of Concordian descent, with olive skin covered in scars from countless battles. He possesses a cunning tactical mind and projects an air of confidence and competence that commands respect and inspires those serving under him. When leading his clan, Beroya carefully weighs every decision with care for how it would affect his people, but once he arrives at a conclusion. he charges forward like an angry reek.",
+		"notes": "Temporarily lame. Until this :hard: Critical Injury is healed, Nam cannot perform more than one maneuver during his turn.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"strain": 14
+		},
+		"skills": {
+			"Brawl": 3,
+			"Coercion": 4,
+			"Knowledge: Warfare": 3,
+			"Leadership": 3,
+			"Melee ":4,
+			"Ranged: Heavy": 3,
+			"Survival": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Durable 2", "Natural Leader"],
+		"tags": ["adventure:Friends Like These", "book:flt", "location:Kowak", "location:Sclavos", "species:Mandalorian"]
+	},
+	{
+		"name": "Jorec and Mard Gemen",
+		"type": "Rival",
+		"description": "Jorec and Mard faithfully served King Molec, and Queen Scintel before him, as the royal archivists, but they were reassigned as registrars on Kowak to oversee the prince’s actions on behalf of the crown. The two have served as a roadblock to the prince’s youthful decadence ever since. Come auction night, the ageing brothers take every precaution to ensure a successful and profitable evening. The two are convinced the prince’s entire operation would fall down around his ears were it not for their guidance.\n\nNo-one would suspect Jorec and Mard are fraternal twins. Jorec is a large, broadly built Zygerrian who is friendly, but simple and unkempt. His brother Mard is short and wiry, and overcompensates for his less-than-intimidating stature with an abrasive attitude and meticulous grooming.\n\nWhile proud to serve the crown, Jorec and Mard resent being on a backwater to babysit the prince, whom they consider an embarrassment to the royal family. Their anger at the king has forced them to question their entire way of life. The twins’ loyalty to the crown is weakened by their burning desire to return home to Zygerria, preferably at the expense of the prince. The latter impulse can be exploited to convince them to help the Rebellion.",
+		"notes": "Jorec has the Kill with Kindness talent while Mard has the Scathing Tirade talent.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Cool": 3,
+			"Discipline": 3,
+			"Knowledge: Education": 3,
+			"Knowledge: Outer Rim": 2
+		},
+		"talents": ["Kill with Kindness", "Researcher", "Scathing Tirade"],
+		"gear": ["Encrypted datapad", "DNA-Encoded credit voucher (10,000-credit limit)", "Expensive robes", "Holo-messenger (with direct line to King Molec", "Matching family insignia"],
+		"tags": ["adventure:Friends Like These", "book:flt", "location:Kowak", "location:Sclavos", "species:Zygerrian"]
+	},
+	{
+		"name": "Captain Rajim Armin",
+		"type": "Rival",
+		"description": "A long-time servant of the Molec royal house, Captain Rajim Armin advised Prime Minister Atai Molec during the Clone Wars, when Molec served under Queen Scintel. When the Zygerrian Slavers Guild allied with the Confederacy of Independent Systems, Captain Armin served on Prime Minister Molec’s war council. Rajim’s uncanny ability to read others and his skill as a duellist also made him the ideal bodyguard for the prime minister whom he continued to serve when the prime minister became King Atai Molec.\n\nCaptain Armin served as King Molec’s eyes and ears during the king’s sons’ fateful tour of Zygerrian holdings. When the elder heir was killed in a skirmish with Imperials, Armin shared the blame and was relieved of his duties to the throne. Armin was relegated to serve as the younger prince’s second-in-command on Kowak, far away from the capital.\n\nCaptain Armin is a tall, angular Zygerrian noble of great stature and impeccable breeding. He never strays too far from the prince, standing at attention in perfect military dress. Armin is incredibly smart, terribly insightful, and painfully bored with his station at the prince’s side. Despite the monotony of his role and the shame of his demotion Captain Armin takes great pride in his work and always does what is best for the throne.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 13,
+			"defence": [2, 1]
+		},
+		"skills": {
+			"Cool": 3,
+			"Discipline": 3,
+			"Leadership": 2,
+			"Melee": 4,
+			"Negotiation": 2,
+			"Perception": 3,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Confidence 1", "Nobody’s Fool 1"],
+		"weapons": ["Blaster pistol", "Vibrosword"],
+		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Comlink", "Datapad", "Utility belt"],
+		"tags": ["adventure:Friends Like These", "book:flt", "location:Kowak", "location:Sclavos", "species:Zygerrian", "security"]
+	},
+	{
+		"name": "Prince Sono Molec",
+		"type": "Nemesis",
+		"description": "Sono Molec inherited control of Kowak from his father, King Atai Molec. The Prince oversees slaving operations in the southern Slice, supplying the bulk of Twi’lek, Rodian, Theelin, and Togruta slaves to both the Hutt Empire and the larger auction house on Zygerria. Sono also runs a poaching operation, supplying Kowakian monkey-lizards to buyers all over the galaxy. Since assuming control of Kowak, Prince Molec has divided slave supply worlds in the Trailing Sectors with both the Thalassian slavers and the Karazak Slavers’ Cooperative.\n\nDespite his “accomplishments” Prince Molec has never earned the respect of his father. Two years ago, Sono was touring Zygerrian holdings in the southern Slice with his older brother Hordem and recklessly got drawn into a naval engagement with Captain Nervi. The batlle ended with the defeat of the Molec forces and the death of Sono’s brother. The death of the king’s first heir drove a wedge between Sono and his father that ended in his pseudo-exile to Kowak.\n\nPrince Molec maintains a sabacc face as unreadable as ferrocrete, making him hard to read during negotiations. He leads a decadent lifestyle both personally and professionally, and he has many vices, including alcohol, gambling, and spice. Prince Molec also takes a morbid pleasure in the misery of others. However, beneath his egotistical facade, the prince is paranoid. Sono is convinced that servants within his court actively plot to depose him, which slowly chips away at his self-assured exterior.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13,
+			"strain": 15
+		},
+		"skills": {
+			"Coercion": 2,
+			"Cool": 2,
+			"Deception": 3,
+			"Discipline": 2,
+			"Knowledge: Outer Rim": 2,
+			"Knowledge: Underworld": 3,
+			"Leadership": 3,
+			"Melee": 3,
+			"Negotiation": 3,
+			"Perception ": 3,
+			"Piloting: Planetary": 2,
+			"Ranged: Light": 3,
+			"Skulduggery": 2,
+			"Streetwise": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Commanding Presence", "Improved Scathing Tirade", "Nobody’s Fool 2"],
+		"weapons": [
+			"Holdout blaster",
+			{
+				"name": "Shock whip",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Ensnare 3", "Stun Damage"]
+			}
+		],
+		"gear": ["Exquisite garb"],
+		"tags": ["adventure:Friends Like These", "book:flt", "location:Kowak", "location:Sclavos", "species:Zygerrian", "slaver"]
+	},
+	{
+		"name": "Kowakian Monkey-Lizard",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 3
+		},
+		"skills": ["Brawl", "Coordination", "Stealth", "Vigilance"],
+		"abilities": ["Silhouette 0", "Ambushers", "Blabber Mouth"],
+		"weapons": [
+			{
+				"name": "Ankle bite",
+				"skill": "Brawl",
+				"damage": 2,
+				"critical": null,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			},
+			{
+				"name": "Pile-on",
+				"skill": "Brawl",
+				"damage": 1,
+				"critical": null,
+				"range": "Engaged",
+				"qualities": ["Ensnare 3"]
+			}
+		],
+		"tags": ["adventure:Friends Like These", "book:flt", "location:Kowak", "creature"]
+	},
+	{
+		"name": "Trandoshan Slaver",
+		"type": "Rival",
+		"description": "Resolute and ferocious, Trandoshan slavers are among the vilest groups in the entire underworld. While they specialise in the slavery of WooKiees, they rarely refuse the opportunity to put their combat prowess to the test. No matter whether the prey is a creature or a sentient being, a Trandoshan lives for the thrill of the hunt.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15
+		},
+		"skills": {
+			"Coercion": 2,
+			"Perception": 3,
+			"Ranged: Heavy": 3,
+			"Ranged: Light": 2,
+			"Survival": 3
+		},
+		"talents": ["Expert Tracker", "Strong Arm"],
+		"abilities": ["Regeneration"],
+		"weapons": [
+			"Stun grenade",
+			{
+				"name": "Accelerated charged particle array gun",
+				"skill": "Ranged: Heavy",
+				"damage": 6,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Blast 5", "Stun Damage"]
+			},
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Disorient", "Knockdown"]
+			}
+		],
+		"gear": ["2 Stun grenades", "Padded armour (+2 Soak)", "Comlink"],
+		"tags": ["adventure:Friends Like These", "book:flt", "species:Trandoshan", "slaver"]
+	},
+	{
+		"name": "Baron Dorn Sevelle",
+		"type": "Rival",
+		"description": "A human trade baron from Raithal, Dorn Sevelle is a representative of the KSC, and he was until recently a close friend of Prince Molec. The two often sat together during slave gladiatorial matches, wagering on the outcomes. The latest such bet resulted in Sevelle’s walking away with the prince’s top prizefighter. Realising the warrior is more trouble than he is worth, Baron Sevelle sold the gladiator to the Thalassians. Now he awaits their arrival to pick up their prize.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 13,
+			"defence": [2, 0]
+		},
+		"skills": {
+			"Deception": 3,
+			"Negotiation": 2,
+			"Ranged: Light": 1,
+			"Streetwise": 2
+		},
+		"talents": ["Plausible Deniability"],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Heavy clothing (+1 Soak)", "Comlink", "Credit voucher", "Datapad"],
+		"tags": ["adventure:Friends Like These", "book:flt", "location:Kowak", "location:Sclavos", "slaver", "karazak slavers cooperative"]
+	},
+	{
+		"name": "Karazak Acquisition Specialist",
+		"type": "Rival",
+		"description": "Careful planning goes into every potential Karazak Slavers’ Cooperative operation. Acquisition specialists scout planets and hyperspace routes all over the Outer Rim, looking for new markets and “product species.”",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 10
+		},
+		"skills": {
+			"Knowledge: Education": 3,
+			"Knowledge: Xenology": 3,
+			"Perception": 3,
+			"Piloting: Space": 2,
+			"Ranged: Light": 2,
+			"Streetwise": 3
+		},
+		"talents": ["Indistinguishable"],
+		"abilities": ["Code of Silence"],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Adverse environment gear (+1 Soak)", "Datapad", "Electrobinoculars", "Field ration packs", "Holo-messenger", "Utility belt"],
+		"tags": ["adventure:Friends Like These", "book:flt", "slaver", "karazak slavers cooperative"]
+	},
+	{
+		"name": "Karazak Acquisition Agent",
+		"type": "Minion",
+		"description": "Acquisitions agents conduct all “product acquisition” (enslaving) operations for the KSC with military efficiency. Acquisitions agents commonly frequent major hyperlanes in the Outer Rim, but each successful operation emboldens them to operate further Coreward.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": ["Cool", "Knowledge: Xenology", "Melee", "Ranged: Heavy"],
+		"abilities": ["Code of Silence"],
+		"weapons": ["Blaster rifle", "Force pike"],
+		"gear": ["Heavy clothing (+1 Soak)", "Bail bond chit"],
+		"tags": ["adventure:Friends Like These", "book:flt", "slaver", "karazak slavers cooperative"]
+	},
+	{
+		"name": "Thalassian Slaver",
+		"type": "Rival",
+		"description": "Members of a society of slavers thousands of years old, Thalassians are some of the most resourceful slave traders in the galaxy. Even though their shell-covered bodies would normally inhibit their mobility, the cunning reptiles rely on various technologies, such as repulsors and jetpacks, to travel quickly. Thalassians are rarely without their armour or array of gadgets. Seeing most other species as nothing more than animals, they utilise electronets, repulsor traps, stun grenades, and all manner of non-lethal weapons to round up and ensnare their targets. These slavers operate out of the New Territories, using ion cannon– equipped Z-95 Headhunters to prey on unsuspecting hyperspace travellers, but they are also common elsewhere in the galaxy.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 16,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Mechanics": 2,
+			"Piloting: Planetary": 3,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 1,
+			"Vigilance": 2
+		},
+		"talents": ["Contraption"],
+		"abilities": ["Hoverer", "Ponderous (Thalassian)"],
+		"weapons": [
+			"Stun grenade",
+			{
+				"name": "Electronet launcher",
+				"skill": "Ranged: Heavy",
+				"damage": 6,
+				"critical": null,
+				"range": "Short",
+				"qualities": ["Ensnare 5", "Stun Damage"]
+			}			
+		],
+		"gear": ["Repulsor equipped heavy battle armour (+2 Soak, +1 Defence)", "Comlink", "Jetpack", "Utility belt", "2 Stun grenades"],
+		"tags": ["adventure:Friends Like These", "book:flt", "slaver", "species:Thalassian"]
+	},
+	{
+		"name": "Gasch N’doss",
+		"type": "Rival",
+		"description": "Gasch N’doss is a gaunt Rutian Twi’lek with faded, ashen-blue skin. He has been a slave since he was a teenage boy, so he can barely remember what it means to be free. N’doss has been abused both verbally and physically his entire adult life, desensitising him to threats. He has fielded lie after lie from his Zygerrian enslavers, making him cynical and sceptical. The aged Twi’lek is, however, a plain and practical character who is unapologetic about getting what is best for his fellow slaves.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 11
+		},
+		"skills": {
+			"Cool": 1,
+			"Perception": 2,
+			"Resilience": 3,
+			"Survival": 1
+		},
+		"abilities": ["Desert Dweller"],
+		"tags": ["adventure:Friends Like These", "book:flt", "location:Kowak", "location:Sclavos", "species:Twi’lek"]
+	},
+	{
+		"name": "Captain Ralchio Nervi",
+		"type": "Nemesis",
+		"description": "Born Ralchio Sargan out of an affair between Vilola Sargan and Jans Coorsa, Ralchio grew up knowing his true parentage, but forbidden from discussing it. Still, he felt entitled to both Jans Coorsa’s position as cacique and to the strange, almost mystical techniques Jans had used to combat the Republic and later the Empire on Gall. Ralchio fought alongside Jans, but he always felt his birth father treated him worse than the Imperials ever did. Eventually, he was driven to extremes by the emotional distress, and he confronted his father, demanding to know his secrets. When Jans refused, Ralchio gave in to rage and blacked out. When he woke, Jans was dead, despite the lack of any sign of external damage.\n\nRalchio fled. He decided to join the Empire, convinced his family would never think to look for him there. Before joining, he married Lila Nervi, a member of the influential Nervi family. Ralchio cautiously explored his connection to the Force, but went to extremes to hide his powers for fear of Imperial discovery. His paranoia convinced him an Imperial assault on Xorrn could expose him not just as an associate of traitors to the Empire, but as a Force user. Eventually, he knew the only way to protect his secrets would be to launch an attack on Xorrn himself and destroy any evidence.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"strain": 14
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 2,
+			"Discipline": 2,
+			"Knowledge: Education": 2,
+			"Knowledge: Warfare": 4,
+			"Leadership": 3
+		},
+		"talents": ["Adversary 2", "Force Rating 2"],
+		"abilities": [
+			"Darkside Force User", "Imperial Valour",
+			{
+				"name": "Unnatural Luck",
+				"description": "Twice per session, can roll :force::force: after an NPC or PC makes a check for an activity that occurs within line of sight, but before the check is resolved; may spend :darkside: to remove :advantage: or add :threat:, or :darkside::darkside: to remove :success: or add :failure:."
+			}
+		],
+		"gear": ["Comlink", "Datapad", "Holo-projector"],
+		"tags": ["adventure:Friends Like These", "book:flt", "location:Xorrn", "empire", "imperial military"]
+	},
+	{
+		"name": "Agent Nath Alico",
+		"type": "Nemesis",
+		"description": "Operation Ruby Audit was a Rebel Alliance deep-cover mission in which an undercover agent operated for months as Imperial Navy Lieutenant Nath Alico. The Nath Alico cover identity has been serving as Captain Nervi’s adjutant, with access to Imperial Navy classified data as well as fleet movements. It is only because of agent Alico’s quick thinking that Foundry Four has an opportunity to reclaim the secrecy of its location.\n\nThe agent has assumed several different cover identities during her time with Alliance Intelligence, though often low-level Imperial officers and functionaries. She is meticulous and prepares for almost every contingency far in advance.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 12
+		},
+		"skills": {
+			"Brawl": 3,
+			"Charm": 2,
+			"Computers": 2,
+			"Deception": 3,
+			"Knowledge: Warfare": 3,
+			"Ranged: Light": 2,
+			"Skulduggery": 2,
+			"Stealth": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Convincing Demeanor 2", "Indistinguishable 2", "Natural Charmer", "Kill with Kindness 2"],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Astromech droid", "Black-ops data breaker", "Comlink", "Datapad", "Electronic lock breaker"],
+		"tags": ["adventure:Friends Like These", "book:flt", "imperial military", "double-agent", "rebel alliance"]
+	},
+	{
+		"name": "Lt. Colonel Hovlinn",
+		"type": "Rival",
+		"description": "When the battle moves to Xorrn’s surface, Captain Nervi leaves the details of approach to the management of Erle Hovlinn",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15
+		},
+		"skills": {
+			"Discipline": 3,
+			"Knowledge (Warfare)": 2,
+			"Leadership": 2,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Tactical Direction", "Overwhelming Fire"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Officer uniform (+1 Soak)", "Comlink"],
+		"tags": ["empire", "imperial military", "book:flt", "adventure:Friends Like These"]
 	}
 ]

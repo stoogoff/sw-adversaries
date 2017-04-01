@@ -196,10 +196,10 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 1"],
-		"abilities": ["Tactical Direction"],
+		"abilities": ["Tactical Direction", "Overwhelming Fire"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Officer uniform (+1 Soak)", "Long range comlink"],
-		"tags": ["empire", "imperial military", "book:aor"]
+		"tags": ["empire", "imperial military", "book:aor", "book:flt", "adventure:Friends Like These"]
 	},
 	{
 		"name": "Imperial Navy Trooper",
@@ -619,7 +619,7 @@
 			}
 		],
 		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 Soak)", "2 Frag grenades"],
-		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad", "adventure:Rescue at Glare Peak"]
+		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad", "adventure:Rescue at Glare Peak", "adventure:Friends Like These"]
 	},
 	{
 		"name": "Stormtrooper Sergeant",

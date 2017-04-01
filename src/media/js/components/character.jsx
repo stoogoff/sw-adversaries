@@ -7,6 +7,7 @@ import TextPanel from "./text-panel";
 import WeaponsPanel from "./weapons-panel";
 import TalentPanel from "./talent-panel";
 import TagPanel from "./tag-panel";
+import { symbolise } from "../lib/utils";
 
 export default class Character extends React.Component {
 	constructor(props) {
@@ -59,7 +60,7 @@ export default class Character extends React.Component {
 			<h1>{ icon } { character.name }</h1>
 			<h2 className={ "subtitle " + character.type.toLowerCase() }>{ character.type }</h2>
 			<TextPanel text={ character.description } />
-			{ character.notes ? <div className="text" dangerouslySetInnerHTML={ { __html: this.md.render(`*${character.notes}*`) } }></div> : null }
+			{ character.notes ? <div className="text" dangerouslySetInnerHTML={ symbolise(this.md.render(`*${character.notes}*`)) }></div> : null }
 			<div className="column small">
 				<div className="stats" id="characteristics">
 					{ characteristics.map(c => {
