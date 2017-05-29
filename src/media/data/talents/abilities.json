@@ -104,6 +104,10 @@
 		"description": "When in jungle environments, add :boost::boost: to all Stealth checks."
 	},
 	{
+		"name": "Changeling",
+		"description": "As an action may suffer 3 Strain and make an :average: Resilience check. If successful may change appearance to that of any observed Silhoutte 1 character. An observing character must make an opposed Perception vs. Deception check to detect that something is amiss."
+	},
+	{
 		"name": "Cloak",
 		"description": "Add :setback::setback::setback: to all checks made to spot or track the maalraa [this can include Vigilance checks made for Initiative if the maalraa ambushes a character). Force-sensitive characters ignore this ability."
 	},
@@ -506,6 +510,10 @@
 	{
 		"name": "Regeneration",
 		"description": "When recovering from wounds via natural rest or in a bacta trank, recover 1 additional wound; first-aid, medical treatment, and stimpacks do not result in recovery from an additional wound; Trandoshans can regrow lost limbs, though it usually takes at least a month before such limbs are usable."
+	},
+	{
+		"name": "Resilient Metabolism",
+		"description": "Add :success: to any Resilience checks."
 	},
 	{
 		"name": "Restraint",

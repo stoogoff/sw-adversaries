@@ -51,8 +51,8 @@
 			"qualities": ["Breach 1", "Sunder", "Vicious 2", "Linked 1", "Unwieldy 3"]
 		}
 		],
-		"gear": ["Superior Jedi Temple Guard Armour (+2 Soak, +2 Defence, remove :setback: from darkness or similar environmental effects, built-in comlink)"],
-		"tags": ["empire", "inquisitor", "force sensitive", "jedi", "darkside"],
+		"gear": ["Superior Jedi temple guard armour (+2 Soak, +2 Defence, remove :setback: from darkness or similar environmental effects, built-in comlink)"],
+		"tags": ["empire", "inquisitor", "force sensitive", "jedi", "darkside", "Hunter of Relle"],
 		"devOnly": true
 	},
 	{
@@ -74,7 +74,7 @@
 			"defence": [1, 1]
 		},
 		"skills": ["Athletics", "Discipline", "Melee", "Ranged: Heavy", "Coercion"],
-		"talents": ["Loom"],
+		"talents": ["Loom", "Fearsome 2"],
 		"weapons": ["Heavy blaster rifle", "Vibroknife", "Frag grenade", "Thermal detonator"],
 		"gear": ["Utility belt", "Extra reloads", "Death trooper armour (+2 Soak, +1 Defence, remove :setback: from darkness or similar environmental effects, built-in encrypted comlink)", "3 Frag grenades", "1 Thermal detonator"],
 		"tags": ["empire", "imperial military", "stormtrooper"]
@@ -108,10 +108,233 @@
 			"Resilience": 2,
 			"Vigilance": 2
 		},
-		"talents": ["Adversary 1", "Loom"],
+		"talents": ["Adversary 1", "Loom", "Fearsome 3"],
 		"abilities": ["Tactical Direction"],
 		"weapons": ["Heavy blaster rifle", "Vibroknife", "Frag grenade", "Thermal detonator"],
 		"gear": ["Utility belt", "Extra reloads", "Death trooper armour (+2 Soak, +1 Defence, remove :setback: from darkness or similar environmental effects, built-in encrypted comlink)", "3 Frag grenades", "1 Thermal detonator"],
 		"tags": ["empire", "imperial military", "stormtrooper"]
+	},
+	{
+		"name": "Vinon Scorne",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 24,
+			"strain": 23,
+			"defence": [2, 2]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Cool": 2,
+			"Coordination": 3,
+			"Deception": 3,
+			"Discipline": 1,
+			"Knowledge: Core Worlds": 2,
+			"Knowledge: Education": 2,
+			"Knowledge: Lore": 2,
+			"Knowledge: Outer Rim": 2,
+			"Knowledge: Underworld": 2,
+			"Knowledge: Warfare": 2,
+			"Knowledge: Xenology": 2,
+			"Lightsaber": 3,
+			"Medicine": 1,
+			"Stealth": 4,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 3", "Reflect 4", "Parry 4", "Circle of Shelter"],
+		"abilities": [
+			"Resilient Metabolism",
+			"Force power: Move",
+			"Force power: Enhance",
+			"Force Rating 3",
+			{
+				"name": "Force power: Seek",
+				"description": ":lightside::lightside:: Gain insight into the general location or direction of a person or object; :lightside:: Succeed at an :average: Vigilance check to see through illusions."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Lightsaber",
+				"skill": "Lightsaber",
+				"damage": 7,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder", "Defensive 1", "Deflection 1"]
+			}
+		],
+		"gear": ["Ancient Jedi battle armour (+2 Soak, +1 Defence)"],
+		"tags": ["force sensitive", "adventure:Visiting Athiss", "species:Devaronian"],
+		"devOnly": true
+	},
+	{
+		"name": "Am Vida",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10
+		},
+		"skills": {
+			"Computers": 2,
+			"Cool": 1,
+			"Deception": 2,
+			"Mechanics": 3,
+			"Medicine": 2,
+			"Perception": 1,
+			"Stealth": 3,
+			"Ranged: Light": 3,
+			"Knowledge: Core Worlds": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [
+			"Force Rating 2",
+			{
+				"name": "Force power: Sense",
+				"description": ":lightside:: Sense all living beings within Short range; :lightside:: Sense the emotional state of one living target at Engaged range."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Custom blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting", "Pierce 2"],
+				"notes": "Add :setback: to all rolls."
+			}		
+		],
+		"gear": ["Heavy clothing (+1 Soak)", "Datapad", "Medkit (add :boost: to all Medicine checks)"],
+		"tags": ["force sensitive", "adventure:Visiting Athiss"],
+		"devOnly": true
+	},
+	{
+		"name": "Biala Vale",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14
+		},
+		"skills": {
+			"Cool": 1,
+			"Perception": 2,
+			"Stealth": 2,
+			"Survival": 3,
+			"Ranged: Heavy": 3,
+			"Resilience": 1,
+			"Knowledge: Lore": 1,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 2", "Outdoorsman 2", "Stalker 2"],
+		"abilities": ["Resilient Metabolism"],
+		"weapons": [
+			{
+				"name": "Custom blaster rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Extreme",
+				"qualities": ["Stun Setting", "Accurate 1", "Cumbersome 2", "Sniper Shot"]
+			}		
+		],
+		"gear": ["Heavy clothing (+1 Soak)", "Survival gear (add :boost: to all Survival checks)", "Extra reloads"],
+		"tags": ["civilian", "adventure:Visiting Athiss", "species:Devaronian"],
+		"devOnly": true
+	},
+	{
+		"name": "Echiella",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 5,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 22,
+			"strain": 23,
+			"defence": [2, 2]
+		},
+		"skills": {
+
+			"Charm": 3,
+			"Coercion": 2,
+			"Cool": 2,
+			"Deception": 4,
+			"Discipline": 4,
+			"Mechanics": 1,
+			"Negotiation": 1,
+			"Perception": 1,
+			"Ranged: Light": 1,
+			"Resilience": 3,
+			"Lightsaber": 3,
+			"Vigilance": 1,
+			"Knowledge: Core Worlds": 2,
+			"Knowledge: Education": 2,
+			"Knowledge: Lore": 2,
+			"Knowledge: Outer Rim": 2,
+			"Knowledge: Underworld": 2,
+			"Knowledge: Warfare": 2,
+			"Knowledge: Xenology": 2
+		},
+		"talents": ["Adversary 3", "Parry 4", "Improved Scathing Tirade", "The Force is My Ally"],
+		"abilities": [
+			"Changeling",
+			"Darkside Force User",
+			"Force Rating 3",
+			{
+				"name": "Force power: Influence",
+				"description": ":darkside:: inflict 2 Strain on target in Short range (may activate multiple times); :darkside:: succeed at an opposed Discipline vs. Discipline check to force one target within Short range to adopt an emotional state, or believe something even if it is untrue, for one round or five minutes; spend :darkside: to increase the duration by two rounds or ten minutes."
+			},
+			{
+				"name": "Force power: Misdirect",
+				"description": ":darkside:: make a target up to Short range unable to percieve a chosen person or object of Silhoutte 1 or smaller, or change the appearance of an object or person; :darkside: to affect additional targets equal to Presence; commit :force::force: to sustain this power while the beguiled targets are in range."
+			}
+		],
+		"weapons": [
+			"Holdout blaster",
+			{
+				"name": "Blood blade",
+				"skill": "Lightsaber",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Cortosis", "Pierce 3", "Vicious 3"]
+			}
+		],
+		"gear": ["Ancient Jedi battle armour (+2 Soak, +1 Defence)"],
+		"tags": ["force sensitive", "adventure:Visiting Athiss", "species:Clawdite", "Hunter of Relle", "darkside"],
+		"devOnly": true
 	}
 ]

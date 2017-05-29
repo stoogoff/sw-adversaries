@@ -165,7 +165,7 @@
 	},
 	{
 		"name": "Circle of Shelter",
-		"description": ""
+		"description": "When an engaged ally suffers a hit, may use Parry or Reflect incidental against the hit."
 	},
 	{
 		"name": "Clever Commander",
@@ -1241,7 +1241,7 @@
 	},
 	{
 		"name": "Improved Scathing Tirade",
-		"description": "As an action, may make an :average: Coercion check; each :success: inflicts 1 Strain on a target in Short range. Spend :advantage: to inflict 1 additional Strain on one affected target; all affected targets suffer :setback: to all checks for 4 rounds."
+		"description": "As an action, may make an :average: Coercion check; each :success: inflicts 1 Strain on a target in Short range. Spend :advantage: to inflict 1 additional Strain on one affected target; all affected targets suffer :setback: to all checks for a number of rounds equal to ranks in Coercion."
 	},
 	{
 		"name": "Scathing Tirade [Supreme]",
@@ -1516,8 +1516,8 @@
 		"description": ""
 	},
 	{
-		"name": "The Force is my Allay",
-		"description": ""
+		"name": "The Force is My Ally",
+		"description": "Once per session may suffer 2 Strain to perform one Force power as a maneuver."
 	},
 	{
 		"name": "Thorough Assesment",
