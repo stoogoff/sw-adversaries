@@ -370,7 +370,7 @@ h2.subtitle
 
 
 // MEDIA OVERRIDES
-@media screen and (min-width: $screen-small)
+@media print, screen and (min-width: $screen-small)
 	#characteristics
 		width: 25.3em
 
@@ -385,10 +385,7 @@ h2.subtitle
 			content: ""
 
 
-@media screen and (min-width: $screen-medium)
-	#characteristics
-		width: 50.5em
-
+@media print, screen and (min-width: $screen-medium)
 	.info h2
 		text-align: left
 
@@ -403,10 +400,8 @@ h2.subtitle
 
 	.stats
 		padding: 0
-
-	#characteristics
-		width: 100%
-		margin: 0 1em
+		width: 100% !important
+		margin: 0 1em !important
 
 
 @media screen and (min-width: $screen-large)
@@ -570,3 +565,36 @@ h2.subtitle
 
 		&:after
 			content: "Screen: xlarge"
+
+@media print
+	body, th, td
+		background-color: white
+		color: black
+		font-size: 0.8em
+
+	h1
+		position: static
+		background-color: transparent
+		margin-bottom: 0 !important
+		padding-bottom: 0
+		color: black
+
+		&:after
+			content: " (" attr(data-adversary-type) ")"
+
+	#navigation, #mobile-menu, #tabs, #show-all, #built-by, h2.subtitle, #debug, svg, th span span
+		display: none !important
+
+	.stats
+		h3
+			color: black !important
+
+		span
+			color: black
+			font-size: 2em
+
+	.column.small
+		margin-left: 0 !important
+
+	.info
+		page-break-inside: avoid

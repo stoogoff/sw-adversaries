@@ -57,7 +57,7 @@ export default class Character extends React.Component {
 		}
 
 		return <div className={ !this.props.visible ? "hidden" : null }>
-			<h1>{ icon } { character.name }</h1>
+			<h1 data-adversary-type={ character.type }>{ icon } { character.name }</h1>
 			<h2 className={ "subtitle " + character.type.toLowerCase() }>{ character.type }</h2>
 			<TextPanel text={ character.description } />
 			{ character.notes ? <div className="text" dangerouslySetInnerHTML={ symbolise(this.md.render(`*${character.notes}*`)) }></div> : null }

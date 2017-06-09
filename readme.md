@@ -69,20 +69,21 @@ Main tasks:
 	- source books
 		- Lords of Nal Hutta
 		- Strongholds of Resistance
-		- Suns of Fortune (there's a barabel enforcer with different weapon load out)
+		- **Suns of Fortune (there's a barabel enforcer with different weapon load out)**
 		- Nexus of Power
 	- career books
-		- Dangerous Covenants (no stats)
+		- `Dangerous Covenants (no stats)`
 		- Desparate Allies
 		- Endless Vigil
 		- Far Horizons
-		- Fly Casual (no stats)
+		- `Fly Casual (no stats)`
 		- Keeping the Peace
 		- Special Modifications
 		- Stay on Target
-		- Savage Spirits (incomplete)
+		- **Savage Spirits (incomplete)**
 	- adventure books
 		- Chronicles of the Gatekeeper
+		- Friends Like These
 		- Rescue at Glare Peak
 		- Under a Black Sun
 - Favourite adversaries
@@ -90,3 +91,6 @@ Main tasks:
 - Links between adversaries
 - Proper force pips rather than using the light side icon
 - Upgraded difficulties
+- Better tab handling:
+	- Labels (text and colour)
+	- Delete as part of the label
