@@ -68,6 +68,10 @@ export default class Collection extends Emitter {
 		return this;
 	}
 
+	findBy(property, value) {
+		return this.data.find(d => property in d && d[property] == value);
+	}
+
 	all() {
 		return this.data;
 	}

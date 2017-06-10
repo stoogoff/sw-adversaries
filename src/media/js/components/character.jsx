@@ -8,6 +8,8 @@ import WeaponsPanel from "./weapons-panel";
 import TalentPanel from "./talent-panel";
 import TagPanel from "./tag-panel";
 import { symbolise } from "../lib/utils";
+import dispatcher from "lib/dispatcher";
+import * as CONFIG from "lib/config";
 
 export default class Character extends React.Component {
 	constructor(props) {
@@ -28,6 +30,26 @@ export default class Character extends React.Component {
 		this.setState({
 			minions: minions
 		});
+	}
+
+	addFavourite(id) {
+		let character = this.props.character;
+
+		if(!character) {
+			return;
+		}
+
+		dispatcher.dispatch(CONFIG.FAVOURITE_ADD, character.id);
+	}
+
+	removeFavourite(id) {
+		let character = this.props.character;
+
+		if(!character) {
+			return;
+		}
+
+		dispatcher.dispatch(CONFIG.FAVOURITE_REMOVE, character.id);
 	}
 
 	render() {
@@ -56,9 +78,21 @@ export default class Character extends React.Component {
 			icon = <svg><use href="#galactic-empire"></use></svg>;
 		}
 
+		let fav = null;
+
+		if(character.favourite) {
+			fav = <svg onClick={ this.removeFavourite.bind(this) }><use href="#icon-star-full"></use></svg>;
+		}
+		else {
+			fav = <svg onClick={ this.addFavourite.bind(this) }><use href="#icon-star-empty"></use></svg>;
+		}
+
 		return <div className={ !this.props.visible ? "hidden" : null }>
 			<h1 data-adversary-type={ character.type }>{ icon } { character.name }</h1>
-			<h2 className={ "subtitle " + character.type.toLowerCase() }>{ character.type }</h2>
+			<h2 className="subtitle">
+				<span className={ character.type.toLowerCase() }>{ character.type }</span>
+				{ fav }
+			</h2>
 			<TextPanel text={ character.description } />
 			{ character.notes ? <div className="text" dangerouslySetInnerHTML={ symbolise(this.md.render(`*${character.notes}*`)) }></div> : null }
 			<div className="column small">

@@ -9,6 +9,7 @@ import Filter from "components/filter";
 import Loader from "components/loader";
 import Tabs from "components/tabs";
 import TagMenu from "components/tag-menu";
+import * as Store from "lib/local-store";
 import { sortByProperty } from "lib/utils";
 import * as CONFIG from "lib/config";
 
@@ -44,16 +45,23 @@ class App extends React.Component {
 			if(location.hash.length > 0) {
 				let id = location.hash.substring(1);
 
-				adversary = adversaries.find(a => a.id == id);
+				adversary = this.stores.adversaries.findBy("id", id);
 			}
 
 			if(!adversary) {
 				adversary = adversaries.sort(sortByProperty("name"))[0];
 			}
 
+			let favourites = Store.local.get(CONFIG.FAVOURITE_STORE) || [];
 			let tags = ["minion", "rival", "nemesis"];
 
 			adversaries.forEach(a => {
+				if(favourites.indexOf(a.id) != -1) {
+					a.favourite = true;
+
+					tags.push(CONFIG.FAVOURITE_KEY + a.name);
+				}
+
 				if(a.tags == null) {
 					a.tags = [];
 				}
@@ -79,7 +87,7 @@ class App extends React.Component {
 
 		// view object from menu
 		dispatcher.register(CONFIG.OBJECT_VIEW, id => {
-			this._updateState(this.stores.adversaries.all().find(a => a.id == id), null, null, null, false);
+			this._updateState(this.stores.adversaries.findBy("id", id), null, null, null, false);
 		});
 
 		// add another object to the view
@@ -125,6 +133,44 @@ class App extends React.Component {
 
 			this._updateState(adversaries.length == 1 ? adversaries[0] : null, adversaries);
 		});
+
+		// add and remove favourites
+		dispatcher.register(CONFIG.FAVOURITE_ADD, id => {
+			let favourites = Store.local.has(CONFIG.FAVOURITE_STORE) ? Store.local.get(CONFIG.FAVOURITE_STORE) : [];
+
+			if(favourites.indexOf(id) == -1) {
+				let adversary = this.stores.adversaries.findBy("id", id);
+
+				adversary.favourite = true;
+
+				let tags = this.state.tags;
+
+				tags.push(CONFIG.FAVOURITE_KEY + adversary.name);
+				favourites.push(id);
+
+				Store.local.set(CONFIG.FAVOURITE_STORE, favourites);
+				this._updateState(adversary, null, null, tags);
+			}
+		});
+		dispatcher.register(CONFIG.FAVOURITE_REMOVE, id => {
+			let favourites = Store.local.has(CONFIG.FAVOURITE_STORE) ? Store.local.get(CONFIG.FAVOURITE_STORE) : [];
+			let index = favourites.indexOf(id);
+
+			if(index != -1) {
+				favourites.splice(index, 1);
+
+				let adversary = this.stores.adversaries.findBy("id", id);
+
+				adversary.favourite = false;
+
+				let tags = this.state.tags;
+
+				tags.splice(tags.indexOf(CONFIG.FAVOURITE_KEY + adversary.name), 1);
+
+				Store.local.set(CONFIG.FAVOURITE_STORE, favourites);
+				this._updateState(adversary, null, null, tags);
+			}
+		});
 	}
 
 	toggleMenu() {
@@ -166,7 +212,7 @@ class App extends React.Component {
 
 	render() {
 		let x = this.state.list != null ? this.state.list.length : 0;
-		let y = this.stores.adversaries !=null ? this.stores.adversaries.all().length : 0;
+		let y = this.stores.adversaries != null ? this.stores.adversaries.all().length : 0;
 
 		return <div>
 			<div id="mobile-menu">

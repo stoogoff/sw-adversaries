@@ -1,9 +1,9 @@
 
-export let id = function id(input) {
+export const id = function id(input) {
 	return input.trim().replace(/[^a-z0-9\s]/gi, '').replace(/\s{1,}/g, "-").toLowerCase();
 }
 
-export let sortByProperty = function sortByProperty(prop) {
+export const sortByProperty = function sortByProperty(prop) {
 	return function sort(a, b) {
 		a = a[prop];
 		b = b[prop];
@@ -12,7 +12,7 @@ export let sortByProperty = function sortByProperty(prop) {
 	};
 };
 
-export let minionSkill = function(minions, skill, skills) {
+export const minionSkill = function(minions, skill, skills) {
 	let value = 0;
 	let skillsHash = {};
 
@@ -30,7 +30,7 @@ export let minionSkill = function(minions, skill, skills) {
 	return  Math.min(value, 5);
 }
 
-export let dice = function dice(stat, skill) {
+export const dice = function dice(stat, skill) {
 	let total = Math.max(stat, skill);
 	let upgrade = Math.min(stat, skill);
 	let symbols = [];
@@ -46,7 +46,7 @@ export let dice = function dice(stat, skill) {
 	return { __html: symbols.join("") };
 }
 
-export let symbolise = function symbolise(text) {
+export const symbolise = function symbolise(text) {
 	Object.keys(diceMap).forEach(k => {
 		let reg = new RegExp(`:${k}:`, "g");
 
@@ -86,7 +86,7 @@ let diceMap = {
 	"formidable": "<strong>Formidable</strong> (<span class='icon difficulty shadowed'>ddddd</span>)",
 };
 
-export let book = function book(name) {
+export const book = function book(name) {
 	return name in bookMap ? bookMap[name] : name;
 }
 

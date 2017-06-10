@@ -2,7 +2,7 @@
 import React from "react";
 import dispatcher from "lib/dispatcher";
 import * as CONFIG from "lib/config";
-import { sortByProperty, book } from "lib/utils";
+import { sortByProperty, book, id } from "lib/utils";
 
 function titlecase(s) {
 	return s[0].toUpperCase() + s.substring(1).toLowerCase();
@@ -19,34 +19,32 @@ export default class TagMenu extends React.Component {
 		};
 	}
 
-	componentWillUpdate(nextProps, nextState) {
-		if(nextProps.tags.length != this.props.tags.length) {
-			let tags = nextProps.tags;
+	componentWillReceiveProps(nextProps) {
+		this.menu = {};
 
-			tags.forEach(tag => {
-				let type = "tag";
-				let text = tag;
+		nextProps.tags.forEach(tag => {
+			let type = "tag";
+			let text = tag;
 
-				if(tag.indexOf(":") != -1) {
-					[type, text] = tag.split(":");
+			if(tag.indexOf(":") != -1) {
+				[type, text] = tag.split(":");
 
-					if(type == "book") {
-						text = book(tag);
-					}
+				if(type == "book") {
+					text = book(tag);
 				}
+			}
 
-				if(!(type in this.menu)) {
-					this.menu[type] = [];
-				}				
+			if(!(type in this.menu)) {
+				this.menu[type] = [];
+			}				
 
-				this.menu[type].push({
-					text: text,
-					tag: tag
-				});
+			this.menu[type].push({
+				text: text,
+				tag: tag
 			});
+		});
 
-			Object.keys(this.menu).forEach(m => this.menu[m].sort(sortByProperty("text")));
-		}
+		Object.keys(this.menu).forEach(m => this.menu[m].sort(sortByProperty("text")));
 	}
 
 	componentDidMount() {
@@ -62,7 +60,14 @@ export default class TagMenu extends React.Component {
 	}
 
 	handler(evt) {
-		dispatcher.dispatch(CONFIG.MENU_FILTER, evt.target.getAttribute("data-href").toLowerCase());
+		let tag = evt.target.getAttribute("data-href");
+
+		if(tag.startsWith(CONFIG.FAVOURITE_KEY)) {
+			dispatcher.dispatch(CONFIG.OBJECT_VIEW, id(tag.replace(CONFIG.FAVOURITE_KEY, "")));
+		}
+		else {
+			dispatcher.dispatch(CONFIG.MENU_FILTER, tag.toLowerCase());
+		}
 
 		this.setState({
 			active: null
