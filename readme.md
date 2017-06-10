@@ -72,11 +72,11 @@ Main tasks:
 		- **Suns of Fortune (there's a barabel enforcer with different weapon load out)**
 		- Nexus of Power
 	- career books
-		- `Dangerous Covenants (no stats)`
+		- *Dangerous Covenants (no stats)*
 		- Desparate Allies
 		- Endless Vigil
 		- Far Horizons
-		- `Fly Casual (no stats)`
+		- *Fly Casual (no stats)*
 		- Keeping the Peace
 		- Special Modifications
 		- Stay on Target
@@ -91,6 +91,7 @@ Main tasks:
 - Links between adversaries
 - Proper force pips rather than using the light side icon
 - Upgraded difficulties
+- Print multiple tabs
 - Better tab handling:
 	- Labels (text and colour)
 	- Delete as part of the label
