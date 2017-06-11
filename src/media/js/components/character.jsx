@@ -81,7 +81,7 @@ export default class Character extends React.Component {
 		let fav = null;
 
 		if(character.favourite) {
-			fav = <svg onClick={ this.removeFavourite.bind(this) }><use href="#icon-star-full"></use></svg>;
+			fav = <svg className="star-filled outline" onClick={ this.removeFavourite.bind(this) }><use href="#icon-star-full"></use></svg>;
 		}
 		else {
 			fav = <svg onClick={ this.addFavourite.bind(this) }><use href="#icon-star-empty"></use></svg>;

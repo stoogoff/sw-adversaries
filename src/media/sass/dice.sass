@@ -18,13 +18,13 @@
 
 
 .ability
-	color: rgb(97,138,74) // green
+	color: map-get($dice, "ability")
 
 	&:after
 		content: "D"
 
 .proficiency
-	color: rgb(255,247,98) // yellow
+	color: map-get($dice, "proficiency")
 
 	&:after
 		content: "C"
@@ -34,19 +34,19 @@
 	
 
 .boost
-	color: rgb(175,196,216) // blue
+	color: map-get($dice, "boost")
 
 	&:after
 		content: "B"
 
 .challenge
-	color: rgb(215,53,53) // red
+	color: map-get($dice, "challenge")
 
 	&:after
 		content: "C"
 
 .difficulty
-	color: rgb(68,48,83) // purple
+	color: map-get($dice, "difficulty")
 
 .force
 	color: white

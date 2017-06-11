@@ -21,9 +21,17 @@ export default class LinkList extends React.Component {
 		return <ul id="adversaries">
 			{ list.sort(sortByProperty("name")).map(l => {
 				let isSelected = l.id == (this.props.selected || "");
+				let icon = null;
+
+				if(l.favourite) {
+					icon = <svg className="outline star-filled"><use href="#icon-star-full"></use></svg>;
+				}
+				else if(isSelected) {
+					icon = <svg><use href="#icon-circle-right"></use></svg>;
+				}
 
 				return <li key={ l.id } className={ isSelected ? "selected": "" }>
-					<span className="link" onClick={ this.handler.bind(this) } data-target={ l.id }>{ isSelected ? <svg><use href="#icon-circle-right"></use></svg> : null } { l.name }</span>
+					<span className="link" onClick={ this.handler.bind(this) } data-target={ l.id }>{ icon } { l.name }</span>
 				</li>
 			}) }
 		</ul>;

@@ -7,4 +7,5 @@ export const TAB_REMOVE = "tab-remove";
 export const FAVOURITE_ADD = "fav-add";
 export const FAVOURITE_REMOVE = "fav-remove";
 export const FAVOURITE_STORE = "swa-favourites";
-export const FAVOURITE_KEY = "favourite:";
+export const FAVOURITE_KEY = "starred:";
+export const FAVOURITE_TAG = "starred";

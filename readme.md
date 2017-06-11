@@ -86,7 +86,6 @@ Main tasks:
 		- Friends Like These
 		- Rescue at Glare Peak
 		- Under a Black Sun
-- Favourite adversaries
 - Favicon
 - Links between adversaries
 - Proper force pips rather than using the light side icon

@@ -58,6 +58,7 @@ class App extends React.Component {
 			adversaries.forEach(a => {
 				if(favourites.indexOf(a.id) != -1) {
 					a.favourite = true;
+					a.tags.push(CONFIG.FAVOURITE_TAG);
 
 					tags.push(CONFIG.FAVOURITE_KEY + a.name);
 				}
@@ -142,6 +143,7 @@ class App extends React.Component {
 				let adversary = this.stores.adversaries.findBy("id", id);
 
 				adversary.favourite = true;
+				adversary.tags.push(CONFIG.FAVOURITE_TAG);
 
 				let tags = this.state.tags;
 
@@ -162,6 +164,7 @@ class App extends React.Component {
 				let adversary = this.stores.adversaries.findBy("id", id);
 
 				adversary.favourite = false;
+				adversary.tags.splice(adversary.tags.indexOf(CONFIG.FAVOURITE_TAG), 1);
 
 				let tags = this.state.tags;
 
