@@ -34,7 +34,7 @@
 			"Knowledge: Xenology": 2,
 			"Leadership": 2,
 			"Lightsaber (Willpower)": 4,
-			"Melee": 2,
+			"Melee": 3,
 			"Perception": 2,
 			"Survival": 3,
 			"Vigilance": 3
@@ -42,14 +42,22 @@
 		"talents": ["Adversary 3", "Reflect 4", "Parry 4", "Draw Closer", "Niman Technique"],
 		"abilities": ["Force power: Harm (Upgrade)", "Aura of Command", "Darkside Force User", "Force Rating 3"],
 		"weapons": [
-		{
-			"name": "Double-bladed lightsaber",
-			"skill": "Lightsaber (Willpower)",
-			"damage": 10,
-			"critical": 1,
-			"range": "Engaged",
-			"qualities": ["Breach 1", "Sunder", "Vicious 2", "Linked 1", "Unwieldy 3"]
-		}
+			{
+				"name": "Double-bladed lightsaber",
+				"skill": "Lightsaber (Willpower)",
+				"damage": 10,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder", "Vicious 2", "Linked 1", "Unwieldy 3"]
+			},
+			{
+				"name": "Modded cortosis staff",
+				"skill": "Melee",
+				"damage": 8,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Cortosis", "Defensive 1"]
+			}
 		],
 		"gear": ["Superior Jedi temple guard armour (+2 Soak, +2 Defence, remove :setback: from darkness or similar environmental effects, built-in comlink)"],
 		"tags": ["empire", "inquisitor", "force sensitive", "jedi", "darkside", "Hunter of Relle"],

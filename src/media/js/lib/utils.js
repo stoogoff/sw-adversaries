@@ -3,6 +3,18 @@ export const id = function id(input) {
 	return input.trim().replace(/[^a-z0-9\s]/gi, '').replace(/\s{1,}/g, "-").toLowerCase();
 }
 
+export const parent = function parent(node, parent) {
+	parent = parent.toLowerCase();
+
+	while((node = node.parentNode) != null) {
+		if(node.nodeName.toLowerCase() === parent) {
+			return node;
+		}
+	}
+
+	return null;
+}
+
 export const sortByProperty = function sortByProperty(prop) {
 	return function sort(a, b) {
 		a = a[prop];

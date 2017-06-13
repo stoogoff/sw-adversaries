@@ -100,24 +100,26 @@ class App extends React.Component {
 		});
 
 		// remove the first non-active tab from the right hand side
-		dispatcher.register(CONFIG.TAB_REMOVE, () => {
-			for(let i = this.state.selected.length - 1; i >= 0; --i) {
-				if(i != this.state.selectedIndex) {
-					this.state.selected.splice(i, 1);
-
-					if(i < this.state.selectedIndex) {
-						--this.state.selectedIndex;
-					}
-
-					this._updateState();
-
-					break;
-				}
+		dispatcher.register(CONFIG.TAB_REMOVE, index => {
+			if(index < 0 || this.state.selected.length <= 1) {
+				return;
 			}
+
+			this.state.selected.splice(index, 1);
+
+			if(this.state.selectedIndex > this.state.selected.length - 1) {
+				--this.state.selectedIndex;
+			}
+
+			this._updateState();
 		});
 
 		// change to a new tab
 		dispatcher.register(CONFIG.TAB_CHANGE, index => {
+			if(index < 0) {
+				return;
+			}
+
 			this.state.selectedIndex = index;
 			this._updateState();
 		});
