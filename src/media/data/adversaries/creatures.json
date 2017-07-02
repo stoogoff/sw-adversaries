@@ -2144,5 +2144,55 @@
 			}
 		],
 		"tags": ["creature", "book:fad"]
+	},
+	{
+		"name": "Nexu",
+		"type": "Rival",
+		"description": "Nexu possess a fearsome appearance, with a huge, toothy maw, four beady eyes, and massive, claw-tipped paws, all backed up by a pair of barbed tail spikes. What's more, nexu are fully as lethal as their natural armament would suggest, and possess a temperament and instinctive cunning that make them even more greater threats. Although naturally stealthy and elusive, nexu do not lack for ferocity or mettle in a direct fight, and they rarely back down in the face of any threat they encounter. Even when faced with a more ferocious predator, nexu are more likely to attempt to melt away into the underbrush and attack again using stealth to gain an advantage than to simply flee their hunting grounds.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 20
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 1,
+			"Cool": 2,
+			"Stealth": 2,
+			"Vigilance": 3
+		},
+		"abilities": ["Fierce Pounce"],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged"
+			},
+			{
+				"name": "bite",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1", "Pierce 1"]
+			},
+			{
+				"name": "tail whip",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged"
+			}
+		],
+		"tags": ["creature", "book:fad"]
 	}
 ]
