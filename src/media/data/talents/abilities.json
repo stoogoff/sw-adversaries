@@ -692,6 +692,10 @@
 		"description": "Deal +1 damage with Brawl and Melee attacks when suffering any Wounds. When suffering a Critical Injury, deal +2 damage with Brawl and Melee attacks instead."
 	},
 	{
+		"name": "Technical Master",
+		"description": "all subordinates within medium range add one :boost: die to all Mechanics checks."
+	},
+	{
 		"name": "Mountain Nikto",
 		"description": "Add 1 rank in Survival and the Natural Outdoorsman talent (once per game session, a Mountain Nikto may reroll any one Resilience or Survival check)."
 	},

@@ -1,0 +1,149 @@
+[
+	{
+		"name": "Reom",
+		"type": "Nemesis",
+		"description": "Reom is a blue-skinned Twi'lek male who uses his supremely average, nondescript appearance to blend in perfectly with any starport crowd. He camouflages himself with dark grey cloaks and jumpsuits which are common in most of the stations and cultures he visits. Reom is president of IsoTech. He is a talented smuggler, crafty enterpreneur, and superb negotiator. He has contacts throughout the galaxy, including powerful figures in the underworld. Reom handles IsoTech's Outer Rim operations, particularly new acquisitions and allies.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13,
+			"strain": 13,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Astrogation": 1,
+			"Charm": 2,
+			"Coercion": 4,
+			"Cool": 2,
+			"Deception": 2,
+			"Discipline": 3,
+			"Knowledge: Underworld": 2,
+			"Mechanics": 5,
+			"Medicine": 1,
+			"Melee": 2,
+			"Negotiation": 3,
+			"Piloting: Space": 2,
+			"Ranged: Light": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Convincing Demeanor 2", "Gearhead 2", "Nobody's Fool 1"],
+		"abilities": ["Technical Master"],
+		"weapons": ["Heavy Blaster Pistol",
+			{
+				"name": "vibroknife",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 1"]
+			}
+		],
+		"gear": ["heavy clothing (+1 Soak)", "datapad", "utility belt", "tool kit", "Pet bogwing 'Mordekai'"],
+		"tags": ["underworld", "species:Twi'lek", "assassin", "book:btr"]
+	},
+	{
+		"name": "ISB Agent",
+		"type": "Rival",
+		"description": "The book provides no description.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Coercion": 1,
+			"Deception": 1,
+			"Discipline": 1,
+			"Melee": 1,
+			"Ranged: Light": 3,
+			"Streetwise": 1,
+			"Vigilance": 1
+		},
+		"weapons": [
+			{
+				"name": "TT24 Holdout Blaster",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			}
+		],
+		"gear": ["Comlink"],
+		"tags": ["book:btr", "empire", "imperial security bureau", "rival"]
+	},
+	{
+		"name": "ISB Supervisor Cal Alsen",
+		"type": "Rival",
+				"description": "The book provides no description.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 16
+		},
+		"skills": {
+			"Charm": 1,
+			"Coercion": 2,
+			"Deception": 2,
+			"Ranged: Light": 2,
+			"Streetwise": 1,
+			"Vigilance": 2
+		},
+		"weapons": [
+			{
+				"name": "TT24 Holdout Blaster",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			}
+		],
+		"gear": ["hand scanner", "comlink", "heavy trench coat (+1 soak)"],
+		"tags": ["book:btr", "empire", "imperial security bureau", "rival"]
+	},
+	{
+		"name": "Wed Treadwell Repair Droid",
+		"type": "Rival",
+		"description": "The book provides no description.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 3
+		},
+		"skills": {
+			"Computers": 1,
+			"Mechanics": 1
+		},
+		"gear": ["Auxiliary mechanics' equipment"],
+		"tags": ["book:btr", "empire", "rival"]
+	}
+]
