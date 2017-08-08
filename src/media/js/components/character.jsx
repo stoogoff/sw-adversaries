@@ -28,9 +28,9 @@ export default class Character extends React.Component {
 		if(minions <= 1) {
 			minions = 1;
 			this.setState({
-				currentWounds: 0
+				currentWounds: 0,
+				aliveMinions: 0
 			});
-			this.setAliveMinions(1, 0);
 		} else {
 			this.setAliveMinions(minions, this.state.currentWounds);
 			}
