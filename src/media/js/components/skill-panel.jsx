@@ -28,15 +28,15 @@ export default class SkillPanel extends React.Component {
 	}
 
 	increaseMinions() {
-		this.props.setMinions(this.props.minions + 1);
+		this.props.setMinions(this.props.minions + 1, false);
 	}
 
 	decreaseMinions() {
-		this.props.setMinions(this.props.minions - 1);
+		this.props.setMinions(this.props.minions - 1, false);
 	}
 
 	resetMinions() {
-		this.props.setMinions(1);
+		this.props.setMinions(1, true);
 	}
 
 	render() {
@@ -66,9 +66,7 @@ export default class SkillPanel extends React.Component {
 				let value = characterSkills[skill.name] || 0;
 
 				if(character.type == "Minion") {
-					let aliveMinions = this.props.minions;
-					if (this.props.currentWounds > 0) aliveMinions = this.props.minions - Math.floor((this.props.currentWounds-1)/character.derived.wounds)
-					value = minionSkill(aliveMinions, skill.name, characterSkills);
+					value = minionSkill(this.props.aliveMinions, skill.name, characterSkills);
 				}
 
 				skills.push({

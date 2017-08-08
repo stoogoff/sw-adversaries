@@ -17,19 +17,38 @@ export default class Character extends React.Component {
 
 		this.state = {
 			minions: 1,
-			currentWounds: 0
+			currentWounds: 0,
+			aliveMinions: 1,
 		};
 
 		this.md = new Remarkable();
 	}
 
 	setMinions(minions) {
-		if(minions < 1) {
+		if(minions <= 1) {
 			minions = 1;
-		}
+			this.setState({
+				currentWounds: 0
+			});
+			this.setAliveMinions(1, 0);
+		} else {
+			this.setAliveMinions(minions, this.state.currentWounds);
+			}
 
 		this.setState({
 			minions: minions
+		});
+
+	}
+
+	setAliveMinions(minions, currentWounds) {
+		let character = this.props.character;
+
+		let aliveMinions = minions;
+		if (currentWounds > 0) aliveMinions = minions - Math.floor((currentWounds-1)/character.derived.wounds)
+
+		this.setState({
+			aliveMinions: aliveMinions
 		});
 	}
 
@@ -38,6 +57,7 @@ export default class Character extends React.Component {
 		this.setState({
 			currentWounds: Number(this.refs.currentWounds.value)
 		});
+		this.setAliveMinions(this.state.minions, this.refs.currentWounds.value);
 		this.refs.currentWounds.blur();
 		this.refs.currentWounds.value = '';
 	}
@@ -129,8 +149,8 @@ export default class Character extends React.Component {
 				</div>
 			</div>
 			<div className="column large">
-				<SkillPanel character={ character } skills={ this.props.skills } currentWounds={ this.state.currentWounds } minions={ this.state.minions } setMinions={ this.setMinions.bind(this) } />
-				<WeaponsPanel title="Weapons" character={ character } skills={ this.props.skills } weapons={ this.props.weapons } qualities={ this.props.qualities } talents={ this.props.talents } currentWounds={ this.state.currentWounds } minions={ this.state.minions } />
+				<SkillPanel character={ character } skills={ this.props.skills } aliveMinions={ this.state.aliveMinions } minions={ this.state.minions } setMinions={ this.setMinions.bind(this) } />
+				<WeaponsPanel title="Weapons" character={ character } skills={ this.props.skills } weapons={ this.props.weapons } qualities={ this.props.qualities } talents={ this.props.talents } aliveMinions={ this.state.aliveMinions } minions={ this.state.minions } />
 				<TalentPanel title="Talents" data={ character.talents } talents={ this.props.talents } />
 				<TalentPanel title="Abilities" data={ character.abilities } talents={ this.props.talents } />
 				<InfoPanel title="Gear" data={ character.gear } />
