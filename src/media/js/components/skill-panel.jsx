@@ -28,15 +28,15 @@ export default class SkillPanel extends React.Component {
 	}
 
 	increaseMinions() {
-		this.props.setMinions(this.props.minions + 1, false);
+		this.props.setMinions(this.props.minions + 1);
 	}
 
 	decreaseMinions() {
-		this.props.setMinions(this.props.minions - 1, false);
+		this.props.setMinions(this.props.minions - 1);
 	}
 
 	resetMinions() {
-		this.props.setMinions(1, true);
+		this.props.setMinions(1);
 	}
 
 	render() {
