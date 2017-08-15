@@ -1189,7 +1189,7 @@
 				"qualities": ["Ensnare 2"]
 			}
 		],
-		"tags": ["creature", "book:fad"]
+		"tags": ["creature", "book:fad", "force sensitive"]
 	},
 	{
 		"name": "Mamien",
@@ -2083,7 +2083,7 @@
 				"qualities": ["Vicious 2"]
 			}
 		],
-		"tags": ["creature", "book:fad"]
+		"tags": ["creature", "book:fad", "force sensitive"]
 	},
 	{
 		"name": "Vrblther",

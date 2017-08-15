@@ -325,7 +325,7 @@
 	{
 		"name": "Snowfeather",
 		"type": "Minion",
-		"description": "Snowfeathers are small, clever, flightless birds native to Ilum. Their bodies are covered in a dense layer of oily, white feath­ers that protects them from Ilum’s bone-chilling cold and vicious weather. Relatively harmless creatures, they live in nesting colonies built into ice shelves or cliff faces.\n\nDespite their inoffensive nature and inability to fly, snowfeathers have few natural predators, for two reasons. First, their meat tastes terrible and is m ildly poisonous, causing painful cramps, bloating, and loosening of the bowels in those unfortunate enough to eat them. Second, they have a connection to the Force that gives them the ability to project an illusion that makes them seem larger and more formidable than they really are. These charac­teristics have allowed them to survive and even thrive on an inhospitable planet full of savage creatures like gorgodons and asharl panthers.",
+		"description": "Snowfeathers are small, clever, flightless birds native to Ilum. Their bodies are covered in a dense layer of oily, white feath­ers that protects them from Ilum’s bone-chilling cold and vicious weather. Relatively harmless creatures, they live in nesting colonies built into ice shelves or cliff faces.\n\nDespite their inoffensive nature and inability to fly, snowfeathers have few natural predators, for two reasons. First, their meat tastes terrible and is mildly poisonous, causing painful cramps, bloating, and loosening of the bowels in those unfortunate enough to eat them. Second, they have a connection to the Force that gives them the ability to project an illusion that makes them seem larger and more formidable than they really are. These charac­teristics have allowed them to survive and even thrive on an inhospitable planet full of savage creatures like gorgodons and asharl panthers.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 2,
@@ -937,7 +937,7 @@
 				"qualities": ["Ensnare 3"]
 			}
 		],
-		"tags": ["creature", "book:nop", "location:Auratera"]
+		"tags": ["creature", "book:nop", "location:Auratera", "force sensitive"]
 	},
 	{
 		"name": "Kindalo Guardian",

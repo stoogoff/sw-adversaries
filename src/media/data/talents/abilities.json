@@ -109,7 +109,7 @@
 	},
 	{
 		"name": "Cloak",
-		"description": "Add :setback::setback::setback: to all checks made to spot or track the maalraa [this can include Vigilance checks made for Initiative if the maalraa ambushes a character). Force-sensitive characters ignore this ability."
+		"description": "Add :setback::setback::setback: to all checks made to spot or track the maalraa (this can include Vigilance checks made for Initiative if the maalraa ambushes a character). Force-sensitive characters ignore this ability."
 	},
 	{
 		"name": "Code of Silence",
