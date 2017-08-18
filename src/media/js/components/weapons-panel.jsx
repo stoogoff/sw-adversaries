@@ -2,7 +2,7 @@
 import React from "react";
 import { dice, id, symbolise, sortByProperty, minionSkill } from "lib/utils";
 
-function getWeaponDetails(weapon, character, allSkills, minions) {
+function getWeaponDetails(weapon, character, allSkills, aliveMinions) {
 	if(!("id" in weapon)) {
 		weapon.id = id(weapon.name);
 	}
@@ -29,7 +29,7 @@ function getWeaponDetails(weapon, character, allSkills, minions) {
 	let value = character.skills[weapon.skill] || 0;
 
 	if(character.type == "Minion") {
-		value = minionSkill(minions, weapon.skill, character.skills);
+		value = minionSkill(aliveMinions, weapon.skill, character.skills);
 	}
 
 	weapon.icons = dice(stat, value);
@@ -69,7 +69,7 @@ export default class WeaponsPanel extends React.Component {
 		}
 		else {
 			let allQualities = this.props.qualities.all().concat(this.props.talents.all());
-	
+
 			quality = allQualities.find(q => q.name == name);
 		}
 
@@ -116,7 +116,7 @@ export default class WeaponsPanel extends React.Component {
 					return null;
 				}
 
-				weapons.push(getWeaponDetails(weapon, character, allSkills, this.props.minions));
+				weapons.push(getWeaponDetails(weapon, character, allSkills, this.props.aliveMinions));
 			});
 
 			weapons.sort(sortByProperty("name"));
@@ -132,7 +132,7 @@ export default class WeaponsPanel extends React.Component {
 						<th>Range</th>
 						<th>Damage</th>
 						<th className="hide-small hide-medium">Roll { character.type == "Minion"
-							? <small> (for { this.props.minions })</small> 
+							? <small> (for { this.props.minions })</small>
 							: null }
 						</th>
 						<th>Qualities / Mods</th>

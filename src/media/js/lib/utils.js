@@ -47,7 +47,6 @@ export const minionSkill = function(minions, skill, skills) {
 	if(minions > 0 && skill in skillsHash) {
 		value += minions - 1;
 	}
-
 	return  Math.min(value, 5);
 }
 
