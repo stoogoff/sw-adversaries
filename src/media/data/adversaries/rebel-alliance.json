@@ -326,7 +326,7 @@
 		"tags": ["rebel alliance", "pilot", "book:aor"]
 	},
 	{
-		"name": "Rebel Alliance Liason",
+		"name": "Rebel Alliance Liaison",
 		"type": "Rival",
 		"description": "The alliance to restore the Republic is a vast organization that would be a serious threat if it didn't stand in opposition to perhaps the most extensive military organization ever created: the Galactic Empire. As a result, the Alliance must operate in the shadows, working with small groups to achieve minor objectives in hopes of building toward a much larger victory one day in the distant future. Most Rebels have no objection to working with criminals and other "scum", even if some among their leadership object to such sullying alliances. Smugglers in particular are popular agents for the Alliance because the credits are good and the work is exciting, if dangerous.",
 		"characteristics": {
@@ -362,7 +362,7 @@
 			}
 				],
 		"gear": ["Padded armour (+2 Soak)"],
-		"tags": ["rebel alliance", "book:eote", "rival"]
+		"tags": ["rebel alliance", "book:eote"]
 	},
 	{
 		"name": "Starfighter Pilot",
