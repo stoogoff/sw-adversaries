@@ -346,8 +346,8 @@
 		"devOnly": true
 	},
 	{
-		"name": "Rakghoul"
-		"type": "minion"
+		"name": "Rakghoul",
+		"type": "Minion",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
