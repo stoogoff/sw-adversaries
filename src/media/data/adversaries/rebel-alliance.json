@@ -354,7 +354,7 @@
 		"weapons": ["Blaster Rifle",
 			{
 				"name": "molecular stiletto",
-				"skill": "melee",
+				"skill": "Melee",
 				"damage": 2,
 				"critical": 2,
 				"range": "Engaged",
