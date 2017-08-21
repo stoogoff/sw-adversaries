@@ -39,19 +39,18 @@
 			{
 				"name": "vibroknife",
 				"skill": "Melee",
-				"damage": 5,
+				"damage": 3,
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Pierce 2", "Vicious 1"]
 			}
 		],
-		"gear": ["heavy clothing (+1 Soak)", "datapad", "utility belt", "tool kit", "Pet bogwing 'Mordekai'"],
+		"gear": ["Heavy clothing (+1 Soak)", "Datapad", "Utility belt", "Tool kit", "Pet bogwing 'Mordekai'"],
 		"tags": ["underworld", "species:Twi'lek", "assassin", "book:btr"]
 	},
 	{
 		"name": "ISB Agent",
 		"type": "Rival",
-		"description": "The book provides no description.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -84,12 +83,11 @@
 			}
 		],
 		"gear": ["Comlink"],
-		"tags": ["book:btr", "empire", "imperial security bureau", "rival"]
+		"tags": ["book:btr", "empire", "imperial security bureau"]
 	},
 	{
 		"name": "ISB Supervisor Cal Alsen",
 		"type": "Rival",
-				"description": "The book provides no description.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -120,13 +118,12 @@
 				"qualities": ["Stun Setting"]
 			}
 		],
-		"gear": ["hand scanner", "comlink", "heavy trench coat (+1 soak)"],
-		"tags": ["book:btr", "empire", "imperial security bureau", "rival"]
+		"gear": ["Hand scanner", "Comlink", "Heavy trench coat (+1 soak)"],
+		"tags": ["book:btr", "empire", "imperial security bureau"]
 	},
 	{
 		"name": "Wed Treadwell Repair Droid",
 		"type": "Rival",
-		"description": "The book provides no description.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 2,
@@ -144,12 +141,11 @@
 			"Mechanics": 1
 		},
 		"gear": ["Auxiliary mechanics' equipment"],
-		"tags": ["book:btr", "empire", "rival"]
+		"tags": ["book:btr", "empire"]
 	},
 	{
 		"name": "Yav Yiyar",
 		"type": "Rival",
-		"description": "The book provides no description.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -185,6 +181,6 @@
 			],
 		"talents": ["Adversary 2"],
 		"gear": ["Armored Clothing (+1 soak)"],
-		"tags": ["book:btr", "empire", "rival"]
+		"tags": ["book:btr", "empire"]
 	}
 ]
