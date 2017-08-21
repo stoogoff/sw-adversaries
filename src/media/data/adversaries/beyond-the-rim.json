@@ -232,5 +232,35 @@
 			}
 		],
 		"tags": ["creature", "book:btr"]
+	},
+	{
+		"name": "B1-Series Battle Droid",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"abilities": ["Droid"]
+		"skills": ["Gunnery", "Melee", "Ranged: Light", "Ranged: Heavy"],
+		"weapons": [
+				{
+				"name": "Worn-out Blaster Rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 7,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Stun Setting"]
+				}
+			],
+		"gear": ["Comlink"],
+		"tags": ["book:btr", "species:Droid", "empire"]
 	}
 ]
