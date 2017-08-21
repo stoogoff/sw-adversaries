@@ -2178,7 +2178,7 @@
 				"range": "Engaged"
 			},
 			{
-				"name": "bite",
+				"name": "Bite",
 				"skill": "Brawl",
 				"damage": 7,
 				"critical": 3,
@@ -2186,7 +2186,7 @@
 				"qualities": ["Ensnare 1", "Pierce 1"]
 			},
 			{
-				"name": "tail whip",
+				"name": "Tail whip",
 				"skill": "Brawl",
 				"damage": 4,
 				"critical": 4,
