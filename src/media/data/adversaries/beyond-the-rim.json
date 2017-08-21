@@ -262,5 +262,36 @@
 			],
 		"gear": ["Comlink"],
 		"tags": ["book:btr", "species:Droid", "empire"]
+	},
+	{
+		"name": "Bark Rat",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 3,
+			"defence": [1, 1]
+		},
+		"abilities": ["Droid"]
+		"skills": ["Athletics", "Brawl", "Coordination"],
+		"weapons": [
+				{
+				"name": "Worn-out Blaster Rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 7,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Stun Setting"]
+				}
+			],
+		"gear": ["Comlink"],
+		"tags": ["book:btr", "species:Droid", "empire"]
 	}
 ]
