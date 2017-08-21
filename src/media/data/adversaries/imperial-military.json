@@ -622,7 +622,7 @@
 		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad", "adventure:Rescue at Glare Peak", "adventure:Friends Like These"]
 	},
 	{
-		"name": "Imperial Stormtrooper Sergeant",
+		"name": "Stormtrooper Sergeant",
 		"type": "Rival",
 		"description": "Stormtroopers who survive engagements with high marks are promoted to the position of sergeant. Typically this involves command of a single squadron, but stormtroopers who excel at leadership are promoted to higher ranks. Such positions can include supervision of entire companies of stormtroopers. Rank within the stormtrooper legions is difficult for outsiders to fully understand, as they refer to virtually any officer from their ranks as commander. The uniformity of their armor and this tendency for vague references helps to enforce the image of stormtroopers as an absolutely faceless, monolithic military entity, which only serves to enhance their fearsome reputation.",
 		"characteristics": {
