@@ -2193,6 +2193,6 @@
 				"range": "Engaged"
 			}
 		],
-		"tags": ["creature", "book:fad"]
+		"tags": ["creature", "book:btr", "book:ss"]
 	}
 ]
