@@ -248,7 +248,16 @@
 			"soak": 4,
 			"wounds": 5
 		},
-		"abilities": ["Droid"],
+		"abilities": ["Droid",
+			      {
+				"name": "On-board Processor",
+				"description": "No external droid controller needed."
+			      },
+			      {
+				"name": "Worn Out",
+			     	"description": "Add a :setback: to each combat check. :threat::threat: on a droid's combat or skill check upgrades the difficulty of the droid's next check on the same type once. On any :despair: result, the droid shuts down for 30 seconds, through it may be restarted before it resets."
+			      }
+			     ],
 		"skills": ["Gunnery", "Melee", "Ranged: Light", "Ranged: Heavy"],
 		"weapons": [
 				{
