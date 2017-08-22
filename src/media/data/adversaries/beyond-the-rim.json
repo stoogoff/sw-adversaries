@@ -261,7 +261,7 @@
 				}
 			],
 		"gear": ["Comlink"],
-		"tags": ["book:btr", "species:Droid", "empire"]
+		"tags": ["book:btr", "species:Droid", "separatist"]
 	},
 	{
 		"name": "Bark Rat",
@@ -283,15 +283,22 @@
 		"skills": ["Athletics", "Brawl", "Coordination"],
 		"weapons": [
 				{
-				"name": "Worn-out Blaster Rifle",
-				"skill": "Ranged: Heavy",
-				"damage": 7,
-				"critical": 3,
-				"range": "Long",
-				"qualities": ["Stun Setting"]
+				"name": "Teeth and Claws",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 5,
+				"range": "Engaged"
+				},
+				{
+				"name": "Tail",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
 				}
 			],
-		"gear": ["Comlink"],
-		"tags": ["book:btr", "species:Droid", "empire"]
+		"gear": ["Toughened Hide", ],
+		"tags": ["book:btr", "Creature"]
 	}
 ]
