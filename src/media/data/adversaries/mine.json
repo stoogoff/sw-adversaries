@@ -373,7 +373,12 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 1", "Feral Strength"],
-		"abilities": ["Rakghoul Disease"],
+		"abilities": [
+			{
+			"name": "Rakghoul Disease",
+			"description": "If a :triumph: is rolled on any attack against a humanoid, the target must make a Resilience check ( :difficulty::difficulty::challenge: ). Failure means the target is infected and will begin feeling the effects of the virus in one hour."
+			}
+			     ],
 		"weapons": [
 			{
 				"name": "Claws and teeth",
@@ -403,6 +408,12 @@
             "wounds": 7
         },
         "talents": ["Feral Strength"],
+	"abilities": [
+			{
+			"name": "Rakghoul Disease",
+			"description": "If a :triumph: is rolled on any attack against a humanoid, the target must make a Resilience check ( :difficulty::difficulty::challenge: ). Failure means the target is infected and will begin feeling the effects of the virus in one hour."
+			}
+		],
         "skills": ["Brawl", "Perception"],
         "tags": ["Creature","adventure:Ice Station Zulu"],
         "weapons": [
