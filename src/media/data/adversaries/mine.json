@@ -344,5 +344,77 @@
 		"gear": ["Ancient Jedi battle armour (+2 Soak, +1 Defence)"],
 		"tags": ["force sensitive", "adventure:Visiting Athiss", "species:Clawdite", "Hunter of Relle", "darkside"],
 		"devOnly": true
+	},
+	{
+		"name": "Rakghoul Fiend",
+		"type": "Rival",
+		"notes": "These are not official stats.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 16
+		},
+		"skills": {
+			"Athletics": 2,
+			"Coercion": 2,
+			"Discipline": 2,
+			"Leadership": 3,
+			"Melee": 2,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 2,
+			"Resilience": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Feral Strength"],
+		"abilities": ["Rakghoul Disease"],
+		"weapons": [
+			{
+				"name": "Claws and teeth",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"tags": ["Creature","adventure:Ice Station Zulu"],
+		"devOnly": true
+	},
+	{
+        "name": "Rakghoul",
+        "type": "Minion",
+        "characteristics": {
+            "Brawn": 3,
+            "Agility": 3,
+            "Intellect": 1,
+            "Cunning": 2,
+            "Willpower": 2,
+            "Presence": 1
+        },
+        "derived": {
+            "soak": 3,
+            "wounds": 7
+        },
+        "talents": ["Feral Strength"],
+        "skills": ["Brawl", "Perception"],
+        "tags": ["Creature","adventure:Ice Station Zulu"],
+        "weapons": [
+                {
+                "name": "Claws and teeth",
+                "skill": "Brawl",
+                "damage": 4,
+                "critical": 3,
+                "range": "Engaged",
+                "qualities": ["Vicious 1"]
+                }
+        ],
+        "devOnly": true
 	}
 ]
