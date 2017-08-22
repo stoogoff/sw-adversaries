@@ -33,7 +33,7 @@
 			"Ranged: Light": 3,
 			"Vigilance": 2
 		},
-		"talents": ["Adversary 2", "Convincing Demeanor 2", "Gearhead 2", "Nobody’s Fool 1"],
+		"talents": ["Adversary 2", "Convincing Demeanor 2", "Gearhead 2", "Nobodyâ€™s Fool 1"],
 		"abilities": ["Technical Master"],
 		"weapons": ["Heavy Blaster Pistol",
 			{
@@ -46,7 +46,7 @@
 			}
 		],
 		"gear": ["Heavy clothing (+1 Soak)", "Datapad", "Utility belt", "Tool kit", "Pet bogwing 'Mordekai'"],
-		"tags": ["underworld", "species:Twi’lek", "assassin", "book:btr"]
+		"tags": ["underworld", "species:Twiâ€™lek", "assassin", "book:btr"]
 	},
 	{
 		"name": "ISB Agent",
