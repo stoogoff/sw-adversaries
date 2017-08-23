@@ -35,7 +35,7 @@
 		},
 		"talents": ["Adversary 2", "Convincing Demeanor 2", "Gearhead 2", "Nobody’s Fool 1"],
 		"abilities": ["Technical Master"],
-		"weapons": ["Heavy Blaster Pistol",
+		"weapons": ["Heavy blaster pistol",
 			{
 				"name": "vibroknife",
 				"skill": "Melee",
