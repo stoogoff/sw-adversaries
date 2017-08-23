@@ -420,5 +420,90 @@
 		"weapons": ["Blaster pistol", "Vibroknife"],
 		"gear": ["Comlink", "Padded Armor (+2 soak)"],
 		"tags": ["book:btr"]
+	},
+	{
+		"name": "Yiyar Salvage Tech",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": ["Brawl", "Coercion", "Mechanics", "Melee", "Ranged: Light"],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Comlink", "Padded Armor (+2 soak)"],
+		"tags": ["book:btr"]
+	},
+	{
+		"name": "'Too Low' Talo",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15
+		},
+		"skills": {
+			"Athletics": 2,
+			"Cool": 1,
+			"Deception": 1,
+			"Leadership": 1,
+			"Melee": 2,
+			"Negotiation": 2,
+			"Piloting: Planetary": 2,
+			"Ranged: Light": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1"],
+		"weapons": ["Blaster pistol", "Vibroknife"],
+		"gear": ["Comlink", "Padded Armor (+2 soak)", "Utility belt"],
+		"tags": ["book:btr"]
+	},
+	{
+		"name": "Arak-series Probe Droid",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 15
+		},
+		"skills": {
+			"Computers": 3,
+			"Perception": 3,
+			"Ranged: Light": 1
+		},
+		"abilities": ["Droid",
+					{
+					"name": "Sensors",
+					"description": "Medium-range sensors"
+					},
+					{
+					"name": "Repulsorlift Locomotion",
+					"description": "Maximum altitude 3 meters"
+					}
+					],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Comlink", "Holocam", "Built-in sensors"],
+		"tags": ["book:btr", "species:Droid"]
 	}
 ]
