@@ -309,5 +309,35 @@
 			],
 		"gear": ["Toughened Hide"],
 		"tags": ["book:btr", "Creature"]
+	},
+	{
+		"name": "Deep Dark Scout Trooper",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 10
+		},
+		"skills": ["Athletics", "Discipline", "Melee", "Ranged: Heavy", "Ranged: Light", "Vigilance"],
+		"weapons": [ "Light Blaster Pistol", "Frag Grenade",
+				{
+				"name": "Heavy blaster rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 10,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Auto-Fire", "Cumbersome 3", "Telescopic Optical Sight"]
+				}
+			],
+		"gear": ["Utility belt", "Extra reloads", "Scout Trooper Armor (+2 soak)", "2 Frag grenades"],
+		"tags": ["book:btr", "empire", "imperial military", "stormtrooper"]
 	}
+
 ]
