@@ -325,7 +325,7 @@
 			"wounds": 10
 		},
 		"skills": ["Athletics", "Discipline", "Melee", "Ranged: Heavy", "Ranged: Light", "Vigilance"],
-		"weapons": [ "Light Blaster Pistol", "Frag Grenade",
+		"weapons": [ "Light blaster pistol", "Frag Grenade",
 				{
 				"name": "Heavy blaster rifle",
 				"skill": "Ranged: Heavy",
@@ -505,5 +505,95 @@
 		"weapons": ["Blaster pistol"],
 		"gear": ["Comlink", "Holocam", "Built-in sensors"],
 		"tags": ["book:btr", "species:Droid"]
+	},
+	{
+		"name": "Arboreal Octopus",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 15
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Cool": 3,
+			"Perception": 1,
+			"Stealth": 2,
+			"Vigilance": 2
+		},
+		"weapons": [
+			{
+				"name": "Four climbing tentacles",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1"]
+			},
+			{
+				"name": "Three hunting tentacles",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 2", "Linked 3"]
+			}
+				],
+		"tags": ["book:btr", "creature"]
+	},
+	{
+		"name": "Captain Shorwarr",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 17,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 1,
+			"Perception": 1,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 1,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Expert Tracker 1", "Natural Hunter"],
+		"abilities": ["Wookiee Rage"],
+		"weapons": ["Bowcaster",
+				{
+				"name": "Bola",
+				"skill": "Short",
+				"damage": 2,
+				"critical": 0,
+				"range": "Short",
+				"qualities": ["Ensnare 3", "Knockdown", "Limited Ammo 1"]
+				},
+				{
+				"name": "Ryyk Blade",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Cumbersome 3", "Desfensive 1", "Superior"]
+				}
+				],
+		"tags": ["book:btr", "species:Wookiee"]
 	}
 ]
