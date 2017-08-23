@@ -595,5 +595,98 @@
 				}
 				],
 		"tags": ["book:btr", "species:Wookiee"]
+	},
+	{
+		"name": "Green Bug Swarm",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 20,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Coordination": 2,
+			"Melee": 2
+		},
+		"abilities": ["Swarm",
+				{
+				"name": "Venomous stinger",
+				"description": "On a successful hit, the target must pass an Average (:difficulty::difficulty:) Resilience check or be disoriented for 3 rounds. The GM may spend :threat::threat: to deal 3 strain"
+				},
+				{
+				"name": "Knockout Poison",
+				"description": "If the Green Bug Swarm scores a Critical Hit or exceeds a target's strain threshold, the target must make a successful Hard(:difficulty::difficulty::difficulty:) Resilience check or fall unconscious for 5 minutes or until a successful Average(:difficulty::difficulty:) Medicine check revives him."
+				}
+				],
+		"weapons": [
+				{
+				"name": "Stinger",
+				"skill": "Melee",
+				"damage": 1,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": []
+				}
+				],
+		"tags": ["book:btr", "Creature"]
+	},
+	{
+		"name": "Imperial Navy Pilot",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Gunnery": 2,
+			"Piloting: Space": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Full Throttle"],
+		"tags": ["book:btr", "Empire"]
+	},
+	{
+		"name": "IT-3PO",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10
+		},
+		"skills": {
+			"Charm": 2,
+			"Deception": 1,
+			"Knowledge: Education": 3,
+			"Knowledge: Xenology": 3,
+			"Ranged: Light": 1
+		},
+		"abilities": ["Droid", "Etiquette and Protocol"],
+		"talents": ["Convincing Demeanor 2"],
+		"gear": ["Comlink", "Holocam", "Built-in sensors"],
+		"tags": ["book:btr", "species:Droid"]
 	}
 ]
