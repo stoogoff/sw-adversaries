@@ -288,7 +288,6 @@
 			"wounds": 3,
 			"defence": [1, 1]
 		},
-		"abilities": ["Droid"],
 		"skills": ["Athletics", "Brawl", "Coordination"],
 		"weapons": [
 				{
@@ -307,7 +306,7 @@
 				"qualities": ["Knockdown"]
 				}
 			],
-		"gear": ["Toughened Hide"],
+		"gear": ["Toughened Hide (+1 soak, +1 defense)", "Prehensile tail", "Color-shifting hide (Add :boost::boost::boost: to Stealth"],
 		"tags": ["book:btr", "Creature"]
 	},
 	{
