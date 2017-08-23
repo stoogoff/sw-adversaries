@@ -1630,9 +1630,5 @@
 	{
 		"name": "Works Like a Charm",
 		"description": "Once per session, the character may make one skill check using Presence, rather than the characteristic linked to that skill."
-	},
-	{
-		"name": "Worn Out",
-		"description": "Add a :setback: to each combat check. :threat::threat: on a droid's combat or skill check upgrades the difficulty of the droid's next check on the same type once. On any :despair: result, the droid shuts down for 30 seconds, though it may be restarted before it resets."
 	}
 ]
