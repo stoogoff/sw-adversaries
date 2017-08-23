@@ -337,6 +337,48 @@
 			],
 		"gear": ["Utility belt", "Extra reloads", "Scout Trooper Armor (+2 soak)", "2 Frag grenades"],
 		"tags": ["book:btr", "empire", "imperial military", "stormtrooper"]
+	},
+	{
+		"name": "Survivor",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": ["Athletics", "Discipline", "Melee", "Ranged: Light", "Ranged: Heavy"],
+		"abilities": ["Animal Combatant", "Wilderness Valor",
+					{
+					"name": "Worn-out Blaster Pistol",
+					"description": "Blaster is immediately rendered inoperable on a :despair: result, and runs out of ammo on :threat::threat:"
+					}
+			     ],
+		"weapons": [
+				{
+				"name": "Worn-out Blaster Pistol",
+				"skill": "Ranged: Light",
+				"damage": 4,
+				"critical": 6,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+				},
+				{
+				"name": "Combat knife",
+				"skill": "Melee",
+				"damage": 3,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": []
+				}
+			],
+		"gear": ["Comlink"],
+		"tags": ["book:btr"]
 	}
-
 ]
