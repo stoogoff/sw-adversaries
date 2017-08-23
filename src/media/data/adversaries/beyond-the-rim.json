@@ -180,7 +180,7 @@
 				}
 			],
 		"talents": ["Adversary 2"],
-		"gear": ["Armored Clothing (+1 soak)"],
+		"gear": ["Armored Clothing (+1 soak, +1 defense)"],
 		"tags": ["book:btr", "empire"]
 	},
 	{
@@ -688,5 +688,229 @@
 		"talents": ["Convincing Demeanor 2"],
 		"gear": ["Comlink", "Holocam", "Built-in sensors"],
 		"tags": ["book:btr", "species:Droid"]
+	},
+	{
+		"name": "Norta",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Cool": 1,
+			"Mechanics": 3,
+			"Negotiation": 3,
+			"Knowledge: Underworld": 2,
+			"Ranged: Light": 2,
+			"Piloting: Planetary": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Contraption"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Padded armor (+2 soak)", "Utility Belt", "Comlink", "Toolkit"],
+		"tags": ["book:btr"]
+	},
+	{
+		"name": "Reevos",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 35,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Cool": 1,
+			"Vigilance": 1
+		},
+		"abilities": ["Silhouette 2"],
+		"weapons": [
+				{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged"
+				},
+				{
+				"name": "Water BLast",
+				"skill": "Ranged: Heavy",
+				"damage": 5,
+				"critical": 4,
+				"range": "Medium"
+				}
+				],
+		"tags": ["book:btr", "Creature"]
+	},
+	{
+		"name": "Trandoshan Mercenary",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Coercion": 2,
+			"Cool": 1,
+			"Melee": 2,
+			"Discipline": 1,
+			"Knowledge: Lore": 2,
+			"Ranged: Heavy": 2,
+			"Vigilance": 2
+		},
+		"abilities": ["Regeneration"],
+		"weapons": ["Blaster rifle",
+				{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged"
+				}
+				],
+		"gear": ["Padded Armor (+2 soak)", "Comlink"],
+		"tags": ["book:btr", "species:Trandoshan"]
+	},
+	{
+		"name": "Wheel Security Pilot",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Gunnery": 1,
+			"Piloting: Space": 2
+		},
+		"gear": ["Flight suit"],
+		"tags": ["book:btr", "Empire"]
+	},
+	{
+		"name": "Captain Rel Harsol",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 5
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"strain": 20,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Coercion": 3,
+			"Charm": 3,
+			"Cool": 4,
+			"Discipline": 3,
+			"Knowledge: Lore": 2,
+			"Leadership": 5,
+			"Melee": 3,
+			"Piloting: Space": 2,
+			"Ranged: Light": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Improved Inspiring Rhetoric", "Improved Scathing Tirade"],
+		"abilities": ["Animal Combatant", "Wilderness Valor"],
+		"weapons": ["Heavy blaster pistol", "Combat knife"],
+		"gear": ["Padded armor (+2 Soak)", "Comlink"],
+		"tags": ["underworld", "book:btr"]
+	},
+	{
+		"name": "Cratala",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 14,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Coercion": 4,
+			"Charm": 2,
+			"Cool": 2,
+			"Discipline": 3,
+			"Knowledge: Education": 4,
+			"Knowledge: Xenology": 4,
+			"Mechanics": 3,
+			"Medicine": 5,
+			"Negotiation": 3,
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Surgeon 3",
+					{
+					"name": "Master Doctor",
+					"description": "Once per round, suffer 2 strain to decrease the difficulty of a Medicine check by 1."
+					}
+					],
+		"abilities": [
+					{
+					"name": "Anatomical Expertise",
+					"description": "Once per session after a successful combat check, add 4 damage to the result."
+					},
+					{
+					"name": "Cybernetic Microscopic Vision",
+					"description": "Cratala gains +1 ranks in Vigilance and Perception and can zoom in to see items and organisms in the microscopic realm."
+					},
+					{
+					"name": "Cybernetics Expert",
+					"description": "May ignore one :despair: and :threat: when making a Medicine check related to cybernetics installation, diagnostics or alterations."
+					}
+					],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Datapad", "Medpack (grants :boost: to all Medicine skill checks)"],
+		"tags": ["book:btr"]
 	}
 ]
