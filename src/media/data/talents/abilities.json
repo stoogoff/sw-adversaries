@@ -301,7 +301,7 @@
 	},
 	{
 		"name": "Fierce Pounce",
-		"description": "If the creature uses the aim maneuver, it also gains Knockdown on its next attack."
+		"description": "If the creature uses the Aim maneuver, it also gains Knockdown on its next attack."
 	},
 	{
 		"name": "Flyer",
@@ -625,7 +625,7 @@
 	},
 	{
 		"name": "Swarm",
-		"description": "Halve the damage dealt to the swarm before applying soak unless the weapon has the Blast or Burn quality, regardless of whether or not that quality is activated."
+		"description": "Halve the damage dealt to the swarm before applying Soak unless the weapon has the Blast or Burn quality, regardless of whether or not that quality is activated."
 	},
 	{
 		"name": "Sweep Attack",
@@ -693,7 +693,7 @@
 	},
 	{
 		"name": "Technical Master",
-		"description": "all subordinates within medium range add one :boost: die to all Mechanics checks."
+		"description": "All subordinates within Medium range add :boost: to all Mechanics checks."
 	},
 	{
 		"name": "Mountain Nikto",
@@ -714,13 +714,5 @@
 	{
 		"name": "Southern Nikto",
 		"description": "Add 1 rank in Perception. A Southern Nikto may add :boost: to Perception and Vigilance checks to detect sound."
-	},
-	{
-		"name": "Toughened Hide",
-		"description": "+1 soak, +1 defense"
-	},
-	{
-		"name": "Color-shifting hide",
-		"description": "Add :boost::boost: to Stealthchecks"
 	}
 ]

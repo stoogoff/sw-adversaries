@@ -72,6 +72,14 @@
 		"qualities": ["Auto-Fire", "Cumbersome 5", "Pierce 2", "Vicious 1"]
 	},
 	{
+		"name": "TT24 Holdout blaster",
+		"skill": "Ranged: Light",
+		"damage": 6,
+		"critical": 3,
+		"range": "Medium",
+		"qualities": ["Stun Setting"]
+	},
+	{
 		"name": "Bowcaster",
 		"skill": "Ranged: Heavy",
 		"damage": 10,
@@ -255,8 +263,7 @@
 		"skill": "Melee",
 		"plus-damage": 0,
 		"critical": 6,
-		"range": "Engaged",
-		"qualities": []
+		"range": "Engaged"
 	},
 	{
 		"name": "Cortosis shield",

@@ -529,7 +529,7 @@
 	},
 	{
 		"name": "Full Throttle",
-		"description": "Take a Full Throttle action and make a :hard: Piloting (Space or Planetary) check to increase a vehicle’s top speed by 1 for three rounds."
+		"description": "Take a Full Throttle action and make a :hard: Piloting (Space or Planetary) check to increase a vehicle’s top speed by 1 for a numnber of rounds equal to Cunning."
 	},
 	{
 		"name": "Improved Full Throttle",
@@ -833,7 +833,7 @@
 	},
 	{
 		"name": "Master Doctor",
-		"description": ""
+		"description": "Once per round, suffer 2 Strain to decrease the difficulty of a Medicine check by 1."
 	},
 	{
 		"name": "Master Driver",
