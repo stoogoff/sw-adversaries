@@ -2,7 +2,7 @@
 	{
 		"name": "Reom",
 		"type": "Nemesis",
-		"description": "Reom is a blue-skinned Twi'lek male who uses his supremely average, nondescript appearance to blend in perfectly with any starport crowd. He camouflages himself with dark grey cloaks and jumpsuits which are common in most of the stations and cultures he visits. Reom is president of IsoTech. He is a talented smuggler, crafty enterpreneur, and superb negotiator. He has contacts throughout the galaxy, including powerful figures in the underworld. Reom handles IsoTech's Outer Rim operations, particularly new acquisitions and allies.",
+		"description": "Reom is a blue-skinned Twi’lek male who uses his supremely average, nondescript appearance to blend in perfectly with any starport crowd. He camouflages himself with dark grey cloaks and jumpsuits which are common in most of the stations and cultures he visits.\n\nReom is president of IsoTech. He is a talented smuggler, crafty enterpreneur, and superb negotiator. He has contacts throughout the galaxy, including powerful figures in the underworld. Reom handles IsoTech’s Outer Rim operations, particularly new acquisitions and allies.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -14,8 +14,7 @@
 		"derived": {
 			"soak": 3,
 			"wounds": 13,
-			"strain": 13,
-			"defence": [0, 0]
+			"strain": 13
 		},
 		"skills": {
 			"Astrogation": 1,
@@ -35,17 +34,8 @@
 		},
 		"talents": ["Adversary 2", "Convincing Demeanor 2", "Gearhead 2", "Nobody’s Fool 1"],
 		"abilities": ["Technical Master"],
-		"weapons": ["Heavy blaster pistol",
-			{
-				"name": "vibroknife",
-				"skill": "Melee",
-				"damage": 3,
-				"critical": 3,
-				"range": "Engaged",
-				"qualities": ["Pierce 2", "Vicious 1"]
-			}
-		],
-		"gear": ["Heavy clothing (+1 Soak)", "Datapad", "Utility belt", "Tool kit", "Pet bogwing 'Mordekai'"],
+		"weapons": ["Heavy blaster pistol", "Vibroknife"],
+		"gear": ["Heavy clothing (+1 Soak)", "Datapad", "Utility belt", "Tool kit", "Pet bogwing “Mordekai”"],
 		"tags": ["underworld", "species:Twi’lek", "assassin", "book:btr"]
 	},
 	{
@@ -68,20 +58,11 @@
 			"Deception": 1,
 			"Discipline": 1,
 			"Melee": 1,
-			"Ranged: Light": 3,
+			"Ranged: Light": 1,
 			"Streetwise": 1,
 			"Vigilance": 1
 		},
-		"weapons": [
-			{
-				"name": "TT24 Holdout Blaster",
-				"skill": "Ranged: Light",
-				"damage": 6,
-				"critical": 3,
-				"range": "Medium",
-				"qualities": ["Stun Setting"]
-			}
-		],
+		"weapons": ["TT24 Holdout blaster"],
 		"gear": ["Comlink"],
 		"tags": ["book:btr", "empire", "imperial security bureau"]
 	},
@@ -108,17 +89,8 @@
 			"Streetwise": 1,
 			"Vigilance": 2
 		},
-		"weapons": [
-			{
-				"name": "TT24 Holdout Blaster",
-				"skill": "Ranged: Light",
-				"damage": 6,
-				"critical": 3,
-				"range": "Medium",
-				"qualities": ["Stun Setting"]
-			}
-		],
-		"gear": ["Hand scanner", "Comlink", "Heavy trench coat (+1 soak)"],
+		"weapons": ["TT24 Holdout blaster"],
+		"gear": ["Hand scanner", "Comlink", "Heavy trench coat (+1 Soak)"],
 		"tags": ["book:btr", "empire", "imperial security bureau"]
 	},
 	{
@@ -138,13 +110,15 @@
 		},
 		"skills": {
 			"Computers": 1,
-			"Mechanics": 1
+			"Mechanics": 2
 		},
-		"gear": ["Auxiliary mechanics' equipment"],
-		"tags": ["book:btr", "empire"]
+		"abilities": ["Droid"],
+		"gear": ["Auxiliary mechanics’ equipment"],
+		"tags": ["book:btr", "species:Droid", "engineer"]
 	},
 	{
 		"name": "Yav Yiyar",
+		"description": "Yav Yiyar is number three in the Yiyar clan hierarchy, and number two in Yiyar Salvage. He captains the *Nightflyer* and is an excellent advance salvage scout. He leads by example, and his approach to any given situation is mirrored by those Yiyar clan members with him.\n\nUnfortunately, Yav is rude, crude, and generally horrible to his allies and everyone else. Yav is very excited about the *Sa Nalaor*, and he takes every advantage and opportunity he thinks he can get away with to find the ship first. Successfully locating and securing the *Sa Nalaor* could promote Yav to number two in the Yiyar clan hierarchy and give him command of Yiyar Salvage. He also dreams of depriving the hated IsoTech of its prize.",
 		"type": "Rival",
 		"characteristics": {
 			"Brawn": 3,
@@ -169,24 +143,15 @@
 			"Streetwise": 2,
 			"Vigilance": 2
 		},
-		"weapons": ["Heavy BLaster Pistol",
-				{
-				"name": "vibroknife",
-				"skill": "Melee",
-				"damage": 4,
-				"critical": 3,
-				"range": "Engaged",
-				"qualities": ["Pierce 2", "Vicious 1"]
-				}
-			],
+		"weapons": ["Heavy blaster pistol", "Vibroknife"],
 		"talents": ["Adversary 2"],
-		"gear": ["Armored Clothing (+1 soak, +1 defense)", "Comlink"],
-		"tags": ["book:btr"]
+		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Comlink"],
+		"tags": ["book:btr", "yiyar salvage"]
 	},
 	{
 		"name": "Cybernetically-Enhanced Nexu",
 		"type": "Rival",
-		"description": "Nexu possess a fearsome appearance, with a huge, toothy maw, four beady eyes, and massive, claw-tipped paws, all backed up by a pair of barbed tail spikes. What's more, nexu are fully as lethal as their natural armament would suggest, and possess a temperament and instinctive cunning that make them even more greater threats. Although naturally stealthy and elusive, nexu do not lack for ferocity or mettle in a direct fight, and they rarely back down in the face of any threat they encounter. Even when faced with a more ferocious predator, nexu are more likely to attempt to melt away into the underbrush and attack again using stealth to gain an advantage than to simply flee their hunting grounds.",
+		"description": "Nexu possess a fearsome appearance, with a huge, toothy maw, four beady eyes, and massive, claw-tipped paws, all backed up by a pair of barbed tail spikes. What’s more, nexu are fully as lethal as their natural armament would suggest, and possess a temperament and instinctive cunning that make them even more greater threats. Although naturally stealthy and elusive, nexu do not lack for ferocity or mettle in a direct fight, and they rarely back down in the face of any threat they encounter. Even when faced with a more ferocious predator, nexu are more likely to attempt to melt away into the underbrush and attack again using stealth to gain an advantage than to simply flee their hunting grounds.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 4,
@@ -249,19 +214,15 @@
 			"wounds": 5
 		},
 		"abilities": ["Droid",
-			      {
-				"name": "On-board Processor",
-				"description": "No external droid controller needed."
-			      },
-			      {
+			{
 				"name": "Worn Out",
-			     	"description": "Add a :setback: to each combat check. :threat::threat: on a droid's combat or skill check upgrades the difficulty of the droid's next check on the same type once. On any :despair: result, the droid shuts down for 30 seconds, through it may be restarted before it resets."
-			      }
-			     ],
+			 	"description": "Add :setback: to each combat check. :threat::threat: on a droid’s combat or skill check upgrades the difficulty of the droid’s next check of the same type once. On any :despair: result, the droid shuts down for 30 seconds, though it may be restarted before it resets."
+			}
+		],
 		"skills": ["Gunnery", "Melee", "Ranged: Light", "Ranged: Heavy"],
 		"weapons": [
 				{
-				"name": "Worn-out Blaster Rifle",
+				"name": "Worn-out blaster rifle",
 				"skill": "Ranged: Heavy",
 				"damage": 7,
 				"critical": 3,
@@ -269,7 +230,7 @@
 				"qualities": ["Stun Setting"]
 				}
 			],
-		"gear": ["Comlink"],
+		"gear": ["Comlink", "On-board processor (no external droid controller needed)"],
 		"tags": ["book:btr", "species:Droid", "separatist"]
 	},
 	{
@@ -289,25 +250,34 @@
 			"defence": [1, 1]
 		},
 		"skills": ["Athletics", "Brawl", "Coordination"],
+		"abilities": [
+			{
+				"name": "Toughened Hide",
+				"description": "+1 Soak, +1 Defence"
+			},
+			{
+				"name": "Colour-shifting Hide",
+				"description": "Add :boost::boost: to Stealth checks."
+			}
+		],
 		"weapons": [
-				{
-				"name": "Teeth and Claws",
+			{
+				"name": "Teeth and claws",
 				"skill": "Brawl",
 				"damage": 3,
 				"critical": 5,
 				"range": "Engaged"
-				},
-				{
+			},
+			{
 				"name": "Tail",
 				"skill": "Brawl",
 				"damage": 4,
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Knockdown"]
-				}
-			],
-		"gear": ["Toughened Hide (+1 soak, +1 defense)", "Prehensile tail", "Color-shifting hide (Add :boost::boost::boost: to Stealth"],
-		"tags": ["book:btr", "Creature"]
+			}
+		],
+		"tags": ["book:btr", "creature"]
 	},
 	{
 		"name": "Deep Dark Scout Trooper",
@@ -326,20 +296,21 @@
 		},
 		"skills": ["Athletics", "Discipline", "Melee", "Ranged: Heavy", "Ranged: Light", "Vigilance"],
 		"weapons": [ "Light blaster pistol", "Frag grenade",
-				{
+			{
 				"name": "Heavy blaster rifle",
 				"skill": "Ranged: Heavy",
 				"damage": 10,
 				"critical": 3,
 				"range": "Long",
 				"qualities": ["Auto-Fire", "Cumbersome 3", "Telescopic Optical Sight"]
-				}
-			],
-		"gear": ["Utility belt", "Extra reloads", "Scout Trooper Armor (+2 soak)", "2 Frag grenades"],
+			}
+		],
+		"gear": ["Utility belt", "Extra reloads", "Scout trooper armour (+2 Soak)", "2 Frag grenades"],
 		"tags": ["book:btr", "empire", "imperial military", "stormtrooper"]
 	},
 	{
 		"name": "Survivor",
+		"description": "The *Sa Nalaor* crew and survivors are a diverse mix of species including Arkanians, Aqualish, Gossams, Twi'leks, humans, and more. They range in age from the late forties on up. The survivors are divided as to Harsol's leadership. Some survivors are bitter to have been trapped on Cholganna for so long and fear Captain Harsol, while others are satisfied to be bneyond the reach of the Empire and forgotten by the galaxy. A few have tried to mutiny, albeit unsuccessfully. They “disappeared” soon after the failed coup attempt.",
 		"type": "Minion",
 		"characteristics": {
 			"Brawn": 2,
@@ -354,32 +325,27 @@
 			"wounds": 5
 		},
 		"skills": ["Athletics", "Discipline", "Melee", "Ranged: Light", "Ranged: Heavy"],
-		"abilities": ["Animal Combatant", "Wilderness Valor",
-					{
-					"name": "Worn-out Blaster Pistol",
-					"description": "Blaster is immediately rendered inoperable on a :despair: result, and runs out of ammo on :threat::threat:"
-					}
-			     ],
+		"abilities": ["Animal Combatant", "Wilderness Valor"],
 		"weapons": [
-				{
-				"name": "Worn-out Blaster Pistol",
+			{
+				"name": "Worn-out blaster pistol",
 				"skill": "Ranged: Light",
 				"damage": 4,
 				"critical": 6,
 				"range": "Medium",
-				"qualities": ["Stun Setting"]
-				},
-				{
+				"qualities": ["Stun Setting"],
+				"notes": "Blaster is immediately rendered inoperable on a :despair: result, and runs out of ammo on :threat::threat:."
+			},
+			{
 				"name": "Combat knife",
 				"skill": "Melee",
 				"damage": 3,
 				"critical": 3,
-				"range": "Engaged",
-				"qualities": []
-				}
-			],
+				"range": "Engaged"
+			}
+		],
 		"gear": ["Comlink"],
-		"tags": ["book:btr"]
+		"tags": ["book:btr", "location:Cholganna", "location:Sa Nalaor"]
 	},
 	{
 		"name": "Wheel Security",
@@ -398,11 +364,12 @@
 		},
 		"skills": ["Brawl", "Coercion", "Melee", "Ranged: Light", "Vigilance"],
 		"weapons": ["Blaster pistol", "Truncheon"],
-		"gear": ["Comlink", "Datapad", "Riot Armor (+2 soak)"],
-		"tags": ["book:btr"]
+		"gear": ["Comlink", "Datapad", "Riot armour (+2 Soak)"],
+		"tags": ["book:btr", "security", "location:The Wheel"]
 	},
 	{
 		"name": "Yiyar Clan Members",
+		"description": "Most Yiyar clan members are self-centred or, at best, focused on internal politics and power struggles. Yav's associates are loyal to him and see the *Sa Nalaor* as a huge opportunity to raise their status. Four serve aboard the *Nightflyer*, and a dozen more live on the Wheel and operate the Yiyar Salvage cargo bay, auctions, and sales.",
 		"type": "Minion",
 		"characteristics": {
 			"Brawn": 2,
@@ -418,8 +385,8 @@
 		},
 		"skills": ["Athletics", "Discipline", "Melee", "Piloting: Planetary", "Ranged: Light", "Stealth"],
 		"weapons": ["Blaster pistol", "Vibroknife"],
-		"gear": ["Comlink", "Padded Armor (+2 soak)"],
-		"tags": ["book:btr"]
+		"gear": ["Comlink", "Padded armour (+2 Soak)"],
+		"tags": ["book:btr", "yiyar salvage"]
 	},
 	{
 		"name": "Yiyar Salvage Tech",
@@ -438,11 +405,11 @@
 		},
 		"skills": ["Brawl", "Coercion", "Mechanics", "Melee", "Ranged: Light"],
 		"weapons": ["Heavy blaster pistol"],
-		"gear": ["Comlink", "Padded Armor (+2 soak)"],
-		"tags": ["book:btr"]
+		"gear": ["Comlink", "Padded armour (+2 Soak)"],
+		"tags": ["book:btr", "yiyar salvage", "engineer"]
 	},
 	{
-		"name": "”Too Low” Talo",
+		"name": "“Too Low” Talo",
 		"type": "Rival",
 		"characteristics": {
 			"Brawn": 2,
@@ -469,8 +436,8 @@
 		},
 		"talents": ["Adversary 1"],
 		"weapons": ["Blaster pistol", "Vibroknife"],
-		"gear": ["Comlink", "Padded Armor (+2 soak)", "Utility belt"],
-		"tags": ["book:btr"]
+		"gear": ["Comlink", "Padded armour (+2 Soak)", "Utility belt"],
+		"tags": ["book:btr", "yiyar salvage", "species:Sullustan"]
 	},
 	{
 		"name": "Arak-series Probe Droid",
@@ -493,17 +460,13 @@
 			"Ranged: Light": 1
 		},
 		"abilities": ["Droid",
-					{
-					"name": "Sensors",
-					"description": "Medium-range sensors"
-					},
-					{
-					"name": "Repulsorlift Locomotion",
-					"description": "Maximum altitude 3 meters"
-					}
-					],
+			{
+			"name": "Repulsorlift Locomotion",
+			"description": "Maximum altitude 3 metres."
+			}
+		],
 		"weapons": ["Blaster pistol"],
-		"gear": ["Comlink", "Holocam", "Built-in sensors"],
+		"gear": ["Comlink", "Holocam", "Built-in sensors (Medium range)"],
 		"tags": ["book:btr", "species:Droid"]
 	},
 	{
@@ -547,7 +510,7 @@
 				"range": "Engaged",
 				"qualities": ["Ensnare 2", "Linked 3"]
 			}
-				],
+		],
 		"tags": ["book:btr", "creature"]
 	},
 	{
@@ -563,8 +526,7 @@
 		},
 		"derived": {
 			"soak": 3,
-			"wounds": 17,
-			"defence": [0, 0]
+			"wounds": 17
 		},
 		"skills": {
 			"Athletics": 1,
@@ -577,24 +539,16 @@
 		},
 		"talents": ["Expert Tracker 1", "Natural Hunter", "Hunter’s Quarry"],
 		"abilities": ["Wookiee Rage"],
-		"weapons": ["Bowcaster",
-				{
-				"name": "Bola",
-				"skill": "Short",
-				"damage": 2,
-				"critical": 0,
-				"range": "Short",
-				"qualities": ["Ensnare 3", "Knockdown", "Limited Ammo 1"]
-				},
-				{
+		"weapons": ["Bowcaster", "Bolas",
+			{
 				"name": "Ryyk Blade",
 				"skill": "Melee",
 				"damage": 5,
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Cumbersome 3", "Defensive 1", "Superior"]
-				}
-				],
+			}
+		],
 		"tags": ["book:btr", "species:Wookiee"]
 	},
 	{
@@ -610,23 +564,22 @@
 		},
 		"derived": {
 			"soak": 1,
-			"wounds": 20,
-			"defence": [0, 0]
+			"wounds": 20
 		},
 		"skills": {
 			"Coordination": 2,
 			"Melee": 2
 		},
 		"abilities": ["Swarm",
-				{
-				"name": "Venomous stinger",
-				"description": "On a successful hit, the target must pass an Average (:difficulty::difficulty:) Resilience check or be disoriented for 3 rounds. The GM may spend :threat::threat: to deal 3 strain"
-				},
-				{
+			{
+				"name": "Venomous Stinger",
+				"description": "On a successful hit, the target must pass an :average: Resilience check or be Disoriented for 3 rounds. The GM may spend :threat::threat: to deal 3 strain."
+			},
+			{
 				"name": "Knockout Poison",
-				"description": "If the Green Bug Swarm scores a Critical Hit or exceeds a target's strain threshold, the target must make a successful Hard(:difficulty::difficulty::difficulty:) Resilience check or fall unconscious for 5 minutes or until a successful Average(:difficulty::difficulty:) Medicine check revives him."
-				}
-				],
+				"description": "If the Green Bug Swarm scores a Critical Hit or exceeds a target’s Strain Threshold, the target must make a successful :hard: Resilience check or fall unconscious for 5 minutes or until revived by a successful :average: Medicine check."
+			}
+		],
 		"weapons": [
 				{
 				"name": "Stinger",
@@ -634,10 +587,10 @@
 				"damage": 1,
 				"critical": 5,
 				"range": "Engaged",
-				"qualities": []
-				}
-				],
-		"tags": ["book:btr", "Creature"]
+				"notes": "Spend :advantage::advantage: to deal 3 Strain."
+			}
+		],
+		"tags": ["book:btr", "creature"]
 	},
 	{
 		"name": "Imperial Navy Pilot",
@@ -652,8 +605,7 @@
 		},
 		"derived": {
 			"soak": 2,
-			"wounds": 12,
-			"defence": [0, 0]
+			"wounds": 12
 		},
 		"skills": {
 			"Gunnery": 2,
@@ -661,7 +613,8 @@
 			"Vigilance": 1
 		},
 		"talents": ["Full Throttle"],
-		"tags": ["book:btr", "Empire"]
+		"gear": ["Flight suit"],
+		"tags": ["book:btr", "empire", "imperial military"]
 	},
 	{
 		"name": "IT-3PO",
@@ -683,15 +636,16 @@
 			"Deception": 1,
 			"Knowledge: Education": 3,
 			"Knowledge: Xenology": 3,
-			"Ranged: Light": 1
+			"Negotiation": 2,
+			"Perception": 1
 		},
 		"abilities": ["Droid", "Etiquette and Protocol"],
 		"talents": ["Convincing Demeanor 2"],
-		"gear": ["Comlink", "Holocam", "Built-in sensors"],
-		"tags": ["book:btr", "species:Droid"]
+		"tags": ["book:btr", "species:Droid", "protocol droid"]
 	},
 	{
 		"name": "Norta",
+		"description": "Norta is IsoTech's manager on Raxus Prime and Reom's long time friend. The Rodian has a personal interest in cybernetics. His eyes were replaced after he was blinded by an unexpected chemical spray while salvaging a fuel processing unit from the scrap yards on Raxus Prime. Cybernetic eyes have enhanced his vision, granting him normal sight as well as a limited ability to see in infrared. Norta has worked for many years developing IsoTech's business on Raxus Prime and getting the corvette up and running.",
 		"type": "Rival",
 		"characteristics": {
 			"Brawn": 2,
@@ -703,8 +657,7 @@
 		},
 		"derived": {
 			"soak": 4,
-			"wounds": 12,
-			"defence": [0, 0]
+			"wounds": 12
 		},
 		"skills": {
 			"Cool": 1,
@@ -717,8 +670,8 @@
 		},
 		"talents": ["Contraption"],
 		"weapons": ["Blaster pistol"],
-		"gear": ["Padded armor (+2 soak)", "Utility Belt", "Comlink", "Toolkit"],
-		"tags": ["book:btr"]
+		"gear": ["Padded armour (+2 Soak)", "Utility belt", "Comlink", "Toolkit"],
+		"tags": ["book:btr", "engineer", "species:Rodian"]
 	},
 	{
 		"name": "Reevos",
@@ -733,8 +686,7 @@
 		},
 		"derived": {
 			"soak": 4,
-			"wounds": 35,
-			"defence": [0, 0]
+			"wounds": 35
 		},
 		"skills": {
 			"Athletics": 2,
@@ -744,22 +696,24 @@
 		},
 		"abilities": ["Silhouette 2"],
 		"weapons": [
-				{
+			{
 				"name": "Bite",
 				"skill": "Brawl",
 				"damage": 7,
 				"critical": 3,
-				"range": "Engaged"
-				},
-				{
-				"name": "Water BLast",
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			},
+			{
+				"name": "Water blast",
 				"skill": "Ranged: Heavy",
 				"damage": 5,
 				"critical": 4,
-				"range": "Medium"
-				}
-				],
-		"tags": ["book:btr", "Creature"]
+				"range": "Medium",
+				"qualities": ["Knockdown", "Slow-Firing 1"]
+			}
+		],
+		"tags": ["book:btr", "creature"]
 	},
 	{
 		"name": "Trandoshan Mercenary",
@@ -774,8 +728,7 @@
 		},
 		"derived": {
 			"soak": 5,
-			"wounds": 15,
-			"defence": [0, 0]
+			"wounds": 15
 		},
 		"skills": {
 			"Coercion": 2,
@@ -788,16 +741,16 @@
 		},
 		"abilities": ["Regeneration"],
 		"weapons": ["Blaster rifle",
-				{
+			{
 				"name": "Claws",
 				"skill": "Brawl",
 				"damage": 4,
 				"critical": 3,
 				"range": "Engaged"
-				}
-				],
-		"gear": ["Padded Armor (+2 soak)", "Comlink"],
-		"tags": ["book:btr", "species:Trandoshan"]
+			}
+		],
+		"gear": ["Padded armour (+2 Soak)", "Comlink"],
+		"tags": ["book:btr", "species:Trandoshan", "underworld", "thug"]
 	},
 	{
 		"name": "Wheel Security Pilot",
@@ -812,15 +765,14 @@
 		},
 		"derived": {
 			"soak": 2,
-			"wounds": 12,
-			"defence": [0, 0]
+			"wounds": 12
 		},
 		"skills": {
 			"Gunnery": 1,
 			"Piloting: Space": 2
 		},
 		"gear": ["Flight suit"],
-		"tags": ["book:btr", "Empire"]
+		"tags": ["book:btr", "security", "pilot", "location:The Wheel"]
 	},
 	{
 		"name": "Captain Rel Harsol",
@@ -837,8 +789,7 @@
 		"derived": {
 			"soak": 4,
 			"wounds": 15,
-			"strain": 20,
-			"defence": [0, 0]
+			"strain": 20
 		},
 		"skills": {
 			"Coercion": 3,
@@ -854,9 +805,18 @@
 		},
 		"talents": ["Adversary 2", "Improved Inspiring Rhetoric", "Improved Scathing Tirade"],
 		"abilities": ["Animal Combatant", "Wilderness Valor"],
-		"weapons": ["Heavy blaster pistol", "Combat knife"],
-		"gear": ["Padded armor (+2 Soak)", "Comlink"],
-		"tags": ["underworld", "book:btr"]
+		"weapons": [
+			"Heavy blaster pistol",
+			{
+				"name": "Combat knife",
+				"skill": "Melee",
+				"damage": 3,
+				"critical": 3,
+				"range": "Engaged"
+			}
+		],
+		"gear": ["Padded armour (+2 Soak)", "Comlink"],
+		"tags": ["book:btr", "location:Cholganna", "location:Sa Nalaor"]
 	},
 	{
 		"name": "Cratala",
@@ -873,8 +833,7 @@
 		"derived": {
 			"soak": 2,
 			"wounds": 12,
-			"strain": 14,
-			"defence": [0, 0]
+			"strain": 14
 		},
 		"skills": {
 			"Coercion": 4,
@@ -890,28 +849,24 @@
 			"Ranged: Light": 2,
 			"Vigilance": 2
 		},
-		"talents": ["Surgeon 3",
-					{
-					"name": "Anatomical Expertise",
-					"description": "Once per session after a successful combat check, add 4 damage to the result."
-					},
-					{
-					"name": "Master Doctor",
-					"description": "Once per round, suffer 2 strain to decrease the difficulty of a Medicine check by 1."
-					}
-					],
+		"talents": ["Surgeon 3", "Master Doctor",
+			{
+				"name": "Anatomical Expertise",
+				"description": "Once per session after a successful combat check, add 4 damage to the result."
+			}
+		],
 		"abilities": [
-					{
-					"name": "Cybernetic Microscopic Vision",
-					"description": "Cratala gains +1 ranks in Vigilance and Perception and can zoom in to see items and organisms in the microscopic realm."
-					},
-					{
-					"name": "Cybernetics Expert",
-					"description": "May ignore one :despair: and :threat: when making a Medicine check related to cybernetics installation, diagnostics or alterations."
-					}
-					],
+			{
+				"name": "Cybernetic Microscopic Vision",
+				"description": "Cratala gains +1 ranks in Vigilance and Perception and can zoom in to see items and organisms in the microscopic realm."
+			},
+			{
+				"name": "Cybernetics Expert",
+				"description": "May ignore one :failure: and :threat: when making a Medicine check related to cybernetics installation, diagnostics or alterations."
+			}
+		],
 		"weapons": ["Blaster pistol"],
-		"gear": ["Datapad", "Medpack (grants :boost: to all Medicine skill checks)"],
-		"tags": ["book:btr"]
+		"gear": ["Datapad", "Medical kit (add :boost: to all Medicine skill checks)"],
+		"tags": ["book:btr", "medic", "engineer", "location:Cholganna", "location:Sa Nalaor", "species:Arkanaian"]
 	}
 ]

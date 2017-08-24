@@ -389,7 +389,7 @@
 				"qualities": ["Vicious 1"]
 			}
 		],
-		"tags": ["Creature","adventure:Ice Station Zulu"],
+		"tags": ["creature", "adventure:Ice Station Zulu"],
 		"devOnly": true
 	},
 	{
@@ -415,7 +415,7 @@
 			}
 		],
         "skills": ["Brawl", "Perception"],
-        "tags": ["Creature","adventure:Ice Station Zulu"],
+        "tags": ["creature", "adventure:Ice Station Zulu"],
         "weapons": [
                 {
                 "name": "Claws and teeth",
