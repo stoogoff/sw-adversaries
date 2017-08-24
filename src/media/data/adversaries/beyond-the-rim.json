@@ -36,7 +36,7 @@
 		"abilities": ["Technical Master"],
 		"weapons": ["Heavy blaster pistol", "Vibroknife"],
 		"gear": ["Heavy clothing (+1 Soak)", "Datapad", "Utility belt", "Tool kit", "Pet bogwing “Mordekai”"],
-		"tags": ["underworld", "species:Twi’lek", "assassin", "book:btr"]
+		"tags": ["underworld", "species:Twi’lek", "book:btr", "adventure:Beyond the Rim"]
 	},
 	{
 		"name": "ISB Agent",
@@ -64,7 +64,7 @@
 		},
 		"weapons": ["TT24 Holdout blaster"],
 		"gear": ["Comlink"],
-		"tags": ["book:btr", "empire", "imperial security bureau"]
+		"tags": ["book:btr", "empire", "imperial security bureau", "adventure:Beyond the Rim"]
 	},
 	{
 		"name": "ISB Supervisor Cal Alsen",
@@ -91,7 +91,7 @@
 		},
 		"weapons": ["TT24 Holdout blaster"],
 		"gear": ["Hand scanner", "Comlink", "Heavy trench coat (+1 Soak)"],
-		"tags": ["book:btr", "empire", "imperial security bureau"]
+		"tags": ["book:btr", "empire", "imperial security bureau", "adventure:Beyond the Rim"]
 	},
 	{
 		"name": "Wed Treadwell Repair Droid",
@@ -114,7 +114,7 @@
 		},
 		"abilities": ["Droid"],
 		"gear": ["Auxiliary mechanics’ equipment"],
-		"tags": ["book:btr", "species:Droid", "engineer"]
+		"tags": ["book:btr", "species:Droid", "engineer", "adventure:Beyond the Rim"]
 	},
 	{
 		"name": "Yav Yiyar",
@@ -146,12 +146,13 @@
 		"weapons": ["Heavy blaster pistol", "Vibroknife"],
 		"talents": ["Adversary 2"],
 		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Comlink"],
-		"tags": ["book:btr", "yiyar salvage"]
+		"tags": ["book:btr", "yiyar salvage", "species:Rodian", "adventure:Beyond the Rim"]
 	},
 	{
 		"name": "Cybernetically-Enhanced Nexu",
 		"type": "Rival",
-		"description": "Nexu possess a fearsome appearance, with a huge, toothy maw, four beady eyes, and massive, claw-tipped paws, all backed up by a pair of barbed tail spikes. What’s more, nexu are fully as lethal as their natural armament would suggest, and possess a temperament and instinctive cunning that make them even more greater threats. Although naturally stealthy and elusive, nexu do not lack for ferocity or mettle in a direct fight, and they rarely back down in the face of any threat they encounter. Even when faced with a more ferocious predator, nexu are more likely to attempt to melt away into the underbrush and attack again using stealth to gain an advantage than to simply flee their hunting grounds.",
+		"description": "The cyber-nexu are examples of Cratala’s handiwork. They are not under her control, but she has increased their natural territorial instincts and centred them on the starship. The cyborgs are meant to destroy anyone discovering and searching the *Sa Nalaor*.",
+		"notes": "When first encountering the cyber-nexu, characters should make a :hard: Fear check, upgrading the difficulty once.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 4,
@@ -196,7 +197,7 @@
 				"range": "Engaged"
 			}
 		],
-		"tags": ["creature", "book:btr"]
+		"tags": ["creature", "book:btr", "location:Cholganna", "location:Sa Nalaor", "adventure:Beyond the Rim"]
 	},
 	{
 		"name": "B1-Series Battle Droid (Modified)",
@@ -231,10 +232,11 @@
 				}
 			],
 		"gear": ["Comlink", "On-board processor (no external droid controller needed)"],
-		"tags": ["book:btr", "species:Droid", "separatist"]
+		"tags": ["book:btr", "species:Droid", "separatist", "adventure:Beyond the Rim"]
 	},
 	{
 		"name": "Bark Rat",
+		"description": "The bark rat is a tree-living rodent like creature found throughout the forests and jungles of Cholganna. They often fall prey to the planet’s fearsome predators, many of which can strip a bark rat tree-nest bare within minutes. The bark rat is no easy meal, however, thanks to its thick hide, quick bursts of speed, and prehensile, whip-like tail.\n\nThe creature is covered in a thick, leathery hide that mimics the rough texture and appearance of Cholganna’s roughest tree bark. It also has a chameleon-like colour adaptation quality, making it difficult to spot when still. The bark rat is an omnivore with small ears, a flat nose, and teeth equally suited to vegetation or flesh.\n\nBark rats typically live within dead tree trunks or large branches, which they hollow out. They are not particularly perceptive; it is not uncommon for them to inadvertently remove too much material, causing a dead limb or a tree to fall, especially if a heavy predator lands on the tree. A fallen tree-nest is instantly abandoned, sending bark rats scurrying about the wilderness, eventually to regroup at a new tree. If a tree falls due to a predator, a dozen rats swarm the attacker while the others flee. Their battle tactics combine their speed and numbers. They keep on the move while their tails whip and lacerate attackers’ legs and soft underbellies. If a target falls to the ground or is wrapped around a tree limb or trunk, they swarm over it, biting and clawing at it from all sides.",
 		"type": "Minion",
 		"characteristics": {
 			"Brawn": 1,
@@ -277,7 +279,7 @@
 				"qualities": ["Knockdown"]
 			}
 		],
-		"tags": ["book:btr", "creature"]
+		"tags": ["book:btr", "creature", "location:Cholganna", "adventure:Beyond the Rim"]
 	},
 	{
 		"name": "Deep Dark Scout Trooper",
@@ -295,7 +297,8 @@
 			"wounds": 10
 		},
 		"skills": ["Athletics", "Discipline", "Melee", "Ranged: Heavy", "Ranged: Light", "Vigilance"],
-		"weapons": [ "Light blaster pistol", "Frag grenade",
+		"weapons": [
+			"Light blaster pistol", "Frag grenade",
 			{
 				"name": "Heavy blaster rifle",
 				"skill": "Ranged: Heavy",
@@ -306,11 +309,11 @@
 			}
 		],
 		"gear": ["Utility belt", "Extra reloads", "Scout trooper armour (+2 Soak)", "2 Frag grenades"],
-		"tags": ["book:btr", "empire", "imperial military", "stormtrooper"]
+		"tags": ["book:btr", "empire", "imperial military", "stormtrooper", "adventure:Beyond the Rim"]
 	},
 	{
 		"name": "Survivor",
-		"description": "The *Sa Nalaor* crew and survivors are a diverse mix of species including Arkanians, Aqualish, Gossams, Twi'leks, humans, and more. They range in age from the late forties on up. The survivors are divided as to Harsol's leadership. Some survivors are bitter to have been trapped on Cholganna for so long and fear Captain Harsol, while others are satisfied to be bneyond the reach of the Empire and forgotten by the galaxy. A few have tried to mutiny, albeit unsuccessfully. They “disappeared” soon after the failed coup attempt.",
+		"description": "The *Sa Nalaor* crew and survivors are a diverse mix of species including Arkanians, Aqualish, Gossams, Twi’leks, humans, and more. They range in age from the late forties on up. The survivors are divided as to Harsol’s leadership. Some survivors are bitter to have been trapped on Cholganna for so long and fear Captain Harsol, while others are satisfied to be bneyond the reach of the Empire and forgotten by the galaxy. A few have tried to mutiny, albeit unsuccessfully. They “disappeared” soon after the failed coup attempt.",
 		"type": "Minion",
 		"characteristics": {
 			"Brawn": 2,
@@ -345,7 +348,7 @@
 			}
 		],
 		"gear": ["Comlink"],
-		"tags": ["book:btr", "location:Cholganna", "location:Sa Nalaor"]
+		"tags": ["book:btr", "location:Cholganna", "location:Sa Nalaor", "adventure:Beyond the Rim"]
 	},
 	{
 		"name": "Wheel Security",
@@ -365,11 +368,11 @@
 		"skills": ["Brawl", "Coercion", "Melee", "Ranged: Light", "Vigilance"],
 		"weapons": ["Blaster pistol", "Truncheon"],
 		"gear": ["Comlink", "Datapad", "Riot armour (+2 Soak)"],
-		"tags": ["book:btr", "security", "location:The Wheel"]
+		"tags": ["book:btr", "security", "location:The Wheel", "adventure:Beyond the Rim"]
 	},
 	{
 		"name": "Yiyar Clan Members",
-		"description": "Most Yiyar clan members are self-centred or, at best, focused on internal politics and power struggles. Yav's associates are loyal to him and see the *Sa Nalaor* as a huge opportunity to raise their status. Four serve aboard the *Nightflyer*, and a dozen more live on the Wheel and operate the Yiyar Salvage cargo bay, auctions, and sales.",
+		"description": "Most Yiyar clan members are self-centred or, at best, focused on internal politics and power struggles. Yav’s associates are loyal to him and see the *Sa Nalaor* as a huge opportunity to raise their status. Four serve aboard the *Nightflyer*, and a dozen more live on the Wheel and operate the Yiyar Salvage cargo bay, auctions, and sales.",
 		"type": "Minion",
 		"characteristics": {
 			"Brawn": 2,
@@ -386,7 +389,7 @@
 		"skills": ["Athletics", "Discipline", "Melee", "Piloting: Planetary", "Ranged: Light", "Stealth"],
 		"weapons": ["Blaster pistol", "Vibroknife"],
 		"gear": ["Comlink", "Padded armour (+2 Soak)"],
-		"tags": ["book:btr", "yiyar salvage"]
+		"tags": ["book:btr", "yiyar salvage", "adventure:Beyond the Rim"]
 	},
 	{
 		"name": "Yiyar Salvage Tech",
@@ -406,10 +409,11 @@
 		"skills": ["Brawl", "Coercion", "Mechanics", "Melee", "Ranged: Light"],
 		"weapons": ["Heavy blaster pistol"],
 		"gear": ["Comlink", "Padded armour (+2 Soak)"],
-		"tags": ["book:btr", "yiyar salvage", "engineer"]
+		"tags": ["book:btr", "yiyar salvage", "engineer", "adventure:Beyond the Rim"]
 	},
 	{
 		"name": "“Too Low” Talo",
+		"description": "“Too Low” Talo is the Sullustan second-in-command of Yiyar Salvage’s Wheel cargo bay. Publicly, he was hired to help expand the Yiyar’s operations at the station and smooth over relations with customers. He secretly disrupts their competitors’ operations, from orchestrating minor diversions to bribing officials to hinder them to sabotaging them outright. After the kidnapping attempt at the Wheel, Talo is sent to lead a revenge attack against IsoTech at Scrapheap Point.\n\nTalo is heavily scarred about the head and hands having suffered injuries in numerous illegal operations and a fair number of fights with Imperials and lowlifes alike. He is loud and overbearing, surprising many larger species with his quick temper and toughness. Rumour has it he’s stared down Wookiees and won arguments with Hutts out of sheer tenacity. Talo’s nickname comes from an unfortunate accident in which he overestimated a speeder truck’s total capacity during a fast getaway. He ploughed a load of illicit goods into a canyon rim instead of into the open cargo bay of the waiting smuggler’s ship parked above it.",
 		"type": "Rival",
 		"characteristics": {
 			"Brawn": 2,
@@ -437,7 +441,7 @@
 		"talents": ["Adversary 1"],
 		"weapons": ["Blaster pistol", "Vibroknife"],
 		"gear": ["Comlink", "Padded armour (+2 Soak)", "Utility belt"],
-		"tags": ["book:btr", "yiyar salvage", "species:Sullustan"]
+		"tags": ["book:btr", "yiyar salvage", "species:Sullustan", "adventure:Beyond the Rim"]
 	},
 	{
 		"name": "Arak-series Probe Droid",
@@ -467,10 +471,11 @@
 		],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Comlink", "Holocam", "Built-in sensors (Medium range)"],
-		"tags": ["book:btr", "species:Droid"]
+		"tags": ["book:btr", "species:Droid", "adventure:Beyond the Rim"]
 	},
 	{
 		"name": "Arboreal Octopus",
+		"description": "The arboreal octopus is a multi-tentacled horror that lives in the upper canopy of the forest. It descends to the lower branches to ambush its prey from above. Pack hunters that rely on stealth and agility, the octopi wrap themselves around large tree trunks or solid tree limbs and ensnare unwitting prey as it passes below. Once an arboreal octopus has grabbed its victim, it tries to haul it up to a higher perch to eat its meal.\n\nThe arboreal octopus is a mottled brown-green colour, ideally suited for concealing itself among the tree trunks and branches. Its skin is flexible but difficult to pierce. Its central body is round and less flexible and covered in heavy fur and thick hairs. The octopus is difficult to sneak up on, as it has four eyes distributed evenly around the centre of its body and a pair of eyes at the top of its head. Its mouth, centred on its ventral side, sports pointed, razor-sharp teeth.\n\nFour of its tentacles are used primarily for climbing and moving about. These possess spikes and short claws along their lengths, enabling the creature to latch on and keep an impossibly tight hold on its perch. The other three tentacles are used mainly for hunting. Each ends in a triple-pronged talon for injuring its prey as it captures it. The tentacle also secretes a sticky substance along its length that helps hold prey while the octopus moves from limb to limb.",
 		"type": "Rival",
 		"characteristics": {
 			"Brawn": 3,
@@ -511,7 +516,7 @@
 				"qualities": ["Ensnare 2", "Linked 3"]
 			}
 		],
-		"tags": ["book:btr", "creature"]
+		"tags": ["book:btr", "creature", "adventure:Beyond the Rim"]
 	},
 	{
 		"name": "Captain Shorwarr",
@@ -549,7 +554,7 @@
 				"qualities": ["Cumbersome 3", "Defensive 1", "Superior"]
 			}
 		],
-		"tags": ["book:btr", "species:Wookiee"]
+		"tags": ["book:btr", "species:Wookiee", "adventure:Beyond the Rim"]
 	},
 	{
 		"name": "Green Bug Swarm",
@@ -590,7 +595,7 @@
 				"notes": "Spend :advantage::advantage: to deal 3 Strain."
 			}
 		],
-		"tags": ["book:btr", "creature"]
+		"tags": ["book:btr", "creature", "adventure:Beyond the Rim"]
 	},
 	{
 		"name": "Imperial Navy Pilot",
@@ -614,7 +619,7 @@
 		},
 		"talents": ["Full Throttle"],
 		"gear": ["Flight suit"],
-		"tags": ["book:btr", "empire", "imperial military"]
+		"tags": ["book:btr", "empire", "imperial military", "adventure:Beyond the Rim", "pilot"]
 	},
 	{
 		"name": "IT-3PO",
@@ -641,11 +646,11 @@
 		},
 		"abilities": ["Droid", "Etiquette and Protocol"],
 		"talents": ["Convincing Demeanor 2"],
-		"tags": ["book:btr", "species:Droid", "protocol droid"]
+		"tags": ["book:btr", "species:Droid", "protocol droid", "adventure:Beyond the Rim"]
 	},
 	{
 		"name": "Norta",
-		"description": "Norta is IsoTech's manager on Raxus Prime and Reom's long time friend. The Rodian has a personal interest in cybernetics. His eyes were replaced after he was blinded by an unexpected chemical spray while salvaging a fuel processing unit from the scrap yards on Raxus Prime. Cybernetic eyes have enhanced his vision, granting him normal sight as well as a limited ability to see in infrared. Norta has worked for many years developing IsoTech's business on Raxus Prime and getting the corvette up and running.",
+		"description": "Norta is IsoTech’s manager on Raxus Prime and Reom’s long time friend. The Rodian has a personal interest in cybernetics. His eyes were replaced after he was blinded by an unexpected chemical spray while salvaging a fuel processing unit from the scrap yards on Raxus Prime. Cybernetic eyes have enhanced his vision, granting him normal sight as well as a limited ability to see in infrared. Norta has worked for many years developing IsoTech’s business on Raxus Prime and getting the corvette up and running.",
 		"type": "Rival",
 		"characteristics": {
 			"Brawn": 2,
@@ -671,7 +676,7 @@
 		"talents": ["Contraption"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Padded armour (+2 Soak)", "Utility belt", "Comlink", "Toolkit"],
-		"tags": ["book:btr", "engineer", "species:Rodian"]
+		"tags": ["book:btr", "engineer", "species:Rodian", "adventure:Beyond the Rim"]
 	},
 	{
 		"name": "Reevos",
@@ -713,7 +718,7 @@
 				"qualities": ["Knockdown", "Slow-Firing 1"]
 			}
 		],
-		"tags": ["book:btr", "creature"]
+		"tags": ["book:btr", "creature", "location:Cholganna", "adventure:Beyond the Rim"]
 	},
 	{
 		"name": "Trandoshan Mercenary",
@@ -750,7 +755,7 @@
 			}
 		],
 		"gear": ["Padded armour (+2 Soak)", "Comlink"],
-		"tags": ["book:btr", "species:Trandoshan", "underworld", "thug"]
+		"tags": ["book:btr", "species:Trandoshan", "underworld", "thug", "adventure:Beyond the Rim"]
 	},
 	{
 		"name": "Wheel Security Pilot",
@@ -772,7 +777,7 @@
 			"Piloting: Space": 2
 		},
 		"gear": ["Flight suit"],
-		"tags": ["book:btr", "security", "pilot", "location:The Wheel"]
+		"tags": ["book:btr", "security", "pilot", "location:The Wheel", "adventure:Beyond the Rim"]
 	},
 	{
 		"name": "Captain Rel Harsol",
@@ -816,7 +821,7 @@
 			}
 		],
 		"gear": ["Padded armour (+2 Soak)", "Comlink"],
-		"tags": ["book:btr", "location:Cholganna", "location:Sa Nalaor"]
+		"tags": ["book:btr", "location:Cholganna", "location:Sa Nalaor", "separatist", "adventure:Beyond the Rim"]
 	},
 	{
 		"name": "Cratala",
@@ -867,6 +872,6 @@
 		],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Datapad", "Medical kit (add :boost: to all Medicine skill checks)"],
-		"tags": ["book:btr", "medic", "engineer", "location:Cholganna", "location:Sa Nalaor", "species:Arkanaian"]
+		"tags": ["book:btr", "medic", "engineer", "location:Cholganna", "location:Sa Nalaor", "species:Arkanian", "separatist", "adventure:Beyond the Rim"]
 	}
 ]
