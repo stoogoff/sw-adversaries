@@ -519,7 +519,8 @@
 		},
 		"derived": {
 			"soak": 3,
-			"wounds": 15
+			"wounds": 15,
+			"defence": [1, 0]
 		},
 		"skills": {
 			"Athletics": 2,
@@ -891,15 +892,15 @@
 		},
 		"talents": ["Surgeon 3",
 					{
+					"name": "Anatomical Expertise",
+					"description": "Once per session after a successful combat check, add 4 damage to the result."
+					},
+					{
 					"name": "Master Doctor",
 					"description": "Once per round, suffer 2 strain to decrease the difficulty of a Medicine check by 1."
 					}
 					],
 		"abilities": [
-					{
-					"name": "Anatomical Expertise",
-					"description": "Once per session after a successful combat check, add 4 damage to the result."
-					},
 					{
 					"name": "Cybernetic Microscopic Vision",
 					"description": "Cratala gains +1 ranks in Vigilance and Perception and can zoom in to see items and organisms in the microscopic realm."
