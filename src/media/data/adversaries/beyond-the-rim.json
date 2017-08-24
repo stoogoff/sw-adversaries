@@ -564,7 +564,7 @@
 		"derived": {
 			"soak": 3,
 			"wounds": 17,
-			"defence": [1, 0]
+			"defence": [0, 0]
 		},
 		"skills": {
 			"Athletics": 1,
@@ -575,7 +575,7 @@
 			"Survival": 2,
 			"Vigilance": 2
 		},
-		"talents": ["Expert Tracker 1", "Natural Hunter"],
+		"talents": ["Expert Tracker 1", "Natural Hunter", "Hunter’s Quarry"],
 		"abilities": ["Wookiee Rage"],
 		"weapons": ["Bowcaster",
 				{
@@ -592,7 +592,7 @@
 				"damage": 5,
 				"critical": 2,
 				"range": "Engaged",
-				"qualities": ["Cumbersome 3", "Desfensive 1", "Superior"]
+				"qualities": ["Cumbersome 3", "Defensive 1", "Superior"]
 				}
 				],
 		"tags": ["book:btr", "species:Wookiee"]
