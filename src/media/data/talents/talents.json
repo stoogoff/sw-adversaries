@@ -1008,6 +1008,10 @@
 		"description": ""
 	},
 	{
+		"name": "On-board Processor",
+		"description": "No external droid controller needed"
+	},
+	{
 		"name": "One with Nature",
 		"description": ""
 	},

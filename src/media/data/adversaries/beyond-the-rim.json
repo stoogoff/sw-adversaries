@@ -1,0 +1,917 @@
+[
+	{
+		"name": "Reom",
+		"type": "Nemesis",
+		"description": "Reom is a blue-skinned Twi'lek male who uses his supremely average, nondescript appearance to blend in perfectly with any starport crowd. He camouflages himself with dark grey cloaks and jumpsuits which are common in most of the stations and cultures he visits. Reom is president of IsoTech. He is a talented smuggler, crafty enterpreneur, and superb negotiator. He has contacts throughout the galaxy, including powerful figures in the underworld. Reom handles IsoTech's Outer Rim operations, particularly new acquisitions and allies.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13,
+			"strain": 13,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Astrogation": 1,
+			"Charm": 2,
+			"Coercion": 4,
+			"Cool": 2,
+			"Deception": 2,
+			"Discipline": 3,
+			"Knowledge: Underworld": 2,
+			"Mechanics": 5,
+			"Medicine": 1,
+			"Melee": 2,
+			"Negotiation": 3,
+			"Piloting: Space": 2,
+			"Ranged: Light": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Convincing Demeanor 2", "Gearhead 2", "Nobody’s Fool 1"],
+		"abilities": ["Technical Master"],
+		"weapons": ["Heavy blaster pistol",
+			{
+				"name": "vibroknife",
+				"skill": "Melee",
+				"damage": 3,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 1"]
+			}
+		],
+		"gear": ["Heavy clothing (+1 Soak)", "Datapad", "Utility belt", "Tool kit", "Pet bogwing 'Mordekai'"],
+		"tags": ["underworld", "species:Twi’lek", "assassin", "book:btr"]
+	},
+	{
+		"name": "ISB Agent",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Coercion": 1,
+			"Deception": 1,
+			"Discipline": 1,
+			"Melee": 1,
+			"Ranged: Light": 3,
+			"Streetwise": 1,
+			"Vigilance": 1
+		},
+		"weapons": [
+			{
+				"name": "TT24 Holdout Blaster",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			}
+		],
+		"gear": ["Comlink"],
+		"tags": ["book:btr", "empire", "imperial security bureau"]
+	},
+	{
+		"name": "ISB Supervisor Cal Alsen",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 16
+		},
+		"skills": {
+			"Charm": 1,
+			"Coercion": 2,
+			"Deception": 2,
+			"Ranged: Light": 2,
+			"Streetwise": 1,
+			"Vigilance": 2
+		},
+		"weapons": [
+			{
+				"name": "TT24 Holdout Blaster",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			}
+		],
+		"gear": ["Hand scanner", "Comlink", "Heavy trench coat (+1 soak)"],
+		"tags": ["book:btr", "empire", "imperial security bureau"]
+	},
+	{
+		"name": "Wed Treadwell Repair Droid",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 3
+		},
+		"skills": {
+			"Computers": 1,
+			"Mechanics": 1
+		},
+		"gear": ["Auxiliary mechanics' equipment"],
+		"tags": ["book:btr", "empire"]
+	},
+	{
+		"name": "Yav Yiyar",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 18,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Cool": 1,
+			"Deception": 2,
+			"Melee": 2,
+			"Piloting: Space": 3,
+			"Ranged: Light": 3,
+			"Stealth": 2,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"weapons": ["Heavy BLaster Pistol",
+				{
+				"name": "vibroknife",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 1"]
+				}
+			],
+		"talents": ["Adversary 2"],
+		"gear": ["Armored Clothing (+1 soak, +1 defense)", "Comlink"],
+		"tags": ["book:btr"]
+	},
+	{
+		"name": "Cybernetically-Enhanced Nexu",
+		"type": "Rival",
+		"description": "Nexu possess a fearsome appearance, with a huge, toothy maw, four beady eyes, and massive, claw-tipped paws, all backed up by a pair of barbed tail spikes. What's more, nexu are fully as lethal as their natural armament would suggest, and possess a temperament and instinctive cunning that make them even more greater threats. Although naturally stealthy and elusive, nexu do not lack for ferocity or mettle in a direct fight, and they rarely back down in the face of any threat they encounter. Even when faced with a more ferocious predator, nexu are more likely to attempt to melt away into the underbrush and attack again using stealth to gain an advantage than to simply flee their hunting grounds.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 20
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 2,
+			"Cool": 2,
+			"Stealth": 2,
+			"Vigilance": 3
+		},
+		"abilities": ["Fierce Pounce"],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged"
+			},
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1", "Pierce 1"]
+			},
+			{
+				"name": "Tail whip",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged"
+			}
+		],
+		"tags": ["creature", "book:btr"]
+	},
+	{
+		"name": "B1-Series Battle Droid",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"abilities": ["Droid",
+			      {
+				"name": "On-board Processor",
+				"description": "No external droid controller needed."
+			      },
+			      {
+				"name": "Worn Out",
+			     	"description": "Add a :setback: to each combat check. :threat::threat: on a droid's combat or skill check upgrades the difficulty of the droid's next check on the same type once. On any :despair: result, the droid shuts down for 30 seconds, through it may be restarted before it resets."
+			      }
+			     ],
+		"skills": ["Gunnery", "Melee", "Ranged: Light", "Ranged: Heavy"],
+		"weapons": [
+				{
+				"name": "Worn-out Blaster Rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 7,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Stun Setting"]
+				}
+			],
+		"gear": ["Comlink"],
+		"tags": ["book:btr", "species:Droid", "separatist"]
+	},
+	{
+		"name": "Bark Rat",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 3,
+			"defence": [1, 1]
+		},
+		"skills": ["Athletics", "Brawl", "Coordination"],
+		"weapons": [
+				{
+				"name": "Teeth and Claws",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 5,
+				"range": "Engaged"
+				},
+				{
+				"name": "Tail",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+				}
+			],
+		"gear": ["Toughened Hide (+1 soak, +1 defense)", "Prehensile tail", "Color-shifting hide (Add :boost::boost::boost: to Stealth"],
+		"tags": ["book:btr", "Creature"]
+	},
+	{
+		"name": "Deep Dark Scout Trooper",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 10
+		},
+		"skills": ["Athletics", "Discipline", "Melee", "Ranged: Heavy", "Ranged: Light", "Vigilance"],
+		"weapons": [ "Light blaster pistol", "Frag Grenade",
+				{
+				"name": "Heavy blaster rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 10,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Auto-Fire", "Cumbersome 3", "Telescopic Optical Sight"]
+				}
+			],
+		"gear": ["Utility belt", "Extra reloads", "Scout Trooper Armor (+2 soak)", "2 Frag grenades"],
+		"tags": ["book:btr", "empire", "imperial military", "stormtrooper"]
+	},
+	{
+		"name": "Survivor",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": ["Athletics", "Discipline", "Melee", "Ranged: Light", "Ranged: Heavy"],
+		"abilities": ["Animal Combatant", "Wilderness Valor",
+					{
+					"name": "Worn-out Blaster Pistol",
+					"description": "Blaster is immediately rendered inoperable on a :despair: result, and runs out of ammo on :threat::threat:"
+					}
+			     ],
+		"weapons": [
+				{
+				"name": "Worn-out Blaster Pistol",
+				"skill": "Ranged: Light",
+				"damage": 4,
+				"critical": 6,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+				},
+				{
+				"name": "Combat knife",
+				"skill": "Melee",
+				"damage": 3,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": []
+				}
+			],
+		"gear": ["Comlink"],
+		"tags": ["book:btr"]
+	},
+	{
+		"name": "Wheel Security",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": ["Brawl", "Coercion", "Melee", "Ranged: Light", "Vigilance"],
+		"weapons": ["Blaster pistol", "Truncheon"],
+		"gear": ["Comlink", "Datapad", "Riot Armor (+2 soak)"],
+		"tags": ["book:btr"]
+	},
+	{
+		"name": "Yiyar Clan Members",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 8
+		},
+		"skills": ["Athletics", "Discipline", "Melee", "Piloting: Planetary", "Ranged: Light", "Stealth"],
+		"weapons": ["Blaster pistol", "Vibroknife"],
+		"gear": ["Comlink", "Padded Armor (+2 soak)"],
+		"tags": ["book:btr"]
+	},
+	{
+		"name": "Yiyar Salvage Tech",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": ["Brawl", "Coercion", "Mechanics", "Melee", "Ranged: Light"],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Comlink", "Padded Armor (+2 soak)"],
+		"tags": ["book:btr"]
+	},
+	{
+		"name": "”Too Low” Talo",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15
+		},
+		"skills": {
+			"Athletics": 2,
+			"Cool": 1,
+			"Deception": 1,
+			"Leadership": 1,
+			"Melee": 2,
+			"Negotiation": 2,
+			"Piloting: Planetary": 2,
+			"Ranged: Light": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1"],
+		"weapons": ["Blaster pistol", "Vibroknife"],
+		"gear": ["Comlink", "Padded Armor (+2 soak)", "Utility belt"],
+		"tags": ["book:btr"]
+	},
+	{
+		"name": "Arak-series Probe Droid",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 15
+		},
+		"skills": {
+			"Computers": 3,
+			"Perception": 3,
+			"Ranged: Light": 1
+		},
+		"abilities": ["Droid",
+					{
+					"name": "Sensors",
+					"description": "Medium-range sensors"
+					},
+					{
+					"name": "Repulsorlift Locomotion",
+					"description": "Maximum altitude 3 meters"
+					}
+					],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Comlink", "Holocam", "Built-in sensors"],
+		"tags": ["book:btr", "species:Droid"]
+	},
+	{
+		"name": "Arboreal Octopus",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 15,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Cool": 3,
+			"Perception": 1,
+			"Stealth": 2,
+			"Vigilance": 2
+		},
+		"weapons": [
+			{
+				"name": "Four climbing tentacles",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1"]
+			},
+			{
+				"name": "Three hunting tentacles",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 2", "Linked 3"]
+			}
+				],
+		"tags": ["book:btr", "creature"]
+	},
+	{
+		"name": "Captain Shorwarr",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 17,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 1,
+			"Perception": 1,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 1,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Expert Tracker 1", "Natural Hunter"],
+		"abilities": ["Wookiee Rage"],
+		"weapons": ["Bowcaster",
+				{
+				"name": "Bola",
+				"skill": "Short",
+				"damage": 2,
+				"critical": 0,
+				"range": "Short",
+				"qualities": ["Ensnare 3", "Knockdown", "Limited Ammo 1"]
+				},
+				{
+				"name": "Ryyk Blade",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Cumbersome 3", "Desfensive 1", "Superior"]
+				}
+				],
+		"tags": ["book:btr", "species:Wookiee"]
+	},
+	{
+		"name": "Green Bug Swarm",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 20,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Coordination": 2,
+			"Melee": 2
+		},
+		"abilities": ["Swarm",
+				{
+				"name": "Venomous stinger",
+				"description": "On a successful hit, the target must pass an Average (:difficulty::difficulty:) Resilience check or be disoriented for 3 rounds. The GM may spend :threat::threat: to deal 3 strain"
+				},
+				{
+				"name": "Knockout Poison",
+				"description": "If the Green Bug Swarm scores a Critical Hit or exceeds a target's strain threshold, the target must make a successful Hard(:difficulty::difficulty::difficulty:) Resilience check or fall unconscious for 5 minutes or until a successful Average(:difficulty::difficulty:) Medicine check revives him."
+				}
+				],
+		"weapons": [
+				{
+				"name": "Stinger",
+				"skill": "Melee",
+				"damage": 1,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": []
+				}
+				],
+		"tags": ["book:btr", "Creature"]
+	},
+	{
+		"name": "Imperial Navy Pilot",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Gunnery": 2,
+			"Piloting: Space": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Full Throttle"],
+		"tags": ["book:btr", "Empire"]
+	},
+	{
+		"name": "IT-3PO",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10
+		},
+		"skills": {
+			"Charm": 2,
+			"Deception": 1,
+			"Knowledge: Education": 3,
+			"Knowledge: Xenology": 3,
+			"Ranged: Light": 1
+		},
+		"abilities": ["Droid", "Etiquette and Protocol"],
+		"talents": ["Convincing Demeanor 2"],
+		"gear": ["Comlink", "Holocam", "Built-in sensors"],
+		"tags": ["book:btr", "species:Droid"]
+	},
+	{
+		"name": "Norta",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Cool": 1,
+			"Mechanics": 3,
+			"Negotiation": 3,
+			"Knowledge: Underworld": 2,
+			"Ranged: Light": 2,
+			"Piloting: Planetary": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Contraption"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Padded armor (+2 soak)", "Utility Belt", "Comlink", "Toolkit"],
+		"tags": ["book:btr"]
+	},
+	{
+		"name": "Reevos",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 35,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Cool": 1,
+			"Vigilance": 1
+		},
+		"abilities": ["Silhouette 2"],
+		"weapons": [
+				{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged"
+				},
+				{
+				"name": "Water BLast",
+				"skill": "Ranged: Heavy",
+				"damage": 5,
+				"critical": 4,
+				"range": "Medium"
+				}
+				],
+		"tags": ["book:btr", "Creature"]
+	},
+	{
+		"name": "Trandoshan Mercenary",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Coercion": 2,
+			"Cool": 1,
+			"Melee": 2,
+			"Discipline": 1,
+			"Knowledge: Lore": 2,
+			"Ranged: Heavy": 2,
+			"Vigilance": 2
+		},
+		"abilities": ["Regeneration"],
+		"weapons": ["Blaster rifle",
+				{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged"
+				}
+				],
+		"gear": ["Padded Armor (+2 soak)", "Comlink"],
+		"tags": ["book:btr", "species:Trandoshan"]
+	},
+	{
+		"name": "Wheel Security Pilot",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Gunnery": 1,
+			"Piloting: Space": 2
+		},
+		"gear": ["Flight suit"],
+		"tags": ["book:btr", "Empire"]
+	},
+	{
+		"name": "Captain Rel Harsol",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 5
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"strain": 20,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Coercion": 3,
+			"Charm": 3,
+			"Cool": 4,
+			"Discipline": 3,
+			"Knowledge: Lore": 2,
+			"Leadership": 5,
+			"Melee": 3,
+			"Piloting: Space": 2,
+			"Ranged: Light": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Improved Inspiring Rhetoric", "Improved Scathing Tirade"],
+		"abilities": ["Animal Combatant", "Wilderness Valor"],
+		"weapons": ["Heavy blaster pistol", "Combat knife"],
+		"gear": ["Padded armor (+2 Soak)", "Comlink"],
+		"tags": ["underworld", "book:btr"]
+	},
+	{
+		"name": "Cratala",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 14,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Coercion": 4,
+			"Charm": 2,
+			"Cool": 2,
+			"Discipline": 3,
+			"Knowledge: Education": 4,
+			"Knowledge: Xenology": 4,
+			"Mechanics": 3,
+			"Medicine": 5,
+			"Negotiation": 3,
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Surgeon 3",
+					{
+					"name": "Anatomical Expertise",
+					"description": "Once per session after a successful combat check, add 4 damage to the result."
+					},
+					{
+					"name": "Master Doctor",
+					"description": "Once per round, suffer 2 strain to decrease the difficulty of a Medicine check by 1."
+					}
+					],
+		"abilities": [
+					{
+					"name": "Cybernetic Microscopic Vision",
+					"description": "Cratala gains +1 ranks in Vigilance and Perception and can zoom in to see items and organisms in the microscopic realm."
+					},
+					{
+					"name": "Cybernetics Expert",
+					"description": "May ignore one :despair: and :threat: when making a Medicine check related to cybernetics installation, diagnostics or alterations."
+					}
+					],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Datapad", "Medpack (grants :boost: to all Medicine skill checks)"],
+		"tags": ["book:btr"]
+	}
+]

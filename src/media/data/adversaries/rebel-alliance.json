@@ -326,6 +326,45 @@
 		"tags": ["rebel alliance", "pilot", "book:aor"]
 	},
 	{
+		"name": "Rebel Alliance Liaison",
+		"type": "Rival",
+		"description": "The alliance to restore the Republic is a vast organization that would be a serious threat if it didn't stand in opposition to perhaps the most extensive military organization ever created: the Galactic Empire. As a result, the Alliance must operate in the shadows, working with small groups to achieve minor objectives in hopes of building toward a much larger victory one day in the distant future. Most Rebels have no objection to working with criminals and other 'scum', even if some among their leadership object to such sullying alliances. Smugglers in particular are popular agents for the Alliance because the credits are good and the work is exciting, if dangerous.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14
+		},
+		"skills": {
+			"Coordination": 1,
+			"Cool": 1,
+			"Discipline": 2,
+			"Melee": 1,
+			"Negotiation": 3,
+			"Ranged: Heavy": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"weapons": ["Blaster Rifle",
+			{
+				"name": "Molecular stiletto",
+				"skill": "Melee",
+				"damage": 2,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+				],
+		"gear": ["Padded armour (+2 Soak)"],
+		"tags": ["rebel alliance", "book:eote"]
+	},
+	{
 		"name": "Starfighter Pilot",
 		"type": "Minion",
 		"description": "Prior to the Battle of Yavin, starfighter pilots were already a celebrated group among the ranks of the Alliance. High Command held firm to the opinion that their new starfighter design, the X-wing, was superior in every respect to the craft commanded by the Imperial Navy. It was thought that this superiority would translate into a distinct advantage in naval battles. Since the destruction of the Death Star, this philosophy has only gained ground and become more prevalent among other ranks of Alliance personnel. While well-founded in many regards, this philosophy has also caused something of a rift to form between starfighter pilots and the other enlisted personnel serving in the Alliance. Pilots are often considered arrogant and coddled by High Command. Whether this perception is true or not, most Alliance pilots are extremely confident to the point of being cocky.",
