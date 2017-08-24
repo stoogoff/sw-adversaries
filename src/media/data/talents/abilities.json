@@ -301,7 +301,7 @@
 	},
 	{
 		"name": "Fierce Pounce",
-		"description": "If the narglatch uses the aim maneuver, it also gains Knockdown on its next attack."
+		"description": "If the creature uses the aim maneuver, it also gains Knockdown on its next attack."
 	},
 	{
 		"name": "Flyer",
@@ -692,6 +692,10 @@
 		"description": "Deal +1 damage with Brawl and Melee attacks when suffering any Wounds. When suffering a Critical Injury, deal +2 damage with Brawl and Melee attacks instead."
 	},
 	{
+		"name": "Technical Master",
+		"description": "all subordinates within medium range add one :boost: die to all Mechanics checks."
+	},
+	{
 		"name": "Mountain Nikto",
 		"description": "Add 1 rank in Survival and the Natural Outdoorsman talent (once per game session, a Mountain Nikto may reroll any one Resilience or Survival check)."
 	},
@@ -710,5 +714,13 @@
 	{
 		"name": "Southern Nikto",
 		"description": "Add 1 rank in Perception. A Southern Nikto may add :boost: to Perception and Vigilance checks to detect sound."
+	},
+	{
+		"name": "Toughened Hide",
+		"description": "+1 soak, +1 defense"
+	},
+	{
+		"name": "Color-shifting hide",
+		"description": "Add :boost::boost: to Stealthchecks"
 	}
 ]

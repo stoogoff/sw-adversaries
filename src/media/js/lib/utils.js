@@ -132,10 +132,12 @@ let bookMap = {
 	"book:sm": "Special Modifications",
 	"book:sot": "Stay on Target",
 	"book:ss": "Savage Spirits",
+        "book:doh": "Disciples of Harmony",
 
 	// adventures
 	"book:cotgk": "Chronicles of the Gatekeeper",
 	"book:ragp": "Rescue at Glare Peak",
 	"book:uabs": "Under a Black Sun",
-	"book:flt": "Friends Like These"
+	"book:flt": "Friends Like These",
+	"book:btr": "Beyond the Rim"
 };
