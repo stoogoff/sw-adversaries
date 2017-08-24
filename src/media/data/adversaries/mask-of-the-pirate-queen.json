@@ -1,34 +1,5 @@
 [
 	{
-		"name": "Galva",
-		"type": "Minion",
-		"description": "Galva are diminutive and innocuous mammalian species native to Saleucami. They travel in large herds of up to one hundred individuals, feeding off of desert lichens and moss as they migrate across the planet's oppressively hot equatorial regions. Galva are often hunted for their skins, which can be tanned into a supple leather that has grown increasingly popular (any undamaged hide goes for 1000 credits, rarity 6). As a result, many of the largest galva hers have been depleted by overhunting",
-		"characteristics": {
-			"Brawn": 2,
-			"Agility": 2,
-			"Intellect": 1,
-			"Cunning": 1,
-			"Willpower": 1,
-			"Presence": 1
-		},
-		"derived": {
-			"soak": 2,
-			"wounds": 3
-		},
-		"skills": ["Athletics", "Perception", "Survival"],
-		"weapons": [
-				{
-				"name": "Teeth",
-				"skill": "Brawl",
-				"damage": 2,
-				"critical": 4,
-				"range": "Engaged",
-				"qualities": []
-				}
-			],
-		"tags": ["book:motpq", "Creature", "location:Saleceumai"]
-	},
-	{
 		"name": "Nuuno",
 		"type": "Nemesis",
 		"description": "A massive, omnivorous crustacean.",
@@ -43,8 +14,7 @@
 		"derived": {
 			"soak": 10,
 			"wounds": 40,
-			"strain": 14,
-			"defence": [0, 0]
+			"strain": 14
 		},
 		"skills": {
 			"Brawl": 4,
@@ -73,7 +43,7 @@
 				}
 
 			],
-		"tags": ["book:motpq", "Creature", "location:Saleceumai"]
+		"tags": ["book:motpq", "creature", "location:Saleceumai", "adventure:Mask of the Pirate Queen"]
 	},
 	{
 		"name": "Thaelo",
@@ -113,12 +83,11 @@
 				"skill": "Brawl",
 				"damage": 5,
 				"critical": 4,
-				"range": "Engaged",
-				"qualities": []
+				"range": "Engaged"
 				}
 
 			],
-		"tags": ["book:motpq", "Creature", "location:Saleceumai"]
+		"tags": ["book:motpq", "creature", "location:Saleceumai", "adventure:Mask of the Pirate Queen"]
 	},
 	{
 		"name": "Venlana Sipal, Consortium Underboss",
@@ -135,8 +104,7 @@
 		"derived": {
 			"soak": 2,
 			"wounds": 12,
-			"strain": 13,
-			"defence": [0, 0]
+			"strain": 13
 		},
 		"skills": {
 			"Charm": 3,
@@ -144,11 +112,13 @@
 			"Deception": 3,
 			"Knowledge: Underworld": 2,
 			"Melee": 2,
+			"Negotiation": 3,
 			"Ranged: Light": 2,
 			"Streetwise": 3
 		},
+		"talents": ["Adversary 2", "Point Blank 2"],
 		"weapons": ["Holdout blaster", "Vibroknife"],
 		"gear": ["Conservative clothing", "stimpack"],
-		"tags": ["book:motpq", "Creature", "location:Saleceumai"]
+		"tags": ["book:motpq", "Creature", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "species:Pantoran"]
 	}
 ]
