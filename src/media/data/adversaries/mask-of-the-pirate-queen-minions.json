@@ -2,7 +2,7 @@
 	{
 		"name": "Galva",
 		"type": "Minion",
-		"description": "Galva are diminutive and innocuous mammalian species native to Saleucami. They travel in large herds of up to one hundred individuals, feeding off of desert lichens and moss as they migrate across the planet's oppressively hot equatorial regions. Galva are often hunted for their skins, which can be tanned into a supple leather that has grown increasingly popular (any undamaged hide goes for 1000 credits, rarity 6). As a result, many of the largest galva hers have been depleted by overhunting",
+		"description": "Galva are diminutive and innocuous mammalian species native to Saleucami. They travel in large herds of up to one hundred individuals, feeding off of desert lichens and moss as they migrate across the planet's oppressively hot equatorial regions. Galva are often hunted for their skins, which can be tanned into a supple leather that has grown increasingly popular (any undamaged hide goes for 1000 credits, rarity 6). As a result, many of the largest galva hers have been depleted by overhunting.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -69,5 +69,39 @@
 		"weapons": [ "Heavy blaster pistol", "Vibrosword"],
 		"gear": ["Comlink", "Heavy battle armour (+2 Soak, +1 defence)", "Mask"],
 		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen"]
+	},
+	{
+		"name": "Corellian Bloodhound",
+		"type": "Minion",
+		"description": "add description",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 4
+		},
+		"skills": ["Athletics", "Brawl", "Perception", "Stealth", "Vigilance"],
+		"abilities": [
+					{
+					"name": "Scent",
+					"description": "Add :boost::boost: to Survival checks made to track prey."
+					}
+					],
+		"weapons": [
+				{
+				"name": "Teeth",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 4,
+				"range": "Engaged"
+				}
+			],
+		"tags": ["book:motpq", "creature", "location:Corellia", "adventure:Mask of the Pirate Queen"]
 	}
 ]
