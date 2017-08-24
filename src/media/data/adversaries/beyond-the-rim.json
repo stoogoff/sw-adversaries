@@ -234,7 +234,7 @@
 		"tags": ["creature", "book:btr"]
 	},
 	{
-		"name": "B1-Series Battle Droid",
+		"name": "B1-Series Battle Droid (Modified)",
 		"type": "Minion",
 		"characteristics": {
 			"Brawn": 2,
@@ -325,7 +325,7 @@
 			"wounds": 10
 		},
 		"skills": ["Athletics", "Discipline", "Melee", "Ranged: Heavy", "Ranged: Light", "Vigilance"],
-		"weapons": [ "Light blaster pistol", "Frag Grenade",
+		"weapons": [ "Light blaster pistol", "Frag grenade",
 				{
 				"name": "Heavy blaster rifle",
 				"skill": "Ranged: Heavy",
