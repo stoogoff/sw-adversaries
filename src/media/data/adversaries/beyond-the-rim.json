@@ -180,8 +180,8 @@
 				}
 			],
 		"talents": ["Adversary 2"],
-		"gear": ["Armored Clothing (+1 soak, +1 defense)"],
-		"tags": ["book:btr", "empire"]
+		"gear": ["Armored Clothing (+1 soak, +1 defense)", "Comlink"],
+		"tags": ["book:btr"]
 	},
 	{
 		"name": "Cybernetically-Enhanced Nexu",
@@ -442,7 +442,7 @@
 		"tags": ["book:btr"]
 	},
 	{
-		"name": "'Too Low' Talo",
+		"name": "”Too Low” Talo",
 		"type": "Rival",
 		"characteristics": {
 			"Brawn": 2,
