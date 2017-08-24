@@ -142,5 +142,6 @@ let bookMap = {
 	"book:ragp": "Rescue at Glare Peak",
 	"book:uabs": "Under a Black Sun",
 	"book:flt": "Friends Like These",
-	"book:btr": "Beyond the Rim"
+	"book:btr": "Beyond the Rim",
+	"book:motpq": "Mask of the Pirate Queen"
 };
