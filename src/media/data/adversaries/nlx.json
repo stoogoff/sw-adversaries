@@ -4,63 +4,38 @@
 		"type": "Nemesis",
 		"description": "The Dark Lord of the Sith",
 		"characteristics": {
-			"Brawn": 2,
+			"Brawn": 7,
 			"Agility": 3,
 			"Intellect": 3,
 			"Cunning": 3,
-			"Willpower": 5,
+			"Willpower": 4,
 			"Presence": 4
 		},
 		"derived": {
-			"soak": 4,
-			"wounds": 22,
-			"strain": 25,
+			"soak": 15,
+			"wounds": 42,
+			"strain": 40,
 			"defence": [2, 2]
 		},
 		"skills": {
-
-			"Athletics": 3,
-			"Brawl": 3,
-			"Charm": 2,
-			"Coercion": 2,
+			"Lightsaber": 5,
+			"Coercion": 5,
 			"Deception": 1,
-			"Discipline": 4,
-			"Knowledge: Core Worlds": 2,
-			"Knowledge: Education": 2,
+			"Discipline": 5,
 			"Knowledge: Lore": 2,
 			"Knowledge: Outer Rim": 2,
 			"Knowledge: Underworld": 2,
 			"Knowledge: Warfare": 2,
-			"Knowledge: Xenology": 2,
-			"Leadership": 2,
-			"Lightsaber (Willpower)": 4,
-			"Melee": 3,
+			"Lightsaber": 5,
 			"Perception": 2,
-			"Survival": 3,
+			"Piloting: Space": 5,
 			"Vigilance": 3
 		},
-		"talents": ["Adversary 3", "Reflect 4", "Parry 4", "Draw Closer", "Niman Technique"],
-		"abilities": ["Force power: Harm (Upgrade)", "Aura of Command", "Darkside Force User", "Force Rating 3"],
-		"weapons": [
-			{
-				"name": "Double-bladed lightsaber",
-				"skill": "Lightsaber (Willpower)",
-				"damage": 10,
-				"critical": 1,
-				"range": "Engaged",
-				"qualities": ["Breach 1", "Sunder", "Vicious 2", "Linked 1", "Unwieldy 3"]
-			},
-			{
-				"name": "Modded cortosis staff",
-				"skill": "Melee",
-				"damage": 8,
-				"critical": 1,
-				"range": "Engaged",
-				"qualities": ["Breach 1", "Cortosis", "Defensive 1"]
-			}
-		],
-		"gear": ["Superior Jedi temple guard armour (+2 Soak, +2 Defence, remove :setback: from darkness or similar environmental effects, built-in comlink)"],
-		"tags": ["empire", "inquisitor", "force sensitive", "jedi", "darkside", "Hunter of Relle"],
+		"talents": ["Adversary 5", "Reflect 5", "Improved Reflect", "Parry 5", "Improved Parry", "Center of Being 3", "Center of Being (Improved)", "Durable 10", "Saber Throw"],
+		"abilities": ["Force power: Harm (Upgrade)", "Aura of Command", "Darkside Force User", "Force Rating 6"],
+		"weapons": ["Lightsaber"],
+		"gear": ["Superior Jedi temple guard armour (+2 Soak, +2 Defence, remove :setback::setback: from darkness or similar environmental effects, built-in comlink)"],
+		"tags": ["empire", "force sensitive", "jedi", "darkside"],
 		"devOnly": true
 	}
 ]
