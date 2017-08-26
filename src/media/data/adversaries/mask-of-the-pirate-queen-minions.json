@@ -266,5 +266,35 @@
 		"weapons": ["Blaster pistol", "Vibroknife"],
 		"gear": ["Padded armour (+2 soak)"],
 		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
+	},
+	{
+		"name": "Sorority Engineer",
+		"type": "Minion",
+		"description": "add description",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 3
+		},
+		"skills": ["Computers", "Mechanics", "Melee", "Ranged: Light"],
+		"weapons": ["Blaster pistol",
+			{
+				"name": "Heavy hydrospanner",
+				"skill": "Melee",
+				"damage": "",
+				"critical": "5",
+				"range": "Engaged",
+				"qualities": ["Disorient 2"]
+			}
+		],
+		"gear": ["Utility Belt (Increase Encumbrance Threshold by 1)", "Breath Mask", "Glow Rod", "Tool Kit", "Sealed coveralls"],
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
 	}
 ]
