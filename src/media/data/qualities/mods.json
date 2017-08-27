@@ -1,5 +1,9 @@
 [
 	{
+		"name": "Forearm Grip",
+		"description": "Decreases the additional difficulty of making Ranged (Heavy) checks with this weapon while engaged to an additional :difficulty:, rather than :average:."
+	},
+	{
 		"name": "Multi-optic Sight",
 		"description": "Remove up to :setback::setback: on any checks to use this weapon due to smoke, darkness, or other environmental conditions that obstruct vision."
 	},

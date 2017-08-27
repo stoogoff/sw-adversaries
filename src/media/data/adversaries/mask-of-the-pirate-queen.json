@@ -298,6 +298,133 @@
 		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
 	},
 	{
+		"name": "Sorority Fighter Jockey",
+		"type": "Minion",
+		"description": "add description",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 3
+		},
+		"skills": ["Astrogation", "Gunnery", "Piloting: Space", "Ranged: Light"],
+		"weapons": ["Blaster pistol"],
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
+	},
+	{
+		"name": "Sorority Kill Team Member",
+		"type": "Minion",
+		"description": "add description",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5,
+			"defence": [1, 1]
+		},
+		"skills": ["Melee", "Vigilance", "Ranged: Light"],
+		"weapons": ["Blaster pistol", "Vibroknife"],
+		"gear": ["Armoured clothing (+1 soak, +1 defence)"],
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
+	},
+	{
+		"name": "Sorority Palace Guard",
+		"type": "Minion",
+		"description": "add description",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": ["Coercion", "Cool", "Discipline", "Melee", "Ranged: Light"],
+		"weapons": ["Blaster carbine", "Vibrosword"],
+		"gear": ["Heavy clothing uniform (+1 soak)"],
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
+	},
+	{
+		"name": "Sorority Pirate",
+		"type": "Minion",
+		"description": "add description",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": ["Coercion", "Cool", "Melee", "Ranged: Heavy", "Ranged: Light"],
+		"weapons": ["Blaster carbine", "Heavy blaster pistol", "Vibroknife", "Vibrosword"],
+		"gear": ["Heavy clothing (+1 soak)"],
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
+	},
+	{
+		"name": "Sorority Pirate Queensguard",
+		"type": "Minion",
+		"description": "add description",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 6,
+			"defence": [1, 1]
+		},
+		"skills": ["Coercion", "Cool", "Melee", "Ranged: Heavy", "Vigilance"],
+		"weapons": ["Blaster carbine", "Heavy blaster pistol", "Vibro-ax"],
+		"gear": ["Armoured clothing (+1 soak, +1 defence)"],
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
+	},
+	{
+		"name": "Sorority Saboteur",
+		"type": "Minion",
+		"description": "add description",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 3
+		},
+		"skills": ["Computers", "Mechanics", "Melee", "Ranged: Light", "Skullduggery"],
+		"weapons": ["Heavy blaster pistol", "Vibroknife"],
+		"gear": ["Heavy clothing (+1 soak)", "Utility Belt (increases Encumberance Threshold by 1)"],
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
+	},
+	{
 		"name": "Nuuno",
 		"type": "Nemesis",
 		"description": "A massive, omnivorous crustacean.",
@@ -373,7 +500,7 @@
 		"talents": ["Adversary 2", "Point Blank 2"],
 		"weapons": ["Holdout blaster", "Vibroknife"],
 		"gear": ["Conservative clothing", "stimpack"],
-		"tags": ["book:motpq", "Creature", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "species:Pantoran"]
+		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "species:Pantoran"]
 	},
 	{
 		"name": "Thaelo",
@@ -417,6 +544,313 @@
 				}
 
 			],
-		"tags": ["book:motpq", "creature", "location:Saleceumai", "adventure:Mask of the Pirate Queen"]
+		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen"]
+	},
+	{
+		"name": "Consortium Starfighter Pilot",
+		"type": "Rival",
+		"description": "Add description.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 14
+		},
+		"skills": {
+			"Astrogation": 2,
+			"Computers": 1,
+			"Discipline": 2,
+			"Gunnery": 2,
+			"Piloting: Space": 2,
+			"Ranged: Light": 1
+		},
+		"talents": ["Natural Pilot"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Crash survival kit", "Flight suit with helmet"],
+		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen"]
+	},
+	{
+		"name": "Fleet Officer",
+		"type": "Rival",
+		"description": "Add description.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10
+		},
+		"skills": {
+			"Astrogation": 2,
+			"Computers": 1,
+			"Discipline": 3,
+			"Gunnery": 2,
+			"Piloting: Space": 2,
+			"Ranged: Light": 1
+		},
+		"weapons": ["Blaster pistol"],
+		"gear": ["Comlink (handheld)", "Uniform"],
+		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen"]
+	},
+	{
+		"name": "Gerk, Houk Supervisor",
+		"type": "Rival",
+		"description": "Add description.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 10,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Coercion": 3,
+			"Resilience": 3,
+			"Vigilance": 2,
+			"Ranged: Light": 3
+		},
+		"weapons": ["Heavy blaster pistol", "Brass Knuckles"],
+		"gear": ["Armoured Clothing (+1 Soak, Defence 1)", "Breath mask"],
+		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen"]
+	},
+	{
+		"name": "Graf Lind, Former Pirate",
+		"type": "Rival",
+		"description": "Add description.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 2,
+			"Charm": 3,
+			"Deception": 3,
+			"Knowledge: Underworld": 2,
+			"Melee": 3,
+			"Ranged: Light": 3,
+			"Streetwise": 3
+		},
+		"weapons": ["Holdout blaster", "Vibrorapier"],
+		"talents": ["Natural Brawler", "Quick Draw"],
+		"gear": ["Heavy Clothing (+1 Soak)", "Prosthetic leg replacement"],
+		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen"]
+	},
+	{
+		"name": "Oake, Veteran Clone Trooper",
+		"type": "Rival",
+		"description": "Add description.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 13,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Discipline": 2,
+			"Medicine": 2,
+			"Melee": 2,
+			"Ranged: Heavy": 2,
+			"Survival": 2,
+			"Vigilance": 3
+		},
+		"weapons": ["Vibroknife", "Blaster pistol",
+			{
+				"name": "Light repeating blaster",
+				"skill": "Ranged: Heavy",
+				"damage": 11,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Cumbersome 3", "Auto-fire", "Pierce 1"]
+			}
+				],
+		"talents": ["Point Blank 1"],
+		"abilities": ["Teamwork",
+				{
+					"name": "Hard of Hearing",
+					"description": "Add :setback: when attempting a Perception check based on auditory clues"
+				}
+					],
+		"gear": ["Worn clone trooper armor (+2 Soak)", "Utility belt (Increase encumberance threshold by 1)"],
+		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "clone"]
+	},
+	{
+		"name": "Jayk, Veteran Clone Trooper",
+		"type": "Rival",
+		"description": "Add description.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 13,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Discipline": 2,
+			"Melee": 2,
+			"Ranged: Heavy": 2,
+			"Survival": 2,
+			"Vigilance": 3
+		},
+		"weapons": ["Blaster rifle", "Vibroknife"],
+		"talents": ["Adversary 1", "Point Blank 1"],
+		"abilities": ["Near-Sighted","Teamwork"],
+		"gear": ["Worn clone trooper armor (+2 Soak)", "Utility belt (Increase encumberance threshold by 1)"],
+		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "clone"]
+	},
+	{
+		"name": "Tojo, Veteran Clone Trooper",
+		"type": "Rival",
+		"description": "Add description.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 13,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Discipline": 2,
+			"Melee": 2,
+			"Ranged: Heavy": 2,
+			"Survival": 2,
+			"Vigilance": 3
+		},
+		"weapons": ["Blaster rifle", "Vibroknife"],
+		"talents": ["Adversary 1", "Point Blank 1"],
+		"abilities": ["Teamwork",
+				{
+					"name": "Poor Memory",
+					"description": "Has difficulty remembering specific details, and must succeed at an :average: Vigilance check to recall anything important."
+				}
+					],
+		"gear": ["Worn clone trooper armor (+2 Soak)", "Utility belt (Increase encumberance threshold by 1)"],
+		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "clone"]
+	},
+	{
+		"name": "Rafe, Veteran Clone Trooper",
+		"type": "Rival",
+		"description": "Add description.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 13,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Discipline": 2,
+			"Melee": 2,
+			"Ranged: Heavy": 2,
+			"Survival": 2,
+			"Vigilance": 3
+		},
+		"weapons": ["Blaster rifle", "Vibroknife"],
+		"talents": ["Adversary 1", "Point Blank 1"],
+		"abilities": ["Teamwork",
+				{
+					"name": "Tremor",
+					"description": "Add :setback: to any Agility checks"
+				}
+					],
+		"gear": ["Worn clone trooper armor (+2 Soak)", "Utility belt (Increase encumberance threshold by 1)"],
+		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "clone"]
+	},
+	{
+		"name": "JR-12, Independent Security Contractor",
+		"type": "Rival",
+		"description": "Add description.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Cool": 3,
+			"Discipline": 3,
+			"Mechanics": 2,
+			"Negotiation": 2,
+			"Perception": 3,
+			"Ranged: Heavy": 2,
+			"Vigilance": 3
+		},
+		"weapons": ["Vibroknife",
+			{
+				"name": "Blaster carbine",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun", "Forearm Grip"]
+			}
+				],
+		"talents": ["Natural Hunter"],
+		"abilities": ["Droid"],
+		"gear": ["Worn clone trooper armor (+2 Soak)", "Utility belt (Increase encumberance threshold by 1)"],
+		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "species:Droid"]
 	}
 ]
