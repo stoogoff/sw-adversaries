@@ -1171,7 +1171,86 @@
 		},
 		"talents": ["Lethal Blows 1"],
 		"abilities": ["Excellent Climber"],
-		"weapons": ["Fists"],
+		"weapons": [
+				{
+				"name": "Fists",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged"
+				}
+			],
 		"tags": ["book:motpq","adventure:Mask of the Pirate Queen"]
+	},
+	{
+		"name": "The Anvil, Arena Fighter",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Coercion": 2,
+			"Coordination": 3,
+			"Discipline": 2,
+			"Perception": 3,
+			"Stealth": 2,
+			"Survival": 3
+		},
+		"gear": ["Mask", "Wrestling costume"],
+		"tags": ["book:motpq","adventure:Mask of the Pirate Queen"]
+	},
+	{
+		"name": "Wounded Mantellian Savrip",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 18
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Discipline": 2,
+			"Melee": 2,
+			"Perception": 2,
+			"Vigilance": 2
+		},
+		"abilities": ["Silhouette 2",
+			{
+				"name": "Poisonous Bite",
+				"description": "Anyone bitten by a Savrip must succeed at an Average (:average:) Resilience check or lose his free maneuver for five rounds."
+			}
+		],
+		"weapons": [
+			{
+			"name": "Large club",
+			"skill": "Melee",
+			"damage": 8,
+			"critical": 3,
+			"range": "Engaged",
+			"qualities": ["Disorient 3"]
+			}
+		],
+		"tags": ["book:motpq", "location:Ord Mantell", "adventure:Mask of the Pirate Queen"]
 	}
 ]
