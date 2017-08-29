@@ -252,6 +252,10 @@
 		"description": "Protocol droids allow allies to add :boost: to any Nego­tiation checks or other checks made to negotiate or mediate."
 	},
 	{
+		"name": "Excellent Climber",
+		"description": "Once per game session, the thaelo may reroll any one Athletics check made when climbing."
+	},
+	{
 		"name": "Fearsome Aspect",
 		"description": "Add :boost: to all Coercion checks."
 	},

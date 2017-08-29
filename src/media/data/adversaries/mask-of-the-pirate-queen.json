@@ -1133,7 +1133,7 @@
 		},
 		"skills": {
 			"Athletics": 2,
-			"Brawn": 3,
+			"Melee": 2,
 			"Brawl": 3,
 			"Cool": 2,
 			"Piloting: Planetary": 2,
@@ -1144,7 +1144,34 @@
 		"weapons": ["Blaster pistol", "Vibroknife"],
 		"gear": ["Adverse environment gear", "Utility belt", "Various tools"],
 		"tags": ["book:motpq","adventure:Mask of the Pirate Queen"]
+	},
+	{
+		"name": "Thaelo",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 14
+		},
+		"skills": {
+			"Athletics": 4,
+			"Brawl": 3,
+			"Coordination": 3,
+			"Perception": 3,
+			"Stealth": 2,
+			"Survival": 3
+		},
+		"talents": ["Lethal Blows 1"],
+		"abilities": ["Excellent Climber"],
+		"weapons": ["Fists"],
+		"tags": ["book:motpq","adventure:Mask of the Pirate Queen"]
 	}
-
-
 ]
