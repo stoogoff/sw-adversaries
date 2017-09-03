@@ -325,7 +325,7 @@
 	},
 	{
 		"name": "Disarming Smile",
-		"description": ""
+		"description": "Take the Disarming Smile action; succeed at an opposed Charm check to lower all defenses of a target by ranks in Disarming Smile until the end of the encounter."
 	},
 	{
 		"name": "Discredit",
@@ -1557,7 +1557,7 @@
 	},
 	{
 		"name": "True Aim",
-		"description": ""
+		"description": "Once per round, may perform a True Aim maneuver to gain benefits of aiming and upgrade combat check once per rank of True Aim."
 	},
 	{
 		"name": "Tuned Maneuvering Thrusters",
