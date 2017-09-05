@@ -556,7 +556,7 @@
 	{
 		"name": "Fambaa",
 		"type": "Rival",
-		"description": "The enormous fambaa are have been famously domesticated by Gungans for thousands of years on Naboo, but have long been exported to many other worlds including Onderon. They are sometimes compared to the much smaller dewbacks, to which they bear some physiological similarities. Herbivorous creatures, fambaa are most often used as beasts of burden. They are also effective multi-passenger mounts, having seen combat action in the Grand Gungan Army in the decade before the Clone Wars. Despite their immense size, they are docile creatures, and are rarely phased or startled, even by the noise of battle. Gungans used them to carry immense shield generators, cannons, or armored howdahs that could transport numerous individuals into battle.",
+		"description": "The enormous fambaa are have been famously domesticated by Gungans for thousands of years on Naboo, but have long been exported to many other worlds including Onderon. They are sometimes compared to the much smaller dewbacks, to which they bear some physiological similarities. Herbivorous creatures, fambaa are most often used as beasts of burden. They are also effective multi-passenger mounts, having seen combat action in the Grand Gungan Army in the decade before the Clone Wars. Despite their immense size, they are docile creatures, and are rarely phased or startled, even by the noise of battle. Gungans used them to carry immense shield generators, cannons, or armoured howdahs that could transport numerous individuals into battle.",
 		"characteristics": {
 			"Brawn": 7,
 			"Agility": 1,
@@ -621,7 +621,7 @@
 	{
 		"name": "Grabworm",
 		"type": "Minion",
-		"description": "Grabworms are four-meter-long arthropods with thick brown carapaces and maws lined with razor-wire teeth. These creatures lash their prey with a pair of long, prehensile tails or ensnare their victims with tentacle-like tongues before drawing them into their gaping mouths. Royal noblemen and Hutt dignitaries often hunt grabworms for sport. Big game hunters visit Toydaria to acquire a pair of the sharp grabworm forelegs to mount on their trophy wall. Toydarian hunters use various parts of a grabworm carcass for food, armor, weaponry, and sale goods.",
+		"description": "Grabworms are four-meter-long arthropods with thick brown carapaces and maws lined with razor-wire teeth. These creatures lash their prey with a pair of long, prehensile tails or ensnare their victims with tentacle-like tongues before drawing them into their gaping mouths. Royal noblemen and Hutt dignitaries often hunt grabworms for sport. Big game hunters visit Toydaria to acquire a pair of the sharp grabworm forelegs to mount on their trophy wall. Toydarian hunters use various parts of a grabworm carcass for food, armour, weaponry, and sale goods.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -1125,7 +1125,7 @@
 	{
 		"name": "Massiff",
 		"type": "Rival",
-		"description": "Massiffs are armored predators native to Geonosis. Commonly used as guard animals in the Outer Rim, they are up to a meter tall at the shoulder. Massiffs are vicious predators with keen senses and animal cunning, and they are especially dangerous when starving—as these specimens are. Due to their hun­ger, these massiffs continue to maul downed oppo­nents until distracted in some fashion.",
+		"description": "Massiffs are armoured predators native to Geonosis. Commonly used as guard animals in the Outer Rim, they are up to a meter tall at the shoulder. Massiffs are vicious predators with keen senses and animal cunning, and they are especially dangerous when starving—as these specimens are. Due to their hun­ger, these massiffs continue to maul downed oppo­nents until distracted in some fashion.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,

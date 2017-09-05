@@ -22,13 +22,13 @@
 			"Vigilance": 1
 		},
 		"weapons": ["Heavy blaster pistol", "Vibroknife"],
-		"gear": ["Heavy clothing (+1 soak)"],
+		"gear": ["Heavy clothing (+1 Soak)"],
 		"tags": ["underworld", "book:eote"]
 	},
 	{
 		"name": "Barabel Enforcer",
 		"type": "Rival",
-		"description": "A step up from a simple thug, an enforcer is a bit more trained and intelligent in the application of brute force. To avoid excessive expense in training such individuals, as well as to inspire fear in those they need intimidat­ed, criminal figures tend to look for imposing beings with significant physical might to fill these slots. Gamor­reans are common, of course, as are Aqualish and Wookiees, but Barabels are particularly feared because their reptilian appearance inspires a deep, primal fear in many mammalian species. Barabels are an intelligent species, but often seem otherwise be­ cause of their halting command of Basic and their seemingly primitive social cus­toms. Their physical strength is prodi­gious, however, and they also enjoy a significant amount of natural armor that protects them from many threats, making them ideal enforcers to send into danger­ ous situations.",
+		"description": "A step up from a simple thug, an enforcer is a bit more trained and intelligent in the application of brute force. To avoid excessive expense in training such individuals, as well as to inspire fear in those they need intimidat­ed, criminal figures tend to look for imposing beings with significant physical might to fill these slots. Gamor­reans are common, of course, as are Aqualish and Wookiees, but Barabels are particularly feared because their reptilian appearance inspires a deep, primal fear in many mammalian species. Barabels are an intelligent species, but often seem otherwise be­ cause of their halting command of Basic and their seemingly primitive social cus­toms. Their physical strength is prodi­gious, however, and they also enjoy a significant amount of natural armour that protects them from many threats, making them ideal enforcers to send into danger­ ous situations.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,
@@ -160,7 +160,7 @@
 		"talents": ["Adversary 3", "Crippling Blow", "Nobody’s Fool 2"],
 		"abilities": ["Leader"],
 		"weapons": ["Heavy blaster pistol", "Force pike"],
-		"gear": ["Expensive robes (+1 soak)"],
+		"gear": ["Expensive robes (+1 Soak)"],
 		"tags": ["underworld", "black sun", "book:eote"]
 	},
 	{
@@ -296,7 +296,7 @@
 				"qualities": ["Disorient 3", "Knockdown", "Stun Damage"]
 			}
 		],
-		"gear": ["Sakiyan shadowsuit (+1 soak, add :boost::boost: to all Stealth checks)", "Binders"],
+		"gear": ["Sakiyan shadowsuit (+1 Soak, add :boost::boost: to all Stealth checks)", "Binders"],
 		"tags": ["underworld", "bounty hunter", "species:Sakiyan", "book:lonh"]
 	},
 	{
@@ -317,7 +317,7 @@
 		},
 		"skills": ["Perception", "Ranged: Light"],
 		"weapons": ["Blaster pistol"],
-		"gear": ["Heavy clothing (+1 soak)"],
+		"gear": ["Heavy clothing (+1 Soak)"],
 		"tags": ["underworld", "bounty hunter", "book:eote"]
 	},
 	{
@@ -348,7 +348,7 @@
 		},
 		"talents": ["Expert Tracker", "Quick Draw"],
 		"weapons": ["Disruptor pistol", "Stun grenade", "Bolas"],
-		"gear": ["Armoured clothing (+1 soak, +1 defence)", "Jetpack", "Utility belt", "2 Stun grenades"],
+		"gear": ["Armoured clothing (+1 Soak, +1 defence)", "Jetpack", "Utility belt", "2 Stun grenades"],
 		"tags": ["underworld", "bounty hunter", "book:aor", "book:fad"]
 	},
 	{
@@ -378,7 +378,7 @@
 		},
 		"talents": ["Adversary 1", "Lethal Blows 1"],
 		"weapons": ["Heavy blaster pistol", "Disruptor rifle"],
-		"gear": ["Laminate armour (+2 soak)"],
+		"gear": ["Laminate armour (+2 Soak)"],
 		"tags": ["underworld", "bounty hunter", "book:eote"]
 	},
 	{
@@ -490,7 +490,7 @@
 		},
 		"talents": ["Adversary 1", "Natural Negotiater", "Spare Clip"],
 		"weapons": ["Disruptor pistol", "Holdout blaster"],
-		"gear": ["Armoured cloating (+1 soak, +1 defence)"],
+		"gear": ["Armoured cloating (+1 Soak, +1 defence)"],
 		"tags": ["underworld", "book:eote"]
 	},
 	{
@@ -523,7 +523,7 @@
 	{
 		"name": "Gank Hunter",
 		"type": "Rival",
-		"description": "Ganks are a war-loving, bipedal species used by the Hutts and others as bounty hunters, mercenaries, and assassins. Although little is known about the species’ origins, the Ganks’ reputation as cold-blooded killers is well known across the galaxy. Ganks cover themselves from head to toe in battle armor, and they are rarely alone, preferring to work in packs. As to what Ganks look like under the armor and prosthetics, one would have to ask a Gank to find out—a daunting prospect. Almost all Ganks augment their bodies with cybernet­ ics, the better to accomplish their violent work.",
+		"description": "Ganks are a war-loving, bipedal species used by the Hutts and others as bounty hunters, mercenaries, and assassins. Although little is known about the species’ origins, the Ganks’ reputation as cold-blooded killers is well known across the galaxy. Ganks cover themselves from head to toe in battle armour, and they are rarely alone, preferring to work in packs. As to what Ganks look like under the armour and prosthetics, one would have to ask a Gank to find out—a daunting prospect. Almost all Ganks augment their bodies with cybernet­ ics, the better to accomplish their violent work.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 4,
@@ -549,7 +549,7 @@
 		"talents": ["Rapid Reaction 1"],
 		"abilities": ["Cybernetic Communications"],
 		"weapons": ["Heavy blaster rifle", "Vibroknife"],
-		"gear": ["Heavy battle armour (+2 soak, +1 defence)", "Various cybernetic enhancements"],
+		"gear": ["Heavy battle armour (+2 Soak, +1 defence)", "Various cybernetic enhancements"],
 		"tags": ["underworld", "bounty hunter", "species:Gank", "book:lonh"]
 	},
 	{
@@ -576,7 +576,7 @@
 			"Survival": 1
 		},
 		"weapons": ["Vibro-ax", "Frag grenade"],
-		"gear": ["Beast-hide armour (+1 soak)", "2 Frag grenades"],
+		"gear": ["Beast-hide armour (+1 Soak)", "2 Frag grenades"],
 		"tags": ["underworld", "thug", "species:Weequay", "book:aor"]
 	},
 	{
@@ -597,7 +597,7 @@
 		},
 		"skills": ["Melee", "Perception", "Ranged: Light", "Vigilance"],
 		"weapons": ["Blaster pistol", "Vibroknife"],
-		"gear": ["Heavy clothing (+1 soak)"],
+		"gear": ["Heavy clothing (+1 Soak)"],
 		"tags": ["underworld", "species:Klatooinian", "thug", "book:lonh"]
 	},
 	{
@@ -689,7 +689,7 @@
 				"qualities": ["Pierce 2", "Vicious 3"]
 			}
 		],
-		"gear": ["Beast-hide armour (+1 soak)"],
+		"gear": ["Beast-hide armour (+1 Soak)"],
 		"tags": ["underworld", "thug", "species:Gamorrean", "book:eote"]
 	},
 	{
@@ -1008,7 +1008,7 @@
 				"range": "Engaged"
 			}
 		],
-		"gear": ["Armoured clothing (+1 soak, +1 defence)"],
+		"gear": ["Armoured clothing (+1 Soak, +1 defence)"],
 		"tags": ["underworld", "species:Nikto", "thug", "book:lonh"]
 	},
 	{
@@ -1029,7 +1029,7 @@
 		},
 		"skills": ["Cool", "Ranged: Heavy", "Ranged: Light"],
 		"weapons": ["Heavy blaster pistol", "Blaster carbine", "Vibroknife"],
-		"gear": ["Padded armour (+2 soak)"],
+		"gear": ["Padded armour (+2 Soak)"],
 		"tags": ["underworld", "pirate", "book:aor", "book:eote"]
 	},
 	{
@@ -1065,7 +1065,7 @@
 		"talents": ["Adversary 2", "Feral Strength 2", "Knockdown"],
 		"abilities": ["Pirate Leader"],
 		"weapons": ["Heavy blaster rifle", "Vibro-ax"],
-		"gear": ["Armoured clothing (+1 soak, +1 defence)"],
+		"gear": ["Armoured clothing (+1 Soak, +1 defence)"],
 		"tags": ["underworld", "pirate", "book:aor", "book:eote"]
 	},
 	{
@@ -1256,7 +1256,7 @@
 		},
 		"talents": ["Adversary 1", "Master Pilot", "Skilled Jockey 2"],
 		"weapons": ["Heavy blaster pistol"],
-		"gear": ["Armoured cloathing (+1 soak, +1 defence)", "YT-2400 Freighter"],
+		"gear": ["Armoured cloathing (+1 Soak, +1 defence)", "YT-2400 Freighter"],
 		"tags": ["underworld", "smuggler", "book:eote"]
 	},
 	{
@@ -1305,7 +1305,7 @@
 		},
 		"skills": ["Melee", "Ranged: Light", "Ranged: Heavy", "Skulduggery"],
 		"weapons": ["Blaster pistol", "Slugthrower rifle", "Truncheon"],
-		"gear": ["Heavy clothing (+1 soak)"],
+		"gear": ["Heavy clothing (+1 Soak)"],
 		"tags": ["underworld", "thug", "book:eote", "book:fad"]
 	},
 	{
@@ -1417,7 +1417,7 @@
 				"qualities": ["Cumbersome 2"]
 			}
 		],
-		"gear": ["Enforcer’s uniform (+1 soak)"],
+		"gear": ["Enforcer’s uniform (+1 Soak)"],
 		"tags": ["underworld", "species:Vodran", "thug", "book:lonh"]
 	},
 	{

@@ -116,6 +116,9 @@ let bookMap = {
 	"book:eote": "Edge of the Empire",
 	"book:fad": "Force and Destiny",
 
+	// beginner games
+	"book:aorbg": "Age of Rebellion: Beginner’s Game",
+
 	// source books
 	"book:lonh": "Lords of Nal Hutta",
 	"book:sor": "Strongholds of Resistance",
@@ -125,6 +128,7 @@ let bookMap = {
 	// career books
 	"book:dc": "Dangerous Covenants", // no stats
 	"book:da": "Desparate Allies",
+	"book:doh": "Disciples of Harmony",
 	"book:ev": "Endless Vigil",
 	"book:fh": "Far Horizons",
 	"book:fc": "Fly Casual",          // no stats
@@ -132,7 +136,6 @@ let bookMap = {
 	"book:sm": "Special Modifications",
 	"book:sot": "Stay on Target",
 	"book:ss": "Savage Spirits",
-        "book:doh": "Disciples of Harmony",
 
 	// adventures
 	"book:cotgk": "Chronicles of the Gatekeeper",

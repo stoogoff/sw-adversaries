@@ -82,10 +82,47 @@ Main tasks:
 		- Stay on Target
 		- **Savage Spirits (incomplete)**
 	- adventure books
+		- Beyond the Rim
 		- Chronicles of the Gatekeeper
 		- Friends Like These
 		- Rescue at Glare Peak
 		- Under a Black Sun
+	- adventures
+		- A Deal Gone Wrong
+		- A Quick Stopover
+		- Beyond the Boiling Sea
+		- Beyond the Rim
+		- Chronicles of the Gatekeeper
+		- Claustrophobia
+		- Conical Six Summit
+		- Exploring the Acablas Ruins
+		- Friends Like These
+		- Hard Bargain
+		- If It Sounds too Good to be True...
+		- In Too Deep
+		- Lessons from the Past
+		- Long Arm of the Law
+		- Lost Knowledge
+		- Operation Shell Game
+		- Perlemian Haul
+		- Phantoms in the Dark
+		- Rescue at Glare Peak
+		- Rubbing Slimy Elbows
+		- Sabacc Game on the Row
+		- Taming the Dragon
+		- The Corellian Shuffle
+		- The Dead Road
+		- The Geharr Incident
+		- The Light Within
+		- The Menagerie
+		- The Trial of Skill
+		- Toydarian Grocery Shopping
+		- Trouble Brewing
+		- Tunnel Delving
+		- Under a Black Sun
+		- Vault of Justice
+		- Welcome Aboard
+		- Witch’s Wrath
 - Favicon
 - Links between adversaries
 - Proper force pips rather than using the light side icon

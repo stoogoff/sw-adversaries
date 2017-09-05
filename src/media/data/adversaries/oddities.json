@@ -155,7 +155,7 @@
 	{
 		"name": "Morgukai Adept",
 		"type": "Nemesis",
-		"description": "The Morgukai were comprised entirely of Kajain’sa’Nikto males, who passed down their traditions from father to son and practiced a specialized form of martial arts that made them dangerous foes, even for a Jedi Knight. The Morgukai employed an arsenal of esoteric weap­onry and armor crafted with cortosis ore to make it resistant to the favored weapon of the Jedi—the lightsaber. Though they are widely thought to be extinct like the Jedi they once hunted, it is rumored that a few Morgukai persist and practice their art in secret.",
+		"description": "The Morgukai were comprised entirely of Kajain’sa’Nikto males, who passed down their traditions from father to son and practiced a specialized form of martial arts that made them dangerous foes, even for a Jedi Knight. The Morgukai employed an arsenal of esoteric weap­onry and armour crafted with cortosis ore to make it resistant to the favored weapon of the Jedi—the lightsaber. Though they are widely thought to be extinct like the Jedi they once hunted, it is rumored that a few Morgukai persist and practice their art in secret.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,
@@ -251,7 +251,7 @@
 				"qualities": ["Inferior", "Vicious 1"]
 			}
 		],
-		"gear": ["Heavy clothing (+1 soak)"],
+		"gear": ["Heavy clothing (+1 Soak)"],
 		"tags": ["galactic oddity", "species:Evocii", "location:Hutt Space", "book:lonh"]
 	},
 	{
@@ -400,7 +400,7 @@
 	{
 		"name": "Tusken Raider",
 		"type": "Minion",
-		"description": "The most commonly encountered Tusken Raider is the simple minion. Hardly a threat by themselves, they can put up stiff opposition in larger numbers... and a Tusken Raider is almost never known to travel alone.\n\nSimple minions are generally only armed with a Gaffi Stick, the traditional weapon of the Sand People. Although they don’t like much, in trained hands a Gaffi Stick can be used effectively to defend, and are particularly well suited to delivering dazing blows to opponents.\n\nA Tusken Raiders is only ever seen swaddled from head to feet in their traditional padded, desert wrappings and filter masks. These robes not only serve as armor, but help them endure the heat and sandstorms of the Tatooine badlands.",
+		"description": "The most commonly encountered Tusken Raider is the simple minion. Hardly a threat by themselves, they can put up stiff opposition in larger numbers... and a Tusken Raider is almost never known to travel alone.\n\nSimple minions are generally only armed with a Gaffi Stick, the traditional weapon of the Sand People. Although they don’t like much, in trained hands a Gaffi Stick can be used effectively to defend, and are particularly well suited to delivering dazing blows to opponents.\n\nA Tusken Raiders is only ever seen swaddled from head to feet in their traditional padded, desert wrappings and filter masks. These robes not only serve as armour, but help them endure the heat and sandstorms of the Tatooine badlands.",
 		"notes": "Tusken stats provided by [Never Tell Me the Odds](http://www.starwarsrpgpodcast.com/). Click to [view original stats and descriptions](http://www.starwarsrpgpodcast.com/2015/09/tusken-raiders-sand-people-star-wars.html).",
 		"characteristics": {
 			"Brawn": 2,

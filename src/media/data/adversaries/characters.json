@@ -2,7 +2,7 @@
 	{
 		"name": "A0-2",
 		"type": "Nemesis",
-		"description": "AO-2 is a tall, lanky combat droid with a matte black chassis layered with plates of laminate armor. A single red optic glows from his expressionless faceplate, and a black cloak hangs from his shoulders, covering much of his body. Given the time he spends in Torani’s pres­ence, he is often referred to as her shadow. Though their relationship appears to be more or less egalitar­ian, some individuals have started to wonder if AO-2 is actually Torani’s master rather than her servant.",
+		"description": "AO-2 is a tall, lanky combat droid with a matte black chassis layered with plates of laminate armour. A single red optic glows from his expressionless faceplate, and a black cloak hangs from his shoulders, covering much of his body. Given the time he spends in Torani’s pres­ence, he is often referred to as her shadow. Though their relationship appears to be more or less egalitar­ian, some individuals have started to wonder if AO-2 is actually Torani’s master rather than her servant.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -1610,7 +1610,7 @@
 			"Vigilance": 2
 		},
 		"weapons": ["Vibro-ax"],
-		"gear": ["Armoured clothing (+1 Soak"],
+		"gear": ["Armoured clothing (+1 Soak)"],
 		"tags": ["civilian", "bodyguard", "book:lonh", "adventure:Rubbing Slimy Elbows"]
 	},
 	{
@@ -1637,7 +1637,7 @@
 			"Vigilance": 2
 		},
 		"weapons": ["Blaster pistol"],
-		"gear": ["Armoured clothing (+1 Soak", "Comlink", "Scanner goggles", "Datapad", "Utility belt"],
+		"gear": ["Armoured clothing (+1 Soak)", "Comlink", "Scanner goggles", "Datapad", "Utility belt"],
 		"tags": ["civilian", "bodyguard", "book:lonh", "adventure:Rubbing Slimy Elbows"]
 	},
 	{
