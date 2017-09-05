@@ -80,7 +80,9 @@ Main tasks:
 		- Keeping the Peace
 		- Special Modifications
 		- Stay on Target
-		- **Savage Spirits (incomplete)**
+		- Savage Spirits
+	- beginner's games
+		- Age of Rebellion
 	- adventure books
 		- Beyond the Rim
 		- Chronicles of the Gatekeeper
@@ -110,6 +112,7 @@ Main tasks:
 		- Rubbing Slimy Elbows
 		- Sabacc Game on the Row
 		- Taming the Dragon
+		- Takeover at Whisper Base
 		- The Corellian Shuffle
 		- The Dead Road
 		- The Geharr Incident

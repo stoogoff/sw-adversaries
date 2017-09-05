@@ -473,7 +473,7 @@
 	},
 	{
 		"name": "Pack Instincts",
-		"description": "When performing the assist maneuver, they grant :boost::boost: instead of :boost:."
+		"description": "When performing the assist maneuver, grant :boost::boost: instead of :boost:."
 	},
 	{
 		"name": "Paralysing Neurotoxin",
@@ -504,6 +504,10 @@
 		"description": "May perform a maneuver to give orders to other pirate allies in Medium range, granting them :boost: on their next check."
 	},
 	{
+		"name": "Pre-emptive Avoidance",
+		"description": "Immediately after an opponent moves to engage an albek, the albek may spend one Destiny Point to disengage from the opponent as an out of turn incidental."
+	},
+	{
 		"name": "Reckless Strike",
 		"description": "As an incidental, once per round, the GM may have the Kintan Strider reroll a Brawl or Melee check; if he does so, the Kintan Strider loses the benefits of the Adversary and Durable talents until the beginning of its next turn."
 	},
@@ -532,6 +536,10 @@
 		"description": "When an opponent ends its turn engaged with the razhak, the opponent suffers 2 Wounds and 2 Strain."
 	},
 	{
+		"name": "Scorching Touch",
+		"description": "When an opponent ends its turn engaged with the fissrit, the opponent suffers 1 Wound and 1 Strain."
+	},
+	{
 		"name": "Self-destruct Mechanism",
 		"description": "Should the probe droid’s mission become compromised, it may self-destruct as an out of turn incidental; this expliosion does 10 damage to engaged characters."
 	},
@@ -542,6 +550,10 @@
 	{
 		"name": "Shadowed",
 		"description": "When in darkness or deep shadow, add :boost::boost: to all Stealth checks."
+	},
+	{
+		"name": "Shadowblend",
+		"description": "Upgrade the difficulty once when spotting or targeting runderen that are in darkness."
 	},
 	{
 		"name": "Shield Projector",
