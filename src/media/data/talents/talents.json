@@ -73,15 +73,15 @@
 	},
 	{
 		"name": "Basic Combat Training",
-		"description": ""
+		"description": "Brawl and Ranged: Light become career skills."
 	},
 	{
 		"name": "Beast Wrangler",
-		"description": ""
+		"description": "Add :boost per rank of Beast Wrangler to checks to tame or wrangle creatures."
 	},
 	{
 		"name": "Biggest Fan",
-		"description": ""
+		"description": "Once per session, may take a Biggest Fan action; make a Hard :hard: Charm check to turn one NPC into the character's biggest fan."
 	},
 	{
 		"name": "Black Market Contacts",
@@ -89,11 +89,11 @@
 	},
 	{
 		"name": "Blackmail",
-		"description": ""
+		"description": "When an NPC exceeds his strain threshold, may spend 1 Destiny Point to convince that NPC to perform a single task of choice instead."
 	},
 	{
 		"name": "Blind Spot",
-		"description": ""
+		"description": "The character and allies within short range add automatic :advantage: to combat checks they make while benefitting from cover."
 	},
 	{
 		"name": "Blooded",
@@ -105,11 +105,15 @@
 	},
 	{
 		"name": "Body Guard (Improved)",
-		"description": ""
+		"description": "Once per session, when an ally protected by the Body Guard maneuver suffers a hit, suffer the hit instead."
+	},
+	{
+		"name": "Body Guard (Supreme)",
+		"description": "Body Guard maneuver may protect a number of engaged characters up to ranks in Reilience."
 	},
 	{
 		"name": "Bolstered Armor",
-		"description": ""
+		"description": "Increase the armor value of Signature Vehicle by 1 per rank of Bolstered Armor."
 	},
 	{
 		"name": "Bought Info",
@@ -117,19 +121,19 @@
 	},
 	{
 		"name": "Brace",
-		"description": ""
+		"description": "Perform the Brace maneuver to remove :setback: per rank of Brace from next Action. This may only remove :setback: added by environmental circumstances."
 	},
 	{
 		"name": "Brilliant Evasion",
-		"description": ""
+		"description": "Once per encounter may take Brilliant Evasion action. Select 1 opponent and make Opposed Piloting (Planetary or Space) check to stop opponent from attacking character for rounds equal to Agility."
 	},
 	{
 		"name": "Bring it Down",
-		"description": ""
+		"description": "Once per attack, spend 1 Destiny Point to add damage to a single hit equal to target's Brawn value."
 	},
 	{
 		"name": "Burly",
-		"description": ""
+		"description": "Reduce any wielded weapon's Cumbersome quality and Encumberance rating by a number equal to ranks in Burly to a minimum of 1."
 	},
 	{
 		"name": "Bypass Security",
