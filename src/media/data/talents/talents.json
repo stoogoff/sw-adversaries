@@ -5,7 +5,7 @@
 	},
 	{
 		"name": "Against all Odds",
-		"description": ""
+		"description": "When incapacitated, perform Against All Odds action; making a hard :hard: Resilience check with :force: equal to Force rating. Heal wounds equal to :success:, spend :lightside: to add :success:."
 	},
 	{
 		"name": "All-Terrain Driver",
@@ -13,7 +13,7 @@
 	},
 	{
 		"name": "Aminal Bond",
-		"description": ""
+		"description": "Develop long-term bond with single animal of silhouette no greater than half Force rating rounded down."
 	},
 	{
 		"name": "Anatomy Lessons",
@@ -21,7 +21,7 @@
 	},
 	{
 		"name": "Animal Bond (Improved)",
-		"description": ""
+		"description": "When spending a maneuver to direct a bonded animal, the character may suffer 1 strain to add :boost: to the animal's next check."
 	},
 	{
 		"name": "Animal Empathy",
