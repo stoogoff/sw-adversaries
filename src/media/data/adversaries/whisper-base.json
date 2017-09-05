@@ -1,0 +1,121 @@
+[
+	{
+		"name": "Whisper Base Sentries",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": ["Ranged: Light"],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Army uniform and hemlet (+1 Soak)", "Canteen", "Code cylinder"],
+		"tags": ["book:aorbg", "adventure:Takeover at Whisper Base", "empire", "imperial military", "location:Whisper Base"]
+	},
+	{
+		"name": "BX-2R (“Toor”)",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12
+		},
+		"skills": {
+			"Discipline": 1,
+			"Melee": 2,
+			"Negotiation": 1
+		},
+		"weapons": [
+			{
+				"name": "Mop",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 5,
+				"range": "Engaged"
+			}
+		],
+		"gear": ["Bucket", "Cleaning supplies", "Restraining bolt"],
+		"tags": ["book:aorbg", "adventure:Takeover at Whisper Base", "species:Droid", "location:Whisper Base"]
+	},
+	{
+		"name": "Launch Pad Guards",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": ["Ranged: Heavy", "Vigilance"],
+		"weapons": ["Blaster carbine", "Vibroknife"],
+		"gear": ["Imperial army uniform and hemlet (+1 Soak)"],
+		"tags": ["book:aorbg", "adventure:Takeover at Whisper Base", "empire", "imperial military", "location:Whisper Base"]
+	},
+	{
+		"name": "Scout Trooper Speeder Bike Pilot",
+		"type": "Minion",
+		"description": "These scout troopers are trained in the operation of light planetary vehicles, such as speeder bikes and AT-STs. These vehicles are normally used to fly patrol routes through the jungles of Onderon.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 5
+		},
+		"skills": ["Gunnery", "Piloting: Planetary"],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Scout trooper armour (+2 Soak)"],
+		"tags": ["empire", "imperial military", "stormtrooper", "book:aorbg", "adventure:Takeover at Whisper Base"]
+	},
+	{
+		"name": "Lieutenant Sarev",
+		"type": "Nemesis",
+		"description": "Lieutenant Sarev is a pinch-faced human male in his early middle years. He is twitchy and so skinny that his uniform hangs on his body, making him look younger than his actual age. He does not handle crises very well.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10,
+			"strain": 10
+		},
+		"skills": {
+			"Cool": 1,
+			"Discipline": 2,
+			"Gunnery": 1,
+			"Piloting: Planetary": 1
+		},
+		"weapons": ["Light blaster pistol"],
+		"tags": ["book:aorbg", "adventure:Takeover at Whisper Base", "empire", "imperial military", "location:Whisper Base"]
+	}
+]
