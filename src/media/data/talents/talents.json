@@ -9,7 +9,7 @@
 	},
 	{
 		"name": "All-Terrain Driver",
-		"description": ""
+		"description": "Do not suffer usual penalties for driving through different terrain when using Piloting (Planetary)."
 	},
 	{
 		"name": "Aminal Bond",
@@ -17,7 +17,7 @@
 	},
 	{
 		"name": "Anatomy Lessons",
-		"description": ""
+		"description": "After making a successful attack, may spend 1 Destiny Point to add damage equal to Intellect to one hit."
 	},
 	{
 		"name": "Animal Bond (Improved)",
@@ -29,15 +29,15 @@
 	},
 	{
 		"name": "Armor Master",
-		"description": ""
+		"description": "When wearing armor, Increase total soak value by 1."
 	},
 	{
 		"name": "Armor Master (Supreme)",
-		"description": ""
+		"description": "Once per round, when the character suffers a Critical Injury, he may suffer 3 strain to take the Armor Master incidental. If he does he reduces the Critical Injury result that he suffers by 10 per point of his soak, to a minimum of 1."
 	},
 	{
 		"name": "Armor Master (Improved)",
-		"description": ""
+		"description": "When wearing armor with a soak value of 2 or higher, increase defense by 1."
 	},
 	{
 		"name": "Ataru Technique",
@@ -49,23 +49,23 @@
 	},
 	{
 		"name": "Bad Cop",
-		"description": ""
+		"description": "May spend :advantage::advantage: from a Deception or Coercion check to upgrade ability of a single ally's subsequent Social Interaction check against the target a number of times equal to ranks in Bad Cop."
 	},
 	{
 		"name": "Bad Motivator",
-		"description": ""
+		"description": "Once per game session, may take a Bad Motivator action; make a Hard :hard: Mechanics check to cause one targeted device to spontaneously fail."
 	},
 	{
 		"name": "Bad Press",
-		"description": ""
+		"description": "Once per session, choose an organization and make a Hard :hard:Deception check. On success, organization members have their wound thresholds reduced by 1, plus 1 per :success::success::success:, until the end of the session."
 	},
 	{
 		"name": "Balance",
-		"description": ""
+		"description": "When the character heals strain at the end of the encounter, he may add :force: per Force Rating. He recovers additional strain equal to :lightside: generated."
 	},
 	{
 		"name": "Baleful Gaze",
-		"description": ""
+		"description": "When targeted by combat check from within medium range, may spend a Destiny Point to upgrade the difficulty of the check a number of times equal to ranks in Coercion."
 	},
 	{
 		"name": "Barrage",
@@ -1577,51 +1577,51 @@
 	},
 	{
 		"name": "Unrelenting Skeptic",
-		"description": ""
+		"description": "When targeted by a Deception check, the character automatically adds :failure: to the check equal to ranks in Vigilance."
 	},
 	{
 		"name": "Unrelenting Skeptic (Improved)",
-		"description": ""
+		"description": "When targeted by a Deception check that fails, may spend 1 Destiny Point to add :despair: to results."
 	},
 	{
 		"name": "Unstoppable",
-		"description": ""
+		"description": "If a Critical Injury roll is 1 or reduced to 1, do not receive the critical injury."
 	},
 	{
 		"name": "Up the Ante",
-		"description": ""
+		"description": "When gambling win 10% more credits per rank of Up the Ante."
 	},
 	{
 		"name": "Utility Belt",
-		"description": ""
+		"description": "Spend 1 Destiny Point to perform a Utility Belt incidental; produce a previously undocumented item or weapon (with restrictions) from a tool belt or a satchel."
 	},
 	{
 		"name": "Utinni!",
-		"description": ""
+		"description": "Remove :setback: per rank of Utinni! from checks to find or scavenge items or gear. Such checks take half the time."
 	},
 	{
 		"name": "Valuable Facts",
-		"description": ""
+		"description": "Once per encounter, perform a Valuable Facts action: make an Average :average: Knowledge check. If successful, add :triumph: to one ally's skill check during the enounter."
 	},
 	{
 		"name": "Vehicle Combat Training",
-		"description": ""
+		"description": "Gunnery and Piloting (Planetary) become career skills."
 	},
 	{
 		"name": "Walk the Walk",
-		"description": ""
+		"description": "The character may spend 1 Destiny Point to add damage equal to his ranks in Streetwise to one hit of a successful Brawl check."
 	},
 	{
 		"name": "Well Read",
-		"description": ""
+		"description": "Choose any 3 Knowledge skills. They permanently become career skills."
 	},
 	{
 		"name": "Well Rounded",
-		"description": ""
+		"description": "Choose any 2 skills. They permanently become career skills."
 	},
 	{
 		"name": "Well Traveled",
-		"description": ""
+		"description": "Knowledge (Core Worlds) and Knowledge (Outer Rim) become career skills."
 	},
 	{
 		"name": "Wheel and Deal",
