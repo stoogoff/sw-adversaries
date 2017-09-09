@@ -960,7 +960,7 @@
 	{
 		"name": "Planetary Defence Trooper",
 		"type": "Minion",
-		"description": "There are very few planets that rely entirely on an out­side agency for their protection. Most possess at least a marginal military force of their own, dedicated to pro­tecting the planet’s most valuable or sacred sites. Plan­etary defense troopers rarely have the most advanced or most up-to-date equipment, often employing locally produced weaponry and armor, but what they do have is typically well made and serves its purpose.",
+		"description": "There are very few planets that rely entirely on an out­side agency for their protection. Most possess at least a marginal military force of their own, dedicated to pro­tecting the planet’s most valuable or sacred sites. Plan­etary defense troopers rarely have the most advanced or most up-to-date equipment, often employing locally produced weaponry and armour, but what they do have is typically well made and serves its purpose.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -1069,7 +1069,7 @@
 	{
 		"name": "Provincial Law Enforcement",
 		"type": "Minion",
-		"description": "The day-to-day enforcement of laws does not gen­erally fall on the armored shoulders of stormtroopers. Instead, most regions and municipalities rely on local talent, drawn from their own populations, to keep the peace, investigate criminal activity, and protect the citizenry from any threats that might arise. Though the details of their organizations and degrees of com petence are as varied as the worlds they patrol, in general, provincial law enforcement officers are lightly armed and armored, with their most powerful weapons the comlinks they carry to call for backup when needed.",
+		"description": "The day-to-day enforcement of laws does not gen­erally fall on the armoured shoulders of stormtroopers. Instead, most regions and municipalities rely on local talent, drawn from their own populations, to keep the peace, investigate criminal activity, and protect the citizenry from any threats that might arise. Though the details of their organizations and degrees of com petence are as varied as the worlds they patrol, in general, provincial law enforcement officers are lightly armed and armoured, with their most powerful weapons the comlinks they carry to call for backup when needed.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,

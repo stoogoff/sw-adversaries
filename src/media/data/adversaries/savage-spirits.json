@@ -1,0 +1,410 @@
+[
+	{
+		"name": "Albek",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 3,
+			"Discipline": 2,
+			"Perception": 1,
+			"Vigilance": 1
+		},
+		"talents": ["Pre-emptive Avoidance"],
+		"abilities": ["Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Toothy jaws",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 1"]
+			}
+		],
+		"tags": ["book:ss", "creature"]
+	},
+	{
+		"name": "Creereen",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 4
+		},
+		"skills": ["Perception", "Stealth", "Vigilance"],
+		"abilities": [
+			"Silhouette 0", "Flyer", 
+			{
+				"name": "Shriek",
+				"description": "A creereen can set up a shrieking racket as an action. All targets within Short range must make a :hard: Resilience check. Failure causes a target to suffer 4 Strain and become disoriented until the noise stops. Characters in sealed armour or who are wearing ear protection are not affected."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Beak",
+				"skill": "Brawl",
+				"damage": 2,
+				"critical": 4,
+				"range": "Engaged"
+			}
+		],
+		"tags": ["book:ss", "creature"]
+	},
+	{
+		"name": "Fissrit",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 6
+		},
+		"skills": ["Brawl", "Perception", "Stealth"],
+		"abilities": ["Silhouette 0", "Scorching Touch"],
+		"weapons": [
+			{
+				"name": "Heated underbelly",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Burn 1"]
+			}
+		],
+		"tags": ["book:ss", "creature"]
+	},
+	{
+		"name": "Hurghol",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 15,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 1,
+			"Perception": 1,
+			"Vigilance": 1
+		},
+		"abilities": [
+			"Silhouette 2", "Beast of Burden 6", "Domesticable 1", "Surefooted",
+			{
+				"name": "Sustained by the Force",
+				"description": "Hurghols do not need to consume food or water to stay alive."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Headbutt",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Disorient 1"]
+			}
+		],
+		"tags": ["book:ss", "creature"]
+	},
+	{
+		"name": "Jerethian Clamberwolf",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 18
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Coordination": 2,
+			"Perception": 2,
+			"Vigilance": 1
+		},
+		"abilities": ["Surefooted"],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Vicious 2"]
+			},
+			{
+				"name": "Teeth",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 3"]
+			}
+		],
+		"tags": ["book:ss", "creature"]
+	},
+	{
+		"name": "Manka Cat",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 16
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 1,
+			"Cool": 2,
+			"Stealth": 2
+		},
+		"abilities": ["Pack Instincts"],
+		"weapons": [
+			{
+				"name": "Tusks and teeth",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 1"]
+			}
+		],
+		"tags": ["book:ss", "creature"]
+	},
+	{
+		"name": "Mantellian Flutterplume",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 4,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 3
+		},
+		"skills": ["Brawl", "Coordination", "Survival"],
+		"abilities": ["Flyer"],
+		"weapons": [
+			{
+				"name": "Beak and talons",
+				"skill": "Brawl",
+				"damage": 2,
+				"critical": 3,
+				"range": "Engaged"
+			}
+		],
+		"tags": ["book:ss", "creature"]
+	},
+	{
+		"name": "Porvir",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 4
+		},
+		"skills": ["Perception"],
+		"abilities": ["Unthreatening Aura", "Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Teeth and claws",
+				"skill": "Brawl",
+				"damage": 1,
+				"critical": 4,
+				"range": "Engaged"
+			}
+		],
+		"tags": ["book:ss", "creature"]
+	},
+	{
+		"name": "Reek",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 22,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 2,
+			"Perception": 2,
+			"Vigilance": 2
+		},
+		"abilities": ["Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Horns",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Disorient 1", "Knockdown"]
+			}
+		],
+		"tags": ["book:ss", "creature"]
+	},
+	{
+		"name": "Runderen",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 3,
+			"defence": [0, 1]
+		},
+		"skills": ["Brawl", "Perception", "Stealth", "Vigilance"],
+		"abilities": ["Shadowblend", "Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Teeth and claws",
+				"skill": "Brawl",
+				"damage": 1,
+				"critical": 5,
+				"range": "Engaged"
+			}
+		],
+		"tags": ["book:ss", "creature"]
+	},
+	{
+		"name": "Spintiri Glowbat",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [0, 1]
+		},
+		"skills": ["Brawl", "Perception", "Ranged: Light", "Vigilance"],
+		"abilities": ["Flyer", "Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Blinding spray",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 5,
+				"range": "Short",
+				"qualities": ["Disorient 3", "Stun Damage", "Slow-Firing 3"]
+			},
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 4,
+				"range": "Engaged"
+			}
+		],
+		"tags": ["book:ss", "creature"]
+	},
+	{
+		"name": "Uxibeast",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 10,
+			"wounds": 28,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 1,
+			"Resilience": 2
+		},
+		"abilities": ["Silhouette 3", "Beast of Burden 15", "Domesticable 2"],
+		"weapons": [
+			{
+				"name": "Trample",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 2", "Inaccurate 1"]
+			}
+		],
+		"tags": ["book:ss", "creature"]
+	}
+]

@@ -592,7 +592,7 @@
 	{
 		"name": "Imperial Stormtrooper",
 		"type": "Minion",
-		"description": "There is no greater symbol of the Emperor’s New Order than the elite stormtrooper legions that enforce his will without remorse, mercy, or compassion. The featureless helmets, the uniformity of their armor, and the sheer number of them advancing without care for the losses they sustain, all contribute t o their intractable image. The details of the Clone Wars have been long forgotten by the majority of the galaxy’s denizens. As a result, there are precious few who associate the terrifying modern stormtroopers with the once-heroic clone troopers who waged that conflict on behalf of the Galactic Republic.\n\nThe Imperial Stormtrooper Corps is an independent branch of the military, and while they answer to the officers of both the Army and the Navy, their own commanders have the discretion to ignore or overrule orders issued to them if they feel they are not in the best interests of the Galactic Empire. There are numerous specialties within the stormtrooper legions, the majority of which use equipment that meshes with their training to create a cadre of elite troops that can effectively serve in virtually any combat theater.",
+		"description": "There is no greater symbol of the Emperor’s New Order than the elite stormtrooper legions that enforce his will without remorse, mercy, or compassion. The featureless helmets, the uniformity of their armour, and the sheer number of them advancing without care for the losses they sustain, all contribute t o their intractable image. The details of the Clone Wars have been long forgotten by the majority of the galaxy’s denizens. As a result, there are precious few who associate the terrifying modern stormtroopers with the once-heroic clone troopers who waged that conflict on behalf of the Galactic Republic.\n\nThe Imperial Stormtrooper Corps is an independent branch of the military, and while they answer to the officers of both the Army and the Navy, their own commanders have the discretion to ignore or overrule orders issued to them if they feel they are not in the best interests of the Galactic Empire. There are numerous specialties within the stormtrooper legions, the majority of which use equipment that meshes with their training to create a cadre of elite troops that can effectively serve in virtually any combat theater.",
 		"notes": "Individuals or groups of two may be armed with light repeating blasters with slings.",
 		"characteristics": {
 			"Brawn": 3,
@@ -619,12 +619,12 @@
 			}
 		],
 		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 Soak)", "2 Frag grenades"],
-		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad", "adventure:Rescue at Glare Peak", "adventure:Friends Like These"]
+		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad", "adventure:Rescue at Glare Peak", "adventure:Friends Like These", "adventure:Takeover at Whisper Base"]
 	},
 	{
 		"name": "Stormtrooper Sergeant",
 		"type": "Rival",
-		"description": "Stormtroopers who survive engagements with high marks are promoted to the position of sergeant. Typically this involves command of a single squadron, but stormtroopers who excel at leadership are promoted to higher ranks. Such positions can include supervision of entire companies of stormtroopers. Rank within the stormtrooper legions is difficult for outsiders to fully understand, as they refer to virtually any officer from their ranks as commander. The uniformity of their armor and this tendency for vague references helps to enforce the image of stormtroopers as an absolutely faceless, monolithic military entity, which only serves to enhance their fearsome reputation.",
+		"description": "Stormtroopers who survive engagements with high marks are promoted to the position of sergeant. Typically this involves command of a single squadron, but stormtroopers who excel at leadership are promoted to higher ranks. Such positions can include supervision of entire companies of stormtroopers. Rank within the stormtrooper legions is difficult for outsiders to fully understand, as they refer to virtually any officer from their ranks as commander. The uniformity of their armour and this tendency for vague references helps to enforce the image of stormtroopers as an absolutely faceless, monolithic military entity, which only serves to enhance their fearsome reputation.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -656,7 +656,7 @@
 	{
 		"name": "Stormtrooper: Dark Trooper",
 		"type": "Rival",
-		"description": "Funded and operated as a subdivision of the Imperial Stormtrooper Corps, the Dark Trooper Project was a clandestine attempt to create an even more fearsome elite fighting force which was easier to produce within a short period of time. The goal of the project was to create extremely advanced military droids that could pass for armored humans, thus achieving the fearsome aspect required of elite military units without any concern for the environmental conditions that might limit human personnel. Although sabotaged by Alliance efforts, a small number of prototypes were completed, and the Rebellion lives in perpetual fear that the project may be continued in another, as yet unknown, area.",
+		"description": "Funded and operated as a subdivision of the Imperial Stormtrooper Corps, the Dark Trooper Project was a clandestine attempt to create an even more fearsome elite fighting force which was easier to produce within a short period of time. The goal of the project was to create extremely advanced military droids that could pass for armoured humans, thus achieving the fearsome aspect required of elite military units without any concern for the environmental conditions that might limit human personnel. Although sabotaged by Alliance efforts, a small number of prototypes were completed, and the Rebellion lives in perpetual fear that the project may be continued in another, as yet unknown, area.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,
@@ -717,7 +717,7 @@
 	{
 		"name": "Stormtrooper: Scout Trooper",
 		"type": "Minion",
-		"description": "Reconnaissance is one of the most important aspects of any military organization, and the Imperial Stormtrooper Corps is no different. More lightly armored to facilitate rapid movement and trained with rapid-response repulsorlift vehicles, scout troopers are at the forefront of any insertion of the stormtrooper legions into a new theater of operations.",
+		"description": "Reconnaissance is one of the most important aspects of any military organization, and the Imperial Stormtrooper Corps is no different. More lightly armoured to facilitate rapid movement and trained with rapid-response repulsorlift vehicles, scout troopers are at the forefront of any insertion of the stormtrooper legions into a new theater of operations.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -769,7 +769,7 @@
 	{
 		"name": "Stormtrooper: Snowtrooper",
 		"type": "Minion",
-		"description": "Just as desert worlds present environmental conditions that are a barrier to normal military operations, planets with an extremely cold environment are likewise impractical for traditional protocols, including the stormtrooper legions. Snowtroopers have specialized armor and equipment that can function regardless of the temperature and are capable of operating for long periods of time without needing any support of any sort. Furthermore, they are equipped with sensor packages that allow them to seek out thermal images in a sea of ice, which dramatically increases their effectiveness in combat.",
+		"description": "Just as desert worlds present environmental conditions that are a barrier to normal military operations, planets with an extremely cold environment are likewise impractical for traditional protocols, including the stormtrooper legions. Snowtroopers have specialized armour and equipment that can function regardless of the temperature and are capable of operating for long periods of time without needing any support of any sort. Furthermore, they are equipped with sensor packages that allow them to seek out thermal images in a sea of ice, which dramatically increases their effectiveness in combat.",
 		"notes": "Individuals or groups of two may be armed with heavy repeating blasters.",
 		"characteristics": {
 			"Brawn": 3,

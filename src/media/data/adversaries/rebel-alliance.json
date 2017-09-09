@@ -18,7 +18,7 @@
 		"skills": ["Melee", "Ranged: Heavy", "Vigilance"],
 		"abilities": ["Covering Fire"],
 		"weapons": ["Blaster rifle", "Combat knife"],
-		"gear": ["Blast vest (+1 soak)"],
+		"gear": ["Blast vest (+1 Soak)"],
 		"tags": ["rebel alliance", "book:aor"]
 	},
 	{
@@ -70,7 +70,7 @@
 			"Negotiation": 2
 		},
 		"talents": ["Kill with Kindness"],
-		"gear": ["Comlink", "Datapad", "Robes (+1 soak)"],
+		"gear": ["Comlink", "Datapad", "Robes (+1 Soak)"],
 		"tags": ["rebel alliance", "book:aor"]
 	},
 	{
@@ -102,7 +102,7 @@
 		"talents": ["Adversary 2", "Command 2", "Field COmmander"],
 		"abilities": ["Improved Covering Fire"],
 		"weapons": ["Blaster carbine", "Light blaster pistol"],
-		"gear": ["Blast vest (+1 soak)"],
+		"gear": ["Blast vest (+1 Soak)"],
 		"tags": ["rebel alliance", "book:aor"]
 	},
 	{
@@ -223,7 +223,7 @@
 		},
 		"talents": ["Know Somebody 2", "Nobody’s Fool 1"],
 		"weapons": ["Light blaster pistol"],
-		"gear": ["Blast vest (+1 soak)"],
+		"gear": ["Blast vest (+1 Soak)"],
 		"tags": ["rebel alliance", "book:aor"]
 	},
 	{
@@ -268,7 +268,7 @@
 				"qualities": ["Blast 7", "Burn 2", "Innacurate 1", "Limited Ammo 1"]
 			}
 		],
-		"gear": ["Armoured clothing (+1 defence, +1 soak)"],
+		"gear": ["Armoured clothing (+1 Soak, +1 Defence)"],
 		"tags": ["rebel alliance", "book:aor"]
 	},
 	{
@@ -297,7 +297,7 @@
 		"talents": ["Adversary 1", "Stalker 2"],
 		"abilities": ["Shadowed", "Swipe 1"],
 		"weapons": ["Light blaster pistol", "Vibroknife"],
-		"gear": ["Reinforced blast vest (+2 soak)", "Encrypted comlink"],
+		"gear": ["Reinforced blast vest (+2 Soak)", "Encrypted comlink"],
 		"tags": ["rebel alliance", "book:aor"]
 	},
 	{

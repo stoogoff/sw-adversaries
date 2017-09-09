@@ -662,7 +662,7 @@
 		"talents": ["Adversary 1", "Parry 4", "Pin"],
 		"abilities": ["Droid"],
 		"weapons": ["Electrostaff"],
-		"gear": ["Built-in armour plating (+2 soak, +1 defence)"],
+		"gear": ["Built-in armour plating (+2 Soak, +1 Defence)"],
 		"tags": ["species:Droid", "separatist", "book:fad"]
 	},
 	{
