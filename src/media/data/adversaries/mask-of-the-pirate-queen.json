@@ -1,6 +1,5 @@
 [
 	{
-<<<<<<< HEAD
 		"name": "Galva",
 		"type": "Minion",
 		"description": "Galva are diminutive and innocuous mammalian species native to Saleucami. They travel in large herds of up to one hundred individuals, feeding off of desert lichens and moss as they migrate across the planet's oppressively hot equatorial regions. Galva are often hunted for their skins, which can be tanned into a supple leather that has grown increasingly popular (any undamaged hide goes for 1000 credits, rarity 6). As a result, many of the largest galva hers have been depleted by overhunting.",
@@ -1145,7 +1144,8 @@
 		"weapons": ["Blaster pistol", "Vibroknife"],
 		"gear": ["Adverse environment gear", "Utility belt", "Various tools"],
 		"tags": ["book:motpq","adventure:Mask of the Pirate Queen"]
-=======
+	},
+	{
 		"name": "Nuuno",
 		"type": "Nemesis",
 		"description": "A massive, omnivorous crustacean.",
@@ -1190,16 +1190,11 @@
 
 			],
 		"tags": ["book:motpq", "creature", "location:Saleceumai", "adventure:Mask of the Pirate Queen"]
->>>>>>> 41f2f34fd566fa278d593f74103dca2b2bb106d6
 	},
 	{
 		"name": "Thaelo",
 		"type": "Rival",
-<<<<<<< HEAD
-		"description": "",
-=======
 		"description": "Simian predators that dwell in the jungle trees common to Saleucami's many craters.",
->>>>>>> 41f2f34fd566fa278d593f74103dca2b2bb106d6
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 4,
@@ -1210,12 +1205,8 @@
 		},
 		"derived": {
 			"soak": 6,
-<<<<<<< HEAD
-			"wounds": 14
-=======
 			"wounds": 14,
 			"defence": [0, 0]
->>>>>>> 41f2f34fd566fa278d593f74103dca2b2bb106d6
 		},
 		"skills": {
 			"Athletics": 4,
@@ -1226,16 +1217,7 @@
 			"Survival": 3
 		},
 		"talents": ["Lethal Blows 1"],
-<<<<<<< HEAD
 		"abilities": ["Excellent Climber"],
-=======
-		"abilities": [
-				{
-				"name": "Excellent Climber",
-				"description": "Once per game session, the character may reroll any one Athletics check made when climbing"
-				}
-					],
->>>>>>> 41f2f34fd566fa278d593f74103dca2b2bb106d6
 		"weapons": [
 				{
 				"name": "Fists",
@@ -1244,7 +1226,6 @@
 				"critical": 4,
 				"range": "Engaged"
 				}
-<<<<<<< HEAD
 			],
 		"tags": ["book:motpq","adventure:Mask of the Pirate Queen"]
 	},
@@ -1418,12 +1399,6 @@
 		"gear": ["Comlink", "Fine clothing"],
 		"talents": ["Intimidating 2", "Natural Pilot"],
 		"weapons": ["Heavy blaster pistol"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen"]
-	}
-]
-=======
-
-			],
 		"tags": ["book:motpq", "creature", "location:Saleceumai", "adventure:Mask of the Pirate Queen"]
 	},
 	{
@@ -1459,4 +1434,3 @@
 		"tags": ["book:motpq", "Creature", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "species:Pantoran"]
 	}
 ]
->>>>>>> 41f2f34fd566fa278d593f74103dca2b2bb106d6
