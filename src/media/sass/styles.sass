@@ -209,12 +209,12 @@ h2.subtitle
 		padding: 0.5em
 		display: inline-block
 		cursor: pointer
+		position: relative
 
 		&.active
 			font-weight: bold
 			color: $derived
 			background-color: $body
-			position: relative
 			top: -2px
 			border-width: 0 2px 2px 2px
 			border-style: solid
@@ -229,6 +229,24 @@ h2.subtitle
 
 		.btn:hover
 			color: $link
+
+		ul
+			position: absolute
+			bottom: 26px
+			left: -2px
+			width: 100%
+			background-color: $body
+			border-width: 2px 2px 0 2px
+			border-style: solid
+			border-color: $derived
+			border-radius: 0.2em 0.2em 0 0
+			display: none
+
+			li
+				display: block
+
+			&.active
+				display: block
 
 #content
 	margin-top: 2em
