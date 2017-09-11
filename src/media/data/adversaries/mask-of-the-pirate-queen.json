@@ -1402,6 +1402,74 @@
 		"tags": ["book:motpq", "creature", "location:Saleceumai", "adventure:Mask of the Pirate Queen"]
 	},
 	{
+		"name": "Micael Torval, Professional Sabacc Player",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 13,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 3,
+			"Deception": 4,
+			"Knowledge: Education": 2,
+			"Negotiation": 3,
+			"Perception": 3,
+			"Ranged: Light": 1,
+			"Streetwise": 2
+		},
+		"gear": ["Fashionable clothing"],
+		"talents": ["Sense Emotions", "Force Rating 1"],
+		"weapons": ["Holdout blaster"],
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen"]
+	},
+	{
+		"name": "Noira, Pirate Queen",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 5
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16,
+			"strain": 18,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Charm": 4,
+			"Coercion": 3,
+			"Cool": 5,
+			"Deception": 4,
+			"Knowledge: Underworld": 3,
+			"Leadership": 5,
+			"Melee": 3,
+			"Negotiation": 4,
+			"Ranged: Light": 2,
+			"Streetwise": 4
+		},
+		"gear": ["Fashionable clothing"],
+		"talents": ["Adversary 2", "Command 2", "Steely Nerves"],
+		"weapons": ["Light blaster pistol", "Vibrorapier"],
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen"]
+	},
+	{
 		"name": "Venlana Sipal, Consortium Underboss",
 		"type": "Nemesis",
 		"description": "Venlana Sipal is a Saleucamian native descended from the original Pantoran colonists. She wears a mask of polite professionalism at all times, but her true nature is much more sinister. Ambitions and merciless, she does anything to ensure her own advancement. Her skin is blue and her hair a dark shade of blue-black. She generally dresses in conservative suits.",
