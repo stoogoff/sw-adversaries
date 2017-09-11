@@ -85,10 +85,12 @@ Main tasks:
 		- Endless Vigil
 		- Far Horizons
 		- *Fly Casual (no stats)*
+		- *Forged in Battle (no stats)*
 		- Keeping the Peace
+		- *No Disintegrations (no stats)*
+		- Savage Spirits
 		- Special Modifications
 		- Stay on Target
-		- Savage Spirits
 	- beginner's games
 		- Age of Rebellion
 	- adventure books

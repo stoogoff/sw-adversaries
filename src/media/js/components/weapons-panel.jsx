@@ -90,7 +90,7 @@ export default class WeaponsPanel extends React.Component {
 		if(nextProps.character !== this.props.character) {
 			this.setState({
 				quality: null
-			})
+			});
 		}
 	}
 
