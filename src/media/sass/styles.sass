@@ -227,6 +227,15 @@ h2.subtitle
 		&.tools
 			padding: 0 0 0 0.5em
 
+		.square
+			display: inline-block
+			width: 1em
+			height: 1em
+			border: 1px solid $font
+			position: relative
+			top: 0.1em
+			margin-right: 0.3em
+
 		svg
 			font-size: 0.7em
 
@@ -249,6 +258,17 @@ h2.subtitle
 				display: block
 				font-weight: normal
 				color: $font
+				padding-bottom: 0
+
+				.colour
+					font-size: 0.9em
+					border: 1px solid white
+					border-radius: 0.2em
+					padding: 0.2em
+					@include hover()
+
+					&:hover
+						border-color: black
 
 				input[type="text"]
 					color: $heading

@@ -129,18 +129,25 @@ class App extends React.Component {
 			});
 		});
 
-		// rename a given tab
-		dispatcher.register(CONFIG.TAB_RENAME, (index, name) => {
-			if(index < 0 || index >= this.state.selected.length) {
-				return;
+		let updateTab = property => {
+			return (index, text) => {
+				if(index < 0 || index >= this.state.selected.length) {
+					return;
+				}
+
+				let selected = this.state.selected;
+
+				selected[index][property] = text;
+
+				this.setState({ selected: selected });
 			}
+		}
 
-			let selected = this.state.selected;
+		// rename a given tab
+		dispatcher.register(CONFIG.TAB_RENAME, updateTab("tabName"));
 
-			selected[index].tabName = name;
-
-			this.setState({ selected: selected });
-		});
+		// change the background colour of a given tab
+		dispatcher.register(CONFIG.TAB_COLOUR, updateTab("colour"));
 
 		// change to a new tab
 		dispatcher.register(CONFIG.TAB_CHANGE, index => {
