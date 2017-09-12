@@ -221,6 +221,9 @@ h2.subtitle
 			border-color: $derived
 			border-radius: 0 0 0.2em 0.2em
 
+			ul
+				background-color: $body
+
 		&.tools
 			padding: 0 0 0 0.5em
 
@@ -235,7 +238,7 @@ h2.subtitle
 			bottom: 26px
 			left: -2px
 			width: 100%
-			background-color: $body
+			background-color: $tabBgColour
 			border-width: 2px 2px 0 2px
 			border-style: solid
 			border-color: $derived
@@ -244,6 +247,26 @@ h2.subtitle
 
 			li
 				display: block
+				font-weight: normal
+				color: $font
+
+				input[type="text"]
+					color: $heading
+					background-color: white
+					border: 1px solid darken($link, 20%)
+					border-radius: 0.2em
+					display: block
+					width: 100%
+					padding: 0.2em 0.5em
+					@include hover()
+
+					&:focus
+						outline: 2px solid rgba($link, 0.5)
+						border-color: $link
+						@include shadow-input($font, $link)
+
+				div
+					display: block
 
 			&.active
 				display: block
