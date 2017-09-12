@@ -1464,9 +1464,167 @@
 			"Ranged: Light": 2,
 			"Streetwise": 4
 		},
-		"gear": ["Fashionable clothing"],
+		"gear": ["Armoured uniform (+1 soak)", "Breath mask", "Ornate armour (+2 soak)"],
 		"talents": ["Adversary 2", "Command 2", "Steely Nerves"],
+		"abilities": [
+			{
+			"name": "Awe-Inspiring",
+			"description":"Noira is such an awe-inspiring figure that anyone attempting to attack her suffers a :setback: to their check unless they spend a Destiny Point.  Use of the Destiny Point for this purpose makes the character in question immune from this ability."
+			}
+			],
 		"weapons": ["Light blaster pistol", "Vibrorapier"],
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen"]
+	},
+	{
+		"name": "Porel Vakra, Zann Consortium Underboss",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"strain": 14,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Coercion": 2,
+			"Cool": 3,
+			"Knowledge: Underworld": 3,
+			"Negotiation": 2,
+			"Ranged: Light": 3,
+			"Streetwise": 3
+		},
+		"gear": ["Armoured suit (+1 soak)", "Comlink", "Datapad"],
+		"talents": ["Adversary 1", "Dodge 1", "Point Blank 2"],
+		"weapons": ["Blaster pistol",
+				{
+				"name": "Holdout blaster",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Stun Setting", "Superior"]
+				}
+			],
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "Zann Consortium"]
+	},
+	{
+		"name": "Revah, Decoy Pirate Queen",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 16,
+			"strain": 16,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Charm": 3,
+			"Coercion": 3,
+			"Cool": 2,
+			"Deception": 3,
+			"Discipline": 3,
+			"Knowledge: Underworld": 3,
+			"Leadership": 3,
+			"Ranged: Light": 2,
+			"Vigilance": 4
+		},
+		"gear": ["Heavy clothing (+1 soak)", "Sorority Mask (Upgrades all Deception skill checks made to disguise the wearer once; removes up to :setback::setback: added to all Perception, Vigilance, and combat skill checks due to darkness, smoke, or other environmental effects that obscure vision)"],
+		"talents": ["Adversary 1", "Soft Spot"],
+		"abilities": ["Pirate Leader"],
+		"weapons": ["Blaster pistol", "Vibroknife"],
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen"]
+	},
+	{
+		"name": "Ryale Wei, Majordomo",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 13,
+			"strain": 13,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Charm": 3,
+			"Coercion": 4,
+			"Cool": 3,
+			"Deception": 4,
+			"Discipline": 3,
+			"Knowledge: Underworld": 4,
+			"Leadership": 4,
+			"Melee": 3,
+			"Streetwise": 4
+		},
+		"talents": ["Adversary 2", "Nobody’s Fool 2"],
+		"abilities": ["Leader"],
+		"weapons": ["Vibrorapier"],
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen"]
+	},
+	{
+		"name": "Savrip Guards",
+		"type": "Nemesis",
+		"description": "The Queen keeps two Savrip guards, Kel and Tur, near her throne at all times. The two have been raised from birth to serve the Sorority, and they will gladly die for their Queen. The Queen uses the two Savrips to strike fear into the hearts of her subordinates and enemies. Kel and Tur wear fine, custom-made armour, and each one wields a huge spiked mace crafted from a black, nonreflective alloy.",
+		"notes": "Tur and Kel",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 24,
+			"strain": 8,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Melee": 3,
+			"Resilience": 3,
+			"Survival": 2,
+			"Vigilance": 4
+		},
+		"talents": ["Durable 2", "Frenzied Attack 1"],
+		"abilities": ["Berserk Rage"],
+		"weapons": [
+			{
+			"name": "Spiked mace",
+			"skill": "Melee",
+			"damage": 9,
+			"critical": 2,
+			"range": "Engaged",
+			"qualities": ["Disorient 3", "Pierce 2"]
+			}
+		],
+		"gear": ["Armoured clothing (+1 defense, +1 soak)"],
 		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen"]
 	},
 	{
