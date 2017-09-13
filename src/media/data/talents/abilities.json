@@ -76,6 +76,10 @@
 		"description": "Add ranks in Beast of Burden to the creature’s encumbrance threshold."
 	},
 	{
+		"name": "Berzerk Rage",
+		"description": "Deal +1 damage with Brawl and Melee attacks when suffering any Wounds. When suffering a Critical Injury, deal +2 damage with Brawl and Melee attacks instead."
+	},
+	{
 		"name": "Blabber Mouth",
 		"description": "Add :setback: to all social skill checks against a monkey-lizard’s owner."
 	},
