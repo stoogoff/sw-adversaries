@@ -1689,7 +1689,7 @@
 			"Vigilance": 4
 		},
 		"talents": ["Durable 2", "Frenzied Attack 1"],
-		"abilities": ["Berserk Rage"],
+		"abilities": ["Berzerk Rage"],
 		"weapons": [
 			{
 			"name": "Spiked mace",
@@ -1734,5 +1734,88 @@
 		"weapons": ["Holdout blaster", "Vibroknife"],
 		"gear": ["Conservative clothing", "stimpack"],
 		"tags": ["book:motpq", "Creature", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "species:Pantoran"]
+	},
+	{
+		"name": "Warg, Savrip Guard",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "Tur and Kel",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 24,
+			"strain": 8,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Melee": 3,
+			"Resilience": 3,
+			"Survival": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Durable 2", "Frenzied Attack 1"],
+		"abilities": ["Berzerk Rage"],
+		"weapons": [
+			{
+			"name": "Massive vibro-ax",
+			"skill": "Melee",
+			"damage": 9,
+			"critical": 2,
+			"range": "Engaged",
+			"qualities": ["Cumbersome 4", "Pierce 2", "Sunder", "Vicious 3"]
+			}
+		],
+		"gear": ["Laminate armour (+2 soak)"],
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen"]
+	},
+	{
+		"name": "Zeke, Clone Trooper Platoon Leader",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "Tur and Kel",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15,
+			"strain": 15,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Discipline": 3,
+			"Leadership": 4,
+			"Melee": 3,
+			"Ranged: Heavy": 3,
+			"Ranged: Light": 2,
+			"Resilience": 3,
+			"Survival": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1", "Point Blank 1"],
+		"abilities": ["Teamwork", 
+						{
+							"name": "Squad Leader",
+							"description": "Spend a maneuver to direct one clone trooper within medium range. The clone trooper may perform an immediate free maneuver or add :boost: to the trooper's next check."
+						}
+					],
+		"weapons": ["Blaster pistol", "Vibroknife", "Frag grenade"],
+		"gear": ["Worn clone trooper armour (+2 soak)", "Utility belt"],
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen"]
 	}
 ]
