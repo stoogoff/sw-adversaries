@@ -46,7 +46,7 @@
 		"skills": ["Melee", "Perception", "Piloting: Planetary", "Ranged: Light", "Vigilance"],
 		"weapons": [ "Blaster pistol", "Truncheon"],
 		"gear": ["Comlink", "Padded armour (+2 Soak)", "Breath mask"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
 	},
 	{
 		"name": "Bridge Guard",
@@ -68,7 +68,7 @@
 		"skills": ["Melee", "Ranged: Light"],
 		"weapons": [ "Heavy blaster pistol", "Vibrosword"],
 		"gear": ["Comlink", "Heavy battle armour (+2 Soak, +1 defence)", "Mask"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "veiled sorority"]
 	},
 	{
 		"name": "Corellian Bloodhound",
@@ -102,12 +102,12 @@
 				"range": "Engaged"
 				}
 			],
-		"tags": ["book:motpq", "creature", "adventure:Mask of the Pirate Queen"]
+		"tags": ["book:motpq", "creature", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
 	},
 	{
 		"name": "Koochoo, ASP-Series Labor Droid",
 		"type": "Minion",
-		"description": "Koochoo (Huttese for “idiot” or “moron”) is Krezo's labor droid. Krezo has had Koochoo's programming modified, making the droid completely loyal and incapable of intentionally causing harm to its master. This does not apply to others, and Krezo is happy to use Koochoo to keep enemies at bay while he escapes.",
+		"description": "Koochoo (Huttese for “idiot” or “moron”) is Krezo's labor droid. Krezo has had Koochoo's programming modified, making the droid completely loyal and incapable of intentionally causing harm to its master. This does not apply to others, and Krezo is happy to use Koochoo to keep enemies at bay while he escapes. Like other ASP-series labour droids, Koochoo is only capable fo speaking two words: “Affirmative” and “Negative”, both spoken in very mechanical Huttese.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 1,
@@ -202,7 +202,7 @@
 		},
 		"skills": ["Charm", "Deception", "Knowledge: Underworld", "Streetwise"],
 		"gear": ["Flamboyant coothing"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell", "veiled sorority"]
 	},
 	{
 		"name": "Sorority Palace Guard",
@@ -223,7 +223,7 @@
 		"skills": ["Coercion", "Cool", "Discipline", "Melee", "Ranged: Heavy"],
 		"weapons": ["Blaster carbine", "Vibrosword"],
 		"gear": ["Heavy clothing uniforms (+1 soak)"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell", "veiled sorority"]
 	},
 	{
 		"name": "Sorority Crew",
@@ -244,7 +244,7 @@
 		"skills": ["Computers", "Gunnery", "Mechanics", "Melee", "Ranged: Light"],
 		"weapons": ["Vibroknife"],
 		"gear": ["Utility Belt (Increase Encumbrance Threshold by 1)", "Breath Mask", "Glow Rod", "Tool Kit"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "veiled sorority"]
 	},
 	{
 		"name": "Sorority Defender",
@@ -265,7 +265,7 @@
 		"skills": ["Vigilance", "Melee", "Ranged: Light"],
 		"weapons": ["Blaster pistol", "Vibroknife"],
 		"gear": ["Padded armour (+2 soak)"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "veiled sorority"]
 	},
 	{
 		"name": "Sorority Engineer",
@@ -295,7 +295,7 @@
 			}
 		],
 		"gear": ["Utility Belt (Increase Encumbrance Threshold by 1)", "Breath Mask", "Glow Rod", "Tool Kit", "Sealed coveralls"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "veiled sorority"]
 	},
 	{
 		"name": "Sorority Fighter Jockey",
@@ -315,7 +315,7 @@
 		},
 		"skills": ["Astrogation", "Gunnery", "Piloting: Space", "Ranged: Light"],
 		"weapons": ["Blaster pistol"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "veiled sorority"]
 	},
 	{
 		"name": "Sorority Kill Team Member",
@@ -337,7 +337,7 @@
 		"skills": ["Melee", "Vigilance", "Ranged: Light"],
 		"weapons": ["Blaster pistol", "Vibroknife"],
 		"gear": ["Armoured clothing (+1 soak, +1 defence)"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Saleceumai", "veiled sorority"]
 	},
 	{
 		"name": "Sorority Palace Guard",
@@ -379,7 +379,7 @@
 		"skills": ["Coercion", "Cool", "Melee", "Ranged: Heavy", "Ranged: Light"],
 		"weapons": ["Blaster carbine", "Heavy blaster pistol", "Vibroknife", "Vibrosword"],
 		"gear": ["Heavy clothing (+1 soak)"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Saleceumai", "pirate", "veiled sorority"]
 	},
 	{
 		"name": "Sorority Pirate Queensguard",
@@ -399,9 +399,9 @@
 			"defence": [1, 1]
 		},
 		"skills": ["Coercion", "Cool", "Melee", "Ranged: Heavy", "Vigilance"],
-		"weapons": ["Blaster carbine", "Heavy blaster pistol", "Vibro-ax"],
+		"weapons": ["Blaster carbine", "Vibro-ax"],
 		"gear": ["Armoured clothing (+1 soak, +1 defence)"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Saleceumai", "veiled sorority"]
 	},
 	{
 		"name": "Sorority Saboteur",
@@ -422,7 +422,7 @@
 		"skills": ["Computers", "Mechanics", "Melee", "Ranged: Light", "Skullduggery"],
 		"weapons": ["Heavy blaster pistol", "Vibroknife"],
 		"gear": ["Heavy clothing (+1 soak)", "Utility Belt (increases Encumberance Threshold by 1)"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell", "veiled sorority"]
 	},
 	{
 		"name": "Nuuno",
@@ -542,7 +542,6 @@
 				"critical": 4,
 				"range": "Engaged"
 				}
-
 			],
 		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen"]
 	},
@@ -573,7 +572,7 @@
 		"talents": ["Natural Pilot"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Crash survival kit", "Flight suit with helmet"],
-		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "zann consortium"]
 	},
 	{
 		"name": "Fleet Officer",
@@ -601,7 +600,7 @@
 		},
 		"weapons": ["Blaster pistol"],
 		"gear": ["Comlink (handheld)", "Uniform"],
-		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "zann consortium", "veiled sorority"]
 	},
 	{
 		"name": "Gerk, Houk Supervisor",
@@ -629,12 +628,12 @@
 		},
 		"weapons": ["Heavy blaster pistol", "Brass Knuckles"],
 		"gear": ["Armoured Clothing (+1 Soak, Defence 1)", "Breath mask"],
-		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
 	},
 	{
 		"name": "Graf Lind, Former Pirate",
 		"type": "Rival",
-		"description": "Add description.",
+		"description": "Graf is a human male in his fifties, though his lifestyle has ages him prematurely. His hair is long, gray, and unkempt, and his blue eyes are dull - unless he's interested in something. His cheap prosthetic leg - all he coudl affford following the tender mercy of the Veiled Sorority - makes him walk with a noticeable limp, and often uses a polishes bubse wood cane for support. Graf hsd largely given up on life, whether he admits ir ot not, and has decided to drink himself to death. Despite this, he fantasizes about returning to the Sorority someday, for he believes the best years of his life were spent there.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -706,8 +705,8 @@
 					"description": "Add :setback: when attempting a Perception check based on auditory clues"
 				}
 					],
-		"gear": ["Worn clone trooper armor (+2 Soak)", "Utility belt (Increase encumberance threshold by 1)"],
-		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "clone"]
+		"gear": ["Worn clone trooper armour (+2 Soak)", "Utility belt (Increase encumberance threshold by 1)"],
+		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "clone trooper"]
 	},
 	{
 		"name": "Jayk, Veteran Clone Trooper",
@@ -737,8 +736,8 @@
 		"weapons": ["Blaster rifle", "Vibroknife"],
 		"talents": ["Adversary 1", "Point Blank 1"],
 		"abilities": ["Near-Sighted","Teamwork"],
-		"gear": ["Worn clone trooper armor (+2 Soak)", "Utility belt (Increase encumberance threshold by 1)"],
-		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "clone"]
+		"gear": ["Worn clone trooper armour (+2 Soak)", "Utility belt (Increase encumberance threshold by 1)"],
+		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "clone trooper"]
 	},
 	{
 		"name": "Tojo, Veteran Clone Trooper",
@@ -773,8 +772,8 @@
 					"description": "Has difficulty remembering specific details, and must succeed at an :average: Vigilance check to recall anything important."
 				}
 					],
-		"gear": ["Worn clone trooper armor (+2 Soak)", "Utility belt (Increase encumberance threshold by 1)"],
-		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "clone"]
+		"gear": ["Worn clone trooper armour (+2 Soak)", "Utility belt (Increase encumberance threshold by 1)"],
+		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "clone trooper"]
 	},
 	{
 		"name": "Rafe, Veteran Clone Trooper",
@@ -809,13 +808,13 @@
 					"description": "Add :setback: to any Agility checks"
 				}
 					],
-		"gear": ["Worn clone trooper armor (+2 Soak)", "Utility belt (Increase encumberance threshold by 1)"],
-		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "clone"]
+		"gear": ["Worn clone trooper armour (+2 Soak)", "Utility belt (Increase encumberance threshold by 1)"],
+		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "clone trooper"]
 	},
 	{
 		"name": "JR-12, Independent Security Contractor",
+		"description": "JR-12 is an old security droid who lost its master at least fifty years ago. Since then, it has worked as a bounty hunter, bodyguard, bouncer and security guard - sometimes all four at once -  and has become recognized thoughout Morro Spaceport as one of the more reliable security contractors available. LIke that of all security droids in this series, JR-12's humanoid frame is tall and gangly, and its metallic skin is coated in a scratched-up camouflage paint job. Though blunt, is it honest to a fault and hardworking.",
 		"type": "Rival",
-		"description": "Add description.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -838,7 +837,7 @@
 			"Ranged: Heavy": 2,
 			"Vigilance": 3
 		},
-		"weapons": ["Vibroknife",
+		"weapons": [
 			{
 				"name": "Blaster carbine",
 				"skill": "Ranged: Heavy",
@@ -850,8 +849,8 @@
 				],
 		"talents": ["Natural Hunter"],
 		"abilities": ["Droid"],
-		"gear": ["Worn clone trooper armor (+2 Soak)", "Utility belt (Increase encumberance threshold by 1)"],
-		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "species:Droid"]
+		"gear": ["Worn clone trooper armour (+2 Soak)", "Utility belt (Increase encumberance threshold by 1)"],
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "species:Droid", "location:Ord Mantell"]
 	},
 	{
 		"name": "Jyd Renyr, Arena Manager",
@@ -879,7 +878,7 @@
 			"Streetwise": 3
 		},
 		"gear": ["Comlink", "Datapad", "Fine suit"],
-		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
 	},
 	{
 		"name": "Krash, Sorority Kill Team Leader",
@@ -908,12 +907,11 @@
 		},
 		"weapons": ["Heavy blaster pistol", "Shock Gloves"],
 		"gear": ["Armoured clothing (+1 soak, +1 defence)"],
-		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "species:Barabel"]
+		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "species:Barabel", "veiled sorority"]
 	},
 	{
 		"name": "Krezo Wasanti, Fence",
 		"type": "Rival",
-		"description": "",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 2,
@@ -942,7 +940,7 @@
 	{
 		"name": "Lathe, Sorority Slicer",
 		"type": "Rival",
-		"description": "",
+		"description": "Lathe is one of the Sorority's best slicers on Saleucami. She's been assigned to monitor the planet's SororiNet node, and the job couldn't suit her better. Though rarily seen outside the confines of her apartment in Taleucema, Lather emerges from time to time to replenish her supply of Booster Blue. She is a short, slight wisp of a human woman in her early twenties, with short-cropped red hair and hazel eyes.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 3,
@@ -960,18 +958,19 @@
 			"Computers": 3,
 			"Discipline": 2,
 			"Knowledge: Education": 3,
+			"Knowledge: Underworld": 3,
 			"Mechanics": 2,
 			"Perception": 3
 		},
 		"talents": ["Defensive Slicing 2"],
 		"weapons": ["Brass knuckles"],
 		"gear": ["Heavy Clothing (+1 Soak)", "Slicer Gear", "Datapad", "Toolkit", "Booster Blue (3 doses)"],
-		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen"]
+		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "veiled sorority"]
 	},
 	{
 		"name": "Mandi, Revah's Bodyguard",
 		"type": "Rival",
-		"description": "",
+		"description": "Mandi is the only member of the Sorority on Saleucami who knows that Revah is not the real Pirate Queen. She possesses ambitions of her own, however, and these include engineering Revah's capture or death so that she can claim her mask on Saleucami. To this end, Mandi ensured thatg Krezo Wasanti knew the name of the pirate base's location when she sold him a large amount of Consortium plunder.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -996,8 +995,8 @@
 		},
 		"talents": ["Adversary 1", "Deadly Accuracy 1"],
 		"weapons": ["Blaster pistol", "Vibrosword"],
-		"gear": ["Laminate armour (+2 Soak)", "Secure comlink"],
-		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen"]
+		"gear": ["Laminate armour (+2 Soak)", "Secured comlink"],
+		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "veiled sorority"]
 	},
 	{
 		"name": "Mantellian Pterosaur",
@@ -1042,12 +1041,12 @@
 			}
 		],
 		"gear": ["Laminate armour (+2 Soak)", "Secure comlink"],
-		"tags": ["book:motpq", "location:Ord Mantell", "adventure:Mask of the Pirate Queen"]
+		"tags": ["book:motpq", "location:Ord Mantell", "adventure:Mask of the Pirate Queen", "creature"]
 	},
 	{
 		"name": "Mantellian Savrip",
 		"type": "Rival",
-		"description": "",
+		"description": "Though Ord Mantell is home to millions of unique species, the most notable of them is the Savrip. Though Savrips have long been considered semi-sentient by xenobiologists from the Core Worlds, their perceived intellect remains a contentious subject. To the people of Ord Mantell, however, there is no doubt that Savrips are cunning, intelligent, and - most of all - dangerous. Nearly four meters tall when standing fully erect, Savrips move in a hunched posture that disguises their height while exaggerating their already prodigious bulk. Their nexks are long and topped by snake-like heads, and their muscular arms drag upon the ground. Though primitive, Savrips prefer to wear clothing, and many wield large clubs as weapons.",
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 2,
@@ -1113,7 +1112,7 @@
 		},
 		"weapons": ["Slugthrower rifle", "Slugthrower pistol", "Gaffi stick"],
 		"gear": ["Adverse environment gear", "Utility belt", "Various tools"],
-		"tags": ["book:motpq","adventure:Mask of the Pirate Queen"]
+		"tags": ["book:motpq","adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
 	},
 	{
 		"name": "Sorority Bodyguard",
@@ -1143,7 +1142,7 @@
 		"talents": ["Targeted Blow"],
 		"weapons": ["Blaster pistol", "Vibroknife"],
 		"gear": ["Adverse environment gear", "Utility belt", "Various tools"],
-		"tags": ["book:motpq","adventure:Mask of the Pirate Queen"]
+		"tags": ["book:motpq","adventure:Mask of the Pirate Queen", "location:Ord Mantell", "veiled sorority"]
 	},
 	{
 		"name": "Nuuno",
@@ -1256,7 +1255,7 @@
 			"Survival": 3
 		},
 		"gear": ["Mask", "Wrestling costume"],
-		"tags": ["book:motpq","adventure:Mask of the Pirate Queen"]
+		"tags": ["book:motpq","adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
 	},
 	{
 		"name": "Wounded Mantellian Savrip",
@@ -1280,6 +1279,7 @@
 			"Discipline": 2,
 			"Melee": 2,
 			"Perception": 2,
+			"Resilience": 2,
 			"Vigilance": 2
 		},
 		"abilities": ["Silhouette 2",
@@ -1332,12 +1332,12 @@
 		"gear": ["Colourful wrestling costume", "Armoured clothing (+1 Soak, +1 defense)", "Feathered mask"],
 		"talents": ["Adversary 2", "Frenzied Attack 2"],
 		"weapons": ["Vibroknucklers"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
 	},
 	{
 		"name": "Illo Vandin, Herglic Crime Lord",
 		"type": "Nemesis",
-		"description": "",
+		"description": "Illo Vardin is a career gambler who made his fortune on Ord Mantell. Born on the Herglic world of Giju, he emigrated at an early age. He spent most of his formative years plying the Outer Rim's hyperspace lanes as part of a smuggler's crew. When the smuggler's ship was repossessed by an angry cruie lord, Illo found himself on Ord Mantell. Like most Herglics, Illo is tall and broad, with deep grey skin. He dresses in well-made clothing that mimics fashions popular with Worlport's gamblers, and he always wears a short cape made of black shimmersilk. He projects a calm and friendly demeanor to guests and friends, but behind this mask he is a cold, calculating, and suspicious businessman. When speaking, Illo tends to ask rhetorical questions of those around him, and is amused when individuals insist on answering them.",
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 2,
@@ -1365,7 +1365,7 @@
 		"gear": ["Comlink", "Fine clothing"],
 		"talents": ["Adversary 1", "Nobody’s Fool 2"],
 		"weapons": ["Heavy blaster pistol"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell", "species:herglic"]
 	},
 	{
 		"name": "Jerid Sykes, Consortium Admiral",
@@ -1399,7 +1399,7 @@
 		"gear": ["Comlink", "Fine clothing"],
 		"talents": ["Intimidating 2", "Natural Pilot"],
 		"weapons": ["Heavy blaster pistol"],
-		"tags": ["book:motpq", "creature", "location:Saleceumai", "adventure:Mask of the Pirate Queen"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "zann consortium"]
 	},
 	{
 		"name": "Micael Torval, Professional Sabacc Player",
@@ -1432,7 +1432,7 @@
 		"gear": ["Fashionable clothing"],
 		"talents": ["Sense Emotions", "Force Rating 1"],
 		"weapons": ["Holdout blaster"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
 	},
 	{
 		"name": "Noira, Pirate Queen",
@@ -1473,48 +1473,7 @@
 			}
 			],
 		"weapons": ["Light blaster pistol", "Vibrorapier"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen"]
-	},
-	{
-		"name": "Porel Vakra, Zann Consortium Underboss",
-		"type": "Nemesis",
-		"description": "",
-		"characteristics": {
-			"Brawn": 3,
-			"Agility": 3,
-			"Intellect": 3,
-			"Cunning": 3,
-			"Willpower": 4,
-			"Presence": 2
-		},
-		"derived": {
-			"soak": 4,
-			"wounds": 15,
-			"strain": 14,
-			"defence": [0, 0]
-		},
-		"skills": {
-			"Brawl": 3,
-			"Coercion": 2,
-			"Cool": 3,
-			"Knowledge: Underworld": 3,
-			"Negotiation": 2,
-			"Ranged: Light": 3,
-			"Streetwise": 3
-		},
-		"gear": ["Armoured suit (+1 soak)", "Comlink", "Datapad"],
-		"talents": ["Adversary 1", "Dodge 1", "Point Blank 2"],
-		"weapons": ["Blaster pistol",
-				{
-				"name": "Holdout blaster",
-				"skill": "Ranged: Light",
-				"damage": 6,
-				"critical": 4,
-				"range": "Short",
-				"qualities": ["Stun Setting", "Superior"]
-				}
-			],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "Zann Consortium"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "veiled sorority", "species:ubese"]
 	},
 	{
 		"name": "Revah, Decoy Pirate Queen",
@@ -1543,13 +1502,13 @@
 			"Knowledge: Underworld": 3,
 			"Leadership": 3,
 			"Ranged: Light": 2,
-			"Vigilance": 4
+			"Vigilance": 3
 		},
 		"gear": ["Armoured uniform (+1 soak)", "Breath mask", "Ornate armour (+2 soak)"],
 		"talents": ["Adversary 1", "Soft Spot"],
 		"abilities": ["Pirate Leader"],
-		"weapons": ["Light blaster pistol", "Vibrorapier"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen"]
+		"weapons": ["Blaster pistol", "Vibroknife"],
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Saleceumai", "veiled sorority"]
 	},
 	{
 		"name": "Porel Vakra, Zann Consortium Underboss",
@@ -1590,7 +1549,7 @@
 				"qualities": ["Stun Setting", "Superior"]
 				}
 			],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "Zann Consortium"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "zann consortium"]
 	},
 	{
 		"name": "Revah, Decoy Pirate Queen",
@@ -1659,7 +1618,7 @@
 		"talents": ["Adversary 2", "Nobody’s Fool 2"],
 		"abilities": ["Leader"],
 		"weapons": ["Vibrorapier"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "veiled sorority", "location:Ord Mantell"]
 	},
 	{
 		"name": "Savrip Guards",
@@ -1733,7 +1692,7 @@
 		"talents": ["Adversary 2", "Point Blank 2"],
 		"weapons": ["Holdout blaster", "Vibroknife"],
 		"gear": ["Conservative clothing", "stimpack"],
-		"tags": ["book:motpq", "Creature", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "species:Pantoran"]
+		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "species:Pantoran", "zann consortium"]
 	},
 	{
 		"name": "Warg, Savrip Guard",
@@ -1775,7 +1734,7 @@
 			}
 		],
 		"gear": ["Laminate armour (+2 soak)"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "veiled sorority"]
 	},
 	{
 		"name": "Zeke, Clone Trooper Platoon Leader",
@@ -1816,6 +1775,6 @@
 					],
 		"weapons": ["Blaster pistol", "Vibroknife", "Frag grenade"],
 		"gear": ["Worn clone trooper armour (+2 soak)", "Utility belt"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Saleceumai", "clone trooper"]
 	}
 ]
