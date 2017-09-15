@@ -1084,7 +1084,7 @@
 			"qualities": ["Disorient 3"]
 			}
 		],
-		"tags": ["book:motpq", "location:Ord Mantell", "adventure:Mask of the Pirate Queen"]
+		"tags": ["book:motpq", "location:Ord Mantell", "adventure:Mask of the Pirate Queen", "species:Savrip"]
 	},
 	{
 		"name": "Scrap Nomad",
@@ -1298,7 +1298,7 @@
 			"qualities": ["Disorient 3"]
 			}
 		],
-		"tags": ["book:motpq", "location:Ord Mantell", "adventure:Mask of the Pirate Queen"]
+		"tags": ["book:motpq", "location:Ord Mantell", "adventure:Mask of the Pirate Queen", "species:Savrip"]
 	},
 	{
 		"name": "Aimee “Flutterplume” Kraeff, Pit Fighter",
@@ -1365,7 +1365,7 @@
 		"gear": ["Comlink", "Fine clothing"],
 		"talents": ["Adversary 1", "Nobody’s Fool 2"],
 		"weapons": ["Heavy blaster pistol"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell", "species:herglic"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell", "species:Herglic"]
 	},
 	{
 		"name": "Jerid Sykes, Consortium Admiral",
@@ -1473,7 +1473,7 @@
 			}
 			],
 		"weapons": ["Light blaster pistol", "Vibrorapier"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "veiled sorority", "species:ubese"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "veiled sorority", "species:Ubese"]
 	},
 	{
 		"name": "Revah, Decoy Pirate Queen",
@@ -1660,7 +1660,7 @@
 			}
 		],
 		"gear": ["Armoured clothing (+1 defense, +1 soak)"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "species:Savrip"]
 	},
 	{
 		"name": "Venlana Sipal, Consortium Underboss",
@@ -1734,7 +1734,7 @@
 			}
 		],
 		"gear": ["Laminate armour (+2 soak)"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "veiled sorority"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "veiled sorority", "species:Savrip"]
 	},
 	{
 		"name": "Zeke, Clone Trooper Platoon Leader",
