@@ -653,7 +653,7 @@
 	},
 	{
 		"name": "Improvised Detonation",
-		"description": ""
+		"description": "Once per session, make a :hard: Mechanics check to perform the Improvised Detonation action and build an explosive device, dealing damage equal to ranks in Intellect + ranks in Mechanics + :success:"
 	},
 	{
 		"name": "Improvised Detonation [Improved]",
@@ -1421,19 +1421,19 @@
 	},
 	{
 		"name": "Stim Application",
-		"description": ""
+		"description": "Take the Stim Application Action; make an :average: Medicine check. If successful 1 engaged ally increases 1 characteristic by 1 for the remained of the encounter and suffers 4 strain."
 	},
 	{
 		"name": "Stim Application [Improved]",
-		"description": ""
+		"description": "When performing Stim Application Action, may increase difficulty of check to :hard:, and target only suffers 1 strain."
 	},
 	{
 		"name": "Stim Application [Supreme]",
-		"description": ""
+		"description": "When performing ther Stim Application Action, spend :triumph: to increase an additional Characteristic by 1."
 	},
 	{
 		"name": "Stimpack Specialization",
-		"description": ""
+		"description": "Stimpacks heal 1 additional wound per rank of Stimpack Specialization."
 	},
 	{
 		"name": "Strategic Form",
@@ -1541,7 +1541,7 @@
 	},
 	{
 		"name": "Time to Go [Improved]",
-		"description": ""
+		"description": "When activating Time to Go, allow 1 engaged ally to also perform an out of turn Move maneuver as an incidental to attempt to move into cover or out of the blast range of a weapon or explosion."
 	},
 	{
 		"name": "Tinkerer",
