@@ -73,7 +73,7 @@
 	{
 		"name": "Corellian Bloodhound",
 		"type": "Minion",
-		"description": "add description",
+		"description": "Corellian bloudhounds are often kept as pets and guard animals, though packs of wild bloodhounds occasionally roam in areas where they've been transplanted. Unlike most canids, they rarely bark or yelp. When they do bark, however, the vocalization has a whisper-like quality. This behaviour is instinctual, as Corellian bloodhounds in the wild rely on stealth to ambush their prey. At up to one meter in length, Corellian blooodhounds are slim and agile, relying on stealth and speed rather than brute strength to take down prey. A fine coat of tiny quills covers their body, and their head features an oversized snout to aid in scenting prety, and a mouth lined with sharp, dagger-like teeth.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 4,
@@ -201,7 +201,7 @@
 			"wounds": 3
 		},
 		"skills": ["Charm", "Deception", "Knowledge: Underworld", "Streetwise"],
-		"gear": ["Flamboyant coothing"],
+		"gear": ["Flamboyant clothing"],
 		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell", "veiled sorority"]
 	},
 	{
@@ -223,7 +223,7 @@
 		"skills": ["Coercion", "Cool", "Discipline", "Melee", "Ranged: Heavy"],
 		"weapons": ["Blaster carbine", "Vibrosword"],
 		"gear": ["Heavy clothing uniforms (+1 soak)"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell", "veiled sorority"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell", "veiled sorority", "pirate"]
 	},
 	{
 		"name": "Sorority Crew",
@@ -605,7 +605,7 @@
 	{
 		"name": "Gerk, Houk Supervisor",
 		"type": "Rival",
-		"description": "Add description.",
+		"description": "Gerk is the biggest and the strongest of the slavers, so naturally, he's in charge. It's his responsibility to negotiate with scrap buyers and to replenish the workforce when too many slaves die. While intelligent for a Houk, Gerk often lets his cruelty get the better of him.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 2,
@@ -628,7 +628,7 @@
 		},
 		"weapons": ["Heavy blaster pistol", "Brass Knuckles"],
 		"gear": ["Armoured Clothing (+1 Soak, Defence 1)", "Breath mask"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell", "species:Houk"]
 	},
 	{
 		"name": "Graf Lind, Former Pirate",
@@ -1117,12 +1117,12 @@
 	{
 		"name": "Sorority Bodyguard",
 		"type": "Rival",
-		"description": "",
+		"description": "Though the bodyguard is ostensibly present on behalf of the Queen to protect Micael Torval, he is actually there to ensure Micael remains loyal. He is also under orders to kill Torval should the need ever arise. The bodyguard is a male human who dresses in casual, yet functional, clothing and carries a blaster pistol in a concealed holster.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
 			"Intellect": 2,
-			"Cunning": 3,
+			"Cunning": 2,
 			"Willpower": 3,
 			"Presence": 2
 		},
@@ -1141,7 +1141,7 @@
 		},
 		"talents": ["Targeted Blow"],
 		"weapons": ["Blaster pistol", "Vibroknife"],
-		"gear": ["Adverse environment gear", "Utility belt", "Various tools"],
+		"gear": ["Heavy clothing (+1 soak)", "Comlink"],
 		"tags": ["book:motpq","adventure:Mask of the Pirate Queen", "location:Ord Mantell", "veiled sorority"]
 	},
 	{
@@ -1404,7 +1404,7 @@
 	{
 		"name": "Micael Torval, Professional Sabacc Player",
 		"type": "Nemesis",
-		"description": "",
+		"description": "micael Torval wa born on the Inner Rim world of Taanab to a wealthy family. Shortly after coming of age, he attended university on Coruscant, but the stale predictability of classes and his parents' conservative expectations drive him to strike out on his own. As he traveled the galaxy, avoiding the stream of bounty hunters sent looking for him, he grew increasingly addicted to gambling. Fortunately, he had a knack for sabacc. Much of his success stemmed from his latent Force abilities, which even he is unaware of. Though he eventually settled down on Ord Mantell, Micael doesn't intend to remain there for much longer. He had hoped to profit from his current mistress' affection before moving on. Unfortunately, he knows too much for the Queen to be truly comfortable with his survival outside of her purview. Micael is a handsome man with black hair and blue eyes who looks much younger than his forty-two years. He dresses in fashionable clothes, and though not a fighter, he carries at least two holdout blasters. He is incredibly charming, and has little trouble using his talents to further his own ends.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -1430,7 +1430,7 @@
 			"Streetwise": 2
 		},
 		"gear": ["Fashionable clothing"],
-		"talents": ["Sense Emotions", "Force Rating 1"],
+		"talents": ["Sense Emotions 1", "Force Rating 1"],
 		"weapons": ["Holdout blaster"],
 		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
 	},
@@ -1589,7 +1589,7 @@
 	{
 		"name": "Ryale Wei, Majordomo",
 		"type": "Nemesis",
-		"description": "",
+		"description": "Ryale Wei has ably served the Veiled Sorority for most of her life. Though she's always aspired to assume the role of Pirate Queen eventually, she takes some comfort in being a lotal second-in-command. She firmly believes that most of the Queen's decisions are actually hers anyway, and she enjoys taking credit for the Queen's actions. Ryale is a female human in her middle years, with platinum hair and golden eyes. She's vain to a fault, and has used regenerative treatments to maintain her youthful appearance for many years now. Aside from her extreme vanity, she's also overconfident. Even if confronted with violence, Ryale doesn't fight back. She prefers to guarantee her safety through surrender and delaying tactics.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -1609,7 +1609,6 @@
 			"Coercion": 4,
 			"Cool": 3,
 			"Deception": 4,
-			"Discipline": 3,
 			"Knowledge: Underworld": 4,
 			"Leadership": 4,
 			"Melee": 3,
