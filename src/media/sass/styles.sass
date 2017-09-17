@@ -209,26 +209,87 @@ h2.subtitle
 		padding: 0.5em
 		display: inline-block
 		cursor: pointer
+		position: relative
 
 		&.active
 			font-weight: bold
 			color: $derived
 			background-color: $body
-			position: relative
 			top: -2px
 			border-width: 0 2px 2px 2px
 			border-style: solid
 			border-color: $derived
 			border-radius: 0 0 0.2em 0.2em
 
+			ul
+				background-color: $body
+
 		&.tools
 			padding: 0 0 0 0.5em
+
+		.square
+			display: inline-block
+			width: 0.8em
+			height: 0.8em
+			border: 1px solid $font
+			position: relative
+			top: 0.1em
+			margin-right: 0.3em
 
 		svg
 			font-size: 0.7em
 
 		.btn:hover
 			color: $link
+
+		ul
+			position: absolute
+			bottom: 26px
+			left: -2px
+			width: 100%
+			background-color: $tabBgColour
+			border-width: 2px 2px 0 2px
+			border-style: solid
+			border-color: $derived
+			border-radius: 0.2em 0.2em 0 0
+			display: none
+
+			li
+				display: block
+				font-weight: normal
+				color: $font
+				padding-bottom: 0
+
+				.colour
+					font-size: 0.9em
+					border: 1px solid white
+					border-radius: 0.2em
+					padding: 0.2em
+					@include hover()
+
+					&:hover
+						border-color: black
+
+				input[type="text"]
+					color: $heading
+					background-color: white
+					border: 1px solid darken($link, 20%)
+					border-radius: 0.2em
+					display: block
+					width: 100%
+					padding: 0.2em 0.5em
+					@include hover()
+
+					&:focus
+						outline: 2px solid rgba($link, 0.5)
+						border-color: $link
+						@include shadow-input($font, $link)
+
+				div
+					display: block
+
+			&.active
+				display: block
 
 #content
 	margin-top: 2em
