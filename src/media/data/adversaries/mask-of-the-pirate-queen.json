@@ -30,7 +30,7 @@
 	{
 		"name": "Ambrae Environmental Security Guard",
 		"type": "Minion",
-		"description": "add description",
+		"description": "The guards hired to keep Ambrae's Environmental's assets secure aren't the best in the district, let alone the business. They have families, and they just want to do their job and go home after their shift is over. They don't take excessive risks and would prefer to call for backup rather than play the hero. That said, they do their job to the best of their ability, but if confronted by a superior force, they gladly lay down their weapons or retreat.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -51,13 +51,13 @@
 	{
 		"name": "Bridge Guard",
 		"type": "Minion",
-		"description": "add description",
+		"description": "Outside of the Savrips that make up the Queen's praetorians, the guards maintaining security on the bridge are the most trusted and capable troops. They are steadfast and loyal, and they have pledged to give their lives in her defense. Each of the bridge guards wears a special grey armoured uniform with black trim, and a plain black mnask that also functions as a pair of scanning goggles.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 4,
 			"Intellect": 2,
-			"Cunning": 4,
-			"Willpower": 4,
+			"Cunning": 3,
+			"Willpower": 3,
 			"Presence": 2
 		},
 		"derived": {
@@ -228,7 +228,7 @@
 	{
 		"name": "Sorority Crew",
 		"type": "Minion",
-		"description": "add description",
+		"description": "The crew who staffs the Sorority's ships are all experienced pirates. Though they aren't usually called upon to participate in boarding operations, they are expected to defend their ships to the best of their ability when enemies successfully attack. The vast majority of these individuals are unarmed unless previously equipped with blasters by their individual quartermasters, which is typically only done if their ship is expected to be boarded. As the Consortium counterattack was unexpected, most of them will not have blasters.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -249,7 +249,7 @@
 	{
 		"name": "Sorority Defender",
 		"type": "Minion",
-		"description": "add description",
+		"description": "The defenders on the *Renegade's Blood* are typical Sorority muscle. While other crew can serve in combat roles when required, these pirates act primarily as guards and security.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -270,7 +270,7 @@
 	{
 		"name": "Sorority Engineer",
 		"type": "Minion",
-		"description": "add description",
+		"description": "The Sorority's engineers maintain their ships' systems and ensure they remain functional even under the most trying conditions. They're well aware that their own survival hinges on whether they can repair enough of theur ship's systems for it to either flee or compete with their attackers. The engineers on the *Renegade's Blood* consist of two humans (one male, one female), a male Sullustan, and a female Duros. They wear coveralls, utility belts festooned with tools, and breath masks. Two of them have blaster pistols, while the other two engineers wield heavy hydrospanners. If forced into combat, they fight in two groups, one with the pistols and the others with the hydrospanners.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -288,7 +288,7 @@
 			{
 				"name": "Heavy hydrospanner",
 				"skill": "Melee",
-				"damage": "",
+				"damage": "4",
 				"critical": "5",
 				"range": "Engaged",
 				"qualities": ["Disorient 2"]
@@ -300,7 +300,7 @@
 	{
 		"name": "Sorority Fighter Jockey",
 		"type": "Minion",
-		"description": "The ranks of the Sorority'sfighter jockeys are filled with pirates who have some experience piloting starships, and who have been pressed into service (willingly or not) as fighter pilots. Though only a few of these pilots are available, the Sorority's recent successes against the Zann Consortium have boosted their morale considerably. Sorority fighter jockeys aren't particularly skilled, but they are cocky and overconfident nonetheless. They fly as if they were impervious to damage and take risks that no sane fighter pilot would dare to take. Despite (or because of) this, their mortality rate has been astonishingly low - until now, at least.",
+		"description": "The ranks of the Sorority's fighter jockeys are filled with pirates who have some experience piloting starships, and who have been pressed into service (willingly or not) as fighter pilots. Though only a few of these pilots are available, the Sorority's recent successes against the Zann Consortium have boosted their morale considerably. Sorority fighter jockeys aren't particularly skilled, but they are cocky and overconfident nonetheless. They fly as if they were impervious to damage and take risks that no sane fighter pilot would dare to take. Despite (or because of) this, their mortality rate has been astonishingly low - until now, at least.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -321,7 +321,7 @@
 	{
 		"name": "Sorority Kill Team Member",
 		"type": "Minion",
-		"description": "add description",
+		"description": "Coming from various species, genders and back grounds, the only thing that unites the four members of the kill team is their loyalty to the Sorority. They are well paid and live reasonable good lives in Taleucema.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -343,28 +343,28 @@
 	{
 		"name": "Sorority Palace Guard",
 		"type": "Minion",
-		"description": "add description",
+		"description": "The pirates who act as guards inside the Queen's palace are experienced troops of a variety of species and genders. They don't wear specific uniforms, though most of them wear heavy clothing. The guards take their jobs seriously, but are pirates ay hear - many of them are bored and hope they can go back to doing what they enjoy most, namely, taking prizes in space. This makes them complacent and sloppy, which is a boon for any intruder.",
 		"characteristics": {
 			"Brawn": 3,
-			"Agility": 4,
+			"Agility": 3,
 			"Intellect": 1,
 			"Cunning": 2,
 			"Willpower": 2,
-			"Presence": 1
+			"Presence": 2
 		},
 		"derived": {
 			"soak": 4,
 			"wounds": 5
 		},
-		"skills": ["Coercion", "Cool", "Discipline", "Melee", "Ranged: Light"],
+		"skills": ["Coercion", "Cool", "Discipline", "Melee", "Ranged: Heavy"],
 		"weapons": ["Blaster carbine", "Vibrosword"],
 		"gear": ["Heavy clothing uniform (+1 soak)"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell", "veiled sorority"]
 	},
 	{
 		"name": "Sorority Pirate",
 		"type": "Minion",
-		"description": "add description",
+		"description": "The pirates at the Sorority base here represent all of the more common species in the sector. Despite their variation, they each wear a red armband tied around the left bicep or similar anatomical equivalent. All are blooded veterans who believe they guard the Pirate Queen herself on Saleucami.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -385,7 +385,7 @@
 	{
 		"name": "Sorority Pirate Queensguard",
 		"type": "Minion",
-		"description": "add description",
+		"description": "The pirates who guard the Queen - or at least the woman they believe to be the Queen - are some of the best the Sorority has to offer. They have proven their worth time and time again, stopping at nothing to keep their leader safe from harm. In addition to red armbands, each wears a crimson sash about the waist.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -407,7 +407,6 @@
 	{
 		"name": "Sorority Saboteur",
 		"type": "Minion",
-		"description": "add description",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -472,38 +471,6 @@
 		"tags": ["book:motpq", "creature", "location:Saleceumai", "adventure:Mask of the Pirate Queen"]
 	},
 	{
-		"name": "Venlana Sipal, Consortium Underboss",
-		"type": "Nemesis",
-		"description": "Venlana Sipal is a Saleucamian native descended from the original Pantoran colonists. She wears a mask of polite professionalism at all times, but her true nature is much more sinister. Ambitions and merciless, she does anything to ensure her own advancement. Her skin is blue and her hair a dark shade of blue-black. She generally dresses in conservative suits.",
-		"characteristics": {
-			"Brawn": 2,
-			"Agility": 3,
-			"Intellect": 3,
-			"Cunning": 4,
-			"Willpower": 3,
-			"Presence": 4
-		},
-		"derived": {
-			"soak": 2,
-			"wounds": 12,
-			"strain": 13
-		},
-		"skills": {
-			"Charm": 3,
-			"Coercion": 3,
-			"Deception": 3,
-			"Knowledge: Underworld": 2,
-			"Melee": 2,
-			"Negotiation": 3,
-			"Ranged: Light": 2,
-			"Streetwise": 3
-		},
-		"talents": ["Adversary 2", "Point Blank 2"],
-		"weapons": ["Holdout blaster", "Vibroknife"],
-		"gear": ["Conservative clothing", "stimpack"],
-		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "species:Pantoran"]
-	},
-	{
 		"name": "Thaelo",
 		"type": "Rival",
 		"description": "Simian predators that dwell in the jungle trees common to Saleucami's many craters.",
@@ -549,7 +516,7 @@
 	{
 		"name": "Consortium Starfighter Pilot",
 		"type": "Rival",
-		"description": "Add description.",
+		"description": "The Zann Consortium's fither pilots are highly skilled and proud of their elite status. Though many are cocky and overconfident, they possess the talent to back up their bravado. They come from all genders, backgrounds and species. The Consortium starfighter pilots aboard the *End of Days* are part of Sabacc Squadron, otherwise known as the “Gamblers”. Sabacc Squadron pilots are well known for their willingness to face and overcome incredible odds. Each has a callsign that corresponds to a face card from sabacc, such as “Endurance”, “Demise”, or “Star”.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 4,
@@ -578,7 +545,6 @@
 	{
 		"name": "Fleet Officer",
 		"type": "Rival",
-		"description": "Add description.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 4,
@@ -666,7 +632,7 @@
 	{
 		"name": "Oake, Veteran Clone Trooper",
 		"type": "Rival",
-		"description": "Add description.",
+		"description": "Oake began as the platoon's medic, but when its last gunner was killed, he was “promoted” to fill the gap. He does his best to keep the other troopers healthy, even though he lacks any formal medical facilities and can only use what supplies the pirates occasionally provide.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -712,7 +678,7 @@
 	{
 		"name": "Jayk, Veteran Clone Trooper",
 		"type": "Rival",
-		"description": "Add description.",
+		"description": "Jayk, Rafe and Tojo are the last remaining “rank-and-file” clone troopers in the platoon. As generalists, they are the backbone of the group, providing mobile firepower while Zeke gives orders and Oake lays down a heavy field of fire. While Jayk is the smart aleck of the group and Tojo is level-headed and stable under fire, Rafe is generally dour, pessimistic, and easily aggrevated.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -743,7 +709,7 @@
 	{
 		"name": "Tojo, Veteran Clone Trooper",
 		"type": "Rival",
-		"description": "Add description.",
+		"description": "Jayk, Rafe and Tojo are the last remaining “rank-and-file” clone troopers in the platoon. As generalists, they are the backbone of the group, providing mobile firepower while Zeke gives orders and Oake lays down a heavy field of fire. While Jayk is the smart aleck of the group and Tojo is level-headed and stable under fire, Rafe is generally dour, pessimistic, and easily aggrevated.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -779,7 +745,7 @@
 	{
 		"name": "Rafe, Veteran Clone Trooper",
 		"type": "Rival",
-		"description": "Add description.",
+		"description": "Jayk, Rafe and Tojo are the last remaining “rank-and-file” clone troopers in the platoon. As generalists, they are the backbone of the group, providing mobile firepower while Zeke gives orders and Oake lays down a heavy field of fire. While Jayk is the smart aleck of the group and Tojo is level-headed and stable under fire, Rafe is generally dour, pessimistic, and easily aggrevated.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -856,7 +822,7 @@
 	{
 		"name": "Jyd Renyr, Arena Manager",
 		"type": "Rival",
-		"description": "Add description.",
+		"description": "Jyd is an exceedingly portly human with a bald head and beady eyes. He dresses in a fine suit tailored for his excessive physique, and he wanders the arena's edges with surprising speed and agility. Above all things, Jyd is concerned with profits. He doesn't care who fights (or dies) as long as they pay the requisite charges, as well as any additional fees he decides to tack on for his trouble. Despite his lack of compassion, he's of the opinion that anyone who wants to fight Flutterplume is either stupid or crazy.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -1002,7 +968,6 @@
 	{
 		"name": "Mantellian Pterosaur",
 		"type": "Rival",
-		"description": "",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 4,
@@ -1232,7 +1197,7 @@
 	{
 		"name": "The Anvil, Arena Fighter",
 		"type": "Rival",
-		"description": "",
+		"description": "The Anvil, otherwise known as Parsons to his small group of what pass for friends, has been fighting in the Loaded Savrip's arena for some time. He's what most consider a midrate fighter who might have had a promising career if his luck wouldn't have been so bad. Now he's a fixture here, occasionally in a bout or who when the audience is bored or edgy.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -1251,9 +1216,9 @@
 			"Coercion": 2,
 			"Coordination": 3,
 			"Discipline": 2,
-			"Perception": 3,
-			"Stealth": 2,
-			"Survival": 3
+			"Melee": 2,
+			"Resilience": 2,
+			"Streetwise": 1
 		},
 		"gear": ["Mask", "Wrestling costume"],
 		"tags": ["book:motpq","adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
@@ -1261,7 +1226,6 @@
 	{
 		"name": "Wounded Mantellian Savrip",
 		"type": "Rival",
-		"description": "",
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 2,
@@ -1304,7 +1268,7 @@
 	{
 		"name": "Aimee “Flutterplume” Kraeff, Pit Fighter",
 		"type": "Nemesis",
-		"description": "",
+		"description": "Aimee Kraeff has worked much of her life to rise above her family's poverty. Born to Corellian parents in one of Ord Mantell's farming villages, she ran away from home in her teens and was nearly killed by a Mantellian Savrip. A band of Scraplands nomads found her near death and nursed her back to health before taking her to Worlport. Alone and without prospects, Aimee soon found herself participating in underground blood sports under the alias of Flutterplume. Since then, she's made quite a name for herself. Aimee intends to return to her family and lift them out of poverty once she's made her fortune as a fighter in Worlport. She sends money to her parents whenever she can, but she's heard nothing from them for several weeks and is growing increasingly worried. Flutterplume is a muscular young woman in her early twewnties with spiked hair and grey eyes. Her back is marred by a series of deep scars, souvenirs from the Savrip attack she survived in her youth. When fighting, she does so anonymously, wearing a thin, formfitting mask adorned with shining flutterplume feathers.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,
@@ -1330,7 +1294,7 @@
 			"Survival": 3,
 			"Vigilance": 3
 		},
-		"gear": ["Colourful wrestling costume", "Armoured clothing (+1 Soak, +1 defense)", "Feathered mask"],
+		"gear": ["Colourful wrestling costume", "Armoured clothing (+1 Soak)", "Feathered mask"],
 		"talents": ["Adversary 2", "Frenzied Attack 2"],
 		"weapons": ["Vibroknucklers"],
 		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
@@ -1438,7 +1402,7 @@
 	{
 		"name": "Noira, Pirate Queen",
 		"type": "Nemesis",
-		"description": "",
+		"description": "Noira is an Ubese female in her mid-forties, with pale skin and piercing blue eyes that swirl like liquid behind her platinum mask. Her hair is shoulder-length and ebony, and she wears a sharp uniform that adds even more to her air of command. As an Ubese, Noira wears a discreet breath mask that supplies her with the atmosphere mixture she requires to survive. She keeps a blaster at her side and his proficient with her vibrorapier. Her true weapon, though, is her charm. Under the circumstances, Noira is more interested in survival than combat. Things have gone poorly, and even if she survives the Consortium's ambush, her credibility within the Veiled Sorority has been completely shattered. In fact, it's unlikely she'll be the Queen for much longer, and she knows it.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 4,
@@ -1465,7 +1429,7 @@
 			"Ranged: Light": 2,
 			"Streetwise": 4
 		},
-		"gear": ["Armoured uniform (+1 soak)", "Breath mask", "Ornate armour (+2 soak)"],
+		"gear": ["Armoured uniform (+1 soak)", "Breath mask", "Ornate armour (+2 soak)","Pirate Queen's mask"],
 		"talents": ["Adversary 2", "Command 2", "Steely Nerves"],
 		"abilities": [
 			{
@@ -1477,44 +1441,9 @@
 		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "veiled sorority", "species:Ubese"]
 	},
 	{
-		"name": "Revah, Decoy Pirate Queen",
-		"type": "Nemesis",
-		"description": "",
-		"characteristics": {
-			"Brawn": 2,
-			"Agility": 3,
-			"Intellect": 4,
-			"Cunning": 4,
-			"Willpower": 3,
-			"Presence": 3
-		},
-		"derived": {
-			"soak": 3,
-			"wounds": 16,
-			"strain": 16,
-			"defence": [0, 0]
-		},
-		"skills": {
-			"Charm": 3,
-			"Coercion": 3,
-			"Cool": 2,
-			"Deception": 3,
-			"Discipline": 3,
-			"Knowledge: Underworld": 3,
-			"Leadership": 3,
-			"Ranged: Light": 2,
-			"Vigilance": 3
-		},
-		"gear": ["Armoured uniform (+1 soak)", "Breath mask", "Ornate armour (+2 soak)"],
-		"talents": ["Adversary 1", "Soft Spot"],
-		"abilities": ["Pirate Leader"],
-		"weapons": ["Blaster pistol", "Vibroknife"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Saleceumai", "veiled sorority"]
-	},
-	{
 		"name": "Porel Vakra, Zann Consortium Underboss",
 		"type": "Nemesis",
-		"description": "",
+		"description": "Given that Porel has been a Consortium member for nearly fifteen years, many are surprised he hasn't advanced higher in the ranks. The truth is, he enjoys being where he is, and he has proven himself to be a loyal member of the Zann Consortium time and time again. Porel is a perpetuallt stoic Twi’lek, both in his manner and his speech. He dresses conservatively, favoring tailored suits that conceal his hidden pistol. Based on his plain appearance, many people underestimate him - often to their painful detriment.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -1525,8 +1454,8 @@
 		},
 		"derived": {
 			"soak": 4,
-			"wounds": 15,
-			"strain": 14,
+			"wounds": 16,
+			"strain": 18,
 			"defence": [0, 0]
 		},
 		"skills": {
@@ -1550,12 +1479,12 @@
 				"qualities": ["Stun Setting", "Superior"]
 				}
 			],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "zann consortium"]
+		"tags": ["book:motpq", "species:Twi’lek", "adventure:Mask of the Pirate Queen", "zann consortium"]
 	},
 	{
 		"name": "Revah, Decoy Pirate Queen",
 		"type": "Nemesis",
-		"description": "",
+		"description": "The leader of the Veiled Sorority on Saleucami is Revah, a middle-aged human female who has been with the pirate group for over a decade. One of the QUeen's decoys, she wears a mask that is nearly identical to the one worn by the Sorority's leader. Without her mask, she appears as a rather plain human female with high cheekbones, blue eyes, and braided grey hair. As far as the Saleucami's Sorority's pirates are concerned, she is the Queen; only one or two individuals know the truth behind her duplicity. Despite being a surrogate queen, Revah is a canny operator and leader who hopes to be elevated to the Queen's position in time.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -1697,7 +1626,7 @@
 	{
 		"name": "Warg, Savrip Guard",
 		"type": "Nemesis",
-		"description": "",
+		"description": "Warg has served the Queen aboard her starship for as long as he can remember. THe ship's cramped quarters used to bother him, but these days he doesn't possess a coherent memory of anything else. Though he isn't fond of guard duty, Warg considers himself to be very good at standing in one place for a long time. The only thing that might improve his day is something - ideally someone - to smash. Warg wears a suit of laminate armour made just for him, and he carries a massive vibro-axe that the Queen gave him as a present.",
 		"notes": "Tur and Kel",
 		"characteristics": {
 			"Brawn": 5,
@@ -1725,7 +1654,7 @@
 		"abilities": ["Berzerk Rage"],
 		"weapons": [
 			{
-			"name": "Massive vibro-ax",
+			"name": "Massive vibro-axe",
 			"skill": "Melee",
 			"damage": 9,
 			"critical": 2,
@@ -1739,8 +1668,7 @@
 	{
 		"name": "Zeke, Clone Trooper Platoon Leader",
 		"type": "Nemesis",
-		"description": "",
-		"notes": "Tur and Kel",
+		"description": "Zeke was a junior sergeant at the end of the Clone Wars and became a valued part of the mercenary band of retired platoon comrades. In the years that followed, he found himself rising in rank as other members fell in action. Just prior to landing on Saleucami, he became leader of the group. Zeke is an excellent commander, but over the years he has grown distant and cold as more and more of his men have died. He was nearly killed by a pride of thaelos in Blackwind Crater, if not for Oake's medical skills, Zekw would have lost a lot more than jusy his left arm. Despite this, he is still a capable and deadly trooper.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
