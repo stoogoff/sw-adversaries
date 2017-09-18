@@ -96,6 +96,7 @@ Main tasks:
 	- adventure books
 		- Beyond the Rim (DONE)
 		- Mask of the Pirate Queen (DONE)
+		- Jewel of Yavin
 		- Chronicles of the Gatekeeper
 		- Friends Like These
 		- Rescue at Glare Peak
