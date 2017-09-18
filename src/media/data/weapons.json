@@ -408,5 +408,21 @@
 		"critical": 2,
 		"range": "Engaged",
 		"qualities": ["Pierce 3", "Vicious 3"]
+	},
+	{
+		"name": "Vibroknucklers",
+		"skill": "Brawl",
+		"plus-damage": 1,
+		"critical": 2,
+		"range": "Engaged",
+		"qualities": ["Pierce 1", "Vicious 1"]
+	},
+	{
+		"name": "Vibrorapier",
+		"skill": "Melee",
+		"plus-damage": 2,
+		"critical": 2,
+		"range": "Engaged",
+		"qualities": ["Defensive 1", "Pierce 5"]
 	}
 ]

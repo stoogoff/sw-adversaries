@@ -76,6 +76,10 @@
 		"description": "Add ranks in Beast of Burden to the creature’s encumbrance threshold."
 	},
 	{
+		"name": "Berzerk Rage",
+		"description": "Deal +1 damage with Brawl and Melee attacks when suffering any Wounds. When suffering a Critical Injury, deal +2 damage with Brawl and Melee attacks instead."
+	},
+	{
 		"name": "Blabber Mouth",
 		"description": "Add :setback: to all social skill checks against a monkey-lizard’s owner."
 	},
@@ -193,7 +197,7 @@
 	},
 	{
 		"name": "Detect Force-Sensitivity",
-		"description": "The vornskr may make an :average: Perception check to detect all Force-sensitive creatures or characters with a Force rating within medium range; this ability functions regardless of intervening terrain or material."
+		"description": "The vornskr may make an :average: Perception check to detect all Force-sensitive creatures or characters with a Force rating within Medium range; this ability functions regardless of intervening terrain or material."
 	},
 	{
 		"name": "Dive Attack",
@@ -250,6 +254,10 @@
 	{
 		"name": "Etiquette and Protocol",
 		"description": "Protocol droids allow allies to add :boost: to any Nego­tiation checks or other checks made to negotiate or mediate."
+	},
+	{
+		"name": "Excellent Climber",
+		"description": "Once per game session, the thaelo may reroll any one Athletics check made when climbing."
 	},
 	{
 		"name": "Fearsome Aspect",
@@ -436,6 +444,10 @@
 		"description": "Any Perception checks made to detect the creature suffer :setback::setback:; this affects scanners and macrobinoculars using thermal sensors or passive light amplification as well."
 	},
 	{
+		"name": "Near-Sighted",
+		"description": "Add :setback: to ranged attacks and vision-based Perception checks at long and extreme range."
+	},
+	{
 		"name": "Negate Force Powers",
 		"description": "An adult ysalamir creates a spherical zone extending out to short range, inside which Force-sensitive characters and creatures cannot exert influence over the Force. Inside this zone, any Force powers, Force talents, or other abilities that the GM decides work via the Force do not function. Likewise, such powers may not affect or detect any­thing within this zone."
 	},
@@ -589,7 +601,7 @@
 	},
 	{
 		"name": "Soothing Song",
-		"description": "The jubba bird may make an :average: Charm check to heal 1 Strain per :success: from all creatures within medium range."
+		"description": "The jubba bird may make an :average: Charm check to heal 1 Strain per :success: from all creatures within Medium range."
 	},
 	{
 		"name": "Sticky Saliva",
@@ -662,6 +674,10 @@
 	{
 		"name": "Territorial",
 		"description": "Spukami are incredibly territorial, and gain :boost: to all Brawl checks made when attacking any intruders into what they consider their territory."
+	},
+	{
+		"name": "Teamwork",
+		"description": "Add :boost: to all checks during combat while within Medium range of one or more clone trooper allies."
 	},
 	{
 		"name": "Terrifying",
