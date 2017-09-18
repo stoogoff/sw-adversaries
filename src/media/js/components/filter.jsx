@@ -11,7 +11,7 @@ export default class Filter extends React.Component {
 		this.event = null;
 
 		this.state = {
-			filter: this.props.filter
+			filter: ""
 		};
 	}
 

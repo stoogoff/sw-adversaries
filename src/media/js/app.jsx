@@ -3,6 +3,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import DataStore from "lib/data-store";
 import dispatcher from "lib/dispatcher";
+import Tab from "lib/tab";
 import Character from "components/character";
 import LinkList from "components/link-list";
 import Filter from "components/filter";
@@ -77,51 +78,84 @@ class App extends React.Component {
 				a.tags.push(a.type.toLowerCase());
 			});
 
-			this._updateState(adversary, adversaries, null, tags);
+			this.setState({
+				list: adversaries,
+				tags: tags
+			});
+			this.selectAdversary(adversary);
+			this.setLoaded();
 		});
 
 		Object.keys(this.stores).forEach(key => {
 			if(key != "adversaries") {
-				this.events[key] = this.stores[key].on("change", () => this._updateState());
+				this.events[key] = this.stores[key].on("change", () => this.setLoaded());
 			}
 		});
 
 		// view object from menu
 		dispatcher.register(CONFIG.OBJECT_VIEW, id => {
-			this._updateState(this.stores.adversaries.findBy("id", id), null, null, null, false);
+			this.setState({ menuOpen: false });
+			this.selectAdversary(this.stores.adversaries.findBy("id", id));
 		});
 
 		// add another object to the view
 		dispatcher.register(CONFIG.TAB_ADD, () => {
-			let newTab = this.stores.adversaries.all().find(a => a.id == this.state.selected[this.state.selectedIndex].id);
+			let adversary = this.state.selected[this.state.selectedIndex].character;
+			let selected = this.state.selected;
 
-			this.state.selected.push(newTab);
-			this._updateState();
+			selected.push(new Tab(adversary));
+
+			this.setState({ selected: selected });
 		});
 
-		// remove the first non-active tab from the right hand side
+		// remove the tab specified by the index
 		dispatcher.register(CONFIG.TAB_REMOVE, index => {
 			if(index < 0 || this.state.selected.length <= 1) {
 				return;
 			}
 
-			this.state.selected.splice(index, 1);
+			let selectedIndex = this.state.selectedIndex;
+			let selected = this.state.selected;
+
+			selected.splice(index, 1);
 
 			if(this.state.selectedIndex > this.state.selected.length - 1) {
-				--this.state.selectedIndex;
+				--selectedIndex;
 			}
 
-			this._updateState();
+			this.setState({
+				selected: selected,
+				selectedIndex: selectedIndex
+			});
 		});
+
+		let updateTab = property => {
+			return (index, text) => {
+				if(index < 0 || index >= this.state.selected.length) {
+					return;
+				}
+
+				let selected = this.state.selected;
+
+				selected[index][property] = text;
+
+				this.setState({ selected: selected });
+			}
+		}
+
+		// rename a given tab
+		dispatcher.register(CONFIG.TAB_RENAME, updateTab("tabName"));
+
+		// change the background colour of a given tab
+		dispatcher.register(CONFIG.TAB_COLOUR, updateTab("colour"));
 
 		// change to a new tab
 		dispatcher.register(CONFIG.TAB_CHANGE, index => {
-			if(index < 0) {
+			if(index < 0 || index >= this.state.selected.length) {
 				return;
 			}
 
-			this.state.selectedIndex = index;
-			this._updateState();
+			this.setState({ selectedIndex: index });
 		});
 
 		// filter text from menu
@@ -134,7 +168,11 @@ class App extends React.Component {
 				adversaries = adversaries.filter(a => a.name.toLowerCase().indexOf(filter) != -1 || a.tags.find(t => t.toLowerCase() == filter) != undefined);
 			}
 
-			this._updateState(adversaries.length == 1 ? adversaries[0] : null, adversaries);
+			this.setState({ list: adversaries });
+
+			if(adversaries.length == 1) {
+				this.selectAdversary(adversaries[0]);
+			}
 		});
 
 		// add and remove favourites
@@ -153,7 +191,9 @@ class App extends React.Component {
 				favourites.push(id);
 
 				Store.local.set(CONFIG.FAVOURITE_STORE, favourites);
-				this._updateState(adversary, null, null, tags);
+
+				this.setState({ tags: tags });
+				this.selectAdversary(adversary);
 			}
 		});
 		dispatcher.register(CONFIG.FAVOURITE_REMOVE, id => {
@@ -173,41 +213,30 @@ class App extends React.Component {
 				tags.splice(tags.indexOf(CONFIG.FAVOURITE_KEY + adversary.name), 1);
 
 				Store.local.set(CONFIG.FAVOURITE_STORE, favourites);
-				this._updateState(adversary, null, null, tags);
+
+				this.setState({ tags: tags });
+				this.selectAdversary(adversary);
 			}
 		});
 	}
 
 	toggleMenu() {
-		let menuOpen = this.state.menuOpen;
-
-		this._updateState(null, null, null, null, !menuOpen);
+		this.setState({ menuOpen: !this.state.menuOpen });
 	}
 
-	_updateState(adversary, list, filter, tags, menuOpen) {
-		let selected = null;
+	setLoaded() {
+		this.setState({ isLoaded: this.loadedTotal == Object.keys(this.stores).length });
+	}
 
-		if(adversary) {
-			selected = this.state.selected;
-			selected[this.state.selectedIndex] = adversary;
-		}
+	selectAdversary(adversary) {
+		let selected = this.state.selected;
 
-		if(menuOpen === undefined) {
-			menuOpen = this.state.menuOpen;
-		}
+		selected[this.state.selectedIndex] = new Tab(adversary);
 
-		this.setState({
-			selected: selected || this.state.selected,
-			list:     list     || this.state.list,
-			filter:   filter   || this.state.filter,
-			tags:     tags     || this.state.tags,
-			menuOpen: menuOpen,
-			isLoaded: this.loadedTotal == Object.keys(this.stores).length,
-			selectedIndex: this.state.selectedIndex
-		});
+		this.setState({ selected: selected });
 
 		if(this.state.selected.length > 0) {
-			location.hash = this.state.selected[this.state.selectedIndex].id;
+			location.hash = this.state.selected[this.state.selectedIndex].character.id;
 		}
 	}
 
@@ -226,7 +255,7 @@ class App extends React.Component {
 			</div>
 			<TagMenu tags={ this.state.tags } />
 			<div id="navigation" className={ (this.state.menuOpen ? "menu-open" : "menu-closed") + " column small" }>
-				<Filter filter={ this.state.filter } />
+				<Filter />
 				<p><small>Showing { x } of { y }.</small></p>
 				<LinkList data={ this.state.list } selected={ this.state.selected.length > 0 ? this.state.selected[this.state.selectedIndex].id : "" } />
 			</div>
@@ -234,8 +263,8 @@ class App extends React.Component {
 				{ !this.state.isLoaded
 					? <Loader />
 					: <div>
-						{ this.state.selected.map((selected, index) => <Character key={ index } character={ selected } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } visible={ index == this.state.selectedIndex } />)}
-						<Tabs tabs={ this.state.selected.map(c => c.name) } selectedIndex={ this.state.selectedIndex } />
+						{ this.state.selected.map((selected, index) => <Character key={ index } character={ selected.character } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } visible={ index == this.state.selectedIndex } />)}
+						<Tabs tabs={ this.state.selected } selectedIndex={ this.state.selectedIndex } />
 					</div>
 				}
 			</div>
