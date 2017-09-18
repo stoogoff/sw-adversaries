@@ -1,0 +1,47 @@
+[
+	{
+		"name": "Baron Administrator Lando Calrissian",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 16,
+			"strain": 15,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 2,
+			"Deception": 4,
+			"Discipline": 2,
+			"Knowledge: Core Worlds": 3,
+			"Knowledge: Underworld": 3,
+			"Leadership": 2,
+			"Negotiation": 3,
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Skullduggery": 2,
+			"Stealth": 2,
+			"Streetwise": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 2", "Kill with Kindness 1", "Nobody’s Fool 2", "Plausible Deniability 2"],
+		"abilities": [
+					{
+						"name": "Luck Be a Lady",
+						"description":"Once per encounter, Lando may reroll a skill check"
+					}
+				],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Fine clothing", "Dashing cloak", "Wrist-mounted comlink", "As the Baron Administrator, Lando has access to immense wealth and resources, but carries very little with him."],
+		"tags": ["underworld", "adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin"]
+	}
+]
