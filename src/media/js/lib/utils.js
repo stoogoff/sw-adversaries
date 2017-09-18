@@ -143,5 +143,6 @@ let bookMap = {
 	"book:uabs": "Under a Black Sun",
 	"book:flt": "Friends Like These",
 	"book:btr": "Beyond the Rim",
-	"book:motpq": "Mask of the Pirate Queen"
+	"book:motpq": "Mask of the Pirate Queen",
+	"book:joy": "Jewel of Yavin"
 };
