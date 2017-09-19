@@ -161,7 +161,7 @@
 		"abilities": ["Leader"],
 		"weapons": ["Heavy blaster pistol", "Force pike"],
 		"gear": ["Expensive robes (+1 Soak)"],
-		"tags": ["underworld", "black sun", "book:eote"]
+		"tags": ["underworld", "black sun", "book:eote", "crime lord"]
 	},
 	{
 		"name": "Con Artist",
@@ -851,7 +851,7 @@
 				"qualities": ["Stun Setting"]
 			}
 		],
-		"tags": ["underworld", "species:Hutt", "book:aor", "book:eote"]
+		"tags": ["underworld", "species:Hutt", "book:aor", "book:eote", "crime lord"]
 	},
 	{
 		"name": "Hutt Majordomo",
