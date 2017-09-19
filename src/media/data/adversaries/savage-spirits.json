@@ -217,34 +217,6 @@
 		"tags": ["book:ss", "creature"]
 	},
 	{
-		"name": "Mantellian Flutterplume",
-		"type": "Minion",
-		"characteristics": {
-			"Brawn": 1,
-			"Agility": 3,
-			"Intellect": 1,
-			"Cunning": 4,
-			"Willpower": 1,
-			"Presence": 1
-		},
-		"derived": {
-			"soak": 2,
-			"wounds": 3
-		},
-		"skills": ["Brawl", "Coordination", "Survival"],
-		"abilities": ["Flyer"],
-		"weapons": [
-			{
-				"name": "Beak and talons",
-				"skill": "Brawl",
-				"damage": 2,
-				"critical": 3,
-				"range": "Engaged"
-			}
-		],
-		"tags": ["book:ss", "creature"]
-	},
-	{
 		"name": "Porvir",
 		"type": "Minion",
 		"characteristics": {
