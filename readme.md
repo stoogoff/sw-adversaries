@@ -94,8 +94,8 @@ Main tasks:
 	- beginner's games
 		- Age of Rebellion
 	- adventure books
-		- Beyond the Rim
-		- Mask of the Pirate Queen
+		- Beyond the Rim (DONE)
+		- Mask of the Pirate Queen (DONE)
 		- Chronicles of the Gatekeeper
 		- Friends Like These
 		- Rescue at Glare Peak
@@ -116,6 +116,7 @@ Main tasks:
 		- Lessons from the Past
 		- Long Arm of the Law
 		- Lost Knowledge
+		- Mask of the Pirate Queen
 		- Operation Shell Game
 		- Perlemian Haul
 		- Phantoms in the Dark
@@ -142,6 +143,4 @@ Main tasks:
 - Proper force pips rather than using the light side icon
 - Upgraded difficulties
 - Print multiple tabs
-- Better tab handling:
-	- Labels (text and colour)
-	- Delete as part of the label
+

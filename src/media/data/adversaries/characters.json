@@ -133,7 +133,7 @@
 		"talents": ["Adversary 2", "Quick Draw"],
 		"weapons": ["Heavy blaster pistol", "Vibro-ax"],
 		"gear": ["Heavy clothing (+1 Soak)"],
-		"tags": ["book:eote", "adventure:Trouble Brewing", "crime boss", "pirate", "species:Aqualish", "underworld"]
+		"tags": ["book:eote", "adventure:Trouble Brewing", "crime lord", "pirate", "species:Aqualish", "underworld"]
 	},
 	{
 		"name": "Bandin Dobah Pirate Mate",
