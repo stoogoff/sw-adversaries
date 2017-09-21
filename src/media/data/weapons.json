@@ -80,6 +80,14 @@
 		"qualities": ["Stun Setting"]
 	},
 	{
+		"name": "Relby-k23 blaster pistol",
+		"skill": "Ranged: Light",
+		"damage": 6,
+		"critical": 3,
+		"range": "Medium",
+		"qualities": ["Stun Setting", "Pierce 2"]
+	},
+	{
 		"name": "Bowcaster",
 		"skill": "Ranged: Heavy",
 		"damage": 10,
@@ -249,6 +257,14 @@
 		"critical": 2,
 		"range": "Engaged",
 		"qualities": ["Stun Setting"]
+	},
+	{
+		"name": "Stun club",
+		"skill": "Melee",
+		"damage": 5,
+		"critical": 2,
+		"range": "Engaged",
+		"qualities": ["Disorient 2"]
 	},
 	{
 		"name": "Ancient sword",

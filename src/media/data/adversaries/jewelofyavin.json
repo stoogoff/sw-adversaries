@@ -2,7 +2,7 @@
 	{
 		"name": "Baron Administrator Lando Calrissian",
 		"type": "Nemesis",
-		"description": "",
+		"description": "Lando Calrissian has been a smuggler, gambler, soldier of fortune, hero, and scoundrel in his time. Now, he is the Baron Administrator of Cloud City, a role that he is surprised to discover he enjoys and at which he excels. Lando is a handsome human who sports an elegant moustache and is always well-dressed. He cannot help being charming, espescially to ladies of all species. This profile represents Lando in his role as socialite and administrator as that is the role he is expected to play in this adventure. A full profile of Lando Calrissian is beyond the scope of **The Jewel of Yavin**.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -43,5 +43,157 @@
 		"weapons": ["Holdout blaster"],
 		"gear": ["Fine clothing", "Dashing cloak", "Wrist-mounted comlink", "As the Baron Administrator, Lando has access to immense wealth and resources, but carries very little with him."],
 		"tags": ["underworld", "adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin"]
+	},
+	{
+		"name": "Lobot, cyborg bureaucrat",
+		"type": "Nemesis",
+		"description": "A former thief with an enhanced cybernetic brain, Lobot is steadfastly loyal to Cloud City. Serving as the COmputer Liaison Officer and chief aide to the Baron Administrator, Lobot is arguably the most powerful person on Cloud City due to the machinery in his brain, Lobot now has difficulty engaging in human conversation and very seldom speaks. When he does speak, he does not waste time on pleasantries. He is to the point and unflinchingly honest. This profile represents Lobot in his role as computer liaison officer as that is the role he is expected to fulfill in this adventure. A full profile of Lobot is beyond the scope of this adventure.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 5,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"strain": 16,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Computers": 3,
+			"Discipline": 3,
+			"Knowledge: Education": 2,
+			"Knowledge: Outer Rim": 1,
+			"Knowledge: Underworld": 1,
+			"Mechanics": 2,
+			"Perception": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Defensive Slicing 2", "Speaks Binary 2"],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Durable clothing (+1 soak)", "Borg Construct Aj^6 implant (Lobot can communicate silently with computers and comlinks and wirelessly access Cloud City's central computer from anywhere in the city; the implant also increases his Intellect)"],
+		"tags": ["underworld", "adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Cyborg"]
+	},
+	{
+		"name": "Wing Guard Officer",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": ["Discipline", "Melee", "Ranged: Light", "Vigilance"],
+		"abilities": ["Covering Fire"],
+		"weapons": ["Relby-k23 blaster pistol", "Stun club"],
+		"gear": ["Wing Guard uniform (+1 Soak)", "Comlink", "Magnacuffs (breaking free of these restraints requires a :daunting: Coordination check)"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin"]
+	},
+	{
+		"name": "Wing Guard Sergeant",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Coercion": 1,
+			"Discipline": 1,
+			"Leadership": 2,
+			"Melee": 2,
+			"Piloting: Pleanetary": 2,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"weapons": ["Relby-k23 blaster pistol", "Stun club"],
+		"gear": ["Wing Guard uniform (+1 Soak)", "Comlink", "Spare clip"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin"]
+	},
+	{
+		"name": "Ugnaught Laborer",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 10
+		},
+		"skills": {
+			"Computers": 1,
+			"Mechanics": 2,
+			"Melee": 1
+			},
+		"weapons": [
+			{
+				"name": "Hydrospanner - Melee",
+				"skill": "Melee",
+				"damage": 3,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			},
+			{
+				"name": "Hydrospanner - Ranged",
+				"skill": "Ranged: Light",
+				"damage": 3,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"abilities": ["Silhouette 0", "Stubborn and Dependable"],
+		"gear": ["Durable clothing (+1 Soak)"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Ugnaught"]
+	},
+	{
+		"name": "Lutrillian Merchant",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10
+		},
+		"skills": {
+			"Charm": 1,
+			"Cool": 1,
+			"Deception": 1,
+			"Discipline": 1,
+			"Negotiation": 2,
+			"Streetwise": 2
+			},
+		"talents": ["Greased Palms"],
+		"abilities": ["Blubber (+1 soak)"],
+		"gear": ["Upper class clothing", "250 credits"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Lutrillian"]
 	}
 ]
