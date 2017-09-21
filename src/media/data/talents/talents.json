@@ -1381,7 +1381,7 @@
 	},
 	{
 		"name": "Speaks Binary",
-		"description": ""
+		"description": "When directing NPC droids, may grant them :boost: per rank of Speaks Binary on checks."
 	},
 	{
 		"name": "Speaks Binary (Improved)",
