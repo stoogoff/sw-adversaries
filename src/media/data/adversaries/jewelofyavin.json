@@ -166,7 +166,7 @@
 		],
 		"abilities": ["Silhouette 0", "Stubborn and Dependable"],
 		"gear": ["Durable clothing (+1 Soak)"],
-		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Ugnaught"]
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Ugnaught", "civilian"]
 	},
 	{
 		"name": "Lutrillian Merchant",
@@ -194,6 +194,241 @@
 		"talents": ["Greased Palms"],
 		"abilities": ["Blubber (+1 soak)"],
 		"gear": ["Upper class clothing", "250 credits"],
-		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Lutrillian"]
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Lutrillian", "civilian"]
+	},
+	{
+		"name": "Tabarith's Thug",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 8
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coercion": 1,
+			"Ranged: Light": 1
+			},
+		"weapons": ["Blaster pistol", "Brass knuckles"],
+		"gear": ["Long coat (+1 soak)", "Comlink"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Lutrillian", "underworld", "thug"]
+	},
+	{
+		"name": "Bhurra, Lutrillian Thug",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 12
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coercion": 1,
+			"Perception": 1,
+			"Ranged: Light": 1,
+			"Vigilance": 1
+			},
+		"talents": ["Adversary 1"],
+		"abilities": ["Blubber (+1 soak)"],
+		"weapons": ["Blaster pistol", "Brass knuckles"],
+		"gear": ["Long coat (+1 soak)", "Comlink"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Lutrillian", "underworld", "thug"]
+	},
+	{
+		"name": "Government Security Droid",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Ranged: Light": 3,
+			"Vigilance": 3
+			},
+		"abilities": ["Droid"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Government-network comlink", "Integrated armor plating (+1 defense, +1 soak)"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Droid"]
+	},
+	{
+		"name": "Gerrol Hunn, Corporate Pilot",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 4,
+			"Cool": 2,
+			"Piloting: Planetary": 3
+			},
+		"talents": ["Brilliant Evasion"],
+		"weapons": ["Light blaster pistol"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "pilot"]
+	},
+	{
+		"name": "Chara Tull, Corporate Co-Pilot",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 3,
+			"Gunnery": 1,
+			"Piloting: Planetary": 2
+			},
+		"talents": ["Brilliant Evasion"],
+		"weapons": ["Light blaster pistol"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "pilot"]
+	},
+	{
+		"name": "The Carbine, Hutt Cartel Pilot",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Cool": 2,
+			"Gunnery": 3,
+			"Piloting: Planetary": 3,
+			"Ranged: Light": 3
+			},
+		"talents": ["Dead to Rights"],
+		"weapons": ["Heavy blaster pistol"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "pilot"]
+	},
+	{
+		"name": "Garulo, Hutt Cartel Gunner",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Cool": 3,
+			"Gunnery": 3,
+			"Knowledge: Underworld": 3,
+			"Streetwise": 2
+			},
+		"talents": ["Natural Driver"],
+		"abilities": [
+				{
+					"name": "Additional Limbs",
+					"description": "Xexto have six limbs, two legs and four arms; as a result, gain an additional free maneuver per turn, though still may not perform more than two maneuvers per turn"
+				}
+					],
+		"equipment": ["Datapad"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "pilot", "species:Xexto"]
+	},
+	{
+		"name": "Tarryn Rayzer, Eccentric Pilot",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 2,
+			"Computers": 2,
+			"Cool": 2,
+			"Mechanics": 3,
+			"Piloting: Planetary": 4,
+			"Streetwise": 2
+			},
+		"talents": ["Full Throttle"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["comlink"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "pilot"]
+	},
+	{
+		"name": "K4-76A",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 14
+		},
+		"skills": {
+			"Computers": 3,
+			"Gunnery": 2,
+			"Vigilance": 2
+			},
+		"abilities": ["Droid"],
+		"talents": ["True Aim"],
+		"weapons": ["Blaster pistol"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Droid"]
 	}
 ]
