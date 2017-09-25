@@ -430,5 +430,64 @@
 		"talents": ["True Aim"],
 		"weapons": ["Blaster pistol"],
 		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Droid"]
+	},
+	{
+		"name": "Tibannuck",
+		"type": "Rival",
+		"description": "Generally looked upon as simple creatures somewhat akin to mynocks, at least one notable sentientologist has presented compelling evidence to suggest that the tibannuck are a sentient race. Although the city's current Baron Administrator has ended the administrative bounties on tibannuck kills, Imperial law has refused to recognize the creatures as intelligent, and this several independent sources continue offering bounties on them.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Athletics": 3,
+			"Resilience": 1,
+			"Survival": 2
+			},
+		"abilities": ["Droid"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "creature"]
+	},
+	{
+		"name": "Kaltho the Hutt, Crime Lord",
+		"type": "Nemesis",
+		"description": "The great Hutt Kaltho is a curious sight and much smaller than the norm for one of his standing (he only dines on the finest of delicacies). He is still as enormous as an adult Hutt would naturally be, with the occasional grotesque fold of loose skin indicating some past act of gluttony before he began to waste away. When in public or in a gathering with outsiders, Kaltho conceals his shrunken body with a massive black garment of Corellian nanosilk enbroidered with great scenes from the history and mythology of the Hutts.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 1,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak":  9,
+			"wounds": 30,
+			"strain": 20,
+			"defence": [0, 2]
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 4,
+			"Cool": 3,
+			"Deception": 3,
+			"Discipline": 3,
+			"Knowledge: Outer Rim": 2,
+			"Knowledge: Underworld": 5,
+			"Leadership": 2,
+			"Negotiation": 4,
+			"Resilience": 5,
+			"Vigilance": 3
+		},
+		"talents": ["Durable 3", "Resolve 2"],
+		"abilities": ["Awkward", "Ponderous"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "underworld", "species:Hutt", "crime lord"]
 	}
 ]
