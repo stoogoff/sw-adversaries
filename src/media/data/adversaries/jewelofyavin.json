@@ -489,5 +489,140 @@
 		"talents": ["Durable 3", "Resolve 2"],
 		"abilities": ["Awkward", "Ponderous"],
 		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "underworld", "species:Hutt", "crime lord"]
+	},
+	{
+		"name": "Shreya Ordassa, Togrutan Academic",
+		"type": "Nemesis",
+		"description": "Shreya Ordassa stands out among the humanoid galagoers with her pale orange skin and gray-white facial markings. She often dresses in muted, neutral colours to minimize the difference in her appearance due to a lifetime of struggling with anti-alien prejudice. Still, her prominent back and white striped head-tails and the hollow horns of her species are distinctive, alien, and beautiful in their own way.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 13
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 2,
+			"Cool": 2,
+			"Deception": 1,
+			"Knowledge: Education": 4,
+			"Leadership": 1,
+			"Negotiation": 3
+			},
+		"talents": ["Nobody’s Fool 1", "Scathing Tirade"],
+		"gear": ["datapad"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Togruta"]
+	},
+	{
+		"name": "Mil Mikkir, Chagrian Executive",
+		"type": "Nemesis",
+		"description": "Although Chagrians are typically taller than humans, Mil Mikkir is small for his species, not much more than 1.7 meters in height at his crown. His prominent horns do make him appear taller, and he favors imposing suits in rich colours to help make an impression despite his size. His deep blue skin is darkest on the lethorn growths from the sides of his head, and he takes great pride in this, as he does in his appearance in general.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 12,
+			"defence": [2, 2]
+		},
+		"skills": {
+			"Charm": 3,
+			"Coercion": 2,
+			"Cool": 2,
+			"Deception": 3,
+			"Knowledge: Education": 2,
+			"Negotiation": 4,
+			"Ranged: Light": 1,
+			"Streetwise": 1
+			},
+		"talents": ["Plausible Deniability 2", "Smooth Talker (Deception) 2"],
+		"gear": ["personal deflector shield (+2 defense)", "datapad"],
+		"weapons": ["Holdout blaster"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Chagrian"]
+	},
+	{
+		"name": "Pos Podura, Twi’lek associate",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 14,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Charm": 1,
+			"Computers": 1,
+			"Cool": 2,
+			"Deception": 2,
+			"Knowledge: Education": 3,
+			"Negotiation": 1,
+			"Skullduggery": 1,
+			"Streetwise": 1
+			},
+		"talents": ["Idealist 1", "Resolve 2"],
+		"abilities": ["Twi’lek"],
+		"gear": ["stolen credentials and encrypted expense voucher with 5000 credits"],
+		"weapons": ["Holdout blaster"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Twi’lek"]
+	},
+	{
+		"name": "\"Zekra Fol\", ISB Operative",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 5,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 11,
+			"strain": 16,
+			"defence": [2, 2]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Charm": 3,
+			"Coercion": 3,
+			"Cool": 3,
+			"Deception": 3,
+			"Discipline": 4,
+			"Knowledge: Outer Rim": 3,
+			"Knowledge: Underworld": 2,
+			"Negotiation": 2,
+			"Perception": 3,
+			"Ranged: Light": 1,
+			"Streetwise": 2,
+			"Vigilance": 3
+			},
+		"talents": ["Adversary 1", "Nobody’s Fool 2", "Plausible Deniability 2", "Smooth Talker (Coercion) 2"],
+		"gear": ["personal deflector shield (+2 defense)", "additional equipment as necessary"],
+		"weapons": ["Holdout blaster"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "empire", "imperial security bureau"]
 	}
 ]
