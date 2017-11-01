@@ -1,0 +1,535 @@
+[
+	{
+		"name": "Nel Henol",
+		"type": "Rival",
+		"description": "An enthusiastic, practiced bargainer and negotiator, Nel Henol is always pushing a new service or sale to her customers. She’s also on the Gorensla payroll, acting as the kajidic’s eyes and ears for any unusual activity at Bog Bay.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10
+		},
+		"skills": {
+			"Charm": 2,
+			"Deception": 2,
+			"Knowledge: Underrworld": 2,
+			"Negotiation": 2,
+			"Perception": 2
+		},
+		"talents": ["Congenial"],
+		"abilities": ["Hoverer", "Silhouette 0"],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Heavy clothing (+1 Soak)", "Comlink (handheld)", "Datapad"],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "species:Toydarian", "location:Toydaria", "location:Riar"]
+	},
+	{
+		"name": "Riar Royal Guard",
+		"type": "Minion",
+		"description": "Local Royal Guard Patrol Officers monitor Bog Bay for criminal activities. Though not as elite as the ones in Toydor, they can be formidable against the local criminal element. One of their most important duties is to ensure that the flight restrictions in the area are followed; they are notoriously uncompromising concerning any violations they find.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": ["Coercion", "Melee", "Perception", "Ranged: Light", "Vigilance"],
+		"talents": [],
+		"abilities": ["Hoverer", "Silhouette 0"],
+		"weapons": ["Blaster pistol", "Truncheon"],
+		"gear": ["Royal guard armour (+1 Soak)", "Comlink (handheld)"],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "species:Toydarian", "location:Toydaria", "location:Riar", "security"]
+	},
+	{
+		"name": "Toydarian Infochant",
+		"type": "Rival",
+		"description": "The PCs might wish to confer with a local infochant to gain information concerning Walisi or the statue. Several are in the Bog Bay area. Developing one or more as well-paid contacts could not only gain the PCs a valuable resource but also help establish a false pretence if they are using aliases as part of their hunt.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10
+		},
+		"skills": {
+			"Charm": 2,
+			"Cool": 2,
+			"Deception": 3,
+			"Knowledge: Underworld": 3,
+			"Negotiation": 2,
+			"Perception": 3,
+			"Streetwise": 3
+		},
+		"talents": ["Natural Negotiator", "Nobody’s Fool 2"],
+		"abilities": ["Hoverer", "Silhouette 0"],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Heavy clothing (+1 Soak)", "Comlink (handheld)", "Datapad"],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "species:Toydarian", "location:Toydaria", "location:Riar", "infochant"]
+	},
+	{
+		"name": "RT-3PO",
+		"type": "Rival",
+		"description": "Brought on to aid in translations and negotiations, RT-3PO has excelled especially in running Walisi’s auctions. It is loyal and competent but scarcely a fighter, and it was lucky not to have been seriously damaged in the attack.",
+		"notes": "Suffering 4 Wounds, malfunctioning visual system (photoreceptors).",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10
+		},
+		"skills": {
+			"Charm": 2,
+			"Knowledge: Education": 3,
+			"Knowledge: Xenology": 3,
+			"Negotiation": 2,
+			"Perception": 1
+		},
+		"abilities": ["Droid", "Etiquette and Protocol"],
+		"gear": ["Comlink", "Datapad"],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "species:Droid", "location:Toydaria", "location:Riar"]
+	},
+	{
+		"name": "Cleaning Droid",
+		"type": "Minion",
+		"description": "Walisi purchased a series of these droids some time ago. He has since upgraded them regularly to ensure they properly maintain his establishment without damaging and of his items through overzealous dusting or improperly applied cleaning liquids.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 3
+		},
+		"skills": ["Melee", "Perception", "Ranged: Light"],
+		"talents": [],
+		"abilities": ["Droid", "Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Two built-in scrubber tentacles",
+				"skill": "Melee",
+				"damage": 2,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1"]
+			},
+			{
+				"name": "Built-in cleaning spray hose",
+				"skill": "Ranged: Light",
+				"damage": null,
+				"critical": null,
+				"range": "Short",
+				"qualities": ["Disorient 1", "Knockdown"],
+				"notes": "Disorient can be activated if sprayed in the target’s eyes.\n\nKnockdown can be activated if sprayed on the floor, in which case the cleaning fluid remains on the floor for the rest of the encounter causing all characters in the area to make a :hard: Coordination check or fall prone."
+			}
+		],
+		"gear": [],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "species:Droid", "location:Toydaria", "location:Riar"]
+	},
+	{
+		"name": "Wrecker",
+		"type": "Nemesis",
+		"description": "One of the more prominent mercenaries operating in the region, Wrecker styles himself as more than just a cheap tough. Lately, he has been branching out into information brokering. Although the bulk of his credits still come from violence — like the theft and kidnapping the PCs are investigating — he knows time catches up with everyone, and that he needs to shift to a less physical line of work at some point if he wants to maintain his power base.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 10,
+			"strain": 15,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Charm": 2,
+			"Cool": 2,
+			"Deception": 3,
+			"Knowledge: Underworld": 3,
+			"Leadership": 3,
+			"Negotiation": 1,
+			"Perception": 2,
+			"Ranged: Light": 3,
+			"Streetwise": 1,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Nobody’s Fool 2"],
+		"abilities": ["Hoverer", "Silhouette 0"],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Comlink", "Datapad"],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "species:Toydarian", "location:Toydaria", "location:Riar", "underworld"]
+	},
+	{
+		"name": "Toydarian Agent",
+		"type": "Rival",
+		"description": "Jerserra has a small group of agents of Toydaria. Its members keep a low profile due to the Hutt operations here. Led by “Boss” Trelon, the group was an almost-forgotten part of her growing power base until one of its members reported news of the auction. Immediately recognising the shard within the satue, Jerserra ordered the agents to arrange to retrieve it and kidnap its seller. Now, they hold Walisi and *Tragic Hope*, awaiting her arrival.\n\nThe GM can use the following profile as needed for Loorek, Ileon, or any of the other local Toydarians who server Jerserra on this world.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 8,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coercion": 2,
+			"Computers": 1,
+			"Deception": 2,
+			"Knowledge: Underworld": 2,
+			"Perception": 3,
+			"Ranged: Light": 2,
+			"Streetwise": 2,
+			"Vigilance": 2
+
+		},
+		"talents": [],
+		"abilities": ["Hoverer", "Silhouette 0"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Heavy clothing (+1 Soak)", "Secure comlink"],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "species:Toydarian", "location:Toydaria", "location:Riar", "jerserra’s gang", "underworld"]
+	},
+	{
+		"name": "Walisi",
+		"type": "Nemesis",
+		"description": "Walisi has run his shop for years now, slowly rising in influence across Toydaria and becoming known at an interstellar level. Though he has been somewhat concerned about how much power the Gorensla kajidic has over him, so far the arrangement has been mutually profitable. He had anticipated that the auction of *Tragic Hope* would be his grandest achievement yet, but he was quite unprepared for the unwanted attention it brought — perhaps enough to make the statue his final acquisition.",
+		"notes": "Suffering 7 Wounds, 6 Strain, and 7 Critical Injuries.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 10,
+			"strain": 15
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 2,
+			"Deception": 3,
+			"Knowledge: Education": 3,
+			"Knowledge: Underworld": 3,
+			"Negotiation": 4,
+			"Perception": 3,
+			"Streetwise": 1
+		},
+		"talents": ["Natural Negotiator", "Nobody’s Fool 2"],
+		"abilities": ["Hoverer", "Silhouette 0"],
+		"gear": ["Panic recall button"],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "species:Toydarian", "location:Toydaria", "location:Riar"]
+	},
+	{
+		"name": "Preelos Consortium Customised Security Droid",
+		"type": "Rival",
+		"description": "These droids are deployed throughout the mansion and normally they are quite effective in maintaining security. When faced with the superior firepower that the Gorensla enforcers bring to bear at the start of their brash attack, however, they are little more than a distraction. On the other hand, later on, as the Gorensla forces are thinned, these droids could help turn the tide.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 13,
+			"defence": [0, 1]
+		},
+		"skills": {
+			"Cool": 1,
+			"Perception": 3,
+			"Ranged: Light": 2,
+			"Stealth": 2,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"abilities": ["Droid", "Hoverer"],
+		"weapons": [
+			{
+				"name": "Built-in blaster",
+				"skill": "Ranged: Light",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			},
+			{
+				"name": "Net gun",
+				"skill": "Ranged: Light",
+				"damage": null,
+				"critical": null,
+				"range": "Short",
+				"qualities": ["Ensnare 3", "Knockdown", "Limited Ammo 1"]
+			}
+		],
+		"gear": ["Built-in comlink"],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "species:Droid", "location:Toydaria", "location:Merchant-Baron’s Mansion"]
+	},
+	{
+		"name": "ISB Security Droid",
+		"type": "Rival",
+		"description": "Jerserra’s agents earlier stole and reprogrammed these more advanced and dangerous ISB model to patrol the mansion as well. They more than make up for their lower numbers with superior firepower and armour plating.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 14,
+			"defence": [0, 1]
+		},
+		"skills": {
+			"Cool": 2,
+			"Perception": 3,
+			"Ranged: Heavy": 3,
+			"Stealth": 3,
+			"Survival": 1,
+			"Vigilance": 3
+		},
+		"abilities": ["Droid", "Hoverer"],
+		"weapons": [
+			{
+				"name": "Built-in light repeating blaster",
+				"skill": "Ranged: Heavy",
+				"damage": 11,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Auto-Fire", "Pierce 1"]
+			}
+		],
+		"gear": ["Armour plating (+1 Soak)", "Built-in comlink"],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "species:Droid", "location:Toydaria", "location:Merchant-Baron’s Mansion", "empire", "imperial security bureau"]
+	},
+	{
+		"name": "Gorensla Weequay Enforcer",
+		"type": "Minion",
+		"description": "The Gorensla kajidic has many blasters-for-hire on its payroll. Most don’t survive their first assignment, but there are always more to be found. The clan uses Weequay enforcers quite often, some of whom have already been operating as bounty hunters or bodyguards.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 8
+		},
+		"skills": ["Athletics", "Brawl", "Melee", "Ranged: Heavy"],
+		"talents": [],
+		"abilities": ["Pheromone Communication"],
+		"weapons": ["Blaster carbine", "Vibroknife"],
+		"gear": ["Heavy clothing (+1 Soak)"],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "species:Weequay", "location:Toydaria", "location:Merchant-Baron’s Mansion", "underworld", "thug", "gorensla"]
+	},
+	{
+		"name": "Pravon, Gorensla Lieutenant",
+		"type": "Rival",
+		"description": "Pravon has led one of the Gorensla’ primary enforcer groups for only a few months, and he is eager to prove himself worthy of even higher advancement. He has extensive cybernetics, including an artificial voice box. This allows Pravon to be even louder than he was before, something he uses effectively to goad his fellow Weequay into even greater acts of violence against the kajidic’s enemies.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coercion": 2,
+			"Deception": 2,
+			"Perception": 2,
+			"Ranged: Heavy": 2,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Pheromone Communication"],
+		"weapons": ["Blaster carbine", "Vibroknife"],
+		"gear": ["Heavy clothing (+1 Soak)", "Comlink", "Cybernetic voice box"],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "species:Weequay", "location:Toydaria", "location:Merchant-Baron’s Mansion", "underworld", "thug", "gorensla"]
+	},
+	{
+		"name": "“Boss” Trelon",
+		"type": "Nemesis",
+		"description": "Trelon has gone by “Boss” since Jerserra assigned him as commander of her smuggling/information-gathering group on Toydaria, and he has lived up to the nickname. He’s developed a wide net of informants through intimidation and blackmail in order to further her cause (and his own). While loyal to Jerserra, he’s also ambitious. He hopes to impress her enough with his work that she advances him to greater power within her operation.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10,
+			"strain": 15,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Brawl": 1,
+			"Charm": 2,
+			"Coercion": 2,
+			"Deception": 2,
+			"Discipline": 2,
+			"Knowledge: Underworld": 3,
+			"Perception": 3,
+			"Ranged: Light": 2,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Hoverer", "Silhouette 0"],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Heavy clothing (+1 Soak)", "Secure comlink"],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "species:Toydarian", "location:Toydaria", "location:Merchant-Baron’s Mansion", "underworld", "jerserra’s gang"]
+	},
+	{
+		"name": "Jerserra’s Mercenary",
+		"type": "Minion",
+		"description": "Over the years, Jerserra has gathered many unsavoury types from a variety of Outer Rim species to her side. Most are in it simply for the credits, but some feel she is more than just another merc leader. She has vision, and aiding her can only lead to powerful roles for themselves in the future she is building.",
+		"notes": "Armed with either a blaster carbine or a vibro-ax.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": ["Athletics", "Cool", "Discipline", "Melee", "Piloting: Planetary", "Ranged: Heavy", "Ranged: Light"],
+		"weapons": ["Heavy blaster pistol", "Blaster carbine", "Vibro-ax"],
+		"gear": ["Heavy clothing (+1 Soak)"],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "location:Toydaria", "location:Merchant-Baron’s Mansion", "mercenary", "jerserra’s gang"]
+	},
+	{
+		"name": "Jerserra (Early)",
+		"type": "Nemesis",
+		"description": "It’s been many years since she left Dathomir, but Jerserra never forgot the legends of the Nardithi. Through her recent Force visions from the shard she possesses, she feels sure that finally she has found a link that will reveal the resting place of the lost cluster.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 5
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 24,
+			"strain": 23
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Charm": 2,
+			"Coercion": 2,
+			"Cool": 1,
+			"Deception": 2,
+			"Discipline": 3,
+			"Leadership": 2,
+			"Lightsaber": 3,
+			"Knowledge: All": 2,
+			"Perception": 3,
+			"Piloting: Planetary": 2,
+			"Ranged: Light": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 3", "Force rating 3", "Parry 4", "Improved Scathing Tirade"],
+		"abilities": [
+			"Darkside Force User",
+			{
+				"name": "Force power: Jerserra’s Influence",
+				"description": "Jerserra may spend :darkside: and target one character within Short range. That character must immediately make an :average: fear check as an out of turn incidental. If the target suffers Strain as a result of that fear check, she recovers from an equal amount of Strain. She may also spend :darkside: to extend the power’s range to Medium."
+			},
+			{
+				"name": "Force power: Move",
+				"description": "Jerserra may spend :darkside: to move one silhouette 0 object within Short range to another location within Short range. She can spend :darkside: to increase range one band, spend :darkside: to increase silhouette to movable to 1, and spend :darkside: to increase number of objects movable at one time by one (to a maximum of two). Jerserra can hurl objects by making a Move Force power check and rolling a ranged attack as part of the pool. The attack's difficulty is equal to the silhouette of the object being thrown and only succeeds if she can spend enough :darkside: to move the object. The attack deals damage equal to the silhouette of the object times 10 (silhouette 0 deals 5 damage) plus one per :success:. To throw multiple objects, she must generate enough :darkside: to move multiple objects, and must use rules for Auto-Fire to determine difficulty and targeting."
+			},
+			{
+				"name": "Force power: Unleash",
+				"description": "Jerserra makes a Force power check and targets one enemy at Short range, and rolls a ranged attack as part of the pool, using an :average: Discipline check instead of normal difficulty. If the check is successful and generates :darkside::darkside: the attack deals 3 damage with a critical rating of 4, plus 1 additional damage per :success:. May spend :darkside: to increase damage by 2, and :darkside: to increase range to Medium."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Inquisitor lightsaber",
+				"skill": "Lightsaber",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder"]
+			},
+			{
+				"name": "Inquisitor lightsaber (dual-blade)",
+				"skill": "Lightsaber",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder", "Linked 1", "Unwieldy 2"]
+			},
+			{
+				"name": "Inquisitor lightsaber (spin)",
+				"skill": "Lightsaber",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder", "Defensive 1", "Deflection 1"]
+			}
+		],
+		"gear": ["Heavy clothing (+1 Soak)", "Secure comlink"],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "inquisitor", "force sensitive", "darkside"]
+	}
+]
