@@ -496,7 +496,7 @@
 			},
 			{
 				"name": "Force power: Move",
-				"description": "Jerserra may spend :darkside: to move one silhouette 0 object within Short range to another location within Short range. She can spend :darkside: to increase range one band, spend :darkside: to increase silhouette to movable to 1, and spend :darkside: to increase number of objects movable at one time by one (to a maximum of two). Jerserra can hurl objects by making a Move Force power check and rolling a ranged attack as part of the pool. The attack's difficulty is equal to the silhouette of the object being thrown and only succeeds if she can spend enough :darkside: to move the object. The attack deals damage equal to the silhouette of the object times 10 (silhouette 0 deals 5 damage) plus one per :success:. To throw multiple objects, she must generate enough :darkside: to move multiple objects, and must use rules for Auto-Fire to determine difficulty and targeting."
+				"description": "Jerserra may spend :darkside: to move one silhouette 0 object within Short range to another location within Short range. She can spend :darkside: to increase range one band, spend :darkside: to increase silhouette to movable to 1, and spend :darkside: to increase number of objects movable at one time by one (to a maximum of two). Jerserra can hurl objects by making a Move Force power check and rolling a ranged attack as part of the pool. The attack’s difficulty is equal to the silhouette of the object being thrown and only succeeds if she can spend enough :darkside: to move the object. The attack deals damage equal to the silhouette of the object times 10 (silhouette 0 deals 5 damage) plus one per :success:. To throw multiple objects, she must generate enough :darkside: to move multiple objects, and must use rules for Auto-Fire to determine difficulty and targeting."
 			},
 			{
 				"name": "Force power: Unleash",
@@ -531,5 +531,318 @@
 		],
 		"gear": ["Heavy clothing (+1 Soak)", "Secure comlink"],
 		"tags": ["adventure:Ghosts of Dathomir", "book:god", "inquisitor", "force sensitive", "darkside"]
+	},
+	{
+		"name": "Irrica the Hutt",
+		"type": "Nemesis",
+		"description": "Irrica’s life on Toydaria is near perfect. As Gorensla’s leader in Riar, she enjoys a great deal of power, albeit on the local stage. The ongoing rivalry with the Desilijic kajidic, however, has reached an intolerable level; she has started to see Desilijic’s machinations (whether real or imagined) in each recent setback and failure.",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 1,
+			"Intellect": 4,
+			"Cunning": 6,
+			"Willpower": 5,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 10,
+			"wounds": 30,
+			"strain": 20
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 4,
+			"Cool": 4,
+			"Deception": 5,
+			"Discipline": 5,
+			"Knowledge: Outer Rim": 3,
+			"Knowledge: Underworld": 3,
+			"Leadership": 1,
+			"Melee": 1,
+			"Negotiation": 5,
+			"Perception": 3,
+			"Ranged: Light": 2,
+			"Resilience": 8,
+			"Streetwise": 1
+		},
+		"talents": ["Adversary 2", "Confidence 2", "Durable 3", "Natural Negotiator", "Nobody’s Fool 3"],
+		"abilities": ["Awkward", "Ponderous"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Other equipment available from kajidic upon demand"],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "species:Hutt", "location:Toydaria", "location:Riar", "underworld"]
+	},
+	{
+		"name": "Grax and Gremka",
+		"type": "Rival",
+		"description": "Twin Toydarians from a village outside of Arnel, Grax and Gremka work mostly as annra farmers, but they ave made a side operation out of leading expeditions into the surrounding swamplands. Their rapid-fire negotiating style, whereby they seem to argue more with each other than actually haggle over their fees as guides, is often very effective with those unprepared for their act.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 11
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 1,
+			"Charm": 1,
+			"Negotiation": 2,
+			"Perception": 1,
+			"Piloting: Planetary": 2,
+			"Ranged: Heavy": 1
+		},
+		"abilities": [
+			"Hoverer", "Silhouette 0",
+			{
+				"name": "Twin Negotiators",
+				"description": "When working together, can spend :advantage::advantage: to add automatic :success: or :threat::threat: to add automatic :failure: when making opposed social checks."
+			}
+		],
+		"weapons": ["Blaster rifle"],
+		"gear": ["Heavy clothing (+1 Soak)", "Comlink (handheld)", "Macrobinoculars", "Stimpack", "Tool belt"],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "species:Toydarian", "location:Toydaria"]
+	},
+	{
+		"name": "Siluuk Eel",
+		"type": "Rival",
+		"description": "A valued source of food, these snakelike fish range from one to eight metres in length and have glowing rings running the length of their bodies. Farmers in Arnel grow and harvest them in huge numbers for local sale and shipment off-world. Tending is an athletic endeavour, as the eels fight the farmers each step of the process, often by leaping several metres out of the water to snap at one of the hovering Toydarians.\n\nSiluuk Eels can be found in a variety of sizes depending on their maturity, but all can be aggressive regardless of their size.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 3
+		},
+		"abilities": [
+			{
+				"name": "Siluuk Glow",
+				"description": "In darkness, emits a phosphorescent glow that can be as illuminating as a bright light."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Teeth",
+				"skill": "Brawl",
+				"damage": 9,
+				"critical": 4,
+				"range": "Engaged"
+			}
+		],
+		"gear": [],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "location:Toydaria", "creature"]
+	},
+	{
+		"name": "Yeel Dresk",
+		"type": "Rival",
+		"description": "Yeel has seen his triumphant sale of *Tragic Hope* turn from riches in credits to a ruin of a crashed starship. As his lack of repair skills is matched only by his stubbornness, he has yet to leave the planet. Now stranded in a roaring river as flood waters rise, Yeel is beginning to feel that perhaps he might finally be amenable to outside help.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 1,
+			"Coercion": 1,
+			"Cool": 1,
+			"Knowledge: Education": 1,
+			"Knowledge: Underworld": 1,
+			"Negotiation": 1,
+			"Perception": 1,
+			"Piloting: Space": 2,
+			"Ranged: Light": 1
+		},
+		"weapons": [
+			{
+				"name": "Duelist blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Accurate 2", "Stun Setting"]
+			}
+		],
+		"gear": ["Other equipment aboard the Tireless Wanderer"],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "location:Toydaria", "civilian"]
+	},
+	{
+		"name": "ISB Agent Lorn Bal",
+		"type": "Nemesis",
+		"description": "Bal has never enjoyed his assignment on Toydaria, as Hutt domination there means he cannot wield Imperial power as fully as he would desire. Faced with the opportunity to pursue someone he believes to be associated with the mysterious mercenary under ISB scrutiny, Bal is eager to deploy his forces far from Hutt attention and to grab Dresk and anyone with him for interrogation.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12,
+			"strain": 15
+		},
+		"skills": {
+			"Brawl": 2,
+			"Charm": 2,
+			"Coercion": 2,
+			"Cool": 2,
+			"Deception": 2,
+			"Discipline": 2,
+			"Knowledge: Education": 1,
+			"Knowledge: Underworld": 3,
+			"Piloting: Planetary": 1,
+			"Perception": 3,
+			"Ranged: Heavy": 2,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2"],
+		"weapons": ["Blaster carbine"],
+		"gear": ["Heavy clothing (+1 Soak)", "Secure comlink"],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "location:Toydaria", "empire", "imperial security bureau"]
+	},
+	{
+		"name": "Stormtrooper: Jet Trooper",
+		"type": "Minion",
+		"description": "A constant sight across the galaxy, stormtroopers exist as a constant reminder of the Empire's power. On Toydaria, some squads deploy wearing jetpacks, allowing them to counter any targets who seek to escape into the skies.",
+		"notes": "At the Game Master's discretion one member of each minion group may be armed with a light repeating blaster with sling.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 5
+		},
+		"skills": ["Athletics", "Discipline", "Melee", "Piloting: Planetary", "Ranged: Heavy"],
+		"weapons": [
+			"Blaster rifle", "Vibroknife", "Frag grenade",
+			{
+				"name": "Light repeating blaster",
+				"skill": "Ranged: Heavy",
+				"damage": 11,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Auto-Fire", "Cumbersome 4", "Pierce 1", "Weapon Sling"]
+			}
+		],
+		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 Soak)", "2 Frag grenades", "Jetpack (Allows user to function as a Silhouette 1, Speed 2, Handling 0, System Strain Threshold 3 vehicle that can only operate in atmosphere and requires Piloting: Planetary to operate)"],
+		"tags": ["empire", "imperial military", "stormtrooper", "book:god", "adventure:Ghosts of Dathomir"]
+	},
+	{
+		"name": "Riar Air Patrol Pursuit Drone",
+		"type": "Minion",
+		"description": "These disc-shaped drones are fast, but not particularly well armoured. They are designed to capture suspects rather than destroy their craft, and so are armed with potent ion mesh arrays. As they are relatively cheap but effective, Riar Starport authorities use them in high number to ensure that air traffic routes remain clear.",
+		"notes": "The provided weapon profile is vehicle scale.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 0,
+			"Willpower": 0,
+			"Presence": 0
+		},
+		"derived": {
+			"soak": 0,
+			"wounds": 5
+		},
+		"skills": ["Perception", "Piloting: Planetary", "Ranged: Light"],
+		"abilities": [
+			"Droid",
+			{
+				"name": "Latch-On",
+				"description": "Once at Close range, make an opposed Piloting: Planetary check against target vehicle to affix drone to target."
+			},
+			{
+				"name": "Jet Powered",
+				"description": "While aloft, the drone functions as a Silhouette 1, Speed 3, Handling +2, System Strain Threshold 2 vehicle."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Ventral turret-mounted ion mesh array",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ion"]
+			}
+		],
+		"gear": [],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "species:Toydarian", "location:Toydaria", "location:Riar"]
+	},
+	{
+		"name": "Red-Eye Dren",
+		"type": "Rival",
+		"description": "Dren has operated deep within Kwenn for many years now, trading titbits of information for credits and more information. His signature glowing eyes are only the most obvious of his cybernetic replacements. Through his access to a wide variety of databases, Dren has made himself invaluable to criminal elements throughout the region.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Astrogation": 1,
+			"Charm": 2,
+			"Coercion": 2,
+			"Computers": 4,
+			"Deception": 1,
+			"Knowledge: Education": 2,
+			"Knowledge: Underworld": 2,
+			"Negotiation": 3,
+			"Perception": 3,
+			"Ranged: Light": 1,
+			"Streetwise": 2
+		},
+		"talents": ["Codebreaker"],
+		"abilities": [
+			{
+				"name": "Customised Cybernetic Eyes",
+				"description": "Add :advantage::advantage: to Perception checks; add :setback: to Negotiation and similar checks made against Dren by beings looking at his eyes."
+			}
+		],
+		"weapons": ["Blaster pistol",
+			{
+				"name": "Optical flare",
+				"skill": "Ranged: Light",
+				"damage": null,
+				"critical": null,
+				"range": "Engaged",
+				"qualities": ["Slow-Firing 2"],
+				"notes": "Characters who see the flare must make a :daunting: Resilience check or become blind for two rounds per :failure: and gain a :setback: for every :threat: until the end of the encounter.\n\nA failed check with :despair: means the target is Blinded as per the Critical Injury Result table in the Force and Destiny Core Rulebook, page 225."
+			}
+		],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "species:Toydarian", "location:Toydaria", "location:Riar"]
 	}
 ]
