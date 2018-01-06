@@ -372,6 +372,10 @@
 		"description": "May perform a maneuver to cause all ranged attacks targeting the character to instead hit one ally or helpless enemy in Engaged range, until the beginning of the character’s next turn."
 	},
 	{
+		"name": "Imperial Haughtiness",
+		"description": "When a non-humanoid alien species is targeting Grayson with a social skill, add :setback:."
+	},
+	{
 		"name": "Improved Covering Fire",
 		"description": "When allied minion groups within Short range perform the Covering Fire maneuver, they add +2 ranged defense instead."
 	},
