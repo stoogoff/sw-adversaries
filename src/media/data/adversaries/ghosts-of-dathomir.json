@@ -843,6 +843,217 @@
 				"notes": "Characters who see the flare must make a :daunting: Resilience check or become blind for two rounds per :failure: and gain a :setback: for every :threat: until the end of the encounter.\n\nA failed check with :despair: means the target is Blinded as per the Critical Injury Result table in the Force and Destiny Core Rulebook, page 225."
 			}
 		],
-		"tags": ["adventure:Ghosts of Dathomir", "book:god", "species:Toydarian", "location:Toydaria", "location:Riar"]
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "species:Sullustan", "location:Kwenn Station"]
+	},
+	{
+		"name": "Sprantal",
+		"type": "Rival",
+		"description": "Sprantal are massive amphibians with thick hides, long legs, and longer necks. They are typically a deep mottled-green colour that helps camouflage them, particularly underwater. Their flat heads have three spherical eyes on top in a triangular arrangement, giving them a 360-degree view. When they hide underwater, their heads are just under the surface, allowing the dark-coloured eyes to remain above the water to watch for potential prey and enemies. Sprantal have an additional, forward-facing eye below their wide, toothy mouth that allows them to see underwater as well as giving them a better view when attacking prey. Their stout bodies are approximately three to four metres long and half again as wide. Their necks can extend in a highly flexible manner, allowing sprantals when standing at full height to attack creatures everywhere except directly to the rear.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 20,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 3,
+			"Cool": 2,
+			"Perception": 2,
+			"Ranged: Heavy": 3,
+			"Stealth": 2
+		},
+		"talents": ["Adversary 2"],
+		"abilities": [
+			"Silhouette 3",
+			{
+				"name": "Sprantal Spit",
+				"description": "If Blast activates, any additional targets that are hit suffer the same effects as the target. Ensnare requires :advantage: to activate. Any creature ensnared may attempt an Athletics check to free itself: the difficulty starts at :average: and increases by one level each round, to a maximum of :formidable:. After three hours the spit becomes brittle and falls apart."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Teeth",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 4,
+				"range": "Engaged"
+			},
+			{
+				"name": "Sprantal Spit",
+				"skill": "Ranged: Heavy",
+				"damage": 6,
+				"critical": 5,
+				"range": "Medium",
+				"qualities": ["Blast 6", "Ensnare", "Knockdown", "Limited Ammo 5", "Sunder"]
+			}
+		],
+		"gear": [],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "location:Dathomir", "creature"]
+	},
+	{
+		"name": "Belonuk (Adult)",
+		"type": "Rival",
+		"description": "Belonuks are powerful quadrupeds. They have a bone-like armoured head, which they use to ram enemies and knock them over. Their powerful necks do not allow for much range of motion, but their deep-set eyes are widely spaced, giving them an excellent field of vision. Adult belonuks have sharp claws and even sharper needle-like teeth that can pierce the hide of even the toughest of Dathomir’s legendary creatures.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 16,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 3,
+			"Perception": 2,
+			"Stealth": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2"],
+		"abilities": [
+			{
+				"name": "Belonuk Charge",
+				"description": "Make an opposed Brawl check vs. Athletics or Coordination: if the Belonuk is successful the target is knocked prone, suffering Wounds equal to :success: and Strain equal to :advantage:."
+			},
+			{
+				"name": "Belonuk Trample",
+				"description": "Against an opponent that is already prone or is one Silhouette size smaller than the belonuk, then as an action, make an opposed Brawl vs. Coordination or Resilience check. If the belonuk is successful, target is knocked prone until the end of their next turn and suffers Wounds equal to :success: and Strain equal to :advantage:."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Teeth",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			},
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 5,
+				"range": "Engaged"
+			}
+		],
+		"gear": [],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "location:Dathomir", "creature"]
+	},
+	{
+		"name": "Belonuk (Young)",
+		"type": "Minion",
+		"description": "The younger of the species refrain from charging individually, instead using swarm tactics to overwhelm their foes. They minimise their exposure to other predators by grabbing their prey and hiding them away as quickly as possible.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 7
+		},
+		"skills": ["Athletics", "Brawl", "Stealth"],
+		"abilities": [
+			"Silhouette 0",
+			{
+				"name": "Belonuk Pack Tactics",
+				"description": "Add :boost: to the combat check for each belonuk in the group."
+			},
+			{
+				"name": "Belonuk Scramble",
+				"description": "May grab a prone target with a successful Brawl check and immediately drag the target one range band; the target is immobilised by the pack, and subsequent attempts to drag the target require an opposed Athletics check."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Teeth",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			},
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 5,
+				"range": "Engaged"
+			}
+		],
+		"gear": [],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "location:Dathomir", "creature"]
+	},
+	{
+		"name": "Vursonk",
+		"type": "Rival",
+		"description": "The vursonk is a small scavenging creature with six strong, whip-like tentacles equally spaced around the perimeter of an egg-shaped body, Its mouth is on the underside, with flaps that allow it to expand its maw and grab objects almost as large as itself. The creature has multiple eyes on each side of its body, giving it excellent all-around vision in light, and infrared vision in the darkness. A vursonk latches onto organic matter and either eats it in place or launches itself into the air for a fast getaway, taking the food back to a safe area for storage until later. It may make several trips if there is a ready supply of potential sustenance.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 5,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 3,
+			"Stealth": 3,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1", "Force Rating 1"],
+		"abilities": [
+			"Darkside Force User",
+			"Silhouette 0",
+			{
+				"name": "Force Power: Enhance",
+				"description": "When making an Athletics check, the vursonk combines it with an Enhance power check, rolling :force:; may spend :darkside: to gain :success: or :advantage:, or may spend :lightside: by using a Destiny Point and suffering 1 Wound per :lightside: used."
+			},
+			{
+				"name": "Infrared Vision",
+				"description": "The vursonk can see heat signatures up to thirty metres away."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Teeth",
+				"skill": "Brawl",
+				"damage": 9,
+				"critical": 4,
+				"range": "Engaged",
+				"notes": "When the vursonk leaps onto a targeted object, it envelops the object in its mouth and attempts to jump away with it."
+			},
+			{
+				"name": "Tentacle whips",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged"
+			}
+		],
+		"gear": [],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "location:Dathomir", "creature", "force sensitive"]
 	}
 ]
