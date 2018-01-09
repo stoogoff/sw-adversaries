@@ -67,78 +67,80 @@ Main tasks:
 
 ```
 
+# Completed Adversaries
+
+- core books
+	- Age of Rebellion
+	- Edge of the Empire
+	- Force and Destiny
+- source books
+	- Lords of Nal Hutta
+	- Strongholds of Resistance
+	- **Suns of Fortune (there's a barabel enforcer with different weapon load out)**
+	- Nexus of Power
+- career books
+	- *Dangerous Covenants (no stats)*
+	- Desparate Allies
+	- Endless Vigil
+	- Far Horizons
+	- *Fly Casual (no stats)*
+	- *Forged in Battle (no stats)*
+	- Keeping the Peace
+	- *No Disintegrations (no stats)*
+	- Savage Spirits
+	- Special Modifications
+	- Stay on Target
+- beginner's games
+	- Age of Rebellion
+- adventure books
+	- Beyond the Rim
+	- Chronicles of the Gatekeeper
+	- Friends Like These
+	- Ghosts of Dathomir
+	- Mask of the Pirate Queen
+	- Rescue at Glare Peak
+	- Under a Black Sun
+- adventures
+	- A Deal Gone Wrong
+	- A Quick Stopover
+	- Beyond the Boiling Sea
+	- Beyond the Rim
+	- Chronicles of the Gatekeeper
+	- Claustrophobia
+	- Conical Six Summit
+	- Exploring the Acablas Ruins
+	- Friends Like These
+	- Hard Bargain
+	- If It Sounds too Good to be True...
+	- In Too Deep
+	- Lessons from the Past
+	- Long Arm of the Law
+	- Lost Knowledge
+	- Mask of the Pirate Queen
+	- Operation Shell Game
+	- Perlemian Haul
+	- Phantoms in the Dark
+	- Rescue at Glare Peak
+	- Rubbing Slimy Elbows
+	- Sabacc Game on the Row
+	- Taming the Dragon
+	- Takeover at Whisper Base
+	- The Corellian Shuffle
+	- The Dead Road
+	- The Geharr Incident
+	- The Light Within
+	- The Menagerie
+	- The Trial of Skill
+	- Toydarian Grocery Shopping
+	- Trouble Brewing
+	- Tunnel Delving
+	- Under a Black Sun
+	- Vault of Justice
+	- Welcome Aboard
+	- Witch’s Wrath
+
 ## TODO
 
-- More adversaries
-	- core books (DONE)
-		- Age of Rebellion
-		- Edge of the Empire
-		- Force and Destiny
-	- source books
-		- Lords of Nal Hutta
-		- Strongholds of Resistance
-		- **Suns of Fortune (there's a barabel enforcer with different weapon load out)**
-		- Nexus of Power
-	- career books
-		- *Dangerous Covenants (no stats)*
-		- Desparate Allies
-		- Endless Vigil
-		- Far Horizons
-		- *Fly Casual (no stats)*
-		- *Forged in Battle (no stats)*
-		- Keeping the Peace
-		- *No Disintegrations (no stats)*
-		- Savage Spirits
-		- Special Modifications
-		- Stay on Target
-	- beginner's games
-		- Age of Rebellion
-	- adventure books
-		- Beyond the Rim
-		- Chronicles of the Gatekeeper
-		- Friends Like These
-		- Ghosts of Dathomir
-		- Mask of the Pirate Queen
-		- Rescue at Glare Peak
-		- Under a Black Sun
-	- adventures
-		- A Deal Gone Wrong
-		- A Quick Stopover
-		- Beyond the Boiling Sea
-		- Beyond the Rim
-		- Chronicles of the Gatekeeper
-		- Claustrophobia
-		- Conical Six Summit
-		- Exploring the Acablas Ruins
-		- Friends Like These
-		- Hard Bargain
-		- If It Sounds too Good to be True...
-		- In Too Deep
-		- Lessons from the Past
-		- Long Arm of the Law
-		- Lost Knowledge
-		- Mask of the Pirate Queen
-		- Operation Shell Game
-		- Perlemian Haul
-		- Phantoms in the Dark
-		- Rescue at Glare Peak
-		- Rubbing Slimy Elbows
-		- Sabacc Game on the Row
-		- Taming the Dragon
-		- Takeover at Whisper Base
-		- The Corellian Shuffle
-		- The Dead Road
-		- The Geharr Incident
-		- The Light Within
-		- The Menagerie
-		- The Trial of Skill
-		- Toydarian Grocery Shopping
-		- Trouble Brewing
-		- Tunnel Delving
-		- Under a Black Sun
-		- Vault of Justice
-		- Welcome Aboard
-		- Witch’s Wrath
 - Favicon
 - Links between adversaries
 - Proper force pips rather than using the light side icon
