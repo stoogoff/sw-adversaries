@@ -811,7 +811,14 @@
 			"wounds": 9
 		},
 		"skills": ["Athletics", "Brawl", "Resilience", "Survival"],
-		"abilities": ["Silhouette 2", "Strong as a Jakobeast", "Force power: Move (Jakobeast)"],
+		"abilities": [
+			"Silhouette 2",
+			"Strong as a Jakobeast",
+			{
+				"name": "Force power: Move",
+				"description": "A minion group of three or more jako­beasts may attempt to shove enemies away with the Force. As an action, roll :force::force:. Each :lightside: generated may be spent to move one Silhouette 1 en­emy within Short range to Medium range."
+			}
+		],
 		"weapons": [
 			{
 				"name": "Tusks",

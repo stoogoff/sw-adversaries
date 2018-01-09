@@ -264,6 +264,10 @@
 		"description": "Add :boost: to all Coercion checks."
 	},
 	{
+		"name": "Fearsome Countenance",
+		"description": "Add automatic :advantage: to Coercion checks."
+	},
+	{
 		"name": "Fire Sweep",
 		"description": "As an action, can make a :hard: ranged combat check to inflict one hit that deals base damage with its built-in twin blasters on up to two targets within Medium range, plus one additional target per :advantage: on the check; it can only hit each target once this way."
 	},

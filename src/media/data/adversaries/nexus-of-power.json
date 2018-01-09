@@ -787,7 +787,13 @@
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 2", "Force Rating 3"],
-		"abilities": ["Force power: Bind (Upgrade)", "Force power: Sense"],
+		"abilities": [
+			"Force power: Sense",
+			{
+				"name": "Force power: Bind",
+				"description": "Once per round may make a Bind Force power check. :lightside: to immobilise one target within Short range; :lightside: to affect one additional target, and :lightside: to inflict 5 Strain whenever an affected target takes an action."
+			}
+		],
 		"weapons": [
 			{
 				"name": "Walking stick",
@@ -1136,7 +1142,12 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 1", "Force Rating 4", "Parry 4", "Reflect 4"],
-		"abilities": ["Force power: Bind"],
+		"abilities": [
+			{
+				"name": "Force power: Bind",
+				"description": "Once per round may make a Bind Force power check. :lightside: to immobilise one target within Short range; :lightside: to increase the range of the power by one; :lightside::lightside: to affect one additional target, and :lightside: to inflict 3 Strain whenever an affected target takes an action."
+			}
+		],
 		"weapons": [
 			{
 				"name": "Temple guard lightsaber pike",
@@ -1509,7 +1520,12 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 1", "Force Rating 1", "Nobody’s Fool 2", "Smooth Talker (Deception) 2"],
-		"abilities": ["Force power: Influence (Upgrade)"],
+		"abilities": [
+			{
+				"name": "Force power: Influence",
+				"description": "May make an Influ­ence power roll as part of a Coercion, Charm, Decep­tion, Leadership, or Negotiation check. May spend :lightside: to add :success: or :advantage: per :lightside: spent to the check."
+			}
+		],
 		"weapons": [
 			"Blaster pistol",
 			{
@@ -1764,13 +1780,32 @@
 		},
 		"talents": ["Adversary 2", "Force Rating 4", "Ritual Caster"],
 		"abilities": [
-			"Darkside Force User", "Force power: Unleash", "Force power: Influence",
+			"Darkside Force User",
+			{
+				"name": "Force power: Unleash",
+				"description": "Make a Force power check targeting one enemy at Short range, roll a ranged attack as part of the pool, using :average: Discipline check instead of normal dif­ficulty. If the check is successful and generates :darkside::darkside: the attack deals 4 damage with a critical rating of 4, plus 1 additional damage per :success:. May spend :darkside: to increase the range by one band, spend :darkside: to affect one additional target in range, and spend :darkside: to deal 2 additional damage. May activate all upgrades multiple times." 
+			},
 			{
 				"name": "Force power: Foresee",
-				"description": "Spend :lightside:: to gain vague hints of events to come, up to a day into own future. Spend :lightside:: to increase the number of days seen into future by 2."
+				"description": "Spend :darkside: to gain vague hints of events to come, up to a day into own future. Spend :darkside: to increase the number of days seen into future by 2."
+			},
+			{
+				"name": "Force power: Influence",
+				"description": "May make an opposed Discipline vs. Discipline check combined with an Influence power check targetting one Engaged opponent. If successful, may spend :darkside: to cause the target to adopt an emotional state of rage, fear, or hatred, or believe one untrue statement for one round or five minutes. May spend :darkside: to increase the duration by three additional rounds or fifteen additional minutes. May spend :darkside: to increase the range of the power by one range band. May activate these upgrades multiple times."
 			}
 		],
-		"weapons": ["Wizard’s staff", "Hidden razor-dagger"],
+		"weapons": [
+			"Wizard’s staff",
+			"Hidden razor-dagger",
+			{
+				"name": "Unleash",
+				"skill": "Discipline",
+				"damage": 4,
+				"critical": 4,
+				"range": "Short",
+				"notes": "May spend :darkside: to increase the range by one band, spend :darkside: to affect one additional target in range, and spend :darkside: to deal 2 additional damage. May activate all upgrades multiple times."
+			}
+		],
 		"gear": ["Heavy and smelly robes (+1 Soak)", "Wizard’s pouch"],
 		"tags": ["book:nop", "location:Weik", "adventure:The Menagerie", "force sensitive", "darkside", "skyholm lucite"]
 	},
@@ -1977,7 +2012,7 @@
 			"Darkside Force User",
 			{
 				"name": "Force power: Harm",
-				"description": "May make a Harm Force power check against one engaged target. Spend :darkside: to inflict a number of Wounds equal to Intellect on the target, ignoring Soak. Spend :darkside: to increase wounds inflicted by Intellect (may activate this multiple times), and spend :darkside: to increase range by one range band."
+				"description": "May make a Harm Force power check against one Engaged target. Spend :darkside: to inflict a number of Wounds equal to Intellect on the target, ignoring Soak. Spend :darkside: to increase wounds inflicted by Intellect (may activate this multiple times), and spend :darkside: to increase range by one range band."
 			}
 		],
 		"weapons": [
