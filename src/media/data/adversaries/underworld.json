@@ -29,6 +29,7 @@
 		"name": "Barabel Enforcer",
 		"type": "Rival",
 		"description": "A step up from a simple thug, an enforcer is a bit more trained and intelligent in the application of brute force. To avoid excessive expense in training such individuals, as well as to inspire fear in those they need intimidat­ed, criminal figures tend to look for imposing beings with significant physical might to fill these slots. Gamor­reans are common, of course, as are Aqualish and Wookiees, but Barabels are particularly feared because their reptilian appearance inspires a deep, primal fear in many mammalian species. Barabels are an intelligent species, but often seem otherwise be­ cause of their halting command of Basic and their seemingly primitive social cus­toms. Their physical strength is prodi­gious, however, and they also enjoy a significant amount of natural armour that protects them from many threats, making them ideal enforcers to send into danger­ ous situations.",
+		"notes": "The Barabel Enforcer in Edge of the Empire is armed with a blaster carbine and combat knife, while the one in Suns of Fortune is armed with a heavy blaster pistol and a serrated combat knife.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,
@@ -42,13 +43,26 @@
 			"wounds": 16
 		},
 		"skills": {
-			"Ranged: Heavy": 1,
 			"Melee": 2,
 			"Perception": 1,
+			"Ranged: Light": 1,
+			"Ranged: Heavy": 1,
 			"Survival": 2,
 			"Vigilance": 1
 		},
-		"weapons": ["Blaster carbine", "Combat knife"],
+		"weapons": [
+			"Blaster carbine",
+			"Combat knife",
+			"Heavy blaster pistol",
+			{
+				"name": "Serrated combat knife",
+				"skill": "Melee",
+				"plus-damage": 1,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
 		"tags": ["underworld", "species:Barabel", "thug", "book:eote", "book:sof", "adventure:Hard Bargain"]
 	},
 	{

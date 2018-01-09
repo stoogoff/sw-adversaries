@@ -76,7 +76,7 @@ Main tasks:
 - source books
 	- Lords of Nal Hutta
 	- Strongholds of Resistance
-	- **Suns of Fortune (there's a barabel enforcer with different weapon load out)**
+	- Suns of Fortune
 	- Nexus of Power
 - career books
 	- *Dangerous Covenants (no stats)*
