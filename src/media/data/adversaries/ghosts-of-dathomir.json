@@ -481,11 +481,17 @@
 			"Discipline": 3,
 			"Leadership": 2,
 			"Lightsaber": 3,
-			"Knowledge: All": 2,
 			"Perception": 3,
 			"Piloting: Planetary": 2,
 			"Ranged: Light": 3,
-			"Vigilance": 2
+			"Vigilance": 2,
+			"Knowledge: Core Worlds": 2,
+			"Knowledge: Education": 2,
+			"Knowledge: Lore": 2,
+			"Knowledge: Outer Rim": 2,
+			"Knowledge: Underworld": 2,
+			"Knowledge: Warfare": 2,
+			"Knowledge: Xenology": 2
 		},
 		"talents": ["Adversary 3", "Force rating 3", "Parry 4", "Improved Scathing Tirade"],
 		"abilities": [
@@ -527,6 +533,14 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Breach 1", "Sunder", "Defensive 1", "Deflection 1"]
+			},
+			{
+				"name": "Unleash",
+				"skill": "Discipline",
+				"damage": 3,
+				"critical": 4,
+				"range": "Short",
+				"notes": "May spend :darkside: to increase damage by 2 and :darkside: to increase range to Medium."
 			}
 		],
 		"gear": ["Heavy clothing (+1 Soak)", "Secure comlink"],
@@ -725,8 +739,8 @@
 	{
 		"name": "Stormtrooper: Jet Trooper",
 		"type": "Minion",
-		"description": "A constant sight across the galaxy, stormtroopers exist as a constant reminder of the Empire's power. On Toydaria, some squads deploy wearing jetpacks, allowing them to counter any targets who seek to escape into the skies.",
-		"notes": "At the Game Master's discretion one member of each minion group may be armed with a light repeating blaster with sling.",
+		"description": "A constant sight across the galaxy, stormtroopers exist as a constant reminder of the Empire’s power. On Toydaria, some squads deploy wearing jetpacks, allowing them to counter any targets who seek to escape into the skies.",
+		"notes": "At the Game Master’s discretion one member of each minion group may be armed with a light repeating blaster with sling.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -793,7 +807,6 @@
 				"qualities": ["Ion"]
 			}
 		],
-		"gear": [],
 		"tags": ["adventure:Ghosts of Dathomir", "book:god", "species:Toydarian", "location:Toydaria", "location:Riar"]
 	},
 	{
@@ -895,7 +908,6 @@
 				"qualities": ["Blast 6", "Ensnare", "Knockdown", "Limited Ammo 5", "Sunder"]
 			}
 		],
-		"gear": [],
 		"tags": ["adventure:Ghosts of Dathomir", "book:god", "location:Dathomir", "creature"]
 	},
 	{
@@ -950,7 +962,6 @@
 				"range": "Engaged"
 			}
 		],
-		"gear": [],
 		"tags": ["adventure:Ghosts of Dathomir", "book:god", "location:Dathomir", "creature"]
 	},
 	{
@@ -998,7 +1009,6 @@
 				"range": "Engaged"
 			}
 		],
-		"gear": [],
 		"tags": ["adventure:Ghosts of Dathomir", "book:god", "location:Dathomir", "creature"]
 	},
 	{
@@ -1053,7 +1063,227 @@
 				"range": "Engaged"
 			}
 		],
-		"gear": [],
 		"tags": ["adventure:Ghosts of Dathomir", "book:god", "location:Dathomir", "creature", "force sensitive"]
+	},
+	{
+		"name": "Eerig, Nightbrother Lieutenant",
+		"type": "Rival",
+		"description": "One of several Nightbrother seconds under Freff’s leadership, Eerig had been uneasy about this mission. This feeling has diminished, though, as the Nightbrothers have followed Jerserra deeper into the ruins of the lost ship. He and his group are now ready to fight for her, no matter the threats they face from her foes or the dangerous surroundings.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16
+		},
+		"skills": {
+			"Cool": 1,
+			"Melee": 3,
+			"Perception": 1,
+			"Ranged: Heavy": 1,
+			"Stealth": 3,
+			"Survival": 1,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Fearsome Countenance"],
+		"weapons": ["Blaster rifle", "Electrostaff"],
+		"gear": ["Heavy clothing (+1 Soak)", "Three chemical flares", "Secure comlink"],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "location:Dathomir", "species:Zabrak", "jerserra’s gang", "nightbrother"]
+	},
+	{
+		"name": "Nightbrother",
+		"type": "Minion",
+		"description": "Like all Nightbrothers, these Zabrak males seem to exist only to serve the Nightsisters. When Jerserra returned to Dathomir, this local tribe quickly came to her side to fight off any who would oppose her.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 7
+		},
+		"skills": ["Athletics", "Brawl", "MeleeRanged: Heavy", "Stealth", "Vigilance"],
+		"abilities": ["Fearsome Countenance"],
+		"weapons": ["Blaster rifle", "Electrostaff"],
+		"gear": ["Heavy clothing (+1 Soak)", "Two chemical flares"],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "location:Dathomir", "species:Zabrak", "jerserra’s gang", "nightbrother"]
+	},
+	{
+		"name": "Freff, Nightbrother Leader",
+		"type": "Nemesis",
+		"description": "Freff is highly honoured to be part of Jerserra’s quest, having seen first-hand not only her powers with the Force but also her resources as a mercenary leader. Now that she is deep underground with the Nardithi cluster in her command, his awe of her has only grown, while her powers have increased.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 17,
+			"strain": 12
+		},
+		"skills": {
+			"Cool": 1,
+			"Coercion": 2,
+			"Melee": 3,
+			"Perception": 1,
+			"Ranged: Heavy": 2,
+			"Stealth": 3,
+			"Survival": 1,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 2", "Parry 3"],
+		"abilities": ["Fearsome Countenance"],
+		"weapons": ["Blaster rifle", "Electrostaff"],
+		"gear": ["Heavy clothing (+1 Soak)", "Three chemical flares", "Secure comlink", "Datapad with pathway guidance notations and mapping protocols enabled"],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "location:Dathomir", "species:Zabrak", "jerserra’s gang", "nightbrother"]
+	},
+	{
+		"name": "Manifested Nardithi Nightsister",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16
+		},
+		"skills": {
+			"Discipline": 2,
+			"Melee": 3,
+			"Perception": 1
+		},
+		"talents": ["Adversary 1", "Force Rating 3"],
+		"abilities": [
+			"Darkside Force User",
+			{
+				"name": "Force Power: Unleash",
+				"description": "The manifested Narditihi Nightsister makes a Force power check targeting one enemy at Short range, and rolls a ranged attack as part of the pool, using an :average: Discipline check instead of normal difficulty. If the check is successful and generates :darkside::darkside:, the attack deals 3 damage with a critical rating of 4, plus 1 additional per :success:. May spend :darkside: to increase damage by 2 and :darkside: to increase range to Medium."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Unleash",
+				"skill": "Discipline",
+				"damage": 3,
+				"critical": 4,
+				"range": "Short",
+				"notes": "May spend :darkside: to increase damage by 2 and :darkside: to increase range to Medium."
+			}
+		],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "location:Dathomir", "nightsister", "jerserra’s gang", "force sensitive", "darkside"]
+	},
+	{
+		"name": "Jerserra (Late)",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 5
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 24,
+			"strain": 23
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Charm": 2,
+			"Coercion": 2,
+			"Cool": 1,
+			"Deception": 2,
+			"Discipline": 3,
+			"Leadership": 2,
+			"Lightsaber": 4,
+			"Melee": 3,
+			"Perception": 3,
+			"Piloting: Planetary": 2,
+			"Ranged: Light": 3,
+			"Vigilance": 2,
+			"Knowledge: Core Worlds": 2,
+			"Knowledge: Education": 2,
+			"Knowledge: Lore": 2,
+			"Knowledge: Outer Rim": 2,
+			"Knowledge: Underworld": 2,
+			"Knowledge: Warfare": 2,
+			"Knowledge: Xenology": 2
+		},
+		"talents": ["Adversary 3", "Force rating 3", "Parry 4", "Improved Scathing Tirade"],
+		"abilities": [
+			"Darkside Force User",
+			{
+				"name": "Force power: Jerserra’s Influence",
+				"description": "Jerserra may spend :darkside: and target one character per :darkside: within Short range. That character must immediately make a :difficult: fear check as an out of turn incidental. If the target suffers Strain as a result of that fear check, she recovers an amount of Strain equal to the total suffered. She may also spend :darkside: to target one additional character, and :darkside: to extend the power’s range to Medium."
+			},
+			{
+				"name": "Force power: Move",
+				"description": "Jerserra may spend :darkside: to move one Silhouette 0 object within Short range to another location within Short range. She can spend :darkside: to increase range one band, spend :darkside: to increase Silhouette to movable to 1, and spend :darkside: to increase number of objects movable at one time by one (to a maximum of two). Jerserra can hurl objects by making a Move Force power check and rolling a ranged attack as part of the pool. The attack’s difficulty is equal to the Silhouette of the object being thrown and only succeeds if she can spend enough :darkside: to move the object. The attack deals damage equal to the Silhouette of the object times 10 (Silhouette 0 deals 5 damage) plus one per :success:. To throw multiple objects, she must generate enough :darkside: to move multiple objects, and must use rules for Auto-Fire to determine difficulty and targeting."
+			},
+			{
+				"name": "Force power: Unleash",
+				"description": "Jerserra makes a Force power check and targets one enemy at Short range, and rolls a ranged attack as part of the pool, using an :average: Discipline check instead of normal difficulty. If the check is successful and generates :darkside::darkside: the attack deals 3 damage with a critical rating of 4, plus 1 additional damage per :success:. May spend :darkside: to increase damage by 2, and :darkside: to increase range to Medium."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Inquisitor lightsaber",
+				"skill": "Lightsaber",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder"]
+			},
+			{
+				"name": "Inquisitor lightsaber (dual-blade)",
+				"skill": "Lightsaber",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder", "Linked 1", "Unwieldy 2"]
+			},
+			{
+				"name": "Inquisitor lightsaber (spin)",
+				"skill": "Lightsaber",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder", "Defensive 1", "Deflection 1"]
+			},
+			{
+				"name": "Unleash",
+				"skill": "Discipline",
+				"damage": 3,
+				"critical": 4,
+				"range": "Short",
+				"notes": "May spend :darkside: to increase damage by 2 and :darkside: to increase range to Medium."
+			},
+			"Thermal detonator"
+		],
+		"gear": ["Heavy clothing (+1 Soak)", "Secure comlink", "Nardithi shard", "1 Thermal detonator", "Hand-held holoprojector with pathway guidance notations and mapping protocols enabled"],
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "inquisitor", "force sensitive", "darkside"]
 	}
 ]

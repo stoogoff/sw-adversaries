@@ -94,10 +94,11 @@ Main tasks:
 	- beginner's games
 		- Age of Rebellion
 	- adventure books
-		- Beyond the Rim (DONE)
-		- Mask of the Pirate Queen (DONE)
+		- Beyond the Rim
 		- Chronicles of the Gatekeeper
 		- Friends Like These
+		- Ghosts of Dathomir
+		- Mask of the Pirate Queen
 		- Rescue at Glare Peak
 		- Under a Black Sun
 	- adventures
