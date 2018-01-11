@@ -95,6 +95,7 @@ Main tasks:
 - adventure books
 	- Beyond the Rim
 	- Chronicles of the Gatekeeper
+	- Jewel of Yavin
 	- Friends Like These
 	- Ghosts of Dathomir
 	- Mask of the Pirate Queen
