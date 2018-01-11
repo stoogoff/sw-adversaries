@@ -53,7 +53,12 @@
 			"Streetwise": 2
 		},
 		"talents": ["Force Rating 1", "Intuitive Evasion", "Skilled Jockey 2"],
-		"abilities": ["Force power: Influence (Upgrade)"],
+		"abilities": [
+			{
+				"name": "Force power: Influence",
+				"description": "May make an Influ­ence power roll as part of a Coercion, Charm, Decep­tion, Leadership, or Negotiation check. May spend :lightside: to add :success: or :advantage: per :lightside: spent to the check."
+			}
+		],
 		"weapons": ["Blaster pistol"],
 		"tags": ["force sensitive", "underworld", "smuggler", "book:fad"]
 	},
@@ -252,7 +257,14 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 2", "Force Rating 3", "Sense Danger", "Sense Emotions", "Uncanny Senses 2"],
-		"abilities": ["Force power: Move", "Force power: Sense (Upgrade)", "On the Edge"],
+		"abilities": [
+			"Force power: Move",
+			"On the Edge",
+			{
+				"name": "Force power: Sense",
+				"description": ":lightside:: Sense all living things within Medium range. :lightside:: Sense the emotional state of one target within Medium range. Ongoing effect, commit :force: upto Force rating to upgrade difficulty of at­tacks targeting the character twice."
+			}
+		],
 		"weapons": ["Lightsaber"],
 		"tags": ["force sensitive", "jedi", "book:eote"]
 	},
@@ -334,6 +346,14 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Pierce 2", "Vicious 2"]
+			},
+			{
+				"name": "Unleash",
+				"skill": "Discipline",
+				"damage": 3,
+				"critical": 4,
+				"range": "Short",
+				"notes": "May spend :darkside: to increase damage by 3 and :darkside: to increase range to Medium."
 			}
 		],
 		"tags": ["force sensitive", "underworld", "book:fad", "darkside"]

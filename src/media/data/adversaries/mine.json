@@ -40,7 +40,13 @@
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 3", "Reflect 4", "Parry 4", "Draw Closer", "Niman Technique"],
-		"abilities": ["Force power: Harm (Upgrade)", "Aura of Command", "Darkside Force User", "Force Rating 3"],
+		"abilities": [
+			"Aura of Command", "Darkside Force User", "Force Rating 3",
+			{
+				"name": "Force power: Harm",
+				"description": "May make a Harm Force power check against one Engaged target. Spend :darkside: to inflict a number of Wounds equal to Intellect on the target, ignoring Soak. Spend :darkside: to increase wounds inflicted by Intellect (may activate this multiple times), and spend :darkside: to heal wounds equal to wounds inflicted on self or an Engaged ally. May spend :darkside: to increase the range of the power by one range band (may activate multiple times) and may spend :darkside: to increase the number of enemies affected by one (may activate multiple times)."
+			}
+		],
 		"weapons": [
 			{
 				"name": "Double-bladed lightsaber",

@@ -4,36 +4,12 @@
 		"description": "Use :darkside: to generate Force pips."
 	},
 	{
-		"name": "Force power: Battle Meditation",
-		"description": "Spend :force: to add :success: to all checks made by a number of Engaged friendly targets up to the character’s Presence for one turn, but using :darkside: reduces their Willpower by one; targets must make an :easy: Discipline check if they wish to resist orders given as part of this power."
-	},
-	{
 		"name": "Force power: Move",
 		"description": ":lightside:: Move one object Silhouette 1 at Short range; may make ranged attacks with this power."
 	},
 	{
-		"name": "Force power: Move (Upgrade)",
-		"description": ":lightside:: Move one object Silhouette 0 at Short range; spend :lightside: to increase the range to Long and spend :lightside: to increase the size of the object to Silhouette 2. May hurl an object at a target by making a Move Force power check and rolling a ranged attack (that uses Discipline) as part of the pool. The attack’s difficulty is equal to the Silhouette of the object being thrown instead of the normal difficulty, and only succeeds if the character can also spend enough :lightside: to move the object. The at­tack deals damage equal to the object’s Silhouette times ten (Silhouette 0 objects deal 5 damage), plus one per :success:."
-	},
-	{
-		"name": "Force power: Move (Jakobeast)",
-		"description": "A minion group of three or more jako­beasts may attempt to shove enemies away with the Force. As an action, roll :force::force:. Each :lightside: generated may be spent to move one Silhouette 1 en­emy within short range to medium range."
-	},
-	{
-		"name": "Force power: Bind",
-		"description": "Once per round may make a Bind Force power check. :lightside: to immobilise one target within Short range; :lightside: to increase the range of the power by one; :lightside::lightside: to affect one additional target, and :lightside: to inflict 3 Strain whenever an affected target takes an action."
-	},
-	{
-		"name": "Force power: Bind (Upgrade)",
-		"description": "Once per round may make a Bind Force power check. :lightside: to immobilise one target within Short range; :lightside: to affect one additional target, and :lightside: to inflict 5 Strain whenever an affected target takes an action."
-	},
-	{
 		"name": "Force power: Enhance",
 		"description": ":lightside:: Gain :success: or :advantage: (user's choice) on an Athletics, Coordination, or Resilience check; :lightside:: take a Force Leap action to jump horizontally or vertically to any location in Short range."
-	},
-	{
-		"name": "Force power: Enhance (Upgrade)",
-		"description": ":lightside:: Gain :success: or :advantage: (user's choice) on an Athletics, Coordination, or Resilience check; :lightside:: take a Force Leap action to jump horizontally or vertically to any location in Short range; spend :lightside:: to increase the power’s range by 1 range band."
 	},
 	{
 		"name": "Force power: Foresee",
@@ -44,10 +20,6 @@
 		"description": "May make a Harm Force power check against one engaged target. Spend :darkside: to inflict a number of Wounds equal to Intellect on the target, ignoring Soak. Spend :darkside: to increase wounds inflicted by Intellect (may activate this multiple times), and spend :darkside: to heal wounds equal to wounds inflicted."
 	},
 	{
-		"name": "Force power: Harm (Upgrade)",
-		"description": "May make a Harm Force power check against one engaged target. Spend :darkside: to inflict a number of Wounds equal to Intellect on the target, ignoring Soak. Spend :darkside: to increase wounds inflicted by Intellect (may activate this multiple times), and spend :darkside: to heal wounds equal to wounds inflicted on self or an Engaged ally. May spend :darkside: to increase the range of the power by one range band (may activate multiple times) and may spend :darkside: to increase the number of enemies affected by one (may activate multiple times)."
-	},
-	{
 		"name": "Force power: Misdirect",
 		"description": ":lightside:: Make one target within Short range unable to perceive one Silhoutte 1 object, or perceive one non-existent Silhoutte 1 object; spend :lightside::lightside: to create up to six additional illusory people or objects; spend :lightside: to increase the number of affected targets by 3."
 	},
@@ -56,24 +28,12 @@
 		"description": ":lightside:: Sense all living things within Short range. :lightside:: Sense the emotional state of one target within Short range. Ongoing effect, commit :force: upto Force rating to upgrade difficulty of at­tacks targeting the character once."
 	},
 	{
-		"name": "Force power: Sense (Upgrade)",
-		"description": ":lightside:: Sense all living things within Medium range. :lightside:: Sense the emotional state of one target within Medium range. Ongoing effect, commit :force: upto Force rating to upgrade difficulty of at­tacks targeting the character twice."
-	},
-	{
 		"name": "Force power: Influence",
 		"description": ":lightside:: inflict 2 Strain on target in Short range. :lightside:: succeed at an opposed Discipline vs. Discipline check to force one target within Short range to adopt an emotional state, or believe something even if it is untrue, for four minutes or four rounds in combat."
 	},
 	{
-		"name": "Force power: Influence (Upgrade)",
-		"description": "May make an Influ­ence power roll as part of a Coercion, Charm, Decep­tion, Leadership, or Negotiation check. May spend :lightside: to add :success: or :advantage: per :lightside: spent to the check."
-	},
-	{
 		"name": "Force power: Unleash",
-		"description": "Make a Force power check targeting one enemy at Short range, roll a ranged attack as part of the pool, using :average: Discipline check instead of normal dif­ficulty. If the check is successful and generates :darkside::darkside: the attack deals 3 damage with a critical rating of 4, plus 1 additional damage per :success:. May spend :darkside: to increase damage by 3, and :darkside: to increase range to medium."
-	},
-	{
-		"name": "Force power: Warde’s Foresight",
-		"description": "Warde may spend :lightside: to gain hints about what an individual within short range is like­ly to do in the near future. He may spend :lightside: to increase the range of the power to long and may spend :lightside::lightside: to gain :boost::boost: on his next check against the target. When making a check for Initiative, Warde may make a Warde’s Foresight power check. He may spend :lightside: to add :success: to his first check this encounter; if he used :darkside: for :lightside: he may immediately perform one action but each enemy adds :success: to the result of their Initiative check."
+		"description": "Make a Force power check targeting one enemy at Short range, roll a ranged attack as part of the pool, using :average: Discipline check instead of normal dif­ficulty. If the check is successful and generates :darkside::darkside: the attack deals 3 damage with a critical rating of 4, plus 1 additional damage per :success:. May spend :darkside: to increase damage by 3, and :darkside: to increase range to Medium."
 	},
 	{
 		"name": "On the Edge",
