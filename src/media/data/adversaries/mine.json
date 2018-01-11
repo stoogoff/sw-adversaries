@@ -567,6 +567,22 @@
 			"Perception": 3
 		},
 		"talents": ["Adversary 1", "Quick Strike"],
+		"abilities": [
+					{
+					"name": "Creature of the Dark",
+					"description": "Fyrnock cannot abide natural sunlight–but can other types of light–and will refuse to enter it."
+					}
+					],
+		"weapons": [
+				{
+				"name": "Teeth and claws",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 3", "Knockdown"]
+				}
+			],
 		"tags": ["creature","source:D20Radio.com NPC's"],
 		"devOnly": true
 	}
