@@ -1004,5 +1004,87 @@
 				],
 		"gear": ["armored Wing Guard uniform (+1 defense, +1 soak)", "comlink", "magnacuffs (breaking free of these restraints requires a :daunting: coordination check"],
 		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "security"]
+	},
+	{
+		"name": "Aris Shen",
+		"type": "Nemesis",
+		"description": "Arend's point person to make sure the PC's are eliminated.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12,
+			"strain": 14
+		},
+		"skills": {
+			"Charm": 2,
+			"Cool": 2,
+			"Deception": 3,
+			"Knowledge: Underworld": 4,
+			"Perception": 2,
+			"Ranged: Light": 3,
+			"Streetwise": 4,
+			"Vigilance": 1
+			},
+			"weapons": ["Holdout blaster",
+				{
+				"name": "IR-5 “Intimidator” blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Autofire", "Inaccurate 1"]
+				}
+			],
+		"talents": ["Adversary 1", "Quick Draw", "Natural Charmer", "Smooth Talker 2"],
+		"abilities": [
+				{
+				"name": "Shadowport Savvy",
+				"description": "When purchasing legal or illegal goods, reduce rarity by 1 without any accompanying price increase."
+				}
+				],
+		"gear": ["Heavy clothing (+1 soak)"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin"]
+	},
+	{
+		"name": "Arend Shen",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"strain": 16
+		},
+		"skills": {
+			"Charm": 4,
+			"Coercion": 2,
+			"Cool": 4,
+			"Deception": 3,
+			"Knowledge: Education": 5,
+			"Knowledge: Underworld": 4,
+			"Negotiation": 5,
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Skullduggery": 2,
+			"Streetwise": 4
+			},
+		"weapons": ["Disruptor pistol"],
+		"talents": ["Adversary 3", "Nobody's Fool 2", "Resolve 1", "Smooth Talker (Negotiation) 2"],
+		"gear": ["Heavy clothing (+1 soak)"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin"]
 	}
 ]
