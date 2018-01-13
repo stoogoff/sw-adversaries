@@ -846,7 +846,7 @@
 	},
 	{
 		"name": "Master Driver",
-		"description": ""
+		"description": "Once per round when piloting a vehicle using Piloting: Planetary skill, suffer 2 strain to perform any action as a meneuver instead."
 	},
 	{
 		"name": "Master Grenadier",
@@ -870,7 +870,7 @@
 	},
 	{
 		"name": "Master Pilot",
-		"description": "Once per round, suffer 2 Strain to perform one Pilot ac­tion as a maneuver."
+		"description": "Once per round, suffer 2 Strain to perform one Pilot action as a maneuver."
 	},
 	{
 		"name": "Master Slicer",
