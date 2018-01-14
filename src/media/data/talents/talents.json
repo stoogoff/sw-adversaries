@@ -273,7 +273,7 @@
 	},
 	{
 		"name": "Dead to Rights",
-		"description": ""
+		"description": "Spend 1 dark side Destiny Point to add 2 additional damage to one hit of a successful attack made with ship or vehicle-mounted weaponry"
 	},
 	{
 		"name": "Dead to Rights [Improved]",
@@ -533,7 +533,7 @@
 	},
 	{
 		"name": "Full Throttle",
-		"description": "Take a Full Throttle action and make a :hard: Piloting (Space or Planetary) check to increase a vehicle’s top speed by 1 for a numnber of rounds equal to Cunning."
+		"description": "Take a Full Throttle action and make a :hard: Piloting (Space or Planetary) check to increase a vehicle’s top speed by 1 for a number of rounds equal to Cunning."
 	},
 	{
 		"name": "Improved Full Throttle",
