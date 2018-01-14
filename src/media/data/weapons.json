@@ -32,6 +32,14 @@
 		"qualities": ["Stun Setting"]
 	},
 	{
+		"name": "Built-in blaster pistol",
+		"skill": "Ranged: Light",
+		"damage": 6,
+		"critical": 3,
+		"range": "Medium",
+		"qualities": ["Stun Setting"]
+	},
+	{
 		"name": "Blaster carbine",
 		"skill": "Ranged: Heavy",
 		"damage": 9,
