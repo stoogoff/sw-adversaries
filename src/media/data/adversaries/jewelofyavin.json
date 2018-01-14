@@ -590,7 +590,7 @@
 			"Deception": 2,
 			"Knowledge: Education": 3,
 			"Negotiation": 1,
-			"Skullduggery": 1,
+			"Skulduggery": 1,
 			"Streetwise": 1
 			},
 		"talents": ["Idealist 1", "Resolve 2"],
@@ -661,14 +661,14 @@
 			"Coercion": 3,
 			"Deception": 3,
 			"Discipline": 1,
-			"Knowledge: Outer Rim": 3,
-			"Knowledge: Underworld": 2,
+			"Knowledge: Underworld": 3,
 			"Leadership": 1,
 			"Melee": 2,
 			"Negotiation": 2,
 			"Perception": 3,
 			"Ranged: Heavy": 2,
 			"Ranged: Light": 2,
+			"Skulduggery": 2,
 			"Streetwise": 3,
 			"Vigilance": 2
 			},
@@ -700,7 +700,7 @@
 			"Coercion": 3,
 			"Cool": 2,
 			"Deception": 3,
-			"Knowledge: Core": 4,
+			"Knowledge: Core Worlds": 4,
 			"Knowledge: Education": 2,
 			"Negotiation": 4,
 			"Ranged: Light": 1
@@ -732,7 +732,7 @@
 		"skills": {
 			"Discipline": 2
 			},
-		"talents": ["Nobody's Fool 3", "Resolve 1"],
+		"talents": ["Nobody’s Fool 3", "Resolve 1"],
 		"gear": ["Built-in network uplink"],
 		"abilities": ["Droid"],
 		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "droid"]
@@ -792,15 +792,15 @@
 			"Discipline": 1,
 			"Melee": 2,
 			"Perception": 3,
-			"Ranged: Light": 2,
+			"Ranged: Light": 3,
 			"Vigilance": 2,
-			"Skullduggery": 2,
+			"Skulduggery": 2,
 			"Stealth": 3
 		},
 		"weapons": ["Heavy blaster pistol", "Vibroknife"],
 		"abilities": ["Light-Sensitive", "Shadowed"],
 		"gear": ["Armored guard uniform (+1 soak, +1 defence)", "Comlink", "Protective goggles with built-in infrared vision (add :setback: to opposed Stealth checks targeting Gantel)"],
-		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "defel"]
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "defel", "security"]
 	},
 	{
 		"name": "Burr Naxis",
@@ -822,12 +822,12 @@
 			"Discipline": 1,
 			"Melee": 2,
 			"Perception": 3,
-			"Ranged: Light": 2,
+			"Ranged: Light": 3,
 			"Vigilance": 2
 		},
 		"weapons": ["Heavy blaster pistol", "Vibroknife"],
 		"gear": ["Armored guard uniform (+1 soak, +1 defence)", "Comlink"],
-		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin"]
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "security"]
 	},
 	{
 		"name": "Private Security Guard",
@@ -848,7 +848,7 @@
 		"skills": ["Discipline", "Melee", "Perception", "Ranged: Heavy", "Vigilance"],
 		"weapons": ["Riot gun", "Vibroknife"],
 		"gear": ["Armoured clothing (+1 Soak, +1 defence)", "Comlink"],
-		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin"]
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "security"]
 	},
 	{
 		"name": "Security Droid",
@@ -863,8 +863,7 @@
 		},
 		"derived": {
 			"soak": 5,
-			"wounds": 10,
-			"defence": [0, 0]
+			"wounds": 10
 		},
 		"skills": {
 			"Ranged: Light": 3,
@@ -882,7 +881,7 @@
 			],
 		"abilities": ["Droid"],
 		"talents": ["Heightened Awareness"],
-		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Droid"]
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Droid", "security"]
 	},
 	{
 		"name": "Elaiza, Jedi in Exile",
@@ -928,7 +927,7 @@
 		"abilities": [
 				{
 				"name": "Force power: Move",
-				"description": ":lightside:: Move up to 2 objects with Silhouette 1 at Short range; may make ranged attacks with this power."
+				"description": ":lightside:: Move up to 2 objects with Silhouette 1 at Medium range; may make ranged attacks with this power."
 				},
 				{
 				"name": "Force power: Influence",
@@ -989,7 +988,16 @@
 			"Ranged: Light": 4,
 			"Vigilance": 3
 			},
-			"weapons": ["Stun club", "Relby-K23 blaster pistol"],
+			"weapons": ["Stun club",
+				{
+				"name": "Relby-k23 blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting", "Pierce 2", "Superior"]
+				}
+			],
 		"talents": ["Adversary 2", "Good Cop 2"],
 		"abilities": [
 				{
@@ -1003,7 +1011,7 @@
 	{
 		"name": "Aris Shen",
 		"type": "Nemesis",
-		"description": "Arend's point person to make sure the PC's are eliminated.",
+		"description": "Arend's point person (and his daughter) to make sure the PC's are eliminated.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -1018,10 +1026,11 @@
 			"strain": 14
 		},
 		"skills": {
-			"Charm": 2,
+			"Charm": 3,
 			"Cool": 2,
 			"Deception": 3,
 			"Knowledge: Underworld": 4,
+			"Negotiate": 3,
 			"Perception": 2,
 			"Ranged: Light": 3,
 			"Streetwise": 4,
@@ -1045,7 +1054,7 @@
 				}
 				],
 		"gear": ["Heavy clothing (+1 soak)"],
-		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin"]
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Pantoran"]
 	},
 	{
 		"name": "Arend Shen",
@@ -1074,13 +1083,13 @@
 			"Negotiation": 5,
 			"Perception": 2,
 			"Ranged: Light": 2,
-			"Skullduggery": 2,
+			"Skulduggery": 2,
 			"Streetwise": 4
 			},
 		"weapons": ["Disruptor pistol"],
-		"talents": ["Adversary 3", "Nobody's Fool 2", "Resolve 1", "Smooth Talker (Negotiation) 2"],
-		"gear": ["Heavy clothing (+1 soak)"],
-		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin"]
+		"talents": ["Adversary 3", "Nobody’s Fool 2", "Resolve 1", "Smooth Talker (Negotiation) 2"],
+		"gear": ["Heavy clothing (+1 soak)", "Credit stick with 5000 credits"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Pantoran"]
 	},
 	{
 		"name": "K4 Security Droid",
@@ -1131,16 +1140,16 @@
 		"type": "Minion",
 		"description": "",
 		"characteristics": {
-			"Brawn": 3,
+			"Brawn": 2,
 			"Agility": 3,
-			"Intellect": 1,
-			"Cunning": 2,
-			"Willpower": 1,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 2,
 			"Presence": 2
 		},
 		"derived": {
-			"soak": 4,
-			"wounds": 5
+			"soak": 3,
+			"wounds": 6
 		},
 		"skills": ["Gunnery", "Piloting: Space"],
 		"weapons": ["Heavy blaster pistol"],
