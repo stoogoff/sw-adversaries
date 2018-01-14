@@ -80,6 +80,7 @@
 	{
 		"name": "Wing Guard Officer",
 		"type": "Minion",
+		"description": "",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -96,11 +97,12 @@
 		"abilities": ["Covering Fire"],
 		"weapons": ["Relby-k23 blaster pistol", "Stun club"],
 		"gear": ["Wing Guard uniform (+1 Soak)", "Comlink", "Magnacuffs (breaking free of these restraints requires a :daunting: Coordination check)"],
-		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin"]
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "security"]
 	},
 	{
 		"name": "Wing Guard Sergeant",
 		"type": "Rival",
+		"description": "",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -122,13 +124,15 @@
 			"Ranged: Light": 2,
 			"Vigilance": 2
 		},
+		"abilities": ["Tactical Direction"],
 		"weapons": ["Relby-k23 blaster pistol", "Stun club"],
 		"gear": ["Wing Guard uniform (+1 Soak)", "Comlink", "Spare clip"],
-		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin"]
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "security"]
 	},
 	{
 		"name": "Ugnaught Laborer",
 		"type": "Rival",
+		"description": "",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -171,6 +175,7 @@
 	{
 		"name": "Lutrillian Merchant",
 		"type": "Rival",
+		"description": "",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -194,11 +199,12 @@
 		"talents": ["Greased Palms"],
 		"abilities": ["Blubber (+1 soak)"],
 		"gear": ["Upper class clothing", "250 credits"],
-		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Lutrillian", "civilian"]
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Lutrillian", "civilian", "merchant"]
 	},
 	{
 		"name": "Tabarith's Thug",
 		"type": "Rival",
+		"description": "",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -218,11 +224,12 @@
 			},
 		"weapons": ["Blaster pistol", "Brass knuckles"],
 		"gear": ["Long coat (+1 soak)", "Comlink"],
-		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Lutrillian", "underworld", "thug"]
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "underworld", "thug"]
 	},
 	{
 		"name": "Bhurra, Lutrillian Thug",
 		"type": "Rival",
+		"description": "",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -251,6 +258,7 @@
 	{
 		"name": "Government Security Droid",
 		"type": "Rival",
+		"description": "",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -271,11 +279,12 @@
 		"abilities": ["Droid"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Government-network comlink", "Integrated armor plating (+1 defense, +1 soak)"],
-		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Droid"]
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Droid", "security"]
 	},
 	{
 		"name": "Gerrol Hunn, Corporate Pilot",
 		"type": "Rival",
+		"description": "",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 4,
@@ -300,6 +309,7 @@
 	{
 		"name": "Chara Tull, Corporate Co-Pilot",
 		"type": "Rival",
+		"description": "",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -318,13 +328,14 @@
 			"Gunnery": 1,
 			"Piloting: Planetary": 2
 			},
-		"talents": ["Brilliant Evasion"],
+		"talents": ["Master Driver"],
 		"weapons": ["Light blaster pistol"],
 		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "pilot"]
 	},
 	{
 		"name": "The Carbine, Hutt Cartel Pilot",
 		"type": "Rival",
+		"description": "",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 4,
@@ -350,6 +361,7 @@
 	{
 		"name": "Garulo, Hutt Cartel Gunner",
 		"type": "Rival",
+		"description": "",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -375,7 +387,7 @@
 					"description": "Xexto have six limbs, two legs and four arms; as a result, gain an additional free maneuver per turn, though still may not perform more than two maneuvers per turn"
 				}
 					],
-		"equipment": ["Datapad"],
+		"gear": ["Datapad"],
 		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "pilot", "species:Xexto"]
 	},
 	{
@@ -428,13 +440,13 @@
 			},
 		"abilities": ["Droid"],
 		"talents": ["True Aim"],
-		"weapons": ["Blaster pistol"],
+		"weapons": ["Built-in blaster pistol"],
 		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Droid"]
 	},
 	{
 		"name": "Tibannuck",
 		"type": "Rival",
-		"description": "Generally looked upon as simple creatures somewhat akin to mynocks, at least one notable sentientologist has presented compelling evidence to suggest that the tibannuck are a sentient race. Although the city's current Baron Administrator has ended the administrative bounties on tibannuck kills, Imperial law has refused to recognize the creatures as intelligent, and this several independent sources continue offering bounties on them.",
+		"description": "Generally looked upon as simple creatures somewhat akin to mynocks, at least one notable sentientologist has presented compelling evidence to suggest that the tibannuck are a sentient race. Although the city's current Baron Administrator has ended the administrative bounties on tibannuck kills, Imperial law has refused to recognize the creatures as intelligent, and thus several independent sources continue offering bounties on them.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 4,
@@ -858,15 +870,7 @@
 			"Ranged: Light": 3,
 			"Vigilance": 3
 		},
-		"weapons": [
-				{
-				"name": "Built-in blaster pistol",
-				"skill": "Ranged: Light",
-				"damage": 3,
-				"range": "Medium",
-				"critical": 3,
-				"qualities": ["Stun Damage"]
-				},
+		"weapons": ["Built-in blaster pistol",
 				{
 				"name": "Snare Launcher",
 				"skill": "Ranged: Light",
@@ -985,16 +989,7 @@
 			"Ranged: Light": 4,
 			"Vigilance": 3
 			},
-			"weapons": ["Stun club",
-				{
-				"name": "Relby-K23 blaster pistol",
-				"skill": "Ranged: Light",
-				"damage": 6,
-				"critical": 3,
-				"range": "Medium",
-				"qualities": ["Pierce 2", "Superior", "Stun Setting"]
-				}
-			],
+			"weapons": ["Stun club", "Relby-K23 blaster pistol"],
 		"talents": ["Adversary 2", "Good Cop 2"],
 		"abilities": [
 				{
@@ -1085,6 +1080,91 @@
 		"weapons": ["Disruptor pistol"],
 		"talents": ["Adversary 3", "Nobody's Fool 2", "Resolve 1", "Smooth Talker (Negotiation) 2"],
 		"gear": ["Heavy clothing (+1 soak)"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin"]
+	},
+	{
+		"name": "K4 Security Droid",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12,
+			"defence": [2, 1]
+		},
+		"skills": {
+			"Melee": 2,
+			"Ranged: Light": 3,
+			"Vigilance": 2
+		},
+		"abilities": ["Droid"],
+			"weapons": [
+				{
+				"name": "Built-in blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+				},
+				{
+				"name": "Security staff",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1", "Disorient 2", "Pierce 2"]
+				}
+			],
+		"gear": ["Armored plating (+1 defence, +1 Soak)"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Droid", "security"]
+	},
+	{
+		"name": "Yacht crew",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": ["Gunnery", "Piloting: Space"],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Mechanics overall (+1 soak)"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin"]
+	},
+	{
+		"name": "Bespin Defense Force Pilot",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": ["Cool", "Gunnery", "Piloting: Planetary"],
+		"gear": ["Flight suit"],
 		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin"]
 	}
 ]
