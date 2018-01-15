@@ -1112,7 +1112,7 @@
 			"soak": 4,
 			"wounds": 7
 		},
-		"skills": ["Athletics", "Brawl", "MeleeRanged: Heavy", "Stealth", "Vigilance"],
+		"skills": ["Athletics", "Brawl", "Melee", "Ranged: Heavy", "Stealth", "Vigilance"],
 		"abilities": ["Fearsome Countenance"],
 		"weapons": ["Blaster rifle", "Electrostaff"],
 		"gear": ["Heavy clothing (+1 Soak)", "Two chemical flares"],
