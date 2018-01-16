@@ -269,7 +269,7 @@
 			"Stealth": 3,
 			"Vigilance": 2
 		},
-		"talents": ["Adversary 3", "Deadly Accuracy", "Lethal Blows 2"],
+		"talents": ["Adversary 3", "Deadly Accuracy (Brawl)", "Lethal Blows 2"],
 		"abilities": ["Light-Sensitive", "Shadowed"],
 		"weapons": ["Blaster pistol"],
 		"tags": ["underworld", "species:Defel", "assassin", "book:eote"]
@@ -425,7 +425,7 @@
 			"Stealth": 2,
 			"Vigilance": 3
 		},
-		"talents": ["Adversary 2", "Deadly Accuracy", "Lethal Blows 2", "Stalker 2"],
+		"talents": ["Adversary 2", "Deadly Accuracy (Ranged: Heavy)", "Lethal Blows 2", "Stalker 2"],
 		"weapons": [
 			"Vibroknife", "Stun grenade",
 			{
@@ -1270,7 +1270,7 @@
 		},
 		"talents": ["Adversary 1", "Master Pilot", "Skilled Jockey 2"],
 		"weapons": ["Heavy blaster pistol"],
-		"gear": ["Armoured cloathing (+1 Soak, +1 defence)", "YT-2400 Freighter"],
+		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "YT-2400 Freighter"],
 		"tags": ["underworld", "smuggler", "book:eote"]
 	},
 	{

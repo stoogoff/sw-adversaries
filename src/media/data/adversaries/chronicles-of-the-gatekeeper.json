@@ -275,7 +275,7 @@
 			"Resilience": 2,
 			"Vigilance": 3
 		},
-		"talents": ["Adversary 3", "Improved Centre of Being 2", "Force Rating 5", "Improved Parry 3", "Improved Reflect 3", "Saber Throw"],
+		"talents": ["Adversary 3", "Improved Centre of Being 2", "Force Rating 5", "Parry 3", "Improved Parry", "Reflect 3", "Improved Reflect", "Saber Throw"],
 		"abilities": [
 			"Darkside Force User",
 			{
