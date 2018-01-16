@@ -1777,7 +1777,7 @@
 			"Vigilance": 2
 		},
 		"weapons": ["Vibroknife", "Holdout blaster"],
-		"gear": ["Disgusting racing hides (+1 Soak)", "Toolkit", "Emergency repair kit"],
+		"gear": ["Disgusting racing hides (+1 Soak)", "Tool kit", "Emergency repair kit"],
 		"tags": ["book:sof", "adventure:Taming the Dragon", "mechanic", "underworld", "black seraph gang"]
 	},
 	{

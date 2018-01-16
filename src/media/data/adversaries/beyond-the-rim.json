@@ -675,7 +675,7 @@
 		},
 		"talents": ["Contraption"],
 		"weapons": ["Blaster pistol"],
-		"gear": ["Padded armour (+2 Soak)", "Utility belt", "Comlink", "Toolkit"],
+		"gear": ["Padded armour (+2 Soak)", "Utility belt", "Comlink", "Tool kit"],
 		"tags": ["book:btr", "engineer", "species:Rodian", "adventure:Beyond the Rim"]
 	},
 	{

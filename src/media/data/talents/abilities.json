@@ -512,6 +512,10 @@
 		"description": "Any creature that successfully hits the amphibipole with a successful unarmed attack must succeed at a :hard: Resilience check or be poisoned, suffering 3 Wounds at the beginning of the turn for the next three rounds (this ignores Soak)."
 	},
 	{
+		"name": "Poisonous Bite",
+		"description": "Anyone bitten by a Savrip must succeed at an :average: Resilience check or lose their free maneuver for five rounds."
+	},
+	{
 		"name": "Ponderous",
 		"description": "Can never spend more than one maneuver moving per turn."
 	},

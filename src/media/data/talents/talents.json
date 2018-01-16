@@ -53,11 +53,11 @@
 	},
 	{
 		"name": "Bad Motivator",
-		"description": "Once per game session, may take a Bad Motivator action; make a Hard :hard: Mechanics check to cause one targeted device to spontaneously fail."
+		"description": "Once per game session, may take a Bad Motivator action; make a :hard: Mechanics check to cause one targeted device to spontaneously fail."
 	},
 	{
 		"name": "Bad Press",
-		"description": "Once per session, choose an organization and make a Hard :hard:Deception check. On success, organization members have their wound thresholds reduced by 1, plus 1 per :success::success::success:, until the end of the session."
+		"description": "Once per session, choose an organisation and make a :hard: Deception check. On success, organisation members have their Wound Thresholds reduced by 1, plus 1 per :success::success::success:, until the end of the session."
 	},
 	{
 		"name": "Balance",
@@ -81,7 +81,7 @@
 	},
 	{
 		"name": "Biggest Fan",
-		"description": "Once per session, may take a Biggest Fan action; make a Hard :hard: Charm check to turn one NPC into the character's biggest fan."
+		"description": "Once per session, may take a Biggest Fan action; make a :hard: Charm check to turn one NPC into the character's biggest fan."
 	},
 	{
 		"name": "Black Market Contacts",

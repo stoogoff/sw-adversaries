@@ -67,7 +67,7 @@
 		},
 		"skills": ["Melee", "Ranged: Light"],
 		"weapons": [ "Heavy blaster pistol", "Vibrosword"],
-		"gear": ["Comlink", "Heavy battle armour (+2 Soak, +1 defence)", "Mask"],
+		"gear": ["Comlink", "Heavy battle armour (+2 Soak, +1 Defence)", "Mask"],
 		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "veiled sorority", "security"]
 	},
 	{
@@ -181,7 +181,7 @@
 		},
 		"skills": ["Coercion", "Melee", "Ranged: Heavy"],
 		"weapons": ["Blaster rifle", "Stun grenade", "Force pike"],
-		"gear": ["Adverse environment gear (+1 soak)"],
+		"gear": ["Adverse environment gear (+1 Soak)"],
 		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell", "slaver", "security"]
 	},
 	{
@@ -207,7 +207,7 @@
 	{
 		"name": "Sorority Palace Guard",
 		"type": "Minion",
-		"description": "The pirates who act as guards inside the Queen’s palace are experienced troops of a variety of species and genders. They don’t wear specific uniforms, though most of them wear heavy clothing. The guards take their jobs seriously, but are pirates at heart - many of them are bored and hope they can go back to doing what they enjoy most: namely, taking prizes in space. This makes them complacent and sloppy.",
+		"description": "The pirates who act as guards inside the Queen’s palace are experienced troops of a variety of species and genders. They don’t wear specific uniforms, though most of them wear heavy clothing. The guards take their jobs seriously, but are pirates at heart—many of them are bored and hope they can go back to doing what they enjoy most: namely, taking prizes in space. This makes them complacent and sloppy.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -222,7 +222,7 @@
 		},
 		"skills": ["Coercion", "Cool", "Discipline", "Melee", "Ranged: Heavy"],
 		"weapons": ["Blaster carbine", "Vibrosword"],
-		"gear": ["Heavy clothing uniforms (+1 soak)"],
+		"gear": ["Heavy clothing uniforms (+1 Soak)"],
 		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell", "veiled sorority", "pirate"]
 	},
 	{
@@ -243,7 +243,7 @@
 		},
 		"skills": ["Computers", "Gunnery", "Mechanics", "Melee", "Ranged: Light"],
 		"weapons": ["Vibroknife"],
-		"gear": ["Utility Belt (Increase Encumbrance Threshold by 1)", "Breath Mask", "Glow Rod", "Tool Kit"],
+		"gear": ["Utility belt (increase Encumbrance Threshold by 1)", "Breath mask", "Glow rod", "Tool kit"],
 		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "veiled sorority", "pirate"]
 	},
 	{
@@ -264,7 +264,7 @@
 		},
 		"skills": ["Vigilance", "Melee", "Ranged: Light"],
 		"weapons": ["Blaster pistol", "Vibroknife"],
-		"gear": ["Padded armour (+2 soak)"],
+		"gear": ["Padded armour (+2 Soak)"],
 		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "veiled sorority"]
 	},
 	{
@@ -294,13 +294,13 @@
 				"qualities": ["Disorient 2"]
 			}
 		],
-		"gear": ["Utility Belt (Increase Encumbrance Threshold by 1)", "Breath Mask", "Glow Rod", "Tool Kit", "Sealed coveralls"],
+		"gear": ["Utility belt (increase Encumbrance Threshold by 1)", "Breath mask", "Glow rod", "Tool kit", "Sealed coveralls"],
 		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "veiled sorority", "engineer"]
 	},
 	{
 		"name": "Sorority Fighter Jockey",
 		"type": "Minion",
-		"description": "The ranks of the Sorority’s fighter jockeys are filled with pirates who have some experience piloting starships, and who have been pressed into service (willingly or not) as fighter pilots. Though only a few of these pilots are available, the Sorority’s recent successes against the Zann Consortium have boosted their morale considerably. Sorority fighter jockeys aren’t particularly skilled, but they are cocky and overconfident nonetheless. They fly as if they were impervious to damage and take risks that no sane fighter pilot would dare to take. Despite (or because of) this, their mortality rate has been astonishingly low - until now, at least.",
+		"description": "The ranks of the Sorority’s fighter jockeys are filled with pirates who have some experience piloting starships, and who have been pressed into service (willingly or not) as fighter pilots. Though only a few of these pilots are available, the Sorority’s recent successes against the Zann Consortium have boosted their morale considerably. Sorority fighter jockeys aren’t particularly skilled, but they are cocky and overconfident nonetheless. They fly as if they were impervious to damage and take risks that no sane fighter pilot would dare to take. Despite (or because of) this, their mortality rate has been astonishingly low—until now, at least.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -337,7 +337,7 @@
 		},
 		"skills": ["Melee", "Vigilance", "Ranged: Light"],
 		"weapons": ["Blaster pistol", "Vibroknife"],
-		"gear": ["Armoured clothing (+1 soak, +1 defence)"],
+		"gear": ["Armoured clothing (+1 Soak, +1 Defence)"],
 		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Saleceumai", "veiled sorority"]
 	},
 	{
@@ -358,13 +358,13 @@
 		},
 		"skills": ["Coercion", "Cool", "Melee", "Ranged: Heavy", "Ranged: Light"],
 		"weapons": ["Blaster carbine", "Heavy blaster pistol", "Vibroknife", "Vibrosword"],
-		"gear": ["Heavy clothing (+1 soak)"],
+		"gear": ["Heavy clothing (+1 Soak)"],
 		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Saleceumai", "pirate", "veiled sorority"]
 	},
 	{
 		"name": "Sorority Pirate Queensguard",
 		"type": "Minion",
-		"description": "The pirates who guard the Queen - or at least the woman they believe to be the Queen - are some of the best the Sorority has to offer. They have proven their worth time and time again, stopping at nothing to keep their leader safe from harm. In addition to red armbands, each wears a crimson sash about the waist.",
+		"description": "The pirates who guard the Queen—or at least the woman they believe to be the Queen—are some of the best the Sorority has to offer. They have proven their worth time and time again, stopping at nothing to keep their leader safe from harm. In addition to red armbands, each wears a crimson sash about the waist.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -380,7 +380,7 @@
 		},
 		"skills": ["Coercion", "Cool", "Melee", "Ranged: Heavy", "Vigilance"],
 		"weapons": ["Blaster carbine", "Vibro-ax"],
-		"gear": ["Armoured clothing (+1 soak, +1 defence)"],
+		"gear": ["Armoured clothing (+1 Soak, +1 Defence)"],
 		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Saleceumai", "veiled sorority", "pirate"]
 	},
 	{
@@ -398,9 +398,9 @@
 			"soak": 3,
 			"wounds": 3
 		},
-		"skills": ["Computers", "Mechanics", "Melee", "Ranged: Light", "Skullduggery"],
+		"skills": ["Computers", "Mechanics", "Melee", "Ranged: Light", "Skulduggery"],
 		"weapons": ["Heavy blaster pistol", "Vibroknife"],
-		"gear": ["Heavy clothing (+1 soak)", "Utility Belt (increases Encumberance Threshold by 1)"],
+		"gear": ["Heavy clothing (+1 Soak)", "Utility belt (increases Encumberance Threshold by 1)"],
 		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell", "veiled sorority"]
 	},
 	{
@@ -495,7 +495,7 @@
 	{
 		"name": "Consortium Starfighter Pilot",
 		"type": "Rival",
-		"description": "The Zann Consortium’s fither pilots are highly skilled and proud of their elite status. Though many are cocky and overconfident, they possess the talent to back up their bravado. They come from all genders, backgrounds and species. The Consortium starfighter pilots aboard the *End of Days* are part of Sabacc Squadron, otherwise known as the “Gamblers”. Sabacc Squadron pilots are well known for their willingness to face and overcome incredible odds. Each has a callsign that corresponds to a face card from sabacc, such as “Endurance”, “Demise”, or “Star”.",
+		"description": "The Zann Consortium’s fighter pilots are highly skilled and proud of their elite status. Though many are cocky and overconfident, they possess the talent to back up their bravado. They come from all genders, backgrounds and species. The Consortium starfighter pilots aboard the *End of Days* are part of Sabacc Squadron, otherwise known as the “Gamblers”. Sabacc Squadron pilots are well known for their willingness to face and overcome incredible odds. Each has a callsign that corresponds to a face card from sabacc, such as “Endurance”, “Demise”, or “Star”.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 4,
@@ -573,13 +573,13 @@
 			"Ranged: Light": 3
 		},
 		"weapons": ["Heavy blaster pistol", "Brass Knuckles"],
-		"gear": ["Armoured Clothing (+1 Soak, Defence 1)", "Breath mask"],
+		"gear": ["Armoured clothing (+1 Soak, Defence 1)", "Breath mask"],
 		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell", "species:Houk", "slaver"]
 	},
 	{
 		"name": "Graf Lind, Former Pirate",
 		"type": "Rival",
-		"description": "Graf is a human male in his fifties, though his lifestyle has ages him prematurely. His hair is long, gray, and unkempt, and his blue eyes are dull - unless he’s interested in something. His cheap prosthetic leg - all he coudl affford following the tender mercy of the Veiled Sorority - makes him walk with a noticeable limp, and often uses a polishes bubse wood cane for support. Graf hsd largely given up on life, whether he admits ir ot not, and has decided to drink himself to death. Despite this, he fantasizes about returning to the Sorority someday, for he believes the best years of his life were spent there.",
+		"description": "Graf is a human male in his fifties, though his lifestyle has ages him prematurely. His hair is long, gray, and unkempt, and his blue eyes are dull—unless he’s interested in something. His cheap prosthetic leg—all he could affford following the tender mercy of the Veiled Sorority—makes him walk with a noticeable limp, and often uses a polishes bubse wood cane for support. Graf hsd largely given up on life, whether he admits ir ot not, and has decided to drink himself to death. Despite this, he fantasizes about returning to the Sorority someday, for he believes the best years of his life were spent there.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -605,7 +605,7 @@
 		},
 		"weapons": ["Holdout blaster", "Vibrorapier"],
 		"talents": ["Natural Brawler", "Quick Draw"],
-		"gear": ["Heavy Clothing (+1 Soak)", "Prosthetic leg replacement"],
+		"gear": ["Heavy clothing (+1 Soak)", "Prosthetic leg replacement"],
 		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen"]
 	},
 	{
@@ -641,7 +641,7 @@
 				"damage": 11,
 				"critical": 3,
 				"range": "Long",
-				"qualities": ["Cumbersome 3", "Auto-fire", "Pierce 1"]
+				"qualities": ["Cumbersome 3", "Auto-Fire", "Pierce 1"]
 			}
 				],
 		"talents": ["Point Blank 1"],
@@ -651,7 +651,7 @@
 					"description": "Add :setback: when attempting a Perception check based on auditory clues"
 				}
 					],
-		"gear": ["Worn clone trooper armour (+2 Soak)", "Utility belt (Increase encumberance threshold by 1)"],
+		"gear": ["Worn clone trooper armour (+2 Soak)", "Utility belt (increase Encumberance Threshold by 1)"],
 		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "clone trooper"]
 	},
 	{
@@ -682,7 +682,7 @@
 		"weapons": ["Blaster rifle", "Vibroknife"],
 		"talents": ["Adversary 1", "Point Blank 1"],
 		"abilities": ["Near-Sighted","Teamwork"],
-		"gear": ["Worn clone trooper armour (+2 Soak)", "Utility belt (Increase encumberance threshold by 1)"],
+		"gear": ["Worn clone trooper armour (+2 Soak)", "Utility belt (increase Encumberance Threshold by 1)"],
 		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "clone trooper"]
 	},
 	{
@@ -718,7 +718,7 @@
 					"description": "Has difficulty remembering specific details, and must succeed at an :average: Vigilance check to recall anything important."
 				}
 					],
-		"gear": ["Worn clone trooper armour (+2 Soak)", "Utility belt (Increase encumberance threshold by 1)"],
+		"gear": ["Worn clone trooper armour (+2 Soak)", "Utility belt (increase Encumberance Threshold by 1)"],
 		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "clone trooper"]
 	},
 	{
@@ -751,15 +751,15 @@
 		"abilities": ["Teamwork",
 				{
 					"name": "Tremor",
-					"description": "Add :setback: to any Agility checks"
+					"description": "Add :setback: to any Agility checks."
 				}
 					],
-		"gear": ["Worn clone trooper armour (+2 Soak)", "Utility belt (Increase encumberance threshold by 1)"],
+		"gear": ["Worn clone trooper armour (+2 Soak)", "Utility belt (increase Encumberance Threshold by 1)"],
 		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "clone trooper"]
 	},
 	{
 		"name": "JR-12, Independent Security Contractor",
-		"description": "JR-12 is an old security droid who lost its master at least fifty years ago. Since then, it has worked as a bounty hunter, bodyguard, bouncer and security guard - sometimes all four at once -  and has become recognized thoughout Morro Spaceport as one of the more reliable security contractors available. LIke that of all security droids in this series, JR-12’s humanoid frame is tall and gangly, and its metallic skin is coated in a scratched-up camouflage paint job. Though blunt, is it honest to a fault and hardworking.",
+		"description": "JR-12 is an old security droid who lost its master at least fifty years ago. Since then, it has worked as a bounty hunter, bodyguard, bouncer and security guard—sometimes all four at once—and has become recognised thoughout Morro Spaceport as one of the more reliable security contractors available. Like that of all security droids in this series, JR-12’s humanoid frame is tall and gangly, and its metallic skin is coated in a scratched-up camouflage paint job. Though blunt, is it honest to a fault and hardworking.",
 		"type": "Rival",
 		"characteristics": {
 			"Brawn": 3,
@@ -796,7 +796,7 @@
 		"talents": ["Natural Hunter"],
 		"abilities": ["Droid"],
 		"gear": ["Worn clone trooper armour (+2 Soak)", "Utility belt (Increase encumberance threshold by 1)"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "species:Droid", "location:Ord Mantell"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "species:Droid", "location:Ord Mantell", "bounty hunter"]
 	},
 	{
 		"name": "Jyd Renyr, Arena Manager",
@@ -852,7 +852,7 @@
 			"Vigilance": 2
 		},
 		"weapons": ["Heavy blaster pistol", "Shock Gloves"],
-		"gear": ["Armoured clothing (+1 soak, +1 defence)"],
+		"gear": ["Armoured clothing (+1 Soak, +1 Defence)"],
 		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "species:Barabel", "veiled sorority"]
 	},
 	{
@@ -880,7 +880,7 @@
 			"Streetwise": 3
 		},
 		"weapons": ["Light blaster pistol"],
-		"gear": ["Fine clothes", "import/export shop keycard", "ASP series labour droid"],
+		"gear": ["Fine clothes", "Import/export shop keycard", "ASP series labour droid"],
 		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "species:Rodian"]
 	},
 	{
@@ -910,7 +910,7 @@
 		},
 		"talents": ["Defensive Slicing 2"],
 		"weapons": ["Brass knuckles"],
-		"gear": ["Heavy Clothing (+1 Soak)", "Slicer Gear", "Datapad", "Toolkit", "Booster Blue (3 doses)"],
+		"gear": ["Heavy clothing (+1 Soak)", "Slicer Gear", "Datapad", "Tool kit", "Booster Blue (3 doses)"],
 		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "veiled sorority"]
 	},
 	{
@@ -985,13 +985,12 @@
 				"qualities": ["Sunder", "Vicious 2"]
 			}
 		],
-		"gear": ["Laminate armour (+2 Soak)", "Secure comlink"],
 		"tags": ["book:motpq", "location:Ord Mantell", "adventure:Mask of the Pirate Queen", "creature"]
 	},
 	{
 		"name": "Mantellian Savrip",
 		"type": "Rival",
-		"description": "Though Ord Mantell is home to millions of unique species, the most notable of them is the Savrip. Though Savrips have long been considered semi-sentient by xenobiologists from the Core Worlds, their perceived intellect remains a contentious subject. To the people of Ord Mantell, however, there is no doubt that Savrips are cunning, intelligent, and - most of all - dangerous. Nearly four meters tall when standing fully erect, Savrips move in a hunched posture that disguises their height while exaggerating their already prodigious bulk. Their nexks are long and topped by snake-like heads, and their muscular arms drag upon the ground. Though primitive, Savrips prefer to wear clothing, and many wield large clubs as weapons.",
+		"description": "Though Ord Mantell is home to millions of unique species, the most notable of them is the Savrip. Though Savrips have long been considered semi-sentient by xenobiologists from the Core Worlds, their perceived intellect remains a contentious subject. To the people of Ord Mantell, however, there is no doubt that Savrips are cunning, intelligent, and—most of all—dangerous. Nearly four meters tall when standing fully erect, Savrips move in a hunched posture that disguises their height while exaggerating their already prodigious bulk. Their nexks are long and topped by snake-like heads, and their muscular arms drag upon the ground. Though primitive, Savrips prefer to wear clothing, and many wield large clubs as weapons.",
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 2,
@@ -1013,12 +1012,7 @@
 			"Resilience": 3,
 			"Vigilance": 2
 		},
-		"abilities": ["Silhouette 2",
-			{ 
-				"name": "Poisonous Bite",
-				"description": "Anyone bitten by a Savrip must succeed at an Average (:average:) Resilience check or lose his free maneuver for five rounds."
-			}
-		],
+		"abilities": ["Silhouette 2", "Poisonous Bite"],
 		"weapons": [
 			{
 			"name": "Large club",
@@ -1086,7 +1080,7 @@
 		},
 		"talents": ["Targeted Blow"],
 		"weapons": ["Blaster pistol", "Vibroknife"],
-		"gear": ["Heavy clothing (+1 soak)", "Comlink"],
+		"gear": ["Heavy clothing (+1 Soak)", "Comlink"],
 		"tags": ["book:motpq","adventure:Mask of the Pirate Queen", "location:Ord Mantell", "veiled sorority"]
 	},
 	{
@@ -1142,12 +1136,7 @@
 			"Resilience": 2,
 			"Vigilance": 2
 		},
-		"abilities": ["Silhouette 2",
-			{
-				"name": "Poisonous Bite",
-				"description": "Anyone bitten by a Savrip must succeed at an Average (:average:) Resilience check or lose his free maneuver for five rounds."
-			}
-		],
+		"abilities": ["Silhouette 2", "Poisonous Bite"],
 		"weapons": [
 			{
 			"name": "Large club",
@@ -1163,7 +1152,7 @@
 	{
 		"name": "Aimee “Flutterplume” Kraeff, Pit Fighter",
 		"type": "Nemesis",
-		"description": "Aimee Kraeff has worked much of her life to rise above her family’s poverty. Born to Corellian parents in one of Ord Mantell’s farming villages, she ran away from home in her teens and was nearly killed by a Mantellian Savrip. A band of Scraplands nomads found her near death and nursed her back to health before taking her to Worlport. Alone and without prospects, Aimee soon found herself participating in underground blood sports under the alias of Flutterplume. Since then, she’s made quite a name for herself. Aimee intends to return to her family and lift them out of poverty once she’s made her fortune as a fighter in Worlport. She sends money to her parents whenever she can, but she’s heard nothing from them for several weeks and is growing increasingly worried. Flutterplume is a muscular young woman in her early twewnties with spiked hair and grey eyes. Her back is marred by a series of deep scars, souvenirs from the Savrip attack she survived in her youth. When fighting, she does so anonymously, wearing a thin, formfitting mask adorned with shining flutterplume feathers.",
+		"description": "Aimee Kraeff has worked much of her life to rise above her family’s poverty. Born to Corellian parents in one of Ord Mantell’s farming villages, she ran away from home in her teens and was nearly killed by a Mantellian Savrip. A band of Scraplands nomads found her near death and nursed her back to health before taking her to Worlport. Alone and without prospects, Aimee soon found herself participating in underground blood sports under the alias of Flutterplume. Since then, she’s made quite a name for herself. Aimee intends to return to her family and lift them out of poverty once she’s made her fortune as a fighter in Worlport. She sends money to her parents whenever she can, but she’s heard nothing from them for several weeks and is growing increasingly worried. Flutterplume is a muscular young woman in her early twenties with spiked hair and grey eyes. Her back is marred by a series of deep scars, souvenirs from the Savrip attack she survived in her youth. When fighting, she does so anonymously, wearing a thin, form-fitting mask adorned with shining flutterplume feathers.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,
@@ -1230,7 +1219,7 @@
 	{
 		"name": "Jerid Sykes, Consortium Admiral",
 		"type": "Nemesis",
-		"description": "Jerid Sykes, once a Republic fleet officer, cut his proverbial teeth during the Clone Wars. When the Republic dissolved into the Empire, Jerid constantly butted heads with the new class of officers who were commissioned due to their connections rather than their skill. His stubbornness eventually cost him his post, but it wasn’t long before representatives of the Zann Consortium found him and offered him a lucrative career as one of its fleet officers. Having norhing more to lose, Jerid agreed.",
+		"description": "Jerid Sykes, once a Republic fleet officer, cut his proverbial teeth during the Clone Wars. When the Republic dissolved into the Empire, Jerid constantly butted heads with the new class of officers who were commissioned due to their connections rather than their skill. His stubbornness eventually cost him his post, but it wasn’t long before representatives of the Zann Consortium found him and offered him a lucrative career as one of its fleet officers. Having nothing more to lose, Jerid agreed.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 4,
@@ -1324,12 +1313,12 @@
 			"Ranged: Light": 2,
 			"Streetwise": 4
 		},
-		"gear": ["Armoured uniform (+1 soak)", "Breath mask", "Ornate armour (+2 soak)","Pirate Queen’s mask"],
+		"gear": ["Armoured uniform (+1 Soak)", "Breath mask", "Ornate armour (+2 Soak)","Pirate Queen’s mask"],
 		"talents": ["Adversary 2", "Command 2", "Steely Nerves"],
 		"abilities": [
 			{
 			"name": "Awe-Inspiring",
-			"description":"Noira is such an awe-inspiring figure that anyone attempting to attack her suffers a :setback: to their check unless they spend a Destiny Point.  Use of the Destiny Point for this purpose makes the character in question immune from this ability."
+			"description":"Noira is such an awe-inspiring figure that anyone attempting to attack her suffers a :setback: to their check unless they spend a Destiny Point. Use of the Destiny Point for this purpose makes the character in question immune from this ability."
 			}
 			],
 		"weapons": ["Light blaster pistol", "Vibrorapier"],
@@ -1338,7 +1327,7 @@
 	{
 		"name": "Porel Vakra, Zann Consortium Underboss",
 		"type": "Nemesis",
-		"description": "Given that Porel has been a Consortium member for nearly fifteen years, many are surprised he hasn’t advanced higher in the ranks. The truth is, he enjoys being where he is, and he has proven himself to be a loyal member of the Zann Consortium time and time again. Porel is a perpetuallt stoic Twi’lek, both in his manner and his speech. He dresses conservatively, favoring tailored suits that conceal his hidden pistol. Based on his plain appearance, many people underestimate him - often to their painful detriment.",
+		"description": "Given that Porel has been a Consortium member for nearly fifteen years, many are surprised he hasn’t advanced higher in the ranks. The truth is, he enjoys being where he is, and he has proven himself to be a loyal member of the Zann Consortium time and time again. Porel is a perpetuallt stoic Twi’lek, both in his manner and his speech. He dresses conservatively, favoring tailored suits that conceal his hidden pistol. Based on his plain appearance, many people underestimate him—often to their painful detriment.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -1362,7 +1351,7 @@
 			"Ranged: Light": 3,
 			"Streetwise": 3
 		},
-		"gear": ["Armoured suit (+1 soak)", "Comlink", "Datapad"],
+		"gear": ["Armoured suit (+1 Soak)", "Comlink", "Datapad"],
 		"talents": ["Adversary 1", "Dodge 1", "Point Blank 2"],
 		"weapons": ["Blaster pistol",
 				{
@@ -1379,7 +1368,7 @@
 	{
 		"name": "Revah, Decoy Pirate Queen",
 		"type": "Nemesis",
-		"description": "The leader of the Veiled Sorority on Saleucami is Revah, a middle-aged human female who has been with the pirate group for over a decade. One of the QUeen’s decoys, she wears a mask that is nearly identical to the one worn by the Sorority’s leader. Without her mask, she appears as a rather plain human female with high cheekbones, blue eyes, and braided grey hair. As far as the Saleucami’s Sorority’s pirates are concerned, she is the Queen; only one or two individuals know the truth behind her duplicity. Despite being a surrogate queen, Revah is a canny operator and leader who hopes to be elevated to the Queen’s position in time.",
+		"description": "The leader of the Veiled Sorority on Saleucami is Revah, a middle-aged human female who has been with the pirate group for over a decade. One of the Queen’s decoys, she wears a mask that is nearly identical to the one worn by the Sorority’s leader. Without her mask, she appears as a rather plain human female with high cheekbones, blue eyes, and braided grey hair. As far as the Saleucami’s Sorority’s pirates are concerned, she is the Queen; only one or two individuals know the truth behind her duplicity. Despite being a surrogate queen, Revah is a canny operator and leader who hopes to be elevated to the Queen’s position in time.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -1405,11 +1394,11 @@
 			"Ranged: Light": 2,
 			"Vigilance": 4
 		},
-		"gear": ["Heavy clothing (+1 soak)", "Sorority Mask (Upgrades all Deception skill checks made to disguise the wearer once; removes up to :setback::setback: added to all Perception, Vigilance, and combat skill checks due to darkness, smoke, or other environmental effects that obscure vision)"],
+		"gear": ["Heavy clothing (+1 Soak)", "Sorority Mask (Upgrades all Deception skill checks made to disguise the wearer once; removes up to :setback::setback: added to all Perception, Vigilance, and combat skill checks due to darkness, smoke, or other environmental effects that obscure vision)"],
 		"talents": ["Adversary 1", "Soft Spot"],
 		"abilities": ["Pirate Leader"],
 		"weapons": ["Blaster pistol", "Vibroknife"],
-		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen"]
+		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "veiled sorority"]
 	},
 	{
 		"name": "Ryale Wei, Majordomo",
@@ -1483,7 +1472,7 @@
 			"qualities": ["Disorient 3", "Pierce 2"]
 			}
 		],
-		"gear": ["Armoured clothing (+1 defense, +1 soak)"],
+		"gear": ["Armoured clothing (+1 defense, +1 Soak)"],
 		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "species:Savrip"]
 	},
 	{
@@ -1515,13 +1504,13 @@
 		},
 		"talents": ["Adversary 2", "Point Blank 2"],
 		"weapons": ["Holdout blaster", "Vibroknife"],
-		"gear": ["Conservative clothing", "stimpack"],
+		"gear": ["Conservative clothing", "Stimpack"],
 		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "species:Pantoran", "zann consortium"]
 	},
 	{
 		"name": "Warg, Savrip Guard",
 		"type": "Nemesis",
-		"description": "Warg has served the Queen aboard her starship for as long as he can remember. THe ship’s cramped quarters used to bother him, but these days he doesn’t possess a coherent memory of anything else. Though he isn’t fond of guard duty, Warg considers himself to be very good at standing in one place for a long time. The only thing that might improve his day is something - ideally someone - to smash. Warg wears a suit of laminate armour made just for him, and he carries a massive vibro-axe that the Queen gave him as a present.",
+		"description": "Warg has served the Queen aboard her starship for as long as he can remember. THe ship’s cramped quarters used to bother him, but these days he doesn’t possess a coherent memory of anything else. Though he isn’t fond of guard duty, Warg considers himself to be very good at standing in one place for a long time. The only thing that might improve his day is something—ideally someone—to smash. Warg wears a suit of laminate armour made just for him, and he carries a massive vibro-axe that the Queen gave him as a present.",
 		"notes": "Tur and Kel",
 		"characteristics": {
 			"Brawn": 5,
@@ -1557,7 +1546,7 @@
 			"qualities": ["Cumbersome 4", "Pierce 2", "Sunder", "Vicious 3"]
 			}
 		],
-		"gear": ["Laminate armour (+2 soak)"],
+		"gear": ["Laminate armour (+2 Soak)"],
 		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "veiled sorority", "species:Savrip"]
 	},
 	{
@@ -1593,11 +1582,11 @@
 		"abilities": ["Teamwork", 
 						{
 							"name": "Squad Leader",
-							"description": "Spend a maneuver to direct one clone trooper within medium range. The clone trooper may perform an immediate free maneuver or add :boost: to the trooper’s next check."
+							"description": "Spend a maneuver to direct one clone trooper within Medium range. The clone trooper may perform an immediate free maneuver or add :boost: to the trooper’s next check."
 						}
 					],
 		"weapons": ["Blaster pistol", "Vibroknife", "Frag grenade"],
-		"gear": ["Worn clone trooper armour (+2 soak)", "Utility belt"],
+		"gear": ["Worn clone trooper armour (+2 Soak)", "Utility belt"],
 		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Saleceumai", "clone trooper"]
 	}
 ]
