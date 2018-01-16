@@ -1461,7 +1461,7 @@
 	{
 		"name": "Wingrider",
 		"type": "Rival",
-		"description": "The Wingriders of Drall are a quasi-governmental organisation made up of daring young Drall who patrol the skies of their verdant world mounted on massive and majestic great ibbots. Chosen from among the most intrepid young Drall in each clan, the Wingriders are invested with wide-ranging powers and are granted jurisdiction over the entire planet by edict of the Confederation of the Clans. As a group, the Wingriders are a combination planetary police force and courier service. Typically deployed in pairs, they are tasked with keeping the peace in the wildlands between Drall's far-flung cities, making constant patrols and ensuring that people and goods can travel safely and securely.",
+		"description": "The Wingriders of Drall are a quasi-governmental organisation made up of daring young Drall who patrol the skies of their verdant world mounted on massive and majestic great ibbots. Chosen from among the most intrepid young Drall in each clan, the Wingriders are invested with wide-ranging powers and are granted jurisdiction over the entire planet by edict of the Confederation of the Clans. As a group, the Wingriders are a combination planetary police force and courier service. Typically deployed in pairs, they are tasked with keeping the peace in the wildlands between Drall’s far-flung cities, making constant patrols and ensuring that people and goods can travel safely and securely.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 1,

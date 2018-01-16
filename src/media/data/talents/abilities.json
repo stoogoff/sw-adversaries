@@ -96,6 +96,10 @@
 		"description": "Once per game session as an incidental, the elder may have a character within Short range heal 4 wounds."
 	},
 	{
+		"name": "Blubber",
+		"description": "+1 Soak."
+	},
+	{
 		"name": "Bite at Their Heels",
 		"description": "When engaged with a target, allies receive :boost: to combat checks made against the engaged target."
 	},
@@ -374,6 +378,10 @@
 	{
 		"name": "Imperial Valour",
 		"description": "May perform a maneuver to cause all ranged attacks targeting the character to instead hit one ally or helpless enemy in Engaged range, until the beginning of the character’s next turn."
+	},
+	{
+		"name": "Imperial Haughtiness",
+		"description": "When a non-humanoid alien species is targeting Grayson with a social skill, add :setback:."
 	},
 	{
 		"name": "Improved Covering Fire",

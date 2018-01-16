@@ -144,5 +144,6 @@ let bookMap = {
 	"book:flt": "Friends Like These",
 	"book:btr": "Beyond the Rim",
 	"book:motpq": "Mask of the Pirate Queen",
+	"book:joy": "Jewel of Yavin",
 	"book:god": "Ghosts of Dathomir"
 };

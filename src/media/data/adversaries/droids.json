@@ -1337,14 +1337,7 @@
 		},
 		"abilities": ["Droid"],
 		"weapons": [
-			{
-				"name": "Built-in blaster pistol",
-				"skill": "Ranged: Light",
-				"damage": 6,
-				"critical": 3,
-				"range": "Medium",
-				"qualities": ["Stun Setting"]
-			},
+			"Built-in blaster pistol",
 			{
 				"name": "Snare launcher",
 				"skill": "Ranged: Light",

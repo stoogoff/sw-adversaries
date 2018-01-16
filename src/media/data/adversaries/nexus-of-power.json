@@ -1191,7 +1191,7 @@
 	{
 		"name": "Stone Guardian",
 		"type": "Rival",
-		"description": "Some facilities require discretion and art as much as they do security. Stone guardian droids are specifically designed for these situations. They provide a potent defence that is utterly in keeping with the overall tone of a site.\n\nDespite the name, stone guardians are not actually con­structed out of stone. Their armoured shells are simply sculpted and painted to resemble some form of rock or marble. When inactive, stone guardians appear to be decorative statues. The statues might be freestanding, or they could appear to be a support pillar or a part of a wall. Only when they activate does their true nature become clear. A stone guardian's passive detectors are extremely sensitive and rigged to detect any intruders who enter its domain. When they identify a threat, the droids activate and attempt to eliminate it.",
+		"description": "Some facilities require discretion and art as much as they do security. Stone guardian droids are specifically designed for these situations. They provide a potent defence that is utterly in keeping with the overall tone of a site.\n\nDespite the name, stone guardians are not actually con­structed out of stone. Their armoured shells are simply sculpted and painted to resemble some form of rock or marble. When inactive, stone guardians appear to be decorative statues. The statues might be freestanding, or they could appear to be a support pillar or a part of a wall. Only when they activate does their true nature become clear. A stone guardian’s passive detectors are extremely sensitive and rigged to detect any intruders who enter its domain. When they identify a threat, the droids activate and attempt to eliminate it.",
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 3,
@@ -1348,7 +1348,7 @@
 			"Force power: Misdirect",
 			{
 				"name": "Force power: Enhance",
-				"description": ":lightside:: Gain :success: or :advantage: (user's choice) on an Athletics, Coordination, or Resilience check; :lightside::lightside:: take a Force Leap action to jump horizontally or vertically to any location in Medium range."
+				"description": ":lightside:: Gain :success: or :advantage: (user’s choice) on an Athletics, Coordination, or Resilience check; :lightside::lightside:: take a Force Leap action to jump horizontally or vertically to any location in Medium range."
 			}
 		],
 		"weapons": [
