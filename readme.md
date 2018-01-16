@@ -35,11 +35,11 @@ In the build directory run `npm install`. Once everything has installed run any 
 
 For Windows:
 
-Download npm from https://nodejs.org/en/download/.
-Add C:\Program Files\nodejs\ to your path.
-Switch to your build directory and run `npm install`.
-Then run `npm install react@15.6.1`, and then `npm install react-dom@15.6.1`.
-To build from the build directory, run node_modules\.bin\gulp dev build, or node_modules\.bin\gulp live build.
+- Download npm from https://nodejs.org/en/download/.
+- Add C:\Program Files\nodejs\ to your path.
+- Switch to your build directory and run `npm install`.
+- Then run `npm install react@15.6.1`, and then `npm install react-dom@15.6.1`.
+- To build from the build directory, run node_modules\.bin\gulp dev build, or node_modules\.bin\gulp live build.
 
 ## Gulp
 
@@ -95,6 +95,7 @@ Main tasks:
 - adventure books
 	- Beyond the Rim
 	- Chronicles of the Gatekeeper
+	- Jewel of Yavin
 	- Friends Like These
 	- Ghosts of Dathomir
 	- Mask of the Pirate Queen

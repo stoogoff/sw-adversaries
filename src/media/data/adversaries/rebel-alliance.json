@@ -45,7 +45,7 @@
 		},
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Encoded datapad", "Secure comlink"],
-		"tags": ["rebel alliance", "book:aor"]
+		"tags": ["rebel alliance", "book:aor", "species:Bothan"]
 	},
 	{
 		"name": "Diplomat",

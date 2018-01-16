@@ -273,7 +273,7 @@
 	},
 	{
 		"name": "Dead to Rights",
-		"description": ""
+		"description": "Spend 1 dark side Destiny Point to add 2 additional damage to one hit of a successful attack made with ship or vehicle-mounted weaponry"
 	},
 	{
 		"name": "Dead to Rights [Improved]",
@@ -397,7 +397,7 @@
 	},
 	{
 		"name": "Encoded Communique",
-		"description": ""
+		"description": "Upgrade the difficulty of checks to decrypt this character's coded messages without the proper cipher a number of times equal to Computers skill."
 	},
 	{
 		"name": "Encouraging Words",
@@ -533,7 +533,7 @@
 	},
 	{
 		"name": "Full Throttle",
-		"description": "Take a Full Throttle action and make a :hard: Piloting (Space or Planetary) check to increase a vehicle’s top speed by 1 for a numnber of rounds equal to Cunning."
+		"description": "Take a Full Throttle action and make a :hard: Piloting (Space or Planetary) check to increase a vehicle’s top speed by 1 for a number of rounds equal to Cunning."
 	},
 	{
 		"name": "Improved Full Throttle",
@@ -557,7 +557,7 @@
 	},
 	{
 		"name": "Good Cop",
-		"description": ""
+		"description": "The character may spend :advantage::advantage: from a Charm or Negotiation check to upgrade the ability of a single ally's subsequent Social interaction check against the same target twice."
 	},
 	{
 		"name": "Grapple",
@@ -645,7 +645,7 @@
 	},
 	{
 		"name": "Idealist",
-		"description": ""
+		"description": "Spend 1 Strain to add an :advantage: skill check."
 	},
 	{
 		"name": "Imbue Item",
@@ -781,8 +781,13 @@
 	},
 	{
 		"name": "Knowledge Specialization",
-		"description": ""
+		"description": "When acquired, choose 1 Knowledge skill. When making that skill check, may spend :triumph: result to gain additional successes equal to ranks in Knowledge Specialization."
 	},
+	{
+		"name": "Knowledge Specialization: Lore",
+		"description": "When making skill checks with Knowledge: Lore, may spend :triumph: result to gain additional successes equal to ranks in Knowledge Specialization."
+	},
+
 	{
 		"name": "Knowledgeable Healing",
 		"description": ""
@@ -841,7 +846,7 @@
 	},
 	{
 		"name": "Master Driver",
-		"description": ""
+		"description": "Once per round when piloting a vehicle using Piloting: Planetary skill, suffer 2 strain to perform any action as a meneuver instead."
 	},
 	{
 		"name": "Master Grenadier",
@@ -865,7 +870,7 @@
 	},
 	{
 		"name": "Master Pilot",
-		"description": "Once per round, suffer 2 Strain to perform one Pilot ac­tion as a maneuver."
+		"description": "Once per round, suffer 2 Strain to perform one Pilot action as a maneuver."
 	},
 	{
 		"name": "Master Slicer",
@@ -1381,7 +1386,7 @@
 	},
 	{
 		"name": "Speaks Binary",
-		"description": ""
+		"description": "When directing NPC droids, may grant them :boost: per rank of Speaks Binary on checks."
 	},
 	{
 		"name": "Speaks Binary (Improved)",
@@ -1441,7 +1446,7 @@
 	},
 	{
 		"name": "Street Smarts",
-		"description": ""
+		"description": "Remove :setback: per rank from any Knowledge: Underworld or Streetwise checks."
 	},
 	{
 		"name": "Stroke of Genius",

@@ -1,0 +1,1179 @@
+[
+	{
+		"name": "Baron Administrator Lando Calrissian",
+		"type": "Nemesis",
+		"description": "Lando Calrissian has been a smuggler, gambler, soldier of fortune, hero, and scoundrel in his time. Now, he is the Baron Administrator of Cloud City, a role that he is surprised to discover he enjoys and at which he excels. Lando is a handsome human who sports an elegant moustache and is always well-dressed. He cannot help being charming, espescially to ladies of all species. This profile represents Lando in his role as socialite and administrator as that is the role he is expected to play in this adventure. A full profile of Lando Calrissian is beyond the scope of **The Jewel of Yavin**.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 16,
+			"strain": 15,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 2,
+			"Deception": 4,
+			"Discipline": 2,
+			"Knowledge: Core Worlds": 3,
+			"Knowledge: Underworld": 3,
+			"Leadership": 2,
+			"Negotiation": 3,
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Skulduggery": 2,
+			"Stealth": 2,
+			"Streetwise": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 2", "Kill with Kindness 1", "Nobody’s Fool 2", "Plausible Deniability 2"],
+		"abilities": [
+					{
+						"name": "Luck Be a Lady",
+						"description":"Once per encounter, Lando may reroll a skill check"
+					}
+				],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Fine clothing", "Dashing cloak", "Wrist-mounted comlink", "As the Baron Administrator, Lando has access to immense wealth and resources, but carries very little with him."],
+		"tags": ["underworld", "adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin"]
+	},
+	{
+		"name": "Lobot, cyborg bureaucrat",
+		"type": "Nemesis",
+		"description": "A former thief with an enhanced cybernetic brain, Lobot is steadfastly loyal to Cloud City. Serving as the COmputer Liaison Officer and chief aide to the Baron Administrator, Lobot is arguably the most powerful person on Cloud City due to the machinery in his brain, Lobot now has difficulty engaging in human conversation and very seldom speaks. When he does speak, he does not waste time on pleasantries. He is to the point and unflinchingly honest. This profile represents Lobot in his role as computer liaison officer as that is the role he is expected to fulfill in this adventure. A full profile of Lobot is beyond the scope of this adventure.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 5,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"strain": 16,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Computers": 3,
+			"Discipline": 3,
+			"Knowledge: Education": 2,
+			"Knowledge: Outer Rim": 1,
+			"Knowledge: Underworld": 1,
+			"Mechanics": 2,
+			"Perception": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Defensive Slicing 2", "Speaks Binary 2"],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Durable clothing (+1 soak)", "Borg Construct Aj^6 implant (Lobot can communicate silently with computers and comlinks and wirelessly access Cloud City's central computer from anywhere in the city; the implant also increases his Intellect)"],
+		"tags": ["underworld", "adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Cyborg"]
+	},
+	{
+		"name": "Wing Guard Officer",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": ["Discipline", "Melee", "Ranged: Light", "Vigilance"],
+		"abilities": ["Covering Fire"],
+		"weapons": ["Relby-k23 blaster pistol", "Stun club"],
+		"gear": ["Wing Guard uniform (+1 Soak)", "Comlink", "Magnacuffs (breaking free of these restraints requires a :daunting: Coordination check)"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "security"]
+	},
+	{
+		"name": "Wing Guard Sergeant",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Coercion": 1,
+			"Discipline": 1,
+			"Leadership": 2,
+			"Melee": 2,
+			"Piloting: Pleanetary": 2,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"abilities": ["Tactical Direction"],
+		"weapons": ["Relby-k23 blaster pistol", "Stun club"],
+		"gear": ["Wing Guard uniform (+1 Soak)", "Comlink", "Spare clip"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "security"]
+	},
+	{
+		"name": "Ugnaught Laborer",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 10
+		},
+		"skills": {
+			"Computers": 1,
+			"Mechanics": 2,
+			"Melee": 1
+			},
+		"weapons": [
+			{
+				"name": "Hydrospanner - Melee",
+				"skill": "Melee",
+				"damage": 3,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			},
+			{
+				"name": "Hydrospanner - Ranged",
+				"skill": "Ranged: Light",
+				"damage": 3,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"abilities": ["Silhouette 0", "Stubborn and Dependable"],
+		"gear": ["Durable clothing (+1 Soak)"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Ugnaught", "civilian"]
+	},
+	{
+		"name": "Lutrillian Merchant",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10
+		},
+		"skills": {
+			"Charm": 1,
+			"Cool": 1,
+			"Deception": 1,
+			"Discipline": 1,
+			"Negotiation": 2,
+			"Streetwise": 2
+			},
+		"talents": ["Greased Palms"],
+		"abilities": ["Blubber (+1 soak)"],
+		"gear": ["Upper class clothing", "250 credits"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Lutrillian", "civilian", "merchant"]
+	},
+	{
+		"name": "Tabarith's Thug",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 8
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coercion": 1,
+			"Ranged: Light": 1
+			},
+		"weapons": ["Blaster pistol", "Brass knuckles"],
+		"gear": ["Long coat (+1 soak)", "Comlink"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "underworld", "thug"]
+	},
+	{
+		"name": "Bhurra, Lutrillian Thug",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 12
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coercion": 1,
+			"Perception": 1,
+			"Ranged: Light": 1,
+			"Vigilance": 1
+			},
+		"talents": ["Adversary 1"],
+		"abilities": ["Blubber (+1 soak)"],
+		"weapons": ["Blaster pistol", "Brass knuckles"],
+		"gear": ["Long coat (+1 soak)", "Comlink"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Lutrillian", "underworld", "thug"]
+	},
+	{
+		"name": "Government Security Droid",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Ranged: Light": 3,
+			"Vigilance": 3
+			},
+		"abilities": ["Droid"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Government-network comlink", "Integrated armor plating (+1 defense, +1 soak)"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Droid", "security"]
+	},
+	{
+		"name": "Gerrol Hunn, Corporate Pilot",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 4,
+			"Cool": 2,
+			"Piloting: Planetary": 3
+			},
+		"talents": ["Brilliant Evasion"],
+		"weapons": ["Light blaster pistol"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "pilot"]
+	},
+	{
+		"name": "Chara Tull, Corporate Co-Pilot",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 3,
+			"Gunnery": 1,
+			"Piloting: Planetary": 2
+			},
+		"talents": ["Master Driver"],
+		"weapons": ["Light blaster pistol"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "pilot"]
+	},
+	{
+		"name": "The Carbine, Hutt Cartel Pilot",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Cool": 2,
+			"Gunnery": 3,
+			"Piloting: Planetary": 3,
+			"Ranged: Light": 3
+			},
+		"talents": ["Dead to Rights"],
+		"weapons": ["Heavy blaster pistol"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "pilot"]
+	},
+	{
+		"name": "Garulo, Hutt Cartel Gunner",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Cool": 3,
+			"Gunnery": 3,
+			"Knowledge: Underworld": 3,
+			"Streetwise": 2
+			},
+		"talents": ["Natural Driver"],
+		"abilities": [
+				{
+					"name": "Additional Limbs",
+					"description": "Xexto have six limbs, two legs and four arms; as a result, gain an additional free maneuver per turn, though still may not perform more than two maneuvers per turn"
+				}
+					],
+		"gear": ["Datapad"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "pilot", "species:Xexto"]
+	},
+	{
+		"name": "Tarryn Rayzer, Eccentric Pilot",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 2,
+			"Computers": 2,
+			"Cool": 2,
+			"Mechanics": 3,
+			"Piloting: Planetary": 4,
+			"Streetwise": 2
+			},
+		"talents": ["Full Throttle"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["comlink"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "pilot"]
+	},
+	{
+		"name": "K4-76A",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 14
+		},
+		"skills": {
+			"Computers": 3,
+			"Gunnery": 2,
+			"Vigilance": 2
+			},
+		"abilities": ["Droid"],
+		"talents": ["True Aim"],
+		"weapons": ["Built-in blaster pistol"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Droid"]
+	},
+	{
+		"name": "Tibannuck",
+		"type": "Rival",
+		"description": "Generally looked upon as simple creatures somewhat akin to mynocks, at least one notable sentientologist has presented compelling evidence to suggest that the tibannuck are a sentient race. Although the city's current Baron Administrator has ended the administrative bounties on tibannuck kills, Imperial law has refused to recognize the creatures as intelligent, and thus several independent sources continue offering bounties on them.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Athletics": 3,
+			"Resilience": 1,
+			"Survival": 2
+			},
+		"abilities": ["Droid"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "creature"]
+	},
+	{
+		"name": "Kaltho the Hutt, Crime Lord",
+		"type": "Nemesis",
+		"description": "The great Hutt Kaltho is a curious sight and much smaller than the norm for one of his standing (he only dines on the finest of delicacies). He is still as enormous as an adult Hutt would naturally be, with the occasional grotesque fold of loose skin indicating some past act of gluttony before he began to waste away. When in public or in a gathering with outsiders, Kaltho conceals his shrunken body with a massive black garment of Corellian nanosilk enbroidered with great scenes from the history and mythology of the Hutts.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 1,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak":  9,
+			"wounds": 30,
+			"strain": 20,
+			"defence": [0, 2]
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 4,
+			"Cool": 3,
+			"Deception": 3,
+			"Discipline": 3,
+			"Knowledge: Outer Rim": 2,
+			"Knowledge: Underworld": 5,
+			"Leadership": 2,
+			"Negotiation": 4,
+			"Resilience": 5,
+			"Vigilance": 3
+		},
+		"talents": ["Durable 3", "Resolve 2"],
+		"abilities": ["Awkward", "Ponderous"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "underworld", "species:Hutt", "crime lord"]
+	},
+	{
+		"name": "Shreya Ordassa, Togrutan Academic",
+		"type": "Nemesis",
+		"description": "Shreya Ordassa stands out among the humanoid galagoers with her pale orange skin and gray-white facial markings. She often dresses in muted, neutral colours to minimize the difference in her appearance due to a lifetime of struggling with anti-alien prejudice. Still, her prominent back and white striped head-tails and the hollow horns of her species are distinctive, alien, and beautiful in their own way.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 13
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 2,
+			"Cool": 2,
+			"Deception": 1,
+			"Knowledge: Education": 4,
+			"Leadership": 1,
+			"Negotiation": 3
+			},
+		"talents": ["Nobody’s Fool 1", "Scathing Tirade"],
+		"gear": ["datapad"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Togruta"]
+	},
+	{
+		"name": "Mil Mikkir, Chagrian Executive",
+		"type": "Nemesis",
+		"description": "Although Chagrians are typically taller than humans, Mil Mikkir is small for his species, not much more than 1.7 meters in height at his crown. His prominent horns do make him appear taller, and he favors imposing suits in rich colours to help make an impression despite his size. His deep blue skin is darkest on the lethorn growths from the sides of his head, and he takes great pride in this, as he does in his appearance in general.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 12,
+			"defence": [2, 2]
+		},
+		"skills": {
+			"Charm": 3,
+			"Coercion": 2,
+			"Cool": 2,
+			"Deception": 3,
+			"Knowledge: Education": 2,
+			"Negotiation": 4,
+			"Ranged: Light": 1,
+			"Streetwise": 1
+			},
+		"talents": ["Plausible Deniability 2", "Smooth Talker (Deception) 2"],
+		"gear": ["personal deflector shield (+2 defense)", "datapad"],
+		"weapons": ["Holdout blaster"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Chagrian"]
+	},
+	{
+		"name": "Pos Podura, Twi’lek associate",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 14,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Charm": 1,
+			"Computers": 1,
+			"Cool": 2,
+			"Deception": 2,
+			"Knowledge: Education": 3,
+			"Negotiation": 1,
+			"Skulduggery": 1,
+			"Streetwise": 1
+			},
+		"talents": ["Idealist 1", "Resolve 2"],
+		"abilities": ["Twi’lek"],
+		"gear": ["stolen credentials and encrypted expense voucher with 5000 credits"],
+		"weapons": ["Holdout blaster"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Twi’lek"]
+	},
+	{
+		"name": "“Zekra Fol”, ISB Operative",
+		"type": "Nemesis",
+		"description": "The woman claiming the name of Zekra Fol is a slim, dark-haired figure who moves with an effortless elegance. She wears fashionable but conservative clothing in her cover identity, favoring suits that provide easy movement. She carries a briefcase with the Outer Rim Exploratory Mining Corps logo emblazoned upon it. If openly acting in an official capacity, she trades her corporate garb for the uniform of the Imperial Security Bureau and wears her holdout blaster in a clearly visible holster at her hip.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 5,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 11,
+			"strain": 16,
+			"defence": [2, 2]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Charm": 3,
+			"Coercion": 3,
+			"Cool": 3,
+			"Deception": 3,
+			"Discipline": 4,
+			"Knowledge: Outer Rim": 3,
+			"Knowledge: Underworld": 2,
+			"Negotiation": 2,
+			"Perception": 3,
+			"Ranged: Light": 1,
+			"Streetwise": 2,
+			"Vigilance": 3
+			},
+		"talents": ["Adversary 1", "Nobody’s Fool 2", "Plausible Deniability 2", "Smooth Talker (Coercion) 2"],
+		"gear": ["personal deflector shield (+2 defense)", "additional equipment as necessary"],
+		"weapons": ["Holdout blaster"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "empire", "imperial security bureau"]
+	},
+	{
+		"name": "Vorse Tabarith, Mob Boss",
+		"type": "Nemesis",
+		"description": "Even without his fearsome reputation, Vorse Tabarith would be an easy man to recognize. His huge frame and thick bristly beard have led a few brave souls to compare him to a Wookiee when he was out of earshot. While well shy of a Wookiee's height, his broad shoulders and burly chest allow him to approach some of them in mass and muscle. He wears sturdy but expensive clothing when handling day-t-day affairs, and often a few pieces of gaudy jewelry as well.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15,
+			"strain": 14,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Charm": 1,
+			"Coercion": 3,
+			"Deception": 3,
+			"Discipline": 1,
+			"Knowledge: Underworld": 3,
+			"Leadership": 1,
+			"Melee": 2,
+			"Negotiation": 2,
+			"Perception": 3,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 2,
+			"Skulduggery": 2,
+			"Streetwise": 3,
+			"Vigilance": 2
+			},
+		"talents": ["Adversary 1", "Nobody’s Fool 1", "Plausible Deniability 1", "Street Smarts 2"],
+		"gear": ["Heavy Clothing (+1 soak)", "additional equipment as necessary"],
+		"weapons": ["Heavy blaster pistol"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "crime lord", "underworld"]
+	},
+	{
+		"name": "Marus Grayson, Corrupt Imperial Exchequer",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 13,
+			"defence": [2, 2]
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 3,
+			"Cool": 2,
+			"Deception": 3,
+			"Knowledge: Core Worlds": 4,
+			"Knowledge: Education": 2,
+			"Negotiation": 4,
+			"Ranged: Light": 1
+			},
+		"talents": ["Adversary 2", "Resolve 1"],
+		"gear": ["Personal deflector shield (+2 defense)", "Formal clothing", "Personal shuttle (use a Lambda shuttle)", "Encrypted credit chip with 5000-10000 credits."],
+		"abilities": ["Imperial Haughtiness"],
+		"weapons": ["Light blaster pistol"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "empire"]
+	},
+	{
+		"name": "G-100 Remote Banking Droid",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 1,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 10,
+			"strain": 4,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Discipline": 2
+			},
+		"talents": ["Nobody’s Fool 3", "Resolve 1"],
+		"gear": ["Built-in network uplink"],
+		"abilities": ["Droid"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "droid"]
+	},
+	{
+		"name": "Rawwk",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 3
+		},
+		"skills": ["Brawl", "Coordination"],
+		"abilities": ["Flyer"],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			},
+			{
+				"name": "Stunning screech",
+				"skill": "Ranged: Light",
+				"damage": 3,
+				"range": "Short",
+				"qualities": ["Pierce 1", "Stun Damage"]
+			}
+		],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "creature"]
+	},
+	{
+		"name": "Gantel Dro",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 10,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Discipline": 1,
+			"Melee": 2,
+			"Perception": 3,
+			"Ranged: Light": 3,
+			"Vigilance": 2,
+			"Skulduggery": 2,
+			"Stealth": 3
+		},
+		"weapons": ["Heavy blaster pistol", "Vibroknife"],
+		"abilities": ["Light-Sensitive", "Shadowed"],
+		"gear": ["Armored guard uniform (+1 soak, +1 defence)", "Comlink", "Protective goggles with built-in infrared vision (add :setback: to opposed Stealth checks targeting Gantel)"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "defel", "security"]
+	},
+	{
+		"name": "Burr Naxis",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 10,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Discipline": 1,
+			"Melee": 2,
+			"Perception": 3,
+			"Ranged: Light": 3,
+			"Vigilance": 2
+		},
+		"weapons": ["Heavy blaster pistol", "Vibroknife"],
+		"gear": ["Armored guard uniform (+1 soak, +1 defence)", "Comlink"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "security"]
+	},
+	{
+		"name": "Private Security Guard",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5,
+			"defence": [1, 1]
+		},
+		"skills": ["Discipline", "Melee", "Perception", "Ranged: Heavy", "Vigilance"],
+		"weapons": ["Riot gun", "Vibroknife"],
+		"gear": ["Armoured clothing (+1 Soak, +1 defence)", "Comlink"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "security"]
+	},
+	{
+		"name": "Security Droid",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 10
+		},
+		"skills": {
+			"Ranged: Light": 3,
+			"Vigilance": 3
+		},
+		"weapons": ["Built-in blaster pistol",
+				{
+				"name": "Snare Launcher",
+				"skill": "Ranged: Light",
+				"damage": 0,
+				"range": "Short",
+				"critical": 0,
+				"qualities": ["Ensnare 5", "Limited Ammo 1"]
+				}
+			],
+		"abilities": ["Droid"],
+		"talents": ["Heightened Awareness"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Droid", "security"]
+	},
+	{
+		"name": "Elaiza, Jedi in Exile",
+		"type": "Nemesis",
+		"description": "The crystal set in Elaiza's lightsaber is damaged and worn. Once it has been switched on, make a Force check espescially for the lightsaber at the beginning of each subsequent turn. On a result of :darkside:, the lightsaber flickers and uses the following profile until it is switched off for a turn: [Lightsaber; Damage 7, Critical 3, Range: Engaged]. On a result of :darkside::darkside:, the lightsaber shuts down, and does not count as a weapon at all.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 16,
+			"strain": 14,
+			"defence": [2, 1]
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 3,
+			"Cool": 3,
+			"Deception": 3,
+			"Discipline": 2,
+			"Lightsaber": 4,
+			"Melee": 2,
+			"Perception": 4,
+			"Stealth": 2,
+			"Streetwise": 3,
+			"Vigilance": 3
+			},
+			"weapons": [
+				{
+				"name": "Elaiza's lightsaber",
+				"skill": "Lightsaber",
+				"damage": 10,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Defensive 1", "Deflection 2", "Sunder", "Vicious 2"]
+				}
+			],
+		"talents": ["Adversary 2", "Ataru Technique", "Sense Danger", "Force Rating 3", "Sense Emotions"],
+		"abilities": [
+				{
+				"name": "Force power: Move",
+				"description": ":lightside:: Move up to 2 objects with Silhouette 1 at Medium range; may make ranged attacks with this power."
+				},
+				{
+				"name": "Force power: Influence",
+				"description": ":lightside:: Inflict 2 strain on engaged target. Make an opposed Discipline vs Discipline check, as well as an Influence Force Power check, if successful can force target to adopt an emotional state or believe something untrue for 3 rounds or 5 minutes."
+				},
+				{
+				"name": "On the Edge",
+				"description": "Once per Force check, may suffer 1 strain to use :darkside: to generate :lightside:."
+				}
+				],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "force sensitive", "jedi"]
+	},
+	{
+		"name": "Shen's Goons",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": ["Brawl", "Coercion", "Gunnery", "Ranged: Heavy", "Streetwise"],
+		"weapons": ["Blaster carbine", "Brass knuckles"],
+		"talents": ["Lethal Blows"],
+		"gear": ["Heavy clothing (+1 soak)"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin"]
+	},
+	{
+		"name": "Captain Bialar Selis",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"strain": 12,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Coercion": 2,
+			"Discipline": 2,
+			"Leadership": 3,
+			"Melee": 2,
+			"Piloting: Planetary": 2,
+			"Ranged: Light": 4,
+			"Vigilance": 3
+			},
+			"weapons": ["Stun club",
+				{
+				"name": "Relby-k23 blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting", "Pierce 2", "Superior"]
+				}
+			],
+		"talents": ["Adversary 2", "Good Cop 2"],
+		"abilities": [
+				{
+				"name": "Captain of the Wing Guard",
+				"description": "May spend a maneuver giving order to other Wing GIard allies in medium range, granting them :boost: on their next check."
+				}
+				],
+		"gear": ["armored Wing Guard uniform (+1 defense, +1 soak)", "comlink", "magnacuffs (breaking free of these restraints requires a :daunting: coordination check"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "security"]
+	},
+	{
+		"name": "Aris Shen",
+		"type": "Nemesis",
+		"description": "Arend's point person (and his daughter) to make sure the PC's are eliminated.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12,
+			"strain": 14
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 2,
+			"Deception": 3,
+			"Knowledge: Underworld": 4,
+			"Negotiate": 3,
+			"Perception": 2,
+			"Ranged: Light": 3,
+			"Streetwise": 4,
+			"Vigilance": 1
+			},
+			"weapons": ["Holdout blaster",
+				{
+				"name": "IR-5 “Intimidator” blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Autofire", "Inaccurate 1"]
+				}
+			],
+		"talents": ["Adversary 1", "Quick Draw", "Natural Charmer", "Smooth Talker 2"],
+		"abilities": [
+				{
+				"name": "Shadowport Savvy",
+				"description": "When purchasing legal or illegal goods, reduce rarity by 1 without any accompanying price increase."
+				}
+				],
+		"gear": ["Heavy clothing (+1 soak)"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Pantoran"]
+	},
+	{
+		"name": "Arend Shen",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"strain": 16
+		},
+		"skills": {
+			"Charm": 4,
+			"Coercion": 2,
+			"Cool": 4,
+			"Deception": 3,
+			"Knowledge: Education": 5,
+			"Knowledge: Underworld": 4,
+			"Negotiation": 5,
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Skulduggery": 2,
+			"Streetwise": 4
+			},
+		"weapons": ["Disruptor pistol"],
+		"talents": ["Adversary 3", "Nobody’s Fool 2", "Resolve 1", "Smooth Talker (Negotiation) 2"],
+		"gear": ["Heavy clothing (+1 soak)", "Credit stick with 5000 credits"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Pantoran"]
+	},
+	{
+		"name": "K4 Security Droid",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12,
+			"defence": [2, 1]
+		},
+		"skills": {
+			"Melee": 2,
+			"Ranged: Light": 3,
+			"Vigilance": 2
+		},
+		"abilities": ["Droid"],
+			"weapons": [
+				{
+				"name": "Built-in blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+				},
+				{
+				"name": "Security staff",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1", "Disorient 2", "Pierce 2"]
+				}
+			],
+		"gear": ["Armored plating (+1 defence, +1 Soak)"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "species:Droid", "security"]
+	},
+	{
+		"name": "Yacht crew",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 6
+		},
+		"skills": ["Gunnery", "Piloting: Space"],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Mechanics overall (+1 soak)"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin"]
+	},
+	{
+		"name": "Bespin Defense Force Pilot",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": ["Cool", "Gunnery", "Piloting: Planetary"],
+		"gear": ["Flight suit"],
+		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin"]
+	}
+]
