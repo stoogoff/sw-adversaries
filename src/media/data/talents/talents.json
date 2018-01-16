@@ -29,15 +29,15 @@
 	},
 	{
 		"name": "Armor Master",
-		"description": "When wearing armor, Increase total soak value by 1."
+		"description": "When wearing armour, increase total Soak value by 1."
 	},
 	{
 		"name": "Armor Master (Supreme)",
-		"description": "Once per round, when the character suffers a Critical Injury, he may suffer 3 strain to take the Armor Master incidental. If he does he reduces the Critical Injury result that he suffers by 10 per point of his soak, to a minimum of 1."
+		"description": "Once per round, when the character suffers a Critical Injury, he may suffer 3 Strain to take the Armor Master incidental. If he does he reduces the Critical Injury result that he suffers by 10 per point of his soak, to a minimum of 1."
 	},
 	{
 		"name": "Armor Master (Improved)",
-		"description": "When wearing armor with a soak value of 2 or higher, increase defense by 1."
+		"description": "When wearing armour with a Soak value of 2 or higher, increase Defence by 1."
 	},
 	{
 		"name": "Ataru Technique",
@@ -557,7 +557,7 @@
 	},
 	{
 		"name": "Good Cop",
-		"description": "The character may spend :advantage::advantage: from a Charm or Negotiation check to upgrade the ability of a single ally's subsequent Social interaction check against the same target twice."
+		"description": "The character may spend :advantage::advantage: from a Charm or Negotiation check to upgrade the ability of a single ally's subsequent Social interaction check against the same target as number of times equal to ranks in Good Cop."
 	},
 	{
 		"name": "Grapple",

@@ -474,7 +474,7 @@
 				}
 			],
 		"gear": ["Banal Apparel (Opposing characters upgrade the difficulty of any checks made to identify the wearer once)", "Second Skin Armor (+1 Soak/+1 Defense; +2 Setback to Perception checks to notice on the wearer)"],
-		"tags": ["species:Bothan","source:D20Radio.com NPC's"],
+		"tags": ["species:Bothan","source:D20Radio.com NPC’s"],
 		"devOnly": true
 	},
 	{
@@ -515,7 +515,7 @@
 		"range": "Engaged"
 		}, "Holdout blaster"],
 		"gear": ["Heavy Clothing", "Thermal Cloak", "Scanner Goggles", "Utility Belt", "Datapad", "Comlink", "Stimpaks (2)", "Climbing Gear", "Fusion Lantern", "567 credits"],
-		"tags": ["species:Bothan","source:D20Radio.com NPC's"],
+		"tags": ["species:Bothan","source:D20Radio.com NPC’s"],
 		"devOnly": true
 	},
 	{
@@ -547,7 +547,7 @@
 				"qualities": ["Pierce 2", "Knockdown"]
 				}
 			],
-		"tags": ["creature","source:D20Radio.com NPC's"],
+		"tags": ["creature","source:D20Radio.com NPC’s"],
 		"devOnly": true
 	},
 	{
@@ -589,7 +589,7 @@
 				"qualities": ["Pierce 3", "Knockdown"]
 				}
 			],
-		"tags": ["creature","source:D20Radio.com NPC's"],
+		"tags": ["creature","source:D20Radio.com NPC’s"],
 		"devOnly": true
 	}
 ]
