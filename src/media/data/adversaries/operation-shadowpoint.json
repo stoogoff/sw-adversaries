@@ -1,0 +1,216 @@
+[
+	{
+		"name": "Darrasted Villager",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": ["Brawl", "Survival"],
+		"gear": ["Heavy clothing", "Imperial-issued ration chit"],
+		"tags": ["adventure:Operation Shadowpoint", "location:Darrastead Village", "location:Onderon"]
+	},
+	{
+		"name": "Deil Kadru, Village Elder",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 8
+		},
+		"skills": {
+			"Cool": 1,
+			"Leadership": 1,
+			"Negotiation": 1,
+			"Perception": 2,
+			"Survival": 2
+		},
+		"gear": ["Poor-weather cloak", "key to village supplies"],
+		"abilities": [
+					{
+					"name": "Village Leader",
+					"description": "Darrastead villagers add :boost: to their Cool and Discipline checks when they can see Deil Kadru."
+					}
+				],
+		"tags": ["adventure:Operation Shadowpoint", "location:Darrastead Village", "location:Onderon"]
+	},
+	{
+		"name": "Beast Rider Warrior",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 1,
+			"Coordination": 3,
+			"Melee": 2,
+			"Survival": 3,
+			"Stealth": 1,
+			"Vigilance": 1
+		},
+		"gear": ["", "key to village supplies"],
+		"weapons": [
+			{
+				"name": "Hunting spear",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["pierce 1"]
+			}
+		],
+		"talents": ["Stalker 1"],
+		"abilities": [
+					{
+					"name": "Beast Rider",
+					"description": "gain one Boost die :boost: to all checks to control or direct riding animals, as well as to any Coordination checks to tumble safely down from a fall."
+					}
+				],
+		"tags": ["adventure:Operation Shadowpoint", "location:Darrastead Village", "location:Onderon"]
+	},
+	{
+		"name": "Ruping",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 20
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 1,
+			"Coordination": 2,
+			"Survival": 3,
+			"Vigilance": 3
+		},
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged"
+			}
+		],
+		"talents": ["Adversary 1", "Enduring 1"],
+		"abilities": ["Flyer", "Silhouette 2"],
+		"tags": ["adventure:Operation Shadowpoint", "location:Darrastead Village", "location:Onderon"]
+	},
+	{
+		"name": "Gaav Fennro, Rebellion Intelligence Officer",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 1,
+			"Computers": 2,
+			"Deception": 1,
+			"Ranged: Light": 1
+		},
+		"weapons": ["Holdout blaster"],
+		"abilities": [
+					{
+					"name": "Sigint Expert",
+					"description": "gain a boost die :boost: on checks for any task relating to managing, using, or maintaining a Sigint array."
+					}
+				],
+		"gear": ["Heavy clothing (+1 soak)", "smuggled base supplies"],
+		"tags": ["adventure:Operation Shadowpoint", "location:Onderon"]
+	},
+	{
+		"name": "Kavia Slen, junk and tech dealer",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14
+		},
+		"skills": {
+			"Cool": 1,
+			"Deception": 1,
+			"Mechanics": 2,
+			"Negotiation": 2,
+			"Ranged: Light": 1
+		},
+		"weapons": ["Holdout blaster"],
+		"gear": ["junkyard and shop full of scrapped and salvaged tech"],
+		"tags": ["adventure:Operation Shadowpoint", "location:Onderon"]
+	},
+	{
+		"name": "Imperial Army Veteran",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 13
+		},
+		"skills": {
+			"Athletics": 2,
+			"Melee": 1,
+			"Perception": 2,
+			"Ranged: Heavy": 1,
+			"Stealth": 2,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"weapons": ["Blaster rifle", "Vibroknife"],
+		"gear": ["padded armour (+2 soak)"],
+		"tags": ["adventure:Operation Shadowpoint", "location:Onderon", "empire", "imperial military"]
+	}
+]
