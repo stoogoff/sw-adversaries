@@ -26,7 +26,8 @@ class App extends React.Component {
 			filter: "",
 			tags: [],
 			isLoaded: false,
-			menuOpen: false
+			menuOpen: false,
+			showAbout: false
 		};
 		this.events = {};
 		this.stores = {};
@@ -240,6 +241,14 @@ class App extends React.Component {
 		}
 	}
 
+	toggleAbout() {
+		let showAbout = !this.state.showAbout;
+
+		this.setState({ showAbout: showAbout});
+
+		console.log("show about")
+	}
+
 	componentWillUnmount() {
 		Object.keys(this.stores).forEach(key => this.stores[key].off(this.events[key]));
 	}
@@ -247,8 +256,19 @@ class App extends React.Component {
 	render() {
 		let x = this.state.list != null ? this.state.list.length : 0;
 		let y = this.stores.adversaries != null ? this.stores.adversaries.all().length : 0;
+		let overlay = this.state.showAbout ?
+			<div id="overlay">
+				<div className="panel">
+					<h3>About</h3>
+					<p>Star Wars Adversaries is an easily searchable database of adversaries for <a href="https://www.fantasyflightgames.com/">Fantasy Flight Games’</a> Star Wars Roleplaying Game.</p>
+					<p>Built by <a href="http://www.stoogoff.com/">Stoo Goff</a>, <a href="https://twitter.com/nlx3647">nlx3647</a>, and <a href="https://github.com/SkyJed">SkyJedi</a>.</p>
+					<div className="btn pull-right" onClick={ this.toggleAbout.bind(this) }><svg><use href="#icon-cross"></use></svg> <span>Close</span></div>
+				</div>
+			</div>
+			: null;
 
 		return <div>
+			{ overlay }
 			<div id="mobile-menu">
 				<span className="btn" onClick={ this.toggleMenu.bind(this) }><svg><use href="#icon-menu"></use></svg></span>
 				<em>Star Wars: Adversaries</em>
@@ -268,6 +288,7 @@ class App extends React.Component {
 					</div>
 				}
 			</div>
+			<div id="built-by"><span className="link" onClick={ this.toggleAbout.bind(this) }>About</span> | <a href="https://github.com/stoogoff/sw-adversaries">Source</a></div>
 		</div>;
 	}
 }
