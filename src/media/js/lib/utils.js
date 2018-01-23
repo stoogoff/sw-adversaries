@@ -122,7 +122,7 @@ let bookMap = {
 	// source books
 	"book:lonh": "Lords of Nal Hutta",
 	"book:sor": "Strongholds of Resistance",
-	"book:sof": "Suns of Fortune", // there's a barabel enforcer with different weapon load out
+	"book:sof": "Suns of Fortune",
 	"book:nop": "Nexus of Power",
 
 	// career books
@@ -138,6 +138,7 @@ let bookMap = {
 	"book:ss": "Savage Spirits",
 
 	// adventures
+	"book:oaa": "Onslaught at Arda I",
 	"book:cotgk": "Chronicles of the Gatekeeper",
 	"book:ragp": "Rescue at Glare Peak",
 	"book:uabs": "Under a Black Sun",

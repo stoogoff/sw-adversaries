@@ -385,7 +385,7 @@
 	},
 	{
 		"name": "Improved Covering Fire",
-		"description": "When allied minion groups within Short range perform the Covering Fire maneuver, they add +2 ranged defense instead."
+		"description": "When allied minion groups within Short range perform the Covering Fire maneuver, they add +2 Ranged Defence instead."
 	},
 	{
 		"name": "Infravision",
@@ -569,7 +569,7 @@
 	},
 	{
 		"name": "Self-destruct Mechanism",
-		"description": "Should the probe droid’s mission become compromised, it may self-destruct as an out of turn incidental; this expliosion does 10 damage to engaged characters."
+		"description": "Should the probe droid’s mission become compromised, it may self-destruct as an out of turn incidental; this explosion does 10 damage to Engaged characters."
 	},
 	{
 		"name": "Sessile",

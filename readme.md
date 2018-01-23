@@ -147,7 +147,6 @@ Main tasks:
 - career books
 	- EotE
 		- Enter the Unknown
-		- No Disintegrations
 	- AoR
 		- Lead by Example
 		- Fully Operational

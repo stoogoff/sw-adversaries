@@ -440,7 +440,7 @@
 		},
 		"weapons": ["Blaster carbine"],
 		"gear": ["Trooper uniform and helmet (+1 Soak)"],
-		"tags": ["empire", "imperial military", "book:aor"]
+		"tags": ["empire", "imperial military", "book:aor", "book:oaa", "adventure:Onslaught at Arda I"]
 	},
 	{
 		"name": "Intelligence Agent",
@@ -712,7 +712,7 @@
 		"skills": ["Athletics", "Discipline", "Melee", "Ranged: Heavy", "Resilience", "Survival"],
 		"weapons": ["Blaster rifle", "Vibroknife"],
 		"gear": ["Utility belt", "Extra reloads", "High-temp stormtrooper armour (+2 Soak, remove :setback::setback: imposed due to arid or hot environmental conditions)", "Food and water packs"],
-		"tags": ["empire", "imperial military", "stormtrooper", "book:aor"]
+		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "adventure:Onslaught at Arda I", "book:oaa"]
 	},
 	{
 		"name": "Stormtrooper: Scout Trooper",
