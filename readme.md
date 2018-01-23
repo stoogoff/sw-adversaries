@@ -67,7 +67,7 @@ Main tasks:
 
 ```
 
-# Completed Adversaries
+## Completed Adversaries
 
 - core books
 	- Age of Rebellion
@@ -139,6 +139,36 @@ Main tasks:
 	- Vault of Justice
 	- Welcome Aboard
 	- Witch’s Wrath
+
+### Missing Adversaries
+
+- source books
+	- *Dawn of Rebellion (not released)*
+- career books
+	- EotE
+		- Enter the Unknown
+		- No Disintegrations
+	- AoR
+		- Lead by Example
+		- Fully Operational
+		- *Cyphers and Masks (not released)*
+	- FaD
+		- Disciples of Harmony
+		- *Unlimited Power (not released)*
+- beginner's games
+	- Edge of the Empire
+	- Force and Destiny
+	- The Force Awakens
+	- The Long Arm of the Hutt (EotE follow on adventure)
+	- Operation Shadowpoint (AoR follow on adventure)
+	- Lure of the Lost (FaD follow on adventure)
+- adventure books
+	- AoR
+		- Onslaught at Arda I
+- gm kits
+	- EotE
+	- AoR
+	- Fad
 
 ## TODO
 
