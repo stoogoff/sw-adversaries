@@ -159,16 +159,20 @@ Main tasks:
 		- Disciples of Harmony
 		- *Unlimited Power (not released)*
 - beginner's games
-	- Edge of the Empire
-	- Force and Destiny
+	- Edge of the Empire (Escape from Mos Shuuta)
+	- Force and Destiny (Mountaintop Rescue)
 	- The Force Awakens
 	- The Long Arm of the Hutt (EotE follow on adventure)
 	- Operation Shadowpoint (AoR follow on adventure)
 	- Lure of the Lost (FaD follow on adventure)
+	- A Call for Heroes (TFA Bonus adventure)
+	- Operation: Shell Game (AoR Beta game)
+	- Lost Knowledge (FaD Beta adventure)
+	- Crates of Krayts (EotE Beta adventure)
 - gm kits
-	- EotE
-	- AoR
-	- Fad
+	- EotE (Debts to Pay)
+	- AoR (Dead in the water)
+	- Fad (Hidden Depths)
 
 ## TODO
 
