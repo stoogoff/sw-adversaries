@@ -619,7 +619,7 @@
 			}
 		],
 		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 Soak)", "2 Frag grenades"],
-		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad", "adventure:Rescue at Glare Peak", "adventure:Friends Like These", "adventure:Takeover at Whisper Base"]
+		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad", "adventure:Rescue at Glare Peak", "adventure:Friends Like These", "adventure:Takeover at Whisper Base", "adventure:Onslaught at Arda I", "book:oaa"]
 	},
 	{
 		"name": "Stormtrooper Sergeant",
@@ -651,7 +651,7 @@
 		"abilities": ["Tactical Direction"],
 		"weapons": ["Heavy blaster rifle", "Vibroknife", "Frag grenade"],
 		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 Soak)", "2 Frag grenades"],
-		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad"]
+		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad", "book:oaa", "adventure:Onslaught at Arda I"]
 	},
 	{
 		"name": "Stormtrooper: Dark Trooper",
@@ -817,7 +817,7 @@
 		"skills": ["Gunnery", "Piloting: Space"],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Flight suit"],
-		"tags": ["empire", "imperial military", "pilot", "book:aor", "book:fad", "adventure:Operation Shell Game"]
+		"tags": ["empire", "imperial military", "pilot", "book:aor", "book:fad", "adventure:Operation Shell Game", "adventure:Onslaught at Arda I", "book:oaa"]
 	},
 	{
 		"name": "TIE Ace",
