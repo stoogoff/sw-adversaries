@@ -245,8 +245,6 @@ class App extends React.Component {
 		let showAbout = !this.state.showAbout;
 
 		this.setState({ showAbout: showAbout});
-
-		console.log("show about")
 	}
 
 	componentWillUnmount() {
