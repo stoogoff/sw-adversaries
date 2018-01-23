@@ -45,7 +45,7 @@
 	},
 	{
 		"name": "Bacta Specialist",
-		"description": "Patients heal additional wounds per rank when they heal wounds from bacta tanks or long-term care."
+		"description": "Patients heal an additional Wound per rank when they heal wounds from bacta tanks or long-term care."
 	},
 	{
 		"name": "Bad Cop",
@@ -709,7 +709,7 @@
 	},
 	{
 		"name": "Intense Presence",
-		"description": ""
+		"description": "Spend 1 dark side Destiny point to recover Strain equal to Presence."
 	},
 	{
 		"name": "Interjection",
