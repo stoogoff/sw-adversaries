@@ -44,12 +44,20 @@ h2.subtitle
 .star-filled
 	color: map-get($dice, "proficiency")
 
+.pre-js-loading
+	h1
+		position: static
+
+	p
+		margin-left: 1em
+		margin-right: 1em
 
 // LAYOUT
 #built-by
 	font-size: 0.8em
 	padding: 0.2em 1em 0.2em 0.5rem
 	clear: both
+	background-color: $tabBgColour
 
 .filter
 	margin: 2em 1em 0
@@ -297,8 +305,8 @@ h2.subtitle
 	.loading
 		margin: 2em
 
-// STAT BLOCKS
 
+// STAT BLOCKS
 .stats
 	margin: 0
 	font-size: 0.9em
@@ -438,6 +446,36 @@ h2.subtitle
 		top: 0.1em
 
 
+// OVERLAY
+#overlay
+	position: fixed
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+	background-color: rgba(0,0,0,0.8)
+	z-index: 300
+
+	.panel
+		background-color: $body
+		width: 70%
+		max-width: 700px
+		margin: 200px auto auto
+		padding: 1.5em 2em
+		border-radius: 0.5em
+		border: 2px solid $derived
+		overflow: hidden
+
+		h3
+			margin-top: 0
+
+		.btn span
+			position: relative
+			top: -2px
+			display: inline-block
+			margin-left: 3px
+
+
 // MEDIA OVERRIDES
 @media print, screen and (min-width: $screen-small)
 	#characteristics
@@ -516,7 +554,6 @@ h2.subtitle
 		bottom: 0
 		left: 0
 		padding: 0.2em 1em 0.2em
-		background-color: $body
 		z-index: 150
 
 	#navigation
