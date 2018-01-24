@@ -235,7 +235,7 @@
 		"skills": ["Ranged: Heavy"],
 		"abilities": ["Droid"],
 		"weapons": ["Blaster rifle"],
-		"tags": ["species:Droid", "book:eote"]
+		"tags": ["species:Droid", "book:eote", "battle droid"]
 	},
 	{
 		"name": "Assassin Droid",
@@ -1608,6 +1608,6 @@
 			}
 		],
 		"gear": ["Long-range holonet communicator", "Life form scanner", "Long-range sensor array"],
-		"tags": ["species:Droid", "empire", "book:fad"]
+		"tags": ["species:Droid", "empire", "book:fad", "adventure:Hidden Depths"]
 	}
 ]

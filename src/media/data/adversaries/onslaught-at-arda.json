@@ -1,0 +1,1236 @@
+[
+	{
+		"name": "Senior Advisor Setenna Hase",
+		"type": "Nemesis",
+		"description": "Setenna Hase was raised in a middle-class family on the Corellian world of Tralus near the end of the Republic. She left her world to travel the galaxy at a young age, possessed with a powerful wanderlust to see new and exciting worlds. Traveling through the Core Worlds and on to the Outer Rim for close to a decade, Hase studied numerous cultures, philosophies, and beliefs among other species.\n\nAs the Republic fell and the Empire rose to power, many of these cultures fell under the oppression of the Empire and their New Order. Appalled to see people she had studied under and lived with subjected to such misery, Setenna began looking into the Rebellion. Then an Imperial raid killed Setenna’s beloved mentor, a pacifist Ithorian philosopher named Borrosel. Setenna Hase joined the Rebellion and never looked back.\n\nSetenna’s intellect and drive allowed her to rise among her peers and become a valuable leader whose knowledge of the galaxy and cultures makes her an effective leader and cunning strategist. Setenna looks older than she is, though she is actually thirty-four years old and has the energy to prove it. The woman looks up to General Niall but is known to clash with the up-and-coming Duros Commander Qurno.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 15,
+			"strain": 17
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 2,
+			"Discipline": 2,
+			"Knowledge: Education": 4,
+			"Knowledge: Warfare": 1,
+			"Leadership": 2,
+			"Negotiation": 3,
+			"Ranged: Light": 2
+		},
+		"talents": ["Adversary 2", "Command 2", "Field Commander"],
+		"abilities": ["Improved Covering Fire"],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Blast vest (+1 Soak)"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Arda", "rebel alliance"]
+	},
+	{
+		"name": "General Ran Niall",
+		"type": "Nemesis",
+		"description": "Ran Niall was a decorated Imperial Navy captain during the early years of the Empire, captaining the vessel the *Pride of Stars*. The ship had travelled to the Imperial shipyards above Mon Cala for routine maintenance and crew leave. During this leave, Niall witnessed an atrocity on the surface of the planet, as Imperial stormtroopers gunned down a series of shopkeepers who had spoken out against rising taxation and harsh penalties imposed by the Empire. This event shook Niall to his core and changed his life forever.\n\nWhile the ship was undergoing repairs, Niall decided to strike out with his vessel, vowing that he would find a more honourable government for which to fight His bridge crew consisted of people whom he trusted implicitly, and they had no reservations about joining him in his rebellion. In the decades since, Ran Niall has been a vital member of the Alliance, adding his leadership and tactical acumen to many victories against the Empire. An assault corvette’s turbolaser scuttled the Pride of Stars years ago, and today Niall spends most of his time commanding from Arda I, though he longs to be at the forefront of the battle lines, engaging the Empire directly.\n\nGeneral Niall is the oldest and most experienced of the base’s leaders, with a full head of silver-blond hair buzzed short. He sees the potential in both Setenna and Danel and teaches them as much as he can, so they can one day be leaders in their own right. He values the life of every soldier under his command and is beloved by them in return, though he is strict with those who disobey him or the other commanders.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 18,
+			"strain": 20
+		},
+		"skills": {
+			"Coercion": 2,
+			"Cool": 3,
+			"Discipline": 3,
+			"Gunnery": 3,
+			"Knowledge: Warfare": 4,
+			"Leadership": 3,
+			"Perception": 3,
+			"Ranged: Heavy": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Inspiring Rhetoric"],
+		"abilities": ["Alliance Leader"],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Trench coat (+1 Soak)"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Arda", "rebel alliance"]
+	},
+	{
+		"name": "Commander Danel Qurno",
+		"type": "Nemesis",
+		"description": "Danel Qurno never cared about the struggle between the Rebels and the Empire. He lived a quiet life, focused on his job as a law-man in the town of Davoras on the Outer Rim world of Ralgos. The Duros was a diligent member of the security forces, and he took his job very seriously. When an Imperial Victory-class Star Destroyer arrived in orbit around Ralgos and began bombarding the planet with its turbolaser batteries, Qurno could do nothing but stand and watch the devastation levelled against his world. Qurno never found out what the Imperials were even after in their destruction of numerous cities on Ralgos. What the Empire did achieve that day was cementing Danel Qurno’s role in joining the Arda I Rebels, a decision he has never regretted as he travels the galaxy and witnesses the unspeakable horrors carried out by the forces of the Emperor.\n\nCommander Qurno is the youngest of the three—the most brash and the most headstrong. He craves the deference given to General Niall and tries endlessly to prove himself, much to Setenna’s annoyance. He is tense around her, though inwardly, he wants her approval and respect most of all.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 4,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"strain": 14
+		},
+		"skills": {
+			"Coercion": 3,
+			"Cool": 2,
+			"Discipline": 2,
+			"Knowledge: Underworld": 2,
+			"Knowledge: Warfare": 2,
+			"Leadership": 2,
+			"Perception": 3,
+			"Ranged: Light": 3,
+			"Streetwise": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Know Somebody 2", "Nobody’s Fool 1"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Blast vest (+1 Soak)"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Arda", "rebel alliance", "species:Duros"]
+	},
+	{
+		"name": "Captain Harl Bess",
+		"type": "Rival",
+		"description": "A tired and worn-out human male in his late forties, Bess is always dressed in simple flight gear with his trusted blaster at his side. He is of average height but imposing nonetheless, with messy dark brown hair and slightly bloodshot brown eyes.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13
+		},
+		"skills": {
+			"Astrogation": 3,
+			"Computers": 1,
+			"Cool": 2,
+			"Mechanics": 2,
+			"Piloting: Planetary": 3,
+			"Piloting: Space": 4
+		},
+		"talents": ["Skilled Jockey 2"],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Datapad with schematics", "Repair tools"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Arda", "rebel alliance", "pilot"]
+	},
+	{
+		"name": "Urel Haydon",
+		"type": "Rival",
+		"description": "Urel has fought to restore the Republic for nearly two decades, from the very first days of the Empire onward, and has suffered greatly in the quest to topple Palpatine. He has given an arm, a leg, and an eye to the cause and now sports a great deal of cybernetics to replace what he has lost.\n\nDespite the hardships he has endured, Urel is a jovial and gregarious fellow who goes out of his way to help other Rebels forget their troubles for a little while. He has shoulder-length brown hair tied back in a messy ponytail, reddish stubble on his face, and a crowd-pleasing smile.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 3,
+			"Deception": 3,
+			"Melee": 2,
+			"Perception": 1,
+			"Ranged: Light": 2,
+			"Skulduggery": 2,
+			"Stealth": 3,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1", "Stalker 2"],
+		"weapons": ["Light blaster pistol", "Vibroknife"],
+		"gear": ["Reinforced blast vest (+2 Soak)", "Encrypted comlink", "Cybvernetic right arm, left eye, and right leg"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Arda", "rebel alliance"]
+	},
+	{
+		"name": "Doctor Lorren Morrick",
+		"type": "Rival",
+		"description": "A stunning human woman in her late thirties, Doctor Morrick has deep auburn hair, tan skin, and a burning intelligence that puts her appearance to shame. The doctor is well aware of her physical attributes and uses them to her advantage when necessary.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 3,
+			"Computers": 2,
+			"Discipline": 2,
+			"Knowledge: Education": 3,
+			"Medicine": 4
+		},
+		"talents": ["Bacta Specialist 2", "Surgeon 2"],
+		"gear": ["Medpac", "2 synthskin application"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Arda", "rebel alliance", "medic"]
+	},
+	{
+		"name": "Major Yalor",
+		"type": "Rival",
+		"description": "Yalor, like most Sullustans, is short and slim, with enormous dark eyes and pronounced jowls. He has bristly white hair and a spray of dark speckles on his left cheek—a birthmark which he considers lucky. He wears a slightly too-large uniform stained with oil and festooned with tools.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Computers": 4,
+			"Cool": 3,
+			"Gunnery": 2,
+			"Piloting: Space": 3
+		},
+		"talents": ["Field Commander"],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Flight suit"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Arda", "rebel alliance", "species:Sullustan", "pilot"]
+	},
+	{
+		"name": "Clik",
+		"type": "Rival",
+		"description": "A Verpine with a dark green and brown exoskeleton, Clik often sports coveralls and a large belt laden with tools. Clik often tinkers with and “improves” weapons to increase their output. These are not always welcome upgrades, however, and at times his enhancements can produce less than desirable outcomes.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 15
+		},
+		"skills": {
+			"Astrogation": 2,
+			"Brawl": 1,
+			"Computers": 2,
+			"Mechanics": 4
+		},
+		"talents": ["Gearhead 1"],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Datapad with schematics", "Repair tools"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Arda", "rebel alliance", "species:Verpine", "engineer"]
+	},
+	{
+		"name": "Arda I Viper Probe Droid",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10
+		},
+		"skills": {
+			"Computers": 3,
+			"Gunnery": 2,
+			"Perception": 3,
+			"Vigilance": 3
+		},
+		"abilities": [
+			"Droid",
+			{
+				"name": "Repulsorlift Locomotion",
+				"description": "Maximum altitude 3 metres."
+			},
+			{
+				"name": "Self-destruct",
+				"description": "As a maneuver, may self destruct to inflict one automatic hit dealing 15 damage to everything within Short range."
+			},
+			{
+				"name": "Sensors",
+				"description": "Range: Long."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Built-in laser cannon",
+				"skill": "Gunnery",
+				"damage": 10,
+				"critical": 2,
+				"range": "Long",
+				"qualities": ["Breach 1"]
+			}
+		],
+		"gear": ["Built-in hyperspace transponder"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Arda", "empire", "species:Droid"]
+	},
+	{
+		"name": "Doran’enok",
+		"type": "Rival",
+		"description": "Nearly three metres in height, doran’enoks are fearsome reptilian creatures covered in thick scales. They sport numerous spines along their backs and have keen senses of smell (through their forked tongues) but are not much smarter than banthas.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 20,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Perception": 3,
+			"Survival": 3,
+			"Vigilance": 3
+		},
+		"abilities": [
+			"Flyer",
+			{
+				"name": "Sithspawn Scales",
+				"description": "The doran’enoks’ hide is immune to the Pierce or Breach qualities."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown", "Pierce 1"]
+			}
+		],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Arda", "creature"]
+	},
+	{
+		"name": "Captain Balrekk",
+		"type": "Nemesis",
+		"description": "Captain Narell Balrekk is a ruthless leader who commands Talon Company within the 84th Stormtrooper Legion. He has made a name for himself by interrogating Rebel prisoners through torture and other unsanctioned means. Balrekk is perfectly at home in the Empire, finding its cruel and sadistic ways to his liking.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15,
+			"strain": 14
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 3,
+			"Deception": 2,
+			"Melee": 2,
+			"Ranged: Heavy": 3,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"abilities": [
+			{
+				"name": "Balrekk’s Butchery",
+				"description": "As an incidental, the GM may spend a dark side Destiny Point for Balrekk to gain Vicious +2 on all his weapons until the end of his turn."
+			}
+		],
+		"weapons": ["Heavy blaster rifle", "Vibroknife", "Frag grenade"],
+		"gear": ["2 Frag grenades", "Sandtrooper armour (+2 Soak)", "Utility belt", "Spare clip"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Arda", "empire", "imperial military", "stormtrooper"]
+	},
+	{
+		"name": "Tam Blackstar",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Gunnery": 2,
+			"Piloting: Space": 2
+		},
+		"talents": ["Skilled Jockey 2"],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Flight suit"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Arda", "empire", "imperial military", "pilot"]
+	},
+	{
+		"name": "Evarrian Hunter",
+		"type": "Rival",
+		"description": "Evarrian hunters are four metre-long insectoids with hundreds of flexible body segments that propel them through the soft mud and water of the swamp effortlessly. Their upper bodies sport two long claws coated in paralytic venom that quickly immobilizes their prey. The carapace of the creature is a deep purple with streaks of pale blue along the back. Multifaceted eyes and two long antennae provide excellent sight and tracking for the creature.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 2,
+			"Cool": 1,
+			"Coordination": 1,
+			"Stealth": 1
+		},
+		"weapons": [
+			{
+				"name": "Spiked forelegs",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Defensive 1", "Linked 1"],
+				"notes": "Spend :advantage::advantage: to inflict standard strength neuoparalytic."
+			}
+		],
+		"gear": [],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Jagomir", "creature", "species:Evarrian"]
+	},
+	{
+		"name": "Evarrian Queen",
+		"type": "Nemesis",
+		"description": "An evarrian queen appears as a larger version of an evarrian hunter. A queen typically grows to six or seven metres in length and has the same colouration as her spawn. The queen has a distended abdomen where eggs are produced, and she lays 4–6 eggs per year. These young hatch in two-to-three months and join rest of the colony.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 20,
+			"strain": 10,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Cool": 2,
+			"Coordination": 2,
+			"Stealth": 2
+		},
+		"talents": ["Adversary 1"],
+		"weapons": [
+			{
+				"name": "Bladed forelegs",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Defensive 1", "Linked 1", "Pierce 2"],
+				"notes": "Spend :advantage::advantage: to inflict standard strength neuoparalytic."
+			}
+		],
+		"gear": [],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Jagomir", "creature", "species:Evarrian"]
+	},
+	{
+		"name": "Evarrian Larva",
+		"type": "Minion",
+		"description": "The evarrian larvae resemble the mature hunters but are considerably smaller and have less distinctive features. Their scarlet carapace is delicate and susceptible to attacks; the blades along their claws have not yet fully hardened, but the toxin has a stronger concentration.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 0,
+			"wounds": 6
+		},
+		"skills": ["Athletics", "Brawl", "Coordination"],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"notes": "Spend :advantage: to inflict standard strength neuoparalytic."
+			}
+		],
+		"gear": [],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Jagomir", "creature", "species:Evarrian"]
+	},
+	{
+		"name": "Jagomiri Swamp Stalker",
+		"type": "Minion",
+		"description": "The Jagomiri swamp stalker is a vulpine predator with coarse green fur, a fluffy double tail, and large clawed paws. The females hunt in packs while the males tend to be solitary predators. They possess a preternatural sensitivity to the Force through their whiskers, allowing them to anticipate the movement of their prey and attack before the victim can react. As its name suggests, the swamp stalker lives on the edges of marshes and other wetlands, although it has also been known to expand its hunting grounds into the foothills of the mountains of Jagomir.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4
+		},
+		"skills": ["Brawl", "Perception", "Stealth", "Survival", "Vigilance"],
+		"talents": ["Adversary 1", "Force Rating 1"],
+		"abilities": [
+			{
+				"name": "Force Hunter", 
+				"description": "Roll :force: on Initiative checks; :lightside:: gain :success: per point on its Initiative check."
+			},
+			{
+				"name": "Force Stalker",
+				"description": "Commit :force:: gain :boost::boost: on Stealth checks."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 4,
+				"range": "Engaged"
+			},
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 3"]
+			}
+		],
+		"gear": ["Thick fur (+1 Soak)"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Jagomir", "creature", "force sensitive"]
+	},
+	{
+		"name": "Bog Spitter",
+		"type": "Rival",
+		"description": "The bog spitter is a fast-moving quadrupedal lizard distinguished by its thick scaly hide and the venomous poison it projects into its victim’s face when attacking. Bog spitters can grow up to 4 meters long and 1 metre tall, weighing as much as 9 0 kilograms. Despite its large size, the bog spitter is surprisingly fast, able to outrun most small– and medium–size prey in and around the marshes it calls home. Once the bog spitter blinds its prey with its poison spit, it pounces and attacks with its massive front claws and powerful bite.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10
+		},
+		"skills": {
+			"Brawl": 3,
+			"Perception": 2,
+			"Ranged: Light": 3,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"weapons": [
+			{
+				"name": "Poison spit",
+				"skill": "Ranged: Light",
+				"damage": 3,
+				"critical": null,
+				"range": "Short",
+				"qualities": ["Pierce 2", "Slow-Firing 2"],
+				"notes": "**Typhloctic Poison:** spend :advantage::advantage: to inflict; target must succeed at a :hard: Resilience check or suffer the Blinded Critical Injury until the Critical Injury is healed."
+			},
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			},
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Jagomir", "creature"]
+	},
+	{
+		"name": "Dream Shimmer",
+		"type": "Rival",
+		"description": "The dream shimmer is a large, winged insect with a thorax and abdomen similar in size to a small rodent. Its name comes from the sparkling glow of its wings, which seem to shimmer in any light. The dream shimmer’s sole means of defence is a stinger containing hallucinogenic venom. This evolutionary adaptation gives the shimmer enough time to flee from danger or to continue to deliver repeated stun attacks with its stinger.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 5,
+			"defence": [0, 1]
+		},
+		"skills": {
+			"Coordination": 2,
+			"Melee": 3
+		},
+		"abilities": ["Flyer", "Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Stinger",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Stun Damage"],
+				"notes": "**Dream Venom:** spend :advantage::advantage: to inflict; the target suffers the Knocked Senseless Critical Injury. Until the effects of the Critical Injury end, the target experiences hallucinations inspired by the character’s background, Duty, fears, Motivation, Obligation, or general state of mind when stung."
+			}
+		],
+		"gear": [],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Jagomir", "creature"]
+	},
+	{
+		"name": "Azurdactyl",
+		"type": "Rival",
+		"description": "The aquamarine, four-winged azurdactyls are a common sight above the Jagomiri canopies, where they are known to play with each other and fly alongside starships. They appear to be somewhat intelligent, perhaps even semi-sentient, and some Rebels report that they have helped hunt for food in exchange for a share of the catch. Resolute Base’s xenologists hypothesize that the avian species may be related to the Alderaanian thranta or Kaminoan aiwha, albeit distantly.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15
+		},
+		"skills": {
+			"Brawl": 3,
+			"Coordination": 2,
+			"Perception": 2,
+			"Stealth": 1,
+			"Survival": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1", "Natural Hunter"],
+		"abilities": ["Flyer", "Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			},
+			{
+				"name": "Wing buffet",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Knockdown"]
+			},
+			{
+				"name": "Dive bomb",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Prepare 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Jagomir", "creature"]
+	},
+	{
+		"name": "Tunnelling Garrix",
+		"type": "Nemesis",
+		"description": "The Jagomiri tunnelling garrix lives deep under the surface of the planet, emerging only to feed or defend its network of tunnels. This massive predator subsists on the large, meter-long grub worms that nest widely throughout the rich soil of the planet, though the garrix eats many other creatures if it can sink its fangs into them. The creature is blind, relying on its sense of smell and the vibrations around it to navigate through the dirt under the swamps. It is innately cowardly, and flees if it sustains more than 15 wounds.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 20,
+			"strain": 10
+		},
+		"skills": {
+			"Brawl": 3,
+			"Perception": 3,
+			"Survival": 2
+		},
+		"talents": ["Adversary 2"],
+		"abilities": [
+			"Silhouette 2",
+			{
+				"name": "Blind",
+				"description": "This creature relies on smell and vibration to find its prey. A target gains no benefit from cover in an engagement with this creature as it smells the victim and senses its movement."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Sideways slam",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Blast 4", "Knockdown"]
+			},
+			{
+				"name": "Garrix smash",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Disorient"]
+			}
+		],
+		"gear": [],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Jagomir", "creature"]
+	},
+	{
+		"name": "Dorrian Vodani, Dressellian Pilot",
+		"type": "Rival",
+		"description": "A middle-aged Dressellian with tan, wrinkled skin, Dorrian Vodani stands 2.2 metres tall. He often dresses in a simple orange flight suit, even when off-duty.\n\nThe Dressellian pilot is quiet and introspective. He spends a great deal of time reading old texts from his home-world: the writings of an ancient philosopher known as Corrimias. He has patterned his life on these philosophies and is a strict adherent to Corrimias’s teachings of freedom and equality.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 11
+		},
+		"skills": {
+			"Computers": 1,
+			"Coordination": 2,
+			"Piloting: Space": 3
+		},
+		"talents": ["Fine Tuning 2"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Flight suit"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Jagomir", "rebel alliance", "pilot", "species:Dressellian"]
+	},
+	{
+		"name": "Isshtharr, Wookiee Warrior",
+		"type": "Rival",
+		"description": "A towering Wookiee standing nearly 3 metres tall, Isshtharr has deep grey (almost black) fur and ornate hide armour made out of some former prey. His fur has numerous braids through it, and many ornamental trinkets dangle from those braids, representative of victorious battles and hunts.\n\nLike many of his species, Isshtharr loves combat and feels that violence solves many problems. The Wookiee is considered outgoing among his kind and tries to strike up many conversations with Rebels around the base—though most can’t understand him. He is also very inquisitive and often asks about how things work.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 20
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Mechanics": 2,
+			"Piloting: Space": 3,
+			"Ranged: Heavy": 3,
+			"Ranged: Light": 2
+		},
+		"weapons": ["Heavy blaster rifle"],
+		"gear": ["Hide armour (+1 Soak)"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Jagomir", "rebel alliance", "species:Wookiee"]
+	},
+	{
+		"name": "Lt. Masi Qual, Bothan Spy",
+		"type": "Rival",
+		"description": "Masi is a young Bothan with beige fur covering her 1.6-metre-tall body. She usually dresses in her lieutenant’s outfit and can be often seen barking out orders to newer members of her intelligence cell.\n\nCold and calculating at all times, Masi has little time for those she perceives as beneath her in stature. She grew up with a chip on her shoulder, and nothing has diminished that attitude. She has had success in the Alliance, and the praise and recognition she receives further fuels her belief in her own superiority.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14
+		},
+		"skills": {
+			"Coordination": 3,
+			"Knowledge: Warfare": 1,
+			"Ranged: Light": 3,
+			"Skulduggery": 3,
+			"Stealth": 4,
+			"Streetwise": 2
+		},
+		"talents": ["Master of Shadows"],
+		"weapons": [
+			"Light blaster pistol",
+			{
+				"name": "Throwing knife",
+				"skill": "Ranged: Light",
+				"damage": 3,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Limited Ammo 1"]
+			}
+		],
+		"gear": ["Blast vest (+1 Soak)", "6 Throwing knives"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Jagomir", "rebel alliance"]
+	},
+	{
+		"name": "Lt. Rik Torrence",
+		"type": "Rival",
+		"description": "Rik is a skilled pilot in his mid-thirties. An up-and-coming hotshot and lieutenant in the Alliance, he has dark brown hair, a clean-shaven face, and is physically fit. He is just shy of two metres in height.\n\nRik has a somewhat cavalier attitude to go along with his impressive service record. He loves to talk of past exploits and missions, especially over drinks. He’s somewhat of a celebrity among the Arda Rebels, being the one for whom the Torrence Run on Arda I was named. This popularity goes to his head, however, and he often comes off as condescending or arrogant. Now that the PCs have become the new “heroes of Arda I,” his jealous side has begun to show.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15
+		},
+		"skills": {
+			"Charm": 2,
+			"Leadership": 1,
+			"Piloting: Planetary": 3,
+			"Piloting: Space": 3,
+			"Ranged: Light": 1,
+			"Survival": 2
+		},
+		"talents": ["Full Throttle", "Skilled Jockey 2"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Blast vest (+1 Soak)"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Jagomir", "rebel alliance", "pilot"]
+	},
+	{
+		"name": "Urtuaa Haaot, Ithorian Diplomat",
+		"type": "Rival",
+		"description": "Urtuaa is a two-metre-tall Ithorian with pale brown skin. He dresses in earth-toned robes and usually wears a satchel over his shoulder containing various diplomatic communiques. The Ithorian can be a bit scattered and dishevelled at times, with numerous papers and documents spilling from his satchel and hands.\n\nThe Ithorian is a calm individual who doesn’t anger easily. Urtuaa has a deep hatred of the Empire and news of their atrocities and subjugation of worlds raises his ire. He is welcoming to new Alliance members and quick to help any who need his assistance.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 11
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 3,
+			"Discipline": 2,
+			"Negotiation": 3
+		},
+		"talents": ["Natural Negotiator"],
+		"weapons": ["Light blaster pistol"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Jagomir", "rebel alliance", "species:Ithorian"]
+	},
+	{
+		"name": "VX-19, Engineer Droid",
+		"type": "Rival",
+		"description": "VX-19 is a modified LOM-series protocol droid with a number of hidden upgrades. His dark gunmetal exterior has been painted with red accents on the shoulders, forearms, and shins.\n\nThe droid has a number of glitches and “quirks” (as Clik refers to them). The droid is very good at what he does and goes out of his way to describe in great detail just what steps he took to complete a task and why his method was far superior to any others tried. He also lapses into periods of inactivity from time to time.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Computers": 3,
+			"Knowledge: Xenology": 3,
+			"Mechanics": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Technical Aptitude 3"],
+		"abilities": ["Droid"],
+		"weapons": [
+			{
+				"name": "Built-in blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			}
+		],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Jagomir", "rebel alliance", "species:Droid", "engineer"]
+	},
+	{
+		"name": "Var Narek, Lt. Field Assistant",
+		"type": "Nemesis",
+		"description": "A human male in his late twenties, Var Narek is completely average. He stands just under two meters tall, with black hair and a slight build. Narek is the kind of person to whom people on the street do not give a second thought.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 16,
+			"strain": 20,
+			"defence": [2, 2]
+		},
+		"skills": {
+			"Computers": 3,
+			"Cool": 1,
+			"Coordination": 2,
+			"Deception": 3,
+			"Knowledge: Warfare": 2,
+			"Piloting: Planetary": 2,
+			"Ranged: Light": 2,
+			"Skulduggery": 1,
+			"Stealth": 3
+		},
+		"talents": ["Adversary 1", "Convincing Demeanor 2"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Flak vest (+2 Soak)", "Personal deflector shield (+2 Defence)", "Wrist link with microtracer"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Jagomir", "empire", "double-agent"]
+	},
+	{
+		"name": "Autoturret",
+		"type": "Rival",
+		"description": "Each of these security droids resembles training remotes with black spherical bodies, protruding blaster barrels, and red sensor lights that ring them. They are extremely mobile and difficult to hit, and they pack a considerable punch for their size. The devices have been used in many galactic conflicts, including the Clone Wars, as cover for snipers on both sides.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 16,
+			"defence": [1, 2]
+		},
+		"skills": {
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Droid", "Hoverer"],
+		"weapons": [
+			{
+				"name": "Built-in repeating blaster",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Auto-Fire"]
+			}
+		],
+		"gear": [],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "empire", "species:Droid"]
+	},
+	{
+		"name": "Spaceport Official",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 1,
+			"Coercion": 1,
+			"Cool": 1,
+			"Knowledge: Outer Rim": 3
+		},
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Encrypted comlink"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "civilian", "spaceport personnel"]
+	},
+	{
+		"name": "Haril Zense, Rebel Spy",
+		"type": "Rival",
+		"description": "Haril is a skilled Rebel spy in his mid-forties. A man of deep laughter and a booming voice, he has light brown hair, a close-cropped beard, and is physically fit. He is not particularly tall, which helps him blend in.\n\nA former pilot, Haril Zense gave up his ship years ago when his reflexes began to falter. Zense knew that, while he wasn’t as skilled in a cockpit any longer, he could continue to serve the Alliance in other ways. After conducting a number of special operations for different Rebel cells, Zense found his way to Ord Radama in one of the most trying missions of his life. Zense bristles at the lack of action being taken against the imperials and wishes to strike a blow for the Rebellion on Ord Radama. Nobody knows how much longer he can bear to sit and watch without carrying out an attack against the Empire.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15
+		},
+		"skills": {
+			"Athletics": 3,
+			"Ranged: Light": 1,
+			"Skulduggery": 3,
+			"Survival": 2
+		},
+		"talents": ["Master of Shadows"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Blast vest (+1 Soak)"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Ord Radama", "rebel alliance", "spy"]
+	},
+	{
+		"name": "Ellor Orgraal, Imperial Governor",
+		"type": "Nemesis",
+		"description": "A low-level bureaucrat during the end of the Republic, the kowtowing Orgraal rose through the ranks by doing whatever was asked of him. That all changed during the transition to the Empire. Orgraal took advantage of the resulting disarray and confusion to exchange the records and status of a deceased bureaucrat with his own in the hierarchy, setting him on a path to greater glory. With a new service record in place, Ellor Orgraal continued his sycophantic ways until he reached a governorship, one of his lifelong goals.\n\nWhile on Ord Radama, the Imperial governor has taken great steps to solidify his power by cracking down on anyone who speaks out against the Empire. A number of lesser commanders who protested Orgraal’s command of the world have also disappeared, leading to speculation that no-one is safe from Orgraal’s wrath.\n\nOrgraal is a cold, calculating Imperial bureaucrat in his mid-fifties. The perpetual scowl on his face accurately represents his disdain for those beneath him. Ellor Orgraal has no time for anyone who does not follow his orders to the letter, and he delivers harsh punishment to any who fail him.\n\nThe governor is a short man, 1.6 metres in height, with slicked back, black hair. He dresses in finely tailored civilian suits resembling a classic formal style.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 15,
+			"strain": 18
+		},
+		"skills": {
+			"Coercion": 3,
+			"Computers": 3,
+			"Knowledge: Warfare": 3,
+			"Leadership": 3,
+			"Ranged: Light": 1
+		},
+		"talents": ["Adversary 1"],
+		"weapons": ["Blaster pistol"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Ord Radama", "empire", "imperial bureaucracy"]
+	},
+	{
+		"name": "Ord Radama Security Officer",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 4
+		},
+		"skills": ["Coercion", "Discipline", "Melee", "Ranged: Light"],
+		"weapons": ["Blaster pistol", "Vibroknife"],
+		"gear": ["Security uniform (+1 Soak)"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Ord Radama", "civilian", "security"]
+	},
+	{
+		"name": "Malau Jocaos, Imperial intelligence Agent",
+		"type": "Nemesis",
+		"description": "A brash man with a disarming smile, Malau Jocaos’s friendly outward demeanour belies his true nature. Under the surface, Jocaos is a cold-blooded killer who will do anything in the service of the Empire. A rising star in the Imperial Intelligence Service, Malau successfully turned Var Narek into an Imperial asset and also maintains a number of spies among the populace of Ord Radama, watching for signs of Rebels.\n\nMalau Jocaos was born on Ord Radama, a youth during the Clone Wars when the world sided with the Separatists. His parents raised him on tales of the corrupt Republic and hypocritical Jedi who had forsaken their oaths toward the common people. Raised on a steady stream of propaganda and anti-Republic dogma, Malau embraced the strict tenets of Palpatine’s New Order with zeal. As soon as he was able, Jocaos left Ord Radama and entered the Imperial Academy.\n\nThe instructors at the Academy saw great potential in Malau, fast-tracking him for enlistment into the highly selective Intelligence Service. Jocaos quickly rose through the ranks of this agency, and soon his superiors dispatched him to carry out a number of secret projects for the IIS. Returning to his home-world of Ord Radama, Malau Jocaos worked under orders to bring agents onboard who could infiltrate the Rebellion and expose its secrets. Long suspecting that his former schoolmate Var Narek had joined the Rebellion, Jocaos masterminded the bombing of Var’s brother’s shop to set Var back on the true path.\n\nMalau has great disdain for Governor Orgraal, seeing him as nothing more than a low-level politician and not worthy of his post. Jocaos plans to govern Ord Radama himself one day.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 18,
+			"strain": 20,
+			"defence": [2, 2]
+		},
+		"skills": {
+			"Coercion": 3,
+			"Coordination": 2,
+			"Deception": 4,
+			"Piloting: Planetary": 2,
+			"Ranged: Light": 4,
+			"Skulduggery": 3,
+			"Stealth": 3
+		},
+		"talents": ["Adversary 2", "Intense Presence"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Personal deflector shield (+2 Defence)", "Padded armour (+2 Soak)"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Ord Radama", "empire", "imperial bureaucracy"]
+	},
+	{
+		"name": "Barrows’ Thug",
+		"type": "Minion",
+		"description": "The oppressors of those residing in the Barrows are mostly bored-but-cruel men in their late teens and twenties. Natives of Ord Radama, the thugs enjoy a comfortable life thanks to their service to the IIS and won’t give it up easily.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 3
+		},
+		"skills": ["Coordination", "Melee", "Perception"],
+		"weapons": [
+			{
+				"name": "Makeshift weapons",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Inferior"]
+			}
+		],
+		"gear": [],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Ord Radama", "underworld", "thug", "location:The Barrows"]
+	},
+	{
+		"name": "Devlikk",
+		"type": "Minion",
+		"description": "The long-necked Devlikk are an avian species native to Ord Radama. The diminutive species has green feathers around their shoulders, flat heads crowned with plumage, and small green tails. The Devlikk have short life spans, only living for nine to ten years.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 4
+		},
+		"skills": ["Coordination", "Perception", "Piloting: Planetary"],
+		"abilities": ["Magnetic Sense"],
+		"gear": ["Goggle", "Utility kit", "Various tools", "Work tabard (+1 Soak)"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Ord Radama", "civilian", "location:The Barrows", "species:Devlikk"]
+	},
+	{
+		"name": "Narralla",
+		"type": "Rival",
+		"description": "A female Devlikk nearing the end of her short lifespan, Narralla operates as the contact between the burgeoning native resistance and the Rebel Alliance on Ord Radama. Like most of her species, she has yellow scales and green feathers.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 11
+		},
+		"skills": {
+			"Coordination": 1,
+			"Perception": 2,
+			"Stealth": 2
+		},
+		"abilities": ["Magnetic Sense"],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Utility kit", "Servant apron"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Ord Radama", "rebel alliance", "location:The Barrows", "species:Devlikk"]
+	},
+	{
+		"name": "Commander Treaska",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 15
+		},
+		"skills": {
+			"Coercion": 1,
+			"Gunnery": 2,
+			"Piloting: Planetary": 3
+		},
+		"talents": ["Natural Driver"],
+		"abilities": [],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Comlink"],
+		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Ord Radama", "empire", "imperial military"]
+	}
+]

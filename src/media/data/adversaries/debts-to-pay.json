@@ -1,0 +1,355 @@
+[
+	{
+		"name": "Bargos’s or Rebel Gamorrean",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 14
+		},
+		"skills": {
+			"Brawl": 2,
+			"Melee": 2
+		},
+		"talents": ["Knockdown"],
+		"weapons": [
+			{
+				"name": "Crude Gamorrean vibro-ax",
+				"skill": "Melee",
+				"damage": 7,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 3"]
+			}
+		],
+		"tags": ["adventure:Debts to Pay", "underworld", "species:Gamorrean"]
+	},
+	{
+		"name": "EV-8D3, Merendata Ev Supervisor Droid",
+		"type": "Nemesis",
+		"description": "EV-8D3 is the visible figure head at the top of the New Droids’ Rights Movement. He is a sadistic droid, compelled by his MDF motivator to cause suffering and distress to others, be they droid or sentient. Under the guise of freedom for all droids, he figures he could be at the head of a bloodthirsty revolution. The resulting opportunities to cause widespread pain, both directly and indirectly, could be imnmense.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 1,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"strain": 16
+		},
+		"skills": {
+			"Coercion": 3,
+			"Knowledge: Education": 3,
+			"Knowledge: Xenology": 3,
+			"Perception": 1
+		},
+		"talents": ["Improved Scathing Tirade", "Nobody’s Fool 2"],
+		"abilities": ["Droid"],
+		"weapons": ["Blaster rifle"],
+		"gear": [],
+		"tags": ["adventure:Debts to Pay", "location:Garvos", "species:Droid"]
+	},
+	{
+		"name": "R2-B7, Astromech Droid",
+		"type": "Rival",
+		"description": "R2-B7 is an efficient astromech unit responsible for maintaining the mining equipment, life support systems, and the storm barrier generators. While EV-8D3 provides a vocal leadership and bloodthirsty example to the NDRM, R2-B7 is very much the brains behind the operation. It was he who originally developed the programming quirks leading to a desire for violent revolution. As the best-qualified engineer in the mines, he was therefore well placed to ensure that those droids in need of repairs benefited from having his own revolutionary philosophy uploaded to their psychological programming.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 11
+		},
+		"skills": {
+			"Astrogation": 3,
+			"Computers": 2,
+			"Cool": 2,
+			"Mechanics": 2
+		},
+		"abilities": ["Droid"],
+		"weapons": ["Arc welder"],
+		"gear": ["Built-in repair tools (counts as a tool kit)"],
+		"tags": ["adventure:Debts to Pay", "location:Garvos", "species:Droid", "astromech", "engineer"]
+	},
+	{
+		"name": "FX-769, Medical Assistant Droid",
+		"type": "Rival",
+		"description": "FX-769 was employed by Oridelve to diagnose and treat any aliments or injuries suffered by the miners. While he is poorly equipped for violence, he nevertheless believes in the violent struggle for the droids’ rights and does what he can to help his fellow revolutionaries.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10
+		},
+		"skills": {
+			"Discipline": 1,
+			"Medicine": 3,
+			"Melee": 3,
+			"Perception": 2
+		},
+		"abilities": ["Droid"],
+		"weapons": [
+			{
+				"name": "Molecular Scalpel",
+				"skill": "Melee",
+				"damage": 3,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			}
+		],
+		"gear": ["Built-in diagnostic and surgical tools (counts as medpac as well as stimpack that can be used once per session)"],
+		"tags": ["adventure:Debts to Pay", "location:Garvos", "species:Droid"]
+	},
+	{
+		"name": "Peekay 4 and Peekay 7",
+		"type": "Minion",
+		"description": "These two are short and stocky general purpose droids who handle manual work and mine labour. These two droids proved somewhat resistant to the indoctrination of R2-B7, EV-8D3 has taken the rather cynical step of fitting them with restraining bolts, effectively coercing them to follow his order.s",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 3
+		},
+		"skills": ["Mechanics", "Melee"],
+		"abilities": ["Droid"],
+		"weapons": [
+			{
+				"name": "Mining beam drill",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"gear": ["Built-in repair tools (counts as a tool kit as well as emergency repair kit that can be used once per session)"],
+		"tags": ["adventure:Debts to Pay", "location:Garvos", "species:Droid"]
+	},
+	{
+		"name": "Baktoid B1 Battle Droids",
+		"type": "Minion",
+		"description": "Oridelve managed to purchase these battle droids on the black market around 20 years ago. The battle droids are aware that their very existance is somewhat contrary to the spirit of current galactic law, which makes them even more motivated to fight in the revolution.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 4
+		},
+		"skills": ["Ranged: Heavy"],
+		"abilities": ["Droid"],
+		"weapons": ["Blaster rifle"],
+		"tags": ["adventure:Debts to Pay", "location:Garvos", "species:Droid", "battle droid"]
+	},
+	{
+		"name": "“Lookout”, Exploration Droid",
+		"type": "Rival",
+		"description": "This small droid is capable of piloting and the miners used him to scout mines or fly shuttles. This droid is not convinced of the need for revolution, and is more or less satisfied with his role as a servant to sentient organisms. EV-8D3 fitted him with a restraining bolt in order to override his reluctance to rebel. Now Lookout has taken the station’s only airspeeder, a Storm IV cloud car, and has headed off to disable the storm barrier generators under EV-8D3’s orders.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": {
+			"Gunnery": 2,
+			"Piloting: Planetary": 2,
+			"Perception": 3
+		},
+		"abilities": [
+			"Droid",
+			{
+				"name": "Scomp Link Piloting",
+				"description": "Lookout can pilot the Storm IV cloud car through his scomp link, and can handle piloting duties and operate the airspeeder’s weapons."
+			}
+		],
+		"tags": ["adventure:Debts to Pay", "location:Garvos", "species:Droid"]
+	},
+	{
+		"name": "Drendan Binary Load Lifters",
+		"type": "Rival",
+		"description": "There are a pair of bulky droids kept in the cargo hold and employed to move boxes of freight. They possess limited intelligence and are slow and cumbersome. These droids simply follow their basic programming and can do little beyond moving cargo and ore. EV-8D3 has the protocols required to issue orders to these behemoths, and has granted R2-B7 and FX-769 the privilege as well. During the climax of the adventure, the droids utilise the load lifters to fight; however, they only fight as long as at least one of those three droids is participating in combat. These commands are radio signals rather than verbal ones, so PCs may not even realise that the load lifters are not acting autonomously.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 20
+		},
+		"skills": {
+			"Athletics": 2
+		},
+		"abilities": ["Droid"],
+		"weapons": [
+			{
+				"name": "Lifting grapplers",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Disorient 2", "Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["adventure:Debts to Pay", "location:Garvos", "species:Droid"]
+	},
+	{
+		"name": "3D-4K, Administrative Droid",
+		"type": "Rival",
+		"description": "3D-4K was tasked with greeting visitors to the mines and ensuring that they were well catered for, providing the services expected of a protocol unit, as well as helping out with the management of the mine’s accounts and “sentient resources.” He never required much in the way of repair and therefore was never indoctrinated by R2-B7. He has been fitted with a restraining bolt and deactivated while the uprising takes place.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10
+		},
+		"skills": {
+			"Charm": 2,
+			"Computers": 2,
+			"Knowledge: Xenology": 1,
+			"Perception": 1
+		},
+		"abilities": ["Droid"],
+		"tags": ["adventure:Debts to Pay", "location:Garvos", "species:Droid"]
+	},
+	{
+		"name": "Oridelve Miner",
+		"type": "Miner",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": ["Athletics", "Perception"],
+		"weapons": [
+			{
+				"name": "Mining tools",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Cumbersome 4", "Inferior"]
+			}
+		],
+		"gear": ["Heavy work clothing (+1 Soak)"],
+		"tags": ["adventure:Debts to Pay", "location:Garvos"]
+	},
+	{
+		"name": "Marv Moray",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 1,
+			"Leadership": 1,
+			"Perception": 2,
+			"Ranged: Light": 1
+		},
+		"weapons": ["Holdout blaster"],
+		"gear": ["Heavy work clothing (+1 Soak)"],
+		"tags": ["adventure:Debts to Pay", "location:Garvos"]
+	},
+	{
+		"name": "Bonda",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Computers": 1,
+			"Melee": 2,
+			"Perception": 1,
+			"Ranged: Light": 1
+		},
+		"weapons": [
+			"Holdout blaster",
+			{
+				"name": "Knife",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged"
+			}
+		],
+		"gear": ["Heavy work clothing (+1 Soak)"],
+		"tags": ["adventure:Debts to Pay", "location:Garvos", "species:Rodian"]
+	}
+]
