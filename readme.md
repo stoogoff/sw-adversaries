@@ -114,6 +114,7 @@ Main tasks:
 	- Friends Like These
 	- Ghosts of Dathomir
 	- Hard Bargain
+	- Hidden Depths (FaD GM Kit)
 	- If It Sounds too Good to be True...
 	- In Too Deep
 	- Jewel of Yavin
@@ -168,7 +169,6 @@ Main tasks:
 - gm kits
 	- EotE
 	- AoR
-	- Fad
 
 ## TODO
 

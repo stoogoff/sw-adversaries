@@ -1,0 +1,143 @@
+[
+	{
+		"name": "Stormtrooper: Cavetrooper",
+		"type": "Minion",
+		"description": "Certain detachments of the Imperial stormtrooper corps are trained for rapid response actions in a variety of environments, allowing them to quickly move through a particular kind of terrain to reach and destroy a given target. The troops stationed on Phemis are from such a training programme, and have traded in their standard issue armaments for carbines and long-bladed vibroknives more appropriate to combat in the planet's cavern systems. They also wear lighter, flexible armour similar to that worn by scout troopers.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": ["Athletics", "Discipline", "Melee", "Ranged: Heavy", "Vigilance"],
+		"weapons": [
+			"Blaster carbine",
+			{
+				"name": "Oversized vibroknife",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 1"]
+			}
+		],
+		"gear": ["Scout trooper armour (+1 Soak)", "Low-light vision gear (remove :setback::setback: from checks due to darkness)"],
+		"tags": ["empire", "imperial military", "stormtrooper", "adventure:Hidden Depths"]
+	},
+	{
+		"name": "Pehmis Canyon Charger",
+		"type": "Rival",
+		"description": "These huge quadrupeds measure nearly four metres tall at the shoulder, and their blocky construction makes them more than six metres in length from the tips of their stub-like tails to the grinding beaks with which they tear apart their prey. Their most notable feature is the massive crest emerging from their skull—a thick ridge of bone that curves forward past the flattened face of the beast and is used as its primary weapon.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 20
+		},
+		"skills": {
+			"Perception": 1,
+			"Survival": 2,
+			"Vigilance": 1
+		},
+		"abilities": ["Silhouette 3", "Trample"],
+		"weapons": [
+			{
+				"name": "Ridged skull",
+				"skill": "Brawl",
+				"damage": 9,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Disorient 4", "Knockdown"]
+			}
+		],
+		"tags": ["adventure:Hidden Depths", "location:Phemis", "creature"]
+	},
+	{
+		"name": "Rubat Spinner",
+		"type": "Rival",
+		"description": "The ten-legged rubat spinner is far sturdier than its spindly limbs would indicate. Although its bulbous central mass is under half a metre in length, the dense minerals strengthening its carapace allow it to out-mass and overpower prey more than twice its size.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 8,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Stealth": 2,
+			"Vigilance": 2
+		},
+		"weapons": [
+			{
+				"name": "Limb spike",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			}
+		],
+		"tags": ["adventure:Hidden Depths", "location:Phemis", "creature"]
+	},
+	{
+		"name": "“Ironarm”, Stormtrooper Commander",
+		"type": "Nemesis",
+		"description": "Although the Stormtrooper Corps largely discourages individuality among its members, some unique warriors arise who develop a name and reputation that goes far beyond their operating number. The Stormtrooper who would earn the epithet “Ironarm” was among the first batch of enlisted men to join the Corps as clones began to fall out of favour.\n\nHe served with brutal, if undistinguished, efficiency until a mission pitted his squad against a rogue Jedi who had escaped the fall of the Order. He lost his squad and his arm in that fight, but took the Jedi down alone after her last reserves were spent. Legend among the Stormtrooper Corps has it that he earned his unofficial designation not because of his cybernetic replacement, but because he choked the life from his quarry with his remaining arm during the fight. Whatever the truth, Ironarm does not speak of it except through the pitiless gleam that emerges in his eyes at the mention of the Jedi.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 18,
+			"strain": 14
+		},
+		"skills": {
+			"Athletics": 3,
+			"Discipline": 3,
+			"Leadership": 2,
+			"Melee": 3,
+			"Ranged: Light": 2,
+			"Resilience": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Parry 4"],
+		"abilities": ["Tactical Direction"],
+		"weapons": [
+			"Frag grenade",
+			{
+				"name": "Reinforced vibrosword",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Cortosis", "Pierce 2", "Vicious 1"]
+			}
+		],
+		"gear": ["Stormtrooper armour and cybernetic prosthetics (+2 Soak)", "Cybernetic arm", "Utility belt", "Extra reloads"],
+		"tags": ["adventure:Hidden Depths", "location:Phemis", "stormtrooper", "empire", "imperial military"]
+	}
+]
