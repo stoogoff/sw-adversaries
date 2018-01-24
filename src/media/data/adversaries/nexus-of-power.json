@@ -1186,7 +1186,7 @@
 		"abilities": ["Droid"],
 		"weapons": ["Blaster carbine"],
 		"gear": ["Minelayer with 24 anti-personnel mines (drop one mine as a maneuver, deto­nates when another character moves to engage with the mine, dealing 12 damage to each character engaged with the mine)"],
-		"tags": ["species:Droid", "book:nop", "Arakyd Industries", "security"]
+		"tags": ["species:Droid", "book:nop", "security"]
 	},
 	{
 		"name": "Stone Guardian",
