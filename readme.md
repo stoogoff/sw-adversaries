@@ -67,7 +67,7 @@ Main tasks:
 
 ```
 
-# Completed Adversaries
+## Completed Adversaries
 
 - core books
 	- Age of Rebellion
@@ -99,6 +99,7 @@ Main tasks:
 	- Friends Like These
 	- Ghosts of Dathomir
 	- Mask of the Pirate Queen
+	- Onslaught at Arda I
 	- Rescue at Glare Peak
 	- Under a Black Sun
 - adventures
@@ -111,13 +112,16 @@ Main tasks:
 	- Conical Six Summit
 	- Exploring the Acablas Ruins
 	- Friends Like These
+	- Ghosts of Dathomir
 	- Hard Bargain
 	- If It Sounds too Good to be True...
 	- In Too Deep
+	- Jewel of Yavin
 	- Lessons from the Past
 	- Long Arm of the Law
 	- Lost Knowledge
 	- Mask of the Pirate Queen
+	- Onslaught at Arda I
 	- Operation Shell Game
 	- Perlemian Haul
 	- Phantoms in the Dark
@@ -139,6 +143,36 @@ Main tasks:
 	- Vault of Justice
 	- Welcome Aboard
 	- Witch’s Wrath
+
+### Missing Adversaries
+
+- source books
+	- *Dawn of Rebellion (not released)*
+- career books
+	- EotE
+		- Enter the Unknown
+	- AoR
+		- Lead by Example
+		- Fully Operational
+		- *Cyphers and Masks (not released)*
+	- FaD
+		- Disciples of Harmony
+		- *Unlimited Power (not released)*
+- beginner's games
+	- Edge of the Empire (Escape from Mos Shuuta)
+	- Force and Destiny (Mountaintop Rescue)
+	- The Force Awakens
+	- The Long Arm of the Hutt (EotE follow on adventure)
+	- Operation Shadowpoint (AoR follow on adventure)
+	- Lure of the Lost (FaD follow on adventure)
+	- A Call for Heroes (TFA Bonus adventure)
+	- Operation: Shell Game (AoR Beta game)
+	- Lost Knowledge (FaD Beta adventure)
+	- Crates of Krayts (EotE Beta adventure)
+- gm kits
+	- EotE (Debts to Pay)
+	- AoR (Dead in the water)
+	- Fad (Hidden Depths)
 
 ## TODO
 

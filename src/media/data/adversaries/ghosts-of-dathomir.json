@@ -493,7 +493,7 @@
 			"Knowledge: Warfare": 2,
 			"Knowledge: Xenology": 2
 		},
-		"talents": ["Adversary 3", "Force rating 3", "Parry 4", "Improved Scathing Tirade"],
+		"talents": ["Adversary 3", "Force Rating 3", "Parry 4", "Improved Scathing Tirade"],
 		"abilities": [
 			"Darkside Force User",
 			{
@@ -1232,12 +1232,12 @@
 			"Knowledge: Warfare": 2,
 			"Knowledge: Xenology": 2
 		},
-		"talents": ["Adversary 3", "Force rating 3", "Parry 4", "Improved Scathing Tirade"],
+		"talents": ["Adversary 3", "Force Rating 3", "Parry 4", "Improved Scathing Tirade"],
 		"abilities": [
 			"Darkside Force User",
 			{
 				"name": "Force power: Jerserra’s Influence",
-				"description": "Jerserra may spend :darkside: and target one character per :darkside: within Short range. That character must immediately make a :difficult: fear check as an out of turn incidental. If the target suffers Strain as a result of that fear check, she recovers an amount of Strain equal to the total suffered. She may also spend :darkside: to target one additional character, and :darkside: to extend the power’s range to Medium."
+				"description": "Jerserra may spend :darkside: and target one character per :darkside: within Short range. That character must immediately make a :hard: fear check as an out of turn incidental. If the target suffers Strain as a result of that fear check, she recovers an amount of Strain equal to the total suffered. She may also spend :darkside: to target one additional character, and :darkside: to extend the power’s range to Medium."
 			},
 			{
 				"name": "Force power: Move",

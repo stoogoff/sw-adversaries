@@ -440,7 +440,7 @@
 		},
 		"weapons": ["Blaster carbine"],
 		"gear": ["Trooper uniform and helmet (+1 Soak)"],
-		"tags": ["empire", "imperial military", "book:aor"]
+		"tags": ["empire", "imperial military", "book:aor", "book:oaa", "adventure:Onslaught at Arda I"]
 	},
 	{
 		"name": "Intelligence Agent",
@@ -619,7 +619,7 @@
 			}
 		],
 		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 Soak)", "2 Frag grenades"],
-		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad", "adventure:Rescue at Glare Peak", "adventure:Friends Like These", "adventure:Takeover at Whisper Base", "book:eotebg", "adventure:Escape from Mos Shuuta"]
+		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad", "adventure:Rescue at Glare Peak", "adventure:Friends Like These", "adventure:Takeover at Whisper Base", "adventure:Onslaught at Arda I", "book:oaa", "book:eotebg", "adventure:Escape from Mos Shuuta"]
 	},
 	{
 		"name": "Stormtrooper Sergeant",
@@ -651,7 +651,7 @@
 		"abilities": ["Tactical Direction"],
 		"weapons": ["Heavy blaster rifle", "Vibroknife", "Frag grenade"],
 		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 Soak)", "2 Frag grenades"],
-		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad"]
+		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad", "book:oaa", "adventure:Onslaught at Arda I"]
 	},
 	{
 		"name": "Stormtrooper: Dark Trooper",
@@ -712,7 +712,7 @@
 		"skills": ["Athletics", "Discipline", "Melee", "Ranged: Heavy", "Resilience", "Survival"],
 		"weapons": ["Blaster rifle", "Vibroknife"],
 		"gear": ["Utility belt", "Extra reloads", "High-temp stormtrooper armour (+2 Soak, remove :setback::setback: imposed due to arid or hot environmental conditions)", "Food and water packs"],
-		"tags": ["empire", "imperial military", "stormtrooper", "book:aor"]
+		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "adventure:Onslaught at Arda I", "book:oaa"]
 	},
 	{
 		"name": "Stormtrooper: Scout Trooper",
@@ -817,7 +817,7 @@
 		"skills": ["Gunnery", "Piloting: Space"],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Flight suit"],
-		"tags": ["empire", "imperial military", "pilot", "book:aor", "book:fad", "adventure:Operation Shell Game"]
+		"tags": ["empire", "imperial military", "pilot", "book:aor", "book:fad", "adventure:Operation Shell Game", "adventure:Onslaught at Arda I", "book:oaa"]
 	},
 	{
 		"name": "TIE Ace",
