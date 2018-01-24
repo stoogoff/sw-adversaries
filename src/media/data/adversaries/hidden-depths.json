@@ -2,7 +2,7 @@
 	{
 		"name": "Stormtrooper: Cavetrooper",
 		"type": "Minion",
-		"description": "Certain detachments of the Imperial stormtrooper corps are trained for rapid response actions in a variety of environments, allowing them to quickly move through a particular kind of terrain to reach and destroy a given target. The troops stationed on Phemis are from such a training programme, and have traded in their standard issue armaments for carbines and long-bladed vibroknives more appropriate to combat in the planet's cavern systems. They also wear lighter, flexible armour similar to that worn by scout troopers.",
+		"description": "Certain detachments of the Imperial stormtrooper corps are trained for rapid response actions in a variety of environments, allowing them to quickly move through a particular kind of terrain to reach and destroy a given target. The troops stationed on Phemis are from such a training programme, and have traded in their standard issue armaments for carbines and long-bladed vibroknives more appropriate to combat in the planet’s cavern systems. They also wear lighter, flexible armour similar to that worn by scout troopers.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,

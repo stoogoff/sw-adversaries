@@ -110,6 +110,7 @@ Main tasks:
 	- Chronicles of the Gatekeeper
 	- Claustrophobia
 	- Conical Six Summit
+	- Dead in the Water (AoR GM Kit)
 	- Exploring the Acablas Ruins
 	- Friends Like These
 	- Ghosts of Dathomir
@@ -168,7 +169,6 @@ Main tasks:
 	- Lure of the Lost (FaD follow on adventure)
 - gm kits
 	- EotE
-	- AoR
 
 ## TODO
 
