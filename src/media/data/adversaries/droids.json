@@ -1609,5 +1609,39 @@
 		],
 		"gear": ["Long-range holonet communicator", "Life form scanner", "Long-range sensor array"],
 		"tags": ["species:Droid", "empire", "book:fad", "adventure:Hidden Depths"]
+	},
+	{
+		"name": "T-Series Tactical Droid",
+		"type": "Rival",
+		"description": "Initially designated the “CDE-T,” Baktoid Combat Automata’s T-series tactical droid first entered service in the years leading up to the Clone Wars. Boxy and awkward looking, with a humanoid configuration, spindly limbs, and a strangely small, roughly hexagonal head, the T-series droids were designed to act as military advisers and aides-de-camp. With a powerful and analytical brain and a vast database of galactic military history, a T-series droid can quickly size up a situation and almost immediately provide a handful of solutions and tactics relevant to the current conditions. While these droids are extremely competent military advisers, the first few generations of the T-series gained a reputation for impatience, arrogance, and patronizing, didactic lecturing that aggravated their non-droid colleagues to no end. The majority of the T-series droids were eventually upgraded to super tactical droids, with more efficient systems and personality patches that reined in some of their worst traits. Very few T-series tactical droids are in service today, and those that are serve among the officer corps of the Alliance Military.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10
+		},
+		"skills": {
+			"Cool": 3,
+			"Discipline": 2,
+			"Knowledge: Warfre": 3,
+			"leadership": 3,
+			"Perception": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Field Commander"],
+		"abilities": [
+			"Droid",
+			{
+				"name": "CDE-T Tactical Computer",
+				"description": "T-series tactical droids add :boost::boost: when making Leadership and Knowledge: Warfare checks."
+			}
+		],
+		"tags": ["book:lbe", "species:Droid"]
 	}
 ]
