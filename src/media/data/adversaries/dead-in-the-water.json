@@ -179,7 +179,7 @@
 			}
 		],
 		"gear": ["Built-in diagnostic and surgical tools (count as a medpac as well as a stimpack that can be used once per session)"],
-		"tags": ["adventure:Dead in the Water", "location:Shadow Raptor", "species:Droid"]
+		"tags": ["adventure:Dead in the Water", "location:Shadow Raptor", "species:Droid", "medic"]
 	},
 	{
 		"name": "Saboteur Protocol Droid",
@@ -200,7 +200,7 @@
 		"skills": ["Charm", "Knowledge: Education", "Knowledge: Xenology", "Negotiation", "Perception", "Ranged: Light"],
 		"abilities": ["Droid"],
 		"weapons": ["Blaster pistol"],
-		"tags": ["adventure:Dead in the Water", "location:Shadow Raptor", "species:Droid"]
+		"tags": ["adventure:Dead in the Water", "location:Shadow Raptor", "species:Droid", "protocol droid"]
 	},
 	{
 		"name": "Saboteur Load Lifter",
@@ -266,18 +266,9 @@
 			"Piloting: Space": 3
 		},
 		"abilities": ["Droid"],
-		"weapons": [
-			{
-				"name": "Arc welder",
-				"skill": "Melee",
-				"damage": 3,
-				"critical": null,
-				"range": "Engaged",
-				"qualities": ["Stun Damage"]
-			}
-		],
+		"weapons": ["Arc welder"],
 		"gear": ["Built-in repair tools (counts as a tool kit)"],
-		"tags": ["adventure:Dead in the Water", "location:Shadow Raptor", "species:Droid"]
+		"tags": ["adventure:Dead in the Water", "location:Shadow Raptor", "species:Droid", "astromech"]
 	},
 	{
 		"name": "TJ-11, Saboteur Tactical Droid",

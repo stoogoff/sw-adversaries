@@ -235,7 +235,7 @@
 		"skills": ["Ranged: Heavy"],
 		"abilities": ["Droid"],
 		"weapons": ["Blaster rifle"],
-		"tags": ["species:Droid", "book:eote"]
+		"tags": ["species:Droid", "book:eote", "battle droid"]
 	},
 	{
 		"name": "Assassin Droid",
