@@ -111,6 +111,7 @@ Main tasks:
 	- Claustrophobia
 	- Conical Six Summit
 	- Dead in the Water (AoR GM Kit)
+	- Debts to Pay (EotE GM Kit)
 	- Exploring the Acablas Ruins
 	- Friends Like These
 	- Ghosts of Dathomir
@@ -167,8 +168,6 @@ Main tasks:
 	- The Long Arm of the Hutt (EotE follow on adventure)
 	- Operation Shadowpoint (AoR follow on adventure)
 	- Lure of the Lost (FaD follow on adventure)
-- gm kits
-	- EotE
 
 ## TODO
 
