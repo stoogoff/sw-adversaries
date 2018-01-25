@@ -94,7 +94,7 @@
 		"tags": ["adventure:Operation Shadowpoint", "location:Darrastead Village", "location:Onderon"]
 	},
 	{
-		"name": "Ruping",
+		"name": "Ruping (AoR Bonus adventure)",
 		"type": "Rival",
 		"characteristics": {
 			"Brawn": 5,
@@ -357,7 +357,7 @@
 		"tags": ["adventure:Operation Shadowpoint", "location:Darrastead Village", "location:Onderon", "creature"]
 	},
 	{
-		"name": "Moff DArdano's bodyguard",
+		"name": "Moff Dardano's bodyguard",
 		"type": "Rival",
 		"description": "",
 		"notes": "",
@@ -393,9 +393,49 @@
 			}
 		],
 		"weapons": ["Blaster rifle", "Frag grenade", "Vibroknife"],
-		"talents": ["Stalker 1"],
-		"abilities": ["Body guard"],
+		"abilities": ["Body Guard"],
 		"gear": ["Bodyguard armour (+2 soak)"],
-		"tags": ["adventure:Operation Shadowpoint", "location:Onderon", "empire", "imperial military"]
+		"tags": ["adventure:Operation Shadowpoint", "empire", "imperial military"]
+	},
+	{
+		"name": "Moff Dardano",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 16,
+			"strain": 18
+		},
+		"skills": {
+			"Coercion": 3,
+			"Cool": 3,
+			"Deception": 4,
+			"Discipline": 1,
+			"Leadership": 3,
+			"Negotiation": 1,
+			"Melee": 1,
+			"Gunnery": 2,
+			"Piloting": 2,
+			"Ranged: Light": 1,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [
+					{
+					"name": "Seize Weakness",
+					"description": "may perform a Seize Weakness maneuver to upgrade the Ability of the next attack he makes once against an enemy who has already acted this round."
+					}
+				],
+		"weapons": ["Disruptor pistol", "Vibroknife"],
+		"tags": ["adventure:Operation Shadowpoint", "location:Darrastead Village", "location:Onderon", "creature"]
 	}
 ]
