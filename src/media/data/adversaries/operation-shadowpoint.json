@@ -126,7 +126,7 @@
 		],
 		"talents": ["Adversary 1", "Enduring 1"],
 		"abilities": ["Flyer", "Silhouette 2"],
-		"tags": ["adventure:Operation Shadowpoint", "location:Darrastead Village", "location:Onderon", "creature"]
+		"tags": ["adventure:Operation Shadowpoint", "location:Onderon", "creature"]
 	},
 	{
 		"name": "Gaav Fennro, Rebellion Intelligence Officer",
@@ -357,7 +357,7 @@
 		"tags": ["adventure:Operation Shadowpoint", "location:Darrastead Village", "location:Onderon", "creature"]
 	},
 	{
-		"name": "Moff Dardano's bodyguard",
+		"name": "Moff Dardano’s bodyguard",
 		"type": "Rival",
 		"description": "",
 		"notes": "",
@@ -436,6 +436,6 @@
 					}
 				],
 		"weapons": ["Disruptor pistol", "Vibroknife"],
-		"tags": ["adventure:Operation Shadowpoint", "location:Darrastead Village", "location:Onderon", "creature"]
+		"tags": ["adventure:Operation Shadowpoint", "empire", "imperial military"]
 	}
 ]
