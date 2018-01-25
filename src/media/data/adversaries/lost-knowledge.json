@@ -82,7 +82,7 @@
 			}
 		],
 		"gear": ["Heavy clothing (+1 Soak)"],
-		"tags": ["adventure:Lost Knowledge", "location:Athiss", "hunter"]
+		"tags": ["adventure:Lost Knowledge", "location:Athiss"]
 	},
 	{
 		"name": "Expedition Hunter",
@@ -112,7 +112,7 @@
 			}
 		],
 		"gear": ["Heavy clothing (+1 Soak)"],
-		"tags": ["adventure:Lost Knowledge", "location:Athiss", "hunter"]
+		"tags": ["adventure:Lost Knowledge", "location:Athiss"]
 	},
 	{
 		"name": "Twisted Beast",

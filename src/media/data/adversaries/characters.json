@@ -675,7 +675,7 @@
 		"talents": ["Adversary 2", "Commanding Presence 3", "Confidence 2", "Improved Field Commander", "Natural Leader", "Improved Scathing Tirade"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Armoured imperial uniform (+1 Soak, +1 Defence)"],
-		"tags": ["book:sor", "location:Sullust", "sorosuub", "security", "empire", "imperial bureaucracy", "adventure:Claustrophobia", "commander"]
+		"tags": ["book:sor", "location:Sullust", "sorosuub", "security", "empire", "imperial bureaucracy", "adventure:Claustrophobia"]
 	},
 	{
 		"name": "Gaff Kilvaari",
@@ -738,7 +738,7 @@
 		"talents": ["Adversary 2", "Command 2", "Defensive Driving 2", "Form on Me", "Master Pilot", "Quick Strike 2", "Skilled Jockey 2"],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Flight suit", "Sensory augmentation package (add :advantage: to all Perception checks)"],
-		"tags": ["book:sor", "empire", "imperial military", "pilot", "adventure:Phantoms in the Dark", "commander"]
+		"tags": ["book:sor", "empire", "imperial military", "pilot", "adventure:Phantoms in the Dark"]
 	},
 	{
 		"name": "General Elora Silssusio",
@@ -1214,7 +1214,7 @@
 		"abilities": ["Imperial Valour"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Imperial uniform", "Military comlink"],
-		"tags": ["book:aor", "adventure:Perlemian Haul", "empire", "imperial military", "location:M226 Freighter", "commander"]
+		"tags": ["book:aor", "adventure:Perlemian Haul", "empire", "imperial military", "location:M226 Freighter"]
 	},
 	{
 		"name": "Lieutenant Hyzhan Troo",
@@ -1243,7 +1243,7 @@
 		},
 		"weapons": ["Blaster pistol"],
 		"gear": ["Uniform", "Military comlink", "datapad"],
-		"tags": ["book:aor", "adventure:Perlemian Haul", "empire", "imperial military", "location:M226 Freighter", "commander"]
+		"tags": ["book:aor", "adventure:Perlemian Haul", "empire", "imperial military", "location:M226 Freighter"]
 	},
 	{
 		"name": "Mehmet Alovar",

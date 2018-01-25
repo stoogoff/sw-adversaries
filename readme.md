@@ -110,10 +110,13 @@ Main tasks:
 	- Chronicles of the Gatekeeper
 	- Claustrophobia
 	- Conical Six Summit
+	- Dead in the Water (AoR GM Kit)
+	- Debts to Pay (EotE GM Kit)
 	- Exploring the Acablas Ruins
 	- Friends Like These
 	- Ghosts of Dathomir
 	- Hard Bargain
+	- Hidden Depths (FaD GM Kit)
 	- If It Sounds too Good to be True...
 	- In Too Deep
 	- Jewel of Yavin

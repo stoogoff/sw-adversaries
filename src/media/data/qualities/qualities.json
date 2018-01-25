@@ -47,7 +47,7 @@
 	{
 		"name": "Cumbersome",
 		"type": "Passive",
-		"description": "The character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating."
+		"description": "The character needs a Brawn characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Brawn by which the character is deficient, increase the difficulty of all checks while using the weapon by 1."
 	},
 	{
 		"name": "Defensive",

@@ -1920,7 +1920,7 @@
 			}
 		],
 		"gear": ["Heavy clothing (+1 Soak)"],
-		"tags": ["book:sof", "adventure:A Quick Stopover", "species:Bothan", "cybot galactica", "civilian", "location:Nubia", "location:The Sleeping Rancor"]
+		"tags": ["book:sof", "adventure:A Quick Stopover", "species:Bothan", "civilian", "location:Nubia", "location:The Sleeping Rancor"]
 	},
 	{
 		"name": "Brom",

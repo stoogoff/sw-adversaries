@@ -689,7 +689,7 @@
 	},
 	{
 		"name": "Trample",
-		"description": "If a ronto takes a maneuver to move closer to its target before attacking, it gains :boost: to its attack check and deals +2 damage."
+		"description": "If the creature takes a maneuver to move closer to its target before attacking, it gains :boost: to its attack check and deals +2 damage."
 	},
 	{
 		"name": "Territorial",
