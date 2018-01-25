@@ -73,6 +73,10 @@ Main tasks:
 	- Age of Rebellion
 	- Edge of the Empire
 	- Force and Destiny
+- gm kits
+	- EotE (Debts to Pay)
+	- AoR (Dead in the water)
+	- Fad (Hidden Depths)
 - source books
 	- Lords of Nal Hutta
 	- Strongholds of Resistance
@@ -92,7 +96,8 @@ Main tasks:
 	- Special Modifications
 	- Stay on Target
 - beginner's games
-	- Age of Rebellion
+	- Age of Rebellion (Takeover at Whisper Base)
+	- Edge of the Empire (Escape from Mos Shuuta)
 - adventure books
 	- Beyond the Rim
 	- Chronicles of the Gatekeeper
@@ -113,6 +118,7 @@ Main tasks:
 	- Conical Six Summit
 	- Dead in the Water (AoR GM Kit)
 	- Debts to Pay (EotE GM Kit)
+	- Escape from Mos Shuuta
 	- Exploring the Acablas Ruins
 	- Friends Like These
 	- Ghosts of Dathomir
@@ -123,10 +129,11 @@ Main tasks:
 	- Jewel of Yavin
 	- Lessons from the Past
 	- Long Arm of the Law
-	- Lost Knowledge
+	- Lost Knowledge (FaD Beta adventure)
 	- Mask of the Pirate Queen
 	- Onslaught at Arda I
-	- Operation Shell Game
+	- Operation Shadowpoint (AoR follow on adventure)
+	- Operation: Shell Game (AoR Beta game)
 	- Perlemian Haul
 	- Phantoms in the Dark
 	- Rescue at Glare Peak
@@ -137,6 +144,7 @@ Main tasks:
 	- The Corellian Shuffle
 	- The Dead Road
 	- The Geharr Incident
+	- The Long Arm of the Hutt (EotE follow on adventure)
 	- The Light Within
 	- The Menagerie
 	- The Trial of Skill
@@ -162,20 +170,11 @@ Main tasks:
 		- Disciples of Harmony
 		- *Unlimited Power (not released)*
 - beginner's games
-	- Edge of the Empire (Escape from Mos Shuuta)
 	- Force and Destiny (Mountaintop Rescue)
 	- The Force Awakens
-	- The Long Arm of the Hutt (EotE follow on adventure)
-	- Operation Shadowpoint (AoR follow on adventure)
 	- Lure of the Lost (FaD follow on adventure)
 	- A Call for Heroes (TFA Bonus adventure)
-	- Operation: Shell Game (AoR Beta game)
-	- Lost Knowledge (FaD Beta adventure)
 	- Crates of Krayts (EotE Beta adventure)
-- gm kits
-	- EotE (Debts to Pay)
-	- AoR (Dead in the water)
-	- Fad (Hidden Depths)
 
 ## TODO
 
