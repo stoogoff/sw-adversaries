@@ -53,7 +53,7 @@
 			"Vigilance": 1
 		},
 		"weapons": ["Holdout blaster"],
-		"gear": ["Heavy clothing 1", "stimpack 1", "emergency repair kit"],
+		"gear": ["Heavy clothing", "Stimpack 1", "Emergency repair kit"],
 		"tags": ["book:eotebg", "adventure:Escape from Mos Shuuta", "merchant", "location:Mos Shuuta"]
 	},
 	{
@@ -147,33 +147,12 @@
 				"range": "Engaged"
 				}
 			],
-		"gear": ["Heavy clothing", "Comlink", "stimpack", "emergency repair kit"],
-		"tags": ["book:eotebg", "adventure:Escape from Mos Shuuta", "location:Mos Shuuta", "pilot", "slaver"]
-	},
-	{
-		"name": "TIE Pilot (EotE beginner game)",
-		"type": "Minion",
-		"characteristics": {
-			"Brawn": 2,
-			"Agility": 3,
-			"Intellect": 2,
-			"Cunning": 2,
-			"Willpower": 2,
-			"Presence": 2
-		},
-		"derived": {
-			"soak": 3,
-			"wounds": 5
-		},
-		"skills": ["Gunnery", "Piloting: Space"],
-		"weapons": ["Blaster pistol"],
-		"gear": ["Flight suit"],
-		"tags": ["empire", "imperial military", "book:eotebg", "adventure:Escape from Mos Shuuta", "location:Mos Shuuta", "pilot"]
+		"gear": ["Heavy clothing", "Comlink", "Stimpack", "Emergency repair kit"],
+		"tags": ["book:eotebg", "adventure:Escape from Mos Shuuta", "location:Mos Shuuta", "pilot", "slaver", "species:Trandoshan"]
 	},
 	{
 		"name": "Thweek, Kubaz Spy",
 		"type": "Rival",
-		"description": "",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -196,13 +175,12 @@
 			"Vigilance": 2
 		},
 		"weapons": ["Heavy blaster pistol"],
-		"gear": ["Laminate Armour (+2 soak)", "Electrobinoculars"],
-		"tags": ["adventure:Long arm of the Hutt", "species:Kubaz", "underworld", "spy"]
+		"gear": ["Laminate armour (+2 Soak)", "Electrobinoculars"],
+		"tags": ["adventure:Long Arm of the Hutt", "species:Kubaz", "underworld", "spy"]
 	},
 	{
 		"name": "Bounty Hunters",
 		"type": "Rival",
-		"description": "",
 		"notes": "The Blaster Rifle is for the Gand member of the bounty hunter group.",
 		"characteristics": {
 			"Brawn": 2,
@@ -218,7 +196,7 @@
 		},
 		"skills": {
 			"Brawl": 1,
-			"Coerce": 1,
+			"Coercion": 1,
 			"Coordination": 1,
 			"Ranged: Light": 1,
 			"Ranged: Heavy": 1,
@@ -233,7 +211,7 @@
 				}
 			],
 		"gear": ["Flight suit"],
-		"tags": ["adventure:Long arm of the Hutt", "bounty hunter", "location:Ryloth"]
+		"tags": ["adventure:Long Arm of the Hutt", "bounty hunter", "location:Ryloth"]
 	},
 	{
 		"name": "Human and Aqualish thugs",
@@ -250,15 +228,13 @@
 			"soak": 3,
 			"wounds": 6
 		},
-		"skills": ["Brawl", "Coerce", "Melee", "Ranged: Light"],
+		"skills": ["Brawl", "Coercion", "Melee", "Ranged: Light"],
 		"weapons": ["Blaster pistol", "Brass knuckles"],
-		"tags": ["adventure:Long arm of the Hutt", "thug", "location:Ryloth", "underworld"]
+		"tags": ["adventure:Long Arm of the Hutt", "thug", "location:Ryloth", "underworld"]
 	},
 	{
 		"name": "Angu Drombb",
 		"type": "Rival",
-		"description": "",
-		"notes": "",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -273,7 +249,7 @@
 		},
 		"skills": {
 			"Brawl": 1,
-			"Coerce": 1,
+			"Coercion": 1,
 			"Melee": 1,
 			"Ranged: Light": 1
 		},
@@ -285,13 +261,11 @@
 				}
 			],
 		"gear": ["Flight suit"],
-		"tags": ["adventure:Long arm of the Hutt", "thug", "location:Ryloth", "underworld"]
+		"tags": ["adventure:Long Arm of the Hutt", "thug", "location:Ryloth", "underworld"]
 	},
 	{
 		"name": "Geonosian Soldier",
 		"type": "Rival",
-		"description": "",
-		"notes": "",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -318,13 +292,12 @@
 				"qualities": ["Stun setting"]
 			}
 		],
-		"gear": ["Carapace Armour (+2 soak)"],
-		"tags": ["adventure:Long arm of the Hutt", "location:Geonosis", "security", "species:Geonosian"]
+		"gear": ["Carapace armour (+2 Soak)"],
+		"tags": ["adventure:Long Arm of the Hutt", "location:Geonosis", "security", "species:Geonosian"]
 	},
 	{
 		"name": "Vrixx’tt",
 		"type": "Rival",
-		"description": "",
 		"notes": "Gand Findsman",
 		"characteristics": {
 			"Brawn": 3,
@@ -340,7 +313,7 @@
 		},
 		"skills": {
 			"Brawl": 1,
-			"Coerce": 1,
+			"Coercion": 1,
 			"Coordination": 1,
 			"Ranged: Heavy": 1,
 			"Ranged: Light": 1,
@@ -364,13 +337,11 @@
 				}
 			],
 		"gear": ["binders"],
-		"tags": ["adventure:Long arm of the Hutt", "location:Geonosis", "bounty hunter", "species:Gand"]
+		"tags": ["adventure:Long Arm of the Hutt", "location:Geonosis", "bounty hunter", "species:Gand"]
 	},
 	{
 		"name": "Gamorrean Guard",
 		"type": "Rival",
-		"description": "",
-		"notes": "Gand Findsman",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,
@@ -396,6 +367,6 @@
 				"qualities": ["Pierce 2"]
 			}
 		],
-		"tags": ["adventure:Long arm of the Hutt", "underworld", "thug", "location:Mos Shuuta", "species:Gamorrean", "security"]
+		"tags": ["adventure:Long Arm of the Hutt", "underworld", "thug", "location:Mos Shuuta", "species:Gamorrean", "security"]
 	}
 ]
