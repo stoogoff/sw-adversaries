@@ -591,5 +591,111 @@
 			],
 		"tags": ["creature","source:D20Radio.com NPC’s"],
 		"devOnly": true
+	},{
+		"name": "Sith Juggernaut",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "Credits go to Chris Hunt, D2Radio.com",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 30,
+			"strain": 22,
+			"defence": [2, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Coercion": 2,
+			"Cool": 2,
+			"Discipline": 2,
+			"Knowledge: Lore": 2,
+			"Knowledge: Warfare": 2,
+			"Lightsaber": 4,
+			"Melee": 3,
+			"Perception": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 4", "Reflect 4", "Parry 6", "Force Rating 2",
+			{
+			"name": "Defensive Training 1",
+			"description": "Lightsaber, Melee, and Brawl weapons wielded by a Sith Juggernaut gain 1 rank in the Defensive item quality [replaces any ranks in Defensive the weapon already has]."
+			}
+		],
+		"abilities": [
+			"Darkside Force User",
+			{
+				"name": "Additional Combat Turns",
+				"description": "Takes one additional turn at the end of the round."
+			},
+			{
+				"name": "Falling Avalanche",
+				"description": "Suffer 2 strain to add damage equal to Brawn to next Lightsaber combat check made this turn."
+			},
+			{
+				"name": "Force Power: Bind",
+				"description": "May spend Force points to immobilize a target within short range until the end of the user’s next turn. If Dark Side points used, the target also suffers 1 wound per Force point spent on the check [ignores soak]."
+			},
+			{
+				"name": "Overpowering Blows",
+				"description": "A character who uses the Parry talent against a Sith Juggernaut’s Lightsaber or Melee attacks costs an additional point of strain."
+			},
+			{
+				"name": "Shatter Defenses",
+				"description": "Lightsaber or Melee attacks made by Sith Juggernauts ignore up to 2 points of Melee Defense."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Lightsaber",
+				"skill": "Lightsaber",
+				"damage": 10,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder", "Vicious 1"]
+			}
+		],
+		"gear": ["Sith battle armor (soak 2, defense 1, cortosis)"],
+		"tags": ["sith", "force sensitive", "darkside","source:D20Radio.com NPC’s"],
+		"devOnly": true
+	},
+	{
+		"name": "Partisan Fighter",
+		"type": "Minion",
+		"description": "Whether seen as desperate freedom fighters or vile terrorists, these radical militants are prepared to take the fight to the Empire at any cost. The origin of the Partisans lies with that of the Onderon rebels trained by the Republic and Jedi during the Clone Wars. Few original members remain alive, let alone within the ranks. Regardless of origin, these fighters are fiercely loyal to their leader, Saw Gerrera, and zealously believe in the cause. They are prepared to die, and kill, to end Imperial tyranny. They favour ambushes and other guerrilla type tactics, with a favorite tactics being close range ambush by infiltration of the civilian population. That these attacks put local civilians at risk is a minor concern to the Partisans when compared to the titanic abuses of the Empire.",
+		"notes": "Credits go to Chris Hunt, D2Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": ["Cool", "Ranged: Heavy", "Stealth"],
+		"abilities": [
+			{
+				"name": "Hide Among the People",
+				"description": "When concealing themselves among local civilians, Partisan Fighters upgrade Stealth checks once."
+			},
+			{
+				"name": "For the Cause",
+				"description": "As an Action, one minion sacrifices himself to guarantee a successful attack. Roll an attack as if made by a single minion and resolve as normal, except the attack will be considered a hit even if there are no uncancelled :success: results. If no uncancelled :success: remains, the attack deals the base damage only but :advantage: and :triumph: may be spent normally."
+			}
+		],
+		"weapons": ["Blaster rifle", "Frag grenade"],
+		"gear": ["concealing civilian clothing (soak +1)", "2 Frag grenades"],
+		"tags": ["source:D20Radio.com NPC’s","location:Onderon","Partisan"]
 	}
 ]

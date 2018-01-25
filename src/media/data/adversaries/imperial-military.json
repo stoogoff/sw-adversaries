@@ -592,7 +592,7 @@
 	{
 		"name": "Imperial Stormtrooper",
 		"type": "Minion",
-		"description": "There is no greater symbol of the Emperor’s New Order than the elite stormtrooper legions that enforce his will without remorse, mercy, or compassion. The featureless helmets, the uniformity of their armour, and the sheer number of them advancing without care for the losses they sustain, all contribute t o their intractable image. The details of the Clone Wars have been long forgotten by the majority of the galaxy’s denizens. As a result, there are precious few who associate the terrifying modern stormtroopers with the once-heroic clone troopers who waged that conflict on behalf of the Galactic Republic.\n\nThe Imperial Stormtrooper Corps is an independent branch of the military, and while they answer to the officers of both the Army and the Navy, their own commanders have the discretion to ignore or overrule orders issued to them if they feel they are not in the best interests of the Galactic Empire. There are numerous specialties within the stormtrooper legions, the majority of which use equipment that meshes with their training to create a cadre of elite troops that can effectively serve in virtually any combat theater.",
+		"description": "There is no greater symbol of the Emperor’s New Order than the elite stormtrooper legions that enforce his will without remorse, mercy, or compassion. The featureless helmets, the uniformity of their armour, and the sheer number of them advancing without care for the losses they sustain, all contribute to their intractable image. The details of the Clone Wars have been long forgotten by the majority of the galaxy’s denizens. As a result, there are precious few who associate the terrifying modern stormtroopers with the once-heroic clone troopers who waged that conflict on behalf of the Galactic Republic.\n\nThe Imperial Stormtrooper Corps is an independent branch of the military, and while they answer to the officers of both the Army and the Navy, their own commanders have the discretion to ignore or overrule orders issued to them if they feel they are not in the best interests of the Galactic Empire. There are numerous specialties within the stormtrooper legions, the majority of which use equipment that meshes with their training to create a cadre of elite troops that can effectively serve in virtually any combat theater.",
 		"notes": "Individuals or groups of two may be armed with light repeating blasters with slings.",
 		"characteristics": {
 			"Brawn": 3,
@@ -619,7 +619,7 @@
 			}
 		],
 		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 Soak)", "2 Frag grenades"],
-		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad", "adventure:Rescue at Glare Peak", "adventure:Friends Like These", "adventure:Takeover at Whisper Base", "adventure:Onslaught at Arda I", "book:oaa"]
+		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad", "adventure:Rescue at Glare Peak", "adventure:Friends Like These", "adventure:Takeover at Whisper Base", "adventure:Onslaught at Arda I", "book:oaa", "book:eotebg", "adventure:Escape from Mos Shuuta"]
 	},
 	{
 		"name": "Stormtrooper Sergeant",
@@ -817,7 +817,7 @@
 		"skills": ["Gunnery", "Piloting: Space"],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Flight suit"],
-		"tags": ["empire", "imperial military", "pilot", "book:aor", "book:fad", "adventure:Operation Shell Game", "adventure:Onslaught at Arda I", "book:oaa"]
+		"tags": ["empire", "imperial military", "pilot", "book:aor", "book:fad", "adventure:Operation Shell Game", "adventure:Onslaught at Arda I", "adventure:Escape from Mos Shuuta", "book:oaa"]
 	},
 	{
 		"name": "TIE Ace",
