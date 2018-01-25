@@ -126,7 +126,7 @@
 		],
 		"talents": ["Adversary 1", "Enduring 1"],
 		"abilities": ["Flyer", "Silhouette 2"],
-		"tags": ["adventure:Operation Shadowpoint", "location:Darrastead Village", "location:Onderon"]
+		"tags": ["adventure:Operation Shadowpoint", "location:Darrastead Village", "location:Onderon", "creature"]
 	},
 	{
 		"name": "Gaav Fennro, Rebellion Intelligence Officer",
@@ -211,6 +211,191 @@
 		},
 		"weapons": ["Blaster rifle", "Vibroknife"],
 		"gear": ["padded armour (+2 soak)"],
+		"tags": ["adventure:Operation Shadowpoint", "location:Onderon", "empire", "imperial military"]
+	},
+	{
+		"name": "Cannok",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged"
+			}
+		],
+		"skills": ["Brawl", "Survival"],
+		"gear": ["Heavy clothing", "Imperial-issued ration chit"],
+		"tags": ["adventure:Operation Shadowpoint", "location:Darrastead Village", "location:Onderon", "creature"]
+	},
+	{
+		"name": "Boma",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coordination": 1,
+			"Survival": 3
+		},
+		"weapons": [
+			{
+				"name": "Brawl",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged"
+			}
+		],
+		"tags": ["adventure:Operation Shadowpoint", "location:Darrastead Village", "location:Onderon", "creature"]
+	},
+	{
+		"name": "Immature Zakkeg",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 20,
+			"strain": 15
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 1,
+			"Survival": 2
+		},
+		"talents": ["Adversary 1", "Enduring 1"],
+		"abilities": ["Silhouette 2",
+					{
+					"name": "Plated Hide 1",
+					"description": "Add one Setback die :setback: per rank of Plated Hide to all combat checks against this target."
+					}
+				],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"tags": ["adventure:Operation Shadowpoint", "location:Darrastead Village", "location:Onderon", "creature"]
+	},
+	{
+		"name": "Mature Zakkeg",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 11,
+			"wounds": 45,
+			"strain": 40
+		},
+		"skills": {
+			"Athletics": 4,
+			"Brawl": 4,
+			"Survival": 5
+		},
+		"talents": ["Adversary 2", "Enduring 5"],
+		"abilities": ["Silhouette 2",
+					{
+					"name": "Plated Hide 3",
+					"description": "Add one Setback die :setback: per rank of Plated Hide to all combat checks against this target."
+					}
+				],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"tags": ["adventure:Operation Shadowpoint", "location:Darrastead Village", "location:Onderon", "creature"]
+	},
+	{
+		"name": "Moff DArdano's bodyguard",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 12
+		},
+		"skills": {
+			"Discipline": 2,
+			"Melee": 1,
+			"Piloting: Space": 1,
+			"Ranged: Heavy": 2,
+			"Resilience": 2,
+			"Vigilance": 1
+		},
+		"gear": ["", "key to village supplies"],
+		"weapons": [
+			{
+				"name": "Hunting spear",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["pierce 1"]
+			}
+		],
+		"weapons": ["Blaster rifle", "Frag grenade", "Vibroknife"],
+		"talents": ["Stalker 1"],
+		"abilities": ["Body guard"],
+		"gear": ["Bodyguard armour (+2 soak)"],
 		"tags": ["adventure:Operation Shadowpoint", "location:Onderon", "empire", "imperial military"]
 	}
 ]
