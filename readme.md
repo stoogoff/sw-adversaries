@@ -86,6 +86,7 @@ Main tasks:
 	- *Fly Casual (no stats)*
 	- *Forged in Battle (no stats)*
 	- Keeping the Peace
+	- Lead by Example
 	- *No Disintegrations (no stats)*
 	- Savage Spirits
 	- Special Modifications
@@ -153,9 +154,8 @@ Main tasks:
 	- *Dawn of Rebellion (not released)*
 - career books
 	- EotE
-		- Enter the Unknown
+		- Enter the Unknown (5 droids)
 	- AoR
-		- Lead by Example
 		- Fully Operational
 		- *Cyphers and Masks (not released)*
 	- FaD

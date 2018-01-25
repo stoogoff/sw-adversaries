@@ -134,6 +134,7 @@ let bookMap = {
 	"book:fh": "Far Horizons",
 	"book:fc": "Fly Casual",          // no stats
 	"book:ktp": "Keeping the Peace",
+	"book:lbe": "Lead by Example",
 	"book:sm": "Special Modifications",
 	"book:sot": "Stay on Target",
 	"book:ss": "Savage Spirits",

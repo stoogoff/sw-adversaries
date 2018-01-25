@@ -689,7 +689,7 @@
 				"qualities": ["Auto-Fire", "Breach 1", "Concussive 1", "Cumbersome 4", "Inaccurate 1"]
 			}
 		],
-		"gear": ["Powered armour (+2 Soak, +1 defence)", "Jetpack", "Internal comlink"],
+		"gear": ["Powered armour (+2 Soak, +1 Defence)", "Jetpack", "Internal comlink"],
 		"tags": ["empire", "imperial military", "stormtrooper", "species:Droid", "book:aor"]
 	},
 	{
