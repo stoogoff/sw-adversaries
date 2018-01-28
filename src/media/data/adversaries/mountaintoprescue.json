@@ -1,9 +1,9 @@
 [
 	{
-		"name": "The Gatekeeper, Echo of a long-dead Jedi Master",
+		"name": "The Gatekeeper",
 		"type": "Rival",
 		"description": "",
-		"notes": "The Gatekeeper has no physical form, which means several of his characteristics have no value.",
+		"notes": "Echo of a long-dead Jedi Master. The Gatekeeper has no physical form, which means several of his characteristics have no value.",
 		"characteristics": {
 			"Brawn": 0,
 			"Agility": 0,
@@ -104,7 +104,7 @@
 	},
 	{
 		"name": "Malefax",
-		"type": "Rival",
+		"type": "Nemesis",
 		"description": "",
 		"notes": "",
 		"characteristics": {
@@ -157,5 +157,399 @@
 			}
 		],
 		"tags": ["adventure:Mountaintop Rescue", "location:Spintir", "force sensitive", "species:Devaronian"]
+	},
+	{
+		"name": "Frostwall Villager",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": ["Ranged: Heavy", "Survival", "Vigilance"],
+		"weapons": [
+			{
+				"name": "Frostwall slugthrower rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 7,
+				"critical": 4,
+				"range": "Medium"
+			},
+			{
+				"name": "Fists",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 1", "Knockdown"]
+			}
+
+		],
+		"tags": ["adventure:Lure of the Lost", "location:Spintir"]
+	},
+	{
+		"name": "Corrupted Icewolf",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": ["Athletics", "Brawl", "Vigilance"],
+		"weapons": [
+			{
+				"name": "Teeth and Claws",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			}
+		],
+		"tags": ["adventure:Lure of the Lost", "location:Spintir", "creature"]
+	},
+	{
+		"name": "Corrupted Den Mother",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 18,
+			"strain": 14
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Stealth": 1,
+			"Vigilance": 1
+		},
+		"weapons": [
+			{
+				"name": "Teeth and Claws",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			}
+		],
+		"abilities": [
+			{
+				"name": "Pack leader",
+				"description": "When the corrupted den mother hits a target with an attack, the next corrupted icewolf minion group to attack the same character gains a Boost die :boost: on that attack."
+			}
+		],
+		"tags": ["adventure:Lure of the Lost", "location:Spintir", "creature"]
+	},
+	{
+		"name": "Underworld Operator",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10
+		},
+		"skills": {
+			"Coercion": 2,
+			"Computers": 1,
+			"Deception": 2,
+			"Negotiation": 1,
+			"Perception": 1,
+			"Ranged: Light": 1,
+			"Skulduggery": 2,
+			"Stealth": 2,
+			"Streetwise": 2
+		},
+		"weapons": ["Holdout blaster"],
+		"gear": ["Heavy Clothing (+1 soak)"],
+		"tags": ["adventure:Lure of the Lost", "location:Spintir", "underworld", "location:Reles"]
+	},
+	{
+		"name": "Heavy Gan",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coercion": 2,
+			"Deception": 2,
+			"Negotiation": 1,
+			"Perception": 1,
+			"Ranged: Light": 2,
+			"Streetwise": 2
+		},
+		"weapons": ["Heavy blaster pistol", "Brass knuckles"],
+		"gear": ["Heavy Clothing (+1 soak)"],
+		"tags": ["adventure:Lure of the Lost", "location:Spintir", "underworld", "location:Reles"]
+	},
+	{
+		"name": "Imperial Patrol Trooper",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": ["Ranged: Heavy", "Vigilance"],
+		"weapons": ["Blaster carbine", "Stun baton"],
+		"tags": ["adventure:Lure of the Lost", "location:Spintir", "empire", "imperial military"]
+	},
+	{
+		"name": "Pinder Ukka",
+		"type": "Rival",
+		"description": "",
+		"notes": "Rebel Agent.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 2,
+			"Discipline": 1,
+			"Ranged: Light": 2,
+			"Stealth": 1,
+			"Streetwise": 2,
+			"Vigilance": 1
+		},
+		"weapons": ["Holdout blaster"],
+		"gear": ["Concealed Armoured Clothing (+1 soak)"],
+		"tags": ["adventure:Lure of the Lost", "location:Spintir", "rebel alliance", "location:Reles"]
+	},
+	{
+		"name": "Heder Brant",
+		"type": "Rival",
+		"description": "",
+		"notes": "Ambitious Imperial. Does not normally carry a weapon",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 1,
+			"Coercion": 2,
+			"Deception": 3,
+			"Streetwise": 1,
+			"Vigilance": 1
+		},
+		"gear": ["Imperial Uniform", "Imperial code cylinder with security authorizations"],
+		"tags": ["adventure:Lure of the Lost", "location:Spintir", "empire", "imperial security bureau", "location:Reles"]
+	},
+	{
+		"name": "Palace Guard",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 13
+		},
+		"skills": {
+			"Athletics": 1,
+			"Melee": 2,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"weapons": ["Blaster pistol", "Vibroknife"],
+		"gear": ["Blast Vest (+2 soak)"],
+		"tags": ["adventure:Lure of the Lost", "location:Spintir", "security", "location:Reles"]
+	},
+	{
+		"name": "Kaina Forrel",
+		"type": "Rival",
+		"description": "",
+		"notes": "Chief of Security.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Athletics": 2,
+			"Coercion": 2,
+			"Discipline": 1,
+			"Melee": 2,
+			"Ranged: Light": 2,
+			"Vigilance": 3
+		},
+		"weapons": ["Heavy blaster pistol", "Brass knuckles"],
+		"abilities": ["Fire Control"],
+		"gear": ["Blast Vest (+2 soak)"],
+		"tags": ["adventure:Lure of the Lost", "location:Spintir", "security", "location:Reles"]
+	},
+	{
+		"name": "Crazed Prisoner",
+		"type": "Rival",
+		"description": "The Dawn Temple never treated more than a handful of patients at a time, but it was outfitted with the capacity to house many more, should the need arise. The arrangements ranged from comfortable suites of rooms to stasis cells that restrained those who might do harm to themselves or others until they could be attended to. These stasis cells were filled to the last with Rav Naaran’s thralls before the temple was abandoned. Many maddened souls remained there, frozen in timeless captivity, until the sabotaged systems released them. The worst off are capable of little more than obeying simple orders or inflicting violent harm, while a handful retain enough of their mind to assist their master in directing the rest.",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Coercion": 1,
+			"Discipline": 1,
+			"Melee": 1,
+			"Ranged: Light": 1,
+			"Vigilance": 1
+		},
+		"weapons": [
+			{
+				"name": "Scavenged weapon",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged"
+			}
+		],
+		"gear": ["Heavy Clothing (+1 soak)"],
+		"tags": ["adventure:Lure of the Lost", "location:Spintir"]
+	},
+	{
+		"name": "Rav Naaran",
+		"type": "Nemesis",
+		"description": "Rav Naaran is a human male in his middle years. He is tall and trim, clean shaven, every inch the soldier in his black armor. Even before he engaged in true battles in the outbreak of the Clone Wars, Naaran was a master of the lightsaber and a relentless foe to pirates, criminals, and anyone else who preyed on the citizens of the Republic. His skills in battle were honed by constant fighting, and his stubborn streak was tempered by the adoption of tactical discipline. The Jedi took to his wartime position like few others in the order, and his captivity has done little to dull his expertise. In fact, his time in stasis has kept him young and vigorous beyond his true age.\n\nNaaran has remained inside the temple, concealing himself from the gatekeepers using his Force powers. He hopes to scout out his surroundings with his thralls before making a move. His power over the dark side allows him to dominate beings who have been affected by its touch, from his old victims to the corrupted icewolves of the valley. In a grim echo of his days as a Republic general, he directs their efforts from the depths of the Dawn Temple, treating the shattered stasis chambers as a command center where he can view the big picture from within the minds of his broken servants. The gatekeepers may assume he leads from the front, but in truth, he is content to bide his time until he is sure of an advantage or need for action. The gatekeepers also err in assuming that his goal is escape: Rav Naaran intends to flee, yes, but first he intends to steal all three holocrons. To do so, he must lure the temple’s champions—the PCs—out into the valley to gain himself time to overcome the temple defenses",
+		"notes": "Fallen Jedi",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15,
+			"strain": 15
+		},
+		"skills": {
+			"Athletics": 2,
+			"Coercion": 3,
+			"Deception": 1,
+			"Discipline": 2,
+			"Lightsaber": 4,
+			"Perception": 1,
+			"Stealth": 2,
+			"Vigilance": 2
+		},
+		"weapons": [
+				{
+					"name": "Rav's Lightsaber",
+					"skill": "Lightsaber",
+					"damage": 7,
+					"critical": 2,
+					"range": "Engaged",
+					"qualities": ["Breach 1"]
+				}
+			],
+		"gear": ["Armoured Robes (+1 soak)", "2 Stimpacks"],
+		"talents": ["Parry 3", "Reflect 1", "Force Rating 3"],
+		"abilities": [
+			"Darkside Force User",
+			{
+				"name": "Rav Naaran’s Wrack",
+				"description": "Naaran may spend Force points :darkside: to attack the minds of targets within short range. For each :darkside: he spends, the target suffers 2 strain. He may spend one :darkside: to increase the number of affected targets by two (each target suffers the full amount of strain, but :darkside: spent to increase number of targets affected can’t be spent to inflict strain)."
+			},
+			{
+				"name": "Force power: Enhance",
+				"description": "Rav Naaran may spend one Force point :darkside: to jump to anywhere within short range as a maneuver. He may spend one additional Force point :darkside: to jump to anywhere within medium range instead."
+			},
+			{
+				"name": "Force power: Move",
+				"description": "Rav Naaran may spend one :darkside: to move a small object (up to the size of a backpack) from within short range to another location within short range. He may increase the range of this power to within medium range by spending one additional :darkside:. He may also spend one additional :darkside: to move a larger object, up to the size of a person. This power can be used to make attacks by throwing lifted objects at an enemy, if Rav Naaran generates enough :darkside: to lift the object and reach the target. The attack roll is based off Rav Naaran’s Discipline (:proficiency::proficiency::ability::ability:). If successful, it does 5 damage + 1 damage for each uncanceled :success: result if the object is small, or 10 damage + 1 damage for each uncanceled :success: result if the object is large. The target’s soak reduces this damage as usual."
+			}
+		],
+		
+		"tags": ["adventure:Mountaintop Rescue", "location:Spintir", "force sensitive", "jedi"]
 	}
 ]
