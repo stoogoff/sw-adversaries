@@ -156,6 +156,6 @@
 				"description": ":lightside:: Move up to 2 objects with Silhouette 1 at Medium range; may make ranged attacks with this power."
 			}
 		],
-		"tags": ["adventure:Mountaintop Rescue", "location:Spintir", "force sensitive"]
+		"tags": ["adventure:Mountaintop Rescue", "location:Spintir", "force sensitive", "species:Devaronian"]
 	}
 ]
