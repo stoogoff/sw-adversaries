@@ -1,0 +1,161 @@
+[
+	{
+		"name": "The Gatekeeper, Echo of a long-dead Jedi Master",
+		"type": "Rival",
+		"description": "",
+		"notes": "The Gatekeeper has no physical form, which means several of his characteristics have no value.",
+		"characteristics": {
+			"Brawn": 0,
+			"Agility": 0,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 8
+		},
+		"skills": {
+			"Cool": 1,
+			"Discipline": 1,
+			"Knowledge: Lore": 2
+		},
+		"tags": ["adventure:Mountaintop Rescue", "location:Spintir", "force sensitive"]
+	},
+	{
+		"name": "Hunters",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 6
+		},
+		"skills": {
+			"Ranged: Heavy": 1
+		},
+		"weapons": ["Slugthrower rifle"],
+		"gear": ["Heavy fur clothes (+1 soak)"],
+		"tags": ["adventure:Mountaintop Rescue", "location:Spintir"]
+	},
+	{
+		"name": "Advozse Mercenaries",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 8
+		},
+		"skills": {
+			"Cool": 0,
+			"Discipline": 0,
+			"Ranged: Light": 1,
+			"Vigilance": 1
+		},
+		"weapons": ["Blaster pistol", "Vibroknife"],
+		"gear": ["Blastvest (+2 soak)", "comlink"],
+		"tags": ["adventure:Mountaintop Rescue", "location:Spintir"]
+	},
+	{
+		"name": "Spintiri Icewolves",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": ["Athletics", "Brawl", "Vigilance"],
+		"weapons": [
+			{
+				"name": "Teeth and Claws",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["pierce 1"]
+			}
+		],
+		"tags": ["adventure:Mountaintop Rescue", "location:Spintir"]
+	},
+	{
+		"name": "Malefax",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"strain": 14
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coercion": 3,
+			"Cool": 0,
+			"Coordination": 1,
+			"Deception": 2,
+			"Discipline": 2,
+			"Melee": 2,
+			"Perception": 1,
+			"Ranged: Light": 1,
+			"Skulduggery": 2,
+			"Stealth": 3,
+			"Vigilance": 2
+		},
+		"weapons": ["Blaster pistol",
+				{
+					"name": "Ancient Sith sword",
+					"skill": "Melee",
+					"damage": 5,
+					"critical": 2,
+					"range": "Engaged",
+					"qualities": ["pierce 1"]
+				}
+			],
+		"gear": ["Dark Robes (+1 soak)", "comlink", "2 Stimpacks"],
+		"talents": ["Force Rating 2"],
+		"abilities": ["Darkside Force User",
+			{
+				"name": "Force power: Sense",
+				"description": ":lightside:: Sense all living things within Medium range. :lightside:: Sense the emotional state of one target within Medium range. Ongoing effect, commit :force: upto Force rating to upgrade difficulty of at­tacks targeting the character twice."
+			},
+			{
+				"name": "Force power: Move",
+				"description": ":lightside:: Move up to 2 objects with Silhouette 1 at Medium range; may make ranged attacks with this power."
+			}
+		],
+		"tags": ["adventure:Mountaintop Rescue", "location:Spintir", "force sensitive"]
+	}
+]
