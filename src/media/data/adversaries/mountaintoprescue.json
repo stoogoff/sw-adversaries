@@ -2,7 +2,6 @@
 	{
 		"name": "The Gatekeeper",
 		"type": "Rival",
-		"description": "",
 		"notes": "Echo of a long-dead Jedi Master. The Gatekeeper has no physical form, which means several of his characteristics have no value.",
 		"characteristics": {
 			"Brawn": 0,
@@ -26,8 +25,6 @@
 	{
 		"name": "Hunters",
 		"type": "Rival",
-		"description": "",
-		"notes": "",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -50,8 +47,6 @@
 	{
 		"name": "Advozse Mercenaries",
 		"type": "Rival",
-		"description": "",
-		"notes": "",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -105,8 +100,6 @@
 	{
 		"name": "Malefax",
 		"type": "Nemesis",
-		"description": "",
-		"notes": "",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -225,8 +218,6 @@
 	{
 		"name": "Corrupted Den Mother",
 		"type": "Nemesis",
-		"description": "",
-		"notes": "",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,
@@ -267,8 +258,6 @@
 	{
 		"name": "Underworld Operator",
 		"type": "Rival",
-		"description": "",
-		"notes": "",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -299,8 +288,6 @@
 	{
 		"name": "Heavy Gan",
 		"type": "Rival",
-		"description": "",
-		"notes": "",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 2,
@@ -348,7 +335,6 @@
 	{
 		"name": "Pinder Ukka",
 		"type": "Rival",
-		"description": "",
 		"notes": "Rebel Agent.",
 		"characteristics": {
 			"Brawn": 2,
@@ -377,7 +363,6 @@
 	{
 		"name": "Heder Brant",
 		"type": "Rival",
-		"description": "",
 		"notes": "Ambitious Imperial. Does not normally carry a weapon",
 		"characteristics": {
 			"Brawn": 2,
@@ -404,8 +389,6 @@
 	{
 		"name": "Palace Guard",
 		"type": "Rival",
-		"description": "",
-		"notes": "",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -431,7 +414,6 @@
 	{
 		"name": "Kaina Forrel",
 		"type": "Rival",
-		"description": "",
 		"notes": "Chief of Security.",
 		"characteristics": {
 			"Brawn": 2,
