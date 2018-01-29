@@ -697,5 +697,6 @@
 		"weapons": ["Blaster rifle", "Frag grenade"],
 		"gear": ["concealing civilian clothing (soak +1)", "2 Frag grenades"],
 		"tags": ["source:D20Radio.com NPC’s","location:Onderon","Partisan"]
+		"devOnly": true
 	}
 ]
