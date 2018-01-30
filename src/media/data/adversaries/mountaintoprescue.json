@@ -41,7 +41,7 @@
 			"Ranged: Heavy": 1
 		},
 		"weapons": ["Slugthrower rifle"],
-		"gear": ["Heavy fur clothes (+1 soak)"],
+		"gear": ["Heavy fur clothes (+1 Soak)"],
 		"tags": ["adventure:Mountaintop Rescue", "location:Spintir"]
 	},
 	{
@@ -66,8 +66,8 @@
 			"Vigilance": 1
 		},
 		"weapons": ["Blaster pistol", "Vibroknife"],
-		"gear": ["Blastvest (+2 soak)", "comlink"],
-		"tags": ["adventure:Mountaintop Rescue", "location:Spintir"]
+		"gear": ["Blastvest (+2 Soak)", "Comlink"],
+		"tags": ["adventure:Mountaintop Rescue", "location:Spintir", "mercenary"]
 	},
 	{
 		"name": "Spintiri Icewolves",
@@ -92,10 +92,10 @@
 				"damage": 5,
 				"critical": 3,
 				"range": "Engaged",
-				"qualities": ["pierce 1"]
+				"qualities": ["Pierce 1"]
 			}
 		],
-		"tags": ["adventure:Mountaintop Rescue", "location:Spintir"]
+		"tags": ["adventure:Mountaintop Rescue", "location:Spintir", "creature"]
 	},
 	{
 		"name": "Malefax",
@@ -116,7 +116,6 @@
 		"skills": {
 			"Brawl": 1,
 			"Coercion": 3,
-			"Cool": 0,
 			"Coordination": 1,
 			"Deception": 2,
 			"Discipline": 2,
@@ -134,10 +133,10 @@
 					"damage": 5,
 					"critical": 2,
 					"range": "Engaged",
-					"qualities": ["pierce 1"]
+					"qualities": ["Pierce 1"]
 				}
 			],
-		"gear": ["Dark Robes (+1 soak)", "comlink", "2 Stimpacks"],
+		"gear": ["Dark Robes (+1 Soak)", "Comlink", "2 Stimpacks"],
 		"talents": ["Force Rating 2"],
 		"abilities": ["Darkside Force User",
 			{
@@ -185,7 +184,7 @@
 			}
 
 		],
-		"tags": ["adventure:Lure of the Lost", "location:Spintir"]
+		"tags": ["adventure:Lure of the Lost", "location:Spintir", "civilian"]
 	},
 	{
 		"name": "Corrupted Icewolf",
@@ -250,7 +249,7 @@
 		"abilities": [
 			{
 				"name": "Pack leader",
-				"description": "When the corrupted den mother hits a target with an attack, the next corrupted icewolf minion group to attack the same character gains a Boost die :boost: on that attack."
+				"description": "When the corrupted den mother hits a target with an attack, the next corrupted icewolf minion group to attack the same character gains :boost: on that attack."
 			}
 		],
 		"tags": ["adventure:Lure of the Lost", "location:Spintir", "creature"]
@@ -282,7 +281,7 @@
 			"Streetwise": 2
 		},
 		"weapons": ["Holdout blaster"],
-		"gear": ["Heavy Clothing (+1 soak)"],
+		"gear": ["Heavy clothing (+1 Soak)"],
 		"tags": ["adventure:Lure of the Lost", "location:Spintir", "underworld", "location:Reles"]
 	},
 	{
@@ -310,7 +309,7 @@
 			"Streetwise": 2
 		},
 		"weapons": ["Heavy blaster pistol", "Brass knuckles"],
-		"gear": ["Heavy Clothing (+1 soak)"],
+		"gear": ["Heavy clothing (+1 Soak)"],
 		"tags": ["adventure:Lure of the Lost", "location:Spintir", "underworld", "location:Reles"]
 	},
 	{
@@ -357,13 +356,13 @@
 			"Vigilance": 1
 		},
 		"weapons": ["Holdout blaster"],
-		"gear": ["Concealed Armoured Clothing (+1 soak)"],
+		"gear": ["Concealed armoured clothing (+1 Soak)"],
 		"tags": ["adventure:Lure of the Lost", "location:Spintir", "rebel alliance", "location:Reles"]
 	},
 	{
 		"name": "Heder Brant",
 		"type": "Rival",
-		"notes": "Ambitious Imperial. Does not normally carry a weapon",
+		"notes": "Ambitious Imperial. Does not normally carry a weapon.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -383,7 +382,7 @@
 			"Streetwise": 1,
 			"Vigilance": 1
 		},
-		"gear": ["Imperial Uniform", "Imperial code cylinder with security authorizations"],
+		"gear": ["Imperial uniform", "Imperial code cylinder with security authorisations"],
 		"tags": ["adventure:Lure of the Lost", "location:Spintir", "empire", "imperial security bureau", "location:Reles"]
 	},
 	{
@@ -408,7 +407,7 @@
 			"Vigilance": 2
 		},
 		"weapons": ["Blaster pistol", "Vibroknife"],
-		"gear": ["Blast Vest (+2 soak)"],
+		"gear": ["Blast vest (+2 Soak)"],
 		"tags": ["adventure:Lure of the Lost", "location:Spintir", "security", "location:Reles"]
 	},
 	{
@@ -437,7 +436,7 @@
 		},
 		"weapons": ["Heavy blaster pistol", "Brass knuckles"],
 		"abilities": ["Fire Control"],
-		"gear": ["Blast Vest (+2 soak)"],
+		"gear": ["Blast vest (+2 Soak)"],
 		"tags": ["adventure:Lure of the Lost", "location:Spintir", "security", "location:Reles"]
 	},
 	{
@@ -473,7 +472,7 @@
 				"range": "Engaged"
 			}
 		],
-		"gear": ["Heavy Clothing (+1 soak)"],
+		"gear": ["Heavy clothing (+1 Soak)"],
 		"tags": ["adventure:Lure of the Lost", "location:Spintir"]
 	},
 	{
@@ -514,21 +513,21 @@
 					"qualities": ["Breach 1"]
 				}
 			],
-		"gear": ["Armoured Robes (+1 soak)", "2 Stimpacks"],
+		"gear": ["Armoured robes (+1 Soak)", "2 Stimpacks"],
 		"talents": ["Parry 3", "Reflect 1", "Force Rating 3"],
 		"abilities": [
 			"Darkside Force User",
 			{
 				"name": "Rav Naaran’s Wrack",
-				"description": "Naaran may spend Force points :darkside: to attack the minds of targets within short range. For each :darkside: he spends, the target suffers 2 strain. He may spend one :darkside: to increase the number of affected targets by two (each target suffers the full amount of strain, but :darkside: spent to increase number of targets affected can’t be spent to inflict strain)."
+				"description": "Naaran may spend :darkside: to attack the minds of targets within Short range. For each :darkside: he spends, the target suffers 2 Strain. He may spend :darkside: to increase the number of affected targets by two (each target suffers the full amount of Strain, but :darkside: spent to increase number of targets affected can’t be spent to inflict strain)."
 			},
 			{
 				"name": "Force power: Enhance",
-				"description": "Rav Naaran may spend one Force point :darkside: to jump to anywhere within short range as a maneuver. He may spend one additional Force point :darkside: to jump to anywhere within medium range instead."
+				"description": "Rav Naaran may spend one :darkside: to jump to anywhere within Short range as a maneuver. He may spend one additional :darkside: to jump to anywhere within Medium range instead."
 			},
 			{
 				"name": "Force power: Move",
-				"description": "Rav Naaran may spend one :darkside: to move a small object (up to the size of a backpack) from within short range to another location within short range. He may increase the range of this power to within medium range by spending one additional :darkside:. He may also spend one additional :darkside: to move a larger object, up to the size of a person. This power can be used to make attacks by throwing lifted objects at an enemy, if Rav Naaran generates enough :darkside: to lift the object and reach the target. The attack roll is based off Rav Naaran’s Discipline (:proficiency::proficiency::ability::ability:). If successful, it does 5 damage + 1 damage for each uncanceled :success: result if the object is small, or 10 damage + 1 damage for each uncanceled :success: result if the object is large. The target’s soak reduces this damage as usual."
+				"description": "Rav Naaran may spend :darkside: to move a small object (up to the size of a backpack, Silhouette 0) from within Short range to another location within Short range. He may increase the range of this power to within Medium range by spending one additional :darkside:. He may also spend one additional :darkside: to move a larger object, up to the size of a person (Silhouette 1). This power can be used to make attacks by throwing lifted objects at an enemy, if Rav Naaran generates enough :darkside: to lift the object and reach the target. The attack roll is based off Rav Naaran’s Discipline (:proficiency::proficiency::ability::ability:). If successful, it does 5 damage +1 damage for each uncanceled :success: result if the object is small, or 10 damage +1 damage for each uncanceled :success: result if the object is large. The target’s Soak reduces this damage as usual."
 			}
 		],
 		
