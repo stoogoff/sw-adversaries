@@ -116,6 +116,7 @@ Main tasks:
 	- A Quick Stopover
 	- Beyond the Boiling Sea
 	- Beyond the Rim
+	- Crates of Krayts (EotE Beta adventure)
 	- Chronicles of the Gatekeeper
 	- Claustrophobia
 	- Conical Six Summit
@@ -173,8 +174,6 @@ Main tasks:
 	- FaD
 		- Disciples of Harmony
 		- *Unlimited Power (not released)*
-- beginner's games
-	- Crates of Krayts (EotE Beta adventure)
 
 ## TODO
 
