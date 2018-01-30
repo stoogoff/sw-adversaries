@@ -98,6 +98,8 @@ Main tasks:
 - beginner's games
 	- Age of Rebellion (Takeover at Whisper Base)
 	- Edge of the Empire (Escape from Mos Shuuta)
+	- Force and Destiny (Mountaintop Rescue)
+	- The Force Awakens (Discovery on Jakku)
 - adventure books
 	- Beyond the Rim
 	- Chronicles of the Gatekeeper
@@ -109,6 +111,7 @@ Main tasks:
 	- Rescue at Glare Peak
 	- Under a Black Sun
 - adventures
+	- A Call for Heroes (TFA follow on adventure)
 	- A Deal Gone Wrong
 	- A Quick Stopover
 	- Beyond the Boiling Sea
@@ -155,7 +158,6 @@ Main tasks:
 	- Vault of Justice
 	- Welcome Aboard
 	- Witch’s Wrath
-	- Force and Destiny (Mountaintop Rescue)
 	- Lure of the Lost (FaD follow on adventure)
 
 ### Missing Adversaries
@@ -172,8 +174,6 @@ Main tasks:
 		- Disciples of Harmony
 		- *Unlimited Power (not released)*
 - beginner's games
-	- The Force Awakens
-	- A Call for Heroes (TFA Bonus adventure)
 	- Crates of Krayts (EotE Beta adventure)
 
 ## TODO
