@@ -843,7 +843,7 @@
 		"tags": ["book:tfabg", "creature", "location:Jakku"]
 	},
 	{
-		"name": "Jaskku Trader",
+		"name": "Jakku Trader",
 		"type": "Rival",
 		"description": "The only things of real value to the people of Jakku are food and water. Those who control the food and water hold a great deal of sway among the scavengers of the desert planet, providing sustenance in return for long days spent salvaging the starship hulks that scatter the planet.",
 		"characteristics": {
