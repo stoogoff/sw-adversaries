@@ -119,6 +119,7 @@ let bookMap = {
 	// beginner games
 	"book:aorbg": "Age of Rebellion: Beginner’s Game",
 	"book:eotebg": "Edge of the Empire: Beginner’s Game",
+	"book:tfabg": "The Force Awakens: Beginner’s Game",
 
 	// source books
 	"book:lonh": "Lords of Nal Hutta",

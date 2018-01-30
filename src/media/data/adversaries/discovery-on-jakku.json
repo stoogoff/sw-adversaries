@@ -25,7 +25,7 @@
 			}
 		],
 		"gear": ["Heavy desert clothing and face wraps (+1 Soak)", "Canteen", "Respirator"],
-		"tags": ["adventure:Discovery on Jakku", "location:Jakku", "strus gang", "thug"]
+		"tags": ["adventure:Discovery on Jakku", "location:Jakku", "strus gang", "thug", "book:tfabg"]
 	},
 	{
 		"name": "Misha Vontoba",
@@ -50,7 +50,7 @@
 		},
 		"weapons": ["Holdout blaster"],
 		"gear": ["Heavy desert clothing and face wraps (+1 Soak)", "Canteen", "Respirator"],
-		"tags": ["adventure:Discovery on Jakku", "location:Jakku"]
+		"tags": ["adventure:Discovery on Jakku", "location:Jakku", "book:tfabg"]
 	},
 	{
 		"name": "Jax Torani",
@@ -73,7 +73,7 @@
 			"Vigilance": 1
 		},
 		"gear": ["Credit belt", "Comlink", "Second-hand speeder full of trade goods"],
-		"tags": ["adventure:Discovery on Jakku", "location:Jakku"]
+		"tags": ["adventure:Discovery on Jakku", "location:Jakku", "book:tfabg"]
 	},
 	{
 		"name": "Strus Clan Enforcer",
@@ -111,7 +111,7 @@
 			}
 		],
 		"gear": ["Heavy desert clothing and face wraps (+1 Soak)", "Canteen", "Respirator"],
-		"tags": ["adventure:Discovery on Jakku", "adventure:A Call for Heroes", "location:Jakku", "strus clan", "thug"]
+		"tags": ["adventure:Discovery on Jakku", "adventure:A Call for Heroes", "location:Jakku", "strus clan", "thug", "book:tfabg"]
 	},
 	{
 		"name": "Dokar Venas",
@@ -135,14 +135,7 @@
 			"Vigilance": 1
 		},
 		"weapons": [
-			{
-				"name": "Micro-grenade launcher",
-				"skill": "Gunnery",
-				"damage": 10,
-				"critical": 3,
-				"range": "Medium",
-				"qualities": ["Blast 8"]
-			},
+			"Micro-grenade launcher",
 			{
 				"name": "Heavy staff",
 				"skill": "Melee",
@@ -152,7 +145,7 @@
 			}
 		],
 		"gear": ["Battle armour (+2 Soak)", "Canteen", "Respirator"],
-		"tags": ["adventure:Discovery on Jakku", "adventure:A Call for Heroes", "location:Jakku", "strus clan"]
+		"tags": ["adventure:Discovery on Jakku", "adventure:A Call for Heroes", "location:Jakku", "strus clan", "book:tfabg"]
 	},
 	{
 		"name": "First Order Junior Officer",
@@ -175,7 +168,7 @@
 		},
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Officers uniform (+1 Soak)", "Tool kit"],
-		"tags": ["adventure:Discovery on Jakku", "first order"]
+		"tags": ["adventure:Discovery on Jakku", "first order", "book:tfabg"]
 	},
 	{
 		"name": "First Order Tech",
@@ -199,11 +192,13 @@
 		},
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Tech uniform (+1 Soak)", "Tool kit"],
-		"tags": ["adventure:Discovery on Jakku", "first order", "engineer"]
+		"tags": ["adventure:Discovery on Jakku", "first order", "engineer", "book:tfabg"]
 	},
 	{
 		"name": "First Order Stormtrooper",
 		"type": "Minion",
+		"description": "The foot soldiers of the First Order are raised as warriors from birth. Unlike that of the Galactic Empirre, the training regimen of the First Order emphasises guerilla warfare, improvisation, and unquestioning loyalty.",
+		"notes": "The First Order Stormtroopers in the **Discovery on Jakku** adventure aren’t carrying frag grenades.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -217,9 +212,9 @@
 			"wounds": 5
 		},
 		"skills": ["Athletics", "Discipline", "Melee", "Ranged: Heavy", "Vigilance"],
-		"weapons": ["Blaster rifle", "Vibroknife"],
-		"gear": ["Utility belt", "Stormtrooper armour (+2 Soak)"],
-		"tags": ["first order", "stormtrooper", "adventure:Discovery on Jakku"]
+		"weapons": ["Blaster rifle", "Vibroknife", "Frag grenade"],
+		"gear": ["Utility belt", "Stormtrooper armour (+2 Soak)", "Extra reloads", "2 Frag grenades"],
+		"tags": ["first order", "stormtrooper", "adventure:Discovery on Jakku", "book:tfabg"]
 	},
 	{
 		"name": "Captain Phasma",
@@ -262,7 +257,7 @@
 			}
 		],
 		"gear": ["Battle armour (+2 Soak)", "Comlink", "Impressive cloak"],
-		"tags": ["adventure:Discovery on Jakku", "first order", "stormtrooper"]
+		"tags": ["adventure:Discovery on Jakku", "first order", "stormtrooper", "book:tfabg"]
 	},
 	{
 		"name": "First Order Technician",
@@ -541,5 +536,542 @@
 		"weapons": ["Vibro-ax", "Blaster rifle", "Disruptor pistol", "Vibroknife"],
 		"gear": ["Battle armour (+2 Soak)", "Canteen", "Respirator"],
 		"tags": ["adventure:A Call for Heroes", "location:Jakku", "strus clan"]
+	},
+	{
+		"name": "Resistance Starfighter Ace",
+		"type": "Rival",
+		"description": "Like the former Rebellion, whose ideals they still fight for, the Resistance puts great stock in their starfighter forces. Rightly so, for the aces of the Resistance are some of the best pilots in the galaxy.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Cool": 3,
+			"Gunnery": 2,
+			"Piloting: Space": 3
+		},
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Flight suit", "Atromech droid"],
+		"tags": ["book:tfabg", "resistance", "pilot"]
+	},
+	{
+		"name": "Resistance Medical Droid",
+		"type": "Rival",
+		"description": "Droids have been a mainstay in the medical field for generations. With sophisticated programming and integrated surgical equipment, these droids are able to keep the relatively small Resistance force at fighting strength.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10
+		},
+		"skills": {
+			"Discipline": 1,
+			"Medicine": 3,
+			"Perception": 2
+		},
+		"abilities": ["Droid"],
+		"gear": ["Built-in diagnostic anmd surgical tools (counts as medpac as well as stimpack that can be used once per session)"],
+		"tags": ["book:tfabg", "resistance", "medic", "species:Droid"]
+	},
+	{
+		"name": "Resistance Officer",
+		"type": "Nemesis",
+		"description": "Pulled from the veterans of the Galactic Civil War, the leaders of the Resistance remember well the threat that the remnants of the old Galactic Empire posed and now keep watch on the growth of the First Order.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10,
+			"strain": 13
+		},
+		"skills": {
+			"Astrogation": 1,
+			"Discipline": 1,
+			"Leadership": 3,
+			"Perception": 1,
+			"Ranged: Light": 2
+		},
+		"talents": ["Adversary 2", "Command 2", "Coordinated Assault 2"],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Resistance uniform (+1 Soak)", "Datapad", "Comlink"],
+		"tags": ["book:tfabg"]
+	},
+	{
+		"name": "First Order Riot Trooper",
+		"type": "Rival",
+		"description": "In the subdued worlds within First Order territory, stormtroopers act as a first line of control and authority. When dealing with rebellious or unruly populations, stormtroopers come prepared with non-lethal riot gear in the form of riot control batons and shields.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 10,
+			"defence": [2, 1]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Discipline": 2,
+			"Melee": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1", "Natural Brawler"],
+		"weapons": [
+			"Blaster pistol",
+			{
+				"name": "Shock baton",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Disorient 3", "Stun Setting"]
+			},
+			{
+				"name": "Riot shield",
+				"skill": "Melee",
+				"damage": 3,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Defensive 2", "Deflection 1"]
+			}
+		],
+		"gear": ["Utility belt", "Stormtrooper armour (+2 Soak)"],
+		"tags": ["book:tfabg", "first order", "stormtrooper"]
+	},
+	{
+		"name": "First Order Specialist Trooper",
+		"type": "Rival",
+		"description": "Units of First Order stormtroopers are accompanied by specialist troopers carrying heavy weaponry designed for specific engagements. Flametroopers wield terrifying flame projectors to drive entrenched enemies out of cover, while specialists carrying light repeating blasters lay down a hail of blaster bolts to suppress even the most courageous foe.",
+		"notes": "Armed either with the flame projector and flame resistant armour or the light repeating blaster with stormtrooper armour.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 10,
+			"defence": [2, 1]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Discipline": 2,
+			"Ranged: Heavy": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [
+			{
+				"name": "Flame Resistant Armour",
+				"description": "Does not suffer effects of the Burn quality; does not suffer Blast damage from weapons with the Burn quality."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Flame projector",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Blast 8", "Burn 3"]
+			},
+			{
+				"name": "Light repeating blaster",
+				"skill": "Ranged: Heavy",
+				"damage": 11,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Auto-Fire", "Cumbersome 3", "Pierce 1"]
+			}
+		],
+		"gear": ["Utility belt", "Stormtrooper armour (+2 Soak)", "Flame resistant armour"],
+		"tags": ["book:tfabg", "first order", "stormtrooper"]
+	},
+	{
+		"name": "First Order Fleet Officer",
+		"type": "Nemesis",
+		"description": "Trained in secret shipboard military academies created by the remnants of the Imperial Fleet, the officers of the First Order Fleet often see their ships as their homes and have never set foot planetside. Highly trained leaders, these officers can synthesise highly complex tactical data and direct the forces beneath them with practised ease.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10,
+			"strain": 13
+		},
+		"skills": {
+			"Coercion": 2,
+			"Cool": 2,
+			"Discipline": 2,
+			"Leadership": 3,
+			"Ranged: Light": 1,
+			"Knowledge: Core Worlds": 1,
+			"Knowledge: Education": 1,
+			"Knowledge: Lore": 1,
+			"Knowledge: Outer Rim": 1,
+			"Knowledge: Underworld": 1,
+			"Knowledge: Warfare": 1,
+			"Knowledge: Xenology": 1
+		},
+		"talents": ["Adversary 2", "Field Commander"],
+		"abilities": ["Overwhelming Fire"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Officer uniform (+1 Soak)", "Long range comlink"],
+		"tags": ["book:tfabg", "first order"]
+	},
+	{
+		"name": "Jakku Scavenger",
+		"type": "Rival",
+		"description": "The desert wastes of Jakku are unforgiving to all but the most hardy sorts. Those who can scrape a living from the wrecks buried in the sand are tough, solitary figures.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Perception": 2,
+			"Melee": 1,
+			"Ranged: Heavy": 2,
+			"Resilience": 3,
+			"Survival": 3
+		},
+		"talents": ["Keen Eyed"],
+		"weapons": [
+			{
+				"name": "Hunting knife",
+				"skill": "Melee",
+				"damage": 3,
+				"critical": 4,
+				"range": "Engaged"
+			},
+			{
+				"name": "Longshot blaster",
+				"skill": "Ranged: Heavy",
+				"damage": 7,
+				"critical": 3,
+				"range": "Extreme",
+				"qualities": ["Stun Setting"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:tfabg", "location:Jakku"]
+	},
+	{
+		"name": "Luggabeast",
+		"type": "Rival",
+		"description": "These beasts of burden are cybernetically enhanced to greatly increase their endurance and strength.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 18
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 1,
+			"Resilience": 2,
+			"Survival": 3
+
+		},
+		"abilities": [
+			"Awkward",
+			{
+				"name": "Cybernetic Reinforcement",
+				"description": "Luggabeasts ignore Stun damage and can survive in vacuum or underwater for 10 minutes."
+			},
+			{
+				"name": "Strong as a Luggabeast",
+				"description": "Luggabeasts can carry or drag enormous amounts of weight, far in excess of their own mass."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Trampling bulk",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"gear": ["Thick hide (+3 Soak)"],
+		"tags": ["book:tfabg", "creature", "location:Jakku"]
+	},
+	{
+		"name": "Jaskku Trader",
+		"type": "Rival",
+		"description": "The only things of real value to the people of Jakku are food and water. Those who control the food and water hold a great deal of sway among the scavengers of the desert planet, providing sustenance in return for long days spent salvaging the starship hulks that scatter the planet.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 8
+		},
+		"skills": {
+			"Charm": 2,
+			"Cool": 2,
+			"Deception": 2,
+			"Negotiation": 3,
+			"Streetwise": 2,
+			"Knowledge: Core Worlds": 2,
+			"Knowledge: Education": 2,
+			"Knowledge: Lore": 2,
+			"Knowledge: Outer Rim": 2,
+			"Knowledge: Underworld": 2,
+			"Knowledge: Warfare": 2,
+			"Knowledge: Xenology": 2
+		},
+		"talents": ["Nobody’s Fool 2"],
+		"weapons": ["Holdout blaster"],
+		"tags": ["book:tfabg", "location:Jakku", "merchant"]
+	},
+	{
+		"name": "Jakku Criminal",
+		"type": "Minion",
+		"description": "Of course, where resources are scarce, there are those who would acquire them through violence and skulduggery. The criminal element of Jakku is an ever-present threat to those eking out a living day by day.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 4
+		},
+		"skills": ["Brawl", "Ranged: Light", "Skulduggery"],
+		"weapons": [
+			"Blaster pistol",
+			{
+				"name": "Duraknuckles",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged"
+			}
+		],
+		"gear": ["Heavy clothing (+1 Soak)"],
+		"tags": ["book:tfabg", "location:Jakku", "underworld"]
+	},
+	{
+		"name": "Guavian Death Gang Security Soldier",
+		"type": "Minion",
+		"description": "Slavishly loyal and utterly ruthless, the security soldiers of the Guavian Death Gang have traded their humanity and morality for dangerous and illegal cybernetic enhancements.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 6
+		},
+		"skills": ["Mechanics", "Melee", "Ranged: heavy"],
+		"abilities": ["Cybernetic Reinforcement"],
+		"weapons": [
+			{
+				"name": "Percussive cannon",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Knockdown"]
+			},
+			{
+				"name": "Implanted vibroknife",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"gear": ["Cybernetic armour (+2 Soak)", "Utility belt"],
+		"tags": ["book:tfabg", "underworld", "guavian death gang", "thug"]
+	},
+	{
+		"name": "Guavian Death Gang Grenadier",
+		"type": "Rival",
+		"description": "The Guavians are ever on the forefront of the black market weapons industry. In each of the major manufacturing houses, they have contacts proving them with “misplaced” prototypes of the most dangerous arms in the galaxy.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 10
+		},
+		"skills": {
+			"Gunnery": 3,
+			"Mechanics": 2,
+			"Resilience": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Crippling Blow"],
+		"abilities": ["Cybernetic Reinforcement"],
+		"weapons": ["Micro-grenade launcher"],
+		"gear": ["Heavy cybernetic armour (+3 Soak)"],
+		"tags": ["book:tfabg", "underworld", "guavian death gang", "thug"]
+	},
+	{
+		"name": "Kanjiklub Gangster",
+		"type": "Rival",
+		"description": "The proud and resourceful warriors of the Kanjiklub are masterful tinkerers and scavengers. Following the traditions of their ancestors, who suffered under generations of enslavement by the Hutts, Kanjiklubbers scratchbuild, modify, and scavenge their arms and equipment.",
+		"notes": "Armed with either the jury-rigged blaster pistol or jury-rigged blaster rifle.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 8
+		},
+		"skills": {
+			"Coordination": 1,
+			"Mechanics": 2,
+			"Negotiation": 1,
+			"Ranged: Light": 2,
+			"Ranged: Heavy": 2
+		},
+		"weapons": [
+			{
+				"name": "Jury-rigged blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 4,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Disorient 3", "Pierce 3"]
+			},
+			{
+				"name": "Jury-rigged blaster rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 4,
+				"range": "Long",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"gear": ["Scavenger armour (+2 Soak)", "Comlink", "Mechanic’s tool kit"],
+		"tags": ["book:tfabg", "underworld", "thug", "mechanic"]
+	},
+	{
+		"name": "Rathtar",
+		"type": "Nemesis",
+		"description": "Horrifying tentacular monsters, at first glance these aliens appear to be little more than primitive eating machines, but they display complex pack hunting instincts.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 32,
+			"strain": 12
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Resilience": 2,
+			"Vigilance": 1
+		},
+		"talents": [
+			"Adversary 2",
+			{
+				"name": "Grapple",
+				"description": "Once per round, may perform the Grapple maneuver; until the beginning of the rathtar's next turn, enemies must spend two maneuvers instead of one to move from Engaged range to Short range of it."
+			}
+		],
+		"abilities": [
+			{
+				"name": "Easy Prey",
+				"description": "When a rathtar makes an attack against an immobilised enemy, it lowers the Critical Rating of its lamprey maw attack to 1 for the duration of the attack."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Plethora of tentacles",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 4,
+				"range": "Short",
+				"notes": "Spend :advantage::advantage:: the target may not make maneuvers until the end of the following round."
+			},
+			{
+				"name": "Lamprey maw",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 3,
+				"range": "Engaged"
+			}
+
+		],
+		"tags": ["book:tfabg", "creature"]
 	}
 ]

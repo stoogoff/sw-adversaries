@@ -53,7 +53,7 @@
 	},
 	{
 		"name": "Awkward",
-		"description": "Hutts have great physical strength but their bulk imposes severe limitations in flexibility and agility; they add :setback::setback::setback: to all Brawl, Melee, and Coordination checks they’re required to make."
+		"description": "While they have great physical strength their bulk imposes severe limitations in flexibility and agility; they add :setback::setback::setback: to all Brawl, Melee, and Coordination checks they’re required to make."
 	},
 	{
 		"name": "Backup Entertainer",
@@ -182,6 +182,10 @@
 	{
 		"name": "Cybernetic Communications",
 		"description": "Due to their cybernetic modifications, Ganks can communicate silently with other Ganks."
+	},
+	{
+		"name": "Cybernetic Reinforcement",
+		"description": "Guavian Death Gang members ignore Stun damage and can survive in vacuum and underwater for ten minutes."
 	},
 	{
 		"name": "Darkest Dreams",

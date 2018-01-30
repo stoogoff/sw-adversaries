@@ -765,7 +765,7 @@
 	},
 	{
 		"name": "Keen Eyed",
-		"description": ""
+		"description": "Remove :setback: per rank from Perception and Vigilance checks; checks made to search a specific time take 50% less time than usual."
 	},
 	{
 		"name": "Kill with Kindness",

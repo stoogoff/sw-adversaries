@@ -179,6 +179,14 @@
 		"qualities": ["Burn 3", "Blast 8"]
 	},
 	{
+		"name": "Micro-grenade launcher",
+		"skill": "Gunnery",
+		"damage": 10,
+		"critical": 3,
+		"range": "Medium",
+		"qualities": ["Blast 8"]
+	},
+	{
 		"name": "Missile tube",
 		"skill": "Gunnery",
 		"damage": 20,
