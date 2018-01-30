@@ -155,6 +155,8 @@ Main tasks:
 	- Vault of Justice
 	- Welcome Aboard
 	- Witch’s Wrath
+	- Force and Destiny (Mountaintop Rescue)
+	- Lure of the Lost (FaD follow on adventure)
 
 ### Missing Adversaries
 
@@ -170,9 +172,7 @@ Main tasks:
 		- Disciples of Harmony
 		- *Unlimited Power (not released)*
 - beginner's games
-	- Force and Destiny (Mountaintop Rescue)
 	- The Force Awakens
-	- Lure of the Lost (FaD follow on adventure)
 	- A Call for Heroes (TFA Bonus adventure)
 	- Crates of Krayts (EotE Beta adventure)
 
