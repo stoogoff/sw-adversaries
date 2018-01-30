@@ -401,7 +401,7 @@
 	},
 	{
 		"name": "Encoded Communique",
-		"description": "Upgrade the difficulty of checks to decrypt this character's coded messages without the proper cipher a number of times equal to Computers skill."
+		"description": "Upgrade the difficulty of checks to decrypt this character’s coded messages without the proper cipher a number of times equal to Computers skill."
 	},
 	{
 		"name": "Encouraging Words",
@@ -561,11 +561,11 @@
 	},
 	{
 		"name": "Good Cop",
-		"description": "The character may spend :advantage::advantage: from a Charm or Negotiation check to upgrade the ability of a single ally's subsequent Social interaction check against the same target as number of times equal to ranks in Good Cop."
+		"description": "The character may spend :advantage::advantage: from a Charm or Negotiation check to upgrade the ability of a single ally’s subsequent Social interaction check against the same target as number of times equal to ranks in Good Cop."
 	},
 	{
 		"name": "Grapple",
-		"description": ""
+		"description": "Once per round, may perform the Grapple ma­neuver. Until the beginning of the character’s next turn, en­emies must spend two maneuvers instead of one to move from Engaged range to Short range of the character."
 	},
 	{
 		"name": "Greased Palms",

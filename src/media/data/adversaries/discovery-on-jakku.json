@@ -1042,12 +1042,7 @@
 			"Vigilance": 1
 		},
 		"talents": [
-			"Adversary 2",
-			{
-				"name": "Grapple",
-				"description": "Once per round, may perform the Grapple maneuver; until the beginning of the rathtar's next turn, enemies must spend two maneuvers instead of one to move from Engaged range to Short range of it."
-			}
-		],
+			"Adversary 2", "Grapple"],
 		"abilities": [
 			{
 				"name": "Easy Prey",
