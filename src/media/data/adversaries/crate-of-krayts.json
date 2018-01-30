@@ -1,0 +1,473 @@
+[
+	{
+		"name": "Tusken Raider Sniper",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": ["Melee", "Perception", "Ranged: Heavy", "Survival"],
+		"weapons": [
+			"Slugthrower rifle",
+			{
+				"name": "Gaffi stick",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Defensive 1", "Disorient 3"]
+			}
+		],
+		"tags": ["adventure:Crate of Krayts", "location:Tatooine", "species:Tusken"]
+	},
+	{
+		"name": "Tusken Raider Reaver",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": ["Melee", "Perception", "Ranged: Heavy", "Survival"],
+		"weapons": [
+			{
+				"name": "Gaffi stick",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Defensive 1", "Disorient 3"]
+			}
+		],
+		"tags": ["adventure:Crate of Krayts", "location:Tatooine", "species:Tusken"]
+	},
+	{
+		"name": "Jora",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Knowledge: Underworld": 2,
+			"Ranged: Light": 2,
+			"Skulduggery": 2,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"weapons": ["Blaster pistol"],
+		"tags": ["adventure:Crate of Krayts", "location:Tatooine", "underworld"]
+	},
+	{
+		"name": "Vapor Station Inhabitant",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": [],
+		"weapons": ["Light blaster pistol"],
+		"tags": ["adventure:Crate of Krayts", "location:Tatooine", "underworld"]
+	},
+	{
+		"name": "Impact",
+		"type": "Rival",
+		"description": "Impact is a cheat and a scoundrel of the worst kind. Rowo’s Landing charges for every service imaginable–speeder rental, ship resupply and repair, load lifters, dock droids, repulsorsleds, and more. Even the turbolifts charge for every ride. To sucker clients, Impact allows them to negotiate the docking fee down (although he’s not afraid to try and push it up again). Thereafter, he doesn’t hesitate to add liberally to the bill.\n\nImpact can also sell the characters information about Nar Shaddaa. If he realises they’re interested in Greentop, however, he immediately shuts up and obviously tries to get rid of them as soon as possible. He’ll allow the ship to stay for one day, then he wants them to leave. or he triples the prices. He wants nothing to do with the Greentop disaster, or anyone involved with Sinasu. He suggests they ask around if they want to know what happened or where to find Sinasu.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 2,
+			"Deception": 2,
+			"Negotiation": 2,
+			"Ranged: Light": 1,
+			"Perception": 1,
+			"Streetwise": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Nobody’s Fool 1"],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Datapad", "Comlink"],
+		"tags": ["adventure:Crate of Krayts", "underworld", "location:Nar Shaddaa"]
+	},
+	{
+		"name": "Lanni",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Computers": 2,
+			"Mechanics": 2,
+			"Vigilance": 1
+		},
+		"abilities": ["Amphibious"],
+		"tags": ["adventure:Crate of Krayts", "species:Mon Calamari", "location:Nar Shaddaa"]
+	},
+	{
+		"name": "TT-3P0",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10
+		},
+		"skills": {
+			"Charm": 2,
+			"Knowledge: Education": 3,
+			"Knowledge: Xenlology": 3,
+			"Negotiation": 2,
+			"Perception": 1
+		},
+		"abilities": ["Droid", "Etiquette and Protocol"],
+		"tags": ["adventure:Crate of Krayts", "location:Nar Shaddaa", "species:Droid", "protocol droid"]
+	},
+	{
+		"name": "Cordal’s Chain Apprentice",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 6
+		},
+		"skills": ["Ranged: Light", "Vigilance"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Light armour plates (+1 Soak)", "Jet pack"],
+		"tags": ["adventure:Crate of Krayts", "location:Nar Shadda", "cordal’s chain", "bounty hunter"]
+	},
+	{
+		"name": "Cordal’s Chain Journeyman",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 13
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coercion": 1,
+			"Coordination": 1,
+			"Ranged: Heavy": 1,
+			"Ranged: Light": 1,
+			"Survival": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Lethal Blows 1"],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Heavy blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			}
+		],
+		"gear": ["Laminate armour (++2 Soak)", "Jet pack"],
+		"tags": ["adventure:Crate of Krayts", "location:Nar Shaddaa", "cordal’s chain", "bounty hunter"]
+	},
+	{
+		"name": "Master Hunter Tor Cordol",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"strain": 13,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coercion": 2,
+			"Cool": 2,
+			"Ranged: Heavy": 3,
+			"Ranged: Light": 2,
+			"Melee": 2,
+			"Pilot: Space": 2,
+			"Stealth": 2,
+			"Perception": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Deadly Accuracy (Ranged: Heavy)", "Lethal Blows 2", "Stalker 2"],
+		"weapons": [
+			{
+				"name": "Vibroknife",
+				"skill": "Melee",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1", "Pierce 1"]
+			},
+			{
+				"name": "Heavy blaster rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 14,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Auto-Fire", "Cumbersome 3", "Pierce 1"]
+			},
+			{
+				"name": "Under-barrel flame projector",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Burn 3", "Blast 6"]
+			}
+		],
+		"gear": ["Light battle armour (+1 Soak, +1 Defence)", "Jet pack"],
+		"tags": ["adventure:Crate of Krayts", "location:Nar Shaddaa", "cordal’s chain", "bounty hunter"]
+	},
+	{
+		"name": "Techtank Tech",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 4
+		},
+		"talents": ["Bypass Security"],
+		"skills": ["Computers", "Mechanics"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Slicer gear", "Assorted tools"],
+		"tags": ["adventure:Crate of Krayts", "location:Nar Shaddaa", "underworld", "slicer"]
+	},
+	{
+		"name": "Tennom",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Computers": 3,
+			"Cool": 2,
+			"Skulduggery": 1
+		},
+		"talents": ["Bypass Security"],
+		"weapons": [
+			{
+				"name": "Stun blaster",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": null,
+				"range": "Medium",
+				"qualities": ["Stun Damage"]
+			}
+		],
+		"gear": ["Slicer gear"],
+		"tags": ["adventure:Crate of Krayts", "location:Nar Shaddaa", "slicer", "underworld"]
+	},
+	{
+		"name": "Pon",
+		"type": "Rival",
+		"notes": "Currently has 4 Wounds due to injuries.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 2,
+			"Deception": 2,
+			"Perception": 2,
+			"Skulduggery": 2,
+			"Vigilance": 2
+		},
+		"weapons": ["Holdout blaster"],
+		"tags": ["adventure:Crate of Krayts", "location:Nar Shaddaa", "underworld"]
+	},
+	{
+		"name": "Sinasu the Hutt",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 1,
+			"Intellect": 4,
+			"Cunning": 5,
+			"Willpower": 5,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 9,
+			"wounds": 25,
+			"strain": 25
+		},
+		"skills": {
+			"Athletics": 1,
+			"Charm": 2,
+			"Coercion": 4,
+			"Cool": 3,
+			"Deception": 5,
+			"Discipline": 3,
+			"Knowledge: Outer Rim": 3,
+			"Knowledge: Underworld": 3,
+			"Leadership": 1,
+			"Negotiation": 4,
+			"Ranged: Light": 2,
+			"Resilience": 8
+		},
+		"talents": ["Convincing Demeanor 2", "Durable 3", "Nobody’s Fool 3", "Resolve 2"],
+		"abilities": [
+			"Awkward", "Ponderous",
+			{
+				"name": "Force Resistant",
+				"description": "Hutts are notoriously resistant to manipulation through the Force. Any attempt to alter their thoughts or emotions via the Force automatically fails."
+			}
+		],
+		"tags": ["adventure:Crate of Krayts", "location:Nar Shaddaa", "underworld", "species:Hutt"]
+	},
+	{
+		"name": "Pilot",
+		"type": "Minion",
+		"description": "The following profiles are to be used for the pilots of the T-16s and CloakShapes.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": ["Gunnery", "Piloting: Space"],
+		"gear": ["Vacuum sealed flight suit"],
+		"tags": ["adventure:Crate of Krayts", "pilot"]
+	},
+	{
+		"name": "Young Krayt Dragon",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 30
+		},
+		"skills": {
+			"Brawl": 2,
+			"Perception": 2,
+			"Survival": 2
+		},
+		"talents": ["Knockdown"],
+		"weapons": [
+			{
+				"name": "Brutal claws and teeth",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			}
+		],
+		"tags": ["adventure:Crate of Krayts", "species:Krayt Dragon", "creature"]
+	}
+]
