@@ -107,6 +107,9 @@ export default class Character extends React.Component {
 		else if(character.tags.indexOf("empire") != -1) {
 			icon = <svg><use href="#galactic-empire"></use></svg>;
 		}
+		else if(character.tags.indexOf("first order") != -1) {
+			icon = <svg><use href="#first-order"></use></svg>;
+		}
 
 		let fav = null;
 
