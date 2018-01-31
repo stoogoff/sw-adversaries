@@ -338,6 +338,7 @@
 		"name": "Guilded Bounty Hunter",
 		"type": "Rival",
 		"description": "By definition, a bounty hunter is an individual in possession of an Imperial Peace-Keeping Certificate who is legally permitted to hunt and apprehend wanted criminals in exchange for bounties offered by the Empire or other parties. The definition is somewhat innocuous, however, and does little to reflect the sheer brutality so often exhibited by bounty hunters throughout the galaxy. Compassionate souls are not drawn to this line of work, and while many make a good living working for the Empire, just as many, if not more, choose instead to work for corporations, private citizens, or criminal organizations in order to gain the credits and the reputation that they so desperately crave. It goes without saying that bounty hunters are a persistent, significant threat to the safety of all members of the Rebel Alliance.",
+		"notes": "The Disruptor Pistol of The Guilded Bounty Hunter from the Force and Destiny beginner's game has Pierce 4, instead of Vicious 4.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
