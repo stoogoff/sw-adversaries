@@ -139,6 +139,7 @@ let bookMap = {
 	"book:sm": "Special Modifications",
 	"book:sot": "Stay on Target",
 	"book:ss": "Savage Spirits",
+	"book:eto": "Enter the Unknown",
 
 	// adventures
 	"book:oaa": "Onslaught at Arda I",
