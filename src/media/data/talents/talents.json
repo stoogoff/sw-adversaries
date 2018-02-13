@@ -45,7 +45,7 @@
 	},
 	{
 		"name": "Bacta Specialist",
-		"description": "Patients heal an additional Wound per rank when they heal wounds from bacta tanks or long-term care."
+		"description": "Patients heal {ranks} additional Wounds when they heal wounds from bacta tanks or long-term care."
 	},
 	{
 		"name": "Bad Cop",
@@ -69,7 +69,7 @@
 	},
 	{
 		"name": "Barrage",
-		"description": "Add 1 damage per rank to all Gunnery and Ranged attacks at Medium or Long range."
+		"description": "Add {ranks} damage to all Gunnery and Ranged attacks at Medium or Long range."
 	},
 	{
 		"name": "Basic Combat Training",
@@ -85,7 +85,7 @@
 	},
 	{
 		"name": "Black Market Contacts",
-		"description": "Decrease rarity of sought item by one per rank when looking on the black market; item’s cost is increased by 50%."
+		"description": "Decrease rarity of sought item by {ranks} when looking on the black market; item’s cost is increased by 50%."
 	},
 	{
 		"name": "Blackmail",
@@ -101,7 +101,7 @@
 	},
 	{
 		"name": "Body Guard",
-		"description": "Once per round, may suffer 1 Strain per rank to take the Body Guard maneuver to protect an engaged ally; until the end of the character’s next turn, upgrade the difficulty of all combat checks targeting the protected ally once per Strain spent."
+		"description": "Once per round, may suffer up to {ranks} Strain to take the Body Guard maneuver to protect an engaged ally; until the end of the character’s next turn, upgrade the difficulty of all combat checks targeting the protected ally once per Strain spent."
 	},
 	{
 		"name": "Body Guard (Improved)",
@@ -205,7 +205,7 @@
 	},
 	{
 		"name": "Confidence",
-		"description": "Decrease difficulty of Discipline checks to avoid fear by 1 per rank."
+		"description": "Decrease difficulty of Discipline checks to avoid fear by {ranks}."
 	},
 	{
 		"name": "Confidence (Improved)",
@@ -213,7 +213,7 @@
 	},
 	{
 		"name": "Congenial",
-		"description": "May suffer 1 Strain per rank to downgrade the difficulty of Charm or Negotiation checks by one per Strain spent or upgrade difficulty once per Strain spent when targetted by Charm or Negotiaion checks."
+		"description": "May suffer up to {ranks} Strain to downgrade the difficulty of Charm or Negotiation checks by one per Strain spent or upgrade difficulty once per Strain spent when targetted by Charm or Negotiaion checks."
 	},
 	{
 		"name": "Contingency Plan",
@@ -309,7 +309,7 @@
 	},
 	{
 		"name": "Defensive Driving",
-		"description": "Increase defence of vehicle or starship being piloted by 1 per rank."
+		"description": "Increase Defence of vehicle or starship being piloted by {ranks}."
 	},
 	{
 		"name": "Defensive Slicing",
@@ -341,7 +341,7 @@
 	},
 	{
 		"name": "Disorient",
-		"description": "After hitting with a combat check, may spend :advantage::advantage: to disorient target for 1 round per rank."
+		"description": "After hitting with a combat check, may spend :advantage::advantage: to disorient target for {ranks} rounds."
 	},
 	{
 		"name": "Disruptive Strike",
@@ -409,7 +409,7 @@
 	},
 	{
 		"name": "Enduring",
-		"description": "Adds soak per rank of Enduring."
+		"description": "Adds Soak per rank of Enduring."
 	},
 	{
 		"name": "Energy Transfer",
@@ -469,7 +469,7 @@
 	},
 	{
 		"name": "Feral Strength",
-		"description": "+1 damage per rank on all Brawl and Melee attacks."
+		"description": "+{ranks} damage on all Brawl and Melee attacks."
 	},
 	{
 		"name": "Field Commander",
@@ -481,7 +481,7 @@
 	},
 	{
 		"name": "Fine Tuning",
-		"description": "Repair an additional System Strain per rank when repairing ships or vehicles."
+		"description": "Repair an additional {ranks} System Strain when repairing ships or vehicles."
 	},
 	{
 		"name": "Fire Control",
@@ -529,7 +529,7 @@
 	},
 	{
 		"name": "Frenzied Attack",
-		"description": "When making a Melee or Brawl check, suffer a number of Strain to upgrade the attack an equal number of times. The Strain suffered may not exceed ranks in Frenzied Attack."
+		"description": "When making a Melee or Brawl check, suffer up to {ranks} Strain to upgrade the attack an equal number of times."
 	},
 	{
 		"name": "Full Stop",
@@ -717,7 +717,7 @@
 	},
 	{
 		"name": "Intimidating",
-		"description": "May suffer up to 1 Strain per rank to downgrade the difficulty of a Coercion check a number of times equal to the Strain suffered; when targeted by Coercion, they may suffer up to 1 Strain per rank to upgrade the difficulty of the opponent’s check a number of times equal to the strain suffered."
+		"description": "May suffer up to {ranks} Strain to downgrade the difficulty of a Coercion check a number of times equal to the Strain suffered; when targeted by Coercion, they may suffer up to {ranks} Strain to upgrade the difficulty of the opponent’s check a number of times equal to the Strain suffered."
 	},
 	{
 		"name": "Intuitive Evasion",
@@ -777,7 +777,7 @@
 	},
 	{
 		"name": "Know Somebody",
-		"description": "Once per session, when attempting to purchase a legally available item, reduce its rarity by 1 per rank."
+		"description": "Once per session, when attempting to purchase a legally available item, reduce its rarity by {ranks}."
 	},
 	{
 		"name": "Knowledge is Power",
@@ -785,11 +785,11 @@
 	},
 	{
 		"name": "Knowledge Specialization",
-		"description": "When acquired, choose 1 Knowledge skill. When making that skill check, may spend :triumph: result to gain additional successes equal to ranks in Knowledge Specialization."
+		"description": "When acquired, choose 1 Knowledge skill. When making that skill check, may spend :triumph: result to gain {ranks} additional successes."
 	},
 	{
 		"name": "Knowledge Specialization: Lore",
-		"description": "When making skill checks with Knowledge: Lore, may spend :triumph: result to gain additional successes equal to ranks in Knowledge Specialization."
+		"description": "When making skill checks with Knowledge: Lore, may spend :triumph: result to gain {ranks} additional successes."
 	},
 
 	{
@@ -1098,7 +1098,7 @@
 	},
 	{
 		"name": "Point Blank",
-		"description": "Add 1 damage per rank to all Ranged: Heavy and Ranged: Light attacks made at Short or Engaged range."
+		"description": "Add {ranks} damage to all Ranged: Heavy and Ranged: Light attacks made at Short or Engaged range."
 	},
 	{
 		"name": "Positive Spin",
@@ -1110,11 +1110,11 @@
 	},
 	{
 		"name": "Powerful Blast",
-		"description": "Increase Blast damage dealt by explosives, explosive weapons, and grenades by 1 per rank."
+		"description": "Increase Blast damage dealt by explosives, explosive weapons, and grenades by {ranks}."
 	},
 	{
 		"name": "Precise Aim",
-		"description": "Once per round, may perform a Precise Aim maneuver to suffer up to 1 Strain per rank to reduce target’s melee and ranged defences by Strain spent."
+		"description": "Once per round, may perform a Precise Aim maneuver to suffer up to {ranks} Strain to reduce target’s melee and ranged defences by Strain spent."
 	},
 	{
 		"name": "Precision Strike",
@@ -1222,7 +1222,7 @@
 	},
 	{
 		"name": "Resolve",
-		"description": "When suffering Strain, reduce the amount suffered by one per rank, to a minimum of 1."
+		"description": "When suffering Strain, reduce the amount suffered by {ranks}, to a minimum of 1."
 	},
 	{
 		"name": "Resourceful Refit",
@@ -1262,7 +1262,7 @@
 	},
 	{
 		"name": "Second Chances",
-		"description": "Once per encounter, may choose 1 positive dice per rank in one skill check and reroll them."
+		"description": "Once per encounter, may choose {ranks} positive dice in one skill check and reroll them."
 	},
 	{
 		"name": "Second Wind",
@@ -1306,7 +1306,7 @@
 	},
 	{
 		"name": "Side Step",
-		"description": "As a maneuver may suffer 1 Strain per rank to upgrade the difficulty of all ranged attacks targeting this character by 1 per Strain spent until the start of the character’s next turn."
+		"description": "As a maneuver may suffer up to {ranks} Strain to upgrade the difficulty of all ranged attacks targeting this character by 1 per Strain spent until the start of the character’s next turn."
 	},
 	{
 		"name": "Signature Vehicle",
@@ -1338,19 +1338,19 @@
 	},
 	{
 		"name": "Smooth Talker (Charm)",
-		"description": "When making Charm checks, spend :triumph: to gain additional :success: per rank."
+		"description": "When making Charm checks, spend :triumph: to gain {ranks} additional :success:."
 	},
 	{
 		"name": "Smooth Talker (Coercion)",
-		"description": "When making Coercion checks, spend :triumph: to gain additional :success: per rank."
+		"description": "When making Coercion checks, spend :triumph: to gain {ranks}  additional :success:."
 	},
 	{
 		"name": "Smooth Talker (Deception)",
-		"description": "When making Deception checks, spend :triumph: to gain additional :success: per rank."
+		"description": "When making Deception checks, spend :triumph: to gain {ranks}  additional :success:."
 	},
 	{
 		"name": "Smooth Talker (Negotiation)",
-		"description": "When making Negotiation checks, spend :triumph: to gain additional :success: per rank."
+		"description": "When making Negotiation checks, spend :triumph: to gain {ranks}  additional :success:."
 	},
 	{
 		"name": "Sniper Shot",
@@ -1486,7 +1486,7 @@
 	},
 	{
 		"name": "Surgeon",
-		"description": "When making a Medicine check to help a character heal wounds, the target heals an additional Wound per rank."
+		"description": "When making a Medicine check to help a character heal wounds, the target heals {ranks} additional Wounds."
 	},
 	{
 		"name": "Survival of the Fittest",
