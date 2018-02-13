@@ -145,7 +145,7 @@
 	},
 	{
 		"name": "Covering Fire",
-		"description": "May spend a maneuver to add +1 ranged defense to up to three allied characters or minion groups within short range until the end of the next round; this does not stack with multiple uses."
+		"description": "May spend a maneuver to add +1 ranged Defence to up to three allied characters or minion groups within Short range until the end of the next round; this does not stack with multiple uses."
 	},
 	{
 		"name": "Create Bacta",
@@ -301,7 +301,7 @@
 	},
 	{
 		"name": "Intimidating Presence",
-		"description": "All enemies within short range add :threat: to all skill checks they make."
+		"description": "All enemies within Short range add :threat: to all skill checks they make."
 	},
 	{
 		"name": "Invoke Doellin",
@@ -329,7 +329,7 @@
 	},
 	{
 		"name": "For Quolas!",
-		"description": "As an action, make an :average: Leadership check to add :boost: to all combat checks by allies within short range for one round."
+		"description": "As an action, make an :average: Leadership check to add :boost: to all combat checks by allies within Short range for one round."
 	},
 	{
 		"name": "Sathari Glider",
@@ -469,7 +469,7 @@
 	},
 	{
 		"name": "Negate Force Powers",
-		"description": "An adult ysalamir creates a spherical zone extending out to short range, inside which Force-sensitive characters and creatures cannot exert influence over the Force. Inside this zone, any Force powers, Force talents, or other abilities that the GM decides work via the Force do not function. Likewise, such powers may not affect or detect any­thing within this zone."
+		"description": "An adult ysalamir creates a spherical zone extending out to Short range, inside which Force-sensitive characters and creatures cannot exert influence over the Force. Inside this zone, any Force powers, Force talents, or other abilities that the GM decides work via the Force do not function. Likewise, such powers may not affect or detect any­thing within this zone."
 	},
 	{
 		"name": "Networking",
