@@ -73,7 +73,7 @@
 	},
 	{
 		"name": "Beast of Burden",
-		"description": "Add ranks in Beast of Burden to the creature’s encumbrance threshold."
+		"description": "Add {ranks} to the creature’s encumbrance threshold."
 	},
 	{
 		"name": "Berzerk Rage",
@@ -133,7 +133,7 @@
 	},
 	{
 		"name": "Constabulary Honour",
-		"description": "Add automatic :threat: per rank to all social checks made to convince a constable to act against the best interest of Sullust."
+		"description": "Add automatic {ranks|threat} to all social checks made to convince a constable to act against the best interest of Sullust."
 	},
 	{
 		"name": "Constrictor",
@@ -233,7 +233,7 @@
 	},
 	{
 		"name": "Domesticable",
-		"description": "Downgrade the difficulty of checks to train this creature by one per rank."
+		"description": "Downgrade the difficulty of checks to train this creature {ranks|times}."
 	},
 	{
 		"name": "Domesticated",
@@ -437,7 +437,7 @@
 	},
 	{
 		"name": "Lorekeeper",
-		"description": "Remove :setback: per rank from all Knowledge: Lore checks."
+		"description": "Remove {ranks|setback} from all Knowledge: Lore checks."
 	},
 	{
 		"name": "Loyalty",
@@ -517,7 +517,7 @@
 	},
 	{
 		"name": "Plated Hide",
-		"description": "Add :setback: per rank to all combat checks against this target."
+		"description": "Add {ranks|setback} to all combat checks against this target."
 	},
 	{
 		"name": "Poisonous",
@@ -553,7 +553,7 @@
 	},
 	{
 		"name": "Regeneration",
-		"description": "When recovering from wounds via natural rest or in a bacta trank, recover 1 additional wound; first-aid, medical treatment, and stimpacks do not result in recovery from an additional wound; Trandoshans can regrow lost limbs, though it usually takes at least a month before such limbs are usable."
+		"description": "When recovering from wounds via natural rest or in a bacta tank, recover 1 additional Wound; first-aid, medical treatment, and stimpacks do not result in recovery from an additional wound; Trandoshans can regrow lost limbs, though it usually takes at least a month before such limbs are usable."
 	},
 	{
 		"name": "Resilient Metabolism",
@@ -693,7 +693,7 @@
 	},
 	{
 		"name": "Trained Mount",
-		"description": "Add :boost: per rank to a rider’s Survival checks while mounted."
+		"description": "Add {ranks|boost} to a rider’s Survival checks while mounted."
 	},
 	{
 		"name": "Trample",
@@ -721,7 +721,7 @@
 	},
 	{
 		"name": "Unstable",
-		"description": "When thrantas suffer a Critical Injury, they add +10 per rank to the Critical Injury roll."
+		"description": "When thrantas suffer a Critical Injury, they add {ranks|multiply-10} to the Critical Injury roll."
 	},
 	{
 		"name": "Overwhelming Fire",

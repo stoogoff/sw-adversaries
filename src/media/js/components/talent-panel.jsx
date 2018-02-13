@@ -29,11 +29,13 @@ export default class TalentPanel extends React.Component {
 		let setback = ["", ":setback:", ":setback::setback:", ":setback::setback::setback:"]
 		let boost = ["", ":boost:", ":boost::boost:", ":boost::boost::boost:"]
 		let success = ["", ":success:", ":success::success:", ":success::success::success:"]
+		let threat = ["", ":threat:", ":threat::threat:", ":threat::threat::threat:"]
 		let force = ["", ":force:", ":force::force:", ":force::force::force:"]
 
 		text = text.replace(/\{ranks\|setback\}/, s => setback[ranks]);
 		text = text.replace(/\{ranks\|boost\}/, s => boost[ranks]);
 		text = text.replace(/\{ranks\|success\}/, s => success[ranks]);
+		text = text.replace(/\{ranks\|threat\}/, s => threat[ranks]);
 		text = text.replace(/\{ranks\|force\}/, s => force[ranks]);
 
 		return text;
