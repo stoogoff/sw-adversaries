@@ -99,6 +99,8 @@ export default class Character extends React.Component {
 		}
 
 		let defence = "defence" in character.derived ? character.derived.defence.join(" | ") : "0 | 0";
+
+		// header icon based on important tags
 		let icon = null;
 
 		if(character.tags.indexOf("rebel alliance") != -1) {
@@ -111,6 +113,7 @@ export default class Character extends React.Component {
 			icon = <svg><use href="#first-order"></use></svg>;
 		}
 
+		// favourite icon
 		let fav = null;
 
 		if(character.favourite) {
@@ -119,6 +122,21 @@ export default class Character extends React.Component {
 		else {
 			fav = <svg onClick={ this.addFavourite.bind(this) }><use href="#icon-star-empty"></use></svg>;
 		}
+
+		// get all of the character's skills and characteristics as a hash
+		let stats = {};
+
+		for(var i in character.characteristics) {
+			stats[i] = character.characteristics[i];
+		}
+
+		// TODO this will break on minions
+
+		for(var i in character.skills) {
+			stats[i] = character.skills[i];
+		}
+
+		console.log(stats)
 
 		return <div className={ !this.props.visible ? "hidden" : null }>
 			<h1 data-adversary-type={ character.type }>{ icon } { character.name }</h1>
@@ -154,8 +172,8 @@ export default class Character extends React.Component {
 			<div className="column large">
 				<SkillPanel character={ character } skills={ this.props.skills } aliveMinions={ this.state.aliveMinions } minions={ this.state.minions } setMinions={ this.setMinions.bind(this) } />
 				<WeaponsPanel title="Weapons" character={ character } skills={ this.props.skills } weapons={ this.props.weapons } qualities={ this.props.qualities } talents={ this.props.talents } aliveMinions={ this.state.aliveMinions } minions={ this.state.minions } />
-				<TalentPanel title="Talents" data={ character.talents } talents={ this.props.talents } />
-				<TalentPanel title="Abilities" data={ character.abilities } talents={ this.props.talents } />
+				<TalentPanel title="Talents" stats={ stats } data={ character.talents } talents={ this.props.talents } />
+				<TalentPanel title="Abilities" stats={ stats } data={ character.abilities } talents={ this.props.talents } />
 				<InfoPanel title="Gear" data={ character.gear } />
 				<TagPanel title="Tags" data={ character.tags } />
 			</div>

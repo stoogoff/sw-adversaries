@@ -387,7 +387,7 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 2", "Force Rating 2"],
-		"abilities": ["Dark Side Force User", "Force power: Harm"],
+		"abilities": ["Darkside Force User", "Force power: Harm"],
 		"weapons": [
 			{
 				"name": "Vibro-trident",

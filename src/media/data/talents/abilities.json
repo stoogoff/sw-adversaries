@@ -129,7 +129,7 @@
 	},
 	{
 		"name": "Computer Affinity",
-		"description": "The Intrusion Specialist may add :force: to any Computers check or Skulduggery check to analyze or infiltrate a security system. Spend :lightside: to add :advantage: to the check. Spend :lightside::lightside: to add :success: to any Computers check."
+		"description": "The Intrusion Specialist may add :force: to any Computers check or Skulduggery check to analyse or infiltrate a security system. Spend :lightside: to add :advantage: to the check. Spend :lightside::lightside: to add :success: to any Computers check."
 	},
 	{
 		"name": "Constabulary Honour",
@@ -165,15 +165,15 @@
 	},
 	{
 		"name": "Crushing Grip",
-		"description": "Can maintain a grip on an unfortunate target; as long as it has a victim immobilized in its tentacles, it inflicts 2 strain and 1 wound at the start of the victim’s turn."
+		"description": "Can maintain a grip on an unfortunate target; as long as it has a victim immobilised in its tentacles, it inflicts 2 Strain and 1 Wound at the start of the victim’s turn."
 	},
 	{
 		"name": "Crushing Body",
-		"description": "Any victim affected by the korrak’s Ensnare quality suffers 2 Strain and 1 Wound ignoring soak at the beginning of their turn."
+		"description": "Any victim affected by the korrak’s Ensnare quality suffers 2 Strain and 1 Wound ignoring Soak at the beginning of their turn."
 	},
 	{
 		"name": "Crystalline",
-		"description": "Does not need to breathe and can survive in vacuum and underwater; immune to poisons and toxins"
+		"description": "Does not need to breathe and can survive in vacuum and underwater; immune to poisons and toxins."
 	},
 	{
 		"name": "Cunning Ambusher",
@@ -345,7 +345,7 @@
 	},
 	{
 		"name": "Hard to Kill",
-		"description": "The GM may flip one dark side Destiny Point to have the Kintan Strider heal 5 Wounds"
+		"description": "The GM may flip one dark side Destiny Point to have the Kintan Strider heal 5 Wounds."
 	},
 	{
 		"name": "Hardy",
@@ -377,7 +377,7 @@
 	},
 	{
 		"name": "Humming Vibrations",
-		"description": "As an action, may make an Opposed Charm vs. Discipline check against a target at up to Medium range to disorient the target for a number of rounds equal to :success:; may spend :advantage::advantage::advantage: or :triumph: to stag­ger the target for 1 round instead."
+		"description": "As an action, may make an opposed Charm vs. Discipline check against a target at up to Medium range to disorient the target for a number of rounds equal to :success:; may spend :advantage::advantage::advantage: or :triumph: to stag­ger the target for 1 round instead."
 	},
 	{
 		"name": "Imperial Valour",

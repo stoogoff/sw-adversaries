@@ -3,11 +3,22 @@ import React from "react";
 import { id, symbolise, sortByProperty } from "lib/utils";
 
 export default class TalentPanel extends React.Component {
+	statify(text) {
+		Object.keys(this.props.stats).forEach(k => {
+			let reg = new RegExp(`\{${k}\}`, "g");
+
+			text = text.replace(reg, this.props.stats[k]);
+		});
+
+		return text;
+	}
+
 	render() {
 		if(this.props.data == null) {
 			return null;
 		}
 
+		let stats = this.props.stats;
 		let data = this.props.data;
 		let talents = [];
 		let allTalents = this.props.talents.all();
@@ -30,7 +41,7 @@ export default class TalentPanel extends React.Component {
 				talents.push({
 					id: talent.id,
 					name: t,
-					description: talent.description
+					description: this.statify(talent.description)
 				});
 			}
 		});

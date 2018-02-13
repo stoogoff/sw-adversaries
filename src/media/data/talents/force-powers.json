@@ -17,7 +17,7 @@
 	},
 	{
 		"name": "Force power: Harm",
-		"description": "May make a Harm Force power check against one engaged target. Spend :darkside: to inflict a number of Wounds equal to Intellect on the target, ignoring Soak. Spend :darkside: to increase wounds inflicted by Intellect (may activate this multiple times), and spend :darkside: to heal wounds equal to wounds inflicted."
+		"description": "May make a Harm Force power check against one engaged target. Spend :darkside: to inflict {Intellect} Wounds on the target, ignoring Soak. Spend :darkside: to increase wounds inflicted by {Intellect} (may activate this multiple times), and spend :darkside: to heal Wounds equal to Wounds inflicted."
 	},
 	{
 		"name": "Force power: Misdirect",
