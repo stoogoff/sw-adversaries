@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Adversary",
-		"description": "Upgrade the difficulty of any combat check targeting this character once per rank."
+		"description": "Upgrade the difficulty of any combat check targeting this character {ranks|times}."
 	},
 	{
 		"name": "Against all Odds",
@@ -85,7 +85,7 @@
 	},
 	{
 		"name": "Black Market Contacts",
-		"description": "Decrease rarity of sought item by {ranks} when looking on the black market; item’s cost is increased by 50%."
+		"description": "Decrease rarity of sought item by {ranks|words} when looking on the black market; item’s cost is increased by 50%."
 	},
 	{
 		"name": "Blackmail",
@@ -137,7 +137,7 @@
 	},
 	{
 		"name": "Bypass Security",
-		"description": "Remove :setback: per rank from any Computers or Skulduggery check to bypass security."
+		"description": "Remove {ranks|setback} from any Computers or Skulduggery check to bypass security."
 	},
 	{
 		"name": "Call ’em",
@@ -181,15 +181,15 @@
 	},
 	{
 		"name": "Codebreaker",
-		"description": "Remove :setback: per rank from checks made to break codes or decrypt communications; decrease difficulty of checks made to break codes or decrypt commu­nications by 1."
+		"description": "Remove {ranks|setback} from checks made to break codes or decrypt communications; decrease difficulty of checks made to break codes or decrypt commu­nications by 1."
 	},
 	{
 		"name": "Command",
-		"description": "Add :boost: per rank to Leadership checks; affected targets add :boost: per rank to Discipline checks for the next 24 hours."
+		"description": "Add {ranks|boost} to Leadership checks; affected targets add {ranks|boost} to Discipline checks for the next 24 hours."
 	},
 	{
 		"name": "Commanding Presence",
-		"description": "Remove :setback: per rank from all Leadership checks."
+		"description": "Remove {ranks|setback} from all Leadership checks."
 	},
 	{
 		"name": "Commanding Presence (Improved)",
@@ -205,7 +205,7 @@
 	},
 	{
 		"name": "Confidence",
-		"description": "Decrease difficulty of Discipline checks to avoid fear by {ranks}."
+		"description": "Decrease difficulty of Discipline checks to avoid fear {ranks|times}."
 	},
 	{
 		"name": "Confidence (Improved)",
@@ -225,7 +225,7 @@
 	},
 	{
 		"name": "Convincing Demeanor",
-		"description": "Remove :setback: per rank from any Deception or Skulduggery check."
+		"description": "Remove {ranks|setback} from any Deception or Skulduggery check."
 	},
 	{
 		"name": "Coordinated Assault",
@@ -309,11 +309,11 @@
 	},
 	{
 		"name": "Defensive Driving",
-		"description": "Increase Defence of vehicle or starship being piloted by {ranks}."
+		"description": "Increase Defence of vehicle or starship being piloted {ranks|times}."
 	},
 	{
 		"name": "Defensive Slicing",
-		"description": "When defending computer systems, add :setback: per rank to opponents’ checks."
+		"description": "When defending computer systems, add {ranks|setback} to opponents’ checks."
 	},
 	{
 		"name": "Defensive Slicing [Improved]",
@@ -341,7 +341,7 @@
 	},
 	{
 		"name": "Disorient",
-		"description": "After hitting with a combat check, may spend :advantage::advantage: to disorient target for {ranks} rounds."
+		"description": "After hitting with a combat check, may spend :advantage::advantage: to disorient target for {ranks|words} rounds."
 	},
 	{
 		"name": "Disruptive Strike",
@@ -393,7 +393,7 @@
 	},
 	{
 		"name": "Durable",
-		"description": "Subtract 10 per rank from Critical Injury rolls made against the character."
+		"description": "Subtract {ranks|multiply-10} from Critical Injury rolls made against the character."
 	},
 	{
 		"name": "Dynamic Fire",
@@ -441,7 +441,7 @@
 	},
 	{
 		"name": "Expert Tracker",
-		"description": "Remove :setback: per rank from checks to find tracks or track targets; decrease time to track a target by 50%."
+		"description": "Remove {ranks|setback} from checks to find tracks or track targets; decrease time to track a target by 50%."
 	},
 	{
 		"name": "Eye for Detail",
@@ -509,7 +509,7 @@
 	},
 	{
 		"name": "Force Rating",
-		"description": "Roll :force: per rank to activate Force powers."
+		"description": "Roll {ranks|force} to activate Force powers."
 	},
 	{
 		"name": "Forewarning",
@@ -549,7 +549,7 @@
 	},
 	{
 		"name": "Galaxy Mapper",
-		"description": "Remove :setback: per rank from all Astrogation checks; Astrogation checks take 25% less time per rank."
+		"description": "Remove {ranks|setback} from all Astrogation checks; Astrogation checks take 25% less time per rank."
 	},
 	{
 		"name": "Gang Leader",
@@ -557,11 +557,11 @@
 	},
 	{
 		"name": "Gearhead",
-		"description": "Remove :setback: per rank from Mechanics checks."
+		"description": "Remove {ranks|setback} from Mechanics checks."
 	},
 	{
 		"name": "Good Cop",
-		"description": "The character may spend :advantage::advantage: from a Charm or Negotiation check to upgrade the ability of a single ally’s subsequent social interaction check against the same target as number of times equal to ranks in Good Cop."
+		"description": "The character may spend :advantage::advantage: from a Charm or Negotiation check to upgrade the ability of a single ally’s subsequent social interaction check against the same target {ranks|times}."
 	},
 	{
 		"name": "Grapple",
@@ -569,7 +569,7 @@
 	},
 	{
 		"name": "Greased Palms",
-		"description": "Before making a social check, may spend up to 50 cred­its per rank to upgrade the ability of the check once per 50 credits spent."
+		"description": "Before making a social check, may spend up to {ranks|multiply-50} cred­its to upgrade the ability of the check once per 50 credits spent."
 	},
 	{
 		"name": "Grit",
@@ -637,7 +637,7 @@
 	},
 	{
 		"name": "Hunter",
-		"description": "Add :boost: per rank to all skill checks when interacting with wild beasts and animals, including combat checks. Add +10 per rank to all Criti­cal Injury rolls against animals."
+		"description": "Add {ranks|boost} to all skill checks when interacting with wild beasts and animals, including combat checks. Add {ranks|multiply-10} to all Criti­cal Injury rolls against animals."
 	},
 	{
 		"name": "Hunter’s Quarry",
@@ -677,7 +677,7 @@
 	},
 	{
 		"name": "Indistinguishable",
-		"description": "Opposing characters upgrade the difficulty of any checks made to identify the character once per rank."
+		"description": "Opposing characters upgrade the difficulty of any checks made to identify the character {ranks|times}."
 	},
 	{
 		"name": "Informant",
@@ -765,11 +765,11 @@
 	},
 	{
 		"name": "Keen Eyed",
-		"description": "Remove :setback: per rank from Perception and Vigilance checks; checks made to search a specific time take 50% less time than usual."
+		"description": "Remove {ranks|setback} from Perception and Vigilance checks; checks made to search a specific time take 50% less time than usual."
 	},
 	{
 		"name": "Kill with Kindness",
-		"description": "Remove :setback: per rank from all Charm and Leadership checks."
+		"description": "Remove {ranks|setback} from all Charm and Leadership checks."
 	},
 	{
 		"name": "Knockdown",
@@ -777,7 +777,7 @@
 	},
 	{
 		"name": "Know Somebody",
-		"description": "Once per session, when attempting to purchase a legally available item, reduce its rarity by {ranks}."
+		"description": "Once per session, when attempting to purchase a legally available item, reduce its rarity by {ranks|words}."
 	},
 	{
 		"name": "Knowledge is Power",
@@ -785,11 +785,11 @@
 	},
 	{
 		"name": "Knowledge Specialization",
-		"description": "When acquired, choose 1 Knowledge skill. When making that skill check, may spend :triumph: result to gain {ranks} additional successes."
+		"description": "When acquired, choose 1 Knowledge skill. When making that skill check, may spend :triumph: result to gain {ranks|success}."
 	},
 	{
 		"name": "Knowledge Specialization: Lore",
-		"description": "When making skill checks with Knowledge: Lore, may spend :triumph: result to gain {ranks} additional successes."
+		"description": "When making skill checks with Knowledge: Lore, may spend :triumph: result to gain {ranks|success}."
 	},
 
 	{
@@ -814,7 +814,7 @@
 	},
 	{
 		"name": "Lethal Blows",
-		"description": "Add +10 per rank to Critical In­jury rolls against opponents."
+		"description": "Add {ranks|multiply-10} to Critical In­jury rolls against opponents."
 	},
 	{
 		"name": "Lightsaber Mastery",
@@ -822,7 +822,7 @@
 	},
 	{
 		"name": "Loom",
-		"description": "When an Engaged ally makes a successful Charm, Deception, or Negotia­tion check, add :advantage: per rank in Coercion to the check."
+		"description": "When an Engaged ally makes a successful Charm, Deception, or Negotia­tion check, add advantage: per rank in Coercion to the check."
 	},
 	{
 		"name": "Machine Mender",
@@ -1010,7 +1010,7 @@
 	},
 	{
 		"name": "Nobody’s Fool",
-		"description": "Upgrade difficulty of Charm, Coercion, and Deception checks targeting the character once per rank."
+		"description": "Upgrade difficulty of Charm, Coercion, and Deception checks targeting the character {ranks|times}."
 	},
 	{
 		"name": "Not Today",
@@ -1030,7 +1030,7 @@
 	},
 	{
 		"name": "Outdoorsman",
-		"description": "Remove :setback: per rank from checks to move through terrain or manage environmental effects; reduce overland travel times by 50%."
+		"description": "Remove {ranks|setback} from checks to move through terrain or manage environmental effects; reduce overland travel times by 50%."
 	},
 	{
 		"name": "Overbalance",
@@ -1062,7 +1062,7 @@
 	},
 	{
 		"name": "Parry",
-		"description": "When struck by a melee attack but before applying Soak, suffer 3 Strain to reduce damage by 2 plus ranks in Parry."
+		"description": "When struck by a melee attack but before applying Soak, suffer 3 Strain to reduce damage by {ranks|plus-2}."
 	},
 	{
 		"name": "Improved Parry",
@@ -1090,7 +1090,7 @@
 	},
 	{
 		"name": "Plausible Deniability",
-		"description": "Remove :setback: per rank from all Coercion and Deception checks."
+		"description": "Remove {ranks|setback} from all Coercion and Deception checks."
 	},
 	{
 		"name": "Plausible Deniability (Improved)",
@@ -1162,7 +1162,7 @@
 	},
 	{
 		"name": "Quick Strike",
-		"description": "When performing a combat check, add :boost: per rank against any target that has not yet acted in the encounter."
+		"description": "When performing a combat check, add {ranks|boost} against any target that has not yet acted in the encounter."
 	},
 	{
 		"name": "Rain of Death",
@@ -1186,7 +1186,7 @@
 	},
 	{
 		"name": "Reflect",
-		"description": "When struck by a ranged attack but before apply­ing Soak, suffer 3 Strain to reduce damage by 2 plus ranks in Reflect."
+		"description": "When struck by a ranged attack but before apply­ing Soak, suffer 3 Strain to reduce damage by {ranks|plus-2}."
 	},
 	{
 		"name": "Improved Reflect",
@@ -1210,7 +1210,7 @@
 	},
 	{
 		"name": "Researcher",
-		"description": "Remove :setback: per rank from all Knowledge checks; researching a subject takes half the time."
+		"description": "Remove {ranks|setback} from all Knowledge checks; researching a subject takes half the time."
 	},
 	{
 		"name": "Researcher (Improved)",
@@ -1262,7 +1262,7 @@
 	},
 	{
 		"name": "Second Chances",
-		"description": "Once per encounter, may choose {ranks} positive dice in one skill check and reroll them."
+		"description": "Once per encounter, may choose {ranks|words} positive dice in one skill check and reroll them."
 	},
 	{
 		"name": "Second Wind",
@@ -1270,7 +1270,7 @@
 	},
 	{
 		"name": "Selective Detonation",
-		"description": "When using a weapon with the Blast quality, spend :advantage: to exclude 1 target that would normally be affected by the explosion. Multiple targets may be excluded up to ranks in Selective Detonation."
+		"description": "When using a weapon with the Blast quality, spend :advantage: to exclude one target that would normally be affected by the explosion. Multiple targets may be excluded up to ranks in Selective Detonation."
 	},
 	{
 		"name": "Sense Advantage",
@@ -1294,7 +1294,7 @@
 	},
 	{
 		"name": "Shortcut",
-		"description": "During a chase, add :boost: per rank to any checks made to catch or escape an opponent."
+		"description": "During a chase, add {ranks|boost} to any checks made to catch or escape an opponent."
 	},
 	{
 		"name": "Shortcut (Improved)",
@@ -1322,7 +1322,7 @@
 	},
 	{
 		"name": "Skilled Jockey",
-		"description": "Remove :setback: per rank from all Pilot checks."
+		"description": "Remove {ranks|setback} from all Pilot checks."
 	},
 	{
 		"name": "Skilled Slicer",
@@ -1338,19 +1338,19 @@
 	},
 	{
 		"name": "Smooth Talker (Charm)",
-		"description": "When making Charm checks, spend :triumph: to gain {ranks} additional :success:."
+		"description": "When making Charm checks, spend :triumph: to gain {ranks|words} additional :success:."
 	},
 	{
 		"name": "Smooth Talker (Coercion)",
-		"description": "When making Coercion checks, spend :triumph: to gain {ranks}  additional :success:."
+		"description": "When making Coercion checks, spend :triumph: to gain {ranks|words}  additional :success:."
 	},
 	{
 		"name": "Smooth Talker (Deception)",
-		"description": "When making Deception checks, spend :triumph: to gain {ranks}  additional :success:."
+		"description": "When making Deception checks, spend :triumph: to gain {ranks|words}  additional :success:."
 	},
 	{
 		"name": "Smooth Talker (Negotiation)",
-		"description": "When making Negotiation checks, spend :triumph: to gain {ranks}  additional :success:."
+		"description": "When making Negotiation checks, spend :triumph: to gain {ranks|words}  additional :success:."
 	},
 	{
 		"name": "Sniper Shot",
@@ -1386,7 +1386,7 @@
 	},
 	{
 		"name": "Speaks Binary",
-		"description": "When directing NPC droids, may grant them :boost: per rank of Speaks Binary on all skill checks."
+		"description": "When directing NPC droids, may grant them {ranks|boost} of Speaks Binary on all skill checks."
 	},
 	{
 		"name": "Speaks Binary (Improved)",
@@ -1414,7 +1414,7 @@
 	},
 	{
 		"name": "Stalker",
-		"description": "Add :boost: per rank to all Coordination and Stealth checks."
+		"description": "Add {ranks|boost} to all Coordination and Stealth checks."
 	},
 	{
 		"name": "Steady Nerves",
@@ -1446,7 +1446,7 @@
 	},
 	{
 		"name": "Street Smarts",
-		"description": "Remove :setback: per rank from any Knowledge: Underworld or Streetwise checks."
+		"description": "Remove {ranks|setback} from any Knowledge: Underworld or Streetwise checks."
 	},
 	{
 		"name": "Stroke of Genius",
@@ -1566,7 +1566,7 @@
 	},
 	{
 		"name": "True Aim",
-		"description": "Once per round, may perform a True Aim maneuver to gain benefits of aiming and upgrade combat check once per rank of True Aim."
+		"description": "Once per round, may perform a True Aim maneuver to gain benefits of aiming and upgrade combat check {ranks|times} of True Aim."
 	},
 	{
 		"name": "Tuned Maneuvering Thrusters",
@@ -1578,11 +1578,11 @@
 	},
 	{
 		"name": "Uncanny Reactions",
-		"description": "Add :boost: per rank to all Vigilance checks."
+		"description": "Add {ranks|boost} to all Vigilance checks."
 	},
 	{
 		"name": "Uncanny Senses",
-		"description": "Add :boost: per rank to all Perception checks."
+		"description": "Add {ranks|boost} to all Perception checks."
 	},
 	{
 		"name": "Unrelenting Skeptic",
@@ -1634,7 +1634,7 @@
 	},
 	{
 		"name": "Wheel and Deal",
-		"description": "When selling goods legally, gain 10% more credits per rank."
+		"description": "When selling goods legally, gain {ranks|multiply-10}% more credits."
 	},
 	{
 		"name": "Works Like a Charm",

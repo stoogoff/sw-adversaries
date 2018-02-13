@@ -177,7 +177,7 @@
 	},
 	{
 		"name": "Cunning Ambusher",
-		"description": "Opponents add :setback: per rank to Initiative checks using Vigilance."
+		"description": "Opponents add {ranks|setback} to Initiative checks using Vigilance."
 	},
 	{
 		"name": "Cybernetic Communications",
