@@ -1228,7 +1228,6 @@
 			"Piloting: Planetary": 3
 		},
 		"talents": ["Natural Driver"],
-		"abilities": [],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Comlink"],
 		"tags": ["adventure:Onslaught at Arda I", "book:oaa", "location:Ord Radama", "empire", "imperial military"]

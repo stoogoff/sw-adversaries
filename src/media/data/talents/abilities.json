@@ -516,6 +516,10 @@
 		"description": "Weequay may communicate with other Weequay using pheromones if they are within Short range of each other."
 	},
 	{
+		"name": "Plated Hide",
+		"description": "Add :setback: per rank to all combat checks against this target."
+	},
+	{
 		"name": "Poisonous",
 		"description": "Any creature that successfully hits the amphibipole with a successful unarmed attack must succeed at a :hard: Resilience check or be poisoned, suffering 3 Wounds at the beginning of the turn for the next three rounds (this ignores Soak)."
 	},
@@ -733,7 +737,7 @@
 	},
 	{
 		"name": "Vulnerable to Blasts",
-		"description": "Add :boost::boost: to checks made with weapons with the Blast qualiLy targeting minion groups of butterbug remotes."
+		"description": "Add :boost::boost: to checks made with weapons with the Blast quality targeting minion groups of butterbug remotes."
 	},
 	{
 		"name": "Wilderness Valor",

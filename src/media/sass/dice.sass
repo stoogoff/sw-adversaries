@@ -14,7 +14,7 @@
 	position: absolute
 	top: 0
 	left: 0
-	color: darken($heading, 10%)
+	color: #111
 
 
 .ability
@@ -29,9 +29,11 @@
 	&:after
 		content: "C"
 
-.setback:after
-	content: "B"
-	
+.setback
+	color: map-get($dice, "setback")
+
+	&:after
+		content: "B"
 
 .boost
 	color: map-get($dice, "boost")
