@@ -129,7 +129,7 @@
 	},
 	{
 		"name": "Computer Affinity",
-		"description": "The Intrusion Specialist may add :force: to any Computers check or Skulduggery check to analyse or infiltrate a security system. Spend :lightside: to add :advantage: to the check. Spend :lightside::lightside: to add :success: to any Computers check."
+		"description": "The Intrusion Specialist may add :force: to any Computers check or Skulduggery check to analyse or infiltrate a security system. Spend :forcepip: to add :advantage: to the check. Spend :forcepip::forcepip: to add :success: to any Computers check."
 	},
 	{
 		"name": "Constabulary Honour",
@@ -221,7 +221,7 @@
 	},
 	{
 		"name": "Draw Closer (Skysnare)",
-		"description": "The skysnare may take a Draw Closer action, making a Brawl combat check against one Silhouette 1 (or smaller) target within Medium range and adding :force::force: to the check. The skysnare may spend :lightside: before resolving the success or failure of the check to move the target one range band closer to the skysnare (including from Short to Engaged). It may also spend :lightside: to add :success: to the combat check. If the skysnare cannot move its target to engage it, the combat check automatically misses."
+		"description": "The skysnare may take a Draw Closer action, making a Brawl combat check against one Silhouette 1 (or smaller) target within Medium range and adding :force::force: to the check. The skysnare may spend :forcepip: before resolving the success or failure of the check to move the target one range band closer to the skysnare (including from Short to Engaged). It may also spend :forcepip: to add :success: to the combat check. If the skysnare cannot move its target to engage it, the combat check automatically misses."
 	},
 	{
 		"name": "Droid",

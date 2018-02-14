@@ -498,15 +498,15 @@
 			"Darkside Force User",
 			{
 				"name": "Force power: Jerserra’s Influence",
-				"description": "Jerserra may spend :darkside: and target one character within Short range. That character must immediately make an :average: fear check as an out of turn incidental. If the target suffers Strain as a result of that fear check, she recovers from an equal amount of Strain. She may also spend :darkside: to extend the power’s range to Medium."
+				"description": "Jerserra may spend :forcepip: and target one character within Short range. That character must immediately make an :average: fear check as an out of turn incidental. If the target suffers Strain as a result of that fear check, she recovers from an equal amount of Strain. She may also spend :forcepip: to extend the power’s range to Medium."
 			},
 			{
 				"name": "Force power: Move",
-				"description": "Jerserra may spend :darkside: to move one Silhouette 0 object within Short range to another location within Short range. She can spend :darkside: to increase range one band, spend :darkside: to increase Silhouette movable to 1, and spend :darkside: to increase number of objects movable at one time by one (to a maximum of two). Jerserra can hurl objects by making a Move Force power check and rolling a ranged attack as part of the pool. The attack’s difficulty is equal to the Silhouette of the object being thrown and only succeeds if she can spend enough :darkside: to move the object. The attack deals damage equal to the Silhouette of the object times 10 (Silhouette 0 deals 5 damage) plus one per :success:. To throw multiple objects, she must generate enough :darkside: to move multiple objects, and must use rules for Auto-Fire to determine difficulty and targeting."
+				"description": "Jerserra may spend :forcepip: to move one Silhouette 0 object within Short range to another location within Short range. She can spend :forcepip: to increase range one band, spend :forcepip: to increase Silhouette movable to 1, and spend :forcepip: to increase number of objects movable at one time by one (to a maximum of two). Jerserra can hurl objects by making a Move Force power check and rolling a ranged attack as part of the pool. The attack’s difficulty is equal to the Silhouette of the object being thrown and only succeeds if she can spend enough :forcepip: to move the object. The attack deals damage equal to the Silhouette of the object times 10 (Silhouette 0 deals 5 damage) plus one per :success:. To throw multiple objects, she must generate enough :forcepip: to move multiple objects, and must use rules for Auto-Fire to determine difficulty and targeting."
 			},
 			{
 				"name": "Force power: Unleash",
-				"description": "Jerserra makes a Force power check and targets one enemy at Short range, and rolls a ranged attack as part of the pool, using an :average: Discipline check instead of normal difficulty. If the check is successful and generates :darkside::darkside: the attack deals 3 damage with a critical rating of 4, plus 1 additional damage per :success:. May spend :darkside: to increase damage by 2, and :darkside: to increase range to Medium."
+				"description": "Jerserra makes a Force power check and targets one enemy at Short range, and rolls a ranged attack as part of the pool, using an :average: Discipline check instead of normal difficulty. If the check is successful and generates :forcepip::forcepip: the attack deals 3 damage with a critical rating of 4, plus 1 additional damage per :success:. May spend :forcepip: to increase damage by 2, and :forcepip: to increase range to Medium."
 			}
 		],
 		"weapons": [
@@ -540,7 +540,7 @@
 				"damage": 3,
 				"critical": 4,
 				"range": "Short",
-				"notes": "May spend :darkside: to increase damage by 2 and :darkside: to increase range to Medium."
+				"notes": "May spend :forcepip: to increase damage by 2 and :forcepip: to increase range to Medium."
 			}
 		],
 		"gear": ["Heavy clothing (+1 Soak)", "Secure comlink"],
@@ -1039,7 +1039,7 @@
 			"Silhouette 0",
 			{
 				"name": "Force Power: Enhance",
-				"description": "When making an Athletics check, the vursonk combines it with an Enhance power check, rolling :force:; may spend :darkside: to gain :success: or :advantage:, or may spend :lightside: by using a Destiny Point and suffering 1 Wound per :lightside: used."
+				"description": "When making an Athletics check, the vursonk combines it with an Enhance power check, rolling :force:; may spend :forcepip: to gain :success: or :advantage:, or may spend :forcepip: by using a Destiny Point and suffering 1 Wound per :forcepip: used."
 			},
 			{
 				"name": "Infrared Vision",
@@ -1177,7 +1177,7 @@
 			"Darkside Force User",
 			{
 				"name": "Force Power: Unleash",
-				"description": "The manifested Narditihi Nightsister makes a Force power check targeting one enemy at Short range, and rolls a ranged attack as part of the pool, using an :average: Discipline check instead of normal difficulty. If the check is successful and generates :darkside::darkside:, the attack deals 3 damage with a critical rating of 4, plus 1 additional per :success:. May spend :darkside: to increase damage by 2 and :darkside: to increase range to Medium."
+				"description": "The manifested Narditihi Nightsister makes a Force power check targeting one enemy at Short range, and rolls a ranged attack as part of the pool, using an :average: Discipline check instead of normal difficulty. If the check is successful and generates :forcepip::forcepip:, the attack deals 3 damage with a critical rating of 4, plus 1 additional per :success:. May spend :forcepip: to increase damage by 2 and :forcepip: to increase range to Medium."
 			}
 		],
 		"weapons": [
@@ -1187,7 +1187,7 @@
 				"damage": 3,
 				"critical": 4,
 				"range": "Short",
-				"notes": "May spend :darkside: to increase damage by 2 and :darkside: to increase range to Medium."
+				"notes": "May spend :forcepip: to increase damage by 2 and :forcepip: to increase range to Medium."
 			}
 		],
 		"tags": ["adventure:Ghosts of Dathomir", "book:god", "location:Dathomir", "nightsister", "jerserra’s gang", "force sensitive", "darkside"]
@@ -1237,15 +1237,15 @@
 			"Darkside Force User",
 			{
 				"name": "Force power: Jerserra’s Influence",
-				"description": "Jerserra may spend :darkside: and target one character per :darkside: within Short range. That character must immediately make a :hard: fear check as an out of turn incidental. If the target suffers Strain as a result of that fear check, she recovers an amount of Strain equal to the total suffered. She may also spend :darkside: to target one additional character, and :darkside: to extend the power’s range to Medium."
+				"description": "Jerserra may spend :forcepip: and target one character per :forcepip: within Short range. That character must immediately make a :hard: fear check as an out of turn incidental. If the target suffers Strain as a result of that fear check, she recovers an amount of Strain equal to the total suffered. She may also spend :forcepip: to target one additional character, and :forcepip: to extend the power’s range to Medium."
 			},
 			{
 				"name": "Force power: Move",
-				"description": "Jerserra may spend :darkside: to move one Silhouette 0 object within Short range to another location within Short range. She can spend :darkside: to increase range one band, spend :darkside: to increase Silhouette movable to 1, and spend :darkside: to increase number of objects movable at one time by one (to a maximum of two). Jerserra can hurl objects by making a Move Force power check and rolling a ranged attack as part of the pool. The attack’s difficulty is equal to the Silhouette of the object being thrown and only succeeds if she can spend enough :darkside: to move the object. The attack deals damage equal to the Silhouette of the object times 10 (Silhouette 0 deals 5 damage) plus one per :success:. To throw multiple objects, she must generate enough :darkside: to move multiple objects, and must use rules for Auto-Fire to determine difficulty and targeting."
+				"description": "Jerserra may spend :forcepip: to move one Silhouette 0 object within Short range to another location within Short range. She can spend :forcepip: to increase range one band, spend :forcepip: to increase Silhouette movable to 1, and spend :forcepip: to increase number of objects movable at one time by one (to a maximum of two). Jerserra can hurl objects by making a Move Force power check and rolling a ranged attack as part of the pool. The attack’s difficulty is equal to the Silhouette of the object being thrown and only succeeds if she can spend enough :forcepip: to move the object. The attack deals damage equal to the Silhouette of the object times 10 (Silhouette 0 deals 5 damage) plus one per :success:. To throw multiple objects, she must generate enough :forcepip: to move multiple objects, and must use rules for Auto-Fire to determine difficulty and targeting."
 			},
 			{
 				"name": "Force power: Unleash",
-				"description": "Jerserra makes a Force power check and targets one enemy at Short range, and rolls a ranged attack as part of the pool, using an :average: Discipline check instead of normal difficulty. If the check is successful and generates :darkside::darkside: the attack deals 3 damage with a critical rating of 4, plus 1 additional damage per :success:. May spend :darkside: to increase damage by 2, and :darkside: to increase range to Medium."
+				"description": "Jerserra makes a Force power check and targets one enemy at Short range, and rolls a ranged attack as part of the pool, using an :average: Discipline check instead of normal difficulty. If the check is successful and generates :forcepip::forcepip: the attack deals 3 damage with a critical rating of 4, plus 1 additional damage per :success:. May spend :forcepip: to increase damage by 2, and :forcepip: to increase range to Medium."
 			}
 		],
 		"weapons": [
@@ -1279,7 +1279,7 @@
 				"damage": 3,
 				"critical": 4,
 				"range": "Short",
-				"notes": "May spend :darkside: to increase damage by 2 and :darkside: to increase range to Medium."
+				"notes": "May spend :forcepip: to increase damage by 2 and :forcepip: to increase range to Medium."
 			},
 			"Thermal detonator"
 		],

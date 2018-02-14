@@ -43,11 +43,7 @@
 			"Aura of Command", "Darkside Force User", "Force Rating 3",
 			{
 				"name": "Force power: Harm",
-				"description": "May make a Harm Force power check against one Engaged target. Spend :darkside: to inflict a number of Wounds equal to Intellect on the target, ignoring Soak. Spend :darkside: to increase wounds inflicted by Intellect (may activate this multiple times), and spend :darkside: to heal wounds equal to wounds inflicted on self or an Engaged ally. May spend :darkside: to increase the range of the power by one range band (may activate multiple times) and may spend :darkside: to increase the number of enemies affected by one (may activate multiple times)."
-			},
-			{
-				"name": "Test",
-				"description": ":advantage::threat::success::failure::despair::triumph::boost::proficiency::ability::setback::challenge::difficulty::force::lightside::darkside::forcepip::easy::average::hard::daunting::formidable:"
+				"description": "May make a Harm Force power check against one Engaged target. Spend :forcepip: to inflict a number of Wounds equal to Intellect on the target, ignoring Soak. Spend :forcepip: to increase wounds inflicted by Intellect (may activate this multiple times), and spend :forcepip: to heal wounds equal to wounds inflicted on self or an Engaged ally. May spend :forcepip: to increase the range of the power by one range band (may activate multiple times) and may spend :forcepip: to increase the number of enemies affected by one (may activate multiple times)."
 			}
 		],
 		"weapons": [
@@ -175,7 +171,7 @@
 			"Force Rating 3",
 			{
 				"name": "Force power: Seek",
-				"description": ":lightside::lightside:: Gain insight into the general location or direction of a person or object; :lightside:: Succeed at an :average: Vigilance check to see through illusions."
+				"description": ":forcepip::forcepip:: Gain insight into the general location or direction of a person or object; :forcepip:: Succeed at an :average: Vigilance check to see through illusions."
 			}
 		],
 		"weapons": [
@@ -225,7 +221,7 @@
 			"Force Rating 2",
 			{
 				"name": "Force power: Sense",
-				"description": ":lightside:: Sense all living beings within Short range; :lightside:: Sense the emotional state of one living target at Engaged range."
+				"description": ":forcepip:: Sense all living beings within Short range; :forcepip:: Sense the emotional state of one living target at Engaged range."
 			}
 		],
 		"weapons": [
@@ -332,11 +328,11 @@
 			"Force Rating 3",
 			{
 				"name": "Force power: Influence",
-				"description": ":darkside:: inflict 2 Strain on target in Short range (may activate multiple times); :darkside:: succeed at an opposed Discipline vs. Discipline check to force one target within Short range to adopt an emotional state, or believe something even if it is untrue, for one round or five minutes; spend :darkside: to increase the duration by two rounds or ten minutes."
+				"description": ":forcepip:: inflict 2 Strain on target in Short range (may activate multiple times); :forcepip:: succeed at an opposed Discipline vs. Discipline check to force one target within Short range to adopt an emotional state, or believe something even if it is untrue, for one round or five minutes; spend :forcepip: to increase the duration by two rounds or ten minutes."
 			},
 			{
 				"name": "Force power: Misdirect",
-				"description": ":darkside:: make a target up to Short range unable to percieve a chosen person or object of Silhoutte 1 or smaller, or change the appearance of an object or person; :darkside: to affect additional targets equal to Presence; commit :force::force: to sustain this power while the beguiled targets are in range."
+				"description": ":forcepip:: make a target up to Short range unable to percieve a chosen person or object of Silhoutte 1 or smaller, or change the appearance of an object or person; :forcepip: to affect additional targets equal to Presence; commit :force::force: to sustain this power while the beguiled targets are in range."
 			}
 		],
 		"weapons": [

@@ -25,7 +25,7 @@
 	},
 	{
 		"name": "Animal Empathy",
-		"description": "When attempting to handle or tame animals, add :force: no greater than Force rating to the check and spend :lightside: to add :success: or :advantage:."
+		"description": "When attempting to handle or tame animals, add :force: no greater than Force rating to the check and spend :forcepip: to add :success: or :advantage:."
 	},
 	{
 		"name": "Armor Master",
@@ -381,7 +381,7 @@
 	},
 	{
 		"name": "Draw Closer",
-		"description": "Perform Draw Closer action; make a Lightsaber (Willpow­er) combat check against one Silhouette 1 target within Medium range, adding :force: no greater than Force rating to check. Spend :lightside: to move target one range band closer or to add :success: to check."
+		"description": "Perform Draw Closer action; make a Lightsaber (Willpow­er) combat check against one Silhouette 1 target within Medium range, adding :force: no greater than Force rating to check. Spend :forcepip: to move target one range band closer or to add :success: to check."
 	},
 	{
 		"name": "Drive Back",
@@ -421,7 +421,7 @@
 	},
 	{
 		"name": "Enhanced Leader",
-		"description": "Add :force: equal to Force rating to Leadership checks; spend :lightside: to add :success: or :advantage: to the result."
+		"description": "Add :force: equal to Force rating to Leadership checks; spend :forcepip: to add :success: or :advantage: to the result."
 	},
 	{
 		"name": "Essential Kill",
@@ -593,7 +593,7 @@
 	},
 	{
 		"name": "Hawk Bat Swoop",
-		"description": "May perform a Light­saber (Agility) melee combat check against one target within Short range and add :force: no greater than Force Rating to the pool. The character may spend :lightside: before resolving the success or failure of the check to engage the target immediately as an inci­dental, and may spend :lightside: to add :advantage: to the check. If the character cannot move to engage the target, the attack automatically misses."
+		"description": "May perform a Light­saber (Agility) melee combat check against one target within Short range and add :force: no greater than Force Rating to the pool. The character may spend :forcepip: before resolving the success or failure of the check to engage the target immediately as an inci­dental, and may spend :forcepip: to add :advantage: to the check. If the character cannot move to engage the target, the attack automatically misses."
 	},
 	{
 		"name": "Healing Trance",
@@ -725,7 +725,7 @@
 	},
 	{
 		"name": "Intuitive Improvements",
-		"description": "When mak­ing a check to repair or craft an item, may add :force: up to Force Rating to the check. Spend :lightside::lightside: to permanently increase the item’s hard points by 1."
+		"description": "When mak­ing a check to repair or craft an item, may add :force: up to Force Rating to the check. Spend :forcepip::forcepip: to permanently increase the item’s hard points by 1."
 	},
 	{
 		"name": "Intuitive Navigation",
@@ -1242,7 +1242,7 @@
 	},
 	{
 		"name": "Saber Throw",
-		"description": "Make a Lightsaber check against a target within Medium range, adding :force: up to Force rating: spend :lightside: for attack to succeed and :lightside: for lightsaber to return to hand."
+		"description": "Make a Lightsaber check against a target within Medium range, adding :force: up to Force rating: spend :forcepip: for attack to succeed and :forcepip: for lightsaber to return to hand."
 	},
 	{
 		"name": "Sarlacc Sweep",

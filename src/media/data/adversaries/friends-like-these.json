@@ -944,7 +944,7 @@
 			"Darkside Force User", "Imperial Valour",
 			{
 				"name": "Unnatural Luck",
-				"description": "Twice per session, can roll :force::force: after an NPC or PC makes a check for an activity that occurs within line of sight, but before the check is resolved; may spend :darkside: to remove :advantage: or add :threat:, or :darkside::darkside: to remove :success: or add :failure:."
+				"description": "Twice per session, can roll :force::force: after an NPC or PC makes a check for an activity that occurs within line of sight, but before the check is resolved; may spend :forcepip: to remove :advantage: or add :threat:, or :forcepip::forcepip: to remove :success: or add :failure:."
 			}
 		],
 		"gear": ["Comlink", "Datapad", "Holo-projector"],

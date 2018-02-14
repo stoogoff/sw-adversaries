@@ -5,31 +5,31 @@
 	},
 	{
 		"name": "Force power: Move",
-		"description": ":lightside:: Move one object Silhouette 1 at Short range; may make ranged attacks with this power."
+		"description": ":forcepip:: Move one object Silhouette 1 at Short range; may make ranged attacks with this power."
 	},
 	{
 		"name": "Force power: Enhance",
-		"description": ":lightside:: Gain :success: or :advantage: (user's choice) on an Athletics, Coordination, or Resilience check; :lightside:: take a Force Leap action to jump horizontally or vertically to any location in Short range."
+		"description": ":forcepip:: Gain :success: or :advantage: (user's choice) on an Athletics, Coordination, or Resilience check; :forcepip:: take a Force Leap action to jump horizontally or vertically to any location in Short range."
 	},
 	{
 		"name": "Force power: Foresee",
-		"description": "Spend :lightside: to gain vague hints of events to come, up to a day into own future. Spend :lightside: to increase the number of days seen into future by 2. Spend :lightside: to gain more specific details."
+		"description": "Spend :forcepip: to gain vague hints of events to come, up to a day into own future. Spend :forcepip: to increase the number of days seen into future by 2. Spend :forcepip: to gain more specific details."
 	},
 	{
 		"name": "Force power: Harm",
-		"description": "May make a Harm Force power check against one engaged target. Spend :darkside: to inflict {Intellect} Wounds on the target, ignoring Soak. Spend :darkside: to increase wounds inflicted by {Intellect} (may activate this multiple times), and spend :darkside: to heal Wounds equal to Wounds inflicted."
+		"description": "May make a Harm Force power check against one engaged target. Spend :forcepip: to inflict {Intellect} Wounds on the target, ignoring Soak. Spend :forcepip: to increase wounds inflicted by {Intellect} (may activate this multiple times), and spend :forcepip: to heal Wounds equal to Wounds inflicted."
 	},
 	{
 		"name": "Force power: Misdirect",
-		"description": ":lightside:: Make one target within Short range unable to perceive one Silhoutte 1 object, or perceive one non-existent Silhoutte 1 object; spend :lightside::lightside: to create up to six additional illusory people or objects; spend :lightside: to increase the number of affected targets by 3."
+		"description": ":forcepip:: Make one target within Short range unable to perceive one Silhoutte 1 object, or perceive one non-existent Silhoutte 1 object; spend :forcepip::forcepip: to create up to six additional illusory people or objects; spend :forcepip: to increase the number of affected targets by 3."
 	},
 	{
 		"name": "Force power: Sense",
-		"description": ":lightside:: Sense all living things within Short range. :lightside:: Sense the emotional state of one target within Short range. Ongoing effect, commit :force: upto Force rating to upgrade difficulty of at­tacks targeting the character once."
+		"description": ":forcepip:: Sense all living things within Short range. :forcepip:: Sense the emotional state of one target within Short range. Ongoing effect, commit :force: upto Force rating to upgrade difficulty of at­tacks targeting the character once."
 	},
 	{
 		"name": "Force power: Influence",
-		"description": ":lightside:: inflict 2 Strain on target in Short range. :lightside:: succeed at an opposed Discipline vs. Discipline check to force one target within Short range to adopt an emotional state, or believe something even if it is untrue, for four minutes or four rounds in combat."
+		"description": ":forcepip:: inflict 2 Strain on target in Short range. :forcepip:: succeed at an opposed Discipline vs. Discipline check to force one target within Short range to adopt an emotional state, or believe something even if it is untrue, for four minutes or four rounds in combat."
 	},
 	{
 		"name": "Force power: Unleash",
@@ -37,10 +37,10 @@
 	},
 	{
 		"name": "On the Edge",
-		"description": "Once per Force check, may suffer 1 Strain to use :darkside: result to generate :lightside:."
+		"description": "Once per Force check, may suffer 1 Strain to use :darkside: result to generate :forcepip:."
 	},
 	{
 		"name": "Projectile Guidance",
-		"description": "When making a ranged attack with a concussion bow, a Ysanna hunter can add :force: to the check and spend :lightside: to give the attack the Pierce 3 quality."
+		"description": "When making a ranged attack with a concussion bow, a Ysanna hunter can add :force: to the check and spend :forcepip: to give the attack the Pierce 3 quality."
 	}
 ]

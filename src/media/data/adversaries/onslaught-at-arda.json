@@ -520,7 +520,7 @@
 		"abilities": [
 			{
 				"name": "Force Hunter", 
-				"description": "Roll :force: on Initiative checks; :lightside:: gain :success: per point on its Initiative check."
+				"description": "Roll :force: on Initiative checks; :forcepip:: gain :success: per point on its Initiative check."
 			},
 			{
 				"name": "Force Stalker",
