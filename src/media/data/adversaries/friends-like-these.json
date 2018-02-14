@@ -568,7 +568,7 @@
 			"Coercion": 4,
 			"Knowledge: Warfare": 3,
 			"Leadership": 3,
-			"Melee ":4,
+			"Melee": 4,
 			"Ranged: Heavy": 3,
 			"Survival": 3,
 			"Vigilance": 3
@@ -662,7 +662,7 @@
 			"Leadership": 3,
 			"Melee": 3,
 			"Negotiation": 3,
-			"Perception ": 3,
+			"Perception": 3,
 			"Piloting: Planetary": 2,
 			"Ranged: Light": 3,
 			"Skulduggery": 2,
