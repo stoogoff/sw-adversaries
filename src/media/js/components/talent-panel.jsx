@@ -1,46 +1,8 @@
 
 import React from "react";
-import { id, symbolise, sortByProperty } from "lib/utils";
+import { id, symbolise, statify, sortByProperty } from "lib/utils";
 
 export default class TalentPanel extends React.Component {
-	statify(text, ranks) {
-		Object.keys(this.props.stats).forEach(k => {
-			let reg = new RegExp(`\{${k}\}`, "g");
-
-			text = text.replace(reg, this.props.stats[k]);
-		});
-
-		// treat ranks independantly then do something like this
-		// replace {ranks|filter}, function
-		// where filter is something like multiply-10, times, word etc
-
-		// special cases
-		let words = ["", "one", "two", "three"];
-		let times = ["", "once", "twice", "three times", "four times", "five times"];
-
-		text = text.replace(/\{ranks\}/, ranks);
-		text = text.replace(/\{ranks\|words\}/, s => words[ranks]);
-		text = text.replace(/\{ranks\|times\}/, s => times[ranks]);
-		text = text.replace(/\{ranks\|multiply-10\}/, s => ranks * 10);
-		text = text.replace(/\{ranks\|multiply-50\}/, s => ranks * 50);
-		text = text.replace(/\{ranks\|plus-2\}/, s => ranks + 2);
-
-		// dice, this needs to be simplified
-		let setback = ["", ":setback:", ":setback::setback:", ":setback::setback::setback:"]
-		let boost = ["", ":boost:", ":boost::boost:", ":boost::boost::boost:"]
-		let success = ["", ":success:", ":success::success:", ":success::success::success:"]
-		let threat = ["", ":threat:", ":threat::threat:", ":threat::threat::threat:"]
-		let force = ["", ":force:", ":force::force:", ":force::force::force:"]
-
-		text = text.replace(/\{ranks\|setback\}/, s => setback[ranks]);
-		text = text.replace(/\{ranks\|boost\}/, s => boost[ranks]);
-		text = text.replace(/\{ranks\|success\}/, s => success[ranks]);
-		text = text.replace(/\{ranks\|threat\}/, s => threat[ranks]);
-		text = text.replace(/\{ranks\|force\}/, s => force[ranks]);
-
-		return text;
-	}
-
 	render() {
 		if(this.props.data == null) {
 			return null;
@@ -64,9 +26,6 @@ export default class TalentPanel extends React.Component {
 
 			let ranked = t.match(/\s(\d+)$/);
 			let ranks = ranked ? ranked[1] : 1;
-
-			console.log(t, ranks)
-
 			let talentName = t.replace(/\s\d+$/, "");
 			let talent = allTalents.find(i => i.name == talentName);
 
@@ -74,7 +33,7 @@ export default class TalentPanel extends React.Component {
 				talents.push({
 					id: talent.id,
 					name: t,
-					description: this.statify(talent.description, Number(ranks))
+					description: statify(talent.description, this.props.stats, Number(ranks))
 				});
 			}
 		});

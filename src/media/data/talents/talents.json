@@ -221,7 +221,7 @@
 	},
 	{
 		"name": "Contraption",
-		"description": "Once per session, as an action, may make a :hard: Mechanics check to fashion a device to solve a current problem using just hte tools and parts on hand."
+		"description": "Once per session, as an action, may make a :hard: Mechanics check to fashion a device to solve a current problem using just the tools and parts on hand."
 	},
 	{
 		"name": "Convincing Demeanor",
@@ -409,7 +409,7 @@
 	},
 	{
 		"name": "Enduring",
-		"description": "Adds Soak per rank of Enduring."
+		"description": "Increase Soak by {ranks}."
 	},
 	{
 		"name": "Energy Transfer",
@@ -1338,19 +1338,19 @@
 	},
 	{
 		"name": "Smooth Talker (Charm)",
-		"description": "When making Charm checks, spend :triumph: to gain {ranks|words} additional :success:."
+		"description": "When making Charm checks, spend :triumph: to gain {ranks|success}."
 	},
 	{
 		"name": "Smooth Talker (Coercion)",
-		"description": "When making Coercion checks, spend :triumph: to gain {ranks|words}  additional :success:."
+		"description": "When making Coercion checks, spend :triumph: to gain {ranks|success}."
 	},
 	{
 		"name": "Smooth Talker (Deception)",
-		"description": "When making Deception checks, spend :triumph: to gain {ranks|words}  additional :success:."
+		"description": "When making Deception checks, spend :triumph: to gain {ranks|success}."
 	},
 	{
 		"name": "Smooth Talker (Negotiation)",
-		"description": "When making Negotiation checks, spend :triumph: to gain {ranks|words}  additional :success:."
+		"description": "When making Negotiation checks, spend :triumph: to gain {ranks|success}."
 	},
 	{
 		"name": "Sniper Shot",

@@ -61,7 +61,7 @@
 	},
 	{
 		"name": "Bad Knee",
-		"description": "If TH-31 3 generates :threat::threat::threat: or :despair: on an Athletics, Brawl, or Melee check, he is immobilised for one round."
+		"description": "If TH-313 generates :threat::threat::threat: or :despair: on an Athletics, Brawl, or Melee check, he is immobilised for one round."
 	},
 	{
 		"name": "Bantha Affinity",
@@ -597,7 +597,7 @@
 	},
 	{
 		"name": "Shield Projector",
-		"description": "Maneuver to activate or deactivate; while active, gains defense 2 and upgrades the difficulty of all combat attacks targeting the droideka once, but droideka cannot use the Move maneuver."
+		"description": "Maneuver to activate or deactivate; while active, gains Defence 2 and upgrades the difficulty of all combat attacks targeting the droideka once, but droideka cannot use the move maneuver."
 	},
 	{
 		"name": "Shriek",

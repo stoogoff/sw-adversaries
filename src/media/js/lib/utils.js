@@ -50,6 +50,8 @@ export const minionSkill = function(minions, skill, skills) {
 	return  Math.min(value, 5);
 }
 
+
+// convert marked text into dice and return in a React dangerouslySetInnerHTML format
 export const dice = function dice(stat, skill) {
 	let total = Math.max(stat, skill);
 	let upgrade = Math.min(stat, skill);
@@ -66,6 +68,8 @@ export const dice = function dice(stat, skill) {
 	return { __html: symbols.join("") };
 }
 
+
+// convert marked text into game symbols and return in a React dangerouslySetInnerHTML format
 export const symbolise = function symbolise(text) {
 	Object.keys(diceMap).forEach(k => {
 		let reg = new RegExp(`:${k}:`, "g");
@@ -106,6 +110,8 @@ let diceMap = {
 	"formidable": "<strong>Formidable</strong> (<span class='icon difficulty shadowed'>ddddd</span>)",
 };
 
+
+// return book name
 export const book = function book(name) {
 	return name in bookMap ? bookMap[name] : name;
 }
@@ -151,3 +157,37 @@ let bookMap = {
 	"book:joy": "Jewel of Yavin",
 	"book:god": "Ghosts of Dathomir"
 };
+
+
+// add talent ranks, and correct numbers of dice to talent text
+export const statify = function(text, stats, ranks) {
+	// convert characteristics and skills
+	Object.keys(stats).forEach(k => text = text.replace(new RegExp(`\{${k}\}`, "g"), stats[k]));
+
+	// insert ranks and format
+	text = text.replace(/\{ranks\}/g, ranks);
+	text = text.replace(/\{ranks\|words\}/g,       () => words[ranks]);
+	text = text.replace(/\{ranks\|times\}/g,       () => times[ranks]);
+	text = text.replace(/\{ranks\|multiply-10\}/g, () => ranks * 10);
+	text = text.replace(/\{ranks\|multiply-50\}/g, () => ranks * 50);
+	text = text.replace(/\{ranks\|plus-2\}/g,      () => ranks + 2);
+
+	// add game symbols a number of times equal to ranks
+	["setback", "boost", "success", "threat", "force"].forEach(symbol => text = text.replace(new RegExp(`\{ranks\\|(${symbol})\}`, "g"), (s, match) => r(match, ranks)));
+
+	return text;
+}
+
+let words = ["", "one", "two", "three", "four", "five"];
+let times = ["", "once", "twice", "three times", "four times", "five times"];
+
+
+function r(symbol, ranks) {
+	let buffer = [];
+
+	for(let i = 0; i < ranks; ++i) {
+		buffer.push(`:${symbol}:`);
+	}
+
+	return buffer.join("");
+}

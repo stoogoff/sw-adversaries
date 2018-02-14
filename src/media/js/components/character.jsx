@@ -130,13 +130,11 @@ export default class Character extends React.Component {
 			stats[i] = character.characteristics[i];
 		}
 
-		// TODO this will break on minions
-
-		for(var i in character.skills) {
-			stats[i] = character.skills[i];
+		if(character.type !== "Minion") {
+			for(var i in character.skills) {
+				stats[i] = character.skills[i];
+			}
 		}
-
-		console.log(stats)
 
 		return <div className={ !this.props.visible ? "hidden" : null }>
 			<h1 data-adversary-type={ character.type }>{ icon } { character.name }</h1>
