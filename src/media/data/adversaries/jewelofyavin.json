@@ -37,7 +37,7 @@
 		"abilities": [
 					{
 						"name": "Luck Be a Lady",
-						"description":"Once per encounter, Lando may reroll a skill check"
+						"description":"Once per encounter, Lando may reroll a skill check."
 					}
 				],
 		"weapons": ["Holdout blaster"],

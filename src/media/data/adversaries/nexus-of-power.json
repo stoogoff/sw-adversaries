@@ -1582,7 +1582,7 @@
 			"Darkside Force User", "Intimidating Presence",
 			{
 				"name": "Force power: Influence",
-				"description": ":forcepip:: inflict 2 Strain on target in Engaged range. :forcepip:: succeed at an opposed Discipline vs. Discipline check to force one target within Short range to adopt an emotional state of rage, fear or hatred, or believe something even if it is untrue, for five minutes or one rounds in combat. Spend :forcepip: to increase the duration by two additional rounds or ten additional minutes."
+				"description": ":forcepip:: inflict 2 Strain on target in Engaged range. :forcepip:: succeed at an opposed Discipline vs. Discipline check to force one target within Short range to adopt an emotional state of rage, fear or hatred, or believe something even if it is untrue, for five minutes or one round in combat. Spend :forcepip: to increase the duration by two additional rounds or ten additional minutes."
 			}
 		],
 		"weapons": [
@@ -1882,7 +1882,7 @@
 			},
 			{
 				"name": "Force power: Heal",
-				"description": "Spend :forcepip: to heal 2 Wounds from one engaged living creature (including self). Send :forcepip: to increase Wounds healed by 2 (may activate this multiple times)."
+				"description": "Spend :forcepip: to heal 2 Wounds from one engaged living creature (including self). Spend :forcepip: to increase Wounds healed by 2 (may activate this multiple times)."
 			}
 		],
 		"weapons": [
@@ -1981,7 +1981,7 @@
 				"qualities": ["Concussive 1", "Knockdown"]
 			}
 		],
-		"tags": ["book:nop", "location:Weik"]
+		"tags": ["book:nop", "location:Weik", "creature"]
 	},
 	{
 		"name": "Raider Warlord",
@@ -2012,7 +2012,7 @@
 			"Darkside Force User",
 			{
 				"name": "Force power: Harm",
-				"description": "May make a Harm Force power check against one Engaged target. Spend :forcepip: to inflict a number of Wounds equal to Intellect on the target, ignoring Soak. Spend :forcepip: to increase wounds inflicted by Intellect (may activate this multiple times), and spend :forcepip: to increase range by one range band."
+				"description": "May make a Harm Force power check against one Engaged target. Spend :forcepip: to inflict 2 Wounds on the target, ignoring Soak. Spend :forcepip: to increase Wounds inflicted by 2 (may activate this multiple times), and spend :forcepip: to increase range by one range band."
 			}
 		],
 		"weapons": [
@@ -2102,14 +2102,25 @@
 			"Force power: Foresee",
 			{
 				"name": "Force power: Protect",
-				"description": "Make a Protect power check, rolling an :average: Discipline check as part of the pool. Spend :forcepip::forcepip: to reduce damage from one hit of an energy-based attack that occurs before the beginning of the character’s next turn. The attack must hit the character or an engaged character, and the damage is reduced by 4 plus 1 per :success:. Spend :forcepip: to al­low the power to affect all types of attacks. Spend :forcepip: to af­fect 2 additional targets (may activate this multiple times)."
+				"description": "Make a Protect power check, rolling an :average: Discipline check as part of the pool. Spend :forcepip::forcepip: to reduce damage from one hit of an energy-based attack that occurs before the beginning of the character’s next turn. The attack must hit the character or an Engaged character, and the damage is reduced by 4 plus 1 per :success:. Spend :forcepip: to al­low the power to affect all types of attacks. Spend :forcepip: to af­fect 2 additional targets (may activate this multiple times)."
 			},
 			{
 				"name": "Force power: Unleash",
 				"description": "Make a Force power check target­ing one enemy at Short range, and roll a ranged attack as part of the pool, using an :average: Discipline check instead of normal difficulty. If the check is successful and generates :forcepip::forcepip: the attack deals 4 damage plus 1 damage per :success:, with a critical rating of 4. Spend :forcepip: to increase the range by one range band, spend :forcepip: to affect one additional target within range, and spend :forcepip: to deal 2 additional dam­age (may activate all of these upgrades multiple times)."
 			}
 		],
-		"weapons": ["Wizard’s staff"],
+		"weapons": [
+			"Wizard’s staff",
+			{
+				"name": "Unleash",
+				"skill": "Discipline",
+				"damage": 4,
+				"critical": 4,
+				"range": "Short",
+				"notes": "May spend :forcepip: to increase the range by one band, spend :forcepip: to affect one additional target in range, and spend :forcepip: to deal 2 additional damage. May activate all upgrades multiple times."
+			}
+
+		],
 		"gear": ["Heavy and smelly robes (+1 Soak)", "Wizard’s pouch"],
 		"tags": ["book:nop", "location:Weik", "force sensitive"]
 	},
@@ -2148,7 +2159,18 @@
 				"description": "Make a Force power check target­ing one enemy at Short range, and roll a ranged attack as part of the pool, using an :average: Discipline check instead of normal difficulty. If the check is successful and generates :forcepip::forcepip: the attack deals 4 damage plus 1 damage per :success:, with a critical rating of 4. Spend :forcepip: to increase the range by one range band, spend :forcepip: to affect one additional target within range, and spend :forcepip: to deal 2 additional dam­age (may activate all of these upgrades multiple times). Spend :forcepip: to decrease the critical rating of the attack to 1."
 			}
 		],
-		"weapons": ["Wizard’s staff", "Hidden razor-dagger"],
+		"weapons": [
+			"Wizard’s staff", "Hidden razor-dagger",
+			{
+				"name": "Unleash",
+				"skill": "Discipline",
+				"damage": 4,
+				"critical": 4,
+				"range": "Short",
+				"notes": "May spend :forcepip: to increase the range by one band, spend :forcepip: to affect one additional target in range, and spend :forcepip: to deal 2 additional damage. May activate all upgrades multiple times. Spend :forcepip: to decrease the critical rating of the attack to 1."
+			}
+
+		],
 		"gear": ["Heavy and smelly robes (+1 Soak)", "Wizard’s pouch"],
 		"tags": ["book:nop", "location:Weik", "force sensitive"]
 	}

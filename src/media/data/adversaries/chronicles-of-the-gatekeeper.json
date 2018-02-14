@@ -280,7 +280,7 @@
 			"Darkside Force User",
 			{
 				"name": "Force power: Warde’s Foresight",
-				"description": "Warde may spend :forcepip: to gain hints about what an individual within short range is like­ly to do in the near future. He may spend :forcepip: to increase the range of the power to long and may spend :forcepip::forcepip: to gain :boost::boost: on his next check against the target. When making a check for Initiative, Warde may make a Warde’s Foresight power check. He may spend :forcepip: to add :success: to his first check this encounter; if he used :forcepip: for :forcepip: he may immediately perform one action but each enemy adds :success: to the result of their Initiative check."
+				"description": "Warde may spend :forcepip: to gain hints about what an individual within Short range is like­ly to do in the near future. He may spend :forcepip: to increase the range of the power to Long and may spend :forcepip::forcepip: to gain :boost::boost: on his next check against the target. When making a check for Initiative, Warde may make a Warde’s Foresight power check. He may spend :forcepip: to add :success: to his first check this encounter; if he used :darkside: for :forcepip: he may immediately perform one action but each enemy adds :success: to the result of their Initiative check."
 			},
 			{
 				"name": "Force power: Enhance",

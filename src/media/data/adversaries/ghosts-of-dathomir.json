@@ -1039,7 +1039,7 @@
 			"Silhouette 0",
 			{
 				"name": "Force Power: Enhance",
-				"description": "When making an Athletics check, the vursonk combines it with an Enhance power check, rolling :force:; may spend :forcepip: to gain :success: or :advantage:, or may spend :forcepip: by using a Destiny Point and suffering 1 Wound per :forcepip: used."
+				"description": "When making an Athletics check, the vursonk combines it with an Enhance power check, rolling :force:; may spend :darkside: to gain :success: or :advantage:, or may spend :lightside: by using a Destiny Point and suffering 1 Wound per :lightside: used."
 			},
 			{
 				"name": "Infrared Vision",

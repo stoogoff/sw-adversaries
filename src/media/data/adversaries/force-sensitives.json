@@ -262,7 +262,7 @@
 			"On the Edge",
 			{
 				"name": "Force power: Sense",
-				"description": ":forcepip:: Sense all living things within Medium range. :forcepip:: Sense the emotional state of one target within Medium range. Ongoing effect, commit :force: upto Force rating to upgrade difficulty of at­tacks targeting the character twice."
+				"description": ":forcepip:: Sense all living things within Medium range. :forcepip:: Sense the emotional state of one target within Medium range. Ongoing effect, commit :force: up to Force rating to upgrade difficulty of at­tacks targeting the character twice."
 			}
 		],
 		"weapons": ["Lightsaber"],

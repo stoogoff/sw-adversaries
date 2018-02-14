@@ -27,7 +27,7 @@
 		"talents": ["Adversary 1", "Enhanced Leader", "Force Rating 1", "Inspiring Rhetoric", "Touch of Fate"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Datapad", "Encrypted comlink"],
-		"tags": ["adventure:Friends Like These", "book:flt", "location:Xorrn"]
+		"tags": ["adventure:Friends Like These", "book:flt", "location:Xorrn", "force sensitive"]
 	},
 	{
 		"name": "Patrician Lira Hardin",
@@ -948,7 +948,7 @@
 			}
 		],
 		"gear": ["Comlink", "Datapad", "Holo-projector"],
-		"tags": ["adventure:Friends Like These", "book:flt", "location:Xorrn", "empire", "imperial military"]
+		"tags": ["adventure:Friends Like These", "book:flt", "location:Xorrn", "empire", "imperial military", "force sensitive"]
 	},
 	{
 		"name": "Agent Nath Alico",
