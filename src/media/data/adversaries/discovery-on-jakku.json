@@ -443,7 +443,7 @@
 		"abilities": [
 			{
 				"name": "Mercenary Leader",
-				"description": "hen Brana Tsaro hits a target with a ranged attack, the next Jakku mercenary to attack the same target adds :boost: to that attack."
+				"description": "When Brana Tsaro hits a target with a ranged attack, the next Jakku mercenary to attack the same target adds :boost: to that attack."
 			}
 		],
 		"weapons": [

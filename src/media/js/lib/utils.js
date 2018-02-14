@@ -50,6 +50,8 @@ export const minionSkill = function(minions, skill, skills) {
 	return  Math.min(value, 5);
 }
 
+
+// convert marked text into dice and return in a React dangerouslySetInnerHTML format
 export const dice = function dice(stat, skill) {
 	let total = Math.max(stat, skill);
 	let upgrade = Math.min(stat, skill);
@@ -66,6 +68,8 @@ export const dice = function dice(stat, skill) {
 	return { __html: symbols.join("") };
 }
 
+
+// convert marked text into game symbols and return in a React dangerouslySetInnerHTML format
 export const symbolise = function symbolise(text) {
 	Object.keys(diceMap).forEach(k => {
 		let reg = new RegExp(`:${k}:`, "g");
@@ -78,34 +82,37 @@ export const symbolise = function symbolise(text) {
 
 let diceMap = {
 	// dice
-	"boost": "<span class='icon boost shadowed'>b</span>",
-	"proficiency": "<span class='icon proficiency shadowed'>c</span>",
-	"ability": "<span class='icon ability shadowed'>d</span>",
-	"setback": "<span class='icon setback shadowed'>b</span>",
-	"challenge": "<span class='icon challenge shadowed'>c</span>",
-	"difficulty": "<span class='icon difficulty shadowed'>d</span>",
-	"force": "<span class='icon force shadowed'>c</span>",
+	"boost": "<span class='icon boost'></span>",
+	"proficiency": "<span class='icon proficiency'></span>",
+	"ability": "<span class='icon ability'></span>",
+	"setback": "<span class='icon setback'></span>",
+	"challenge": "<span class='icon challenge'></span>",
+	"difficulty": "<span class='icon difficulty'></span>",
+	"force": "<span class='icon force'></span>",
 
 	// outcomes
-	"advantage": "<span class='icon advantage'>a</span>",
-	"failure": "<span class='icon failure'>f</span>",
-	"success": "<span class='icon success'>s</span>",
-	"threat": "<span class='icon threat'>t</span>",
-	"triumph": "<span class='icon triumph'>x</span>",
-	"despair": "<span class='icon despair'>y</span>",
+	"advantage": "<span class='icon advantage'></span>",
+	"failure": "<span class='icon failure'></span>",
+	"success": "<span class='icon success'></span>",
+	"threat": "<span class='icon threat'></span>",
+	"triumph": "<span class='icon triumph'></span>",
+	"despair": "<span class='icon despair'></span>",
 
 	// force
-	"lightside": "<span class='icon lightside shadowed'>z</span>",
-	"darkside": "<span class='icon darkside'>z</span>",
+	"lightside": "<span class='icon lightside'></span>",
+	"darkside": "<span class='icon darkside'></span>",
+	"forcepip": "<span class='icon forcepip'></span>",
 
 	// difficulty levels
-	"easy": "<strong>Easy</strong> (<span class='icon difficulty shadowed'>d</span>)",
-	"average": "<strong>Average</strong> (<span class='icon difficulty shadowed'>dd</span>)",
-	"hard": "<strong>Hard</strong> (<span class='icon difficulty shadowed'>ddd</span>)",
-	"daunting": "<strong>Daunting</strong> (<span class='icon difficulty shadowed'>dddd</span>)",
-	"formidable": "<strong>Formidable</strong> (<span class='icon difficulty shadowed'>ddddd</span>)",
+	"easy": "<strong>Easy</strong> (<span class='icon difficulty'></span>)",
+	"average": "<strong>Average</strong> (<span class='icon difficulty'></span><span class='icon difficulty'></span>)",
+	"hard": "<strong>Hard</strong> (<span class='icon difficulty'></span><span class='icon difficulty'></span><span class='icon difficulty'></span>)",
+	"daunting": "<strong>Daunting</strong> (<span class='icon difficulty'></span><span class='icon difficulty'></span><span class='icon difficulty'></span><span class='icon difficulty'></span>)",
+	"formidable": "<strong>Formidable</strong> (<span class='icon difficulty'></span><span class='icon difficulty'></span><span class='icon difficulty'></span><span class='icon difficulty'></span><span class='icon difficulty'></span>)",
 };
 
+
+// return book name
 export const book = function book(name) {
 	return name in bookMap ? bookMap[name] : name;
 }
@@ -152,3 +159,37 @@ let bookMap = {
 	"book:joy": "Jewel of Yavin",
 	"book:god": "Ghosts of Dathomir"
 };
+
+
+// add talent ranks, and correct numbers of dice to talent text
+export const statify = function(text, stats, ranks) {
+	// convert characteristics and skills
+	Object.keys(stats).forEach(k => text = text.replace(new RegExp(`\{${k}\}`, "g"), stats[k]));
+
+	// insert ranks and format
+	text = text.replace(/\{ranks\}/g, ranks);
+	text = text.replace(/\{ranks\|words\}/g,       () => words[ranks]);
+	text = text.replace(/\{ranks\|times\}/g,       () => times[ranks]);
+	text = text.replace(/\{ranks\|multiply-10\}/g, () => ranks * 10);
+	text = text.replace(/\{ranks\|multiply-50\}/g, () => ranks * 50);
+	text = text.replace(/\{ranks\|plus-2\}/g,      () => ranks + 2);
+
+	// add game symbols a number of times equal to ranks
+	["setback", "boost", "success", "threat", "force"].forEach(symbol => text = text.replace(new RegExp(`\{ranks\\|(${symbol})\}`, "g"), (s, match) => r(match, ranks)));
+
+	return text;
+}
+
+let words = ["", "one", "two", "three", "four", "five"];
+let times = ["", "once", "twice", "three times", "four times", "five times"];
+
+
+function r(symbol, ranks) {
+	let buffer = [];
+
+	for(let i = 0; i < ranks; ++i) {
+		buffer.push(`:${symbol}:`);
+	}
+
+	return buffer.join("");
+}

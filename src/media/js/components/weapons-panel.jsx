@@ -1,5 +1,6 @@
 
 import React from "react";
+import Remarkable from "remarkable";
 import { dice, id, symbolise, sortByProperty, minionSkill } from "lib/utils";
 
 function getWeaponDetails(weapon, character, allSkills, aliveMinions) {
@@ -51,6 +52,8 @@ export default class WeaponsPanel extends React.Component {
 		this.state = {
 			quality: null
 		};
+
+		this.md = new Remarkable();
 	}
 
 	setQuality(evt) {
@@ -155,7 +158,7 @@ export default class WeaponsPanel extends React.Component {
 			</table> }
 			{ this.state.quality != null ? <div className="quality">
 				<h3>{ this.state.quality.name } { this.state.quality.name == "Notes" ? "" : <small>({ this.state.quality.type || "Passive" })</small> }</h3>
-				{ this.state.quality.description.split("\n\n").map((l, i) => <p key={ i } dangerouslySetInnerHTML={ symbolise(l) } />) }
+				{ this.state.quality.description.split("\n\n").map((l, i) => <p key={ i } dangerouslySetInnerHTML={ symbolise(this.md.render(l)) } />) }
 				<div className="text-right">
 					<small className="btn" onClick={ this.hideQuality.bind(this) }><span className="fa fa-close"></span> Close</small>
 				</div>

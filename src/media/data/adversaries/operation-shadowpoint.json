@@ -73,7 +73,6 @@
 			"Stealth": 1,
 			"Vigilance": 1
 		},
-		"gear": ["", "key to village supplies"],
 		"weapons": [
 			{
 				"name": "Hunting spear",
@@ -88,7 +87,7 @@
 		"abilities": [
 					{
 					"name": "Beast Rider",
-					"description": "gain one Boost die :boost: to all checks to control or direct riding animals, as well as to any Coordination checks to tumble safely down from a fall."
+					"description": "Add :boost: to all checks to control or direct riding animals, as well as to any Coordination checks to tumble safely down from a fall."
 					}
 				],
 		"tags": ["adventure:Operation Shadowpoint", "location:Darrastead Village", "location:Onderon"]
@@ -153,7 +152,7 @@
 		"abilities": [
 					{
 					"name": "Sigint Expert",
-					"description": "gain a boost die :boost: on checks for any task relating to managing, using, or maintaining a Sigint array."
+					"description": "Add :boost: on checks for any task relating to managing, using, or maintaining a Sigint array."
 					}
 				],
 		"gear": ["Heavy clothing (+1 soak)", "smuggled base supplies"],
@@ -182,7 +181,7 @@
 			"Ranged: Light": 1
 		},
 		"weapons": ["Holdout blaster"],
-		"gear": ["junkyard and shop full of scrapped and salvaged tech"],
+		"gear": ["Junkyard and shop full of scrapped and salvaged tech"],
 		"tags": ["adventure:Operation Shadowpoint", "location:Onderon"]
 	},
 	{
@@ -210,7 +209,7 @@
 			"Vigilance": 2
 		},
 		"weapons": ["Blaster rifle", "Vibroknife"],
-		"gear": ["padded armour (+2 soak)"],
+		"gear": ["Padded armour (+2 Soak)"],
 		"tags": ["adventure:Operation Shadowpoint", "location:Onderon", "empire", "imperial military"]
 	},
 	{
@@ -296,12 +295,7 @@
 			"Survival": 2
 		},
 		"talents": ["Adversary 1", "Enduring 1"],
-		"abilities": ["Silhouette 2",
-					{
-					"name": "Plated Hide 1",
-					"description": "Add one Setback die :setback: per rank of Plated Hide to all combat checks against this target."
-					}
-				],
+		"abilities": ["Silhouette 2", "Plated Hide 1"],
 		"weapons": [
 			{
 				"name": "Bite",
@@ -338,12 +332,7 @@
 			"Survival": 5
 		},
 		"talents": ["Adversary 2", "Enduring 5"],
-		"abilities": ["Silhouette 2",
-					{
-					"name": "Plated Hide 3",
-					"description": "Add one Setback die :setback: per rank of Plated Hide to all combat checks against this target."
-					}
-				],
+		"abilities": ["Silhouette 2", "Plated Hide 3"],
 		"weapons": [
 			{
 				"name": "Bite",
@@ -357,7 +346,7 @@
 		"tags": ["adventure:Operation Shadowpoint", "location:Darrastead Village", "location:Onderon", "creature"]
 	},
 	{
-		"name": "Moff Dardano’s bodyguard",
+		"name": "Moff Dardano’s Bodyguard",
 		"type": "Rival",
 		"description": "",
 		"notes": "",
@@ -381,7 +370,6 @@
 			"Resilience": 2,
 			"Vigilance": 1
 		},
-		"gear": ["", "key to village supplies"],
 		"weapons": [
 			{
 				"name": "Hunting spear",
@@ -394,7 +382,7 @@
 		],
 		"weapons": ["Blaster rifle", "Frag grenade", "Vibroknife"],
 		"abilities": ["Body Guard"],
-		"gear": ["Bodyguard armour (+2 soak)"],
+		"gear": ["Bodyguard armour (+2 Soak)"],
 		"tags": ["adventure:Operation Shadowpoint", "empire", "imperial military"]
 	},
 	{
@@ -432,7 +420,7 @@
 		"abilities": [
 					{
 					"name": "Seize Weakness",
-					"description": "may perform a Seize Weakness maneuver to upgrade the Ability of the next attack he makes once against an enemy who has already acted this round."
+					"description": "May perform a Seize Weakness maneuver to upgrade the Ability of the next attack he makes once against an enemy who has already acted this round."
 					}
 				],
 		"weapons": ["Disruptor pistol", "Vibroknife"],

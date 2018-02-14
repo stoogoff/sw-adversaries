@@ -816,7 +816,7 @@
 			"Strong as a Jakobeast",
 			{
 				"name": "Force power: Move",
-				"description": "A minion group of three or more jako­beasts may attempt to shove enemies away with the Force. As an action, roll :force::force:. Each :lightside: generated may be spent to move one Silhouette 1 en­emy within Short range to Medium range."
+				"description": "A minion group of three or more jako­beasts may attempt to shove enemies away with the Force. As an action, roll :force::force:. Each :forcepip: generated may be spent to move one Silhouette 1 en­emy within Short range to Medium range."
 			}
 		],
 		"weapons": [
@@ -1215,7 +1215,7 @@
 			"wounds": 14
 		},
 		"skills": {
-			"Brawl ":4 ,
+			"Brawl": 4,
 			"Survival": 3,
 			"Vigilance": 2
 		},
@@ -1675,7 +1675,7 @@
 				"qualities": ["Ensnare 3"]
 			}
 		],
-		"tags": ["creature", "location:Hutt Space", "location:Toydaria", "book:lonh", "adventure:Toydarian Grocery Shopping"]
+		"tags": ["creature", "location:Hutt Space", "location:Toydaria", "book:lonh", "adventure:Toydarian Grocery Shopping", "force sensitive"]
 	},
 	{
 		"name": "Skuir Fish",

@@ -56,7 +56,7 @@
 		"abilities": [
 			{
 				"name": "Force power: Influence",
-				"description": "May make an Influ­ence power roll as part of a Coercion, Charm, Decep­tion, Leadership, or Negotiation check. May spend :lightside: to add :success: or :advantage: per :lightside: spent to the check."
+				"description": "May make an Influ­ence power roll as part of a Coercion, Charm, Decep­tion, Leadership, or Negotiation check. May spend :forcepip: to add :success: or :advantage: per :forcepip: spent to the check."
 			}
 		],
 		"weapons": ["Blaster pistol"],
@@ -262,7 +262,7 @@
 			"On the Edge",
 			{
 				"name": "Force power: Sense",
-				"description": ":lightside:: Sense all living things within Medium range. :lightside:: Sense the emotional state of one target within Medium range. Ongoing effect, commit :force: upto Force rating to upgrade difficulty of at­tacks targeting the character twice."
+				"description": ":forcepip:: Sense all living things within Medium range. :forcepip:: Sense the emotional state of one target within Medium range. Ongoing effect, commit :force: up to Force rating to upgrade difficulty of at­tacks targeting the character twice."
 			}
 		],
 		"weapons": ["Lightsaber"],
@@ -304,7 +304,7 @@
 			"Force power: Move", "Force power: Enhance",
 			{
 				"name": "Force power: Foresee",
-				"description": ":lightside:: Gain vague hints of events to come, up to a day into own future; :lightside:: Gain :advantage: per point on an Initiative check."
+				"description": ":forcepip:: Gain vague hints of events to come, up to a day into own future; :forcepip:: Gain :advantage: per point on an Initiative check."
 			}
 		],
 		"weapons": ["Lightsaber"],
@@ -353,7 +353,7 @@
 				"damage": 3,
 				"critical": 4,
 				"range": "Short",
-				"notes": "May spend :darkside: to increase damage by 3 and :darkside: to increase range to Medium."
+				"notes": "May spend :forcepip: to increase damage by 3 and :forcepip: to increase range to Medium."
 			}
 		],
 		"tags": ["force sensitive", "underworld", "book:fad", "darkside"]
@@ -387,7 +387,7 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 2", "Force Rating 2"],
-		"abilities": ["Dark Side Force User", "Force power: Harm"],
+		"abilities": ["Darkside Force User", "Force power: Harm"],
 		"weapons": [
 			{
 				"name": "Vibro-trident",

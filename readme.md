@@ -9,7 +9,7 @@ Built using:
 - [React](https://facebook.github.io/react/)
 - [Gulp](http://gulpjs.com/)
 - Icons by [IcoMoon](https://icomoon.io/app/)
-- Dice font from [The Alexandrian](http://thealexandrian.net/wordpress/37660/roleplaying-games/star-wars-force-and-destiny-system-cheat-sheet)
+- Dice font from [FantasyFlightIcons](https://github.com/aflegel/FantasyFlightIcons)
 
 ## Structure
 

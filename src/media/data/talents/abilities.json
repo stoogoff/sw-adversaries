@@ -61,7 +61,7 @@
 	},
 	{
 		"name": "Bad Knee",
-		"description": "If TH-31 3 generates :threat::threat::threat: or :despair: on an Athletics, Brawl, or Melee check, he is immobilised for one round."
+		"description": "If TH-313 generates :threat::threat::threat: or :despair: on an Athletics, Brawl, or Melee check, he is immobilised for one round."
 	},
 	{
 		"name": "Bantha Affinity",
@@ -73,7 +73,7 @@
 	},
 	{
 		"name": "Beast of Burden",
-		"description": "Add ranks in Beast of Burden to the creature’s encumbrance threshold."
+		"description": "Add {ranks} to the creature’s encumbrance threshold."
 	},
 	{
 		"name": "Berzerk Rage",
@@ -129,11 +129,11 @@
 	},
 	{
 		"name": "Computer Affinity",
-		"description": "The Intrusion Specialist may add :force: to any Computers check or Skulduggery check to analyze or infiltrate a security system. Spend :lightside: to add :advantage: to the check. Spend :lightside::lightside: to add :success: to any Computers check."
+		"description": "The Intrusion Specialist may add :force: to any Computers check or Skulduggery check to analyse or infiltrate a security system. Spend :forcepip: to add :advantage: to the check. Spend :forcepip::forcepip: to add :success: to any Computers check."
 	},
 	{
 		"name": "Constabulary Honour",
-		"description": "Add automatic :threat: per rank to all social checks made to convince a constable to act against the best interest of Sullust."
+		"description": "Add automatic {ranks|threat} to all social checks made to convince a constable to act against the best interest of Sullust."
 	},
 	{
 		"name": "Constrictor",
@@ -145,7 +145,7 @@
 	},
 	{
 		"name": "Covering Fire",
-		"description": "May spend a maneuver to add +1 ranged defense to up to three allied characters or minion groups within short range until the end of the next round; this does not stack with multiple uses."
+		"description": "May spend a maneuver to add +1 ranged Defence to up to three allied characters or minion groups within Short range until the end of the next round; this does not stack with multiple uses."
 	},
 	{
 		"name": "Create Bacta",
@@ -165,19 +165,19 @@
 	},
 	{
 		"name": "Crushing Grip",
-		"description": "Can maintain a grip on an unfortunate target; as long as it has a victim immobilized in its tentacles, it inflicts 2 strain and 1 wound at the start of the victim’s turn."
+		"description": "Can maintain a grip on an unfortunate target; as long as it has a victim immobilised in its tentacles, it inflicts 2 Strain and 1 Wound at the start of the victim’s turn."
 	},
 	{
 		"name": "Crushing Body",
-		"description": "Any victim affected by the korrak’s Ensnare quality suffers 2 Strain and 1 Wound ignoring soak at the beginning of their turn."
+		"description": "Any victim affected by the korrak’s Ensnare quality suffers 2 Strain and 1 Wound ignoring Soak at the beginning of their turn."
 	},
 	{
 		"name": "Crystalline",
-		"description": "Does not need to breathe and can survive in vacuum and underwater; immune to poisons and toxins"
+		"description": "Does not need to breathe and can survive in vacuum and underwater; immune to poisons and toxins."
 	},
 	{
 		"name": "Cunning Ambusher",
-		"description": "Opponents add :setback: per rank to Initiative checks using Vigilance."
+		"description": "Opponents add {ranks|setback} to Initiative checks using Vigilance."
 	},
 	{
 		"name": "Cybernetic Communications",
@@ -221,7 +221,7 @@
 	},
 	{
 		"name": "Draw Closer (Skysnare)",
-		"description": "The skysnare may take a Draw Closer action, making a Brawl combat check against one Silhouette 1 (or smaller) target within Medium range and adding :force::force: to the check. The skysnare may spend :lightside: before resolving the success or failure of the check to move the target one range band closer to the skysnare (including from Short to Engaged). It may also spend :lightside: to add :success: to the combat check. If the skysnare cannot move its target to engage it, the combat check automatically misses."
+		"description": "The skysnare may take a Draw Closer action, making a Brawl combat check against one Silhouette 1 (or smaller) target within Medium range and adding :force::force: to the check. The skysnare may spend :forcepip: before resolving the success or failure of the check to move the target one range band closer to the skysnare (including from Short to Engaged). It may also spend :forcepip: to add :success: to the combat check. If the skysnare cannot move its target to engage it, the combat check automatically misses."
 	},
 	{
 		"name": "Droid",
@@ -233,7 +233,7 @@
 	},
 	{
 		"name": "Domesticable",
-		"description": "Downgrade the difficulty of checks to train this creature by one per rank."
+		"description": "Downgrade the difficulty of checks to train this creature {ranks|times}."
 	},
 	{
 		"name": "Domesticated",
@@ -301,7 +301,7 @@
 	},
 	{
 		"name": "Intimidating Presence",
-		"description": "All enemies within short range add :threat: to all skill checks they make."
+		"description": "All enemies within Short range add :threat: to all skill checks they make."
 	},
 	{
 		"name": "Invoke Doellin",
@@ -329,7 +329,7 @@
 	},
 	{
 		"name": "For Quolas!",
-		"description": "As an action, make an :average: Leadership check to add :boost: to all combat checks by allies within short range for one round."
+		"description": "As an action, make an :average: Leadership check to add :boost: to all combat checks by allies within Short range for one round."
 	},
 	{
 		"name": "Sathari Glider",
@@ -345,7 +345,7 @@
 	},
 	{
 		"name": "Hard to Kill",
-		"description": "The GM may flip one dark side Destiny Point to have the Kintan Strider heal 5 Wounds"
+		"description": "The GM may flip one dark side Destiny Point to have the Kintan Strider heal 5 Wounds."
 	},
 	{
 		"name": "Hardy",
@@ -377,7 +377,7 @@
 	},
 	{
 		"name": "Humming Vibrations",
-		"description": "As an action, may make an Opposed Charm vs. Discipline check against a target at up to Medium range to disorient the target for a number of rounds equal to :success:; may spend :advantage::advantage::advantage: or :triumph: to stag­ger the target for 1 round instead."
+		"description": "As an action, may make an opposed Charm vs. Discipline check against a target at up to Medium range to disorient the target for a number of rounds equal to :success:; may spend :advantage::advantage::advantage: or :triumph: to stag­ger the target for 1 round instead."
 	},
 	{
 		"name": "Imperial Valour",
@@ -437,7 +437,7 @@
 	},
 	{
 		"name": "Lorekeeper",
-		"description": "Remove :setback: per rank from all Knowledge: Lore checks."
+		"description": "Remove {ranks|setback} from all Knowledge: Lore checks."
 	},
 	{
 		"name": "Loyalty",
@@ -469,7 +469,7 @@
 	},
 	{
 		"name": "Negate Force Powers",
-		"description": "An adult ysalamir creates a spherical zone extending out to short range, inside which Force-sensitive characters and creatures cannot exert influence over the Force. Inside this zone, any Force powers, Force talents, or other abilities that the GM decides work via the Force do not function. Likewise, such powers may not affect or detect any­thing within this zone."
+		"description": "An adult ysalamir creates a spherical zone extending out to Short range, inside which Force-sensitive characters and creatures cannot exert influence over the Force. Inside this zone, any Force powers, Force talents, or other abilities that the GM decides work via the Force do not function. Likewise, such powers may not affect or detect any­thing within this zone."
 	},
 	{
 		"name": "Networking",
@@ -516,6 +516,10 @@
 		"description": "Weequay may communicate with other Weequay using pheromones if they are within Short range of each other."
 	},
 	{
+		"name": "Plated Hide",
+		"description": "Add {ranks|setback} to all combat checks against this target."
+	},
+	{
 		"name": "Poisonous",
 		"description": "Any creature that successfully hits the amphibipole with a successful unarmed attack must succeed at a :hard: Resilience check or be poisoned, suffering 3 Wounds at the beginning of the turn for the next three rounds (this ignores Soak)."
 	},
@@ -549,7 +553,7 @@
 	},
 	{
 		"name": "Regeneration",
-		"description": "When recovering from wounds via natural rest or in a bacta trank, recover 1 additional wound; first-aid, medical treatment, and stimpacks do not result in recovery from an additional wound; Trandoshans can regrow lost limbs, though it usually takes at least a month before such limbs are usable."
+		"description": "When recovering from wounds via natural rest or in a bacta tank, recover 1 additional Wound; first-aid, medical treatment, and stimpacks do not result in recovery from an additional wound; Trandoshans can regrow lost limbs, though it usually takes at least a month before such limbs are usable."
 	},
 	{
 		"name": "Resilient Metabolism",
@@ -593,7 +597,7 @@
 	},
 	{
 		"name": "Shield Projector",
-		"description": "Maneuver to activate or deactivate; while active, gains defense 2 and upgrades the difficulty of all combat attacks targeting the droideka once, but droideka cannot use the Move maneuver."
+		"description": "Maneuver to activate or deactivate; while active, gains Defence 2 and upgrades the difficulty of all combat attacks targeting the droideka once, but droideka cannot use the move maneuver."
 	},
 	{
 		"name": "Shriek",
@@ -689,7 +693,7 @@
 	},
 	{
 		"name": "Trained Mount",
-		"description": "Add :boost: per rank to a rider’s Survival checks while mounted."
+		"description": "Add {ranks|boost} to a rider’s Survival checks while mounted."
 	},
 	{
 		"name": "Trample",
@@ -717,7 +721,7 @@
 	},
 	{
 		"name": "Unstable",
-		"description": "When thrantas suffer a Critical Injury, they add +10 per rank to the Critical Injury roll."
+		"description": "When thrantas suffer a Critical Injury, they add {ranks|multiply-10} to the Critical Injury roll."
 	},
 	{
 		"name": "Overwhelming Fire",
@@ -733,7 +737,7 @@
 	},
 	{
 		"name": "Vulnerable to Blasts",
-		"description": "Add :boost::boost: to checks made with weapons with the Blast qualiLy targeting minion groups of butterbug remotes."
+		"description": "Add :boost::boost: to checks made with weapons with the Blast quality targeting minion groups of butterbug remotes."
 	},
 	{
 		"name": "Wilderness Valor",

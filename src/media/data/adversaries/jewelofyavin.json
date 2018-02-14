@@ -37,7 +37,7 @@
 		"abilities": [
 					{
 						"name": "Luck Be a Lady",
-						"description":"Once per encounter, Lando may reroll a skill check"
+						"description":"Once per encounter, Lando may reroll a skill check."
 					}
 				],
 		"weapons": ["Holdout blaster"],
@@ -922,7 +922,7 @@
 				"critical": 1,
 				"range": "Engaged",
 				"qualities": ["Breach 1", "Defensive 1", "Deflection 2", "Sunder", "Vicious 2"],
-				"notes": "The crystal set in Elaiza’s lightsaber is damaged and worn. Once it has been switched on, make a Force check especially for the lightsaber at the beginning of each subsequent turn. On a result of :darkside:, the lightsaber flickers and uses the following profile until it is switched off for a turn: [Lightsaber; Damage 7, Critical 3, Range: Engaged]. On a result of :darkside::darkside:, the lightsaber shuts down, and does not count as a weapon at all."
+				"notes": "The crystal set in Elaiza’s lightsaber is damaged and worn. Once it has been switched on, make a Force check especially for the lightsaber at the beginning of each subsequent turn. On a result of :forcepip:, the lightsaber flickers and uses the following profile until it is switched off for a turn: [Lightsaber; Damage 7, Critical 3, Range: Engaged]. On a result of :forcepip::forcepip:, the lightsaber shuts down, and does not count as a weapon at all."
 				}
 			],
 		"talents": ["Adversary 2", "Ataru Technique", "Sense Danger", "Force Rating 3", "Sense Emotions"],
@@ -930,11 +930,11 @@
 				"On the Edge",
 				{
 				"name": "Force power: Move",
-				"description": ":lightside:: Move up to 2 objects with Silhouette 1 at Medium range; may make ranged attacks with this power."
+				"description": ":forcepip:: Move up to 2 objects with Silhouette 1 at Medium range; may make ranged attacks with this power."
 				},
 				{
 				"name": "Force power: Influence",
-				"description": ":lightside:: Inflict 2 strain on engaged target. Make an opposed Discipline vs Discipline check, as well as an Influence Force Power check, if successful can force target to adopt an emotional state or believe something untrue for 3 rounds or 5 minutes."
+				"description": ":forcepip:: Inflict 2 strain on engaged target. Make an opposed Discipline vs Discipline check, as well as an Influence Force Power check, if successful can force target to adopt an emotional state or believe something untrue for 3 rounds or 5 minutes."
 				}
 			],
 		"tags": ["adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "force sensitive", "jedi"]

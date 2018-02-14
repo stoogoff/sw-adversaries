@@ -1,6 +1,6 @@
 
 import React from "react";
-import { id, symbolise, sortByProperty } from "lib/utils";
+import { id, symbolise, statify, sortByProperty } from "lib/utils";
 
 export default class TalentPanel extends React.Component {
 	render() {
@@ -8,6 +8,7 @@ export default class TalentPanel extends React.Component {
 			return null;
 		}
 
+		let stats = this.props.stats;
 		let data = this.props.data;
 		let talents = [];
 		let allTalents = this.props.talents.all();
@@ -23,14 +24,16 @@ export default class TalentPanel extends React.Component {
 				return;
 			}
 
+			let ranked = t.match(/\s(\d+)$/);
+			let ranks = ranked ? ranked[1] : 1;
 			let talentName = t.replace(/\s\d+$/, "");
-			let talent = allTalents.find(i => i.name == talentName)
+			let talent = allTalents.find(i => i.name == talentName);
 
 			if(talent != null) {
 				talents.push({
 					id: talent.id,
 					name: t,
-					description: talent.description
+					description: statify(talent.description, this.props.stats, Number(ranks))
 				});
 			}
 		});

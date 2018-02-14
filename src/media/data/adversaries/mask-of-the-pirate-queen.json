@@ -648,7 +648,7 @@
 		"abilities": ["Teamwork",
 				{
 					"name": "Hard of Hearing",
-					"description": "Add :setback: when attempting a Perception check based on auditory clues"
+					"description": "Add :setback: when attempting a Perception check based on auditory clues."
 				}
 					],
 		"gear": ["Worn clone trooper armour (+2 Soak)", "Utility belt (increase Encumberance Threshold by 1)"],
