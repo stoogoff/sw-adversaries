@@ -1,0 +1,115 @@
+[
+	{
+		"name": "Cybot Galactica K-9 Series Hunting Droid",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 9
+		},
+		"skills": {
+			"Brawl": 3,
+			"Perception": 3,
+			"Stealth": 3,
+			"Survival": 3
+		},
+		"abilities": ["Droid"],
+		"weapons": [
+			{
+				"name": "Teeth and claws",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			}
+		],
+		"talents": ["Hunter 2"],
+		"gear": ["Built-in Fabritech “Hound” sensor suite (allows the droid to see in dim and dark conditions and to hear sounds far above and below a human’s range of hearing at greatg distances. Add :boost: to any Perception or Survival checks."],
+		"tags": ["species:Droid", "book:eto"]
+	},
+	{
+		"name": "Cybot Galactica/KDY All-Terrain Exploration Droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15
+		},
+		"skills": {
+			"Coordination": 2,
+			"Perception": 3,
+			"Ranged: Heavy": 1,
+			"Vigilance": 3
+
+		},
+		"abilities": ["Droid"],
+		"weapons": [
+			{
+				"name": "Forward-mounted Blaster",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun"]
+			}
+		],
+		"talents": ["Outdoorsman 2"],
+		"gear": ["Fabritech “Surveyor” mapping and surveying suite (Can create maps if terrain geatures within ten kilometers, transmit information to ships in orbit, scan through up to fifty meters of earth or rock, and analyze environments for any dangerous conditions. In addition, add :boost::boost: to all Perception and Vigilance checks made by the droid."],
+		"tags": ["species:Droid", "book:eto"]
+	},
+	{
+		"name": "Industrial Automaton JC Series Pilot Droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": {
+			"Cool": 2,
+			"Piloting: Planetary": 2,
+			"Piloting: Space": 2,
+			"Ranged: Light": 1
+
+		},
+		"abilities": ["Droid"],
+		"talents": ["Full Throttle"],
+		"weapons": [
+			{
+				"name": "Light pop-up blaster",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Stun"]
+			}
+		],
+		"tags": ["species:Droid", "book:eto"]
+	}
+]
