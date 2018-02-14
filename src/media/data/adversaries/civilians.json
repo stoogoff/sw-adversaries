@@ -610,7 +610,7 @@
 			"soak": 2,
 			"wounds": 14,
 			"strain": 12,
-			"defence": [2, 0]
+			"defence": [0, 2]
 		},
 		"skills": {
 			"Charm": 2,

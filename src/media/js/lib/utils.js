@@ -82,32 +82,33 @@ export const symbolise = function symbolise(text) {
 
 let diceMap = {
 	// dice
-	"boost": "<span class='icon boost shadowed'>b</span>",
-	"proficiency": "<span class='icon proficiency shadowed'>c</span>",
-	"ability": "<span class='icon ability shadowed'>d</span>",
-	"setback": "<span class='icon setback shadowed'>b</span>",
-	"challenge": "<span class='icon challenge shadowed'>c</span>",
-	"difficulty": "<span class='icon difficulty shadowed'>d</span>",
-	"force": "<span class='icon force shadowed'>c</span>",
+	"boost": "<span class='icon boost'></span>",
+	"proficiency": "<span class='icon proficiency'></span>",
+	"ability": "<span class='icon ability'></span>",
+	"setback": "<span class='icon setback'></span>",
+	"challenge": "<span class='icon challenge'></span>",
+	"difficulty": "<span class='icon difficulty'></span>",
+	"force": "<span class='icon force'></span>",
 
 	// outcomes
-	"advantage": "<span class='icon advantage'>a</span>",
-	"failure": "<span class='icon failure'>f</span>",
-	"success": "<span class='icon success'>s</span>",
-	"threat": "<span class='icon threat'>t</span>",
-	"triumph": "<span class='icon triumph'>x</span>",
-	"despair": "<span class='icon despair'>y</span>",
+	"advantage": "<span class='icon advantage'></span>",
+	"failure": "<span class='icon failure'></span>",
+	"success": "<span class='icon success'></span>",
+	"threat": "<span class='icon threat'></span>",
+	"triumph": "<span class='icon triumph'></span>",
+	"despair": "<span class='icon despair'></span>",
 
 	// force
-	"lightside": "<span class='icon lightside shadowed'>z</span>",
-	"darkside": "<span class='icon darkside'>z</span>",
+	"lightside": "<span class='icon lightside'></span>",
+	"darkside": "<span class='icon darkside'></span>",
+	"forcepip": "<span class='icon forcepip'></span>",
 
 	// difficulty levels
-	"easy": "<strong>Easy</strong> (<span class='icon difficulty shadowed'>d</span>)",
-	"average": "<strong>Average</strong> (<span class='icon difficulty shadowed'>dd</span>)",
-	"hard": "<strong>Hard</strong> (<span class='icon difficulty shadowed'>ddd</span>)",
-	"daunting": "<strong>Daunting</strong> (<span class='icon difficulty shadowed'>dddd</span>)",
-	"formidable": "<strong>Formidable</strong> (<span class='icon difficulty shadowed'>ddddd</span>)",
+	"easy": "<strong>Easy</strong> (<span class='icon difficulty'></span>)",
+	"average": "<strong>Average</strong> (<span class='icon difficulty'></span><span class='icon difficulty'></span>)",
+	"hard": "<strong>Hard</strong> (<span class='icon difficulty'></span><span class='icon difficulty'></span><span class='icon difficulty'></span>)",
+	"daunting": "<strong>Daunting</strong> (<span class='icon difficulty'></span><span class='icon difficulty'></span><span class='icon difficulty'></span><span class='icon difficulty'></span>)",
+	"formidable": "<strong>Formidable</strong> (<span class='icon difficulty'></span><span class='icon difficulty'></span><span class='icon difficulty'></span><span class='icon difficulty'></span><span class='icon difficulty'></span>)",
 };
 
 

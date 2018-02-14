@@ -1,67 +1,131 @@
 
 @import "_variables.sass"
 
-
-// dice icons
+	
 .icon
-	font-family: StarWarsSymbols
+	// use !important to prevent issues with browser extensions that change fonts
+	font-family: 'sw-rpg-icons' !important
+	speak: none
+	font-style: normal
+	font-weight: normal
+	font-variant: normal
+	text-transform: none
+
+	// Better Font Rendering
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+
 	color: $heading
 	position: relative
 	line-height: 1em !important
 	display: inline-block
-	
-.shadowed:after
-	position: absolute
-	top: 0
-	left: 0
-	color: #111
+	font-size: 1.1em
+	top: 2px
+
+	&:after
+		position: absolute
+		top: 0
+		left: 0
+		color: #111
 
 
 .ability
 	color: map-get($dice, "ability")
 
+	&:before
+		content: $ffi-d8
+
 	&:after
-		content: "D"
+		content: $ffi-d8-outline
 
 .proficiency
 	color: map-get($dice, "proficiency")
 
+	&:before
+		content: $ffi-d12
+
 	&:after
-		content: "C"
+		content: $ffi-d12-outline
 
 .setback
+	font-size: 1em
 	color: map-get($dice, "setback")
 
+	&:before
+		content: $ffi-d6
+
 	&:after
-		content: "B"
+		content: $ffi-d6-outline
 
 .boost
+	font-size: 1em
 	color: map-get($dice, "boost")
 
+	&:before
+		content: $ffi-d6
+
 	&:after
-		content: "B"
+		content: $ffi-d6-outline
 
 .challenge
 	color: map-get($dice, "challenge")
 
+	&:before
+		content: $ffi-d12
+
 	&:after
-		content: "C"
+		content: $ffi-d12-outline
 
 .difficulty
 	color: map-get($dice, "difficulty")
 
+	&:before
+		content: $ffi-d8
+
+	&:after
+		content: $ffi-d8-outline
+
 .force
 	color: white
 
+	&:before
+		content: $ffi-d12
+
 	&:after
-		content: "C"
+		content: $ffi-d12-outline
 
 .lightside
 	color: white
 
-	&:after
-		content: "Z"
+	&:before
+		content: $ffi-swrpg-force
 
-@font-face
-	font-family: StarWarsSymbols
-	src: url(../fonts/starwars-dice-symbols.otf), url(../fonts/starwars-dice-symbols.woff) format("woff")
+	&:after
+		content: $ffi-swrpg-force-outline
+
+.darkside
+	color: map-get($dice, "setback")
+
+	&:before
+		content: $ffi-swrpg-force
+
+	&:after
+		content: $ffi-swrpg-force-outline
+
+.forcepip
+	color: white
+
+	&:before
+		content: $ffi-swrpg-force
+
+	&:after
+		content: $ffi-swrpg-force-split
+
+
+
+@font-face 
+	font-family: 'sw-rpg-icons'
+	src: url(../fonts/sw-rpg-icons.eot?32jxyw)
+	src: url(../fonts/sw-rpg-icons.eot?32jxyw#iefix) format('embedded-opentype'), url(../fonts/sw-rpg-icons.ttf?32jxyw) format('truetype'), url(../fonts/sw-rpg-icons.woff?32jxyw) format('woff'), url(../fonts/sw-rpg-icons.svg?32jxyw#sw-rpg-icons) format('svg')
+	font-weight: normal
+	font-style: normal
