@@ -799,8 +799,7 @@
 			"Streetwise": 1,
 			"Vigilance": 1
 		},
-		"weapons": [
-			"Disruptor pistol",
+		"weapons": ["Disruptor pistol",
 			{
 				"name": "Reinforced gauntlets",
 				"skill": "Brawl",
@@ -1752,8 +1751,7 @@
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 1"],
-		"weapons": [
-			"Disruptor pistol", "Holdout blaster",
+		"weapons": ["Disruptor pistol", "Holdout blaster",
 			{
 				"name": "Claws",
 				"skill": "Brawl",

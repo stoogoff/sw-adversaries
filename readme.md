@@ -84,6 +84,7 @@ Main tasks:
 	- Nexus of Power
 - career books
 	- *Dangerous Covenants (no stats)*
+	- Enter the Unknown (5 droids)
 	- Desparate Allies
 	- Endless Vigil
 	- Far Horizons
@@ -166,8 +167,6 @@ Main tasks:
 - source books
 	- *Dawn of Rebellion (not released)*
 - career books
-	- EotE
-		- Enter the Unknown (5 droids)
 	- AoR
 		- Fully Operational
 		- *Cyphers and Masks (not released)*
