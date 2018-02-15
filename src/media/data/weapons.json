@@ -118,7 +118,8 @@
 		"damage": 10,
 		"critical": 2,
 		"range": "Short",
-		"qualities": ["Vicious 4"]
+		"qualities": ["Vicious 4"],
+		"notes": "When the disruptor inflicts a Critical Injury, the minimum result is 96-100, “Crippled”, unless it would be worse."
 	},
 	{
 		"name": "Disruptor rifle",

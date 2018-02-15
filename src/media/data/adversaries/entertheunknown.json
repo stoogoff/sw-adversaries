@@ -32,7 +32,7 @@
 			}
 		],
 		"talents": ["Hunter 2"],
-		"gear": ["Built-in Fabritech “Hound” sensor suite (allows the droid to see in dim and dark conditions and to hear sounds far above and below a human’s range of hearing at greatg distances. Add :boost: to any Perception or Survival checks."],
+		"gear": ["Built-in Fabritech “Hound” sensor suite (allows the droid to see in dim and dark conditions and to hear sounds far above and below a human’s range of hearing at great distances. Add :boost: to any Perception or Survival checks."],
 		"tags": ["species:Droid", "book:eto"]
 	},
 	{
@@ -71,7 +71,7 @@
 			}
 		],
 		"talents": ["Outdoorsman 2"],
-		"gear": ["Fabritech “Surveyor” mapping and surveying suite (Can create maps if terrain geatures within ten kilometers, transmit information to ships in orbit, scan through up to fifty meters of earth or rock, and analyze environments for any dangerous conditions. In addition, add :boost::boost: to all Perception and Vigilance checks made by the droid."],
+		"gear": ["Fabritech “Surveyor” mapping and surveying suite (Can create maps of terrain features within ten kilometers, transmit information to ships in orbit, scan through up to fifty meters of earth or rock, and analyze environments for any dangerous conditions. In addition, add :boost::boost: to all Perception and Vigilance checks made by the droid."],
 		"tags": ["species:Droid", "book:eto"]
 	},
 	{
