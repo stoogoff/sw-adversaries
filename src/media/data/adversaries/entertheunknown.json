@@ -85,7 +85,7 @@
 			"Intellect": 2,
 			"Cunning": 1,
 			"Willpower": 1,
-			"Presence": 2
+			"Presence": 1
 		},
 		"derived": {
 			"soak": 2,
@@ -108,6 +108,107 @@
 				"critical": 4,
 				"range": "Short",
 				"qualities": ["Stun"]
+			}
+		],
+		"tags": ["species:Droid", "book:eto"]
+	},
+	{
+		"name": "Merendata KLC Series Exchequer Droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 8
+		},
+		"skills": {
+			"Charm": 2,
+			"Computers": 2,
+			"Cool": 2,
+			"Negotiation": 2
+		},
+		"abilities": ["Droid"],
+		"talents": ["Wheel and Deal 2"],
+		"gear": ["Mercantile computer with holonet connection (add :boost: to all Negotiation checks while in the Outer Rim and :boost::boost: to Negotiation checks while in the Core)"],
+		"tags": ["species:Droid", "book:eto"]
+	},
+	{
+		"name": "87-RM Scout Collector",
+		"type": "Rival",
+		"description": "87-RM Scout Collector and Wanderer Scout Surveyor",
+		"notes": "Sorosuub Corporation",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 8,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Knowledge: Xenology": 4,
+			"Perception": 3
+		},
+		"abilities": ["Droid", "Silhouette 3", "Hoverer"],
+		"gear": ["Cryostage bay"],
+		"weapons": [
+			{
+				"name": "Grapple arms",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Ensnare 3"]
+			}
+		],
+		"tags": ["species:Droid", "book:eto"]
+	},
+	{
+		"name": "Wanderer Scout Surveyor",
+		"type": "Rival",
+		"description": "",
+		"notes": "Sorosuub Corporation",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10
+		},
+		"skills": {
+			"Perception": 3,
+			"Ranged: Light": 1,
+			"Stealth": 2,
+			"Survival": 3
+		},
+		"abilities": ["Droid", "Hunter 1", "Swift"],
+		"gear": ["Cryostage bay"],
+		"weapons": [
+			{
+				"name": "Stun blaster",
+				"skill": "Ranged: Light",
+				"damage": 8,
+				"critical": 0,
+				"range": "Short",
+				"qualities": ["Disorient 3", "Stun Damage"]
 			}
 		],
 		"tags": ["species:Droid", "book:eto"]
