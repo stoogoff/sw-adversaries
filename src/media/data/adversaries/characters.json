@@ -581,6 +581,7 @@
 		"name": "Agent Eren Garai",
 		"type": "Nemesis",
 		"description": "",
+		"notes": "When the disruptor inflicts a Critical Injury, the minimum result is 96-100, “Crippled”, unless it would be worse.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -609,7 +610,16 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 2"],
-		"weapons": ["Disruptor pistol"],
+		"weapons": [
+				{
+					"name": "Disruptor pistol",
+					"skill": "Ranged: Light",
+					"damage": 10,
+					"critical": 2,
+					"range": "Short",
+					"qualities": ["Vicious 4"]
+				}
+			],
 		"gear": ["Breath mask", "Cybernetic brain implant", "Hand scanner"],
 		"tags": ["book:fad", "adventure:Lessons from the Past", "location:Eriadu", "location:Phelar University Archive", "empire", "imperial security bureau"]
 	},
@@ -799,8 +809,7 @@
 			"Streetwise": 1,
 			"Vigilance": 1
 		},
-		"weapons": [
-			"Disruptor pistol",
+		"weapons": ["Disruptor pistol",
 			{
 				"name": "Reinforced gauntlets",
 				"skill": "Brawl",
@@ -1752,8 +1761,7 @@
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 1"],
-		"weapons": [
-			"Disruptor pistol", "Holdout blaster",
+		"weapons": ["Disruptor pistol", "Holdout blaster",
 			{
 				"name": "Claws",
 				"skill": "Brawl",

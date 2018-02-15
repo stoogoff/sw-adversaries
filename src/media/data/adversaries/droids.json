@@ -1366,7 +1366,7 @@
 			"wounds": 5
 		},
 		"skills": {
-			"Gunnery:": 2,
+			"Gunnery": 2,
 			"Piloting: Space": 2
 		},
 		"abilities": ["Droid"],
