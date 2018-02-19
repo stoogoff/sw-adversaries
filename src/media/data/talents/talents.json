@@ -1250,11 +1250,11 @@
 	},
 	{
 		"name": "Scathing Tirade",
-		"description": "May spend an action to make an :average: Coercion check; each :success: causes one enemy in Short range to suffer 1 Strain. Spend :advantage: to cause 1 affected enemy to suffer 1 additional Strain."
+		"description": "As an action, make an :average: Coercion check; each :success: causes one enemy in Short range to suffer 1 Strain. Spend :advantage: to cause 1 affected enemy to suffer 1 additional Strain."
 	},
 	{
 		"name": "Improved Scathing Tirade",
-		"description": "As an action, may make an :average: Coercion check; each :success: inflicts 1 Strain on a target in Short range. Spend :advantage: to inflict 1 additional Strain on one affected target; all affected targets suffer :setback: to all checks for {Coercion} rounds."
+		"description": "As an action, make an :average: Coercion check; each :success: inflicts 1 Strain on a target in Short range. Spend :advantage: to inflict 1 additional Strain on one affected target; all affected targets suffer :setback: to all checks for {Coercion} rounds."
 	},
 	{
 		"name": "Scathing Tirade [Supreme]",
