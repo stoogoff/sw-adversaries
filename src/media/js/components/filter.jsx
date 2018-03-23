@@ -46,7 +46,7 @@ export default class Filter extends React.Component {
 	render() {
 		return <div className="filter">
 			<input type="text" onChange={ this.handler.bind(this) } value={ this.state.filter } />
-			<span id="clear" onClick={ this.clear.bind(this) }><svg><use href="#icon-cancel-circle"></use></svg></span>
+			<span id="clear" onClick={ this.clear.bind(this) }><svg><use xlinkHref="#icon-cancel-circle"></use></svg></span>
 		</div>;
 	}
 }

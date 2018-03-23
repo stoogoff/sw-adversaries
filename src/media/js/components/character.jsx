@@ -104,23 +104,23 @@ export default class Character extends React.Component {
 		let icon = null;
 
 		if(character.tags.indexOf("rebel alliance") != -1) {
-			icon = <svg><use href="#rebel-alliance"></use></svg>;
+			icon = <svg><use xlinkHref="#rebel-alliance"></use></svg>;
 		}
 		else if(character.tags.indexOf("empire") != -1) {
-			icon = <svg><use href="#galactic-empire"></use></svg>;
+			icon = <svg><use xlinkHref="#galactic-empire"></use></svg>;
 		}
 		else if(character.tags.indexOf("first order") != -1) {
-			icon = <svg><use href="#first-order"></use></svg>;
+			icon = <svg><use xlinkHref="#first-order"></use></svg>;
 		}
 
 		// favourite icon
 		let fav = null;
 
 		if(character.favourite) {
-			fav = <svg className="star-filled outline" onClick={ this.removeFavourite.bind(this) }><use href="#icon-star-full"></use></svg>;
+			fav = <svg className="star-filled outline" onClick={ this.removeFavourite.bind(this) }><use xlinkHref="#icon-star-full"></use></svg>;
 		}
 		else {
-			fav = <svg onClick={ this.addFavourite.bind(this) }><use href="#icon-star-empty"></use></svg>;
+			fav = <svg onClick={ this.addFavourite.bind(this) }><use xlinkHref="#icon-star-empty"></use></svg>;
 		}
 
 		// get all of the character's skills and characteristics as a hash

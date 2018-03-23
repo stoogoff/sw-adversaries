@@ -21,8 +21,8 @@
   "dependencies": {
     "babel-polyfill": "^6.16.0",
     "nanoajax": "^0.4.3",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "react-remarkable": "^1.1.1",
     "systemjs": "^0.19.39"
   },
