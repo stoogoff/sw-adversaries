@@ -279,6 +279,7 @@ h2.subtitle
 						border-color: black
 
 				input[type="text"]
+					box-sizing: border-box
 					color: $heading
 					background-color: white
 					border: 1px solid darken($link, 20%)
@@ -382,6 +383,7 @@ h2.subtitle
 			font-size: 0.7em
 
 	input[type="text"]
+		box-sizing: border-box
 		display: inline-block
 		border-width: 0
 		border-bottom: 2px solid $derived
@@ -474,6 +476,18 @@ h2.subtitle
 			top: -2px
 			display: inline-block
 			margin-left: 3px
+
+#donation
+	text-align: center
+
+	.btn
+		text-decoration: none
+		font-size: 1.2em
+		background-color: map-get($dice, "boost")
+		border: 1px solid map-get($tabs, "black")
+
+		&:hover
+			background-color: darken(map-get($dice, "boost"), 20%)
 
 
 // MEDIA OVERRIDES
