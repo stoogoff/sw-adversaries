@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <title>Star Wars: Adversaries</title>
@@ -97,8 +98,8 @@ System.defaultJSExtensions = true;
 System.config({
 	baseURL: "media/js",
 	map: {
-		"react": "vendor/react.js",
-		"react-dom": "vendor/react-dom.js",
+		"react": "vendor/react.production.min.js",
+		"react-dom": "vendor/react-dom.production.min.js",
 		"remarkable": "vendor/remarkable.min.js"
 	}
 });
@@ -108,7 +109,7 @@ System.import("app");
 </script>
 <!-- @if ENV_LIVE=true -->
 <!-- Piwik -->
-<script type="text/javascript">
+<script>
 var _paq = _paq || [];
 _paq.push(["setDomains", ["*.swa.stoogoff.com"]]);
 _paq.push(['trackPageView']);

@@ -24,10 +24,10 @@ export default class LinkList extends React.Component {
 				let icon = null;
 
 				if(l.favourite) {
-					icon = <svg className="outline star-filled"><use href="#icon-star-full"></use></svg>;
+					icon = <svg className="outline star-filled"><use xlinkHref="#icon-star-full"></use></svg>;
 				}
 				else if(isSelected) {
-					icon = <svg><use href="#icon-circle-right"></use></svg>;
+					icon = <svg><use xlinkHref="#icon-circle-right"></use></svg>;
 				}
 
 				return <li key={ l.id } className={ isSelected ? "selected": "" }>

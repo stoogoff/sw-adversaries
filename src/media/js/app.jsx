@@ -260,7 +260,9 @@ class App extends React.Component {
 					<h3>About</h3>
 					<p>Star Wars Adversaries is an easily searchable database of adversaries for <a href="https://www.fantasyflightgames.com/">Fantasy Flight Games’</a> Star Wars Roleplaying Game.</p>
 					<p>Built by <a href="http://www.stoogoff.com/">Stoo Goff</a>, <a href="https://twitter.com/nlx3647">nlx3647</a>, and <a href="https://github.com/SkyJed">SkyJedi</a>.</p>
-					<div className="btn pull-right" onClick={ this.toggleAbout.bind(this) }><svg><use href="#icon-cross"></use></svg> <span>Close</span></div>
+					<p>Want to support the future development of <em>Star Wars: Adversaries</em>?</p>
+					<div id="donation"><a href="https://paypal.me/weevolve" target="_blank" className="btn">Donate</a></div>
+					<div className="btn pull-right" onClick={ this.toggleAbout.bind(this) }><svg><use xlinkHref="#icon-cross"></use></svg> <span>Close</span></div>
 				</div>
 			</div>
 			: null;
@@ -268,7 +270,7 @@ class App extends React.Component {
 		return <div>
 			{ overlay }
 			<div id="mobile-menu">
-				<span className="btn" onClick={ this.toggleMenu.bind(this) }><svg><use href="#icon-menu"></use></svg></span>
+				<span className="btn" onClick={ this.toggleMenu.bind(this) }><svg><use xlinkHref="#icon-menu"></use></svg></span>
 				<em>Star Wars: Adversaries</em>
 			</div>
 			<TagMenu tags={ this.state.tags } />

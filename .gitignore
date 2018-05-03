@@ -3,3 +3,4 @@
 dev/*
 live/*
 aws.json
+package-lock.json

@@ -79,15 +79,15 @@ export default class Tabs extends React.Component {
 					{ t.colour ? <span className={ "square tab-" + t.colour }></span> : null }
 					{ t.tabName }
 				</span>
-				<small className="btn tools" onClick={ this.toggleMenu.bind(this) }><svg><use href="#icon-cog"></use></svg></small>
+				<small className="btn tools" onClick={ this.toggleMenu.bind(this) }><svg><use xlinkHref="#icon-cog"></use></svg></small>
 
 				<ul className={ this.state.active ==  i ? "active" : "" }>
 					<li><input type="text" value={ t.tabName } onChange={ this.rename.bind(this) } /></li>
 					{ colours }
-					<li onClick={ this.remove.bind(this) }><div className="btn"><svg><use href="#icon-cross"></use></svg> Remove</div></li>
+					<li onClick={ this.remove.bind(this) }><div className="btn"><svg><use xlinkHref="#icon-cross"></use></svg> Remove</div></li>
 				</ul>
 			</li>) }
-			<li className="tools"><small className="btn" onClick={ this.add.bind(this) }><svg><use href="#icon-plus"></use></svg> Add</small></li>
+			<li className="tools"><small className="btn" onClick={ this.add.bind(this) }><svg><use xlinkHref="#icon-plus"></use></svg> Add</small></li>
 		</ul>;
 	}
 }

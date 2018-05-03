@@ -100,8 +100,8 @@ gulp.task("copy-vendor", function() {
 	var modules = [
 		path.module("systemjs/dist/system.js"),
 		path.module("babel-polyfill/dist/polyfill.js"),
-		path.module("react/dist/react.js"),
-		path.module("react-dom/dist/react-dom.js"),
+		path.module("react/umd/react.production.min.js"),
+		path.module("react-dom/umd/react-dom.production.min.js"),
 		path.module("remarkable/dist/remarkable.min.js")
 	];
 
