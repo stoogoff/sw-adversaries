@@ -128,7 +128,7 @@
 	{
 		"name": "Dokma",
 		"type": "Minion",
-		"description": "The skittish dokma are cute quadrupeds covered almost entirely by a protective shell – only their feet and eye-stalks suffer Atollon's harsh environment unshielded. The dokma life cycle is one of constant migration. Born in underwater aquifers, dokma shed their first shell after weeks of drinking the mineral-rich subterranean waters. Eventually, they seek the surface and wander the coral.\n\nOnce they find an appropriate location, dokma shed their shell and latch onto surface coral like a barnacle. There, they are able to siphon sustenance from the coral, grow, and create a new shell. After a dokma's new shell is complete, it migrates to a new coral formation, seeking a mate. If it is successful, the pair locates a sub-surface lake to host their offspring, otherwise, the dokma continues wandering the surface and watching for hungry krykna.",
+		"description": "The skittish dokma are cute quadrupeds covered almost entirely by a protective shell — only their feet and eye-stalks suffer Atollon's harsh environment unshielded. The dokma life cycle is one of constant migration. Born in underwater aquifers, dokma shed their first shell after weeks of drinking the mineral-rich subterranean waters. Eventually, they seek the surface and wander the coral.\n\nOnce they find an appropriate location, dokma shed their shell and latch onto surface coral like a barnacle. There, they are able to siphon sustenance from the coral, grow, and create a new shell. After a dokma's new shell is complete, it migrates to a new coral formation, seeking a mate. If it is successful, the pair locates a sub-surface lake to host their offspring, otherwise, the dokma continues wandering the surface and watching for hungry krykna.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 1,
@@ -192,5 +192,120 @@
 			}
 		],
 		"tags": ["book:dor", "location:Atollon", "creature"]
+	},
+	{
+		"name": "Maul",
+		"type": "Nemesis",
+		"description": "Once a Dark Lord of the Sith and then a criminal warlord, this Zabrak is now known simply as Maul. A lifetime of hatred and betrayal have transformed the Dathomirian native both physically and mentally. A prowling predator upon cybernetic legs, Maul is obsessed with revenge — especially for a long-time foe whom he first met on Naboo before the fall of the Republic. Maul believed him dead, but has recently discovered he still lives on a desert planet with twin suns. Enraged with this knowledge, Maul will not rest until he finds and defeats this former Jedi Master.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 5,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 18,
+			"strain": 21
+		},
+		"skills": {
+			"Athletics": 4,
+			"Brawl": 4,
+			"Coercion": 3,
+			"Coordination": 4,
+			"Deception": 3,
+			"Knowledge: Lore": 3,
+			"Lightsaber (Agility)": 5,
+			"Piloting: Space": 3,
+			"Survival": 1,
+			"Vigilance": 3
+		},
+		"talents": [
+			"Adversary 3", "Ataru Technique", "Force Rating 4", "Hawk Bat Swoop", "Jump Up", "Parry 4",
+			{
+ 				"name": "Fear is My Ally",
+ 				"description": "Spend :threat: on an opposed social skill check against Maul for him to recover 1 Strain."
+			}
+		],
+		"abilities": [
+			"Darkside Force User",
+			{
+				"name": "Intimidating Countenance",
+				"description": "Add automatic :advantage::advantage: to all Coercion checks Maul makes."
+			},
+			{
+				"name": "Force power: Enhance",
+				"description": "When making an Athletics, Coordination, or Resilience check, Maul may roll an Enhance power check as part of the pool and spend :forcepip: to gain :success: or :advantage: on the check. Maul may take the Force Leap maneuver to make an Enhance power check. He may spend :forcepip: to leap horizontally or vertically to any location in Short range."
+			},
+			{
+				"name": "Force power: Sense",
+				"description": "Spend :forcepip: to sense the current thoughts of one living target within Short range."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Sapith lightsaber",
+				"skill": "Lightsaber (Agility)",
+				"damage": 9,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 2", "Sunder"]
+			}
+		],
+		"gear": ["Cybernetic legs (+1 Brawn, already included in profile", "Nightbrother heavy clothing (+1 Soak)"],
+		"tags": ["book:dor", "force sensitive", "darkside", "species:Zabrak", "underworld"]
+	},
+	{
+		"name": "Shelish",
+		"type": "Nemesis",
+		"description": "Shelish, the only known surviving Nightsisters, spends much of her time hiding in the swamps of Jhas Krill, the eleventh moon of Jhas, in the Hoth system. Although she was absent during the loss of her people on Dathomir, she may also be found on that world at times, searching for clues about their fate. Trusting in the magick of her people, she waits for a student worthy to inherit her dark secrets.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 16,
+			"strain": 19,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Discipline": 3,
+			"Knowledge: Lore": 2,
+			"Lightsaber": 3,
+			"Survival": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Force Rating 3"],
+		"abilities": [
+			"Darkside Force User",
+			{
+				"name": "Force power: Harm",
+				"description": "May make a Harm Force power check against one Engaged target. Spend :forcepip: to inflict 4 Wounds on the target, ignoring Soak. Spend :forcepip: to increase range by one range band or the number of targets affected by this power by one."
+			},
+			{
+				"name": "Force power: Phantasmagoria",
+				"description": "Once per encounter, may suffer 3 Strain and make a Force power check: for every :forcepip: spent, a single target within Short range must make a :daunting: fear check."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Ancient sword",
+				"skill": "Lightsaber",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Defensive 1"]
+			}
+		],
+		"gear": ["Armoured clothing (+1 Soak, +1 Defence)"],
+		"tags": ["book:dor", "nightsister", "force sensitive", "darkside", "location:Dathomir", "location:Hoth"]
 	}
 ]

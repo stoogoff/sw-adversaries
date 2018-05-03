@@ -544,7 +544,7 @@
 			}
 		],
 		"gear": ["Heavy clothing (+1 Soak)", "Secure comlink"],
-		"tags": ["adventure:Ghosts of Dathomir", "book:god", "inquisitor", "force sensitive", "darkside"]
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "nightsister", "force sensitive", "darkside"]
 	},
 	{
 		"name": "Irrica the Hutt",
@@ -1284,6 +1284,6 @@
 			"Thermal detonator"
 		],
 		"gear": ["Heavy clothing (+1 Soak)", "Secure comlink", "Nardithi shard", "1 Thermal detonator", "Hand-held holoprojector with pathway guidance notations and mapping protocols enabled"],
-		"tags": ["adventure:Ghosts of Dathomir", "book:god", "inquisitor", "force sensitive", "darkside"]
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "nightsister", "force sensitive", "darkside"]
 	}
 ]
