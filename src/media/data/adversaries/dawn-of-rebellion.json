@@ -1,8 +1,8 @@
 [
 	{
-		"name": "Princess Leia ORgana",
+		"name": "Princess Leia Organa",
 		"type": "Nemesis",
-		"description": "The Alderaanian princess is already well known to be as out-spoken and politically savvy as her famous father. Although she is very young to hold a position of power as great as that of an Imperial Senator, she has had a lifetime of training for the role. She embodies all of Alderaan's values and strengths, along with Bail Organa's political skill and desire to bring an end to the Emperor and Empire. She actively users her diplomatic status to support resistance activities, whether for recruitment, acquisition of supplies, delivery of information, or even to personally join a fight when necessary.",
+		"description": "The Alderaanian princess is already well known to be as out-spoken and politically savvy as her famous father. Although she is very young to hold a position of power as great as that of an Imperial Senator, she has had a lifetime of training for the role. She embodies all of Alderaan’s values and strengths, along with Bail Organa’s political skill and desire to bring an end to the Emperor and Empire. She actively users her diplomatic status to support resistance activities, whether for recruitment, acquisition of supplies, delivery of information, or even to personally join a fight when necessary.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -46,7 +46,7 @@
 	{
 		"name": "AP-5",
 		"type": "Rival",
-		"description": "A prickly RA-7 series protocol droid with masculine programming, AP-5 was a navigator and military analyst for the Republic Navy during the Clone Wars. He supported several deployments and served at the Battle of Ryloth. When the Galactic Empire came to power, it deemed AP-5 obsolete and reassigned him to a bulk freight as quartermaster. Many years after the Clone Wars, a now depressed and irritable AP-5 befriended fellow Clone Wars veteran Chopper, Phoenix Cell's astromech droid.\n\nAfter some convincing, AP-5 accepted Chopper's invitation to join Phoenix Cell. Finally fulfilling his primary programming again, AP-5's cross-referenced Imperial, Republic, and Lasat astrogation charts to determine a safe haven for Phoenix Cell, deciding on Atollon. His brave actions saved Chopper's friends, and as a result, AP-5 was given the role as Chopper Base's quartermaster where his logistical expertise helps bring order to the often chaotic supply situation at the base. He also provides Commander Sato with intelligence analysis. While AP-5 has never felt better, his gratitude expresses itself as dry insults and biting sarcasm.",
+		"description": "A prickly RA-7 series protocol droid with masculine programming, AP-5 was a navigator and military analyst for the Republic Navy during the Clone Wars. He supported several deployments and served at the Battle of Ryloth. When the Galactic Empire came to power, it deemed AP-5 obsolete and reassigned him to a bulk freight as quartermaster. Many years after the Clone Wars, a now depressed and irritable AP-5 befriended fellow Clone Wars veteran Chopper, Phoenix Cell’s astromech droid.\n\nAfter some convincing, AP-5 accepted Chopper’s invitation to join Phoenix Cell. Finally fulfilling his primary programming again, AP-5’s cross-referenced Imperial, Republic, and Lasat astrogation charts to determine a safe haven for Phoenix Cell, deciding on Atollon. His brave actions saved Chopper’s friends, and as a result, AP-5 was given the role as Chopper Base’s quartermaster where his logistical expertise helps bring order to the often chaotic supply situation at the base. He also provides Commander Sato with intelligence analysis. While AP-5 has never felt better, his gratitude expresses itself as dry insults and biting sarcasm.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -81,7 +81,7 @@
 	{
 		"name": "Krykna",
 		"type": "Minion",
-		"description": "Often referred to as a spider, the two metre tall krykna is unlike most arachnids. While it shares a similar appearance and a limited ability to create webbing, the krykna possesses only six limbs and cannot generate venom. Its vertically-orientated body is pale and fleshy, but surprisingly resistant to blaster fire. The creature's terrifying visage features two large, glassy black eyes atop a beaked mouth flanked by twitching mandibles.\n\nKrykna thrive and lay eggs within the tunnels in and under the massive rocky coral growths covering Atollon's surface. They only venture out to search for food, subsisting on skittish dokma snails, though the krykna are willing to dine on anything that stinks of fear. Far from invincible, krykna have an intense aversion to the radiation emitted from standard sensor markers, allowing base personnel to erect an invisible barricade that keeps them out.",
+		"description": "Often referred to as a spider, the two metre tall krykna is unlike most arachnids. While it shares a similar appearance and a limited ability to create webbing, the krykna possesses only six limbs and cannot generate venom. Its vertically-orientated body is pale and fleshy, but surprisingly resistant to blaster fire. The creature’s terrifying visage features two large, glassy black eyes atop a beaked mouth flanked by twitching mandibles.\n\nKrykna thrive and lay eggs within the tunnels in and under the massive rocky coral growths covering Atollon’s surface. They only venture out to search for food, subsisting on skittish dokma snails, though the krykna are willing to dine on anything that stinks of fear. Far from invincible, krykna have an intense aversion to the radiation emitted from standard sensor markers, allowing base personnel to erect an invisible barricade that keeps them out.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 1,
@@ -128,7 +128,7 @@
 	{
 		"name": "Dokma",
 		"type": "Minion",
-		"description": "The skittish dokma are cute quadrupeds covered almost entirely by a protective shell — only their feet and eye-stalks suffer Atollon's harsh environment unshielded. The dokma life cycle is one of constant migration. Born in underwater aquifers, dokma shed their first shell after weeks of drinking the mineral-rich subterranean waters. Eventually, they seek the surface and wander the coral.\n\nOnce they find an appropriate location, dokma shed their shell and latch onto surface coral like a barnacle. There, they are able to siphon sustenance from the coral, grow, and create a new shell. After a dokma's new shell is complete, it migrates to a new coral formation, seeking a mate. If it is successful, the pair locates a sub-surface lake to host their offspring, otherwise, the dokma continues wandering the surface and watching for hungry krykna.",
+		"description": "The skittish dokma are cute quadrupeds covered almost entirely by a protective shell — only their feet and eye-stalks suffer Atollon’s harsh environment unshielded. The dokma life cycle is one of constant migration. Born in underwater aquifers, dokma shed their first shell after weeks of drinking the mineral-rich subterranean waters. Eventually, they seek the surface and wander the coral.\n\nOnce they find an appropriate location, dokma shed their shell and latch onto surface coral like a barnacle. There, they are able to siphon sustenance from the coral, grow, and create a new shell. After a dokma’s new shell is complete, it migrates to a new coral formation, seeking a mate. If it is successful, the pair locates a sub-surface lake to host their offspring, otherwise, the dokma continues wandering the surface and watching for hungry krykna.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 1,
@@ -307,5 +307,160 @@
 		],
 		"gear": ["Armoured clothing (+1 Soak, +1 Defence)"],
 		"tags": ["book:dor", "nightsister", "force sensitive", "darkside", "location:Dathomir", "location:Hoth"]
+	},
+	{
+		"name": "Fel Trech",
+		"type": "Rival",
+		"description": "The lone survivor of a crash landing, Trech has become mentally ill with survivor’s guilt. He is unaware of his own strength in the Force and does not know that his condition is creating Force manifestations.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 13
+		},
+		"skills": {
+			"Piloting: Space": 2,
+			"Survival": 1
+		},
+		"talents": ["Force Rating 2"],
+		"abilities": [
+			"Darkside Force User",
+			{
+				"name": "Force power: Manifestations",
+				"description": "May spend one :forcepip: to create one Force Manifestation."
+			}
+		],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Spare ship parts"],
+		"tags": ["book:dor", "location:Dathomir", "adventure:Spirits of Madness", "force sensitive", "darkside"]
+	},
+	{
+		"name": "Force Manifestation",
+		"type": "Rival",
+		"description": "These ghastly forms are embodiments of Trech’s guilt over the crash brought to life through his Force abilities, of which he is unaware. Each manifestation is a uniquely horrid representation of his fixation on his feelings of guilt.",
+		"characteristics": {
+			"Brawn": 0,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 0,
+			"wounds": 7,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Stealth": 1
+		},
+		"abilities": [
+			{
+				"name": "Fearful Aura",
+				"description": "As an action , may force a single target within Short range to make a :hard: fear check."
+			},
+			{
+				"name": "Manifestation",
+				"description": "Whenever an attack would inflict Strain or Wounds on a manifestation, it inflicts 2 Strain on Fel Trech instead."
+			}
+		],
+		"tags": ["book:dor", "location:Dathomir", "adventure:Spirits of Madness"]
+	},
+	{
+		"name": "Shoretrooper",
+		"type": "Minion",
+		"description": "Shoretroopers are Imperial stormtroopers trained in amphibious landing combat in coastal environments. They wear a modified version of stormtrooper armour over a heat-modulating dry suit that protects them from adverse atmospheric and geographic conditions where land meets water. They are typically stationed on watery worlds like Mon Cala or Scarif where their training and specialised equipment allow them to operate with little to no difficulty in and out of the water.",
+		"notes": "Squads may carry one heavy blaster rifle or one light repeating blaster as a support weapon.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 5
+		},
+		"skills": ["Athletics", "Discipline", "Melee", "Ranged: Heavy", "Resilience", "Survival"],
+		"weapons": [
+			"Heavy blaster rifle", "Light repeating blaster",
+			{
+				"name": "E-22 blaster carbine",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Cumbersome 2", "Linked 1", "Stun Setting"]
+			}
+		],
+		"gear": ["Amphibious landing armour (+2 Soak, when making skill checks, shoretroopers may remove :setback::setback: on checks imposed due to coastal settings)", "Utility belt", "Extra reloads", "Food and water packs"],
+		"tags": ["empire", "imperial military", "stormtrooper", "book:dor"]
+	},
+	{
+		"name": "Death Star Trooper",
+		"type": "Minion",
+		"description": "Death Star troopers are specially trained Imperial Navy personnel assigned to billets aboard the DS-1 Death Star mobile battle station. Culled from the Imperial Navy’s various branches and given extensive training in the operation and maintenance of their new home’s many systems, these troopers are proud to ensure that the massive battle station runs at peak efficiency. Experts in combat and various technical specialities, Death Star troopers are considered among the most qualified and well-rounded personnel in the Navy. They wear a uniform consisting of a double-breasted military tunic, trousers, and tall black leather boots. An oversized, tear-drop-shaped, open-faced helmet completes the ensemble worn while on duty.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": ["Astrogation", "Computers", "Gunnery", "Knowledge: Warfare", "Mechanics", "Ranged: Light", "Perception", "Vigilance"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Death Star trooper uniform and helmet (+1 Soak)"],
+		"tags": ["book:dor", "empire", "imperial military", "location:Death Star"]
+	},
+	{
+		"name": "Death Star Trooper Officer",
+		"type": "Rival",
+		"description": "The members of the Death Star trooper officer corps have undergone the same combat and technical training as their subordinates, along with a lengthy course in leadership and administration. They are often found in command of squads or sections aboard the station, overseeing operations and making sure everything, including the troopers under their command, is shipshape.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Coercion": 3,
+			"Computers": 2,
+			"Cool": 3,
+			"Discipline": 3,
+			"Leadership": 3,
+			"Knowledge: Warfare": 2,
+			"Mechanics": 2,
+			"Ranged: Light": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [
+			{
+				"name": "Platoon Leader",
+				"description": "May spend a maneuver to allow one minion group of Death Star troopers within Medium range to make an immediate maneuver as an out of turn incidental or allow the group to add :boost: to their next skill check."
+			}
+		],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Death Star trooper uniform and helmet (+1 Soak)", "Comlink", "Datapad"],
+		"tags": ["book:dor", "empire", "imperial military", "location:Death Star"]
 	}
 ]
