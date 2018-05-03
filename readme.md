@@ -165,7 +165,7 @@ Main tasks:
 ### Missing Adversaries
 
 - source books
-	- *Dawn of Rebellion (not released)*
+	- Dawn of Rebellion
 - career books
 	- AoR
 		- Fully Operational

@@ -1213,8 +1213,8 @@
 		"description": "Remove {ranks|setback} from all Knowledge checks; researching a subject takes half the time."
 	},
 	{
-		"name": "Researcher (Improved)",
-		"description": ""
+		"name": "Improved Researcher",
+		"description": "On a succesful Knowledge check, the character and allies receive :advantage::advantage: on future related checks, until the end of the character’s next turn."
 	},
 	{
 		"name": "Resist Disarm",

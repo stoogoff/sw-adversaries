@@ -133,6 +133,7 @@ let bookMap = {
 	"book:sor": "Strongholds of Resistance",
 	"book:sof": "Suns of Fortune",
 	"book:nop": "Nexus of Power",
+	"book:dor": "Dawn of Rebellion",
 
 	// career books
 	"book:dc": "Dangerous Covenants", // no stats
