@@ -462,5 +462,142 @@
 		"weapons": ["Heavy blaster pistol"],
 		"gear": ["Death Star trooper uniform and helmet (+1 Soak)", "Comlink", "Datapad"],
 		"tags": ["book:dor", "empire", "imperial military", "location:Death Star"]
+	},
+	{
+		"name": "Commander Orson Krennic",
+		"type": "Nemesis",
+		"description": "Orson Krennic is as grasping and power hungry an officer as can be found in the Imperial military. A tall, steely-eyed officer in his middle years, Krennic was born on Lexrul, a heavily industrialised world in the Mid Rim. His parents were common labourers toiling away in one of the planet’s many shipyards, and he grew up solidly working-class. Always smart and ambitious, Krennic showed an aptitude for mechanics and engineering from an early age. Once his primary education was complete, he earned a place at the Republic Futures Programme on Brantaal, where he studied engineering and naval architecture.\n\nHe began his professional career designing space stations, during the run-up to the Clone Wars. Through a combination of grit, talent, and politicking, he quickly rose through the ranks during the conflict. By the time it came to an end, he had become a lieutenant commander attached to a powerful new battle station project based on stolen Separatist plans. Always a man who knew which way the wind was blowing, Krennic threw his lot in with the newly formed Galactic Empire. In the new Imperial Navy, his talent as a designer and his finely honed political instincts made him many, allies, and not a few enemies.\n\nKrennic ensured he became attached to the gigantic station’s early construction in orbit around Geonosis, and led the effort to design and construct its main weapon. This took many years, but his political skills and clever manipulations of the of others (especially a brilliant polymath he met while at the Futures Programme) always kept him one step ahead of his rivals. Despite frequent setbacks, the weapon is now finally ready for installation and testing. With this, Krennic is certain he will at last gain the recognition and rank he deserves.\n\nKrennic currently holds the title of Director of Advanced Weapons Research, and oversees the installation of the battle station’s super-laser. In this position, he wields an incredible amount of influence and power, and essentially commands the Death Star itself as it undergoes final testing. Unfortunately, he has made an enemy of one of the most powerful men in the Imperial Navy and a close ally of Darth Vader: Grand Moff Wilhuff Tarkin. Krennic and Tarkin despise one another. Krennic is jealous of Tarkin’s position and believes that he should be given complete command of the Death Star. Tarkin feels nothing but contempt for Krennic, seeing him as a lower-class upstart and a loose cannon who should have been drummed out years ago.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 15,
+			"strain": 18
+		},
+		"skills": {
+			"Coercion": 4,
+			"Computers": 3,
+			"Cool": 3,
+			"Discipline": 3,
+			"Knowledge: Education": 3,
+			"Knowledge: Warfare": 2,
+			"Leadership": 3,
+			"Mechanics": 4,
+			"Perception": 3,
+			"Ranged: Light": 2
+		},
+		"talents": ["Adversary 2", "Commanding Presence 2", "Intimidating 2", "Scathing Tirade"],
+		"abilities": [
+			{
+				"name": "Master Manipulator",
+				"description": "Krennic may add :boost::boost: to or remove :setback::setback: from Charm, Deception, and Negotation skill checks to convince others to do his bidding."
+			}
+		],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Director’s uniform with cape (+1 Soak)", "Datapad", "Multiple encrypted comlinks"],
+		"tags": ["book:dor", "empire", "imperial military"]
+	},
+	{
+		"name": "Death Trooper",
+		"type": "Rival",
+		"description": "Death Troopers are among the most elite special forces units in the Imperial Armed Forces. These highly trained, highly motivated warriors operate under the auspices of Imperial Intelligence. They are most often used as strike forces and as VIP protection for vital Imperial officials such as Commander Krennic and Grand Admiral Thrawn.\n\nWhile death troopers have virtually the entire Imperial military arsenal available to them, their standard-issue arms and armour are made for and issued solely to them. They wear an all-black version of standard stormtrooper armour that is lighter and provides better protection. Each suit is equipped with onboard systems including encrypted comlinks, multi-optic scanners, and stealth-enhancing gear to improve performance and survivability in the field. Death troopers’ bespoke weapons include a repeating blaster pistol, a sturdy blaster carbine, and a powerful heavy blaster rifle for long-range and squad support work. Adding to their disturbing aspect, they communicate amongst themselves using cybernetic signals that are indecipherable to organic ears and unsettling even to allies.\n\nThere are very few death troopers, and they are rarely seen in typical military encounters. Their existence is still considered a myth among much of the resistance. Rumours abound that they are somehow linked to experiments within the Advanced Weapons Research division to revive necrotic tissue, and thus arose their title. Word is slowly spreading, though, that these dangerous commandos do actually exist, and are as deadly as their name suggests.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 17,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Coercion": 3,
+			"Cool": 4,
+			"Discipline": 4,
+			"Gunnery": 3,
+			"Knowledge: Warfare": 3,
+			"Melee": 2,
+			"Perception": 3,
+			"Ranged: Heavy": 3,
+			"Ranged: Light": 3,
+			"Stealth": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1", "Enduring 2", "Intimidating 2"],
+		"weapons": [
+			"Frag grenade", "Thermal detonator",
+			{
+				"name": "DLT-19 Heavy blaster rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 10,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Accurate 2", "Auto-Fire", "Cumbersome 3", "Pierce 2"]
+			},
+			{
+				"name": "E-11D Blaster carbine",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			},
+			{
+				"name": "SE-14r Light repeating blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Auto-Fire", "Stun Setting"]
+			}
+		],
+		"gear": ["Death trooper armour (+2 Soak, +1 Defence, upgrade Stealth checks once, remove :setback::setback: imposed due to darkness, smoke, or other environmental effects which obscure vision)", "Encrypted comlink", "Load bearing gear", "Food and water packs", "1 Thermal detonator", "2 Frag grenades"],
+		"tags": ["book:dor", "empire", "imperial military", "stormtrooper"]
+	},
+	{
+		"name": "Captain Fatimah Nurii",
+		"type": "Nemesis",
+		"description": "Captain Nurii is a sub-commander in the Imperial Navy’s Military Police garrison stationed on Scarif. A native of Commenor and a graduate of the Imperial Naval Academy on Prefsbelt IV, Captain Nurii is a no-nonsense officer who is an excellent judge of character with a gift for leadership. Initially, her goal was to join the office of the Navy’s barrister advocate as a litigator, but the baked-in bias of the Imperial Navy against those lacking family connections or contacts saw her shuffled into the Military Police corps as a common shore patrol officer. Captain Nurii has been deeply troubled ever since her assignment to Scarif. The Empire’s harsh actions to quash resistance, as well as the construction of the Death Star, have opened her eyes to the brutality of the regime. She is currently searching for any excuse to safely escape Scarif and alert the galaxy of the Empire’s new super-weapon.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"strain": 14
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 3,
+			"Computers": 2,
+			"Cool": 3,
+			"Deception": 2,
+			"Discipline": 3,
+			"Perception": 4,
+			"Piloting: Planetary": 2,
+			"Ranged: Light": 2,
+			"Stealth": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1", "Command 1"],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Shore patrol uniform (+1 Soak)", "Binders", "Secure comlink", "Datapad"],
+		"tags": ["book:dor", "empire", "imperial military", "location:Scarif", "adventure:Imperial Defection"]
 	}
 ]

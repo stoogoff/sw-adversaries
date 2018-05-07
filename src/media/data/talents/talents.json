@@ -409,7 +409,7 @@
 	},
 	{
 		"name": "Enduring",
-		"description": "Increase Soak by {ranks}."
+		"description": "Increase Soak by {ranks} (already included in profile)."
 	},
 	{
 		"name": "Energy Transfer",
@@ -822,7 +822,7 @@
 	},
 	{
 		"name": "Loom",
-		"description": "When an Engaged ally makes a successful Charm, Deception, or Negotia­tion check, add advantage: per rank in Coercion to the check."
+		"description": "When an Engaged ally makes a successful Charm, Deception, or Negotia­tion check, add :advantage: per rank in Coercion to the check."
 	},
 	{
 		"name": "Machine Mender",
