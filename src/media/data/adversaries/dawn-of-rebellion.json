@@ -496,7 +496,7 @@
 		"abilities": [
 			{
 				"name": "Master Manipulator",
-				"description": "Krennic may add :boost::boost: to or remove :setback::setback: from Charm, Deception, and Negotation skill checks to convince others to do his bidding."
+				"description": "Krennic may add :boost::boost: to or remove :setback::setback: from Charm, Deception, and Negotiation skill checks to convince others to do his bidding."
 			}
 		],
 		"weapons": ["Heavy blaster pistol"],
@@ -599,5 +599,340 @@
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Shore patrol uniform (+1 Soak)", "Binders", "Secure comlink", "Datapad"],
 		"tags": ["book:dor", "empire", "imperial military", "location:Scarif", "adventure:Imperial Defection"]
+	},
+	{
+		"name": "Saw Gerrera",
+		"type": "Nemesis",
+		"description": "During the Clone Wars, Saw Gerrera fought with Onderon rebels against the Separatists. Jedi representatives trained him in insurgent techniques and strategies and he has applied the same lessons against the Imperial military and to the fight for Jedha against the Empire.\n\nConstant warfare has taken its toll on Gerrera’s body and spirit, but he remains a forceful leader who continues fighting despite overwhelming odds. His extreme tactics have split him away from other resistance groups, but his intelligence gathering efforts, especially concerning Geonosis, may prove invaluable to ending the Empire’s new super-weapon.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15,
+			"strain": 18
+		},
+		"skills": {
+			"Charm": 1,
+			"Coercion": 2,
+			"Deception": 2,
+			"Leadership": 3,
+			"Melee": 3,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Command 2", "Inspiring Rhetoric"],
+		"abilities": [
+			{
+				"name": "Always Watchful",
+				"description": "Saw adds :boost: to Vigilance and Perception checks."
+			}
+		],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Heavy battle armour (+2 Soak)"],
+		"tags": ["book:dor", "rebel alliance", "location:Jedha"]
+	},
+	{
+		"name": "Commandant Aresko",
+		"type": "Nemesis",
+		"description": "Commander Cumberlayne Aresko oversees all of Lothal’s Imperial academies, from small regional ones to the majestic facility at Capital City. It is up to him to train the best and kick out the rest. A thin, gaunt man, Aresko enjoys bullying his underlings, his cadets, and vulnerable citizens. He is not among the Empire’s best or brightest leaders, but here he is among the most feared. His efforts to hunt down and capture the local rebel fighters, however, have not been as successful as desired.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"strain": 15
+		},
+		"skills": {
+			"Charm": 1,
+			"Coercion": 2,
+			"Cool": 2,
+			"Deception": 3,
+			"Discipline": 1,
+			"Knowledge: Education": 4,
+			"Knowledge: Warfare": 3,
+			"Leadership": 2,
+			"Melee": 2,
+			"Negotiation": 1,
+			"Perception": 3,
+			"Piloting: Space": 1,
+			"Ranged: Light": 3
+		},
+		"talents": ["Commanding Presence 2", "Field Commander"],
+		"abilities": [
+			{
+				"name": "Imperial Intimidation",
+				"description": "As an action, Aresko may make an :average: Coercion check; if successful, characters targeting him or his allies within Short range add :setback: to their skill checks for the rest of the encounter."
+			}
+		],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Code cylinders", "Uniform (+1 Soak)"],
+		"tags": ["book:dor", "empire", "imperial bureaucracy", "location:Lothal"]
+	},
+	{
+		"name": "Governor Pryce",
+		"type": "Nemesis",
+		"description": "Like many who succeed in the Empire, Arihnda Pryce politically maneuvered her way up the command chain through betrayal and deceit. For her, Lothal is but a stepping stone to greater positions of power. As her duties take her beyond the planet, she spends little time on Lothal. She has no love for the world, and she cares little about what happens to it as long as it benefits her. Pryce’s skill and dedication have brought her to the attention of Grand Moff Tarkin, an association she hopes to exploit.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 15,
+			"strain": 17
+		},
+		"skills": {
+			"Charm": 3,
+			"Coercion": 3,
+			"Cool": 3,
+			"Deception": 3,
+			"Discipline": 2,
+			"Knowledge: Education": 2,
+			"Leadership": 4,
+			"Negotiation": 3,
+			"Perception": 2,
+			"Ranged: Light": 1,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1", "Commanding Presence", "Intimidating 2", "Nobody’s Fool 1"],
+		"abilities": [
+			{
+				"name": "Imperial Inspiration",
+				"description": "As an action, Pryce may make an :average: Leadership check; if successful, until the start of her next turn all allied Imperial characters within Medium range may change one :threat: to one :advantage: per round when making a skill check."
+			}
+		],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Code cylinders", "Uniform (+1 Soak)"],
+		"tags": ["book:dor", "empire", "imperial bureaucracy", "location:Lothal"]
+	},
+	{
+		"name": "Minister Tua",
+		"type": "Nemesis",
+		"description": "Minister Maketh Tua is the public face of Imperial government when Governor Pryce is offworld (which is often). She is a graduate of the Imperial Academy. Like the governor, she aspires to greater things away from Lothal, but unlike Pryce, Tua still cares about the planet and its people. Unfortunately for her, events and expectations often exceed her experience and training. As the Empire grows impatient with events on Lothal, her position becomes ever more precarious — something she is becoming more and more aware of with each passing day.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 14,
+			"strain": 13
+		},
+		"skills": {
+			"Charm": 3,
+			"Coercion": 1,
+			"Cool": 1,
+			"Deception": 1,
+			"Discipline": 2,
+			"Knowledge: Education": 2,
+			"Leadership": 2,
+			"Negotiation": 2,
+			"Perception": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Improved Inspiring Rhetoric", "Kill with Kindness 2"],
+		"gear": ["Comlink", "Assorted datapads"],
+		"tags": ["book:dor", "empire", "imperial bureaucracy", "location:Lothal"]
+	},
+	{
+		"name": "Ryder Azadi",
+		"type": "Nemesis",
+		"description": "Ryder Azadi was the previous Governor of Lothal, but his support for anti-Imperial broadcasts (and the machinations of Arihnda Pryce) led to his arrest and imprisonment. He managed to escape years later, and now is one of the main leaders of Lothal’s rising resistance efforts to thwart the Empire’s occupation through industrial sabotage and skirmish attacks.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"strain": 16
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 1,
+			"Cool": 2,
+			"Deception": 1,
+			"Discipline": 2,
+			"Knowledge: Education": 2,
+			"Leadership": 3,
+			"Negotiation": 2,
+			"Perception": 2,
+			"Ranged: Light": 1,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Commanding Presence"],
+		"abilities": [
+			{
+				"name": "For Lothal!",
+				"description": "When making a Leadership check targeting Lothal natives or other allies concerning the planet’s future, Azadi may spend :advantage::advantage: to add :triumph: to the result."
+			}
+		],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Datapad", "Heavy clothing (+1 Soak)"],
+		"tags": ["book:dor", "location:Lothal", "rebel alliance"]
+	},
+	{
+		"name": "Fyrnock",
+		"type": "Minion",
+		"description": "Evolved from the same morphology as the pesky mynocks, fyrnocks are silicon-based quadrupedal life forms that feed on electrical energy. Whole not nearly as common as their winged cousins, fyrnocks pose an even greater threat thanks to their eagerness to feed on the bio-electricity most life forms possess.\n\nReadily identified by their leather purple– to brown-hued skin and glowing yellow eyes, fyrnocks also have razor-sharp claws and teeth evolved to penetrate ship hulls and generator housings. Fyrnocks never stop growing, reaching gargantuan sizes if populations spread unchecked. This is problematic, because they breed like womp rats; several fyrnocks can multiply and overrun a cruiser in days.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10
+		},
+		"skills": ["Brawl", "Perception", "Survival", "Vigilance"],
+		"abilities": [
+			{
+				"name": "Energy Drain",
+				"description": "On a successful bite attack, may spend :advantage::advantage: to instead deal Stun damage, and heal a number of Wounds equal to the damage it deals."
+			},
+			{
+				"name": "Sunlight Aversion",
+				"description": "Compelled to remain out of direct sunlight must make an :average: Discipline skill check to resist fleeing from sunlight toward shadows."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 3"]
+			},
+			{
+				"name": "Teeth",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			}
+		],
+		"tags": ["book:dor", "creature"]
+	},
+	{
+		"name": "Joopa Worm",
+		"type": "Rival",
+		"description": "Rumours suggest that these massive sand worms grow up to twenty metres long, though typical specimens are half that size. The joopa has a long body with segmented plates strong enough to resist the pressures of subterranean travel and most modern weaponry. Beneath a row of eight primary and a dozen secondary eyes, each a glassy red, its gaping maw opens from multiple directions, featuring fanged palps.\n\nMost joopas burrow and nest deep underground, where their metres-long tongue can reach ground water. The joopas are very sensitive to surface vibrations and treat most as a threat to their nests, or a potential snack. What few occupants remain on Seelos have learned the hard way to steer clear of the salt flats the joopas inhabit, depending on the firm bedrock of the mountains to keep them at bay.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 30,
+			"defence": [2, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Stealth": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Silhouette 3"],
+		"abilities": [
+			{
+				"name": "Tunnel",
+				"description": "Can travel underground, treating terrain as normal."
+			},
+			{
+				"name": "Swallow",
+				"description": "As an action, may make an opposed Brawl check to swallow a target; swallowed characters are immobilised and suffer 6 damage at the start of each round but can escape if the joopa worm is killed or by making a successful :hard: Athletics check."
+			},
+			{
+				"name": "Unruly 3",
+				"description": "Upgrade the difficulty of Survival checks to tame a joopa three times."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Lash tongue",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 5,
+				"range": "Short",
+				"qualities": ["Ensnare"]
+			},
+			{
+				"name": "Swallowing maw",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Burn 4"]
+			}
+		],
+		"gear": ["Scales (+2 Soak, +2 Melee Defence, +1 Ranged Defence)"],
+		"tags": ["book:dor", "creature"]
+	},
+	{
+		"name": "Quarrie",
+		"type": "Rival",
+		"description": "Am old shipwright from Mon Calamari, Quarrie saw what the Republic was turning into at the end of the Clone Wars and fled to Shantipole. He set up a secret workshop here, and offered his services to a small number of trusted outlaws, scoundrels, and rebel fighters with the help of his fussy astromech, BG-81. Only the best pilots go to him, because only the best pilots can land safely. Quarrie's workshop is nevertheless something of an open secret among smugglers.\n\nQuarrie has plied his trade here for over a decade, all the while working on a secret project: the Blade Wing starfighter. Recently, Hera Syndulla came looking for help. She convinced him to allow her to test the ship, which performed better than expectations. Impressed with Syndulla, Quarrie joined the resistance. He has taken his design to the Roche Asteroid Field, where he works to refine his design for operational use.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 13
+		},
+		"skills": {
+			"Astrogation": 2,
+			"KNowledge: Education": 3,
+			"Mechanics": 4,
+			"Perception": 3,
+			"Vigilance": 2
+		}, 
+		"talents": ["Adversary 1", "Natural Tinkerer"],
+		"abilities": [
+			"Amphibious",
+			{
+				"name": "Prototype Engineer 2",
+				"description": "Once per vehicle, can make a :daunting: Mechanics check and spend :success: to add a permanent hard point to the vehicle, to a maximum of two additional hard points; :threat::threat: can be spent to add permanent :setback: to Mechanics checks made to affect that vehicle."
+			}
+		],
+		"gear": ["Astromech droid", "Coveralls", "Toolkit"],
+		"tags": ["book:dor", "species:Mon Calamari", "engineer", "rebel alliance"]
 	}
 ]
