@@ -904,7 +904,7 @@
 	{
 		"name": "Quarrie",
 		"type": "Rival",
-		"description": "Am old shipwright from Mon Calamari, Quarrie saw what the Republic was turning into at the end of the Clone Wars and fled to Shantipole. He set up a secret workshop here, and offered his services to a small number of trusted outlaws, scoundrels, and rebel fighters with the help of his fussy astromech, BG-81. Only the best pilots go to him, because only the best pilots can land safely. Quarrie's workshop is nevertheless something of an open secret among smugglers.\n\nQuarrie has plied his trade here for over a decade, all the while working on a secret project: the Blade Wing starfighter. Recently, Hera Syndulla came looking for help. She convinced him to allow her to test the ship, which performed better than expectations. Impressed with Syndulla, Quarrie joined the resistance. He has taken his design to the Roche Asteroid Field, where he works to refine his design for operational use.",
+		"description": "Am old shipwright from Mon Calamari, Quarrie saw what the Republic was turning into at the end of the Clone Wars and fled to Shantipole. He set up a secret workshop here, and offered his services to a small number of trusted outlaws, scoundrels, and rebel fighters with the help of his fussy astromech, BG-81. Only the best pilots go to him, because only the best pilots can land safely. Quarrie’s workshop is nevertheless something of an open secret among smugglers.\n\nQuarrie has plied his trade here for over a decade, all the while working on a secret project: the Blade Wing starfighter. Recently, Hera Syndulla came looking for help. She convinced him to allow her to test the ship, which performed better than expectations. Impressed with Syndulla, Quarrie joined the resistance. He has taken his design to the Roche Asteroid Field, where he works to refine his design for operational use.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -934,5 +934,87 @@
 		],
 		"gear": ["Astromech droid", "Coveralls", "Toolkit"],
 		"tags": ["book:dor", "species:Mon Calamari", "engineer", "rebel alliance"]
+	},
+	{
+		"name": "Grand Moff Tarkin",
+		"type": "Nemesis",
+		"description": "Wilhuff Tarkin is one of the Emperor’s most highly trusted and influential members of the New Order. Chancellor Palpatine was instrumental in drawing Tarkin into politics and into positions of increasing authority. Tarkin served as a captain and admiral in the Grand Army of the Republic, and once led his home world of Eriadu in the Seswenna sector. Tarkin has advocated ruling through the fear of force more than through force itself, which he included as a key part of his Tarkin Doctrine. He currently oversees the Death Star’s secret construction, working — and fighting — with Commander Orson Krennic as its final completion draws near.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 5,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"strain": 20
+		},
+		"skills": {
+			"Charm": 3,
+			"Coercion": 3,
+			"Cool": 4,
+			"Deception": 3,
+			"Discipline": 3,
+			"Knowledge: Core Worlds": 4,
+			"Knowledge: Outer Rim": 4,
+			"Knowledge: Warfare": 4,
+			"Leadership": 5,
+			"Negotiation": 4,
+			"Perception": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Intimidating 3", "Nobody’s Fool 2"],
+		"abilities": [
+			{
+				"name": "Commanding Presence",
+				"description": "At the beginning of an encounter with Tarkin, each enemy and ally within Medium range or in communication with him makes a :hard: Discipline check as an out of turn incidental. Allies who add automatic :advantage: to any skill checks they make until the end of the encounter. If they succeed with :triumph:, they add automatic :success: instead. Enemies who fail add automatic :threat: to skill checks until the end of the encounter, if they fail with :despair:, they add automatic :failure: instead."
+			}
+		],
+		"gear": ["Imperial Moff’s uniform (+1 Soak)", "Encrypted comlink", "Code cylinders"],
+		"tags": ["book:dor", "empire", "imperial bureaucracy"]
+	},
+	{
+		"name": "Gall Trayvis",
+		"type": "Nemesis",
+		"description": "Gall Trayvis is an Imperial  senator who for a time hijacked holofeeds to broadcast messages of resistance against the Empire. He inspired sympathisers across many planets to stand up against tyranny, until the Lothal rebels revealed him to be a double agent working to draw out the same for arrest. After that, he publicly claimed to have returned to the Imperial fold.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12,
+			"strain": 13
+		},
+		"skills": {
+			"Charm": 3,
+			"Coercion": 2,
+			"Cool": 1,
+			"Deception": 3,
+			"Discipline": 1,
+			"Knowledge: Core Worlds": 2,
+			"Leadership": 2,
+			"Melee": 1,
+			"Negotiation": 4,
+			"Perception": 2,
+			"Ranged: Light": 2
+		},
+		"talents": ["Natural Charmer", "Plausible Deniability"],
+		"abilities": [
+			{
+				"name": "Increasingly Charismatic",
+				"description": "If Gall targets an opponent with a Charm or Deception check, he adds :boost: to a maximum of :boost::boost::boost: to all subsequent Charm or Deception checks he makes targeting that opponent until the end of the encounter."
+			}
+		],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Heavy clothing (+1 Soak)", "Comlink", "Secret encrypted comlink", "Datapad"],
+		"tags": ["book:dor", "double-agent", "empire", "imperial bureaucracy"]
 	}
 ]
