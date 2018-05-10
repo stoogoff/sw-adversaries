@@ -1016,5 +1016,205 @@
 		"weapons": ["Blaster pistol"],
 		"gear": ["Heavy clothing (+1 Soak)", "Comlink", "Secret encrypted comlink", "Datapad"],
 		"tags": ["book:dor", "double-agent", "empire", "imperial bureaucracy"]
+	},
+	{
+		"name": "Admiral Konstantine",
+		"type": "Nemesis",
+		"description": "Admiral Kassius Konstantine is the perfect model of an Imperial Navy flag officer. Stern, unforgiving, and by the book. Konstantine leads from the bridge and adheres slavishly to the Imperial Navy handbook. A native of Coruscant, he studied at the prestigious Anaxes War College and was commissioned just months after the Clone Wars came to an end. Konstantine was among the first generation of officers in the Imperial Navy, and he and his colleagues are responsible for much of the current culture and operating standards held to by the naval personnel. While he is a competent leader, he is much more of a politician than a warrior. He prefers meetings and committees to direct action, and he tends to lean heavily on his subordinates for the day-to-day operation of his command.\n\nCurrently the commander of a small anti-smuggling task force in the Outer Rim, Admiral Konstantine leads from the bridge of his flagship, the *Imperial-I*-class Star Destroyer *Relentless*. In concert with ISB Agent Kallus, Konstantine has been dealing with a sharp rise in insurgent activity on and around Lothal. His need for personal glory often upsets his efforts and the plans of others, however, and could perhaps be the death of him someday.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13,
+			"strain": 14
+		},
+		"skills": {
+			"Astrogation": 2,
+			"Coercion": 2,
+			"Cool": 2,
+			"Deception": 3,
+			"Discipline": 2,
+			"Leadership": 3,
+			"Knowledge: Warfare": 2,
+			"Negotiation": 3,
+			"Perception": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Command 1"],
+		"abilities": [
+			{
+				"name": "Never His Fault",
+				"description": "When Konstantine would suffer Strain after being targeted by a social skill check, one subordinate suffers that Strain instead."
+			}
+		],
+		"gear": ["Admiral’s uniform (+1 Soak)", "Datapad"],
+		"tags": ["book:dor", "empire", "imperial military"]
+	},
+	{
+		"name": "Grand Admiral Thrawn",
+		"type": "Nemesis",
+		"description": "Mitth’raw’nuruodo, better known to the galaxy as Thrawn, is a rarity among the Imperial Navy’s officer corps: a non-human flag officer. Very little is publicly known about the mysterious Grand Admiral. He is a Chiss --- a blue-skinned, red-eyed near-human from the ice-locked world of Csilla in the Unknown Regions. Much of his earlier life and service record is classified, but what little is known points to a master strategist with a prodigious intellect and a deep understanding of naval combat in all its forms. According to records, Thrawn has spent much of his career in the Outer Rim Territories leading an anti-insurgency task force responsible for eliminating rebellious activity among the Empire’s holdings there. He oversaw a brilliant, if bloody, victory over insurgents at Batonn, and for that service he was promoted to Grand Admiral by Emperor Palpatine humself.\n\nOfficers who serve under Grand Admiral Thrawn, including his current flag captain and close colleague Albus Marinith, describe the Grand Admiral as cool and analytical with a deep passion for art and a comprehensive understanding of naval tactics. Only when leading his ships into combat or discussing some piece of art or obscure galactic culture does he show the powerful intellect that drives him to perfection. In fact, his deep curiosity, his thirst for knowledge, and his ability to understand a people through its art and culture make him an incredibly canny opponent. While Grand Admiral Thrawn is largely unknown to Alliance operatives, his dangerous reputation is starting to spread thanks to his activities with the Seventh Fleet at Lothal.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"strain": 20
+		},
+		"skills": {
+			"Astrogation": 2,
+			"Brawl": 2,
+			"Charm": 3,
+			"Coercion": 3,
+			"Cool": 4,
+			"Discipline": 4,
+			"Leadership": 5,
+			"Knowledge: Education": 3,
+			"Knowledge: Lore": 4,
+			"Knowledge: Outer Rim": 4,
+			"Knowledge: Warfare": 5,
+			"KNowledge: Xenology": 5,
+			"Melee": 3,
+			"Perception": 4,
+			"Ranged: Light": 2,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 2", "Command 3", "Commanding Presence 2", "Nobody’s Fool 2"],
+		"abilities": [
+			"Infravision",
+			{
+				"name": "Art of War",
+				"description": "Once per session, Thrawn may make a :hard: Knowledge: Lore, Outer Rim, or Xenology check to gain insight on a particular opponent, species, or group; for each :success:, add automatic :success: to all skill checks Thrawn makes against that opponent, species, or group until the end of the session."
+			}
+		],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Grand Admiral’s uniform (+1 Soak)", "Datapad", "Assorted objets d’art"],
+		"tags": ["book:dor", "empire", "imperial military", "species:Chiss"]
+	},
+	{
+		"name": "Cadet Jai Kell",
+		"type": "Rival",
+		"description": "As a student at the Academy for Young Imperials, Jai Kell met with early success in its many trials. This was due partly to his devotion to the Imperial cause, but also to his natural Force sensitivity, which he did not recognise at the time. During the training, Jai became disenchanted with the Galactic Empire after discussions with fellow students Dev Morgan (actually Ezra Bridger, who was operating undercover at the academy) and Zare Leonis. Jai eventually left the academy and went into hiding with his mother to escape the Inquisitorius.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Athletics": 2,
+			"Coercion": 1,
+			"Ranged: Heavy": 1,
+			"Vigilance": 1
+		},
+		"talents": ["Force Rating 1"],
+		"abilities": [
+			{
+				"name": "Force power: Enhance",
+				"description": "When making an Athletics check, may roll an Enhance power check as part of the pool and spend :forcepip: to gain :success: or :advantage: (user’s choice) on the check."
+			}
+		],
+		"gear": ["Cadet uniform and helmet (+1 Soak)"],
+		"tags": ["book:dor", "rebel alliance", "imperial academy", "force sensitive", "location:Lothal"]
+	},
+	{
+		"name": "Cadet Zare Leonis",
+		"type": "Rival",
+		"description": "An Imperial cadet and a resistance sympathiser, Zare Leonis came into contact with Phoenix Cell while a student at the Academy for Young Imperials on Lothal. He had enrolled at the academy to try and find his sister Dhara, who had disappeared from the same school previously. Following leads, Leonis feigned Force-sensitivity and accepted a transfer to Arkanis Academy. Throughout his search, he has remained willing to work against the Empire and aid Phoenix Cell. He has readily accepted the personal risks associated with working against the Imperial Academy system from within it.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Athletics": 1,
+			"Cool": 1,
+			"Ranged: Heavy": 1,
+			"Vigilance": 2
+		},
+		"talents": ["Clever Solution"],
+		"gear": ["Cadet uniform and helmet (+1 Soak)"],
+		"tags": ["book:dor", "empire", "imperial academy", "location:Lothal", "double-agent"]
+	},
+	{
+		"name": "Taskmaster Grint",
+		"type": "Rival",
+		"description": "An Imperial officer on Lothal, Myles Grint shares responsibility for the world’s Imperial military presence with Commandant Aresko. While much of that involves security matters, the Taskmaster’s duties focus on training cadets at the Academy for Young Imperials. Grint is devoted to the Galactic Empire, but he is also willing to abuse his authority for personal gain. Grint seems to enjoy inflicting punishment both upon the academy’s cadets and upon any citizens who do not properly demonstrate their devotion to the Empire.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coercion": 2,
+			"Ranged: Light": 1,
+			"Streetwise": 1
+		},
+		"talents": ["Intimidating 1"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Taskmaster uniform (+1 Soak)", "Comlink"],
+		"tags": ["book:dor", "empire", "imperial academy", "location:Lothal"]
+	},
+	{
+		"name": "Cadet Wedge Antilles",
+		"type": "Rival",
+		"description": "Wedge Antilles, a talented human pilot from Corellia, displayed superior skills that earned him a slot as a cadet at Skystrike Academy. Even at that time, his devotion to the Imperial cause was limited due to the suffering of his friends and family under the Galactic Empire. In the wake of an Imperial massacre near Teralov, Wedge and several other Skystrike cadets contacted a Rebel operative about defecting. In response, Phoenix Cell infiltrated the academy and escaped with the sympathisers, though one died in the process. The survivors joined the resistance movement as pilots, where their skills will surely be of great use against the Empire and its creations in coming battles.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13
+		},
+		"skills": {
+			"Cool": 1,
+			"Gunnery": 2,
+			"Piloting: Planetary": 2,
+			"Piloting: Space": 2,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Brilliant Evasion"],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Imperial Navy flight suit (+1 Soak)"],
+		"tags": ["book:dor", "rebel alliance", "imperial academy"]
 	}
 ]

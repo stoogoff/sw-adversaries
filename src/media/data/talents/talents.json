@@ -125,7 +125,7 @@
 	},
 	{
 		"name": "Brilliant Evasion",
-		"description": "Once per encounter may take Brilliant Evasion action. Select 1 opponent and make opposed Piloting (Planetary or Space) check to stop opponent from attacking character for {Agility} rounds."
+		"description": "Once per encounter when piloting a vehicle or starship, as an action may select one opponent and make an opposed Piloting: Planetary or Space check; if successful the opponent’s vehicle of starship cannot attack the character’s vehicle for {Agility} rounds."
 	},
 	{
 		"name": "Bring it Down",
