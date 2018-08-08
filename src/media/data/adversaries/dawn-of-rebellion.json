@@ -236,11 +236,11 @@
 				"description": "Add automatic :advantage::advantage: to all Coercion checks Maul makes."
 			},
 			{
-				"name": "Force power: Enhance",
+				"name": "Force Power: Enhance",
 				"description": "When making an Athletics, Coordination, or Resilience check, Maul may roll an Enhance power check as part of the pool and spend :forcepip: to gain :success: or :advantage: on the check. Maul may take the Force Leap maneuver to make an Enhance power check. He may spend :forcepip: to leap horizontally or vertically to any location in Short range."
 			},
 			{
-				"name": "Force power: Sense",
+				"name": "Force Power: Sense",
 				"description": "Spend :forcepip: to sense the current thoughts of one living target within Short range."
 			}
 		],
@@ -287,11 +287,11 @@
 		"abilities": [
 			"Darkside Force User",
 			{
-				"name": "Force power: Harm",
+				"name": "Force Power: Harm",
 				"description": "May make a Harm Force power check against one Engaged target. Spend :forcepip: to inflict 4 Wounds on the target, ignoring Soak. Spend :forcepip: to increase range by one range band or the number of targets affected by this power by one."
 			},
 			{
-				"name": "Force power: Phantasmagoria",
+				"name": "Force Power: Phantasmagoria",
 				"description": "Once per encounter, may suffer 3 Strain and make a Force power check: for every :forcepip: spent, a single target within Short range must make a :daunting: fear check."
 			}
 		],
@@ -332,7 +332,7 @@
 		"abilities": [
 			"Darkside Force User",
 			{
-				"name": "Force power: Manifestations",
+				"name": "Force Power: Manifestations",
 				"description": "May spend one :forcepip: to create one Force Manifestation."
 			}
 		],
@@ -1059,7 +1059,7 @@
 	{
 		"name": "Grand Admiral Thrawn",
 		"type": "Nemesis",
-		"description": "Mitth’raw’nuruodo, better known to the galaxy as Thrawn, is a rarity among the Imperial Navy’s officer corps: a non-human flag officer. Very little is publicly known about the mysterious Grand Admiral. He is a Chiss --- a blue-skinned, red-eyed near-human from the ice-locked world of Csilla in the Unknown Regions. Much of his earlier life and service record is classified, but what little is known points to a master strategist with a prodigious intellect and a deep understanding of naval combat in all its forms. According to records, Thrawn has spent much of his career in the Outer Rim Territories leading an anti-insurgency task force responsible for eliminating rebellious activity among the Empire’s holdings there. He oversaw a brilliant, if bloody, victory over insurgents at Batonn, and for that service he was promoted to Grand Admiral by Emperor Palpatine humself.\n\nOfficers who serve under Grand Admiral Thrawn, including his current flag captain and close colleague Albus Marinith, describe the Grand Admiral as cool and analytical with a deep passion for art and a comprehensive understanding of naval tactics. Only when leading his ships into combat or discussing some piece of art or obscure galactic culture does he show the powerful intellect that drives him to perfection. In fact, his deep curiosity, his thirst for knowledge, and his ability to understand a people through its art and culture make him an incredibly canny opponent. While Grand Admiral Thrawn is largely unknown to Alliance operatives, his dangerous reputation is starting to spread thanks to his activities with the Seventh Fleet at Lothal.",
+		"description": "Mitth’raw’nuruodo, better known to the galaxy as Thrawn, is a rarity among the Imperial Navy’s officer corps: a non-human flag officer. Very little is publicly known about the mysterious Grand Admiral. He is a Chiss — a blue-skinned, red-eyed near-human from the ice-locked world of Csilla in the Unknown Regions. Much of his earlier life and service record is classified, but what little is known points to a master strategist with a prodigious intellect and a deep understanding of naval combat in all its forms. According to records, Thrawn has spent much of his career in the Outer Rim Territories leading an anti-insurgency task force responsible for eliminating rebellious activity among the Empire’s holdings there. He oversaw a brilliant, if bloody, victory over insurgents at Batonn, and for that service he was promoted to Grand Admiral by Emperor Palpatine humself.\n\nOfficers who serve under Grand Admiral Thrawn, including his current flag captain and close colleague Albus Marinith, describe the Grand Admiral as cool and analytical with a deep passion for art and a comprehensive understanding of naval tactics. Only when leading his ships into combat or discussing some piece of art or obscure galactic culture does he show the powerful intellect that drives him to perfection. In fact, his deep curiosity, his thirst for knowledge, and his ability to understand a people through its art and culture make him an incredibly canny opponent. While Grand Admiral Thrawn is largely unknown to Alliance operatives, his dangerous reputation is starting to spread thanks to his activities with the Seventh Fleet at Lothal.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -1128,7 +1128,7 @@
 		"talents": ["Force Rating 1"],
 		"abilities": [
 			{
-				"name": "Force power: Enhance",
+				"name": "Force Power: Enhance",
 				"description": "When making an Athletics check, may roll an Enhance power check as part of the pool and spend :forcepip: to gain :success: or :advantage: (user’s choice) on the check."
 			}
 		],
@@ -1216,5 +1216,316 @@
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Imperial Navy flight suit (+1 Soak)"],
 		"tags": ["book:dor", "rebel alliance", "imperial academy"]
+	},
+	{
+		"name": "Agent Kallus",
+		"type": "Nemesis",
+		"description": "A human born on Coruscant, Kallus joined the ISB shortly after his graduation from the ROyal Imperial Academy. Initially, he worked on the ISB’s Internal Affairs and Investigations branches. After fighting insurgents on Onderon and participating in the cleansing of Lasan (where he acquired a rare bo-rifle), Kallus was transferred to Lothal under the command of Wullf Yularen to eliminate the resistance activity in that system.\n\nDuring his time on Lothal, Agent Kallus (code name ISB-021) met with repeated failure in his attempts to defeat the crew of the *Ghost*. These failures led to an escalation in his tactics, and Kallus worked with increasingly prominent Imperial agents to defeat the growing insurrections. Despite the setbacks he has faced, he displays a strong sense of personal honour. There are suspicions that the acts of the Empire have become dishonourable in his eyes, and that he could be turning traitor. However, few, if any, could ever believe that such a staunch and loyal example of Imperial efficiency could ever become disloyal.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 17,
+			"strain": 17
+		},
+		"skills": {
+			"Coercion": 2,
+			"Cool": 2,
+			"Deception": 3,
+			"Melee": 3,
+			"Perception": 2,
+			"Ranged: Heavy": 3,
+			"Streetwise": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Durable 3"],
+		"abilities": [
+			{
+				"name": "A Step Ahead",
+				"description": "When determining Initiative during a structured encounter, may spend :triumph: to add one NPC Initiative slot to the top of the Initiative order. Kallus must take this slot during the first round."
+			},
+			{
+				"name": "Respected Officer",
+				"description": "May perform a maneuver to give all stormtroopers within Medium range :boost: on their next check."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Bo-rifle (ranged profile)",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Cumbersome 3", "Stun Setting"],
+				"notes": "Maneuver to switch between profiles."
+			},
+			{
+				"name": "Bo-rifle (melee profile)",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Cumbersome 3", "Defensive 1", "Disorient 2", "Knockdown", "Stun Setting"],
+				"notes": "Maneuver to switch between profiles."
+			}
+
+		],
+		"gear": ["ISB Armour (+2 Soak)", "Secure comlink"],
+		"tags": ["book:dor", "imperial security bureau", "empire"]
+	},
+	{
+		"name": "Darth Vader",
+		"type": "Nemesis",
+		"description": "Many dark tales are told about a black-armoured humanoid who serves as the Emperor’s most trusted enforcer and is perhaps the most feared being in the Empire. Rumoured to live in a forbidding castle on a world of lava, this warrior wields a red lightsaber and possesses terrifying powers that suggest he has a connection to the dreaded Sith. The few who claim to have survived encounters with this individual are unsure whether the armour houses a living being, a combat droid, or even a clone trooper. Many even fear that duplicates could be activated if the first is ever defeated.\n\nIn addition to his other duties to the Empire, Darth Vader is believed to be the most senior member of the Inquisitorius, and legends abound of his pursuit of target after target when other agents failed in their efforts. It is possible that Vader has trained Inquisitors in the techniques required to eliminate Force-sensitive targets.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 5,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 24,
+			"strain": 19,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Coercion": 5,
+			"Cool": 3,
+			"Deception": 4,
+			"Discipline": 3,
+			"Gunnery": 3,
+			"Leadership": 3,
+			"Lightsaber": 5,
+			"Perception": 2,
+			"Piloting: Space": 5,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 4", "Durable 3", "Force Rating 6", "Improved Parry 5", "Improved Reflect 5", "Saber Throw"],
+		"abilities": [
+			"Darkside Force User",
+			"Force Power: Enhance",
+			{
+				"name": "Terrifying",
+				"description": "At the beginning of an encounter, each enemy within Medium range must make a :hard-3: fear check."
+			},
+			{
+				"name": "I Have You Now",
+				"description": "After inflicting a Critical Hit or Injury in combat may spend :advantage: to add +20 to Critical Hit or Injury results."
+			},
+			{
+				"name": "Force Power: Force Choke",
+				"description": "Darth Vader may spend :forcepip: to immobilise a target within Short range until the end of Vader’s next turn; may spend :forcepip: to inflict 1 Wound on the target, ignoring Soak and may do so multiple times. Vader may also roll an opposed Discipline vs. Discipline check against the target, if the check succeeds, the target suffers a Critical Injury, adding +10 to the roll per :forcepip: spent on the check."
+			},
+			{
+				"name": "Force Power: Sense",
+				"description": "Vader may spend :forcepip: to sense all living things within Medium range of himself (including animals and sentient beings), and spend :forcepip: to sense the current emotional state of one living target with whom he is Engaged. He may not activate either ability multiple times."
+			},
+			{
+				"name": "Force Power: Move",
+				"description": "The character may hurl objects by making a Move Force Power check and rolling a ranged attack as part of the pool. The attack’s difficulty is equal to the Silhouette of the object being thrown (default is Silhouette 0) and only succeeds if they can also spend enough :forcepip: to move the object. The attack deals damage equal to the Silhouette of the object times 10 (Silhouette 0 deals 5 damage) plus one per :success:. To throw multiple objects, they must generate enough :forcepip: to move multiple objects, and must use rules for Auto-Fire to determine difficulty and targeting. Vader may spend :forcepip: to increase the power’s range to Medium range or spend :forcepip: to increase the size of the object he can move to Silhouette 4."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Custom lightsaber",
+				"skill": "Lightsaber",
+				"damage": 10,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder", "Superior", "Vicious 2"]
+			}
+		],
+		"gear": ["Armoured robes (+2 Soak, +1 Defence)"],
+		"tags": ["book:dor", "empire", "inquisitor", "force sensitive", "darkside"]
+	},
+	{
+		"name": "Grand Inquisitor",
+		"type": "Nemesis",
+		"description": "It is believed that this Pau’an was once a valued member of the Jedi Temple Guard, but fell to the dark side of the Force the more he grew to believe the corruption within the Republic Senate and the Jedi Order. Under the direction of Darth Vader, the Grand Inquisitor fulfils the mandate of the Inquisitorius to find and eliminate Force-sensitive threats to the Galactic Empire. His targets include former Jedi — such as Ahsoka Tano and Kanan Jarrus — as well as children across the galaxy who have the potential to grow into threats to the Emperor. He has overseen special efforts to detect and capture young Force-sensitives such as Project Harvester at the Academy for Young Imperials on Lothal. While he uses the Spire for holding prisoners and performing interrogations, he travels freely across the Empire to find and eliminate threats personally either under orders from Darth Vader or on his own initiative and using his own intelligence leads.\n\nThe Grand Inquisitor has significant discretionary power to requisition Imperial assets, including a fleet of Star Destroyers. While he is not averse to pursuing his targets, he has a proclivity for devising traps that bring Force wielders to him. In pursuing his mandates, the Grand Inquisitor has authority over high-ranking Imperial military officers, and at times he has worked in concert with Grand Moff Tarkin.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 5,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 17,
+			"strain": 22,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 1,
+			"Charm": 2,
+			"Coercion": 2,
+			"Computers": 2,
+			"Cool": 2,
+			"Deception": 3,
+			"Discipline": 3,
+			"Gunnery": 3,
+			"Lightsaber": 4,
+			"Negotiation": 2,
+			"Perception": 4,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 3", "Force Rating 4", "Parry 4", "Improved Reflect 4", "Saber Throw"],
+		"abilities": [
+			"Darkside Force User",
+			"Force Power: Sense",
+			{
+				"name": "Fearsome",
+				"description": "At the beginning of an encounter, each enemy within Medium range must make a :hard-1: fear check."
+			},
+			{
+				"name": "Duelling with Words",
+				"description": "Add :boost::boost: to all social checks."
+			},
+			{
+				"name": "Fore Power: Enhance",
+				"description": "When making an Athletics or Coordination check, the character may roll an Enhance power check as part of the pool and may spend :forcepip: to gain :success: or :advantage: (their choice) on the check. May also spend :forcepip: to jump horizontally to any location in Short range."
+			},
+			{
+				"name": "Force Power: Move",
+				"description": "The character may hurl objects by making a Move Force Power check and rolling a ranged attack as part of the pool. The attack’s difficulty is equal to the Silhouette of the object being thrown (default is Silhouette 0) and only succeeds if they can also spend enough :forcepip: to move the object. The attack deals damage equal to the Silhouette of the object times 10 (Silhouette 0 deals 5 damage) plus one per :success:. To throw multiple objects, they must generate enough :forcepip: to move multiple objects, and must use rules for Auto-Fire to determine difficulty and targeting. May spend :forcepip: to use this power on objects of Silhouette 1."
+			}
+		],
+		"weapons": [
+			"Inquisitor lightsaber",
+			"Inquisitor lightsaber (dual-blade)",
+			"Inquisitor lightsaber (spin)"
+		],
+		"gear": ["Inquisitorius uniform (+2 Soak, +1 Defence)"],
+		"tags": ["book:dor", "empire", "inquisitor", "force sensitive", "darkside", "species:Pau’an"]
+	},
+	{
+		"name": "Fifth Brother",
+		"type": "Nemesis",
+		"description": "Fifth Brother is a male agent of the Inquisitorius with blocky features and grey skin. He confronts challenges directly and decisively rather than engaging in pursuit and reconnaissance. Fifth Brother prefers to physically overpower and eliminate his opponents, instead of capturing and questioning them. His fighting style is particularly savage, seeking to overcome and exhaust his opponents with potent strikes.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 19,
+			"strain": 18,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 4,
+			"Coercion": 2,
+			"Discipline": 3,
+			"Leadership": 2,
+			"Lightsaber": 2,
+			"Perception": 2,
+			"Piloting: Space": 1,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Crippling Blow", "Force Rating 3", "Reflect 4", "Saber Throw"],
+		"abilities": [
+			"Darkside Force User",
+			"Force Power: Sense",
+			"Force Power: Move",
+			{
+				"name": "Force Power: Enhance",
+				"description": "When making an Athletics, Coordination, or Resilience check, the character may roll an Enhance power check as part of the pool and may spend :forcepip: to gain :success: or :advantage: (their choice) on the check."
+			}
+		],
+		"weapons": [
+			"Inquisitor lightsaber",
+			"Inquisitor lightsaber (dual-blade)",
+			"Inquisitor lightsaber (spin)"
+		],
+		"gear": ["Inquisitorius uniform (+2 Soak, +1 Defence)"],
+		"tags": ["book:dor", "empire", "inquisitor", "force sensitive", "darkside"]
+	},
+	{
+		"name": "Seventh Sister",
+		"type": "Nemesis",
+		"description": "A ruthless and power-hungry Mirialan, Seventh Sister uses the dark side of the Force to find and eliminate Force adepts. As an agent of the Inquisitorius, she also has discretionary authority to commandeer Imperial assets as required to overcome such threats. Seventh Sister is a calm and thoughtful agent, preferring finesse over brute force when in combat. She liberally uses a small team of ID9 seeker droids for reconnaissance and observation while pursuing her objectives. Their findings assist her in pursuing her foes and identifying their vulnerabilities.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 17,
+			"strain": 23,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Cool": 2,
+			"Coercion": 3,
+			"Deception": 3,
+			"Discipline": 1,
+			"Gunnery": 3,
+			"Lightsaber (Agility)": 3,
+			"Medicine": 1,
+			"Stealth": 4,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Ataru Technique", "Force Rating 3", "Parry 4", "Saber Throw"],
+		"abilities": [
+			"Darkside Force User",
+			"Force Power: Move",
+			{
+				"name": "Fore Power: Enhance",
+				"description": "When making an Athletics or Coordination check, the character may roll an Enhance power check as part of the pool and may spend :forcepip: to gain :success: or :advantage: (their choice) on the check. May also spend :forcepip: to jump horizontally to any location in Short range."
+			},
+			{
+				"name": "Eyes Everywhere",
+				"description": "Automatically wins ties when making an Initiative check."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Inquisitor lightsaber",
+				"skill": "Lightsaber (Agility)",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder"]
+			},
+			{
+				"name": "Inquisitor lightsaber (dual-blade)",
+				"skill": "Lightsaber (Agility)",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder", "Linked 1", "Unwieldy 2"]
+			},
+			{
+				"name": "Inquisitor lightsaber (spin)",
+				"skill": "Lightsaber (Agility)",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder", "Defensive 1", "Deflection 1"],
+				"notes": "When making a Saber Throw action add :boost: to the check and increase damage by +1. If the character has the Enhance Force Power they may use the sabre to fly."
+			}
+		],
+		"gear": ["Inquisitorius uniform (+2 Soak, +1 Defence)", "Numerous ID9 seeker droids"],
+		"tags": ["book:dor", "empire", "inquisitor", "force sensitive", "darkside", "species:Mirialan"]
 	}
 ]
