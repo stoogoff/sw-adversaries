@@ -1277,7 +1277,7 @@
 		"abilities": ["Amphibious"],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Comlink"],
-		"tags": ["book:sor", "adventure:In Too Deep", "species:Mon Calamari", "rebel alliance"]
+		"tags": ["book:sor", "adventure:In Too Deep", "species:Mon Calamari", "rebel alliance", "nobility", "senator"]
 	},
 	{
 		"name": "Nosh Droma",

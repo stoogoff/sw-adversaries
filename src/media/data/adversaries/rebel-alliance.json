@@ -71,7 +71,7 @@
 		},
 		"talents": ["Kill with Kindness"],
 		"gear": ["Comlink", "Datapad", "Robes (+1 Soak)"],
-		"tags": ["rebel alliance", "book:aor"]
+		"tags": ["rebel alliance", "book:aor", "senator"]
 	},
 	{
 		"name": "Alliance Commander",

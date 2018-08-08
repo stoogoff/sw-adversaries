@@ -673,7 +673,7 @@
 	},
 	{
 		"name": "Incite Rebellion",
-		"description": ""
+		"description": "Once per session as an Action, make a :hard: Coercion check to cause up to {Coercion} beings to become rebellious until the end of the encounter."
 	},
 	{
 		"name": "Indistinguishable",

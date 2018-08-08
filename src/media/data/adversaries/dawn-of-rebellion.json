@@ -41,7 +41,7 @@
 		],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Datapad", "Diplomatic comlink", "Secret encrypted comlink"],
-		"tags": ["book:dor", "rebel alliance"]
+		"tags": ["book:dor", "rebel alliance", "senator", "nobility"]
 	},
 	{
 		"name": "AP-5",
@@ -1527,5 +1527,93 @@
 		],
 		"gear": ["Inquisitorius uniform (+2 Soak, +1 Defence)", "Numerous ID9 seeker droids"],
 		"tags": ["book:dor", "empire", "inquisitor", "force sensitive", "darkside", "species:Mirialan"]
+	},
+	{
+		"name": "Bail Organa",
+		"type": "Nemesis",
+		"description": "Bail Organa is viceroy of the House of Organa and married to Queen Breha Organa. Serving as Alderaan’s Republic and later Imperial Senator, he was one of the most influential politicians in the latter fays of the Clone Wars. Bail is a member of the Loyaist Committee, a position that lets him see some of Palpatine’s most heinous acts and devkous plots. Using Alderaan’s peaceful reputation to obfuscate his efforts to build resistance to the Empire, Bail skillgully walks a public line of apparently loyal opposition. Possibly his most important duty is educating and guiding the political career of his adopted daughter, Princess Leia. The true identity of Leia’s birth mother — Padmé Amidala — is a closely guarded secret.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 5,
+			"Willpower": 5,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12,
+			"strain": 15
+		},
+		"skills": {
+			"Charm": 4,
+			"Cool": 3,
+			"Deception": 3,
+			"Discipline": 3,
+			"Knowledge: Core Worlds": 4,
+			"Knowledge: Education": 4,
+			"Knowledge: Underworld": 2,
+			"Leadership": 4,
+			"Negotiation": 4,
+			"Perception": 3,
+			"Streetwise": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Confidence 2", "Natural Charmer", "Nobody’s Fool 1", "Supreme Inspiring Rhetoric", "Works Like a Charm"],
+		"abilities": [
+			{
+				"name": "Trusted Reputation",
+				"description": "As a maneuver, make an opposed Charm check against one or more characters within Short range to downgrade the difficulty of a number of future social skill checks equal to net :success: against that character once each, until the end of the encounter."
+			}
+		],
+		"gear": ["Heavy clothing (+1 Soak)", "Diplomatic comlink", "Secret encrypted comlink", "Datapad"],
+		"tags": ["book:dor", "rebel alliance", "senator", "nobility"]
+	},
+	{
+		"name": "Mon Mothma",
+		"type": "Nemesis",
+		"description": "As the one-time Republic and later Imperial Senator from Chandrila, Mon Mothma promoted negotiation and peaceful resolutions to some of the galaxy’s worst events. Along with Bail Organa and Padmé Amidala, she opposed Chancellor Palpatine’s efforts to consolidate power during the Clone Wars, and pushed for negotiations with the Separatists. After the Emperor seized control, she continued the struggle publicly while she could. Behind the scenes, however, she realised that he would never be dissuaded and would have to be removed by force. Eventually, her opposition grew into into a very public denunciation of the Emperor. This became more than the Empire could tolerate, especially coupled with her suspected ties to resistance fighters. She now leads the nascent Rebel Alliance as its Commander in Chief, working tirelessly to band together disparate groups and fighting forces into enough of a cohesive force to remove the Emperor and defeat the Empire.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 5,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 16
+		},
+		"skills": {
+			"Astrogation": 1,
+			"Charm": 4,
+			"Coercion": 3,
+			"Cool": 4,
+			"Computers": 2,
+			"Deception": 3,
+			"Discipline": 3,
+			"Knowledge: Core Worlds": 4,
+			"Knowledge: Education": 3,
+			"Knowledge: Underworld": 2,
+			"Leadership": 5,
+			"Melee": 1,
+			"Negotiation": 5,
+			"Perception": 3,
+			"Piloting: Planetary": 1,
+			"Piloting: Space": 1,
+			"Streetwise": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Incite Rebellion", "Nobody’s Fool 2"],
+		"abilities": [
+			{
+				"name": "Lasting Inspiration",
+				"description": "Once per session, make a :hard: Leadership check when giving orders to an ally; if the check is successful, the ally gains one :boost: for each :success: which can be split up and added as desired to any skill checks the ally makes until the end of the session."
+			}
+		],
+		"gear": ["Robes of office", "Diplomatic comlink", "Secret encrypted comlink", "Datapad"],
+		"tags": ["book:dor", "rebel alliance", "senator"]
 	}
 ]

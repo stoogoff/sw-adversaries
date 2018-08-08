@@ -502,7 +502,7 @@
 		},
 		"weapons": ["Holdout blaster"],
 		"gear": ["Aides"],
-		"tags": ["civilian", "location:Core Worlds", "book:eote"]
+		"tags": ["civilian", "location:Core Worlds", "book:eote", "senator"]
 	},
 	{
 		"name": "Coruscant Underworld Police",
@@ -1064,7 +1064,7 @@
 		},
 		"talents": ["Commanding Presence 2", "Works Like a Charm"],
 		"gear": ["Bodyguards", "Datapad", "Comlink"],
-		"tags": ["civilian", "book:aor"]
+		"tags": ["civilian", "book:aor", "senator"]
 	},
 	{
 		"name": "Provincial Law Enforcement",
