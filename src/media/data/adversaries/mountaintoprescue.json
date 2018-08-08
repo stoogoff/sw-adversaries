@@ -140,11 +140,11 @@
 		"talents": ["Force Rating 2"],
 		"abilities": ["Darkside Force User",
 			{
-				"name": "Force power: Sense",
+				"name": "Force Power: Sense",
 				"description": ":forcepip:: Sense all living things within Medium range. :forcepip:: Sense the emotional state of one target within Medium range. Ongoing effect, commit :force: upto Force rating to upgrade difficulty of at­tacks targeting the character twice."
 			},
 			{
-				"name": "Force power: Move",
+				"name": "Force Power: Move",
 				"description": ":forcepip:: Move up to 2 objects with Silhouette 1 at Medium range; may make ranged attacks with this power."
 			}
 		],
@@ -522,11 +522,11 @@
 				"description": "Naaran may spend :forcepip: to attack the minds of targets within Short range. For each :forcepip: he spends, the target suffers 2 Strain. He may spend :forcepip: to increase the number of affected targets by two (each target suffers the full amount of Strain, but :forcepip: spent to increase number of targets affected can’t be spent to inflict strain)."
 			},
 			{
-				"name": "Force power: Enhance",
+				"name": "Force Power: Enhance",
 				"description": "Rav Naaran may spend one :forcepip: to jump to anywhere within Short range as a maneuver. He may spend one additional :forcepip: to jump to anywhere within Medium range instead."
 			},
 			{
-				"name": "Force power: Move",
+				"name": "Force Power: Move",
 				"description": "Rav Naaran may spend :forcepip: to move a small object (up to the size of a backpack, Silhouette 0) from within Short range to another location within Short range. He may increase the range of this power to within Medium range by spending one additional :forcepip:. He may also spend one additional :forcepip: to move a larger object, up to the size of a person (Silhouette 1). This power can be used to make attacks by throwing lifted objects at an enemy, if Rav Naaran generates enough :forcepip: to lift the object and reach the target. The attack roll is based off Rav Naaran’s Discipline (:proficiency::proficiency::ability::ability:). If successful, it does 5 damage +1 damage for each uncanceled :success: result if the object is small, or 10 damage +1 damage for each uncanceled :success: result if the object is large. The target’s Soak reduces this damage as usual."
 			}
 		],

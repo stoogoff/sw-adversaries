@@ -456,5 +456,30 @@
 		"critical": 2,
 		"range": "Engaged",
 		"qualities": ["Defensive 1", "Pierce 5"]
+	},
+	{
+		"name": "Inquisitor lightsaber",
+		"skill": "Lightsaber",
+		"damage": 6,
+		"critical": 2,
+		"range": "Engaged",
+		"qualities": ["Breach 1", "Sunder"]
+	},
+	{
+		"name": "Inquisitor lightsaber (dual-blade)",
+		"skill": "Lightsaber",
+		"damage": 6,
+		"critical": 2,
+		"range": "Engaged",
+		"qualities": ["Breach 1", "Sunder", "Linked 1", "Unwieldy 2"]
+	},
+	{
+		"name": "Inquisitor lightsaber (spin)",
+		"skill": "Lightsaber",
+		"damage": 6,
+		"critical": 2,
+		"range": "Engaged",
+		"qualities": ["Breach 1", "Sunder", "Defensive 1", "Deflection 1"],
+		"notes": "When making a Saber Throw action add :boost: to the check and increase damage by +1. If the character has the Enhance Force Power they may use the sabre to fly."
 	}
 ]

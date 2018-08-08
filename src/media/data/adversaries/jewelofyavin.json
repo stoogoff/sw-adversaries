@@ -929,11 +929,11 @@
 		"abilities": [
 				"On the Edge",
 				{
-				"name": "Force power: Move",
+				"name": "Force Power: Move",
 				"description": ":forcepip:: Move up to 2 objects with Silhouette 1 at Medium range; may make ranged attacks with this power."
 				},
 				{
-				"name": "Force power: Influence",
+				"name": "Force Power: Influence",
 				"description": ":forcepip:: Inflict 2 strain on engaged target. Make an opposed Discipline vs Discipline check, as well as an Influence Force Power check, if successful can force target to adopt an emotional state or believe something untrue for 3 rounds or 5 minutes."
 				}
 			],

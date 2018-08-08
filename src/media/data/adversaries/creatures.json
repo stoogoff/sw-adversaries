@@ -815,7 +815,7 @@
 			"Silhouette 2",
 			"Strong as a Jakobeast",
 			{
-				"name": "Force power: Move",
+				"name": "Force Power: Move",
 				"description": "A minion group of three or more jako­beasts may attempt to shove enemies away with the Force. As an action, roll :force::force:. Each :forcepip: generated may be spent to move one Silhouette 1 en­emy within Short range to Medium range."
 			}
 		],
@@ -1664,7 +1664,7 @@
 			"Stealth": 3
 		},
 		"talents": ["Adversary 1", "Force Rating 2", "Darkside Force User"],
-		"abilities": ["Drain Life", "Force power: Influence"],
+		"abilities": ["Drain Life", "Force Power: Influence"],
 		"weapons": [
 			{
 				"name": "Grasping limbs",

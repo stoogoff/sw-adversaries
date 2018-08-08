@@ -788,9 +788,12 @@
 		},
 		"talents": ["Adversary 2", "Force Rating 3"],
 		"abilities": [
-			"Force power: Sense",
 			{
-				"name": "Force power: Bind",
+				"name": "Force Power: Sense",
+				"description": ":forcepip:: Sense all living things within Short range. :forcepip:: Sense the emotional state of one target within Short range. Ongoing effect, commit :force: upto Force rating to upgrade difficulty of at­tacks targeting the character once."
+			},
+			{
+				"name": "Force Power: Bind",
 				"description": "Once per round may make a Bind Force power check. :forcepip: to immobilise one target within Short range; :forcepip: to affect one additional target, and :forcepip: to inflict 5 Strain whenever an affected target takes an action."
 			}
 		],
@@ -1144,7 +1147,7 @@
 		"talents": ["Adversary 1", "Force Rating 4", "Parry 4", "Reflect 4"],
 		"abilities": [
 			{
-				"name": "Force power: Bind",
+				"name": "Force Power: Bind",
 				"description": "Once per round may make a Bind Force power check. :forcepip: to immobilise one target within Short range; :forcepip: to increase the range of the power by one; :forcepip::forcepip: to affect one additional target, and :forcepip: to inflict 3 Strain whenever an affected target takes an action."
 			}
 		],
@@ -1345,9 +1348,9 @@
 		},
 		"talents": ["Adversary 2", "Ataru Technique", "Force Rating 3", "Improved Parry", "Parry 3", "Reflect 3"],
 		"abilities": [
-			"Force power: Misdirect",
+			"Force Power: Misdirect",
 			{
-				"name": "Force power: Enhance",
+				"name": "Force Power: Enhance",
 				"description": ":forcepip:: Gain :success: or :advantage: (user’s choice) on an Athletics, Coordination, or Resilience check; :forcepip::forcepip:: take a Force Leap action to jump horizontally or vertically to any location in Medium range."
 			}
 		],
@@ -1522,7 +1525,7 @@
 		"talents": ["Adversary 1", "Force Rating 1", "Nobody’s Fool 2", "Smooth Talker (Deception) 2"],
 		"abilities": [
 			{
-				"name": "Force power: Influence",
+				"name": "Force Power: Influence",
 				"description": "May make an Influ­ence power roll as part of a Coercion, Charm, Decep­tion, Leadership, or Negotiation check. May spend :forcepip: to add :success: or :advantage: per :forcepip: spent to the check."
 			}
 		],
@@ -1581,7 +1584,7 @@
 		"abilities": [
 			"Darkside Force User", "Intimidating Presence",
 			{
-				"name": "Force power: Influence",
+				"name": "Force Power: Influence",
 				"description": ":forcepip:: inflict 2 Strain on target in Engaged range. :forcepip:: succeed at an opposed Discipline vs. Discipline check to force one target within Short range to adopt an emotional state of rage, fear or hatred, or believe something even if it is untrue, for five minutes or one round in combat. Spend :forcepip: to increase the duration by two additional rounds or ten additional minutes."
 			}
 		],
@@ -1782,15 +1785,15 @@
 		"abilities": [
 			"Darkside Force User",
 			{
-				"name": "Force power: Unleash",
+				"name": "Force Power: Unleash",
 				"description": "Make a Force power check targeting one enemy at Short range, roll a ranged attack as part of the pool, using :average: Discipline check instead of normal dif­ficulty. If the check is successful and generates :forcepip::forcepip: the attack deals 4 damage with a critical rating of 4, plus 1 additional damage per :success:. May spend :forcepip: to increase the range by one band, spend :forcepip: to affect one additional target in range, and spend :forcepip: to deal 2 additional damage. May activate all upgrades multiple times." 
 			},
 			{
-				"name": "Force power: Foresee",
+				"name": "Force Power: Foresee",
 				"description": "Spend :forcepip: to gain vague hints of events to come, up to a day into own future. Spend :forcepip: to increase the number of days seen into future by 2."
 			},
 			{
-				"name": "Force power: Influence",
+				"name": "Force Power: Influence",
 				"description": "May make an opposed Discipline vs. Discipline check combined with an Influence power check targetting one Engaged opponent. If successful, may spend :forcepip: to cause the target to adopt an emotional state of rage, fear, or hatred, or believe one untrue statement for one round or five minutes. May spend :forcepip: to increase the duration by three additional rounds or fifteen additional minutes. May spend :forcepip: to increase the range of the power by one range band. May activate these upgrades multiple times."
 			}
 		],
@@ -1877,11 +1880,11 @@
 		"talents": ["Adversary 1", "Force Rating 2", "Parry 3"],
 		"abilities": [
 			{
-				"name": "Force power: Enhance",
+				"name": "Force Power: Enhance",
 				"description": "Commit :force: to increase Brawn by 1. Commit :force: to increase Agility by 1."
 			},
 			{
-				"name": "Force power: Heal",
+				"name": "Force Power: Heal",
 				"description": "Spend :forcepip: to heal 2 Wounds from one engaged living creature (including self). Spend :forcepip: to increase Wounds healed by 2 (may activate this multiple times)."
 			}
 		],
@@ -2011,7 +2014,7 @@
 		"abilities": [
 			"Darkside Force User",
 			{
-				"name": "Force power: Harm",
+				"name": "Force Power: Harm",
 				"description": "May make a Harm Force power check against one Engaged target. Spend :forcepip: to inflict 2 Wounds on the target, ignoring Soak. Spend :forcepip: to increase Wounds inflicted by 2 (may activate this multiple times), and spend :forcepip: to increase range by one range band."
 			}
 		],
@@ -2099,13 +2102,13 @@
 		},
 		"talents": ["Adversary 2", "Force Rating 4", "Ritual Caster"],
 		"abilities": [
-			"Force power: Foresee",
+			"Force Power: Foresee",
 			{
-				"name": "Force power: Protect",
+				"name": "Force Power: Protect",
 				"description": "Make a Protect power check, rolling an :average: Discipline check as part of the pool. Spend :forcepip::forcepip: to reduce damage from one hit of an energy-based attack that occurs before the beginning of the character’s next turn. The attack must hit the character or an Engaged character, and the damage is reduced by 4 plus 1 per :success:. Spend :forcepip: to al­low the power to affect all types of attacks. Spend :forcepip: to af­fect 2 additional targets (may activate this multiple times)."
 			},
 			{
-				"name": "Force power: Unleash",
+				"name": "Force Power: Unleash",
 				"description": "Make a Force power check target­ing one enemy at Short range, and roll a ranged attack as part of the pool, using an :average: Discipline check instead of normal difficulty. If the check is successful and generates :forcepip::forcepip: the attack deals 4 damage plus 1 damage per :success:, with a critical rating of 4. Spend :forcepip: to increase the range by one range band, spend :forcepip: to affect one additional target within range, and spend :forcepip: to deal 2 additional dam­age (may activate all of these upgrades multiple times)."
 			}
 		],
@@ -2153,9 +2156,9 @@
 		"talents": ["Adversary 2", "Force Rating 4", "Ritual Caster"],
 		"abilities": [
 			"Darkside Force User",
-			"Force power: Foresee",
+			"Force Power: Foresee",
 			{
-				"name": "Force power: Unleash",
+				"name": "Force Power: Unleash",
 				"description": "Make a Force power check target­ing one enemy at Short range, and roll a ranged attack as part of the pool, using an :average: Discipline check instead of normal difficulty. If the check is successful and generates :forcepip::forcepip: the attack deals 4 damage plus 1 damage per :success:, with a critical rating of 4. Spend :forcepip: to increase the range by one range band, spend :forcepip: to affect one additional target within range, and spend :forcepip: to deal 2 additional dam­age (may activate all of these upgrades multiple times). Spend :forcepip: to decrease the critical rating of the attack to 1."
 			}
 		],

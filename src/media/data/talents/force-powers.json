@@ -4,35 +4,36 @@
 		"description": "Use :darkside: to generate :forcepip:."
 	},
 	{
-		"name": "Force power: Move",
-		"description": ":forcepip:: Move one object Silhouette 1 at Short range; may make ranged attacks with this power."
+		"name": "Force Power: Move",
+		"description": "The character may hurl objects by making a Move Force Power check and rolling a ranged attack as part of the pool. The attack's difficulty is equal to the Silhouette of the object being thrown (default is Silhouette 0) and only succeeds if they can also spend enough :forcepip: to move the object. The attack deals damage equal to the Silhouette of the object times 10 (Silhouette 0 deals 5 damage) plus one per :success:. To throw multiple objects, they must generate enough :forcepip: to move multiple objects, and must use rules for Auto-Fire to determine difficulty and targeting."
 	},
 	{
-		"name": "Force power: Enhance",
-		"description": ":forcepip:: Gain :success: or :advantage: (user's choice) on an Athletics, Coordination, or Resilience check; :forcepip:: take a Force Leap action to jump horizontally or vertically to any location in Short range."
+		"name": "Force Power: Enhance",
+		"description": "When making an Athletics check, the character may roll an Enhance power check as part of the pool and may spend :forcepip: to gain :success: or :advantage: (their choice) on the check."
 	},
 	{
-		"name": "Force power: Foresee",
+		"name": "Force Power: Sense",
+		"description": "May spend :forcepip: to sense all living things within Medium range of the character (including animals and sentient beings). He may not activate either ability multiple times."
+	},
+
+	{
+		"name": "Force Power: Foresee",
 		"description": "Spend :forcepip: to gain vague hints of events to come, up to a day into own future. Spend :forcepip: to increase the number of days seen into future by 2. Spend :forcepip: to gain more specific details."
 	},
 	{
-		"name": "Force power: Harm",
+		"name": "Force Power: Harm",
 		"description": "May make a Harm Force power check against one engaged target. Spend :forcepip: to inflict {Intellect} Wounds on the target, ignoring Soak. Spend :forcepip: to increase wounds inflicted by {Intellect} (may activate this multiple times), and spend :forcepip: to heal Wounds equal to Wounds inflicted."
 	},
 	{
-		"name": "Force power: Misdirect",
+		"name": "Force Power: Misdirect",
 		"description": ":forcepip:: Make one target within Short range unable to perceive one Silhoutte 1 object, or perceive one non-existent Silhoutte 1 object; spend :forcepip::forcepip: to create up to six additional illusory people or objects; spend :forcepip: to increase the number of affected targets by 3."
 	},
 	{
-		"name": "Force power: Sense",
-		"description": ":forcepip:: Sense all living things within Short range. :forcepip:: Sense the emotional state of one target within Short range. Ongoing effect, commit :force: upto Force rating to upgrade difficulty of at­tacks targeting the character once."
-	},
-	{
-		"name": "Force power: Influence",
+		"name": "Force Power: Influence",
 		"description": ":forcepip:: inflict 2 Strain on target in Short range. :forcepip:: succeed at an opposed Discipline vs. Discipline check to force one target within Short range to adopt an emotional state, or believe something even if it is untrue, for four minutes or four rounds in combat."
 	},
 	{
-		"name": "Force power: Unleash",
+		"name": "Force Power: Unleash",
 		"description": "Make a Force power check targeting one enemy at Short range, roll a ranged attack as part of the pool, using :average: Discipline check instead of normal dif­ficulty. If the check is successful and generates :darkside::darkside: the attack deals 3 damage with a critical rating of 4, plus 1 additional damage per :success:. May spend :darkside: to increase damage by 3, and :darkside: to increase range to Medium."
 	},
 	{

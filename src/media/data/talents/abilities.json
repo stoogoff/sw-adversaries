@@ -189,7 +189,7 @@
 	},
 	{
 		"name": "Darkest Dreams",
-		"description": "A Moraband Sith phantasm can spend :advantage::advantage: on a combat check or :threat::threat: on an engaged enemy’s combat check to have the target make an :average: fear check (upgraded once for the phantasm’s terri­fying nature); if the target fails, the phantasm transforms into a figure inspired by the target’s greatest fear in addition to any other effects of the failed check."
+		"description": "A Moraband Sith phantasm can spend :advantage::advantage: on a combat check or :threat::threat: on an engaged enemy’s combat check to have the target make an :average-1: fear check; if the target fails, the phantasm transforms into a figure inspired by the target’s greatest fear in addition to any other effects of the failed check."
 	},
 	{
 		"name": "Death Lunge",
@@ -665,7 +665,7 @@
 	},
 	{
 		"name": "Su­premely Terrifying",
-		"description": "Upon first seeing a sando aqua monster, an individual must make a :daunting: fear check with the difficulty upgraded once to reflect the sheer dread the beast invokes."
+		"description": "Upon first seeing a sando aqua monster, an individual must make a :daunting-1: fear check to reflect the sheer dread the beast invokes."
 	},
 	{
 		"name": "Surefooted",

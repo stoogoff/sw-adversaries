@@ -113,7 +113,7 @@
 		"abilities": [
 			"Darkside Force User",
 			{
-				"name": "Force power: Battle Meditation",
+				"name": "Force Power: Battle Meditation",
 				"description": "Spend :force: to add :success: to all checks made by a number of Engaged friendly targets up to the character’s Presence for one turn, but using :forcepip: reduces their Willpower by one; targets must make an :easy: Discipline check if they wish to resist orders given as part of this power."
 			}
 		],
@@ -275,19 +275,19 @@
 			"Resilience": 2,
 			"Vigilance": 3
 		},
-		"talents": ["Adversary 3", "Improved Centre of Being 2", "Force Rating 5", "Parry 3", "Improved Parry", "Reflect 3", "Improved Reflect", "Saber Throw"],
+		"talents": ["Adversary 3", "Improved Centre of Being 2", "Force Rating 5", "Improved Parry 3", "Improved Reflect 3", "Saber Throw"],
 		"abilities": [
 			"Darkside Force User",
 			{
-				"name": "Force power: Warde’s Foresight",
+				"name": "Force Power: Warde’s Foresight",
 				"description": "Warde may spend :forcepip: to gain hints about what an individual within Short range is like­ly to do in the near future. He may spend :forcepip: to increase the range of the power to Long and may spend :forcepip::forcepip: to gain :boost::boost: on his next check against the target. When making a check for Initiative, Warde may make a Warde’s Foresight power check. He may spend :forcepip: to add :success: to his first check this encounter; if he used :darkside: for :forcepip: he may immediately perform one action but each enemy adds :success: to the result of their Initiative check."
 			},
 			{
-				"name": "Force power: Enhance",
+				"name": "Force Power: Enhance",
 				"description": "When making an Athletics, Resilience, or Brawl check, Warde may roll an Enhance power check as part of the pool and spend :forcepip: to gain :success: or :advantage: on the check. Warde may take the Force Leap maneuver to make an Enhance power check. He may spend :forcepip: to leap horizontally or vertically to any location in Short range. He may spend :forcepip: to increase the power’s range by 1 range band."
 			},
 			{
-				"name": "Force power: Move",
+				"name": "Force Power: Move",
 				"description": "Warde may spend :forcepip: to move one Silhoutte 0 object within Short range to another location within Short range. He may spend :forcepip: to increase the range of the power to Long and spend :forcepip: to increase the size of the object he can move to Silhoutte 2. Warde may hurl an object at a target by making a Move Force power check and rolling a ranged attack, using Discipline, as part of the pool. The attack’s difficulty is equal to the Silhouette of the object being thrown instead of the normal difficulty, and only succeeds if Warde can also spend enough :forcepip: to move the object. The attack deals damage equal to the object’s Silhouette times ten (Silhouette 0 objects deal 5 damage), plus one per :success:."
 			}
 		],

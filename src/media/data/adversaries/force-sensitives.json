@@ -55,7 +55,7 @@
 		"talents": ["Force Rating 1", "Intuitive Evasion", "Skilled Jockey 2"],
 		"abilities": [
 			{
-				"name": "Force power: Influence",
+				"name": "Force Power: Influence",
 				"description": "May make an Influ­ence power roll as part of a Coercion, Charm, Decep­tion, Leadership, or Negotiation check. May spend :forcepip: to add :success: or :advantage: per :forcepip: spent to the check."
 			}
 		],
@@ -151,7 +151,7 @@
 			"Vigilance": 4
 		},
 		"talents": ["Adversary 3", "Intense Focus", "Stalker 2", "Uncanny Senses 2", "Force Rating 2"],
-		"abilities": ["Force power: Influence", "Darkside Force User"],
+		"abilities": ["Force Power: Influence", "Darkside Force User"],
 		"weapons": ["Disruptor pistol", "Vibrosword", "Frag grenade"],
 		"gear": ["1 Frag grenade"],
 		"tags": ["force sensitive", "empire", "book:eote", "darkside"]
@@ -211,7 +211,7 @@
 			"Lightsaber": 4,
 			"Resilience": 3
 		},
-		"talents": ["Adversary 2", "Force Rating 3", "Hawk Bat Swoop", "Improved Reflect", "Parry 5", "Reflect 5"],
+		"talents": ["Adversary 2", "Force Rating 3", "Hawk Bat Swoop", "Parry 5", "Improved Reflect 5"],
 		"abilities": ["Darkside Force User"],
 		"weapons": [
 			{
@@ -258,10 +258,13 @@
 		},
 		"talents": ["Adversary 2", "Force Rating 3", "Sense Danger", "Sense Emotions", "Uncanny Senses 2"],
 		"abilities": [
-			"Force power: Move",
+			{
+				"name": "Force Power: Move",
+				"description": ":forcepip:: Move one object Silhouette 1 at Short range; may make ranged attacks with this power."
+			},
 			"On the Edge",
 			{
-				"name": "Force power: Sense",
+				"name": "Force Power: Sense",
 				"description": ":forcepip:: Sense all living things within Medium range. :forcepip:: Sense the emotional state of one target within Medium range. Ongoing effect, commit :force: up to Force rating to upgrade difficulty of at­tacks targeting the character twice."
 			}
 		],
@@ -301,9 +304,16 @@
 		},
 		"talents": ["Adversary 2", "Force Rating 3", "Uncanny Senses 1", "Uncanny Reactions 2"],
 		"abilities": [
-			"Force power: Move", "Force power: Enhance",
 			{
-				"name": "Force power: Foresee",
+				"name": "Force Power: Move",
+				"description": ":forcepip:: Move one object Silhouette 1 at Short range; may make ranged attacks with this power."
+			},
+			{
+				"name": "Force Power: Enhance",
+				"description": ":forcepip:: Gain :success: or :advantage: (user's choice) on an Athletics, Coordination, or Resilience check; :forcepip:: take a Force Leap action to jump horizontally or vertically to any location in Short range."
+			},
+			{
+				"name": "Force Power: Foresee",
 				"description": ":forcepip:: Gain vague hints of events to come, up to a day into own future; :forcepip:: Gain :advantage: per point on an Initiative check."
 			}
 		],
@@ -337,7 +347,7 @@
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 2", "Force Rating 3", "Soft Spot"],
-		"abilities": ["Darkside Force User", "Force power: Unleash"],
+		"abilities": ["Darkside Force User", "Force Power: Unleash"],
 		"weapons": [
 			{
 				"name": "Serrated vibroknife",
@@ -387,7 +397,7 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 2", "Force Rating 2"],
-		"abilities": ["Darkside Force User", "Force power: Harm"],
+		"abilities": ["Darkside Force User", "Force Power: Harm"],
 		"weapons": [
 			{
 				"name": "Vibro-trident",

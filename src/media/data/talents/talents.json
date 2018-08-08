@@ -1066,7 +1066,7 @@
 	},
 	{
 		"name": "Improved Parry",
-		"description": "When parrying a hit that generated :despair: or :threat::threat::threat:, may hit attacker once with a wielded brawl, melee or lightsaber weapon dealing base damage, after the original attack is resolved."
+		"description": "When struck by a melee attack but before applying Soak, suffer 3 Strain to reduce damage by {ranks|plus-2}. When parrying a hit that generated :despair: or :threat::threat::threat:, may hit attacker once with a wielded brawl, melee or lightsaber weapon dealing base damage, after the original attack is resolved."
 	},
 	{
 		"name": "Parry (Supreme)",
@@ -1190,7 +1190,7 @@
 	},
 	{
 		"name": "Improved Reflect",
-		"description": "When reflecting a hit that generated :despair: or :threat::threat::threat:, may hit one target within Medium range dealing the same damage as the initial attack, after the original attack is resolved."
+		"description": "When struck by a ranged attack but before apply­ing Soak, suffer 3 Strain to reduce damage by {ranks|plus-2}. When reflecting a hit that generated :despair: or :threat::threat::threat:, may hit one target within Medium range dealing the same damage as the initial attack, after the original attack is resolved."
 	},
 	{
 		"name": "Reflect (Supreme)",
