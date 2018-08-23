@@ -163,6 +163,9 @@ let bookMap = {
 	"book:sot": "Stay on Target",
 	"book:ss": "Savage Spirits",
 	"book:eto": "Enter the Unknown",
+	"book:kof": "Knights of Fate",
+	"book:fo": "Fully Operational",
+	"book:cam": "Cyphers and Masks",
 
 	// adventures
 	"book:oaa": "Onslaught at Arda I",
