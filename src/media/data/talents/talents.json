@@ -53,7 +53,7 @@
 	},
 	{
 		"name": "Bad Motivator",
-		"description": ""
+		"description": "Once per session as an action, make a :hard: mechanics check to casue one targeted device to spontaneously fail."
 	},
 	{
 		"name": "Bad Press",
@@ -542,10 +542,6 @@
 	{
 		"name": "Improved Full Throttle",
 		"description": "Suffer 1 Strain to make an :average: Piloting: Planetary check as maneuver and in­crease top speed by 1 for {Cunning} rounds."
-	},
-	{
-		"name": "Full Throttle [Supreme]",
-		"description": ""
 	},
 	{
 		"name": "Galaxy Mapper",
@@ -1483,6 +1479,10 @@
 	{
 		"name": "Suppressing Fire",
 		"description": ""
+	},
+	{
+		"name": "Supreme Full Throttle",
+		"description": "As an action, make a :hard: piloting check to increase the vehicle’s top speed by two for three rounds; suffer 1 strain to use as maneuver and reduce difficulty to :average:"
 	},
 	{
 		"name": "Surgeon",

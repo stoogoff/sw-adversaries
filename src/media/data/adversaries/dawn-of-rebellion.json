@@ -1725,5 +1725,159 @@
 		"weapons": ["Blaster Pistol"],
 		"gear": ["Padded armour (+2 Soak)", "Encrypted Comlink"],
 		"tags": ["book:dor", "rebel alliance"]
+	},
+	{
+		"name": "Spectre 1: Kanan Jarrus",
+		"type": "Nemesis",
+		"description": "Kana Jarrus is a former Jedi Padawan whose master was killed in Order 66. Barely escaping, he quickly abandoned his birth name of Caleb Dume and spent years in the shadows avoiding Imperial notice as a minor smuggler and a pilot-for-hire. This life ended when Hera Syndulla encountered him in the Gorse system, where they worked together to thwart an Imperial noble from destroying a world to reap enormous profits. As part of theur battles, he revealed himself as a Force user and was later convinced to join her in fighting back against the Empire.\n\nKana's training from the Clone Wars has been invaluable in planning and executing missions the Spectres undertake, but perhaps his most important role is as mendor and instructor to Ezra Bridger. Finding another Force-sensitive has allowed Jarrus to put his master's training to use again, though he often worries he is not up to the task and is afraid his impatient charge may be slowly falling to the darkness.These feelings became intensified when he was blinded in a ferocious combat with Maul on Malachor. Kanan now uses the Force to compensate for his lack of sight, and has also achieved a greater understanding of the Force through his interactions with the mysterious being known as Bendu.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 19,
+			"strain": 15
+		},
+		"skills": {
+			"Athletics": 3,
+			"Charm": 2,
+			"Brawl": 2,
+			"Cool": 2,
+			"Deception": 2,
+			"Discipline": 4,
+			"Knowledge: Underworld": 2,
+			"Lightsaber": 3,
+			"Melee": 2,
+			"Perception": 3,
+			"Piloting: Planetary": 3,
+			"Piloting: Space": 3,
+			"Ranged: Light": 3,
+			"Skullduggery": 2,
+			"Streetwise": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1", "Improved Reflect 3", "Improved Parry 3", "Force Rating 3", "Steely Nerves"],
+		"abilities": [
+			{
+				"name": "Force Power: Enhance",
+				"description": "When making a Resilience or Brawl check, Kanan may use this power."
+			},
+			{
+				"name": "Kanan's Farsight",
+				"description": "Though blind, Kanan can use his connection to the Fortce to function as if sighted, He does not need to spend :forcepip:."
+			},
+			{
+				"name": "Force Power: Move",
+				"description": "Kanan may spend :forcepip: to increase the power's range to medium range or to increase the size of the object he can move to silhouette 2."
+			}
+		],
+		"weapons": ["Blaster Pistol",
+		{
+				"name": "Lightsaber",
+				"skill": "Lightsaber",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder", "Modular"]
+			}
+		],
+		"gear": ["Padded armour (+2 Soak)", "Encrypted Comlink"],
+		"tags": ["book:dor", "rebel alliance", "spectres", "force sensitive"]
+	},
+	{
+		"name": "Spectre 2: Hera Syndulla",
+		"type": "Nemesis",
+		"description": "Hera Syndulla is the daughter of Cham Syndulla, who fought for their Twi'lek homeworld of Ryloth against the Separatists, and now against the Empire in these even darker times. It was during the war that as a young girl she rescued and repaired an astromech droid known as Chopper from a crashed Republic starfighter. It was also during this time that she became fascinated with piloting. After her mother died and her father became more and more devoted to fighting only for Ryloth, Hera left to join a resistance movement against the Empire led by the sectetive “Fulcrum”.\n\n Along the way Hera acquired the *Ghost*, and grew into an important Rebel commander as well as one of the best pilots around. As captain of the Spectres' main vessel as well as de facto home for the group, she often serves as the one who settles arguments, ensures upkeep is done, and the final decider while the group is aboard.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13,
+			"strain": 14
+		},
+		"skills": {
+			"Astrogation": 2,
+			"Charm": 2,
+			"Computers": 1,
+			"Cool": 3,
+			"Coordination": 2,
+			"Deception": 3,
+			"Discipline": 1,
+			"Leadership": 3,
+			"Mechanics": 3,
+			"Perception": 3,
+			"Piloting: Planetary": 3,
+			"Piloting: Space": 4,
+			"Ranged: Light": 2,
+			"Streetwise": 4,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Master Pilot", "Skilled Jockey 2", "Supreme Full Throttle"],
+		"abilities": ["Desert Dweller",
+			{
+				"name": "Lifelong Resistance Leader",
+				"description": "Once per turn, may spend a maneuver to allow one ally within medium range to perform an action as an out-of-turn incidental."
+			},
+			{
+				"name": "Prideful Piloting",
+				"description": "While Hera pilots the Ghost, that vehicle’s silhouette counts as 3."
+			}
+		],
+		"weapons": ["Holdout Blaster Pistol"],
+		"gear": ["Heavy clothing (+1 Soak)", "Encrypted Comlink", "Goggles", "Tool kit"],
+		"tags": ["book:dor", "rebel alliance", "spectres", "species: Twi’lek"]
+	},
+	{
+		"name": "Spectre 3: Chopper",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 13,
+			"strain": 12
+		},
+		"skills": {
+			"Astrogation": 3,
+			"Computers": 4,
+			"Cool": 2,
+			"Discipline": 2,
+			"Gunnery": 2,
+			"Melee": 1,
+			"Mechanics": 4,
+			"Perception": 2,
+			"Piloting: Planetary": 2,
+			"Piloting: Space": 3,
+			"Skulduggery": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Bad Motivator", "Gearhead 2", "Solid Repairs 2"],
+		"abilities": ["Droid",
+				{
+				"name": "Grumpy 1",
+				"description": "The first time a character targets Chopper with a social skill check during an encounter, upgrade the difficulty once. If the check generates :despair:, upgrade the difficulty of all subsequent social skill checks as well."
+				}
+		],
+		"weapons": ["Arc welder"],
+		"gear": ["Emergency repair kit", "Encrypted Comlink", "Goggles", "Tool kit", "Booster rocket (allows Chopper to fly, as per the rules in the Flying sidebars in Chapter VI: Conflict and Combat in the core rulebooks)"],
+		"tags": ["book:dor", "rebel alliance", "spectres", "species:droid"]
 	}
 ]

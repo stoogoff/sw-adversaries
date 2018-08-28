@@ -110,6 +110,11 @@
 		"description": "On a successful attack the wielder may activate to gain an additional hit and may do so a number of times equal to the weapon’s Linked rating."
 	},
 	{
+		"name": "Modular",
+		"type": "Passive",
+		"description": "Add :setback: to Perception checks to detect when disassembled."
+	},
+	{
 		"name": "Pierce",
 		"type": "Passive",
 		"description": "Ignores one point of Soak for each rank of Pierce."
