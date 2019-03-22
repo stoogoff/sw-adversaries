@@ -3,6 +3,7 @@
 		"name": "Stormtrooper: Storm Commando",
 		"type": "Rival",
 		"description": "",
+		"notes": "Credits go to Chris Hunt, D2Radio.com",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -34,6 +35,7 @@
 		"name": "Stormtrooper: Storm Commando Officer",
 		"type": "Nemesis",
 		"description": "Storm Commandos are the Empire’s elite fighting force, formed in direct response to the Rebellion’s guerrilla warfare tactics. Also known as shadow scouts, these troops are selected and trained to conduct special operations under demanding circumstances where regular troops prove incapable. In turn, those officers who lead storm commandos into battle are nothing less than exemplary. Only the most dedicated, skilled, and knowledgeable officers are selected to lead after undergoing grueling physical and mental tests originally instituted by the now-defector Crix Madine. Generally, Storm Commando Officers are deployed on the battlefield in one of two roles. First, and most common, is for these officers to directly lead Storm Commando groupings of 5-50 commandos on special operations. Planning and executing operations is the commando officer’s bread and butter. More rarely though, Storm Commando Officers can be deployed to mentor, and indeed lead for, other Imperial or affiliated force commanders. While not often discussed, a small team of Storm Commandos led by an experienced officer can turn even the greenest planetary defense militia into a dangerous weapon of war. These officers are supported and protected by a hand-picked team of 2-5 commandos. At the GM’s discretion, this command team can also train supported forces providing them a Boost die in Mass Combat.",
+		"notes": "Credits go to Chris Hunt, D2Radio.com",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -82,6 +84,7 @@
 		"name": "Nik Kormir, Resistance Purchaser",
 		"type": "Rival",
 		"description": "Well dressed, confident, salt and pepper hair. This human male, called Mr. Smooth by his admirers in the casino, carries himself as a successful gambler. Turning a few heads, he is nothing special compared to the true high rollers of Canto Bight. Just respected enough to look as if he belongs, Nik Kormir subtly moves among the scores of weapons manufacturers and arms brokers living the high life. Kormir relies on hiding in plain site to evade the notice of the First Order, purchasing quietly and arranging all deliveries to be off world. If discovered, his primary goal will be escape and evade. He will fight to break contact, but doesn’t finish off downed enemies, instead using his energy to flee. Kormir fears most capture and slow interrogation by the First Order, and will do anything possible to avoid that fate.",
+		"notes": "Credits go to Chris Hunt, D2Radio.com",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -114,6 +117,7 @@
 		"name": "Gruuzhnag",
 		"type": "Nemesis",
 		"description": "“Look, I’ve known old Gruuzhnag for the better part of 30 years. Sure, he might look like the rest of those pigs, but that’s where you’d be wrong. You’ll never meet a better doctor or mechanic this far outside of civilization. Yeah, the parts for his cybernetics are cobbled together, but what can you expect so far out in the Rim? And I can assure you he has no love for the Empire. And the last goomba who stuck his nose into the pig’s chop shop walked away minus an arm. As long as you’ve got the credits, he’ll help you out. Just don’t ask about his scars. Trust me on that one.” \n\nBackground: Gruuzhnag was a brilliant Gamorrean even by the standards of species noted for their intelligence. He was taken with ideas that were so far above the primitive qualities of his kin that he quickly found himself ostracized from a very early age. He eventually stole away on a passing freighter that had stopped down for a few days to avoid an Imperial patrol. He quickly made an impression on the ship’s captain when he found the young Gruuzhnag disassembling and reassembling some auxiliary components. He was almost immediately put to work under the tutelage of the ship’s doctor, who was also serving as chief engineer. It wasn’t long before Gruuzhnag began to pick up on the doctor’s medical knowledge and started to put together some rudimentary methods to marry his mechanical and medical knowledge.\n\nHe was planning on using the money he earned aboard the ship to enter into an academy in the Core Worlds, but never got the chance. Taken captive in a pirate raid, Gruuzhnag was sold into slavery – specifically into the gladiatorial circuit. Forced to fight or die, Gruuzhnag chose to fight, learning how to survive in the arena, leveraging the natural inclinations of his species to give himself a needed edge.\n\nOver the months he was there, he also started to win several of the other gladiators to his side. This proved useful when he decided it was time to break out. He staged a daring attempt, leading his few fellow gladiators in overpowering the guards and escaping into the countryside. Unfortunately, they were pursued by a larger force and caught several kilometers outside of the arena’s walls. They fought valiantly but in the resulting battle, Gruuzhnag’s force was utterly decimated and the Gamorrean himself left for dead, having lost both of his arms. Somehow, he managed to avoid death and dragged himself several more kilometers to the nearest settlement. He found an abandoned garage with several still functioning droids. He used them to help construct himself some rudimentary prosthetics and then managed to smuggle himself off world.\n\nGruuzhnag has since set himself up deep in the Outer Rim where he has made a small amount of notoriety for himself as a brilliant, if somewhat odd, cybernetic surgeon. His parts tend to be scavenged and secondhand, but no one can argue how durable and functional they are. He doesn’t like to talk about his past, but he keeps the vibroax that took his arms on the wall in his shop, and he’s not shy about using it if he needs to. Over the years he has patched himself some serviceable cybernetic replacements for the very basic prosthetics he originally constructed. He tends to conduct his actual business through his droids nowadays, very rarely speaking to the customers himself. But if you have need for his services, Gruuzhnag’s Chop Shop can probably help you.\n\nSuggested Use: Gruuzhnag can be a great contact for the player characters, especially if they desperately need medical attention and are stuck far out in the Rim away from civilization. If they don’t have proper payment, Gruuzhnag’s stances against slavery and piracy can be leveraged as Obligation for the characters as he agrees to help them in return for helping him stamp out a particularly nasty group of slavers that is operating on the planet. Alternatively, if the PCs are the kind of group that find themselves routinely engaged in piracy and slavery, Gruuzhnag can be a very dangerous opponent on any Outer Rim world they attempt to acquire more merchandise on.",
+		"notes": "Credits go to Chris Hunt, D2Radio.com",
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 2,
@@ -326,6 +330,293 @@
 				}				
 			],
 		"tags": ["source:D20Radio.com NPC’s", "species:Droid"],
+		"devOnly": true
+	},
+	{
+		"name": "Terentatek",
+		"type": "Nemesis",
+		"description": "The nightmarish terentatek are hulking creatures, similar in appearance to rancors but covered in spines and thick armored hide. Drawn to, and perhaps powered by, concentrations of dark side Force energy, terentateks inhabit caves and tombs connected to dark side Force traditions such as the Sith and Rakata.  Over the millennia, the Jedi have launched the Great Hunts. These hunts were concerted efforts to wipe out the scourge of these beasts by dispatching teams of trained Jedi across the galaxy. However, even where the Jedi cleansed entire worlds the terentatek would return generations later. Jedi scholars believe the terentatek enter hibernation and hiding when the dark side wanes in the galaxy, only to awaken and emerge in times of conflict and suffering. Despite their horrifying reputation, bold treasure hunters often seek out reports of terentatek sightings in hope that the beasts are evidence of undiscovered tombs and therefore unclaimed riches. Even when no tomb is present the lair of a terentatek may contain the remains, and equipment, of warriors such as the Jedi who died in battle against these beasts.",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 12,
+			"wounds": 50,
+			"strain": 38,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 3,
+			"Coercion": 1,
+			"Cool": 3,
+			"Discipline": 2,
+			"Perception": 3,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Silhouette 3",
+			{
+			"name": "Force Resistance",
+			"description": "When targeted by Force powers count the relevant skill to resist as having 5 ranks"
+			},
+			{
+			"name": "Sweep Attack",
+			"description": "the terentatek can spend a Triumph on a successful Brawl check using its massive claws to hit the target as well as anyone engaged with the target"
+			},
+			{
+			"name": "Dark Venom",
+			"description": "at the GM’s discretion a terentatek may have dark venom. if a character suffers unsoaked wounds from the terentatek’s claws or tusks, then that character is affected as per synthetic neurotoxin as per FaD 181 except the difficulty is 2 Challenge dice)"
+			}
+		],
+		"weapons": [
+			{
+				"name": "Massive claws",
+				"skill": "Brawl",
+				"damage": 15,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Ensnare", "Knockdown"]
+			},
+			{
+				"name": "Goring tusks",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 5", "Inaccurate 2"]
+			}
+		],
+		"gear": [""],
+		"tags": ["source:D20Radio.com NPC’s", "creature", "location:Moraband"],
+		"devOnly": true
+	},
+	{
+		"name": "Terentatek Mauler",
+		"type": "Nemesis",
+		"description": "Within the darkest sanctums of ancient Sith tombs dwell the terentatek maulers. Tougher, stronger, and more deadly, the maulers stand solidary guard over the remains of powerful Sith Lords. Heavy bone plating ending in long spines cover the mauler dramatically increasing its resilience.",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 15,
+			"wounds": 75,
+			"strain": 38,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 3,
+			"Coercion": 1,
+			"Cool": 3,
+			"Discipline": 2,
+			"Perception": 3,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 3"],
+		"abilities": ["Silhouette 3",
+			{
+			"name": "Force Resistance",
+			"description": "When targeted by Force powers count the relevant skill to resist as having 5 ranks"
+			},
+			{
+			"name": "Sweep Attack",
+			"description": "the terentatek can spend a Triumph on a successful Brawl check using its massive claws to hit the target as well as anyone engaged with the target"
+			},
+			{
+			"name": "Dark Venom",
+			"description": "at the GM’s discretion a terentatek may have dark venom. if a character suffers unsoaked wounds from the terentatek’s claws or tusks, then that character is affected as per synthetic neurotoxin as per FaD 181 except the difficulty is 2 Challenge dice)"
+			}
+		],
+		"weapons": [
+			{
+				"name": "Massive claws",
+				"skill": "Brawl",
+				"damage": 15,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Ensnare", "Knockdown"]
+			},
+			{
+				"name": "Goring tusks",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 5", "Inaccurate 2"]
+			}
+		],
+		"gear": [""],
+		"tags": ["source:D20Radio.com NPC’s", "creature", "location:Moraband"],
+		"devOnly": true
+	},
+	{
+		"name": "Hssiss, Dark Side Dragon",
+		"type": "Nemesis",
+		"description": "Known to the Jedi archives as “Dark Side dragons,” the hssiss are savage reptilian predators known for their intimidating bulk and vicious ferocity. Hssiss have been used as war beasts for thousands of years, first by the ancient Sith and Great Bogga the Hutt and now in the strongholds of Outer Rim crime lords. Whether fought in the bowels of a crime lord’s dungeon, in an Outer Rim gladiatorial arena, or lying in wait within the swamps and ruins of former Sith worlds, a hssiss is a formidable adversary even the most skilled combatant. The hssiss’s impressive stalking abilities are augmented by a fact known by few researchers: the hssiss can cloak itself using the Dark Side of the Force. This ability, as well as a vulnerability to domination by wielders of the Dark Side, is a legacy of their service in the armies of the Sith.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 25,
+			"strain": 15,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Coercion": 1,
+			"Cool": 3,
+			"Discipline": 2,
+			"Perception": 2,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Force Rating 2", "Sleight of Mind 2"],
+		"abilities": ["Silhouette 2", "Darkside Force User", "Force Power: Misdirect",
+			{
+			"name": "Dark Servants",
+			"description": "when making checks to handle, tame, or otherwise socially interact with this creature a character may add Force dice to the check and spend Dark Side results to add success or advantage."
+			},
+			{
+			"name": "Dark Venom",
+			"description": "at the GM’s discretion a terentatek may have dark venom. if a character suffers unsoaked wounds from the terentatek’s claws or tusks, then that character is affected as per synthetic neurotoxin as per FaD 181 except the difficulty is 2 Challenge dice)"
+			}
+		],
+		"weapons": [
+			{
+				"name": "Powerful claws",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Linked 1", "Pierce 3", "Vicious 1"]
+			},
+			{
+				"name": "Pinning Bite",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1"]
+			}
+		],
+		"gear": [""],
+		"tags": ["source:D20Radio.com NPC’s", "creature", "location:Moraband"],
+		"devOnly": true
+	},
+	{
+		"name": "Tuk’ata",
+		"type": "Rival",
+		"description": "A living testament to the power of the Dark Side, the malevolent tuk’ata have been twisted by alchemy into the overly muscled hounds that guard Sith tombs to this day. The Dark Side has touched not only their bodies, but also has enhanced their minds beyond mere animal cunning. Tuk’ata are able to communicate with one another to coordinate ferocious ambushes on intruders, a trait they exploit by targeting the weakest member of an interloping group. Fearless and without mercy, these guardians will not stop biting and clawing until their victim is dead. However, the ancient alchemists long ago implanted deference to the Sith within the hound’s psyche. Force users who have embraced the Dark Side may be able to cow a tuk’ata into submission.",
+		"notes": "Credits go to Chris Hunt, D2Radio.com",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 20,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Coercion": 1,
+			"Cool": 3,
+			"Perception": 2,
+			"Stealth": 1,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Intimidating 2","Force Rating 1"],
+		"abilities": ["Darkside Force User", "Force Power: Sense",
+			{
+			"name": "Dark Servants",
+			"description": "when making checks to handle, tame, or otherwise socially interact with this creature a character may add Force dice to the check and spend Dark Side results to add success or advantage."
+			},
+			{
+			"name": "Pack Tactics",
+			"description": "add a Boost die to combat checks when engaged with another tuk’ata"
+			}
+		],
+		"weapons": [
+			{
+				"name": "Rending claws",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 1"]
+			},
+			{
+				"name": "Rows of teeth",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1", "Vicious 2"]
+			}
+		],
+		"tags": ["source:D20Radio.com NPC’s", "creature", "location:Moraband"],
+		"devOnly": true
+	},
+	{
+		"name": "Shyrack",
+		"type": "Minion",
+		"description": "Fiercely territorial, the bat-like shyrack make their nests in the caves and tombs of Moraband in massive swarms. These blind avian predators prefer to live and hunt in dark, enclosed spaces where their echolocation grants them the advantage. Although they will defend their nests with reckless frenzy, shyracks will not normally attack any but the smallest prey. This reclusive nature is mysteriously abandoned every 63rd summer on Moraband, when shyracks spill out of their caves to fill the sky. Old Republic biologists speculated this phenomenon was the result of tectonic resonance creating powerful ultrasonic noise, and that ultrasonic emitters could frenzy or even control shyrack swarms. With the rise of the Empire, such research has been removed from all but the most remote of libraries.",
+		"notes": "Credits go to Chris Hunt, D2Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 4
+		},
+		"skills": ["Brawl", "Vigilance"],
+		"weapons": [
+			{
+				"name": "Razor teeth",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			}
+		],
+		"abilities": ["Flyer",
+			{
+			"name": "Echolocation",
+			"description": "Ignores concealment caused by darkness up to medium range."
+			}
+		],
+		"tags": ["source:D20Radio.com NPC’s", "creature", "location:Moraband"],
 		"devOnly": true
 	}
 ]

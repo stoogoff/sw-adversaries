@@ -1326,7 +1326,7 @@
 	},
 	{
 		"name": "Sleight of Mind",
-		"description": ""
+		"description": "Add {ranks|boost} to Stealth checks unless the opposition is immune to Force powers"
 	},
 	{
 		"name": "Slippery Minded",
