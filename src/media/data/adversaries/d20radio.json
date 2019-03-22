@@ -1,7 +1,8 @@
 [
 	{
-		"name": "Imperial storm commando",
+		"name": "Stormtrooper: Storm Commando",
 		"type": "Rival",
+		"description": "",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -26,6 +27,54 @@
 		"abilities": ["Shadowed", "Swipe 1"],
 		"weapons": ["Blaster carbine", "Light blaster pistol", "Vibroknife"],
 		"gear": ["Storm Commando armor (+2 soak) (Laminate) with Enhanced Optics suite (removes up to 2 Setback from Perception, Vigilance and combat checks, due to darkness, smoke, fog or other environment effects that obscure vision)", "Encrypted commlink"],
+		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
+		"devOnly": true
+	},
+	{
+		"name": "Stormtrooper: Storm Commando Officer",
+		"type": "Nemesis",
+		"description": "Storm Commandos are the Empire’s elite fighting force, formed in direct response to the Rebellion’s guerrilla warfare tactics. Also known as shadow scouts, these troops are selected and trained to conduct special operations under demanding circumstances where regular troops prove incapable. In turn, those officers who lead storm commandos into battle are nothing less than exemplary. Only the most dedicated, skilled, and knowledgeable officers are selected to lead after undergoing grueling physical and mental tests originally instituted by the now-defector Crix Madine. Generally, Storm Commando Officers are deployed on the battlefield in one of two roles. First, and most common, is for these officers to directly lead Storm Commando groupings of 5-50 commandos on special operations. Planning and executing operations is the commando officer’s bread and butter. More rarely though, Storm Commando Officers can be deployed to mentor, and indeed lead for, other Imperial or affiliated force commanders. While not often discussed, a small team of Storm Commandos led by an experienced officer can turn even the greenest planetary defense militia into a dangerous weapon of war. These officers are supported and protected by a hand-picked team of 2-5 commandos. At the GM’s discretion, this command team can also train supported forces providing them a Boost die in Mass Combat.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 20,
+			"strain": 18,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Cool": 2,
+			"Discipline": 3,
+			"Knowledge: Warfare": 3,
+			"Leadership": 3,
+			"Melee": 2,
+			"Perception": 2,
+			"Ranged: Heavy": 3,
+			"Ranged: Light": 3,
+			"Resilience": 2,
+			"Stealth": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Barrage 1", "Commanding Presence 2", "Point Blank 1", "Ready for Anything 2"],
+		"abilities": ["Tactical Direction"],
+		"weapons": [
+			{
+				"name": "Blaster rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Stun Setting", "Forearm Grip", "Weapon Sling"]
+			}
+		],
+		"gear": ["storm commando armour (+1 soak, defense 1, reflective coating [upgrade stealth checks once, sensors cannot detect the wearer subject to GM discretion], enhanced optics suite),long range comlink, utility belt, extra reloads"],
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
 		"devOnly": true
 	},

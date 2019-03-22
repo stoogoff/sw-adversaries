@@ -1174,7 +1174,7 @@
 	},
 	{
 		"name": "Ready for Anything",
-		"description": ""
+		"description": "Remove {rank|setback} from masscombat made while the character is acting on the side of the acting force and the character’s Cool or Vigilance checks to determine Initiative order."
 	},
 	{
 		"name": "Redundant Systems",
