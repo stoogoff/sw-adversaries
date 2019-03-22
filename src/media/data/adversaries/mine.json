@@ -421,6 +421,7 @@
 		"name": "Priska K’yyl",
 		"type": "Nemesis",
 		"description": "Adventurous Archaeologist. Bothan. Explorer career, Archeologist spec. Obligation: Family. Priska’s doting grandfather is a spymaster who often wheedles her into running “little errands” for him. (+5 level) Motivation: Status. Academic prestige for finding proof of a despotic pre-Republic empire.",
+                "notes": "Credits go to Linda Whitson, D20Radio.com"
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 2,
@@ -535,7 +536,7 @@
 		"name": "Sith Juggernaut",
 		"type": "Nemesis",
 		"description": "",
-		"notes": "Credits go to Chris Hunt, D2Radio.com",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,
@@ -610,7 +611,7 @@
 		"name": "Partisan Fighter",
 		"type": "Minion",
 		"description": "Whether seen as desperate freedom fighters or vile terrorists, these radical militants are prepared to take the fight to the Empire at any cost. The origin of the Partisans lies with that of the Onderon rebels trained by the Republic and Jedi during the Clone Wars. Few original members remain alive, let alone within the ranks. Regardless of origin, these fighters are fiercely loyal to their leader, Saw Gerrera, and zealously believe in the cause. They are prepared to die, and kill, to end Imperial tyranny. They favour ambushes and other guerrilla type tactics, with a favorite tactics being close range ambush by infiltration of the civilian population. That these attacks put local civilians at risk is a minor concern to the Partisans when compared to the titanic abuses of the Empire.",
-		"notes": "Credits go to Chris Hunt, D2Radio.com",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,

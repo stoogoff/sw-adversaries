@@ -3,7 +3,7 @@
 		"name": "Stormtrooper: Storm Commando",
 		"type": "Rival",
 		"description": "",
-		"notes": "Credits go to Chris Hunt, D2Radio.com",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -35,7 +35,7 @@
 		"name": "Stormtrooper: Storm Commando Officer",
 		"type": "Nemesis",
 		"description": "Storm Commandos are the Empire’s elite fighting force, formed in direct response to the Rebellion’s guerrilla warfare tactics. Also known as shadow scouts, these troops are selected and trained to conduct special operations under demanding circumstances where regular troops prove incapable. In turn, those officers who lead storm commandos into battle are nothing less than exemplary. Only the most dedicated, skilled, and knowledgeable officers are selected to lead after undergoing grueling physical and mental tests originally instituted by the now-defector Crix Madine. Generally, Storm Commando Officers are deployed on the battlefield in one of two roles. First, and most common, is for these officers to directly lead Storm Commando groupings of 5-50 commandos on special operations. Planning and executing operations is the commando officer’s bread and butter. More rarely though, Storm Commando Officers can be deployed to mentor, and indeed lead for, other Imperial or affiliated force commanders. While not often discussed, a small team of Storm Commandos led by an experienced officer can turn even the greenest planetary defense militia into a dangerous weapon of war. These officers are supported and protected by a hand-picked team of 2-5 commandos. At the GM’s discretion, this command team can also train supported forces providing them a Boost die in Mass Combat.",
-		"notes": "Credits go to Chris Hunt, D2Radio.com",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -84,7 +84,7 @@
 		"name": "Nik Kormir, Resistance Purchaser",
 		"type": "Rival",
 		"description": "Well dressed, confident, salt and pepper hair. This human male, called Mr. Smooth by his admirers in the casino, carries himself as a successful gambler. Turning a few heads, he is nothing special compared to the true high rollers of Canto Bight. Just respected enough to look as if he belongs, Nik Kormir subtly moves among the scores of weapons manufacturers and arms brokers living the high life. Kormir relies on hiding in plain site to evade the notice of the First Order, purchasing quietly and arranging all deliveries to be off world. If discovered, his primary goal will be escape and evade. He will fight to break contact, but doesn’t finish off downed enemies, instead using his energy to flee. Kormir fears most capture and slow interrogation by the First Order, and will do anything possible to avoid that fate.",
-		"notes": "Credits go to Chris Hunt, D2Radio.com",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -117,7 +117,7 @@
 		"name": "Gruuzhnag",
 		"type": "Nemesis",
 		"description": "“Look, I’ve known old Gruuzhnag for the better part of 30 years. Sure, he might look like the rest of those pigs, but that’s where you’d be wrong. You’ll never meet a better doctor or mechanic this far outside of civilization. Yeah, the parts for his cybernetics are cobbled together, but what can you expect so far out in the Rim? And I can assure you he has no love for the Empire. And the last goomba who stuck his nose into the pig’s chop shop walked away minus an arm. As long as you’ve got the credits, he’ll help you out. Just don’t ask about his scars. Trust me on that one.” \n\nBackground: Gruuzhnag was a brilliant Gamorrean even by the standards of species noted for their intelligence. He was taken with ideas that were so far above the primitive qualities of his kin that he quickly found himself ostracized from a very early age. He eventually stole away on a passing freighter that had stopped down for a few days to avoid an Imperial patrol. He quickly made an impression on the ship’s captain when he found the young Gruuzhnag disassembling and reassembling some auxiliary components. He was almost immediately put to work under the tutelage of the ship’s doctor, who was also serving as chief engineer. It wasn’t long before Gruuzhnag began to pick up on the doctor’s medical knowledge and started to put together some rudimentary methods to marry his mechanical and medical knowledge.\n\nHe was planning on using the money he earned aboard the ship to enter into an academy in the Core Worlds, but never got the chance. Taken captive in a pirate raid, Gruuzhnag was sold into slavery – specifically into the gladiatorial circuit. Forced to fight or die, Gruuzhnag chose to fight, learning how to survive in the arena, leveraging the natural inclinations of his species to give himself a needed edge.\n\nOver the months he was there, he also started to win several of the other gladiators to his side. This proved useful when he decided it was time to break out. He staged a daring attempt, leading his few fellow gladiators in overpowering the guards and escaping into the countryside. Unfortunately, they were pursued by a larger force and caught several kilometers outside of the arena’s walls. They fought valiantly but in the resulting battle, Gruuzhnag’s force was utterly decimated and the Gamorrean himself left for dead, having lost both of his arms. Somehow, he managed to avoid death and dragged himself several more kilometers to the nearest settlement. He found an abandoned garage with several still functioning droids. He used them to help construct himself some rudimentary prosthetics and then managed to smuggle himself off world.\n\nGruuzhnag has since set himself up deep in the Outer Rim where he has made a small amount of notoriety for himself as a brilliant, if somewhat odd, cybernetic surgeon. His parts tend to be scavenged and secondhand, but no one can argue how durable and functional they are. He doesn’t like to talk about his past, but he keeps the vibroax that took his arms on the wall in his shop, and he’s not shy about using it if he needs to. Over the years he has patched himself some serviceable cybernetic replacements for the very basic prosthetics he originally constructed. He tends to conduct his actual business through his droids nowadays, very rarely speaking to the customers himself. But if you have need for his services, Gruuzhnag’s Chop Shop can probably help you.\n\nSuggested Use: Gruuzhnag can be a great contact for the player characters, especially if they desperately need medical attention and are stuck far out in the Rim away from civilization. If they don’t have proper payment, Gruuzhnag’s stances against slavery and piracy can be leveraged as Obligation for the characters as he agrees to help them in return for helping him stamp out a particularly nasty group of slavers that is operating on the planet. Alternatively, if the PCs are the kind of group that find themselves routinely engaged in piracy and slavery, Gruuzhnag can be a very dangerous opponent on any Outer Rim world they attempt to acquire more merchandise on.",
-		"notes": "Credits go to Chris Hunt, D2Radio.com",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 2,
@@ -161,7 +161,7 @@
 		"name": "Trandoshan Slaver (custom)",
 		"type": "Minion",
 		"description": "Trandoshans are infamous throughout the galaxy for their brutal slavers. While some slavers use deception or guile in capturing their slaves, Trandoshans prefer to use shock tactics to overwhelm any opposition and seize their prizes. Equipped with short range weapons, Trandoshan slavers use stealth to get as close as possible to their foes before launching a fierce assault of accelerated charged particles, blades, and electronets. While preferring stealth, these slavers are no cowards; they will fight tooth and claw to take and hold their targets. Since these slavers are armed to the teeth, they often find work between hunts as mercenaries and pirates in the Outer Rim.",
-		"notes": "Credits go to Chris Hunt, D2Radio.com",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -278,7 +278,7 @@
 		"name": "Trandoshan Scavenger Droid",
 		"type": "Minion",
 		"description": "Originally used for civilian applications such as search and rescue, these heavily modified drones have been refit for piracy. The ionization beam, originally used to disable malfunctioning electronics blocking rescue efforts, has been overcharged to disable shields and even cause damage to organic opponents. Their salvage drills have been upgraded with vibro components capable of savagely cutting through heavy infantry armor. With these upgrades, these so called “scav droids” serve as support to Trandoshan mercenaries in an anti-infantry role during boarding actions. The droids, equipped with repulsorlifts and stealth programming, are often dispatched ahead of the assault to disable ship defenses and terrorize the crew. When the boarding action begins in earnest the droids shift to direct support. Once a ship or structure is secured the droids turn their weapons to their original purpose and assist in salvaging any items of value.",
-		"notes": "Credits go to Chris Hunt, D2Radio.com\n\nOn a successful hit the scavenger droid is attached to its target and will stay engaged even if the target moves, this condition ends if the droid is damaged",
+		"notes": "Credits go to Chris Hunt, D20Radio.com\n\nOn a successful hit the scavenger droid is attached to its target and will stay engaged even if the target moves, this condition ends if the droid is damaged",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 3,
@@ -527,7 +527,7 @@
 		"name": "Tuk’ata",
 		"type": "Rival",
 		"description": "A living testament to the power of the Dark Side, the malevolent tuk’ata have been twisted by alchemy into the overly muscled hounds that guard Sith tombs to this day. The Dark Side has touched not only their bodies, but also has enhanced their minds beyond mere animal cunning. Tuk’ata are able to communicate with one another to coordinate ferocious ambushes on intruders, a trait they exploit by targeting the weakest member of an interloping group. Fearless and without mercy, these guardians will not stop biting and clawing until their victim is dead. However, the ancient alchemists long ago implanted deference to the Sith within the hound’s psyche. Force users who have embraced the Dark Side may be able to cow a tuk’ata into submission.",
-		"notes": "Credits go to Chris Hunt, D2Radio.com",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,
@@ -586,7 +586,7 @@
 		"name": "Shyrack",
 		"type": "Minion",
 		"description": "Fiercely territorial, the bat-like shyrack make their nests in the caves and tombs of Moraband in massive swarms. These blind avian predators prefer to live and hunt in dark, enclosed spaces where their echolocation grants them the advantage. Although they will defend their nests with reckless frenzy, shyracks will not normally attack any but the smallest prey. This reclusive nature is mysteriously abandoned every 63rd summer on Moraband, when shyracks spill out of their caves to fill the sky. Old Republic biologists speculated this phenomenon was the result of tectonic resonance creating powerful ultrasonic noise, and that ultrasonic emitters could frenzy or even control shyrack swarms. With the rise of the Empire, such research has been removed from all but the most remote of libraries.",
-		"notes": "Credits go to Chris Hunt, D2Radio.com",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 1,
