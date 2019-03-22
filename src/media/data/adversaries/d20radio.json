@@ -1,0 +1,282 @@
+[
+	{
+		"name": "Imperial storm commando",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 13
+		},
+		"skills": {
+			"Melee": 2,
+			"Perception": 1,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 2,
+			"Skulduggery": 2,
+			"Stealth": 3
+		},
+		"talents": ["Adversary 1", "Stalker 2"],
+		"abilities": ["Shadowed", "Swipe 1"],
+		"weapons": ["Blaster carbine", "Light blaster pistol", "Vibroknife"],
+		"gear": ["Storm Commando armor (+2 soak) (Laminate) with Enhanced Optics suite (removes up to 2 Setback from Perception, Vigilance and combat checks, due to darkness, smoke, fog or other environment effects that obscure vision)", "Encrypted commlink"],
+		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
+		"devOnly": true
+	},
+	{
+		"name": "Nik Kormir, Resistance Purchaser",
+		"type": "Rival",
+		"description": "Well dressed, confident, salt and pepper hair. This human male, called Mr. Smooth by his admirers in the casino, carries himself as a successful gambler. Turning a few heads, he is nothing special compared to the true high rollers of Canto Bight. Just respected enough to look as if he belongs, Nik Kormir subtly moves among the scores of weapons manufacturers and arms brokers living the high life. Kormir relies on hiding in plain site to evade the notice of the First Order, purchasing quietly and arranging all deliveries to be off world. If discovered, his primary goal will be escape and evade. He will fight to break contact, but doesn’t finish off downed enemies, instead using his energy to flee. Kormir fears most capture and slow interrogation by the First Order, and will do anything possible to avoid that fate.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 16,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Deception": 2,
+			"Discipline": 2,
+			"Negotiation": 3,
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Skulduggery": 1,
+			"Stealth": 2
+		},
+		"talents": ["Adversary 1", "Convincing Demeanor 2","Natural Negotiator"],
+		"weapons": ["Holdout blaster", "Molecular stiletto"],
+		"gear": ["covertly armored dinner jacket (+1 soak, +1 defense)", "encrypted datapad with financial data and weapons procurement lists, encrypted long range comlink"],
+		"tags": ["source:D20Radio.com NPC’s", "resistance"],
+		"devOnly": true
+	},
+	{
+		"name": "Gruuzhnag",
+		"type": "Nemesis",
+		"description": "“Look, I’ve known old Gruuzhnag for the better part of 30 years. Sure, he might look like the rest of those pigs, but that’s where you’d be wrong. You’ll never meet a better doctor or mechanic this far outside of civilization. Yeah, the parts for his cybernetics are cobbled together, but what can you expect so far out in the Rim? And I can assure you he has no love for the Empire. And the last goomba who stuck his nose into the pig’s chop shop walked away minus an arm. As long as you’ve got the credits, he’ll help you out. Just don’t ask about his scars. Trust me on that one.” \n\nBackground: Gruuzhnag was a brilliant Gamorrean even by the standards of species noted for their intelligence. He was taken with ideas that were so far above the primitive qualities of his kin that he quickly found himself ostracized from a very early age. He eventually stole away on a passing freighter that had stopped down for a few days to avoid an Imperial patrol. He quickly made an impression on the ship’s captain when he found the young Gruuzhnag disassembling and reassembling some auxiliary components. He was almost immediately put to work under the tutelage of the ship’s doctor, who was also serving as chief engineer. It wasn’t long before Gruuzhnag began to pick up on the doctor’s medical knowledge and started to put together some rudimentary methods to marry his mechanical and medical knowledge.\n\nHe was planning on using the money he earned aboard the ship to enter into an academy in the Core Worlds, but never got the chance. Taken captive in a pirate raid, Gruuzhnag was sold into slavery – specifically into the gladiatorial circuit. Forced to fight or die, Gruuzhnag chose to fight, learning how to survive in the arena, leveraging the natural inclinations of his species to give himself a needed edge.\n\nOver the months he was there, he also started to win several of the other gladiators to his side. This proved useful when he decided it was time to break out. He staged a daring attempt, leading his few fellow gladiators in overpowering the guards and escaping into the countryside. Unfortunately, they were pursued by a larger force and caught several kilometers outside of the arena’s walls. They fought valiantly but in the resulting battle, Gruuzhnag’s force was utterly decimated and the Gamorrean himself left for dead, having lost both of his arms. Somehow, he managed to avoid death and dragged himself several more kilometers to the nearest settlement. He found an abandoned garage with several still functioning droids. He used them to help construct himself some rudimentary prosthetics and then managed to smuggle himself off world.\n\nGruuzhnag has since set himself up deep in the Outer Rim where he has made a small amount of notoriety for himself as a brilliant, if somewhat odd, cybernetic surgeon. His parts tend to be scavenged and secondhand, but no one can argue how durable and functional they are. He doesn’t like to talk about his past, but he keeps the vibroax that took his arms on the wall in his shop, and he’s not shy about using it if he needs to. Over the years he has patched himself some serviceable cybernetic replacements for the very basic prosthetics he originally constructed. He tends to conduct his actual business through his droids nowadays, very rarely speaking to the customers himself. But if you have need for his services, Gruuzhnag’s Chop Shop can probably help you.\n\nSuggested Use: Gruuzhnag can be a great contact for the player characters, especially if they desperately need medical attention and are stuck far out in the Rim away from civilization. If they don’t have proper payment, Gruuzhnag’s stances against slavery and piracy can be leveraged as Obligation for the characters as he agrees to help them in return for helping him stamp out a particularly nasty group of slavers that is operating on the planet. Alternatively, if the PCs are the kind of group that find themselves routinely engaged in piracy and slavery, Gruuzhnag can be a very dangerous opponent on any Outer Rim world they attempt to acquire more merchandise on.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 20,
+			"strain": 18,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Cool": 2,
+			"Discipline": 3,
+			"Knowledge: Education": 2,
+			"Knowledge: Xenology": 2,
+			"Leadership": 1,
+			"Mechanics": 2,
+			"Medicine": 4,
+			"Melee": 3,
+			"Resilience": 3
+		},
+		"talents": ["Adversary 2", "Durable 2", "Gearhead 2", "Speak Binary 1", "Surgeon 2", "Utinni! 1"],
+		"abilities": [
+			{
+				"name": "Cybernetic Surgeon",
+				"description": "Gruuzhnag gains a boost die on any Medicine check made to install a cybernetic on an individual and Medicine checks made to treat any character with a cybernetic already installed."
+			}
+		],
+		"weapons": ["Vibro-ax"],
+		"gear": ["heavy clothes (+1 soak value)", "medpac", "tool kit", "Mod V cybernetic arms", "datapad."],
+		"tags": ["source:D20Radio.com NPC’s", "species:Gamorrean"],
+		"devOnly": true
+	},
+	{
+		"name": "Trandoshan Slaver (custom)",
+		"type": "Minion",
+		"description": "Trandoshans are infamous throughout the galaxy for their brutal slavers. While some slavers use deception or guile in capturing their slaves, Trandoshans prefer to use shock tactics to overwhelm any opposition and seize their prizes. Equipped with short range weapons, Trandoshan slavers use stealth to get as close as possible to their foes before launching a fierce assault of accelerated charged particles, blades, and electronets. While preferring stealth, these slavers are no cowards; they will fight tooth and claw to take and hold their targets. Since these slavers are armed to the teeth, they often find work between hunts as mercenaries and pirates in the Outer Rim.",
+		"notes": "Credits go to Chris Hunt, D2Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 8
+		},
+		"skills": ["Coercion", "Cool", "Melee", "Ranged: Heavy", "Stealth"],
+		"weapons": ["Frag grenade",
+			{
+				"name": "Trandoshan ACP array shotgun",
+				"skill": "Ranged: Heavy",
+				"damage": 6,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Blast 5", "Vicious 1"]
+			},
+			{
+				"name": "Trandoshan ACP repeater gun",
+				"skill": "Ranged: Heavy",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Auto-Fire"]
+			},
+			{
+				"name": "Two vibroblades",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 2"]
+			},
+			{
+				"name": "Electronet",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": ["Ensnare 5", "Knockdown", "Limited Ammo 1", "Stun Damage"]
+			}
+		],
+		"gear": ["concealing civilian clothing (soak +1)"],
+		"tags": ["source:D20Radio.com NPC’s", "species:Trandoshan", "slaver"],
+		"devOnly": true
+	},
+	{
+		"name": "Trandoshan Heavy",
+		"type": "Nemesis",
+		"description": "These elite Trandoshan warriors were infamous as some of the most dangerous heavy assault mercenaries in the galaxy. Protected by thick plates of durasteel armor and armed with the devastating LS-150 heavy repeater, Trandoshan Heavies were found in mercenary companies and slaving parties throughout the Outer Rim. In battle, these mercenaries throw caution to the wind by wading into the heaviest enemy positions, heavy repeaters constantly shooting an unrelenting torrent of charged particles. Most boast hearty kill counts, commanding the respect of their fellow Trandoshans. This respect feeds both the Trandoshan Heavy’s stereotypical arrogance, as well as healthy credit accounts from the high pay and share of loot they demand.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 30,
+			"strain": 14
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 2,
+			"Coercion": 1,
+			"Melee": 2,
+			"Gunnery": 2,
+			"Perception": 1,
+			"Ranged: Heavy": 2,
+			"Resilience": 3
+		},
+		"talents": ["Adversary 1", "Durable 3",
+			{
+				"name": "Rain of Death",
+				"description": "perform the Rain of Death maneuver to ignore the increased difficulty due to the Auto-fire quality of attacks made this turn."
+			}
+		],
+		"abilities": [
+			{
+				"name": "Unflinching Barrage",
+				"description": "when attempting at attack using a weapon with the auto-fire quality, may forego the benefit of the Adversary talent until the start of his next turn to automatically activate auto-fire once."
+			}
+		],
+		"weapons": [
+			{
+				"name": "LS-150 heavy ACP repeater",
+				"skill": "Gunnery",
+				"damage": 13,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Autofire", "Cumbersome 4", "Pierce 2"]
+			},
+			{
+				"name": "LS-150 bayonet",
+				"skill": "Melee",
+				"damage": 8,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Inaccurate 2", "Pierce 2", "Vicious 2"]
+			}
+		],
+		"gear": ["heavily plated armor (soak +3)"],
+		"tags": ["source:D20Radio.com NPC’s", "mercenary", "species:Trandoshan"],
+		"devOnly": true
+	},
+	{
+		"name": "Trandoshan Scavenger Droid",
+		"type": "Minion",
+		"description": "Originally used for civilian applications such as search and rescue, these heavily modified drones have been refit for piracy. The ionization beam, originally used to disable malfunctioning electronics blocking rescue efforts, has been overcharged to disable shields and even cause damage to organic opponents. Their salvage drills have been upgraded with vibro components capable of savagely cutting through heavy infantry armor. With these upgrades, these so called “scav droids” serve as support to Trandoshan mercenaries in an anti-infantry role during boarding actions. The droids, equipped with repulsorlifts and stealth programming, are often dispatched ahead of the assault to disable ship defenses and terrorize the crew. When the boarding action begins in earnest the droids shift to direct support. Once a ship or structure is secured the droids turn their weapons to their original purpose and assist in salvaging any items of value.",
+		"notes": "Credits go to Chris Hunt, D2Radio.com\n\nOn a successful hit the scavenger droid is attached to its target and will stay engaged even if the target moves, this condition ends if the droid is damaged",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": ["Coordination", "Mechanics", "Melee", "Ranged: Light", "Stealth"],
+		"weapons": [
+			{
+				"name": "Ionizing beam",
+				"skill": "Ranged: Light",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Ion"]
+			},
+			{
+				"name": "Scavenger drill",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 5", "Vicious 2"]
+			},
+			{
+				"name": "Suicide Attack",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Blast 5"]
+			}
+		],
+		"talents": ["Stalker 1"],
+		"abilities": ["Droid",
+				{
+				"name": "Hoverer",
+				"description": "scav droids do not have to spend additional maneuvers when navigating difficult terrain."
+				},
+				{
+				"name": "Suicide Attack",
+				"description": "If an attack puts the scav droid at exactly its wound threshold may make an immediate suicide attack. After resolving the suicide attack the scav droid is destroyed."
+				}				
+			],
+		"tags": ["source:D20Radio.com NPC’s", "species:Droid"],
+		"devOnly": true
+	}
+]

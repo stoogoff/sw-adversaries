@@ -1606,7 +1606,7 @@
 	},
 	{
 		"name": "Utinni!",
-		"description": ""
+		"description": "The character removes {ranks|setback} from checks made to find or scavenge items or gear. These checks could include Negotiation, Perception, or other checks. Such skill checks take half their normal time."
 	},
 	{
 		"name": "Valuable Facts",
