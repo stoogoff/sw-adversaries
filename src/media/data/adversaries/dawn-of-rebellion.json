@@ -466,7 +466,7 @@
 	{
 		"name": "Commander Orson Krennic",
 		"type": "Nemesis",
-		"description": "Orson Krennic is as grasping and power hungry an officer as can be found in the Imperial military. A tall, steely-eyed officer in his middle years, Krennic was born on Lexrul, a heavily industrialised world in the Mid Rim. His parents were common labourers toiling away in one of the planet’s many shipyards, and he grew up solidly working-class. Always smart and ambitious, Krennic showed an aptitude for mechanics and engineering from an early age. Once his primary education was complete, he earned a place at the Republic Futures Programme on Brantaal, where he studied engineering and naval architecture.\n\nHe began his professional career designing space stations, during the run-up to the Clone Wars. Through a combination of grit, talent, and politicking, he quickly rose through the ranks during the conflict. By the time it came to an end, he had become a lieutenant commander attached to a powerful new battle station project based on stolen Separatist plans. Always a man who knew which way the wind was blowing, Krennic threw his lot in with the newly formed Galactic Empire. In the new Imperial Navy, his talent as a designer and his finely honed political instincts made him many, allies, and not a few enemies.\n\nKrennic ensured he became attached to the gigantic station’s early construction in orbit around Geonosis, and led the effort to design and construct its main weapon. This took many years, but his political skills and clever manipulations of the of others (especially a brilliant polymath he met while at the Futures Programme) always kept him one step ahead of his rivals. Despite frequent setbacks, the weapon is now finally ready for installation and testing. With this, Krennic is certain he will at last gain the recognition and rank he deserves.\n\nKrennic currently holds the title of Director of Advanced Weapons Research, and oversees the installation of the battle station’s super-laser. In this position, he wields an incredible amount of influence and power, and essentially commands the Death Star itself as it undergoes final testing. Unfortunately, he has made an enemy of one of the most powerful men in the Imperial Navy and a close ally of Darth Vader: Grand Moff Wilhuff Tarkin. Krennic and Tarkin despise one another. Krennic is jealous of Tarkin’s position and believes that he should be given complete command of the Death Star. Tarkin feels nothing but contempt for Krennic, seeing him as a lower-class upstart and a loose cannon who should have been drummed out years ago.",
+		"description": "Orson Krennic is as grasping and power hungry an officer as can be found in the Imperial military. A tall, steely-eyed officer in his middle years, Krennic was born on Lexrul, a heavily industrialised world in the Mid Rim. His parents were common labourers toiling away in one of the planet’s many shipyards, and he grew up solidly working-class. Always smart and ambitious, Krennic showed an aptitude for mechanics and engineering from an early age. Once his primary education was complete, he earned a place at the Republic Futures Programme on Brentaal, where he studied engineering and naval architecture.\n\nHe began his professional career designing space stations, during the run-up to the Clone Wars. Through a combination of grit, talent, and politicking, he quickly rose through the ranks during the conflict. By the time it came to an end, he had become a lieutenant commander attached to a powerful new battle station project based on stolen Separatist plans. Always a man who knew which way the wind was blowing, Krennic threw his lot in with the newly formed Galactic Empire. In the new Imperial Navy, his talent as a designer and his finely honed political instincts made him many, allies, and not a few enemies.\n\nKrennic ensured he became attached to the gigantic station’s early construction in orbit around Geonosis, and led the effort to design and construct its main weapon. This took many years, but his political skills and clever manipulations of the of others (especially a brilliant polymath he met while at the Futures Programme) always kept him one step ahead of his rivals. Despite frequent setbacks, the weapon is now finally ready for installation and testing. With this, Krennic is certain he will at last gain the recognition and rank he deserves.\n\nKrennic currently holds the title of Director of Advanced Weapons Research, and oversees the installation of the battle station’s super-laser. In this position, he wields an incredible amount of influence and power, and essentially commands the Death Star itself as it undergoes final testing. Unfortunately, he has made an enemy of one of the most powerful men in the Imperial Navy and a close ally of Darth Vader: Grand Moff Wilhuff Tarkin. Krennic and Tarkin despise one another. Krennic is jealous of Tarkin’s position and believes that he should be given complete command of the Death Star. Tarkin feels nothing but contempt for Krennic, seeing him as a lower-class upstart and a loose cannon who should have been drummed out years ago.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -1949,7 +1949,7 @@
 	{
 		"name": "Spectre 5: Sabine Wren",
 		"type": "Nemesis",
-		"description": "Sabine Wren is a Mandalorian of House Vizsla, a skilled mechanic and specialist in weapons development. She entered the Imperial Academy on Mandalore and there befriended fellow cadet Ketsu Onyo, but soon learned that the Empire was using her creations to oppress her people. When her family sided with the Empire instead of her, Sabinefled with Ketsu to become bounty hunters for a short time. This ended in a violent financial dispute that severed their friendship for years. Later, she joined Hera Syndulla’s growing resistance cell where she can put her mechanical combat abilities to their fullest use, often with quite explosive results.\n\nSabine’s demolitions talents are surpassed only by her artistic endeavors, and she takes every opportunity to paint colorful graffiti during Spectre operations. Some even say she might have a great future as an artist, should she survive the war against the Empire. Her Mandalorian heritage, though, may lead her to even greater accomplishments.",
+		"description": "Sabine Wren is a Mandalorian of House Vizsla, a skilled mechanic and specialist in weapons development. She entered the Imperial Academy on Mandalore and there befriended fellow cadet Ketsu Onyo, but soon learned that the Empire was using her creations to oppress her people. When her family sided with the Empire instead of her, Sabine fled with Ketsu to become bounty hunters for a short time. This ended in a violent financial dispute that severed their friendship for years. Later, she joined Hera Syndulla’s growing resistance cell where she can put her mechanical combat abilities to their fullest use, often with quite explosive results.\n\nSabine’s demolitions talents are surpassed only by her artistic endeavors, and she takes every opportunity to paint colorful graffiti during Spectre operations. Some even say she might have a great future as an artist, should she survive the war against the Empire. Her Mandalorian heritage, though, may lead her to even greater accomplishments.",
 		"notes": "",
 		"characteristics": {
 			"Brawn": 2,
@@ -2007,6 +2007,71 @@
 			}
 		],
 		"gear": ["Mandalorian jetpack (allows user to function as a silhouette 1, speed 2, handling 0, system strain threshold 4 vehicle that can only operate in atmosphere, and requires \"Piloting: Planetary\" to operate), Mandalorian battle armor (vacuum sealed, integrated encrypted comlink, adds :boost: to ranged attacks, +2 soak, +1 defence), various explosives and detonators, pair of ArtCannon Airbrushes with extra and propellant canisters, tool kit"],
+		"tags": ["book:dor", "rebel alliance", "spectres"]
+	},
+	{
+		"name": "Spectre 6: Ezra Bridger",
+		"type": "Nemesis",
+		"description": "In perhaps an auspicious coincidence, Ezra Bridger was born on the same day as the EMpire began its life. It was that Empire that made him an orphan when it dragged his parents away for speaking out against it. Ezra grew up as a minor thief and con artist to survive. This ended when he not only aided the Spectres in a mission on his homeworld of Lothal, but revealed Force abilities to the ex-Padawan Kanan Jarrus - powers Ezra himself had no idea he possessed. Joining the crew, Ezra has since acted as spy, warrior, and missions leader for the Spectres. His skills in using the Force and wielding a lightsaber have also grown impressively under Kanan’s training. Despite this, Ezra is often irritated that he has no become more powerful and impatient to see the Empire’s thread to his friends ended once and for all.\n\nSInce joining the Spectres and later Phoenix Cell, Ezra traveled far frmo Lothal and encountered wonders and dangers he never imagined as a petty crook in Capital City’s back alleys. Where once he lived only for himself, he's become a member of the Ghost family but also a part of the growing rebellion against the Empire. His wider experiences have also changed his goal of revenge for the deaths of his parents to that of ending the suffering and brutality it inflicts on beings everywhere. The depths of his feelings and eagerness for greater power to fight his foes more effectively, though, means he seems at many times to be just one step away from falling to the dark side.",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12,
+			"strain": 14,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 1,
+			"Cool": 1,
+			"Deception": 2,
+			"Discipline": 1,
+			"Gunnery": 1,
+			"Knowledge: Underworld": 2,
+			"Lightsaber": 2,
+			"Ranged: Light": 2,
+			"Skulduggery": 2,
+			"Stealth": 2,
+			"Streetwise": 2,
+			"Survival": 1
+		},
+		"talents": ["Animal Empathy", "Indistinguishable 1", "Force Rating 2"],
+		"abilities": ["Force Power: Enhance", "Force Power: Foresee", "Force Power: Influence", "Keen Eyed 1", "Improved Reflect 2"],
+		"weapons": ["Heavy blaster pistol",
+			{
+				"name": "Lightsaber",
+				"skill": "Lightsaber",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Stun Setting"]
+			},
+			{
+				"name": "Custom lightsaber with blaster",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Stun Setting"]
+			},
+			{
+				"name": "Wrist-mounted slingshot",
+				"skill": "Ranged: Light",
+				"damage": 4,
+				"critical": 5,
+				"range": "Short",
+				"qualities": ["Disorient 3", "Stun damage"]
+			}
+		],
+		"gear": ["Padded Armour (+2 soak), Encrypted Comlink, collection of Imperial helmets"],
 		"tags": ["book:dor", "rebel alliance", "spectres"]
 	}
 ]
