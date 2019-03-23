@@ -178,10 +178,11 @@ Main tasks:
 - career books
 	- AoR
 		- Fully Operational
-		- *Cyphers and Masks (not released)*
+		- Cyphers and Masks
 	- FaD
 		- Disciples of Harmony
-		- *Unlimited Power (not released)*
+		- Unlimited Power
+		- Knights of Fate
 
 ## TODO
 

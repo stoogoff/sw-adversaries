@@ -1619,7 +1619,7 @@
 	{
 		"name": "Ahsoka Tano",
 		"type": "Nemesis",
-		"description": "Ahsoka Tano is one of the rarest individuals in the galaxy: a nearyl fully trained Jedi who escpaed Order 66 and years of pursuit by Imperial Inquisitors and agents. The one-time PAdaean of Anakin Skywalker left the Jedi Order when she lost faith in its actions after she was wrongfully suspected of a terrorist act. After Order 66, she tried to hide hersel fin the Outer Rim and no longer considered herself a Jedi. Her desire to help eventually re-emerged, drawing the attention of both the Empire and Bail Organa. Though she followed her own path, she also became Organa's agent, codenamed Fulcrum. She was instrumental in growing the rebellion, until she discovered Darth Vader's true identity. Their confrontation on Malachor, though, may have possibly been her final battle.",
+		"description": "Ahsoka Tano is one of the rarest individuals in the galaxy: a nearyl fully trained Jedi who escpaed Order 66 and years of pursuit by Imperial Inquisitors and agents. The one-time Padawan of Anakin Skywalker left the Jedi Order when she lost faith in its actions after she was wrongfully suspected of a terrorist act. After Order 66, she tried to hide hersel fin the Outer Rim and no longer considered herself a Jedi. Her desire to help eventually re-emerged, drawing the attention of both the Empire and Bail Organa. Though she followed her own path, she also became Organa's agent, codenamed Fulcrum. She was instrumental in growing the rebellion, until she discovered Darth Vader's true identity. Their confrontation on Malachor, though, may have possibly been her final battle.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 4,
@@ -1879,5 +1879,134 @@
 		"weapons": ["Arc welder"],
 		"gear": ["Emergency repair kit", "Encrypted Comlink", "Goggles", "Tool kit", "Booster rocket (allows Chopper to fly, as per the rules in the Flying sidebars in Chapter VI: Conflict and Combat in the core rulebooks)"],
 		"tags": ["book:dor", "rebel alliance", "spectres", "species:droid"]
+	},
+	{
+		"name": "Spectre 4: Garazeb “Zeb” Orrelios",
+		"type": "Nemesis",
+		"description": "“Zeb” Orrelios is the last living Lasat, as far as most people know. Most galaxtic denizens are unaware of these large, powerful bipeds; those who are aware believe the entire species wiped out by the Empire after they protested the Emperor’s actions. What even fewer know is that Lasan wasn’t the actual Lasat homeworld, only the world most Lasat lived on. Zen was a member of the Lasan Honor GUard, armed with one of its signature b-rifles and charged with protecting its royal family and populace. That he was unable to do so continually drives his hatred for the Empire, and led to his joining Hera Syndulla’s crew.\n\nZeb often provides the key muscle and firepower a mission needs, but the others can overlook the tactical combat skills given his rough nature. He was also instrumental in rediscovering the true Lasat homeworld of Lira San, buried deep in Wild Space. Seeing a thriving Lasat populace here drives him to fight agains the Empire even harder. Now he is defending his people, instead of avenging them.",
+		"notes": "gun takes a maneuver to switch between profiles",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 17,
+			"strain": 14,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 4,
+			"Brawl": 3,
+			"Coercion": 2,
+			"Cool": 2,
+			"Coordination": 2,
+			"Gunnery": 2,
+			"Knowledge: Outer Rim": 2,
+			"Melee": 3,
+			"Perception": 3,
+			"Ranged: Heavy": 3,
+			"Resilience": 2,
+			"Stealth": 2,
+			"Survival": 2
+		},
+		"talents": ["Adversary 1", "Durable 2", "Physical Training 2"],
+		"abilities": [
+			{
+				"name": "Prehensile Feet",
+				"description": "Add :boost: to Athletics checks while climbing."
+			},
+			{
+				"name": "Lasat Combat Training",
+				"description": "When making a brawl of melee attack, Knockdown costs one less :advantage:."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Bo-rifle ranged",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Cumbersome 3", "Stun Setting"]
+			},
+			{
+				"name": "Bo-rifle melee",
+				"skill": "Melee",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Cumbersome 3", "Defensive 1", "Disorient 2", "Knockdown", "Stun Setting"]
+			}
+		],
+		"gear": ["Lasan Honor Guard armor (+1 soak, +1 defence), encrypted comlink"],
+		"tags": ["book:dor", "rebel alliance", "spectres", "species: Lasat"]
+	},
+	{
+		"name": "Spectre 5: Sabine Wren",
+		"type": "Nemesis",
+		"description": "Sabine Wren is a Mandalorian of House Vizsla, a skilled mechanic and specialist in weapons development. She entered the Imperial Academy on Mandalore and there befriended fellow cadet Ketsu Onyo, but soon learned that the Empire was using her creations to oppress her people. When her family sided with the Empire instead of her, Sabinefled with Ketsu to become bounty hunters for a short time. This ended in a violent financial dispute that severed their friendship for years. Later, she joined Hera Syndulla’s growing resistance cell where she can put her mechanical combat abilities to their fullest use, often with quite explosive results.\n\nSabine’s demolitions talents are surpassed only by her artistic endeavors, and she takes every opportunity to paint colorful graffiti during Spectre operations. Some even say she might have a great future as an artist, should she survive the war against the Empire. Her Mandalorian heritage, though, may lead her to even greater accomplishments.",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12,
+			"strain": 13,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 3,
+			"Coercion": 1,
+			"Cool": 2,
+			"Coordination": 3,
+			"Gunnery": 2,
+			"Knowledge: Lore": 1,
+			"Mechanics": 3,
+			"Melee": 3,
+			"Perception": 2,
+			"Piloting: Planetary": 2,
+			"Piloting: Space": 2,
+			"Ranged: Heavy": 1,
+			"Ranged: Light": 3,
+			"Skulduggery": 2,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Stalker 2", "Swift",
+			{
+				"name": "Pistols Blazing",
+				"description": "As an incidental, suffer 1 strain to avoid increasing the difficulty of a Ranged: Light check to attack with two pistol weapons."
+			}
+		],
+		"abilities": [
+			{
+				"name": "Mandalorian Maneuvers",
+				"description": "once per encounter when using a maneuver to move, may add :setback: to incoming attacks untilt he beginning of Sabine’s next turn."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Two blaster pistols",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Accurate 1", "Stun Setting"]
+			}
+		],
+		"gear": ["Mandalorian jetpack (allows user to function as a silhouette 1, speed 2, handling 0, system strain threshold 4 vehicle that can only operate in atmosphere, and requires \"Piloting: Planetary\" to operate), Mandalorian battle armor (vacuum sealed, integrated encrypted comlink, adds :boost: to ranged attacks, +2 soak, +1 defence), various explosives and detonators, pair of ArtCannon Airbrushes with extra and propellant canisters, tool kit"],
+		"tags": ["book:dor", "rebel alliance", "spectres"]
 	}
 ]

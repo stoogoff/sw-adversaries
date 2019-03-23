@@ -1070,7 +1070,7 @@
 	},
 	{
 		"name": "Physical Training",
-		"description": ""
+		"description": "Add {ranks|boost} to Athletics and Resistance checks."
 	},
 	{
 		"name": "Physician",
