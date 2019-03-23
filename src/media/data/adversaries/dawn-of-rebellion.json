@@ -2012,7 +2012,7 @@
 	{
 		"name": "Spectre 6: Ezra Bridger",
 		"type": "Nemesis",
-		"description": "In perhaps an auspicious coincidence, Ezra Bridger was born on the same day as the EMpire began its life. It was that Empire that made him an orphan when it dragged his parents away for speaking out against it. Ezra grew up as a minor thief and con artist to survive. This ended when he not only aided the Spectres in a mission on his homeworld of Lothal, but revealed Force abilities to the ex-Padawan Kanan Jarrus - powers Ezra himself had no idea he possessed. Joining the crew, Ezra has since acted as spy, warrior, and missions leader for the Spectres. His skills in using the Force and wielding a lightsaber have also grown impressively under Kanan’s training. Despite this, Ezra is often irritated that he has no become more powerful and impatient to see the Empire’s thread to his friends ended once and for all.\n\nSInce joining the Spectres and later Phoenix Cell, Ezra traveled far frmo Lothal and encountered wonders and dangers he never imagined as a petty crook in Capital City’s back alleys. Where once he lived only for himself, he's become a member of the Ghost family but also a part of the growing rebellion against the Empire. His wider experiences have also changed his goal of revenge for the deaths of his parents to that of ending the suffering and brutality it inflicts on beings everywhere. The depths of his feelings and eagerness for greater power to fight his foes more effectively, though, means he seems at many times to be just one step away from falling to the dark side.",
+		"description": "In perhaps an auspicious coincidence, Ezra Bridger was born on the same day as the Empire began its life. It was that Empire that made him an orphan when it dragged his parents away for speaking out against it. Ezra grew up as a minor thief and con artist to survive. This ended when he not only aided the Spectres in a mission on his homeworld of Lothal, but revealed Force abilities to the ex-Padawan Kanan Jarrus - powers Ezra himself had no idea he possessed. Joining the crew, Ezra has since acted as spy, warrior, and missions leader for the Spectres. His skills in using the Force and wielding a lightsaber have also grown impressively under Kanan’s training. Despite this, Ezra is often irritated that he has no become more powerful and impatient to see the Empire’s thread to his friends ended once and for all.\n\nSInce joining the Spectres and later Phoenix Cell, Ezra traveled far frmo Lothal and encountered wonders and dangers he never imagined as a petty crook in Capital City’s back alleys. Where once he lived only for himself, he's become a member of the *Ghost* family but also a part of the growing rebellion against the Empire. His wider experiences have also changed his goal of revenge for the deaths of his parents to that of ending the suffering and brutality it inflicts on beings everywhere. The depths of his feelings and eagerness for greater power to fight his foes more effectively, though, means he seems at many times to be just one step away from falling to the dark side.",
 		"notes": "",
 		"characteristics": {
 			"Brawn": 2,
@@ -2073,5 +2073,60 @@
 		],
 		"gear": ["Padded Armour (+2 soak), Encrypted Comlink, collection of Imperial helmets"],
 		"tags": ["book:dor", "rebel alliance", "spectres"]
+	},
+	{
+		"name": "Captain Rex",
+		"type": "Nemesis",
+		"description": "Captain Rex is not “officially” one of the Spectres, but he has fought closely at their side in many battles and missions. Officially designated CT-7567, he gained his nickname of Rex during the Clone Wars, where he became a captain and served under General Anakin Skywalker. He also formed close ties with Skywalker’s young Padawan, Ahsoka Tano. Rex and a few other clones had removed the implanted chips that Order 66 triggered, but almost all otehrs hadn't and Jedi everywhere fell in a hail of blaster fire. After the war, Rex and his comrades escaped to Seelos, where they thought they would live out what was left of their artificially accellerated lives hunting gigantic joopa worms. Years later, Ahsoka, now a leader in the Rebellion, sent the Spectres to find him as a source of possible new bases. After working jointly to repel an imperial attack, Rex decided to rejoin the fight with his old friend plus his new ones.\n\nThat is not to say relations with the crew aboard the *Ghost* have always been good. Kanan Jarrus was especially distrustful of Rex and his fellow clones on sight, recalling the wole that clone troopers had in murdering his Jedi master and destroying the Order. It was only through several shared missions that Kana came to respect the ex-trooper, and now values Rex’s judgement especially in combat situations. As someone with extensive tactical training plus years of battlefront experience, Rex has become an invaluable part of the Spectres and Phoenix Cell as they battle against Imperial forces grows from simple hit-and-run attacks to larger strategic assaults.",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16,
+			"strain": 13,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 3,
+			"Charm": 2,
+			"Coercion": 3,
+			"Cool": 3,
+			"Discipline": 4,
+			"Knowledge: Warfare": 2,
+			"Leadership": 4,
+			"Mechanics": 2,
+			"Perception": 3,
+			"Ranged: Heavy": 4,
+			"Ranged: Light": 4,
+			"Survival": 1,
+			"Vigilance":4
+		},
+		"talents": ["Adversary 1", "Coordinated Assault", "Commanding Presence 2", "Quick Draw", "Side Step 2", "Swift"],
+		"abilities": [
+			{
+				"name": "Joopa Worm Pattern!",
+				"description": "As a maneuver, make a :hard: Leadership check to allow allies wihin short range who move in their following turn to gain +1 defence for the remainder of the round."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Two blaster pistols",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting", "Superior"]
+			}
+		],
+		"gear": ["Clone trooper armour (+2 soak), Encrypted Comlink"],
+		"tags": ["book:dor", "rebel alliance", "spectres", "clone trooper"]
 	}
 ]
