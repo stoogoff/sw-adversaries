@@ -1220,7 +1220,7 @@
 	{
 		"name": "Agent Kallus",
 		"type": "Nemesis",
-		"description": "A human born on Coruscant, Kallus joined the ISB shortly after his graduation from the ROyal Imperial Academy. Initially, he worked on the ISB’s Internal Affairs and Investigations branches. After fighting insurgents on Onderon and participating in the cleansing of Lasan (where he acquired a rare bo-rifle), Kallus was transferred to Lothal under the command of Wullf Yularen to eliminate the resistance activity in that system.\n\nDuring his time on Lothal, Agent Kallus (code name ISB-021) met with repeated failure in his attempts to defeat the crew of the *Ghost*. These failures led to an escalation in his tactics, and Kallus worked with increasingly prominent Imperial agents to defeat the growing insurrections. Despite the setbacks he has faced, he displays a strong sense of personal honour. There are suspicions that the acts of the Empire have become dishonourable in his eyes, and that he could be turning traitor. However, few, if any, could ever believe that such a staunch and loyal example of Imperial efficiency could ever become disloyal.",
+		"description": "A human born on Coruscant, Kallus joined the ISB shortly after his graduation from the Royal Imperial Academy. Initially, he worked on the ISB’s Internal Affairs and Investigations branches. After fighting insurgents on Onderon and participating in the cleansing of Lasan (where he acquired a rare bo-rifle), Kallus was transferred to Lothal under the command of Wullf Yularen to eliminate the resistance activity in that system.\n\nDuring his time on Lothal, Agent Kallus (code name ISB-021) met with repeated failure in his attempts to defeat the crew of the *Ghost*. These failures led to an escalation in his tactics, and Kallus worked with increasingly prominent Imperial agents to defeat the growing insurrections. Despite the setbacks he has faced, he displays a strong sense of personal honour. There are suspicions that the acts of the Empire have become dishonourable in his eyes, and that he could be turning traitor. However, few, if any, could ever believe that such a staunch and loyal example of Imperial efficiency could ever become disloyal.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -2128,5 +2128,64 @@
 		],
 		"gear": ["Clone trooper armour (+2 soak), Encrypted Comlink"],
 		"tags": ["book:dor", "rebel alliance", "spectres", "clone trooper"]
+	},
+	{
+		"name": "Cikatro Vizago",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"strain": 14,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Coercion": 2,
+			"Cool": 2,
+			"Deception": 4,
+			"Knowledge: Education": 1,
+			"Knowledge: Outer Rim": 1,
+			"Knowledge: Underworld": 2,
+			"Mechanics": 3,
+			"Negotiation": 3,
+			"Perception": 2,
+			"Piloting: Space": 2,
+			"Ranged: Light": 1,
+			"Resilience": 2,
+			"Skulduggery": 1,
+			"Streetwise": 3
+		},
+		"talents": ["Adversary 2", "Black Market Contacts 2", "Nobody’s Fool 1"],
+		"abilities": [
+			{
+				"name": "Deadly Programming",
+				"description": "When using personal weapons, a;;ied droids within medium range of VIzago add :boost: their ranged attacks."
+			},
+			{
+				"name": "Resilient Metabolism",
+				"description": "Add automatic :success: to all Resilience checks."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Vilmarh’s Revenge",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Stun Setting", "Superior", "Pierce 1"]
+			}
+		],
+		"gear": ["Armoured clothing (+1 soak, +1 defence), droid control remote, the Broken Horn"],
+		"tags": ["book:dor", "broken horn syndicate", "species:Devaronian"]
 	}
 ]
