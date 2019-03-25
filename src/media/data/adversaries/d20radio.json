@@ -667,7 +667,7 @@
 	{
 		"name": "Commander Abyss",
 		"type": "Nemesis",
-		"description": "",
+		"description": "Amis Abyss started out in Imperial Intelligence, the beneficiary of political connections. Several of those benefactors came to regret it, when Abyss reported them to the Imperial Security Bureau for real, and fabricated offenses, to ingratiate himself with ISB. As he hoped, he was rewarded with a transfer to ISB.\n\nLike many Imperials, Abyss considers non-humans lesser beings. Even lower than that, in his estimation, are Force-sensitives, who are “freaks”. A sentiment he hopes none of the Inquisitors he has worked with in the course of his duties ever guesses. His contempt is based in fear.",
 		"notes": "Credits go to Linda Whitson, D20Radio.com",
 		"characteristics": {
 			"Brawn": 3,
@@ -702,7 +702,12 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 3", "Crippling Blow", "Improved Scathing Tirade"],
-		"abilities": ["Aura of Command", "Imperial Valor"],
+		"abilities": ["Aura of Command",
+			{
+			"name": "Imperial Valor",
+			"description": "may perform a maneuver to cause all ranged attacks targeting him to instead hit one ally or helpless enemy he is engaged with until the beginning of his next turn."
+			}
+		],
 		"weapons": [
 			{
 				"name": "Blaster pistol",
