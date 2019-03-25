@@ -729,5 +729,64 @@
 		"gear": ["Custom crimson ISB uniform w/light breastplate and latigo belt & boots (Armored Clothing Soak 1/Defense 1), encrypted comlink"],
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial security bureau"],
 		"devOnly": true
+	},
+	{
+		"name": "Kath Scarlet",
+		"type": "Nemesis",
+		"description": "Kath Scarlet is the captain of the Binayre Pirates, a small band of pirates operating in the Corellian Sector after the rise of the Empire. She earned her position of power by elevating the Binayre from a small-time swoop gang in the slums of Corellia to a full-fledged pirate organization. Her group has since grown significantly in size, but are still poorly regarded – even among the galactic underworld. This is due primarily to Kath’s reputation as an utterly ruthless pirate, double-crossing her employers and allies without a second thought when the credits are right. Her brazen and backstabbing approach to business is the responsible for the Binayre’s rapid rise to power but may also lead to its early demise.\n\nPersonality: Kath projects what she thinks of as a rakish air – reckless, vicious, and impertinent. However, beneath her audacious front lies a cunning and treacherous mind. Scarlet grew up in the worst areas of Coronet City on Corellia and feels entirely justified in taking nearly any action, no matter how nefarious, to ensure she keeps what little status she has amassed. She is capable of clever planning and isn’t afraid to bite off more than she can chew if she believes the reward outweighs the risks.\n\nTactics: Under Scarlet’s leadership, the Binayre mainly focus on hitting lightly guarded or unarmed ships throughout the Corellian Sector. Her starships and supplies are precious, and she won’t risk them unless the potential rewards are worth it. Intent on squeezing every last bit of profit from each prize, Scarlet often steals and fences both the ship and its cargo and has even been known to sell the target’s crew into slavery. This brutal and mercenary approach has given her a bad reputation, even among other pirate crews.",
+		"notes": "Credits go to Phillip Krzeminski, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"strain": 12,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Coercion": 2,
+			"Deception": 2,
+			"Gunnery": 2,
+			"Leadership": 2,
+			"Piloting: Space": 2,
+			"Ranged: Light": 2,
+			"Streetwise": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2",
+					{
+					"name": "Debilitating Shot",
+					"description": "Upon successful attack with a starship or vehicle weapon, may spend :advantage::advantage: to reduce the target's maximum Speed by 1 until the end of the next round"
+					},
+					{
+					"name": "Overwhelm Defenses",
+					"description": "(Upon successful attack with a starship or vehicle weapon, may spend :advantage::advantage: per rank of Overwhelm Defenses to reduce the Defense in the targeted zone by 1 for each :advantage::advantage: spent"
+					}
+		],
+		"abilities": [
+			{
+			"name": "Pirate Leader",
+			"description": "may spend a maneuver shouting orders to pirate allies in medium range, granting them :boost: to their next action."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Heavy blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting", "Inaccurate 1"]
+			}
+		],
+		"gear": ["Armored flightsuit (+1 soak/+1 defense), comlink, Bloodletter (modified Firespray patrol craft)"],
+		"tags": ["source:D20Radio.com NPC’s", "pirate", "pilot"],
+		"devOnly": true
 	}
 ]
