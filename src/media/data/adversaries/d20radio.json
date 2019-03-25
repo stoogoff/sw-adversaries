@@ -618,5 +618,111 @@
 		],
 		"tags": ["source:D20Radio.com NPC’s", "creature", "location:Moraband"],
 		"devOnly": true
+	},
+	{
+		"name": "Mik-Los Arnet",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "Credits go to Linda Whitson, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15,
+			"strain": 13
+		},
+		"skills": {
+			"Athletics": 2,
+			"Knowledge: Xenology": 3,
+			"Leadership": 1,
+			"Medicine": 3,
+			"Melee": 1,
+			"Piloting: Planetary": 3,
+			"Ranged: Light": 3,
+			"Resilience": 1,
+			"Stealth": 2,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Surgeon 2", "Stimpack Specialist 2", "Forager", "Toughness 1", "Bacta Specialist 1"],
+		"weapons": ["Heavy blaster pistol",
+			{
+				"name": "Combat knife",
+				"skill": "Melee",
+				"plus-damage": 1,
+				"critical": 3,
+				"range": "Engaged"
+			}
+		],
+		"gear": ["Padded Armor (+2 Soak), Thermal cloak, Crash survival kit, 5 Stimpacks, Medpac (replaces basic medpac in Crash survival kit)"],
+		"tags": ["source:D20Radio.com NPC’s"],
+		"devOnly": true
+	},
+	{
+		"name": "Commander Abyss",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "Credits go to Linda Whitson, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 5,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 24,
+			"strain": 25,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coercion": 3,
+			"Discipline": 2,
+			"Knowledge: Core Worlds": 2,
+			"Knowledge: Education": 2,
+			"Knowledge: Lore": 2,
+			"Knowledge: Outer Rim": 2,
+			"Knowledge: Underworld": 2,
+			"Knowledge: Warfare": 2,
+			"Knowledge: Xenology": 2,
+			"Leadership": 4,
+			"Melee": 4,
+			"Perception": 2,
+			"Piloting: Space": 1,
+			"Ranged: Light": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 3", "Crippling Blow", "Improved Scathing Tirade"],
+		"abilities": ["Aura of Command", "Imperial Valor"],
+		"weapons": [
+			{
+				"name": "Blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting", "Superior"]
+			},
+			{
+				"name": "Combat knife",
+				"skill": "Melee",
+				"plus-damage": 1,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 3", "Superior", "Vicious 1"]
+			}
+		],
+		"gear": ["Custom crimson ISB uniform w/light breastplate and latigo belt & boots (Armored Clothing Soak 1/Defense 1), encrypted comlink"],
+		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial security bureau"],
+		"devOnly": true
 	}
 ]
