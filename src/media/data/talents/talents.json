@@ -637,11 +637,11 @@
 	},
 	{
 		"name": "Hunter’s Quarry",
-		"description": "As an action make a :hard: Sur­vival check to upgrade the ability of all attacks against one target at Long range until the end of the big game hunter’s next turn."
+		"description": "As an action make a :hard: Survival check to upgrade the ability of all attacks against one target at Long range until the end of the big game hunter’s next turn."
 	},
 	{
 		"name": "Hunter’s Quarry [Improved]",
-		"description": ""
+		"description": "may take the Hunter’s Quarry action against an opponent within long range, making a :hard: Survival check. If the check succeeds, upgrade the ability of all attacks made against the target by one until the end of the character’s next turn. The character can choose to suffer 2 strain to perform the Hunter’s Quarry action as a maneuver instead"
 	},
 	{
 		"name": "Idealist",

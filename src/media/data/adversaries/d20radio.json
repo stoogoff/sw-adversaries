@@ -786,7 +786,136 @@
 			}
 		],
 		"gear": ["Armored flightsuit (+1 soak/+1 defense), comlink, Bloodletter (modified Firespray patrol craft)"],
-		"tags": ["source:D20Radio.com NPC’s", "pirate", "pilot"],
+		"tags": ["source:D20Radio.com NPC’s", "binayre pirate", "pilot", "pirate"],
+		"devOnly": true
+	},
+	{
+		"name": "Binayre Pirate",
+		"type": "Minion",
+		"description": "Even amongst pirates and smugglers, the Binayre are considered scum. The core members of the pirate crew cut their teeth as swoop gangers on the streets of Corellia and are consequently willing to kill, steal, and betray to hold onto the limited wealth and luxury they have acquired. The crew is a motley collection of species, but all are decent pilots and practiced killers. However, Kath is certainly the brains and talent behind their success and they all know it. As a result, she commands great loyalty among the gang, making her possibly the only one in the galaxy who these ruffians wouldn't stab in the back.",
+		"notes": "Credits go to Phillip Krzeminski, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [1, 0]
+		},
+		"skills": ["Gunnery", "Coercion", "Melee", "Ranged: Light", "Piloting: Space"],
+		"weapons": ["Blaster pistol",
+			{
+				"name": "Stun baton",
+				"skill": "Melee",
+				"plus-damage": 2,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Stun Setting", "Disorient 2"]
+			}
+		],
+		"gear": ["Heavy clothing (soak +1), comlink"],
+		"tags": ["source:D20Radio.com NPC’s", "binayre pirate", "pirate"],
+		"devOnly": true
+	},
+	{
+		"name": "Chell “Cold Case” Wi’eeda, Journeyman Hunter",
+		"type": "Rival",
+		"description": "Background: Born to an enslaved family of Tibanna gas miners on the Hutt controlled world of Sleheyron, Chell spent most of her youth dreaming of escaping the miserable living and working conditions of her family. Before long, she lost both parents (her mother died in an accident, and her father was sold without notice) and was forced to make her own way. Unfortunately, there are few opportunities for a slave child, least of all in Hutt controlled space.\n\nChell began to inform on other slaves to earn her meals and eventually turned to tracking escapees full-time once she bought her freedom. Now a fully licensed bounty hunter, Chell primarily patrols Hutt space (though she will still take Imperial contracts on criminals seeking refuge in the Hutt’s domain). She hasn’t brought in any high-profile targets yet, but her track record for recovering escaped slaves with icy detachment has earned her the nickname “Cold Case” – a moniker and reputation she has embraced by christening her first starship with it.\n\nChell has a well-earned reputation for pitiless, professional detachment. The conditions of her childhood taught her that she couldn't trust anyone and she would need to be ruthless to survive into adulthood. As a result, she rarely partners with other hunters and has trained a pack of Corellian hounds to assist her on hunts. She takes excellent care of her hounds and shows them more affection than she has ever shown another sentient being",
+		"notes": "Credits go to Phillip Krzeminski, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14
+		},
+		"skills": {
+			"Athletics": 1,
+			"Coordination": 1,
+			"Melee": 2,
+			"Negotiation": 1,
+			"Perception": 2,
+			"Ranged: Heavy": 2,
+			"Stealth": 3,
+			"Streetwise": 2,
+			"Survival": 3
+		},
+		"talents": ["Expert Tracker 2", "Heightened Awareness", "Hunter’s Quarry [Improved]"],
+		"weapons": [
+				{
+				"name": "Blastech M-300 Hunting Blaster",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 3,
+				"range": "Extreme",
+				"qualities": ["Accurate 1", "Cumbersome 2", "Pierce 2", "Stun Setting"]
+				},
+				{
+				"name": "KDY-21 Light blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Stun Setting"]
+				},
+				{
+				"name": "StunMaster Shock Prod",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Stun Damage", "Disorient 2"]
+				}
+		],
+		"gear": ["Padded armor (+2 Soak), binders, comlink, electrobinoculars, survival pack, six Corellian hounds, Cold Case (G-9 Rigger light freighter), R5 astromech droid"],
+		"tags": ["source:D20Radio.com NPC’s", "bounty hunter"],
+		"devOnly": true
+	},
+	{
+		"name": "Corellian Hounds",
+		"type": "Minion",
+		"description": "Also known as Sibian hounds, these fleet-footed canids have keen senses enhanced through generations of breeding for hunting and attack. Though originally native to Corellia, these beasts can be found all over the galaxy thanks to their aptitude as guard animals.",
+		"notes": "Credits go to Phillip Krzeminski, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": ["Athletics", "Brawl", "Perception", "Stealth", "Vigilance"],
+		"weapons": [
+			{
+				"name": "Teeth",
+				"skill": "Brawl",
+				"Damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1", "Pierce 1"]
+			}
+		],
+		"abilities": [
+			{
+			"name": "Scent",
+			"description": "Add :boost::boost: to Perception or Survival checks made to track prey."
+			}
+		],
+		"tags": ["source:D20Radio.com NPC’s", "creature"],
 		"devOnly": true
 	}
 ]
