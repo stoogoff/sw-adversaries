@@ -373,7 +373,7 @@
 		"tags": ["book:dor", "location:Dathomir", "adventure:Spirits of Madness"]
 	},
 	{
-		"name": "Shoretrooper",
+		"name": "Stormtrooper: Shoretrooper",
 		"type": "Minion",
 		"description": "Shoretroopers are Imperial stormtroopers trained in amphibious landing combat in coastal environments. They wear a modified version of stormtrooper armour over a heat-modulating dry suit that protects them from adverse atmospheric and geographic conditions where land meets water. They are typically stationed on watery worlds like Mon Cala or Scarif where their training and specialised equipment allow them to operate with little to no difficulty in and out of the water.",
 		"notes": "Squads may carry one heavy blaster rifle or one light repeating blaster as a support weapon.",
@@ -504,7 +504,7 @@
 		"tags": ["book:dor", "empire", "imperial military"]
 	},
 	{
-		"name": "Death Trooper",
+		"name": "Stormtrooper: Death Trooper",
 		"type": "Rival",
 		"description": "Death Troopers are among the most elite special forces units in the Imperial Armed Forces. These highly trained, highly motivated warriors operate under the auspices of Imperial Intelligence. They are most often used as strike forces and as VIP protection for vital Imperial officials such as Commander Krennic and Grand Admiral Thrawn.\n\nWhile death troopers have virtually the entire Imperial military arsenal available to them, their standard-issue arms and armour are made for and issued solely to them. They wear an all-black version of standard stormtrooper armour that is lighter and provides better protection. Each suit is equipped with onboard systems including encrypted comlinks, multi-optic scanners, and stealth-enhancing gear to improve performance and survivability in the field. Death troopers’ bespoke weapons include a repeating blaster pistol, a sturdy blaster carbine, and a powerful heavy blaster rifle for long-range and squad support work. Adding to their disturbing aspect, they communicate amongst themselves using cybernetic signals that are indecipherable to organic ears and unsettling even to allies.\n\nThere are very few death troopers, and they are rarely seen in typical military encounters. Their existence is still considered a myth among much of the resistance. Rumours abound that they are somehow linked to experiments within the Advanced Weapons Research division to revive necrotic tissue, and thus arose their title. Word is slowly spreading, though, that these dangerous commandos do actually exist, and are as deadly as their name suggests.",
 		"characteristics": {
