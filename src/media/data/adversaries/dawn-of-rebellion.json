@@ -2219,7 +2219,7 @@
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 2", "Command 2", "Field Commander", "Inspiring Rhetoric"],
-		"abilities": ["Twi’lek",
+		"abilities": ["Desert Dweller",
 			{
 				"name": "For Ryloth!",
 				"description": "Once per session, may reroll a failed Leadership check when leading Twi’leks."
@@ -2227,6 +2227,65 @@
 		],
 		"weapons": ["Blaster rifle"],
 		"gear": ["Ryloth combat uniform (+1 soak)"],
+		"tags": ["book:dor", "species:Twi’lek"]
+	},
+	{
+		"name": "Numa",
+		"type": "Nemesis",
+		"description": "More than even Cham Syndulla, Numa's life has been consumed by warfare-and like Cham, she has little love for outsiders after having being betrayed by her former liberators. As a child, she was rescued by Republic clone troopers during the Clone Wars. Her admiration for those seemingly heroic soldiers was destroyed when the Empire rose to power. Men she had affectionally called “nerra”, or brother, as a child turned their weapons on her and put her in bonds. After agents of the newly formed Free Ryloth Movement rescued her, Numa came to distrust outsiders, perhaps even more so than her mentor, Cham Syndulla. Her dedication, ingenuity, and natural aptitude with explosive devices led her to her meteoric rise among the freedom fighters, until she became one of CHam's most trusted agents. Her commitment to the Free Ryloth Movement is matched only by her lingering sense of loss and betrayal. Though she rarely speaks and has a public persona of aloof coldness, Numa cares deeply about Ryloth and its people.",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13,
+			"strain": 16
+		},
+		"skills": {
+			"Athletics": 2,
+			"Charm": 1,
+			"Cool": 2,
+			"Discipline": 3,
+			"Knowledge: Warfare": 2,
+			"Mechanics": 4,
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Resilience": 2,
+			"Stealth": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Powerful Blast 2"],
+		"abilities": ["Desert Dweller",
+			{
+				"name": "Hope for Ryloth!",
+				"description": "May spend :triumph: on a successful skill check to allow all Twi’lek characters within short range to add :boost: to next skill check they make during the current encounter."
+			}
+		],
+		"weapons": ["Light blaster pistol",
+			{
+				"name": "Frag grenade",
+				"skill": "Ranged: Light",
+				"damage": 8,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Blast 8", "Limited Ammo 1"]
+			},
+			{
+				"name": "Armor-piercing grenade",
+				"skill": "Ranged: Light",
+				"damage": 13,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Blast 6", "Limited Ammo 1", "Pierce 3"]
+			}
+		],
+		"gear": ["Ryloth combat uniform (+1 soak)", "3 Frag grenades", "3 Armor piercing grenades"],
 		"tags": ["book:dor", "species:Twi’lek"]
 	}
 ]
