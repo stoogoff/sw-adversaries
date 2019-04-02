@@ -1836,7 +1836,7 @@
 		],
 		"weapons": ["Holdout Blaster Pistol"],
 		"gear": ["Heavy clothing (+1 Soak)", "Encrypted Comlink", "Goggles", "Tool kit"],
-		"tags": ["book:dor", "rebel alliance", "spectres", "species: Twi’lek"]
+		"tags": ["book:dor", "rebel alliance", "spectres", "species:Twi’lek"]
 	},
 	{
 		"name": "Spectre 3: Chopper",
@@ -2187,5 +2187,46 @@
 		],
 		"gear": ["Armoured clothing (+1 soak, +1 defence), droid control remote, the Broken Horn"],
 		"tags": ["book:dor", "broken horn syndicate", "species:Devaronian"]
+	},
+	{
+		"name": "Cham Syndulla",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 15,
+			"strain": 18
+		},
+		"skills": {
+			"Cool": 4,
+			"Deception": 2,
+			"Knowledge: Warfare": 5,
+			"Leadership": 2,
+			"Mechanics": 3,
+			"Negotiation": 3,
+			"Ranged: Heavy": 2,
+			"Resilience": 4,
+			"Survival": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Command 2", "Field Commander", "Inspiring Rhetoric"],
+		"abilities": ["Twi’lek",
+			{
+				"name": "For Ryloth!",
+				"description": "Once per session, may reroll a failed Leadership check when leading Twi’leks."
+			}
+		],
+		"weapons": ["Blaster rifle"],
+		"gear": ["Ryloth combat uniform (+1 soak)"],
+		"tags": ["book:dor", "species:Twi’lek"]
 	}
 ]
