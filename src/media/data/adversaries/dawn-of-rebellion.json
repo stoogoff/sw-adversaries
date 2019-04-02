@@ -2287,5 +2287,62 @@
 		],
 		"gear": ["Ryloth combat uniform (+1 soak)", "3 Frag grenades", "3 Armor piercing grenades"],
 		"tags": ["book:dor", "species:Twi’lek"]
+	},
+	{
+		"name": "Fenn Rau",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 19,
+			"strain": 16,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Coercion": 2,
+			"Cool": 2,
+			"Knowledge: Warfare": 2,
+			"Leadership": 2,
+			"Melee": 1,
+			"Piloting: Planetary": 2,
+			"Piloting: Space": 3,
+			"Ranged: Light": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Lethal Blows 2",
+				{
+				"name": "Deadly Results 2",
+				"description": "As an incidental, may spend 2 Destiny points to reduce the ciritical rating his pistols to 1 for the next attack he makes."
+				}
+		],
+		"abilities": [
+				{
+				"name": "Mandalorian Commander",
+				"description": "As an action, may make an :average: Leadership check. Each :success: allows one Mandalorian ally within short range to make an immediate maneuver as an out-of-turn incidental."
+				}
+		],
+		"weapons": [
+			{
+				"name": "Two heavy blaster pistols",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 3,
+				"range": "Ranged: Medium",
+				"qualities": ["Stun Setting"]
+			}
+		],
+		"gear": ["Mandalorian jetpack (allows user to function as a silhouette 1, speed 2, handling 0, system strain threshold 4 vehicle that can only operate in atmosphere, and requires \"Piloting: Planetary\" to operate), Mandalorian battle armor (vacuum sealed, integrated encrypted comlink, adds :boost: to ranged attacks, +2 soak, +1 defence)"],
+		"tags": ["book:dor", "Mandalorian"]
 	}
 ]
