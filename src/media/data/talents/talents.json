@@ -757,7 +757,11 @@
 	},
 	{
 		"name": "Just Kidding!",
-		"description": ""
+		"description": "Once per round as an incidental, when the character or any of his allies in short range generages a :despair: on a social skill check, the character may spend one Destiny Point to convert a single :despair: generated on the check to :failure:. When he does this, he must explain what he says or does to smooth things over after the verbal misstep"
+	},
+	{
+		"name": "Just Kidding! [Improved]",
+		"description": "Once per round, spend one Destiny Point to convert a single :despair: on one social check to :advantage:, but must explain how the verbal misstep became advantageous."
 	},
 	{
 		"name": "Keen Eyed",
