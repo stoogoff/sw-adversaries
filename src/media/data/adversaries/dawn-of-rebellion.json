@@ -2232,7 +2232,7 @@
 	{
 		"name": "Numa",
 		"type": "Nemesis",
-		"description": "More than even Cham Syndulla, Numa's life has been consumed by warfare-and like Cham, she has little love for outsiders after having being betrayed by her former liberators. As a child, she was rescued by Republic clone troopers during the Clone Wars. Her admiration for those seemingly heroic soldiers was destroyed when the Empire rose to power. Men she had affectionally called “nerra”, or brother, as a child turned their weapons on her and put her in bonds. After agents of the newly formed Free Ryloth Movement rescued her, Numa came to distrust outsiders, perhaps even more so than her mentor, Cham Syndulla. Her dedication, ingenuity, and natural aptitude with explosive devices led her to her meteoric rise among the freedom fighters, until she became one of CHam's most trusted agents. Her commitment to the Free Ryloth Movement is matched only by her lingering sense of loss and betrayal. Though she rarely speaks and has a public persona of aloof coldness, Numa cares deeply about Ryloth and its people.",
+		"description": "More than even Cham Syndulla, Numa's life has been consumed by warfare-and like Cham, she has little love for outsiders after having being betrayed by her former liberators. As a child, she was rescued by Republic clone troopers during the Clone Wars. Her admiration for those seemingly heroic soldiers was destroyed when the Empire rose to power. Men she had affectionally called “nerra”, or brother, as a child turned their weapons on her and put her in bonds. After agents of the newly formed Free Ryloth Movement rescued her, Numa came to distrust outsiders, perhaps even more so than her mentor, Cham Syndulla. Her dedication, ingenuity, and natural aptitude with explosive devices led her to her meteoric rise among the freedom fighters, until she became one of Cham's most trusted agents. Her commitment to the Free Ryloth Movement is matched only by her lingering sense of loss and betrayal. Though she rarely speaks and has a public persona of aloof coldness, Numa cares deeply about Ryloth and its people.",
 		"notes": "",
 		"characteristics": {
 			"Brawn": 2,
@@ -2490,5 +2490,52 @@
 		],
 		"gear": ["Laminate armour (+2 Soak)", "The Shadow Caster"],
 		"tags": ["underworld", "bounty hunter", "book:dor"]
+	},
+	{
+		"name": "Lando Calrissian",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 15,
+			"strain": 16
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 2,
+			"Deception": 3,
+			"Discipline": 2,
+			"Knowledge: Core Worlds": 1,
+			"Knowledge: Underworld": 2,
+			"Negotiation": 3,
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Skulduggery": 2,
+			"Stealth": 1,
+			"Streetwise": 1,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 2", "Kill with Kindness 1", "Nobody’s Fool 2", "Plausible Deniability 1"],
+		"abilities": [
+				{
+				"name": "Idiot’s Array",
+				"description": "Once per encounter, may turn :triumph: from another character’s skill check related to a game of chance into :despair:."
+				},
+				{
+				"name": "Luck Be A Lady",
+				"description": "Once per encounter, may reroll a single skill check."
+				}
+		],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Fine clothing", "Wristmounted comlink"],
+		"tags": ["book:dor", "smuggler", "gambler"]
 	}
 ]
