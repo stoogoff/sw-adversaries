@@ -2703,5 +2703,27 @@
 		"talents": ["Adversary 2", "Nobody’s Fool 2"],
 		"abilities": ["Droid"],
 		"tags": ["book:dor", "species:Droid"]
+	},
+	{
+		"name": "MSE-Series Maintenance Droid",
+		"type": "Minion",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 3
+		},
+		"skills": ["Computers", "Mechanics", "Perception"],
+		"abilities": ["Droid", "Silhouette 0"],
+		"gear": ["Built-in repair tools (counts as a tool kit and an emergency repair kit that can be used once per session)", "comlink", "retractable manipulators"],
+		"tags": ["book:dor", "species:Droid"]
 	}
 ]
