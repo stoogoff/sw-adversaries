@@ -2537,5 +2537,99 @@
 		"weapons": ["Blaster pistol"],
 		"gear": ["Fine clothing", "Wristmounted comlink"],
 		"tags": ["book:dor", "smuggler", "gambler"]
+	},
+	{
+		"name": "DTS-Series Dismantler droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 15,
+			"defence": [0, 1]
+		},
+		"skills": {
+			"Computers": 3,
+			"Mechanics": 4,
+			"Perception": 3,
+			"Ranged: Heavy": 1
+		},
+		"talents": ["Adversary 1", "Gearhead 1", "Solid Repairs 2"],
+		"abilities": ["Droid", "Flyer", "Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Cutting torch",
+				"skill": "Ranged: Heavy",
+				"damage": 10,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Blast 5", "Breach 1", "Burn 3", "Vicious 3"]
+			},
+			{
+				"name": "Vibrosaw",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Sunder", "Breach 1", "Vicious 2"]
+			},
+			{
+				"name": "Dismantling manipulators",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Sunder"]
+			}
+		],
+		"gear": ["Built-in repair tools (counts as a tool kit and an emergency repair kit that can be used once per session)"],
+		"tags": ["book:dor", "species:Droid"]
+	},
+	{
+		"name": "ID9 Seeker Droid",
+		"type": "Minion",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": ["Computers", "Coordination", "Melee", "Stealth"],
+		"abilities": ["Droid", "Flyer", "Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Shock prod",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 2", "Stun Damage"]
+			},
+			{
+				"name": "Ion Disruptor",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Ion"]
+			}
+		],
+		"tags": ["book:dor", "species:Droid"]
 	}
 ]
