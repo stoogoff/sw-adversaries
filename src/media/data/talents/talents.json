@@ -361,7 +361,7 @@
 	},
 	{
 		"name": "Dodge",
-		"description": ""
+		"description": "Once per round, when targeted by a combat check, suffer up to {ranks} Strain to upgrade the difficulty once per Strain spent."
 	},
 	{
 		"name": "Don’t Shoot",
@@ -1178,7 +1178,7 @@
 	},
 	{
 		"name": "Ready for Anything",
-		"description": "Remove {rank|setback} from masscombat made while the character is acting on the side of the acting force and the character’s Cool or Vigilance checks to determine Initiative order."
+		"description": "Remove {ranks|setback} from mass combat made while the character is acting on the side of the acting force and the character’s Cool or Vigilance checks to determine Initiative order."
 	},
 	{
 		"name": "Redundant Systems",
@@ -1330,7 +1330,7 @@
 	},
 	{
 		"name": "Sleight of Mind",
-		"description": "Add {ranks|boost} to Stealth checks unless the opposition is immune to Force powers"
+		"description": "Add {ranks|boost} to Stealth checks unless the opposition is immune to Force powers."
 	},
 	{
 		"name": "Slippery Minded",
@@ -1362,7 +1362,7 @@
 	},
 	{
 		"name": "Solid Repairs",
-		"description": ""
+		"description": "When repairing Hull Trauma on a starship or vehicle, repair +{ranks} Hull Trauma."
 	},
 	{
 		"name": "Soothing Tone",
@@ -1486,7 +1486,7 @@
 	},
 	{
 		"name": "Supreme Full Throttle",
-		"description": "As an action, make a :hard: piloting check to increase the vehicle’s top speed by two for three rounds; suffer 1 strain to use as maneuver and reduce difficulty to :average:"
+		"description": "As an action, make a :hard: piloting check to increase the vehicle’s top speed by two for three rounds; suffer 1 Strain to use as maneuver and reduce difficulty to :average:."
 	},
 	{
 		"name": "Surgeon",

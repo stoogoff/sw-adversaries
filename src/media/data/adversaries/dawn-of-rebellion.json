@@ -1619,7 +1619,7 @@
 	{
 		"name": "Ahsoka Tano",
 		"type": "Nemesis",
-		"description": "Ahsoka Tano is one of the rarest individuals in the galaxy: a nearyl fully trained Jedi who escpaed Order 66 and years of pursuit by Imperial Inquisitors and agents. The one-time Padawan of Anakin Skywalker left the Jedi Order when she lost faith in its actions after she was wrongfully suspected of a terrorist act. After Order 66, she tried to hide hersel fin the Outer Rim and no longer considered herself a Jedi. Her desire to help eventually re-emerged, drawing the attention of both the Empire and Bail Organa. Though she followed her own path, she also became Organa's agent, codenamed Fulcrum. She was instrumental in growing the rebellion, until she discovered Darth Vader's true identity. Their confrontation on Malachor, though, may have possibly been her final battle.",
+		"description": "Ahsoka Tano is one of the rarest individuals in the galaxy: a nearly fully trained Jedi who escaped Order 66 and years of pursuit by Imperial Inquisitors and agents. The one-time Padawan of Anakin Skywalker left the Jedi Order when she lost faith in its actions after she was wrongfully suspected of a terrorist act. After Order 66, she tried to hide herself in the Outer Rim and no longer considered herself a Jedi. Her desire to help eventually re-emerged, drawing the attention of both the Empire and Bail Organa. Though she followed her own path, she also became Organa’s agent, codenamed Fulcrum. She was instrumental in growing the rebellion, until she discovered Darth Vader’s true identity. Their confrontation on Malachor, though, may have possibly been her final battle.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 4,
@@ -1661,13 +1661,13 @@
 		"talents": ["Adversary 1", "Ataru Technique", "Dodge 2", "Parry 3", "Force Rating 3", "Improved Reflect 3",
 			{
 				"name": "Saber Swarm",
-				"description": "As a maneuver, suffer 1 strain to add the Linked 2 item quality on the Lightsaber combat check this turn."
+				"description": "As a maneuver, suffer 1 Strain to add the Linked 2 item quality on the Lightsaber combat check this turn."
 			}
 			],
 		"abilities": ["Force Power: Enhance", "Force Power: Move", "Force Power: Sense",
 			{
 				"name": "Fulcrum Leadership",
-				"description": "Allies within short range who know Ahsoka's Fulcrum identity add automatic :advantage::advantage: to all skill checks."
+				"description": "Allies within short range who know Ahsoka’s Fulcrum identity add automatic :advantage::advantage: to all skill checks."
 			}
 		],
 		"weapons": [
@@ -1680,13 +1680,13 @@
 				"qualities": ["Breach 1", "Sunder", "Dual-Phase"]
 			}
 		],
-		"gear": ["Padded armour (+2 Soak)", "Encrypted Comlink"],
+		"gear": ["Padded armour (+2 Soak)", "Encrypted comlink"],
 		"tags": ["book:dor", "rebel alliance", "force sensitive", "species:Togruta"]
 	},
 	{
 		"name": "Commander Jun Sato",
 		"type": "Nemesis",
-		"description": "Jun Sato hails from Mykapo, a planet that saw the Empire's power grow so onerous that multiple resistance uprisings sprung up against it. His own brother led one of the cells, the Iron Squadron. Later, thinking the cell lost when his brother died, Sato joined a rebel cell that oeprated in a wider area. As its commander he often displays a stern, by-the-book bearing. His dedication to the cause is second to none, and he is willing to make any sacrifice to protect his personnel and hasten the end of the Empire.",
+		"description": "Jun Sato hails from Mykapo, a planet that saw the Empire’s power grow so onerous that multiple resistance uprisings sprung up against it. His own brother led one of the cells, the Iron Squadron. Later, thinking the cell lost when his brother died, Sato joined a rebel cell that oeprated in a wider area. As its commander he often displays a stern, by-the-book bearing. His dedication to the cause is second to none, and he is willing to make any sacrifice to protect his personnel and hasten the end of the Empire.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -1719,17 +1719,17 @@
 		"abilities": [
 				{
 					"name": "Evasive Action",
-					"description": "As an action, Sato may make a :hard: Leadership check; for every :success:, a silhouette 4 or smaller allied starship or vehicle within medium range may immediately perform the Evasive Maneuvers maneuver as an out of turn incidental without suffering strain or system strain; a silhouette 5 or larger ship may take an immediate maneuver; on a :triumph:, the check applies to all allied ships within medium range."
+					"description": "As an action, Sato may make a :hard: Leadership check; for every :success:, a Silhouette 4 or smaller allied starship or vehicle within Medium range may immediately perform the Evasive Maneuvers maneuver as an out of turn incidental without suffering Strain or System Strain; a Silhouette 5 or larger ship may take an immediate maneuver; on a :triumph:, the check applies to all allied ships within Medium range."
 					}
 				],
 		"weapons": ["Blaster Pistol"],
-		"gear": ["Padded armour (+2 Soak)", "Encrypted Comlink"],
+		"gear": ["Padded armour (+2 Soak)", "Encrypted comlink"],
 		"tags": ["book:dor", "rebel alliance"]
 	},
 	{
 		"name": "Spectre 1: Kanan Jarrus",
 		"type": "Nemesis",
-		"description": "Kana Jarrus is a former Jedi Padawan whose master was killed in Order 66. Barely escaping, he quickly abandoned his birth name of Caleb Dume and spent years in the shadows avoiding Imperial notice as a minor smuggler and a pilot-for-hire. This life ended when Hera Syndulla encountered him in the Gorse system, where they worked together to thwart an Imperial noble from destroying a world to reap enormous profits. As part of theur battles, he revealed himself as a Force user and was later convinced to join her in fighting back against the Empire.\n\nKana's training from the Clone Wars has been invaluable in planning and executing missions the Spectres undertake, but perhaps his most important role is as mendor and instructor to Ezra Bridger. Finding another Force-sensitive has allowed Jarrus to put his master's training to use again, though he often worries he is not up to the task and is afraid his impatient charge may be slowly falling to the darkness.These feelings became intensified when he was blinded in a ferocious combat with Maul on Malachor. Kanan now uses the Force to compensate for his lack of sight, and has also achieved a greater understanding of the Force through his interactions with the mysterious being known as Bendu.",
+		"description": "Kana Jarrus is a former Jedi Padawan whose master was killed in Order 66. Barely escaping, he quickly abandoned his birth name of Caleb Dume and spent years in the shadows avoiding Imperial notice as a minor smuggler and a pilot-for-hire. This life ended when Hera Syndulla encountered him in the Gorse system, where they worked together to thwart an Imperial noble from destroying a world to reap enormous profits. As part of theur battles, he revealed himself as a Force user and was later convinced to join her in fighting back against the Empire.\n\nKanan’s training from the Clone Wars has been invaluable in planning and executing missions the Spectres undertake, but perhaps his most important role is as mentor and instructor to Ezra Bridger. Finding another Force-sensitive has allowed Jarrus to put his master’s training to use again, though he often worries he is not up to the task and is afraid his impatient charge may be slowly falling to the darkness.These feelings became intensified when he was blinded in a ferocious combat with Maul on Malachor. Kanan now uses the Force to compensate for his lack of sight, and has also achieved a greater understanding of the Force through his interactions with the mysterious being known as Bendu.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -1768,12 +1768,12 @@
 				"description": "When making a Resilience or Brawl check, Kanan may use this power."
 			},
 			{
-				"name": "Kanan's Farsight",
-				"description": "Though blind, Kanan can use his connection to the Fortce to function as if sighted, He does not need to spend :forcepip:."
+				"name": "Kanan’s Farsight",
+				"description": "Though blind, Kanan can use his connection to the Force to function as if sighted, He does not need to spend :forcepip:."
 			},
 			{
 				"name": "Force Power: Move",
-				"description": "Kanan may spend :forcepip: to increase the power's range to medium range or to increase the size of the object he can move to silhouette 2."
+				"description": "Kanan may spend :forcepip: to increase the power’s range to Medium range or to increase the size of the object he can move to Silhouette 2."
 			}
 		],
 		"weapons": ["Blaster Pistol",
@@ -1786,13 +1786,13 @@
 				"qualities": ["Breach 1", "Sunder", "Modular"]
 			}
 		],
-		"gear": ["Padded armour (+2 Soak)", "Encrypted Comlink"],
+		"gear": ["Padded armour (+2 Soak)", "Encrypted comlink"],
 		"tags": ["book:dor", "rebel alliance", "spectres", "force sensitive"]
 	},
 	{
 		"name": "Spectre 2: Hera Syndulla",
 		"type": "Nemesis",
-		"description": "Hera Syndulla is the daughter of Cham Syndulla, who fought for their Twi'lek homeworld of Ryloth against the Separatists, and now against the Empire in these even darker times. It was during the war that as a young girl she rescued and repaired an astromech droid known as Chopper from a crashed Republic starfighter. It was also during this time that she became fascinated with piloting. After her mother died and her father became more and more devoted to fighting only for Ryloth, Hera left to join a resistance movement against the Empire led by the sectetive “Fulcrum”.\n\n Along the way Hera acquired the *Ghost*, and grew into an important Rebel commander as well as one of the best pilots around. As captain of the Spectres' main vessel as well as de facto home for the group, she often serves as the one who settles arguments, ensures upkeep is done, and the final decider while the group is aboard.",
+		"description": "Hera Syndulla is the daughter of Cham Syndulla, who fought for their Twi’lek homeworld of Ryloth against the Separatists, and now against the Empire in these even darker times. It was during the war that as a young girl she rescued and repaired an astromech droid known as Chopper from a crashed Republic starfighter. It was also during this time that she became fascinated with piloting. After her mother died and her father became more and more devoted to fighting only for Ryloth, Hera left to join a resistance movement against the Empire led by the secretive “Fulcrum”.\n\n Along the way Hera acquired the *Ghost*, and grew into an important Rebel commander as well as one of the best pilots around. As captain of the Spectres’ main vessel as well as de facto home for the group, she often serves as the one who settles arguments, ensures upkeep is done, and the final decider while the group is aboard.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 4,
@@ -1827,15 +1827,15 @@
 		"abilities": ["Desert Dweller",
 			{
 				"name": "Lifelong Resistance Leader",
-				"description": "Once per turn, may spend a maneuver to allow one ally within medium range to perform an action as an out-of-turn incidental."
+				"description": "Once per turn, may spend a maneuver to allow one ally within Medium range to perform an action as an out-of-turn incidental."
 			},
 			{
 				"name": "Prideful Piloting",
-				"description": "While Hera pilots the Ghost, that vehicle’s silhouette counts as 3."
+				"description": "While Hera pilots the Ghost, that vehicle’s Silhouette counts as 3."
 			}
 		],
-		"weapons": ["Holdout Blaster Pistol"],
-		"gear": ["Heavy clothing (+1 Soak)", "Encrypted Comlink", "Goggles", "Tool kit"],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Heavy clothing (+1 Soak)", "Encrypted comlink", "Goggles", "Tool kit"],
 		"tags": ["book:dor", "rebel alliance", "spectres", "species:Twi’lek"]
 	},
 	{
@@ -1877,14 +1877,14 @@
 				}
 		],
 		"weapons": ["Arc welder"],
-		"gear": ["Emergency repair kit", "Encrypted Comlink", "Goggles", "Tool kit", "Booster rocket (allows Chopper to fly, as per the rules in the Flying sidebars in Chapter VI: Conflict and Combat in the core rulebooks)"],
+		"gear": ["Emergency repair kit", "Encrypted comlink", "Goggles", "Tool kit", "Booster rocket (allows Chopper to fly, as per the rules in the Flying sidebars in Chapter VI: Conflict and Combat in the core rulebooks)"],
 		"tags": ["book:dor", "rebel alliance", "spectres", "species:droid"]
 	},
 	{
 		"name": "Spectre 4: Garazeb “Zeb” Orrelios",
 		"type": "Nemesis",
-		"description": "“Zeb” Orrelios is the last living Lasat, as far as most people know. Most galaxtic denizens are unaware of these large, powerful bipeds; those who are aware believe the entire species wiped out by the Empire after they protested the Emperor’s actions. What even fewer know is that Lasan wasn’t the actual Lasat homeworld, only the world most Lasat lived on. Zen was a member of the Lasan Honor GUard, armed with one of its signature b-rifles and charged with protecting its royal family and populace. That he was unable to do so continually drives his hatred for the Empire, and led to his joining Hera Syndulla’s crew.\n\nZeb often provides the key muscle and firepower a mission needs, but the others can overlook the tactical combat skills given his rough nature. He was also instrumental in rediscovering the true Lasat homeworld of Lira San, buried deep in Wild Space. Seeing a thriving Lasat populace here drives him to fight agains the Empire even harder. Now he is defending his people, instead of avenging them.",
-		"notes": "gun takes a maneuver to switch between profiles",
+		"description": "“Zeb” Orrelios is the last living Lasat, as far as most people know. Most galactic denizens are unaware of these large, powerful bipeds; those who are aware believe the entire species wiped out by the Empire after they protested the Emperor’s actions. What even fewer know is that Lasan wasn’t the actual Lasat homeworld, only the world most Lasat lived on. Zen was a member of the Lasan Honor Guard, armed with one of its signature b-rifles and charged with protecting its royal family and populace. That he was unable to do so continually drives his hatred for the Empire, and led to his joining Hera Syndulla’s crew.\n\nZeb often provides the key muscle and firepower a mission needs, but the others can overlook the tactical combat skills given his rough nature. He was also instrumental in rediscovering the true Lasat homeworld of Lira San, buried deep in Wild Space. Seeing a thriving Lasat populace here drives him to fight agains the Empire even harder. Now he is defending his people, instead of avenging them.",
+		"notes": "Bo-rifle takes a maneuver to switch between profiles",
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 3,
@@ -1943,8 +1943,8 @@
 				"qualities": ["Cumbersome 3", "Defensive 1", "Disorient 2", "Knockdown", "Stun Setting"]
 			}
 		],
-		"gear": ["Lasan Honor Guard armor (+1 soak, +1 defence), encrypted comlink"],
-		"tags": ["book:dor", "rebel alliance", "spectres", "species: Lasat"]
+		"gear": ["Lasan Honour Guard armour (+1 Soak, +1 Defence)", "Encrypted comlink"],
+		"tags": ["book:dor", "rebel alliance", "spectres", "species:Lasat"]
 	},
 	{
 		"name": "Spectre 5: Sabine Wren",
@@ -1987,13 +1987,13 @@
 		"talents": ["Stalker 2", "Swift",
 			{
 				"name": "Pistols Blazing",
-				"description": "As an incidental, suffer 1 strain to avoid increasing the difficulty of a Ranged: Light check to attack with two pistol weapons."
+				"description": "As an incidental, suffer 1 Strain to avoid increasing the difficulty of a Ranged: Light check to attack with two pistol weapons."
 			}
 		],
 		"abilities": [
 			{
 				"name": "Mandalorian Maneuvers",
-				"description": "once per encounter when using a maneuver to move, may add :setback: to incoming attacks untilt he beginning of Sabine’s next turn."
+				"description": "once per encounter when using a maneuver to move, may add :setback: to incoming attacks until the beginning of Sabine’s next turn."
 			}
 		],
 		"weapons": [
@@ -2006,13 +2006,13 @@
 				"qualities": ["Accurate 1", "Stun Setting"]
 			}
 		],
-		"gear": ["Mandalorian jetpack (allows user to function as a silhouette 1, speed 2, handling 0, system strain threshold 4 vehicle that can only operate in atmosphere, and requires \"Piloting: Planetary\" to operate), Mandalorian battle armor (vacuum sealed, integrated encrypted comlink, adds :boost: to ranged attacks, +2 soak, +1 defence), various explosives and detonators, pair of ArtCannon Airbrushes with extra and propellant canisters, tool kit"],
+		"gear": ["Mandalorian jetpack (allows user to function as a Silhouette 1, Speed 2, Handling 0, System Strain Threshold 4 vehicle that can only operate in atmosphere, and requires \"Piloting: Planetary\" to operate)", "Mandalorian battle armour (vacuum sealed, integrated encrypted comlink, adds :boost: to ranged attacks, +2 Soak, +1 Defence)", "Various explosives and detonators", "Pair of ArtCannon Airbrushes with extra and propellant canisters", "Tool kit"],
 		"tags": ["book:dor", "rebel alliance", "spectres"]
 	},
 	{
 		"name": "Spectre 6: Ezra Bridger",
 		"type": "Nemesis",
-		"description": "In perhaps an auspicious coincidence, Ezra Bridger was born on the same day as the Empire began its life. It was that Empire that made him an orphan when it dragged his parents away for speaking out against it. Ezra grew up as a minor thief and con artist to survive. This ended when he not only aided the Spectres in a mission on his homeworld of Lothal, but revealed Force abilities to the ex-Padawan Kanan Jarrus - powers Ezra himself had no idea he possessed. Joining the crew, Ezra has since acted as spy, warrior, and missions leader for the Spectres. His skills in using the Force and wielding a lightsaber have also grown impressively under Kanan’s training. Despite this, Ezra is often irritated that he has no become more powerful and impatient to see the Empire’s thread to his friends ended once and for all.\n\nSInce joining the Spectres and later Phoenix Cell, Ezra traveled far frmo Lothal and encountered wonders and dangers he never imagined as a petty crook in Capital City’s back alleys. Where once he lived only for himself, he's become a member of the *Ghost* family but also a part of the growing rebellion against the Empire. His wider experiences have also changed his goal of revenge for the deaths of his parents to that of ending the suffering and brutality it inflicts on beings everywhere. The depths of his feelings and eagerness for greater power to fight his foes more effectively, though, means he seems at many times to be just one step away from falling to the dark side.",
+		"description": "In perhaps an auspicious coincidence, Ezra Bridger was born on the same day as the Empire began its life. It was that Empire that made him an orphan when it dragged his parents away for speaking out against it. Ezra grew up as a minor thief and con artist to survive. This ended when he not only aided the Spectres in a mission on his homeworld of Lothal, but revealed Force abilities to the ex-Padawan Kanan Jarrus - powers Ezra himself had no idea he possessed. Joining the crew, Ezra has since acted as spy, warrior, and missions leader for the Spectres. His skills in using the Force and wielding a lightsaber have also grown impressively under Kanan’s training. Despite this, Ezra is often irritated that he has no become more powerful and impatient to see the Empire’s thread to his friends ended once and for all.\n\nSInce joining the Spectres and later Phoenix Cell, Ezra traveled far from Lothal and encountered wonders and dangers he never imagined as a petty crook in Capital City’s back alleys. Where once he lived only for himself, he’s become a member of the *Ghost* family but also a part of the growing rebellion against the Empire. His wider experiences have also changed his goal of revenge for the deaths of his parents to that of ending the suffering and brutality it inflicts on beings everywhere. The depths of his feelings and eagerness for greater power to fight his foes more effectively, though, means he seems at many times to be just one step away from falling to the dark side.",
 		"notes": "",
 		"characteristics": {
 			"Brawn": 2,
@@ -2071,13 +2071,13 @@
 				"qualities": ["Disorient 3", "Stun damage"]
 			}
 		],
-		"gear": ["Padded Armour (+2 soak), Encrypted Comlink, collection of Imperial helmets"],
+		"gear": ["Padded Armour (+2 Soak)", "Encrypted comlink", "Collection of Imperial helmets"],
 		"tags": ["book:dor", "rebel alliance", "spectres"]
 	},
 	{
 		"name": "Captain Rex",
 		"type": "Nemesis",
-		"description": "Captain Rex is not “officially” one of the Spectres, but he has fought closely at their side in many battles and missions. Officially designated CT-7567, he gained his nickname of Rex during the Clone Wars, where he became a captain and served under General Anakin Skywalker. He also formed close ties with Skywalker’s young Padawan, Ahsoka Tano. Rex and a few other clones had removed the implanted chips that Order 66 triggered, but almost all otehrs hadn't and Jedi everywhere fell in a hail of blaster fire. After the war, Rex and his comrades escaped to Seelos, where they thought they would live out what was left of their artificially accellerated lives hunting gigantic joopa worms. Years later, Ahsoka, now a leader in the Rebellion, sent the Spectres to find him as a source of possible new bases. After working jointly to repel an imperial attack, Rex decided to rejoin the fight with his old friend plus his new ones.\n\nThat is not to say relations with the crew aboard the *Ghost* have always been good. Kanan Jarrus was especially distrustful of Rex and his fellow clones on sight, recalling the wole that clone troopers had in murdering his Jedi master and destroying the Order. It was only through several shared missions that Kana came to respect the ex-trooper, and now values Rex’s judgement especially in combat situations. As someone with extensive tactical training plus years of battlefront experience, Rex has become an invaluable part of the Spectres and Phoenix Cell as they battle against Imperial forces grows from simple hit-and-run attacks to larger strategic assaults.",
+		"description": "Captain Rex is not “officially” one of the Spectres, but he has fought closely at their side in many battles and missions. Officially designated CT-7567, he gained his nickname of Rex during the Clone Wars, where he became a captain and served under General Anakin Skywalker. He also formed close ties with Skywalker’s young Padawan, Ahsoka Tano. Rex and a few other clones had removed the implanted chips that Order 66 triggered, but almost all otehrs hadn’t and Jedi everywhere fell in a hail of blaster fire. After the war, Rex and his comrades escaped to Seelos, where they thought they would live out what was left of their artificially accelerated lives hunting gigantic joopa worms. Years later, Ahsoka, now a leader in the Rebellion, sent the Spectres to find him as a source of possible new bases. After working jointly to repel an imperial attack, Rex decided to rejoin the fight with his old friend plus his new ones.\n\nThat is not to say relations with the crew aboard the *Ghost* have always been good. Kanan Jarrus was especially distrustful of Rex and his fellow clones on sight, recalling the role that clone troopers had in murdering his Jedi master and destroying the Order. It was only through several shared missions that Kanan came to respect the ex-trooper, and now values Rex’s judgement especially in combat situations. As someone with extensive tactical training plus years of battlefront experience, Rex has become an invaluable part of the Spectres and Phoenix Cell as they battle against Imperial forces grows from simple hit-and-run attacks to larger strategic assaults.",
 		"notes": "",
 		"characteristics": {
 			"Brawn": 3,
@@ -2113,7 +2113,7 @@
 		"abilities": [
 			{
 				"name": "Joopa Worm Pattern!",
-				"description": "As a maneuver, make a :hard: Leadership check to allow allies wihin short range who move in their following turn to gain +1 defence for the remainder of the round."
+				"description": "As a maneuver, make a :hard: Leadership check to allow allies within Short range who move in their following turn to gain +1 Defence for the remainder of the round."
 			}
 		],
 		"weapons": [
@@ -2126,7 +2126,7 @@
 				"qualities": ["Stun Setting", "Superior"]
 			}
 		],
-		"gear": ["Clone trooper armour (+2 soak), Encrypted Comlink"],
+		"gear": ["Clone trooper armour (+2 Soak)", "Encrypted comlink"],
 		"tags": ["book:dor", "rebel alliance", "spectres", "clone trooper"]
 	},
 	{
@@ -2168,7 +2168,7 @@
 		"abilities": [
 			{
 				"name": "Deadly Programming",
-				"description": "When using personal weapons, a;;ied droids within medium range of VIzago add :boost: their ranged attacks."
+				"description": "When using personal weapons, allied droids within medium range of Vizago add :boost: their ranged attacks."
 			},
 			{
 				"name": "Resilient Metabolism",
@@ -2185,7 +2185,7 @@
 				"qualities": ["Stun Setting", "Superior", "Pierce 1"]
 			}
 		],
-		"gear": ["Armoured clothing (+1 soak, +1 defence), droid control remote, the Broken Horn"],
+		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Droid control remote", "The Broken Horn"],
 		"tags": ["book:dor", "broken horn syndicate", "species:Devaronian"]
 	},
 	{
@@ -2222,17 +2222,17 @@
 		"abilities": ["Desert Dweller",
 			{
 				"name": "For Ryloth!",
-				"description": "Once per session, may reroll a failed Leadership check when leading Twi’leks."
+				"description": "Once per session, may re-roll a failed Leadership check when leading Twi’leks."
 			}
 		],
 		"weapons": ["Blaster rifle"],
-		"gear": ["Ryloth combat uniform (+1 soak)"],
+		"gear": ["Ryloth combat uniform (+1 Soak)"],
 		"tags": ["book:dor", "species:Twi’lek"]
 	},
 	{
 		"name": "Numa",
 		"type": "Nemesis",
-		"description": "More than even Cham Syndulla, Numa's life has been consumed by warfare-and like Cham, she has little love for outsiders after having being betrayed by her former liberators. As a child, she was rescued by Republic clone troopers during the Clone Wars. Her admiration for those seemingly heroic soldiers was destroyed when the Empire rose to power. Men she had affectionally called “nerra”, or brother, as a child turned their weapons on her and put her in bonds. After agents of the newly formed Free Ryloth Movement rescued her, Numa came to distrust outsiders, perhaps even more so than her mentor, Cham Syndulla. Her dedication, ingenuity, and natural aptitude with explosive devices led her to her meteoric rise among the freedom fighters, until she became one of Cham's most trusted agents. Her commitment to the Free Ryloth Movement is matched only by her lingering sense of loss and betrayal. Though she rarely speaks and has a public persona of aloof coldness, Numa cares deeply about Ryloth and its people.",
+		"description": "More than even Cham Syndulla, Numa’s life has been consumed by warfare-and like Cham, she has little love for outsiders after having being betrayed by her former liberators. As a child, she was rescued by Republic clone troopers during the Clone Wars. Her admiration for those seemingly heroic soldiers was destroyed when the Empire rose to power. Men she had affectionally called “nerra”, or brother, as a child turned their weapons on her and put her in bonds. After agents of the newly formed Free Ryloth Movement rescued her, Numa came to distrust outsiders, perhaps even more so than her mentor, Cham Syndulla. Her dedication, ingenuity, and natural aptitude with explosive devices led her to her meteoric rise among the freedom fighters, until she became one of Cham’s most trusted agents. Her commitment to the Free Ryloth Movement is matched only by her lingering sense of loss and betrayal. Though she rarely speaks and has a public persona of aloof coldness, Numa cares deeply about Ryloth and its people.",
 		"notes": "",
 		"characteristics": {
 			"Brawn": 2,
@@ -2277,7 +2277,7 @@
 				"qualities": ["Blast 8", "Limited Ammo 1"]
 			},
 			{
-				"name": "Armor-piercing grenade",
+				"name": "Armour-piercing grenade",
 				"skill": "Ranged: Light",
 				"damage": 13,
 				"critical": 4,
@@ -2285,7 +2285,7 @@
 				"qualities": ["Blast 6", "Limited Ammo 1", "Pierce 3"]
 			}
 		],
-		"gear": ["Ryloth combat uniform (+1 soak)", "3 Frag grenades", "3 Armor piercing grenades"],
+		"gear": ["Ryloth combat uniform (+1 Soak)", "3 Frag grenades", "3 Armour piercing grenades"],
 		"tags": ["book:dor", "species:Twi’lek"]
 	},
 	{
@@ -2323,13 +2323,13 @@
 		"talents": ["Adversary 2", "Lethal Blows 2",
 				{
 				"name": "Deadly Results 2",
-				"description": "As an incidental, may spend 2 Destiny points to reduce the ciritical rating his pistols to 1 for the next attack he makes."
+				"description": "As an incidental, may spend 2 Destiny points to reduce the critical rating of his pistols to 1 for the next attack he makes."
 				}
 		],
 		"abilities": [
 				{
 				"name": "Mandalorian Commander",
-				"description": "As an action, may make an :average: Leadership check. Each :success: allows one Mandalorian ally within short range to make an immediate maneuver as an out-of-turn incidental."
+				"description": "As an action, may make an :average: Leadership check. Each :success: allows one Mandalorian ally within Short range to make an immediate maneuver as an out-of-turn incidental."
 				}
 		],
 		"weapons": [
@@ -2342,7 +2342,7 @@
 				"qualities": ["Stun Setting"]
 			}
 		],
-		"gear": ["Mandalorian jetpack (allows user to function as a silhouette 1, speed 2, handling 0, system strain threshold 4 vehicle that can only operate in atmosphere, and requires \"Piloting: Planetary\" to operate), Mandalorian battle armor (vacuum sealed, integrated encrypted comlink, adds :boost: to ranged attacks, +2 soak, +1 defence)"],
+		"gear": ["Mandalorian jetpack (allows user to function as a Silhouette 1, Speed 2, Handling 0, System Strain Threshold 4 vehicle that can only operate in atmosphere, and requires \"Piloting: Planetary\" to operate)", "Mandalorian battle armour (vacuum sealed, integrated encrypted comlink, adds :boost: to ranged attacks, +2 Soak, +1 Defence)"],
 		"tags": ["book:dor", "species:Mandalorian", "pilot"]
 	},
 	{
@@ -2379,7 +2379,7 @@
 		"abilities": [
 				{
 				"name": "Diversionary Valor",
-				"description": "Once per round as an out-of-turn incidental, Azmorigan can cause one ranged attack targeting him ti target one engaged ally instead."
+				"description": "Once per round as an out-of-turn incidental, Azmorigan can cause one ranged attack targeting him to target one engaged ally instead."
 				}
 		],
 		"weapons": ["Blaster pistol"],
@@ -2524,18 +2524,14 @@
 			"Vigilance": 1
 		},
 		"talents": ["Adversary 2", "Kill with Kindness 1", "Nobody’s Fool 2", "Plausible Deniability 1"],
-		"abilities": [
+		"abilities": ["Luck Be a Lady",
 				{
 				"name": "Idiot’s Array",
 				"description": "Once per encounter, may turn :triumph: from another character’s skill check related to a game of chance into :despair:."
-				},
-				{
-				"name": "Luck Be A Lady",
-				"description": "Once per encounter, may reroll a single skill check."
 				}
 		],
 		"weapons": ["Blaster pistol"],
-		"gear": ["Fine clothing", "Wristmounted comlink"],
+		"gear": ["Fine clothing", "Wrist-mounted comlink"],
 		"tags": ["book:dor", "smuggler", "gambler"]
 	},
 	{
@@ -2723,7 +2719,7 @@
 		},
 		"skills": ["Computers", "Mechanics", "Perception"],
 		"abilities": ["Droid", "Silhouette 0"],
-		"gear": ["Built-in repair tools (counts as a tool kit and an emergency repair kit that can be used once per session)", "comlink", "retractable manipulators"],
+		"gear": ["Built-in repair tools (counts as a tool kit and an emergency repair kit that can be used once per session)", "Comlink", "Retractable manipulators"],
 		"tags": ["book:dor", "species:Droid"]
 	}
 ]

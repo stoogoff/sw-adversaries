@@ -448,6 +448,10 @@
 		"description": "Add :boost: lo all checks made to defend its designated master."
 	},
 	{
+		"name": "Luck Be a Lady",
+		"description": "Once per encounter, Lando may reroll a skill check."
+	},
+	{
 		"name": "Magnetic Sense",
 		"description": "All Devlikk gain :boost: on any Coordination or Piloting checks and know which way is north at all times."
 	},

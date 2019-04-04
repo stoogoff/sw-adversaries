@@ -67,7 +67,7 @@
 	{
 		"name": "Dual-Phase",
 		"type": "Active",
-		"description": "May change blade length once per encounter as an incidental. The next attack that turn she makes using this weapon ignores the target melee defense."
+		"description": "May change blade length once per encounter as an incidental. The next attack that turn made using this weapon ignores the target’s melee defense."
 	},
 	{
 		"name": "Ensnare",

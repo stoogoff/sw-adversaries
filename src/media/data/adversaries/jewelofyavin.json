@@ -34,12 +34,7 @@
 			"Vigilance": 1
 		},
 		"talents": ["Adversary 2", "Kill with Kindness 1", "Nobody’s Fool 2", "Plausible Deniability 2"],
-		"abilities": [
-					{
-						"name": "Luck Be a Lady",
-						"description":"Once per encounter, Lando may reroll a skill check."
-					}
-				],
+		"abilities": ["Luck Be a Lady"],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Fine clothing", "Dashing cloak", "Wrist-mounted comlink", "As the Baron Administrator, Lando has access to immense wealth and resources, but carries very little with him."],
 		"tags": ["underworld", "adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin"]
