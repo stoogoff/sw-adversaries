@@ -41,6 +41,15 @@ For Windows:
 - Then run `npm install react@15.6.1`, and then `npm install react-dom@15.6.1`.
 - To build from the build directory, run node_modules\.bin\gulp dev build, or node_modules\.bin\gulp live build.
 
+## Host Locally
+
+For Windows:
+
+- In the build directory, run `npm install http-server -g`
+- Run `http-server ../dev -c-1 -p 8010` to start a local server on port 8010 with no caching. In your browser, navigate to http://localhost:8010
+- If you want to see changes reflected immediately, open a new Powershell/CMD window and run `gulp dev watch` in the build directory
+- Change any of the watched files (including the JSON data files) and refresh the browser to see the changes
+
 ## Gulp
 
 Main tasks:
@@ -169,10 +178,11 @@ Main tasks:
 - career books
 	- AoR
 		- Fully Operational
-		- *Cyphers and Masks (not released)*
+		- Cyphers and Masks
 	- FaD
 		- Disciples of Harmony
-		- *Unlimited Power (not released)*
+		- Unlimited Power
+		- Knights of Fate
 
 ## TODO
 

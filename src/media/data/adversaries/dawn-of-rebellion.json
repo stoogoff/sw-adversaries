@@ -373,7 +373,7 @@
 		"tags": ["book:dor", "location:Dathomir", "adventure:Spirits of Madness"]
 	},
 	{
-		"name": "Shoretrooper",
+		"name": "Stormtrooper: Shoretrooper",
 		"type": "Minion",
 		"description": "Shoretroopers are Imperial stormtroopers trained in amphibious landing combat in coastal environments. They wear a modified version of stormtrooper armour over a heat-modulating dry suit that protects them from adverse atmospheric and geographic conditions where land meets water. They are typically stationed on watery worlds like Mon Cala or Scarif where their training and specialised equipment allow them to operate with little to no difficulty in and out of the water.",
 		"notes": "Squads may carry one heavy blaster rifle or one light repeating blaster as a support weapon.",
@@ -466,7 +466,7 @@
 	{
 		"name": "Commander Orson Krennic",
 		"type": "Nemesis",
-		"description": "Orson Krennic is as grasping and power hungry an officer as can be found in the Imperial military. A tall, steely-eyed officer in his middle years, Krennic was born on Lexrul, a heavily industrialised world in the Mid Rim. His parents were common labourers toiling away in one of the planet’s many shipyards, and he grew up solidly working-class. Always smart and ambitious, Krennic showed an aptitude for mechanics and engineering from an early age. Once his primary education was complete, he earned a place at the Republic Futures Programme on Brantaal, where he studied engineering and naval architecture.\n\nHe began his professional career designing space stations, during the run-up to the Clone Wars. Through a combination of grit, talent, and politicking, he quickly rose through the ranks during the conflict. By the time it came to an end, he had become a lieutenant commander attached to a powerful new battle station project based on stolen Separatist plans. Always a man who knew which way the wind was blowing, Krennic threw his lot in with the newly formed Galactic Empire. In the new Imperial Navy, his talent as a designer and his finely honed political instincts made him many, allies, and not a few enemies.\n\nKrennic ensured he became attached to the gigantic station’s early construction in orbit around Geonosis, and led the effort to design and construct its main weapon. This took many years, but his political skills and clever manipulations of the of others (especially a brilliant polymath he met while at the Futures Programme) always kept him one step ahead of his rivals. Despite frequent setbacks, the weapon is now finally ready for installation and testing. With this, Krennic is certain he will at last gain the recognition and rank he deserves.\n\nKrennic currently holds the title of Director of Advanced Weapons Research, and oversees the installation of the battle station’s super-laser. In this position, he wields an incredible amount of influence and power, and essentially commands the Death Star itself as it undergoes final testing. Unfortunately, he has made an enemy of one of the most powerful men in the Imperial Navy and a close ally of Darth Vader: Grand Moff Wilhuff Tarkin. Krennic and Tarkin despise one another. Krennic is jealous of Tarkin’s position and believes that he should be given complete command of the Death Star. Tarkin feels nothing but contempt for Krennic, seeing him as a lower-class upstart and a loose cannon who should have been drummed out years ago.",
+		"description": "Orson Krennic is as grasping and power hungry an officer as can be found in the Imperial military. A tall, steely-eyed officer in his middle years, Krennic was born on Lexrul, a heavily industrialised world in the Mid Rim. His parents were common labourers toiling away in one of the planet’s many shipyards, and he grew up solidly working-class. Always smart and ambitious, Krennic showed an aptitude for mechanics and engineering from an early age. Once his primary education was complete, he earned a place at the Republic Futures Programme on Brentaal, where he studied engineering and naval architecture.\n\nHe began his professional career designing space stations, during the run-up to the Clone Wars. Through a combination of grit, talent, and politicking, he quickly rose through the ranks during the conflict. By the time it came to an end, he had become a lieutenant commander attached to a powerful new battle station project based on stolen Separatist plans. Always a man who knew which way the wind was blowing, Krennic threw his lot in with the newly formed Galactic Empire. In the new Imperial Navy, his talent as a designer and his finely honed political instincts made him many, allies, and not a few enemies.\n\nKrennic ensured he became attached to the gigantic station’s early construction in orbit around Geonosis, and led the effort to design and construct its main weapon. This took many years, but his political skills and clever manipulations of the of others (especially a brilliant polymath he met while at the Futures Programme) always kept him one step ahead of his rivals. Despite frequent setbacks, the weapon is now finally ready for installation and testing. With this, Krennic is certain he will at last gain the recognition and rank he deserves.\n\nKrennic currently holds the title of Director of Advanced Weapons Research, and oversees the installation of the battle station’s super-laser. In this position, he wields an incredible amount of influence and power, and essentially commands the Death Star itself as it undergoes final testing. Unfortunately, he has made an enemy of one of the most powerful men in the Imperial Navy and a close ally of Darth Vader: Grand Moff Wilhuff Tarkin. Krennic and Tarkin despise one another. Krennic is jealous of Tarkin’s position and believes that he should be given complete command of the Death Star. Tarkin feels nothing but contempt for Krennic, seeing him as a lower-class upstart and a loose cannon who should have been drummed out years ago.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -504,7 +504,7 @@
 		"tags": ["book:dor", "empire", "imperial military"]
 	},
 	{
-		"name": "Death Trooper",
+		"name": "Stormtrooper: Death Trooper",
 		"type": "Rival",
 		"description": "Death Troopers are among the most elite special forces units in the Imperial Armed Forces. These highly trained, highly motivated warriors operate under the auspices of Imperial Intelligence. They are most often used as strike forces and as VIP protection for vital Imperial officials such as Commander Krennic and Grand Admiral Thrawn.\n\nWhile death troopers have virtually the entire Imperial military arsenal available to them, their standard-issue arms and armour are made for and issued solely to them. They wear an all-black version of standard stormtrooper armour that is lighter and provides better protection. Each suit is equipped with onboard systems including encrypted comlinks, multi-optic scanners, and stealth-enhancing gear to improve performance and survivability in the field. Death troopers’ bespoke weapons include a repeating blaster pistol, a sturdy blaster carbine, and a powerful heavy blaster rifle for long-range and squad support work. Adding to their disturbing aspect, they communicate amongst themselves using cybernetic signals that are indecipherable to organic ears and unsettling even to allies.\n\nThere are very few death troopers, and they are rarely seen in typical military encounters. Their existence is still considered a myth among much of the resistance. Rumours abound that they are somehow linked to experiments within the Advanced Weapons Research division to revive necrotic tissue, and thus arose their title. Word is slowly spreading, though, that these dangerous commandos do actually exist, and are as deadly as their name suggests.",
 		"characteristics": {
@@ -1220,7 +1220,7 @@
 	{
 		"name": "Agent Kallus",
 		"type": "Nemesis",
-		"description": "A human born on Coruscant, Kallus joined the ISB shortly after his graduation from the ROyal Imperial Academy. Initially, he worked on the ISB’s Internal Affairs and Investigations branches. After fighting insurgents on Onderon and participating in the cleansing of Lasan (where he acquired a rare bo-rifle), Kallus was transferred to Lothal under the command of Wullf Yularen to eliminate the resistance activity in that system.\n\nDuring his time on Lothal, Agent Kallus (code name ISB-021) met with repeated failure in his attempts to defeat the crew of the *Ghost*. These failures led to an escalation in his tactics, and Kallus worked with increasingly prominent Imperial agents to defeat the growing insurrections. Despite the setbacks he has faced, he displays a strong sense of personal honour. There are suspicions that the acts of the Empire have become dishonourable in his eyes, and that he could be turning traitor. However, few, if any, could ever believe that such a staunch and loyal example of Imperial efficiency could ever become disloyal.",
+		"description": "A human born on Coruscant, Kallus joined the ISB shortly after his graduation from the Royal Imperial Academy. Initially, he worked on the ISB’s Internal Affairs and Investigations branches. After fighting insurgents on Onderon and participating in the cleansing of Lasan (where he acquired a rare bo-rifle), Kallus was transferred to Lothal under the command of Wullf Yularen to eliminate the resistance activity in that system.\n\nDuring his time on Lothal, Agent Kallus (code name ISB-021) met with repeated failure in his attempts to defeat the crew of the *Ghost*. These failures led to an escalation in his tactics, and Kallus worked with increasingly prominent Imperial agents to defeat the growing insurrections. Despite the setbacks he has faced, he displays a strong sense of personal honour. There are suspicions that the acts of the Empire have become dishonourable in his eyes, and that he could be turning traitor. However, few, if any, could ever believe that such a staunch and loyal example of Imperial efficiency could ever become disloyal.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -1615,5 +1615,1111 @@
 		],
 		"gear": ["Robes of office", "Diplomatic comlink", "Secret encrypted comlink", "Datapad"],
 		"tags": ["book:dor", "rebel alliance", "senator"]
+	},
+	{
+		"name": "Ahsoka Tano",
+		"type": "Nemesis",
+		"description": "Ahsoka Tano is one of the rarest individuals in the galaxy: a nearly fully trained Jedi who escaped Order 66 and years of pursuit by Imperial Inquisitors and agents. The one-time Padawan of Anakin Skywalker left the Jedi Order when she lost faith in its actions after she was wrongfully suspected of a terrorist act. After Order 66, she tried to hide herself in the Outer Rim and no longer considered herself a Jedi. Her desire to help eventually re-emerged, drawing the attention of both the Empire and Bail Organa. Though she followed her own path, she also became Organa’s agent, codenamed Fulcrum. She was instrumental in growing the rebellion, until she discovered Darth Vader’s true identity. Their confrontation on Malachor, though, may have possibly been her final battle.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 13,
+			"strain": 14
+		},
+		"skills": {
+			"Astrogation": 1,
+			"Athletics": 2,
+			"Charm": 1,
+			"Coercion": 2,
+			"Cool": 2,
+			"Coordination": 3,
+			"Deception": 2,
+			"Discipline": 3,
+			"Gunnery": 1,
+			"Knowledge: Lore": 2,
+			"Knowledge: Warfare": 4,
+			"Knowledge: Underworld": 3,
+			"Lightsaber": 4,
+			"Leadership": 2,
+			"Mechanics": 2,
+			"Melee": 3,
+			"Perception": 3,
+			"Piloting: Planetary": 3,
+			"Piloting: Space": 2,
+			"Ranged: Light": 2,
+			"Stealth": 3,
+			"Streetwise": 4,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Ataru Technique", "Dodge 2", "Parry 3", "Force Rating 3", "Improved Reflect 3",
+			{
+				"name": "Saber Swarm",
+				"description": "As a maneuver, suffer 1 Strain to add the Linked 2 item quality on the Lightsaber combat check this turn."
+			}
+			],
+		"abilities": ["Force Power: Enhance", "Force Power: Move", "Force Power: Sense",
+			{
+				"name": "Fulcrum Leadership",
+				"description": "Allies within short range who know Ahsoka’s Fulcrum identity add automatic :advantage::advantage: to all skill checks."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Pair of lightsabers",
+				"skill": "Lightsaber",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder", "Dual-Phase"]
+			}
+		],
+		"gear": ["Padded armour (+2 Soak)", "Encrypted comlink"],
+		"tags": ["book:dor", "rebel alliance", "force sensitive", "species:Togruta"]
+	},
+	{
+		"name": "Commander Jun Sato",
+		"type": "Nemesis",
+		"description": "Jun Sato hails from Mykapo, a planet that saw the Empire’s power grow so onerous that multiple resistance uprisings sprung up against it. His own brother led one of the cells, the Iron Squadron. Later, thinking the cell lost when his brother died, Sato joined a rebel cell that oeprated in a wider area. As its commander he often displays a stern, by-the-book bearing. His dedication to the cause is second to none, and he is willing to make any sacrifice to protect his personnel and hasten the end of the Empire.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"strain": 15
+		},
+		"skills": {
+			"Astrogation": 2,
+			"Computers": 2,
+			"Cool": 2,
+			"Discipline": 3,
+			"Gunnery": 3,
+			"Knowledge: Outer Rim": 2,
+			"Knowledge: Warfare": 3,
+			"Leadership": 3,
+			"Negotiation": 2,
+			"Perception": 3,
+			"Piloting: Space": 2,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Command 2", "Commanding Presence 2", "Fire Control"],
+		"abilities": [
+				{
+					"name": "Evasive Action",
+					"description": "As an action, Sato may make a :hard: Leadership check; for every :success:, a Silhouette 4 or smaller allied starship or vehicle within Medium range may immediately perform the Evasive Maneuvers maneuver as an out of turn incidental without suffering Strain or System Strain; a Silhouette 5 or larger ship may take an immediate maneuver; on a :triumph:, the check applies to all allied ships within Medium range."
+					}
+				],
+		"weapons": ["Blaster Pistol"],
+		"gear": ["Padded armour (+2 Soak)", "Encrypted comlink"],
+		"tags": ["book:dor", "rebel alliance"]
+	},
+	{
+		"name": "Spectre 1: Kanan Jarrus",
+		"type": "Nemesis",
+		"description": "Kana Jarrus is a former Jedi Padawan whose master was killed in Order 66. Barely escaping, he quickly abandoned his birth name of Caleb Dume and spent years in the shadows avoiding Imperial notice as a minor smuggler and a pilot-for-hire. This life ended when Hera Syndulla encountered him in the Gorse system, where they worked together to thwart an Imperial noble from destroying a world to reap enormous profits. As part of theur battles, he revealed himself as a Force user and was later convinced to join her in fighting back against the Empire.\n\nKanan’s training from the Clone Wars has been invaluable in planning and executing missions the Spectres undertake, but perhaps his most important role is as mentor and instructor to Ezra Bridger. Finding another Force-sensitive has allowed Jarrus to put his master’s training to use again, though he often worries he is not up to the task and is afraid his impatient charge may be slowly falling to the darkness.These feelings became intensified when he was blinded in a ferocious combat with Maul on Malachor. Kanan now uses the Force to compensate for his lack of sight, and has also achieved a greater understanding of the Force through his interactions with the mysterious being known as Bendu.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 19,
+			"strain": 15
+		},
+		"skills": {
+			"Athletics": 3,
+			"Charm": 2,
+			"Brawl": 2,
+			"Cool": 2,
+			"Deception": 2,
+			"Discipline": 4,
+			"Knowledge: Underworld": 2,
+			"Lightsaber": 3,
+			"Melee": 2,
+			"Perception": 3,
+			"Piloting: Planetary": 3,
+			"Piloting: Space": 3,
+			"Ranged: Light": 3,
+			"Skulduggery": 2,
+			"Streetwise": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1", "Improved Reflect 3", "Improved Parry 3", "Force Rating 3", "Steely Nerves"],
+		"abilities": [
+			{
+				"name": "Force Power: Enhance",
+				"description": "When making a Resilience or Brawl check, Kanan may use this power."
+			},
+			{
+				"name": "Kanan’s Farsight",
+				"description": "Though blind, Kanan can use his connection to the Force to function as if sighted, He does not need to spend :forcepip:."
+			},
+			{
+				"name": "Force Power: Move",
+				"description": "Kanan may spend :forcepip: to increase the power’s range to Medium range or to increase the size of the object he can move to Silhouette 2."
+			}
+		],
+		"weapons": ["Blaster Pistol",
+		{
+				"name": "Lightsaber",
+				"skill": "Lightsaber",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder", "Modular"]
+			}
+		],
+		"gear": ["Padded armour (+2 Soak)", "Encrypted comlink"],
+		"tags": ["book:dor", "rebel alliance", "spectres", "force sensitive"]
+	},
+	{
+		"name": "Spectre 2: Hera Syndulla",
+		"type": "Nemesis",
+		"description": "Hera Syndulla is the daughter of Cham Syndulla, who fought for their Twi’lek homeworld of Ryloth against the Separatists, and now against the Empire in these even darker times. It was during the war that as a young girl she rescued and repaired an astromech droid known as Chopper from a crashed Republic starfighter. It was also during this time that she became fascinated with piloting. After her mother died and her father became more and more devoted to fighting only for Ryloth, Hera left to join a resistance movement against the Empire led by the secretive “Fulcrum”.\n\n Along the way Hera acquired the *Ghost*, and grew into an important Rebel commander as well as one of the best pilots around. As captain of the Spectres’ main vessel as well as de facto home for the group, she often serves as the one who settles arguments, ensures upkeep is done, and the final decider while the group is aboard.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13,
+			"strain": 14
+		},
+		"skills": {
+			"Astrogation": 2,
+			"Charm": 2,
+			"Computers": 1,
+			"Cool": 3,
+			"Coordination": 2,
+			"Deception": 3,
+			"Discipline": 1,
+			"Leadership": 3,
+			"Mechanics": 3,
+			"Perception": 3,
+			"Piloting: Planetary": 3,
+			"Piloting: Space": 4,
+			"Ranged: Light": 2,
+			"Streetwise": 4,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Master Pilot", "Skilled Jockey 2", "Supreme Full Throttle"],
+		"abilities": ["Desert Dweller",
+			{
+				"name": "Lifelong Resistance Leader",
+				"description": "Once per turn, may spend a maneuver to allow one ally within Medium range to perform an action as an out-of-turn incidental."
+			},
+			{
+				"name": "Prideful Piloting",
+				"description": "While Hera pilots the Ghost, that vehicle’s Silhouette counts as 3."
+			}
+		],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Heavy clothing (+1 Soak)", "Encrypted comlink", "Goggles", "Tool kit"],
+		"tags": ["book:dor", "rebel alliance", "spectres", "species:Twi’lek"]
+	},
+	{
+		"name": "Spectre 3: Chopper",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 13,
+			"strain": 12
+		},
+		"skills": {
+			"Astrogation": 3,
+			"Computers": 4,
+			"Cool": 2,
+			"Discipline": 2,
+			"Gunnery": 2,
+			"Melee": 1,
+			"Mechanics": 4,
+			"Perception": 2,
+			"Piloting: Planetary": 2,
+			"Piloting: Space": 3,
+			"Skulduggery": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Bad Motivator", "Gearhead 2", "Solid Repairs 2"],
+		"abilities": ["Droid",
+				{
+				"name": "Grumpy 1",
+				"description": "The first time a character targets Chopper with a social skill check during an encounter, upgrade the difficulty once. If the check generates :despair:, upgrade the difficulty of all subsequent social skill checks as well."
+				}
+		],
+		"weapons": ["Arc welder"],
+		"gear": ["Emergency repair kit", "Encrypted comlink", "Goggles", "Tool kit", "Booster rocket (allows Chopper to fly, as per the rules in the Flying sidebars in Chapter VI: Conflict and Combat in the core rulebooks)"],
+		"tags": ["book:dor", "rebel alliance", "spectres", "species:droid"]
+	},
+	{
+		"name": "Spectre 4: Garazeb “Zeb” Orrelios",
+		"type": "Nemesis",
+		"description": "“Zeb” Orrelios is the last living Lasat, as far as most people know. Most galactic denizens are unaware of these large, powerful bipeds; those who are aware believe the entire species wiped out by the Empire after they protested the Emperor’s actions. What even fewer know is that Lasan wasn’t the actual Lasat homeworld, only the world most Lasat lived on. Zen was a member of the Lasan Honor Guard, armed with one of its signature b-rifles and charged with protecting its royal family and populace. That he was unable to do so continually drives his hatred for the Empire, and led to his joining Hera Syndulla’s crew.\n\nZeb often provides the key muscle and firepower a mission needs, but the others can overlook the tactical combat skills given his rough nature. He was also instrumental in rediscovering the true Lasat homeworld of Lira San, buried deep in Wild Space. Seeing a thriving Lasat populace here drives him to fight agains the Empire even harder. Now he is defending his people, instead of avenging them.",
+		"notes": "Bo-rifle takes a maneuver to switch between profiles",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 17,
+			"strain": 14,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 4,
+			"Brawl": 3,
+			"Coercion": 2,
+			"Cool": 2,
+			"Coordination": 2,
+			"Gunnery": 2,
+			"Knowledge: Outer Rim": 2,
+			"Melee": 3,
+			"Perception": 3,
+			"Ranged: Heavy": 3,
+			"Resilience": 2,
+			"Stealth": 2,
+			"Survival": 2
+		},
+		"talents": ["Adversary 1", "Durable 2", "Physical Training 2"],
+		"abilities": [
+			{
+				"name": "Prehensile Feet",
+				"description": "Add :boost: to Athletics checks while climbing."
+			},
+			{
+				"name": "Lasat Combat Training",
+				"description": "When making a brawl of melee attack, Knockdown costs one less :advantage:."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Bo-rifle ranged",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Cumbersome 3", "Stun Setting"]
+			},
+			{
+				"name": "Bo-rifle melee",
+				"skill": "Melee",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Cumbersome 3", "Defensive 1", "Disorient 2", "Knockdown", "Stun Setting"]
+			}
+		],
+		"gear": ["Lasan Honour Guard armour (+1 Soak, +1 Defence)", "Encrypted comlink"],
+		"tags": ["book:dor", "rebel alliance", "spectres", "species:Lasat"]
+	},
+	{
+		"name": "Spectre 5: Sabine Wren",
+		"type": "Nemesis",
+		"description": "Sabine Wren is a Mandalorian of House Vizsla, a skilled mechanic and specialist in weapons development. She entered the Imperial Academy on Mandalore and there befriended fellow cadet Ketsu Onyo, but soon learned that the Empire was using her creations to oppress her people. When her family sided with the Empire instead of her, Sabine fled with Ketsu to become bounty hunters for a short time. This ended in a violent financial dispute that severed their friendship for years. Later, she joined Hera Syndulla’s growing resistance cell where she can put her mechanical combat abilities to their fullest use, often with quite explosive results.\n\nSabine’s demolitions talents are surpassed only by her artistic endeavors, and she takes every opportunity to paint colorful graffiti during Spectre operations. Some even say she might have a great future as an artist, should she survive the war against the Empire. Her Mandalorian heritage, though, may lead her to even greater accomplishments.",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12,
+			"strain": 13,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 3,
+			"Coercion": 1,
+			"Cool": 2,
+			"Coordination": 3,
+			"Gunnery": 2,
+			"Knowledge: Lore": 1,
+			"Mechanics": 3,
+			"Melee": 3,
+			"Perception": 2,
+			"Piloting: Planetary": 2,
+			"Piloting: Space": 2,
+			"Ranged: Heavy": 1,
+			"Ranged: Light": 3,
+			"Skulduggery": 2,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Stalker 2", "Swift",
+			{
+				"name": "Pistols Blazing",
+				"description": "As an incidental, suffer 1 Strain to avoid increasing the difficulty of a Ranged: Light check to attack with two pistol weapons."
+			}
+		],
+		"abilities": [
+			{
+				"name": "Mandalorian Maneuvers",
+				"description": "once per encounter when using a maneuver to move, may add :setback: to incoming attacks until the beginning of Sabine’s next turn."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Two blaster pistols",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Accurate 1", "Stun Setting"]
+			}
+		],
+		"gear": ["Mandalorian jetpack (allows user to function as a Silhouette 1, Speed 2, Handling 0, System Strain Threshold 4 vehicle that can only operate in atmosphere, and requires \"Piloting: Planetary\" to operate)", "Mandalorian battle armour (vacuum sealed, integrated encrypted comlink, adds :boost: to ranged attacks, +2 Soak, +1 Defence)", "Various explosives and detonators", "Pair of ArtCannon Airbrushes with extra and propellant canisters", "Tool kit"],
+		"tags": ["book:dor", "rebel alliance", "spectres"]
+	},
+	{
+		"name": "Spectre 6: Ezra Bridger",
+		"type": "Nemesis",
+		"description": "In perhaps an auspicious coincidence, Ezra Bridger was born on the same day as the Empire began its life. It was that Empire that made him an orphan when it dragged his parents away for speaking out against it. Ezra grew up as a minor thief and con artist to survive. This ended when he not only aided the Spectres in a mission on his homeworld of Lothal, but revealed Force abilities to the ex-Padawan Kanan Jarrus - powers Ezra himself had no idea he possessed. Joining the crew, Ezra has since acted as spy, warrior, and missions leader for the Spectres. His skills in using the Force and wielding a lightsaber have also grown impressively under Kanan’s training. Despite this, Ezra is often irritated that he has no become more powerful and impatient to see the Empire’s thread to his friends ended once and for all.\n\nSInce joining the Spectres and later Phoenix Cell, Ezra traveled far from Lothal and encountered wonders and dangers he never imagined as a petty crook in Capital City’s back alleys. Where once he lived only for himself, he’s become a member of the *Ghost* family but also a part of the growing rebellion against the Empire. His wider experiences have also changed his goal of revenge for the deaths of his parents to that of ending the suffering and brutality it inflicts on beings everywhere. The depths of his feelings and eagerness for greater power to fight his foes more effectively, though, means he seems at many times to be just one step away from falling to the dark side.",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12,
+			"strain": 14,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 1,
+			"Cool": 1,
+			"Deception": 2,
+			"Discipline": 1,
+			"Gunnery": 1,
+			"Knowledge: Underworld": 2,
+			"Lightsaber": 2,
+			"Ranged: Light": 2,
+			"Skulduggery": 2,
+			"Stealth": 2,
+			"Streetwise": 2,
+			"Survival": 1
+		},
+		"talents": ["Animal Empathy", "Indistinguishable 1", "Force Rating 2"],
+		"abilities": ["Force Power: Enhance", "Force Power: Foresee", "Force Power: Influence", "Keen Eyed 1", "Improved Reflect 2"],
+		"weapons": ["Heavy blaster pistol",
+			{
+				"name": "Lightsaber",
+				"skill": "Lightsaber",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Stun Setting"]
+			},
+			{
+				"name": "Custom lightsaber with blaster",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Stun Setting"]
+			},
+			{
+				"name": "Wrist-mounted slingshot",
+				"skill": "Ranged: Light",
+				"damage": 4,
+				"critical": 5,
+				"range": "Short",
+				"qualities": ["Disorient 3", "Stun damage"]
+			}
+		],
+		"gear": ["Padded Armour (+2 Soak)", "Encrypted comlink", "Collection of Imperial helmets"],
+		"tags": ["book:dor", "rebel alliance", "spectres"]
+	},
+	{
+		"name": "Captain Rex",
+		"type": "Nemesis",
+		"description": "Captain Rex is not “officially” one of the Spectres, but he has fought closely at their side in many battles and missions. Officially designated CT-7567, he gained his nickname of Rex during the Clone Wars, where he became a captain and served under General Anakin Skywalker. He also formed close ties with Skywalker’s young Padawan, Ahsoka Tano. Rex and a few other clones had removed the implanted chips that Order 66 triggered, but almost all otehrs hadn’t and Jedi everywhere fell in a hail of blaster fire. After the war, Rex and his comrades escaped to Seelos, where they thought they would live out what was left of their artificially accelerated lives hunting gigantic joopa worms. Years later, Ahsoka, now a leader in the Rebellion, sent the Spectres to find him as a source of possible new bases. After working jointly to repel an imperial attack, Rex decided to rejoin the fight with his old friend plus his new ones.\n\nThat is not to say relations with the crew aboard the *Ghost* have always been good. Kanan Jarrus was especially distrustful of Rex and his fellow clones on sight, recalling the role that clone troopers had in murdering his Jedi master and destroying the Order. It was only through several shared missions that Kanan came to respect the ex-trooper, and now values Rex’s judgement especially in combat situations. As someone with extensive tactical training plus years of battlefront experience, Rex has become an invaluable part of the Spectres and Phoenix Cell as they battle against Imperial forces grows from simple hit-and-run attacks to larger strategic assaults.",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16,
+			"strain": 13,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 3,
+			"Charm": 2,
+			"Coercion": 3,
+			"Cool": 3,
+			"Discipline": 4,
+			"Knowledge: Warfare": 2,
+			"Leadership": 4,
+			"Mechanics": 2,
+			"Perception": 3,
+			"Ranged: Heavy": 4,
+			"Ranged: Light": 4,
+			"Survival": 1,
+			"Vigilance":4
+		},
+		"talents": ["Adversary 1", "Coordinated Assault", "Commanding Presence 2", "Quick Draw", "Side Step 2", "Swift"],
+		"abilities": [
+			{
+				"name": "Joopa Worm Pattern!",
+				"description": "As a maneuver, make a :hard: Leadership check to allow allies within Short range who move in their following turn to gain +1 Defence for the remainder of the round."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Two blaster pistols",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting", "Superior"]
+			}
+		],
+		"gear": ["Clone trooper armour (+2 Soak)", "Encrypted comlink"],
+		"tags": ["book:dor", "rebel alliance", "spectres", "clone trooper"]
+	},
+	{
+		"name": "Cikatro Vizago",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"strain": 14,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Coercion": 2,
+			"Cool": 2,
+			"Deception": 4,
+			"Knowledge: Education": 1,
+			"Knowledge: Outer Rim": 1,
+			"Knowledge: Underworld": 2,
+			"Mechanics": 3,
+			"Negotiation": 3,
+			"Perception": 2,
+			"Piloting: Space": 2,
+			"Ranged: Light": 1,
+			"Resilience": 2,
+			"Skulduggery": 1,
+			"Streetwise": 3
+		},
+		"talents": ["Adversary 2", "Black Market Contacts 2", "Nobody’s Fool 1"],
+		"abilities": [
+			{
+				"name": "Deadly Programming",
+				"description": "When using personal weapons, allied droids within medium range of Vizago add :boost: their ranged attacks."
+			},
+			{
+				"name": "Resilient Metabolism",
+				"description": "Add automatic :success: to all Resilience checks."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Vilmarh’s Revenge",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Stun Setting", "Superior", "Pierce 1"]
+			}
+		],
+		"gear": ["Armoured clothing (+1 Soak, +1 Defence)", "Droid control remote", "The Broken Horn"],
+		"tags": ["book:dor", "broken horn syndicate", "species:Devaronian"]
+	},
+	{
+		"name": "Cham Syndulla",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 15,
+			"strain": 18
+		},
+		"skills": {
+			"Cool": 4,
+			"Deception": 2,
+			"Knowledge: Warfare": 5,
+			"Leadership": 2,
+			"Mechanics": 3,
+			"Negotiation": 3,
+			"Ranged: Heavy": 2,
+			"Resilience": 4,
+			"Survival": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Command 2", "Field Commander", "Inspiring Rhetoric"],
+		"abilities": ["Desert Dweller",
+			{
+				"name": "For Ryloth!",
+				"description": "Once per session, may re-roll a failed Leadership check when leading Twi’leks."
+			}
+		],
+		"weapons": ["Blaster rifle"],
+		"gear": ["Ryloth combat uniform (+1 Soak)"],
+		"tags": ["book:dor", "species:Twi’lek"]
+	},
+	{
+		"name": "Numa",
+		"type": "Nemesis",
+		"description": "More than even Cham Syndulla, Numa’s life has been consumed by warfare-and like Cham, she has little love for outsiders after having being betrayed by her former liberators. As a child, she was rescued by Republic clone troopers during the Clone Wars. Her admiration for those seemingly heroic soldiers was destroyed when the Empire rose to power. Men she had affectionally called “nerra”, or brother, as a child turned their weapons on her and put her in bonds. After agents of the newly formed Free Ryloth Movement rescued her, Numa came to distrust outsiders, perhaps even more so than her mentor, Cham Syndulla. Her dedication, ingenuity, and natural aptitude with explosive devices led her to her meteoric rise among the freedom fighters, until she became one of Cham’s most trusted agents. Her commitment to the Free Ryloth Movement is matched only by her lingering sense of loss and betrayal. Though she rarely speaks and has a public persona of aloof coldness, Numa cares deeply about Ryloth and its people.",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13,
+			"strain": 16
+		},
+		"skills": {
+			"Athletics": 2,
+			"Charm": 1,
+			"Cool": 2,
+			"Discipline": 3,
+			"Knowledge: Warfare": 2,
+			"Mechanics": 4,
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Resilience": 2,
+			"Stealth": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Powerful Blast 2"],
+		"abilities": ["Desert Dweller",
+			{
+				"name": "Hope for Ryloth!",
+				"description": "May spend :triumph: on a successful skill check to allow all Twi’lek characters within short range to add :boost: to next skill check they make during the current encounter."
+			}
+		],
+		"weapons": ["Light blaster pistol",
+			{
+				"name": "Frag grenade",
+				"skill": "Ranged: Light",
+				"damage": 8,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Blast 8", "Limited Ammo 1"]
+			},
+			{
+				"name": "Armour-piercing grenade",
+				"skill": "Ranged: Light",
+				"damage": 13,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Blast 6", "Limited Ammo 1", "Pierce 3"]
+			}
+		],
+		"gear": ["Ryloth combat uniform (+1 Soak)", "3 Frag grenades", "3 Armour piercing grenades"],
+		"tags": ["book:dor", "species:Twi’lek"]
+	},
+	{
+		"name": "Fenn Rau",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 19,
+			"strain": 16,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Coercion": 2,
+			"Cool": 2,
+			"Knowledge: Warfare": 2,
+			"Leadership": 2,
+			"Melee": 1,
+			"Piloting: Planetary": 2,
+			"Piloting: Space": 3,
+			"Ranged: Light": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Lethal Blows 2",
+				{
+				"name": "Deadly Results 2",
+				"description": "As an incidental, may spend 2 Destiny points to reduce the critical rating of his pistols to 1 for the next attack he makes."
+				}
+		],
+		"abilities": [
+				{
+				"name": "Mandalorian Commander",
+				"description": "As an action, may make an :average: Leadership check. Each :success: allows one Mandalorian ally within Short range to make an immediate maneuver as an out-of-turn incidental."
+				}
+		],
+		"weapons": [
+			{
+				"name": "Two heavy blaster pistols",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			}
+		],
+		"gear": ["Mandalorian jetpack (allows user to function as a Silhouette 1, Speed 2, Handling 0, System Strain Threshold 4 vehicle that can only operate in atmosphere, and requires \"Piloting: Planetary\" to operate)", "Mandalorian battle armour (vacuum sealed, integrated encrypted comlink, adds :boost: to ranged attacks, +2 Soak, +1 Defence)"],
+		"tags": ["book:dor", "species:Mandalorian", "pilot"]
+	},
+	{
+		"name": "Azmorigan",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 16,
+			"strain": 12,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Coercion": 2,
+			"Deception": 2,
+			"Knowledge: Outer Rim": 2,
+			"Knowledge: Underworld": 3,
+			"Leadership": 2,
+			"Negotiation": 2,
+			"Perception": 1,
+			"Skulduggery": 2,
+			"Streetwise": 2
+		},
+		"talents": ["Adversary 1", "Convincing Demeanor 1", "Black Market Contacts 2", "Nobody’s Fool 1"],
+		"abilities": [
+				{
+				"name": "Diversionary Valor",
+				"description": "Once per round as an out-of-turn incidental, Azmorigan can cause one ranged attack targeting him to target one engaged ally instead."
+				}
+		],
+		"weapons": ["Blaster pistol"],
+		"tags": ["book:dor", "underworld"]
+	},
+	{
+		"name": "Hondo Ohnaka",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"strain": 15,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 1,
+			"Deception": 4,
+			"Knowledge: Outer Rim": 1,
+			"Knowledge: Underworld": 2,
+			"Leadership": 3,
+			"Melee": 1,
+			"Leadership": 2,
+			"Negotiation": 2,
+			"Perception": 1,
+			"Piloting: Space": 3,
+			"Ranged: Light": 2,
+			"Skulduggery": 3,
+			"Stealth": 1,
+			"Streetwise": 2
+		},
+		"talents": ["Adversary 2", "Smooth Talker 2", "Kill with Kindness 1", "Just Kidding! [Improved]"],
+		"abilities": ["Pheromone Communication",
+				{
+				"name": "Distracting Quip",
+				"description": "Once per encounter as an action, may make a :hard: Deception check. Each :success: gives Hondo +1 ranged and melee defence for the next two rounds."
+				}
+		],
+		"weapons": [
+			{
+				"name": "Modified holdout blaster",
+				"skill": "Ranged: Light",
+				"damage": 4,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			}
+		],
+		"tags": ["book:dor", "pirate", "underworld", "species:Weequay"]
+	},
+	{
+		"name": "Ketsu Onyo",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16,
+			"strain": 16
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 3,
+			"Cool": 1,
+			"Coordination": 2,
+			"Knowledge: Underworld": 2,
+			"Melee": 2,
+			"Perception": 1,
+			"Piloting: Space": 1,
+			"Ranged: Light": 2,
+			"Stealth": 2,
+			"Streetwise": 1,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1", "Dodge 2", "Lethal Blows 1", "Stalker 1"],
+		"abilities": [
+				{
+				"name": "Combat Acrobatics",
+				"description": "After a successful combat attack, may stow or draw a single item as an incidental."
+				}
+		],
+		"weapons": ["Vibro-ax",
+			{
+				"name": "Two light blaster pistols",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			}
+		],
+		"gear": ["Laminate armour (+2 Soak)", "The Shadow Caster"],
+		"tags": ["underworld", "bounty hunter", "book:dor"]
+	},
+	{
+		"name": "Lando Calrissian",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 15,
+			"strain": 16
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 2,
+			"Deception": 3,
+			"Discipline": 2,
+			"Knowledge: Core Worlds": 1,
+			"Knowledge: Underworld": 2,
+			"Negotiation": 3,
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Skulduggery": 2,
+			"Stealth": 1,
+			"Streetwise": 1,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 2", "Kill with Kindness 1", "Nobody’s Fool 2", "Plausible Deniability 1"],
+		"abilities": ["Luck Be a Lady",
+				{
+				"name": "Idiot’s Array",
+				"description": "Once per encounter, may turn :triumph: from another character’s skill check related to a game of chance into :despair:."
+				}
+		],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Fine clothing", "Wrist-mounted comlink"],
+		"tags": ["book:dor", "smuggler", "gambler"]
+	},
+	{
+		"name": "DTS-Series Dismantler droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 15,
+			"defence": [0, 1]
+		},
+		"skills": {
+			"Computers": 3,
+			"Mechanics": 4,
+			"Perception": 3,
+			"Ranged: Heavy": 1
+		},
+		"talents": ["Adversary 1", "Gearhead 1", "Solid Repairs 2"],
+		"abilities": ["Droid", "Flyer", "Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Cutting torch",
+				"skill": "Ranged: Heavy",
+				"damage": 10,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Blast 5", "Breach 1", "Burn 3", "Vicious 3"]
+			},
+			{
+				"name": "Vibrosaw",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Sunder", "Breach 1", "Vicious 2"]
+			},
+			{
+				"name": "Dismantling manipulators",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Sunder"]
+			}
+		],
+		"gear": ["Built-in repair tools (counts as a tool kit and an emergency repair kit that can be used once per session)"],
+		"tags": ["book:dor", "species:Droid"]
+	},
+	{
+		"name": "ID9 Seeker Droid",
+		"type": "Minion",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": ["Computers", "Coordination", "Melee", "Stealth"],
+		"abilities": ["Droid", "Flyer", "Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Shock prod",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 2", "Stun Damage"]
+			},
+			{
+				"name": "Ion Disruptor",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Ion"]
+			}
+		],
+		"tags": ["book:dor", "species:Droid"]
+	},
+	{
+		"name": "IG-RM Series Enforcer Droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 13,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Coercion": 3,
+			"Cool": 2,
+			"Melee": 3,
+			"Perception": 3,
+			"Ranged: Heavy": 3,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 1", "Body Guard 2"],
+		"abilities": ["Droid"],
+		"weapons": [
+			{
+				"name": "DLT-18 Heavy blaster rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 10,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Auto-Fire", "Cumbersome 3"]
+			}
+		],
+		"tags": ["book:dor", "species:Droid"]
+	},
+	{
+		"name": "KX-Series Enforcer Droid",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 15,
+			"strain": 12
+		},
+		"skills": {
+			"Brawl": 3,
+			"Coercion": 4,
+			"Computers": 3,
+			"Cool": 2,
+			"Perception": 3,
+			"Ranged: Heavy": 3,
+			"Ranged: Light": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Nobody’s Fool 2"],
+		"abilities": ["Droid"],
+		"tags": ["book:dor", "species:Droid"]
+	},
+	{
+		"name": "MSE-Series Maintenance Droid",
+		"type": "Minion",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 3
+		},
+		"skills": ["Computers", "Mechanics", "Perception"],
+		"abilities": ["Droid", "Silhouette 0"],
+		"gear": ["Built-in repair tools (counts as a tool kit and an emergency repair kit that can be used once per session)", "Comlink", "Retractable manipulators"],
+		"tags": ["book:dor", "species:Droid"]
 	}
 ]

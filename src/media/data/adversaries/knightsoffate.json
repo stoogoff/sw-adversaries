@@ -1,0 +1,37 @@
+[
+	{
+		"name": "ASP-19 Battle Droid",
+		"type": "Nemesis",
+		"description": "In the ancient days of the Mandalorian Wars, the Mandalorians rode into battle on nightmarish war droids called Basilisks. More sentient than most droids, Basi­lisks were heavily armed and could even fly through space. Most were destroyed when the Mandalorians lost the war thousands of years ago, and most of the galaxy has mercifully forgotten they exist.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 22,
+			"strain": 22
+		},
+		"skills": {
+			"Melee": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1", "Crippling Blow", "Knockdown"],
+		"abilities": ["Droid", "Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Claw",
+				"skill": "Melee",
+				"damage": 7,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"tags": ["book:kof", "species:Droid"]
+	}
+]

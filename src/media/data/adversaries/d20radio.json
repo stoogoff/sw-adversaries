@@ -1,0 +1,921 @@
+[
+	{
+		"name": "Stormtrooper: Storm Commando",
+		"type": "Rival",
+		"description": "",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 13
+		},
+		"skills": {
+			"Melee": 2,
+			"Perception": 1,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 2,
+			"Skulduggery": 2,
+			"Stealth": 3
+		},
+		"talents": ["Adversary 1", "Stalker 2"],
+		"abilities": ["Shadowed", "Swipe 1"],
+		"weapons": ["Blaster carbine", "Light blaster pistol", "Vibroknife"],
+		"gear": ["Storm Commando armor (+2 soak) (Laminate) with Enhanced Optics suite (removes up to 2 Setback from Perception, Vigilance and combat checks, due to darkness, smoke, fog or other environment effects that obscure vision)", "Encrypted commlink"],
+		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
+		"devOnly": true
+	},
+	{
+		"name": "Stormtrooper: Storm Commando Officer",
+		"type": "Nemesis",
+		"description": "Storm Commandos are the Empire’s elite fighting force, formed in direct response to the Rebellion’s guerrilla warfare tactics. Also known as shadow scouts, these troops are selected and trained to conduct special operations under demanding circumstances where regular troops prove incapable. In turn, those officers who lead storm commandos into battle are nothing less than exemplary. Only the most dedicated, skilled, and knowledgeable officers are selected to lead after undergoing grueling physical and mental tests originally instituted by the now-defector Crix Madine. Generally, Storm Commando Officers are deployed on the battlefield in one of two roles. First, and most common, is for these officers to directly lead Storm Commando groupings of 5-50 commandos on special operations. Planning and executing operations is the commando officer’s bread and butter. More rarely though, Storm Commando Officers can be deployed to mentor, and indeed lead for, other Imperial or affiliated force commanders. While not often discussed, a small team of Storm Commandos led by an experienced officer can turn even the greenest planetary defense militia into a dangerous weapon of war. These officers are supported and protected by a hand-picked team of 2-5 commandos. At the GM’s discretion, this command team can also train supported forces providing them a Boost die in Mass Combat.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 20,
+			"strain": 18,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Cool": 2,
+			"Discipline": 3,
+			"Knowledge: Warfare": 3,
+			"Leadership": 3,
+			"Melee": 2,
+			"Perception": 2,
+			"Ranged: Heavy": 3,
+			"Ranged: Light": 3,
+			"Resilience": 2,
+			"Stealth": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Barrage 1", "Commanding Presence 2", "Point Blank 1", "Ready for Anything 2"],
+		"abilities": ["Tactical Direction"],
+		"weapons": [
+			{
+				"name": "Blaster rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Stun Setting", "Forearm Grip", "Weapon Sling"]
+			}
+		],
+		"gear": ["storm commando armour (+1 soak, defense 1, reflective coating [upgrade stealth checks once, sensors cannot detect the wearer subject to GM discretion], enhanced optics suite),long range comlink, utility belt, extra reloads"],
+		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
+		"devOnly": true
+	},
+	{
+		"name": "Nik Kormir, Resistance Purchaser",
+		"type": "Rival",
+		"description": "Well dressed, confident, salt and pepper hair. This human male, called Mr. Smooth by his admirers in the casino, carries himself as a successful gambler. Turning a few heads, he is nothing special compared to the true high rollers of Canto Bight. Just respected enough to look as if he belongs, Nik Kormir subtly moves among the scores of weapons manufacturers and arms brokers living the high life. Kormir relies on hiding in plain site to evade the notice of the First Order, purchasing quietly and arranging all deliveries to be off world. If discovered, his primary goal will be escape and evade. He will fight to break contact, but doesn’t finish off downed enemies, instead using his energy to flee. Kormir fears most capture and slow interrogation by the First Order, and will do anything possible to avoid that fate.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 16,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Deception": 2,
+			"Discipline": 2,
+			"Negotiation": 3,
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Skulduggery": 1,
+			"Stealth": 2
+		},
+		"talents": ["Adversary 1", "Convincing Demeanor 2","Natural Negotiator"],
+		"weapons": ["Holdout blaster", "Molecular stiletto"],
+		"gear": ["covertly armored dinner jacket (+1 soak, +1 defense)", "encrypted datapad with financial data and weapons procurement lists, encrypted long range comlink"],
+		"tags": ["source:D20Radio.com NPC’s", "resistance"],
+		"devOnly": true
+	},
+	{
+		"name": "Gruuzhnag",
+		"type": "Nemesis",
+		"description": "“Look, I’ve known old Gruuzhnag for the better part of 30 years. Sure, he might look like the rest of those pigs, but that’s where you’d be wrong. You’ll never meet a better doctor or mechanic this far outside of civilization. Yeah, the parts for his cybernetics are cobbled together, but what can you expect so far out in the Rim? And I can assure you he has no love for the Empire. And the last goomba who stuck his nose into the pig’s chop shop walked away minus an arm. As long as you’ve got the credits, he’ll help you out. Just don’t ask about his scars. Trust me on that one.” \n\nBackground: Gruuzhnag was a brilliant Gamorrean even by the standards of species noted for their intelligence. He was taken with ideas that were so far above the primitive qualities of his kin that he quickly found himself ostracized from a very early age. He eventually stole away on a passing freighter that had stopped down for a few days to avoid an Imperial patrol. He quickly made an impression on the ship’s captain when he found the young Gruuzhnag disassembling and reassembling some auxiliary components. He was almost immediately put to work under the tutelage of the ship’s doctor, who was also serving as chief engineer. It wasn’t long before Gruuzhnag began to pick up on the doctor’s medical knowledge and started to put together some rudimentary methods to marry his mechanical and medical knowledge.\n\nHe was planning on using the money he earned aboard the ship to enter into an academy in the Core Worlds, but never got the chance. Taken captive in a pirate raid, Gruuzhnag was sold into slavery – specifically into the gladiatorial circuit. Forced to fight or die, Gruuzhnag chose to fight, learning how to survive in the arena, leveraging the natural inclinations of his species to give himself a needed edge.\n\nOver the months he was there, he also started to win several of the other gladiators to his side. This proved useful when he decided it was time to break out. He staged a daring attempt, leading his few fellow gladiators in overpowering the guards and escaping into the countryside. Unfortunately, they were pursued by a larger force and caught several kilometers outside of the arena’s walls. They fought valiantly but in the resulting battle, Gruuzhnag’s force was utterly decimated and the Gamorrean himself left for dead, having lost both of his arms. Somehow, he managed to avoid death and dragged himself several more kilometers to the nearest settlement. He found an abandoned garage with several still functioning droids. He used them to help construct himself some rudimentary prosthetics and then managed to smuggle himself off world.\n\nGruuzhnag has since set himself up deep in the Outer Rim where he has made a small amount of notoriety for himself as a brilliant, if somewhat odd, cybernetic surgeon. His parts tend to be scavenged and secondhand, but no one can argue how durable and functional they are. He doesn’t like to talk about his past, but he keeps the vibroax that took his arms on the wall in his shop, and he’s not shy about using it if he needs to. Over the years he has patched himself some serviceable cybernetic replacements for the very basic prosthetics he originally constructed. He tends to conduct his actual business through his droids nowadays, very rarely speaking to the customers himself. But if you have need for his services, Gruuzhnag’s Chop Shop can probably help you.\n\nSuggested Use: Gruuzhnag can be a great contact for the player characters, especially if they desperately need medical attention and are stuck far out in the Rim away from civilization. If they don’t have proper payment, Gruuzhnag’s stances against slavery and piracy can be leveraged as Obligation for the characters as he agrees to help them in return for helping him stamp out a particularly nasty group of slavers that is operating on the planet. Alternatively, if the PCs are the kind of group that find themselves routinely engaged in piracy and slavery, Gruuzhnag can be a very dangerous opponent on any Outer Rim world they attempt to acquire more merchandise on.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 20,
+			"strain": 18,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Cool": 2,
+			"Discipline": 3,
+			"Knowledge: Education": 2,
+			"Knowledge: Xenology": 2,
+			"Leadership": 1,
+			"Mechanics": 2,
+			"Medicine": 4,
+			"Melee": 3,
+			"Resilience": 3
+		},
+		"talents": ["Adversary 2", "Durable 2", "Gearhead 2", "Speak Binary 1", "Surgeon 2", "Utinni! 1"],
+		"abilities": [
+			{
+				"name": "Cybernetic Surgeon",
+				"description": "Gruuzhnag gains a boost die on any Medicine check made to install a cybernetic on an individual and Medicine checks made to treat any character with a cybernetic already installed."
+			}
+		],
+		"weapons": ["Vibro-ax"],
+		"gear": ["heavy clothes (+1 soak value)", "medpac", "tool kit", "Mod V cybernetic arms", "datapad."],
+		"tags": ["source:D20Radio.com NPC’s", "species:Gamorrean"],
+		"devOnly": true
+	},
+	{
+		"name": "Trandoshan Slaver (custom)",
+		"type": "Minion",
+		"description": "Trandoshans are infamous throughout the galaxy for their brutal slavers. While some slavers use deception or guile in capturing their slaves, Trandoshans prefer to use shock tactics to overwhelm any opposition and seize their prizes. Equipped with short range weapons, Trandoshan slavers use stealth to get as close as possible to their foes before launching a fierce assault of accelerated charged particles, blades, and electronets. While preferring stealth, these slavers are no cowards; they will fight tooth and claw to take and hold their targets. Since these slavers are armed to the teeth, they often find work between hunts as mercenaries and pirates in the Outer Rim.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 8
+		},
+		"skills": ["Coercion", "Cool", "Melee", "Ranged: Heavy", "Stealth"],
+		"weapons": ["Frag grenade",
+			{
+				"name": "Trandoshan ACP array shotgun",
+				"skill": "Ranged: Heavy",
+				"damage": 6,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Blast 5", "Vicious 1"]
+			},
+			{
+				"name": "Trandoshan ACP repeater gun",
+				"skill": "Ranged: Heavy",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Auto-Fire"]
+			},
+			{
+				"name": "Two vibroblades",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 2"]
+			},
+			{
+				"name": "Electronet",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": ["Ensnare 5", "Knockdown", "Limited Ammo 1", "Stun Damage"]
+			}
+		],
+		"gear": ["concealing civilian clothing (soak +1)"],
+		"tags": ["source:D20Radio.com NPC’s", "species:Trandoshan", "slaver"],
+		"devOnly": true
+	},
+	{
+		"name": "Trandoshan Heavy",
+		"type": "Nemesis",
+		"description": "These elite Trandoshan warriors were infamous as some of the most dangerous heavy assault mercenaries in the galaxy. Protected by thick plates of durasteel armor and armed with the devastating LS-150 heavy repeater, Trandoshan Heavies were found in mercenary companies and slaving parties throughout the Outer Rim. In battle, these mercenaries throw caution to the wind by wading into the heaviest enemy positions, heavy repeaters constantly shooting an unrelenting torrent of charged particles. Most boast hearty kill counts, commanding the respect of their fellow Trandoshans. This respect feeds both the Trandoshan Heavy’s stereotypical arrogance, as well as healthy credit accounts from the high pay and share of loot they demand.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 30,
+			"strain": 14
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 2,
+			"Coercion": 1,
+			"Melee": 2,
+			"Gunnery": 2,
+			"Perception": 1,
+			"Ranged: Heavy": 2,
+			"Resilience": 3
+		},
+		"talents": ["Adversary 1", "Durable 3",
+			{
+				"name": "Rain of Death",
+				"description": "perform the Rain of Death maneuver to ignore the increased difficulty due to the Auto-fire quality of attacks made this turn."
+			}
+		],
+		"abilities": [
+			{
+				"name": "Unflinching Barrage",
+				"description": "when attempting at attack using a weapon with the auto-fire quality, may forego the benefit of the Adversary talent until the start of his next turn to automatically activate auto-fire once."
+			}
+		],
+		"weapons": [
+			{
+				"name": "LS-150 heavy ACP repeater",
+				"skill": "Gunnery",
+				"damage": 13,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Autofire", "Cumbersome 4", "Pierce 2"]
+			},
+			{
+				"name": "LS-150 bayonet",
+				"skill": "Melee",
+				"damage": 8,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Inaccurate 2", "Pierce 2", "Vicious 2"]
+			}
+		],
+		"gear": ["heavily plated armor (soak +3)"],
+		"tags": ["source:D20Radio.com NPC’s", "mercenary", "species:Trandoshan"],
+		"devOnly": true
+	},
+	{
+		"name": "Trandoshan Scavenger Droid",
+		"type": "Minion",
+		"description": "Originally used for civilian applications such as search and rescue, these heavily modified drones have been refit for piracy. The ionization beam, originally used to disable malfunctioning electronics blocking rescue efforts, has been overcharged to disable shields and even cause damage to organic opponents. Their salvage drills have been upgraded with vibro components capable of savagely cutting through heavy infantry armor. With these upgrades, these so called “scav droids” serve as support to Trandoshan mercenaries in an anti-infantry role during boarding actions. The droids, equipped with repulsorlifts and stealth programming, are often dispatched ahead of the assault to disable ship defenses and terrorize the crew. When the boarding action begins in earnest the droids shift to direct support. Once a ship or structure is secured the droids turn their weapons to their original purpose and assist in salvaging any items of value.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com\n\nOn a successful hit the scavenger droid is attached to its target and will stay engaged even if the target moves, this condition ends if the droid is damaged",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": ["Coordination", "Mechanics", "Melee", "Ranged: Light", "Stealth"],
+		"weapons": [
+			{
+				"name": "Ionizing beam",
+				"skill": "Ranged: Light",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Ion"]
+			},
+			{
+				"name": "Scavenger drill",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 5", "Vicious 2"]
+			},
+			{
+				"name": "Suicide Attack",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Blast 5"]
+			}
+		],
+		"talents": ["Stalker 1"],
+		"abilities": ["Droid",
+				{
+				"name": "Hoverer",
+				"description": "scav droids do not have to spend additional maneuvers when navigating difficult terrain."
+				},
+				{
+				"name": "Suicide Attack",
+				"description": "If an attack puts the scav droid at exactly its wound threshold may make an immediate suicide attack. After resolving the suicide attack the scav droid is destroyed."
+				}				
+			],
+		"tags": ["source:D20Radio.com NPC’s", "species:Droid"],
+		"devOnly": true
+	},
+	{
+		"name": "Terentatek",
+		"type": "Nemesis",
+		"description": "The nightmarish terentatek are hulking creatures, similar in appearance to rancors but covered in spines and thick armored hide. Drawn to, and perhaps powered by, concentrations of dark side Force energy, terentateks inhabit caves and tombs connected to dark side Force traditions such as the Sith and Rakata.  Over the millennia, the Jedi have launched the Great Hunts. These hunts were concerted efforts to wipe out the scourge of these beasts by dispatching teams of trained Jedi across the galaxy. However, even where the Jedi cleansed entire worlds the terentatek would return generations later. Jedi scholars believe the terentatek enter hibernation and hiding when the dark side wanes in the galaxy, only to awaken and emerge in times of conflict and suffering. Despite their horrifying reputation, bold treasure hunters often seek out reports of terentatek sightings in hope that the beasts are evidence of undiscovered tombs and therefore unclaimed riches. Even when no tomb is present the lair of a terentatek may contain the remains, and equipment, of warriors such as the Jedi who died in battle against these beasts.",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 12,
+			"wounds": 50,
+			"strain": 38,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 3,
+			"Coercion": 1,
+			"Cool": 3,
+			"Discipline": 2,
+			"Perception": 3,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Silhouette 3",
+			{
+			"name": "Force Resistance",
+			"description": "When targeted by Force powers count the relevant skill to resist as having 5 ranks"
+			},
+			{
+			"name": "Sweep Attack",
+			"description": "the terentatek can spend a Triumph on a successful Brawl check using its massive claws to hit the target as well as anyone engaged with the target"
+			},
+			{
+			"name": "Dark Venom",
+			"description": "at the GM’s discretion a terentatek may have dark venom. if a character suffers unsoaked wounds from the terentatek’s claws or tusks, then that character is affected as per synthetic neurotoxin as per FaD 181 except the difficulty is 2 Challenge dice)"
+			}
+		],
+		"weapons": [
+			{
+				"name": "Massive claws",
+				"skill": "Brawl",
+				"damage": 15,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Ensnare", "Knockdown"]
+			},
+			{
+				"name": "Goring tusks",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 5", "Inaccurate 2"]
+			}
+		],
+		"gear": [""],
+		"tags": ["source:D20Radio.com NPC’s", "creature", "location:Moraband"],
+		"devOnly": true
+	},
+	{
+		"name": "Terentatek Mauler",
+		"type": "Nemesis",
+		"description": "Within the darkest sanctums of ancient Sith tombs dwell the terentatek maulers. Tougher, stronger, and more deadly, the maulers stand solidary guard over the remains of powerful Sith Lords. Heavy bone plating ending in long spines cover the mauler dramatically increasing its resilience.",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 15,
+			"wounds": 75,
+			"strain": 38,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 3,
+			"Coercion": 1,
+			"Cool": 3,
+			"Discipline": 2,
+			"Perception": 3,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 3"],
+		"abilities": ["Silhouette 3",
+			{
+			"name": "Force Resistance",
+			"description": "When targeted by Force powers count the relevant skill to resist as having 5 ranks"
+			},
+			{
+			"name": "Sweep Attack",
+			"description": "the terentatek can spend a Triumph on a successful Brawl check using its massive claws to hit the target as well as anyone engaged with the target"
+			},
+			{
+			"name": "Dark Venom",
+			"description": "at the GM’s discretion a terentatek may have dark venom. if a character suffers unsoaked wounds from the terentatek’s claws or tusks, then that character is affected as per synthetic neurotoxin as per FaD 181 except the difficulty is 2 Challenge dice)"
+			}
+		],
+		"weapons": [
+			{
+				"name": "Massive claws",
+				"skill": "Brawl",
+				"damage": 15,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Ensnare", "Knockdown"]
+			},
+			{
+				"name": "Goring tusks",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 5", "Inaccurate 2"]
+			}
+		],
+		"gear": [""],
+		"tags": ["source:D20Radio.com NPC’s", "creature", "location:Moraband"],
+		"devOnly": true
+	},
+	{
+		"name": "Hssiss, Dark Side Dragon",
+		"type": "Nemesis",
+		"description": "Known to the Jedi archives as “Dark Side dragons,” the hssiss are savage reptilian predators known for their intimidating bulk and vicious ferocity. Hssiss have been used as war beasts for thousands of years, first by the ancient Sith and Great Bogga the Hutt and now in the strongholds of Outer Rim crime lords. Whether fought in the bowels of a crime lord’s dungeon, in an Outer Rim gladiatorial arena, or lying in wait within the swamps and ruins of former Sith worlds, a hssiss is a formidable adversary even the most skilled combatant. The hssiss’s impressive stalking abilities are augmented by a fact known by few researchers: the hssiss can cloak itself using the Dark Side of the Force. This ability, as well as a vulnerability to domination by wielders of the Dark Side, is a legacy of their service in the armies of the Sith.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 25,
+			"strain": 15,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Coercion": 1,
+			"Cool": 3,
+			"Discipline": 2,
+			"Perception": 2,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Force Rating 2", "Sleight of Mind 2"],
+		"abilities": ["Silhouette 2", "Darkside Force User", "Force Power: Misdirect",
+			{
+			"name": "Dark Servants",
+			"description": "when making checks to handle, tame, or otherwise socially interact with this creature a character may add Force dice to the check and spend Dark Side results to add success or advantage."
+			},
+			{
+			"name": "Dark Venom",
+			"description": "at the GM’s discretion a terentatek may have dark venom. if a character suffers unsoaked wounds from the terentatek’s claws or tusks, then that character is affected as per synthetic neurotoxin as per FaD 181 except the difficulty is 2 Challenge dice)"
+			}
+		],
+		"weapons": [
+			{
+				"name": "Powerful claws",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Linked 1", "Pierce 3", "Vicious 1"]
+			},
+			{
+				"name": "Pinning Bite",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1"]
+			}
+		],
+		"gear": [""],
+		"tags": ["source:D20Radio.com NPC’s", "creature", "location:Moraband"],
+		"devOnly": true
+	},
+	{
+		"name": "Tuk’ata",
+		"type": "Rival",
+		"description": "A living testament to the power of the Dark Side, the malevolent tuk’ata have been twisted by alchemy into the overly muscled hounds that guard Sith tombs to this day. The Dark Side has touched not only their bodies, but also has enhanced their minds beyond mere animal cunning. Tuk’ata are able to communicate with one another to coordinate ferocious ambushes on intruders, a trait they exploit by targeting the weakest member of an interloping group. Fearless and without mercy, these guardians will not stop biting and clawing until their victim is dead. However, the ancient alchemists long ago implanted deference to the Sith within the hound’s psyche. Force users who have embraced the Dark Side may be able to cow a tuk’ata into submission.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 20,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Coercion": 1,
+			"Cool": 3,
+			"Perception": 2,
+			"Stealth": 1,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Intimidating 2","Force Rating 1"],
+		"abilities": ["Darkside Force User", "Force Power: Sense",
+			{
+			"name": "Dark Servants",
+			"description": "when making checks to handle, tame, or otherwise socially interact with this creature a character may add Force dice to the check and spend Dark Side results to add success or advantage."
+			},
+			{
+			"name": "Pack Tactics",
+			"description": "add a Boost die to combat checks when engaged with another tuk’ata"
+			}
+		],
+		"weapons": [
+			{
+				"name": "Rending claws",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 1"]
+			},
+			{
+				"name": "Rows of teeth",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1", "Vicious 2"]
+			}
+		],
+		"tags": ["source:D20Radio.com NPC’s", "creature", "location:Moraband"],
+		"devOnly": true
+	},
+	{
+		"name": "Shyrack",
+		"type": "Minion",
+		"description": "Fiercely territorial, the bat-like shyrack make their nests in the caves and tombs of Moraband in massive swarms. These blind avian predators prefer to live and hunt in dark, enclosed spaces where their echolocation grants them the advantage. Although they will defend their nests with reckless frenzy, shyracks will not normally attack any but the smallest prey. This reclusive nature is mysteriously abandoned every 63rd summer on Moraband, when shyracks spill out of their caves to fill the sky. Old Republic biologists speculated this phenomenon was the result of tectonic resonance creating powerful ultrasonic noise, and that ultrasonic emitters could frenzy or even control shyrack swarms. With the rise of the Empire, such research has been removed from all but the most remote of libraries.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 4
+		},
+		"skills": ["Brawl", "Vigilance"],
+		"weapons": [
+			{
+				"name": "Razor teeth",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			}
+		],
+		"abilities": ["Flyer",
+			{
+			"name": "Echolocation",
+			"description": "Ignores concealment caused by darkness up to medium range."
+			}
+		],
+		"tags": ["source:D20Radio.com NPC’s", "creature", "location:Moraband"],
+		"devOnly": true
+	},
+	{
+		"name": "Mik-Los Arnet",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "Credits go to Linda Whitson, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15,
+			"strain": 13
+		},
+		"skills": {
+			"Athletics": 2,
+			"Knowledge: Xenology": 3,
+			"Leadership": 1,
+			"Medicine": 3,
+			"Melee": 1,
+			"Piloting: Planetary": 3,
+			"Ranged: Light": 3,
+			"Resilience": 1,
+			"Stealth": 2,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Surgeon 2", "Stimpack Specialist 2", "Forager", "Toughness 1", "Bacta Specialist 1"],
+		"weapons": ["Heavy blaster pistol",
+			{
+				"name": "Combat knife",
+				"skill": "Melee",
+				"plus-damage": 1,
+				"critical": 3,
+				"range": "Engaged"
+			}
+		],
+		"gear": ["Padded Armor (+2 Soak), Thermal cloak, Crash survival kit, 5 Stimpacks, Medpac (replaces basic medpac in Crash survival kit)"],
+		"tags": ["source:D20Radio.com NPC’s"],
+		"devOnly": true
+	},
+	{
+		"name": "Commander Abyss",
+		"type": "Nemesis",
+		"description": "Amis Abyss started out in Imperial Intelligence, the beneficiary of political connections. Several of those benefactors came to regret it, when Abyss reported them to the Imperial Security Bureau for real, and fabricated offenses, to ingratiate himself with ISB. As he hoped, he was rewarded with a transfer to ISB.\n\nLike many Imperials, Abyss considers non-humans lesser beings. Even lower than that, in his estimation, are Force-sensitives, who are “freaks”. A sentiment he hopes none of the Inquisitors he has worked with in the course of his duties ever guesses. His contempt is based in fear.",
+		"notes": "Credits go to Linda Whitson, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 5,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 24,
+			"strain": 25,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coercion": 3,
+			"Discipline": 2,
+			"Knowledge: Core Worlds": 2,
+			"Knowledge: Education": 2,
+			"Knowledge: Lore": 2,
+			"Knowledge: Outer Rim": 2,
+			"Knowledge: Underworld": 2,
+			"Knowledge: Warfare": 2,
+			"Knowledge: Xenology": 2,
+			"Leadership": 4,
+			"Melee": 4,
+			"Perception": 2,
+			"Piloting: Space": 1,
+			"Ranged: Light": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 3", "Crippling Blow", "Improved Scathing Tirade"],
+		"abilities": ["Aura of Command",
+			{
+			"name": "Imperial Valor",
+			"description": "may perform a maneuver to cause all ranged attacks targeting him to instead hit one ally or helpless enemy he is engaged with until the beginning of his next turn."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting", "Superior"]
+			},
+			{
+				"name": "Combat knife",
+				"skill": "Melee",
+				"plus-damage": 1,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 3", "Superior", "Vicious 1"]
+			}
+		],
+		"gear": ["Custom crimson ISB uniform w/light breastplate and latigo belt & boots (Armored Clothing Soak 1/Defense 1), encrypted comlink"],
+		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial security bureau"],
+		"devOnly": true
+	},
+	{
+		"name": "Kath Scarlet",
+		"type": "Nemesis",
+		"description": "Kath Scarlet is the captain of the Binayre Pirates, a small band of pirates operating in the Corellian Sector after the rise of the Empire. She earned her position of power by elevating the Binayre from a small-time swoop gang in the slums of Corellia to a full-fledged pirate organization. Her group has since grown significantly in size, but are still poorly regarded – even among the galactic underworld. This is due primarily to Kath’s reputation as an utterly ruthless pirate, double-crossing her employers and allies without a second thought when the credits are right. Her brazen and backstabbing approach to business is the responsible for the Binayre’s rapid rise to power but may also lead to its early demise.\n\nPersonality: Kath projects what she thinks of as a rakish air – reckless, vicious, and impertinent. However, beneath her audacious front lies a cunning and treacherous mind. Scarlet grew up in the worst areas of Coronet City on Corellia and feels entirely justified in taking nearly any action, no matter how nefarious, to ensure she keeps what little status she has amassed. She is capable of clever planning and isn’t afraid to bite off more than she can chew if she believes the reward outweighs the risks.\n\nTactics: Under Scarlet’s leadership, the Binayre mainly focus on hitting lightly guarded or unarmed ships throughout the Corellian Sector. Her starships and supplies are precious, and she won’t risk them unless the potential rewards are worth it. Intent on squeezing every last bit of profit from each prize, Scarlet often steals and fences both the ship and its cargo and has even been known to sell the target’s crew into slavery. This brutal and mercenary approach has given her a bad reputation, even among other pirate crews.",
+		"notes": "Credits go to Phillip Krzeminski, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"strain": 12,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Coercion": 2,
+			"Deception": 2,
+			"Gunnery": 2,
+			"Leadership": 2,
+			"Piloting: Space": 2,
+			"Ranged: Light": 2,
+			"Streetwise": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2",
+					{
+					"name": "Debilitating Shot",
+					"description": "Upon successful attack with a starship or vehicle weapon, may spend :advantage::advantage: to reduce the target's maximum Speed by 1 until the end of the next round"
+					},
+					{
+					"name": "Overwhelm Defenses",
+					"description": "(Upon successful attack with a starship or vehicle weapon, may spend :advantage::advantage: per rank of Overwhelm Defenses to reduce the Defense in the targeted zone by 1 for each :advantage::advantage: spent"
+					}
+		],
+		"abilities": [
+			{
+			"name": "Pirate Leader",
+			"description": "may spend a maneuver shouting orders to pirate allies in medium range, granting them :boost: to their next action."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Heavy blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting", "Inaccurate 1"]
+			}
+		],
+		"gear": ["Armored flightsuit (+1 soak/+1 defense), comlink, Bloodletter (modified Firespray patrol craft)"],
+		"tags": ["source:D20Radio.com NPC’s", "binayre pirate", "pilot", "pirate"],
+		"devOnly": true
+	},
+	{
+		"name": "Binayre Pirate",
+		"type": "Minion",
+		"description": "Even amongst pirates and smugglers, the Binayre are considered scum. The core members of the pirate crew cut their teeth as swoop gangers on the streets of Corellia and are consequently willing to kill, steal, and betray to hold onto the limited wealth and luxury they have acquired. The crew is a motley collection of species, but all are decent pilots and practiced killers. However, Kath is certainly the brains and talent behind their success and they all know it. As a result, she commands great loyalty among the gang, making her possibly the only one in the galaxy who these ruffians wouldn't stab in the back.",
+		"notes": "Credits go to Phillip Krzeminski, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [1, 0]
+		},
+		"skills": ["Gunnery", "Coercion", "Melee", "Ranged: Light", "Piloting: Space"],
+		"weapons": ["Blaster pistol",
+			{
+				"name": "Stun baton",
+				"skill": "Melee",
+				"plus-damage": 2,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Stun Setting", "Disorient 2"]
+			}
+		],
+		"gear": ["Heavy clothing (soak +1), comlink"],
+		"tags": ["source:D20Radio.com NPC’s", "binayre pirate", "pirate"],
+		"devOnly": true
+	},
+	{
+		"name": "Chell “Cold Case” Wi’eeda, Journeyman Hunter",
+		"type": "Rival",
+		"description": "Background: Born to an enslaved family of Tibanna gas miners on the Hutt controlled world of Sleheyron, Chell spent most of her youth dreaming of escaping the miserable living and working conditions of her family. Before long, she lost both parents (her mother died in an accident, and her father was sold without notice) and was forced to make her own way. Unfortunately, there are few opportunities for a slave child, least of all in Hutt controlled space.\n\nChell began to inform on other slaves to earn her meals and eventually turned to tracking escapees full-time once she bought her freedom. Now a fully licensed bounty hunter, Chell primarily patrols Hutt space (though she will still take Imperial contracts on criminals seeking refuge in the Hutt’s domain). She hasn’t brought in any high-profile targets yet, but her track record for recovering escaped slaves with icy detachment has earned her the nickname “Cold Case” – a moniker and reputation she has embraced by christening her first starship with it.\n\nChell has a well-earned reputation for pitiless, professional detachment. The conditions of her childhood taught her that she couldn't trust anyone and she would need to be ruthless to survive into adulthood. As a result, she rarely partners with other hunters and has trained a pack of Corellian hounds to assist her on hunts. She takes excellent care of her hounds and shows them more affection than she has ever shown another sentient being",
+		"notes": "Credits go to Phillip Krzeminski, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14
+		},
+		"skills": {
+			"Athletics": 1,
+			"Coordination": 1,
+			"Melee": 2,
+			"Negotiation": 1,
+			"Perception": 2,
+			"Ranged: Heavy": 2,
+			"Stealth": 3,
+			"Streetwise": 2,
+			"Survival": 3
+		},
+		"talents": ["Expert Tracker 2", "Heightened Awareness", "Hunter’s Quarry [Improved]"],
+		"weapons": [
+				{
+				"name": "Blastech M-300 Hunting Blaster",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 3,
+				"range": "Extreme",
+				"qualities": ["Accurate 1", "Cumbersome 2", "Pierce 2", "Stun Setting"]
+				},
+				{
+				"name": "KDY-21 Light blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Stun Setting"]
+				},
+				{
+				"name": "StunMaster Shock Prod",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Stun Damage", "Disorient 2"]
+				}
+		],
+		"gear": ["Padded armor (+2 Soak), binders, comlink, electrobinoculars, survival pack, six Corellian hounds, Cold Case (G-9 Rigger light freighter), R5 astromech droid"],
+		"tags": ["source:D20Radio.com NPC’s", "bounty hunter"],
+		"devOnly": true
+	},
+	{
+		"name": "Corellian Hounds",
+		"type": "Minion",
+		"description": "Also known as Sibian hounds, these fleet-footed canids have keen senses enhanced through generations of breeding for hunting and attack. Though originally native to Corellia, these beasts can be found all over the galaxy thanks to their aptitude as guard animals.",
+		"notes": "Credits go to Phillip Krzeminski, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": ["Athletics", "Brawl", "Perception", "Stealth", "Vigilance"],
+		"weapons": [
+			{
+				"name": "Teeth",
+				"skill": "Brawl",
+				"Damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1", "Pierce 1"]
+			}
+		],
+		"abilities": [
+			{
+			"name": "Scent",
+			"description": "Add :boost::boost: to Perception or Survival checks made to track prey."
+			}
+		],
+		"tags": ["source:D20Radio.com NPC’s", "creature"],
+		"devOnly": true
+	}
+]

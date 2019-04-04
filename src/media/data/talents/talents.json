@@ -53,7 +53,7 @@
 	},
 	{
 		"name": "Bad Motivator",
-		"description": ""
+		"description": "Once per session as an action, make a :hard: mechanics check to casue one targeted device to spontaneously fail."
 	},
 	{
 		"name": "Bad Press",
@@ -361,7 +361,7 @@
 	},
 	{
 		"name": "Dodge",
-		"description": ""
+		"description": "Once per round, when targeted by a combat check, suffer up to {ranks} Strain to upgrade the difficulty once per Strain spent."
 	},
 	{
 		"name": "Don’t Shoot",
@@ -544,10 +544,6 @@
 		"description": "Suffer 1 Strain to make an :average: Piloting: Planetary check as maneuver and in­crease top speed by 1 for {Cunning} rounds."
 	},
 	{
-		"name": "Full Throttle [Supreme]",
-		"description": ""
-	},
-	{
 		"name": "Galaxy Mapper",
 		"description": "Remove {ranks|setback} from all Astrogation checks; Astrogation checks take 25% less time per rank."
 	},
@@ -641,11 +637,11 @@
 	},
 	{
 		"name": "Hunter’s Quarry",
-		"description": "As an action make a :hard: Sur­vival check to upgrade the ability of all attacks against one target at Long range until the end of the big game hunter’s next turn."
+		"description": "As an action make a :hard: Survival check to upgrade the ability of all attacks against one target at Long range until the end of the big game hunter’s next turn."
 	},
 	{
 		"name": "Hunter’s Quarry [Improved]",
-		"description": ""
+		"description": "may take the Hunter’s Quarry action against an opponent within long range, making a :hard: Survival check. If the check succeeds, upgrade the ability of all attacks made against the target by one until the end of the character’s next turn. The character can choose to suffer 2 strain to perform the Hunter’s Quarry action as a maneuver instead"
 	},
 	{
 		"name": "Idealist",
@@ -761,7 +757,11 @@
 	},
 	{
 		"name": "Just Kidding!",
-		"description": ""
+		"description": "Once per round as an incidental, when the character or any of his allies in short range generages a :despair: on a social skill check, the character may spend one Destiny Point to convert a single :despair: generated on the check to :failure:. When he does this, he must explain what he says or does to smooth things over after the verbal misstep"
+	},
+	{
+		"name": "Just Kidding! [Improved]",
+		"description": "Once per round, spend one Destiny Point to convert a single :despair: on one social check to :advantage:, but must explain how the verbal misstep became advantageous."
 	},
 	{
 		"name": "Keen Eyed",
@@ -1074,7 +1074,7 @@
 	},
 	{
 		"name": "Physical Training",
-		"description": ""
+		"description": "Add {ranks|boost} to Athletics and Resistance checks."
 	},
 	{
 		"name": "Physician",
@@ -1178,7 +1178,7 @@
 	},
 	{
 		"name": "Ready for Anything",
-		"description": ""
+		"description": "Remove {ranks|setback} from mass combat made while the character is acting on the side of the acting force and the character’s Cool or Vigilance checks to determine Initiative order."
 	},
 	{
 		"name": "Redundant Systems",
@@ -1330,7 +1330,7 @@
 	},
 	{
 		"name": "Sleight of Mind",
-		"description": ""
+		"description": "Add {ranks|boost} to Stealth checks unless the opposition is immune to Force powers."
 	},
 	{
 		"name": "Slippery Minded",
@@ -1362,7 +1362,7 @@
 	},
 	{
 		"name": "Solid Repairs",
-		"description": ""
+		"description": "When repairing Hull Trauma on a starship or vehicle, repair +{ranks} Hull Trauma."
 	},
 	{
 		"name": "Soothing Tone",
@@ -1483,6 +1483,10 @@
 	{
 		"name": "Suppressing Fire",
 		"description": ""
+	},
+	{
+		"name": "Supreme Full Throttle",
+		"description": "As an action, make a :hard: piloting check to increase the vehicle’s top speed by two for three rounds; suffer 1 Strain to use as maneuver and reduce difficulty to :average:."
 	},
 	{
 		"name": "Surgeon",
@@ -1606,7 +1610,7 @@
 	},
 	{
 		"name": "Utinni!",
-		"description": ""
+		"description": "The character removes {ranks|setback} from checks made to find or scavenge items or gear. These checks could include Negotiation, Perception, or other checks. Such skill checks take half their normal time."
 	},
 	{
 		"name": "Valuable Facts",

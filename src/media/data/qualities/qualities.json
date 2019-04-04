@@ -65,6 +65,11 @@
 		"description": "The target is disoriented for a number of rounds equal to the weapon’s Disorient rating. A disorientated target adds :setback: to all skill checks."
 	},
 	{
+		"name": "Dual-Phase",
+		"type": "Active",
+		"description": "May change blade length once per encounter as an incidental. The next attack that turn made using this weapon ignores the target’s melee defense."
+	},
+	{
 		"name": "Ensnare",
 		"type": "Active",
 		"description": "The target is immobilized for a number of rounds equal to the weapon’s Ensnare rating. An ensnared target may attempt a :hard: Athletics check to attempt to break free."
@@ -103,6 +108,11 @@
 		"name": "Linked",
 		"type": "Active",
 		"description": "On a successful attack the wielder may activate to gain an additional hit and may do so a number of times equal to the weapon’s Linked rating."
+	},
+	{
+		"name": "Modular",
+		"type": "Passive",
+		"description": "Add :setback: to Perception checks to detect when disassembled."
 	},
 	{
 		"name": "Pierce",
