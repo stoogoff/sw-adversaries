@@ -91,6 +91,7 @@ Main tasks:
 	- Strongholds of Resistance
 	- Suns of Fortune
 	- Nexus of Power
+	- Dawn of Rebellion
 - career books
 	- *Dangerous Covenants (no stats)*
 	- Enter the Unknown (5 droids)
@@ -100,6 +101,7 @@ Main tasks:
 	- *Fly Casual (no stats)*
 	- *Forged in Battle (no stats)*
 	- Keeping the Peace
+	- Knights of Fate
 	- Lead by Example
 	- *No Disintegrations (no stats)*
 	- Savage Spirits
@@ -173,8 +175,6 @@ Main tasks:
 
 ### Missing Adversaries
 
-- source books
-	- Dawn of Rebellion
 - career books
 	- AoR
 		- Fully Operational
@@ -182,7 +182,6 @@ Main tasks:
 	- FaD
 		- Disciples of Harmony
 		- Unlimited Power
-		- Knights of Fate
 
 ## TODO
 

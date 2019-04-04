@@ -3,6 +3,7 @@
 		"name": "ASP-19 Battle Droid",
 		"type": "Nemesis",
 		"description": "In the ancient days of the Mandalorian Wars, the Mandalorians rode into battle on nightmarish war droids called Basilisks. More sentient than most droids, Basi­lisks were heavily armed and could even fly through space. Most were destroyed when the Mandalorians lost the war thousands of years ago, and most of the galaxy has mercifully forgotten they exist.",
+		"notes": "Cost 80,000 Credits, Rarity 9, Restricted",
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 2,
@@ -30,6 +31,94 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Vicious 1"]
+			}
+		],
+		"tags": ["book:kof", "species:Droid"]
+	},
+	{
+		"name": "SR-7 Series Scout / Observation Droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "Cost 13,000 Credits, Rarity 6, Restricted",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 13
+		},
+		"skills": {
+			"Athletics": 2,
+			"Computers": 3,
+			"Knowledge: Warfare": 3,
+			"Perception": 4,
+			"Ranged: Heavy": 2,
+			"Stealth": 4,
+			"Vigilance": 3
+		},
+		"abilities": ["Droid", "Flyer",
+			{
+				"name": "Forward Observer",
+				"description": "While observing a target, the SR-Series droid may perform a maneuver to upgrade the ability of the next Gunnery or Ranged: Heavy check an ally makes this turn against that target."
+			},
+			{
+				"name": "Optical Camouflage System",
+				"description": "When activated, the OCS upgrades the ability of all Stealth checks the SR-series droid makes twice."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Blaster scout carbine",
+				"skill": "Ranged: Heavy",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Auto-Fire", "Stun Setting"]
+			}
+		],
+		"gear": ["On-board optical camouflage system", "On-board optics/observation suite", "On-board comms suite with holo-transceiver"],
+		"tags": ["book:kof", "species:Droid"]
+	},
+	{
+		"name": "WSW MK-III “Harrier” Combat Remote",
+		"type": "Minion",
+		"description": "",
+		"notes": "Cost 6,000 Credits, Rarity 6, Restricted",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 8
+		},
+		"skills": ["Perception", "Ranged: Heavy", "Ranged: Light", "Vigilance"],
+		"abilities": ["Droid", "Flyer"],
+		"weapons": [
+			{
+				"name": "Repeating blaster",
+				"skill": "Ranged: Heavy",
+				"damage": 10,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Auto-Fire"]
+			},
+			{
+				"name": "Stun blaster",
+				"skill": "Ranged: Light",
+				"damage": 9,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Stun Damage"]
 			}
 		],
 		"tags": ["book:kof", "species:Droid"]
