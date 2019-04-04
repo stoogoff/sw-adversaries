@@ -107,6 +107,7 @@ Main tasks:
 	- Savage Spirits
 	- Special Modifications
 	- Stay on Target
+	- *Unlimited Power (no stats)*
 - beginner's games
 	- Age of Rebellion (Takeover at Whisper Base)
 	- Edge of the Empire (Escape from Mos Shuuta)
@@ -181,7 +182,6 @@ Main tasks:
 		- Cyphers and Masks
 	- FaD
 		- Disciples of Harmony
-		- Unlimited Power
 
 ## TODO
 
