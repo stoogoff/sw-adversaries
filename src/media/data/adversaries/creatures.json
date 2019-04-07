@@ -304,7 +304,7 @@
 				"qualities": ["Pierce 1", "Stun Damage"]
 			}
 		],
-		"tags": ["creature", "location:Hutt Space", "raquor’daan", "book:lonh"]
+		"tags": ["creature", "location:Hutt Space", "book:lonh"]
 	},
 	{
 		"name": "Dalgo",

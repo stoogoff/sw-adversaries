@@ -76,7 +76,7 @@
 			"Vigilance": 1
 		},
 		"gear": ["Breath mask", "Datapad", "Stylus"],
-		"tags": ["book:fad", "adventure:Lessons from the Past", "civilian", "scholar"]
+		"tags": ["book:fad", "adventure:Lessons from the Past", "civilian"]
 	},
 	{
 		"name": "Assistant City Administrator Tol Pirilian",
@@ -709,7 +709,7 @@
 		"talents": ["Adversary 1", "Master Grenadier", "Powerful Blast 2", "Selective Detonation 1", "Skilled Jockey 1", "Time to Go"],
 		"weapons": ["Blaster carbine", "Frag grenade"],
 		"gear": ["Padded armour (+2 Soak)", "3 Frag grenades"],
-		"tags": ["book:sor", "location:Sullust", "species:Sullustan", "sullustan resistance", "rebel alliance", "adventure:Claustrophobia"]
+		"tags": ["book:sor", "location:Sullust", "species:Sullustan", "rebel alliance", "adventure:Claustrophobia"]
 	},
 	{
 		"name": "Lt. Commander Gareth Agamar",

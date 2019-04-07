@@ -1456,7 +1456,7 @@
 				"notes": "Use Agility rather than Brawn with this weapon."
 			}
 		],
-		"tags": ["book:sof", "location:Corellian Sector", "adventure:Tunnel Delving", "oddity", "species:Selonian"]
+		"tags": ["book:sof", "location:Corellian Sector", "adventure:Tunnel Delving", "galactic oddity", "species:Selonian"]
 	},
 	{
 		"name": "Wingrider",

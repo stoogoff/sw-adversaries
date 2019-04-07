@@ -363,7 +363,7 @@
 		"abilities": ["Pheromone Communication"],
 		"weapons": ["Blaster carbine", "Vibroknife"],
 		"gear": ["Heavy clothing (+1 Soak)"],
-		"tags": ["adventure:Ghosts of Dathomir", "book:god", "species:Weequay", "location:Toydaria", "location:Merchant-Baron’s Mansion", "underworld", "thug", "gorensla"]
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "species:Weequay", "location:Toydaria", "location:Merchant-Baron’s Mansion", "underworld", "thug"]
 	},
 	{
 		"name": "Pravon, Gorensla Lieutenant",
@@ -394,7 +394,7 @@
 		"abilities": ["Pheromone Communication"],
 		"weapons": ["Blaster carbine", "Vibroknife"],
 		"gear": ["Heavy clothing (+1 Soak)", "Comlink", "Cybernetic voice box"],
-		"tags": ["adventure:Ghosts of Dathomir", "book:god", "species:Weequay", "location:Toydaria", "location:Merchant-Baron’s Mansion", "underworld", "thug", "gorensla"]
+		"tags": ["adventure:Ghosts of Dathomir", "book:god", "species:Weequay", "location:Toydaria", "location:Merchant-Baron’s Mansion", "underworld", "thug"]
 	},
 	{
 		"name": "“Boss” Trelon",

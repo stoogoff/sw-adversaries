@@ -445,7 +445,7 @@
 		"talents": ["Command 2", "Inspiring Rhetoric", "Kill with Kindness 2", "Nobody’s Fool 2"],
 		"abilities": ["Invoke Doellin"],
 		"gear": ["Comlink", "Datapad", "Tayan staff", "Priestly robes", "500 credits"],
-		"tags": ["civilian", "species:Gran", "location:Kinyen", "book:sor", "priest"]
+		"tags": ["civilian", "species:Gran", "location:Kinyen", "book:sor"]
 	},
 	{
 		"name": "Mon Calamari Mechanic",

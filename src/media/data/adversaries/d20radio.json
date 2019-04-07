@@ -32,6 +32,207 @@
 		"devOnly": true
 	},
 	{
+		"name": "Stormtrooper: Novatrooper",
+		"type": "Rival",
+		"description": "Throughout galactic history, empires have established guard units composed of elite troops equipped with superior weapons and armor, charging them with the most daring of military missions. The elite Novatroopers of the Imperial Stormtrooper corps follow this historical convention. Their distinctive reinforced black and gold armor is symbolic of the Novatroopers’ dual role. While rarely seen except at military parades and Imperial ceremonies, these honor guards are just as capable of conducting intense combat as they are looking sharp for the Imperial HoloNet news. The Novatroopers focus on instilling intense discipline within their ranks, even more so than regular Stormtroopers. Rumors circulate in Imperial military circles of extreme feats of discipline demanded in their training, such as executing traditional parade maneuver while subjected to tear gas. No matter their training methods, would-be assassins would do well to remember these guardsmen are more than just ceremonial – they will fight expertly and to the death to protect their charge.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 13,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Coercion": 2,
+			"Cool": 2,
+			"Discipline": 3,
+			"Melee": 3,
+			"Perception": 2,
+			"Ranged: Heavy": 3,
+			"Ranged: Light": 2,
+			"Resilience": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Body Guard 1"],
+		"abilities": [
+			{
+			"name": "Disciplined Guardsman",
+			"description": "Downgrade the difficulty of Discipline or Cool checks twice."
+			}
+		],
+		"weapons": ["Blaster rifle", "Frag grenade", "Vibroknife",
+			{
+				"name": "Ornate heavy blaster pistols",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun"]
+			},
+			{
+				"name": "Ornate vibrosword",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 1", "Defensive 1"]
+			}
+		],
+		"gear": ["novatrooper armor (+2 soak, +1 defense, as per heavy battle armor), utility belt, extra reloads, officers on ceremonial duties replace their rifles with ornate Heavy blaster pistols"],
+		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
+		"devOnly": true
+	},
+	{
+		"name": "Stormtrooper: Radtrooper",
+		"type": "Minion",
+		"description": "Radiation Zone Assault Troopers, or radtroopers to the common soldier, are specialist stormtroopers trained to operate in high intensity radiation environments. Armed and equipped with reinforced stormtroper armor, radiation hardened gear, and extensive training, these troopers can confidently conduct missions in even the most deadly radiation zones. To the public radtroopers provide the Empire with a capability to provide security in high radiation zones in certain planets and star systems, and to supplement local emergency responders in the event of fusion reactor meltdowns. Secretly, these troopers are often used to mop up after one of the Empire’s more heinous tactics. On worlds where the infrastructure is deemed vital to Imperial interest, but the population is considered expendable, a series of neutron bombs can be deployed to indiscriminately eliminate all life at the target. The radtroopers are sent in shortly after to root out any survivors, secure valuable infrastructure, and prepare reclamation for the Empire. Such brutal tactics are a closed guarded secret, and COMPNOR will stop at nothing to suppress the truth of these atrocities.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com\n\nCarbine has Rad Shielding (immune to the effects of radiation to Grade 5)",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 5,
+			"defence": [1, 1]
+		},
+		"skills": ["Athletics", "Computers", "Discipline", "Mechanics", "Melee", "Ranged: Heavy", "Resilience", "Survival"],
+		"weapons": [
+			{
+				"name": "Radtrooper carbine",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun"]
+			},
+			{
+				"name": "Force pike",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Stun"]
+			}
+		],
+		"gear": ["radtrooper armor (+2 soak; +1 defence, integrated comlink, macrobinocular plate, protects from the effects of radiation to Grade 5), survival pack (containing anti-radiation hypos and pills, radiation protection tent, water purifier, and emergency medpac), utility belt, extra reloads, each half-squad of four radtroopers has one long range comlink and one general purpose scanner calibrated for precise radiation detection."],
+		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
+		"devOnly": true
+	},
+	{
+		"name": "Imperial Army “Mudtrooper” Swamp Trooper",
+		"type": "Minion",
+		"description": "Imperial Army swamp troopers served as the army infantry’s combat specialists in wetlands environments. While all but phased out in favor of stormtroopers by the height of the Rebellion, these army troopers were relied upon to subjugate Imperial worlds during the first decades of the Empire. Equipped with partial armor, filtration systems, and survival gear, these troopers faced treacherous and disease-ridden environments nearly as deadly as their opponents. Fighting in these brutal conditions earned swamp troopers the moniker of “mudtrooper” after hellish battles on worlds such as Mimban.\n\nSwamp trooper duty was notoriously miserable. Few volunteered, with many in the ranks conscripted from planetary defense forces. Some were wash outs from the officer, stormtrooper, and starfighter corps. Others were army enlistees, signed on for a single term of service to gain skills or pay for university, unlucky enough to be assigned as swamp troopers. Whatever the source, mudtroopers were known as an unpredictably motley crew with unpredictable levels of discipline. Imperial high command often mitigated this by assigning mudtroopers to the first wave, with more reliable stormtroopers assigned as insurance against insubordination or cowardice.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": ["Ranged: Heavy", "Ranged: Light", "Survival"],
+		"weapons": ["Blaster rifle", "Frag grenade"],
+		"abilities": [{"name": "Mixed Motivations","description": "Add :boost::boost: and :setback::setback: to Discipline checks."}],
+		"gear": ["Army swamp trooper armor (+1 soak, may remove :setback::setback: due to muddy or swamp-like conditions), filtration mask, utility belt."],
+		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military"],
+		"devOnly": true
+	},
+	{
+		"name": "Corporal Danith Nodar",
+		"type": "Rival",
+		"description": "A fierce member of the 224th Imperial Armored Division, corporal Danith Nodar distinguished herself as a furious warrior in the trenches of Mimban. Sporting a conduct record pockmarked with military convictions and commendations alike, Nodar was assigned to Mimban as punishment for insubordination. Her previously promising career, set in motion as a graduate of the Carida academy, had been derailed after an incident on Marca. A zealous Imperial, she took her wrath out on any Mimbanese guerrilla she could lay her sights on. This fury has earned her the esteem of her 224th division superiors, esteem Nodar hopes will justify promotion despite her blemished record.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15
+		},
+		"skills": {
+			"Athletics": 2,
+			"Cool": 1,
+			"Coercion": 1,
+			"Leadership": 1,
+			"Melee": 2,
+			"Ranged: Heavy": 3,
+			"Ranged: Light": 3,
+			"Survival": 1,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1", "Confidence 2", "Lethal Blows 2"],
+		"weapons": ["E-22 blaster carbine", "Vibroknife", "Frag grenade",
+			{
+				"name": "E-22 blaster carbine",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Cumbersome 2", "Linked 1", "Stun Setting"]
+			}
+		],
+		"gear": ["Army swamp trooper armor (+1 soak, may remove :setback::setback: due to muddy or swamp-like conditions), filtration mask, utility belt."],
+		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
+		"devOnly": true
+	},
+	{
+		"name": "Stormtrooper: Mimban Stormtrooper",
+		"type": "Minion",
+		"description": "While not an official specialty corps, those stormtroopers assigned Mimban duty quickly developed equipment modifications and unique tactics. An integral part of the 224th Imperial Armored Division, these “Mimban stormtroopers” were considered by their commanders to be far more effective and reliable than their more humble mudtrooper brethren. As a result, the 224th’s commanders often combined mass numbers of mudtroopers with smaller detachments of stormtroopers. Stormtroopers served as an anchor for the less than reliable mudtroopers, while the mudtrooper’s superior numbers provided the stormtroopers a human shield.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 5
+		},
+		"skills": ["Athletics", "Discipline", "Ranged: Heavy", "Survival", "Vigilance"],
+		"weapons": [
+			"Blaster rifle", "Vibroknife", "Frag grenade",
+			{
+				"name": "E-22 blaster carbine",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Cumbersome 2", "Linked 1", "Stun Setting"]
+			}
+		],
+		"gear": ["Utility belt", "Extra reloads", "Mimban-modified stormtrooper armor (+2 soak, when making skill checks, may remove :setback::setback: due to muddy or swamp-like conditions)", "2 Frag grenades"],
+		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
+		"devOnly": true
+	},
+
+	{
 		"name": "Stormtrooper: Storm Commando Officer",
 		"type": "Nemesis",
 		"description": "Storm Commandos are the Empire’s elite fighting force, formed in direct response to the Rebellion’s guerrilla warfare tactics. Also known as shadow scouts, these troops are selected and trained to conduct special operations under demanding circumstances where regular troops prove incapable. In turn, those officers who lead storm commandos into battle are nothing less than exemplary. Only the most dedicated, skilled, and knowledgeable officers are selected to lead after undergoing grueling physical and mental tests originally instituted by the now-defector Crix Madine. Generally, Storm Commando Officers are deployed on the battlefield in one of two roles. First, and most common, is for these officers to directly lead Storm Commando groupings of 5-50 commandos on special operations. Planning and executing operations is the commando officer’s bread and butter. More rarely though, Storm Commando Officers can be deployed to mentor, and indeed lead for, other Imperial or affiliated force commanders. While not often discussed, a small team of Storm Commandos led by an experienced officer can turn even the greenest planetary defense militia into a dangerous weapon of war. These officers are supported and protected by a hand-picked team of 2-5 commandos. At the GM’s discretion, this command team can also train supported forces providing them a Boost die in Mass Combat.",
@@ -243,13 +444,13 @@
 		"talents": ["Adversary 1", "Durable 3",
 			{
 				"name": "Rain of Death",
-				"description": "perform the Rain of Death maneuver to ignore the increased difficulty due to the Auto-fire quality of attacks made this turn."
+				"description": "perform the Rain of Death maneuver to ignore the increased difficulty due to the Auto-Fire quality of attacks made this turn."
 			}
 		],
 		"abilities": [
 			{
 				"name": "Unflinching Barrage",
-				"description": "when attempting at attack using a weapon with the auto-fire quality, may forego the benefit of the Adversary talent until the start of his next turn to automatically activate auto-fire once."
+				"description": "when attempting at attack using a weapon with the Auto-Fire quality, may forego the benefit of the Adversary talent until the start of his next turn to automatically activate Auto-Fire once."
 			}
 		],
 		"weapons": [
@@ -762,7 +963,7 @@
 		"talents": ["Adversary 2",
 					{
 					"name": "Debilitating Shot",
-					"description": "Upon successful attack with a starship or vehicle weapon, may spend :advantage::advantage: to reduce the target's maximum Speed by 1 until the end of the next round"
+					"description": "Upon successful attack with a starship or vehicle weapon, may spend :advantage::advantage: to reduce the target’s maximum Speed by 1 until the end of the next round"
 					},
 					{
 					"name": "Overwhelm Defenses",
@@ -792,7 +993,7 @@
 	{
 		"name": "Binayre Pirate",
 		"type": "Minion",
-		"description": "Even amongst pirates and smugglers, the Binayre are considered scum. The core members of the pirate crew cut their teeth as swoop gangers on the streets of Corellia and are consequently willing to kill, steal, and betray to hold onto the limited wealth and luxury they have acquired. The crew is a motley collection of species, but all are decent pilots and practiced killers. However, Kath is certainly the brains and talent behind their success and they all know it. As a result, she commands great loyalty among the gang, making her possibly the only one in the galaxy who these ruffians wouldn't stab in the back.",
+		"description": "Even amongst pirates and smugglers, the Binayre are considered scum. The core members of the pirate crew cut their teeth as swoop gangers on the streets of Corellia and are consequently willing to kill, steal, and betray to hold onto the limited wealth and luxury they have acquired. The crew is a motley collection of species, but all are decent pilots and practiced killers. However, Kath is certainly the brains and talent behind their success and they all know it. As a result, she commands great loyalty among the gang, making her possibly the only one in the galaxy who these ruffians wouldn’t stab in the back.",
 		"notes": "Credits go to Phillip Krzeminski, D20Radio.com",
 		"characteristics": {
 			"Brawn": 3,
@@ -825,7 +1026,7 @@
 	{
 		"name": "Chell “Cold Case” Wi’eeda, Journeyman Hunter",
 		"type": "Rival",
-		"description": "Background: Born to an enslaved family of Tibanna gas miners on the Hutt controlled world of Sleheyron, Chell spent most of her youth dreaming of escaping the miserable living and working conditions of her family. Before long, she lost both parents (her mother died in an accident, and her father was sold without notice) and was forced to make her own way. Unfortunately, there are few opportunities for a slave child, least of all in Hutt controlled space.\n\nChell began to inform on other slaves to earn her meals and eventually turned to tracking escapees full-time once she bought her freedom. Now a fully licensed bounty hunter, Chell primarily patrols Hutt space (though she will still take Imperial contracts on criminals seeking refuge in the Hutt’s domain). She hasn’t brought in any high-profile targets yet, but her track record for recovering escaped slaves with icy detachment has earned her the nickname “Cold Case” – a moniker and reputation she has embraced by christening her first starship with it.\n\nChell has a well-earned reputation for pitiless, professional detachment. The conditions of her childhood taught her that she couldn't trust anyone and she would need to be ruthless to survive into adulthood. As a result, she rarely partners with other hunters and has trained a pack of Corellian hounds to assist her on hunts. She takes excellent care of her hounds and shows them more affection than she has ever shown another sentient being",
+		"description": "Background: Born to an enslaved family of Tibanna gas miners on the Hutt controlled world of Sleheyron, Chell spent most of her youth dreaming of escaping the miserable living and working conditions of her family. Before long, she lost both parents (her mother died in an accident, and her father was sold without notice) and was forced to make her own way. Unfortunately, there are few opportunities for a slave child, least of all in Hutt controlled space.\n\nChell began to inform on other slaves to earn her meals and eventually turned to tracking escapees full-time once she bought her freedom. Now a fully licensed bounty hunter, Chell primarily patrols Hutt space (though she will still take Imperial contracts on criminals seeking refuge in the Hutt’s domain). She hasn’t brought in any high-profile targets yet, but her track record for recovering escaped slaves with icy detachment has earned her the nickname “Cold Case” – a moniker and reputation she has embraced by christening her first starship with it.\n\nChell has a well-earned reputation for pitiless, professional detachment. The conditions of her childhood taught her that she couldn’t trust anyone and she would need to be ruthless to survive into adulthood. As a result, she rarely partners with other hunters and has trained a pack of Corellian hounds to assist her on hunts. She takes excellent care of her hounds and shows them more affection than she has ever shown another sentient being",
 		"notes": "Credits go to Phillip Krzeminski, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
@@ -916,6 +1117,184 @@
 			}
 		],
 		"tags": ["source:D20Radio.com NPC’s", "creature"],
+		"devOnly": true
+	},
+	{
+		"name": "B2 Super Battle Droid (minion)",
+		"type": "Minion",
+		"description": "Created by Baktoid Combat Automata to serve as front line heavy infantry, the B2 Super Battle Droid is superior to its predecessor the B1 in all respects. Boasting reinforced armor, integrated anti-personnel weaponry, and programming capable of operation without a command signal, this hulking battle droid is a formidable foe on or off the battlefield. Before the introduction of the IG-100 MagnaGuard, B2s were seen serving as bodyguards to Separatist leaders such as Count Dooku. With the end of the Clone Wars, B2s are a rare sight. Some scavenged models serve crime lords or private militias; others have been re-purposed for use in gladiator arenas. Some abandoned B2s were never shut down, and still carry out their last orders, defending forgotten Separatist ships and installations awaiting unsuspected salvagers.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 8
+		},
+		"skills": ["Brawl", "Gunnery", "Ranged: Light"],
+		"abilities": ["Droid"],
+		"weapons": [
+			{
+				"name": "Integrated wrist blaster",
+				"skill": "Ranged: Light",
+				"damage": 9,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Cumbersome 3", "Auto-Fire"]
+			},
+			{
+				"name": "Rocket launcher arm",
+				"skill": "Gunnery",
+				"damage": 12,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Blast 8", "Limited Ammo 4"]
+			},
+			{
+				"name": "Mechanical slam",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"tags": ["species:Droid","source:D20Radio.com NPC’s"],
+		"devOnly": true
+	},
+	{
+		"name": "B2 Super Battle Droid (Rival)",
+		"type": "Rival",
+		"description": "Created by Baktoid Combat Automata to serve as front line heavy infantry, the B2 Super Battle Droid is superior to its predecessor the B1 in all respects. Boasting reinforced armor, integrated anti-personnel weaponry, and programming capable of operation without a command signal, this hulking battle droid is a formidable foe on or off the battlefield. Before the introduction of the IG-100 MagnaGuard, B2s were seen serving as bodyguards to Separatist leaders such as Count Dooku. With the end of the Clone Wars, B2s are a rare sight. Some scavenged models serve crime lords or private militias; others have been re-purposed for use in gladiator arenas. Some abandoned B2s were never shut down, and still carry out their last orders, defending forgotten Separatist ships and installations awaiting unsuspected salvagers.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 18
+		},
+		"skills": {
+			"Brawl": 1,
+			"Gunnery": 1,
+			"Melee": 2,
+			"Ranged: Light": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Droid"],
+		"weapons": [
+			{
+				"name": "Integrated wrist blaster",
+				"skill": "Ranged: Light",
+				"damage": 9,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Cumbersome 3", "Auto-Fire"]
+			},
+			{
+				"name": "Rocket launcher arm",
+				"skill": "Gunnery",
+				"damage": 12,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Blast 8", "Limited Ammo 4"]
+			},
+			{
+				"name": "Mechanical slam",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"tags": ["species:Droid","source:D20Radio.com NPC’s"],
+		"devOnly": true
+	},
+	{
+		"name": "CompForce Security Trooper",
+		"type": "Minion",
+		"description": "Where subversion and corruption threaten security, the ideological purity and fanatical loyalty of CompForce units is employed to protect the New Order. Security Troops are graduates of COMPNOR’s Sub-Adult Group education program and CompForce’s Observation Cadre training. Seen as poorly trained political spies by the regular military, this reputation is partly true: while CompForce Security Troopers lack combat training, their ideological motivation and keen eye for dissidence and contraband make them suitable for their role. Ostensibly deployed away from the front lines to give the CompForce members military experience while providing service to the Empire, in reality these troopers are specifically sent where the threat of ideological subversion is greatest. Teams provide access and patrol security to Imperial installations and support Customs officers in search and screening operations at ports throughout the galaxy. While on the lookout for contraband such as spice and weapons, they are equally discerning in rooting out subversive literature and other propaganda.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": ["Coercion", "Discipline", "Perception"],
+		"weapons": ["Blaster carbine", "Stun grenade"],
+		"gear": [" blast vest (+1 soak), utility belt, extra reloads, general purpose scanner, for each security detachment of two or four troopers one may be a massiff handler"],
+		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial bureaucracy"],
+		"devOnly": true
+	},
+	{
+		"name": "Guard Massiff",
+		"type": "Rival",
+		"description": "An armoured lizard native to the Outer Rim world of Geonosis, the massiff’s keen senses and predatory instincts make a formidable guard animal when combined with the right training. Massiffs have been employed in this role by the settlers and Sand People of Tatooine, the Coruscant Guard and Recon Force of the Grand Army of the Republic, and on many planets and organizations across the galaxy. These massiffs have been trained by their handlers to detect intruders and contraband by sense of smell, and to restrain rather than tear with their formidable claws.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16
+		},
+		"skills": {
+			"Brawl": 2,
+			"Perception": 3,
+			"Resilience": 1,
+			"Survival": 1,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [
+		{
+		"name": "Sniffer Conditioning",
+		"description": "Through specific training, guard massiffs can use keen sense of smell to detect beings, this has the effect of removing up to :setback::setback: from perception checks within medium range. At engaged range, a guard massiff gains :boost: to find contraband, by detecting the smell of spice, the ozone in high energy power packs, etc."
+		}
+		],
+		"weapons": [
+			{
+				"name": "Tearing fangs",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Vicious 3"]
+			},
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1"]
+			}
+		],
+		"tags": ["creature","source:D20Radio.com NPC’s"],
 		"devOnly": true
 	}
 ]

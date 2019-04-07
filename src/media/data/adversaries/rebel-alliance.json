@@ -404,6 +404,6 @@
 		"skills": ["Melee", "Perception", "Ranged: Heavy", "Ranged: Light", "Skulduggery", "Stealth"],
 		"weapons": ["Blaster carbine", "Combat knife", "Frag grenade"],
 		"gear": ["Padded armour (+2 Soak)", "Comlink", "3 Frag grenades"],
-		"tags": ["book:sor", "rebel alliance", "species:Sullustan", "location:Sullust", "sullustan resistance", "adventure:Claustrophobia"]
+		"tags": ["book:sor", "rebel alliance", "species:Sullustan", "location:Sullust", "adventure:Claustrophobia"]
 	}
 ]

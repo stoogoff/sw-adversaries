@@ -981,7 +981,7 @@
 				"qualities": ["Concussive 1", "Knockdown"]
 			}
 		],
-		"tags": ["oddity", "book:nop", "location:Aleen"]
+		"tags": ["galactic oddity", "book:nop", "location:Aleen"]
 	},
 	{
 		"name": "Aleena Wanderer",
@@ -1002,7 +1002,7 @@
 		"skills": ["Coordination", "Charm", "Knowledge: Lore", "Mechanics", "Medicine", "Survival"],
 		"abilities": ["Silhouette 0"],
 		"gear": ["Robes", "Travelling pack"],
-		"tags": ["oddity", "book:nop", "location:Aleen", "species:Aleena"]
+		"tags": ["galactic oddity", "book:nop", "location:Aleen", "species:Aleena"]
 	},
 	{
 		"name": "Tetan Guard",
@@ -1116,7 +1116,7 @@
 			}
 		],
 		"gear": ["Beast-hide armour (+1 Soak)", "Travel rations"],
-		"tags": ["oddity", "book:nop", "location:Ossus", "force sensitive"]
+		"tags": ["galactic oddity", "book:nop", "location:Ossus", "force sensitive"]
 	},
 	{
 		"name": "Jedi Temple Guardian",
@@ -1810,7 +1810,7 @@
 			}
 		],
 		"gear": ["Heavy and smelly robes (+1 Soak)", "Wizard’s pouch"],
-		"tags": ["book:nop", "location:Weik", "adventure:The Menagerie", "force sensitive", "darkside", "skyholm lucite"]
+		"tags": ["book:nop", "location:Weik", "adventure:The Menagerie", "force sensitive", "darkside"]
 	},
 	{
 		"name": "Vossport City Guard",

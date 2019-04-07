@@ -25,7 +25,7 @@
 			}
 		],
 		"gear": ["Heavy desert clothing and face wraps (+1 Soak)", "Canteen", "Respirator"],
-		"tags": ["adventure:Discovery on Jakku", "location:Jakku", "strus gang", "thug", "book:tfabg"]
+		"tags": ["adventure:Discovery on Jakku", "location:Jakku", "thug", "book:tfabg", "strus clan"]
 	},
 	{
 		"name": "Misha Vontoba",
@@ -943,7 +943,7 @@
 			}
 		],
 		"gear": ["Cybernetic armour (+2 Soak)", "Utility belt"],
-		"tags": ["book:tfabg", "underworld", "guavian death gang", "thug"]
+		"tags": ["book:tfabg", "underworld", "thug"]
 	},
 	{
 		"name": "Guavian Death Gang Grenadier",
@@ -971,7 +971,7 @@
 		"abilities": ["Cybernetic Reinforcement"],
 		"weapons": ["Micro-grenade launcher"],
 		"gear": ["Heavy cybernetic armour (+3 Soak)"],
-		"tags": ["book:tfabg", "underworld", "guavian death gang", "thug"]
+		"tags": ["book:tfabg", "underworld", "thug"]
 	},
 	{
 		"name": "Kanjiklub Gangster",

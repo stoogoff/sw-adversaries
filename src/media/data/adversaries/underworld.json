@@ -91,7 +91,7 @@
 		},
 		"talents": ["Black Market Contacts 2"],
 		"weapons": ["Blaster pistol"],
-		"tags": ["underworld", "black marketeer", "book:aor"]
+		"tags": ["underworld", "book:aor"]
 	},
 	{
 		"name": "Black Sun Thug",
@@ -208,7 +208,7 @@
 	{
 		"name": "Dark Wolf Beastmaster",
 		"type": "Rival",
-		"description": "Weequay militia-members who show an affinity with dark wolves are ushered in to a time-honored tradi­tion through which they train and fight alongside their own raquor’daan. Great respect is given to warriors who tame wild raquor’daan, although this rarely hap­pens. Dark wolves are believed to be the scions of the night god Raquor, and slaying a raquor’daan mother to obtain its cub is seen as sacreligious.",
+		"description": "Weequay militia-members who show an affinity with dark wolves are ushered in to a time-honored tradition through which they train and fight alongside their own raquor’daan. Great respect is given to warriors who tame wild raquor’daan, although this rarely hap­pens. Dark wolves are believed to be the scions of the night god Raquor, and slaying a raquor’daan mother to obtain its cub is seen as sacreligious.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -240,7 +240,7 @@
 				"qualities": ["Defensive 2", "Pierce 3"]
 			}
 		],
-		"tags": ["underworld", "location:Hutt Space", "species:Weequay", "raquor’daan", "book:lonh"]
+		"tags": ["underworld", "location:Hutt Space", "species:Weequay", "book:lonh"]
 	},
 	{
 		"name": "Defel Assassin",
@@ -1375,7 +1375,7 @@
 		},
 		"talents": ["Adversary 1", "Black Market Contacts 2"],
 		"weapons": ["Blaster pistol", "Thermal detonator", "Shock gloves"],
-		"tags": ["underworld", "species:Twi’lek", "black marketeer", "book:eote"]
+		"tags": ["underworld", "species:Twi’lek", "book:eote"]
 	},
 	{
 		"name": "Twi’lek Dancer",
