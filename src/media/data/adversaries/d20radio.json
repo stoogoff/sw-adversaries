@@ -231,7 +231,6 @@
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
 		"devOnly": true
 	},
-
 	{
 		"name": "Stormtrooper: Storm Commando Officer",
 		"type": "Nemesis",
@@ -1295,6 +1294,94 @@
 			}
 		],
 		"tags": ["creature","source:D20Radio.com NPC’s"],
+		"devOnly": true
+	},
+	{
+		"name": "Rear Admiral Olenka Zavalle",
+		"type": "Nemesis",
+		"description": "Despite being relegated to patrolling the fear reaches of the Outer Rim, Rear Admiral Olenka Zavalle has assembled a capable strike group by amalgamating a series of smaller patrol and security formations into a single command. A Core Worlder from a reasonably well connected family, Zavalle was a rising star within the Imperial Navy until she ran afoul of Admiral Motti while assigned to his staff. It was not long before Admiral Motti grew tired of Zavalle’s constant questioning of his assumptions and beliefs. Given Zavalle’s exemplary record, Motti’s only recourse to dispose of her was arranging a promotion to a remote posting – commander of long range patrols in the Outer Rim. Undefeated, Zavalle re-organized forces within her jurisdiction into a unique formation of fast, light, and numerous strike craft. Her fleet may not be doctrinal, but it has been wildly successful in hunting down criminals and Rebels alike.\n\nRagtag by Imperial standards, Admiral Zavalle’s strike group more closely resembles the Rebel Alliance fleet than the usual image of the Imperial Navy. Instead of being centered around a few Star Destroyers, her forces include Raider-class corvettes, Quasar Fire-class light carriers, innumerable TIEs of most variants, and a handful of Arquitens-class light cruisers.These forces are by no means heavy, but Zavalle emphasizes the strengths of her formation: flexibility, speed, and the de-centralization of capabilities. Losing any one ship will have little effect on the strike group’s combat effectiveness, unlike the hammer blow that the loss of a Star Destroyer can be in a mid-sized fleet engagement. This makes her forces a unique threat and potentially a refreshing challenge for your PCs.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 15,
+			"strain": 21
+		},
+		"skills": {
+			"Cool": 3,
+			"Discipline": 3,
+			"Knowledge: Education": 2,
+			"Knowledge: Warfare": 3,
+			"Leadership": 3,
+			"Perception": 2,
+			"Ranged: Light": 3
+		},
+		"talents": ["Adversary 1", "Commanding Presence 2", "Master Strategist"],
+		"abilities": [
+			{
+			"name": "Swarm Coordination",
+			"description": "So long as Zavalle’s force has a significant numbers advantage, upgrade the difficulty of Mass Combat checks once in addition to the usual upgrade for her ranks in Leadership), Lightning Reinforcements (May spend 3 Threat, in addition to the usual 1 Despair, to call in reinforcements and increase the force size by one step"
+			}
+		],
+		"weapons": ["Blaster pistol"],
+		"gear": ["naval officer’s uniform (+1 soak), comlink, code cylinders"],
+		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military"],
+		"devOnly": true
+	},
+	{
+		"name": "Major Jex Karvek – Commando Raider",
+		"type": "Nemesis",
+		"description": "A veteran of Crix Madine’s original Storm Commando unit, Major Karvek has spent nearly his entire career within the Imperial special forces. Karvek grew up on the frontier of the Outer Rim. His rustic upbringing, like that of many of his enemies in the Rebellion, fostered a strong sense of independence. Karvek fully embraces the Storm Commando’s purpose: to fight fire with fire by employing asymmetric tactics against the Rebel Alliance. But Major Karvek takes this doctrine a step further than simply replicating guerrilla tactics. He sees the value that the Rebel’s use of individual initiative brings to the battlefield, and thus demands that of his 909th Detachment commandos.\n\n909th Storm Commando Detachment\n\nNormally dispatched on deliberate operations or attached to other forces in a platoon, or even squad sized elements, it is rare to see an entire Storm Commando detachment conduct missions under their organic chain of command. Major Karvek’s detachment, the 909th, is an exception to this rule. When mission success is demanded under extreme circumstances, but when the deployment of mass numbers of conventional forces proves undesirable, the 909th is dispatched to do with a company what would be expected of a regiment. Karvek’s commandos are highly trained and capable of operating on their own initiative, making this detachment ready for anything.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 20,
+			"strain": 18,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Cool": 4,
+			"Discipline": 3,
+			"Knowledge: Warfare": 3,
+			"Leadership": 3,
+			"Melee": 2,
+			"Perception": 2,
+			"Ranged: Heavy": 3,
+			"Ranged: Light": 3,
+			"Resilience": 2,
+			"Stealth": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 3", "Barrage 1", "Commanding Presence 2", "Point Blank 1", "Ready for Anything 3"],
+		"abilities": ["Tactical Direction"],
+		"weapons": [
+			{
+				"name": "Blaster rifle with foregrip and sling",
+				"skill": "Brawl",
+				"damage": 9,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Stun", "Forearm Grip", "Weapon Sling", "Quick Draw"]
+			}
+		],
+		"gear": ["storm commando armor (+1 soak, defense 1, reflec coating [upgrade stealth checks once, sensors cannot detect the wearer subject to GM discretion], enhanced optics suite), long range comlink, utility belt, extra reloads"],
+		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military"],
 		"devOnly": true
 	}
 ]
