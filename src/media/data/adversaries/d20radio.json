@@ -1381,7 +1381,52 @@
 			}
 		],
 		"gear": ["storm commando armor (+1 soak, defense 1, reflec coating [upgrade stealth checks once, sensors cannot detect the wearer subject to GM discretion], enhanced optics suite), long range comlink, utility belt, extra reloads"],
-		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military"],
+		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
+		"devOnly": true
+	},
+	{
+		"name": "Major General Billek Vilneon",
+		"type": "Nemesis",
+		"description": "Combined Arms Steamroller\n\nIn the eyes of Major General Vilneon, the Imperial Army is a machine. A trained engineer, experienced armored officer, and decorated commander, it should be no surprise a man who has spent more than half his life working with war machines sees the military in this way. The Imperial Army is a complicated with a vast array of specialties, unit types, equipment loadouts, and tactical procedures. Infighting between the branches and the use of pet projects to advance careers further divides the Army. Little enrages Vilneon more than this, for he sees it as akin to debating whether the repulsorlift or the powerplant is more important on a hovertank – both are vital and must work in concert. General Vilneon has thus made a career of organizing combined arms groups from different branches and service, building true teams with strong cohesion and identity. While fully implementing Imperial doctrine and uniformity, Vilneon has added something the Imperial military lacks despite its stated ideology: unity.\n\n7th Assault Battlegroup\n\nBattlegroups are normally commanded by High Colonels, with Major Generals commanding a Corps comprised of several Battlegroups. Given General Vilneon’s high status, it should be no surprise the 7th Assault Battlegroup has a unique task organization. A normal Assault Battlegroup would be composed of two line regiments, an assault regiment, and an armored regiment. The 7th instead has two assault regiments augmented with walkers, an armored regiment, and a stormtrooper regiment. These troops train extensively in combined arms operations. Retaining the regimental system for little more than administrative purposes, this battlegroup is functionally organized around a series of combined arms brigades that train and fight together. The result is a highly coordinated, and therefore deadly, opponent to face on the battlefield.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 17,
+			"strain": 19,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Cool": 2,
+			"Discipline": 3,
+			"Knowledge: Warfare": 4,
+			"Leadership": 4,
+			"Perception": 2,
+			"Ranged: Light": 3,
+			"Resilience": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Commanding Presence 2", "Point Blank 1", "Ready for Anything 3"],
+		"abilities": ["Tactical Direction"],
+		"weapons": [
+			{
+				"name": "Blaster rifle with foregrip and sling",
+				"skill": "Brawl",
+				"damage": 9,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Stun", "Forearm Grip", "Weapon Sling", "Quick Draw"]
+			}
+		],
+		"gear": ["storm commando armor (+1 soak, defense 1, reflec coating [upgrade stealth checks once, sensors cannot detect the wearer subject to GM discretion], enhanced optics suite), long range comlink, utility belt, extra reloads"],
+		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
 		"devOnly": true
 	}
 ]
