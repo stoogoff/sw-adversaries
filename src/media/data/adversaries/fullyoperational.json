@@ -1,0 +1,128 @@
+[
+	{
+		"name": "BT-Series Ordnance Droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 15
+		},
+		"skills": {
+			"Gunnery": 1,
+			"Mechanics": 2
+		},
+		"abilities": ["Droid"],
+		"gear": ["Built-in tool kit, built-in ordnance loading computer (adds :boost: to checks made to work on ordnance delivery systems or with explosive devices or compounds)."],
+		"tags": ["species:Droid", "book:fo"]
+	},
+	{
+		"name": "EG-6 Power Droid",
+		"type": "Minion",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 10
+		},
+		"skills": ["Computers", "Mechanics"],
+		"abilities": ["Droid"],
+		"gear": ["Built-in DF-15 fusion generator", "spectrometer", "multi-spectral scanner", "manipulator arm", "power diagnostics package (removes :setback to checks made remove system strain from vehicles or starships)"],
+		"tags": ["species:Droid", "book:fo"]
+	},
+	{
+		"name": "EOD-Mk IV Explosives Disposal Remote",
+		"type": "Minion",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 2
+		},
+		"skills": ["Perception", "Mechanics", "Vigilance"],
+		"gear": ["Demolitions scanner (add :boost: to checks made to locate explosive compounds or devices", "Built-in EOD tool kit", "Controlled demolition device (as an action, the remote can detonate a single explosive device at engaged range, destroying the remote and the explosive and inflicting damage as per the explosive’s normal rules"],
+		"abilities": ["Droid"],
+		"tags": ["species:Droid", "book:fo"]
+	},
+	{
+		"name": "GT-Series Construction Droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 13
+		},
+		"skills": {
+			"Computers": 2,
+			"Mechanics": 2,
+			"Perception": 1
+		},
+		"talents": ["Natural Tinkerer"],
+		"abilities": ["Droid"],
+		"weapons": ["Fusion cutter"],
+		"gear": ["Built-in construction tools (counts as a tool kit)", "1-C4a droid interface programming suite."],
+		"tags": ["species:Droid", "book:fo"]
+	},
+	{
+		"name": "RH-Series Research Droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10
+		},
+		"skills": {
+			"Computers": 2,
+			"Knowledge: Core Worlds": 2,
+			"Knowledge: Education": 3,
+			"Knowledge: Lore": 2,
+			"Knowledge: Xenology": 3
+		},
+		"talents": ["Natural Scholar"],
+		"abilities": ["Droid"],
+		"gear": ["Built-in science database (adds automatic :advantage: to Knowledge checks and adds automatic :advantage::advantage: when assisting with a Knowledge check in addition to the standard assistance benefits"],
+		"tags": ["species:Droid", "book:fo"]
+	}
+]
