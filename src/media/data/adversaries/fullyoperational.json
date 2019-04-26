@@ -64,7 +64,7 @@
 			"wounds": 2
 		},
 		"skills": ["Perception", "Mechanics", "Vigilance"],
-		"gear": ["Demolitions scanner (add :boost: to checks made to locate explosive compounds or devices", "Built-in EOD tool kit", "Controlled demolition device (as an action, the remote can detonate a single explosive device at engaged range, destroying the remote and the explosive and inflicting damage as per the explosiveâ€™s normal rules"],
+		"gear": ["Demolitions scanner (add :boost: to checks made to locate explosive compounds or devices", "Built-in EOD tool kit", "Controlled demolition device (as an action, the remote can detonate a single explosive device at engaged range, destroying the remote and the explosive and inflicting damage as per the explosive’s normal rules"],
 		"abilities": ["Droid"],
 		"tags": ["species:Droid", "book:fo"]
 	},
