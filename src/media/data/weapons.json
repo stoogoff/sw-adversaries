@@ -426,6 +426,14 @@
 		"qualities": ["Stun Damage"]
 	},
 	{
+		"name": "Fusion cutter",
+		"skill": "Melee",
+		"damage": 5,
+		"critical": 3,
+		"range": "Engaged",
+		"qualities": ["Breach 1", "Burn 3", "Sunder", "Vicious 3"]
+	},
+	{
 		"name": "Wizard’s staff",
 		"skill": "Melee",
 		"damage": 4,

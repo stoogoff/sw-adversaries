@@ -1,0 +1,303 @@
+[
+	{
+		"name": "AC1-Series Surveillance Droid",
+		"type": "Minion",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 8
+		},
+		"skills": ["Perception", "Ranged: Light", "Stealth"],
+		"gear": ["High-intensity spotlight", "Holotransceiver suite"],
+		"weapons": ["Light blaster pistol"],
+		"abilities": ["Droid", "Flyer"],
+		"tags": ["species:Droid", "book:cam"]
+	},
+	{
+		"name": "E522 Assassin Droid",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 20,
+			"strain": 12,
+			"defence": [0, 1]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Coercion": 4,
+			"Computers": 2,
+			"Gunnery": 3,
+			"Mechanics": 2,
+			"Melee": 3,
+			"Ranged: Light": 4,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 2", "Barrage 2", "Brace 2", "Point Blank 4"],
+		"abilities": ["Droid",
+			{
+			"name": "Combat Computer",
+			"description": "Add :boost::boost: to all combat checks."
+			}
+		],
+		"weapons": ["Heavy repeating blaster", "Ion blaster",
+			{
+				"name": "Needler gun",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": null,
+				"range": "Short",
+				"qualities": ["Pierce 3"]
+			},
+			{
+				"name": "Mini-missile pack",
+				"skill": "Gunnery",
+				"damage": 4,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Blast 2", "Breach 2", "Guided 3", "Limited Ammo 2", "Slow-Firing 1"]
+			}
+		],
+		"tags": ["book:cam", "species:droid", "assassin"]
+	},
+	{
+		"name": "LSx-Series Slicer Droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10
+		},
+		"skills": {
+			"Computers": 4,
+			"Cool": 3,
+			"Deception": 3,
+			"Discipline": 2,
+			"Mechanics": 2,
+			"Perception": 4,
+			"Skulduggery": 3,
+			"Stealth": 2
+		},
+		"talents": ["Adversary 1", "Codebreaker 2", "Defensive Slicing 2"],
+		"abilities": ["Droid"],
+		"weapons": [
+			{
+				"name": "Scomp-spiker",
+				"skill": "Melee",
+				"damage": 8,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Burn 3", "Slow-Firing 3", "Stun"]
+			}
+		],
+		"gear": ["Built-in slicer gear"],
+		"tags": ["book:cam", "species:droid", "slicer"]
+	},
+	{
+		"name": "M4-Series Messenger Droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 20
+		},
+		"skills": {
+			"Cool": 2,
+			"Perception": 3,
+			"Ranged: Light": 1,
+			"Resilience": 3,
+			"Skulduggery": 3,
+			"Stealth": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Durable 2"],
+		"abilities": ["Droid", "Flyer"],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Holoprojector", "Holorecorder", "Small locking storage compartment (holds items totalling up to 3 encumbrance)"],
+		"tags": ["book:cam", "species:droid"]
+	},
+	{
+		"name": "Q-Signal Messenger Drone",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 8
+		},
+		"skills": {
+			"Astrogation": 1,
+			"Perception": 2,
+			"Piloting: Space": 2,
+			"Stealth": 2
+		},
+		"talents": [],
+		"abilities": ["Droid"],
+		"weapons": [],
+		"gear": ["Messenger drone vehicle"],
+		"tags": ["book:cam", "species:droid"]
+	},
+	{
+		"name": "RA-7 Protocol Droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10
+		},
+		"skills": {
+			"Deception": 2,
+			"Knowledge: Education": 3,
+			"Knowledge: Xenology": 3,
+			"Negotiation": 3,
+			"Perception": 4,
+			"Skulduggery": 3,
+			"Stealth": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1", "Plausible Deniability 2"],
+		"abilities": ["Droid", "Etiquette and Protocol"],
+		"tags": ["book:cam", "species:droid", "protocol droid"]
+	},
+	{
+		"name": "RM-Series Military Intelligence Droid",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 18,
+			"strain": 10,
+			"defence": [0, 1]
+		},
+		"skills": {
+			"Computers": 3,
+			"Cool": 2,
+			"Deception": 3,
+			"Knowledge: Warfare": 4,
+			"Mechanics": 4,
+			"Perception": 4,
+			"Ranged: Heavy": 4,
+			"Skulduggery": 3,
+			"Stealth": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Barrage 2", "Brace 2", "Point Blank 4"],
+		"abilities": ["Droid",
+			{
+			"name":  "Improvised Explosive Device",
+			"description": "Once per session, can make an :average: Mechanics check to build an explosive device out of available materials that deals 11 damage plus 1 for every :success: on the Mechanics check; can spend :triumph: to increase damage by 2; the GM can spend :despair: to have the explosive device detonate immediately in the user’s face."
+			}
+		],
+		"weapons": ["Heavy blaster rifle", "Ion blaster"],
+		"gear": ["Built-in demolitions kit (acts as a tool kit)", "Built-in sensory and recording equipment"],
+		"tags": ["book:cam", "species:droid", "spy"]
+	},
+	{
+		"name": "TS-Series Interrogation Droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12
+		},
+		"skills": {
+			"Coercion": 4,
+			"Knowledge: Education": 3,
+			"Knowledge: Xenology": 4,
+			"Mechanics": 3,
+			"Medicine": 4,
+			"Perception": 4,
+			"Skulduggery": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Droid",
+			{
+			"name": "Interrogation Subroutine",
+			"description": "Once per session, can reroll a Coercion or Medicine check while interrogating or torturing subjects."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Medical tool hands",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Burn 1", "Disorient 1", "Pierce 2", "Vicious 2"]
+			}
+		],
+		"gear": ["Chem injector hypo", "Two high-intensity miniature spotlights", "On-board medical scanner", "Built-in medpack", "4 stimpacks"],
+		"tags": ["book:cam", "species:droid"]
+	}
+]

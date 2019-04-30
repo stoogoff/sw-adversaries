@@ -15,7 +15,10 @@
 		"name": "Force Power: Sense",
 		"description": "May spend :forcepip: to sense all living things within Medium range of the character (including animals and sentient beings). He may not activate either ability multiple times."
 	},
-
+	{
+		"name": "Force Power: Heal",
+		"description": "(light side Force user only): Spend :forcepip: to heal a number of wounds equal to Intellect from an engaged living creature (including user)."
+	},
 	{
 		"name": "Force Power: Foresee",
 		"description": "Spend :forcepip: to gain vague hints of events to come, up to a day into own future. Spend :forcepip: to increase the number of days seen into future by 2. Spend :forcepip: to gain more specific details."

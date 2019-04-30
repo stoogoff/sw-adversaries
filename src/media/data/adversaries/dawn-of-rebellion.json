@@ -932,7 +932,7 @@
 				"description": "Once per vehicle, can make a :daunting: Mechanics check and spend :success: to add a permanent hard point to the vehicle, to a maximum of two additional hard points; :threat::threat: can be spent to add permanent :setback: to Mechanics checks made to affect that vehicle."
 			}
 		],
-		"gear": ["Astromech droid", "Coveralls", "Toolkit"],
+		"gear": ["Astromech droid", "Coveralls", "Tool kit"],
 		"tags": ["book:dor", "species:Mon Calamari", "engineer", "rebel alliance"]
 	},
 	{

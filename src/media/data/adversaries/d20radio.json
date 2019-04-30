@@ -231,7 +231,6 @@
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
 		"devOnly": true
 	},
-
 	{
 		"name": "Stormtrooper: Storm Commando Officer",
 		"type": "Nemesis",
@@ -823,7 +822,7 @@
 	{
 		"name": "Mik-Los Arnet",
 		"type": "Nemesis",
-		"description": "",
+		"description": "Rebel Parajumper",
 		"notes": "Credits go to Linda Whitson, D20Radio.com",
 		"characteristics": {
 			"Brawn": 3,
@@ -1295,6 +1294,750 @@
 			}
 		],
 		"tags": ["creature","source:D20Radio.com NPC’s"],
+		"devOnly": true
+	},
+	{
+		"name": "Rear Admiral Olenka Zavalle",
+		"type": "Nemesis",
+		"description": "Despite being relegated to patrolling the fear reaches of the Outer Rim, Rear Admiral Olenka Zavalle has assembled a capable strike group by amalgamating a series of smaller patrol and security formations into a single command. A Core Worlder from a reasonably well connected family, Zavalle was a rising star within the Imperial Navy until she ran afoul of Admiral Motti while assigned to his staff. It was not long before Admiral Motti grew tired of Zavalle’s constant questioning of his assumptions and beliefs. Given Zavalle’s exemplary record, Motti’s only recourse to dispose of her was arranging a promotion to a remote posting – commander of long range patrols in the Outer Rim. Undefeated, Zavalle re-organized forces within her jurisdiction into a unique formation of fast, light, and numerous strike craft. Her fleet may not be doctrinal, but it has been wildly successful in hunting down criminals and Rebels alike.\n\nRagtag by Imperial standards, Admiral Zavalle’s strike group more closely resembles the Rebel Alliance fleet than the usual image of the Imperial Navy. Instead of being centered around a few Star Destroyers, her forces include Raider-class corvettes, Quasar Fire-class light carriers, innumerable TIEs of most variants, and a handful of Arquitens-class light cruisers.These forces are by no means heavy, but Zavalle emphasizes the strengths of her formation: flexibility, speed, and the de-centralization of capabilities. Losing any one ship will have little effect on the strike group’s combat effectiveness, unlike the hammer blow that the loss of a Star Destroyer can be in a mid-sized fleet engagement. This makes her forces a unique threat and potentially a refreshing challenge for your PCs.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 15,
+			"strain": 21
+		},
+		"skills": {
+			"Cool": 3,
+			"Discipline": 3,
+			"Knowledge: Education": 2,
+			"Knowledge: Warfare": 3,
+			"Leadership": 3,
+			"Perception": 2,
+			"Ranged: Light": 3
+		},
+		"talents": ["Adversary 1", "Commanding Presence 2", "Master Strategist"],
+		"abilities": [
+			{
+			"name": "Swarm Coordination",
+			"description": "So long as Zavalle’s force has a significant numbers advantage, upgrade the difficulty of Mass Combat checks once in addition to the usual upgrade for her ranks in Leadership"
+			},
+			{
+			"name": "Lightning Reinforcements",
+			"description": "May spend :threat::threat::threat:, in addition to the usual :despair:, to call in reinforcements and increase the force size by one step."
+			}
+		],
+		"weapons": ["Blaster pistol"],
+		"gear": ["naval officer’s uniform (+1 soak), comlink, code cylinders"],
+		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military"],
+		"devOnly": true
+	},
+	{
+		"name": "Major Jex Karvek – Commando Raider",
+		"type": "Nemesis",
+		"description": "A veteran of Crix Madine’s original Storm Commando unit, Major Karvek has spent nearly his entire career within the Imperial special forces. Karvek grew up on the frontier of the Outer Rim. His rustic upbringing, like that of many of his enemies in the Rebellion, fostered a strong sense of independence. Karvek fully embraces the Storm Commando’s purpose: to fight fire with fire by employing asymmetric tactics against the Rebel Alliance. But Major Karvek takes this doctrine a step further than simply replicating guerrilla tactics. He sees the value that the Rebel’s use of individual initiative brings to the battlefield, and thus demands that of his 909th Detachment commandos.\n\n909th Storm Commando Detachment\n\nNormally dispatched on deliberate operations or attached to other forces in a platoon, or even squad sized elements, it is rare to see an entire Storm Commando detachment conduct missions under their organic chain of command. Major Karvek’s detachment, the 909th, is an exception to this rule. When mission success is demanded under extreme circumstances, but when the deployment of mass numbers of conventional forces proves undesirable, the 909th is dispatched to do with a company what would be expected of a regiment. Karvek’s commandos are highly trained and capable of operating on their own initiative, making this detachment ready for anything.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com. Uses Additional Combat Turns if 4+ PCs",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 20,
+			"strain": 18,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Cool": 4,
+			"Discipline": 3,
+			"Knowledge: Warfare": 3,
+			"Leadership": 3,
+			"Melee": 2,
+			"Perception": 2,
+			"Ranged: Heavy": 3,
+			"Ranged: Light": 3,
+			"Resilience": 2,
+			"Stealth": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 3", "Barrage 1", "Commanding Presence 2", "Point Blank 1", "Ready for Anything 3"],
+		"abilities": ["Tactical Direction",
+				{
+				"name": "Mission Command",
+				"description": "So long as Major Karvek’s last orders are applicable to the situation, upgrade the difficulty of Mass Combat checks while cut off by his full leadership value as opposed to the usual half."
+				}
+		],
+		"weapons": [
+			{
+				"name": "Blaster rifle with foregrip and sling",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Stun", "Forearm Grip", "Weapon Sling", "Quick Draw"]
+			}
+		],
+		"gear": ["storm commando armor (+1 soak, defense 1, reflec coating [upgrade stealth checks once, sensors cannot detect the wearer subject to GM discretion], enhanced optics suite), long range comlink, utility belt, extra reloads"],
+		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
+		"devOnly": true
+	},
+	{
+		"name": "Major General Billek Vilneon",
+		"type": "Nemesis",
+		"description": "Combined Arms Steamroller\n\nIn the eyes of Major General Vilneon, the Imperial Army is a machine. A trained engineer, experienced armored officer, and decorated commander, it should be no surprise a man who has spent more than half his life working with war machines sees the military in this way. The Imperial Army is a complicated with a vast array of specialties, unit types, equipment loadouts, and tactical procedures. Infighting between the branches and the use of pet projects to advance careers further divides the Army. Little enrages Vilneon more than this, for he sees it as akin to debating whether the repulsorlift or the powerplant is more important on a hovertank – both are vital and must work in concert. General Vilneon has thus made a career of organizing combined arms groups from different branches and service, building true teams with strong cohesion and identity. While fully implementing Imperial doctrine and uniformity, Vilneon has added something the Imperial military lacks despite its stated ideology: unity.\n\n7th Assault Battlegroup\n\nBattlegroups are normally commanded by High Colonels, with Major Generals commanding a Corps comprised of several Battlegroups. Given General Vilneon’s high status, it should be no surprise the 7th Assault Battlegroup has a unique task organization. A normal Assault Battlegroup would be composed of two line regiments, an assault regiment, and an armored regiment. The 7th instead has two assault regiments augmented with walkers, an armored regiment, and a stormtrooper regiment. These troops train extensively in combined arms operations. Retaining the regimental system for little more than administrative purposes, this battlegroup is functionally organized around a series of combined arms brigades that train and fight together. The result is a highly coordinated, and therefore deadly, opponent to face on the battlefield.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 17,
+			"strain": 19,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Cool": 2,
+			"Discipline": 3,
+			"Knowledge: Warfare": 4,
+			"Leadership": 4,
+			"Perception": 2,
+			"Ranged: Light": 3,
+			"Resilience": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Commanding Presence 2", "Careful Planning"],
+		"abilities": ["Tactical Direction",
+				{
+				"name": "Combined Arms Doctrine",
+				"description": "So long as Major General Vilneon is the opposing commander, always increase the difficulty for a combined arms enemy force by two instead of one."
+				}
+		],
+		"weapons": [
+			{
+				"name": "Blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun"]
+			}
+		],
+		"gear": ["army officer armor (+1 soak, defense 1), long range comlink, utility belt, extra reloads"],
+		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military"],
+		"devOnly": true
+	},
+	{
+		"name": "Dantris “Dani” Solomani",
+		"type": "Nemesis",
+		"description": "AKA Dr. Danny Solys, Jedi Mentor",
+		"notes": "Credits go to Linda Whitson, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 5,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 17,
+			"strain": 19,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 1,
+			"Charm": 3,
+			"Cool": 3,
+			"Discipline": 3,
+			"Knowledge: Core Worlds": 2,
+			"Knowledge: Education": 2,
+			"Knowledge: Lore": 4,
+			"Knowledge: Outer Rim": 2,
+			"Knowledge: Underworld": 2,
+			"Knowledge: Warfare": 2,
+			"Knowledge: Xenology": 2,
+			"Lightsaber": 2,
+			"Medicine": 4,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 3", "Force Rating 3", "Calming Aura", "Healing Trance 2", "Physician 3", "Surgeon 1"],
+		"abilities": ["Force Power: Influence", "Force Power: Sense", "Force Power: Heal"],
+		"weapons": ["Basic lightsaber"],
+		"gear": ["Doctor’s garb (Soak +1), Physician’s kit, Datapad, Various personal items and mementos."],
+		"tags": ["source:D20Radio.com NPC’s", "jedi"],
+		"devOnly": true
+	},
+	{
+		"name": "Canto Bight Police Officer",
+		"type": "Minion",
+		"description": "The beautiful coastal city of Canto Bight is kept safe and orderly by the fine beings of the Canto Bight Police Department, or such is the outward perception. On the surface, Canto Bight police appear courteous and professional – the perfect constables. Underneath the finely tailored uniforms and polished arms and equipment, CBPD officers are more hired muscle than lawbeings. Justice is no concern to these police officers; instead they ensure the resort city’s best interests are met, whether it be brutally punishing vandals or looking the other way as to the source of laborers. Law is negotiable on Canto Bight, at least for the wealthy and connected. While there are unspoken red lines, such as anything which damages the prestige and profitability of the city’s gambling establishments, almost any transgression can be overlooked for the right price.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [1, 1]
+		},
+		"skills": ["Ranged: Heavy", "Ranged: Light", "Charm", "Melee", "Perception"],
+		"weapons": [
+			{
+				"name": "Relby K-25 blaster, Default",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun"]
+			},
+			{
+				"name": "Relby K-25 blaster, Heavy",
+				"skill": "Ranged: Light",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun", "Accurate"]
+			},
+			{
+				"name": "Relby K-25 blaster, Rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Stun", "Accurate"]
+			},
+			{
+				"name": "Electro-shock prod",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Stun", "Disorient 2"]
+			}
+		],
+		"abilities": [
+			{
+			"name": "Bribable",
+			"description": "Skill Checks to bribe or otherwise take advantage of police corruption gain 1 :advantage:."
+			}
+		],
+		"gear": ["armored uniform (+1 soak, +1 defense), multispectrum police glow rod, encrypted long range comlink."],
+		"tags": ["source:D20Radio.com NPC’s", "location:Canto Bight", "security"],
+		"devOnly": true
+	},
+	{
+		"name": "Fathier",
+		"type": "Rival",
+		"description": "A non-sentient, however insightful species, the Fathier have very long legs, brownish fur, and long ears that distinguish it from other species. Fathiers can run at great speeds across any type of terrain. In the film, we even see one climb nearly straight up a short cliff face to escape. Their great speed has made them sought after by gambling houses all across the galaxy and caused the enslavement of many of their kind. They are hunted and forced to race in many casinos and race tracks in the galaxy. In fact, when kept in captivity, Fathiers often must endure “Double-Gravity” chambers causing them to gain strength even when moving about their confined areas. The people of Canto Bight on the planet Cantonica are particularly cruel to the animals.\n\nFathiers are easily domesticated and can be fitted with a riding harness and saddle. Tognath Mercenaries during the time of the Galactic Civil War often rode Fathiers during hit and run missions.",
+		"notes": "Credits go to Scott Alden, D20Radio.com",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 20,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Coordination": 1
+		},
+		"abilities": ["Silhouette 2", "Domesticable 2", "Trained Mount 2",
+			{
+			"name": "Speed 2",
+			"description": ""
+			}
+		],
+		"weapons": [
+			{
+				"name": "Trampling Hooves",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"tags": ["source:D20Radio.com NPC’s", "creature", "location:Canto Bight"],
+		"devOnly": true
+	},
+	{
+		"name": "Staff Officer",
+		"type": "Rival",
+		"description": "The complexity of the galaxy’s conflicts mean all but the lowest level military commanders need dedicated staff officers to help plan and manage operations. Whether analyzing information, coordinating forces, planning for contingencies, or ensuring support, these officers focus on the details for their commander. This frees the commander to think big picture, able to do the art rather than the science of military operations. Thus it is said, behind every Ackbar or Thrawn are unknown, but effective staff turning their commander’s vision into reality.\n\nThe goliath Imperial war machine employs thousands of staff officers in an effort to keep the gears of war turning. Service on a staff is often seen as necessary for career progression through forging networks across branches and securing patronage from higher officers. This career climbing can come at a price for Imperial efficiency, however, as some unscrupulous officers find sabotage of others easier than succeeding on their own merits.\n\nThe Rebel Alliance, strapped for personnel at all levels, can rarely afford to spare enough officers for a full staff. Qualified officers are needed in command positions, and indeed academy trained leaders are a minority in the ranks. Instead of a rigid doctrinal definition of staff, the Alliance uses collaborative planning to perform the same basic function. Specialists from all walks of life, and all ranks, are invited to contribute when their expertise may be useful. With a galaxy-wide war of liberation to fight, most Rebel commanders will heed the words of  the former professor even if they wear a lowly enlisted rank in the Alliance’s military hierarchy.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Computers": 1,
+			"Discipline": 2,
+			"Knowledge: Education": 2,
+			"Knowledge: Warfare": 3,
+			"Leadership": 2,
+			"Perception": 1,
+			"Ranged: Light": 2,
+			"Vigilance": 1
+		},
+		"abilities": [
+			{
+			"name": "Staff Branch Intelligence",
+			"description": "Once per encounter, reduce the difficulty of a Mass Combat check by one."
+			},
+			{
+			"name": "Staff Branch Operations",
+			"description": "Once per encounter, treat the acting force strength in a Mass Combat check as one higher."
+			},
+			{
+			"name": "Staff Branch Logistics",
+			"description": "Once per encounter, negate a reduction in force strength by one."
+			},
+			{
+			"name": "Staff Branch Plans",
+			"description": "Once per encounter, the acting force commander may use the Careful Planning talent as if it was their own."
+			},
+			{
+			"name": "Staff Branch Signals",
+			"description": "Once per encounter, negate an ability that prevents the acting force commander from applying their Leadership skill."
+			}
+		],
+		"talents": ["Careful Planning", "Researcher 2", "Thorough Assesment"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["uniform (+1 soak)", "encoded datapad with staff estimates and planning data"],
+		"tags": ["source:D20Radio.com NPC’s", "rebel alliance"],
+		"devOnly": true
+	},
+	{
+		"name": "Cipher Agent",
+		"type": "Nemesis",
+		"description": "When Imperial Intelligence has a mission of the utmost importance to be completed under extreme circumstances, they turn to the elite Cipher Agents. Stripped of their identities, Cipher Agents were like high level operatives in Intelligence in that they were officially addressed only by a numeric designation such as Cipher Nine. Cipher Agents were given broad authority, with permission to recruit operatives and move about the galaxy on their own initiative. Expertly trained, armed with enhanced weapons, and provided with experimental equipment, Cipher Agents are some of the most dangerous individuals in the galaxy. The advanced capabilities of these operatives has not escaped their Sith masters. Several Cipher Agents have secretly been brainwashed with powerful hypnotic controls known as Castellan Restraints. These restraints are used as a control against Cipher Agents acting against the Sith.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 18,
+			"strain": 18,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coercion": 2,
+			"Charm": 3,
+			"Cool": 3,
+			"Coordination": 1,
+			"Deception": 3,
+			"Discipline": 3,
+			"Knowledge: Education": 3,
+			"Knowledge: Underworld": 1,
+			"Knowledge: Warfare": 2,
+			"Melee": 3,
+			"Perception": 3,
+			"Ranged: Heavy": 3,
+			"Ranged: Light": 3,
+			"Stealth": 4,
+			"Streetwise": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 3", "Deadly Accuracy (Melee) 3", "Lethal Blows 2", "Plausible Deniability 3", "Soft Spot", "True Aim 2"],
+		"abilities": [
+			{
+				"name": "Counter-Jedi Tactics",
+				"description": "Upgrade the difficulty of any checks targeting this character’s mind using Force powers once, add 1 to this character’s defense against lightsaber attacks."
+			}
+		],
+		"weapons": [ "Heavy blaster pistol",
+			{
+				"name": "Accurized blaster rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 10,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Stun", "Accurate 1"]
+			},
+			{
+				"name": "ShockBlade vibroknife",
+				"skill": "Melee",
+				"plus-damage": 1,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Accurate 1", "Pierce 2", "Stun 4", "Vicious 1"]
+			}
+		],
+		"gear": ["personal stealth field generator (as per Outlaw Tech Personal Stealth Field, EotE pg. 186 – these devices tend to self-destruct in non-Intelligence hands), encrypted holocom, three stimpacks, additional high tech gear as desired."],
+		"tags": ["source:D20Radio.com NPC’s", "imperial intelligence"],
+		"devOnly": true
+	},
+	{
+		"name": "Imperial Emigration Officer",
+		"type": "Rival",
+		"description": "The free flow of sentient beings, as with many failings of the Old Republic, can no longer be tolerated by the Empire. The Imperial Security Bureau now centrally manages interplanetary customs and immigration. Inducting existing security forces, such as CorSec, into the Imperial fold, movement off heavily populated worlds is strictly controlled by local emigration officers. Ostensibly designed to prevent transplanetary crime, the Empire is far more concerned with controlling populations as resources. Workers in critical industries, such as naval construction at Corellia, are routinely denied exit visas. Much cheaper than centrally training and posting military or ISB personnel to far flung worlds, the trade off is a lack of indoctrination and thus reliability. It is not unheard of for local emigration officers to break protocol in compassionate cases or even accept bribes, actions deemed anathema to zealous Imperial personnel.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Astrogation": 1,
+			"Discipline": 1,
+			"Perception": 2,
+			"Vigilance": 3
+		},
+		"abilities": [],
+		"talents": ["Nobody’s Fool 1"],
+		"gear": ["Encoded datapad, secure comlink, hand scanner"],
+		"tags": ["source:D20Radio.com NPC’s", "empire"],
+		"devOnly": true
+	},
+	{
+		"name": "Imperial Ground Crew",
+		"type": "Rival",
+		"description": "As a government that prides itself on order and efficiency, the Empire demands precise coordination in all things. The men and women of Imperial military ground crews add, in their own small way, to that efficiency. Although hardly glamorous, such mundane matters as traffic control, arming and fueling, and routine maintenance are truly critical to keeping the Imperial war machine fighting.\n\nImperial ground crew serve at military installations across the galaxy. Whether a space-borne docking bay, major spaceport, or austere landing pad, ground crew ensure military craft are well taken care of when not in use. Although qualified to handle the gamut of Imperial starships, ground crew often grow connected to the equipment specific to their unit. Aboard a star destroyer’s fighter wing, for example, it is common for the technical crew to rib the flight crews, claiming that the TIEs belong to the technical crew and are merely lent to the pilots.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Mechanics": 2,
+			"Melee": 1,
+			"Perception": 2,
+			"Piloting: Planetary": 1,
+			"Piloting: Space": 1,
+			"Vigilance": 1
+		},
+		"abilities": [
+			{
+				"name": "Traffic Control",
+				"description": "Upgrade Leadership or Perception skill checks for the purposes of traffic control or otherwise coordinating multiple vehicles in tight spaces."
+			}
+		],
+		"talents": ["Fine Tuning 2"],
+		"weapons": [
+			{
+				"name": "Traffic baton",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Stun", "Disorient 2"]
+			},
+			{
+				"name": "ShockBlade vibroknife",
+				"skill": "Melee",
+				"plus-damage": 1,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Accurate 1", "Pierce 2", "Stun 4", "Vicious 1"]
+			}
+		],
+		"gear": ["Deck crew uniform (+1 soak, integrated comlink, ground control HUD [gain automatic Advantage on Perception checks to determine distance]), flight suit, utility belt."],
+		"tags": ["source:D20Radio.com NPC’s", "empire"],
+		"devOnly": true
+	},
+	{
+		"name": "Senate Guard",
+		"type": "Rival",
+		"description": "Respected protectors of the Republic Senate, and by extension the democracy with which that body represents, the Senate Guard proudly uphold centuries of tradition. The Guard were charged with securing the Senate District on Coruscant as well as the Chancellor’s personal protection. An elite force, experienced recruits were drawn from planetary police organizations, the Judicial Forces, and even private companies. Not merely passive protectors of the Senate, the Guard actively sought out threats to through independent investigation. While the Guard generally cooperated with local police and the Jedi, they retained an elite branch known as the Senate Commandos. Charged with special missions, these commandos were employed on matters of utmost sensitivity to the Republic.\n\nThe Senate Guard played a critical role in the waning days of the Republic. Trading their ceremonial robes for reinforced armor, the Guard actively resisted covert Separatist activities including subversion, kidnapping, and terror attacks. Later referred to as the Blue Guard, in contrast to Supreme Chancellor Palpatine’s new Red Guard, these protectors would be gradually phased out in favour of Palpatine’s personal force. The Senate Guard, alongside the Republic’s thousand year democracy, were summarily retired by the Emperor’s declaration of a new order.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 16,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 2,
+			"Charm": 1,
+			"Discipline": 2,
+			"Melee": 2,
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Ranged: Heavy": 2,
+			"Vigilance": 3
+		},
+		"abilities": [
+			{
+				"name": "Defenders of Democracy",
+				"description": "Senate Guards downgrade the difficulty of Discipline checks to resist effects such as fear or bribery, Republic security forces minions that can see a Senate Guard within long range add a Boost die to Discipline checks."
+			}
+		],
+		"talents": ["Adversary 1", "Body Guard 2", "Point Blank 3"],
+		"weapons": ["Blaster rifle", "Heavy blaster pistol", "Force pike"],
+		"gear": ["laminate armor with ceremonial robes (soak +2, defense +1), secure comlink, utility belt with stimpacks."],
+		"tags": ["source:D20Radio.com NPC’s", "galactic republic"],
+		"devOnly": true
+	},
+	{
+		"name": "Sabacc Player",
+		"type": "Rival",
+		"description": "Possessing enough skill to beat the odds in the long run is rare among gamblers, but especially true for a game as random as sabacc. Whether through dice as in Corellian Spike, or by the shifting cards themselves in the Core Worlds, the element of chance deters many from high stakes sabacc play. Those who do brave the table for game after game bring steely nerves, a keen eye for tells, and a strategic intuition for when to hold or fold. Almost every casino hosts professional players, the same holding true for gambling holes and card sharks, and the question must be asked: game after game, how can they get ahead? There answer is a very particular set of skills combined with the confidence to take prudent risks.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Cool": 2,
+			"Deception": 2,
+			"Discipline": 1,
+			"Perception": 2,
+			"Skulduggery": 1,
+			"Streetwise": 2
+		},
+		"abilities": [
+			{
+				"name": "Know When to Hold ‘Em",
+				"description": "Remove 2 Setback dice from Cool or Discipline checks while gambling."
+			}
+		],
+		"talents": [
+			{
+				"name": "Second Chances 1",
+				"description": "Once per encounter, chose one die and reroll it."
+			}
+		],
+		"gear": ["Fine clothing (soak +1), hard currency."],
+		"tags": ["source:D20Radio.com NPC’s", "gambler"],
+		"devOnly": true
+	},
+	{
+		"name": "Therm Scissorpunch",
+		"type": "Rival",
+		"description": "An allegedly notorious sabacc player known to frequent the Vandor’s Fort Ypso Lodge, this Nephran gambler relies on intimidation to unbalance his opponents. He demands other patrons refer to him as Therm Scissorpunch. Whether this nickname was earned, or self-invented, is unknown. Veracity aside, the nickname refers to the very real shank implanted in Therm’s left claw.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 17,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coercion": 2,
+			"Cool": 1,
+			"Deception": 1,
+			"Perception": 1,
+			"Streetwise": 2
+		},
+		"abilities": [
+			{
+				"name": "Dread Lobster",
+				"description": "Remove :setback::setback: from Coercion checks."
+			}
+		],
+		"talents": ["Adversary 1", "Up the Ante 1"],
+		"weapons": [
+			{
+				"name": "Claw shank",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 1", "Vicious 1"]
+			}
+		],
+		"gear": ["Padded armor (+2 soak), hard currency"],
+		"tags": ["source:D20Radio.com NPC’s", "gambler"],
+		"devOnly": true
+	},
+	{
+		"name": "Cloud-Rider Marauder",
+		"type": "Minion",
+		"description": "Dreaded pirates led by the mysterious Enfys Nest, the notorious Cloud-Rider marauders are the scourge of the Outer Rim. They strike from the skies, mounted on modified swoop bikes, conducting lightning raids to snatch and grab valuable cargo. The speed of these assaults often means that by the time security forces are alerted to what is happening the marauders have already escaped. Clad in a mixture of scavenged, or looted, flight suits and local animal leathers, most marauders conceal their identities with masks or helmets. Most see the Cloud-Riders as pirates to be feared, but whispers of support can be heard in some quarters. Although fearsome in appearance and tactics, some have noticed the marauders almost always target the Imperial military or rival criminal gangs, rarely accosting innocent civilians. While the motives of the Cloud-Riders are as unknown as the true identity of their leader, the threat of a surprise attack by these marauders is well known to Imperials stationed in the Outer Rim.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4,
+			"defence": [0, 0]
+		},
+		"skills": ["Athletics", "Coordination", "Melee", "Piloting: Planetary", "Ranged: Light"],
+		"weapons": [
+			{
+				"name": "Tibanna-jacked DH-17 blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 8,
+				"critical": 2,
+				"range": "Medium"
+			},
+			{
+				"name": "Vibrobayonet",
+				"skill": "Melee",
+				"damage": 3,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 3"]
+			}
+		],
+		"abilities": [
+			{
+				"name": "Look Before You Leap",
+				"description": "Downgrade the difficulty of checks to jump or avoid falling once."
+			}
+		],
+		"talents": ["Physical Training 1"],
+		"gear": ["flightsuit and animal hides (soak +1), grappling hooks."],
+		"tags": ["source:D20Radio.com NPC’s", "pirate", "swoop racer"],
+		"devOnly": true
+	},
+	{
+		"name": "Senex, Krath War Droid",
+		"type": "Nemesis",
+		"description": "Unique Droid. Holocron Database & Combat Instructor, Senex functions as a Holocron party resource, but grants access to three skills: Charm, Knowledge (Lore), and Lightsaber.\n\nhttp://www.d20radio.com/main/galaxy-guide-masters-in-exile-senex-jedi-training-droid/",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 24,
+			"strain": 23,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Charm": 2,
+			"Coordination": 2,
+			"Cool": 3,
+			"Deception": 3,
+			"Discipline": 3,
+			"Knowledge: Education": 3,
+			"Knowledge: Lore": 4,
+			"Lightsaber": 4,
+			"Mechanics": 2,
+			"Melee": 3,
+			"Perception": 3,
+			"Ranged: Light": 2,
+			"Skulduggery": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 3", "Improved Parry", "Parry 5", "Trust No One",
+			{
+				"name": "Secrets of the Jedi",
+				"description": "Senex may decrease the difficulty of checks made to construct or repair lightsaber hilts twice."
+			}
+		],
+		"abilities": ["Droid"],
+		"weapons": [ "Heavy blaster pistol",
+			{
+				"name": "Built-in retractable blasters",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Vicious 3"]
+			},
+			{
+				"name": "Dual lightsabers",
+				"skill": "Lightsaber",
+				"damage": 7,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Superior"]
+			}
+		],
+		"gear": ["Built-in armor plating (+2 Soak, +1 Defense; Cortosis)"],
+		"tags": ["source:D20Radio.com NPC’s", "species:droid"],
 		"devOnly": true
 	}
 ]
