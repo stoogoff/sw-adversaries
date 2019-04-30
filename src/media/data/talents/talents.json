@@ -121,7 +121,7 @@
 	},
 	{
 		"name": "Brace",
-		"description": "As a maneuver, remove up to {rank|setback} added due to environmental conditions from next skill check."
+		"description": "As a maneuver, remove up to {ranks|setback} added due to environmental conditions from next skill check."
 	},
 	{
 		"name": "Brilliant Evasion",
