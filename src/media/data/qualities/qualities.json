@@ -115,6 +115,11 @@
 		"description": "Add :setback: to Perception checks to detect when disassembled."
 	},
 	{
+		"name": "Mono-Molecular Edge",
+		"type": "Passive",
+		"description": "Reduce weapon’s critical rating by 1."
+	},
+	{
 		"name": "Pierce",
 		"type": "Passive",
 		"description": "Ignores one point of Soak for each rank of Pierce."
@@ -123,6 +128,11 @@
 		"name": "Prepare",
 		"type": "Passive",
 		"description": "The user must perform a number of Prepare maneuvers equal to the weapon’s Prepare rating before making attacks."
+	},
+	{
+		"name": "Serrated Edge",
+		"type": "Passive",
+		"description": "Adds Vicious 1 to the weapon."
 	},
 	{
 		"name": "Slow-Firing",

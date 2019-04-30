@@ -132,6 +132,67 @@
 		"devOnly": true
 	},
 	{
+		"name": "Stormtrooper: Patrol Troopers",
+		"type": "Minion",
+		"description": "Deployed to the Empire’s industrial and urban heartland, patrol troopers are a branch of the stormtrooper corps charged with law enforcement in areas deemed vital to Imperial interests. While local and planetary forces are left to police most of the Empire, these patrol troopers secure important shipyards, spaceports, factories, and other areas critical to the Imperial war machine. Patrol troopers are patterned after scout troopers. Flexible armor equipped with enhanced optics and real-time data uplinks allow patrol troopers to navigate urban sprawls with ease while ferreting out crime or sabotage. These uplinks all for near instantaneous information sharing of data from routine traffic information on patrol to pursuit vectors during high-speed chases.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": ["Athletics", "Discipline", "Melee", "Perception", "Piloting: Planetary", "Ranged: Light", "Vigilance"],
+		"weapons": ["Blaster pistol", "Truncheon"],
+		"gear": ["patrol trooper armor (+1 soak, traffic navigation uplink – gain Shortcut 1 [Add :boost: to checks made to catch or escape an opponent] when in comlink range of headquarters, enhanced imaging electronics – remove 1 Setback die from Perception checks to identify objects due to low light or long ranges)"],
+		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
+		"devOnly": true
+	},
+	{
+		"name": "Stormtrooper: Range Trooper",
+		"type": "Minion",
+		"description": "Enforcers of the Emperor’s will on far flung frontier worlds, it is the range troopers of the Stormtrooper Corps that carve order from chaos on the ever expanding fringes of the Empire. Range troopers secure and patrol vast territories on uncivilized, icy worlds selected for imperial development. Although not special operations forces, range troopers screen candidates for mental toughness and physical resilience above the norm. These traits breed a strong collective identity and feeling of eliteness above regular stormtroopers.\n\nEquipped similarly to the cold assault stormtrooper, known to most as snowtroopers, range trooper armor integrates arctic survival gear and provides freedom of movement for long patrol routes. Unlike the offensively oriented snowtroopers, range troopers are equipped to conduct security patrols and sentry duties. Range troopers utilize a variety of overboot systems to enhance mobility, from simple skis and snowshoes to climbing cleats and magnetic boots. This ensures Imperial assets can be protected, whether over vast swaths of snow or on high-speed conveyex transports.\n\nRange troopers operate in small units on detached service, often with little contact or oversight by higher command. This isolation from the rest of the imperial military, and indeed galactic civilization, fosters a frontier spirit of cold determination. Range troopers strive to accomplish any mission assigned, but they do so their own way and prefer not to cooperate with other units they deem less capable.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 6
+		},
+		"skills": ["Athletics", "Discipline", "Melee", "Perception", "Ranged: Heavy", "Resilience", "Survival"],
+		"weapons": [
+			{
+				"name": "E-10R blaster rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Stun", "Accurate 1", "Cumbersome 2", "Multi-optic Sight"]
+			}
+		],
+		"abilities": [
+			{
+				"name": "Frontier Spirit",
+				"description": "Add a :boost: to Cool and Discipline checks."
+			}
+		],
+		"gear": ["range trooper armor (+2 soak, when making skill checks may remove :setback::setback: imposed due to cold or icy environmental conditions), magnetic boots (may ignore difficult terrain caused by low gravity, standing on fast moving vehicles, or similar situations, may never spend more than one maneuver moving per turn), extra reloads."],
+		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
+		"devOnly": true
+	},
+	{
 		"name": "Imperial Army “Mudtrooper” Swamp Trooper",
 		"type": "Minion",
 		"description": "Imperial Army swamp troopers served as the army infantry’s combat specialists in wetlands environments. While all but phased out in favor of stormtroopers by the height of the Rebellion, these army troopers were relied upon to subjugate Imperial worlds during the first decades of the Empire. Equipped with partial armor, filtration systems, and survival gear, these troopers faced treacherous and disease-ridden environments nearly as deadly as their opponents. Fighting in these brutal conditions earned swamp troopers the moniker of “mudtrooper” after hellish battles on worlds such as Mimban.\n\nSwamp trooper duty was notoriously miserable. Few volunteered, with many in the ranks conscripted from planetary defense forces. Some were wash outs from the officer, stormtrooper, and starfighter corps. Others were army enlistees, signed on for a single term of service to gain skills or pay for university, unlucky enough to be assigned as swamp troopers. Whatever the source, mudtroopers were known as an unpredictably motley crew with unpredictable levels of discipline. Imperial high command often mitigated this by assigning mudtroopers to the first wave, with more reliable stormtroopers assigned as insurance against insubordination or cowardice.",
@@ -284,7 +345,7 @@
 		"name": "Nik Kormir, Resistance Purchaser",
 		"type": "Rival",
 		"description": "Well dressed, confident, salt and pepper hair. This human male, called Mr. Smooth by his admirers in the casino, carries himself as a successful gambler. Turning a few heads, he is nothing special compared to the true high rollers of Canto Bight. Just respected enough to look as if he belongs, Nik Kormir subtly moves among the scores of weapons manufacturers and arms brokers living the high life. Kormir relies on hiding in plain site to evade the notice of the First Order, purchasing quietly and arranging all deliveries to be off world. If discovered, his primary goal will be escape and evade. He will fight to break contact, but doesn’t finish off downed enemies, instead using his energy to flee. Kormir fears most capture and slow interrogation by the First Order, and will do anything possible to avoid that fate.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "Credits go to Chris Hunt, D20Radio.com. http://www.d20radio.com/main/holonet-uplink-bounty-contract-resistance-purchaser/",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -1549,6 +1610,64 @@
 		"devOnly": true
 	},
 	{
+		"name": "Canto Bight Police Sergeant",
+		"type": "Rival",
+		"description": "Immaculately dressed and well spoken, the sergeants of Canto Bight’s police force represent the highly shone image Cantonica presents to the galaxy. Underneath this veneer, these non-commissioned officers understand the only true law on world is keep the wealthy clientele happy and their credits flowing. Police officers with strong records, despite a few ethics breaches, form a major recruiting pool for CBPD leadership. Many of these sergeants run their own side racket, skimming a few credits here and there. This is all but actively encouraged by higher ups, as most of these side deals depend on the continual success of Canto Bight’s luxury services. These officers do keep the peace, but will look the other way if the price is right.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Charm": 1,
+			"Coercion": 2,
+			"Cool": 1,
+			"Deception": 2,
+			"Melee": 2,
+			"Negotiation": 2,
+			"Perception": 2,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 2
+		},
+		"talents": ["Nobody’s Fool 2"],
+		"abilities": ["Tactical Direction",
+			{
+			"name": "Bribable",
+			"description": "Skill Checks to bribe or otherwise take advantage of police corruption gain :advantage:."
+			}
+		],
+		"weapons": ["Blaster rifle", "Frag grenade", "Vibroknife",
+			{
+				"name": "Relby K-25 blaster, Heavy",
+				"skill": "Ranged: Light",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun", "Accurate"]
+			},
+			{
+				"name": "Electro-shock prod",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Stun", "Disorient 2"]
+			}
+		],
+		"gear": ["armored uniform (+1 soak, +1 defense), multispectrum police glow rod, encrypted long range comlink"],
+		"tags": ["source:D20Radio.com NPC’s", "location:Canto Bight", "security"],
+		"devOnly": true
+	},
+	{
 		"name": "Fathier",
 		"type": "Rival",
 		"description": "A non-sentient, however insightful species, the Fathier have very long legs, brownish fur, and long ears that distinguish it from other species. Fathiers can run at great speeds across any type of terrain. In the film, we even see one climb nearly straight up a short cliff face to escape. Their great speed has made them sought after by gambling houses all across the galaxy and caused the enslavement of many of their kind. They are hunted and forced to race in many casinos and race tracks in the galaxy. In fact, when kept in captivity, Fathiers often must endure “Double-Gravity” chambers causing them to gain strength even when moving about their confined areas. The people of Canto Bight on the planet Cantonica are particularly cruel to the animals.\n\nFathiers are easily domesticated and can be fitted with a riding harness and saddle. Tognath Mercenaries during the time of the Galactic Civil War often rode Fathiers during hit and run missions.",
@@ -2037,7 +2156,887 @@
 			}
 		],
 		"gear": ["Built-in armor plating (+2 Soak, +1 Defense; Cortosis)"],
-		"tags": ["source:D20Radio.com NPC’s", "species:droid"],
+		"tags": ["source:D20Radio.com NPC’s", "species:droid", "krath"],
+		"devOnly": true
+	},
+	{
+		"name": "Duchess Salandra Faust",
+		"type": "Nemesis",
+		"description": "The scion of a long line of exiled Tetan aristocrats and Krath acolytes, Salandra is an extraordinarily attractive woman of noble bearing. She dresses in the finest attire and is a notorious fashion setter among the Galactic elite. Her foppish appearance, however, is little more than a mask– She trained from the time she could walk with Mecrosa assassins and her family’s Krath adepts. Her facility for swordplay and the Force are matched only by her political acumen; she is a master manipulator and is as likely to orchestrate an enemy’s demise with words as with her blade.",
+		"notes": "Credits go to Phillip Krzeminski, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 5
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 17,
+			"strain": 18,
+			"defence": [2, 1]
+		},
+		"skills": {
+			"Charm": 3,
+			"Coercion": 2,
+			"Deception": 3,
+			"Discipline": 3,
+			"Knowledge: Education": 2,
+			"Knowledge: Lore": 2,
+			"Melee": 4,
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Skulduggery": 3,
+			"Stealth": 3,
+			"Streetwise": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 3", "Force Rating 4", "Lethal Blows 2",
+			{
+				"name": "Overbalance",
+				"description": "when a combat check made by an engaged foe generates :despair:  or :threat::threat::threat: Salandra may stagger attacker until the end of their next turn."
+			},
+			{
+				"name": "Tetan Duelist",
+				"description": "May use Presence instead of Brawn when using the Melee skill."
+			},
+			{
+				"name": "Neurotoxin Doses",
+				"description": "Doses of neurotoxin can be introduced into food or drink as a maneuver or applied to a Melee weapon as a maneuver. If applied to a weapon, it lasts for the remainder of the encounter. If a target ingests poisoned food or drink, or suffers wounds from a poisoned Melee weapon, the target must make an :average: Resilience check, the target suffers 5 wounds if he fails, plus 1 strain per :threat:. :despair: means the target must test against the poison again at the start of his next turn."
+			}
+		],
+		"abilities": ["Force Power: Harm", "Force Power: Influence",
+			{
+				"name": "Force power Jerserra’s Influence",
+				"description": "choose a target within Short range to make an :average: Fear check. :darkside: increase the range of this power by 1. :darkside: increase the number of targets affected this power by 1. :darkside: increase the difficulty of the Fear check by 1. If the target suffers Strain as a result of Jerserra’s Influence, the Force user recovers an equal amount of Strain."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Superior Vibrorapier",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1", "Serrated Edge", "Pierce 5", "Superior", "Vicious 2"]
+			},
+			{
+				"name": "Molecular stiletto",
+				"skill": "Melee",
+				"damage": 2,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Mono-Molecular Edge", "Pierce 7", "Vicious 1"]
+			}
+		],
+		"gear": ["Encrypted comlink, tailored armored clothing (+1 soak/+1 defence), collection of Force artifacts, large Kalevalan star yacht"],
+		"tags": ["source:D20Radio.com NPC’s", "krath"],
+		"devOnly": true
+	},
+	{
+		"name": "Krath War Droid",
+		"type": "Minion",
+		"description": "Though Krath war droids were generally humanoid in appearance, their unnatural movements and uncanny appearance made them a terrifying sight on the battlefield. These battle droids were designed to surprise and overwhelm their enemies in devastating shock assaults, springing towards their targets on their gyro-balanced leg assembly systems. These droids were far ahead of their time, and the Krath exiles meticulously maintained the precious few they had remaining.\n\nBuilt by Cinnagar Foundries",
+		"notes": "Credits go to Phillip Krzeminski, D20Radio.com.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 6,
+			"defence": [0, 0]
+		},
+		"skills": ["Athletics", "Melee", "Ranged: Heavy"],
+		"weapons": [
+			{
+				"name": "Heavy Pulse-Wave Blaster",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Vicious 3"]
+			},
+			{
+				"name": "Vibrosword",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Defensive 1", "Vicious 1"]
+			}
+		],
+		"abilities": ["droid",
+			{
+				"name": "Gyrobalanced legs",
+				"description": "Gain an additional free maneuver per turn that can only be used for movement. May not perform more than two maneuvers per turn."
+			}
+		],
+		"gear": ["Ornate armored plating (+1 soak)."],
+		"tags": ["source:D20Radio.com NPC’s", "species:droid", "krath"],
+		"devOnly": true
+	},
+	{
+		"name": "Krath Warrior Zealot",
+		"type": "Rival",
+		"description": "The Krath Warrior Zealots are a fighting force of elite bodyguards fanatically loyal to the Krath of House Faust. These men and women are composed of those that have been recruited into the cult, but don’t have a strong enough connection to the Force to become full Death Witches. After rigorous indoctrination, their training focuses on traditional Tetan hand-tohand combat techniques supplemented by their limited connections to the Dark Side. At any given time there are about a dozen of these elite warriors in existence and Salandra always has at least two in her personal retinue posing as normal ceremonial bodyguards.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 16,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Discipline": 2,
+			"Knowledge: Warfare": 2,
+			"Melee": 3,
+			"Ranged: Heavy": 3,
+			"Vigilance": 2
+		},
+		"abilities": ["Force Power: Enhance"],
+		"talents": ["Body Guard 2", "Feral Strength 2", "Force Rating 1"],
+		"weapons": ["Blaster carbine", "Frag grenade",
+			{
+				"name": "Ceremonial vibro-ax",
+				"skill": "Melee",
+				"damage": 9,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 3", "Sunder"]
+			}
+		],
+		"gear": [" Ornate battle armor (+2 Soak/+1 Defense)", "encrypted comlink."],
+		"tags": ["source:D20Radio.com NPC’s", "krath"],
+		"devOnly": true
+	},
+	{
+		"name": "Mimbanese Resistance Fighter",
+		"type": "Minion",
+		"description": "Hardened guerrilla fighters, the soldiers of the Mimbanese Liberation Army have been fighting since the waning days of the Clone War. These resistance fighters originally fought alongside the 224th clone infantry division “Mud Jumpers” against the Separatist droid menace. With the Republic replaced by the brutal Empire, the Mimbanese are locked in bloody campaign of independence. Using old Republic equipment, these guerrillas ironically are faced with the 224th Imperial Armored Division, an Imperial Army formation perpetuating the history of the once-allied “Mud Jumpers.” While the Mimbanese may be under-equipped, they posses far more experience and resolve than their Imperial Army opponents.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5,
+			"defence": [0, 1]
+		},
+		"skills": ["Athletics", "Cool", "Melee", "Ranged: Heavy"],
+		"weapons": ["Blaster rifle",
+			{
+				"name": "Vibrobayonet",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 3"]
+			}
+		],
+		"talents": ["Outdoorsman 2", "Stalker 2"],
+		"abilities": [
+			{
+				"name": "Low Light Vision",
+				"description": "Remove :setback::setback: from checks caused by darkness."
+			},
+			{
+				"name": "Strong Limbs",
+				"description": "Does not treat mud as difficult terrain when using the move maneuver."
+			}
+		],
+		"gear": ["woven reed armor (+1 soak, +1 ranged defense)"],
+		"tags": ["source:D20Radio.com NPC’s", "location:mimban"],
+		"devOnly": true
+	},
+	{
+		"name": "Mimbanese Resistance Sniper",
+		"type": "Minion",
+		"description": "Striking fear into the hearts of the Imperial Army on Mimban, it is often the blaster-burned corpse of an officer that is the first sign a Mimbanese sniper is in the area. Resistance snipers leverage their home turf advantage, effectively using navigation and camouflage to turn the mud into protection from Imperial observation and fire. These superior skills allow snipers to take optimum positions, laying in wait for the best targets to emerge.\n\nThe legendary Clone Commandos of the last war trained many of these snipers, instructing them to fire at Separatist organic commanders or tactical droids instead of the rank and file. The Mimbanese have adapted this tactic, preferring to eliminate officers and senior NCOs where possible. Given the Imperial Army infantry is made up of washouts from stormtrooper training, troublemakers booted from the Imperial Academies, and single-term enlistees trying to earn a credit, this decapitation tactic has proven exceptionally effective for the Mimbanese.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [0, 0]
+		},
+		"skills": ["Athletics", "Cool", "Melee", "Perception", "Ranged: Heavy", "Stealth"],
+		"weapons": ["Vibroknife",
+			{
+				"name": "Sniper rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 10,
+				"critical": 3,
+				"range": "Extreme",
+				"qualities": ["Accurate 1", "Cumbersome 3", "Pierce 2", "Slow-firing 1", "Telescopic Optical Sight"]
+			}
+		],
+		"talents": ["Outdoorsman 2", "Stalker 2"],
+		"abilities": [
+			{
+				"name": "Low Light Vision",
+				"description": "Remove :setback::setback: from checks caused by darkness."
+			},
+			{
+				"name": "Strong Limbs",
+				"description": "Does not treat mud as difficult terrain when using the move maneuver."
+			}
+		],
+		"gear": ["woven reed armor (+1 soak, +1 ranged defense), macrobinoculars."],
+		"tags": ["source:D20Radio.com NPC’s", "location:mimban"],
+		"devOnly": true
+	},
+	{
+		"name": "Hired Gun",
+		"type": "Minion",
+		"description": "A far cry from the unstoppable soldiers of fortune featured in HoloNet action pieces, these hired guns are a mere step up from simple street toughs. These fighters seek better jobs and higher pay by offering a more professional service. Equipped with military style blasters and armor, they are a cut above the average thug or gang member. Although not as proficient as the soldiers of noted private military companies, and certainly not Imperial stormtroopers, these hired guns are more than capable of protecting local criminal interests. That protection comes with a limit, however, as most hired guns can attest: you can’t spend credits if you’re dead.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 4,
+			"defence": [0, 0]
+		},
+		"skills": ["Brawl", "Coercion", "Ranged: Heavy"],
+		"weapons": ["Blaster carbine"],
+		"abilities": [
+			{
+				"name": "No Job’s Worth This",
+				"description": "Adds a :setback: die checks made against Fear or Coercion."
+			}
+		],
+		"gear": ["blast vest (+1 soak)."],
+		"tags": ["source:D20Radio.com NPC’s", "thug", "mercenary"],
+		"devOnly": true
+	},
+	{
+		"name": "Mercenary Veteran",
+		"type": "Rival",
+		"description": "Experienced soldiers for hire, veteran mercenaries have made a career of fighting for top credit. Some mercenaries learned their deadly trade within the ranks of the Imperial military. Others gained such proficiency by sheer survival, starting as low-level thugs and working their way up. Moving from job to job, and thus battle to battle, these seasoned fighters often boast far more firefights than their military counterparts. For mercenaries chasing a big payout, simple garrison duty is simply unappealing. Many expect these hardened mercs to bring combat expertise and intimidation to the table, and they do, but most boast strong negotiation skills as well. Violence is a business, and these mercs are successful entrepreneurs driving a hard bargain.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 14,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coercion": 2,
+			"Cool": 2,
+			"Discipline": 2,
+			"Melee": 1,
+			"Negotiation": 2,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 2,
+			"Vigilance": 1
+		},
+		"abilities": [
+			{
+				"name": "All Business",
+				"description": "Add a :boost: die to Cool and Negotiation Checks."
+			}
+		],
+		"talents": ["Adversary 1", "Soft Spot"],
+		"weapons": ["Vibroknife", "Frag grenade",
+			{
+				"name": "Accurized blaster carbine",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Accurate 1", "Stun"]
+			}
+		],
+		"gear": ["modified composite armor (+2 soak, +1 defense, integrated helmet comlink), 2 Frag grenades"],
+		"tags": ["source:D20Radio.com NPC’s", "mercenary", "thug"],
+		"devOnly": true
+	},
+	{
+		"name": "Neero, Crime Broker",
+		"type": "Nemesis",
+		"description": "An ambitious Rodian crime broker, Neero is eagerly expanding his influence in The Slice. Avoiding entanglements with larger criminal syndicates, Neero works to cultivate a network of contacts among contraband dealers, fences, and slicers across the Mid and Outer Rims. His contacts include professionals with no qualms about providing services on the grey market, allowing Neero to arrange for mechanics and doctors for those on the outside of the law. By keeping abreast of the supply and demand for contraband goods and services throughout the Outer Rim, Neero can make significant profits by exploiting the urgent needs of a variety of clients. Neero runs his operation from a private room in an out of the way spacer’s lounge near the major spaceport on Manda. He is protected by a few subtly placed bodyguards throughout the lounge, but prefers to keep a low profile. Meetings with Neero are understated affairs. He handles all business dealings in a cool, professional manner. Despite operating out of a bar, Neero prefers to remain alert and consumes vine-coffeine. He is known to have a taste for havao tabac.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com, http://www.d20radio.com/main/holonet-uplink-neero-rodian-crime-broker/",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 18,
+			"strain": 20,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Charm": 2,
+			"Cool": 3,
+			"Deception": 2,
+			"Discipline": 2,
+			"Knowledge: Outer Rim": 3,
+			"Knowledge: Underworld": 3,
+			"Negotiation": 3,
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Streetwise": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1", "Nobody’s Fool 2"],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["armored clothing (+1 defense, +1 soak)"],
+		"tags": ["source:D20Radio.com NPC’s", "infochant", "underworld"],
+		"devOnly": true
+	},
+	{
+		"name": "Liir Wyn",
+		"type": "Nemesis",
+		"description": "Liir was seduced by the Bando Gora’s  influence  early  in her  career.  She  was  quickly propelled  into  the  upper echelons  of  a  prestigious Core  Worlds  pharmaceutical manufacturer as her superiors and  rivals  either  disappeared or resigned. She rose through the ranks and was eventually fully  indoctrinated  -  the  process  was  physically  and psychologically scarring, but she emerged “awakened” to a new level of consciousness.\n\nLiir assumed the role of high priestess of the Bando Gora after  years  as  a  regional  lieutenant.  She  has  wasted  no time in cementing her position and making her mark on the  galaxy.  Her  zeal  to  advance  the  mission  of  the  cult has  increased  their  profile  in  the  galactic  underworld, for better or worse. However, under her leadership, the Bando Gora name strikes fear into all who hear it uttered.",
+		"notes": "Credits go to Phillip Krzeminski, D20Radio.com, http://www.d20radio.com/main/galaxy-guide-masters-in-exile-bando-gora/",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 5
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 27,
+			"strain": 23,
+			"defence": [3, 1]
+		},
+		"skills": {
+			"Coercion": 3,
+			"Cool": 2,
+			"Deception": 3,
+			"Discipline": 2,
+			"Knowledge: Education": 3,
+			"Knowledge: Outer Rim": 3,
+			"Knowledge: Underworld": 3,
+			"Leadership": 3,
+			"Melee": 3,
+			"Perception": 2,
+			"Resilience": 3,
+			"Streetwise": 4,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2",
+			{
+				"name": "Channel Agony 2",
+				"description": "After rolling :force: may suffer Wounds up to twice ranks in Channel Agony to add automatic :darkside: for  every  two  Wounds  suffered  to the  results."
+			},
+			{
+				"name": "Fearsome",
+				"description": "When an enemy becomes engaged with, they must make a :difficulty::difficulty::difficulty::setback::setback::setback: Fear check."
+			}
+		],
+		"abilities": [
+			{
+				"name": "Improved Terrify",
+				"description": "Take the Terrify action; make a :average: Coercion check, adding :force: no greater than Force rating. Disorient one target within medium range per :success:. Spend :advantage::advantage: to extend duration and :triumph: to stagger one target. Spend :darkside: to immobilize one target."
+			},
+			{
+				"name": "Force Power: Enhance",
+				"description": ":darkside: gain :success: or :advantage: on Athletics, Brawl, Coordination, or Resilience. :force: increase Brawn characteristic by 1, :darkside: take a Force Leap maneuver to jump horizontally or vertically to any location in short range. :darkside: : increase range of leap by 1."
+			},
+			{
+				"name": "Force Power: Wrack",
+				"description": ":darkside: inflict great pain on an Engaged target to inflict 2 strain (may activate multiple times). :darkside: increase the range of this power by 2. :darkside: increase the number of targets affected this power by 2."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Vibro-Glaive",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 2", "Pierce 3"]
+			},
+			{
+				"name": "Neuronic Whip",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Disorient 4", "Ensnare 1", "Stun"]
+			},
+			{
+				"name": "Bando Gora Needler",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": null,
+				"range": "Short",
+				"qualities": ["Pierce 3", "Poison"]
+			}
+		],
+		"gear": [" armored  clothing  (+1  soak/+1  defense), demon mask (bonuses included; FaD, 190)."],
+		"tags": ["source:D20Radio.com NPC’s", "force sensitive", "bando gora"],
+		"devOnly": true
+	},
+	{
+		"name": "Resistance Trooper",
+		"type": "Minion",
+		"description": "Outnumbered, outgunned, and on the run, the Resistance against the First Order lacks the personnel for normal military specialization. Where the New Republic, First Order, and even Rebel Alliance maintained dedicated infantry units for ground combat, the Resistance cannot afford such specialization. When the need arises, the Resistance calls upon its pilots, technicians, spies, and others to pick up a blaster rifle and pitch in to a ground fight.\n\nAlthough paling in comparison to true infantry, limited cross training provided by the Resistance’s tiny cadre of commandos provides all Alliance personnel the basic skills needed. Less effective than the First Order’s stormtroopers in a straight up fight, a fringe benefit from this ad-hoc approach means each Resistance squad is likely to contain experts in other fields. Since the Resistance employs asymmetrical tactics aimed at delaying and exposing the First Order, it is actually these oddball skills that can mean the difference between victory and defeat.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [0, 0]
+		},
+		"skills": ["Discipline", "Ranged: Heavy", "Ranged: Light", "Vigilance"],
+		"weapons": ["Blaster rifle", "Frag grenade", "Combat knife"],
+		"abilities": [
+			{
+				"name": "All Walks of Life",
+				"description": "For every five resistance troopers in a minion group, roll once on the All Walks of Life Chart."
+			}
+		],
+		"gear": ["blast vest (+1 soak)"],
+		"tags": ["source:D20Radio.com NPC’s", "resistance"],
+		"devOnly": true
+	},
+	{
+		"name": "Resistance Trooper 1",
+		"type": "Minion",
+		"description": "",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [0, 0]
+		},
+		"skills": ["Discipline", "Ranged: Heavy", "Ranged: Light", "Vigilance", "Gunnery", "Melee"],
+		"weapons": ["Blaster rifle", "Frag grenade", "Combat knife", "Missile tube"],
+		"abilities": [
+			{
+				"name": "All Walks of Life",
+				"description": "Several squad members are experienced soldiers, such as former New Republic Army or mercenaries. The minion group gains Gunnery and Melee as group only skills. The squad is also equipped with a missile tube."
+			}
+		],
+		"gear": ["blast vest (+1 soak)"],
+		"tags": ["source:D20Radio.com NPC’s", "resistance"],
+		"devOnly": true
+	},
+	{
+		"name": "Resistance Trooper 2",
+		"type": "Minion",
+		"description": "",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [0, 0]
+		},
+		"skills": ["Discipline", "Ranged: Heavy", "Ranged: Light", "Vigilance", "Piloting: Space", "Piloting: Planetary"],
+		"weapons": ["Blaster rifle", "Frag grenade", "Combat knife"],
+		"abilities": [
+			{
+				"name": "All Walks of Life",
+				"description": "The squad is composed of several pilots whose starfighters have been destroyed. The minion group gains Piloting (Planetary) and Piloting (Space) as group only skills."
+			}
+		],
+		"gear": ["blast vest (+1 soak)"],
+		"tags": ["source:D20Radio.com NPC’s", "resistance"],
+		"devOnly": true
+	},
+	{
+		"name": "Resistance Trooper 3",
+		"type": "Minion",
+		"description": "",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [0, 0]
+		},
+		"skills": ["Discipline", "Ranged: Heavy", "Ranged: Light", "Vigilance"],
+		"weapons": ["Blaster rifle", "Frag grenade", "Combat knife"],
+		"talents": ["True Aim 1"],
+		"abilities": [
+			{
+				"name": "All Walks of Life",
+				"description": "One squad member was a big game hunter and has taught her fellow troopers how to fight with precision. The minion group gains True Aim 1."
+			}
+		],
+		"gear": ["blast vest (+1 soak)"],
+		"tags": ["source:D20Radio.com NPC’s", "resistance"],
+		"devOnly": true
+	},
+	{
+		"name": "Resistance Trooper 4",
+		"type": "Minion",
+		"description": "",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5,
+			"defence": [0, 0]
+		},
+		"skills": ["Discipline", "Ranged: Heavy", "Ranged: Light", "Vigilance"],
+		"weapons": ["Blaster rifle", "Frag grenade", "Combat knife"],
+		"abilities": [
+			{
+				"name": "All Walks of Life",
+				"description": "Several members of the squad are particularly hardy aliens. Increase the soak of the minion group by one."
+			}
+		],
+		"gear": ["blast vest (+1 soak)"],
+		"tags": ["source:D20Radio.com NPC’s", "resistance"],
+		"devOnly": true
+	},
+	{
+		"name": "Resistance Trooper 5",
+		"type": "Minion",
+		"description": "",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [0, 0]
+		},
+		"skills": ["Discipline", "Ranged: Heavy", "Ranged: Light", "Vigilance", "Mechanics"],
+		"weapons": ["Blaster rifle", "Frag grenade", "Combat knife"],
+		"abilities": ["Contraption",
+			{
+				"name": "All Walks of Life",
+				"description": "The squad is composed primarily of engineers. The minion group gains Mechanics as a group only skill, as well as Contraption."
+			}
+		],
+		"gear": ["blast vest (+1 soak)"],
+		"tags": ["source:D20Radio.com NPC’s", "resistance"],
+		"devOnly": true
+	},
+	{
+		"name": "Resistance Trooper 6",
+		"type": "Minion",
+		"description": "",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [0, 0]
+		},
+		"skills": ["Discipline", "Ranged: Heavy", "Ranged: Light", "Vigilance"],
+		"weapons": ["Blaster rifle", "Frag grenade", "Combat knife"],
+		"abilities": [
+			{
+				"name": "All Walks of Life",
+				"description": "The squad is made up of an amateur zoneball team. The minion group gains Strong Arm (Treat thrown weapons as if they had one step greater range, up to a maximum of Medium range)."
+			}
+		],
+		"gear": ["blast vest (+1 soak)"],
+		"tags": ["source:D20Radio.com NPC’s", "resistance"],
+		"devOnly": true
+	},
+	{
+		"name": "Resistance Trooper 7",
+		"type": "Minion",
+		"description": "",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [0, 0]
+		},
+		"skills": ["Discipline", "Ranged: Heavy", "Ranged: Light", "Vigilance"],
+		"weapons": ["Blaster rifle", "Frag grenade", "Combat knife"],
+		"abilities": [
+			{
+				"name": "All Walks of Life",
+				"description": "This squad is made up of die hard survivors from a colony destroyed by the First Order. Increase the Willpower of the minion group by one."
+			}
+		],
+		"gear": ["blast vest (+1 soak)"],
+		"tags": ["source:D20Radio.com NPC’s", "resistance"],
+		"devOnly": true
+	},
+	{
+		"name": "Resistance Trooper 8",
+		"type": "Minion",
+		"description": "",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [0, 0]
+		},
+		"skills": ["Discipline", "Ranged: Heavy", "Ranged: Light", "Vigilance", "Stealth"],
+		"weapons": ["Blaster rifle", "Frag grenade", "Combat knife"],
+		"abilities": [
+			{
+				"name": "All Walks of Life",
+				"description": "Composed of several spies, this group is adept as moving unseen. The minion group gains Stealth as a group skill and increases Agility by one."
+			}
+		],
+		"gear": ["blast vest (+1 soak)"],
+		"tags": ["source:D20Radio.com NPC’s", "resistance"],
+		"devOnly": true
+	},
+	{
+		"name": "Resistance Trooper 9",
+		"type": "Minion",
+		"description": "",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [0, 0]
+		},
+		"skills": ["Discipline", "Ranged: Heavy", "Ranged: Light", "Vigilance"],
+		"weapons": ["Blaster rifle", "Frag grenade", "Combat knife"],
+		"talents": ["Lethal Blows 2"],
+		"abilities": [
+			{
+				"name": "All Walks of Life",
+				"description": "Several members of the squad are veterans of the Galactic Civil War. The minion group gains Lethal Blows 2 (Add +20 to Critical Injury rolls against opponents)."
+			}
+		],
+		"gear": ["blast vest (+1 soak)"],
+		"tags": ["source:D20Radio.com NPC’s", "resistance"],
+		"devOnly": true
+	},
+	{
+		"name": "Resistance Trooper 10",
+		"type": "Minion",
+		"description": "",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [0, 0]
+		},
+		"skills": ["Discipline", "Ranged: Heavy", "Ranged: Light", "Vigilance", "Knowledge: Warfare"],
+		"weapons": ["Blaster rifle", "Frag grenade", "Combat knife"],
+		"talents": [
+			{
+				"name": "Know The Enemy",
+				"description": "May make Knowledge [Warfare] checks for initiative."
+			}
+		],
+		"abilities": [
+			{
+				"name": "All Walks of Life",
+				"description": "This squad was cobbled together from staff officers and analysts ready to pitch in and fight. The minion group gains Knowledge (Warfare), increases Intellect by one, and gains Know The Enemy (May make Knowledge [Warfare] checks for initiative)."
+			}
+		],
+		"gear": ["blast vest (+1 soak)"],
+		"tags": ["source:D20Radio.com NPC’s", "resistance"],
+		"devOnly": true
+	},
+	{
+		"name": "Urban Security Droid",
+		"type": "Rival",
+		"description": "With dark metal plating and slithering, mechanical tentacles, Sith urban security droids present a constant reminder that the state is always watching. A meter wide, roughly spherical body houses the droid’s primary systems. A series of multi spectrum photoreceptors adorns the outer shell, providing optimal surveillance capabilities. Beneath the main body hang four segmented arms, each equipped with a different sensor or manipulator. Imperial engineers designed the droids specifically to be unsettling to organics, an effect magnified by their tendency to float just above eye level.\n\nThese droids are omnipresent on the Sith Empire’s core worlds. Installations such as star ports, public transport, and government buildings are constantly monitored by these mechanical sentries. Imperial streets are patrolled at ground level by pairs of these droids. They maintain a wide spacing to prevent both units falling prey to ambush. Despite a lack of personality programming, imperial engineers have installed profiling directives, guiding these droids to suspect wrongdoing from alien species. Humans are treated neutrally, with pureblooded Sith being ignored almost entirely.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 13
+		},
+		"skills": {
+			"Cool": 1,
+			"Coordination": 2,
+			"Perception": 3,
+			"Ranged: Light": 2,
+			"Stealth": 1,
+			"Vigilance": 2
+		},
+		"abilities": ["Droid"],
+		"weapons": [
+			{
+				"name": "Built-in blaster",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun"]
+			}
+		],
+		"gear": ["encrypted communicator, security scanner."],
+		"tags": ["species:Droid","source:D20Radio.com NPC’s", "security"],
+		"devOnly": true
+	},
+	{
+		"name": "Imperial Intelligence Watcher",
+		"type": "Rival",
+		"description": "The exploits of Imperial Intelligence in the fields of assassination, deception, and manipulation were infamous, but were only possible through the sheer analytical horsepower of its Watchers. Analysts and handlers, Watchers provided direction and information to agents in the field. While Watchers worked closely with fixers and cipher agents, they were supervised directly by Keeper, the operational head of Imperial Intelligence. A team of operatives, or a single Cipher Agent, would often be assigned alongside a Watcher subject matter expert as a task group. While field operatives conducting covert operations, the Watcher would provide intelligence and direct future operations on behalf of Keeper.\n\nIntelligence’s most recent cohort of Watchers benefited from enhanced cognitive abilities, the result of the Empire’s experimental eugenics program. These natural abilities were enhanced with a punishing regimen of academics and mental conditioning, creating a class of analyst that was also a biological CPU on par with conventional information processing droids. The loyalty of these enhanced Watchers was ensured by deeply implanted post-hypnotic suggestion, essentially encoding a psychological kill switch linked to a specific audiovisual stimuli capable of rendering a watcher unconscious or even comatose. The existence, let alone the nature, of this stimuli was a closely guarded secret, as that information could be used to debilitating effect on Imperial Intelligence.",
+		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13
+		},
+		"skills": {
+			"Computers": 2,
+			"Cool": 2,
+			"Deception": 2,
+			"Discipline": 2,
+			"Knowledge: Core Worlds": 3,
+			"Knowledge: Education": 3,
+			"Knowledge: Lore": 1,
+			"Knowledge: Outer Rim": 3,
+			"Knowledge: Underworld": 3,
+			"Knowledge: Warfare": 3,
+			"Perception": 2,
+			"Ranged: Light": 1,
+			"Vigilance": 2
+		},
+		"talents": ["Encoded Communique", "Improved Researcher", "Researcher 2", "Stroke of Genius",
+			{
+				"name": "Thorough Assessment",
+				"description": "Once per session, take a :hard: Knowledge check to gain :boost: dice equal to the number of :success: that can be distributed during the encounter."
+			}
+		],
+		"weapons": ["Blaster pistol"],
+		"gear": ["intelligence uniform (soak 1), code cylinder, encrypted datapad."],
+		"tags": ["source:D20Radio.com NPC’s", "imperial intelligence"],
 		"devOnly": true
 	}
 ]
