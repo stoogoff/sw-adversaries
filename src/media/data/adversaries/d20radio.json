@@ -3,7 +3,7 @@
 		"name": "Stormtrooper: Storm Commando",
 		"type": "Rival",
 		"description": "",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Linda Whitson, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -35,7 +35,7 @@
 		"name": "Stormtrooper: Novatrooper",
 		"type": "Rival",
 		"description": "Throughout galactic history, empires have established guard units composed of elite troops equipped with superior weapons and armor, charging them with the most daring of military missions. The elite Novatroopers of the Imperial Stormtrooper corps follow this historical convention. Their distinctive reinforced black and gold armor is symbolic of the Novatroopers’ dual role. While rarely seen except at military parades and Imperial ceremonies, these honor guards are just as capable of conducting intense combat as they are looking sharp for the Imperial HoloNet news. The Novatroopers focus on instilling intense discipline within their ranks, even more so than regular Stormtroopers. Rumors circulate in Imperial military circles of extreme feats of discipline demanded in their training, such as executing traditional parade maneuver while subjected to tear gas. No matter their training methods, would-be assassins would do well to remember these guardsmen are more than just ceremonial – they will fight expertly and to the death to protect their charge.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -94,7 +94,7 @@
 		"name": "Stormtrooper: Radtrooper",
 		"type": "Minion",
 		"description": "Radiation Zone Assault Troopers, or radtroopers to the common soldier, are specialist stormtroopers trained to operate in high intensity radiation environments. Armed and equipped with reinforced stormtroper armor, radiation hardened gear, and extensive training, these troopers can confidently conduct missions in even the most deadly radiation zones. To the public radtroopers provide the Empire with a capability to provide security in high radiation zones in certain planets and star systems, and to supplement local emergency responders in the event of fusion reactor meltdowns. Secretly, these troopers are often used to mop up after one of the Empire’s more heinous tactics. On worlds where the infrastructure is deemed vital to Imperial interest, but the population is considered expendable, a series of neutron bombs can be deployed to indiscriminately eliminate all life at the target. The radtroopers are sent in shortly after to root out any survivors, secure valuable infrastructure, and prepare reclamation for the Empire. Such brutal tactics are a closed guarded secret, and COMPNOR will stop at nothing to suppress the truth of these atrocities.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com\n\nCarbine has Rad Shielding (immune to the effects of radiation to Grade 5)",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -116,7 +116,8 @@
 				"damage": 9,
 				"critical": 3,
 				"range": "Medium",
-				"qualities": ["Stun"]
+				"qualities": ["Stun"],
+				"notes": "Carbine has Rad Shielding (immune to the effects of radiation to Grade 5"
 			},
 			{
 				"name": "Force pike",
@@ -135,7 +136,7 @@
 		"name": "Stormtrooper: Patrol Troopers",
 		"type": "Minion",
 		"description": "Deployed to the Empire’s industrial and urban heartland, patrol troopers are a branch of the stormtrooper corps charged with law enforcement in areas deemed vital to Imperial interests. While local and planetary forces are left to police most of the Empire, these patrol troopers secure important shipyards, spaceports, factories, and other areas critical to the Imperial war machine. Patrol troopers are patterned after scout troopers. Flexible armor equipped with enhanced optics and real-time data uplinks allow patrol troopers to navigate urban sprawls with ease while ferreting out crime or sabotage. These uplinks all for near instantaneous information sharing of data from routine traffic information on patrol to pursuit vectors during high-speed chases.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -158,7 +159,7 @@
 		"name": "Stormtrooper: Range Trooper",
 		"type": "Minion",
 		"description": "Enforcers of the Emperor’s will on far flung frontier worlds, it is the range troopers of the Stormtrooper Corps that carve order from chaos on the ever expanding fringes of the Empire. Range troopers secure and patrol vast territories on uncivilized, icy worlds selected for imperial development. Although not special operations forces, range troopers screen candidates for mental toughness and physical resilience above the norm. These traits breed a strong collective identity and feeling of eliteness above regular stormtroopers.\n\nEquipped similarly to the cold assault stormtrooper, known to most as snowtroopers, range trooper armor integrates arctic survival gear and provides freedom of movement for long patrol routes. Unlike the offensively oriented snowtroopers, range troopers are equipped to conduct security patrols and sentry duties. Range troopers utilize a variety of overboot systems to enhance mobility, from simple skis and snowshoes to climbing cleats and magnetic boots. This ensures Imperial assets can be protected, whether over vast swaths of snow or on high-speed conveyex transports.\n\nRange troopers operate in small units on detached service, often with little contact or oversight by higher command. This isolation from the rest of the imperial military, and indeed galactic civilization, fosters a frontier spirit of cold determination. Range troopers strive to accomplish any mission assigned, but they do so their own way and prefer not to cooperate with other units they deem less capable.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -196,7 +197,7 @@
 		"name": "Imperial Army “Mudtrooper” Swamp Trooper",
 		"type": "Minion",
 		"description": "Imperial Army swamp troopers served as the army infantry’s combat specialists in wetlands environments. While all but phased out in favor of stormtroopers by the height of the Rebellion, these army troopers were relied upon to subjugate Imperial worlds during the first decades of the Empire. Equipped with partial armor, filtration systems, and survival gear, these troopers faced treacherous and disease-ridden environments nearly as deadly as their opponents. Fighting in these brutal conditions earned swamp troopers the moniker of “mudtrooper” after hellish battles on worlds such as Mimban.\n\nSwamp trooper duty was notoriously miserable. Few volunteered, with many in the ranks conscripted from planetary defense forces. Some were wash outs from the officer, stormtrooper, and starfighter corps. Others were army enlistees, signed on for a single term of service to gain skills or pay for university, unlucky enough to be assigned as swamp troopers. Whatever the source, mudtroopers were known as an unpredictably motley crew with unpredictable levels of discipline. Imperial high command often mitigated this by assigning mudtroopers to the first wave, with more reliable stormtroopers assigned as insurance against insubordination or cowardice.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -220,7 +221,7 @@
 		"name": "Corporal Danith Nodar",
 		"type": "Rival",
 		"description": "A fierce member of the 224th Imperial Armored Division, corporal Danith Nodar distinguished herself as a furious warrior in the trenches of Mimban. Sporting a conduct record pockmarked with military convictions and commendations alike, Nodar was assigned to Mimban as punishment for insubordination. Her previously promising career, set in motion as a graduate of the Carida academy, had been derailed after an incident on Marca. A zealous Imperial, she took her wrath out on any Mimbanese guerrilla she could lay her sights on. This fury has earned her the esteem of her 224th division superiors, esteem Nodar hopes will justify promotion despite her blemished record.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -263,7 +264,7 @@
 		"name": "Stormtrooper: Mimban Stormtrooper",
 		"type": "Minion",
 		"description": "While not an official specialty corps, those stormtroopers assigned Mimban duty quickly developed equipment modifications and unique tactics. An integral part of the 224th Imperial Armored Division, these “Mimban stormtroopers” were considered by their commanders to be far more effective and reliable than their more humble mudtrooper brethren. As a result, the 224th’s commanders often combined mass numbers of mudtroopers with smaller detachments of stormtroopers. Stormtroopers served as an anchor for the less than reliable mudtroopers, while the mudtrooper’s superior numbers provided the stormtroopers a human shield.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -296,7 +297,7 @@
 		"name": "Stormtrooper: Storm Commando Officer",
 		"type": "Nemesis",
 		"description": "Storm Commandos are the Empire’s elite fighting force, formed in direct response to the Rebellion’s guerrilla warfare tactics. Also known as shadow scouts, these troops are selected and trained to conduct special operations under demanding circumstances where regular troops prove incapable. In turn, those officers who lead storm commandos into battle are nothing less than exemplary. Only the most dedicated, skilled, and knowledgeable officers are selected to lead after undergoing grueling physical and mental tests originally instituted by the now-defector Crix Madine. Generally, Storm Commando Officers are deployed on the battlefield in one of two roles. First, and most common, is for these officers to directly lead Storm Commando groupings of 5-50 commandos on special operations. Planning and executing operations is the commando officer’s bread and butter. More rarely though, Storm Commando Officers can be deployed to mentor, and indeed lead for, other Imperial or affiliated force commanders. While not often discussed, a small team of Storm Commandos led by an experienced officer can turn even the greenest planetary defense militia into a dangerous weapon of war. These officers are supported and protected by a hand-picked team of 2-5 commandos. At the GM’s discretion, this command team can also train supported forces providing them a Boost die in Mass Combat.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -345,7 +346,7 @@
 		"name": "Nik Kormir, Resistance Purchaser",
 		"type": "Rival",
 		"description": "Well dressed, confident, salt and pepper hair. This human male, called Mr. Smooth by his admirers in the casino, carries himself as a successful gambler. Turning a few heads, he is nothing special compared to the true high rollers of Canto Bight. Just respected enough to look as if he belongs, Nik Kormir subtly moves among the scores of weapons manufacturers and arms brokers living the high life. Kormir relies on hiding in plain site to evade the notice of the First Order, purchasing quietly and arranging all deliveries to be off world. If discovered, his primary goal will be escape and evade. He will fight to break contact, but doesn’t finish off downed enemies, instead using his energy to flee. Kormir fears most capture and slow interrogation by the First Order, and will do anything possible to avoid that fate.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com. http://www.d20radio.com/main/holonet-uplink-bounty-contract-resistance-purchaser/",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com. http://www.d20radio.com/main/holonet-uplink-bounty-contract-resistance-purchaser/",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -378,7 +379,7 @@
 		"name": "Gruuzhnag",
 		"type": "Nemesis",
 		"description": "“Look, I’ve known old Gruuzhnag for the better part of 30 years. Sure, he might look like the rest of those pigs, but that’s where you’d be wrong. You’ll never meet a better doctor or mechanic this far outside of civilization. Yeah, the parts for his cybernetics are cobbled together, but what can you expect so far out in the Rim? And I can assure you he has no love for the Empire. And the last goomba who stuck his nose into the pig’s chop shop walked away minus an arm. As long as you’ve got the credits, he’ll help you out. Just don’t ask about his scars. Trust me on that one.” \n\nBackground: Gruuzhnag was a brilliant Gamorrean even by the standards of species noted for their intelligence. He was taken with ideas that were so far above the primitive qualities of his kin that he quickly found himself ostracized from a very early age. He eventually stole away on a passing freighter that had stopped down for a few days to avoid an Imperial patrol. He quickly made an impression on the ship’s captain when he found the young Gruuzhnag disassembling and reassembling some auxiliary components. He was almost immediately put to work under the tutelage of the ship’s doctor, who was also serving as chief engineer. It wasn’t long before Gruuzhnag began to pick up on the doctor’s medical knowledge and started to put together some rudimentary methods to marry his mechanical and medical knowledge.\n\nHe was planning on using the money he earned aboard the ship to enter into an academy in the Core Worlds, but never got the chance. Taken captive in a pirate raid, Gruuzhnag was sold into slavery – specifically into the gladiatorial circuit. Forced to fight or die, Gruuzhnag chose to fight, learning how to survive in the arena, leveraging the natural inclinations of his species to give himself a needed edge.\n\nOver the months he was there, he also started to win several of the other gladiators to his side. This proved useful when he decided it was time to break out. He staged a daring attempt, leading his few fellow gladiators in overpowering the guards and escaping into the countryside. Unfortunately, they were pursued by a larger force and caught several kilometers outside of the arena’s walls. They fought valiantly but in the resulting battle, Gruuzhnag’s force was utterly decimated and the Gamorrean himself left for dead, having lost both of his arms. Somehow, he managed to avoid death and dragged himself several more kilometers to the nearest settlement. He found an abandoned garage with several still functioning droids. He used them to help construct himself some rudimentary prosthetics and then managed to smuggle himself off world.\n\nGruuzhnag has since set himself up deep in the Outer Rim where he has made a small amount of notoriety for himself as a brilliant, if somewhat odd, cybernetic surgeon. His parts tend to be scavenged and secondhand, but no one can argue how durable and functional they are. He doesn’t like to talk about his past, but he keeps the vibroax that took his arms on the wall in his shop, and he’s not shy about using it if he needs to. Over the years he has patched himself some serviceable cybernetic replacements for the very basic prosthetics he originally constructed. He tends to conduct his actual business through his droids nowadays, very rarely speaking to the customers himself. But if you have need for his services, Gruuzhnag’s Chop Shop can probably help you.\n\nSuggested Use: Gruuzhnag can be a great contact for the player characters, especially if they desperately need medical attention and are stuck far out in the Rim away from civilization. If they don’t have proper payment, Gruuzhnag’s stances against slavery and piracy can be leveraged as Obligation for the characters as he agrees to help them in return for helping him stamp out a particularly nasty group of slavers that is operating on the planet. Alternatively, if the PCs are the kind of group that find themselves routinely engaged in piracy and slavery, Gruuzhnag can be a very dangerous opponent on any Outer Rim world they attempt to acquire more merchandise on.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Ben Erickson, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 2,
@@ -422,7 +423,7 @@
 		"name": "Trandoshan Slaver (custom)",
 		"type": "Minion",
 		"description": "Trandoshans are infamous throughout the galaxy for their brutal slavers. While some slavers use deception or guile in capturing their slaves, Trandoshans prefer to use shock tactics to overwhelm any opposition and seize their prizes. Equipped with short range weapons, Trandoshan slavers use stealth to get as close as possible to their foes before launching a fierce assault of accelerated charged particles, blades, and electronets. While preferring stealth, these slavers are no cowards; they will fight tooth and claw to take and hold their targets. Since these slavers are armed to the teeth, they often find work between hunts as mercenaries and pirates in the Outer Rim.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -478,6 +479,7 @@
 		"name": "Trandoshan Heavy",
 		"type": "Nemesis",
 		"description": "These elite Trandoshan warriors were infamous as some of the most dangerous heavy assault mercenaries in the galaxy. Protected by thick plates of durasteel armor and armed with the devastating LS-150 heavy repeater, Trandoshan Heavies were found in mercenary companies and slaving parties throughout the Outer Rim. In battle, these mercenaries throw caution to the wind by wading into the heaviest enemy positions, heavy repeaters constantly shooting an unrelenting torrent of charged particles. Most boast hearty kill counts, commanding the respect of their fellow Trandoshans. This respect feeds both the Trandoshan Heavy’s stereotypical arrogance, as well as healthy credit accounts from the high pay and share of loot they demand.",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 2,
@@ -540,6 +542,7 @@
 		"type": "Minion",
 		"description": "Originally used for civilian applications such as search and rescue, these heavily modified drones have been refit for piracy. The ionization beam, originally used to disable malfunctioning electronics blocking rescue efforts, has been overcharged to disable shields and even cause damage to organic opponents. Their salvage drills have been upgraded with vibro components capable of savagely cutting through heavy infantry armor. With these upgrades, these so called “scav droids” serve as support to Trandoshan mercenaries in an anti-infantry role during boarding actions. The droids, equipped with repulsorlifts and stealth programming, are often dispatched ahead of the assault to disable ship defenses and terrorize the crew. When the boarding action begins in earnest the droids shift to direct support. Once a ship or structure is secured the droids turn their weapons to their original purpose and assist in salvaging any items of value.",
 		"notes": "Credits go to Chris Hunt, D20Radio.com\n\nOn a successful hit the scavenger droid is attached to its target and will stay engaged even if the target moves, this condition ends if the droid is damaged",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 3,
@@ -597,6 +600,7 @@
 		"name": "Terentatek",
 		"type": "Nemesis",
 		"description": "The nightmarish terentatek are hulking creatures, similar in appearance to rancors but covered in spines and thick armored hide. Drawn to, and perhaps powered by, concentrations of dark side Force energy, terentateks inhabit caves and tombs connected to dark side Force traditions such as the Sith and Rakata.  Over the millennia, the Jedi have launched the Great Hunts. These hunts were concerted efforts to wipe out the scourge of these beasts by dispatching teams of trained Jedi across the galaxy. However, even where the Jedi cleansed entire worlds the terentatek would return generations later. Jedi scholars believe the terentatek enter hibernation and hiding when the dark side wanes in the galaxy, only to awaken and emerge in times of conflict and suffering. Despite their horrifying reputation, bold treasure hunters often seek out reports of terentatek sightings in hope that the beasts are evidence of undiscovered tombs and therefore unclaimed riches. Even when no tomb is present the lair of a terentatek may contain the remains, and equipment, of warriors such as the Jedi who died in battle against these beasts.",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 6,
 			"Agility": 2,
@@ -662,6 +666,7 @@
 		"name": "Terentatek Mauler",
 		"type": "Nemesis",
 		"description": "Within the darkest sanctums of ancient Sith tombs dwell the terentatek maulers. Tougher, stronger, and more deadly, the maulers stand solidary guard over the remains of powerful Sith Lords. Heavy bone plating ending in long spines cover the mauler dramatically increasing its resilience.",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 6,
 			"Agility": 2,
@@ -727,6 +732,7 @@
 		"name": "Hssiss, Dark Side Dragon",
 		"type": "Nemesis",
 		"description": "Known to the Jedi archives as “Dark Side dragons,” the hssiss are savage reptilian predators known for their intimidating bulk and vicious ferocity. Hssiss have been used as war beasts for thousands of years, first by the ancient Sith and Great Bogga the Hutt and now in the strongholds of Outer Rim crime lords. Whether fought in the bowels of a crime lord’s dungeon, in an Outer Rim gladiatorial arena, or lying in wait within the swamps and ruins of former Sith worlds, a hssiss is a formidable adversary even the most skilled combatant. The hssiss’s impressive stalking abilities are augmented by a fact known by few researchers: the hssiss can cloak itself using the Dark Side of the Force. This ability, as well as a vulnerability to domination by wielders of the Dark Side, is a legacy of their service in the armies of the Sith.",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 3,
@@ -788,7 +794,7 @@
 		"name": "Tuk’ata",
 		"type": "Rival",
 		"description": "A living testament to the power of the Dark Side, the malevolent tuk’ata have been twisted by alchemy into the overly muscled hounds that guard Sith tombs to this day. The Dark Side has touched not only their bodies, but also has enhanced their minds beyond mere animal cunning. Tuk’ata are able to communicate with one another to coordinate ferocious ambushes on intruders, a trait they exploit by targeting the weakest member of an interloping group. Fearless and without mercy, these guardians will not stop biting and clawing until their victim is dead. However, the ancient alchemists long ago implanted deference to the Sith within the hound’s psyche. Force users who have embraced the Dark Side may be able to cow a tuk’ata into submission.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,
@@ -847,7 +853,7 @@
 		"name": "Shyrack",
 		"type": "Minion",
 		"description": "Fiercely territorial, the bat-like shyrack make their nests in the caves and tombs of Moraband in massive swarms. These blind avian predators prefer to live and hunt in dark, enclosed spaces where their echolocation grants them the advantage. Although they will defend their nests with reckless frenzy, shyracks will not normally attack any but the smallest prey. This reclusive nature is mysteriously abandoned every 63rd summer on Moraband, when shyracks spill out of their caves to fill the sky. Old Republic biologists speculated this phenomenon was the result of tectonic resonance creating powerful ultrasonic noise, and that ultrasonic emitters could frenzy or even control shyrack swarms. With the rise of the Empire, such research has been removed from all but the most remote of libraries.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 1,
@@ -929,7 +935,7 @@
 		"name": "Commander Abyss",
 		"type": "Nemesis",
 		"description": "Amis Abyss started out in Imperial Intelligence, the beneficiary of political connections. Several of those benefactors came to regret it, when Abyss reported them to the Imperial Security Bureau for real, and fabricated offenses, to ingratiate himself with ISB. As he hoped, he was rewarded with a transfer to ISB.\n\nLike many Imperials, Abyss considers non-humans lesser beings. Even lower than that, in his estimation, are Force-sensitives, who are “freaks”. A sentiment he hopes none of the Inquisitors he has worked with in the course of his duties ever guesses. His contempt is based in fear.",
-		"notes": "Credits go to Linda Whitson, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Linda Whitson, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -995,7 +1001,7 @@
 		"name": "Kath Scarlet",
 		"type": "Nemesis",
 		"description": "Kath Scarlet is the captain of the Binayre Pirates, a small band of pirates operating in the Corellian Sector after the rise of the Empire. She earned her position of power by elevating the Binayre from a small-time swoop gang in the slums of Corellia to a full-fledged pirate organization. Her group has since grown significantly in size, but are still poorly regarded – even among the galactic underworld. This is due primarily to Kath’s reputation as an utterly ruthless pirate, double-crossing her employers and allies without a second thought when the credits are right. Her brazen and backstabbing approach to business is the responsible for the Binayre’s rapid rise to power but may also lead to its early demise.\n\nPersonality: Kath projects what she thinks of as a rakish air – reckless, vicious, and impertinent. However, beneath her audacious front lies a cunning and treacherous mind. Scarlet grew up in the worst areas of Coronet City on Corellia and feels entirely justified in taking nearly any action, no matter how nefarious, to ensure she keeps what little status she has amassed. She is capable of clever planning and isn’t afraid to bite off more than she can chew if she believes the reward outweighs the risks.\n\nTactics: Under Scarlet’s leadership, the Binayre mainly focus on hitting lightly guarded or unarmed ships throughout the Corellian Sector. Her starships and supplies are precious, and she won’t risk them unless the potential rewards are worth it. Intent on squeezing every last bit of profit from each prize, Scarlet often steals and fences both the ship and its cargo and has even been known to sell the target’s crew into slavery. This brutal and mercenary approach has given her a bad reputation, even among other pirate crews.",
-		"notes": "Credits go to Phillip Krzeminski, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Phillip Krzeminski, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -1054,7 +1060,7 @@
 		"name": "Binayre Pirate",
 		"type": "Minion",
 		"description": "Even amongst pirates and smugglers, the Binayre are considered scum. The core members of the pirate crew cut their teeth as swoop gangers on the streets of Corellia and are consequently willing to kill, steal, and betray to hold onto the limited wealth and luxury they have acquired. The crew is a motley collection of species, but all are decent pilots and practiced killers. However, Kath is certainly the brains and talent behind their success and they all know it. As a result, she commands great loyalty among the gang, making her possibly the only one in the galaxy who these ruffians wouldn’t stab in the back.",
-		"notes": "Credits go to Phillip Krzeminski, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Phillip Krzeminski, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -1087,7 +1093,7 @@
 		"name": "Chell “Cold Case” Wi’eeda, Journeyman Hunter",
 		"type": "Rival",
 		"description": "Background: Born to an enslaved family of Tibanna gas miners on the Hutt controlled world of Sleheyron, Chell spent most of her youth dreaming of escaping the miserable living and working conditions of her family. Before long, she lost both parents (her mother died in an accident, and her father was sold without notice) and was forced to make her own way. Unfortunately, there are few opportunities for a slave child, least of all in Hutt controlled space.\n\nChell began to inform on other slaves to earn her meals and eventually turned to tracking escapees full-time once she bought her freedom. Now a fully licensed bounty hunter, Chell primarily patrols Hutt space (though she will still take Imperial contracts on criminals seeking refuge in the Hutt’s domain). She hasn’t brought in any high-profile targets yet, but her track record for recovering escaped slaves with icy detachment has earned her the nickname “Cold Case” – a moniker and reputation she has embraced by christening her first starship with it.\n\nChell has a well-earned reputation for pitiless, professional detachment. The conditions of her childhood taught her that she couldn’t trust anyone and she would need to be ruthless to survive into adulthood. As a result, she rarely partners with other hunters and has trained a pack of Corellian hounds to assist her on hunts. She takes excellent care of her hounds and shows them more affection than she has ever shown another sentient being",
-		"notes": "Credits go to Phillip Krzeminski, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Phillip Krzeminski, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -1146,7 +1152,7 @@
 		"name": "Corellian Hounds",
 		"type": "Minion",
 		"description": "Also known as Sibian hounds, these fleet-footed canids have keen senses enhanced through generations of breeding for hunting and attack. Though originally native to Corellia, these beasts can be found all over the galaxy thanks to their aptitude as guard animals.",
-		"notes": "Credits go to Phillip Krzeminski, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Phillip Krzeminski, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -1183,7 +1189,7 @@
 		"name": "B2 Super Battle Droid (minion)",
 		"type": "Minion",
 		"description": "Created by Baktoid Combat Automata to serve as front line heavy infantry, the B2 Super Battle Droid is superior to its predecessor the B1 in all respects. Boasting reinforced armor, integrated anti-personnel weaponry, and programming capable of operation without a command signal, this hulking battle droid is a formidable foe on or off the battlefield. Before the introduction of the IG-100 MagnaGuard, B2s were seen serving as bodyguards to Separatist leaders such as Count Dooku. With the end of the Clone Wars, B2s are a rare sight. Some scavenged models serve crime lords or private militias; others have been re-purposed for use in gladiator arenas. Some abandoned B2s were never shut down, and still carry out their last orders, defending forgotten Separatist ships and installations awaiting unsuspected salvagers.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -1231,7 +1237,7 @@
 		"name": "B2 Super Battle Droid (Rival)",
 		"type": "Rival",
 		"description": "Created by Baktoid Combat Automata to serve as front line heavy infantry, the B2 Super Battle Droid is superior to its predecessor the B1 in all respects. Boasting reinforced armor, integrated anti-personnel weaponry, and programming capable of operation without a command signal, this hulking battle droid is a formidable foe on or off the battlefield. Before the introduction of the IG-100 MagnaGuard, B2s were seen serving as bodyguards to Separatist leaders such as Count Dooku. With the end of the Clone Wars, B2s are a rare sight. Some scavenged models serve crime lords or private militias; others have been re-purposed for use in gladiator arenas. Some abandoned B2s were never shut down, and still carry out their last orders, defending forgotten Separatist ships and installations awaiting unsuspected salvagers.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -1286,7 +1292,7 @@
 		"name": "CompForce Security Trooper",
 		"type": "Minion",
 		"description": "Where subversion and corruption threaten security, the ideological purity and fanatical loyalty of CompForce units is employed to protect the New Order. Security Troops are graduates of COMPNOR’s Sub-Adult Group education program and CompForce’s Observation Cadre training. Seen as poorly trained political spies by the regular military, this reputation is partly true: while CompForce Security Troopers lack combat training, their ideological motivation and keen eye for dissidence and contraband make them suitable for their role. Ostensibly deployed away from the front lines to give the CompForce members military experience while providing service to the Empire, in reality these troopers are specifically sent where the threat of ideological subversion is greatest. Teams provide access and patrol security to Imperial installations and support Customs officers in search and screening operations at ports throughout the galaxy. While on the lookout for contraband such as spice and weapons, they are equally discerning in rooting out subversive literature and other propaganda.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -1309,7 +1315,7 @@
 		"name": "Guard Massiff",
 		"type": "Rival",
 		"description": "An armoured lizard native to the Outer Rim world of Geonosis, the massiff’s keen senses and predatory instincts make a formidable guard animal when combined with the right training. Massiffs have been employed in this role by the settlers and Sand People of Tatooine, the Coruscant Guard and Recon Force of the Grand Army of the Republic, and on many planets and organizations across the galaxy. These massiffs have been trained by their handlers to detect intruders and contraband by sense of smell, and to restrain rather than tear with their formidable claws.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,
@@ -1361,7 +1367,7 @@
 		"name": "Rear Admiral Olenka Zavalle",
 		"type": "Nemesis",
 		"description": "Despite being relegated to patrolling the fear reaches of the Outer Rim, Rear Admiral Olenka Zavalle has assembled a capable strike group by amalgamating a series of smaller patrol and security formations into a single command. A Core Worlder from a reasonably well connected family, Zavalle was a rising star within the Imperial Navy until she ran afoul of Admiral Motti while assigned to his staff. It was not long before Admiral Motti grew tired of Zavalle’s constant questioning of his assumptions and beliefs. Given Zavalle’s exemplary record, Motti’s only recourse to dispose of her was arranging a promotion to a remote posting – commander of long range patrols in the Outer Rim. Undefeated, Zavalle re-organized forces within her jurisdiction into a unique formation of fast, light, and numerous strike craft. Her fleet may not be doctrinal, but it has been wildly successful in hunting down criminals and Rebels alike.\n\nRagtag by Imperial standards, Admiral Zavalle’s strike group more closely resembles the Rebel Alliance fleet than the usual image of the Imperial Navy. Instead of being centered around a few Star Destroyers, her forces include Raider-class corvettes, Quasar Fire-class light carriers, innumerable TIEs of most variants, and a handful of Arquitens-class light cruisers.These forces are by no means heavy, but Zavalle emphasizes the strengths of her formation: flexibility, speed, and the de-centralization of capabilities. Losing any one ship will have little effect on the strike group’s combat effectiveness, unlike the hammer blow that the loss of a Star Destroyer can be in a mid-sized fleet engagement. This makes her forces a unique threat and potentially a refreshing challenge for your PCs.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -1404,7 +1410,7 @@
 		"name": "Major Jex Karvek – Commando Raider",
 		"type": "Nemesis",
 		"description": "A veteran of Crix Madine’s original Storm Commando unit, Major Karvek has spent nearly his entire career within the Imperial special forces. Karvek grew up on the frontier of the Outer Rim. His rustic upbringing, like that of many of his enemies in the Rebellion, fostered a strong sense of independence. Karvek fully embraces the Storm Commando’s purpose: to fight fire with fire by employing asymmetric tactics against the Rebel Alliance. But Major Karvek takes this doctrine a step further than simply replicating guerrilla tactics. He sees the value that the Rebel’s use of individual initiative brings to the battlefield, and thus demands that of his 909th Detachment commandos.\n\n909th Storm Commando Detachment\n\nNormally dispatched on deliberate operations or attached to other forces in a platoon, or even squad sized elements, it is rare to see an entire Storm Commando detachment conduct missions under their organic chain of command. Major Karvek’s detachment, the 909th, is an exception to this rule. When mission success is demanded under extreme circumstances, but when the deployment of mass numbers of conventional forces proves undesirable, the 909th is dispatched to do with a company what would be expected of a regiment. Karvek’s commandos are highly trained and capable of operating on their own initiative, making this detachment ready for anything.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com. Uses Additional Combat Turns if 4+ PCs",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com. Uses Additional Combat Turns if 4+ PCs",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -1458,7 +1464,7 @@
 		"name": "Major General Billek Vilneon",
 		"type": "Nemesis",
 		"description": "Combined Arms Steamroller\n\nIn the eyes of Major General Vilneon, the Imperial Army is a machine. A trained engineer, experienced armored officer, and decorated commander, it should be no surprise a man who has spent more than half his life working with war machines sees the military in this way. The Imperial Army is a complicated with a vast array of specialties, unit types, equipment loadouts, and tactical procedures. Infighting between the branches and the use of pet projects to advance careers further divides the Army. Little enrages Vilneon more than this, for he sees it as akin to debating whether the repulsorlift or the powerplant is more important on a hovertank – both are vital and must work in concert. General Vilneon has thus made a career of organizing combined arms groups from different branches and service, building true teams with strong cohesion and identity. While fully implementing Imperial doctrine and uniformity, Vilneon has added something the Imperial military lacks despite its stated ideology: unity.\n\n7th Assault Battlegroup\n\nBattlegroups are normally commanded by High Colonels, with Major Generals commanding a Corps comprised of several Battlegroups. Given General Vilneon’s high status, it should be no surprise the 7th Assault Battlegroup has a unique task organization. A normal Assault Battlegroup would be composed of two line regiments, an assault regiment, and an armored regiment. The 7th instead has two assault regiments augmented with walkers, an armored regiment, and a stormtrooper regiment. These troops train extensively in combined arms operations. Retaining the regimental system for little more than administrative purposes, this battlegroup is functionally organized around a series of combined arms brigades that train and fight together. The result is a highly coordinated, and therefore deadly, opponent to face on the battlefield.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -1508,7 +1514,7 @@
 		"name": "Dantris “Dani” Solomani",
 		"type": "Nemesis",
 		"description": "AKA Dr. Danny Solys, Jedi Mentor",
-		"notes": "Credits go to Linda Whitson, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Linda Whitson, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -1550,7 +1556,7 @@
 		"name": "Canto Bight Police Officer",
 		"type": "Minion",
 		"description": "The beautiful coastal city of Canto Bight is kept safe and orderly by the fine beings of the Canto Bight Police Department, or such is the outward perception. On the surface, Canto Bight police appear courteous and professional – the perfect constables. Underneath the finely tailored uniforms and polished arms and equipment, CBPD officers are more hired muscle than lawbeings. Justice is no concern to these police officers; instead they ensure the resort city’s best interests are met, whether it be brutally punishing vandals or looking the other way as to the source of laborers. Law is negotiable on Canto Bight, at least for the wealthy and connected. While there are unspoken red lines, such as anything which damages the prestige and profitability of the city’s gambling establishments, almost any transgression can be overlooked for the right price.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -1613,7 +1619,7 @@
 		"name": "Canto Bight Police Sergeant",
 		"type": "Rival",
 		"description": "Immaculately dressed and well spoken, the sergeants of Canto Bight’s police force represent the highly shone image Cantonica presents to the galaxy. Underneath this veneer, these non-commissioned officers understand the only true law on world is keep the wealthy clientele happy and their credits flowing. Police officers with strong records, despite a few ethics breaches, form a major recruiting pool for CBPD leadership. Many of these sergeants run their own side racket, skimming a few credits here and there. This is all but actively encouraged by higher ups, as most of these side deals depend on the continual success of Canto Bight’s luxury services. These officers do keep the peace, but will look the other way if the price is right.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -1671,7 +1677,7 @@
 		"name": "Fathier",
 		"type": "Rival",
 		"description": "A non-sentient, however insightful species, the Fathier have very long legs, brownish fur, and long ears that distinguish it from other species. Fathiers can run at great speeds across any type of terrain. In the film, we even see one climb nearly straight up a short cliff face to escape. Their great speed has made them sought after by gambling houses all across the galaxy and caused the enslavement of many of their kind. They are hunted and forced to race in many casinos and race tracks in the galaxy. In fact, when kept in captivity, Fathiers often must endure “Double-Gravity” chambers causing them to gain strength even when moving about their confined areas. The people of Canto Bight on the planet Cantonica are particularly cruel to the animals.\n\nFathiers are easily domesticated and can be fitted with a riding harness and saddle. Tognath Mercenaries during the time of the Galactic Civil War often rode Fathiers during hit and run missions.",
-		"notes": "Credits go to Scott Alden, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Scott Alden, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 4,
@@ -1712,7 +1718,7 @@
 		"name": "Staff Officer",
 		"type": "Rival",
 		"description": "The complexity of the galaxy’s conflicts mean all but the lowest level military commanders need dedicated staff officers to help plan and manage operations. Whether analyzing information, coordinating forces, planning for contingencies, or ensuring support, these officers focus on the details for their commander. This frees the commander to think big picture, able to do the art rather than the science of military operations. Thus it is said, behind every Ackbar or Thrawn are unknown, but effective staff turning their commander’s vision into reality.\n\nThe goliath Imperial war machine employs thousands of staff officers in an effort to keep the gears of war turning. Service on a staff is often seen as necessary for career progression through forging networks across branches and securing patronage from higher officers. This career climbing can come at a price for Imperial efficiency, however, as some unscrupulous officers find sabotage of others easier than succeeding on their own merits.\n\nThe Rebel Alliance, strapped for personnel at all levels, can rarely afford to spare enough officers for a full staff. Qualified officers are needed in command positions, and indeed academy trained leaders are a minority in the ranks. Instead of a rigid doctrinal definition of staff, the Alliance uses collaborative planning to perform the same basic function. Specialists from all walks of life, and all ranks, are invited to contribute when their expertise may be useful. With a galaxy-wide war of liberation to fight, most Rebel commanders will heed the words of  the former professor even if they wear a lowly enlisted rank in the Alliance’s military hierarchy.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -1768,7 +1774,7 @@
 		"name": "Cipher Agent",
 		"type": "Nemesis",
 		"description": "When Imperial Intelligence has a mission of the utmost importance to be completed under extreme circumstances, they turn to the elite Cipher Agents. Stripped of their identities, Cipher Agents were like high level operatives in Intelligence in that they were officially addressed only by a numeric designation such as Cipher Nine. Cipher Agents were given broad authority, with permission to recruit operatives and move about the galaxy on their own initiative. Expertly trained, armed with enhanced weapons, and provided with experimental equipment, Cipher Agents are some of the most dangerous individuals in the galaxy. The advanced capabilities of these operatives has not escaped their Sith masters. Several Cipher Agents have secretly been brainwashed with powerful hypnotic controls known as Castellan Restraints. These restraints are used as a control against Cipher Agents acting against the Sith.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 4,
@@ -1835,7 +1841,7 @@
 		"name": "Imperial Emigration Officer",
 		"type": "Rival",
 		"description": "The free flow of sentient beings, as with many failings of the Old Republic, can no longer be tolerated by the Empire. The Imperial Security Bureau now centrally manages interplanetary customs and immigration. Inducting existing security forces, such as CorSec, into the Imperial fold, movement off heavily populated worlds is strictly controlled by local emigration officers. Ostensibly designed to prevent transplanetary crime, the Empire is far more concerned with controlling populations as resources. Workers in critical industries, such as naval construction at Corellia, are routinely denied exit visas. Much cheaper than centrally training and posting military or ISB personnel to far flung worlds, the trade off is a lack of indoctrination and thus reliability. It is not unheard of for local emigration officers to break protocol in compassionate cases or even accept bribes, actions deemed anathema to zealous Imperial personnel.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -1865,7 +1871,7 @@
 		"name": "Imperial Ground Crew",
 		"type": "Rival",
 		"description": "As a government that prides itself on order and efficiency, the Empire demands precise coordination in all things. The men and women of Imperial military ground crews add, in their own small way, to that efficiency. Although hardly glamorous, such mundane matters as traffic control, arming and fueling, and routine maintenance are truly critical to keeping the Imperial war machine fighting.\n\nImperial ground crew serve at military installations across the galaxy. Whether a space-borne docking bay, major spaceport, or austere landing pad, ground crew ensure military craft are well taken care of when not in use. Although qualified to handle the gamut of Imperial starships, ground crew often grow connected to the equipment specific to their unit. Aboard a star destroyer’s fighter wing, for example, it is common for the technical crew to rib the flight crews, claiming that the TIEs belong to the technical crew and are merely lent to the pilots.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -1920,7 +1926,7 @@
 		"name": "Senate Guard",
 		"type": "Rival",
 		"description": "Respected protectors of the Republic Senate, and by extension the democracy with which that body represents, the Senate Guard proudly uphold centuries of tradition. The Guard were charged with securing the Senate District on Coruscant as well as the Chancellor’s personal protection. An elite force, experienced recruits were drawn from planetary police organizations, the Judicial Forces, and even private companies. Not merely passive protectors of the Senate, the Guard actively sought out threats to through independent investigation. While the Guard generally cooperated with local police and the Jedi, they retained an elite branch known as the Senate Commandos. Charged with special missions, these commandos were employed on matters of utmost sensitivity to the Republic.\n\nThe Senate Guard played a critical role in the waning days of the Republic. Trading their ceremonial robes for reinforced armor, the Guard actively resisted covert Separatist activities including subversion, kidnapping, and terror attacks. Later referred to as the Blue Guard, in contrast to Supreme Chancellor Palpatine’s new Red Guard, these protectors would be gradually phased out in favour of Palpatine’s personal force. The Senate Guard, alongside the Republic’s thousand year democracy, were summarily retired by the Emperor’s declaration of a new order.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -1961,7 +1967,7 @@
 		"name": "Sabacc Player",
 		"type": "Rival",
 		"description": "Possessing enough skill to beat the odds in the long run is rare among gamblers, but especially true for a game as random as sabacc. Whether through dice as in Corellian Spike, or by the shifting cards themselves in the Core Worlds, the element of chance deters many from high stakes sabacc play. Those who do brave the table for game after game bring steely nerves, a keen eye for tells, and a strategic intuition for when to hold or fold. Almost every casino hosts professional players, the same holding true for gambling holes and card sharks, and the question must be asked: game after game, how can they get ahead? There answer is a very particular set of skills combined with the confidence to take prudent risks.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -2003,7 +2009,7 @@
 		"name": "Therm Scissorpunch",
 		"type": "Rival",
 		"description": "An allegedly notorious sabacc player known to frequent the Vandor’s Fort Ypso Lodge, this Nephran gambler relies on intimidation to unbalance his opponents. He demands other patrons refer to him as Therm Scissorpunch. Whether this nickname was earned, or self-invented, is unknown. Veracity aside, the nickname refers to the very real shank implanted in Therm’s left claw.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -2050,7 +2056,7 @@
 		"name": "Cloud-Rider Marauder",
 		"type": "Minion",
 		"description": "Dreaded pirates led by the mysterious Enfys Nest, the notorious Cloud-Rider marauders are the scourge of the Outer Rim. They strike from the skies, mounted on modified swoop bikes, conducting lightning raids to snatch and grab valuable cargo. The speed of these assaults often means that by the time security forces are alerted to what is happening the marauders have already escaped. Clad in a mixture of scavenged, or looted, flight suits and local animal leathers, most marauders conceal their identities with masks or helmets. Most see the Cloud-Riders as pirates to be feared, but whispers of support can be heard in some quarters. Although fearsome in appearance and tactics, some have noticed the marauders almost always target the Imperial military or rival criminal gangs, rarely accosting innocent civilians. While the motives of the Cloud-Riders are as unknown as the true identity of their leader, the threat of a surprise attack by these marauders is well known to Imperials stationed in the Outer Rim.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -2097,7 +2103,7 @@
 		"name": "Senex, Krath War Droid",
 		"type": "Nemesis",
 		"description": "Unique Droid. Holocron Database & Combat Instructor, Senex functions as a Holocron party resource, but grants access to three skills: Charm, Knowledge (Lore), and Lightsaber.\n\nhttp://www.d20radio.com/main/galaxy-guide-masters-in-exile-senex-jedi-training-droid/",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Phillip Krzeminski, D20Radio.com",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 4,
@@ -2163,7 +2169,7 @@
 		"name": "Duchess Salandra Faust",
 		"type": "Nemesis",
 		"description": "The scion of a long line of exiled Tetan aristocrats and Krath acolytes, Salandra is an extraordinarily attractive woman of noble bearing. She dresses in the finest attire and is a notorious fashion setter among the Galactic elite. Her foppish appearance, however, is little more than a mask– She trained from the time she could walk with Mecrosa assassins and her family’s Krath adepts. Her facility for swordplay and the Force are matched only by her political acumen; she is a master manipulator and is as likely to orchestrate an enemy’s demise with words as with her blade.",
-		"notes": "Credits go to Phillip Krzeminski, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Phillip Krzeminski, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -2239,7 +2245,7 @@
 		"name": "Krath War Droid",
 		"type": "Minion",
 		"description": "Though Krath war droids were generally humanoid in appearance, their unnatural movements and uncanny appearance made them a terrifying sight on the battlefield. These battle droids were designed to surprise and overwhelm their enemies in devastating shock assaults, springing towards their targets on their gyro-balanced leg assembly systems. These droids were far ahead of their time, and the Krath exiles meticulously maintained the precious few they had remaining.\n\nBuilt by Cinnagar Foundries",
-		"notes": "Credits go to Phillip Krzeminski, D20Radio.com.",
+		"notes": "These are not official stats. Credits go to Phillip Krzeminski, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,
@@ -2328,7 +2334,7 @@
 		"name": "Mimbanese Resistance Fighter",
 		"type": "Minion",
 		"description": "Hardened guerrilla fighters, the soldiers of the Mimbanese Liberation Army have been fighting since the waning days of the Clone War. These resistance fighters originally fought alongside the 224th clone infantry division “Mud Jumpers” against the Separatist droid menace. With the Republic replaced by the brutal Empire, the Mimbanese are locked in bloody campaign of independence. Using old Republic equipment, these guerrillas ironically are faced with the 224th Imperial Armored Division, an Imperial Army formation perpetuating the history of the once-allied “Mud Jumpers.” While the Mimbanese may be under-equipped, they posses far more experience and resolve than their Imperial Army opponents.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -2370,9 +2376,9 @@
 	},
 	{
 		"name": "Mimbanese Resistance Sniper",
-		"type": "Minion",
+		"type": "Rival",
 		"description": "Striking fear into the hearts of the Imperial Army on Mimban, it is often the blaster-burned corpse of an officer that is the first sign a Mimbanese sniper is in the area. Resistance snipers leverage their home turf advantage, effectively using navigation and camouflage to turn the mud into protection from Imperial observation and fire. These superior skills allow snipers to take optimum positions, laying in wait for the best targets to emerge.\n\nThe legendary Clone Commandos of the last war trained many of these snipers, instructing them to fire at Separatist organic commanders or tactical droids instead of the rank and file. The Mimbanese have adapted this tactic, preferring to eliminate officers and senior NCOs where possible. Given the Imperial Army infantry is made up of washouts from stormtrooper training, troublemakers booted from the Imperial Academies, and single-term enlistees trying to earn a credit, this decapitation tactic has proven exceptionally effective for the Mimbanese.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -2386,7 +2392,14 @@
 			"wounds": 5,
 			"defence": [0, 0]
 		},
-		"skills": ["Athletics", "Cool", "Melee", "Perception", "Ranged: Heavy", "Stealth"],
+		"skills": {
+			"Athletics": 2,
+			"Cool": 2,
+			"Melee": 1,
+			"Perception": 2,
+			"Ranged: Heavy": 3,
+			"Stealth": 2
+		},
 		"weapons": ["Vibroknife",
 			{
 				"name": "Sniper rifle",
@@ -2416,7 +2429,7 @@
 		"name": "Hired Gun",
 		"type": "Minion",
 		"description": "A far cry from the unstoppable soldiers of fortune featured in HoloNet action pieces, these hired guns are a mere step up from simple street toughs. These fighters seek better jobs and higher pay by offering a more professional service. Equipped with military style blasters and armor, they are a cut above the average thug or gang member. Although not as proficient as the soldiers of noted private military companies, and certainly not Imperial stormtroopers, these hired guns are more than capable of protecting local criminal interests. That protection comes with a limit, however, as most hired guns can attest: you can’t spend credits if you’re dead.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -2446,7 +2459,7 @@
 		"name": "Mercenary Veteran",
 		"type": "Rival",
 		"description": "Experienced soldiers for hire, veteran mercenaries have made a career of fighting for top credit. Some mercenaries learned their deadly trade within the ranks of the Imperial military. Others gained such proficiency by sheer survival, starting as low-level thugs and working their way up. Moving from job to job, and thus battle to battle, these seasoned fighters often boast far more firefights than their military counterparts. For mercenaries chasing a big payout, simple garrison duty is simply unappealing. Many expect these hardened mercs to bring combat expertise and intimidation to the table, and they do, but most boast strong negotiation skills as well. Violence is a business, and these mercs are successful entrepreneurs driving a hard bargain.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -2496,7 +2509,7 @@
 		"name": "Neero, Crime Broker",
 		"type": "Nemesis",
 		"description": "An ambitious Rodian crime broker, Neero is eagerly expanding his influence in The Slice. Avoiding entanglements with larger criminal syndicates, Neero works to cultivate a network of contacts among contraband dealers, fences, and slicers across the Mid and Outer Rims. His contacts include professionals with no qualms about providing services on the grey market, allowing Neero to arrange for mechanics and doctors for those on the outside of the law. By keeping abreast of the supply and demand for contraband goods and services throughout the Outer Rim, Neero can make significant profits by exploiting the urgent needs of a variety of clients. Neero runs his operation from a private room in an out of the way spacer’s lounge near the major spaceport on Manda. He is protected by a few subtly placed bodyguards throughout the lounge, but prefers to keep a low profile. Meetings with Neero are understated affairs. He handles all business dealings in a cool, professional manner. Despite operating out of a bar, Neero prefers to remain alert and consumes vine-coffeine. He is known to have a taste for havao tabac.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com, http://www.d20radio.com/main/holonet-uplink-neero-rodian-crime-broker/",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com, http://www.d20radio.com/main/holonet-uplink-neero-rodian-crime-broker/",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -2534,7 +2547,7 @@
 		"name": "Liir Wyn",
 		"type": "Nemesis",
 		"description": "Liir was seduced by the Bando Gora’s  influence  early  in her  career.  She  was  quickly propelled  into  the  upper echelons  of  a  prestigious Core  Worlds  pharmaceutical manufacturer as her superiors and  rivals  either  disappeared or resigned. She rose through the ranks and was eventually fully  indoctrinated  -  the  process  was  physically  and psychologically scarring, but she emerged “awakened” to a new level of consciousness.\n\nLiir assumed the role of high priestess of the Bando Gora after  years  as  a  regional  lieutenant.  She  has  wasted  no time in cementing her position and making her mark on the  galaxy.  Her  zeal  to  advance  the  mission  of  the  cult has  increased  their  profile  in  the  galactic  underworld, for better or worse. However, under her leadership, the Bando Gora name strikes fear into all who hear it uttered.",
-		"notes": "Credits go to Phillip Krzeminski, D20Radio.com, http://www.d20radio.com/main/galaxy-guide-masters-in-exile-bando-gora/",
+		"notes": "These are not official stats. Credits go to Phillip Krzeminski, D20Radio.com, http://www.d20radio.com/main/galaxy-guide-masters-in-exile-bando-gora/",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -2622,7 +2635,7 @@
 		"name": "Resistance Trooper",
 		"type": "Minion",
 		"description": "Outnumbered, outgunned, and on the run, the Resistance against the First Order lacks the personnel for normal military specialization. Where the New Republic, First Order, and even Rebel Alliance maintained dedicated infantry units for ground combat, the Resistance cannot afford such specialization. When the need arises, the Resistance calls upon its pilots, technicians, spies, and others to pick up a blaster rifle and pitch in to a ground fight.\n\nAlthough paling in comparison to true infantry, limited cross training provided by the Resistance’s tiny cadre of commandos provides all Alliance personnel the basic skills needed. Less effective than the First Order’s stormtroopers in a straight up fight, a fringe benefit from this ad-hoc approach means each Resistance squad is likely to contain experts in other fields. Since the Resistance employs asymmetrical tactics aimed at delaying and exposing the First Order, it is actually these oddball skills that can mean the difference between victory and defeat.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -2682,7 +2695,7 @@
 		"name": "Resistance Trooper 2",
 		"type": "Minion",
 		"description": "",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -2712,7 +2725,7 @@
 		"name": "Resistance Trooper 3",
 		"type": "Minion",
 		"description": "",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -2743,7 +2756,7 @@
 		"name": "Resistance Trooper 4",
 		"type": "Minion",
 		"description": "",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -2773,7 +2786,7 @@
 		"name": "Resistance Trooper 5",
 		"type": "Minion",
 		"description": "",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -2803,7 +2816,7 @@
 		"name": "Resistance Trooper 6",
 		"type": "Minion",
 		"description": "",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -2833,7 +2846,7 @@
 		"name": "Resistance Trooper 7",
 		"type": "Minion",
 		"description": "",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -2863,7 +2876,7 @@
 		"name": "Resistance Trooper 8",
 		"type": "Minion",
 		"description": "",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -2893,7 +2906,7 @@
 		"name": "Resistance Trooper 9",
 		"type": "Minion",
 		"description": "",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -2924,7 +2937,7 @@
 		"name": "Resistance Trooper 10",
 		"type": "Minion",
 		"description": "",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -2960,7 +2973,7 @@
 		"name": "Urban Security Droid",
 		"type": "Rival",
 		"description": "With dark metal plating and slithering, mechanical tentacles, Sith urban security droids present a constant reminder that the state is always watching. A meter wide, roughly spherical body houses the droid’s primary systems. A series of multi spectrum photoreceptors adorns the outer shell, providing optimal surveillance capabilities. Beneath the main body hang four segmented arms, each equipped with a different sensor or manipulator. Imperial engineers designed the droids specifically to be unsettling to organics, an effect magnified by their tendency to float just above eye level.\n\nThese droids are omnipresent on the Sith Empire’s core worlds. Installations such as star ports, public transport, and government buildings are constantly monitored by these mechanical sentries. Imperial streets are patrolled at ground level by pairs of these droids. They maintain a wide spacing to prevent both units falling prey to ambush. Despite a lack of personality programming, imperial engineers have installed profiling directives, guiding these droids to suspect wrongdoing from alien species. Humans are treated neutrally, with pureblooded Sith being ignored almost entirely.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -3000,7 +3013,7 @@
 		"name": "Imperial Intelligence Watcher",
 		"type": "Rival",
 		"description": "The exploits of Imperial Intelligence in the fields of assassination, deception, and manipulation were infamous, but were only possible through the sheer analytical horsepower of its Watchers. Analysts and handlers, Watchers provided direction and information to agents in the field. While Watchers worked closely with fixers and cipher agents, they were supervised directly by Keeper, the operational head of Imperial Intelligence. A team of operatives, or a single Cipher Agent, would often be assigned alongside a Watcher subject matter expert as a task group. While field operatives conducting covert operations, the Watcher would provide intelligence and direct future operations on behalf of Keeper.\n\nIntelligence’s most recent cohort of Watchers benefited from enhanced cognitive abilities, the result of the Empire’s experimental eugenics program. These natural abilities were enhanced with a punishing regimen of academics and mental conditioning, creating a class of analyst that was also a biological CPU on par with conventional information processing droids. The loyalty of these enhanced Watchers was ensured by deeply implanted post-hypnotic suggestion, essentially encoding a psychological kill switch linked to a specific audiovisual stimuli capable of rendering a watcher unconscious or even comatose. The existence, let alone the nature, of this stimuli was a closely guarded secret, as that information could be used to debilitating effect on Imperial Intelligence.",
-		"notes": "Credits go to Chris Hunt, D20Radio.com",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -3037,6 +3050,403 @@
 		"weapons": ["Blaster pistol"],
 		"gear": ["intelligence uniform (soak 1), code cylinder, encrypted datapad."],
 		"tags": ["source:D20Radio.com NPC’s", "imperial intelligence"],
+		"devOnly": true
+	},
+	{
+		"name": "Rakghoul Fiend",
+		"type": "Rival",
+		"notes": "These are not official stats. Credits go to David Villegas, D20Radio.com.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 16
+		},
+		"skills": {
+			"Athletics": 2,
+			"Coercion": 2,
+			"Discipline": 2,
+			"Leadership": 3,
+			"Melee": 2,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 2,
+			"Resilience": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Feral Strength"],
+		"abilities": [
+			{
+			"name": "Rakghoul Disease",
+			"description": "If a :triumph: is rolled on any attack against a humanoid, the target must make a Resilience check ( :difficulty::difficulty::challenge: ). Failure means the target is infected and will begin feeling the effects of the virus in one hour."
+			}
+			     ],
+		"weapons": [
+			{
+				"name": "Claws and teeth",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"tags": ["creature", "adventure:Ice Station Zulu", "source:D20Radio.com NPC’s"],
+		"devOnly": true
+	},
+	{
+        "name": "Rakghoul",
+        "type": "Minion",
+		"notes": "These are not official stats. Credits go to David Villegas, D20Radio.com.",
+        "characteristics": {
+            "Brawn": 3,
+            "Agility": 3,
+            "Intellect": 1,
+            "Cunning": 2,
+            "Willpower": 2,
+            "Presence": 1
+        },
+        "derived": {
+            "soak": 3,
+            "wounds": 7
+        },
+        "talents": ["Feral Strength"],
+	"abilities": [
+			{
+			"name": "Rakghoul Disease",
+			"description": "If a :triumph: is rolled on any attack against a humanoid, the target must make a Resilience check ( :difficulty::difficulty::challenge: ). Failure means the target is infected and will begin feeling the effects of the virus in one hour."
+			}
+		],
+        "skills": ["Brawl", "Perception"],
+        "tags": ["creature", "adventure:Ice Station Zulu", "source:D20Radio.com NPC’s"],
+        "weapons": [
+                {
+                "name": "Claws and teeth",
+                "skill": "Brawl",
+                "damage": 4,
+                "critical": 3,
+                "range": "Engaged",
+                "qualities": ["Vicious 1"]
+                }
+        ],
+        "devOnly": true
+	},
+	{
+		"name": "Brossk K’yyl",
+		"type": "Nemesis",
+		"description": "Brossk is an older Bothan man, whose golden fur has grayed around his muzzle. His manner is suave but not insincere. Brossk is both charming and deceptive. Depending upon his reading of people, he uses a variety of means to gain cooperation or aid. Unlike some, he isn’t stingy with pay if that is what motivates an asset he is recruiting. Emotional appeals–or even outright emotional blackmail–are another of his go-to recruiting techniques, especially with people he is close to. (Brossk’s granddaughter, the Archaeologist Priska K’yyl, has the Family Obligation to him for just this reason.) Brossk will also offer other inducements (either direct action or through one of his contacts) such as extremely favorable loan terms; to “disappear” a criminal charge, fine, or civil judgement; or new ship transponder code (Debt or similar Obligation).",
+		"notes": "These are not official stats. Credits go to Linda Whitson, D20Radio.com.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 11,
+			"strain": 14,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Charm": 3,
+			"Coercion": 2,
+			"Computers": 2,
+			"Cool": 3,
+			"Deception": 3,
+			"Leadership": 2,
+			"Ranged: Light": 2
+		},
+		"talents": ["Codebreaker", "Encoded Communique", "Nobody’s Fool 2"],
+		"abilities": [""],
+		"weapons": [
+				{
+				"name": "Military Holdout Blaster",
+				"skill": "Ranged: light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Stun Damage"]
+				}
+			],
+		"gear": ["Banal Apparel (Opposing characters upgrade the difficulty of any checks made to identify the wearer once)", "Second Skin Armor (+1 Soak/+1 Defense; +2 Setback to Perception checks to notice on the wearer)"],
+		"tags": ["species:Bothan","source:D20Radio.com NPC’s"],
+		"devOnly": true
+	},
+	{
+		"name": "Priska K’yyl",
+		"type": "Nemesis",
+		"description": "Adventurous Archaeologist. Bothan. Explorer career, Archeologist spec. Obligation: Family. Priska’s doting grandfather is a spymaster who often wheedles her into running “little errands” for him. (+5 level) Motivation: Status. Academic prestige for finding proof of a despotic pre-Republic empire.",
+		"notes": "These are not official stats. Credits go to Linda Whitson, D20Radio.com.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 13,
+			"strain": 13
+		},
+		"skills": {
+			"Athletics": 1,
+			"Computers": 1,
+			"Cool": 1,
+			"Knowledge: Education": 2,
+			"Knowledge: Lore": 2,
+			"Knowledge: Outer Rim": 1,
+			"Knowledge: Xenology": 1,
+			"Ranged: Light": 1,
+			"Streetwise": 1
+		},
+		"talents": ["Convincing Demeanor 1", "Researcher 1", "Knowledge Specialization: Lore"],
+		"weapons": [
+		{
+		"name": "Combat knife",
+		"skill": "Melee",
+		"plus-damage": 2,
+		"critical": 3,
+		"range": "Engaged"
+		}, "Holdout blaster"],
+		"gear": ["Heavy Clothing", "Thermal Cloak", "Scanner Goggles", "Utility Belt", "Datapad", "Comlink", "Stimpaks (2)", "Climbing Gear", "Fusion Lantern", "567 credits"],
+		"tags": ["species:Bothan","source:D20Radio.com NPC’s"],
+		"devOnly": true
+	},
+	{
+		"name": "Fyrnock (unofficial)",
+		"type": "Minion",
+		"description": "Fyrnocks are dangerous predators found on large asteroids with breathable atmospheres, and possibly other locations–but the less sunlight, the better. Xenobiologists disagree on whether fyrnocks have a deep-rooted terror of natural light, or if it damages them. Whatever the evolutionary reason, fyrnocks cannot be forced by any means, not even the Force, to enter natural sunlight. Unlike most lifeforms, they are silicone-based, not carbon-based. Fyrnocks live in large packs, which may include a much larger and stronger Mother Fyrnock.",
+		"notes": "These are not official stats.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 5
+		},
+		"skills": ["Athletics", "Brawl", "Perception"],
+		"abilities": ["Tough Hide", "Silhouette 2", "Creature of the Dark – Fyrnock cannot abide natural sunlight–but can other types of light–and will refuse to enter it"],
+		"weapons": [
+				{
+				"name": "Teeth and claws",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Knockdown"]
+				}
+			],
+		"tags": ["creature","source:D20Radio.com NPC’s"],
+		"devOnly": true
+	},
+	{
+		"name": "Mother Fyrnock",
+		"type": "Rival",
+		"description":  "",
+		"notes": "These are not official stats. Credits go to Linda Whitson, D20Radio.com.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 18
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 4,
+			"Perception": 3
+		},
+		"talents": ["Adversary 1", "Quick Strike"],
+		"abilities": [
+					{
+					"name": "Creature of the Dark",
+					"description": "Fyrnock cannot abide natural sunlight–but can other types of light–and will refuse to enter it."
+					}
+					],
+		"weapons": [
+				{
+				"name": "Teeth and claws",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 3", "Knockdown"]
+				}
+			],
+		"tags": ["creature","source:D20Radio.com NPC’s"],
+		"devOnly": true
+	},{
+		"name": "Sith Juggernaut",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 30,
+			"strain": 22,
+			"defence": [2, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Coercion": 2,
+			"Cool": 2,
+			"Discipline": 2,
+			"Knowledge: Lore": 2,
+			"Knowledge: Warfare": 2,
+			"Lightsaber": 4,
+			"Melee": 3,
+			"Perception": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 4", "Reflect 4", "Parry 6", "Force Rating 2",
+			{
+			"name": "Defensive Training 1",
+			"description": "Lightsaber, Melee, and Brawl weapons wielded by a Sith Juggernaut gain 1 rank in the Defensive item quality [replaces any ranks in Defensive the weapon already has]."
+			}
+		],
+		"abilities": [
+			"Darkside Force User",
+			{
+				"name": "Additional Combat Turns",
+				"description": "Takes one additional turn at the end of the round."
+			},
+			{
+				"name": "Falling Avalanche",
+				"description": "Suffer 2 strain to add damage equal to Brawn to next Lightsaber combat check made this turn."
+			},
+			{
+				"name": "Force Power: Bind",
+				"description": "May spend Force points to immobilize a target within short range until the end of the user’s next turn. If Dark Side points used, the target also suffers 1 wound per Force point spent on the check [ignores soak]."
+			},
+			{
+				"name": "Overpowering Blows",
+				"description": "A character who uses the Parry talent against a Sith Juggernaut’s Lightsaber or Melee attacks costs an additional point of strain."
+			},
+			{
+				"name": "Shatter Defenses",
+				"description": "Lightsaber or Melee attacks made by Sith Juggernauts ignore up to 2 points of Melee Defense."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Lightsaber",
+				"skill": "Lightsaber",
+				"damage": 10,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder", "Vicious 1"]
+			}
+		],
+		"gear": ["Sith battle armor (soak 2, defense 1, cortosis)"],
+		"tags": ["sith", "force sensitive", "darkside","source:D20Radio.com NPC’s"],
+		"devOnly": true
+	},
+	{
+		"name": "Partisan Fighter",
+		"type": "Minion",
+		"description": "Whether seen as desperate freedom fighters or vile terrorists, these radical militants are prepared to take the fight to the Empire at any cost. The origin of the Partisans lies with that of the Onderon rebels trained by the Republic and Jedi during the Clone Wars. Few original members remain alive, let alone within the ranks. Regardless of origin, these fighters are fiercely loyal to their leader, Saw Gerrera, and zealously believe in the cause. They are prepared to die, and kill, to end Imperial tyranny. They favour ambushes and other guerrilla type tactics, with a favorite tactics being close range ambush by infiltration of the civilian population. That these attacks put local civilians at risk is a minor concern to the Partisans when compared to the titanic abuses of the Empire.",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": ["Cool", "Ranged: Heavy", "Stealth"],
+		"abilities": [
+			{
+				"name": "Hide Among the People",
+				"description": "When concealing themselves among local civilians, Partisan Fighters upgrade Stealth checks once."
+			},
+			{
+				"name": "For the Cause",
+				"description": "As an Action, one minion sacrifices himself to guarantee a successful attack. Roll an attack as if made by a single minion and resolve as normal, except the attack will be considered a hit even if there are no uncancelled :success: results. If no uncancelled :success: remains, the attack deals the base damage only but :advantage: and :triumph: may be spent normally."
+			}
+		],
+		"weapons": ["Blaster rifle", "Frag grenade"],
+		"gear": ["concealing civilian clothing (soak +1)", "2 Frag grenades"],
+		"tags": ["source:D20Radio.com NPC’s","location:Onderon"],
+		"devOnly": true
+	},
+	{
+		"name": "Walker Ace",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Cool": 1,
+			"Gunnery": 2,
+			"Mechanics": 1,
+			"Piloting: Planetary": 2,
+			"Ranged: Light": 1
+		},
+		"talents": ["All-Terrain Driver", "Skilled Jockey 2"],
+		"abilities": [
+			{
+			"name": "Disciplined Guardsman",
+			"description": "Downgrade the difficulty of Discipline or Cool checks twice."
+			}
+		],
+		"weapons": [
+			{
+				"name": "SE-14c light repeating blaster",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun", "Autofire"]
+			}
+		],
+		"gear": ["Armoured uniform (soak +1), utility belt."],
+		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military"],
 		"devOnly": true
 	}
 ]
