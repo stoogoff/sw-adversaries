@@ -86,7 +86,7 @@
 				"qualities": ["Pierce 2", "Vicious 1", "Defensive 1"]
 			}
 		],
-		"gear": ["novatrooper armour (+2 soak, +1 defense, as per heavy battle armour), utility belt, extra reloads, officers on ceremonial duties replace their rifles with ornate Heavy blaster pistols"],
+		"gear": ["Novatrooper armour (+2 soak, +1 defense, as per heavy battle armour), Utility belt, Extra reloads, Officers on ceremonial duties replace their rifles with ornate Heavy blaster pistols"],
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
 		"devOnly": true
 	},
@@ -128,7 +128,7 @@
 				"qualities": ["Pierce 2", "Stun Setting"]
 			}
 		],
-		"gear": ["Radtrooper armour (+2 soak; +1 defence, Integrated comlink, Macrobinocular plate, protects from the effects of radiation to Grade 5), survival pack (containing anti-radiation hypos and pills, radiation protection tent, water purifier, and emergency medpac), utility belt, extra reloads, each half-squad of four radtroopers has one long range comlink and one general purpose scanner calibrated for precise radiation detection."],
+		"gear": ["Radtrooper armour (+2 soak; +1 defence, Integrated comlink, Macrobinocular plate, protects from the effects of radiation to Grade 5), Survival pack (containing anti-radiation hypos and pills, radiation protection tent, water purifier, and emergency medpac), Utility belt, Extra reloads, Each half-squad of four radtroopers has one long range comlink and one general purpose scanner calibrated for precise radiation detection."],
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
 		"devOnly": true
 	},
@@ -151,7 +151,7 @@
 		},
 		"skills": ["Athletics", "Discipline", "Melee", "Perception", "Piloting: Planetary", "Ranged: Light", "Vigilance"],
 		"weapons": ["Blaster pistol", "Truncheon"],
-		"gear": ["patrol trooper armour (+1 soak, traffic navigation uplink – gain Shortcut 1 [Add :boost: to checks made to catch or escape an opponent] when in comlink range of headquarters, enhanced imaging electronics – remove 1 Setback die from Perception checks to identify objects due to low light or long ranges)"],
+		"gear": ["Patrol trooper armour (+1 soak, traffic navigation uplink – gain Shortcut 1 [Add :boost: to checks made to catch or escape an opponent] when in comlink range of headquarters, Enhanced imaging electronics – remove 1 Setback die from Perception checks to identify objects due to low light or long ranges)"],
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
 		"devOnly": true
 	},
@@ -189,7 +189,7 @@
 				"description": "Add a :boost: to Cool and Discipline checks."
 			}
 		],
-		"gear": ["range trooper armour (+2 soak, when making skill checks may remove :setback::setback: imposed due to cold or icy environmental conditions), magnetic boots (may ignore difficult terrain caused by low gravity, standing on fast moving vehicles, or similar situations, may never spend more than one maneuver moving per turn), extra reloads."],
+		"gear": ["Range trooper armour (+2 soak, when making skill checks may remove :setback::setback: imposed due to cold or icy environmental conditions), Magnetic boots (may ignore difficult terrain caused by low gravity, standing on fast moving vehicles, or similar situations, may never spend more than one maneuver moving per turn), Extra reloads."],
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
 		"devOnly": true
 	},
@@ -213,7 +213,7 @@
 		"skills": ["Ranged: Heavy", "Ranged: Light", "Survival"],
 		"weapons": ["Blaster rifle", "Frag grenade"],
 		"abilities": [{"name": "Mixed Motivations","description": "Add :boost::boost: and :setback::setback: to Discipline checks."}],
-		"gear": ["Army swamp trooper armour (+1 soak, may remove :setback::setback: due to muddy or swamp-like conditions), filtration mask, utility belt."],
+		"gear": ["Army swamp trooper armour (+1 soak, may remove :setback::setback: due to muddy or swamp-like conditions), Filtration mask, Utility belt."],
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military"],
 		"devOnly": true
 	},
@@ -256,7 +256,7 @@
 				"qualities": ["Cumbersome 2", "Linked 1", "Stun Setting"]
 			}
 		],
-		"gear": ["Army swamp trooper armour (+1 soak, may remove :setback::setback: due to muddy or swamp-like conditions), filtration mask, utility belt."],
+		"gear": ["Army swamp trooper armour (+1 soak, may remove :setback::setback: due to muddy or swamp-like conditions), Filtration mask, Utility belt."],
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
 		"devOnly": true
 	},
@@ -338,7 +338,7 @@
 				"qualities": ["Stun Setting", "Forearm Grip", "Weapon Sling"]
 			}
 		],
-		"gear": ["storm commando armour (+1 soak, defense 1, reflective coating [upgrade stealth checks once, sensors cannot detect the wearer subject to GM discretion], enhanced optics suite),long range comlink, utility belt, extra reloads"],
+		"gear": ["Storm commando armour (+1 soak, defense 1, reflective coating [upgrade stealth checks once, sensors cannot detect the wearer subject to GM discretion], enhanced optics suite), Long range comlink, Utility belt, Extra reloads"],
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
 		"devOnly": true
 	},
@@ -371,7 +371,7 @@
 		},
 		"talents": ["Adversary 1", "Convincing Demeanor 2","Natural Negotiator"],
 		"weapons": ["Holdout blaster", "Molecular stiletto"],
-		"gear": ["covertly armoured dinner jacket (+1 soak, +1 defense)", "encrypted datapad with financial data and weapons procurement lists, encrypted long range comlink"],
+		"gear": ["Covertly armoured dinner jacket (+1 soak, +1 defense)", "Encrypted datapad with financial data and weapons procurement lists" , "Encrypted long range comlink"],
 		"tags": ["source:D20Radio.com NPC’s", "resistance"],
 		"devOnly": true
 	},
@@ -415,7 +415,7 @@
 			}
 		],
 		"weapons": ["Vibro-ax"],
-		"gear": ["heavy clothes (+1 soak value)", "medpac", "tool kit", "Mod V cybernetic arms", "datapad."],
+		"gear": ["Heavy clothes (+1 soak value)", "Medpac", "Tool kit", "Mod V cybernetic arms", "Datapad."],
 		"tags": ["source:D20Radio.com NPC’s", "species:Gamorrean"],
 		"devOnly": true
 	},
@@ -471,7 +471,7 @@
 				"qualities": ["Ensnare 5", "Knockdown", "Limited Ammo 1", "Stun Setting"]
 			}
 		],
-		"gear": ["concealing civilian clothing (soak +1)"],
+		"gear": ["Concealing civilian clothing (soak +1)"],
 		"tags": ["source:D20Radio.com NPC’s", "species:Trandoshan", "slaver"],
 		"devOnly": true
 	},
@@ -533,7 +533,7 @@
 				"qualities": ["Inaccurate 2", "Pierce 2", "Vicious 2"]
 			}
 		],
-		"gear": ["heavily plated armour (soak +3)"],
+		"gear": ["Heavily plated armour (soak +3)"],
 		"tags": ["source:D20Radio.com NPC’s", "mercenary", "species:Trandoshan"],
 		"devOnly": true
 	},
@@ -658,7 +658,6 @@
 				"qualities": ["Pierce 5", "Inaccurate 2"]
 			}
 		],
-		"gear": [""],
 		"tags": ["source:D20Radio.com NPC’s", "creature", "location:Moraband"],
 		"devOnly": true
 	},
@@ -724,7 +723,6 @@
 				"qualities": ["Pierce 5", "Inaccurate 2"]
 			}
 		],
-		"gear": [""],
 		"tags": ["source:D20Radio.com NPC’s", "creature", "location:Moraband"],
 		"devOnly": true
 	},
@@ -786,7 +784,6 @@
 				"qualities": ["Ensnare 1"]
 			}
 		],
-		"gear": [""],
 		"tags": ["source:D20Radio.com NPC’s", "creature", "location:Moraband"],
 		"devOnly": true
 	},
@@ -1085,7 +1082,7 @@
 				"qualities": ["Stun", "Disorient 2"]
 			}
 		],
-		"gear": ["Heavy clothing (soak +1), comlink"],
+		"gear": ["Heavy clothing (soak +1), Comlink"],
 		"tags": ["source:D20Radio.com NPC’s", "binayre pirate", "pirate"],
 		"devOnly": true
 	},
@@ -1144,7 +1141,7 @@
 				"qualities": ["Stun Damage", "Disorient 2"]
 				}
 		],
-		"gear": ["Padded armour (+2 Soak), binders, comlink, electrobinoculars, survival pack, six Corellian hounds, Cold Case (G-9 Rigger light freighter), R5 astromech droid"],
+		"gear": ["Padded armour (+2 Soak), Binders, Comlink, Electrobinoculars, Survival pack, Six Corellian hounds, Cold Case (G-9 Rigger light freighter), R5 astromech droid"],
 		"tags": ["source:D20Radio.com NPC’s", "bounty hunter"],
 		"devOnly": true
 	},
@@ -1307,7 +1304,7 @@
 		},
 		"skills": ["Coercion", "Discipline", "Perception"],
 		"weapons": ["Blaster carbine", "Stun grenade"],
-		"gear": [" blast vest (+1 soak), utility belt, extra reloads, general purpose scanner, for each security detachment of two or four troopers one may be a massiff handler"],
+		"gear": ["Blast vest (+1 soak), Utility belt, Extra reloads, General purpose scanner, For each security detachment of two or four troopers one may be a massiff handler"],
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial bureaucracy"],
 		"devOnly": true
 	},
@@ -1402,7 +1399,7 @@
 			}
 		],
 		"weapons": ["Blaster pistol"],
-		"gear": ["naval officer’s uniform (+1 soak), comlink, code cylinders"],
+		"gear": ["Naval officer’s uniform (+1 soak), Comlink, Code cylinders"],
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military"],
 		"devOnly": true
 	},
@@ -1456,7 +1453,7 @@
 				"qualities": ["Stun", "Forearm Grip", "Weapon Sling", "Quick Draw"]
 			}
 		],
-		"gear": ["storm commando armour (+1 soak, defense 1, reflec coating [upgrade stealth checks once, sensors cannot detect the wearer subject to GM discretion], enhanced optics suite), long range comlink, utility belt, extra reloads"],
+		"gear": ["Storm commando armour (+1 soak, defense 1, reflec coating [upgrade stealth checks once, sensors cannot detect the wearer subject to GM discretion], enhanced optics suite), Long range comlink, Utility belt, Extra reloads"],
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
 		"devOnly": true
 	},
@@ -1506,7 +1503,7 @@
 				"qualities": ["Stun"]
 			}
 		],
-		"gear": ["army officer armour (+1 soak, defense 1), long range comlink, utility belt, extra reloads"],
+		"gear": ["Army officer armour (+1 soak, defense 1), Long range comlink, Utility belt, Extra reloads"],
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military"],
 		"devOnly": true
 	},
@@ -1611,7 +1608,7 @@
 			"description": "Skill Checks to bribe or otherwise take advantage of police corruption gain 1 :advantage:."
 			}
 		],
-		"gear": ["armoured uniform (+1 soak, +1 defense), multispectrum police glow rod, encrypted long range comlink."],
+		"gear": ["Armoured uniform (+1 soak, +1 defense), Multispectrum police glow rod, Encrypted long range comlink."],
 		"tags": ["source:D20Radio.com NPC’s", "location:Canto Bight", "security"],
 		"devOnly": true
 	},
@@ -1669,7 +1666,7 @@
 				"qualities": ["Stun", "Disorient 2"]
 			}
 		],
-		"gear": ["armoured uniform (+1 soak, +1 defense), multispectrum police glow rod, encrypted long range comlink"],
+		"gear": ["Armoured uniform (+1 soak, +1 defense), Multispectrum police glow rod, Encrypted long range comlink"],
 		"tags": ["source:D20Radio.com NPC’s", "location:Canto Bight", "security"],
 		"devOnly": true
 	},
@@ -1766,7 +1763,7 @@
 		],
 		"talents": ["Careful Planning", "Researcher 2", "Thorough Assesment"],
 		"weapons": ["Blaster pistol"],
-		"gear": ["uniform (+1 soak)", "encoded datapad with staff estimates and planning data"],
+		"gear": ["Uniform (+1 soak)", "Encoded datapad with staff estimates and planning data"],
 		"tags": ["source:D20Radio.com NPC’s", "rebel alliance"],
 		"devOnly": true
 	},
@@ -1833,7 +1830,7 @@
 				"qualities": ["Accurate 1", "Pierce 2", "Stun 4", "Vicious 1"]
 			}
 		],
-		"gear": ["personal stealth field generator (as per Outlaw Tech Personal Stealth Field, EotE pg. 186 – these devices tend to self-destruct in non-Intelligence hands), encrypted holocom, three stimpacks, additional high tech gear as desired."],
+		"gear": ["Personal stealth field generator (as per Outlaw Tech Personal Stealth Field, EotE pg. 186 – these devices tend to self-destruct in non-Intelligence hands), Encrypted holocom, Three stimpacks, Additional high tech gear as desired."],
 		"tags": ["source:D20Radio.com NPC’s", "imperial intelligence"],
 		"devOnly": true
 	},
@@ -1863,7 +1860,7 @@
 		},
 		"abilities": [],
 		"talents": ["Nobody’s Fool 1"],
-		"gear": ["Encoded datapad, secure comlink, hand scanner"],
+		"gear": ["Encoded datapad, Secure comlink, Hand scanner"],
 		"tags": ["source:D20Radio.com NPC’s", "empire"],
 		"devOnly": true
 	},
@@ -1918,7 +1915,7 @@
 				"qualities": ["Accurate 1", "Pierce 2", "Stun 4", "Vicious 1"]
 			}
 		],
-		"gear": ["Deck crew uniform (+1 soak, integrated comlink, ground control HUD [gain automatic Advantage on Perception checks to determine distance]), flight suit, utility belt."],
+		"gear": ["Deck crew uniform (+1 soak, integrated comlink, ground control HUD [gain automatic Advantage on Perception checks to determine distance]), Flight suit, Utility belt."],
 		"tags": ["source:D20Radio.com NPC’s", "empire"],
 		"devOnly": true
 	},
@@ -1959,7 +1956,7 @@
 		],
 		"talents": ["Adversary 1", "Body Guard 2", "Point Blank 3"],
 		"weapons": ["Blaster rifle", "Heavy blaster pistol", "Force pike"],
-		"gear": ["laminate armour with ceremonial robes (soak +2, defense +1), secure comlink, utility belt with stimpacks."],
+		"gear": ["Laminate armour with ceremonial robes (soak +2, defense +1), Secure comlink, Utility belt with stimpacks."],
 		"tags": ["source:D20Radio.com NPC’s", "galactic republic"],
 		"devOnly": true
 	},
@@ -2001,7 +1998,7 @@
 				"description": "Once per encounter, chose one die and reroll it."
 			}
 		],
-		"gear": ["Fine clothing (soak +1), hard currency."],
+		"gear": ["Fine clothing (soak +1), Hard currency."],
 		"tags": ["source:D20Radio.com NPC’s", "gambler"],
 		"devOnly": true
 	},
@@ -2048,7 +2045,7 @@
 				"qualities": ["Pierce 1", "Vicious 1"]
 			}
 		],
-		"gear": ["Padded armour (+2 soak), hard currency"],
+		"gear": ["Padded armour (+2 soak), Hard currency"],
 		"tags": ["source:D20Radio.com NPC’s", "gambler"],
 		"devOnly": true
 	},
@@ -2095,7 +2092,7 @@
 			}
 		],
 		"talents": ["Physical Training 1"],
-		"gear": ["flightsuit and animal hides (soak +1), grappling hooks."],
+		"gear": ["Flightsuit and animal hides (soak +1), Grappling hooks."],
 		"tags": ["source:D20Radio.com NPC’s", "pirate", "swoop racer"],
 		"devOnly": true
 	},
@@ -2237,8 +2234,8 @@
 				"qualities": ["Mono-Molecular Edge", "Pierce 7", "Vicious 1"]
 			}
 		],
-		"gear": ["Encrypted comlink, tailored armoured clothing (+1 soak/+1 defence), collection of Force artifacts, large Kalevalan star yacht"],
-		"tags": ["source:D20Radio.com NPC’s", "krath"],
+		"gear": ["Encrypted comlink, Tailored armoured clothing (+1 soak/+1 defence), Collection of Force artifacts, Large Kalevalan star yacht"],
+		"tags": ["source:D20Radio.com NPC’s", "krath", "force sensitive"],
 		"devOnly": true
 	},
 	{
@@ -2326,7 +2323,7 @@
 				"qualities": ["Pierce 2", "Vicious 3", "Sunder"]
 			}
 		],
-		"gear": [" Ornate battle armour (+2 Soak/+1 Defense)", "encrypted comlink."],
+		"gear": ["Ornate battle armour (+2 Soak/+1 Defense)", "Encrypted comlink."],
 		"tags": ["source:D20Radio.com NPC’s", "krath"],
 		"devOnly": true
 	},
@@ -2370,7 +2367,7 @@
 				"description": "Does not treat mud as difficult terrain when using the move maneuver."
 			}
 		],
-		"gear": ["woven reed armour (+1 soak, +1 ranged defense)"],
+		"gear": ["Woven reed armour (+1 soak, +1 ranged defense)"],
 		"tags": ["source:D20Radio.com NPC’s", "location:mimban"],
 		"devOnly": true
 	},
@@ -2421,7 +2418,7 @@
 				"description": "Does not treat mud as difficult terrain when using the move maneuver."
 			}
 		],
-		"gear": ["woven reed armour (+1 soak, +1 ranged defense), macrobinoculars."],
+		"gear": ["Woven reed armour (+1 soak, +1 ranged defense), Macrobinoculars."],
 		"tags": ["source:D20Radio.com NPC’s", "location:mimban"],
 		"devOnly": true
 	},
@@ -2451,7 +2448,7 @@
 				"description": "Adds a :setback: die checks made against Fear or Coercion."
 			}
 		],
-		"gear": ["blast vest (+1 soak)."],
+		"gear": ["Blast vest (+1 soak)."],
 		"tags": ["source:D20Radio.com NPC’s", "thug", "mercenary"],
 		"devOnly": true
 	},
@@ -2501,7 +2498,7 @@
 				"qualities": ["Accurate 1", "Stun"]
 			}
 		],
-		"gear": ["modified composite armour (+2 soak, +1 defense, integrated helmet comlink), 2 Frag grenades"],
+		"gear": ["Modified composite armour (+2 soak, +1 defense, integrated helmet comlink), 2 Frag grenades"],
 		"tags": ["source:D20Radio.com NPC’s", "mercenary", "thug"],
 		"devOnly": true
 	},
@@ -2539,7 +2536,7 @@
 		},
 		"talents": ["Adversary 1", "Nobody’s Fool 2"],
 		"weapons": ["Heavy blaster pistol"],
-		"gear": ["armoured clothing (+1 defense, +1 soak)"],
+		"gear": ["Armoured clothing (+1 defense, +1 soak)"],
 		"tags": ["source:D20Radio.com NPC’s", "infochant", "underworld"],
 		"devOnly": true
 	},
@@ -2627,7 +2624,7 @@
 				"qualities": ["Pierce 3", "Poison"]
 			}
 		],
-		"gear": [" armoured  clothing  (+1  soak/+1  defense), demon mask (bonuses included; FaD, 190)."],
+		"gear": ["Armoured  clothing  (+1  soak/+1  defense), Demon mask (bonuses included; FaD, 190)."],
 		"tags": ["source:D20Radio.com NPC’s", "force sensitive", "bando gora"],
 		"devOnly": true
 	},
@@ -2657,7 +2654,7 @@
 				"description": "For every five resistance troopers in a minion group, roll once on the All Walks of Life Chart."
 			}
 		],
-		"gear": ["blast vest (+1 soak)"],
+		"gear": ["Blast vest (+1 soak)"],
 		"tags": ["source:D20Radio.com NPC’s", "resistance"],
 		"devOnly": true
 	},
@@ -2687,7 +2684,7 @@
 				"description": "Several squad members are experienced soldiers, such as former New Republic Army or mercenaries. The minion group gains Gunnery and Melee as group only skills. The squad is also equipped with a missile tube."
 			}
 		],
-		"gear": ["blast vest (+1 soak)"],
+		"gear": ["Blast vest (+1 soak)"],
 		"tags": ["source:D20Radio.com NPC’s", "resistance"],
 		"devOnly": true
 	},
@@ -2717,7 +2714,7 @@
 				"description": "The squad is composed of several pilots whose starfighters have been destroyed. The minion group gains Piloting (Planetary) and Piloting (Space) as group only skills."
 			}
 		],
-		"gear": ["blast vest (+1 soak)"],
+		"gear": ["Blast vest (+1 soak)"],
 		"tags": ["source:D20Radio.com NPC’s", "resistance"],
 		"devOnly": true
 	},
@@ -2748,7 +2745,7 @@
 				"description": "One squad member was a big game hunter and has taught her fellow troopers how to fight with precision. The minion group gains True Aim 1."
 			}
 		],
-		"gear": ["blast vest (+1 soak)"],
+		"gear": ["Blast vest (+1 soak)"],
 		"tags": ["source:D20Radio.com NPC’s", "resistance"],
 		"devOnly": true
 	},
@@ -2778,7 +2775,7 @@
 				"description": "Several members of the squad are particularly hardy aliens. Increase the soak of the minion group by one."
 			}
 		],
-		"gear": ["blast vest (+1 soak)"],
+		"gear": ["Blast vest (+1 soak)"],
 		"tags": ["source:D20Radio.com NPC’s", "resistance"],
 		"devOnly": true
 	},
@@ -2808,7 +2805,7 @@
 				"description": "The squad is composed primarily of engineers. The minion group gains Mechanics as a group only skill, as well as Contraption."
 			}
 		],
-		"gear": ["blast vest (+1 soak)"],
+		"gear": ["Blast vest (+1 soak)"],
 		"tags": ["source:D20Radio.com NPC’s", "resistance"],
 		"devOnly": true
 	},
@@ -2838,7 +2835,7 @@
 				"description": "The squad is made up of an amateur zoneball team. The minion group gains Strong Arm (Treat thrown weapons as if they had one step greater range, up to a maximum of Medium range)."
 			}
 		],
-		"gear": ["blast vest (+1 soak)"],
+		"gear": ["Blast vest (+1 soak)"],
 		"tags": ["source:D20Radio.com NPC’s", "resistance"],
 		"devOnly": true
 	},
@@ -2868,7 +2865,7 @@
 				"description": "This squad is made up of die hard survivors from a colony destroyed by the First Order. Increase the Willpower of the minion group by one."
 			}
 		],
-		"gear": ["blast vest (+1 soak)"],
+		"gear": ["Blast vest (+1 soak)"],
 		"tags": ["source:D20Radio.com NPC’s", "resistance"],
 		"devOnly": true
 	},
@@ -2898,7 +2895,7 @@
 				"description": "Composed of several spies, this group is adept as moving unseen. The minion group gains Stealth as a group skill and increases Agility by one."
 			}
 		],
-		"gear": ["blast vest (+1 soak)"],
+		"gear": ["Blast vest (+1 soak)"],
 		"tags": ["source:D20Radio.com NPC’s", "resistance"],
 		"devOnly": true
 	},
@@ -2929,7 +2926,7 @@
 				"description": "Several members of the squad are veterans of the Galactic Civil War. The minion group gains Lethal Blows 2 (Add +20 to Critical Injury rolls against opponents)."
 			}
 		],
-		"gear": ["blast vest (+1 soak)"],
+		"gear": ["Blast vest (+1 soak)"],
 		"tags": ["source:D20Radio.com NPC’s", "resistance"],
 		"devOnly": true
 	},
@@ -2965,7 +2962,7 @@
 				"description": "This squad was cobbled together from staff officers and analysts ready to pitch in and fight. The minion group gains Knowledge (Warfare), increases Intellect by one, and gains Know The Enemy (May make Knowledge [Warfare] checks for initiative)."
 			}
 		],
-		"gear": ["blast vest (+1 soak)"],
+		"gear": ["Blast vest (+1 soak)"],
 		"tags": ["source:D20Radio.com NPC’s", "resistance"],
 		"devOnly": true
 	},
@@ -3005,7 +3002,7 @@
 				"qualities": ["Stun"]
 			}
 		],
-		"gear": ["encrypted communicator, security scanner."],
+		"gear": ["Encrypted communicator, Security scanner."],
 		"tags": ["species:Droid","source:D20Radio.com NPC’s", "security"],
 		"devOnly": true
 	},
@@ -3048,7 +3045,7 @@
 			}
 		],
 		"weapons": ["Blaster pistol"],
-		"gear": ["intelligence uniform (soak 1), code cylinder, encrypted datapad."],
+		"gear": ["Intelligence uniform (soak 1), Code cylinder, Encrypted datapad."],
 		"tags": ["source:D20Radio.com NPC’s", "imperial intelligence"],
 		"devOnly": true
 	},
@@ -3210,14 +3207,15 @@
 			"Streetwise": 1
 		},
 		"talents": ["Convincing Demeanor 1", "Researcher 1", "Knowledge Specialization: Lore"],
-		"weapons": [
-		{
-		"name": "Combat knife",
-		"skill": "Melee",
-		"plus-damage": 2,
-		"critical": 3,
-		"range": "Engaged"
-		}, "Holdout blaster"],
+		"weapons": ["Holdout blaster",
+			{
+				"name": "Combat knife",
+				"skill": "Melee",
+				"plus-damage": 2,
+				"critical": 3,
+				"range": "Engaged"
+			}
+		],
 		"gear": ["Heavy Clothing", "Thermal Cloak", "Scanner Goggles", "Utility Belt", "Datapad", "Comlink", "Stimpaks (2)", "Climbing Gear", "Fusion Lantern", "567 credits"],
 		"tags": ["species:Bothan","source:D20Radio.com NPC’s"],
 		"devOnly": true
@@ -3226,7 +3224,7 @@
 		"name": "Fyrnock (unofficial)",
 		"type": "Minion",
 		"description": "Fyrnocks are dangerous predators found on large asteroids with breathable atmospheres, and possibly other locations–but the less sunlight, the better. Xenobiologists disagree on whether fyrnocks have a deep-rooted terror of natural light, or if it damages them. Whatever the evolutionary reason, fyrnocks cannot be forced by any means, not even the Force, to enter natural sunlight. Unlike most lifeforms, they are silicone-based, not carbon-based. Fyrnocks live in large packs, which may include a much larger and stronger Mother Fyrnock.",
-		"notes": "These are not official stats.",
+		"notes": "These are not official stats. Credits go to Linda Whitson, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,
@@ -3400,7 +3398,7 @@
 			}
 		],
 		"weapons": ["Blaster rifle", "Frag grenade"],
-		"gear": ["concealing civilian clothing (soak +1)", "2 Frag grenades"],
+		"gear": ["Concealing civilian clothing (soak +1)", "2 Frag grenades"],
 		"tags": ["source:D20Radio.com NPC’s","location:Onderon"],
 		"devOnly": true
 	},
