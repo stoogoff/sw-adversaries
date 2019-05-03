@@ -121,7 +121,7 @@
 		},
 		"skills": ["Athletics", "Cool", "Perception", "Resilience"],
 		"abilities": ["Droid"],
-		"gear": ["Built-in long range comlink, built-in holoprojector, scanner suite"],
+		"gear": ["Built-in long range comlink, Built-in holoprojector, Scanner suite"],
 		"tags": ["book:doh", "species:Droid"]
 	},
 	{
@@ -151,7 +151,7 @@
 		},
 		"abilities": ["Droid"],
 		"talents": ["Keen Eyed 2"],
-		"gear": ["Built-in long range comlink, 2 emergency medpacks, built-in general purpose scanner, built-in physician’s kit, 8 stimpacks, built-in tool kit"],
+		"gear": ["Built-in long range comlink, 2 emergency medpacks, Built-in general purpose scanner, Built-in physician’s kit, 8 stimpacks, Built-in tool kit"],
 		"tags": ["book:doh", "species:Droid"]
 	},
 	{
