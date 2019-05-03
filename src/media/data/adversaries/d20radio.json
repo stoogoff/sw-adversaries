@@ -27,14 +27,14 @@
 		"talents": ["Adversary 1", "Stalker 2"],
 		"abilities": ["Shadowed", "Swipe 1"],
 		"weapons": ["Blaster carbine", "Light blaster pistol", "Vibroknife"],
-		"gear": ["Storm Commando armor (+2 soak) (Laminate) with Enhanced Optics suite (removes up to 2 Setback from Perception, Vigilance and combat checks, due to darkness, smoke, fog or other environment effects that obscure vision)", "Encrypted commlink"],
+		"gear": ["Storm Commando armour (+2 soak) (Laminate) with Enhanced Optics suite (removes up to 2 Setback from Perception, Vigilance and combat checks, due to darkness, smoke, fog or other environment effects that obscure vision)", "Encrypted commlink"],
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
 		"devOnly": true
 	},
 	{
 		"name": "Stormtrooper: Novatrooper",
 		"type": "Rival",
-		"description": "Throughout galactic history, empires have established guard units composed of elite troops equipped with superior weapons and armor, charging them with the most daring of military missions. The elite Novatroopers of the Imperial Stormtrooper corps follow this historical convention. Their distinctive reinforced black and gold armor is symbolic of the Novatroopers’ dual role. While rarely seen except at military parades and Imperial ceremonies, these honor guards are just as capable of conducting intense combat as they are looking sharp for the Imperial HoloNet news. The Novatroopers focus on instilling intense discipline within their ranks, even more so than regular Stormtroopers. Rumors circulate in Imperial military circles of extreme feats of discipline demanded in their training, such as executing traditional parade maneuver while subjected to tear gas. No matter their training methods, would-be assassins would do well to remember these guardsmen are more than just ceremonial – they will fight expertly and to the death to protect their charge.",
+		"description": "Throughout galactic history, empires have established guard units composed of elite troops equipped with superior weapons and armour, charging them with the most daring of military missions. The elite Novatroopers of the Imperial Stormtrooper corps follow this historical convention. Their distinctive reinforced black and gold armour is symbolic of the Novatroopers’ dual role. While rarely seen except at military parades and Imperial ceremonies, these honor guards are just as capable of conducting intense combat as they are looking sharp for the Imperial HoloNet news. The Novatroopers focus on instilling intense discipline within their ranks, even more so than regular Stormtroopers. Rumors circulate in Imperial military circles of extreme feats of discipline demanded in their training, such as executing traditional parade maneuver while subjected to tear gas. No matter their training methods, would-be assassins would do well to remember these guardsmen are more than just ceremonial – they will fight expertly and to the death to protect their charge.",
 		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 3,
@@ -86,14 +86,14 @@
 				"qualities": ["Pierce 2", "Vicious 1", "Defensive 1"]
 			}
 		],
-		"gear": ["novatrooper armor (+2 soak, +1 defense, as per heavy battle armor), utility belt, extra reloads, officers on ceremonial duties replace their rifles with ornate Heavy blaster pistols"],
+		"gear": ["novatrooper armour (+2 soak, +1 defense, as per heavy battle armour), utility belt, extra reloads, officers on ceremonial duties replace their rifles with ornate Heavy blaster pistols"],
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
 		"devOnly": true
 	},
 	{
 		"name": "Stormtrooper: Radtrooper",
 		"type": "Minion",
-		"description": "Radiation Zone Assault Troopers, or radtroopers to the common soldier, are specialist stormtroopers trained to operate in high intensity radiation environments. Armed and equipped with reinforced stormtroper armor, radiation hardened gear, and extensive training, these troopers can confidently conduct missions in even the most deadly radiation zones. To the public radtroopers provide the Empire with a capability to provide security in high radiation zones in certain planets and star systems, and to supplement local emergency responders in the event of fusion reactor meltdowns. Secretly, these troopers are often used to mop up after one of the Empire’s more heinous tactics. On worlds where the infrastructure is deemed vital to Imperial interest, but the population is considered expendable, a series of neutron bombs can be deployed to indiscriminately eliminate all life at the target. The radtroopers are sent in shortly after to root out any survivors, secure valuable infrastructure, and prepare reclamation for the Empire. Such brutal tactics are a closed guarded secret, and COMPNOR will stop at nothing to suppress the truth of these atrocities.",
+		"description": "Radiation Zone Assault Troopers, or radtroopers to the common soldier, are specialist stormtroopers trained to operate in high intensity radiation environments. Armed and equipped with reinforced stormtroper armour, radiation hardened gear, and extensive training, these troopers can confidently conduct missions in even the most deadly radiation zones. To the public radtroopers provide the Empire with a capability to provide security in high radiation zones in certain planets and star systems, and to supplement local emergency responders in the event of fusion reactor meltdowns. Secretly, these troopers are often used to mop up after one of the Empire’s more heinous tactics. On worlds where the infrastructure is deemed vital to Imperial interest, but the population is considered expendable, a series of neutron bombs can be deployed to indiscriminately eliminate all life at the target. The radtroopers are sent in shortly after to root out any survivors, secure valuable infrastructure, and prepare reclamation for the Empire. Such brutal tactics are a closed guarded secret, and COMPNOR will stop at nothing to suppress the truth of these atrocities.",
 		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 3,
@@ -128,14 +128,14 @@
 				"qualities": ["Pierce 2", "Stun Setting"]
 			}
 		],
-		"gear": ["radtrooper armor (+2 soak; +1 defence, integrated comlink, macrobinocular plate, protects from the effects of radiation to Grade 5), survival pack (containing anti-radiation hypos and pills, radiation protection tent, water purifier, and emergency medpac), utility belt, extra reloads, each half-squad of four radtroopers has one long range comlink and one general purpose scanner calibrated for precise radiation detection."],
+		"gear": ["Radtrooper armour (+2 soak; +1 defence, Integrated comlink, Macrobinocular plate, protects from the effects of radiation to Grade 5), survival pack (containing anti-radiation hypos and pills, radiation protection tent, water purifier, and emergency medpac), utility belt, extra reloads, each half-squad of four radtroopers has one long range comlink and one general purpose scanner calibrated for precise radiation detection."],
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
 		"devOnly": true
 	},
 	{
 		"name": "Stormtrooper: Patrol Troopers",
 		"type": "Minion",
-		"description": "Deployed to the Empire’s industrial and urban heartland, patrol troopers are a branch of the stormtrooper corps charged with law enforcement in areas deemed vital to Imperial interests. While local and planetary forces are left to police most of the Empire, these patrol troopers secure important shipyards, spaceports, factories, and other areas critical to the Imperial war machine. Patrol troopers are patterned after scout troopers. Flexible armor equipped with enhanced optics and real-time data uplinks allow patrol troopers to navigate urban sprawls with ease while ferreting out crime or sabotage. These uplinks all for near instantaneous information sharing of data from routine traffic information on patrol to pursuit vectors during high-speed chases.",
+		"description": "Deployed to the Empire’s industrial and urban heartland, patrol troopers are a branch of the stormtrooper corps charged with law enforcement in areas deemed vital to Imperial interests. While local and planetary forces are left to police most of the Empire, these patrol troopers secure important shipyards, spaceports, factories, and other areas critical to the Imperial war machine. Patrol troopers are patterned after scout troopers. Flexible armour equipped with enhanced optics and real-time data uplinks allow patrol troopers to navigate urban sprawls with ease while ferreting out crime or sabotage. These uplinks all for near instantaneous information sharing of data from routine traffic information on patrol to pursuit vectors during high-speed chases.",
 		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 3,
@@ -151,14 +151,14 @@
 		},
 		"skills": ["Athletics", "Discipline", "Melee", "Perception", "Piloting: Planetary", "Ranged: Light", "Vigilance"],
 		"weapons": ["Blaster pistol", "Truncheon"],
-		"gear": ["patrol trooper armor (+1 soak, traffic navigation uplink – gain Shortcut 1 [Add :boost: to checks made to catch or escape an opponent] when in comlink range of headquarters, enhanced imaging electronics – remove 1 Setback die from Perception checks to identify objects due to low light or long ranges)"],
+		"gear": ["patrol trooper armour (+1 soak, traffic navigation uplink – gain Shortcut 1 [Add :boost: to checks made to catch or escape an opponent] when in comlink range of headquarters, enhanced imaging electronics – remove 1 Setback die from Perception checks to identify objects due to low light or long ranges)"],
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
 		"devOnly": true
 	},
 	{
 		"name": "Stormtrooper: Range Trooper",
 		"type": "Minion",
-		"description": "Enforcers of the Emperor’s will on far flung frontier worlds, it is the range troopers of the Stormtrooper Corps that carve order from chaos on the ever expanding fringes of the Empire. Range troopers secure and patrol vast territories on uncivilized, icy worlds selected for imperial development. Although not special operations forces, range troopers screen candidates for mental toughness and physical resilience above the norm. These traits breed a strong collective identity and feeling of eliteness above regular stormtroopers.\n\nEquipped similarly to the cold assault stormtrooper, known to most as snowtroopers, range trooper armor integrates arctic survival gear and provides freedom of movement for long patrol routes. Unlike the offensively oriented snowtroopers, range troopers are equipped to conduct security patrols and sentry duties. Range troopers utilize a variety of overboot systems to enhance mobility, from simple skis and snowshoes to climbing cleats and magnetic boots. This ensures Imperial assets can be protected, whether over vast swaths of snow or on high-speed conveyex transports.\n\nRange troopers operate in small units on detached service, often with little contact or oversight by higher command. This isolation from the rest of the imperial military, and indeed galactic civilization, fosters a frontier spirit of cold determination. Range troopers strive to accomplish any mission assigned, but they do so their own way and prefer not to cooperate with other units they deem less capable.",
+		"description": "Enforcers of the Emperor’s will on far flung frontier worlds, it is the range troopers of the Stormtrooper Corps that carve order from chaos on the ever expanding fringes of the Empire. Range troopers secure and patrol vast territories on uncivilized, icy worlds selected for imperial development. Although not special operations forces, range troopers screen candidates for mental toughness and physical resilience above the norm. These traits breed a strong collective identity and feeling of eliteness above regular stormtroopers.\n\nEquipped similarly to the cold assault stormtrooper, known to most as snowtroopers, range trooper armour integrates arctic survival gear and provides freedom of movement for long patrol routes. Unlike the offensively oriented snowtroopers, range troopers are equipped to conduct security patrols and sentry duties. Range troopers utilize a variety of overboot systems to enhance mobility, from simple skis and snowshoes to climbing cleats and magnetic boots. This ensures Imperial assets can be protected, whether over vast swaths of snow or on high-speed conveyex transports.\n\nRange troopers operate in small units on detached service, often with little contact or oversight by higher command. This isolation from the rest of the imperial military, and indeed galactic civilization, fosters a frontier spirit of cold determination. Range troopers strive to accomplish any mission assigned, but they do so their own way and prefer not to cooperate with other units they deem less capable.",
 		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 3,
@@ -189,14 +189,14 @@
 				"description": "Add a :boost: to Cool and Discipline checks."
 			}
 		],
-		"gear": ["range trooper armor (+2 soak, when making skill checks may remove :setback::setback: imposed due to cold or icy environmental conditions), magnetic boots (may ignore difficult terrain caused by low gravity, standing on fast moving vehicles, or similar situations, may never spend more than one maneuver moving per turn), extra reloads."],
+		"gear": ["range trooper armour (+2 soak, when making skill checks may remove :setback::setback: imposed due to cold or icy environmental conditions), magnetic boots (may ignore difficult terrain caused by low gravity, standing on fast moving vehicles, or similar situations, may never spend more than one maneuver moving per turn), extra reloads."],
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
 		"devOnly": true
 	},
 	{
 		"name": "Imperial Army “Mudtrooper” Swamp Trooper",
 		"type": "Minion",
-		"description": "Imperial Army swamp troopers served as the army infantry’s combat specialists in wetlands environments. While all but phased out in favor of stormtroopers by the height of the Rebellion, these army troopers were relied upon to subjugate Imperial worlds during the first decades of the Empire. Equipped with partial armor, filtration systems, and survival gear, these troopers faced treacherous and disease-ridden environments nearly as deadly as their opponents. Fighting in these brutal conditions earned swamp troopers the moniker of “mudtrooper” after hellish battles on worlds such as Mimban.\n\nSwamp trooper duty was notoriously miserable. Few volunteered, with many in the ranks conscripted from planetary defense forces. Some were wash outs from the officer, stormtrooper, and starfighter corps. Others were army enlistees, signed on for a single term of service to gain skills or pay for university, unlucky enough to be assigned as swamp troopers. Whatever the source, mudtroopers were known as an unpredictably motley crew with unpredictable levels of discipline. Imperial high command often mitigated this by assigning mudtroopers to the first wave, with more reliable stormtroopers assigned as insurance against insubordination or cowardice.",
+		"description": "Imperial Army swamp troopers served as the army infantry’s combat specialists in wetlands environments. While all but phased out in favor of stormtroopers by the height of the Rebellion, these army troopers were relied upon to subjugate Imperial worlds during the first decades of the Empire. Equipped with partial armour, filtration systems, and survival gear, these troopers faced treacherous and disease-ridden environments nearly as deadly as their opponents. Fighting in these brutal conditions earned swamp troopers the moniker of “mudtrooper” after hellish battles on worlds such as Mimban.\n\nSwamp trooper duty was notoriously miserable. Few volunteered, with many in the ranks conscripted from planetary defense forces. Some were wash outs from the officer, stormtrooper, and starfighter corps. Others were army enlistees, signed on for a single term of service to gain skills or pay for university, unlucky enough to be assigned as swamp troopers. Whatever the source, mudtroopers were known as an unpredictably motley crew with unpredictable levels of discipline. Imperial high command often mitigated this by assigning mudtroopers to the first wave, with more reliable stormtroopers assigned as insurance against insubordination or cowardice.",
 		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 2,
@@ -213,14 +213,14 @@
 		"skills": ["Ranged: Heavy", "Ranged: Light", "Survival"],
 		"weapons": ["Blaster rifle", "Frag grenade"],
 		"abilities": [{"name": "Mixed Motivations","description": "Add :boost::boost: and :setback::setback: to Discipline checks."}],
-		"gear": ["Army swamp trooper armor (+1 soak, may remove :setback::setback: due to muddy or swamp-like conditions), filtration mask, utility belt."],
+		"gear": ["Army swamp trooper armour (+1 soak, may remove :setback::setback: due to muddy or swamp-like conditions), filtration mask, utility belt."],
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military"],
 		"devOnly": true
 	},
 	{
 		"name": "Corporal Danith Nodar",
 		"type": "Rival",
-		"description": "A fierce member of the 224th Imperial Armored Division, corporal Danith Nodar distinguished herself as a furious warrior in the trenches of Mimban. Sporting a conduct record pockmarked with military convictions and commendations alike, Nodar was assigned to Mimban as punishment for insubordination. Her previously promising career, set in motion as a graduate of the Carida academy, had been derailed after an incident on Marca. A zealous Imperial, she took her wrath out on any Mimbanese guerrilla she could lay her sights on. This fury has earned her the esteem of her 224th division superiors, esteem Nodar hopes will justify promotion despite her blemished record.",
+		"description": "A fierce member of the 224th Imperial Armoured Division, corporal Danith Nodar distinguished herself as a furious warrior in the trenches of Mimban. Sporting a conduct record pockmarked with military convictions and commendations alike, Nodar was assigned to Mimban as punishment for insubordination. Her previously promising career, set in motion as a graduate of the Carida academy, had been derailed after an incident on Marca. A zealous Imperial, she took her wrath out on any Mimbanese guerrilla she could lay her sights on. This fury has earned her the esteem of her 224th division superiors, esteem Nodar hopes will justify promotion despite her blemished record.",
 		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 3,
@@ -256,14 +256,14 @@
 				"qualities": ["Cumbersome 2", "Linked 1", "Stun Setting"]
 			}
 		],
-		"gear": ["Army swamp trooper armor (+1 soak, may remove :setback::setback: due to muddy or swamp-like conditions), filtration mask, utility belt."],
+		"gear": ["Army swamp trooper armour (+1 soak, may remove :setback::setback: due to muddy or swamp-like conditions), filtration mask, utility belt."],
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
 		"devOnly": true
 	},
 	{
 		"name": "Stormtrooper: Mimban Stormtrooper",
 		"type": "Minion",
-		"description": "While not an official specialty corps, those stormtroopers assigned Mimban duty quickly developed equipment modifications and unique tactics. An integral part of the 224th Imperial Armored Division, these “Mimban stormtroopers” were considered by their commanders to be far more effective and reliable than their more humble mudtrooper brethren. As a result, the 224th’s commanders often combined mass numbers of mudtroopers with smaller detachments of stormtroopers. Stormtroopers served as an anchor for the less than reliable mudtroopers, while the mudtrooper’s superior numbers provided the stormtroopers a human shield.",
+		"description": "While not an official specialty corps, those stormtroopers assigned Mimban duty quickly developed equipment modifications and unique tactics. An integral part of the 224th Imperial Armoured Division, these “Mimban stormtroopers” were considered by their commanders to be far more effective and reliable than their more humble mudtrooper brethren. As a result, the 224th’s commanders often combined mass numbers of mudtroopers with smaller detachments of stormtroopers. Stormtroopers served as an anchor for the less than reliable mudtroopers, while the mudtrooper’s superior numbers provided the stormtroopers a human shield.",
 		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 3,
@@ -289,7 +289,7 @@
 				"qualities": ["Cumbersome 2", "Linked 1", "Stun Setting"]
 			}
 		],
-		"gear": ["Utility belt", "Extra reloads", "Mimban-modified stormtrooper armor (+2 soak, when making skill checks, may remove :setback::setback: due to muddy or swamp-like conditions)", "2 Frag grenades"],
+		"gear": ["Utility belt", "Extra reloads", "Mimban-modified stormtrooper armour (+2 soak, when making skill checks, may remove :setback::setback: due to muddy or swamp-like conditions)", "2 Frag grenades"],
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
 		"devOnly": true
 	},
@@ -371,7 +371,7 @@
 		},
 		"talents": ["Adversary 1", "Convincing Demeanor 2","Natural Negotiator"],
 		"weapons": ["Holdout blaster", "Molecular stiletto"],
-		"gear": ["covertly armored dinner jacket (+1 soak, +1 defense)", "encrypted datapad with financial data and weapons procurement lists, encrypted long range comlink"],
+		"gear": ["covertly armoured dinner jacket (+1 soak, +1 defense)", "encrypted datapad with financial data and weapons procurement lists, encrypted long range comlink"],
 		"tags": ["source:D20Radio.com NPC’s", "resistance"],
 		"devOnly": true
 	},
@@ -478,7 +478,7 @@
 	{
 		"name": "Trandoshan Heavy",
 		"type": "Nemesis",
-		"description": "These elite Trandoshan warriors were infamous as some of the most dangerous heavy assault mercenaries in the galaxy. Protected by thick plates of durasteel armor and armed with the devastating LS-150 heavy repeater, Trandoshan Heavies were found in mercenary companies and slaving parties throughout the Outer Rim. In battle, these mercenaries throw caution to the wind by wading into the heaviest enemy positions, heavy repeaters constantly shooting an unrelenting torrent of charged particles. Most boast hearty kill counts, commanding the respect of their fellow Trandoshans. This respect feeds both the Trandoshan Heavy’s stereotypical arrogance, as well as healthy credit accounts from the high pay and share of loot they demand.",
+		"description": "These elite Trandoshan warriors were infamous as some of the most dangerous heavy assault mercenaries in the galaxy. Protected by thick plates of durasteel armour and armed with the devastating LS-150 heavy repeater, Trandoshan Heavies were found in mercenary companies and slaving parties throughout the Outer Rim. In battle, these mercenaries throw caution to the wind by wading into the heaviest enemy positions, heavy repeaters constantly shooting an unrelenting torrent of charged particles. Most boast hearty kill counts, commanding the respect of their fellow Trandoshans. This respect feeds both the Trandoshan Heavy’s stereotypical arrogance, as well as healthy credit accounts from the high pay and share of loot they demand.",
 		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 4,
@@ -533,14 +533,14 @@
 				"qualities": ["Inaccurate 2", "Pierce 2", "Vicious 2"]
 			}
 		],
-		"gear": ["heavily plated armor (soak +3)"],
+		"gear": ["heavily plated armour (soak +3)"],
 		"tags": ["source:D20Radio.com NPC’s", "mercenary", "species:Trandoshan"],
 		"devOnly": true
 	},
 	{
 		"name": "Trandoshan Scavenger Droid",
 		"type": "Minion",
-		"description": "Originally used for civilian applications such as search and rescue, these heavily modified drones have been refit for piracy. The ionization beam, originally used to disable malfunctioning electronics blocking rescue efforts, has been overcharged to disable shields and even cause damage to organic opponents. Their salvage drills have been upgraded with vibro components capable of savagely cutting through heavy infantry armor. With these upgrades, these so called “scav droids” serve as support to Trandoshan mercenaries in an anti-infantry role during boarding actions. The droids, equipped with repulsorlifts and stealth programming, are often dispatched ahead of the assault to disable ship defenses and terrorize the crew. When the boarding action begins in earnest the droids shift to direct support. Once a ship or structure is secured the droids turn their weapons to their original purpose and assist in salvaging any items of value.",
+		"description": "Originally used for civilian applications such as search and rescue, these heavily modified drones have been refit for piracy. The ionization beam, originally used to disable malfunctioning electronics blocking rescue efforts, has been overcharged to disable shields and even cause damage to organic opponents. Their salvage drills have been upgraded with vibro components capable of savagely cutting through heavy infantry armour. With these upgrades, these so called “scav droids” serve as support to Trandoshan mercenaries in an anti-infantry role during boarding actions. The droids, equipped with repulsorlifts and stealth programming, are often dispatched ahead of the assault to disable ship defenses and terrorize the crew. When the boarding action begins in earnest the droids shift to direct support. Once a ship or structure is secured the droids turn their weapons to their original purpose and assist in salvaging any items of value.",
 		"notes": "Credits go to Chris Hunt, D20Radio.com\n\nOn a successful hit the scavenger droid is attached to its target and will stay engaged even if the target moves, this condition ends if the droid is damaged",
 		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
@@ -599,7 +599,7 @@
 	{
 		"name": "Terentatek",
 		"type": "Nemesis",
-		"description": "The nightmarish terentatek are hulking creatures, similar in appearance to rancors but covered in spines and thick armored hide. Drawn to, and perhaps powered by, concentrations of dark side Force energy, terentateks inhabit caves and tombs connected to dark side Force traditions such as the Sith and Rakata.  Over the millennia, the Jedi have launched the Great Hunts. These hunts were concerted efforts to wipe out the scourge of these beasts by dispatching teams of trained Jedi across the galaxy. However, even where the Jedi cleansed entire worlds the terentatek would return generations later. Jedi scholars believe the terentatek enter hibernation and hiding when the dark side wanes in the galaxy, only to awaken and emerge in times of conflict and suffering. Despite their horrifying reputation, bold treasure hunters often seek out reports of terentatek sightings in hope that the beasts are evidence of undiscovered tombs and therefore unclaimed riches. Even when no tomb is present the lair of a terentatek may contain the remains, and equipment, of warriors such as the Jedi who died in battle against these beasts.",
+		"description": "The nightmarish terentatek are hulking creatures, similar in appearance to rancors but covered in spines and thick armoured hide. Drawn to, and perhaps powered by, concentrations of dark side Force energy, terentateks inhabit caves and tombs connected to dark side Force traditions such as the Sith and Rakata.  Over the millennia, the Jedi have launched the Great Hunts. These hunts were concerted efforts to wipe out the scourge of these beasts by dispatching teams of trained Jedi across the galaxy. However, even where the Jedi cleansed entire worlds the terentatek would return generations later. Jedi scholars believe the terentatek enter hibernation and hiding when the dark side wanes in the galaxy, only to awaken and emerge in times of conflict and suffering. Despite their horrifying reputation, bold treasure hunters often seek out reports of terentatek sightings in hope that the beasts are evidence of undiscovered tombs and therefore unclaimed riches. Even when no tomb is present the lair of a terentatek may contain the remains, and equipment, of warriors such as the Jedi who died in battle against these beasts.",
 		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 6,
@@ -927,7 +927,7 @@
 				"range": "Engaged"
 			}
 		],
-		"gear": ["Padded Armor (+2 Soak), Thermal cloak, Crash survival kit, 5 Stimpacks, Medpac (replaces basic medpac in Crash survival kit)"],
+		"gear": ["Padded armour (+2 Soak), Thermal cloak, Crash survival kit, 5 Stimpacks, Medpac (replaces basic medpac in Crash survival kit)"],
 		"tags": ["source:D20Radio.com NPC’s"],
 		"devOnly": true
 	},
@@ -993,7 +993,7 @@
 				"qualities": ["Pierce 3", "Superior", "Vicious 1"]
 			}
 		],
-		"gear": ["Custom crimson ISB uniform w/light breastplate and latigo belt & boots (Armored Clothing Soak 1/Defense 1), encrypted comlink"],
+		"gear": ["Custom crimson ISB uniform w/light breastplate and latigo belt & boots (armoured Clothing Soak 1/Defense 1), encrypted comlink"],
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial security bureau"],
 		"devOnly": true
 	},
@@ -1052,7 +1052,7 @@
 				"qualities": ["Stun Setting", "Inaccurate 1"]
 			}
 		],
-		"gear": ["Armored flightsuit (+1 soak/+1 defense), comlink, Bloodletter (modified Firespray patrol craft)"],
+		"gear": ["Armoured flightsuit (+1 soak/+1 defense), comlink, Bloodletter (modified Firespray patrol craft)"],
 		"tags": ["source:D20Radio.com NPC’s", "binayre pirate", "pilot", "pirate"],
 		"devOnly": true
 	},
@@ -1144,7 +1144,7 @@
 				"qualities": ["Stun Damage", "Disorient 2"]
 				}
 		],
-		"gear": ["Padded armor (+2 Soak), binders, comlink, electrobinoculars, survival pack, six Corellian hounds, Cold Case (G-9 Rigger light freighter), R5 astromech droid"],
+		"gear": ["Padded armour (+2 Soak), binders, comlink, electrobinoculars, survival pack, six Corellian hounds, Cold Case (G-9 Rigger light freighter), R5 astromech droid"],
 		"tags": ["source:D20Radio.com NPC’s", "bounty hunter"],
 		"devOnly": true
 	},
@@ -1188,7 +1188,7 @@
 	{
 		"name": "B2 Super Battle Droid (minion)",
 		"type": "Minion",
-		"description": "Created by Baktoid Combat Automata to serve as front line heavy infantry, the B2 Super Battle Droid is superior to its predecessor the B1 in all respects. Boasting reinforced armor, integrated anti-personnel weaponry, and programming capable of operation without a command signal, this hulking battle droid is a formidable foe on or off the battlefield. Before the introduction of the IG-100 MagnaGuard, B2s were seen serving as bodyguards to Separatist leaders such as Count Dooku. With the end of the Clone Wars, B2s are a rare sight. Some scavenged models serve crime lords or private militias; others have been re-purposed for use in gladiator arenas. Some abandoned B2s were never shut down, and still carry out their last orders, defending forgotten Separatist ships and installations awaiting unsuspected salvagers.",
+		"description": "Created by Baktoid Combat Automata to serve as front line heavy infantry, the B2 Super Battle Droid is superior to its predecessor the B1 in all respects. Boasting reinforced armour, integrated anti-personnel weaponry, and programming capable of operation without a command signal, this hulking battle droid is a formidable foe on or off the battlefield. Before the introduction of the IG-100 MagnaGuard, B2s were seen serving as bodyguards to Separatist leaders such as Count Dooku. With the end of the Clone Wars, B2s are a rare sight. Some scavenged models serve crime lords or private militias; others have been re-purposed for use in gladiator arenas. Some abandoned B2s were never shut down, and still carry out their last orders, defending forgotten Separatist ships and installations awaiting unsuspected salvagers.",
 		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 3,
@@ -1236,7 +1236,7 @@
 	{
 		"name": "B2 Super Battle Droid (Rival)",
 		"type": "Rival",
-		"description": "Created by Baktoid Combat Automata to serve as front line heavy infantry, the B2 Super Battle Droid is superior to its predecessor the B1 in all respects. Boasting reinforced armor, integrated anti-personnel weaponry, and programming capable of operation without a command signal, this hulking battle droid is a formidable foe on or off the battlefield. Before the introduction of the IG-100 MagnaGuard, B2s were seen serving as bodyguards to Separatist leaders such as Count Dooku. With the end of the Clone Wars, B2s are a rare sight. Some scavenged models serve crime lords or private militias; others have been re-purposed for use in gladiator arenas. Some abandoned B2s were never shut down, and still carry out their last orders, defending forgotten Separatist ships and installations awaiting unsuspected salvagers.",
+		"description": "Created by Baktoid Combat Automata to serve as front line heavy infantry, the B2 Super Battle Droid is superior to its predecessor the B1 in all respects. Boasting reinforced armour, integrated anti-personnel weaponry, and programming capable of operation without a command signal, this hulking battle droid is a formidable foe on or off the battlefield. Before the introduction of the IG-100 MagnaGuard, B2s were seen serving as bodyguards to Separatist leaders such as Count Dooku. With the end of the Clone Wars, B2s are a rare sight. Some scavenged models serve crime lords or private militias; others have been re-purposed for use in gladiator arenas. Some abandoned B2s were never shut down, and still carry out their last orders, defending forgotten Separatist ships and installations awaiting unsuspected salvagers.",
 		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 3,
@@ -1456,14 +1456,14 @@
 				"qualities": ["Stun", "Forearm Grip", "Weapon Sling", "Quick Draw"]
 			}
 		],
-		"gear": ["storm commando armor (+1 soak, defense 1, reflec coating [upgrade stealth checks once, sensors cannot detect the wearer subject to GM discretion], enhanced optics suite), long range comlink, utility belt, extra reloads"],
+		"gear": ["storm commando armour (+1 soak, defense 1, reflec coating [upgrade stealth checks once, sensors cannot detect the wearer subject to GM discretion], enhanced optics suite), long range comlink, utility belt, extra reloads"],
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military", "stormtrooper"],
 		"devOnly": true
 	},
 	{
 		"name": "Major General Billek Vilneon",
 		"type": "Nemesis",
-		"description": "Combined Arms Steamroller\n\nIn the eyes of Major General Vilneon, the Imperial Army is a machine. A trained engineer, experienced armored officer, and decorated commander, it should be no surprise a man who has spent more than half his life working with war machines sees the military in this way. The Imperial Army is a complicated with a vast array of specialties, unit types, equipment loadouts, and tactical procedures. Infighting between the branches and the use of pet projects to advance careers further divides the Army. Little enrages Vilneon more than this, for he sees it as akin to debating whether the repulsorlift or the powerplant is more important on a hovertank – both are vital and must work in concert. General Vilneon has thus made a career of organizing combined arms groups from different branches and service, building true teams with strong cohesion and identity. While fully implementing Imperial doctrine and uniformity, Vilneon has added something the Imperial military lacks despite its stated ideology: unity.\n\n7th Assault Battlegroup\n\nBattlegroups are normally commanded by High Colonels, with Major Generals commanding a Corps comprised of several Battlegroups. Given General Vilneon’s high status, it should be no surprise the 7th Assault Battlegroup has a unique task organization. A normal Assault Battlegroup would be composed of two line regiments, an assault regiment, and an armored regiment. The 7th instead has two assault regiments augmented with walkers, an armored regiment, and a stormtrooper regiment. These troops train extensively in combined arms operations. Retaining the regimental system for little more than administrative purposes, this battlegroup is functionally organized around a series of combined arms brigades that train and fight together. The result is a highly coordinated, and therefore deadly, opponent to face on the battlefield.",
+		"description": "Combined Arms Steamroller\n\nIn the eyes of Major General Vilneon, the Imperial Army is a machine. A trained engineer, experienced armoured officer, and decorated commander, it should be no surprise a man who has spent more than half his life working with war machines sees the military in this way. The Imperial Army is a complicated with a vast array of specialties, unit types, equipment loadouts, and tactical procedures. Infighting between the branches and the use of pet projects to advance careers further divides the Army. Little enrages Vilneon more than this, for he sees it as akin to debating whether the repulsorlift or the powerplant is more important on a hovertank – both are vital and must work in concert. General Vilneon has thus made a career of organizing combined arms groups from different branches and service, building true teams with strong cohesion and identity. While fully implementing Imperial doctrine and uniformity, Vilneon has added something the Imperial military lacks despite its stated ideology: unity.\n\n7th Assault Battlegroup\n\nBattlegroups are normally commanded by High Colonels, with Major Generals commanding a Corps comprised of several Battlegroups. Given General Vilneon’s high status, it should be no surprise the 7th Assault Battlegroup has a unique task organization. A normal Assault Battlegroup would be composed of two line regiments, an assault regiment, and an armoured regiment. The 7th instead has two assault regiments augmented with walkers, an armoured regiment, and a stormtrooper regiment. These troops train extensively in combined arms operations. Retaining the regimental system for little more than administrative purposes, this battlegroup is functionally organized around a series of combined arms brigades that train and fight together. The result is a highly coordinated, and therefore deadly, opponent to face on the battlefield.",
 		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com.",
 		"characteristics": {
 			"Brawn": 2,
@@ -1506,7 +1506,7 @@
 				"qualities": ["Stun"]
 			}
 		],
-		"gear": ["army officer armor (+1 soak, defense 1), long range comlink, utility belt, extra reloads"],
+		"gear": ["army officer armour (+1 soak, defense 1), long range comlink, utility belt, extra reloads"],
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military"],
 		"devOnly": true
 	},
@@ -1611,7 +1611,7 @@
 			"description": "Skill Checks to bribe or otherwise take advantage of police corruption gain 1 :advantage:."
 			}
 		],
-		"gear": ["armored uniform (+1 soak, +1 defense), multispectrum police glow rod, encrypted long range comlink."],
+		"gear": ["armoured uniform (+1 soak, +1 defense), multispectrum police glow rod, encrypted long range comlink."],
 		"tags": ["source:D20Radio.com NPC’s", "location:Canto Bight", "security"],
 		"devOnly": true
 	},
@@ -1669,7 +1669,7 @@
 				"qualities": ["Stun", "Disorient 2"]
 			}
 		],
-		"gear": ["armored uniform (+1 soak, +1 defense), multispectrum police glow rod, encrypted long range comlink"],
+		"gear": ["armoured uniform (+1 soak, +1 defense), multispectrum police glow rod, encrypted long range comlink"],
 		"tags": ["source:D20Radio.com NPC’s", "location:Canto Bight", "security"],
 		"devOnly": true
 	},
@@ -1925,7 +1925,7 @@
 	{
 		"name": "Senate Guard",
 		"type": "Rival",
-		"description": "Respected protectors of the Republic Senate, and by extension the democracy with which that body represents, the Senate Guard proudly uphold centuries of tradition. The Guard were charged with securing the Senate District on Coruscant as well as the Chancellor’s personal protection. An elite force, experienced recruits were drawn from planetary police organizations, the Judicial Forces, and even private companies. Not merely passive protectors of the Senate, the Guard actively sought out threats to through independent investigation. While the Guard generally cooperated with local police and the Jedi, they retained an elite branch known as the Senate Commandos. Charged with special missions, these commandos were employed on matters of utmost sensitivity to the Republic.\n\nThe Senate Guard played a critical role in the waning days of the Republic. Trading their ceremonial robes for reinforced armor, the Guard actively resisted covert Separatist activities including subversion, kidnapping, and terror attacks. Later referred to as the Blue Guard, in contrast to Supreme Chancellor Palpatine’s new Red Guard, these protectors would be gradually phased out in favour of Palpatine’s personal force. The Senate Guard, alongside the Republic’s thousand year democracy, were summarily retired by the Emperor’s declaration of a new order.",
+		"description": "Respected protectors of the Republic Senate, and by extension the democracy with which that body represents, the Senate Guard proudly uphold centuries of tradition. The Guard were charged with securing the Senate District on Coruscant as well as the Chancellor’s personal protection. An elite force, experienced recruits were drawn from planetary police organizations, the Judicial Forces, and even private companies. Not merely passive protectors of the Senate, the Guard actively sought out threats to through independent investigation. While the Guard generally cooperated with local police and the Jedi, they retained an elite branch known as the Senate Commandos. Charged with special missions, these commandos were employed on matters of utmost sensitivity to the Republic.\n\nThe Senate Guard played a critical role in the waning days of the Republic. Trading their ceremonial robes for reinforced armour, the Guard actively resisted covert Separatist activities including subversion, kidnapping, and terror attacks. Later referred to as the Blue Guard, in contrast to Supreme Chancellor Palpatine’s new Red Guard, these protectors would be gradually phased out in favour of Palpatine’s personal force. The Senate Guard, alongside the Republic’s thousand year democracy, were summarily retired by the Emperor’s declaration of a new order.",
 		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 3,
@@ -1959,7 +1959,7 @@
 		],
 		"talents": ["Adversary 1", "Body Guard 2", "Point Blank 3"],
 		"weapons": ["Blaster rifle", "Heavy blaster pistol", "Force pike"],
-		"gear": ["laminate armor with ceremonial robes (soak +2, defense +1), secure comlink, utility belt with stimpacks."],
+		"gear": ["laminate armour with ceremonial robes (soak +2, defense +1), secure comlink, utility belt with stimpacks."],
 		"tags": ["source:D20Radio.com NPC’s", "galactic republic"],
 		"devOnly": true
 	},
@@ -2048,7 +2048,7 @@
 				"qualities": ["Pierce 1", "Vicious 1"]
 			}
 		],
-		"gear": ["Padded armor (+2 soak), hard currency"],
+		"gear": ["Padded armour (+2 soak), hard currency"],
 		"tags": ["source:D20Radio.com NPC’s", "gambler"],
 		"devOnly": true
 	},
@@ -2161,7 +2161,7 @@
 				"qualities": ["Breach 1", "Superior"]
 			}
 		],
-		"gear": ["Built-in armor plating (+2 Soak, +1 Defense; Cortosis)"],
+		"gear": ["Built-in armour plating (+2 Soak, +1 Defense; Cortosis)"],
 		"tags": ["source:D20Radio.com NPC’s", "species:droid", "krath"],
 		"devOnly": true
 	},
@@ -2237,7 +2237,7 @@
 				"qualities": ["Mono-Molecular Edge", "Pierce 7", "Vicious 1"]
 			}
 		],
-		"gear": ["Encrypted comlink, tailored armored clothing (+1 soak/+1 defence), collection of Force artifacts, large Kalevalan star yacht"],
+		"gear": ["Encrypted comlink, tailored armoured clothing (+1 soak/+1 defence), collection of Force artifacts, large Kalevalan star yacht"],
 		"tags": ["source:D20Radio.com NPC’s", "krath"],
 		"devOnly": true
 	},
@@ -2284,7 +2284,7 @@
 				"description": "Gain an additional free maneuver per turn that can only be used for movement. May not perform more than two maneuvers per turn."
 			}
 		],
-		"gear": ["Ornate armored plating (+1 soak)."],
+		"gear": ["Ornate armoured plating (+1 soak)."],
 		"tags": ["source:D20Radio.com NPC’s", "species:droid", "krath"],
 		"devOnly": true
 	},
@@ -2326,14 +2326,14 @@
 				"qualities": ["Pierce 2", "Vicious 3", "Sunder"]
 			}
 		],
-		"gear": [" Ornate battle armor (+2 Soak/+1 Defense)", "encrypted comlink."],
+		"gear": [" Ornate battle armour (+2 Soak/+1 Defense)", "encrypted comlink."],
 		"tags": ["source:D20Radio.com NPC’s", "krath"],
 		"devOnly": true
 	},
 	{
 		"name": "Mimbanese Resistance Fighter",
 		"type": "Minion",
-		"description": "Hardened guerrilla fighters, the soldiers of the Mimbanese Liberation Army have been fighting since the waning days of the Clone War. These resistance fighters originally fought alongside the 224th clone infantry division “Mud Jumpers” against the Separatist droid menace. With the Republic replaced by the brutal Empire, the Mimbanese are locked in bloody campaign of independence. Using old Republic equipment, these guerrillas ironically are faced with the 224th Imperial Armored Division, an Imperial Army formation perpetuating the history of the once-allied “Mud Jumpers.” While the Mimbanese may be under-equipped, they posses far more experience and resolve than their Imperial Army opponents.",
+		"description": "Hardened guerrilla fighters, the soldiers of the Mimbanese Liberation Army have been fighting since the waning days of the Clone War. These resistance fighters originally fought alongside the 224th clone infantry division “Mud Jumpers” against the Separatist droid menace. With the Republic replaced by the brutal Empire, the Mimbanese are locked in bloody campaign of independence. Using old Republic equipment, these guerrillas ironically are faced with the 224th Imperial Armoured Division, an Imperial Army formation perpetuating the history of the once-allied “Mud Jumpers.” While the Mimbanese may be under-equipped, they posses far more experience and resolve than their Imperial Army opponents.",
 		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 3,
@@ -2370,7 +2370,7 @@
 				"description": "Does not treat mud as difficult terrain when using the move maneuver."
 			}
 		],
-		"gear": ["woven reed armor (+1 soak, +1 ranged defense)"],
+		"gear": ["woven reed armour (+1 soak, +1 ranged defense)"],
 		"tags": ["source:D20Radio.com NPC’s", "location:mimban"],
 		"devOnly": true
 	},
@@ -2421,14 +2421,14 @@
 				"description": "Does not treat mud as difficult terrain when using the move maneuver."
 			}
 		],
-		"gear": ["woven reed armor (+1 soak, +1 ranged defense), macrobinoculars."],
+		"gear": ["woven reed armour (+1 soak, +1 ranged defense), macrobinoculars."],
 		"tags": ["source:D20Radio.com NPC’s", "location:mimban"],
 		"devOnly": true
 	},
 	{
 		"name": "Hired Gun",
 		"type": "Minion",
-		"description": "A far cry from the unstoppable soldiers of fortune featured in HoloNet action pieces, these hired guns are a mere step up from simple street toughs. These fighters seek better jobs and higher pay by offering a more professional service. Equipped with military style blasters and armor, they are a cut above the average thug or gang member. Although not as proficient as the soldiers of noted private military companies, and certainly not Imperial stormtroopers, these hired guns are more than capable of protecting local criminal interests. That protection comes with a limit, however, as most hired guns can attest: you can’t spend credits if you’re dead.",
+		"description": "A far cry from the unstoppable soldiers of fortune featured in HoloNet action pieces, these hired guns are a mere step up from simple street toughs. These fighters seek better jobs and higher pay by offering a more professional service. Equipped with military style blasters and armour, they are a cut above the average thug or gang member. Although not as proficient as the soldiers of noted private military companies, and certainly not Imperial stormtroopers, these hired guns are more than capable of protecting local criminal interests. That protection comes with a limit, however, as most hired guns can attest: you can’t spend credits if you’re dead.",
 		"notes": "These are not official stats. Credits go to Chris Hunt, D20Radio.com",
 		"characteristics": {
 			"Brawn": 2,
@@ -2501,7 +2501,7 @@
 				"qualities": ["Accurate 1", "Stun"]
 			}
 		],
-		"gear": ["modified composite armor (+2 soak, +1 defense, integrated helmet comlink), 2 Frag grenades"],
+		"gear": ["modified composite armour (+2 soak, +1 defense, integrated helmet comlink), 2 Frag grenades"],
 		"tags": ["source:D20Radio.com NPC’s", "mercenary", "thug"],
 		"devOnly": true
 	},
@@ -2539,7 +2539,7 @@
 		},
 		"talents": ["Adversary 1", "Nobody’s Fool 2"],
 		"weapons": ["Heavy blaster pistol"],
-		"gear": ["armored clothing (+1 defense, +1 soak)"],
+		"gear": ["armoured clothing (+1 defense, +1 soak)"],
 		"tags": ["source:D20Radio.com NPC’s", "infochant", "underworld"],
 		"devOnly": true
 	},
@@ -2627,7 +2627,7 @@
 				"qualities": ["Pierce 3", "Poison"]
 			}
 		],
-		"gear": [" armored  clothing  (+1  soak/+1  defense), demon mask (bonuses included; FaD, 190)."],
+		"gear": [" armoured  clothing  (+1  soak/+1  defense), demon mask (bonuses included; FaD, 190)."],
 		"tags": ["source:D20Radio.com NPC’s", "force sensitive", "bando gora"],
 		"devOnly": true
 	},
@@ -3176,7 +3176,7 @@
 				"qualities": ["Stun Damage"]
 				}
 			],
-		"gear": ["Banal Apparel (Opposing characters upgrade the difficulty of any checks made to identify the wearer once)", "Second Skin Armor (+1 Soak/+1 Defense; +2 Setback to Perception checks to notice on the wearer)"],
+		"gear": ["Banal Apparel (Opposing characters upgrade the difficulty of any checks made to identify the wearer once)", "Second Skin Armour (+1 Soak/+1 Defense; +2 Setback to Perception checks to notice on the wearer)"],
 		"tags": ["species:Bothan","source:D20Radio.com NPC’s"],
 		"devOnly": true
 	},
@@ -3367,7 +3367,7 @@
 				"qualities": ["Breach 1", "Sunder", "Vicious 1"]
 			}
 		],
-		"gear": ["Sith battle armor (soak 2, defense 1, cortosis)"],
+		"gear": ["Sith battle armour (soak 2, defense 1, cortosis)"],
 		"tags": ["sith", "force sensitive", "darkside","source:D20Radio.com NPC’s"],
 		"devOnly": true
 	},
