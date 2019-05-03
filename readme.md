@@ -110,6 +110,7 @@ Main tasks:
 	- *Unlimited Power (no stats)*
 	- Fully Operational
 	- Cyphers and Masks
+	- Disciples of Harmony
 - beginner's games
 	- Age of Rebellion (Takeover at Whisper Base)
 	- Edge of the Empire (Escape from Mos Shuuta)
@@ -181,7 +182,7 @@ Main tasks:
 - career books
 	- AoR
 	- FaD
-		- Disciples of Harmony
+	- EotE
 
 ## TODO
 
