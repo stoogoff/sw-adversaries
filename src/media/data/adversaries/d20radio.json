@@ -75,7 +75,7 @@
 				"damage": 7,
 				"critical": 3,
 				"range": "Medium",
-				"qualities": ["Stun"]
+				"qualities": ["Stun Setting"]
 			},
 			{
 				"name": "Ornate vibrosword",
@@ -116,7 +116,7 @@
 				"damage": 9,
 				"critical": 3,
 				"range": "Medium",
-				"qualities": ["Stun"],
+				"qualities": ["Stun Setting"],
 				"notes": "Carbine has Rad Shielding (immune to the effects of radiation to Grade 5"
 			},
 			{
@@ -125,7 +125,7 @@
 				"damage": 6,
 				"critical": 2,
 				"range": "Engaged",
-				"qualities": ["Pierce 2", "Stun"]
+				"qualities": ["Pierce 2", "Stun Setting"]
 			}
 		],
 		"gear": ["radtrooper armor (+2 soak; +1 defence, integrated comlink, macrobinocular plate, protects from the effects of radiation to Grade 5), survival pack (containing anti-radiation hypos and pills, radiation protection tent, water purifier, and emergency medpac), utility belt, extra reloads, each half-squad of four radtroopers has one long range comlink and one general purpose scanner calibrated for precise radiation detection."],
@@ -180,7 +180,7 @@
 				"damage": 9,
 				"critical": 3,
 				"range": "Long",
-				"qualities": ["Stun", "Accurate 1", "Cumbersome 2", "Multi-optic Sight"]
+				"qualities": ["Stun Setting", "Accurate 1", "Cumbersome 2", "Multi-optic Sight"]
 			}
 		],
 		"abilities": [
@@ -468,7 +468,7 @@
 				"damage": 6,
 				"critical": 6,
 				"range": "Engaged",
-				"qualities": ["Ensnare 5", "Knockdown", "Limited Ammo 1", "Stun Damage"]
+				"qualities": ["Ensnare 5", "Knockdown", "Limited Ammo 1", "Stun Setting"]
 			}
 		],
 		"gear": ["concealing civilian clothing (soak +1)"],
@@ -1082,7 +1082,7 @@
 				"plus-damage": 2,
 				"critical": 2,
 				"range": "Engaged",
-				"qualities": ["Stun Setting", "Disorient 2"]
+				"qualities": ["Stun", "Disorient 2"]
 			}
 		],
 		"gear": ["Heavy clothing (soak +1), comlink"],
@@ -1578,7 +1578,7 @@
 				"damage": 6,
 				"critical": 3,
 				"range": "Medium",
-				"qualities": ["Stun"]
+				"qualities": ["Stun "]
 			},
 			{
 				"name": "Relby K-25 blaster, Heavy",
@@ -3295,7 +3295,8 @@
 			],
 		"tags": ["creature","source:D20Radio.com NPC’s"],
 		"devOnly": true
-	},{
+	},
+	{
 		"name": "Sith Juggernaut",
 		"type": "Nemesis",
 		"description": "",

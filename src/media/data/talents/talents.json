@@ -862,7 +862,7 @@
 	},
 	{
 		"name": "Master Instructor",
-		"description": ""
+		"description": "Once per round as an out of turn incidental, may suffer 2 strain to allow ally to use character's ranks in Discipline for next Discipline check an ally makes."
 	},
 	{
 		"name": "Master Leader",
@@ -1618,7 +1618,7 @@
 	},
 	{
 		"name": "Valuable Facts",
-		"description": ""
+		"description": "Make an :average: Knowledge check. If successful, add :triumph: to one ally's skill check during the enounter."
 	},
 	{
 		"name": "Vehicle Combat Training",

@@ -108,6 +108,8 @@ Main tasks:
 	- Special Modifications
 	- Stay on Target
 	- *Unlimited Power (no stats)*
+	- Fully Operational
+	- Cyphers and Masks
 - beginner's games
 	- Age of Rebellion (Takeover at Whisper Base)
 	- Edge of the Empire (Escape from Mos Shuuta)
@@ -178,8 +180,6 @@ Main tasks:
 
 - career books
 	- AoR
-		- Fully Operational
-		- Cyphers and Masks
 	- FaD
 		- Disciples of Harmony
 

@@ -1,0 +1,327 @@
+[
+	{
+		"name": "Maya, Alderaanian Agent",
+		"type": "Nemesis",
+		"description": "When she meets the players she has already taken 10 wounds and has the “At the Brink” Critical injury.",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 18,
+			"strain": 15,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 2,
+			"Deception": 2,
+			"Melee": 2,
+			"Ranged: Light": 2,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Encrypted datapad, Heavy uniform (+1 soak)"],
+		"tags": ["source:Dawn of Defiance"],
+		"devOnly": true
+	},
+	{
+		"name": "Imperial Stormtrooper (DoD)",
+		"type": "Minion",
+		"description": "These stormtroopers are solely concerned with capturing Maya, the Alderaanian Security agent. They are trigger happy, though, and are more than willing to shoot anyone who stands in their way. When the encounter begins, they attempt to stun Maya but use lethal force against any other opponents.",
+		"notes": "These are official stats, used for Dawn of Defiance. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 5
+		},
+		"skills": ["Athletics", "Discipline", "Melee", "Ranged: Heavy"],
+		"weapons": [
+			"Blaster rifle", "Vibroknife", "Frag grenade",
+			{
+				"name": "Light repeating blaster",
+				"skill": "Ranged: Heavy",
+				"damage": 11,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Auto-Fire", "Cumbersome 4", "Pierce 1", "Weapon Sling"]
+			}
+		],
+		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 Soak)", "2 Frag grenades"],
+		"tags": ["source:Dawn of Defiance"],
+		"devOnly": true
+	},
+	{
+		"name": "Intelligence Agent (DoD)",
+		"type": "Rival",
+		"description": "The Imperial informants have bought into the Empire’s propaganda and are willing to risk their lives to help bring enemies of the state to justice. Unlike the stormtroopers, they don’t realize that Maya is wanted alive and use lethal force against her. However, when the heroes intervene, the informants ignore Maya and focus solely on the heroes.",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13,
+			"strain": 14,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 2,
+			"Deception": 2,
+			"Melee": 2,
+			"Ranged: Light": 2,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Encrypted datapad, Secure comlink"],
+		"tags": ["source:Dawn of Defiance"],
+		"devOnly": true
+	},
+	{
+		"name": "Gamorrean Thug (DoD)",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 14
+		},
+		"skills": {
+			"Brawl": 3,
+			"Melee": 2
+		},
+		"talents": ["Knockdown"],
+		"weapons": [
+			{
+				"name": "Crude Gamorrean vibro-ax",
+				"skill": "Melee",
+				"plus-damage": 3,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 3"]
+			}
+		],
+		"gear": ["Beast-hide armour (+1 Soak)"],
+		"tags": ["source:Dawn of Defiance", "species:Gamorrean"],
+		"devOnly": true
+	},
+	{
+		"name": "Switch, 3rd Degree Protocol Droid",
+		"type": "Nemesis",
+		"description": "When she meets the players she has already taken 10 wounds and has the “At the Brink” Critical injury.",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Deception": 2,
+			"Knowledge: Core Worlds": 2,
+			"Knowledge: Education": 2,
+			"Knowledge: Lore": 2,
+			"Knowledge: Outer Rim": 2,
+			"Knowledge: Underworld": 2,
+			"Knowledge: Warfare": 2,
+			"Knowledge: Xenology": 2,
+			"Melee": 2,
+			"Perception": 2,
+			"Ranged: Heavy": 2,
+			"Streetwise": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Droid"],
+		"weapons": ["Blaster rifle"],
+		"gear": ["Encrypted datapad"],
+		"tags": ["source:Dawn of Defiance", "species:Droid"],
+		"devOnly": true
+	},
+	{
+		"name": "Switch’s Thugs",
+		"type": "Rival",
+		"description": "Twi’lek Muscle",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 13
+		},
+		"skills": {
+			"Athletics": 1,
+			"Coercion": 2,
+			"Melee": 2,
+			"Survival": 1,
+			"Ranged: Light": 1
+		},
+		"weapons": ["Blaster pistol", "Vibro-ax"],
+		"gear": ["Beast armour (+1 Soak)"],
+		"tags": ["source:Dawn of Defiance", "species:Twi’lek"],
+		"devOnly": true
+	},
+	{
+		"name": "Ganga Lor",
+		"type": "Rival",
+		"description": "Ganga Lor is a Chevin petty crime lord who has been engaged in a rivalry with Switch for years. Ganga Lor came to the station around the same time as Switch, and the two have never gotten along.\n\nThis massive Chevin looks old, even for his species. His trunk hangs low and scars cross his face, giving him a weathered look that matches his leathery skin. His clothes are little more than rags, and a large blaster pistol pokes out from beneath his vest as though ready to be drawn on a moment’s notice.",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 1,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Negotiation": 1,
+			"Coercion": 2,
+			"Leadership": 1,
+			"Ranged: Light": 1,
+			"Ranged: Heavy": 1
+		},
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Armoured clothes (+1 Soak)"],
+		"tags": ["source:Dawn of Defiance", "species:Chevin", "underworld"],
+		"devOnly": true
+	},
+	{
+		"name": "Ganga Lor’s Thugs",
+		"type": "Minion",
+		"description": "Lor’s thugs have no real strategy to their actions. they are straight-up fighters who care little for complex tactics.",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 6
+		},
+		"skills": ["Brawl", "Coercion", "Melee", "Ranged: Light"],
+		"weapons": ["Blaster pistol", "Brass knuckles"],
+		"gear": ["Armoured clothes (+1 Soak)"],
+		"tags": ["source:Dawn of Defiance", "thug", "underworld"],
+		"devOnly": true
+	},
+	{
+		"name": "Stormtrooper Sergeant (DoD)",
+		"type": "Rival",
+		"description": "Stormtroopers who survive engagements with high marks are promoted to the position of sergeant. Typically this involves command of a single squadron, but stormtroopers who excel at leadership are promoted to higher ranks. Such positions can include supervision of entire companies of stormtroopers. Rank within the stormtrooper legions is difficult for outsiders to fully understand, as they refer to virtually any officer from their ranks as commander. The uniformity of their armour and this tendency for vague references helps to enforce the image of stormtroopers as an absolutely faceless, monolithic military entity, which only serves to enhance their fearsome reputation.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15
+		},
+		"skills": {
+			"Athletics": 2,
+			"Discipline": 2,
+			"Leadership": 3,
+			"Melee": 2,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 2,
+			"Resilience": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Tactical Direction"],
+		"weapons": ["Heavy blaster rifle", "Vibroknife", "Frag grenade"],
+		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 Soak)", "2 Frag grenades"],
+		"tags": ["source:Dawn of Defiance"],
+		"devOnly": true
+	},
+	{
+		"name": "Captain Sirona Okeefe",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 18
+		},
+		"skills": {
+			"Astrogation": 3,
+			"Charm": 2,
+			"Cool": 3,
+			"Gunnery": 3,
+			"Knowledge: Underworld": 3,
+			"Ranged: Light": 2,
+			"Piloting: Planetary": 3,
+			"Piloting: Space": 3,
+			"Skulduggery": 2,
+			"Streetwise": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Master Pilot", "Skilled Jockey 2"],
+		"weapons": ["Heavy blaster pistol"],
+		"tags": ["source:Dawn of Defiance"],
+		"devOnly": true
+	}
+]
