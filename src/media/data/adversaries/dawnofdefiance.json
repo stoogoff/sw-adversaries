@@ -31,7 +31,7 @@
 		"abilities": [],
 		"weapons": ["Heavy blaster pistol"],
 		"gear": ["Encrypted datapad, Heavy uniform (+1 soak)"],
-		"tags": ["source:Dawn of Defiance"],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit"],
 		"devOnly": true
 	},
 	{
@@ -64,7 +64,7 @@
 			}
 		],
 		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 Soak)", "2 Frag grenades"],
-		"tags": ["source:Dawn of Defiance"],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit"],
 		"devOnly": true
 	},
 	{
@@ -97,7 +97,7 @@
 		},
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Encrypted datapad, Secure comlink"],
-		"tags": ["source:Dawn of Defiance"],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit"],
 		"devOnly": true
 	},
 	{
@@ -133,7 +133,7 @@
 			}
 		],
 		"gear": ["Beast-hide armour (+1 Soak)"],
-		"tags": ["source:Dawn of Defiance", "species:Gamorrean"],
+		"tags": ["source:Dawn of Defiance", "species:Gamorrean", "adventure:Traitor’s Gambit"],
 		"devOnly": true
 	},
 	{
@@ -164,7 +164,7 @@
 			"Knowledge: Xenology": 2,
 			"Melee": 2,
 			"Perception": 2,
-			"Ranged: Heavy": 2,
+			"Ranged: Heavy": 3,
 			"Streetwise": 2,
 			"Vigilance": 1
 		},
@@ -172,7 +172,7 @@
 		"abilities": ["Droid"],
 		"weapons": ["Blaster rifle"],
 		"gear": ["Encrypted datapad"],
-		"tags": ["source:Dawn of Defiance", "species:Droid"],
+		"tags": ["source:Dawn of Defiance", "species:Droid", "adventure:Traitor’s Gambit"],
 		"devOnly": true
 	},
 	{
@@ -201,7 +201,7 @@
 		},
 		"weapons": ["Blaster pistol", "Vibro-ax"],
 		"gear": ["Beast armour (+1 Soak)"],
-		"tags": ["source:Dawn of Defiance", "species:Twi’lek"],
+		"tags": ["source:Dawn of Defiance", "species:Twi’lek", "adventure:Traitor’s Gambit"],
 		"devOnly": true
 	},
 	{
@@ -230,7 +230,7 @@
 		},
 		"weapons": ["Heavy blaster pistol"],
 		"gear": ["Armoured clothes (+1 Soak)"],
-		"tags": ["source:Dawn of Defiance", "species:Chevin", "underworld"],
+		"tags": ["source:Dawn of Defiance", "species:Chevin", "underworld", "adventure:Traitor’s Gambit"],
 		"devOnly": true
 	},
 	{
@@ -253,7 +253,7 @@
 		"skills": ["Brawl", "Coercion", "Melee", "Ranged: Light"],
 		"weapons": ["Blaster pistol", "Brass knuckles"],
 		"gear": ["Armoured clothes (+1 Soak)"],
-		"tags": ["source:Dawn of Defiance", "thug", "underworld"],
+		"tags": ["source:Dawn of Defiance", "thug", "underworld", "adventure:Traitor’s Gambit"],
 		"devOnly": true
 	},
 	{
@@ -286,7 +286,7 @@
 		"abilities": ["Tactical Direction"],
 		"weapons": ["Heavy blaster rifle", "Vibroknife", "Frag grenade"],
 		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 Soak)", "2 Frag grenades"],
-		"tags": ["source:Dawn of Defiance"],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit"],
 		"devOnly": true
 	},
 	{
@@ -297,7 +297,7 @@
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
-			"Intellect": 2,
+			"Intellect": 3,
 			"Cunning": 3,
 			"Willpower": 2,
 			"Presence": 4
@@ -321,7 +321,84 @@
 		},
 		"talents": ["Adversary 1", "Master Pilot", "Skilled Jockey 2"],
 		"weapons": ["Heavy blaster pistol"],
-		"tags": ["source:Dawn of Defiance"],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit"],
+		"devOnly": true
+	},
+	{
+		"name": "Felucian Scout",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 12
+		},
+		"skills": {
+			"Athletics": 2,
+			"Discipline": 2,
+			"Melee": 2,
+			"Vigilance": 3,
+			"Survival": 3,
+			"Stealth": 2
+		},
+		"abilities": ["Force Rating 1", "Force Power: Unleash"],
+		"talents": ["Feral Strength 2",
+			{
+			"name": "Natural Force Blast",
+			"description": "Felucian Warrior has +2 Force Rating for Unleash Force Power only."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Skull Blade",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"gear": ["Loincloth, Warning horn"],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit"],
+		"devOnly": true
+	},
+	{
+		"name": "Vazus Mandrake",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Discipline": 2,
+			"Melee": 2,
+			"Negotiation": 3,
+			"Knowledge: Core Worlds": 2,
+			"Knowledge: Education": 2,
+			"Streetwise": 2
+		},
+		"talents": ["Know Somebody", "Nobody’s Fool 1"],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Blast vest (+1 soak)"],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit"],
 		"devOnly": true
 	}
 ]

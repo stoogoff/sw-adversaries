@@ -3447,5 +3447,207 @@
 		"gear": ["Armoured uniform (soak +1), utility belt."],
 		"tags": ["source:D20Radio.com NPC’s", "empire", "imperial military"],
 		"devOnly": true
+	},
+	{
+		"name": "Jodo Kast",
+		"type": "Nemesis",
+		"description": "Jodo Kast is a young and ambitious hunter who is determined to make a name for himself. As a member of the exiled Deathwatch affiliated Clan Kast, Jodo is cold, calculating, and extremely dangerous. His armor makes him a veritable walking arsenal but he favors his darts above all other weapons - each is coated with a different poison to stun, paralyze, or kill.",
+		"notes": "These are not official stats. Credits go to Phillip Krzeminski, D20Radio.com.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 20,
+			"strain": 13,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coercion": 2,
+			"Cool": 3,
+			"Deception": 2,
+			"Perception": 2,
+			"Piloting: Planetary": 1,
+			"Ranged: Light": 3,
+			"Streetwise": 2,
+			"Survival": 1,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Lethal Blows 2", "Quick Strike 2", "Stalker 2"],
+		"abilities": [
+			{
+			"name": "Dendriton Toxin",
+			"description": "Target must make a :daunting: Resilience check. The poison inflicts 1 strain at the end of the targets next turn, 3 strain at the end of his subsequent turn, and 5 strain at the end of the turn after that one (this ignores soak). In addition, the target suffers :setback: to any check he attempts while under the effects of the poison, and each :threat: he generates on those checks inflicts 1 additional strain, ignoring soak."
+			},
+			{
+			"name": "Synthetic Standard Neurparalytic",
+			"description": "Target must make a :hard: Resilience check. The poison Immobilizes the target for 3 rounds. In addition, each :threat: generated inflicts 1 strain on the target, ignoring soak."
+			},
+			{
+			"name": "Synthetic Standard Neurotoxin",
+			"description": "Target must make a :hard: Resilience check. The poison inflicts 5 wounds if the target fails a check, ignoring soak. In addition, each :threat: generated inflicts 1 strain on the target, ignoring soak"
+			}
+		],
+		"weapons": ["Frag grenade", "Stun grenade",
+			{
+				"name": "Blastech J3-E Heavy Blaster Pistol",
+				"skill": "Ranged: Light",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium"
+			},
+			{
+				"name": "Micro-Rocket Launcher",
+				"skill": "Ranged: Light",
+				"damage": 8,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Breach 1", "Limited Ammo 1"]
+			},
+			{
+				"name": "Vambrace Blaster",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Short"
+			},
+			{
+				"name": "Vambrace Flame Projector",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Blast 2", "Burn 2", "Limited Ammo 3", "Pierce 2", "Vicious 3"]
+			},
+			{
+				"name": "Vambrace Dart Launcher",
+				"skill": "Ranged: Light",
+				"damage": 1,
+				"critical": null,
+				"range": "Long",
+				"qualities": ["Limited Ammo 5"],
+				"notes": "Poisons, listed under abilities"
+			},
+			{
+				"name": "Vambrace Grapnel Launcher",
+				"skill": "Ranged: Light",
+				"damage": 3,
+				"critical": 5,
+				"range": "Medium",
+				"qualities": ["Ensnare 3"]
+			},
+			{
+				"name": "Vambrace Repulsor",
+				"skill": "Ranged: Light",
+				"damage": 8,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Disorient 3", "Knockdown", "Stun Damage"]
+			}
+		],
+		"gear": ["Mandalorian battle armor (+3 Soak, +1 Defence, enhanced optics suite, integrated long-range comlink, integrated scanner, integrated weapons, superior quality, vacuum sealed), Jetpack, Modified Lambda-class shuttle, Stun collars (2)."],
+		"tags": ["source:D20Radio.com NPC’s", "bounty hunter", "adventure:Tatooine Manhunt"],
+		"devOnly": true
+	},
+	{
+		"name": "Zardra",
+		"type": "Rival",
+		"description": "Human female. A relative newcomer to the hunt, but one with considerable promise. Zardra has quickly gained a reputation as a huntress who takes every bounty very personally. She is selective about the targets she chooses, preferring to hunt those who will offer her the best personal challenge. Though capable of clever planning and great cunning, Zardra’s recklessness and pride may someday be her downfall.",
+		"notes": "These are not official stats. Credits go to Phillip Krzeminski, D20Radio.com.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 17,
+			"defence": [1, 1]
+		
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Charm": 2,
+			"Coercion": 2,
+			"Coordination": 2,
+			"Melee": 4,
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Streetwise": 1,
+			"Survival": 1,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1", "Feral Strength 2", "Stalker 1"],
+		"weapons": ["Force pike", "Blaster pistol"],
+		"gear": ["Armored clothing (+1 Soak, +1 Defence), Encrypted comlink."],
+		"tags": ["source:D20Radio.com NPC’s", "bounty hunter", "adventure:Tatooine Manhunt"],
+		"devOnly": true
+	},
+	{
+		"name": "Puggles Trodd",
+		"type": "Rival",
+		"description": "Lasat male. Small for a Lasat, Puggles disdains actual combat – preferring to take his prey from a distance (typically in an explosion or other trap). He rarely accepts live capture hunts, earning him a reputation more befitting an assassin than a bounty hunter. Trodd frequently partners with other hunters, though his unpleasant personality and constant complaining ensure that most partnerships last only a few hunts.",
+		"notes": "These are not official stats. Credits go to Phillip Krzeminski, D20Radio.com.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Cool": 2,
+			"Mechanics": 3,
+			"Perception": 2,
+			"Ranged: Light": 3,
+			"Skulduggery": 4,
+			"Streetwise": 2,
+			"Stealth": 2,
+			"Survival": 1
+		},
+		"talents": ["Enduring 1", "Master Grenadier", "Powerful Blast 2", "Selective Detonation 1"],
+		"abilities": [
+			{
+			"name": "Prehensile Feet",
+			"description": "As long as his legs are not supporting him, Puggles may use his feet to perform any action that he would normally use his hands for with one setback die."
+			}
+		],
+		"weapons": ["Frag grenade", "Stun grenade",
+			{
+				"name": "KDY-21 light blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 4,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			},
+			{
+				"name": "ACP array gun",
+				"skill": "Ranged: Heavy",
+				"damage": 6,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Stun Setting", "Blast 7"]
+			}
+		],
+		"gear": ["Armored clothing (+1 Soak, +1 Defence), Encrypted comlink, 4 Detonite charges (Damage 15 [+10])."],
+		"tags": ["source:D20Radio.com NPC’s", "bounty hunter", "adventure:Tatooine Manhunt", "species:Lasat"],
+		"devOnly": true
 	}
 ]
