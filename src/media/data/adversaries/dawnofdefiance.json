@@ -540,7 +540,7 @@
 		"devOnly": true
 	},
 	{
-		"name": "Physician",
+		"name": "Physician (DoD)",
 		"type": "Rival",
 		"description": "",
 		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
