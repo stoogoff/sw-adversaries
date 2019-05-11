@@ -9,7 +9,7 @@
 	},
 	{
 		"name": "All-Terrain Driver",
-		"description": "Does not suffer usual penalties for driving through difficult terrain when using Piloting [Planetary]"
+		"description": "Does not suffer usual penalties for driving through difficult terrain when using Piloting: Planetary."
 	},
 	{
 		"name": "Aminal Bond",
@@ -890,7 +890,7 @@
 	},
 	{
 		"name": "Master Strategist",
-		"description": "Once per phase during a mass combat, may suffer 2 strain to decrease the difficulty of a Mass Combat check once."
+		"description": "Once per phase during a mass combat, may suffer 2 Strain to decrease the difficulty of a Mass Combat check once."
 	},
 	{
 		"name": "Menace",
@@ -1546,7 +1546,7 @@
 	},
 	{
 		"name": "Thorough Assesment",
-		"description": "Once per session, take a Thorough Assessment action to make a :hard: Knowledge check to gain Boost dice equal to Success that can be distributed during the encounter."
+		"description": "Once per session, take a Thorough Assessment action to make a :hard: Knowledge check to gain :boost: equal to :success: that can be distributed during the encounter."
 	},
 	{
 		"name": "Throwing Credits",
@@ -1578,7 +1578,7 @@
 	},
 	{
 		"name": "True Aim",
-		"description": "Once per round, may perform a True Aim maneuver to gain benefits of aiming and upgrade combat check {ranks|times} of True Aim."
+		"description": "Once per round, may perform a True Aim maneuver to gain all the benefits of aiming and upgrade combat check {ranks|times}."
 	},
 	{
 		"name": "Tuned Maneuvering Thrusters",
@@ -1610,7 +1610,7 @@
 	},
 	{
 		"name": "Up the Ante",
-		"description": ""
+		"description": "When gambling, win {ranks|multiply-10}% more credits."
 	},
 	{
 		"name": "Utility Belt",

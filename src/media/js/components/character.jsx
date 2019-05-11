@@ -137,7 +137,7 @@ export default class Character extends React.Component {
 		}
 
 		return <div className={ !this.props.visible ? "hidden" : null }>
-			<h1 data-adversary-type={ character.type }>{ icon } { character.name }</h1>
+			<h1 data-adversary-type={ character.type } className={ character.devOnly ? "dev" : ""}>{ icon } { character.name }</h1>
 			<h2 className="subtitle">
 				<span className={ character.type.toLowerCase() }>{ character.type }</span>
 				{ fav }

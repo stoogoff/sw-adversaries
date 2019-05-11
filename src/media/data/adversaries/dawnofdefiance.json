@@ -527,7 +527,7 @@
 				"qualities": ["Pierce 2", "Vicious 1"]
 			},
 			{
-				"name": "Anasthetic Injector",
+				"name": "Anesthetic Injector",
 				"skill": "Medicine",
 				"damage": 8,
 				"critical": 5,
@@ -574,7 +574,7 @@
 			}
 		],
 		"gear": ["Bacta", "Medpack", "Synthskin", "Datapad"],
-		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit"],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit", "medic"],
 		"devOnly": true
 	},
 	{
