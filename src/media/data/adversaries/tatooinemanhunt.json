@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Whiphid Thug",
+		"type": "Minion",
+		"description": "Slightly more intelligent and more likely to use ad­vanced technology than the Gamorrean enforcers that are popular with many crime lords, Aqualish are no less physically powerful than their porcine counterparts and equally prone to violence as a means of resolving even the mildest dispute. Although not all members of the Aqualish people are crude and thuggish, enough of them are that the sight of them acting as enforcers and henchmen for all manner of unpleasant figures is hard­ ly surprising to any well traveled citizen of the galaxy’s seedy underbelly.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 6
+		},
+		"skills": ["Brawl", "Coercion", "Melee", "Ranged: Light"],
+		"weapons": ["Blaster pistol", "Brass knuckles"],
+		"tags": ["underworld", "thug", "species:Whiphid", "adventure:Tatooine Manhunt"]
+	}
+]

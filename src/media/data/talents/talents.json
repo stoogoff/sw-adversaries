@@ -9,7 +9,7 @@
 	},
 	{
 		"name": "All-Terrain Driver",
-		"description": ""
+		"description": "Does not suffer usual penalties for driving through difficult terrain when using Piloting [Planetary]"
 	},
 	{
 		"name": "Aminal Bond",
@@ -862,7 +862,7 @@
 	},
 	{
 		"name": "Master Instructor",
-		"description": ""
+		"description": "Once per round as an out of turn incidental, may suffer 2 strain to allow ally to use character's ranks in Discipline for next Discipline check an ally makes."
 	},
 	{
 		"name": "Master Leader",
@@ -1147,6 +1147,10 @@
 	{
 		"name": "Prophetic Aim",
 		"description": ""
+	},
+	{
+		"name": "Push the Limit",
+		"description": "As an incidental, suffer 2 system to add :boost: to Piloting: Planetary checks."
 	},
 	{
 		"name": "Quick Draw",
@@ -1618,7 +1622,7 @@
 	},
 	{
 		"name": "Valuable Facts",
-		"description": ""
+		"description": "Make an :average: Knowledge check. If successful, add :triumph: to one ally's skill check during the enounter."
 	},
 	{
 		"name": "Vehicle Combat Training",

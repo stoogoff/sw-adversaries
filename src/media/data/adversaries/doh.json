@@ -1,0 +1,368 @@
+[
+	{
+		"name": "BD10-Series Assay Support Droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": {
+			"Charm": 2,
+			"Knowledge: Outer Rim": 3,
+			"Negotiation": 2
+		},
+		"abilities": ["Droid",
+				{
+				"name": "Outland Etiquette and Protocol",
+				"description": "BD10-Series droids allow allies to add :boost: to any Negotiation checks or other checks made to negotiate or mediate in the Outer Rim."
+				}
+		],
+		"tags": ["book:doh", "species:Droid"]
+	},
+	{
+		"name": "BL0-Series Non-lethal Combat Droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 12,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Cool": 2,
+			"Coordination": 1,
+			"Ranged: Light": 1,
+			"Resilience": 2
+		},
+		"abilities": ["Droid"],
+		"weapons": ["Stun grenade", 
+			{
+				"name": "2 Built-in stun whips",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": null,
+				"range": "Short",
+				"qualities": ["Stun 3"]
+			}
+		],
+		"gear": ["Built-in armour plating (+1 defence, +1 soak), 2 stun grenades."],
+		"tags": ["book:doh", "species:Droid"]
+	},
+	{
+		"name": "ED-V8 Series Envoy Droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Knowledge: Education": 2,
+			"Knowledge: Outer Rim": 3,
+			"Negotiation": 4,
+			"Perception": 1
+		},
+		"abilities": ["Droid",
+				{
+				"name": "Non-humanoid Etiquette and Protocol",
+				"description": "ED-V8 Series droids allow allies to add :boost: to any Negotiation checks or other checks made to negotiate or mediate with any non-humanoid species."
+				}				
+		],
+		"tags": ["book:doh", "species:Droid"]
+	},
+	{
+		"name": "P2F Hostile Environment Remote",
+		"type": "Minion",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 4,
+			"defence": [0, 0]
+		},
+		"skills": ["Athletics", "Cool", "Perception", "Resilience"],
+		"abilities": ["Droid"],
+		"gear": ["Built-in long range comlink, Built-in holoprojector, Scanner suite"],
+		"tags": ["book:doh", "species:Droid"]
+	},
+	{
+		"name": "SBD Series Assistance and Rescue Droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Cool": 1,
+			"Coordination": 2,
+			"Mechanics": 1,
+			"Medicine": 2,
+			"Perception": 3
+		},
+		"abilities": ["Droid"],
+		"talents": ["Keen Eyed 2"],
+		"gear": ["Built-in long range comlink, 2 emergency medpacks, Built-in general purpose scanner, Built-in physician’s kit, 8 stimpacks, Built-in tool kit"],
+		"tags": ["book:doh", "species:Droid"]
+	},
+	{
+		"name": "TRF-2 Sparring Droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 15,
+			"defence": [2, 0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Coordination": 1,
+			"Lightsaber": 3,
+			"Melee": 3,
+			"Ranged: Heavy": 3
+		},
+		"abilities": ["Droid",
+				{
+				"name": "Combat Training",
+				"description": "TRD-2 series sparring droids allow any character who has spent at least one hour practicing with them to increase their melee defence rating by two for the remainder of the session."
+				}
+		],
+		"weapons": [
+			{
+				"name": "Double-bladed training saber",
+				"skill": "Lightsaber",
+				"damage": 6,
+				"critical": null,
+				"range": "Engaged",
+				"qualities": ["Linked 1", "Stun Damage", "Unwieldy 3"]
+			},
+			{
+				"name": "Stun cannon",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": null,
+				"range": "Medium",
+				"qualities": ["Stun Damage"]
+			},
+			{
+				"name": "Z6 riot control baton",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Cortosis", "Disorient 2", "Stun Damage"]
+			}
+		],
+		"tags": ["book:doh", "species:Droid"]
+	},
+	{
+		"name": "TTS20-Series Dialectic Droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 8,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Charm": 2,
+			"Cool": 1,
+			"Deception": 2,
+			"Knowledge: Core Worlds": 1,
+			"Knowledge: Education": 1,
+			"Negotiation": 3,
+			"Perception": 2,
+			"Streetwise": 1
+		},
+		"abilities": ["Droid",
+				{
+				"name": "Master of Rhetoric",
+				"description": "TTS20-series droids allow allies to add :boost::boost: to any opposed Presence or Willpower-based checks or other checks made to negotiate or mediate in the Outer Rim."
+				}
+		],
+		"tags": ["book:doh", "species:Droid"]
+	},
+	{
+		"name": "The Trainer",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 16,
+			"strain": 14,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 1,
+			"Cool": 1,
+			"Coordination": 1,
+			"Lightsaber": 1,
+			"Medicine": 1,
+			"Melee": 1,
+			"Resilience": 1,
+			"Survival": 1,
+			"Vigilance": 1
+		},
+		"talents": ["Reflect 4", "Parry 4", "Force Rating 2",
+			{
+			"name": "Skilled Teacher 2",
+			"description": "Before an ally at short range makes a skill check, if that ally has fewer ranks in that skill than the character does, the character may choose to immediately perform a Skilled Teacher incidental to siffer a number of strain, then add an equal number of :success: to the ally’s next check."
+			}
+		],
+		"abilities": ["Force Power: Battle Meditation", "Force Power: Enhance", "Force Power: Move", "Force Power: Sense"],
+		"tags": ["book:doh", "mentor"]
+	},
+	{
+		"name": "The Consultant",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 5,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 16,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Charm": 1,
+			"Computers": 1,
+			"Deception": 1,
+			"Discipline": 1,
+			"Knowledge: Core Worlds": 1,
+			"Knowledge: Education": 1,
+			"Knowledge: Lore": 1,
+			"Knowledge: Outer Rim": 1,
+			"Knowledge: Underworld": 1,
+			"Knowledge: Warfare": 1,
+			"Knowledge: Xenology": 1,
+			"Leadership": 1,
+			"Negotiation": 1,
+			"Perception": 1,
+			"Streetwise": 1
+		},
+		"talents": ["Reflect 2", "Parry 2", "Force Rating 4", "Valuable Facts"],
+		"abilities": ["Force Power: Heal", "Force Power: Harm", "Force Power: Influence", "Force Power: Seek", "Force Power: Misdirect"],
+		"tags": ["book:doh", "mentor"]
+	},
+	{
+		"name": "The Challenger",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 5,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 15,
+			"strain": 15,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Charm": 1,
+			"Cool": 1,
+			"Deception": 1,
+			"Discipline": 1,
+			"Lightsaber": 1,
+			"Melee": 1,
+			"Perception": 1,
+			"Ranged: Heavy": 1,
+			"Ranged: Light": 1,
+			"Vigilance": 1
+		},
+		"talents": ["Force Rating 4", "Master Instructor", "Nobody’s Fool 3", "Reflect 2", "Parry 2"],
+		"abilities": ["Force Power: Foresee", "Force Power: Protect", "Force Power: Unleash", "Force Power: Seek", "Force Power: Sense"],
+		"tags": ["book:doh", "mentor"]
+	}
+]

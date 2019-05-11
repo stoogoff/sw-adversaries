@@ -1,0 +1,1236 @@
+[
+	{
+		"name": "Maya, Alderaanian Agent",
+		"type": "Nemesis",
+		"description": "When she meets the players she has already taken 10 wounds and has the “At the Brink” Critical injury.",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 18,
+			"strain": 15,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 2,
+			"Deception": 2,
+			"Melee": 2,
+			"Ranged: Light": 2,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Encrypted datapad, Heavy uniform (+1 soak)"],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit"],
+		"devOnly": true
+	},
+	{
+		"name": "Imperial Stormtrooper (DoD)",
+		"type": "Minion",
+		"description": "These stormtroopers are solely concerned with capturing Maya, the Alderaanian Security agent. They are trigger happy, though, and are more than willing to shoot anyone who stands in their way. When the encounter begins, they attempt to stun Maya but use lethal force against any other opponents.",
+		"notes": "These are official stats, used for Dawn of Defiance. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 5
+		},
+		"skills": ["Athletics", "Discipline", "Melee", "Ranged: Heavy"],
+		"weapons": [
+			"Blaster rifle", "Vibroknife", "Frag grenade",
+			{
+				"name": "Light repeating blaster",
+				"skill": "Ranged: Heavy",
+				"damage": 11,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Auto-Fire", "Cumbersome 4", "Pierce 1", "Weapon Sling"]
+			}
+		],
+		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 Soak)", "2 Frag grenades"],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit", "imperial military", "stormtrooper"],
+		"devOnly": true
+	},
+	{
+		"name": "Intelligence Agent (DoD)",
+		"type": "Rival",
+		"description": "The Imperial informants have bought into the Empire’s propaganda and are willing to risk their lives to help bring enemies of the state to justice. Unlike the stormtroopers, they don’t realize that Maya is wanted alive and use lethal force against her. However, when the heroes intervene, the informants ignore Maya and focus solely on the heroes.",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13,
+			"strain": 14,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 2,
+			"Deception": 2,
+			"Melee": 2,
+			"Ranged: Light": 2,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Encrypted datapad, Secure comlink"],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit", "empire"],
+		"devOnly": true
+	},
+	{
+		"name": "Gamorrean Thug (DoD)",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 14
+		},
+		"skills": {
+			"Brawl": 3,
+			"Melee": 2
+		},
+		"talents": ["Knockdown"],
+		"weapons": [
+			{
+				"name": "Crude Gamorrean vibro-ax",
+				"skill": "Melee",
+				"plus-damage": 3,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 3"]
+			}
+		],
+		"gear": ["Beast-hide armour (+1 Soak)"],
+		"tags": ["source:Dawn of Defiance", "species:Gamorrean", "adventure:Traitor’s Gambit"],
+		"devOnly": true
+	},
+	{
+		"name": "Switch, 3rd Degree Protocol Droid",
+		"type": "Nemesis",
+		"description": "When she meets the players she has already taken 10 wounds and has the “At the Brink” Critical injury.",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Deception": 2,
+			"Knowledge: Core Worlds": 2,
+			"Knowledge: Education": 2,
+			"Knowledge: Lore": 2,
+			"Knowledge: Outer Rim": 2,
+			"Knowledge: Underworld": 2,
+			"Knowledge: Warfare": 2,
+			"Knowledge: Xenology": 2,
+			"Melee": 2,
+			"Perception": 2,
+			"Ranged: Heavy": 3,
+			"Streetwise": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Droid"],
+		"weapons": ["Blaster rifle"],
+		"gear": ["Encrypted datapad"],
+		"tags": ["source:Dawn of Defiance", "species:Droid", "adventure:Traitor’s Gambit"],
+		"devOnly": true
+	},
+	{
+		"name": "Switch’s Thugs",
+		"type": "Rival",
+		"description": "Twi’lek Muscle",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 13
+		},
+		"skills": {
+			"Athletics": 1,
+			"Coercion": 2,
+			"Melee": 2,
+			"Survival": 1,
+			"Ranged: Light": 1
+		},
+		"weapons": ["Blaster pistol", "Vibro-ax"],
+		"gear": ["Beast armour (+1 Soak)"],
+		"tags": ["source:Dawn of Defiance", "species:Twi’lek", "adventure:Traitor’s Gambit"],
+		"devOnly": true
+	},
+	{
+		"name": "Ganga Lor",
+		"type": "Rival",
+		"description": "Ganga Lor is a Chevin petty crime lord who has been engaged in a rivalry with Switch for years. Ganga Lor came to the station around the same time as Switch, and the two have never gotten along.\n\nThis massive Chevin looks old, even for his species. His trunk hangs low and scars cross his face, giving him a weathered look that matches his leathery skin. His clothes are little more than rags, and a large blaster pistol pokes out from beneath his vest as though ready to be drawn on a moment’s notice.",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 1,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Negotiation": 1,
+			"Coercion": 2,
+			"Leadership": 1,
+			"Ranged: Light": 1,
+			"Ranged: Heavy": 1
+		},
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Armoured clothes (+1 Soak)"],
+		"tags": ["source:Dawn of Defiance", "species:Chevin", "underworld", "adventure:Traitor’s Gambit"],
+		"devOnly": true
+	},
+	{
+		"name": "Ganga Lor’s Thugs",
+		"type": "Minion",
+		"description": "Lor’s thugs have no real strategy to their actions. they are straight-up fighters who care little for complex tactics.",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 6
+		},
+		"skills": ["Brawl", "Coercion", "Melee", "Ranged: Light"],
+		"weapons": ["Blaster pistol", "Brass knuckles"],
+		"gear": ["Armoured clothes (+1 Soak)"],
+		"tags": ["source:Dawn of Defiance", "thug", "underworld", "adventure:Traitor’s Gambit"],
+		"devOnly": true
+	},
+	{
+		"name": "Stormtrooper Sergeant (DoD)",
+		"type": "Rival",
+		"description": "Stormtroopers who survive engagements with high marks are promoted to the position of sergeant. Typically this involves command of a single squadron, but stormtroopers who excel at leadership are promoted to higher ranks. Such positions can include supervision of entire companies of stormtroopers. Rank within the stormtrooper legions is difficult for outsiders to fully understand, as they refer to virtually any officer from their ranks as commander. The uniformity of their armour and this tendency for vague references helps to enforce the image of stormtroopers as an absolutely faceless, monolithic military entity, which only serves to enhance their fearsome reputation.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15
+		},
+		"skills": {
+			"Athletics": 2,
+			"Discipline": 2,
+			"Leadership": 3,
+			"Melee": 2,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 2,
+			"Resilience": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Tactical Direction"],
+		"weapons": ["Heavy blaster rifle", "Vibroknife", "Frag grenade"],
+		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 Soak)", "2 Frag grenades"],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit"],
+		"devOnly": true
+	},
+	{
+		"name": "Captain Sirona Okeefe",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 18
+		},
+		"skills": {
+			"Astrogation": 3,
+			"Charm": 2,
+			"Cool": 3,
+			"Gunnery": 3,
+			"Knowledge: Underworld": 3,
+			"Ranged: Light": 2,
+			"Piloting: Planetary": 3,
+			"Piloting: Space": 3,
+			"Skulduggery": 2,
+			"Streetwise": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Master Pilot", "Skilled Jockey 2"],
+		"weapons": ["Heavy blaster pistol"],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit"],
+		"devOnly": true
+	},
+	{
+		"name": "Felucian Scout",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 12
+		},
+		"skills": {
+			"Athletics": 2,
+			"Discipline": 2,
+			"Melee": 2,
+			"Vigilance": 3,
+			"Survival": 3,
+			"Stealth": 2
+		},
+		"abilities": ["Force Rating 1", "Force Power: Unleash"],
+		"talents": ["Feral Strength 2",
+			{
+			"name": "Natural Force Blast",
+			"description": "Felucian Scout has +2 Force Rating for Unleash Force Power only."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Skull Blade",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"gear": ["Loincloth, Warning horn"],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit", "species:Felucian"],
+		"devOnly": true
+	},
+	{
+		"name": "Vazus Mandrake",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Discipline": 2,
+			"Melee": 2,
+			"Negotiation": 3,
+			"Knowledge: Core Worlds": 2,
+			"Knowledge: Education": 2,
+			"Streetwise": 2
+		},
+		"talents": ["Know Somebody", "Nobody’s Fool 1"],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Blast vest (+1 soak)"],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit"],
+		"devOnly": true
+	},
+	{
+		"name": "Kybuck (DoD)",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 6,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 13
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 1,
+			"Survival": 1
+		},
+		"talents": [
+			{
+			"name": "Sprint speed 3",
+			"description": "Vehicle rules apply."
+			},
+			{
+			"name": "Handling +3",
+			"description": "Vehicle checks get :boost::boost::boost:."
+			}
+		],
+		"abilities": ["Silhouette 2", "Surefooted"],
+		"weapons": [
+			{
+				"name": "Horns",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 1"]
+			}
+		],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit", "creature"],
+		"devOnly": true
+	},
+	{
+		"name": "Felucian Shaman Chief",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 5,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16,
+			"strain": 17,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Discipline": 3,
+			"Melee": 2,
+			"Stealth": 2,
+			"Survival": 3,
+			"Vigilance": 3
+		},
+		"talents": [
+			{
+			"name": "Natural Force Blast",
+			"description": "Felucian Warrior has +2 Force Rating for Unleash Force Power only."
+			}
+		],
+		"abilities": ["Force Rating 3", "Force Power: Unleash"],
+		"weapons": [
+			{
+				"name": "Staff",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Stun Damage"]
+			}
+		],
+		"gear": ["Encrypted datapad, Heavy uniform (+1 soak)"],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit", "species:Felucian"],
+		"devOnly": true
+	},
+	{
+		"name": "2-1B Medical Droid (DoD)",
+		"type": "Rival",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10
+		},
+		"skills": {
+			"Discipline": 1,
+			"Medicine": 3,
+			"Perception": 2
+		},
+		"abilities": ["Droid"],
+		"weapons": [
+			{
+				"name": "Vibroscalpel",
+				"skill": "Melee",
+				"damage": 2,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 1"]
+			},
+			{
+				"name": "Anasthetic Injector",
+				"skill": "Medicine",
+				"damage": 8,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Stun Damage"]
+			}
+		],
+		"gear": ["Built-in diagnostic and surgical tools (adds a :boost: to Medicine checks and counts as a stimpack that can be used once per session)"],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit", "species:Droid"],
+		"devOnly": true
+	},
+	{
+		"name": "Physician (DoD)",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Computers": 2,
+			"Knowledge: Education": 2,
+			"Medicine": 3,
+			"Melee": 3
+		},
+		"talents": ["Bacta Specialist 2", "Surgeon 2"],
+		"weapons": ["Blaster pistol",
+			{
+				"name": "Vibroscalpel",
+				"skill": "Melee",
+				"damage": 2,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 1"]
+			}
+		],
+		"gear": ["Bacta", "Medpack", "Synthskin", "Datapad"],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit"],
+		"devOnly": true
+	},
+	{
+		"name": "Mutant Felucian",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 15
+		},
+		"skills": {
+			"Athletics": 2,
+			"Discipline": 2,
+			"Melee": 3,
+			"Vigilance": 3,
+			"Survival": 3,
+			"Stealth": 2
+		},
+		"talents": ["Feral Strength 2",
+			{
+			"name": "Natural Force Blast",
+			"description": "Felucian Scout has +2 Force Rating for Unleash Force Power only."
+			}
+		],
+		"abilities": ["Force Rating 1", "Force Power: Unleash"],
+		"weapons": [
+			{
+				"name": "Bone blade",
+				"skill": "Melee",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"gear": ["Natural armour (+1 Soak)"],
+		"tags": ["source:Dawn of Defiance", "species:Felucian", "adventure:Traitor’s Gambit"],
+		"devOnly": true
+	},
+	{
+		"name": "Imperial Gunnery Corps (DoD)",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": ["Gunnery", "Piloting: Planetary"],
+		"weapons": ["Blaster carbine"],
+		"gear": ["Trooper armour (+1 Soak)"],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit"],
+		"devOnly": true
+	},
+	{
+		"name": "Army Trooper (DoD)",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": ["Discipline", "Ranged: Heavy", "Ranged: Light"],
+		"weapons": ["Blaster rifle", "Frag grenade"],
+		"gear": ["Trooper armour (+1 Soak)"],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit"],
+		"devOnly": true
+	},
+	{
+		"name": "Lieutenant Aden",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Discipline": 3,
+			"Knowledge: Warfare": 3,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Tactical Direction"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Officer uniform (+1 soak)"],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit", "imperial military"],
+		"devOnly": true
+	},
+	{
+		"name": "Detention Centre Officer (DoD)",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"strain": 14,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Discipline": 3,
+			"Melee": 3,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Tactical Direction", "Overwhelming Fire"],
+		"weapons": ["Blaster pistol", "Stun baton"],
+		"gear": ["Officer uniform (+1 soak)"],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit", "imperial military"],
+		"devOnly": true
+	},
+	{
+		"name": "Warden Droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 14,
+			"defence": [2, 2]
+		},
+		"skills": {
+			"Coercion": 2,
+			"Discipline": 2,
+			"Melee": 2,
+			"Piloting: Planetary": 2,
+			"Streetwise": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Nobody’s Fool"],
+		"abilities": ["Droid"],
+		"weapons": ["Riot shield", "Stun baton"],
+		"gear": ["Encrypted datapad"],
+		"tags": ["source:Dawn of Defiance", "species:Droid", "adventure:Traitor’s Gambit"],
+		"devOnly": true
+	},
+	{
+		"name": "Admiral Varth",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 13,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Charm": 4,
+			"Coercion": 4,
+			"Deception": 4,
+			"Knowledge: Core Worlds": 3,
+			"Knowledge: Education": 2,
+			"Negotiation": 3,
+			"Perception": 4,
+			"Skulduggery": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Natural Charmer", "Nobody’s Fool 2", "Plausible Deniability"],
+		"abilities": [],
+		"weapons": ["Blaster pistol"],
+		"gear": [],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit"],
+		"devOnly": true
+	},
+	{
+		"name": "Prisoner",
+		"type": "Minion",
+		"description": "",
+		"notes": "These are official stats, used for Dawn of Defiance. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": ["Discipline", "Discipline", "Ranged: Heavy", "Brawl"],
+		"weapons": [
+			{
+				"name": "Unarmed combat",
+				"skill": "Brawl",
+				"damage": 2,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 1", "Stun Damage"]
+			}
+		],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit"],
+		"devOnly": true
+	},
+	{
+		"name": "Captain Vischera",
+		"type": "Nemesis",
+		"description": "The cruel genius behind the horrible experiments being conducted on the Felucians, Captain Vischera is a dangerous man. Slender and with slightly spiky graying hair, Captain Vischera has a brilliant mind tainted by a sadistic streak that makes him perfect for Imperial service. Vischera has hollow cheeks and sunken eyes, giving the impression that he is malnourished and doesn’t get enough sleep, and his Imperial uniform (though conforming to all standards) looks as though it is hanging off his body. Vischera wants nothing more than to continue his experiments, and as such he will defend the facility to his death.\n\nWhen the encounter begins, Captain Vischera immediately commands Kargrek and Hagark to defend him, then orders the stormtroopers to take down the intruders. If either Kargrek or Hagark drops below half its hit points, Vischera uses his Supreme Inspiring Rhetoric talent to get the injured bodyguard back in the fight. Whenever possible, Vischera uses his blaster pistol.",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 5
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 13,
+			"strain": 16,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Charm": 3,
+			"Coercion": 4,
+			"Cool": 3,
+			"Deception": 3,
+			"Discipline": 3,
+			"Knowledge: Core Worlds": 4,
+			"Knowledge: Education": 4,
+			"Knowledge: Lore": 4,
+			"Knowledge: Outer Rim": 4,
+			"Knowledge: Underworld": 4,
+			"Knowledge: Warfare": 4,
+			"Knowledge: Xenology": 4,
+			"Leadership": 4,
+			"Ranged: Light": 2,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Plausible Deniability 4", "Supreme Inspiring Rhetoric"],
+		"abilities": ["Imperial Valour"],
+		"weapons": ["Blaster pistol"],
+		"tags": ["source:Dawn of Defiance", "adventure:Traitor’s Gambit"],
+		"devOnly": true
+	},
+	{
+		"name": "Kargrek",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 4,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 18,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Survival": 3,
+			"Melee": 4,
+			"Discipline": 3,
+			"Stealth": 2,
+			"Streetwise": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Feral Strength 2",
+			{
+			"name": "Natural Force Blast",
+			"description": "Mutant Felucian has +2 Force Rating for Unleash Force Power only."
+			}
+		],
+		"abilities": ["Force Rating 1", "Force Power: Unleash"],
+		"weapons": [
+			{
+				"name": "Bone blade",
+				"skill": "Melee",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"gear": ["Natural Armour (+1 soak)"],
+		"tags": ["source:Dawn of Defiance", "species:Felucian", "adventure:Traitor’s Gambit"],
+		"devOnly": true
+	},
+	{
+		"name": "Hagark",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 4,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 18,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Survival": 3,
+			"Melee": 4,
+			"Discipline": 3,
+			"Stealth": 2,
+			"Streetwise": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Feral Strength 2",
+			{
+			"name": "Natural Force Blast",
+			"description": "Mutant Felucian has +2 Force Rating for Unleash Force Power only."
+			}
+		],
+		"abilities": ["Force Rating 1", "Force Power: Unleash"],
+		"weapons": [
+			{
+				"name": "Bone blade",
+				"skill": "Melee",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"gear": ["Natural Armour (+1 soak)"],
+		"tags": ["source:Dawn of Defiance", "species:Felucian", "adventure:Traitor’s Gambit"],
+		"devOnly": true
+	},
+	{
+		"name": "Kessra",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Piloting: Planetary": 3,
+			"Ranged: Light": 2,
+			"Streetwise": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Push the Limit"],
+		"weapons": ["Vibroknucklers",
+			{
+				"name": "Custom heavy blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 8,
+				"critical": 4,
+				"range": "Medium"
+			}
+		],
+		"gear": ["Armoured Clothing (+1 defence, +1 soak)"],
+		"tags": ["source:Dawn of Defiance", "adventure:A Wretched Hive"],
+		"devOnly": true
+	},
+	{
+		"name": "Swooper",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4
+		},
+		"skills": ["Brawl", "Piloting: Planetary", "Piloting: Space", "Ranged: Light"],
+		"weapons": ["Light blaster pistol", "Brass knuckles"],
+		"gear": ["Swoop bike"],
+		"tags": ["source:Dawn of Defiance", "adventure:A Wretched Hive"],
+		"devOnly": true
+	},
+	{
+		"name": "Warrick Raden",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 16,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Cool": 2,
+			"Leadership": 1,
+			"Melee": 2,
+			"Ranged: Light": 3,
+			"Vigilance": 2
+		},
+		"weapons": ["Heavy blaster pistol", "Shock gloves"],
+		"gear": ["Armoured Clothing (+1 defence, +2 soak)"],
+		"tags": ["source:Dawn of Defiance", "adventure:A Wretched Hive", "thug"],
+		"devOnly": true
+	},
+	{
+		"name": "Warrick’s Thugs",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5,
+			"defence": [1, 1]
+		},
+		"skills": ["Melee", "Vigilance", "Ranged: Light"],
+		"weapons": ["Blaster pistol", "Vibroknife"],
+		"gear": ["Armoured Clothing (+1 defence, +2 soak)"],
+		"tags": ["source:Dawn of Defiance", "adventure:A Wretched Hive", "thug"],
+		"devOnly": true
+	},
+	{
+		"name": "Scout survey droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Perception": 3,
+			"Ranged: Light": 2,
+			"Stealth": 2,
+			"Survival": 3
+		},
+		"talents": ["Hunter 1"],
+		"abilities": ["Droid"],
+		"weapons": [
+			{
+				"name": "Stun blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": null,
+				"range": "Short",
+				"qualities": ["Stun damage"]
+			}
+		],
+		"gear": ["Officer uniform (+1 soak)"],
+		"tags": ["source:Dawn of Defiance", "adventure:A Wretched Hive", "species:Droid"],
+		"devOnly": true
+	},
+	{
+		"name": "Darga the Hutt",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 1,
+			"Intellect": 4,
+			"Cunning": 6,
+			"Willpower": 5,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 10,
+			"wounds": 30,
+			"strain": 20
+		},
+		"skills": {
+			"Athletics": 1,
+			"Charm": 2,
+			"Coercion": 4,
+			"Cool": 5,
+			"Deception": 5,
+			"Discipline": 5,
+			"Knowledge: Outer Rim": 3,
+			"Knowledge: Underworld": 3,
+			"Leadership": 1,
+			"Melee": 2,
+			"Negotiation": 5,
+			"Ranged: Light": 2,
+			"Resilience": 8
+		},
+		"talents": ["Convincing Demeanor 2", "Durable 3", "Nobody’s Fool 3", "Resolve 2"],
+		"abilities": ["Awkward", "Ponderous"],
+		"tags": ["source:Dawn of Defiance", "adventure:A Wretched Hive", "underworld", "species:Hutt", "crime lord"],
+		"devOnly": true
+	},
+	{
+		"name": "Neimoidian Kreehawk",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 16
+		},
+		"skills": {
+			"Brawl": 2,
+			"Perception": 4,
+			"Survival": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Improved Stunning Blow"],
+		"abilities": ["Silhouette 3"],
+		"weapons": [
+			{
+				"name": "Razor talons",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Ensnare 3", "Pierce 2", "Vicious 2"]
+			}
+		],
+		"tags": ["source:Dawn of Defiance", "adventure:A Wretched Hive", "creature"],
+		"devOnly": true
+	},
+	{
+		"name": "Gome",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10
+		},
+		"skills": {
+			"Charm": 1,
+			"Cool": 1,
+			"Deception": 1,
+			"Discipline": 1,
+			"Negotiation": 2,
+			"Streetwise": 2
+			},
+		"talents": ["Greased Palms"],
+		"abilities": ["Blubber"],
+		"gear": ["Upper class clothing", "250 credits"],
+		"tags": ["source:Dawn of Defiance", "adventure:A Wretched Hive", "underworld"],
+		"devOnly": true
+	}
+]
