@@ -277,7 +277,7 @@ class App extends React.Component {
 			<div id="navigation" className={ (this.state.menuOpen ? "menu-open" : "menu-closed") + " column small" }>
 				<Filter />
 				<p><small>Showing { x } of { y }.</small></p>
-				<LinkList data={ this.state.list } selected={ this.state.selected.length > 0 ? this.state.selected[this.state.selectedIndex].id : "" } />
+				<LinkList data={ this.state.list } selected={ this.state.selected.length > 0 ? this.state.selected[this.state.selectedIndex].character.id : "" } />
 			</div>
 			<div id="content" className="column large">
 				{ !this.state.isLoaded
