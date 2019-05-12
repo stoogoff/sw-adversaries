@@ -7,7 +7,7 @@ import TextPanel from "./text-panel";
 import WeaponsPanel from "./weapons-panel";
 import TalentPanel from "./talent-panel";
 import TagPanel from "./tag-panel";
-import { symbolise } from "../lib/utils";
+import { symbolise, getSourceLink } from "../lib/utils";
 import dispatcher from "lib/dispatcher";
 import * as CONFIG from "lib/config";
 
@@ -136,6 +136,16 @@ export default class Character extends React.Component {
 			}
 		}
 
+		let source = null;
+		let sourceTag = character.tags.find(t => t.startsWith("source:"));
+
+		if(character.source && sourceTag) {
+			let url = character.source.length ? character.source : character.source.url;
+			let owner = character.source.length ? "" : `${character.source.owner} of`;
+
+			source = `<p><em>${character.name} stats provided by ${owner} ${getSourceLink(sourceTag)}. Click to <a href="${url}">view original stats and descriptions</a>.</em></p>`;
+		}
+
 		return <div className={ !this.props.visible ? "hidden" : null }>
 			<h1 data-adversary-type={ character.type } className={ character.devOnly ? "dev" : ""}>{ icon } { character.name }</h1>
 			<h2 className="subtitle">
@@ -144,6 +154,7 @@ export default class Character extends React.Component {
 			</h2>
 			<TextPanel text={ character.description } />
 			{ character.notes ? <div className="text" dangerouslySetInnerHTML={ symbolise(this.md.render(`*${character.notes}*`)) }></div> : null }
+			{ source ? <div className="text" dangerouslySetInnerHTML={ { __html: source } }></div> : null }
 			<div className="column small">
 				<div className="stats" id="characteristics">
 					{ characteristics.map(c => {

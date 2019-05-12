@@ -212,3 +212,17 @@ function r(symbol, ranks) {
 
 	return buffer.join("");
 }
+
+
+let sourceMap = {
+	"source:Never Tell Me the Odds": "http://www.starwarsrpgpodcast.com/",
+	"source:D20Radio.com": "http://www.d20radio.com/main/"
+};
+
+export const getSourceLink = function(source) {
+	if(source in sourceMap) {
+		return `<a href="${sourceMap[source]}">${source.replace("source:", "")}</a>`;
+	}
+
+	return null;
+}
