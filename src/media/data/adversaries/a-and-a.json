@@ -1,0 +1,51 @@
+[
+	{
+		"name": "Admiral Ackbar",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13,
+			"strain": 16,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Astrogation": 3,
+			"Computers": 3,
+			"Cool": 4,
+			"Discipline": 3,
+			"Gunnery": 2,
+			"Knowledge: Education": 3,
+			"Knowledge: Warfare": 4,
+			"Leadership": 5,
+			"Perception": 3,
+			"Piloting: Space": 2,
+			"Vigilance": 5
+		},
+		"talents": [
+			{
+				"name": "Starship Adversary 1",
+				"description": "Upgrade difficulty of all combat checks against a ship  this character is commanding once."
+			},
+			{
+				"name": "Concentrated Fire",
+				"description": "As an action, make an :average: Leadership check. All llies on up to 4 ships in the encounter gain :advantage::advantage: on all Gunnery checks until the beginning of Ackbar’s next turn."
+			},
+			{
+				"name": "Confident Command",
+				"description": "Upgrade difficulty of all combat checks against a ship  this character is commanding once."
+			}
+		],
+		"abilities": ["Amphibious", "Concentrated Fire", "Confident Command", "Fleet Commander"],
+		"gear": ["Admiral’s uniform (+1 soak)", "Comlink"],
+		"tags": ["book:aaa"]
+	}
+]
