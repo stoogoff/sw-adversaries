@@ -261,7 +261,11 @@
 	},
 	{
 		"name": "Etiquette and Protocol",
-		"description": "Protocol droids allow allies to add :boost: to any Nego­tiation checks or other checks made to negotiate or mediate."
+		"description": "Protocol droids allow allies to add :boost: to any Negotiation checks or other checks made to negotiate or mediate."
+	},
+	{
+		"name": "Etiquette and Protocol (Improved)",
+		"description": "Protocol droids allow allies to add :boost: to any Negotiation checks or other checks made to negotiate or mediate, no matter the species involved."
 	},
 	{
 		"name": "Excellent Climber",

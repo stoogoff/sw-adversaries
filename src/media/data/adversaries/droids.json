@@ -1608,7 +1608,7 @@
 			}
 		],
 		"gear": ["Long-range holonet communicator", "Life form scanner", "Long-range sensor array"],
-		"tags": ["species:Droid", "empire", "book:fad", "adventure:Hidden Depths"]
+		"tags": ["species:Droid", "empire", "book:fad", "adventure:Hidden Depths", "book:aaa"]
 	},
 	{
 		"name": "T-Series Tactical Droid",

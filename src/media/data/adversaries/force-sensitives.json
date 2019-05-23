@@ -116,7 +116,7 @@
 		"talents": ["Force Rating 1", "Second Chances 2"],
 		"abilities": ["All the Luck in the Galaxy"],
 		"weapons": ["Holdout blaster"],
-		"tags": ["force sensitive", "underworld", "book:fad", "gambler"]
+		"tags": ["force sensitive", "underworld", "book:fad", "gambler", "book:aaa"]
 	},
 	{
 		"name": "Emperor’s Hand",
@@ -183,7 +183,7 @@
 		"abilities": ["Darkside Force User"],
 		"weapons": ["Basic lightsaber"],
 		"gear": ["Black robes (+1 Soak)"],
-		"tags": ["force sensitive", "book:fad", "darkside"]
+		"tags": ["force sensitive", "book:fad", "darkside", "book:aaa"]
 	},
 	{
 		"name": "Fallen Master",
@@ -224,7 +224,7 @@
 			}
 		],
 		"gear": ["Black robes (+1 Soak)"],
-		"tags": ["force sensitive", "book:fad", "darkside"]
+		"tags": ["force sensitive", "book:fad", "darkside", "book:aaa"]
 	},
 	{
 		"name": "Forsaken Jedi",

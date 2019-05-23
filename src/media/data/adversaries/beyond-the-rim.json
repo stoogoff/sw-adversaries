@@ -755,7 +755,7 @@
 			}
 		],
 		"gear": ["Padded armour (+2 Soak)", "Comlink"],
-		"tags": ["book:btr", "species:Trandoshan", "underworld", "thug", "adventure:Beyond the Rim"]
+		"tags": ["book:btr", "species:Trandoshan", "underworld", "thug", "adventure:Beyond the Rim", "book:aaa"]
 	},
 	{
 		"name": "Wheel Security Pilot",

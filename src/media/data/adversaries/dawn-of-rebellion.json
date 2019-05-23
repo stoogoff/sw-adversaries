@@ -402,7 +402,7 @@
 			}
 		],
 		"gear": ["Amphibious landing armour (+2 Soak, when making skill checks, shoretroopers may remove :setback::setback: on checks imposed due to coastal settings)", "Utility belt", "Extra reloads", "Food and water packs"],
-		"tags": ["empire", "imperial military", "stormtrooper", "book:dor"]
+		"tags": ["empire", "imperial military", "stormtrooper", "book:dor", "book:aaa"]
 	},
 	{
 		"name": "Death Star Trooper",
@@ -501,7 +501,7 @@
 		],
 		"weapons": ["Heavy blaster pistol"],
 		"gear": ["Director’s uniform with cape (+1 Soak)", "Datapad", "Multiple encrypted comlinks"],
-		"tags": ["book:dor", "empire", "imperial military"]
+		"tags": ["book:dor", "empire", "imperial military", "book:aaa"]
 	},
 	{
 		"name": "Stormtrooper: Death Trooper",
@@ -563,7 +563,7 @@
 			}
 		],
 		"gear": ["Death trooper armour (+2 Soak, +1 Defence, upgrade Stealth checks once, remove :setback::setback: imposed due to darkness, smoke, or other environmental effects which obscure vision)", "Encrypted comlink", "Load bearing gear", "Food and water packs", "1 Thermal detonator", "2 Frag grenades"],
-		"tags": ["book:dor", "empire", "imperial military", "stormtrooper"]
+		"tags": ["book:dor", "empire", "imperial military", "stormtrooper", "book:aaa"]
 	},
 	{
 		"name": "Captain Fatimah Nurii",
@@ -1101,7 +1101,7 @@
 		],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Grand Admiral’s uniform (+1 Soak)", "Datapad", "Assorted objets d’art"],
-		"tags": ["book:dor", "empire", "imperial military", "species:Chiss"]
+		"tags": ["book:dor", "empire", "imperial military", "species:Chiss", "book:aaa"]
 	},
 	{
 		"name": "Cadet Jai Kell",

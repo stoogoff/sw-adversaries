@@ -46,6 +46,363 @@
 		],
 		"abilities": ["Amphibious", "Concentrated Fire", "Confident Command", "Fleet Commander"],
 		"gear": ["Admiral’s uniform (+1 soak)", "Comlink"],
-		"tags": ["book:aaa"]
+		"tags": ["rebel alliance", "book:aaa"]
+	},
+	{
+		"name": "Alliance Fleet Trooper",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": ["Melee", "Ranged: Heavy", "Vigilance"],
+		"abilities": [
+			{
+				"name": "Zero-Gravity Maneuvers",
+				"description": "In zero gravity, Alliance Fleet Troopers trat movement as being in normal terrain instead of difficult terrain."
+			}
+		],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Blast vest (+1 Soak)"],
+		"tags": ["rebel alliance", "book:aaa"]
+	},
+	{
+		"name": "Specforce Infiltrator",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12
+		},
+		"skills": {
+			"Melee": 2,
+			"Perception": 1,
+			"Ranged: Light": 2,
+			"Skulduggery": 2,
+			"Stealth": 3
+		},
+		"talents": ["Adversary 1", "Stalker 2"],
+		"abilities": ["Shadowed", "Swipe 1"],
+		"weapons": ["Light blaster pistol", "Vibroknife"],
+		"gear": ["Reinforced blast vest (+2 Soak)", "Encrypted comlink"],
+		"tags": ["rebel alliance", "book:aor", "book:aaa"]
+	},
+	{
+		"name": "Alliance Driver",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Gunnery": 2,
+			"Piloting: Planetary": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Skilled Jockey 2"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Blast vest + helmet (+1 Soak)"],
+		"tags": ["rebel alliance", "book:aaa"]
+	},
+	{
+		"name": "Cassian Andor",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 15,
+			"strain": 15,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Coercion": 3,
+			"Computers": 4,
+			"Coordination": 2,
+			"Cool": 3,
+			"Deception": 3,
+			"Knowledge: Outer Rim": 1,
+			"Knowledge: Underworld": 2,
+			"Leadership": 3,
+			"Mechanics": 2,
+			"Perception": 3,
+			"Piloting: Planetary": 2,
+			"Piloting: Space": 3,
+			"Ranged: Heavy": 4,
+			"Ranged: Light": 3,
+			"Skulduggery": 3,
+			"Stealth": 4,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Quick Strike 2"],
+		"abilities": [
+			{
+				"name": "Experience counts",
+				"description": "Allies within short range of Andor add :boost: to Stealth and Deception checks."
+			},
+			{
+				"name": "Whatever It Takes",
+				"description": "Andor may spend a maneuver to add :success::advantage: to the next combat check made by a friendly character within short range. That character suffers 3 strain."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Assault rifle mode",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting", "Auto-fire"]
+			},
+			{
+				"name": "BlasTech A280-CFE blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"],
+				"notes": "Spend a maneuver to switch between modes."
+			},
+			{
+				"name": "Sniper rifle mode",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Accurate 1", "Pierce 1"]
+			}
+		],
+		"gear": ["Heavy clothing (+1 soak)", "Comlink", "Anti-security kit"],
+		"tags": ["rebel alliance", "book:aaa"]
+	},
+	{
+		"name": "C-3PO",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 8,
+			"strain": 10,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Charm": 3,
+			"Deception": 1,
+			"Knowledge: Core Worlds": 5,
+			"Knowledge: Education": 5,
+			"Knowledge: Outer Rim": 5,
+			"Knowledge: Xenology": 5,
+			"Negotiation": 4,
+			"Perception": 1
+		},
+		"talents": ["Adversary 1", "Speaks Binary 1"],
+		"abilities": ["Droid", "Etiquette and Protocol (Improved)",
+			{
+				"name": "Human-Cyborg Relations",
+				"description": "While C-3PO is translating for a character, that character removes :setback::setback: from their Charm and Negotiation checks."
+			},
+			{
+				"name": "Improved Phrasing",
+				"description": "C-3PO allows player within short range to cancel :threat: or :despair: from their Charm and Negotiation checks. C-3PO then suffers 1 strain per cancelled :threat: and 4 strain per cancelled :despair:."
+			},
+			{
+				"name": "We’re Doomed!",
+				"description": "C-3PO adds :setback: to the Discipline, Mechanics and Piloting checks any characters within short range make."
+			}
+		],
+		"gear": ["Comlink"],
+		"tags": ["rebel alliance", "book:aaa", "species:Droid"]
+	},
+	{
+		"name": "Chewbacca",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 24,
+			"strain": 10,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Astrogation": 5,
+			"Athletics": 3,
+			"Brawl": 4,
+			"Coercion": 4,
+			"Computers": 3,
+			"Discipline": 1,
+			"Gunnery": 2,
+			"Knowledge: Outer Rim": 3,
+			"Knowledge: Underworld": 2,
+			"Mechanics": 5,
+			"Perception": 3,
+			"Piloting: Planetary": 2,
+			"Piloting: Space": 3,
+			"Ranged: Heavy": 4,
+			"Resilience": 4,
+			"Stealth": 2,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 3"],
+		"abilities": [
+			{
+				"name": "Life Debt",
+				"description": "Once per encounter, Chewbacca may spend 1 Destiny Point to reroll 1 skill check when defending or aiding Han Solo."
+			},
+			{
+				"name": "Master of Repairs",
+				"description": "When Chewbacca repairs system strain or hull trauma on a starship or vehicle, he repairs three additional system strain or hull trauma."
+			},
+			{
+				"name": "The Wookiee Wins",
+				"description": "Chewbacca may spend :triumph: from Brawl checks to inflict the Maimed Critical Injury."
+			},
+			{
+				"name": "Wookiee Roar",
+				"description": "Once per encounter, as an action Chewbacca may inflict 5 strain on all enemies within medium range."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Fists",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Disorient 2", "Knockdown"]
+			},
+			{
+				"name": "Chewbacca’s bowcaster",
+				"skill": "Ranged: Heavy",
+				"damage": 10,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Cumbersome 3", "Knockdown"],
+				"notes": "Spend a maneuver to load a specialized quarrel that adds either Blast 5, Breach 1, Concussive 1, Disorient 2, Ion or Vicious 4 to the next attack using bowcaster."
+			}
+		],
+		"gear": ["Bandolier with satchel", "Modified YT-1300 freighter Millennium Falcon"],
+		"tags": ["rebel alliance", "book:aaa", "underworld", "species:Wookiee", "mechanic"]
+	},
+	{
+		"name": "Han Solo",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 16,
+			"strain": 18,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Astrogation": 2,
+			"Athletics": 2,
+			"Brawl": 2,
+			"Charm": 3,
+			"Cool": 4,
+			"Deception": 2,
+			"Gunnery": 3,
+			"Knowledge: Outer Rim": 3,
+			"Knowledge: Underworld": 4,
+			"Leadership": 2,
+			"Mechanics": 3,
+			"Negotiation": 1,
+			"Perception": 4,
+			"Piloting: Planetary": 3,
+			"Piloting: Space": 5,
+			"Ranged: Light": 5,
+			"Skulduggery": 3,
+			"Stealth": 3,
+			"Streetwise": 3,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 3", "Master Pilot", "Quick Draw",
+			{
+				"name": "Hold Together",
+				"description": "Spend 1 Destiny Point to, immediately after vehicle or starship takes damage, turn it into system strain."
+			}
+		],
+		"abilities": [
+			{
+				"name": "Impulsive Distraction",
+				"description": "Once per encounter, Han may spend an action to allow all allies in the encounter to add automatic :success: to their next skill check that round."
+			},
+			{
+				"name": "Never Tell Me The Odds",
+				"description": "Once per session, after assembling the dice pool for a check but before rolling, Han may suffer up to 3 strain to remove an equal amount of negative dice from the pool."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Han’s heavy blaster",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"],
+				"notes": "Once per round, as a maneuver Han may upgrade the difficulty of the next attack with this weapon once to gain Pierce 7 on that attack. GM may spend :despair: or :threat::threat: on the check to have it run out of ammo."
+			}
+		],
+		"gear": ["Heavy clothing (+1 soak)", "Modified YT-1300 freighter Millennium Falcon"],
+		"tags": ["rebel alliance", "book:aaa", "underworld", "pilot"]
 	}
 ]
