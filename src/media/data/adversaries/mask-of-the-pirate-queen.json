@@ -161,7 +161,7 @@
 				"range": "Engaged"
 				}
 			],
-		"tags": ["book:motpq", "book:ss", "creature", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
+		"tags": ["book:motpq", "book:ss", "creature", "adventure:Mask of the Pirate Queen", "location:Ord Mantell", "book:aaa"]
 	},
 	{
 		"name": "Slaver Guard",

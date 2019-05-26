@@ -2083,7 +2083,7 @@
 				"range": "Engaged"
 			}
 		],
-		"tags": ["book:sof", "adventure:Conical Six Summit"]
+		"tags": ["book:sof", "adventure:Conical Six Summit", "book:aaa"]
 	},
 	{
 		"name": "Oso Maduk",

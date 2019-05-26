@@ -567,7 +567,7 @@
 				"qualities": ["Linked 1"]
 			}
 		],
-		"tags": ["book:cotgk", "location:Arbooine", "creature", "adventure:Chronicles of the Gatekeeper"]
+		"tags": ["book:cotgk", "location:Arbooine", "creature", "adventure:Chronicles of the Gatekeeper", "book:aaa"]
 	},
 	{
 		"name": "Phantasmal Beast of Moraband",
@@ -701,7 +701,7 @@
 				"qualities": ["Knockdown 1"]
 			}
 		],
-		"tags": ["species:Droid", "separatist", "book:cotgk", "adventure:Chronicles of the Gatekeeper"]
+		"tags": ["species:Droid", "separatist", "book:cotgk", "adventure:Chronicles of the Gatekeeper", "book:aaa"]
 	},
 	{
 		"name": "Moraband Sith Phantasm",

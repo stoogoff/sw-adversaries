@@ -125,7 +125,7 @@
 		"skills": ["Charm", "Cool", "Perception"],
 		"abilities": ["Keen Senses"],
 		"gear": ["Musical instrument"],
-		"tags": ["civilian", "location:Rim Worlds", "species:Bith", "book:fad", "entertainer"]
+		"tags": ["civilian", "location:Rim Worlds", "species:Bith", "book:fad", "entertainer", "book:aaa"]
 	},
 	{
 		"name": "Brionelle Army Cadet",
@@ -679,7 +679,7 @@
 		"talents": ["Galaxy Mapper 3"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Datapad", "Scout ship"],
-		"tags": ["civilian", "location:Rim Worlds", "book:fad"]
+		"tags": ["civilian", "location:Rim Worlds", "book:fad", "book:aaa"]
 	},
 	{
 		"name": "Mon Calamari Shipwright",
@@ -764,7 +764,7 @@
 			}
 		],
 		"gear": ["Flock of nerfs"],
-		"tags": ["civilian", "book:aor"]
+		"tags": ["civilian", "book:aor", "book:aaa"]
 	},
 	{
 		"name": "Orange-Rated Constable",
@@ -845,7 +845,7 @@
 		},
 		"talents": ["Bacta Specialist 2", "Surgeon 2"],
 		"gear": ["Bacta", "Medpack", "Synthskin"],
-		"tags": ["civilian", "medic", "book:aor"]
+		"tags": ["civilian", "medic", "book:aor", "book:aaa"]
 	},
 	{
 		"name": "Podracer Pilot",
@@ -1209,7 +1209,7 @@
 		},
 		"weapons": ["Blaster pistol"],
 		"gear": ["Padded flight suit (+1 Soak)"],
-		"tags": ["civilian", "species:Sullustan", "pilot", "book:eote"]
+		"tags": ["civilian", "species:Sullustan", "pilot", "book:eote", "book:aaa"]
 	},
 	{
 		"name": "Spaceport Administrator",
@@ -1436,7 +1436,7 @@
 			}
 		],
 		"gear": ["Durable clothing (+1 Soak)", "Tool kit", "Utility belt"],
-		"tags": ["civilian", "location:Rim Worlds", "book:fad", "engineer", "species:Ugnaught"]
+		"tags": ["civilian", "location:Rim Worlds", "book:fad", "engineer", "species:Ugnaught", "book:aaa"]
 	},
 	{
 		"name": "Viewponte Tower Security",
