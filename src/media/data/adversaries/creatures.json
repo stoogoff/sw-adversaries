@@ -1973,7 +1973,7 @@
 				"qualities": ["Pierce 3", "Vicious 2"]
 			}
 		],
-		"tags": ["creature"3 "location:Hoth", "book:sor", "book:aaa"]
+		"tags": ["creature", "location:Hoth", "book:sor", "book:aaa"]
 	},
 	{
 		"name": "Whaladon",
