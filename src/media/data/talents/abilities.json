@@ -188,6 +188,10 @@
 		"description": "Guavian Death Gang members ignore Stun damage and can survive in vacuum and underwater for ten minutes."
 	},
 	{
+		"name": "Cyborg",
+		"description": "Does not need to breathe, eat, or drink and can survive in vacuum or underwater; immune to poisons and toxins."
+	},
+	{
 		"name": "Darkest Dreams",
 		"description": "A Moraband Sith phantasm can spend :advantage::advantage: on a combat check or :threat::threat: on an engaged enemy’s combat check to have the target make an :average-1: fear check; if the target fails, the phantasm transforms into a figure inspired by the target’s greatest fear in addition to any other effects of the failed check."
 	},

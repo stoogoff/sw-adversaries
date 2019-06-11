@@ -1,6 +1,6 @@
 
 export const id = function id(input) {
-	return input.trim().replace(/[^a-z0-9\s]/gi, '').replace(/\s{1,}/g, "-").toLowerCase();
+	return input.trim().replace(/[^a-z0-9\-\s]/gi, '').replace(/\s{1,}/g, "-").toLowerCase();
 }
 
 export const parent = function parent(node, parent) {
@@ -149,6 +149,7 @@ let bookMap = {
 	"book:sof": "Suns of Fortune",
 	"book:nop": "Nexus of Power",
 	"book:dor": "Dawn of Rebellion",
+	"book:rots": "Rise of the Separatists",
 
 	// career books
 	"book:dc": "Dangerous Covenants", // no stats

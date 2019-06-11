@@ -5,11 +5,21 @@
 	},
 	{
 		"name": "Force Power: Move",
-		"description": "The character may hurl objects by making a Move Force Power check and rolling a ranged attack as part of the pool. The attack's difficulty is equal to the Silhouette of the object being thrown (default is Silhouette 0) and only succeeds if they can also spend enough :forcepip: to move the object. The attack deals damage equal to the Silhouette of the object times 10 (Silhouette 0 deals 5 damage) plus one per :success:. To throw multiple objects, they must generate enough :forcepip: to move multiple objects, and must use rules for Auto-Fire to determine difficulty and targeting."
+		"description": "The character may hurl objects by making a Move Force Power check and rolling a ranged attack as part of the pool. The attack’s difficulty is equal to the Silhouette of the object being thrown (default is Silhouette 0) and only succeeds if they can also spend enough :forcepip: to move the object. The attack deals damage equal to the Silhouette of the object times 10 (Silhouette 0 deals 5 damage) plus one per :success:. To throw multiple objects, they must generate enough :forcepip: to move multiple objects, and must use rules for Auto-Fire to determine difficulty and targeting."
 	},
 	{
 		"name": "Force Power: Enhance",
 		"description": "When making an Athletics check, the character may roll an Enhance power check as part of the pool and may spend :forcepip: to gain :success: or :advantage: (their choice) on the check."
+	},
+	{
+		"id": "force-power-enhance-rots",
+		"name": "Force Power: Enhance",
+		"description": "When making an Athletics, Coordination, or Resilience check, the character may roll an Enhance power check as part of the pool and may spend :forcepip: to gain :success: or :advantage: (their choice) on the check. May make an Enhance power check as a Maneuver to spend :forcepip: to leap to any location within Short range, or :forcepip::forcepip: to leap to any location within Medium range."
+	},
+	{
+		"id": "force-power-sense-rots",
+		"name": "Force Power: Sense",
+		"description": "The character may spend :forcepip: to sense all living things within Short range (including animals and sentient beings) and may spend :forcepip::forcepip: to increase the range of this effect to Medium. The character may instead spend :forcepip: to sense the current emotional state of one living target they are engaged with."
 	},
 	{
 		"name": "Force Power: Sense",
@@ -33,7 +43,7 @@
 	},
 	{
 		"name": "Force Power: Battle Meditation",
-		"description": "Spend :forcepip: to add one automatic :success: to all checks made by a number of engaged friendly targets to up Presence before the end of the next turn. If any :darkside: were used to generate :forcepip:, reduce each target's Willpower by 1 (to a minimum of 1) until the end of the encounter."
+		"description": "Spend :forcepip: to add one automatic :success: to all checks made by a number of engaged friendly targets to up Presence before the end of the next turn. If any :darkside: were used to generate :forcepip:, reduce each target’s Willpower by 1 (to a minimum of 1) until the end of the encounter."
 	},
 	{
 		"name": "Force Power: Influence",
@@ -45,11 +55,11 @@
 	},
 	{
 		"name": "Force Power: Unleash",
-		"description": "Make a Force power check targeting one enemy at Short range, roll a ranged attack as part of the pool, using :average: Discipline check instead of normal dif­ficulty. If the check is successful and generates :darkside::darkside: the attack deals 3 damage with a critical rating of 4, plus 1 additional damage per :success:. May spend :darkside: to increase damage by 3, and :darkside: to increase range to Medium."
+		"description": "Make a Force power check targeting one enemy at Short range, roll a ranged attack as part of the pool, using :average: Discipline check instead of normal difficulty. If the check is successful and generates :darkside::darkside: the attack deals {Willpower} damage with a critical rating of 4, plus 1 additional damage per :success:. May spend :darkside: to increase damage by 3, and :darkside: to increase range to Medium."
 	},
 	{
 		"name": "Force Power: Protect",
-		"description": "Make a Protect power check and roll an :averagee: Discipline check as part of the pool. Spend :forcepip::forcepip: to reduce damage from an energy-based weapon that hits himself or an engaged character by amount equal to Willpower plus 1 per :success:. Dark Side Force users may only protect themselves."
+		"description": "Make a Protect power check and roll an :average: Discipline check as part of the pool. Spend :forcepip::forcepip: to reduce damage from an energy-based weapon that hits himself or an engaged character {Willpower} plus 1 per :success:. Dark Side Force users may only protect themselves."
 	},
 	{
 		"name": "On the Edge",
