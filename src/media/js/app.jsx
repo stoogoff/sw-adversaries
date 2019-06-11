@@ -166,7 +166,7 @@ class App extends React.Component {
 			if(filter != "") {
 				filter = filter.toLowerCase();
 
-				adversaries = adversaries.filter(a => a.name.toLowerCase().indexOf(filter) != -1 || a.tags.find(t => t.toLowerCase() == filter) != undefined);
+				adversaries = adversaries.filter(a => a.name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().indexOf(filter) != -1 || a.tags.find(t => t.toLowerCase() == filter) != undefined);
 			}
 
 			this.setState({ list: adversaries });
