@@ -64,6 +64,15 @@ gulp.task("transpile-js", function() {
 gulp.task("merge-data", function() {
 	var mapped = ["adversaries", "qualities", "talents"].map(function(m) {
 		return gulp.src(path.src("media/data/" + m + "/*.json")).pipe(combine(m + ".json", function(data, metaData) {
+			// add the file the adversary is in in dev mode only
+			if(isDev && m == "adversaries") {
+				Object.keys(data).forEach(function(k) {
+					data[k].forEach(function(o) {
+						o.tags.push("file:" + k + ".json");
+					});
+				});
+			}
+
 			var output = [];
 
 			for(var i in data) {
