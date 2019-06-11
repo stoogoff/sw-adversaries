@@ -37,7 +37,7 @@
 		],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Armoured clothing (+1 Defence, +1 Soak)"],
-		"tags": ["book:rots", "senator"]
+		"tags": ["book:rots", "senator", "republic"]
 	},
 	{
 		"name": "Obi-Wan Kenobi",
@@ -370,5 +370,99 @@
 		],
 		"gear": ["Utility belt"],
 		"tags": ["book:rots", "species:Jawa", "location:Tatooine", "adventure:Unusual Opportunities"]
+	},
+	{
+		"name": "Clone Trooper",
+		"type": "Minion",
+		"description": "Genetically engineered for loyalty and combat ability, and trained as soidiers from decanting, the clone troopers of the Grand Army of the Republic are among the finest fighting forces the galaxy has ever seen. Thanks to their training and ability to think on their feet a clone trooper is easily the equal of several battle droids—and doubly so when clone troopers work as a team with their brothers.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 5
+		},
+		"skills": ["Athletics", "Brawl", "Discipline", "Ranged: Heavy", "Vigilance"],
+		"abilities": ["Clone Inhibitor Chip"],
+		"weapons": ["DC-15 blaster rifle", "Frag grenade"],
+		"gear": ["Phase 1 clone trooper armour (+2 Soak)", "2 Frag grenades", "Utility belt", "Extra reload"],
+		"tags": ["book:rots", "clone trooper", "republic"]
+	},
+	{
+		"name": "Clone Sergeant",
+		"type": "Rival",
+		"description": "Clone sergeants lead squads of nine clone troopers. Early in the war, distinctive drab-green markings on their armour identify clone sergeants on the battlefield. Sergeants generally receive their orders from clone lieutenants, although they may occasionally receive direction from a Jedi Padawan commander during unusual or unexpected circumstances.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 14
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Discipline": 2,
+			"Leadership": 2,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"abilities": ["Clone Inhibitor Chip", "Tactical Direction"],
+		"weapons": ["DC-15 blaster rifle", "Frag grenade"],
+		"gear": ["Phase 1 clone trooper armour (+2 Soak)", "2 Frag grenades", "Utility belt", "Extra reload"],
+		"tags": ["book:rots", "clone trooper", "republic"]
+	},
+	{
+		"name": "Clone Captain",
+		"type": "Nemesis",
+		"description": "Responsible tor companies of 144 clone troopers, captains report directly to the clone commander in charge of their corps. Thanks to the somewhat creative approach many Jedi take to the chain of command, some clone captains frequently work directly alongside the Jedi General of their legion. In the initial stages of war, clone captains wear armour with maroon markings in order to identify their rank on the battlefield. As the war progresses, many captains customise their armour with particular iconography or other visual elements, both to showcase their distinctive personality and broadcast a certain image for their company, and to avoid identifying their importance to enemy snipers.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16,
+			"strain": 15
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Discipline": 3,
+			"Knowledge: Warfare": 2,
+			"Leadership": 3,
+			"Ranged: Heavy": 3,
+			"Ranged: Light": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Clone Inhibitor Chip", "Tactical Direction"],
+		"weapons": ["Frag grenade",
+			{
+				"name": "Pair of DC-17 blaster pistols",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Accurate 1", "Stun Setting"]
+			}
+		],
+		"gear": ["Phase 1 clone trooper armour (+2 Soak)", "2 Frag grenades", "Utility belt", "Extra reload"],
+		"tags": ["book:rots", "clone trooper", "republic"]
 	}
 ]

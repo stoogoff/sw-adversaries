@@ -120,6 +120,10 @@
 		"description": "Add :setback::setback::setback: to all checks made to spot or track the maalraa (this can include Vigilance checks made for Initiative if the maalraa ambushes a character). Force-sensitive characters ignore this ability."
 	},
 	{
+		"name": "Clone Inhibitor Chip",
+		"description": "So long as the proper chain of command is observed, upgrade the ability of Leadership checks targeting a clone trooper once."
+	},
+	{
 		"name": "Code of Silence",
 		"description": "Upgrade difficulty of any checks made to obtain any information from this target about the Karazak Slavers’ Cooperative once."
 	},
