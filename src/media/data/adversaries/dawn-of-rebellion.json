@@ -1567,7 +1567,7 @@
 			}
 		],
 		"gear": ["Heavy clothing (+1 Soak)", "Diplomatic comlink", "Secret encrypted comlink", "Datapad"],
-		"tags": ["book:dor", "rebel alliance", "senator", "nobility"]
+		"tags": ["book:dor", "rebel alliance", "senator", "nobility", "republic"]
 	},
 	{
 		"name": "Mon Mothma",

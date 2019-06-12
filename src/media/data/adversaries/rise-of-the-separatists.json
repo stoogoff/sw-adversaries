@@ -464,5 +464,215 @@
 		],
 		"gear": ["Phase 1 clone trooper armour (+2 Soak)", "2 Frag grenades", "Utility belt", "Extra reload"],
 		"tags": ["book:rots", "clone trooper", "republic"]
+	},
+	{
+		"name": "Galactic Senator",
+		"type": "Nemesis",
+		"description": "There is no “typical” Galactic Senator. Each is as unique as the world they represent, known among their fellow Senators for their particular strengths, quirks, and approach to politics. Although the popular idea of a Senator is that of a corrupt and venal self-server, many Senators do act with the welfare of their constituents as their first priority. Senators are charismatic individuals, and most are well-educated. The most successful Senators learn to manage the balance between the unique culture of the Galactic Senate and the desires of their constituents.\n\nDue to the vast diversity of worlds within the Republic, Senator come from a wide variety of backgrounds. Some Senators represent monarchies or other autocratic governments, appointed by a ruler or council rather than the population of a world. The myriad views and histories of the Senate's membership may be both its greatest strength and weakness.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 15
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 2,
+			"Deception ":1 ,
+			"Knowledge: Core Worlds": 2,
+			"Knowledge: Education": 2,
+			"Negotiation": 2
+		},
+		"talents": ["Commanding Presence 2", "Works Like a Charm"],
+		"gear": ["Datapad", "Comlink", "Fine clothing"],
+		"tags": ["book:rots", "republic", "senator"]
+	},
+	{
+		"name": "Republic Fleet Officer",
+		"type": "Rival",
+		"description": "While clones fill many roles aboard the starships of the Republic Navy, most senior positions are filled by career naval officers from the system defence fleets of the Republic's member worlds. These individuals bring a wealth of experience battling pirates, petty Outer Rim warlords, and aggressively expansionist worlds outside the Republic. Other officers previously served aboard the ships of the Judicials, where they traversed the galaxy hunting wanted criminals, seizing smuggling vessels, and protecting honest spacers from a range of threats. Though few officers have previously faced a threat an the scale of the Separatist fleet, their tactical acumen and devotion to the Republic are powerful assets.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 13
+		},
+		"skills": {
+			"Discipline": 2,
+			"Knowledge: Warfare": 2,
+			"Leadership": 3,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Uniform"],
+		"tags": ["book:rots", "republic", "military"]
+	},
+	{
+		"name": "Republic Judicial",
+		"type": "Rival",
+		"description": "Not ail Judicials made the transition to the Republic Navy at the outset of the war. Even at the height of the Clone Wars, the Republic needs peace officers to maintain law and order on its loyal worlds. The blue-uniformed Judicials of the Republic come from a range of backgrounds and homeworlds, but all received intensive training at the Judicial Academy. Judicials are empowered to enforce the laws of the Republic on member worlds and the spacelanes, and are more than capable of handling themselves if a suspect turns violent.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Perception": 3,
+			"Ranged: Heavy": 3,
+			"Ranged: Light": 3,
+			"Streetwise": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Armoured uniform (+1 Defence, +1 Soak)", "Holo-badge"],
+		"tags": ["book:rots", "republic", "security"]
+	},
+	{
+		"name": "B1 Battle Droid",
+		"type": "Minion",
+		"description": "The original batlte droids—which fought for the Trade Federation on Naboo in what some now see as the prelude to the Clone Wars—have largely been replaced. CIS leadership deemed their networked control centres too much of a vulnerability, and newer B1 battle droids are fully capable of extended independent operation. However, the mass-produced armies of battle droids are created to provide abundant fire-power rather than clever tactics, so most commanders keep as light a rein on the droids in their service as they can manage.\n\nNewer clone troopers sometimes dismiss the basic “clankers” as an insignificant threat after taking out isolated patrols by surprise or coordinated assault, but this is an attitude that soon gets weeded out of them. Large numbers of the droids under a competent commander can be a grave threat, due to both the sheer volume of blaster fire and the ease with which the units coordinate their operations when a clear plan is in place.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": ["Gunnery", "Ranged: Heavy", "Ranged: Light"],
+		"abilities": ["Droid"],
+		"weapons": ["Blaster rifle"],
+		"gear": ["Integrated comlink"],
+		"tags": ["book:rots", "separatist", "species:Droid", "battle droid"]
+	},
+	{
+		"name": "B2 Super Battle Droid",
+		"type": "Minion",
+		"description": "The B2 super battle droids are an improvement over the basic B1 droids in numerous ways, only their significantly increased cost keeps them from replacing their predecessors. Instead, the CIS deploys its super battle droids as the vanguard of its armies or as shock troops on advance missions into Republic territory. Small troops of super battle droids are often deployed as bodyguards for minor CIS dignitaries and officers, while a pair of them is generally viewed as sufficient to restrain any prisoner short of a Jedi. The B2 droids are nearly two metres tall and are completely covered in reinforced plating. Even their sensors are contained within the armoured chassis, leaving little in the way of vulnerability. If the droids have a clear weakness, it is in their simple combat programming. Super battle droids often focus on the elimination of targets above all else when left to their own devices, and they can easily be baited or distracted without a competent commander or tactical droid overseeing them.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 7
+		},
+		"skills": ["Brawl", "Gunnery", "Melee", "Ranged: Heavy", "Ranged: Light"],
+		"abilities": ["Droid"],
+		"weapons": [
+			{
+				"name": "Integrated wrist blaster",
+				"skill": "Ranged: Light",
+				"damage": 10,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Linked 1"]
+			}
+		],
+		"gear": ["Integrated comlink"],
+		"tags": ["book:rots", "separatist", "species:Droid", "battle droid"]
+	},
+	{
+		"name": "Buzz Droid",
+		"type": "Minion",
+		"description": "Technically known as Pistoeka sabotage droids, these diminutive machines seem more like animate munitions than actual members of the droid army. Typically deployed out of discord missiles or similar dispersal mechanisms, buzz droids are released to tear apart enemy vehicles such as starfighters and transports. Although they are individually little threat even to a lightly armoured fighter, a swarm of buzz droids can quickly strip a ship of its plating and begin tearing apart vital systems. Removing buzz droids from a ship usually requires daredevil piloting or intervention from other droids serving aboard the vessel, such as a fighter's astromech co-pilot, as a pilot can hardly spare the attention to deal with the droids directly while mid-flight. Despite their destructive capabilities, buzz droids are little threat to combatants who find a way to confront them. The armaments are specialised tools, rather than true weapons, and they have little to nothing in the way of armour or redundant systems, as the CIS manufacturers designed them to be disposable weapons.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 3
+		},
+		"skills": ["Coordination", "Melee"],
+		"abilities": ["Droid", "Silhouette 0",
+			{
+				"name": "Sabotage",
+				"description": "Attacks by a minion group of buzz droids that target a vehicle inflict planetary-scale damage and gain Breach 1."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Integrated saws and drills",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"tags": ["book:rots", "separatist", "species:Droid"]
+	},
+	{
+		"name": "C-8 Saboteur Droid",
+		"type": "Rival",
+		"description": "One of the more advanced models of battle droid in use by the CIS, C-8 saboteur droids operate in small, independent squads apart from the primary droid divisions. Designed with integrated and advanced sensor-masking plates and strike-and-fade combat protocols, these droids engage without warning, cause as much damage as possible, and then disappear amid the chaos of their unexpected attack. When facing a fortified or stationary target, the droids are sometimes equipped with demolition charges to deploy during their infiltration. C-8 saboteur droids are compact units, standing only 1.7 metres tall. Nevertheless, their matte-black plating and featureless face plates are intimidating to those who spot them; they resemble nothing so much as a void in humanoid form. When they are not in combat their armaments are stored in internal compartments, so as to benefit from the sensor-defeating properties of their armour plating.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 12,
+			"strain": 19
+		},
+		"skills": {
+			"Brawl": 2,
+			"Mechanics": 2,
+			"Ranged: Light": 2,
+			"Skulduggery": 2,
+			"Stealth": 4,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Droid",
+			{
+				"name": "Sensor Masking",
+				"description": "Upgrade the difficulty of checks to detect or analyse the droid with electronic equipment or sensors once."
+			}
+		],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Integrated comlink"],
+		"tags": ["book:rots", "separatist", "species:Droid", "battle droid"]
 	}
 ]

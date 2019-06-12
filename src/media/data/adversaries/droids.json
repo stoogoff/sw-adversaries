@@ -663,7 +663,7 @@
 		"abilities": ["Droid"],
 		"weapons": ["Electrostaff"],
 		"gear": ["Built-in armour plating (+2 Soak, +1 Defence)"],
-		"tags": ["species:Droid", "separatist", "book:fad"]
+		"tags": ["species:Droid", "separatist", "book:fad", "book:rots"]
 	},
 	{
 		"name": "Imperial Security Droid",
