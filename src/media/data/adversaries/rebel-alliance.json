@@ -19,7 +19,7 @@
 		"abilities": ["Covering Fire"],
 		"weapons": ["Blaster rifle", "Combat knife"],
 		"gear": ["Blast vest (+1 Soak)"],
-		"tags": ["rebel alliance", "book:aor"]
+		"tags": ["rebel alliance", "book:aor", "book:aaa"]
 	},
 	{
 		"name": "Bothan Spy",
@@ -103,7 +103,7 @@
 		"abilities": ["Improved Covering Fire"],
 		"weapons": ["Blaster carbine", "Light blaster pistol"],
 		"gear": ["Blast vest (+1 Soak)"],
-		"tags": ["rebel alliance", "book:aor"]
+		"tags": ["rebel alliance", "book:aor", "book:aaa"]
 	},
 	{
 		"name": "Incom Engineer",
@@ -198,7 +198,7 @@
 		"abilities": ["Amphibious"],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Inflammatory pamphlets and propaganda."],
-		"tags": ["rebel alliance", "species:Quarren", "book:aor", "agitator"]
+		"tags": ["rebel alliance", "species:Quarren", "book:aor", "agitator", "book:aaa"]
 	},
 	{
 		"name": "Quartermaster",
@@ -224,7 +224,7 @@
 		"talents": ["Know Somebody 2", "Nobody’s Fool 1"],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Blast vest (+1 Soak)"],
-		"tags": ["rebel alliance", "book:aor"]
+		"tags": ["rebel alliance", "book:aor", "book:aaa"]
 	},
 	{
 		"name": "Rebel Cell Leader",
@@ -269,7 +269,7 @@
 			}
 		],
 		"gear": ["Armoured clothing (+1 Soak, +1 Defence)"],
-		"tags": ["rebel alliance", "book:aor"]
+		"tags": ["rebel alliance", "book:aor", "book:aaa"]
 	},
 	{
 		"name": "Rebel Specforce Infiltrator",
@@ -323,7 +323,7 @@
 		},
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Flight suit", "Astromech droid"],
-		"tags": ["rebel alliance", "pilot", "book:aor"]
+		"tags": ["rebel alliance", "pilot", "book:aor", "book:aaa"]
 	},
 	{
 		"name": "Rebel Alliance Liaison",
@@ -362,7 +362,7 @@
 			}
 				],
 		"gear": ["Padded armour (+2 Soak)"],
-		"tags": ["rebel alliance", "book:eote"]
+		"tags": ["rebel alliance", "book:eote", "book:aaa"]
 	},
 	{
 		"name": "Starfighter Pilot",
@@ -383,7 +383,7 @@
 		"skills": ["Cool", "Gunnery", "Piloting: Space"],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Flight suit"],
-		"tags": ["rebel alliance", "pilot", "book:aor", "adventure:Operation Shell Game"]
+		"tags": ["rebel alliance", "pilot", "book:aor", "adventure:Operation Shell Game", "book:aaa"]
 	},
 	{
 		"name": "Sullustan Resistance Fighter",

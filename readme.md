@@ -184,6 +184,8 @@ Main tasks:
 	- AoR
 	- FaD
 	- EotE
+	Allies and Adversaries
+	Rise of the Separatists
 
 ## TODO
 

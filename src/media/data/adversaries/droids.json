@@ -21,7 +21,7 @@
 		},
 		"abilities": ["Droid"],
 		"gear": ["Built-in diagnostic and surgical tools (adds a :boost: to Medicine checks and counts as a stimpack that can be used once per session)"],
-		"tags": ["species:Droid", "book:ragp", "adventure:Rescue at Glare Peak", "medic"]
+		"tags": ["species:Droid", "book:ragp", "adventure:Rescue at Glare Peak", "medic", "book:aaa"]
 	},
 	{
 		"name": "3PX-Series Protocol Droid",
@@ -235,7 +235,7 @@
 		"skills": ["Ranged: Heavy"],
 		"abilities": ["Droid"],
 		"weapons": ["Blaster rifle"],
-		"tags": ["species:Droid", "book:eote", "battle droid"]
+		"tags": ["species:Droid", "book:eote", "battle droid", "book:aaa"]
 	},
 	{
 		"name": "Assassin Droid",
@@ -327,7 +327,7 @@
 			}
 		],
 		"gear": ["Built-in repair tools"],
-		"tags": ["species:Droid", "engineer", "book:aor", "book:eote", "astromech"]
+		"tags": ["species:Droid", "engineer", "book:aor", "book:eote", "astromech", "book:aaa"]
 	},
 	{
 		"name": "Butterbug Remote",
@@ -663,7 +663,7 @@
 		"abilities": ["Droid"],
 		"weapons": ["Electrostaff"],
 		"gear": ["Built-in armour plating (+2 Soak, +1 Defence)"],
-		"tags": ["species:Droid", "separatist", "book:fad", "book:rots"]
+		"tags": ["species:Droid", "separatist", "book:fad", "book:rots", "book:aaa"]
 	},
 	{
 		"name": "Imperial Security Droid",
@@ -881,7 +881,7 @@
 		"abilities": ["Droid"],
 		"weapons": ["Arc welder"],
 		"gear": ["Built-in repair tools (counts as tool kit as well as emergency repair kit that can be used once per session)"],
-		"tags": ["species:Droid", "engineer", "book:aor", "book:eote", "book:ragp", "adventure:Rescue at Glare Peak"]
+		"tags": ["species:Droid", "engineer", "book:aor", "book:eote", "book:ragp", "adventure:Rescue at Glare Peak", "book:aaa"]
 	},
 	{
 		"name": "Mark IV Patrol Droid",
@@ -1119,7 +1119,7 @@
 			"Perception": 1
 		},
 		"abilities": ["Droid", "Etiquette and Protocol"],
-		"tags": ["species:Droid", "book:aor", "book:eote", "book:ragp", "adventure:Rescue at Glare Peak", "protocol droid"]
+		"tags": ["species:Droid", "book:aor", "book:eote", "book:ragp", "adventure:Rescue at Glare Peak", "protocol droid", "book:aaa"]
 	},
 	{
 		"name": "Q7-Series Astromech Droid",
@@ -1347,7 +1347,7 @@
 				"qualities": ["Ensnare 5", "Limited Ammo 1"]
 			}
 		],
-		"tags": ["species:Droid", "security", "book:eote"]
+		"tags": ["species:Droid", "security", "book:eote", "book:aaa"]
 	},
 	{
 		"name": "Sentry Droid",
@@ -1608,7 +1608,7 @@
 			}
 		],
 		"gear": ["Long-range holonet communicator", "Life form scanner", "Long-range sensor array"],
-		"tags": ["species:Droid", "empire", "book:fad", "adventure:Hidden Depths"]
+		"tags": ["species:Droid", "empire", "book:fad", "adventure:Hidden Depths", "book:aaa"]
 	},
 	{
 		"name": "T-Series Tactical Droid",

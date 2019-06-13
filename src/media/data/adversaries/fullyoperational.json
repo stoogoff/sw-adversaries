@@ -44,7 +44,7 @@
 		"skills": ["Computers", "Mechanics"],
 		"abilities": ["Droid"],
 		"gear": ["Built-in DF-15 fusion generator", "spectrometer", "multi-spectral scanner", "manipulator arm", "power diagnostics package (removes :setback to checks made remove system strain from vehicles or starships)"],
-		"tags": ["species:Droid", "book:fo"]
+		"tags": ["species:Droid", "book:fo", "book:aaa"]
 	},
 	{
 		"name": "EOD-Mk IV Explosives Disposal Remote",

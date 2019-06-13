@@ -125,7 +125,7 @@
 		"skills": ["Charm", "Cool", "Perception"],
 		"abilities": ["Keen Senses"],
 		"gear": ["Musical instrument"],
-		"tags": ["civilian", "location:Rim Worlds", "species:Bith", "book:fad", "entertainer"]
+		"tags": ["civilian", "location:Rim Worlds", "species:Bith", "book:fad", "entertainer", "book:aaa"]
 	},
 	{
 		"name": "Brionelle Army Cadet",
@@ -390,7 +390,7 @@
 		},
 		"talents": ["Plausible Deniability 1", "Nobody’s Fool 2"],
 		"weapons": ["Light blaster pistol"],
-		"tags": ["civilian", "book:eote"]
+		"tags": ["civilian", "book:eote", "book:aaa"]
 	},
 	{
 		"name": "Customs Inspector",
@@ -415,7 +415,7 @@
 		},
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Hand scanner"],
-		"tags": ["civilian", "spaceport personnel", "book:eote"]
+		"tags": ["civilian", "spaceport personnel", "book:eote", "book:aaa"]
 	},
 	{
 		"name": "Doellinist High Priest",
@@ -561,7 +561,7 @@
 		"skills": ["Coercion", "Melee", "Ranged: Heavy"],
 		"weapons": ["Riot gun", "Truncheon"],
 		"gear": ["Riot armour (+2 Soak)"],
-		"tags": ["civilian", "coprorate security authority", "security", "book:eote"]
+		"tags": ["civilian", "coprorate security authority", "security", "book:eote", "book:aaa"]
 	},
 	{
 		"name": "CSA Security Captain",
@@ -592,7 +592,7 @@
 		"abilities": ["Riot Tactics"],
 		"weapons": ["Riot gun", "Truncheon"],
 		"gear": ["Riot armour (+2 Soak)"],
-		"tags": ["civilian", "coprorate security authority", "security", "book:eote"]
+		"tags": ["civilian", "coprorate security authority", "security", "book:eote", "book:aaa"]
 	},
 	{
 		"name": "CSA Viceprex",
@@ -625,7 +625,7 @@
 		"talents": ["Adversary 1", "Improved Scathing Tirade", "Improved Inspiring Rhetoric"],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Personal deflector shield (+2 ranged Defence)", "Encrypted expense voucher with 5,000-10,000 credits"],
-		"tags": ["civilian", "coprorate security authority", "book:eote"]
+		"tags": ["civilian", "coprorate security authority", "book:eote", "book:aaa"]
 	},
 	{
 		"name": "Cyborg Administrator",
@@ -679,7 +679,7 @@
 		"talents": ["Galaxy Mapper 3"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Datapad", "Scout ship"],
-		"tags": ["civilian", "location:Rim Worlds", "book:fad"]
+		"tags": ["civilian", "location:Rim Worlds", "book:fad", "book:aaa"]
 	},
 	{
 		"name": "Mon Calamari Shipwright",
@@ -705,7 +705,7 @@
 		"talents": ["Known Schematic"],
 		"abilities": ["Amphibious"],
 		"gear": ["Comlink", "Datapad with schematics", "Repair tools"],
-		"tags": ["civilian", "species:Mon Calamari", "book:sor", "engineer"]
+		"tags": ["civilian", "species:Mon Calamari", "book:sor", "engineer", "book:aaa"]
 	},
 	{
 		"name": "Mon Calamari Commander",
@@ -764,7 +764,7 @@
 			}
 		],
 		"gear": ["Flock of nerfs"],
-		"tags": ["civilian", "book:aor"]
+		"tags": ["civilian", "book:aor", "book:aaa"]
 	},
 	{
 		"name": "Orange-Rated Constable",
@@ -845,7 +845,7 @@
 		},
 		"talents": ["Bacta Specialist 2", "Surgeon 2"],
 		"gear": ["Bacta", "Medpack", "Synthskin"],
-		"tags": ["civilian", "medic", "book:aor"]
+		"tags": ["civilian", "medic", "book:aor", "book:aaa"]
 	},
 	{
 		"name": "Podracer Pilot",
@@ -872,7 +872,7 @@
 		"talents": ["Full Throttle", "Skilled Jockey 1"],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Tool kit", "Podracer"],
-		"tags": ["civilian", "pilot", "location:Rim Worlds", "book:fad"]
+		"tags": ["civilian", "pilot", "location:Rim Worlds", "book:fad", "book:aaa"]
 	},
 	{
 		"name": "Gand Findsman",
@@ -913,7 +913,7 @@
 			}
 		],
 		"gear": ["Macrobinoulars"],
-		"tags": ["civilian", "species:Gand", "bounty hunter", "location:Rim Worlds", "book:fad"]
+		"tags": ["civilian", "species:Gand", "bounty hunter", "location:Rim Worlds", "book:fad", "book:aaa"]
 	},
 	{
 		"name": "Glare Peak Security Personnel",
@@ -1035,7 +1035,7 @@
 		"abilities": ["Leader"],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Rich clothing (+1 Soak)"],
-		"tags": ["civilian", "book:eote"]
+		"tags": ["civilian", "book:eote", "book:aaa"]
 	},
 	{
 		"name": "Politician / Senator",
@@ -1179,7 +1179,7 @@
 		"talents": ["Adversary 1"],
 		"weapons": ["Blaster rifle"],
 		"gear": ["Padded armour (+2 Soak)", "Stimpack"],
-		"tags": ["civilian", "security", "spaceport personnel", "book:eote"]
+		"tags": ["civilian", "security", "spaceport personnel", "book:eote", "book:aaa"]
 	},
 	{
 		"name": "Sullustan Pilot-for-Hire",
@@ -1209,7 +1209,7 @@
 		},
 		"weapons": ["Blaster pistol"],
 		"gear": ["Padded flight suit (+1 Soak)"],
-		"tags": ["civilian", "species:Sullustan", "pilot", "book:eote"]
+		"tags": ["civilian", "species:Sullustan", "pilot", "book:eote", "book:aaa"]
 	},
 	{
 		"name": "Spaceport Administrator",
@@ -1269,7 +1269,7 @@
 		},
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Datapad", "Comlink"],
-		"tags": ["civilian", "spaceport personnel", "book:aor"]
+		"tags": ["civilian", "spaceport personnel", "book:aor", "book:aaa"]
 	},
 	{
 		"name": "Spaceport Urchin",
@@ -1375,7 +1375,7 @@
 		"abilities": ["Hoverer", "Silhouette 0"],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Loaded chance cubes", "Dataslate"],
-		"tags": ["civilian", "species:Toydarian", "location:Hutt Space", "book:fad", "book:lonh"]
+		"tags": ["civilian", "species:Toydarian", "location:Hutt Space", "book:fad", "book:lonh", "book:aaa"]
 	},
 	{
 		"name": "Toydarian Royal Guard",
@@ -1436,7 +1436,7 @@
 			}
 		],
 		"gear": ["Durable clothing (+1 Soak)", "Tool kit", "Utility belt"],
-		"tags": ["civilian", "location:Rim Worlds", "book:fad", "engineer", "species:Ugnaught"]
+		"tags": ["civilian", "location:Rim Worlds", "book:fad", "engineer", "species:Ugnaught", "book:aaa"]
 	},
 	{
 		"name": "Viewponte Tower Security",
@@ -1498,7 +1498,7 @@
 			}
 		],
 		"gear": ["Personal shuttle"],
-		"tags": ["nobility", "location:Core Worlds", "book:aor", "book:eote"]
+		"tags": ["nobility", "location:Core Worlds", "book:aor", "book:eote", "book:aaa"]
 	},
 	{
 		"name": "Zelcomm Enforcer",

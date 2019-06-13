@@ -277,7 +277,7 @@
 				"qualities": ["Disorient 1", "Knockdown"]
 			}
 		],
-		"tags": ["book:ss", "creature"]
+		"tags": ["book:ss", "creature", "book:aaa"]
 	},
 	{
 		"name": "Runderen",
