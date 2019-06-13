@@ -32,7 +32,7 @@ export default class Character extends React.Component {
 				aliveMinions: 0
 			});
 		} else {
-			this.setAliveMinions(minions, this.state.currentWounds);236
+			this.setAliveMinions(minions, this.state.currentWounds);
 			}
 
 		this.setState({
@@ -137,7 +137,7 @@ export default class Character extends React.Component {
 
 			// add force rating
 			(character.talents || []).forEach(t => {
-				if(t.startsWith("Force Rating")) {
+				if(t && t.startsWith && t.startsWith("Force Rating")) {
 					stats["Force Rating"] = t.split(" ")[2];
 				}
 			});
