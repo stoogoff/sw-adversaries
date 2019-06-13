@@ -596,6 +596,10 @@
 		"description": "Should the probe droid’s mission become compromised, it may self-destruct as an out of turn incidental; this explosion does 10 damage to Engaged characters."
 	},
 	{
+		"name": "Sensor Masking",
+		"description": "Upgrade the difficulty of checks to detect or analyse the droid with electronic equipment or sensors once."
+	},
+	{
 		"name": "Sessile",
 		"description": "This creature is unable to perform Move maneuvers."
 	},

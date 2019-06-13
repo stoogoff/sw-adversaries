@@ -468,7 +468,7 @@
 	{
 		"name": "Galactic Senator",
 		"type": "Nemesis",
-		"description": "There is no “typical” Galactic Senator. Each is as unique as the world they represent, known among their fellow Senators for their particular strengths, quirks, and approach to politics. Although the popular idea of a Senator is that of a corrupt and venal self-server, many Senators do act with the welfare of their constituents as their first priority. Senators are charismatic individuals, and most are well-educated. The most successful Senators learn to manage the balance between the unique culture of the Galactic Senate and the desires of their constituents.\n\nDue to the vast diversity of worlds within the Republic, Senator come from a wide variety of backgrounds. Some Senators represent monarchies or other autocratic governments, appointed by a ruler or council rather than the population of a world. The myriad views and histories of the Senate's membership may be both its greatest strength and weakness.",
+		"description": "There is no “typical” Galactic Senator. Each is as unique as the world they represent, known among their fellow Senators for their particular strengths, quirks, and approach to politics. Although the popular idea of a Senator is that of a corrupt and venal self-server, many Senators do act with the welfare of their constituents as their first priority. Senators are charismatic individuals, and most are well-educated. The most successful Senators learn to manage the balance between the unique culture of the Galactic Senate and the desires of their constituents.\n\nDue to the vast diversity of worlds within the Republic, Senator come from a wide variety of backgrounds. Some Senators represent monarchies or other autocratic governments, appointed by a ruler or council rather than the population of a world. The myriad views and histories of the Senate’s membership may be both its greatest strength and weakness.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -497,7 +497,7 @@
 	{
 		"name": "Republic Fleet Officer",
 		"type": "Rival",
-		"description": "While clones fill many roles aboard the starships of the Republic Navy, most senior positions are filled by career naval officers from the system defence fleets of the Republic's member worlds. These individuals bring a wealth of experience battling pirates, petty Outer Rim warlords, and aggressively expansionist worlds outside the Republic. Other officers previously served aboard the ships of the Judicials, where they traversed the galaxy hunting wanted criminals, seizing smuggling vessels, and protecting honest spacers from a range of threats. Though few officers have previously faced a threat an the scale of the Separatist fleet, their tactical acumen and devotion to the Republic are powerful assets.",
+		"description": "While clones fill many roles aboard the starships of the Republic Navy, most senior positions are filled by career naval officers from the system defence fleets of the Republic’s member worlds. These individuals bring a wealth of experience battling pirates, petty Outer Rim warlords, and aggressively expansionist worlds outside the Republic. Other officers previously served aboard the ships of the Judicials, where they traversed the galaxy hunting wanted criminals, seizing smuggling vessels, and protecting honest spacers from a range of threats. Though few officers have previously faced a threat an the scale of the Separatist fleet, their tactical acumen and devotion to the Republic are powerful assets.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -607,7 +607,7 @@
 	{
 		"name": "Buzz Droid",
 		"type": "Minion",
-		"description": "Technically known as Pistoeka sabotage droids, these diminutive machines seem more like animate munitions than actual members of the droid army. Typically deployed out of discord missiles or similar dispersal mechanisms, buzz droids are released to tear apart enemy vehicles such as starfighters and transports. Although they are individually little threat even to a lightly armoured fighter, a swarm of buzz droids can quickly strip a ship of its plating and begin tearing apart vital systems. Removing buzz droids from a ship usually requires daredevil piloting or intervention from other droids serving aboard the vessel, such as a fighter's astromech co-pilot, as a pilot can hardly spare the attention to deal with the droids directly while mid-flight. Despite their destructive capabilities, buzz droids are little threat to combatants who find a way to confront them. The armaments are specialised tools, rather than true weapons, and they have little to nothing in the way of armour or redundant systems, as the CIS manufacturers designed them to be disposable weapons.",
+		"description": "Technically known as Pistoeka sabotage droids, these diminutive machines seem more like animate munitions than actual members of the droid army. Typically deployed out of discord missiles or similar dispersal mechanisms, buzz droids are released to tear apart enemy vehicles such as starfighters and transports. Although they are individually little threat even to a lightly armoured fighter, a swarm of buzz droids can quickly strip a ship of its plating and begin tearing apart vital systems. Removing buzz droids from a ship usually requires daredevil piloting or intervention from other droids serving aboard the vessel, such as a fighter’s astromech co-pilot, as a pilot can hardly spare the attention to deal with the droids directly while mid-flight. Despite their destructive capabilities, buzz droids are little threat to combatants who find a way to confront them. The armaments are specialised tools, rather than true weapons, and they have little to nothing in the way of armour or redundant systems, as the CIS manufacturers designed them to be disposable weapons.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 2,
@@ -665,14 +665,210 @@
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 1"],
-		"abilities": ["Droid",
-			{
-				"name": "Sensor Masking",
-				"description": "Upgrade the difficulty of checks to detect or analyse the droid with electronic equipment or sensors once."
-			}
-		],
+		"abilities": ["Droid", "Sensor Masking"],
 		"weapons": ["Heavy blaster pistol"],
 		"gear": ["Integrated comlink"],
 		"tags": ["book:rots", "separatist", "species:Droid", "battle droid"]
+	},
+	{
+		"name": "DRK-1 Probe Droid",
+		"type": "Rival",
+		"description": "These enigmatic droids are believed by the Jedi Lo have been designed according to specifications found in ancient Sith holocrons, but few have been encountered, much less recovered, providing limited basis for conjecture. Reports of these droids were first relayed by Jedi Master Qui-Gon Jinn during the blockade of Naboo, but more have since filtered in from isolated sites across the galaxy. Few Know who among Count Dooku’s servants has the authority to deploy the droids or knowledge of their missions. When the droids are spotted, reports are often limited or unverifiable. The Jedi and Republic Intelligence both believe the droids make use of sensor-baffling technology to become virtually undetectable to electronic equipment, and their small size and great speed make them hard to spot by unaided senses. On the rare occasions when the droids have been cornered, they typically begin firing with micro grenade launchers, attempting to either destroy then opponent or to force the opponent to destroy the droid",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4
+		},
+		"skills": {
+			"Perception": 3,
+			"Ranged: Light": 1,
+			"Stealth": 3,
+			"Vigilance": 3
+		},
+		"abilities": ["Droid", "Sensor Masking"],
+		"weapons": [
+			{
+				"name": "Micro-grenade launcher",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Blast 4"]
+			}
+		],
+		"gear": ["Integrated subspace transceiver", "Sensor array (grants :boost: on Perception and Vigilance checks)"],
+		"tags": ["book:rots", "separatist", "species:Droid"]
+	},
+	{
+		"name": "DSD1 Dwarf Spider Droid",
+		"type": "Rival",
+		"description": "Straddling the line between a heavy battle droid and a light droid tank, dwarf spider droids are common heavy weapons platforms for the Separatist Army. These compact walkers are able to maneuver through confined spaces with relative ease thanks to the extensive articulation of their quadrupedal limb array. They are often deployed in urban combat environments and other situations that restrict the use of true tanks. Heavy armour plating covers their bodies, although it is mire limited on the droid’s underbellies, which are not normally exposed to enemy fire. The DSD1 model’s fire-power comes from a powerful, centrally mounted cannon capable of devastating long-range fire.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 15
+		},
+		"skills": {
+			"Gunnery": 2,
+			"Perception": 2,
+			"Vigilance": 1
+		},
+		"abilities": ["Droid", "Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Integrated heavy repeating blaster",
+				"skill": "Gunnery",
+				"damage": 15,
+				"critical": 2,
+				"range": "Long",
+				"qualities": ["Auto-Fire", "Pierce 2", "Vicious 1"]
+			}
+		],
+		"gear": ["Integrated comlink and sensor array (add :boost: to Perception and Vigilance checks)"],
+		"tags": ["book:rots", "separatist", "species:Droid"]
+	},
+	{
+		"name": "LM-432 Crab Droid",
+		"type": "Rival",
+		"description": "These powerful droid tanks are among the heaviest unit deployed in the Separatist ground forces. Their six powerful limbs can batter aside any opposition that makes it into dose quarters, while the dual blaster cannons slung under the droid’s main chassis destroy more distant foes, sometimes even before the enemies’ weapons are in range to return fire. Although not as capable in urban environments or similarly constrained quarters as battle droids or the smaller dwarf spider walkers, a detachment of crab droids can dominate a large-scale engagement in open terrain, as their thick plating negates the need for cover.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 21,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coordination": 1,
+			"Gunnery": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Droid", "Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Integrated dual heavy repeating blasters",
+				"skill": "Gunnery",
+				"damage": 15,
+				"critical": 2,
+				"range": "Long",
+				"qualities": ["Auto-Fire", "Linked 1", "Pierce 2", "Vicious 1"]
+			},
+			{
+				"name": "Clawed limb",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1", "Knockdown"]
+			}
+		],
+		"gear": ["Integrated comlink and sensor array (add :boost: to Perception and Vigilance checks)"],
+		"tags": ["book:rots", "separatist", "species:Droid"]
+	},
+	{
+		"name": "Pilot Battle Droid",
+		"type": "Minion",
+		"description": "Pilot droids of the B1 series were designed with more advanced cognitive capabilities than their infantry counterparts. In addition to basic combat and piloting protocols, the droids are programmed to maintain the ships and vehicles vehicles they utilise, whether the droids are part at a fighter wing, aboard a massive battleship, or crewing AAT-1 hover tanks. They are the standard crew of the CIS fleet and are commonly encountered by Republic troops during boarding actions.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": ["Gunnery", "Mechanics", "Piloting: Planetary", "Piloting: Space", "Ranged: Light"],
+		"abilities": ["Droid"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Integrated comlink"],
+		"tags": ["book:rots", "separatist", "species:Droid"]
+	},
+	{
+		"name": "S-43 Enforcer Droid",
+		"type": "Minion",
+		"description": "The Separatists are not the only manufacturers of combat droids in the galaxy. A small consortium of Hutts have begun development on their own line of “enforcer droids” to help defend their holdings amid growing galactic instability—and to help them seize more territory where they can manage. The S-43 enforcer droids are based on stolen Separatist plans for battle droids, but they have undergone a number of adjustments to better suit their manufacturers’ interests. Since the enforcer droids are regularly deployed against underworld lowlifes and negligent debtors, the Hutts have skimped on reinforcement for the the droids’ chassis as an unnecessary cost, making them more fragile than even basic B1 battle doids. However, the droids are equipped with upgraded processors designed to help them deal with the trickery and deception common to their operations, as well as integrated weaponry so that they can never be disarmed. Even given the consortium’s attempts to save costs where possible, the enforcer droid project has been a considerable investment. Nevertheless, it has already begun to pay dividends, as orders of the droids pout in from crime lords across the galaxy.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 4
+		},
+		"skills": ["Gunnery", "Melee", "Ranged: Heavy", "Ranged: Light"],
+		"abilities": ["Droid"],
+		"weapons": ["Blaster carbine",
+			{
+				"name": "Integrated vibroblade",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 1"]
+			}
+		],
+		"tags": ["book:rots", "enforcer", "species:Droid"]
+	},
+	{
+		"name": "T-Series Tactical Droid (RotS)",
+		"type": "Nemesis",
+		"description": "Tactical droids are commonly found as the commanders of smaller detachments of droids and as advisers to the main leadership of the CIS droid army. The T-series models are among the most commonly fielded, ad their advanced processors are responsible for many of the Separatists’ most successful stratagems. The droids’ confidence in their own tactical prowess borders on arrogance; nevertheless, against all but the most daring or unorthodox of opponents, they can deliver victories exactly as promised, The blocky bodies of T-series droids are reasonably resistant to damage but ill-suited for direct combat compared to other droid models, especially given the extravagant cost of their processors. As such, they are rarely seen anywhere near the front lines. However, when they are involved in a conflict directly, their precise calculation of the odds of victory can embolden Separatist fighters and dishearten the Republic troops who know all too well how accurate those calculations can be.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 13,
+			"strain": 16
+		},
+		"skills": {
+			"Coercion": 2,
+			"Discipline": 2,
+			"Knowledge: Warfare": 3,
+			"Leadership": 5,
+			"Negotiation": 2,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Nobody’s Fool 2", "Improved Inpsiring Rhetoric", "Improved Scathing Tirade"],
+		"abilities": ["Droid"],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Datapad", "Integrated comlink"],
+		"tags": ["book:rots", "separatist", "species:Droid"]
 	}
 ]
