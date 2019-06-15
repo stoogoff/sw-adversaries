@@ -885,6 +885,10 @@
 		"description": ""
 	},
 	{
+		"name": "Experienced Slicer",
+		"description": "Add :boost: to Computers and Skulduggery chekcs made by allies within short range."
+	},
+	{
 		"name": "Master Starhopper",
 		"description": ""
 	},
@@ -986,7 +990,7 @@
 	},
 	{
 		"name": "Natural Pilot",
-		"description": "Once per session, may reroll any one Piloting: Space or Gun­nery check."
+		"description": "Once per session, may reroll any one Piloting: Space or Gunnery check."
 	},
 	{
 		"name": "Natural Programmer",

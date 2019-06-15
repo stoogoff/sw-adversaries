@@ -404,5 +404,336 @@
 		],
 		"gear": ["Heavy clothing (+1 soak)", "Modified YT-1300 freighter Millennium Falcon"],
 		"tags": ["rebel alliance", "book:aaa", "underworld", "pilot"]
+	},
+	{
+		"name": "Jyn Erso",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 15,
+			"strain": 15,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 3,
+			"Coercion": 2,
+			"Cool": 2,
+			"Coordination": 2,
+			"Deception": 3,
+			"Discipline": 2,
+			"Knowledge: Underworld": 4,
+			"Leadership": 3,
+			"Mechanics": 2,
+			"Melee": 4,
+			"Perception": 3,
+			"Ranged: Light": 3,
+			"Resilience": 3,
+			"Skulduggery": 4,
+			"Stealth": 3,
+			"Survival": 4,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Frenzied Attack 2", "Natural Leader"],
+		"abilities": [
+			{
+				"name": "Takes advantage",
+				"description": "Jyn needs one fewer :advantage: to activate an item quality, to a minimum of one."
+			},
+			{
+				"name": "While They’re Down",
+				"description": "Allies add :advantage::advantage: to Melee checks made against prone or disoriented targets engaged with Jyn."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Jyn’s blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting", "Disorient 1"]
+			},
+			{
+				"name": "Paired truncheons",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 2", "Knockdown", "Linked 1"]
+			}
+		],
+		"gear": ["Heavy clothing (+1 soak)", "Comlink"],
+		"tags": ["rebel alliance", "book:aaa", "underworld"]
+	},
+	{
+		"name": "K-2SO",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 18,
+			"strain": 12,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Astrogation": 3,
+			"Brawl": 3,
+			"Coercion": 1,
+			"Computers": 4,
+			"Knowledge: Education": 4,
+			"Knowledge: Warfare": 4,
+			"Mechanics": 2,
+			"Perception": 2,
+			"Piloting: Planetary": 3,
+			"Piloting: Space": 3,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Durable 4"],
+		"abilities": ["Droid",
+			{
+				"name": "Brutal Honesty",
+				"description": "K-2SO adds :setback::setback: to allies’ social skill checks within short range."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Fists",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Disorient 1", "Knockdown"]
+			}
+		],
+		"gear": ["Built-in comms package with communications booster", "Concealed dataspike in hand"],
+		"tags": ["rebel alliance", "book:aaa", "species:Droid"]
+	},
+	{
+		"name": "Lando Calrissian (Allies and Adversaries)",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 5
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 15,
+			"strain": 16
+		},
+		"skills": {
+			"Charm": 4,
+			"Cool": 2,
+			"Deception": 4,
+			"Discipline": 2,
+			"Gunnery": 2,
+			"Knowledge: Core Worlds": 1,
+			"Knowledge: Underworld": 2,
+			"Negotiation": 3,
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Skulduggery": 2,
+			"Stealth": 1,
+			"Streetwise": 1,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 2", "Kill with Kindness 1", "Nobody’s Fool 2", "Plausible Deniability 2"],
+		"abilities": ["Luck Be a Lady",
+				{
+				"name": "Idiot’s Array",
+				"description": "Once per encounter, may turn :triumph: from another character’s skill check related to a game of chance into :despair:."
+				}
+		],
+		"weapons": ["Holdout blaster"],
+		"gear": ["Fine clothing", "Dashing cloak", "Wrist-mounted comlink"],
+		"tags": ["book:aaa", "smuggler", "gambler"]
+	},
+	{
+		"name": "Lasan Honour Guard",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 3,
+			"Coercion": 1,
+			"Cool": 2,
+			"Coordination": 2,
+			"Melee": 3,
+			"Perception": 3,
+			"Ranged: Heavy": 3,
+			"Resilience": 2,
+			"Survival": 2
+		},
+		"talents": ["Adversary 1", "Durable 2"],
+		"abilities": [
+			{
+				"name": "Prehensile Feet",
+				"description": "Can move along vertical surfaces as if they were horizontal."
+			},
+			{
+				"name": "Honour Guard Training",
+				"description": "When making a brawl of melee attack, Knockdown costs one less :advantage:."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Bo-rifle ranged",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Cumbersome 3", "Stun Setting"],
+				"notes": "Bo-rifle takes a maneuver to switch between profiles"
+			},
+			{
+				"name": "Bo-rifle melee",
+				"skill": "Melee",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Cumbersome 3", "Defensive 1", "Disorient 2", "Knockdown", "Stun Setting"],
+				"notes": "Bo-rifle takes a maneuver to switch between profiles"
+			}
+		],
+		"gear": ["Lasan Honour Guard armour (+1 Soak)", "Encrypted comlink"],
+		"tags": ["book:aaa", "species:Lasat"]
+	},
+	{
+		"name": "Leia Organa",
+		"type": "Nemesis",
+		"description": "The Alderaanian princess is already well known to be as out-spoken and politically savvy as her famous father. Although she is very young to hold a position of power as great as that of an Imperial Senator, she has had a lifetime of training for the role. She embodies all of Alderaan’s values and strengths, along with Bail Organa’s political skill and desire to bring an end to the Emperor and Empire. She actively users her diplomatic status to support resistance activities, whether for recruitment, acquisition of supplies, delivery of information, or even to personally join a fight when necessary.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 15,
+			"strain": 15
+		},
+		"skills": {
+			"Charm": 3,
+			"Coercion": 1,
+			"Cool": 4,
+			"Deception": 3,
+			"Discipline": 4,
+			"Knowledge: Core Worlds": 3,
+			"Knowledge: Education": 3,
+			"Knowledge: Underworld": 1,
+			"Leadership": 4,
+			"Negotiation": 3,
+			"Perception": 3,
+			"Piloting: Space": 3,
+			"Ranged: Light": 2,
+			"Streetwise": 1
+		},
+		"talents": ["Adversary 2", "Force Rating 1", "Intimidating 1", "Nobody’s Fool 2"],
+		"abilities": [
+			{
+				"name": "Improved Take Charge",
+				"description": "When making a skill check, Princess Leia may spend :advantage: to let one ally within Medium range immediately perform a maneuver as an out of turn incidental. She may instead spend :triumph: or :advantage::advantage::advantage: to let all allies within Medium range perform a maneuver as an out of turn incidental instead."
+			}
+		],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Heavy clothing (+1 soak)", "Datapad", "Encrypted comlink"],
+		"tags": ["book:aaa", "rebel alliance", "senator", "nobility"]
+	},
+	{
+		"name": "Luke Skywalker",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 4,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13,
+			"strain": 16
+		},
+		"skills": {
+			"Astrogation": 1,
+			"Athletics": 2,
+			"Cool": 2,
+			"Coordination": 2,
+			"Discipline": 2,
+			"Gunnery": 3,
+			"Leadership": 1,
+			"Lightsaber": 3,
+			"Mechanics": 3,
+			"Perception": 2,
+			"Piloting: Space": 4,
+			"Ranged: Light": 3,
+			"Resilience": 1,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 3", "Force Rating 3", "Parry 3", "Reflect 2", "Natural Pilot",
+			{
+				"name": "Exhaust Port",
+				"description": "Before attacking a starship or vehicle, Luke may spend 1 Destiny Point to ignore the effects of the Massive rule for the attack."
+			}
+		],
+		"abilities": ["Force Power: Enhance", "Force Power: Foresee", "Force Power: Move", "Force Power: Sense",
+			{
+				"name": "One In A Million",
+				"description": "Luke may spend 1 Destiny Point to add :success::success:, :advantage::advantage: or :success::advantage: to any combat check he makes."
+			}
+		],
+		"weapons": ["Blaster pistol",
+			{
+				"name": "His father’s lightsaber",
+				"skill": "Lightsaber",
+				"damage": 10,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder", "Vicious 2"]
+			}
+		],
+		"gear": ["Heavy clothing (+1 soak)", "Comlink"],
+		"tags": ["book:aaa", "rebel alliance", "force sensitive"]
 	}
 ]
