@@ -64,6 +64,14 @@
 		"qualities": ["Auto-Fire", "Cumbersome 3"]
 	},
 	{
+		"name": "DC-15 blaster rifle",
+		"skill": "Ranged: Heavy",
+		"damage": 10,
+		"critical": 3,
+		"range": "Long",
+		"qualities": ["Pierce 1", "Stun Setting"]
+	},
+	{
 		"name": "Light repeating blaster",
 		"skill": "Ranged: Heavy",
 		"damage": 11,

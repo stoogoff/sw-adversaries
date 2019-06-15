@@ -1567,7 +1567,7 @@
 			}
 		],
 		"gear": ["Heavy clothing (+1 Soak)", "Diplomatic comlink", "Secret encrypted comlink", "Datapad"],
-		"tags": ["book:dor", "rebel alliance", "senator", "nobility"]
+		"tags": ["book:dor", "rebel alliance", "senator", "nobility", "republic"]
 	},
 	{
 		"name": "Mon Mothma",
@@ -1658,12 +1658,7 @@
 			"Streetwise": 4,
 			"Vigilance": 2
 		},
-		"talents": ["Adversary 1", "Ataru Technique", "Dodge 2", "Parry 3", "Force Rating 3", "Improved Reflect 3",
-			{
-				"name": "Saber Swarm",
-				"description": "As a maneuver, suffer 1 Strain to add the Linked 2 item quality on the Lightsaber combat check this turn."
-			}
-			],
+		"talents": ["Adversary 1", "Ataru Technique", "Dodge 2", "Parry 3", "Force Rating 3", "Improved Reflect 3", "Saber Swarm"],
 		"abilities": ["Force Power: Enhance", "Force Power: Move", "Force Power: Sense",
 			{
 				"name": "Fulcrum Leadership",

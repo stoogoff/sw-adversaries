@@ -232,7 +232,7 @@
 				}
 			],
 		"gear": ["Comlink", "On-board processor (no external droid controller needed)"],
-		"tags": ["book:btr", "species:Droid", "separatist", "adventure:Beyond the Rim"]
+		"tags": ["book:btr", "species:Droid", "separatist", "adventure:Beyond the Rim", "battle droid"]
 	},
 	{
 		"name": "Bark Rat",

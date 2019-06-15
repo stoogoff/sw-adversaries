@@ -1264,7 +1264,7 @@
 				"qualities": ["Knockdown"]
 			}
 		],
-		"tags": ["species:Droid","source:D20Radio.com"]
+		"tags": ["species:Droid","source:D20Radio.com", "battle droid"]
 	},
 	{
 		"name": "B2 Super Battle Droid (Rival)",
@@ -1321,7 +1321,7 @@
 				"qualities": ["Knockdown"]
 			}
 		],
-		"tags": ["species:Droid","source:D20Radio.com"]
+		"tags": ["species:Droid","source:D20Radio.com", "battle droid"]
 	},
 	{
 		"name": "CompForce Security Trooper",

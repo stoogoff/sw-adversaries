@@ -26,13 +26,13 @@ export default class TalentPanel extends React.Component {
 
 			let ranked = t.match(/\s(\d+)$/);
 			let ranks = ranked ? ranked[1] : 1;
-			let talentName = t.replace(/\s\d+$/, "");
-			let talent = allTalents.find(i => i.name == talentName);
+			let talentName = id(t.replace(/\s\d+$/, ""));
+			let talent = allTalents.find(i => i.id == talentName);
 
 			if(talent != null) {
 				talents.push({
 					id: talent.id,
-					name: t,
+					name: talent.name + (ranked ? " " + ranks : ""),
 					description: statify(talent.description, this.props.stats, Number(ranks))
 				});
 			}

@@ -41,7 +41,7 @@
 	},
 	{
 		"name": "Ataru Technique",
-		"description": "When making a check using the Lightsaber skill, may use Agility instead of Brawn."
+		"description": "May use Agility instead of Brawn when making Lightsaber skill checks."
 	},
 	{
 		"name": "Bacta Specialist",
@@ -838,7 +838,7 @@
 	},
 	{
 		"name": "Makashi Technique",
-		"description": ""
+		"description": "May use Presence instead of Brawn when making Lightsaber skill checks."
 	},
 	{
 		"name": "Marked for Death",
@@ -1250,7 +1250,7 @@
 	},
 	{
 		"name": "Saber Swarm",
-		"description": ""
+		"description": "As a Maneuver, suffer 1 Strain to gain Linked {Force Rating} on the next Lightsaber (Agility) combat check."
 	},
 	{
 		"name": "Saber Throw",
@@ -1382,7 +1382,7 @@
 	},
 	{
 		"name": "Soresu Technique",
-		"description": ""
+		"description": "May use Intellect instead of Brawn when making Lightsaber skill checks."
 	},
 	{
 		"name": "Sorry About the Mess",

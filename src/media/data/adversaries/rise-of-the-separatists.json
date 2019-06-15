@@ -1,0 +1,874 @@
+[
+	{
+		"name": "Padmé Amidala",
+		"type": "Nemesis",
+		"description": "The former Queen and current Senator of Naboo. Padmé Amidala has a reputation for incorrupLibilty, which makes her popular with her people but unnerves her less stalwart peers in the Senate. She was Queen of Naboo during the Trade Federation blockade a decade ago and remains close to Palpatine, then-senator for Naboo, and the other heroes of that conflict.\n\nSenator Amidala has endured death threats and assassination attempts tor years, and blames Viceroy Nute Gunray, who led the occupation of Naboo when she served as Queen. Despite the increased security measures complicating her Senate life, she takes her role seriously and hopes to broker a peaceful end to conflict. She holds a seat on the Loyalist Committee, and fellow committee member Bail Organa is her closest ally in the Senate.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"strain": 18,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 2,
+			"Discipline": 2,
+			"Knowledge: Education": 3,
+			"Knowledge: Outer Rim ":2,
+			"Leadership": 3,
+			"Negotiation": 4,
+			"Ranged: Light": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Improved Inspiring Rhetoric", "Nobody’s Fool 3"],
+		"abilities": [
+			{
+				"name": "Unmatched Insight",
+				"description": "Once per session, Padmé may spend a Destiny Point to become aware of the motivations, emotional states, and basic histories of up to five characters in the encounter; she may choose one affected character and upgrade all social skill checks made against them once until the end of the encounter."
+			}
+		],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Armoured clothing (+1 Defence, +1 Soak)"],
+		"tags": ["book:rots", "senator", "republic"]
+	},
+	{
+		"name": "Obi-Wan Kenobi",
+		"type": "Nemesis",
+		"description": "The High Council regards Master Kenobi as an ideal Jedi. During the Battle of Nabon, after dispatching Darth Maul, Kenobr promised his dying master. Qui-Gon Jinn, to train young Anakin Skywalker. By the time of the Gone Wars, Kenobi’s Padawan is among the most powerfu Jedi in history, but lacks experience. Kenobi must constantly extinguish fires lit by his apprentice. Kenobi and the 212th Attack Battalion deploy to some of the toughest fronts of the conflict, winning countless battles.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 5,
+			"Cunning": 5,
+			"Willpower": 4,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16,
+			"strain": 18,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Charm": 4,
+			"Cool": 4,
+			"Deception": 2,
+			"Discipline": 4,
+			"Knowledge: Lore": 2,
+			"Lightsaber (Intellect)": 4,
+			"Negotiation": 4,
+			"Perception": 2,
+			"Survival": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 4", "Congenial 3", "Force Rating 4", "Improved Reflect 4", "Parry 4", "Soresu Technique"],
+		"abilities": ["Force Power: Move", "force-power-enhance-rots", "force-power-sense-rots",
+			{
+				"name": "Force Power: Influence",
+				"description": "May spend up to :forcepip::forcepip: to stress the mind of one target at Short range per :forcepip:, inflicting 1 Strain on each; make an opposed Discipline check vs. Discipline combined with an Influence power check and spend :forcepip: to force the target to adopt an emotional state or believe something untrue for 4 rounds or 20 minutes."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Obi-Wan’s Lightsaber",
+				"skill": "Lightsaber (Intellect)",
+				"damage": 10,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder"]
+			}
+		],
+		"gear": ["Jedi commander armour (+1 Defence, +2 Soak)", "Jedi utility belt"],
+		"tags": ["book:rots", "jedi", "force sensitive"]
+	},
+	{
+		"name": "Count Dooku",
+		"type": "Nemesis",
+		"description": "One of the relative few Jedi Masters to abandon the Jedi Order in modern history. Count Dooku vanished for eight years before a sudden reappearance on Raxus. His address there created the Separatist movement, and set him up to become its chief of state. He leads the Confederacy with the aid of his council of oligarchs, pushing back Republic incursions from what he spins as “violations of the sovereignty of independent systems.”\n\nCount Dooku is a master of lightsaber combat, once considered among the best duelists in the Jedi Order. As a Jedi, Dooku trained Qui-Gon Jinn to knighthood, and he credits Qui-Gon’s death on Naboo as his reason for leaving the order. Dooku has since reclaimed his birthright as Count of Serenno, inheriting a fortune. His wealth, coupled with his intense gravitas and natural charm, enabled him to recruit rich and powerful allies. When encountering other Jedi, Dooku claims to hunt a Sith Lord hidden within the Republic, but Dooku simultaneously displays dark powers, which he acquired after leaving the Jedi.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 5,
+			"Cunning": 5,
+			"Willpower": 4,
+			"Presence": 5
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 18,
+			"strain": 20,
+			"defence": [2, 1]
+		},
+		"skills": {
+			"Charm": 4,
+			"Coercion": 3,
+			"Cool": 4,
+			"Deception": 4,
+			"Discipline": 4,
+			"Knowledge: Lore": 4,
+			"Leadership": 5,
+			"Lightsaber (Presence)": 5,
+			"Negotiation": 2,
+			"Perception": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 4", "Congenial 3", "Force Rating 5", "Improved Parry 4", "Makashi Technique", "Reflect 4"],
+		"abilities": ["Darkside Force User", "Force Power: Move", "force-power-sense-rots", "force-power-enhance-rots",
+			{
+				"name": "Force Power: Unleash",
+				"description": "Make a Force power check targeting one enemy at Short range, roll a ranged attack as part of the pool, using :average: Discipline check instead of normal difficulty. If the check is successful and generates :darkside::darkside: the attack deals 4 damage with a critical rating of 4, plus 1 additional damage per :success:. May spend :darkside: to increase damage by 3, or :advantage: to inflict 1 Strain on the target."
+			},
+			{
+				"name": "Force Power: Protect",
+				"description": "Make a Protect power check and roll an :average: Discipline check as part of the pool. Spend :forcepip::forcepip: to reduce damage from an energy-based weapon that hits himself or an engaged character 4 plus 1 per :success:. Dark Side Force users may only protect themselves."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Dooku’s Lightsaber",
+				"skill": "Lightsaber (Presence)",
+				"damage": 8,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Defensive 1", "Sunder", "Vicious 3"],
+				"notes": "Add :darkside: to Force power checks."
+			}
+		],
+		"gear": ["Armourweave cloak (+1 Defence, +2 Soak)"],
+		"tags": ["book:rots", "separatist", "sith", "darkside", "force sensitive"]
+	},
+	{
+		"name": "Asajj Ventress",
+		"type": "Nemesis",
+		"description": "An agile fighter from Dathomir, Ventress is one of Dooku’s most trusted agents. Sold into slavery on Rattatak as a child, she became stranded after her captor died. Jedi Knight Ky Narec found and raised her, taking her on as his Padawan; however Narec died before informing the Jedi Council. Bereft, Ventress gave in to me dark side, becoming the ruling warlord of Rattatak. When Dooku found her, he immediately recognised her potential. As Dooku’s apprentice, Ventress acts as his dark agent, often wielding her dual lightsabers against Kenobi and his allies.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 5,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 18,
+			"strain": 16,
+			"defence": [2, 1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coercion": 2,
+			"Cool": 2,
+			"Deception": 2,
+			"Discipline": 3,
+			"Lightsaber (Agility)": 4,
+			"Melee": 2,
+			"Perception": 3,
+			"Stealth": 2,
+			"Survival": 3,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 3", "Ataru Technique", "Force Rating 3", "Improved Parry 3", "Reflect 4", "Saber Swarm"],
+		"abilities": ["Darkside Force User", "Force Power: Move", "force-power-sense-rots", "force-power-enhance-rots",
+			{
+				"name": "Force Power: Bind",
+				"description": "Ventress may spend :forcepip: to immobilise a target within Short range until the end of her next turn. If Ventress spends :darkside: to generate :forcepip:, the target also suffers 1 Wound per :forcepip: spent on the check, ignoring Soak. May spend :forcepip::forcepip: to add up to two additional targets."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Ventress’s Twin Lightsabers",
+				"skill": "Lightsaber (Agility)",
+				"damage": 9,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Defensive 1", "Sunder", "Vicious 2"]
+			}
+		],
+		"gear": ["Armourweave clothing (+1 Defence, +2 Soak)"],
+		"tags": ["book:rots", "darkside", "sith", "force sensitive"]
+	},
+	{
+		"name": "General Grievous",
+		"type": "Nemesis",
+		"description": "Previously a warrior of Kalee, Grievous chose to undergo the transformation into a four-armed cyborg monstrosity. Although he is not Force-sensitive, Grievous simultaneously wields several lightsabers in battle with lethal effectiveness, thanks to his skill and the strength and agility of his mechanical body. Grievous is a major force throughout the conflict, both as a strategic mind and as a battlefield nightmare. He prefers the front lines, flanked by IG-100 MagnaGuards, challenging Jedi Generals in hopes of adding their lightsabers to his collection. Between battles, Grievous rests within an isolated fortress on Vassek 3 with his pet roggwart, Gor",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 9,
+			"wounds": 18,
+			"strain": 20,
+			"defence": [3, 3]
+		},
+		"skills": {
+			"Brawl": 4,
+			"Coercion": 4,
+			"Deception": 3,
+			"Discipline": 3,
+			"Leadership": 4,
+			"Lightsaber": 4,
+			"Knowledge: Warfare": 4,
+			"Perception": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 4", "Improved Parry 4"],
+		"abilities": ["Cyborg",
+			{
+				"name": "Four-Armed",
+				"description": "Gains an additional free Maneuver per turn, but still may not perform more than two Maneuvers per turn."
+			}
+		],
+		"weapons": [
+			{
+				"name": "4 Lightsabers",
+				"skill": "Lightsaber",
+				"damage": 9,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Linked 3", "Sunder", "Vicious 3"]
+			},
+			{
+				"name": "Mechanical limbs",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Disorient 3", "Knockdown"]
+			}
+		],
+		"gear": ["Armoured chassis (+2 Defence, +4 Soak)"],
+		"tags": ["book:rots", "separatist"]
+	},
+	{
+		"name": "Labour Droid",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 6
+		},
+		"skills": ["Athletics", "Brawl", "Melee"],
+		"abilities": ["Droid"],
+		"weapons": [
+			{
+				"name": "Unstable power cell",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Blast 5", "Disorient 2", "Inferior", "Limited Ammo 1"]
+			},
+			{
+				"name": "Durasteel cable",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1", "Inferior"]
+			}
+		],
+		"tags": ["book:rots", "species:Droid", "location:Geonosis", "adventure:Scavenger’s Paradise"]
+	},
+	{
+		"name": "Geonosian Warrior",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": ["Brawl", "Ranged: Heavy"],
+		"abilities": ["Flyer"],
+		"weapons": [
+			{
+				"name": "Sonic blaster",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Disorient 3", "Knockdown"]
+			}
+		],
+		"tags": ["book:rots", "species:Geonosian", "location:Geonosis", "adventure:Scavenger’s Paradise"]
+	},
+	{
+		"name": "Tusken Raider",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [1, 0]
+		},
+		"skills": ["Melee", "Perception", "Ranged: Heavy", "Survival"],
+		"weapons": ["Slugthrower Rifle", "Gaffi stick"],
+		"gear": [],
+		"tags": ["book:rots", "species:Tusken", "location:Tatooine", "adventure:Unusual Opportunities"]
+	},
+	{
+		"name": "Jawa",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 4
+		},
+		"skills": ["Mechanics", "Perception", "Skulduggery", "Survival"],
+		"talents": ["Utinni! 1"],
+		"weapons": [
+			{
+				"name": "Ionisation blaster",
+				"skill": "Ranged: Light",
+				"damage": 10,
+				"critical": 5,
+				"range": "Short",
+				"qualities": ["Disorient 5", "Stun Damage"],
+				"notes": "Damages droids only."
+			}
+		],
+		"gear": ["Utility belt"],
+		"tags": ["book:rots", "species:Jawa", "location:Tatooine", "adventure:Unusual Opportunities"]
+	},
+	{
+		"name": "Clone Trooper",
+		"type": "Minion",
+		"description": "Genetically engineered for loyalty and combat ability, and trained as soidiers from decanting, the clone troopers of the Grand Army of the Republic are among the finest fighting forces the galaxy has ever seen. Thanks to their training and ability to think on their feet a clone trooper is easily the equal of several battle droids—and doubly so when clone troopers work as a team with their brothers.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 5
+		},
+		"skills": ["Athletics", "Brawl", "Discipline", "Ranged: Heavy", "Vigilance"],
+		"abilities": ["Clone Inhibitor Chip"],
+		"weapons": ["DC-15 blaster rifle", "Frag grenade"],
+		"gear": ["Phase 1 clone trooper armour (+2 Soak)", "2 Frag grenades", "Utility belt", "Extra reload"],
+		"tags": ["book:rots", "clone trooper", "republic"]
+	},
+	{
+		"name": "Clone Sergeant",
+		"type": "Rival",
+		"description": "Clone sergeants lead squads of nine clone troopers. Early in the war, distinctive drab-green markings on their armour identify clone sergeants on the battlefield. Sergeants generally receive their orders from clone lieutenants, although they may occasionally receive direction from a Jedi Padawan commander during unusual or unexpected circumstances.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 14
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Discipline": 2,
+			"Leadership": 2,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"abilities": ["Clone Inhibitor Chip", "Tactical Direction"],
+		"weapons": ["DC-15 blaster rifle", "Frag grenade"],
+		"gear": ["Phase 1 clone trooper armour (+2 Soak)", "2 Frag grenades", "Utility belt", "Extra reload"],
+		"tags": ["book:rots", "clone trooper", "republic"]
+	},
+	{
+		"name": "Clone Captain",
+		"type": "Nemesis",
+		"description": "Responsible tor companies of 144 clone troopers, captains report directly to the clone commander in charge of their corps. Thanks to the somewhat creative approach many Jedi take to the chain of command, some clone captains frequently work directly alongside the Jedi General of their legion. In the initial stages of war, clone captains wear armour with maroon markings in order to identify their rank on the battlefield. As the war progresses, many captains customise their armour with particular iconography or other visual elements, both to showcase their distinctive personality and broadcast a certain image for their company, and to avoid identifying their importance to enemy snipers.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16,
+			"strain": 15
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Discipline": 3,
+			"Knowledge: Warfare": 2,
+			"Leadership": 3,
+			"Ranged: Heavy": 3,
+			"Ranged: Light": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Clone Inhibitor Chip", "Tactical Direction"],
+		"weapons": ["Frag grenade",
+			{
+				"name": "Pair of DC-17 blaster pistols",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Accurate 1", "Stun Setting"]
+			}
+		],
+		"gear": ["Phase 1 clone trooper armour (+2 Soak)", "2 Frag grenades", "Utility belt", "Extra reload"],
+		"tags": ["book:rots", "clone trooper", "republic"]
+	},
+	{
+		"name": "Galactic Senator",
+		"type": "Nemesis",
+		"description": "There is no “typical” Galactic Senator. Each is as unique as the world they represent, known among their fellow Senators for their particular strengths, quirks, and approach to politics. Although the popular idea of a Senator is that of a corrupt and venal self-server, many Senators do act with the welfare of their constituents as their first priority. Senators are charismatic individuals, and most are well-educated. The most successful Senators learn to manage the balance between the unique culture of the Galactic Senate and the desires of their constituents.\n\nDue to the vast diversity of worlds within the Republic, Senator come from a wide variety of backgrounds. Some Senators represent monarchies or other autocratic governments, appointed by a ruler or council rather than the population of a world. The myriad views and histories of the Senate’s membership may be both its greatest strength and weakness.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 15
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 2,
+			"Deception ":1 ,
+			"Knowledge: Core Worlds": 2,
+			"Knowledge: Education": 2,
+			"Negotiation": 2
+		},
+		"talents": ["Commanding Presence 2", "Works Like a Charm"],
+		"gear": ["Datapad", "Comlink", "Fine clothing"],
+		"tags": ["book:rots", "republic", "senator"]
+	},
+	{
+		"name": "Republic Fleet Officer",
+		"type": "Rival",
+		"description": "While clones fill many roles aboard the starships of the Republic Navy, most senior positions are filled by career naval officers from the system defence fleets of the Republic’s member worlds. These individuals bring a wealth of experience battling pirates, petty Outer Rim warlords, and aggressively expansionist worlds outside the Republic. Other officers previously served aboard the ships of the Judicials, where they traversed the galaxy hunting wanted criminals, seizing smuggling vessels, and protecting honest spacers from a range of threats. Though few officers have previously faced a threat an the scale of the Separatist fleet, their tactical acumen and devotion to the Republic are powerful assets.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 13
+		},
+		"skills": {
+			"Discipline": 2,
+			"Knowledge: Warfare": 2,
+			"Leadership": 3,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Uniform"],
+		"tags": ["book:rots", "republic", "military"]
+	},
+	{
+		"name": "Republic Judicial",
+		"type": "Rival",
+		"description": "Not ail Judicials made the transition to the Republic Navy at the outset of the war. Even at the height of the Clone Wars, the Republic needs peace officers to maintain law and order on its loyal worlds. The blue-uniformed Judicials of the Republic come from a range of backgrounds and homeworlds, but all received intensive training at the Judicial Academy. Judicials are empowered to enforce the laws of the Republic on member worlds and the spacelanes, and are more than capable of handling themselves if a suspect turns violent.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Perception": 3,
+			"Ranged: Heavy": 3,
+			"Ranged: Light": 3,
+			"Streetwise": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Armoured uniform (+1 Defence, +1 Soak)", "Holo-badge"],
+		"tags": ["book:rots", "republic", "security"]
+	},
+	{
+		"name": "B1 Battle Droid",
+		"type": "Minion",
+		"description": "The original batlte droids—which fought for the Trade Federation on Naboo in what some now see as the prelude to the Clone Wars—have largely been replaced. CIS leadership deemed their networked control centres too much of a vulnerability, and newer B1 battle droids are fully capable of extended independent operation. However, the mass-produced armies of battle droids are created to provide abundant fire-power rather than clever tactics, so most commanders keep as light a rein on the droids in their service as they can manage.\n\nNewer clone troopers sometimes dismiss the basic “clankers” as an insignificant threat after taking out isolated patrols by surprise or coordinated assault, but this is an attitude that soon gets weeded out of them. Large numbers of the droids under a competent commander can be a grave threat, due to both the sheer volume of blaster fire and the ease with which the units coordinate their operations when a clear plan is in place.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": ["Gunnery", "Ranged: Heavy", "Ranged: Light"],
+		"abilities": ["Droid"],
+		"weapons": ["Blaster rifle"],
+		"gear": ["Integrated comlink"],
+		"tags": ["book:rots", "separatist", "species:Droid", "battle droid"]
+	},
+	{
+		"name": "B2 Super Battle Droid",
+		"type": "Minion",
+		"description": "The B2 super battle droids are an improvement over the basic B1 droids in numerous ways, only their significantly increased cost keeps them from replacing their predecessors. Instead, the CIS deploys its super battle droids as the vanguard of its armies or as shock troops on advance missions into Republic territory. Small troops of super battle droids are often deployed as bodyguards for minor CIS dignitaries and officers, while a pair of them is generally viewed as sufficient to restrain any prisoner short of a Jedi. The B2 droids are nearly two metres tall and are completely covered in reinforced plating. Even their sensors are contained within the armoured chassis, leaving little in the way of vulnerability. If the droids have a clear weakness, it is in their simple combat programming. Super battle droids often focus on the elimination of targets above all else when left to their own devices, and they can easily be baited or distracted without a competent commander or tactical droid overseeing them.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 7
+		},
+		"skills": ["Brawl", "Gunnery", "Melee", "Ranged: Heavy", "Ranged: Light"],
+		"abilities": ["Droid"],
+		"weapons": [
+			{
+				"name": "Integrated wrist blaster",
+				"skill": "Ranged: Light",
+				"damage": 10,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Linked 1"]
+			}
+		],
+		"gear": ["Integrated comlink"],
+		"tags": ["book:rots", "separatist", "species:Droid", "battle droid"]
+	},
+	{
+		"name": "Buzz Droid",
+		"type": "Minion",
+		"description": "Technically known as Pistoeka sabotage droids, these diminutive machines seem more like animate munitions than actual members of the droid army. Typically deployed out of discord missiles or similar dispersal mechanisms, buzz droids are released to tear apart enemy vehicles such as starfighters and transports. Although they are individually little threat even to a lightly armoured fighter, a swarm of buzz droids can quickly strip a ship of its plating and begin tearing apart vital systems. Removing buzz droids from a ship usually requires daredevil piloting or intervention from other droids serving aboard the vessel, such as a fighter’s astromech co-pilot, as a pilot can hardly spare the attention to deal with the droids directly while mid-flight. Despite their destructive capabilities, buzz droids are little threat to combatants who find a way to confront them. The armaments are specialised tools, rather than true weapons, and they have little to nothing in the way of armour or redundant systems, as the CIS manufacturers designed them to be disposable weapons.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 3
+		},
+		"skills": ["Coordination", "Melee"],
+		"abilities": ["Droid", "Silhouette 0",
+			{
+				"name": "Sabotage",
+				"description": "Attacks by a minion group of buzz droids that target a vehicle inflict planetary-scale damage and gain Breach 1."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Integrated saws and drills",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"tags": ["book:rots", "separatist", "species:Droid"]
+	},
+	{
+		"name": "C-8 Saboteur Droid",
+		"type": "Rival",
+		"description": "One of the more advanced models of battle droid in use by the CIS, C-8 saboteur droids operate in small, independent squads apart from the primary droid divisions. Designed with integrated and advanced sensor-masking plates and strike-and-fade combat protocols, these droids engage without warning, cause as much damage as possible, and then disappear amid the chaos of their unexpected attack. When facing a fortified or stationary target, the droids are sometimes equipped with demolition charges to deploy during their infiltration. C-8 saboteur droids are compact units, standing only 1.7 metres tall. Nevertheless, their matte-black plating and featureless face plates are intimidating to those who spot them; they resemble nothing so much as a void in humanoid form. When they are not in combat their armaments are stored in internal compartments, so as to benefit from the sensor-defeating properties of their armour plating.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 12,
+			"strain": 19
+		},
+		"skills": {
+			"Brawl": 2,
+			"Mechanics": 2,
+			"Ranged: Light": 2,
+			"Skulduggery": 2,
+			"Stealth": 4,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Droid", "Sensor Masking"],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Integrated comlink"],
+		"tags": ["book:rots", "separatist", "species:Droid", "battle droid"]
+	},
+	{
+		"name": "DRK-1 Probe Droid",
+		"type": "Rival",
+		"description": "These enigmatic droids are believed by the Jedi Lo have been designed according to specifications found in ancient Sith holocrons, but few have been encountered, much less recovered, providing limited basis for conjecture. Reports of these droids were first relayed by Jedi Master Qui-Gon Jinn during the blockade of Naboo, but more have since filtered in from isolated sites across the galaxy. Few Know who among Count Dooku’s servants has the authority to deploy the droids or knowledge of their missions. When the droids are spotted, reports are often limited or unverifiable. The Jedi and Republic Intelligence both believe the droids make use of sensor-baffling technology to become virtually undetectable to electronic equipment, and their small size and great speed make them hard to spot by unaided senses. On the rare occasions when the droids have been cornered, they typically begin firing with micro grenade launchers, attempting to either destroy then opponent or to force the opponent to destroy the droid",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4
+		},
+		"skills": {
+			"Perception": 3,
+			"Ranged: Light": 1,
+			"Stealth": 3,
+			"Vigilance": 3
+		},
+		"abilities": ["Droid", "Sensor Masking"],
+		"weapons": [
+			{
+				"name": "Micro-grenade launcher",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Blast 4"]
+			}
+		],
+		"gear": ["Integrated subspace transceiver", "Sensor array (grants :boost: on Perception and Vigilance checks)"],
+		"tags": ["book:rots", "separatist", "species:Droid"]
+	},
+	{
+		"name": "DSD1 Dwarf Spider Droid",
+		"type": "Rival",
+		"description": "Straddling the line between a heavy battle droid and a light droid tank, dwarf spider droids are common heavy weapons platforms for the Separatist Army. These compact walkers are able to maneuver through confined spaces with relative ease thanks to the extensive articulation of their quadrupedal limb array. They are often deployed in urban combat environments and other situations that restrict the use of true tanks. Heavy armour plating covers their bodies, although it is mire limited on the droid’s underbellies, which are not normally exposed to enemy fire. The DSD1 model’s fire-power comes from a powerful, centrally mounted cannon capable of devastating long-range fire.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 15
+		},
+		"skills": {
+			"Gunnery": 2,
+			"Perception": 2,
+			"Vigilance": 1
+		},
+		"abilities": ["Droid", "Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Integrated heavy repeating blaster",
+				"skill": "Gunnery",
+				"damage": 15,
+				"critical": 2,
+				"range": "Long",
+				"qualities": ["Auto-Fire", "Pierce 2", "Vicious 1"]
+			}
+		],
+		"gear": ["Integrated comlink and sensor array (add :boost: to Perception and Vigilance checks)"],
+		"tags": ["book:rots", "separatist", "species:Droid"]
+	},
+	{
+		"name": "LM-432 Crab Droid",
+		"type": "Rival",
+		"description": "These powerful droid tanks are among the heaviest unit deployed in the Separatist ground forces. Their six powerful limbs can batter aside any opposition that makes it into dose quarters, while the dual blaster cannons slung under the droid’s main chassis destroy more distant foes, sometimes even before the enemies’ weapons are in range to return fire. Although not as capable in urban environments or similarly constrained quarters as battle droids or the smaller dwarf spider walkers, a detachment of crab droids can dominate a large-scale engagement in open terrain, as their thick plating negates the need for cover.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 21,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coordination": 1,
+			"Gunnery": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Droid", "Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Integrated dual heavy repeating blasters",
+				"skill": "Gunnery",
+				"damage": 15,
+				"critical": 2,
+				"range": "Long",
+				"qualities": ["Auto-Fire", "Linked 1", "Pierce 2", "Vicious 1"]
+			},
+			{
+				"name": "Clawed limb",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1", "Knockdown"]
+			}
+		],
+		"gear": ["Integrated comlink and sensor array (add :boost: to Perception and Vigilance checks)"],
+		"tags": ["book:rots", "separatist", "species:Droid"]
+	},
+	{
+		"name": "Pilot Battle Droid",
+		"type": "Minion",
+		"description": "Pilot droids of the B1 series were designed with more advanced cognitive capabilities than their infantry counterparts. In addition to basic combat and piloting protocols, the droids are programmed to maintain the ships and vehicles vehicles they utilise, whether the droids are part at a fighter wing, aboard a massive battleship, or crewing AAT-1 hover tanks. They are the standard crew of the CIS fleet and are commonly encountered by Republic troops during boarding actions.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": ["Gunnery", "Mechanics", "Piloting: Planetary", "Piloting: Space", "Ranged: Light"],
+		"abilities": ["Droid"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Integrated comlink"],
+		"tags": ["book:rots", "separatist", "species:Droid"]
+	},
+	{
+		"name": "S-43 Enforcer Droid",
+		"type": "Minion",
+		"description": "The Separatists are not the only manufacturers of combat droids in the galaxy. A small consortium of Hutts have begun development on their own line of “enforcer droids” to help defend their holdings amid growing galactic instability—and to help them seize more territory where they can manage. The S-43 enforcer droids are based on stolen Separatist plans for battle droids, but they have undergone a number of adjustments to better suit their manufacturers’ interests. Since the enforcer droids are regularly deployed against underworld lowlifes and negligent debtors, the Hutts have skimped on reinforcement for the the droids’ chassis as an unnecessary cost, making them more fragile than even basic B1 battle doids. However, the droids are equipped with upgraded processors designed to help them deal with the trickery and deception common to their operations, as well as integrated weaponry so that they can never be disarmed. Even given the consortium’s attempts to save costs where possible, the enforcer droid project has been a considerable investment. Nevertheless, it has already begun to pay dividends, as orders of the droids pout in from crime lords across the galaxy.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 4
+		},
+		"skills": ["Gunnery", "Melee", "Ranged: Heavy", "Ranged: Light"],
+		"abilities": ["Droid"],
+		"weapons": ["Blaster carbine",
+			{
+				"name": "Integrated vibroblade",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 1"]
+			}
+		],
+		"tags": ["book:rots", "enforcer", "species:Droid"]
+	},
+	{
+		"name": "T-Series Tactical Droid (RotS)",
+		"type": "Nemesis",
+		"description": "Tactical droids are commonly found as the commanders of smaller detachments of droids and as advisers to the main leadership of the CIS droid army. The T-series models are among the most commonly fielded, ad their advanced processors are responsible for many of the Separatists’ most successful stratagems. The droids’ confidence in their own tactical prowess borders on arrogance; nevertheless, against all but the most daring or unorthodox of opponents, they can deliver victories exactly as promised, The blocky bodies of T-series droids are reasonably resistant to damage but ill-suited for direct combat compared to other droid models, especially given the extravagant cost of their processors. As such, they are rarely seen anywhere near the front lines. However, when they are involved in a conflict directly, their precise calculation of the odds of victory can embolden Separatist fighters and dishearten the Republic troops who know all too well how accurate those calculations can be.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 13,
+			"strain": 16
+		},
+		"skills": {
+			"Coercion": 2,
+			"Discipline": 2,
+			"Knowledge: Warfare": 3,
+			"Leadership": 5,
+			"Negotiation": 2,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Nobody’s Fool 2", "Improved Inspiring Rhetoric", "Improved Scathing Tirade"],
+		"abilities": ["Droid"],
+		"weapons": ["Heavy blaster pistol"],
+		"gear": ["Datapad", "Integrated comlink"],
+		"tags": ["book:rots", "separatist", "species:Droid"]
+	}
+]

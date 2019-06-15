@@ -92,6 +92,7 @@ Main tasks:
 	- Suns of Fortune
 	- Nexus of Power
 	- Dawn of Rebellion
+	- Rise of the Separatists
 - career books
 	- *Dangerous Covenants (no stats)*
 	- Enter the Unknown (5 droids)
