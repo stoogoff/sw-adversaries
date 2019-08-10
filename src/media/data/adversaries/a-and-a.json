@@ -735,5 +735,362 @@
 		],
 		"gear": ["Heavy clothing (+1 soak)", "Comlink"],
 		"tags": ["book:aaa", "rebel alliance", "force sensitive"]
+	},
+	{
+		"name": "Obi-Wan (Ben) Kenobi",
+		"type": "Nemesis",
+		"description": "On Tatooine, Obi-Wan Kenobi is a lifetime away from his days as a Jedi Master. If he is known at all there, it is as the eccentric old hermit Ben. Of course, this is exactly how Kenobi wants it. He needs to be left alone to watch over Luke Skywalker and to spend time meditating and studying the Force.\n\nHis duty to train the boy as a Jedi has been blocked by Luke’s uncle, but he still protects young Skywalker from many threats.  Kenobi has also needed to defend himself as well from attack, especially from an outcast terror whom he thought defeated many years ago on Naboo. Other figures from his past may also rise again, but Kenobi has had many years to prepare and is ready to whatever it takes to see the Empire ended.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 5,
+			"Cunning": 5,
+			"Willpower": 5,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"strain": 20
+		},
+		"skills": {
+			"Charm": 4,
+			"Cool": 3,
+			"Deception": 3,
+			"Discipline": 4,
+			"Knowledge: Lore": 4,
+			"Knowledge: Outer Rim": 2,
+			"Knowledge: Underworld": 2,
+			"Lightsaber": 5,
+			"Negotiation": 4,
+			"Perception": 4,
+			"Piloting: Space": 3,
+			"Survival": 4,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 4", "Force Rating 6", "Parry 4", "Improved Reflect 2", "Soresu Technique",
+			{
+				"name": "Jedi Defender",
+				"description": "Once per encounter, after igniting his lightsaber, may spend 1 Destiny Point to make enemies within short range unable to target any other foes except him until the end of his following turn."
+			},
+			{
+				"name": "Shroud",
+				"description": "Obi-Wan may spend 1 Destiny Point to make himself undetectable viua Force powers and make his own powers go unnoticed for the remainder of the encounter."
+			}
+		],
+		"abilities": ["Force Power: Enhance", "Force Power: Foresee", "Force Power: Heal", "Force Power: Influence", "Force Power: Move", "Force Power: Sense",
+			{
+				"name": "Always Teaching",
+				"description": "Once per session, each PC within short range of Obi-Wan counts their Force rating as one higher until the end of the encounter."
+			},
+			{
+				"name": "Force Power: Terrifying Projection",
+				"description": "Once per encounter as a maneuver, Obi-Wan may force each enemy within medium range to make a :hard: fear check as an out-of-turn incidental."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Obi-Wan’s Lightsaber",
+				"skill": "Lightsaber",
+				"damage": 10,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder"]
+			}
+		],
+		"gear": ["Faded robes (+1 soak)"],
+		"tags": ["book:aaa", "force sensitive", "jedi", "location:Tatooine"]
+	},
+	{
+		"name": "Politician",
+		"type": "Rival",
+		"description": "Denizens of the Core Worlds include former members of the Imperial Senate, recently disbanded by the Emperor, who remain in the area in hopes of maintaining their political influence, wealthy lifestyle, and general connection to the goings-on of the Empire as a whole. Under normal circumstances, these individuals venture into the more rural regions of the galaxy only very rarely. Even those who represent the Outer Rim Territories can scarcely find time for such a lengthy journey. When such individuals do venture out into the galaxy at large, it is typically to serve their own needs rather than the needs of anyone else. A rare few are genuinely interested in the fate of their constituents and seek to aid the Alliance in restoring a more compassionate government, but most have benefited far too much from their association with the Empire to willingly aid in its overthrow.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 2,
+			"Cool": 2,
+			"Deception": 1,
+			"Knowledge: Core Worlds": 2,
+			"Knowledge: Education": 2,
+			"Negotiation": 2
+		},
+		"talents": ["Adversary 1", "Commanding Presence 1"],
+		"gear": ["Bodyguards", "Datapad", "Comlink"],
+		"tags": ["civilian", "book:aaa", "politician"]
+	},
+	{
+		"name": "Senator",
+		"type": "Nemesis",
+		"description": "Denizens of the Core Worlds include former members of the Imperial Senate, recently disbanded by the Emperor, who remain in the area in hopes of maintaining their political influence, wealthy lifestyle, and general connection to the goings-on of the Empire as a whole. Under normal circumstances, these individuals venture into the more rural regions of the galaxy only very rarely. Even those who represent the Outer Rim Territories can scarcely find time for such a lengthy journey. When such individuals do venture out into the galaxy at large, it is typically to serve their own needs rather than the needs of anyone else. A rare few are genuinely interested in the fate of their constituents and seek to aid the Alliance in restoring a more compassionate government, but most have benefited far too much from their association with the Empire to willingly aid in its overthrow.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 13
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 2,
+			"Deception": 2,
+			"Discipline": 1,
+			"Knowledge: Core Worlds": 2,
+			"Knowledge: Education": 2,
+			"Knowledge: Outer Rim": 1,
+			"Leadership": 2,
+			"Negotiation": 3,
+			"Perception": 1
+		},
+		"talents": ["Adversary 2", "Commanding Presence 2", "Works Like a Charm"],
+		"gear": ["Bodyguards", "Datapad", "Diplomatic Comlink"],
+		"tags": ["civilian", "book:aaa", "senator"]
+	},
+	{
+		"name": "R2-D2",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"strain": 14,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Astrogation": 4,
+			"Charm": 2,
+			"Computers": 5,
+			"Cool": 2,
+			"Deception": 2,
+			"Discipline": 3,
+			"Knowledge: Outer Rim": 3,
+			"Mechanics": 4,
+			"Melee": 1,
+			"Perception": 3,
+			"Piloting: Space": 3,
+			"Resilience": 1,
+			"Skulduggery": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Speaks Binary 1", "Durable 3", "Fine Tuning 3", "Solid Repairs 3",
+			{
+				"name": "Hidden Storage 1",
+				"description": "R2-D2's body contains a hidden compartment that can hide small objects totalling no more than encumberance 1; Checks to detect this compartment are :formidable:."
+			}
+		],
+		"abilities": ["Droid",
+			{
+				"name": "Plucky Little Droid",
+				"description": "Once per encounter as an incidental, R2 may convert one dark side Destiny Point to a light side Destiny Point."
+			}
+		],
+		"weapons": [
+			{
+				"name": "R2’s fusion welder",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Burn 2", "Stun Setting"]
+			}
+		],
+		"gear": ["Built-in repair kit", "Rocket boosters (allows R2-D2 to fly, as per the rules in the Flying sidebars in Chapter VI: Conflict and Combat in the core rulebooks)", "Data Probe", "Fire Extinguisher", "Holoprojector"],
+		"tags": ["rebel alliance", "book:aaa", "species:Droid"]
+	},
+	{
+		"name": "Wedge Antilles",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 14,
+			"strain": 15,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Astrogation": 1,
+			"Brawl": 2,
+			"Cool": 3,
+			"Discipline": 2,
+			"Gunnery": 3,
+			"Leadership": 2,
+			"Mechanics": 2,
+			"Melee": 1,
+			"Perception": 3,
+			"Piloting: Planetary": 2,
+			"Piloting: Space": 3,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2",
+			{
+				"name": "Brilliant Evasion",
+				"description": "Once per encounter, when piloting a vehicle or starship, may select 1 opponent and make an opposed Piloting (Planetary or Space) check. If successful, the opponent’s vehicle or starship cannot attach the character’s vehicle for 4 rounds."
+			}
+		],
+		"abilities": [
+			{
+				"name": "Out of Nowhere",
+				"description": "Once per session, Wedge may upgrade the ability of a Gunnery check he makes against an undamaged vehicle or starship twice; allies who make conbat checks against the same target that round add automatic :advantage::advantage: to their checks."
+			}
+		],
+		"weapons": ["Light blaster pistol"],
+		"gear": ["Rebel flight suit", "X-Wing starfighter"],
+		"tags": ["rebel alliance", "book:aaa", "pilot"]
+	},
+	{
+		"name": "Yoda",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 5,
+			"Presence": 5
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 16,
+			"strain": 26,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Charm": 4,
+			"Cool": 4,
+			"Discipline": 5,
+			"Knowledge: Core Worlds": 4,
+			"Knowledge: Education": 4,
+			"Knowledge: Lore": 5,
+			"Knowledge: Outer Rim": 4,
+			"Knowledge: Xenology": 4,
+			"Leadership": 5,
+			"Lightsaber": 5,
+			"Negotiation": 4,
+			"Perception": 5,
+			"Resilience": 2,
+			"Stealth": 3,
+			"Survival": 4,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 4", "Force Rating 8", "Improved Parry 5", "Improved Reflect 5", "Niman Technique",
+			{
+				"name": "Calming Aura",
+				"description": "When an opponent targets Yoda with a Force power, reduce :forcepip: generated by 1."
+			},
+			{
+				"name": "Natural Mystic",
+				"description": "Once per session, Yoda may reroll any one Force power check."
+			},
+			{
+				"name": "Shroud",
+				"description": "Yoda may spend 1 Destiny Point to make himself undetectable viua Force powers and make his own powers go unnoticed for the remainder of the encounter."
+			},
+			{
+				"name": "The Force Is My Ally",
+				"description": "Once per session, Yoda may suffer 2 strain to perform a Force power action as a maneuver."
+			}
+
+		],
+		"abilities": ["Force Power: Enhance", "", "Force Power: Foresee", "Force Power: Heal", "Force Power: Move", "Force Power: Seek", "Force Power: Sense",
+			{
+				"name": "Do or Do Not",
+				"description": "Yoda allows allies within short range to downgrade the difficulty of their skill checks once. They may suffer 2 strain to downgrade the difficulty twice instead."
+			},
+			{
+				"name": "Force Power: Farsight",
+				"description": "Yoday may spend :forcepip: to ignore the effects of darkness or blindness and see normally up to extreme range for 3 rounds (or 3 minutes)."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Yoda’s Shoto Lightsaber",
+				"skill": "Lightsaber",
+				"damage": 7,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Accurate 2", "Breach 1", "Sunder", "Vicious 1"]
+			}
+		],
+		"gear": ["Jedi robes (+1 soak)", "gimer stick"],
+		"tags": ["book:aaa", "force sensitive", "jedi", "location:Dagobah"]
+	},
+	{
+		"name": "Admiral Piett",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"strain": 18,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Coercion": 2,
+			"Cool": 3,
+			"Discipline": 3,
+			"Knowledge: Outer Rim": 2,
+			"Knowledge: Warfare": 4,
+			"Leadership": 4,
+			"Negotiation": 2,
+			"Ranged: Light": 1,
+			"Vigilance": 3
+		},
+		"talents": ["Fire Control",
+			{
+				"name": "Starship Adversary 1",
+				"description": "Upgrade difficulty of all combat checks against a ship this character is commanding once."
+			}
+		],
+		"abilities": [
+			{
+				"name": "Strategic Direction",
+				"description": "Once per round, Admiral Piett may spend a maneuver to direct three Imperial Navy NPCs or minion groups within medium range [this can be at planetary scale for targets on other ships]; each target may perform an immediate maneuver as an out-of-turn incidental or instead add :success: to their next check."
+			}
+		],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Heavy uniform clothing (+1 soak)", "Code cylinder"],
+		"tags": ["book:aaa", "empire", "imperial military"]
 	}
 ]

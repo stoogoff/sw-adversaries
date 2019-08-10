@@ -633,9 +633,17 @@
 				"description": "Saw adds :boost: to Vigilance and Perception checks."
 			}
 		],
-		"weapons": ["Blaster pistol"],
+		"weapons": ["Blaster pistol",
+			{
+				"name": "Walking stick",
+				"skill": "melee",
+				"plus-damage": 2,
+				"critical": 4,
+				"range": "Engaged"
+			}
+		],
 		"gear": ["Heavy battle armour (+2 Soak)"],
-		"tags": ["book:dor", "rebel alliance", "location:Jedha"]
+		"tags": ["book:dor", "book:aaa", "rebel alliance", "location:Jedha"]
 	},
 	{
 		"name": "Commandant Aresko",
@@ -1614,7 +1622,7 @@
 			}
 		],
 		"gear": ["Robes of office", "Diplomatic comlink", "Secret encrypted comlink", "Datapad"],
-		"tags": ["book:dor", "rebel alliance", "senator"]
+		"tags": ["book:dor", "book:aaa", "rebel alliance", "senator"]
 	},
 	{
 		"name": "Ahsoka Tano",
