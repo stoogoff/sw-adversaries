@@ -2439,7 +2439,7 @@
 			}
 		],
 		"gear": ["Woven reed armour (+1 Soak, +1 Ranged Defence)"],
-		"tags": ["source:D20Radio.com", "location:mimban"]
+		"tags": ["source:D20Radio.com", "location:Mimban"]
 	},
 	{
 		"name": "Mimbanese Resistance Sniper",
@@ -2492,7 +2492,7 @@
 			}
 		],
 		"gear": ["Woven reed armour (+1 Soak, +1 Ranged Defence)", "Macrobinoculars"],
-		"tags": ["source:D20Radio.com", "location:mimban"]
+		"tags": ["source:D20Radio.com", "location:Mimban"]
 	},
 	{
 		"name": "Hired Gun",
