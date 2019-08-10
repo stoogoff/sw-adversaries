@@ -423,7 +423,7 @@
 		"skills": ["Astrogation", "Computers", "Gunnery", "Knowledge: Warfare", "Mechanics", "Ranged: Light", "Perception", "Vigilance"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Death Star trooper uniform and helmet (+1 Soak)"],
-		"tags": ["book:dor", "empire", "imperial military", "location:Death Star"]
+		"tags": ["book:aaa", "book:dor", "empire", "imperial military", "location:Death Star"]
 	},
 	{
 		"name": "Death Star Trooper Officer",
@@ -501,7 +501,7 @@
 		],
 		"weapons": ["Heavy blaster pistol"],
 		"gear": ["Director’s uniform with cape (+1 Soak)", "Datapad", "Multiple encrypted comlinks"],
-		"tags": ["book:dor", "empire", "imperial military", "book:aaa"]
+		"tags": ["book:dor", "book:aaa", "empire", "imperial military", "book:aaa"]
 	},
 	{
 		"name": "Stormtrooper: Death Trooper",
@@ -968,6 +968,7 @@
 			"Discipline": 3,
 			"Knowledge: Core Worlds": 4,
 			"Knowledge: Outer Rim": 4,
+			"Knowledge: Education": 4,
 			"Knowledge: Warfare": 4,
 			"Leadership": 5,
 			"Negotiation": 4,
@@ -982,7 +983,7 @@
 			}
 		],
 		"gear": ["Imperial Moff’s uniform (+1 Soak)", "Encrypted comlink", "Code cylinders"],
-		"tags": ["book:dor", "empire", "imperial bureaucracy"]
+		"tags": ["book:aaa", "book:dor", "empire", "imperial bureaucracy"]
 	},
 	{
 		"name": "Gall Trayvis",
@@ -1093,7 +1094,7 @@
 			"Knowledge: Lore": 4,
 			"Knowledge: Outer Rim": 4,
 			"Knowledge: Warfare": 5,
-			"KNowledge: Xenology": 5,
+			"Knowledge: Xenology": 5,
 			"Melee": 3,
 			"Perception": 4,
 			"Ranged: Light": 2,
@@ -1286,75 +1287,6 @@
 		],
 		"gear": ["ISB Armour (+2 Soak)", "Secure comlink"],
 		"tags": ["book:dor", "imperial security bureau", "empire"]
-	},
-	{
-		"name": "Darth Vader",
-		"type": "Nemesis",
-		"description": "Many dark tales are told about a black-armoured humanoid who serves as the Emperor’s most trusted enforcer and is perhaps the most feared being in the Empire. Rumoured to live in a forbidding castle on a world of lava, this warrior wields a red lightsaber and possesses terrifying powers that suggest he has a connection to the dreaded Sith. The few who claim to have survived encounters with this individual are unsure whether the armour houses a living being, a combat droid, or even a clone trooper. Many even fear that duplicates could be activated if the first is ever defeated.\n\nIn addition to his other duties to the Empire, Darth Vader is believed to be the most senior member of the Inquisitorius, and legends abound of his pursuit of target after target when other agents failed in their efforts. It is possible that Vader has trained Inquisitors in the techniques required to eliminate Force-sensitive targets.",
-		"characteristics": {
-			"Brawn": 5,
-			"Agility": 3,
-			"Intellect": 3,
-			"Cunning": 4,
-			"Willpower": 5,
-			"Presence": 4
-		},
-		"derived": {
-			"soak": 7,
-			"wounds": 24,
-			"strain": 19,
-			"defence": [1, 1]
-		},
-		"skills": {
-			"Athletics": 2,
-			"Coercion": 5,
-			"Cool": 3,
-			"Deception": 4,
-			"Discipline": 3,
-			"Gunnery": 3,
-			"Leadership": 3,
-			"Lightsaber": 5,
-			"Perception": 2,
-			"Piloting: Space": 5,
-			"Vigilance": 3
-		},
-		"talents": ["Adversary 4", "Durable 3", "Force Rating 6", "Improved Parry 5", "Improved Reflect 5", "Saber Throw"],
-		"abilities": [
-			"Darkside Force User",
-			"Force Power: Enhance",
-			{
-				"name": "Terrifying",
-				"description": "At the beginning of an encounter, each enemy within Medium range must make a :hard-3: fear check."
-			},
-			{
-				"name": "I Have You Now",
-				"description": "After inflicting a Critical Hit or Injury in combat may spend :advantage: to add +20 to Critical Hit or Injury results."
-			},
-			{
-				"name": "Force Power: Force Choke",
-				"description": "Darth Vader may spend :forcepip: to immobilise a target within Short range until the end of Vader’s next turn; may spend :forcepip: to inflict 1 Wound on the target, ignoring Soak and may do so multiple times. Vader may also roll an opposed Discipline vs. Discipline check against the target, if the check succeeds, the target suffers a Critical Injury, adding +10 to the roll per :forcepip: spent on the check."
-			},
-			{
-				"name": "Force Power: Sense",
-				"description": "Vader may spend :forcepip: to sense all living things within Medium range of himself (including animals and sentient beings), and spend :forcepip: to sense the current emotional state of one living target with whom he is Engaged. He may not activate either ability multiple times."
-			},
-			{
-				"name": "Force Power: Move",
-				"description": "The character may hurl objects by making a Move Force Power check and rolling a ranged attack as part of the pool. The attack’s difficulty is equal to the Silhouette of the object being thrown (default is Silhouette 0) and only succeeds if they can also spend enough :forcepip: to move the object. The attack deals damage equal to the Silhouette of the object times 10 (Silhouette 0 deals 5 damage) plus one per :success:. To throw multiple objects, they must generate enough :forcepip: to move multiple objects, and must use rules for Auto-Fire to determine difficulty and targeting. Vader may spend :forcepip: to increase the power’s range to Medium range or spend :forcepip: to increase the size of the object he can move to Silhouette 4."
-			}
-		],
-		"weapons": [
-			{
-				"name": "Custom lightsaber",
-				"skill": "Lightsaber",
-				"damage": 10,
-				"critical": 1,
-				"range": "Engaged",
-				"qualities": ["Breach 1", "Sunder", "Superior", "Vicious 2"]
-			}
-		],
-		"gear": ["Armoured robes (+2 Soak, +1 Defence)"],
-		"tags": ["book:dor", "empire", "inquisitor", "force sensitive", "darkside"]
 	},
 	{
 		"name": "Grand Inquisitor",

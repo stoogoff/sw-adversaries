@@ -1023,7 +1023,6 @@
 				"name": "The Force Is My Ally",
 				"description": "Once per session, Yoda may suffer 2 strain to perform a Force power action as a maneuver."
 			}
-
 		],
 		"abilities": ["Force Power: Enhance", "", "Force Power: Foresee", "Force Power: Heal", "Force Power: Move", "Force Power: Seek", "Force Power: Sense",
 			{
@@ -1091,6 +1090,193 @@
 		],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Heavy uniform clothing (+1 soak)", "Code cylinder"],
+		"tags": ["book:aaa", "empire", "imperial military"]
+	},
+	{
+		"name": "Darth Vader",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 5,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 24,
+			"strain": 19,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Coercion": 5,
+			"Cool": 3,
+			"Deception": 4,
+			"Discipline": 3,
+			"Gunnery": 3,
+			"Leadership": 3,
+			"Lightsaber": 5,
+			"Perception": 2,
+			"Piloting: Space": 5,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 4", "Durable 3", "Force Rating 6", "Improved Parry 5", "Improved Reflect 5", "Saber Throw",
+			{
+				"name": "Starship Adversary 1",
+				"description": "Upgrade difficulty of all combat checks against a ship this character is commanding once."
+			}
+		],
+		"abilities": ["Darkside Force User", "Force Power: Enhance", "Force Power: Force Choke", "Force Power: Move", "Force Power: Sense",
+			{
+				"name": "Terrifying",
+				"description": "At the beginning of each encounter, each enemy within medium range must make a :challenge::challenge::challenge: fear check."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Vader’s Lightsaber",
+				"skill": "Lightsaber",
+				"damage": 10,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder", "Superior", "Vicious 2"],
+				"notes": "Once per encounter, when ignited upgrades the ability of a Coerican check Vader makes once"
+			}
+		],
+		"gear": ["Enhanced Helmet Optics (cancels the effect of darkness, smoke or other environmental effects that obscure vision)", "Armoured Robes (vacuum sealed, +2 soak, +1 defense)", "Integrated Med-systems, (once per session, as an incidental may use a built-in stimpack)"],
+		"tags": ["book:aaa", "book:dor", "empire", "imperial military", "force sensitive", "darkside", "sith", "inquisitor"]
+	},
+	{
+		"name": "Emperor Palpatine",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 5,
+			"Willpower": 5,
+			"Presence": 5
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 16,
+			"strain": 25,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Charm": 5,
+			"Coercion": 5,
+			"Cool": 4,
+			"Deception": 5,
+			"Discipline": 5,
+			"Knowledge: Core Worlds": 4,
+			"Knowledge: Education": 4,
+			"Knowledge: Lore": 5,
+			"Knowledge: Outer Rim": 3,
+			"Knowledge: Underworld": 2,
+			"Knowledge: Xenology": 4,
+			"Leadership": 5,
+			"Lightsaber": 5,
+			"Mechanics": 1,
+			"Negotiation": 5,
+			"Perception": 5,
+			"Piloting: Space": 2,
+			"Ranged: Light": 3,
+			"Resilience": 2,
+			"Skulduggery": 2,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 4", "Fearsome 3", "Force Rating 8", "Improved Parry 5", "Improved Reflect 5",
+			{
+				"name": "Improved Terrify",
+				"description": "Take the Terrify action; make a :average: Coercion check, adding :force: no greater than Force rating. Disorient one target within medium range per :success:. Spend :advantage::advantage: to extend duration and :triumph: to stagger one target. Spend :darkside: to immobilize one target."
+			},
+			{
+				"name": "Natural Mystic",
+				"description": "Once per session, Yoda may reroll any one Force power check."
+			},
+			{
+				"name": "Shien Technique",
+				"description": "When making a Lightsaber check, may use Cunning instead of Brawn."
+			},
+			{
+				"name": "Shroud",
+				"description": "May spend 1 Destiny Point to make himself undetectable viua Force powers and make his own powers go unnoticed for the remainder of the encounter."
+			},
+			{
+				"name": "The Force Is My Ally",
+				"description": "Once per session, may suffer 2 strain to perform a Force power action as a maneuver."
+			}
+		],
+		"abilities": ["Darkside Force User", "Force Power: Enhance", "Force Power: Foresee", "Force Power: Influence", "Force Power: Move", "Force Power: Seek", "Force Power: Sense", "Force Power: Unleash",
+			{
+				"name": "Force Power: Farsight",
+				"description": "May spend :forcepip: to ignore the effects of darkness or blindness and see normally up to extreme range for 3 rounds (or 3 minutes)."
+			},
+			{
+				"name": "Power of the Dark Side",
+				"description": "When Palpatine inflicts wounds on an opponent, Palpatine immediately recovers 3 strain or 1 wound."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Palpantine’s Lightsaber",
+				"skill": "Lightsaber",
+				"damage": 9,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder", "Superior", "Vicious 2"]
+			}
+		],
+		"gear": ["Personalized Sith robes (+2 soak, 1 defence)"],
+		"tags": ["book:aaa", "empire", "force sensitive", "darkside", "sith"]
+	},
+	{
+		"name": "General Veers",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 16,
+			"strain": 18,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Cool": 3,
+			"Discipline": 3,
+			"Gunnery": 4,
+			"Knowledge: Warfare": 4,
+			"Leadership": 4,
+			"Piloting: Planetary": 3,
+			"Ranged: Light": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1",
+			{
+				"name": "Improved Field Commander",
+				"description": "As an action, may make an :average: Leadership check. If he succeeds six minion groups may immediately suffer 1 strain to perform one maneuver as an out-of-turn incidental. Spend :triumph: to allow one of those groups to perform an action instead."
+			}
+		],
+		"abilities": [
+			{
+				"name": "Maximum Firepower",
+				"description": "once per encounter, General Veers may spend 1 Destiny Point to double the damage resulting from a Gunnery check from a single Imperial vehicle in hte encouner and add +30 to any Critical injury or Critical Hit results inflicted on the target from the attack."
+			}
+		],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Uniform and helmet (+1 soak)", "Code cylinder"],
 		"tags": ["book:aaa", "empire", "imperial military"]
 	}
 ]
