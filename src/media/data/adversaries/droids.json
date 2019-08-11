@@ -709,7 +709,7 @@
 			"Intellect": 3,
 			"Cunning": 1,
 			"Willpower": 2,
-			"Presence": 2
+			"Presence": 1
 		},
 		"derived": {
 			"soak": 3,
@@ -741,7 +741,7 @@
 			}
 		],
 		"gear": ["Interrogation drug syringe"],
-		"tags": ["species:Droid", "empire", "book:fad"]
+		"tags": ["species:Droid", "empire", "book:fad", "book:aaa"]
 	},
 	{
 		"name": "IT-O Interrogation Droid",
@@ -779,7 +779,7 @@
 			}
 		],
 		"gear": ["Hypodermic injectors", "Interrogation tools"],
-		"tags": ["book:aor", "adventure:Perlemian Haul", "species:Droid"]
+		"tags": ["book:aaa", "book:aor", "adventure:Perlemian Haul", "species:Droid"]
 	},
 	{
 		"name": "LOM-Series Protocol Droid",
@@ -1575,12 +1575,13 @@
 		"name": "Viper Probe Droid",
 		"type": "Rival",
 		"description": "When searching the most remote regions in the galaxy, Imperial authorities often make use of probe droids to scout remote planets and scour distant locations for signs of whatever, or whomever, is being sought. Probe droids travel to their destinations inside one-way hyperspace pods and communicate with their programmers via encrypted holo-channels. When the quarry may be on any of a thousand worlds, the best solution is often to disperse a thousand probe droids.",
-		"notes": "Cost 13,700",
+		"notes": "Cost 13,700. Stealth ranking only applies to the Viper droid from Allies And Adversaries.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
 			"Intellect": 2,
 			"Cunning": 3,
+			"Stealth": 3,
 			"Willpower": 1,
 			"Presence": 1
 		},

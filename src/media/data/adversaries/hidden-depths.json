@@ -28,7 +28,7 @@
 			}
 		],
 		"gear": ["Scout trooper armour (+1 Soak)", "Low-light vision gear (remove :setback::setback: from checks due to darkness)"],
-		"tags": ["empire", "imperial military", "stormtrooper", "adventure:Hidden Depths"]
+		"tags": ["empire", "imperial military", "stormtrooper", "adventure:Hidden Depths", "book:aaa"]
 	},
 	{
 		"name": "Pehmis Canyon Charger",

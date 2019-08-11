@@ -1067,7 +1067,7 @@
 		"tags": ["civilian", "book:aor", "senator"]
 	},
 	{
-		"name": "Provincial Law Enforcement",
+		"name": "Provincial Law Enforcement Officer",
 		"type": "Minion",
 		"description": "The day-to-day enforcement of laws does not gen­erally fall on the armoured shoulders of stormtroopers. Instead, most regions and municipalities rely on local talent, drawn from their own populations, to keep the peace, investigate criminal activity, and protect the citizenry from any threats that might arise. Though the details of their organizations and degrees of com petence are as varied as the worlds they patrol, in general, provincial law enforcement officers are lightly armed and armoured, with their most powerful weapons the comlinks they carry to call for backup when needed.",
 		"characteristics": {

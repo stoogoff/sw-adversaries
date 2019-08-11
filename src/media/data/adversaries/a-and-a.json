@@ -1278,5 +1278,179 @@
 		"weapons": ["Blaster pistol"],
 		"gear": ["Uniform and helmet (+1 soak)", "Code cylinder"],
 		"tags": ["book:aaa", "empire", "imperial military"]
+	},
+	{
+		"name": "Imperial Armour Corps Crew",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Discipline": 2,
+			"Gunnery": 2,
+			"Piloting: Planetary": 2,
+			"Ranged: Heavy": 2
+		},
+		"weapons": ["Blaster carbine"],
+		"gear": ["Uniform and helmet (+1 Soak)"],
+		"tags": ["book:aaa", "empire", "imperial military"]
+	},
+	{
+		"name": "Imperial Armour Corps Commander",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"strain": 12,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Discipline": 3,
+			"Gunnery": 3,
+			"Knowledge: Warfare": 2,
+			"Leadership": 3,
+			"Piloting: Planetary": 3,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Overwhelming Fire",
+			{
+				"name": "Armored Charge",
+				"description": "May spend a maneuver to direct three Imperial Armour Corps members on allied armoured vehicles within medium range to make an immediate maneuver as an out-of-turn incidental."
+			},
+			{
+				"name": "Overwhelming Fire",
+				"description": "May perform a maneuver to direct one Imperial Armored Corps member within medium range to perform an immediate out-of-turn incidental."
+			}
+		],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Uniform and helmet (+1 soak)", "Code cylinder"],
+		"tags": ["book:aaa", "empire", "imperial military"]
+	},
+	{
+		"name": "Imperial Navy Gunner",
+		"type": "Minion",
+		"description": "The common citizen of the galaxy will never see a Star Destroyer or a stormtrooper in person, if they are fortunate. For the majority of those who never leave a planet’s surface, the Imperial Army trooper is the face of the Empire. Stormtroopers and starships can be seen in promotional materials, but it is the stern and unforgiving face of the Army infantry that enforces the will of the Emperor on a planet’s surface. For that reason, it is the men and women of the Imperial Army whom Alliance personnel must combat.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": ["Gunnery"],
+		"abilities": [
+			{
+				"name": "Gun Battery",
+				"description": "for each Imperial Navy Gunner in the minion group beyond the first, increase damage on a successful Gunnery check by 1."
+			}		
+		],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Blast vest and helmet (+1 Soak)"],
+		"tags": ["empire", "imperial military", "book:aaa"]
+	},
+	{
+		"name": "Stormtrooper: Range Trooper",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": ["Athletics", "Discipline", "Melee", "Ranged: Heavy", "Resilience", "Survival"],
+		"weapons": ["Blaster rifle", "Frag grenade"],
+		"gear": ["Utility belt", "Extra reloads", "food and water packs", "gription boots (removes :setback::setback: imposed on checks to maintain footing in unstable environments)", "Range trooper armour (+1 soak, when making skill checks, range troopers remove :setback::setback: imposed due to harsh environmental conditions"],
+		"tags": ["book:aaa", "empire", "imperial military", "stormtrooper"]
+	},
+	{
+		"name": "4-LOM",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 16,
+			"strain": 18,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Computers": 3,
+			"Cool": 3,
+			"Deception": 4,
+			"Discipline": 3,
+			"Knowledge: Outer Rim": 3,
+			"Knowledge: Underworld": 4,
+			"Mechanics": 1,
+			"Negotiation": 3,
+			"Perception": 1,
+			"Ranged: Heavy": 2,
+			"Skulduggery": 4,
+			"Stealth": 3,
+			"Streetwise": 4,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1", "Precise Aim 2"],
+		"abilities": ["Droid",
+			{
+				"name": "Calculating Hunter",
+				"description": "4-LOM may use his Intellect when opposing Deception, Skulduggery, and Stealth checks that target him."
+			},
+			{
+				"name": "Integrated stun-gas emitter",
+				"description": "Once per encounter, as an action may force all organics within short range to make a :hard: Resilience check to resist stun gas. Those that fail suffer 3 strain, plus 1 additional strain per :threat:."
+			}
+		],
+		"weapons": [
+			{
+				"name": "DLT-19x targeting blaster",
+				"skill": "Ranged: Heavy",
+				"damage": 10,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Accurate 2", "Auto-Fire", "Cumbersome 3", "Telescopic Optical Sight"]
+			}
+		],
+		"gear": ["Enhanced optics suite (cancels the effects of darkness, smoke, or other environmental effects that obscure vision"],
+		"tags": ["underworld", "bounty hunter", "book:aaa", "species:Droid"]
 	}
 ]

@@ -1,4 +1,4 @@
-[
+﻿[
 	{
 		"name": "Tusken Raider Sniper",
 		"type": "Minion",
@@ -196,7 +196,7 @@
 		"skills": ["Ranged: Light", "Vigilance"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Light armour plates (+1 Soak)", "Jet pack"],
-		"tags": ["adventure:Crate of Krayts", "location:Nar Shadda", "cordal’s chain", "bounty hunter"]
+		"tags": ["adventure:Crate of Krayts", "location:Nar Shaddaa", "cordal’s chain", "bounty hunter"]
 	},
 	{
 		"name": "Cordal’s Chain Journeyman",
