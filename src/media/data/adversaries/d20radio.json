@@ -1024,7 +1024,7 @@
 				"qualities": ["Pierce 3", "Superior", "Vicious 1"]
 			}
 		],
-		"gear": ["Custom crimson ISB uniform w/light breastplate and latigo belt & boots (armoured Clothing Soak 1/Defense 1), encrypted comlink"],
+		"gear": ["Custom crimson ISB uniform w/light breastplate and latigo belt & boots (armoured Clothing Soak 1/defence 1), encrypted comlink"],
 		"tags": ["source:D20Radio.com", "empire", "imperial security bureau"],
 		"devOnly": true
 	},
@@ -1064,7 +1064,7 @@
 					},
 					{
 					"name": "Overwhelm Defenses",
-					"description": "(Upon successful attack with a starship or vehicle weapon, may spend :advantage::advantage: per rank of Overwhelm Defenses to reduce the Defense in the targeted zone by 1 for each :advantage::advantage: spent"
+					"description": "(Upon successful attack with a starship or vehicle weapon, may spend :advantage::advantage: per rank of Overwhelm Defenses to reduce the defence in the targeted zone by 1 for each :advantage::advantage: spent"
 					}
 		],
 		"abilities": [
@@ -1083,7 +1083,7 @@
 				"qualities": ["Stun Setting", "Inaccurate 1"]
 			}
 		],
-		"gear": ["Armoured flightsuit (+1 soak/+1 defense), comlink, Bloodletter (modified Firespray patrol craft)"],
+		"gear": ["Armoured flightsuit (+1 soak/+1 defence), comlink, Bloodletter (modified Firespray patrol craft)"],
 		"tags": ["source:D20Radio.com", "binayre pirate", "pilot", "pirate"],
 		"devOnly": true
 	},
@@ -1500,7 +1500,7 @@
 				"qualities": ["Stun", "Forearm Grip", "Weapon Sling", "Quick Draw"]
 			}
 		],
-		"gear": ["Storm commando armour (+1 Soak, 1 Defense, reflec coating [upgrade Stealth checks once, sensors cannot detect the wearer subject to GM discretion], enhanced optics suite), Long range comlink, Utility belt, Extra reloads"],
+		"gear": ["Storm commando armour (+1 Soak, 1 defence, reflec coating [upgrade Stealth checks once, sensors cannot detect the wearer subject to GM discretion], enhanced optics suite), Long range comlink, Utility belt, Extra reloads"],
 		"tags": ["source:D20Radio.com", "empire", "imperial military", "stormtrooper"]
 	},
 	{
@@ -1552,7 +1552,7 @@
 				"qualities": ["Stun"]
 			}
 		],
-		"gear": ["Army officer armour (+1 Soak, +1 Defense), Long range comlink, Utility belt, Extra reloads"],
+		"gear": ["Army officer armour (+1 Soak, +1 defence), Long range comlink, Utility belt, Extra reloads"],
 		"tags": ["source:D20Radio.com", "empire", "imperial military"]
 	},
 	{
@@ -1866,7 +1866,7 @@
 		"abilities": [
 			{
 				"name": "Counter-Jedi Tactics",
-				"description": "Upgrade the difficulty of any checks targeting this character’s mind using Force powers once, add 1 to this character’s defense against lightsaber attacks."
+				"description": "Upgrade the difficulty of any checks targeting this character’s mind using Force powers once, add 1 to this character’s defence against lightsaber attacks."
 			}
 		],
 		"weapons": [ "Heavy blaster pistol",
@@ -2226,8 +2226,8 @@
 				"qualities": ["Breach 1", "Superior"]
 			}
 		],
-		"gear": ["Built-in armour plating (+2 Soak, +1 Defense; Cortosis)"],
-		"tags": ["source:D20Radio.com", "species:droid", "krath"],
+		"gear": ["Built-in armour plating (+2 Soak, +1 defence; Cortosis)"],
+		"tags": ["source:D20Radio.com", "species:Droid", "krath"],
 		"devOnly": true
 	},
 	{
@@ -2350,7 +2350,7 @@
 			}
 		],
 		"gear": ["Ornate armoured plating (+1 soak)."],
-		"tags": ["source:D20Radio.com", "species:droid", "krath"],
+		"tags": ["source:D20Radio.com", "species:Droid", "krath"],
 		"devOnly": true
 	},
 	{
@@ -2702,7 +2702,7 @@
 				"qualities": ["Pierce 3", "Poison"]
 			}
 		],
-		"gear": ["Armoured  clothing  (+1  soak/+1  defense), Demon mask (bonuses included; FaD, 190)."],
+		"gear": ["Armoured  clothing  (+1  soak/+1  defence), Demon mask (bonuses included; FaD, 190)."],
 		"tags": ["source:D20Radio.com", "force sensitive", "bando gora"],
 		"devOnly": true
 	},
@@ -3287,7 +3287,7 @@
 				"qualities": ["Stun Damage"]
 				}
 			],
-		"gear": ["Banal Apparel (Opposing characters upgrade the difficulty of any checks made to identify the wearer once)", "Second Skin Armour (+1 Soak/+1 Defense; +2 Setback to Perception checks to notice on the wearer)"],
+		"gear": ["Banal Apparel (Opposing characters upgrade the difficulty of any checks made to identify the wearer once)", "Second Skin Armour (+1 Soak/+1 defence; +2 Setback to Perception checks to notice on the wearer)"],
 		"tags": ["species:Bothan","source:D20Radio.com"],
 		"devOnly": true
 	},
@@ -3469,7 +3469,7 @@
 			},
 			{
 				"name": "Shatter Defenses",
-				"description": "Lightsaber or Melee attacks made by Sith Juggernauts ignore up to 2 points of Melee Defense."
+				"description": "Lightsaber or Melee attacks made by Sith Juggernauts ignore up to 2 points of Melee defence."
 			}
 		],
 		"weapons": [

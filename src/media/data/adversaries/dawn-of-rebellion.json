@@ -1813,7 +1813,7 @@
 		],
 		"weapons": ["Arc welder"],
 		"gear": ["Emergency repair kit", "Encrypted comlink", "Goggles", "Tool kit", "Booster rocket (allows Chopper to fly, as per the rules in the Flying sidebars in Chapter VI: Conflict and Combat in the core rulebooks)"],
-		"tags": ["book:dor", "rebel alliance", "spectres", "species:droid"]
+		"tags": ["book:dor", "rebel alliance", "spectres", "species:Droid"]
 	},
 	{
 		"name": "Spectre 4: Garazeb “Zeb” Orrelios",
