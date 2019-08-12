@@ -1782,20 +1782,16 @@
 		],
 		"abilities": [
 			{
-				"name": "Brutal Hunter",
-				"description": "If a target suffers wounds from his attack, Dengar may suffer up to 3 strain to inflict a number of additional wounds equal to the amount of strain suffered in this way."
+				"name": "Watch Out for the Traps!",
+				"description": "Make a :hard: Vigilance check, if successful, all character within short range suffer 2 wounds plus 1 additional wounds per :failure:. GM May spend :despair: or :threat::threat::threat: to have targets who succeed become immobilized, disoriented or staggered."
 			},
 			{
-				"name": "Dirty Tricks",
-				"description": "Once per encounter as an action, Dengar may make a :hard: Skulduggery check. If successfulm he may select one enemy within short range, plus one additional target per :success:, to suffer 4 wounds. After resolving this, Dengar may perform a Move maneuver as an incidental."
-			},
-			{
-				"name": "Cantina Talk",
-				"description": "When a character is within short range of Dengar they may suffer 2 strain to add automatic :advantage::advantage: to Streetwise and Knowledge: Underworld checks they make that turn."
+				"name": "Enormous Profit",
+				"description": "Whenever PC’s working with Doctor Aphra would gain credits for an illicit reward or black market deal, one PC may make a :hard: Negotiation check. If they succeed, they gain double the expected credits. If they fail, they get the normal amount. If they fail with :despair:, they get nothing and she gets all the money."
 			}
 		],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Electrobinoculars", "Comlink", "Stimpack", "Modified HK heavyduty lifter Ark Angel"],
-		"tags": ["underworld", "bounty hunter", "book:aaa"]
+		"tags": ["underworld", "book:aaa"]
 	}
 ]
