@@ -1945,36 +1945,55 @@
 		"tags": ["book:aaa", "species:Droid"]
 	},
 	{
-		"name": "Gamorrean Guard",
-		"type": "Rival",
-		"description": "Gamorreans are porcine humanoids with a penchant for barbarism and thuggishness. Hailing from the Outer Rim planet of Gamorr, these violent and thoroughly dull-witted creatures would likely have never made it into the wider galaxy. However, at some point some enterprising individual realized that the Gamorreans complete unpleasantness was matched only by their utility as dumb, strong muscle. Now many individuals from crime barons to wealthy nobles employ Gamor­reans as guards. They are unintelligent enough to be difficult to bribe and strong enough to be truly terrify­ing in a fight.",
+		"name": "Hondo Ohnaka",
+		"type": "Nemesis",
+		"description": "The Weequay Hondo Ohnaka, former pirate king of the Ohnaka gang, has fallen far from his glory days during the CLone Wars. His considerable criminal enterprises were destroyed with the ride of the Galactic Empire, leaving Ohnaka operating as a free agent hoping to recover some of his former prestige. Without his sizable fleet and crew of Weequay pirates, Hondo has turned to smuggling, arms dealing and shipjacking to make ends meet. During the rise of the Rebellion, Ohnaka made alliances with everyone from a resistance group on Lothal to Ugnaught information brokers and even the Empire, pledging allegiance and betraying them each in turn in search of profits.\n\nWhite Hondo has gained valuable experiences during his time with pirates, criminals and Rebels, he hasn't changed much. He is still unpredictable, and his plans always take a turn for the chaotic. However, there is something in Hondo’s character that makes a betrayed partner forgive him quickly, and Hondo himself never holds a grudge against an . “old friend”.",
 		"characteristics": {
-			"Brawn": 4,
+			"Brawn": 2,
 			"Agility": 2,
-			"Intellect": 1,
-			"Cunning": 1,
-			"Willpower": 1,
-			"Presence": 1
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": 5,
-			"wounds": 14
+			"soak": 3,
+			"wounds": 14,
+			"strain": 15,
+			"defence": [0, 0]
 		},
 		"skills": {
-			"Brawl": 3,
-			"Melee": 3
+			"Charm": 3,
+			"Cool": 1,
+			"Deception": 4,
+			"Knowledge: Outer Rim": 1,
+			"Knowledge: Underworld": 2,
+			"Leadership": 3,
+			"Negotiation": 3,
+			"Perception": 2,
+			"Piloting: Space": 2,
+			"Ranged: Light": 2,
+			"Skulduggery": 3,
+			"Stealth": 1,
+			"Streetwise": 2
 		},
-		"talents": ["Knockdown"],
-		"weapons": [
+		"talents": ["Adversary 2", "Kill with Kindness 1",
 			{
-				"name": "Crude Gamorrean vibro-ax",
-				"skill": "Melee",
-				"plus-damage": 3,
-				"critical": 4,
-				"range": "Engaged",
-				"qualities": ["Pierce 2", "Vicious 3"]
+				"name": "Improvised Just Kidding!",
+				"description": "One per round, may spend one Destiny Point to convery a single :despair: ton one social skill check to :advantage:, but must explain how the verbal misstep became advantageous."
 			}
 		],
-		"tags": ["underworld", "thug", "species:Gamorrean", "book:aaa"]
+		"abilities": ["Pheromone Communication",
+			{
+				"name": "Distracting Quip",
+				"description": "Once per encounter as an action, may make a :hard: deception check. Each :success: gives Hondo +1 ranged and melee defence for the next two rounds."
+			},
+			{
+				"name": "Pheromones",
+				"description": "One per round, may spend one Destiny Point to convery a single :despair: ton one social skill check to :advantage:, but must explain how the verbal misstep became advantageous."
+			}
+		],
+		"gear": ["Admiral’s uniform (+1 soak)", "Comlink"],
+		"tags": ["rebel alliance", "book:aaa"]
 	}
 ]
