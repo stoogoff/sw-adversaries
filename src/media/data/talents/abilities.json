@@ -416,6 +416,10 @@
 		"description": "LOM-series protocol droids allow allies to remove :setback: from Nego­tiation checks or other checks made to negotiate or mediate when dealing with insectoid species."
 	},
 	{
+		"name": "Jet booster",
+		"description": "Allows this character to fly, as per the rules in the Flying sidebars in Chapter VI: Conflict and Combat in the core rulebooks."
+	},
+	{
 		"name": "Jungle Hunter",
 		"description": "Sludge panthers suffer no penalties when moving through rough terrain in dense jungle, dense forest, or swampy environments."
 	},

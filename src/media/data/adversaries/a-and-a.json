@@ -187,7 +187,7 @@
 				"damage": 8,
 				"critical": 3,
 				"range": "Medium",
-				"qualities": ["Stun Setting", "Auto-fire"]
+				"qualities": ["Stun Setting", "Auto-Fire"]
 			},
 			{
 				"name": "BlasTech A280-CFE blaster pistol",
@@ -1793,5 +1793,188 @@
 		"weapons": ["Blaster pistol"],
 		"gear": ["Electrobinoculars", "Comlink", "Stimpack", "Modified HK heavyduty lifter Ark Angel"],
 		"tags": ["underworld", "book:aaa"]
+	},
+	{
+		"name": "0-0-0",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 5,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 16
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coercion": 4,
+			"Computers":3,
+			"Cool": 4,
+			"Deception": 4,
+			"Discipline": 3,
+			"Knowledge: Core Worlds": 4,
+			"Knowledge: Outer Rim": 5,
+			"Mechanics": 3,
+			"Medicine": 5,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Droid",
+			{
+				"name": "Crafty Droid",
+				"description": "May use Cunning instead of Brawn when making Brawl checks."
+			},
+			{
+				"name": "Hypo-Digits",
+				"description": "As an action, may make a :hard: Skulduggery check against one target within engaged range. If successful, the target suffers 10 strain or the effects of another drug or poison at the GM’s discretion."
+			},
+			{
+				"name": "Expert Interrogator",
+				"description": "Once per encounter, may make an opposed Medicine versus Discipline check against one restrained target. If successful, the target suffers 5 wounds and the difficulty of Coercion checks made against the target is downgraded twice until the end of the session."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Shock grip",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Concussive 2", "Stun setting"]
+			},
+			{
+				"name": "Scalpel digits",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Pierce 4", "Vicious 3"]
+			}
+		],
+		"gear": ["Integrated medpac"],
+		"tags": ["book:aaa", "species:Droid"]
+	},
+	{
+		"name": "BT-1",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"defence": [1 ,1]
+		},
+		"skills": {
+			"Computers": 4,
+			"Discipline": 3,
+			"Gunnery": 4,
+			"Mechanics": 3,
+			"Ranged: Heavy": 4,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Droid", "Jet booster",
+			{
+				"name": "Concealed Armament",
+				"description": "Detecting BT’s array of stowed weapons requires a scanner and a :daunting: Computers check. BT-1 can deploy or coneal his weapons as an incidental."
+			},
+			{
+				"name": "Homicidal Droid",
+				"description": "Once per session as an action, make a :hard: gunnery check. If successful, eliminate one minion group within medium range and may spend :triumph: or :advantage::advantage::advantage: to eliminate one other minion group or a single rival."
+			},
+			{
+				"name": "Smoke Emitters",
+				"description": "As an action, may deploy smoke to create concealment that adds 3 dice to checks within short range as per Concealment rules in Chapter VI of any core rulebook."
+			}
+		],
+		"weapons": ["Flame projector",
+			{
+				"name": "Rotary blaster",
+				"skill": "Ranged: Heavy",
+				"damage": 10,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Accurate 1", "Auto-Fire", "Pierce 1", "Vicious 1"]
+			},
+			{
+				"name": "Rocket launcher",
+				"skill": "Gunnery",
+				"damage": 8,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Blast 8", "Burn 3", "Limited Ammo 4"]
+			},
+			{
+				"name": "Missile launcher",
+				"skill": "Gunnery",
+				"damage": 16,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Blast 5", "Breach 1", "Inaccurate 1", "Limited Ammo 2"]
+			},
+			{
+				"name": "Blaster arrays",
+				"skill": "Ranged: Heavy",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Accurate 1", "Linked 3"]
+			},
+			{
+				"name": "Grenade launcher",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Blast 6"]
+			}
+		],
+		"gear": ["Armoured chassis (+2 soak, +1 defence", "Integrated computer interface", "Tool kit"],
+		"tags": ["book:aaa", "species:Droid"]
+	},
+	{
+		"name": "Gamorrean Guard",
+		"type": "Rival",
+		"description": "Gamorreans are porcine humanoids with a penchant for barbarism and thuggishness. Hailing from the Outer Rim planet of Gamorr, these violent and thoroughly dull-witted creatures would likely have never made it into the wider galaxy. However, at some point some enterprising individual realized that the Gamorreans complete unpleasantness was matched only by their utility as dumb, strong muscle. Now many individuals from crime barons to wealthy nobles employ Gamor­reans as guards. They are unintelligent enough to be difficult to bribe and strong enough to be truly terrify­ing in a fight.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 14
+		},
+		"skills": {
+			"Brawl": 3,
+			"Melee": 3
+		},
+		"talents": ["Knockdown"],
+		"weapons": [
+			{
+				"name": "Crude Gamorrean vibro-ax",
+				"skill": "Melee",
+				"plus-damage": 3,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 3"]
+			}
+		],
+		"tags": ["underworld", "thug", "species:Gamorrean", "book:aaa"]
 	}
 ]

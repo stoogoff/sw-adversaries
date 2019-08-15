@@ -468,7 +468,7 @@
 		"skills": {
 			"Computers": 1,
 			"Knowledge: Underworld": 2,
-			"Per­ception": 2,
+			"Perception": 2,
 			"Skulduggery": 2,
 			"Vigilance": 1
 		},
@@ -705,7 +705,7 @@
 			}
 		],
 		"gear": ["Beast-hide armour (+1 Soak)"],
-		"tags": ["underworld", "thug", "species:Gamorrean", "book:eote", "book:aaa"]
+		"tags": ["underworld", "thug", "species:Gamorrean", "book:eote"]
 	},
 	{
 		"name": "Huttlet",
