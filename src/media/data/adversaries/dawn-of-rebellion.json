@@ -255,7 +255,7 @@
 			}
 		],
 		"gear": ["Cybernetic legs (+1 Brawn, already included in profile", "Nightbrother heavy clothing (+1 Soak)"],
-		"tags": ["book:dor", "force sensitive", "darkside", "species:Zabrak", "underworld"]
+		"tags": ["book:dor", "force sensitive", "darkside", "species:Zabrak", "underworld", "book:aaa"]
 	},
 	{
 		"name": "Shelish",

@@ -1845,7 +1845,7 @@
 				"damage": 6,
 				"critical": 3,
 				"range": "Medium",
-				"qualities": ["Concussive 2", "Stun setting"]
+				"qualities": ["Concussive 2", "Stun Setting"]
 			},
 			{
 				"name": "Scalpel digits",
@@ -1945,55 +1945,452 @@
 		"tags": ["book:aaa", "species:Droid"]
 	},
 	{
-		"name": "Hondo Ohnaka",
+		"name": "IG-88",
 		"type": "Nemesis",
-		"description": "The Weequay Hondo Ohnaka, former pirate king of the Ohnaka gang, has fallen far from his glory days during the CLone Wars. His considerable criminal enterprises were destroyed with the ride of the Galactic Empire, leaving Ohnaka operating as a free agent hoping to recover some of his former prestige. Without his sizable fleet and crew of Weequay pirates, Hondo has turned to smuggling, arms dealing and shipjacking to make ends meet. During the rise of the Rebellion, Ohnaka made alliances with everyone from a resistance group on Lothal to Ugnaught information brokers and even the Empire, pledging allegiance and betraying them each in turn in search of profits.\n\nWhite Hondo has gained valuable experiences during his time with pirates, criminals and Rebels, he hasn't changed much. He is still unpredictable, and his plans always take a turn for the chaotic. However, there is something in Hondo’s character that makes a betrayed partner forgive him quickly, and Hondo himself never holds a grudge against an . “old friend”.",
+		"description": "",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 5,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 17,
+			"strain": 18,
+			"defence": [2, 2]
+		},
+		"skills": {
+			"Computers": 5,
+			"Cool": 4,
+			"Coercion": 3,
+			"Deception": 3,
+			"Knowledge: Education": 3,
+			"Knowledge: Xenology": 3,
+			"Gunnery": 2,
+			"Mechanics": 4,
+			"Melee": 2,
+			"Negotiation": 2,
+			"Perception": 5,
+			"Piloting: Space": 3,
+			"Ranged: Heavy": 4,
+			"Ranged: Light": 2,
+			"Skulduggery": 3,
+			"Stealth": 4,
+			"Streetwise": 1,
+			"Survival": 1,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 2", "Quick Draw"],
+		"abilities": ["Droid",
+			{
+				"name": "Advanced Omnidirectional Sensors",
+				"description": "Cancels the effect of darkness, smoke, or other environmental effects that obscure vision."
+			},
+			{
+				"name": "Deadly Hunter",
+				"description": "May spend a maneuver to add the Breach 1, Limited Ammo 1 and Vicious 3 qualities to his pulse cannon for its next use before the end of the current encounter."
+			}
+		],
+		"weapons": ["Vibroknife",
+			{
+				"name": "Pulse Cannon",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Extreme",
+				"qualities": ["Cumbersome 3", "Pierce 2", "Slow-Firing 1"]
+			},
+			{
+				"name": "Neural inhibitor",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": null,
+				"range": "Medium",
+				"qualities": ["Disorient 2", "Stun Damage"]
+			},
+			{
+				"name": "Concussion discs",
+				"skill": "Ranged: Light",
+				"damage": 10,
+				"critical": 5,
+				"range": "Short",
+				"qualities": ["Concussive 2", "Disorient 3"]
+			},
+			{
+				"name": "Flamethrower",
+				"skill": "Gunnery",
+				"damage": 6,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Blast 9", "Burn 4", "Vicious 2"]
+			}
+		],
+		"gear": ["Combat chassis (+3 soak, +2 defence, integrated flamethrower)", "Ammo bandolier", "modified Trilon Agressor assault fighter IG-2000"],
+		"tags": ["underworld", "bounty hunter", "book:aaa", "species:Droid"]
+	},
+	{
+		"name": "Jabba the Hutt",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 1,
+			"Intellect": 5,
+			"Cunning": 6,
+			"Willpower": 5,
+			"Presence": 5
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 25,
+			"strain": 25
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 5,
+			"Cool": 5,
+			"Deception": 4,
+			"Knowledge: Education": 4,
+			"Knowledge: Underworld": 5,
+			"Knowledge: Xenology": 4,
+			"Leadership": 4,
+			"Negotiation": 4,
+			"Resilience": 8,
+			"Skulduggery": 5,
+			"Streetwise": 5
+		},
+		"talents": ["Adversary 3", "Durable 3", "Fearsome 3"],
+		"abilities": ["Awkward",
+			{
+				"name": "Mind Trick Immunity",
+				"description": "Jabba cannot be affected by Force powers involving mental manipulation."
+			},
+			{
+				"name": "Ponderous",
+				"description": "Hutts can never spend more than one maneuver moving per turn."
+			},
+			{
+				"name": "Danger Below",
+				"description": "Once per encounter may make an opposed Deception versus Vigilance check to lure a target onto a trap set in the flooring. Success means the target falls in the trap and Jabba may spend a :triumph: to cause one additional enemy to fall in as well; if unsuccessful, the target may spend :despair: to cause an ally of Jabba to fall instead."
+			}
+		],
+		"gear": ["Repulsor sled, customized Ubrikkian Industries sail barge Khetanna", "Modified Ubrikkian Minstrel-class space yacht Star Jewel"],
+		"tags": ["underworld", "species:Hutt", "book:aaa", "location:Tatooine"]
+	},
+	{
+		"name": "Jawa scavenger",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": ["Mechanics", "Perception", "Ranged: Light", "Skulduggery", "Survival"],
+		"talents": ["Utinni! 1"],
+		"abilities": [
+			{
+				"name": "Hasty Repairs",
+				"description": "When making a check to repair a weapon, equipment, vehicle or droid, may reduce the difficulty of the check one level to a minimum of :simple:. Checks involving the repaired object that generate :despair: inflict an immediate Critical Hit on the vehicle or a Critical Injury if it is a droid. If a character is using the item, this inflicts a Critical Injury on the character."
+			}
+		],
+		"weapons": ["Ionisation blaster"],
+		"gear": ["Robes(+1 Soak)", "Utility belt"],
+		"tags": ["species:Jawa", "book:aaa", "location:Tatooine"]
+	},
+	{
+		"name": "Gang leader",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"defence": [1 ,1]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Cool": 3,
+			"Melee": 2,
+			"Perception": 1,
+			"Ranged: Light": 4,
+			"Streetwise": 2
+		},
+		"abilities": [
+			{
+				"name": "Home Turf",
+				"description": "While in territory the gang controls, this character and members of their gang who are within short range add automatic :advantage: to checks they make."
+			}
+		],
+		"weapons": ["Heavy blaster pistol",
+			{
+				"name": "Knuckledusters",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Disorient 3", "Knockdown"]
+			}
+		],
+		"gear": ["Heavy clothing (+1 soak)"],
+		"tags": ["book:aaa", "underworld", "thug"]
+	},
+	{
+		"name": "Swoop Ace",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12
+		},
+		"skills": {
+			"Brawl": 1,
+			"Charm": 2,
+			"Piloting: Planetary": 3,
+			"Knowledge: Outer Rim": 3,
+			"Mechanics": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Full Throttle",
+			{
+				"name": "Smooth Acceleration",
+				"description": "When performing the Punch It maneuver, the rider’s swoop bike suffers 1 less sytem strain than normal, to a minimum of 1."
+			}
+		],
+		"gear": ["Racing suit (+1 soak)"],
+		"tags": ["book:aaa", "underworld", "thug"]
+	},
+	{
+		"name": "Tusken Raider (AaA)",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [1, 0]
+		},
+		"skills": ["Melee", "Perception", "Ranged: Heavy", "Survival"],
+		"abilities": [
+			{
+				"name": "Hidden Numbers",
+				"description": "Tusken Raiders may spend :triumph::triumph: in a combat check to have a new minion group of three Tusken Raiders riding a bantha appear at long range from them. This group occupies a new Initiative order and acts in this round."
+			}
+		],
+		"weapons": ["Slugthrower rifle", "Gaffi stick"],
+		"gear": ["Bantha mount"],
+		"tags": ["book:aaa", "species:Tusken", "location:Tatooine"]
+	},
+	{
+		"name": "Weequay Gunsel",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 8,
+			"defence": [0, 0]
+		},
+		"skills": ["Cool", "Deception", "Melee", "Ranged: Light", "Vigilance"],
+		"abilities": ["Pheromone Communication"],
+		"weapons": ["Heavy blaster pistol", "Vibroblade"],
+		"gear": ["Heavy clothing (+1 soak)"],
+		"tags": ["book:aaa", "species:Weequay", "location:Tatooine"]
+	},
+	{
+		"name": "Zuckuss",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15,
+			"strain": 15,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Cool": 4,
+			"Discipline": 3,
+			"Knowledge: Underworld": 3,
+			"Melee": 2,
+			"Perception": 5,
+			"Ranged: Heavy": 4,
+			"Ranged: Light": 3,
+			"Stealth": 3,
+			"Streetwise": 4,
+			"Survival": 4,
+			"Vigilance": 5
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Droid", "Ammonia Breather",
+			{
+				"name": "Intuitive Hunter",
+				"description": "As an action, may make an opposed Survival versus Stealth to gain information as to the whereabouts of his quarry; :triumph: may be spent to reveal the quarry’s exact location."
+			}
+		],
+		"weapons": ["Vibroknife", "Stun grenade",
+			{
+				"name": "GRS-1 snare rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 0,
+				"critical": null,
+				"range": "Long",
+				"qualities": ["Ensnare 2", "Stun 10"]
+			},
+			{
+				"name": "Concussion discs",
+				"skill": "Ranged: Light",
+				"damage": 10,
+				"critical": 5,
+				"range": "Short",
+				"qualities": ["Concussive 2", "Disorient 3"]
+			}
+		],
+		"gear": ["Heavy battle armour (+2 soak, +1 defence)", "Modified Byblos Drive Yards G-A transport Mist Hunter"],
+		"tags": ["underworld", "bounty hunter", "book:aaa"]
+	},
+	{
+		"name": "Ewok hunter",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4,
+			"defence": [0, 0]
+		},
+		"skills": ["Athletics", "Cool", "Melee", "Ranged: Heavy", "Stealth", "Survival", "Vigilance"],
+		"abilities": ["Silhouette 0",
+			{
+				"name": "Arboreal Ambush",
+				"description": "Once per session while in a forested area, may spend :triumph: from an Initiative check to pick a single opposing minion group; that group may noot act in the first round of combat."
+			},
+			{
+				"name": "Low-Tech User",
+				"description": "Upgrade the difficulty of checks to use unfamiliar technology once."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Bow",
+				"skill": "Ranged: Heavy",
+				"damage": 6,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Pierce 1", "Prepare 1"]
+			},
+			{
+				"name": "Spear",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			}
+		],
+		"gear": ["Heavy leather mantle (+1 soak)"],
+		"tags": ["book:aaa", "species:Ewok", "location:Endor"]
+	},
+	{
+		"name": "Ewok shaman",
+		"type": "Minion",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
 			"Intellect": 2,
 			"Cunning": 4,
-			"Willpower": 3,
-			"Presence": 3
+			"Willpower": 2,
+			"Presence": 4
 		},
 		"derived": {
 			"soak": 3,
 			"wounds": 14,
-			"strain": 15,
 			"defence": [0, 0]
 		},
 		"skills": {
-			"Charm": 3,
-			"Cool": 1,
-			"Deception": 4,
-			"Knowledge: Outer Rim": 1,
-			"Knowledge: Underworld": 2,
+			"Cool": 2,
+			"Discipline": 2,
+			"Knowledge: Lore": 3,
 			"Leadership": 3,
-			"Negotiation": 3,
-			"Perception": 2,
-			"Piloting: Space": 2,
-			"Ranged: Light": 2,
-			"Skulduggery": 3,
-			"Stealth": 1,
-			"Streetwise": 2
+			"Medicine": 3,
+			"Survival": 3
 		},
-		"talents": ["Adversary 2", "Kill with Kindness 1",
+		"talents": ["Adversary 1", "Surgeon 2"],
+		"abilities": ["Silhouette 0",
 			{
-				"name": "Improvised Just Kidding!",
-				"description": "One per round, may spend one Destiny Point to convery a single :despair: ton one social skill check to :advantage:, but must explain how the verbal misstep became advantageous."
-			}
-		],
-		"abilities": ["Pheromone Communication",
-			{
-				"name": "Distracting Quip",
-				"description": "Once per encounter as an action, may make a :hard: deception check. Each :success: gives Hondo +1 ranged and melee defence for the next two rounds."
+				"name": "Spiritual Guidance",
+				"description": "Once per session, as an action the shaman may make a :hard: Leadership check; if successful, all members of the shaman’s tribe within short range add +1 to their Willpower for the remainder of the session."
 			},
 			{
-				"name": "Pheromones",
-				"description": "One per round, may spend one Destiny Point to convery a single :despair: ton one social skill check to :advantage:, but must explain how the verbal misstep became advantageous."
+				"name": "Spiritual Leader",
+				"description": "As an action, choose up to 3 Ewok minion groups at short range; affected targets may make an immediate Move maneuver as an out-of-turn incidental and upgrade the ability of their next skill check once."
+			},
+			{
+				"name": "Low-Tech User",
+				"description": "Upgrade the difficulty of checks to use unfamiliar technology once."
 			}
 		],
-		"gear": ["Admiral’s uniform (+1 soak)", "Comlink"],
-		"tags": ["rebel alliance", "book:aaa"]
+		"weapons": [
+			{
+				"name": "SHaman staff",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Concussive 2"]
+			}
+		],
+		"gear": ["Heavy leather mantel and ritual headdress (+1 soak)", "Herbal bag (counts as medikit)"],
+		"tags": ["book:aaa", "species:Ewok", "location:Endor"]
 	}
 ]
