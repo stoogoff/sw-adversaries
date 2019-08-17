@@ -2382,7 +2382,7 @@
 		],
 		"weapons": [
 			{
-				"name": "SHaman staff",
+				"name": "Shaman staff",
 				"skill": "Melee",
 				"damage": 4,
 				"critical": 4,
@@ -2392,5 +2392,141 @@
 		],
 		"gear": ["Heavy leather mantel and ritual headdress (+1 soak)", "Herbal bag (counts as medikit)"],
 		"tags": ["book:aaa", "species:Ewok", "location:Endor"]
+	},
+	{
+		"name": "Krayt dragon",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 15,
+			"wounds": 43,
+			"strain": 19,
+			"defence": [2, 1]
+		},
+		"skills": {
+			"Brawl": 4,
+			"Perception": 2,
+			"Resilience": 2,
+			"Survival": 4,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Silhouette 4",
+			{
+				"name": "Fearsome Roar",
+				"description": "As an action, the Krayt dragon may force a target within medium range to make a :challenge::challenge:challenge:difficulty: Fear check; may spend :threat::threat: to immobilize the target and :despair: to stagger the target."
+			},
+			{
+				"name": "Krayt Venom",
+				"description": "May spend :advantage::advantage: on a successful melee attack to have the target suffer 3 wounds and 3 strain due to poison; when the krayt dragon is the target of a Brawl attack, may spend :despair: or :threat::threat::threat: t have the attacker suffer 3 wounds and 3 strain due to the poison."
+			},
+			{
+				"name": "Cranial Weakness",
+				"description": "A character within short range from the krayt dragon who makes a combat check targeting the dragon that inflicts wounds may spend :triumph::triumph: to inflict a Critical Injury with +80 to the critical roll."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Teeth and claws",
+				"skill": "Brawl",
+				"damage": 12,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 2", "Pierce 3", "Sunder", "Vicious 2"],
+				"notes": "tail swipe. May spend :advantage: on successful combat check to hit one additional opponent within range that would be no more difficult to hit than the original target."
+			}
+		],
+		"gear": ["1d5-2 krayt dragon pearls within body"],
+		"tags": ["creature", "book:aaa", "location:Tatooine"]
+	},
+	{
+		"name": "Loth-cat",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 6
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Coordination": 3,
+			"Perception": 2,
+			"Stealth": 3,
+			"Vigilance": 2
+		},
+		"abilities": ["Silhouette 0", "Cunning Ambusher 1", "Leap", "Nightvision"],
+		"talents": ["Natural Hunter"],
+		"weapons": [
+			{
+				"name": "Teeth and claws",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Knockdown", "Pierce 2"]
+			}
+		],
+		"tags": ["creature", "book:aaa", "location:Lothal"]
+	},
+	{
+		"name": "Loth-wolf",
+		"type": "Rival",
+		"description": "",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 6
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Coordination": 3,
+			"Perception": 2,
+			"Stealth": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Force Power: Enhance", "Silhouette 2",
+			{
+				"name": "Travel Between Worlds",
+				"description": "As an action, a Loth-wolf can travel on a planetary skill between any two wilderness locations on Lothal. The Loth-wolf crosses between the two points in a matter of minutes, regardless of actual distance, and may carry one character of silhouette 1 or less with them."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Teeth",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 2", "Knockdown", "Pierce 1"]
+			}
+		],
+		"gear": ["Thick fur (+1 soak)"],
+		"tags": ["creature", "book:aaa", "location:Lothal"]
 	}
 ]

@@ -336,7 +336,7 @@
 			"defence": [1, 0]
 		},
 		"skills": ["Melee", "Perception", "Ranged: Heavy", "Survival"],
-		"weapons": ["Slugthrower Rifle", "Gaffi stick"],
+		"weapons": ["Slugthrower rifle", "Gaffi stick"],
 		"gear": [],
 		"tags": ["book:rots", "species:Tusken", "location:Tatooine", "adventure:Unusual Opportunities"]
 	},
