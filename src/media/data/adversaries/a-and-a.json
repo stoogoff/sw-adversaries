@@ -1096,6 +1096,7 @@
 		"name": "Darth Vader",
 		"type": "Nemesis",
 		"description": "",
+		"notes": "Vader from Dawn of Rebellion does not have the added note to his lightsaber, nor does he have the helmet optics, or the integrated medsystems. These are for Allies and Adversaries Vader only.",
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 3,
