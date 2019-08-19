@@ -2448,44 +2448,6 @@
 		"tags": ["creature", "book:aaa", "location:Tatooine"]
 	},
 	{
-		"name": "Loth-cat",
-		"type": "Rival",
-		"description": "",
-		"characteristics": {
-			"Brawn": 2,
-			"Agility": 4,
-			"Intellect": 1,
-			"Cunning": 3,
-			"Willpower": 2,
-			"Presence": 2
-		},
-		"derived": {
-			"soak": 2,
-			"wounds": 6
-		},
-		"skills": {
-			"Athletics": 2,
-			"Brawl": 2,
-			"Coordination": 3,
-			"Perception": 2,
-			"Stealth": 3,
-			"Vigilance": 2
-		},
-		"abilities": ["Silhouette 0", "Cunning Ambusher 1", "Leap", "Nightvision"],
-		"talents": ["Natural Hunter"],
-		"weapons": [
-			{
-				"name": "Teeth and claws",
-				"skill": "Brawl",
-				"damage": 4,
-				"critical": 2,
-				"range": "Engaged",
-				"qualities": ["Knockdown", "Pierce 2"]
-			}
-		],
-		"tags": ["creature", "book:aaa", "location:Lothal"]
-	},
-	{
 		"name": "Loth-wolf",
 		"type": "Rival",
 		"description": "",
@@ -2528,5 +2490,143 @@
 		],
 		"gear": ["Thick fur (+1 soak)"],
 		"tags": ["creature", "book:aaa", "location:Lothal"]
+	},
+	{
+		"name": "Mouse Droid",
+		"type": "Minion",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 3
+		},
+		"skills": ["Computers", "Mechanics", "Perception"],
+		"abilities": ["Droid", "Silhouette 0"],
+		"gear": ["Built-in repair tools (counts as a tool kit and an emergency repair kit that can be used once per session)", "Comlink", "Retractable manipulators"],
+		"tags": ["species:Droid", "book:aaa"]
+	},
+	{
+		"name": "Marksman-H Combat Training Remote",
+		"type": "Minion",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 3,
+			"defence": [1, 1]
+		},
+		"skills": ["Perception", "Ranged: Light"],
+		"abilities": ["Droid", "Silhouette 0", "Hoverer"],
+		"weapons": [
+			{
+				"name": "Micro stun blaster",
+				"skill": "Ranged: Light",
+				"damage": 1,
+				"critical": null,
+				"range": "Short",
+				"qualities": ["Stun Damage"]
+			}
+		],
+		"tags": ["species:Droid", "book:aaa"]
+	},
+	{
+		"name": "Rancor",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 12,
+			"wounds": 42,
+			"strain": 18
+		},
+		"skills": {
+			"Brawl": 3,
+			"Perception": 2,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"abilities": ["Silhouette 3", "Sweep Attack"],
+		"weapons": [
+			{
+				"name": "Massive rending claws",
+				"skill": "Brawl",
+				"damage": 15,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Knockdown", "Sunder"]
+			}
+		],
+		"tags": ["creature", "book:aaa"]
+	},
+	{
+		"name": "Sarlacc",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 9,
+			"wounds": 52,
+			"strain": 24,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Cool": 3,
+			"Perception": 1,
+			"Resilience": 4,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Durable 4"],
+		"abilities": ["Silhouette 4", "Immobile",
+			{
+				"name": "Drawn in",
+				"description": "Characters ensnared by a sarlacc add :setback::setback: to their checks to break free. If they fail or do not attempt the check, at the end of their turn they are pulled one range band closer to the sarlaccs maw. Should they end their turn at engaged range of the sarlacc, they are swallowed alive and are immobilized until released. Should the sarlacc suffer a :hard: or worse Critical injury, or be killed, it immediately releases all captives."
+			},
+			{
+				"name": "Digestive Toxins",
+				"description": "While swallowed, a character is exposed to a corrosive acid of rating 1 (see Chapter VI: Conflict and Combat of any core rulebook)."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Tentacles",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Ensnare 3"]
+			}
+		],
+		"tags": ["creature", "book:aaa"]
 	}
 ]

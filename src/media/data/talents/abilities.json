@@ -316,6 +316,10 @@
 		"description": "All enemies within Short range add :threat: to all skill checks they make."
 	},
 	{
+		"name": "Immobile",
+		"description": "Cannot spend maneuvers to move."
+	},
+	{
 		"name": "Invoke Doellin",
 		"description": "Once per encounter, the Doellinist High Priest may re-roll a social skill check that targeted a Gran character."
 	},

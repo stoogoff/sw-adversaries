@@ -961,7 +961,7 @@
 		},
 		"abilities": ["Droid"],
 		"gear": ["Built-in diagnostic and surgical tools (counts as medpac as well as stimpack that can be used once per session)"],
-		"tags": ["species:Droid", "medic", "book:aor", "book:eote", "book:fad"]
+		"tags": ["species:Droid", "medic", "book:aor", "book:eote", "book:fad", "book:aaa"]
 	},
 	{
 		"name": "Medtech Mini-Med",
