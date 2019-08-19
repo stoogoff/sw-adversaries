@@ -641,7 +641,7 @@
 	},
 	{
 		"name": "Silhouette",
-		"description": ""
+		"description": "The difficulty of an attack made against a character 2 silhouettes larger than the attacker is decreased by 1. The difficulty of an attack made against a character 2 or more silhouettes smaller than the attacker is increased by 1."
 	},
 	{
 		"name": "Skilled Cheater",
