@@ -1,0 +1,41 @@
+[
+	{
+		"name": "Senate Guard",
+		"type": "Rival",
+		"description": "Respected protectors of the Republic Senate, and by extension the democracy with which that body represents, the Senate Guard proudly uphold centuries of tradition. The Guard were charged with securing the Senate District on Coruscant as well as the Chancellor’s personal protection. An elite force, experienced recruits were drawn from planetary police organizations, the Judicial Forces, and even private companies. Not merely passive protectors of the Senate, the Guard actively sought out threats to through independent investigation. While the Guard generally cooperated with local police and the Jedi, they retained an elite branch known as the Senate Commandos. Charged with special missions, these commandos were employed on matters of utmost sensitivity to the Republic.\n\nThe Senate Guard played a critical role in the waning days of the Republic. Trading their ceremonial robes for reinforced armour, the Guard actively resisted covert Separatist activities including subversion, kidnapping, and terror attacks. Later referred to as the Blue Guard, in contrast to Supreme Chancellor Palpatine’s new Red Guard, these protectors would be gradually phased out in favour of Palpatine’s personal force. The Senate Guard, alongside the Republic’s thousand year democracy, were summarily retired by the Emperor’s declaration of a new order.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 16,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 2,
+			"Charm": 1,
+			"Discipline": 2,
+			"Melee": 2,
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Ranged: Heavy": 2,
+			"Vigilance": 3
+		},
+		"abilities": [
+			{
+				"name": "Defenders of Democracy",
+				"description": "Senate Guards downgrade the difficulty of Discipline checks to resist effects such as fear or bribery, Republic security forces minions that can see a Senate Guard within long range add :boost: to Discipline checks."
+			}
+		],
+		"talents": ["Adversary 1", "Body Guard 2", "Point Blank 3"],
+		"weapons": ["Ceremonial rifle", "Force pike"],
+		"gear": ["Laminate armour with ceremonial robes (+2 Soak, +1 Defence), Secure comlink, Utility belt with stimpacks"],
+		"tags": ["book:cotr", "galactic republic"]
+	}
+]
