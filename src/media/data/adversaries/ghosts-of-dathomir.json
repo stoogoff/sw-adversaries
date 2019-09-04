@@ -498,7 +498,7 @@
 			"Darkside Force User",
 			{
 				"name": "Force Power: Jerserra’s Influence",
-				"description": "Jerserra may spend :forcepip: and target one character within Short range. That character must immediately make an :average: fear check as an out of turn incidental. If the target suffers Strain as a result of that fear check, she recovers from an equal amount of Strain. She may also spend :forcepip: to extend the power’s range to Medium."
+				"description": "Jerserra may spend :forcepip: and target one character within Short range. That character must immediately make an :average: fear check as an out-of-turn Incidental. If the target suffers Strain as a result of that fear check, she recovers from an equal amount of Strain. She may also spend :forcepip: to extend the power’s range to Medium."
 			},
 			{
 				"name": "Force Power: Move",
@@ -1216,7 +1216,7 @@
 			"Darkside Force User",
 			{
 				"name": "Force Power: Jerserra’s Influence",
-				"description": "Jerserra may spend :forcepip: and target one character per :forcepip: within Short range. That character must immediately make a :hard: fear check as an out of turn incidental. If the target suffers Strain as a result of that fear check, she recovers an amount of Strain equal to the total suffered. She may also spend :forcepip: to target one additional character, and :forcepip: to extend the power’s range to Medium."
+				"description": "Jerserra may spend :forcepip: and target one character per :forcepip: within Short range. That character must immediately make a :hard: fear check as an out-of-turn Incidental. If the target suffers Strain as a result of that fear check, she recovers an amount of Strain equal to the total suffered. She may also spend :forcepip: to target one additional character, and :forcepip: to extend the power’s range to Medium."
 			},
 			{
 				"name": "Force Power: Move",

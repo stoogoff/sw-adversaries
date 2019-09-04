@@ -978,7 +978,7 @@
 	},
 	{
 		"name": "Natural Mystic",
-		"description": ""
+		"description": "Once per session, the character may reroll any one Force power check."
 	},
 	{
 		"name": "Natural Negotiator",
@@ -1178,7 +1178,7 @@
 	},
 	{
 		"name": "Rain of Death",
-		"description": ""
+		"description": "Perform the Rain of Death maneuver to ignore the increased difficulty due to the Auto-Fire quality of attacks made this turn."
 	},
 	{
 		"name": "Rapid Reaction",
@@ -1250,7 +1250,7 @@
 	},
 	{
 		"name": "Saber Swarm",
-		"description": "As a Maneuver, suffer 1 Strain to gain Linked {Force Rating} on the next Lightsaber (Agility) combat check."
+		"description": "As a maneuver, suffer 1 Strain to gain Linked {Force Rating} on the next Lightsaber (Agility) combat check."
 	},
 	{
 		"name": "Saber Throw",
@@ -1423,6 +1423,10 @@
 	{
 		"name": "Spur [Supreme]",
 		"description": ""
+	},
+	{
+		"name": "Starship Adversary",
+		"description": "Upgrade difficulty of all combat checks against a ship  this character is commanding {ranks|times}."
 	},
 	{
 		"name": "Stalker",

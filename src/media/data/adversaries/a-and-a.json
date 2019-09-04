@@ -30,14 +30,10 @@
 			"Piloting: Space": 2,
 			"Vigilance": 5
 		},
-		"talents": [
-			{
-				"name": "Starship Adversary 1",
-				"description": "Upgrade difficulty of all combat checks against a ship  this character is commanding once."
-			},
+		"talents": ["Starship Adversary 1",
 			{
 				"name": "Concentrated Fire",
-				"description": "As an action, make an :average: Leadership check. All llies on up to 4 ships in the encounter gain :advantage::advantage: on all Gunnery checks until the beginning of Ackbar’s next turn."
+				"description": "As an action, make an :average: Leadership check. All allies on up to 4 ships in the encounter gain :advantage::advantage: on all Gunnery checks until the beginning of Ackbar’s next turn."
 			},
 			{
 				"name": "Confident Command",
@@ -45,7 +41,7 @@
 			}
 		],
 		"abilities": ["Amphibious", "Concentrated Fire", "Confident Command", "Fleet Commander"],
-		"gear": ["Admiral’s uniform (+1 soak)", "Comlink"],
+		"gear": ["Admiral’s uniform (+1 Soak)", "Comlink"],
 		"tags": ["rebel alliance", "book:aaa"]
 	},
 	{
@@ -68,7 +64,7 @@
 		"abilities": [
 			{
 				"name": "Zero-Gravity Maneuvers",
-				"description": "In zero gravity, Alliance Fleet Troopers trat movement as being in normal terrain instead of difficult terrain."
+				"description": "In zero gravity, Alliance Fleet Troopers treat movement as being in normal terrain instead of difficult terrain."
 			}
 		],
 		"weapons": ["Blaster pistol"],
@@ -173,11 +169,11 @@
 		"abilities": [
 			{
 				"name": "Experience counts",
-				"description": "Allies within short range of Andor add :boost: to Stealth and Deception checks."
+				"description": "Allies within Short range of Andor add :boost: to Stealth and Deception checks."
 			},
 			{
 				"name": "Whatever It Takes",
-				"description": "Andor may spend a maneuver to add :success::advantage: to the next combat check made by a friendly character within short range. That character suffers 3 strain."
+				"description": "Andor may spend a maneuver to add :success::advantage: to the next combat check made by a friendly character within Short range. That character suffers 3 Strain."
 			}
 		],
 		"weapons": [
@@ -207,7 +203,7 @@
 				"qualities": ["Accurate 1", "Pierce 1"]
 			}
 		],
-		"gear": ["Heavy clothing (+1 soak)", "Comlink", "Anti-security kit"],
+		"gear": ["Heavy clothing (+1 Soak)", "Comlink", "Anti-security kit"],
 		"tags": ["rebel alliance", "book:aaa"]
 	},
 	{
@@ -246,11 +242,11 @@
 			},
 			{
 				"name": "Improved Phrasing",
-				"description": "C-3PO allows player within short range to cancel :threat: or :despair: from their Charm and Negotiation checks. C-3PO then suffers 1 strain per cancelled :threat: and 4 strain per cancelled :despair:."
+				"description": "C-3PO allows player within Short range to cancel :threat: or :despair: from their Charm and Negotiation checks. C-3PO then suffers 1 strain per cancelled :threat: and 4 strain per cancelled :despair:."
 			},
 			{
 				"name": "We’re Doomed!",
-				"description": "C-3PO adds :setback: to the Discipline, Mechanics and Piloting checks any characters within short range make."
+				"description": "C-3PO adds :setback: to the Discipline, Mechanics and Piloting checks any characters within Short range make."
 			}
 		],
 		"gear": ["Comlink"],
@@ -302,7 +298,7 @@
 			},
 			{
 				"name": "Master of Repairs",
-				"description": "When Chewbacca repairs system strain or hull trauma on a starship or vehicle, he repairs three additional system strain or hull trauma."
+				"description": "When Chewbacca repairs System Strain or Hull Trauma on a starship or vehicle, he repairs three additional System Strain or Hull Trauma."
 			},
 			{
 				"name": "The Wookiee Wins",
@@ -310,7 +306,7 @@
 			},
 			{
 				"name": "Wookiee Roar",
-				"description": "Once per encounter, as an action Chewbacca may inflict 5 strain on all enemies within medium range."
+				"description": "Once per encounter, as an Action Chewbacca may inflict 5 Strain on all enemies within Medium Range."
 			}
 		],
 		"weapons": [
@@ -329,7 +325,7 @@
 				"critical": 3,
 				"range": "Medium",
 				"qualities": ["Cumbersome 3", "Knockdown"],
-				"notes": "Spend a maneuver to load a specialized quarrel that adds either Blast 5, Breach 1, Concussive 1, Disorient 2, Ion or Vicious 4 to the next attack using bowcaster."
+				"notes": "Spend a maneuver to load a specialised quarrel that adds either Blast 5, Breach 1, Concussive 1, Disorient 2, Ion or Vicious 4 to the next attack using bowcaster."
 			}
 		],
 		"gear": ["Bandolier with satchel", "Modified YT-1300 freighter Millennium Falcon"],
@@ -378,17 +374,17 @@
 		"talents": ["Adversary 3", "Master Pilot", "Quick Draw",
 			{
 				"name": "Hold Together",
-				"description": "Spend 1 Destiny Point to, immediately after vehicle or starship takes damage, turn it into system strain."
+				"description": "Spend 1 Destiny Point to, immediately after vehicle or starship takes damage, turn it into System Strain."
 			}
 		],
 		"abilities": [
 			{
 				"name": "Impulsive Distraction",
-				"description": "Once per encounter, Han may spend an action to allow all allies in the encounter to add automatic :success: to their next skill check that round."
+				"description": "Once per encounter, Han may spend an Action to allow all allies in the encounter to add automatic :success: to their next skill check that round."
 			},
 			{
 				"name": "Never Tell Me The Odds",
-				"description": "Once per session, after assembling the dice pool for a check but before rolling, Han may suffer up to 3 strain to remove an equal amount of negative dice from the pool."
+				"description": "Once per session, after assembling the dice pool for a check but before rolling, Han may suffer up to 3 Strain to remove an equal amount of negative dice from the pool."
 			}
 		],
 		"weapons": [
@@ -402,7 +398,7 @@
 				"notes": "Once per round, as a maneuver Han may upgrade the difficulty of the next attack with this weapon once to gain Pierce 7 on that attack. GM may spend :despair: or :threat::threat: on the check to have it run out of ammo."
 			}
 		],
-		"gear": ["Heavy clothing (+1 soak)", "Modified YT-1300 freighter Millennium Falcon"],
+		"gear": ["Heavy clothing (+1 Soak)", "Modified YT-1300 freighter Millennium Falcon"],
 		"tags": ["rebel alliance", "book:aaa", "underworld", "pilot"]
 	},
 	{
@@ -446,7 +442,7 @@
 		"talents": ["Adversary 2", "Frenzied Attack 2", "Natural Leader"],
 		"abilities": [
 			{
-				"name": "Takes advantage",
+				"name": "Takes Advantage",
 				"description": "Jyn needs one fewer :advantage: to activate an item quality, to a minimum of one."
 			},
 			{
@@ -472,7 +468,7 @@
 				"qualities": ["Disorient 2", "Knockdown", "Linked 1"]
 			}
 		],
-		"gear": ["Heavy clothing (+1 soak)", "Comlink"],
+		"gear": ["Heavy clothing (+1 Soak)", "Comlink"],
 		"tags": ["rebel alliance", "book:aaa", "underworld"]
 	},
 	{
@@ -511,7 +507,7 @@
 		"abilities": ["Droid",
 			{
 				"name": "Brutal Honesty",
-				"description": "K-2SO adds :setback::setback: to allies’ social skill checks within short range."
+				"description": "K-2SO adds :setback::setback: to allies’ social skill checks within Short range."
 			}
 		],
 		"weapons": [
@@ -618,7 +614,7 @@
 				"critical": 3,
 				"range": "Medium",
 				"qualities": ["Cumbersome 3", "Stun Setting"],
-				"notes": "Bo-rifle takes a maneuver to switch between profiles"
+				"notes": "Bo-rifle takes a maneuver to switch between profiles."
 			},
 			{
 				"name": "Bo-rifle melee",
@@ -627,7 +623,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Cumbersome 3", "Defensive 1", "Disorient 2", "Knockdown", "Stun Setting"],
-				"notes": "Bo-rifle takes a maneuver to switch between profiles"
+				"notes": "Bo-rifle takes a maneuver to switch between profiles."
 			}
 		],
 		"gear": ["Lasan Honour Guard armour (+1 Soak)", "Encrypted comlink"],
@@ -670,11 +666,11 @@
 		"abilities": [
 			{
 				"name": "Improved Take Charge",
-				"description": "When making a skill check, Princess Leia may spend :advantage: to let one ally within Medium range immediately perform a maneuver as an out of turn incidental. She may instead spend :triumph: or :advantage::advantage::advantage: to let all allies within Medium range perform a maneuver as an out of turn incidental instead."
+				"description": "When making a skill check, Princess Leia may spend :advantage: to let one ally within Medium range immediately perform a maneuver as an out-of-turn Incidental. She may instead spend :triumph: or :advantage::advantage::advantage: to let all allies within Medium range perform a maneuver as an out-of-turn Incidental instead."
 			}
 		],
 		"weapons": ["Blaster pistol"],
-		"gear": ["Heavy clothing (+1 soak)", "Datapad", "Encrypted comlink"],
+		"gear": ["Heavy clothing (+1 Soak)", "Datapad", "Encrypted comlink"],
 		"tags": ["book:aaa", "rebel alliance", "senator", "nobility"]
 	},
 	{
@@ -733,7 +729,7 @@
 				"qualities": ["Breach 1", "Sunder", "Vicious 2"]
 			}
 		],
-		"gear": ["Heavy clothing (+1 soak)", "Comlink"],
+		"gear": ["Heavy clothing (+1 Soak)", "Comlink"],
 		"tags": ["book:aaa", "rebel alliance", "force sensitive"]
 	},
 	{
@@ -761,44 +757,40 @@
 			"Knowledge: Lore": 4,
 			"Knowledge: Outer Rim": 2,
 			"Knowledge: Underworld": 2,
-			"Lightsaber": 5,
+			"Lightsaber (Intellect)": 5,
 			"Negotiation": 4,
 			"Perception": 4,
 			"Piloting: Space": 3,
 			"Survival": 4,
 			"Vigilance": 3
 		},
-		"talents": ["Adversary 4", "Force Rating 6", "Parry 4", "Improved Reflect 2", "Soresu Technique",
+		"talents": ["Adversary 4", "Force Rating 6", "Parry 4", "Improved Reflect 2", "Soresu Technique", "Shroud",
 			{
 				"name": "Jedi Defender",
-				"description": "Once per encounter, after igniting his lightsaber, may spend 1 Destiny Point to make enemies within short range unable to target any other foes except him until the end of his following turn."
-			},
-			{
-				"name": "Shroud",
-				"description": "Obi-Wan may spend 1 Destiny Point to make himself undetectable viua Force powers and make his own powers go unnoticed for the remainder of the encounter."
+				"description": "Once per encounter, after igniting his lightsaber, may spend 1 Destiny Point to make enemies within Short range unable to target any other foes except him until the end of his following turn."
 			}
 		],
 		"abilities": ["Force Power: Enhance", "Force Power: Foresee", "Force Power: Heal", "Force Power: Influence", "Force Power: Move", "Force Power: Sense",
 			{
 				"name": "Always Teaching",
-				"description": "Once per session, each PC within short range of Obi-Wan counts their Force rating as one higher until the end of the encounter."
+				"description": "Once per session, each PC within Short range of Obi-Wan counts their Force rating as one higher until the end of the encounter."
 			},
 			{
 				"name": "Force Power: Terrifying Projection",
-				"description": "Once per encounter as a maneuver, Obi-Wan may force each enemy within medium range to make a :hard: fear check as an out-of-turn incidental."
+				"description": "Once per encounter as a maneuver, Obi-Wan may force each enemy within Medium Range to make a :hard: fear check as an out-of-turn Incidental."
 			}
 		],
 		"weapons": [
 			{
 				"name": "Obi-Wan’s Lightsaber",
-				"skill": "Lightsaber",
+				"skill": "Lightsaber (Intellect)",
 				"damage": 10,
 				"critical": 1,
 				"range": "Engaged",
 				"qualities": ["Breach 1", "Sunder"]
 			}
 		],
-		"gear": ["Faded robes (+1 soak)"],
+		"gear": ["Faded robes (+1 Soak)"],
 		"tags": ["book:aaa", "force sensitive", "jedi", "location:Tatooine"]
 	},
 	{
@@ -899,13 +891,13 @@
 		"talents": ["Adversary 2", "Speaks Binary 1", "Durable 3", "Fine Tuning 3", "Solid Repairs 3",
 			{
 				"name": "Hidden Storage 1",
-				"description": "R2-D2's body contains a hidden compartment that can hide small objects totalling no more than encumberance 1; Checks to detect this compartment are :formidable:."
+				"description": "R2-D2's body contains a hidden compartment that can hide small objects totalling no more than Encumberance 1. Checks to detect this compartment are :formidable:."
 			}
 		],
 		"abilities": ["Droid",
 			{
 				"name": "Plucky Little Droid",
-				"description": "Once per encounter as an incidental, R2 may convert one dark side Destiny Point to a light side Destiny Point."
+				"description": "Once per encounter as an Incidental, R2 may convert one dark side Destiny Point to a light side Destiny Point."
 			}
 		],
 		"weapons": [
@@ -957,13 +949,13 @@
 		"talents": ["Adversary 2",
 			{
 				"name": "Brilliant Evasion",
-				"description": "Once per encounter, when piloting a vehicle or starship, may select 1 opponent and make an opposed Piloting (Planetary or Space) check. If successful, the opponent’s vehicle or starship cannot attach the character’s vehicle for 4 rounds."
+				"description": "Once per encounter, when piloting a vehicle or starship, may select 1 opponent and make an opposed Piloting (Planetary or Space) check. If successful, the opponent’s vehicle or starship cannot attack the character’s vehicle for 4 rounds."
 			}
 		],
 		"abilities": [
 			{
 				"name": "Out of Nowhere",
-				"description": "Once per session, Wedge may upgrade the ability of a Gunnery check he makes against an undamaged vehicle or starship twice; allies who make conbat checks against the same target that round add automatic :advantage::advantage: to their checks."
+				"description": "Once per session, Wedge may upgrade the ability of a Gunnery check he makes against an undamaged vehicle or starship twice; allies who make combat checks against the same target that round add automatic :advantage::advantage: to their checks."
 			}
 		],
 		"weapons": ["Light blaster pistol"],
@@ -998,7 +990,7 @@
 			"Knowledge: Outer Rim": 4,
 			"Knowledge: Xenology": 4,
 			"Leadership": 5,
-			"Lightsaber": 5,
+			"Lightsaber (Willpower)": 5,
 			"Negotiation": 4,
 			"Perception": 5,
 			"Resilience": 2,
@@ -1006,28 +998,16 @@
 			"Survival": 4,
 			"Vigilance": 4
 		},
-		"talents": ["Adversary 4", "Force Rating 8", "Improved Parry 5", "Improved Reflect 5", "Niman Technique",
+		"talents": ["Adversary 4", "Force Rating 8", "Improved Parry 5", "Improved Reflect 5", "Niman Technique", "Shroud", "The Force Is My Ally", "Natural Mystic",
 			{
 				"name": "Calming Aura",
 				"description": "When an opponent targets Yoda with a Force power, reduce :forcepip: generated by 1."
-			},
-			{
-				"name": "Natural Mystic",
-				"description": "Once per session, Yoda may reroll any one Force power check."
-			},
-			{
-				"name": "Shroud",
-				"description": "Yoda may spend 1 Destiny Point to make himself undetectable viua Force powers and make his own powers go unnoticed for the remainder of the encounter."
-			},
-			{
-				"name": "The Force Is My Ally",
-				"description": "Once per session, Yoda may suffer 2 strain to perform a Force power action as a maneuver."
 			}
 		],
 		"abilities": ["Force Power: Enhance", "", "Force Power: Foresee", "Force Power: Heal", "Force Power: Move", "Force Power: Seek", "Force Power: Sense",
 			{
 				"name": "Do or Do Not",
-				"description": "Yoda allows allies within short range to downgrade the difficulty of their skill checks once. They may suffer 2 strain to downgrade the difficulty twice instead."
+				"description": "Yoda allows allies within Short range to downgrade the difficulty of their skill checks once. They may suffer 2 strain to downgrade the difficulty twice instead."
 			},
 			{
 				"name": "Force Power: Farsight",
@@ -1037,14 +1017,14 @@
 		"weapons": [
 			{
 				"name": "Yoda’s Shoto Lightsaber",
-				"skill": "Lightsaber",
+				"skill": "Lightsaber (Willpower)",
 				"damage": 7,
 				"critical": 1,
 				"range": "Engaged",
 				"qualities": ["Accurate 2", "Breach 1", "Sunder", "Vicious 1"]
 			}
 		],
-		"gear": ["Jedi robes (+1 soak)", "gimer stick"],
+		"gear": ["Jedi robes (+1 Soak)", "gimer stick"],
 		"tags": ["book:aaa", "force sensitive", "jedi", "location:Dagobah"]
 	},
 	{
@@ -1076,26 +1056,21 @@
 			"Ranged: Light": 1,
 			"Vigilance": 3
 		},
-		"talents": ["Fire Control",
-			{
-				"name": "Starship Adversary 1",
-				"description": "Upgrade difficulty of all combat checks against a ship this character is commanding once."
-			}
-		],
+		"talents": ["Fire Control", "Starship Adversary 1"],
 		"abilities": [
 			{
 				"name": "Strategic Direction",
-				"description": "Once per round, Admiral Piett may spend a maneuver to direct three Imperial Navy NPCs or minion groups within medium range [this can be at planetary scale for targets on other ships]; each target may perform an immediate maneuver as an out-of-turn incidental or instead add :success: to their next check."
+				"description": "Once per round, Admiral Piett may spend a maneuver to direct three Imperial Navy NPCs or minion groups within Medium Range (this can be at planetary scale for targets on other ships); each target may perform an immediate maneuver as an out-of-turn incidental or instead add :success: to their next check."
 			}
 		],
 		"weapons": ["Blaster pistol"],
-		"gear": ["Heavy uniform clothing (+1 soak)", "Code cylinder"],
+		"gear": ["Heavy uniform clothing (+1 Soak)", "Code cylinder"],
 		"tags": ["book:aaa", "empire", "imperial military"]
 	},
 	{
 		"name": "Darth Vader",
 		"type": "Nemesis",
-		"description": "",
+		"description": "Many dark tales are told about a black-armoured humanoid who serves as the Emperor’s most trusted enforcer and is perhaps the most feared being in the Empire. Rumoured to live in a forbidding castle on a world of lava, this warrior wields a red lightsaber and possesses terrifying powers that suggest he has a connection to the dreaded Sith. The few who claim to have survived encounters with this individual are unsure whether the armour houses a living being, a combat droid, or even a clone trooper. Many even fear that duplicates could be activated if the first is ever defeated.\n\nIn addition to his other duties to the Empire, Darth Vader is believed to be the most senior member of the Inquisitorius, and legends abound of his pursuit of target after target when other agents failed in their efforts. It is possible that Vader has trained Inquisitors in the techniques required to eliminate Force-sensitive targets.",
 		"notes": "Vader from Dawn of Rebellion does not have the added note to his lightsaber, nor does he have the helmet optics, or the integrated medsystems. These are for Allies and Adversaries Vader only.",
 		"characteristics": {
 			"Brawn": 5,
@@ -1124,16 +1099,11 @@
 			"Piloting: Space": 5,
 			"Vigilance": 3
 		},
-		"talents": ["Adversary 4", "Durable 3", "Force Rating 6", "Improved Parry 5", "Improved Reflect 5", "Saber Throw",
-			{
-				"name": "Starship Adversary 1",
-				"description": "Upgrade difficulty of all combat checks against a ship this character is commanding once."
-			}
-		],
+		"talents": ["Adversary 4", "Durable 3", "Force Rating 6", "Improved Parry 5", "Improved Reflect 5", "Saber Throw", "Starship Adversary 1"],
 		"abilities": ["Darkside Force User", "Force Power: Enhance", "Force Power: Force Choke", "Force Power: Move", "Force Power: Sense",
 			{
 				"name": "Terrifying",
-				"description": "At the beginning of each encounter, each enemy within medium range must make a :challenge::challenge::challenge: fear check."
+				"description": "At the beginning of each encounter, each enemy within Medium Range must make a :challenge::challenge::challenge: fear check."
 			}
 		],
 		"weapons": [
@@ -1144,10 +1114,10 @@
 				"critical": 1,
 				"range": "Engaged",
 				"qualities": ["Breach 1", "Sunder", "Superior", "Vicious 2"],
-				"notes": "Once per encounter, when ignited upgrades the ability of a Coerican check Vader makes once"
+				"notes": "Once per encounter, when ignited upgrades the ability of a Coercion check Vader makes once."
 			}
 		],
-		"gear": ["Enhanced Helmet Optics (cancels the effect of darkness, smoke or other environmental effects that obscure vision)", "Armoured Robes (vacuum sealed, +2 soak, +1 defence)", "Integrated Med-systems, (once per session, as an incidental may use a built-in stimpack)"],
+		"gear": ["Enhanced Helmet Optics (cancels the effect of darkness, smoke or other environmental effects that obscure vision)", "Armoured Robes (vacuum sealed, +2 Soak, +1 Defence)", "Integrated Med-systems, (once per session, as an incidental may use a built-in stimpack)"],
 		"tags": ["book:aaa", "book:dor", "empire", "imperial military", "force sensitive", "darkside", "sith", "inquisitor"]
 	},
 	{
@@ -1181,7 +1151,7 @@
 			"Knowledge: Underworld": 2,
 			"Knowledge: Xenology": 4,
 			"Leadership": 5,
-			"Lightsaber": 5,
+			"Lightsaber (Cunning)": 5,
 			"Mechanics": 1,
 			"Negotiation": 5,
 			"Perception": 5,
@@ -1191,26 +1161,14 @@
 			"Skulduggery": 2,
 			"Vigilance": 4
 		},
-		"talents": ["Adversary 4", "Fearsome 3", "Force Rating 8", "Improved Parry 5", "Improved Reflect 5",
+		"talents": ["Adversary 4", "Fearsome 3", "Force Rating 8", "Improved Parry 5", "Improved Reflect 5", "The Force Is My Ally", "Natural Mystic", "Shroud",
 			{
 				"name": "Improved Terrify",
-				"description": "Take the Terrify action; make a :average: Coercion check, adding :force: no greater than Force rating. Disorient one target within medium range per :success:. Spend :advantage::advantage: to extend duration and :triumph: to stagger one target. Spend :darkside: to immobilize one target."
-			},
-			{
-				"name": "Natural Mystic",
-				"description": "Once per session, Yoda may reroll any one Force power check."
+				"description": "Take the Terrify action; make a :average: Coercion check, adding :force: no greater than Force rating. Disorient one target within Medium Range per :success:. Spend :advantage::advantage: to extend duration and :triumph: to stagger one target. Spend :darkside: to immobilise one target."
 			},
 			{
 				"name": "Shien Technique",
 				"description": "When making a Lightsaber check, may use Cunning instead of Brawn."
-			},
-			{
-				"name": "Shroud",
-				"description": "May spend 1 Destiny Point to make himself undetectable viua Force powers and make his own powers go unnoticed for the remainder of the encounter."
-			},
-			{
-				"name": "The Force Is My Ally",
-				"description": "Once per session, may suffer 2 strain to perform a Force power action as a maneuver."
 			}
 		],
 		"abilities": ["Darkside Force User", "Force Power: Enhance", "Force Power: Foresee", "Force Power: Influence", "Force Power: Move", "Force Power: Seek", "Force Power: Sense", "Force Power: Unleash",
@@ -1220,20 +1178,20 @@
 			},
 			{
 				"name": "Power of the Dark Side",
-				"description": "When Palpatine inflicts wounds on an opponent, Palpatine immediately recovers 3 strain or 1 wound."
+				"description": "When Palpatine inflicts Wounds on an opponent, Palpatine immediately recovers 3 Strain or 1 Wound."
 			}
 		],
 		"weapons": [
 			{
 				"name": "Palpantine’s Lightsaber",
-				"skill": "Lightsaber",
+				"skill": "Lightsaber (Cunning)",
 				"damage": 9,
 				"critical": 1,
 				"range": "Engaged",
 				"qualities": ["Breach 1", "Sunder", "Superior", "Vicious 2"]
 			}
 		],
-		"gear": ["Personalized Sith robes (+2 soak, 1 defence)"],
+		"gear": ["Personalised Sith robes (+2 Soak, 1 Defence)"],
 		"tags": ["book:aaa", "empire", "force sensitive", "darkside", "sith"]
 	},
 	{
@@ -1267,17 +1225,17 @@
 		"talents": ["Adversary 1",
 			{
 				"name": "Improved Field Commander",
-				"description": "As an action, may make an :average: Leadership check. If he succeeds six minion groups may immediately suffer 1 strain to perform one maneuver as an out-of-turn incidental. Spend :triumph: to allow one of those groups to perform an action instead."
+				"description": "As an action, may make an :average: Leadership check. If he succeeds six minion groups may immediately suffer 1 Strain to perform one maneuver as an out-of-turn incidental. Spend :triumph: to allow one of those groups to perform an action instead."
 			}
 		],
 		"abilities": [
 			{
 				"name": "Maximum Firepower",
-				"description": "once per encounter, General Veers may spend 1 Destiny Point to double the damage resulting from a Gunnery check from a single Imperial vehicle in the encounter and add +30 to any Critical injury or Critical Hit results inflicted on the target from the attack."
+				"description": "Once per encounter, General Veers may spend 1 Destiny Point to double the damage resulting from a Gunnery check from a single Imperial vehicle in the encounter and add +30 to any Critical injury or Critical Hit results inflicted on the target from the attack."
 			}
 		],
 		"weapons": ["Blaster pistol"],
-		"gear": ["Uniform and helmet (+1 soak)", "Code cylinder"],
+		"gear": ["Uniform and helmet (+1 Soak)", "Code cylinder"],
 		"tags": ["book:aaa", "empire", "imperial military"]
 	},
 	{
@@ -1337,15 +1295,15 @@
 		"abilities": ["Overwhelming Fire",
 			{
 				"name": "Armored Charge",
-				"description": "May spend a maneuver to direct three Imperial Armour Corps members on allied armoured vehicles within medium range to make an immediate maneuver as an out-of-turn incidental."
+				"description": "May spend a maneuver to direct three Imperial Armour Corps members on allied armoured vehicles within Medium Range to make an immediate maneuver as an out-of-turn incidental."
 			},
 			{
 				"name": "Overwhelming Fire",
-				"description": "May perform a maneuver to direct one Imperial Armored Corps member within medium range to perform an immediate out-of-turn incidental."
+				"description": "May perform a maneuver to direct one Imperial Armored Corps member within Medium Range to perform an immediate out-of-turn incidental."
 			}
 		],
 		"weapons": ["Blaster pistol"],
-		"gear": ["Uniform and helmet (+1 soak)", "Code cylinder"],
+		"gear": ["Uniform and helmet (+1 Soak)", "Code cylinder"],
 		"tags": ["book:aaa", "empire", "imperial military"]
 	},
 	{
@@ -1368,7 +1326,7 @@
 		"abilities": [
 			{
 				"name": "Gun Battery",
-				"description": "for each Imperial Navy Gunner in the minion group beyond the first, increase damage on a successful Gunnery check by 1."
+				"description": "For each Imperial Navy Gunner in the minion group beyond the first, increase damage on a successful Gunnery check by 1."
 			}		
 		],
 		"weapons": ["Blaster pistol"],
@@ -1393,7 +1351,7 @@
 		},
 		"skills": ["Athletics", "Discipline", "Melee", "Ranged: Heavy", "Resilience", "Survival"],
 		"weapons": ["Blaster rifle", "Frag grenade"],
-		"gear": ["Utility belt", "Extra reloads", "food and water packs", "gription boots (removes :setback::setback: imposed on checks to maintain footing in unstable environments)", "Range trooper armour (+1 soak, when making skill checks, range troopers remove :setback::setback: imposed due to harsh environmental conditions"],
+		"gear": ["Utility belt", "Extra reloads", "Food and water packs", "Gription boots (removes :setback::setback: imposed on checks to maintain footing in unstable environments)", "Range trooper armour (+1 Soak, when making skill checks, range troopers remove :setback::setback: imposed due to harsh environmental conditions"],
 		"tags": ["book:aaa", "empire", "imperial military", "stormtrooper"]
 	},
 	{
@@ -1438,7 +1396,7 @@
 			},
 			{
 				"name": "Integrated stun-gas emitter",
-				"description": "Once per encounter, as an action may force all organics within short range to make a :hard: Resilience check to resist stun gas. Those that fail suffer 3 strain, plus 1 additional strain per :threat:."
+				"description": "Once per encounter, as an action may force all organics within Short range to make a :hard: Resilience check to resist stun gas. Those that fail suffer 3 Strain, plus 1 additional Strain per :threat:."
 			}
 		],
 		"weapons": [
@@ -1492,7 +1450,7 @@
 			},
 			{
 				"name": "Pit Fighter",
-				"description": "After making a Brawl or Melee check that inflicts a Critical Injury, Black Krrsantan may suffer 2 strain to add +30 to the Critial roll result."
+				"description": "After making a Brawl or Melee check that inflicts a Critical Injury, Black Krrsantan may suffer 2 Strain to add +30 to the Critial roll result."
 			},
 			{
 				"name": "Strong Arguments",
@@ -1517,7 +1475,7 @@
 				"qualities": ["Ensnare 2", "Stun Damage"]
 			}
 		],
-		"gear": ["Armour and subdermal plating (+3 soak, +2 defence)", "Auzituck anti-slver gunship"],
+		"gear": ["Armour and subdermal plating (+3 Soak, +2 Defence)", "Auzituck anti-slaver gunship"],
 		"tags": ["underworld", "bounty hunter", "book:aaa", "species:Wookiee"]
 	},
 	{
@@ -1559,7 +1517,7 @@
 		"abilities": [
 			{
 				"name": "Apex Hunter",
-				"description": "Once per encouner, Boba Fett may reroll a combat or opposed check."
+				"description": "Once per encounter, Boba Fett may reroll a combat or opposed check."
 			},
 			{
 				"name": "No Disintegrations",
@@ -1600,7 +1558,7 @@
 				"qualities": ["Ensnare 3", "Limited Ammo 1"]
 			}
 		],
-		"gear": ["Mandalorian armour (+3 soak, +2 defence, integrated jet pack, can fly as per the flying sidebar in Chapter VI: Conflict and Combat)", "Rangefinder (adds :advantage: on all ranged weapon attacks", "wearer may draw or stow one item per turn as an incidental", "modified Firespray-31-class patrol craft Slave 1."],
+		"gear": ["Mandalorian armour (+3 Soak, +2 Defence, integrated jet pack, can fly as per the flying sidebar in Chapter VI: Conflict and Combat)", "Rangefinder (adds :advantage: on all ranged weapon attacks)", "wearer may draw or stow one item per turn as an incidental", "modified Firespray-31-class patrol craft Slave 1."],
 		"tags": ["underworld", "bounty hunter", "book:aaa"]
 	},
 	{
@@ -1640,14 +1598,10 @@
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 1"],
-		"abilities": [
+		"abilities": ["Regeneration",
 			{
 				"name": "Deceptive Hunter",
-				"description": "Allies within short range of Bossk add automatic :success: to Deception checks they make against enemies."
-			},
-			{
-				"name": "Regeneration",
-				"description": "Recover 1 additional wound from natural rest or bacta tank, regrow a lost limb in one month."
+				"description": "Allies within Short range of Bossk add automatic :success: to Deception checks they make against enemies."
 			}
 		],
 		"weapons": ["Claws",
@@ -1670,7 +1624,7 @@
 			}
 		],
 		"gear": ["Flight suit", "modified YV-666 freighter Hound’s Tooth"],
-		"tags": ["underworld", "bounty hunter", "book:aaa"]
+		"tags": ["underworld", "bounty hunter", "book:aaa", "species:Trandoshan"]
 	},
 	{
 		"name": "Dengar",
@@ -1703,24 +1657,19 @@
 			"Survival": 4,
 			"Vigilance": 2
 		},
-		"talents": ["Adversary 1", "Durable 3",
-			{
-				"name": "Rain of Death",
-				"description": "Perform the Rain of Death maneuver to ignore the increased difficulty due to the Auto-Fire quality of attacks made this turn."
-			}
-		],
+		"talents": ["Adversary 1", "Durable 3", "Rain of Death"],
 		"abilities": [
 			{
 				"name": "Brutal Hunter",
-				"description": "If a target suffers wounds from his attack, Dengar may suffer up to 3 strain to inflict a number of additional wounds equal to the amount of strain suffered in this way."
+				"description": "If a target suffers Wounds from his attack, Dengar may suffer up to 3 Strain to inflict a number of additional Wounds equal to the amount of Strain suffered in this way."
 			},
 			{
 				"name": "Dirty Tricks",
-				"description": "Once per encounter as an action, Dengar may make a :hard: Skulduggery check. If successfulm he may select one enemy within short range, plus one additional target per :success:, to suffer 4 wounds. After resolving this, Dengar may perform a Move maneuver as an incidental."
+				"description": "Once per encounter as an action, Dengar may make a :hard: Skulduggery check. If successful, he may select one enemy within Short range, plus one additional target per :success:, to suffer 4 Wounds. After resolving this, Dengar may perform a Move maneuver as an incidental."
 			},
 			{
 				"name": "Cantina Talk",
-				"description": "When a character is within short range of Dengar they may suffer 2 strain to add automatic :advantage::advantage: to Streetwise and Knowledge: Underworld checks they make that turn."
+				"description": "When a character is within Short range of Dengar they may suffer 2 Strain to add automatic :advantage::advantage: to Streetwise and Knowledge: Underworld checks they make that turn."
 			}
 		],
 		"weapons": ["Frag grenade",
@@ -1733,7 +1682,7 @@
 				"qualities": ["Auto-Fire", "Cumbersome 3", "Pierce 2"]
 			}
 		],
-		"gear": ["Modified heavy battle armour (+2 soak, +1 defence, built-in comlink", "Survival pack", "Custom swoop", "Modified Jumpmaster 5000 Punishing One"],
+		"gear": ["Modified heavy battle armour (+2 Soak, +1 Defence, built-in comlink", "Survival pack", "Custom swoop", "Modified Jumpmaster 5000 Punishing One"],
 		"tags": ["underworld", "bounty hunter", "book:aaa"]
 	},
 	{
@@ -1775,16 +1724,11 @@
 			"Stealth": 2,
 			"Vigilance": 2
 		},
-		"talents": ["Adversary 2", "Natural Rogue",
-			{
-				"name": "Rain of Death",
-				"description": "Perform the Rain of Death maneuver to ignore the increased difficulty due to the Auto-Fire quality of attacks made this turn."
-			}
-		],
+		"talents": ["Adversary 2", "Natural Rogue", "Rain of Death"],
 		"abilities": [
 			{
 				"name": "Watch Out for the Traps!",
-				"description": "Make a :hard: Vigilance check, if successful, all character within short range suffer 2 wounds plus 1 additional wounds per :failure:. GM May spend :despair: or :threat::threat::threat: to have targets who succeed become immobilized, disoriented or staggered."
+				"description": "Make a :hard: Vigilance check, if successful, all character within Short range suffer 2 Wounds plus 1 additional Wound per :failure:. GM May spend :despair: or :threat::threat::threat: to have targets who succeed become immobilised, disoriented or staggered."
 			},
 			{
 				"name": "Enormous Profit",
@@ -1792,7 +1736,7 @@
 			}
 		],
 		"weapons": ["Blaster pistol"],
-		"gear": ["Electrobinoculars", "Comlink", "Stimpack", "Modified HK heavyduty lifter Ark Angel"],
+		"gear": ["Electrobinoculars", "Comlink", "Stimpack", "Modified HK heavy-duty lifter Ark Angel"],
 		"tags": ["underworld", "book:aaa"]
 	},
 	{
@@ -1832,11 +1776,11 @@
 			},
 			{
 				"name": "Hypo-Digits",
-				"description": "As an action, may make a :hard: Skulduggery check against one target within engaged range. If successful, the target suffers 10 strain or the effects of another drug or poison at the GM’s discretion."
+				"description": "As an action, may make a :hard: Skulduggery check against one target within Engaged range. If successful, the target suffers 10 Strain or the effects of another drug or poison at the GM’s discretion."
 			},
 			{
 				"name": "Expert Interrogator",
-				"description": "Once per encounter, may make an opposed Medicine versus Discipline check against one restrained target. If successful, the target suffers 5 wounds and the difficulty of Coercion checks made against the target is downgraded twice until the end of the session."
+				"description": "Once per encounter, may make an opposed Medicine versus Discipline check against one restrained target. If successful, the target suffers 5 Wounds and the difficulty of Coercion checks made against the target is downgraded twice until the end of the session."
 			}
 		],
 		"weapons": [
@@ -1889,15 +1833,15 @@
 		"abilities": ["Droid", "Jet booster",
 			{
 				"name": "Concealed Armament",
-				"description": "Detecting BT’s array of stowed weapons requires a scanner and a :daunting: Computers check. BT-1 can deploy or coneal his weapons as an incidental."
+				"description": "Detecting BT’s array of stowed weapons requires a scanner and a :daunting: Computers check. BT-1 can deploy or conceal his weapons as an incidental."
 			},
 			{
 				"name": "Homicidal Droid",
-				"description": "Once per session as an action, make a :hard: gunnery check. If successful, eliminate one minion group within medium range and may spend :triumph: or :advantage::advantage::advantage: to eliminate one other minion group or a single rival."
+				"description": "Once per session as an action, make a :hard: gunnery check. If successful, eliminate one minion group within Medium Range and may spend :triumph: or :advantage::advantage::advantage: to eliminate one other minion group or a single rival."
 			},
 			{
 				"name": "Smoke Emitters",
-				"description": "As an action, may deploy smoke to create concealment that adds 3 dice to checks within short range as per Concealment rules in Chapter VI of any core rulebook."
+				"description": "As an action, may deploy smoke to create concealment that adds :setback::setback::setback: to checks within Short range as per Concealment rules in Chapter VI of any core rulebook."
 			}
 		],
 		"weapons": ["Flame projector",
@@ -1942,7 +1886,7 @@
 				"qualities": ["Blast 6"]
 			}
 		],
-		"gear": ["Armoured chassis (+2 soak, +1 defence", "Integrated computer interface", "Tool kit"],
+		"gear": ["Armoured chassis (+2 Soak, +1 Defence)", "Integrated computer interface", "Tool kit"],
 		"tags": ["book:aaa", "species:Droid"]
 	},
 	{
@@ -2029,7 +1973,7 @@
 				"qualities": ["Blast 9", "Burn 4", "Vicious 2"]
 			}
 		],
-		"gear": ["Combat chassis (+3 soak, +2 defence, integrated flamethrower)", "Ammo bandolier", "modified Trilon Agressor assault fighter IG-2000"],
+		"gear": ["Combat chassis (+3 Soak, +2 Defence, integrated flamethrower)", "Ammo bandolier", "Modified Trilon Agressor assault fighter IG-2000"],
 		"tags": ["underworld", "bounty hunter", "book:aaa", "species:Droid"]
 	},
 	{
@@ -2078,11 +2022,11 @@
 				"description": "Once per encounter may make an opposed Deception versus Vigilance check to lure a target onto a trap set in the flooring. Success means the target falls in the trap and Jabba may spend a :triumph: to cause one additional enemy to fall in as well; if unsuccessful, the target may spend :despair: to cause an ally of Jabba to fall instead."
 			}
 		],
-		"gear": ["Repulsor sled, customized Ubrikkian Industries sail barge Khetanna", "Modified Ubrikkian Minstrel-class space yacht Star Jewel"],
+		"gear": ["Repulsor sled", "Customized Ubrikkian Industries sail barge Khetanna", "Modified Ubrikkian Minstrel-class space yacht Star Jewel"],
 		"tags": ["underworld", "species:Hutt", "book:aaa", "location:Tatooine"]
 	},
 	{
-		"name": "Jawa scavenger",
+		"name": "Jawa Scavenger",
 		"type": "Minion",
 		"description": "",
 		"characteristics": {
@@ -2106,7 +2050,7 @@
 			}
 		],
 		"weapons": ["Ionisation blaster"],
-		"gear": ["Robes(+1 Soak)", "Utility belt"],
+		"gear": ["Robes (+1 Soak)", "Utility belt"],
 		"tags": ["species:Jawa", "book:aaa", "location:Tatooine"]
 	},
 	{
@@ -2137,7 +2081,7 @@
 		"abilities": [
 			{
 				"name": "Home Turf",
-				"description": "While in territory the gang controls, this character and members of their gang who are within short range add automatic :advantage: to checks they make."
+				"description": "While in territory the gang controls, this character and members of their gang who are within Short range add automatic :advantage: to checks they make."
 			}
 		],
 		"weapons": ["Heavy blaster pistol",
@@ -2150,7 +2094,7 @@
 				"qualities": ["Disorient 3", "Knockdown"]
 			}
 		],
-		"gear": ["Heavy clothing (+1 soak)"],
+		"gear": ["Heavy clothing (+1 Soak)"],
 		"tags": ["book:aaa", "underworld", "thug"]
 	},
 	{
@@ -2180,10 +2124,10 @@
 		"talents": ["Full Throttle",
 			{
 				"name": "Smooth Acceleration",
-				"description": "When performing the Punch It maneuver, the rider’s swoop bike suffers 1 less sytem strain than normal, to a minimum of 1."
+				"description": "When performing the Punch It maneuver, the rider’s swoop bike suffers 1 less System Strain than normal, to a minimum of 1."
 			}
 		],
-		"gear": ["Racing suit (+1 soak)"],
+		"gear": ["Racing suit (+1 Soak)"],
 		"tags": ["book:aaa", "underworld", "thug"]
 	},
 	{
@@ -2232,7 +2176,7 @@
 		"skills": ["Cool", "Deception", "Melee", "Ranged: Light", "Vigilance"],
 		"abilities": ["Pheromone Communication"],
 		"weapons": ["Heavy blaster pistol", "Vibroblade"],
-		"gear": ["Heavy clothing (+1 soak)"],
+		"gear": ["Heavy clothing (+1 Soak)"],
 		"tags": ["book:aaa", "species:Weequay", "location:Tatooine"]
 	},
 	{
@@ -2291,11 +2235,11 @@
 				"qualities": ["Concussive 2", "Disorient 3"]
 			}
 		],
-		"gear": ["Heavy battle armour (+2 soak, +1 defence)", "Modified Byblos Drive Yards G-A transport Mist Hunter"],
+		"gear": ["Heavy battle armour (+2 Soak, +1 Defence)", "Modified Byblos Drive Yards G-A transport Mist Hunter"],
 		"tags": ["underworld", "bounty hunter", "book:aaa"]
 	},
 	{
-		"name": "Ewok hunter",
+		"name": "Ewok Hunter",
 		"type": "Minion",
 		"characteristics": {
 			"Brawn": 2,
@@ -2311,14 +2255,10 @@
 			"defence": [0, 0]
 		},
 		"skills": ["Athletics", "Cool", "Melee", "Ranged: Heavy", "Stealth", "Survival", "Vigilance"],
-		"abilities": ["Silhouette 0",
+		"abilities": ["Silhouette 0", "Low-Tech User",
 			{
 				"name": "Arboreal Ambush",
-				"description": "Once per session while in a forested area, may spend :triumph: from an Initiative check to pick a single opposing minion group; that group may noot act in the first round of combat."
-			},
-			{
-				"name": "Low-Tech User",
-				"description": "Upgrade the difficulty of checks to use unfamiliar technology once."
+				"description": "Once per session while in a forested area, may spend :triumph: from an Initiative check to pick a single opposing minion group; that group may not act in the first round of combat."
 			}
 		],
 		"weapons": [
@@ -2339,11 +2279,11 @@
 				"qualities": ["Pierce 1"]
 			}
 		],
-		"gear": ["Heavy leather mantle (+1 soak)"],
+		"gear": ["Heavy leather mantle (+1 Soak)"],
 		"tags": ["book:aaa", "species:Ewok", "location:Endor"]
 	},
 	{
-		"name": "Ewok shaman",
+		"name": "Ewok Shaman",
 		"type": "Minion",
 		"characteristics": {
 			"Brawn": 2,
@@ -2367,18 +2307,14 @@
 			"Survival": 3
 		},
 		"talents": ["Adversary 1", "Surgeon 2"],
-		"abilities": ["Silhouette 0",
+		"abilities": ["Silhouette 0", "Low-Tech User",
 			{
 				"name": "Spiritual Guidance",
-				"description": "Once per session, as an action the shaman may make a :hard: Leadership check; if successful, all members of the shaman’s tribe within short range add +1 to their Willpower for the remainder of the session."
+				"description": "Once per session, as an action the shaman may make a :hard: Leadership check; if successful, all members of the shaman’s tribe within Short range add +1 to their Willpower for the remainder of the session."
 			},
 			{
 				"name": "Spiritual Leader",
-				"description": "As an action, choose up to 3 Ewok minion groups at short range; affected targets may make an immediate Move maneuver as an out-of-turn incidental and upgrade the ability of their next skill check once."
-			},
-			{
-				"name": "Low-Tech User",
-				"description": "Upgrade the difficulty of checks to use unfamiliar technology once."
+				"description": "As an action, choose up to 3 Ewok minion groups at Short range; affected targets may make an immediate Move maneuver as an out-of-turn incidental and upgrade the ability of their next skill check once."
 			}
 		],
 		"weapons": [
@@ -2391,7 +2327,7 @@
 				"qualities": ["Concussive 2"]
 			}
 		],
-		"gear": ["Heavy leather mantel and ritual headdress (+1 soak)", "Herbal bag (counts as medikit)"],
+		"gear": ["Heavy leather mantel and ritual headdress (+1 Soak)", "Herbal bag (counts as medkit)"],
 		"tags": ["book:aaa", "species:Ewok", "location:Endor"]
 	},
 	{
@@ -2423,15 +2359,15 @@
 		"abilities": ["Silhouette 4",
 			{
 				"name": "Fearsome Roar",
-				"description": "As an action, the Krayt dragon may force a target within medium range to make a :challenge::challenge:challenge:difficulty: Fear check; may spend :threat::threat: to immobilize the target and :despair: to stagger the target."
+				"description": "As an action, the krayt dragon may force a target within Medium Range to make a :challenge::challenge::challenge::difficulty: fear check; may spend :threat::threat: to immobilise the target and :despair: to stagger the target."
 			},
 			{
 				"name": "Krayt Venom",
-				"description": "May spend :advantage::advantage: on a successful melee attack to have the target suffer 3 wounds and 3 strain due to poison; when the krayt dragon is the target of a Brawl attack, may spend :despair: or :threat::threat::threat: t have the attacker suffer 3 wounds and 3 strain due to the poison."
+				"description": "May spend :advantage::advantage: on a successful melee attack to have the target suffer 3 Wounds and 3 Strain due to poison; when the krayt dragon is the target of a Brawl attack, may spend :despair: or :threat::threat::threat: to have the attacker suffer 3 Wounds and 3 Strain due to the poison."
 			},
 			{
 				"name": "Cranial Weakness",
-				"description": "A character within short range from the krayt dragon who makes a combat check targeting the dragon that inflicts wounds may spend :triumph::triumph: to inflict a Critical Injury with +80 to the critical roll."
+				"description": "A character within Short range from the krayt dragon who makes a combat check targeting the dragon that inflicts wounds may spend :triumph::triumph: to inflict a Critical Injury with +80 to the critical roll."
 			}
 		],
 		"weapons": [
@@ -2476,7 +2412,7 @@
 		"abilities": ["Force Power: Enhance", "Silhouette 2",
 			{
 				"name": "Travel Between Worlds",
-				"description": "As an action, a Loth-wolf can travel on a planetary skill between any two wilderness locations on Lothal. The Loth-wolf crosses between the two points in a matter of minutes, regardless of actual distance, and may carry one character of silhouette 1 or less with them."
+				"description": "As an action, a Loth-wolf can travel on a planetary scale between any two wilderness locations on Lothal. The Loth-wolf crosses between the two points in a matter of minutes, regardless of actual distance, and may carry one character of Silhouette 1 or less with them."
 			}
 		],
 		"weapons": [
@@ -2489,7 +2425,7 @@
 				"qualities": ["Ensnare 2", "Knockdown", "Pierce 1"]
 			}
 		],
-		"gear": ["Thick fur (+1 soak)"],
+		"gear": ["Thick fur (+1 Soak)"],
 		"tags": ["creature", "book:aaa", "location:Lothal"]
 	},
 	{
@@ -2610,8 +2546,8 @@
 		"talents": ["Adversary 2", "Durable 4"],
 		"abilities": ["Silhouette 4", "Immobile",
 			{
-				"name": "Drawn in",
-				"description": "Characters ensnared by a sarlacc add :setback::setback: to their checks to break free. If they fail or do not attempt the check, at the end of their turn they are pulled one range band closer to the sarlaccs maw. Should they end their turn at engaged range of the sarlacc, they are swallowed alive and are immobilized until released. Should the sarlacc suffer a :hard: or worse Critical injury, or be killed, it immediately releases all captives."
+				"name": "Drawn In",
+				"description": "Characters ensnared by a sarlacc add :setback::setback: to their checks to break free. If they fail or do not attempt the check, at the end of their turn they are pulled one range band closer to the sarlaccs maw. Should they end their turn at Engaged range of the sarlacc, they are swallowed alive and are immobilised until released. Should the sarlacc suffer a :hard: or worse Critical injury, or be killed, it immediately releases all captives."
 			},
 			{
 				"name": "Digestive Toxins",

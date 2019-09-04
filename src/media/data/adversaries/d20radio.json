@@ -27,7 +27,7 @@
 		"talents": ["Adversary 1", "Stalker 2"],
 		"abilities": ["Shadowed", "Swipe 1"],
 		"weapons": ["Blaster carbine", "Light blaster pistol", "Vibroknife"],
-		"gear": ["Storm Commando armour (+2 soak) (Laminate) with Enhanced Optics suite (removes up to 2 Setback from Perception, Vigilance and combat checks, due to darkness, smoke, fog or other environment effects that obscure vision)", "Encrypted commlink"],
+		"gear": ["Storm Commando armour (+2 Soak) (Laminate) with Enhanced Optics suite (removes up to :setback::setback: from Perception, Vigilance and combat checks, due to darkness, smoke, fog or other environment effects that obscure vision)", "Encrypted commlink"],
 		"tags": ["source:D20Radio.com", "empire", "imperial military", "stormtrooper"],
 		"devOnly": true
 	},
@@ -224,7 +224,7 @@
 		"skills": ["Ranged: Heavy", "Ranged: Light", "Survival"],
 		"weapons": ["Blaster rifle", "Frag grenade"],
 		"abilities": [{"name": "Mixed Motivations","description": "Add :boost::boost: and :setback::setback: to Discipline checks."}],
-		"gear": ["Army swamp trooper armour (+1 soak, may remove :setback::setback: due to muddy or swamp-like conditions), Filtration mask, Utility belt."],
+		"gear": ["Army swamp trooper armour (+1 Soak, may remove :setback::setback: due to muddy or swamp-like conditions), Filtration mask, Utility belt."],
 		"tags": ["source:D20Radio.com", "empire", "imperial military"]
 	},
 	{
@@ -433,7 +433,7 @@
 			}
 		],
 		"weapons": ["Vibro-ax"],
-		"gear": ["Heavy clothes (+1 soak value)", "Medpac", "Tool kit", "Mod V cybernetic arms", "Datapad."],
+		"gear": ["Heavy clothes (+1 Soak)", "Medpac", "Tool kit", "Mod V cybernetic arms", "Datapad."],
 		"tags": ["source:D20Radio.com", "species:Gamorrean"],
 		"devOnly": true
 	},
@@ -1083,7 +1083,7 @@
 				"qualities": ["Stun Setting", "Inaccurate 1"]
 			}
 		],
-		"gear": ["Armoured flightsuit (+1 soak/+1 defence), comlink, Bloodletter (modified Firespray patrol craft)"],
+		"gear": ["Armoured flightsuit (+1 Soak, +1 Defence), comlink, Bloodletter (modified Firespray patrol craft)"],
 		"tags": ["source:D20Radio.com", "binayre pirate", "pilot", "pirate"],
 		"devOnly": true
 	},
@@ -1116,7 +1116,7 @@
 				"qualities": ["Stun", "Disorient 2"]
 			}
 		],
-		"gear": ["Heavy clothing (soak +1), Comlink"],
+		"gear": ["Heavy clothing (Soak +1)", "Comlink"],
 		"tags": ["source:D20Radio.com", "binayre pirate", "pirate"],
 		"devOnly": true
 	},
@@ -1552,7 +1552,7 @@
 				"qualities": ["Stun"]
 			}
 		],
-		"gear": ["Army officer armour (+1 Soak, +1 defence), Long range comlink, Utility belt, Extra reloads"],
+		"gear": ["Army officer armour (+1 Soak, +1 Defence), Long range comlink, Utility belt, Extra reloads"],
 		"tags": ["source:D20Radio.com", "empire", "imperial military"]
 	},
 	{
@@ -2226,7 +2226,7 @@
 				"qualities": ["Breach 1", "Superior"]
 			}
 		],
-		"gear": ["Built-in armour plating (+2 Soak, +1 defence; Cortosis)"],
+		"gear": ["Built-in armour plating (+2 Soak, +1 Defence; Cortosis)"],
 		"tags": ["source:D20Radio.com", "species:Droid", "krath"],
 		"devOnly": true
 	},
@@ -2281,7 +2281,7 @@
 		"abilities": ["Force Power: Harm", "Force Power: Influence",
 			{
 				"name": "Force power Jerserra’s Influence",
-				"description": "choose a target within Short range to make an :average: Fear check. :darkside: increase the range of this power by 1. :darkside: increase the number of targets affected this power by 1. :darkside: increase the difficulty of the Fear check by 1. If the target suffers Strain as a result of Jerserra’s Influence, the Force user recovers an equal amount of Strain."
+				"description": "choose a target within Short range to make an :average: fear check. :darkside: increase the range of this power by 1. :darkside: increase the number of targets affected this power by 1. :darkside: increase the difficulty of the fear check by 1. If the target suffers Strain as a result of Jerserra’s Influence, the Force user recovers an equal amount of Strain."
 			}
 		],
 		"weapons": [
@@ -2302,7 +2302,7 @@
 				"qualities": ["Mono-Molecular Edge", "Pierce 7", "Vicious 1"]
 			}
 		],
-		"gear": ["Encrypted comlink, Tailored armoured clothing (+1 soak/+1 defence), Collection of Force artifacts, Large Kalevalan star yacht"],
+		"gear": ["Encrypted comlink, Tailored armoured clothing (+1 Soak/+1 Defence), Collection of Force artifacts, Large Kalevalan star yacht"],
 		"tags": ["source:D20Radio.com", "krath", "force sensitive"],
 		"devOnly": true
 	},
@@ -2349,7 +2349,7 @@
 				"description": "Gain an additional free maneuver per turn that can only be used for movement. May not perform more than two maneuvers per turn."
 			}
 		],
-		"gear": ["Ornate armoured plating (+1 soak)."],
+		"gear": ["Ornate armoured plating (+1 Soak)."],
 		"tags": ["source:D20Radio.com", "species:Droid", "krath"],
 		"devOnly": true
 	},
@@ -2659,7 +2659,7 @@
 			},
 			{
 				"name": "Fearsome",
-				"description": "When an enemy becomes engaged with, they must make a :difficulty::difficulty::difficulty::setback::setback::setback: Fear check."
+				"description": "When an enemy becomes engaged with, they must make a :difficulty::difficulty::difficulty::setback::setback::setback: fear check."
 			}
 		],
 		"abilities": [
@@ -2735,7 +2735,7 @@
 				"description": "For every five resistance troopers in a minion group, roll once on the All Walks of Life Chart."
 			}
 		],
-		"gear": ["Blast vest (+1 soak)"],
+		"gear": ["Blast vest (+1 Soak)"],
 		"tags": ["source:D20Radio.com", "resistance"]
 	},
 	{
@@ -2767,7 +2767,7 @@
 				"description": "Several squad members are experienced soldiers, such as former New Republic Army or mercenaries. The minion group gains Gunnery and Melee as group only skills. The squad is also equipped with a missile tube."
 			}
 		],
-		"gear": ["Blast vest (+1 soak)"],
+		"gear": ["Blast vest (+1 Soak)"],
 		"tags": ["source:D20Radio.com", "resistance"],
 		"devOnly": true
 	},
@@ -2800,7 +2800,7 @@
 				"description": "The squad is composed of several pilots whose starfighters have been destroyed. The minion group gains Piloting (Planetary) and Piloting (Space) as group only skills."
 			}
 		],
-		"gear": ["Blast vest (+1 soak)"],
+		"gear": ["Blast vest (+1 Soak)"],
 		"tags": ["source:D20Radio.com", "resistance"],
 		"devOnly": true
 	},
@@ -2834,7 +2834,7 @@
 				"description": "One squad member was a big game hunter and has taught her fellow troopers how to fight with precision. The minion group gains True Aim 1."
 			}
 		],
-		"gear": ["Blast vest (+1 soak)"],
+		"gear": ["Blast vest (+1 Soak)"],
 		"tags": ["source:D20Radio.com", "resistance"],
 		"devOnly": true
 	},
@@ -2867,7 +2867,7 @@
 				"description": "Several members of the squad are particularly hardy aliens. Increase the soak of the minion group by one."
 			}
 		],
-		"gear": ["Blast vest (+1 soak)"],
+		"gear": ["Blast vest (+1 Soak)"],
 		"tags": ["source:D20Radio.com", "resistance"],
 		"devOnly": true
 	},
@@ -2900,7 +2900,7 @@
 				"description": "The squad is composed primarily of engineers. The minion group gains Mechanics as a group only skill, as well as Contraption."
 			}
 		],
-		"gear": ["Blast vest (+1 soak)"],
+		"gear": ["Blast vest (+1 Soak)"],
 		"tags": ["source:D20Radio.com", "resistance"],
 		"devOnly": true
 	},
@@ -2933,7 +2933,7 @@
 				"description": "The squad is made up of an amateur zoneball team. The minion group gains Strong Arm (Treat thrown weapons as if they had one step greater range, up to a maximum of Medium range)."
 			}
 		],
-		"gear": ["Blast vest (+1 soak)"],
+		"gear": ["Blast vest (+1 Soak)"],
 		"tags": ["source:D20Radio.com", "resistance"],
 		"devOnly": true
 	},
@@ -2966,7 +2966,7 @@
 				"description": "This squad is made up of die hard survivors from a colony destroyed by the First Order. Increase the Willpower of the minion group by one."
 			}
 		],
-		"gear": ["Blast vest (+1 soak)"],
+		"gear": ["Blast vest (+1 Soak)"],
 		"tags": ["source:D20Radio.com", "resistance"],
 		"devOnly": true
 	},
@@ -2999,7 +2999,7 @@
 				"description": "Composed of several spies, this group is adept as moving unseen. The minion group gains Stealth as a group skill and increases Agility by one."
 			}
 		],
-		"gear": ["Blast vest (+1 soak)"],
+		"gear": ["Blast vest (+1 Soak)"],
 		"tags": ["source:D20Radio.com", "resistance"],
 		"devOnly": true
 	},
@@ -3033,7 +3033,7 @@
 				"description": "Several members of the squad are veterans of the Galactic Civil War. The minion group gains Lethal Blows 2 (Add +20 to Critical Injury rolls against opponents)."
 			}
 		],
-		"gear": ["Blast vest (+1 soak)"],
+		"gear": ["Blast vest (+1 Soak)"],
 		"tags": ["source:D20Radio.com", "resistance"],
 		"devOnly": true
 	},
@@ -3072,7 +3072,7 @@
 				"description": "This squad was cobbled together from staff officers and analysts ready to pitch in and fight. The minion group gains Knowledge (Warfare), increases Intellect by one, and gains Know The Enemy (May make Knowledge [Warfare] checks for initiative)."
 			}
 		],
-		"gear": ["Blast vest (+1 soak)"],
+		"gear": ["Blast vest (+1 Soak)"],
 		"tags": ["source:D20Radio.com", "resistance"],
 		"devOnly": true
 	},
@@ -3287,7 +3287,7 @@
 				"qualities": ["Stun Damage"]
 				}
 			],
-		"gear": ["Banal Apparel (Opposing characters upgrade the difficulty of any checks made to identify the wearer once)", "Second Skin Armour (+1 Soak/+1 defence; +2 Setback to Perception checks to notice on the wearer)"],
+		"gear": ["Banal Apparel (Opposing characters upgrade the difficulty of any checks made to identify the wearer once)", "Second Skin Armour (+1 Soak, +1 Defence; adds :setback::setback: to Perception checks to notice on the wearer)"],
 		"tags": ["species:Bothan","source:D20Radio.com"],
 		"devOnly": true
 	},
@@ -3745,7 +3745,7 @@
 		"abilities": [
 			{
 			"name": "Prehensile Feet",
-			"description": "As long as his legs are not supporting him, Puggles may use his feet to perform any action that he would normally use his hands for with one setback die."
+			"description": "As long as his legs are not supporting him, Puggles may use his feet to perform any Action that he would normally use his hands for with one setback die."
 			}
 		],
 		"weapons": ["Frag grenade", "Stun grenade",
@@ -3948,7 +3948,7 @@
 				"notes": "may not be redirected using Improved Reflect, see pg. 56 of Special Modifications for grapnel rules"
 			}
 		],
-		"gear": ["armored clothing (+1 soak, +1 defence)", "Load bearing equipment"],
+		"gear": ["armored clothing (+1 Soak, +1 Defence)", "Load bearing equipment"],
 		"tags": ["source:D20Radio.com"]
 	},
 	{
@@ -3997,7 +3997,7 @@
 				"qualities": ["Ensnare 5", "Knockdown", "Limited Ammo 1", "Stun Damage"]
 			}
 		],
-		"gear": ["Combat plating (+2 soak, +1 defence, cortosis)"],
+		"gear": ["Combat plating (+2 Soak, +1 Defence, cortosis)"],
 		"tags": ["source:D20Radio.com", "species:Droid"]
 	}
 ]

@@ -152,7 +152,7 @@
 		"name": "Cybernetically-Enhanced Nexu",
 		"type": "Rival",
 		"description": "The cyber-nexu are examples of Cratala’s handiwork. They are not under her control, but she has increased their natural territorial instincts and centred them on the starship. The cyborgs are meant to destroy anyone discovering and searching the *Sa Nalaor*.",
-		"notes": "When first encountering the cyber-nexu, characters should make a :hard: Fear check, upgrading the difficulty once.",
+		"notes": "When first encountering the cyber-nexu, characters should make a :hard: fear check, upgrading the difficulty once.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 4,

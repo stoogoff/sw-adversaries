@@ -229,7 +229,7 @@
 		"abilities": ["Cyborg",
 			{
 				"name": "Four-Armed",
-				"description": "Gains an additional free Maneuver per turn, but still may not perform more than two Maneuvers per turn."
+				"description": "Gains an additional free maneuver per turn, but still may not perform more than two maneuvers per turn."
 			}
 		],
 		"weapons": [
