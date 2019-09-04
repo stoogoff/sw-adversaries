@@ -53,7 +53,7 @@
 				"qualities": ["Disorient 2"]
 			}
 		],
-		"tags": ["book:sot", "creature"]
+		"tags": ["book:sot", "creature", "book:aaa"]
 	},
 	{
 		"name": "Blackback",
@@ -371,7 +371,7 @@
 				"qualities": ["Ensnare 2"]
 			}
 		],
-		"tags": ["book:sot", "creature"]
+		"tags": ["book:sot", "creature", "book:aaa"]
 	},
 	{
 		"name": "Dianoga",
@@ -408,7 +408,7 @@
 				"qualities": ["Ensnare 2", "Knockdown", "Linked 6"]
 			}
 		],
-		"tags": ["creature", "species:Dianoga", "book:aor", "book:eote"]
+		"tags": ["creature", "species:Dianoga", "book:aor", "book:eote", "book:aaa"]
 	},
 	{
 		"name": "Small Dianoga",
@@ -723,7 +723,7 @@
 				"qualities": ["Disorient 1", "Knockdown"]
 			}
 		],
-		"tags": ["creature", "book:aor", "book:eote"]
+		"tags": ["creature", "book:aor", "book:eote", "book:aaa"]
 	},
 	{
 		"name": "Horse (Equinoid)",
@@ -1395,7 +1395,7 @@
 				"range": "Engaged"
 			}
 		],
-		"tags": ["creature", "book:eote", "book:sor"]
+		"tags": ["creature", "book:eote", "book:sor", "book:aaa"]
 	},
 	{
 		"name": "Narglatch",
@@ -1605,7 +1605,7 @@
 				"qualities": ["Knockdown"]
 			}
 		],
-		"tags": ["book:sot", "creature", "species:Ronto"]
+		"tags": ["book:sot", "creature", "species:Ronto", "book:aaa"]
 	},
 	{
 		"name": "Ruping",
@@ -1755,7 +1755,7 @@
 				"qualities": ["Knockdown", "Pierce 3"]
 			}
 		],
-		"tags": ["creature", "book:fad"]
+		"tags": ["creature", "book:fad", "book:aaa"]
 	},
 	{
 		"name": "Tauntaun",
@@ -1789,7 +1789,7 @@
 				"qualities": ["Disorient 1"]
 			}
 		],
-		"tags": ["creature", "location:Hoth", "book:sor", "book:sot"]
+		"tags": ["creature", "location:Hoth", "book:sor", "book:sot", "book:aaa"]
 	},
 	{
 		"name": "Tayan Falcon",
@@ -1956,8 +1956,8 @@
 			"wounds": 20
 		},
 		"skills": {
-			"Brawl": 5,
-			"Resilience": 5,
+			"Brawl": 3,
+			"Resilience": 3,
 			"Stealth": 3,
 			"Survival": 3
 		},
@@ -1973,7 +1973,7 @@
 				"qualities": ["Pierce 3", "Vicious 2"]
 			}
 		],
-		"tags": ["creature", "location:Hoth", "book:sor"]
+		"tags": ["creature", "location:Hoth", "book:sor", "book:aaa"]
 	},
 	{
 		"name": "Whaladon",
@@ -2044,7 +2044,7 @@
 				"qualities": ["Vicious 3"]
 			}
 		],
-		"tags": ["book:sot", "book:ss", "creature"]
+		"tags": ["book:sot", "book:ss", "creature", "book:aaa"]
 	},
 	{
 		"name": "Vornskr",
@@ -2200,6 +2200,6 @@
 				"range": "Engaged"
 			}
 		],
-		"tags": ["creature", "book:btr", "book:ss", "adventure:Beyond the Rim"]
+		"tags": ["creature", "book:btr", "book:ss", "adventure:Beyond the Rim", "book:aaa"]
 	}
 ]

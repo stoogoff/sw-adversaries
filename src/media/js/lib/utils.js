@@ -150,6 +150,7 @@ let bookMap = {
 	"book:nop": "Nexus of Power",
 	"book:dor": "Dawn of Rebellion",
 	"book:rots": "Rise of the Separatists",
+	"book:aaa": "Allies and Adversaries",
 
 	// career books
 	"book:dc": "Dangerous Covenants", // no stats

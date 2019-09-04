@@ -76,7 +76,7 @@
 				"qualities": ["Blast 2", "Breach 2", "Guided 3", "Limited Ammo 2", "Slow-Firing 1"]
 			}
 		],
-		"tags": ["book:cam", "species:droid", "assassin"]
+		"tags": ["book:cam", "species:Droid", "assassin"]
 	},
 	{
 		"name": "LSx-Series Slicer Droid",
@@ -118,7 +118,7 @@
 			}
 		],
 		"gear": ["Built-in slicer gear"],
-		"tags": ["book:cam", "species:droid", "slicer"]
+		"tags": ["book:cam", "species:Droid", "slicer"]
 	},
 	{
 		"name": "M4-Series Messenger Droid",
@@ -150,7 +150,7 @@
 		"abilities": ["Droid", "Flyer"],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Holoprojector", "Holorecorder", "Small locking storage compartment (holds items totalling up to 3 encumbrance)"],
-		"tags": ["book:cam", "species:droid"]
+		"tags": ["book:cam", "species:Droid"]
 	},
 	{
 		"name": "Q-Signal Messenger Drone",
@@ -179,7 +179,7 @@
 		"abilities": ["Droid"],
 		"weapons": [],
 		"gear": ["Messenger drone vehicle"],
-		"tags": ["book:cam", "species:droid"]
+		"tags": ["book:cam", "species:Droid"]
 	},
 	{
 		"name": "RA-7 Protocol Droid",
@@ -210,7 +210,7 @@
 		},
 		"talents": ["Adversary 1", "Plausible Deniability 2"],
 		"abilities": ["Droid", "Etiquette and Protocol"],
-		"tags": ["book:cam", "species:droid", "protocol droid"]
+		"tags": ["book:cam", "species:Droid", "protocol droid"]
 	},
 	{
 		"name": "RM-Series Military Intelligence Droid",
@@ -252,7 +252,7 @@
 		],
 		"weapons": ["Heavy blaster rifle", "Ion blaster"],
 		"gear": ["Built-in demolitions kit (acts as a tool kit)", "Built-in sensory and recording equipment"],
-		"tags": ["book:cam", "species:droid", "spy"]
+		"tags": ["book:cam", "species:Droid", "spy"]
 	},
 	{
 		"name": "TS-Series Interrogation Droid",
@@ -298,6 +298,6 @@
 			}
 		],
 		"gear": ["Chem injector hypo", "Two high-intensity miniature spotlights", "On-board medical scanner", "Built-in medpack", "4 stimpacks"],
-		"tags": ["book:cam", "species:droid"]
+		"tags": ["book:cam", "species:Droid"]
 	}
 ]

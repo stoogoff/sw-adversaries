@@ -220,7 +220,7 @@
 		"skills": ["Perception", "Ranged: Light"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Blast vest and helmet (+1 Soak)"],
-		"tags": ["empire", "imperial military", "book:aor", "book:eote", "adventure:Perlemian Haul", "adventure:Operation Shell Game"]
+		"tags": ["empire", "imperial military", "book:aor", "book:eote", "adventure:Perlemian Haul", "adventure:Operation Shell Game", "book:aaa"]
 	},
 	{
 		"name": "Imperial Naval Engineer",
@@ -287,7 +287,7 @@
 		"abilities": ["Tactical Direction"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Heavy uniform (+1 Soak)"],
-		"tags": ["empire", "imperial military", "book:eote"]
+		"tags": ["empire", "imperial military", "book:eote", "book:aaa"]
 	},
 	{
 		"name": "Imperial Royal Guard",
@@ -328,7 +328,7 @@
 			}
 		],
 		"gear": ["Heavy battler armour (+2 Soak, +1 defence)"],
-		"tags": ["empire", "imperial military", "book:fad"]
+		"tags": ["empire", "imperial military", "book:fad", "book:aaa"]
 	},
 	{
 		"name": "ISB Technician",
@@ -497,7 +497,7 @@
 		"talents": ["Indistinguishable 1"],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Disguise kit", "Disassembly-capable secure military comlink"],
-		"tags": ["empire", "imperial military", "book:aor"]
+		"tags": ["empire", "imperial military", "book:aor", "book:aaa"]
 	},
 	{
 		"name": "Naval Engineer",
@@ -619,7 +619,7 @@
 			}
 		],
 		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 Soak)", "2 Frag grenades"],
-		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad", "adventure:Rescue at Glare Peak", "adventure:Friends Like These", "adventure:Takeover at Whisper Base", "adventure:Onslaught at Arda I", "book:oaa", "book:eotebg", "adventure:Escape from Mos Shuuta"]
+		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad", "adventure:Rescue at Glare Peak", "adventure:Friends Like These", "adventure:Takeover at Whisper Base", "adventure:Onslaught at Arda I", "book:oaa", "book:eotebg", "adventure:Escape from Mos Shuuta", "book:aaa"]
 	},
 	{
 		"name": "Stormtrooper Sergeant",
@@ -651,7 +651,7 @@
 		"abilities": ["Tactical Direction"],
 		"weapons": ["Heavy blaster rifle", "Vibroknife", "Frag grenade"],
 		"gear": ["Utility belt", "Extra reloads", "Stormtrooper armour (+2 Soak)", "2 Frag grenades"],
-		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad", "book:oaa", "adventure:Onslaught at Arda I"]
+		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:eote", "book:fad", "book:oaa", "adventure:Onslaught at Arda I", "book:aaa"]
 	},
 	{
 		"name": "Stormtrooper: Dark Trooper",
@@ -712,7 +712,7 @@
 		"skills": ["Athletics", "Discipline", "Melee", "Ranged: Heavy", "Resilience", "Survival"],
 		"weapons": ["Blaster rifle", "Vibroknife"],
 		"gear": ["Utility belt", "Extra reloads", "High-temp stormtrooper armour (+2 Soak, remove :setback::setback: imposed due to arid or hot environmental conditions)", "Food and water packs"],
-		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "adventure:Onslaught at Arda I", "book:oaa"]
+		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "adventure:Onslaught at Arda I", "book:oaa", "book:aaa"]
 	},
 	{
 		"name": "Stormtrooper: Scout Trooper",
@@ -743,7 +743,7 @@
 			}
 		],
 		"gear": ["Utility belt", "Extra reloads", "Scouttrooper armour (+1 Soak)", "1 Frag grenade"],
-		"tags": ["empire", "imperial military", "stormtrooper", "book:aor"]
+		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:aaa"]
 	},
 	{
 		"name": "Stormtrooper: Swamptrooper",
@@ -764,7 +764,7 @@
 		"skills": ["Athletics", "Discipline", "Melee", "Percep­tion", "Ranged: Heavy", "Ranged: Light", "Survival", "Vigilance"],
 		"weapons": ["Blaster carbine", "Frag grenade"],
 		"gear": ["Electrobinoculars", "Extra reloads", "2 Frag grenades", "Rebreather", "Swamptrooper armour (+2 Soak, adds :boost: to Stealth checks made within a forest or swamp environment)", "Utility belt"],
-		"tags": ["empire", "imperial military", "stormtrooper", "book:lonh", "adventure:Toydarian Grocery Shopping"]
+		"tags": ["empire", "imperial military", "stormtrooper", "book:lonh", "adventure:Toydarian Grocery Shopping", "book:aaa"]
 	},
 	{
 		"name": "Stormtrooper: Snowtrooper",
@@ -796,7 +796,7 @@
 			}
 		],
 		"gear": ["Snowtrooper armour (+2 Soak, remove :setback::setback: imposed due to cold or icy environmental conditions)"],
-		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:ragp", "adventure:Rescue at Glare Peak"]
+		"tags": ["empire", "imperial military", "stormtrooper", "book:aor", "book:ragp", "adventure:Rescue at Glare Peak", "book:aaa"]
 	},
 	{
 		"name": "TIE Pilot",
@@ -817,7 +817,7 @@
 		"skills": ["Gunnery", "Piloting: Space"],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Flight suit"],
-		"tags": ["empire", "imperial military", "pilot", "book:aor", "book:fad", "adventure:Operation Shell Game", "adventure:Onslaught at Arda I", "adventure:Escape from Mos Shuuta", "book:oaa"]
+		"tags": ["empire", "imperial military", "pilot", "book:aor", "book:fad", "adventure:Operation Shell Game", "adventure:Onslaught at Arda I", "adventure:Escape from Mos Shuuta", "book:oaa", "book:aaa"]
 	},
 	{
 		"name": "TIE Ace",
@@ -841,6 +841,6 @@
 		},
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Flight suit", "Sensory augmentation package (add :advantage: to any Perception checks made by the character)"],
-		"tags": ["empire", "imperial military", "pilot", "book:aor"]
+		"tags": ["empire", "imperial military", "pilot", "book:aor", "book:aaa"]
 	}
 ]

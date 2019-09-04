@@ -78,7 +78,7 @@
 		},
 		"talents": ["Nobody’s Fool 2"],
 		"gear": ["Datapad of Imperial regulations"],
-		"tags": ["empire", "imperial bureaucracy", "book:fad"]
+		"tags": ["empire", "imperial bureaucracy", "book:fad", "book:aaa"]
 	},
 	{
 		"name": "Imperial Advisor",
@@ -110,7 +110,7 @@
 		},
 		"talents": ["Natural Charmer", "Nobody’s Fool 2", "Plausible Deniability 2"],
 		"gear": ["Lavishly adorned robes", "Extensive credentials", "Sundry personal staff"],
-		"tags": ["empire", "imperial bureaucracy", "book:aor"]
+		"tags": ["empire", "imperial bureaucracy", "book:aor", "book:aaa"]
 	},
 	{
 		"name": "Imperial DeStab Agent",
@@ -202,6 +202,6 @@
 		"talents": ["Adversary 1", "Plausible Deniability 4", "Supreme Inspiring Rhetoric"],
 		"abilities": ["Imperial Valour"],
 		"weapons": ["Blaster pistol"],
-		"tags": ["empire", "imperial bureaucracy", "book:aor", "book:eote"]
+		"tags": ["empire", "imperial bureaucracy", "book:aor", "book:eote", "book:aaa"]
 	}
 ]

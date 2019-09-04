@@ -269,7 +269,11 @@
 	},
 	{
 		"name": "Etiquette and Protocol",
-		"description": "Protocol droids allow allies to add :boost: to any Nego­tiation checks or other checks made to negotiate or mediate."
+		"description": "Protocol droids allow allies to add :boost: to any Negotiation checks or other checks made to negotiate or mediate."
+	},
+	{
+		"name": "Etiquette and Protocol (Improved)",
+		"description": "Protocol droids allow allies to add :boost: to any Negotiation checks or other checks made to negotiate or mediate, no matter the species involved."
 	},
 	{
 		"name": "Excellent Climber",
@@ -310,6 +314,10 @@
 	{
 		"name": "Intimidating Presence",
 		"description": "All enemies within Short range add :threat: to all skill checks they make."
+	},
+	{
+		"name": "Immobile",
+		"description": "Cannot spend maneuvers to move."
 	},
 	{
 		"name": "Invoke Doellin",
@@ -410,6 +418,10 @@
 	{
 		"name": "Insectoid Appear­ance",
 		"description": "LOM-series protocol droids allow allies to remove :setback: from Nego­tiation checks or other checks made to negotiate or mediate when dealing with insectoid species."
+	},
+	{
+		"name": "Jet booster",
+		"description": "Allows this character to fly, as per the rules in the Flying sidebars in Chapter VI: Conflict and Combat in the core rulebooks."
 	},
 	{
 		"name": "Jungle Hunter",
@@ -629,7 +641,7 @@
 	},
 	{
 		"name": "Silhouette",
-		"description": ""
+		"description": "The difficulty of an attack made against a character 2 silhouettes larger than the attacker is decreased by 1. The difficulty of an attack made against a character 2 or more silhouettes smaller than the attacker is increased by 1."
 	},
 	{
 		"name": "Skilled Cheater",

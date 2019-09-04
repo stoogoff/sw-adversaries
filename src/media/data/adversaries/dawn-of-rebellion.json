@@ -255,7 +255,7 @@
 			}
 		],
 		"gear": ["Cybernetic legs (+1 Brawn, already included in profile", "Nightbrother heavy clothing (+1 Soak)"],
-		"tags": ["book:dor", "force sensitive", "darkside", "species:Zabrak", "underworld"]
+		"tags": ["book:dor", "force sensitive", "darkside", "species:Zabrak", "underworld", "book:aaa"]
 	},
 	{
 		"name": "Shelish",
@@ -402,7 +402,7 @@
 			}
 		],
 		"gear": ["Amphibious landing armour (+2 Soak, when making skill checks, shoretroopers may remove :setback::setback: on checks imposed due to coastal settings)", "Utility belt", "Extra reloads", "Food and water packs"],
-		"tags": ["empire", "imperial military", "stormtrooper", "book:dor"]
+		"tags": ["empire", "imperial military", "stormtrooper", "book:dor", "book:aaa"]
 	},
 	{
 		"name": "Death Star Trooper",
@@ -423,7 +423,7 @@
 		"skills": ["Astrogation", "Computers", "Gunnery", "Knowledge: Warfare", "Mechanics", "Ranged: Light", "Perception", "Vigilance"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Death Star trooper uniform and helmet (+1 Soak)"],
-		"tags": ["book:dor", "empire", "imperial military", "location:Death Star"]
+		"tags": ["book:aaa", "book:dor", "empire", "imperial military", "location:Death Star"]
 	},
 	{
 		"name": "Death Star Trooper Officer",
@@ -501,7 +501,7 @@
 		],
 		"weapons": ["Heavy blaster pistol"],
 		"gear": ["Director’s uniform with cape (+1 Soak)", "Datapad", "Multiple encrypted comlinks"],
-		"tags": ["book:dor", "empire", "imperial military"]
+		"tags": ["book:dor", "book:aaa", "empire", "imperial military", "book:aaa"]
 	},
 	{
 		"name": "Stormtrooper: Death Trooper",
@@ -563,7 +563,7 @@
 			}
 		],
 		"gear": ["Death trooper armour (+2 Soak, +1 Defence, upgrade Stealth checks once, remove :setback::setback: imposed due to darkness, smoke, or other environmental effects which obscure vision)", "Encrypted comlink", "Load bearing gear", "Food and water packs", "1 Thermal detonator", "2 Frag grenades"],
-		"tags": ["book:dor", "empire", "imperial military", "stormtrooper"]
+		"tags": ["book:dor", "empire", "imperial military", "stormtrooper", "book:aaa"]
 	},
 	{
 		"name": "Captain Fatimah Nurii",
@@ -633,9 +633,17 @@
 				"description": "Saw adds :boost: to Vigilance and Perception checks."
 			}
 		],
-		"weapons": ["Blaster pistol"],
+		"weapons": ["Blaster pistol",
+			{
+				"name": "Walking stick",
+				"skill": "melee",
+				"plus-damage": 2,
+				"critical": 4,
+				"range": "Engaged"
+			}
+		],
 		"gear": ["Heavy battle armour (+2 Soak)"],
-		"tags": ["book:dor", "rebel alliance", "location:Jedha"]
+		"tags": ["book:dor", "book:aaa", "rebel alliance", "location:Jedha"]
 	},
 	{
 		"name": "Commandant Aresko",
@@ -960,6 +968,7 @@
 			"Discipline": 3,
 			"Knowledge: Core Worlds": 4,
 			"Knowledge: Outer Rim": 4,
+			"Knowledge: Education": 4,
 			"Knowledge: Warfare": 4,
 			"Leadership": 5,
 			"Negotiation": 4,
@@ -974,7 +983,7 @@
 			}
 		],
 		"gear": ["Imperial Moff’s uniform (+1 Soak)", "Encrypted comlink", "Code cylinders"],
-		"tags": ["book:dor", "empire", "imperial bureaucracy"]
+		"tags": ["book:aaa", "book:dor", "empire", "imperial bureaucracy"]
 	},
 	{
 		"name": "Gall Trayvis",
@@ -1085,7 +1094,7 @@
 			"Knowledge: Lore": 4,
 			"Knowledge: Outer Rim": 4,
 			"Knowledge: Warfare": 5,
-			"KNowledge: Xenology": 5,
+			"Knowledge: Xenology": 5,
 			"Melee": 3,
 			"Perception": 4,
 			"Ranged: Light": 2,
@@ -1101,7 +1110,7 @@
 		],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Grand Admiral’s uniform (+1 Soak)", "Datapad", "Assorted objets d’art"],
-		"tags": ["book:dor", "empire", "imperial military", "species:Chiss"]
+		"tags": ["book:dor", "empire", "imperial military", "species:Chiss", "book:aaa"]
 	},
 	{
 		"name": "Cadet Jai Kell",
@@ -1278,75 +1287,6 @@
 		],
 		"gear": ["ISB Armour (+2 Soak)", "Secure comlink"],
 		"tags": ["book:dor", "imperial security bureau", "empire"]
-	},
-	{
-		"name": "Darth Vader",
-		"type": "Nemesis",
-		"description": "Many dark tales are told about a black-armoured humanoid who serves as the Emperor’s most trusted enforcer and is perhaps the most feared being in the Empire. Rumoured to live in a forbidding castle on a world of lava, this warrior wields a red lightsaber and possesses terrifying powers that suggest he has a connection to the dreaded Sith. The few who claim to have survived encounters with this individual are unsure whether the armour houses a living being, a combat droid, or even a clone trooper. Many even fear that duplicates could be activated if the first is ever defeated.\n\nIn addition to his other duties to the Empire, Darth Vader is believed to be the most senior member of the Inquisitorius, and legends abound of his pursuit of target after target when other agents failed in their efforts. It is possible that Vader has trained Inquisitors in the techniques required to eliminate Force-sensitive targets.",
-		"characteristics": {
-			"Brawn": 5,
-			"Agility": 3,
-			"Intellect": 3,
-			"Cunning": 4,
-			"Willpower": 5,
-			"Presence": 4
-		},
-		"derived": {
-			"soak": 7,
-			"wounds": 24,
-			"strain": 19,
-			"defence": [1, 1]
-		},
-		"skills": {
-			"Athletics": 2,
-			"Coercion": 5,
-			"Cool": 3,
-			"Deception": 4,
-			"Discipline": 3,
-			"Gunnery": 3,
-			"Leadership": 3,
-			"Lightsaber": 5,
-			"Perception": 2,
-			"Piloting: Space": 5,
-			"Vigilance": 3
-		},
-		"talents": ["Adversary 4", "Durable 3", "Force Rating 6", "Improved Parry 5", "Improved Reflect 5", "Saber Throw"],
-		"abilities": [
-			"Darkside Force User",
-			"Force Power: Enhance",
-			{
-				"name": "Terrifying",
-				"description": "At the beginning of an encounter, each enemy within Medium range must make a :hard-3: fear check."
-			},
-			{
-				"name": "I Have You Now",
-				"description": "After inflicting a Critical Hit or Injury in combat may spend :advantage: to add +20 to Critical Hit or Injury results."
-			},
-			{
-				"name": "Force Power: Force Choke",
-				"description": "Darth Vader may spend :forcepip: to immobilise a target within Short range until the end of Vader’s next turn; may spend :forcepip: to inflict 1 Wound on the target, ignoring Soak and may do so multiple times. Vader may also roll an opposed Discipline vs. Discipline check against the target, if the check succeeds, the target suffers a Critical Injury, adding +10 to the roll per :forcepip: spent on the check."
-			},
-			{
-				"name": "Force Power: Sense",
-				"description": "Vader may spend :forcepip: to sense all living things within Medium range of himself (including animals and sentient beings), and spend :forcepip: to sense the current emotional state of one living target with whom he is Engaged. He may not activate either ability multiple times."
-			},
-			{
-				"name": "Force Power: Move",
-				"description": "The character may hurl objects by making a Move Force Power check and rolling a ranged attack as part of the pool. The attack’s difficulty is equal to the Silhouette of the object being thrown (default is Silhouette 0) and only succeeds if they can also spend enough :forcepip: to move the object. The attack deals damage equal to the Silhouette of the object times 10 (Silhouette 0 deals 5 damage) plus one per :success:. To throw multiple objects, they must generate enough :forcepip: to move multiple objects, and must use rules for Auto-Fire to determine difficulty and targeting. Vader may spend :forcepip: to increase the power’s range to Medium range or spend :forcepip: to increase the size of the object he can move to Silhouette 4."
-			}
-		],
-		"weapons": [
-			{
-				"name": "Custom lightsaber",
-				"skill": "Lightsaber",
-				"damage": 10,
-				"critical": 1,
-				"range": "Engaged",
-				"qualities": ["Breach 1", "Sunder", "Superior", "Vicious 2"]
-			}
-		],
-		"gear": ["Armoured robes (+2 Soak, +1 Defence)"],
-		"tags": ["book:dor", "empire", "inquisitor", "force sensitive", "darkside"]
 	},
 	{
 		"name": "Grand Inquisitor",
@@ -1614,7 +1554,7 @@
 			}
 		],
 		"gear": ["Robes of office", "Diplomatic comlink", "Secret encrypted comlink", "Datapad"],
-		"tags": ["book:dor", "rebel alliance", "senator"]
+		"tags": ["book:dor", "book:aaa", "rebel alliance", "senator"]
 	},
 	{
 		"name": "Ahsoka Tano",
@@ -1873,7 +1813,7 @@
 		],
 		"weapons": ["Arc welder"],
 		"gear": ["Emergency repair kit", "Encrypted comlink", "Goggles", "Tool kit", "Booster rocket (allows Chopper to fly, as per the rules in the Flying sidebars in Chapter VI: Conflict and Combat in the core rulebooks)"],
-		"tags": ["book:dor", "rebel alliance", "spectres", "species:droid"]
+		"tags": ["book:dor", "rebel alliance", "spectres", "species:Droid"]
 	},
 	{
 		"name": "Spectre 4: Garazeb “Zeb” Orrelios",
@@ -2383,7 +2323,7 @@
 	{
 		"name": "Hondo Ohnaka",
 		"type": "Nemesis",
-		"description": "",
+		"description": "The Weequay Hondo Ohnaka, former pirate king of the Ohnaka gang, has fallen far from his glory days during the CLone Wars. His considerable criminal enterprises were destroyed with the ride of the Galactic Empire, leaving Ohnaka operating as a free agent hoping to recover some of his former prestige. Without his sizable fleet and crew of Weequay pirates, Hondo has turned to smuggling, arms dealing and shipjacking to make ends meet. During the rise of the Rebellion, Ohnaka made alliances with everyone from a resistance group on Lothal to Ugnaught information brokers and even the Empire, pledging allegiance and betraying them each in turn in search of profits.\n\nWhite Hondo has gained valuable experiences during his time with pirates, criminals and Rebels, he hasn't changed much. He is still unpredictable, and his plans always take a turn for the chaotic. However, there is something in Hondo’s character that makes a betrayed partner forgive him quickly, and Hondo himself never holds a grudge against an . “old friend”.",
 		"notes": "",
 		"characteristics": {
 			"Brawn": 2,
@@ -2407,7 +2347,6 @@
 			"Knowledge: Underworld": 2,
 			"Leadership": 3,
 			"Melee": 1,
-			"Leadership": 2,
 			"Negotiation": 2,
 			"Perception": 1,
 			"Piloting: Space": 3,
@@ -2433,7 +2372,7 @@
 				"qualities": ["Stun Setting"]
 			}
 		],
-		"tags": ["book:dor", "pirate", "underworld", "species:Weequay"]
+		"tags": ["book:dor", "pirate", "underworld", "species:Weequay", "book:aaa"]
 	},
 	{
 		"name": "Ketsu Onyo",
@@ -2487,7 +2426,7 @@
 		"tags": ["underworld", "bounty hunter", "book:dor"]
 	},
 	{
-		"name": "Lando Calrissian",
+		"name": "Lando Calrissian (Dawn of Rebellion)",
 		"type": "Nemesis",
 		"description": "",
 		"characteristics": {

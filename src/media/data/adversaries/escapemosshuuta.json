@@ -289,7 +289,7 @@
 				"damage": 7,
 				"critical": 2,
 				"range": "Medium",
-				"qualities": ["Stun setting"]
+				"qualities": ["Stun Setting"]
 			}
 		],
 		"gear": ["Carapace armour (+2 Soak)"],
@@ -327,7 +327,7 @@
 				"damage": 9,
 				"critical": 2,
 				"range": "Long",
-				"qualities": ["Stun setting"]
+				"qualities": ["Stun Setting"]
 			}
 		],
 		"talents": [
@@ -367,6 +367,6 @@
 				"qualities": ["Pierce 2"]
 			}
 		],
-		"tags": ["adventure:Long Arm of the Hutt", "underworld", "thug", "location:Mos Shuuta", "species:Gamorrean", "security"]
+		"tags": ["adventure:Long Arm of the Hutt", "underworld", "thug", "location:Mos Shuuta", "species:Gamorrean", "security", "book:aaa"]
 	}
 ]

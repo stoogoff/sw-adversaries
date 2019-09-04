@@ -17,6 +17,7 @@
 		},
 		"skills": ["Brawl", "Coercion", "Melee", "Ranged: Light"],
 		"weapons": ["Blaster pistol", "Brass knuckles"],
-		"tags": ["underworld", "thug", "species:Whiphid", "adventure:Tatooine Manhunt"]
+		"tags": ["underworld", "thug", "species:Whiphid", "adventure:Tatooine Manhunt"],
+                "devOnly": true
 	}
 ]

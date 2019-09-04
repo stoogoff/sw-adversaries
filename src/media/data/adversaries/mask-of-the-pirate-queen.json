@@ -161,7 +161,7 @@
 				"range": "Engaged"
 				}
 			],
-		"tags": ["book:motpq", "book:ss", "creature", "adventure:Mask of the Pirate Queen", "location:Ord Mantell"]
+		"tags": ["book:motpq", "book:ss", "creature", "adventure:Mask of the Pirate Queen", "location:Ord Mantell", "book:aaa"]
 	},
 	{
 		"name": "Slaver Guard",
@@ -1472,7 +1472,7 @@
 			"qualities": ["Disorient 3", "Pierce 2"]
 			}
 		],
-		"gear": ["Armoured clothing (+1 defense, +1 Soak)"],
+		"gear": ["Armoured clothing (+1 defence, +1 Soak)"],
 		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "species:Savrip"]
 	},
 	{

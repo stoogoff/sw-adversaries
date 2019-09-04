@@ -78,7 +78,7 @@
 				"qualities": ["Pierce 2", "Knockdown"]
 			}
 		],
-		"tags": ["creature", "book:nop", "location:Lothal"]
+		"tags": ["creature", "book:nop", "location:Lothal", "book:aaa"]
 	},
 	{
 		"name": "Bloodfly",
@@ -169,7 +169,7 @@
 				"qualities": ["Disorient 1"]
 			}
 		],
-		"tags": ["creature", "book:nop", "location:Lothal"]
+		"tags": ["creature", "book:nop", "location:Lothal", "book:aaa"]
 	},
 	{
 		"name": "Asharl Panther",

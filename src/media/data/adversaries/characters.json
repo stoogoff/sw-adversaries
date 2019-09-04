@@ -547,7 +547,7 @@
 		"abilities": ["Tactical Direction", "Overwhelming Fire"],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Adverse environment gear (+1 Soak)", "Comlink", "Datapad"],
-		"tags": ["rebel alliance", "location:Echo Base", "location:Hoth"]
+		"tags": ["rebel alliance", "location:Echo Base", "location:Hoth", "book:sor"]
 	},
 	{
 		"name": "Domdees",

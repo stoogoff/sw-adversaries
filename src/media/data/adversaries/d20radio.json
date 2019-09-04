@@ -162,7 +162,7 @@
 		"tags": ["source:D20Radio.com", "empire", "imperial military", "stormtrooper"]
 	},
 	{
-		"name": "Stormtrooper: Range Trooper",
+		"name": "Stormtrooper: Range Trooper (d20radio)",
 		"type": "Minion",
 		"description": "Enforcers of the Emperor’s will on far flung frontier worlds, it is the range troopers of the Stormtrooper Corps that carve order from chaos on the ever expanding fringes of the Empire. Range troopers secure and patrol vast territories on uncivilized, icy worlds selected for imperial development. Although not special operations forces, range troopers screen candidates for mental toughness and physical resilience above the norm. These traits breed a strong collective identity and feeling of eliteness above regular stormtroopers.\n\nEquipped similarly to the cold assault stormtrooper, known to most as snowtroopers, range trooper armour integrates arctic survival gear and provides freedom of movement for long patrol routes. Unlike the offensively oriented snowtroopers, range troopers are equipped to conduct security patrols and sentry duties. Range troopers utilize a variety of overboot systems to enhance mobility, from simple skis and snowshoes to climbing cleats and magnetic boots. This ensures Imperial assets can be protected, whether over vast swaths of snow or on high-speed conveyex transports.\n\nRange troopers operate in small units on detached service, often with little contact or oversight by higher command. This isolation from the rest of the imperial military, and indeed galactic civilization, fosters a frontier spirit of cold determination. Range troopers strive to accomplish any mission assigned, but they do so their own way and prefer not to cooperate with other units they deem less capable.",
 		"source": {
@@ -1024,7 +1024,7 @@
 				"qualities": ["Pierce 3", "Superior", "Vicious 1"]
 			}
 		],
-		"gear": ["Custom crimson ISB uniform w/light breastplate and latigo belt & boots (armoured Clothing Soak 1/Defense 1), encrypted comlink"],
+		"gear": ["Custom crimson ISB uniform w/light breastplate and latigo belt & boots (armoured Clothing Soak 1/defence 1), encrypted comlink"],
 		"tags": ["source:D20Radio.com", "empire", "imperial security bureau"],
 		"devOnly": true
 	},
@@ -1064,7 +1064,7 @@
 					},
 					{
 					"name": "Overwhelm Defenses",
-					"description": "(Upon successful attack with a starship or vehicle weapon, may spend :advantage::advantage: per rank of Overwhelm Defenses to reduce the Defense in the targeted zone by 1 for each :advantage::advantage: spent"
+					"description": "(Upon successful attack with a starship or vehicle weapon, may spend :advantage::advantage: per rank of Overwhelm Defenses to reduce the defence in the targeted zone by 1 for each :advantage::advantage: spent"
 					}
 		],
 		"abilities": [
@@ -1083,7 +1083,7 @@
 				"qualities": ["Stun Setting", "Inaccurate 1"]
 			}
 		],
-		"gear": ["Armoured flightsuit (+1 soak/+1 defense), comlink, Bloodletter (modified Firespray patrol craft)"],
+		"gear": ["Armoured flightsuit (+1 soak/+1 defence), comlink, Bloodletter (modified Firespray patrol craft)"],
 		"tags": ["source:D20Radio.com", "binayre pirate", "pilot", "pirate"],
 		"devOnly": true
 	},
@@ -1500,7 +1500,7 @@
 				"qualities": ["Stun", "Forearm Grip", "Weapon Sling", "Quick Draw"]
 			}
 		],
-		"gear": ["Storm commando armour (+1 Soak, 1 Defense, reflec coating [upgrade Stealth checks once, sensors cannot detect the wearer subject to GM discretion], enhanced optics suite), Long range comlink, Utility belt, Extra reloads"],
+		"gear": ["Storm commando armour (+1 Soak, 1 defence, reflec coating [upgrade Stealth checks once, sensors cannot detect the wearer subject to GM discretion], enhanced optics suite), Long range comlink, Utility belt, Extra reloads"],
 		"tags": ["source:D20Radio.com", "empire", "imperial military", "stormtrooper"]
 	},
 	{
@@ -1552,7 +1552,7 @@
 				"qualities": ["Stun"]
 			}
 		],
-		"gear": ["Army officer armour (+1 Soak, +1 Defense), Long range comlink, Utility belt, Extra reloads"],
+		"gear": ["Army officer armour (+1 Soak, +1 defence), Long range comlink, Utility belt, Extra reloads"],
 		"tags": ["source:D20Radio.com", "empire", "imperial military"]
 	},
 	{
@@ -1866,7 +1866,7 @@
 		"abilities": [
 			{
 				"name": "Counter-Jedi Tactics",
-				"description": "Upgrade the difficulty of any checks targeting this character’s mind using Force powers once, add 1 to this character’s defense against lightsaber attacks."
+				"description": "Upgrade the difficulty of any checks targeting this character’s mind using Force powers once, add 1 to this character’s defence against lightsaber attacks."
 			}
 		],
 		"weapons": [ "Heavy blaster pistol",
@@ -2226,8 +2226,8 @@
 				"qualities": ["Breach 1", "Superior"]
 			}
 		],
-		"gear": ["Built-in armour plating (+2 Soak, +1 Defense; Cortosis)"],
-		"tags": ["source:D20Radio.com", "species:droid", "krath"],
+		"gear": ["Built-in armour plating (+2 Soak, +1 defence; Cortosis)"],
+		"tags": ["source:D20Radio.com", "species:Droid", "krath"],
 		"devOnly": true
 	},
 	{
@@ -2350,7 +2350,7 @@
 			}
 		],
 		"gear": ["Ornate armoured plating (+1 soak)."],
-		"tags": ["source:D20Radio.com", "species:droid", "krath"],
+		"tags": ["source:D20Radio.com", "species:Droid", "krath"],
 		"devOnly": true
 	},
 	{
@@ -2439,7 +2439,7 @@
 			}
 		],
 		"gear": ["Woven reed armour (+1 Soak, +1 Ranged Defence)"],
-		"tags": ["source:D20Radio.com", "location:mimban"]
+		"tags": ["source:D20Radio.com", "location:Mimban"]
 	},
 	{
 		"name": "Mimbanese Resistance Sniper",
@@ -2492,7 +2492,7 @@
 			}
 		],
 		"gear": ["Woven reed armour (+1 Soak, +1 Ranged Defence)", "Macrobinoculars"],
-		"tags": ["source:D20Radio.com", "location:mimban"]
+		"tags": ["source:D20Radio.com", "location:Mimban"]
 	},
 	{
 		"name": "Hired Gun",
@@ -2702,7 +2702,7 @@
 				"qualities": ["Pierce 3", "Poison"]
 			}
 		],
-		"gear": ["Armoured  clothing  (+1  soak/+1  defense), Demon mask (bonuses included; FaD, 190)."],
+		"gear": ["Armoured  clothing  (+1  soak/+1  defence), Demon mask (bonuses included; FaD, 190)."],
 		"tags": ["source:D20Radio.com", "force sensitive", "bando gora"],
 		"devOnly": true
 	},
@@ -3287,7 +3287,7 @@
 				"qualities": ["Stun Damage"]
 				}
 			],
-		"gear": ["Banal Apparel (Opposing characters upgrade the difficulty of any checks made to identify the wearer once)", "Second Skin Armour (+1 Soak/+1 Defense; +2 Setback to Perception checks to notice on the wearer)"],
+		"gear": ["Banal Apparel (Opposing characters upgrade the difficulty of any checks made to identify the wearer once)", "Second Skin Armour (+1 Soak/+1 defence; +2 Setback to Perception checks to notice on the wearer)"],
 		"tags": ["species:Bothan","source:D20Radio.com"],
 		"devOnly": true
 	},
@@ -3469,7 +3469,7 @@
 			},
 			{
 				"name": "Shatter Defenses",
-				"description": "Lightsaber or Melee attacks made by Sith Juggernauts ignore up to 2 points of Melee Defense."
+				"description": "Lightsaber or Melee attacks made by Sith Juggernauts ignore up to 2 points of Melee defence."
 			}
 		],
 		"weapons": [
@@ -3769,5 +3769,235 @@
 		"gear": ["Armored clothing (+1 Soak, +1 Defence), Encrypted comlink, 4 Detonite charges (Damage 15 [+10])."],
 		"tags": ["source:D20Radio.com", "bounty hunter", "adventure:Tatooine Manhunt", "species:Lasat"],
 		"devOnly": true
+	},
+	{
+		"name": "HK-series Assassin Droid",
+		"type": "Nemesis",
+		"description": "Produced by the infamous Czerka Corporation, HK-series Assassin Droids were ruthless killers programmed for unmatched lethality. Despite their sinister appearance and psychopathic behavioral programming, HK-series droids are capable of serving as protocol droids. This allows the droid a degree of plausible deniability. This protocol capability allows the HK-series droid to infiltrate by hiding in plain sight. Once in position, the droids activate their higher level assassination protocols and eliminate their targets with maximum prejudice.",
+		"source": {
+			"owner": "Chris Hunt",
+			"url": "http://www.d20radio.com/main/holonet-uplink-hk-series-assassin-droid/"
+		},
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 35,
+			"strain": 20,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Charm": 1,
+			"Cool": 4,
+			"Coercion": 3,
+			"Computers": 3,
+			"Deception": 3,
+			"Gunnery": 5,
+			"Knowledge: Education": 1,
+			"Mechanics": 3,
+			"Melee": 2,
+			"Ranged: Heavy": 5,
+			"Ranged: Light": 5,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 3", "Barrage 2", "Plausible Deniability 2", "Point Blank 2", "Soft Spot"],
+		"abilities": ["Droid",
+			{
+			"name": "Assassination Protocols",
+			"description": "Shift between Assassination Protocol levels once per round as an Action."
+			},
+			{
+			"name": "Multiple Combat Turns",
+			"description": "If facing four or more PCs alone, this character takes one additional turn at the end of the round."
+			},
+			{
+			"name": "Decativated Assassination Protocols",
+			"description": "Standard stat block."
+			},
+			{
+			"name": "Assassination Protocols Level I",
+			"description": "Remove all ranks of Plausible Deniability, add True Aim 1."
+			},
+			{
+			"name": "Assassination Protocols Level II",
+			"description": "Remove all ranks of Plausible Deniability, remove all ranks of Deception, add True Aim 2."
+			}
+		],
+		"weapons": ["Light repeating blaster", "Frag grenade",
+			{
+				"name": "Wrist-integrated flame projector",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Burn 3", "Blast 6"]
+			}
+		],
+		"gear": ["2 Frag grenades"],
+		"tags": ["source:D20Radio.com", "species:Droid", "assassin"]
+	},
+	{
+		"name": "HK-series Assassin Droid pacifist package",
+		"type": "Nemesis",
+		"description": "Produced by the infamous Czerka Corporation, HK-series Assassin Droids were ruthless killers programmed for unmatched lethality. Despite their sinister appearance and psychopathic behavioral programming, HK-series droids are capable of serving as protocol droids. This allows the droid a degree of plausible deniability. This protocol capability allows the HK-series droid to infiltrate by hiding in plain sight. Once in position, the droids activate their higher level assassination protocols and eliminate their targets with maximum prejudice.",
+		"source": {
+			"owner": "Chris Hunt",
+			"url": "http://www.d20radio.com/main/holonet-uplink-hk-series-assassin-droid/"
+		},
+		"notes": "Installing the Protocol Pacifist Package requires an :easy: Mechanics Check. Replace the HK-series Assassin Droid’s Skills, Talents, and Abilities with the following:",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 35,
+			"strain": 20,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 2,
+			"Computers": 3,
+			"Knowledge: Education": 1,
+			"Mechanics": 3,
+			"Negotiation": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 3", "Kill with Kindness 2", "Just Kidding"],
+		"abilities": ["Droid"],
+		"tags": ["source:D20Radio.com", "species:Droid"]
+	},
+	{
+		"name": "Morgan Artumar, Jedi Hunter",
+		"type": "Nemesis",
+		"description": "For as long as the Order have existed there have been beings dedicated to perfecting the skills needed to eliminate Jedi. For some, seeking out and killing Jedi is a traditional role of a culture’s warrior caste. Others may be motivated by revenge. Morgan Artumar hunts Jedi because in his mind they are the most dangerous game in the galaxy. Born on Onderon, Artumar served as a local guide for Separatist forces occupying his world. Once the it was clear the Separatists would be forced off the planet he left with the droid army rather than face imprisonment in Iziz’s dungeons for his treason. Knowing well that it was the Jedi Order’s assistance that turned the tide in the battle for Onderon, Artumar became obsessed with learning the tactics and weaknesses of the Jedi.\n\nThroughout the Clone Wars, Artumar rose in prominence within the Separatists, coordinating and even personally conducting successful anti-Jedi operations behind enemy lines. He developed tactics to strike Jedi quickly and at extreme range, mitigating their superior defenses and perception. Even if the Jedi deflected his shots, his quickly shifting points of aim could unbalance all but the most skilled saberist. He selected specialized slugthrowers and sonic pistols to prevent lightsaber reflection, and requisitioned droids to be fitted with area weapons such as flamethrowers in case of close encounters. Artumar’s kill count rose alongside his reputation within the Confederacy of Independent Systems. He escaped prosecution at the end of the Clone Wars, quietly slipping into the Outer Rim. With the declaration of a New Order and a bounty on Jedi survivors, Artumar once again raises his rifle in the most dangerous hunt.",
+		"source": {
+			"owner": "Chris Hunt",
+			"url": "http://www.d20radio.com/main/holonet-uplink-jedi-hunters/"
+		},
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 5,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 18,
+			"strain": 18,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Cool": 3,
+			"Deception": 2,
+			"Discipline": 2,
+			"Knowledge: Lore": 1,
+			"Mechanics": 2,
+			"Melee": 2,
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Ranged: Heavy": 3,
+			"Stealth": 3,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Anatomy Lessons", "Adversary 3", "Quick Strike 2", "True Aim 2"],
+		"abilities": [
+			{
+				"name": "Multiple Combat Turns",
+				"description": "Takes one additional turn at the end of the round if there are 4 or more PC's."
+			},
+			{
+				"name": "Play Pazaak",
+				"description": "Upgrade difficulty of all attempts to influence the Jedi Hunter’s mind using the Force twice."
+			},
+			{
+				"name": "Unbalancing Aim",
+				"description": "Characters who use the Reflect talent against the Jedi Hunter’s attacks must suffer 2 additional strain."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Model 38 sharpshooter’s rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 3,
+				"range": "Extreme",
+				"qualities": ["Accurate 2", "Pierce 3"]
+			},
+			{
+				"name": "Heavy sonic pistol with grapnel launcher",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Stun"],
+				"notes": "may not be redirected using Improved Reflect, see pg. 56 of Special Modifications for grapnel rules"
+			}
+		],
+		"gear": ["armored clothing (+1 soak, +1 defence)", "Load bearing equipment"],
+		"tags": ["source:D20Radio.com"]
+	},
+	{
+		"name": "CN-DR, Jedi Hunter’s Droid",
+		"type": "Rival",
+		"description": "A mashup of scrap parts from Separatist salvage yards, this droid’s junky appearance hides a deadly and cruel machine. CN-DR, or “Cinder,” is a conglomeration of parts from at least a Super Tactical Droid, MagnaGuard, and a BX-series commando droid. Hidden beneath this mechanical chimera of components are high-output servomotors and a phrik armor lattice which turns the droid into a powerful combatant. While Cinder’s master engages Jedi from the further range possible, this droid is meant to fight up close. The elegance of a lightsaber has little to offer in response to a flame projector. Artumar employs his droid differently depending on the psychology of his traget. Against Jedi on the run, Cinder lies in wait to pin the fugitive with electronets or suppressible flame bursts. Artumar keeps his droid closer at hand against more aggressive Jedi, relying on the phrik-armored bulk Cinder presents as his shield. As expensive and time consuming it was for Artumar to construct Cinder, his years of working with the Separatists has hardened the Jedi Hunter against affection for droids. As such, Artumar will readily sacrifice Cinder for his own safety.",
+		"source": {
+			"owner": "Chris Hunt",
+			"url": "http://www.d20radio.com/main/holonet-uplink-jedi-hunters/"
+		},
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 20,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Melee": 3,
+			"Perception": 3,
+			"Ranged: Heavy": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1", "Body Guard", "Quick Draw"],
+		"weapons": [
+			{
+				"name": "Flame projector",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Burn 3", "Blast 8"]
+			},
+			{
+				"name": "Electronet",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": ["Ensnare 5", "Knockdown", "Limited Ammo 1", "Stun Damage"]
+			}
+		],
+		"gear": ["Combat plating (+2 soak, +1 defence, cortosis)"],
+		"tags": ["source:D20Radio.com", "species:Droid"]
 	}
 ]
