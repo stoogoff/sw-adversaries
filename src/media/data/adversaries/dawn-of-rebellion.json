@@ -36,7 +36,7 @@
 		"abilities": [
 			{
 				"name": "Take Charge",
-				"description": "When making a skill check, Princess Leia may spend :advantage::advantage: to let one ally within Medium range immediately perform a maneuver as an out of turn incidental. She may spend :triumph: to let all allies within Medium range perform a maneuver as an out of turn incidental instead."
+				"description": "When making a skill check, Princess Leia may spend :advantage::advantage: to let one ally within Medium range immediately perform a maneuver as an out-of-turn Incidental. She may spend :triumph: to let all allies within Medium range perform a maneuver as an out-of-turn Incidental instead."
 			}
 		],
 		"weapons": ["Light blaster pistol"],
@@ -102,7 +102,7 @@
 			},
 			{
 				"name": "Empathic Aggression",
-				"description": "Krykna ignore targets who make an :average: Discipline check as an out of turn incidental and thus control their fear and aggression; upgrade the difficulty of the check for recently generated Conflict, displays of hostility and aggression, or related negative emotional states."
+				"description": "Krykna ignore targets who make an :average: Discipline check as an out-of-turn Incidental and thus control their fear and aggression; upgrade the difficulty of the check for recently generated Conflict, displays of hostility and aggression, or related negative emotional states."
 			}
 		],
 		"weapons": [
@@ -456,7 +456,7 @@
 		"abilities": [
 			{
 				"name": "Platoon Leader",
-				"description": "May spend a maneuver to allow one minion group of Death Star troopers within Medium range to make an immediate maneuver as an out of turn incidental or allow the group to add :boost: to their next skill check."
+				"description": "May spend a maneuver to allow one minion group of Death Star troopers within Medium range to make an immediate maneuver as an out-of-turn Incidental or allow the group to add :boost: to their next skill check."
 			}
 		],
 		"weapons": ["Heavy blaster pistol"],
@@ -979,7 +979,7 @@
 		"abilities": [
 			{
 				"name": "Commanding Presence",
-				"description": "At the beginning of an encounter with Tarkin, each enemy and ally within Medium range or in communication with him makes a :hard: Discipline check as an out of turn incidental. Allies who add automatic :advantage: to any skill checks they make until the end of the encounter. If they succeed with :triumph:, they add automatic :success: instead. Enemies who fail add automatic :threat: to skill checks until the end of the encounter, if they fail with :despair:, they add automatic :failure: instead."
+				"description": "At the beginning of an encounter with Tarkin, each enemy and ally within Medium range or in communication with him makes a :hard: Discipline check as an out-of-turn Incidental. Allies who add automatic :advantage: to any skill checks they make until the end of the encounter. If they succeed with :triumph:, they add automatic :success: instead. Enemies who fail add automatic :threat: to skill checks until the end of the encounter, if they fail with :despair:, they add automatic :failure: instead."
 			}
 		],
 		"gear": ["Imperial Moff’s uniform (+1 Soak)", "Encrypted comlink", "Code cylinders"],
@@ -1654,7 +1654,7 @@
 		"abilities": [
 				{
 					"name": "Evasive Action",
-					"description": "As an action, Sato may make a :hard: Leadership check; for every :success:, a Silhouette 4 or smaller allied starship or vehicle within Medium range may immediately perform the Evasive Maneuvers maneuver as an out of turn incidental without suffering Strain or System Strain; a Silhouette 5 or larger ship may take an immediate maneuver; on a :triumph:, the check applies to all allied ships within Medium range."
+					"description": "As an action, Sato may make a :hard: Leadership check; for every :success:, a Silhouette 4 or smaller allied starship or vehicle within Medium range may immediately perform the Evasive Maneuvers maneuver as an out-of-turn Incidental without suffering Strain or System Strain; a Silhouette 5 or larger ship may take an immediate maneuver; on a :triumph:, the check applies to all allied ships within Medium range."
 					}
 				],
 		"weapons": ["Blaster Pistol"],
