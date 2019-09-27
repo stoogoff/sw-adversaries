@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Detention Centre Guard",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": ["Coercion", "Discipline", "Melee", "Ranged: Light", "Vigilance"],
+		"weapons": ["Blaster pistol", "Stun baton"],
+		"gear": ["Guard uniform and helmet (+1 Soak)", "Imperial ID"],
+		"tags": ["empire", "imperial military", "book:ragp", "adventure:Rescue at Glare Peak"]
+	}
+]
