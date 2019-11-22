@@ -82,6 +82,16 @@ export default class Character extends React.Component {
 		dispatcher.dispatch(CONFIG.FAVOURITE_REMOVE, character.id);
 	}
 
+	copyAdversary(id) {
+		let character = this.props.character;
+
+		if(!character) {
+			return;
+		}
+
+		dispatcher.dispatch(CONFIG.ADVERSARY_COPY, character.id);
+	}
+
 	render() {
 		let character = this.props.character;
 
@@ -157,6 +167,7 @@ export default class Character extends React.Component {
 			<h1 data-adversary-type={ character.type } className={ character.devOnly ? "dev" : ""}>{ icon } { character.name }</h1>
 			<h2 className="subtitle">
 				<span className={ character.type.toLowerCase() }>{ character.type }</span>
+				<svg onClick={ this.copyAdversary.bind(this) }><use xlinkHref="#icon-edit"></use></svg>
 				{ fav }
 			</h2>
 			<TextPanel text={ character.description } />

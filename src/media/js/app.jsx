@@ -5,6 +5,7 @@ import DataStore from "lib/data-store";
 import dispatcher from "lib/dispatcher";
 import Tab from "lib/tab";
 import Character from "components/character";
+import EditCharacter from "components/edit-character";
 import LinkList from "components/link-list";
 import Filter from "components/filter";
 import Loader from "components/loader";
@@ -27,7 +28,9 @@ class App extends React.Component {
 			tags: [],
 			isLoaded: false,
 			menuOpen: false,
-			showAbout: false
+			showAbout: false,
+			editMode: false,
+			editAdversary: null
 		};
 		this.events = {};
 		this.stores = {};
@@ -219,6 +222,17 @@ class App extends React.Component {
 				this.selectAdversary(adversary);
 			}
 		});
+		dispatcher.register(CONFIG.ADVERSARY_ADD, () => {
+			this.setState({ editMode: true, editAdversary: {} });
+		});
+		dispatcher.register(CONFIG.ADVERSARY_COPY, id => {
+			// make a clone of the character for editing purposes
+			let adversary = JSON.parse(JSON.stringify(this.stores.adversaries.findBy("id", id)));
+
+console.log(adversary)
+
+			this.setState({ editMode: true, editAdversary: adversary });
+		});
 	}
 
 	toggleMenu() {
@@ -267,6 +281,13 @@ class App extends React.Component {
 			</div>
 			: null;
 
+		let content = this.state.editMode
+			? <EditCharacter character={ this.state.editAdversary } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } />
+			: <div>
+				{ this.state.selected.map((selected, index) => <Character key={ index } character={ selected.character } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } visible={ index == this.state.selectedIndex } />)}
+				<Tabs tabs={ this.state.selected } selectedIndex={ this.state.selectedIndex } />
+			</div>;
+
 		return <div>
 			{ overlay }
 			<div id="mobile-menu">
@@ -282,10 +303,7 @@ class App extends React.Component {
 			<div id="content" className="column large">
 				{ !this.state.isLoaded
 					? <Loader />
-					: <div>
-						{ this.state.selected.map((selected, index) => <Character key={ index } character={ selected.character } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } visible={ index == this.state.selectedIndex } />)}
-						<Tabs tabs={ this.state.selected } selectedIndex={ this.state.selectedIndex } />
-					</div>
+					: content
 				}
 			</div>
 			<div id="built-by"><span className="link" onClick={ this.toggleAbout.bind(this) }>About</span> | <a href="https://github.com/stoogoff/sw-adversaries">Source</a></div>

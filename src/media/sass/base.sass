@@ -96,6 +96,23 @@ th, td
 td
 	padding: 0.3em
 
+input[type="text"], select
+	display: block
+	box-sizing: border-box
+	width: 100%
+	color: $heading
+	font-size: 1.1em
+	padding: 0.2em 0.5em
+	background-color: white
+	border: 1px solid darken($link, 20%)
+	border-radius: 0.2em
+	@include hover()
+
+	&:focus
+		outline: 2px solid rgba($link, 0.5)
+		border-color: $link
+		@include shadow-input($font, $link)
+
 .text-right
 	text-align: right
 

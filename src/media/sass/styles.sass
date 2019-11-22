@@ -55,6 +55,7 @@ h2.subtitle
 		margin-left: 1em
 		margin-right: 1em
 
+
 // LAYOUT
 #built-by
 	font-size: 0.8em
@@ -65,22 +66,6 @@ h2.subtitle
 .filter
 	margin: 2em 1em 0
 	position: relative
-
-	input[type="text"]
-		box-sizing: border-box
-		width: 100%
-		color: $heading
-		font-size: 1.1em
-		padding: 0.2em 0.5em
-		background-color: white
-		border: 1px solid darken($link, 20%)
-		border-radius: 0.2em
-		@include hover()
-
-		&:focus
-			outline: 2px solid rgba($link, 0.5)
-			border-color: $link
-			@include shadow-input($font, $link)
 
 	#clear
 		position: absolute
@@ -388,6 +373,7 @@ h2.subtitle
 	input[type="text"]
 		box-sizing: border-box
 		display: inline-block
+		border-radius: 0
 		border-width: 0
 		border-bottom: 2px solid $derived
 		font-size: 2em
@@ -449,6 +435,66 @@ h2.subtitle
 	svg
 		position: relative
 		top: 0.1em
+
+
+// EDIT MODE
+#edit
+	.input-row
+		position: relative
+		margin: 0 1rem 1em
+
+		label
+			display: inline-block
+			width: 60%
+			margin-bottom: 0.2em
+
+		svg
+			float: right
+
+			&.delete
+				color: $stat
+
+	.input-select svg
+		position: absolute
+		right: 0.5em
+		bottom: 0.5em
+
+	.edit-panel
+		padding-left: 1rem
+		padding-right: 1rem
+
+		.input-row
+			border-bottom: 1px solid lighten($heading, 30%)
+			margin: 0 0 0.1em
+
+			&:nth-child(odd)
+				background-color: white
+
+		input[type="text"]
+			display: inline-block
+			width: 40%
+			border-width: 0 0 1px
+			border-radius: 0
+			background-color: rgb(245,245,245)
+			text-align: right
+
+	.edit-list
+		.input-row
+			padding: 0.2em 0
+
+		.btn
+			display: block
+			width: 100%
+			box-sizing: border-box
+			font-size: 1.1em
+			padding: 0.2em
+			margin: 0.5em 0
+			background-color: lighten($link, 20%)
+			font-weight: bold
+			color: white
+
+			&:hover
+				background-color: $link
 
 
 // OVERLAY
@@ -529,6 +575,9 @@ h2.subtitle
 
 
 @media screen and (min-width: $screen-large)
+	#edit .input-select svg
+		display: none
+
 	h1
 		display: inline-block
 		border-radius: 0 3rem 3rem 0

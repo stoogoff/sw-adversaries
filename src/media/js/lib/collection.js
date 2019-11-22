@@ -76,6 +76,10 @@ export default class Collection extends Emitter {
 		return this.data;
 	}
 
+	map(func) {
+		return this.data.map(func);
+	}
+
 	get(index) {
 		return index >= 0 && index < this.data.length ? this.data[index] : null;
 	}
