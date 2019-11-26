@@ -13,7 +13,7 @@ export default class InputText extends React.Component {
 		let inputId = "input_" + id(this.props.text);
 
 		return <div className="input-row">
-			<label htmlFor={ inputId }>{ this.props.text }:</label>
+			<label htmlFor={ inputId }>{ this.props.text }</label>
 			<input id={ inputId } type="text" defaultValue={ this.props.value } onChange={ this.handleChange.bind(this) } />
 		</div>;
 	}

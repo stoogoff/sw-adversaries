@@ -73,6 +73,15 @@ gulp.task("merge-data", function() {
 				});
 			}
 
+			// add the source of the talent as the type, so the UI can distinguish between talents, gifts and force powers
+			if(m == "talents") {
+				Object.keys(data).forEach(function(k) {
+					data[k].forEach(function(o) {
+						o.type = k;
+					});
+				});
+			}
+
 			var output = [];
 
 			for(var i in data) {
@@ -91,7 +100,7 @@ gulp.task("merge-data", function() {
 				});
 			}
 
-			if(!isDev && m == "talents") {
+			if(m == "talents") {
 				output = output.filter(function(t) {
 					return t.description != "";
 				});

@@ -227,9 +227,7 @@ class App extends React.Component {
 		});
 		dispatcher.register(CONFIG.ADVERSARY_COPY, id => {
 			// make a clone of the character for editing purposes
-			let adversary = JSON.parse(JSON.stringify(this.stores.adversaries.findBy("id", id)));
-
-console.log(adversary)
+			let adversary = this.stores.adversaries.findBy("id", id);
 
 			this.setState({ editMode: true, editAdversary: adversary });
 		});
