@@ -4,7 +4,7 @@ import dispatcher from "lib/dispatcher";
 import { book } from "lib/utils";
 import * as CONFIG from "lib/config";
 
-export default class TagPanel extends React.Component {
+export default class PanelTag extends React.Component {
 	handler(evt) {
 		dispatcher.dispatch(CONFIG.MENU_FILTER, evt.target.getAttribute("data-href").toLowerCase());
 	}

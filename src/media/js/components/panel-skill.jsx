@@ -2,7 +2,7 @@
 import React from "react";
 import { dice, minionSkill } from "lib/utils";
 
-export default class SkillPanel extends React.Component {
+export default class PanelSkill extends React.Component {
 	constructor(props) {
 		super(props);
 

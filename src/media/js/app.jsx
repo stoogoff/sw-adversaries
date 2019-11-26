@@ -4,8 +4,8 @@ import ReactDOM from "react-dom";
 import DataStore from "lib/data-store";
 import dispatcher from "lib/dispatcher";
 import Tab from "lib/tab";
-import Character from "components/character";
-import EditCharacter from "components/edit-character";
+import CharacterView from "components/character-view";
+import CharacterEdit from "components/character-edit";
 import LinkList from "components/link-list";
 import Filter from "components/filter";
 import Loader from "components/loader";
@@ -231,6 +231,23 @@ class App extends React.Component {
 
 			this.setState({ editMode: true, editAdversary: adversary });
 		});
+		dispatcher.register(CONFIG.ADVERSARY_SAVE, adversary => {
+			console.log("Saving...", adversary)
+
+			// add a tag such as mine
+			adversary.tags.push("mine");
+			// save it to localhost
+			// replace it or add it to the list of adversaries
+
+			// replace the edited item with this item
+			let index = this.state.selectedIndex;
+			let tab = this.state.selected[index];
+
+			tab.character = adversary;
+
+
+			this.setState({ editMode: false, editAdversary: null });
+		});
 	}
 
 	toggleMenu() {
@@ -280,9 +297,9 @@ class App extends React.Component {
 			: null;
 
 		let content = this.state.editMode
-			? <EditCharacter character={ this.state.editAdversary } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } />
+			? <CharacterEdit character={ this.state.editAdversary } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } />
 			: <div>
-				{ this.state.selected.map((selected, index) => <Character key={ index } character={ selected.character } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } visible={ index == this.state.selectedIndex } />)}
+				{ this.state.selected.map((selected, index) => <CharacterView key={ index } character={ selected.character } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } visible={ index == this.state.selectedIndex } />)}
 				<Tabs tabs={ this.state.selected } selectedIndex={ this.state.selectedIndex } />
 			</div>;
 

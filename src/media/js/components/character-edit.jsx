@@ -2,14 +2,16 @@
 import React from "react";
 import InputText from "./input-text";
 import InputSelect from "./input-select";
-import PanelEditList from "./panel-edit-list";
+import PanelListEdit from "./panel-list-edit";
+import PanelTalentEdit from "./panel-talent-edit";
 
 import dispatcher from "lib/dispatcher";
 import * as CONFIG from "lib/config";
+import { sortByProperty } from "lib/utils";
 
 
 
-export default class EditCharacter extends React.Component {
+export default class CharacterEdit extends React.Component {
 	constructor(props) {
 		super(props);
 
@@ -31,11 +33,10 @@ export default class EditCharacter extends React.Component {
 
 		let editingCharacter = Object.assign({}, baseCharacter, props.character);
 
-		editingCharacter.derived.defence = ["", ""];
+		editingCharacter.derived.defence = [0, 0];
 
 		this.state = {
-			character: editingCharacter,
-			talent: null
+			character: editingCharacter
 		};
 	}
 
@@ -48,8 +49,8 @@ export default class EditCharacter extends React.Component {
 		}
 	}*/
 
-	test() {
-		console.log(this.state.character)
+	save() {
+		dispatcher.dispatch(CONFIG.ADVERSARY_SAVE, this.state.character);
 	}
 
 	setType(newType) {
@@ -62,25 +63,17 @@ export default class EditCharacter extends React.Component {
 		});
 	}
 
-	addTalent(name) {
-		let talent = this.props.talents.findBy("name", name);
+	// add an item to a list
+	addHandler(attr) {
+		return function(item) {
+			let character = this.state.character;
 
-		this.setState({
-			talent: talent
-		});
-	}
+			character[attr].push(item);
 
-	saveTalent() {
-		let character = this.state.character;
-
-		// TODO add ranks
-		// TODO hide form in middle component
-		character.talents.push(this.state.talent);
-
-		this.setState({
-			character: character,
-			talent: null
-		});
+			this.setState({
+				character: character
+			});
+		};
 	}
 
 	// remove an item from a list of properties
@@ -131,9 +124,13 @@ console.log(character)
 			*/
 
 		let types = ["Minion", "Rival", "Nemesis"];
-		let talents = this.props.talents.filter(t => t.type == "talents");
-		let abilities = this.props.talents.filter(t => t.type == "abilities");
+		let [talents, abilities] = ["talents", "abilities"].map(key => {
+			// remove rank from the end of the name
+			let noRanks = character[key].map(t => t.name || t).map(t => t.replace(/\s\d+$/, ""));
 
+			return this.props.talents.filter(t => t.type == key).filter(t => noRanks.indexOf(t.name) == -1).sort(sortByProperty("name"));
+		});
+		let weapons = this.props.weapons.all().sort(sortByProperty("name"));
 
 		return <div id="edit">
 			<h1>Character</h1>
@@ -160,30 +157,17 @@ console.log(character)
 				{ skills.map(s => <InputText text={ s.name } value={ character.skills[s.name] } handler={ (text) => character.skills[s.name] = parseInt(text) } />) }
 			</div>
 
-			<PanelEditList title="Weapons" list={ character.weapons } remove={ this.removeHandler("weapons").bind(this) }>
-				<div>ADD WEAPON</div>
-			</PanelEditList>
-			<PanelEditList title="Talents" list={ character.talents } remove={ this.removeHandler("talents").bind(this) }>
-				<div>
-					<h3>Add Talent</h3>
-					<InputSelect text="Talent" values={ talents.map(t => t.name) } handler={ this.addTalent.bind(this) } />
-					{ this.state.talent
-						? <div>
-							{ this.state.talent.ranked ? <InputText text="Rank" /> : null }
-							<button className="btn" onClick={ this.saveTalent.bind(this) }>Save Talent</button>
-						</div>
-						: null
-					}
-				</div>
-			</PanelEditList>
-			<PanelEditList title="Abilities" list={ character.abilities } remove={ this.removeHandler("abilities").bind(this) }>
-				<div>ADD ABILITY</div>
-			</PanelEditList>
-
-
-
+			<PanelListEdit title="Weapons" list={ character.weapons } remove={ this.removeHandler("weapons").bind(this) }>
+				<PanelTalentEdit list={ weapons } title="Add Weapon" label="Weapons" handler={ this.addHandler("weapons").bind(this) } />
+			</PanelListEdit>
+			<PanelListEdit title="Talents" list={ character.talents } remove={ this.removeHandler("talents").bind(this) }>
+				<PanelTalentEdit list={ talents } title="Add Talent" label="Talents" handler={ this.addHandler("talents").bind(this) } />
+			</PanelListEdit>
+			<PanelListEdit title="Abilities" list={ character.abilities } remove={ this.removeHandler("abilities").bind(this) }>
+				<PanelTalentEdit list={ abilities } title="Add Ability" label="Abilities" handler={ this.addHandler("abilities").bind(this) } />
+			</PanelListEdit>
 			
-			<button className="btn" onClick={ this.test.bind(this) }>Save</button>
+			<button className="btn" onClick={ this.save.bind(this) }>Save</button>
 		</div>;
 	}
 }

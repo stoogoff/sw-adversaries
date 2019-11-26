@@ -13,5 +13,6 @@ export const FAVOURITE_KEY = "starred:";
 export const FAVOURITE_TAG = "starred";
 export const ADVERSARY_COPY = "adversary-copy";
 export const ADVERSARY_ADD = "adversary-add";
+export const ADVERSARY_SAVE = "adversary-save";
 
 export const COLOURS = ["blue", "green", "yellow", "orange", "red", "purple", "gray", "black"];

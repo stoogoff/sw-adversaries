@@ -45,7 +45,7 @@ function getWeaponDetails(weapon, character, allSkills, aliveMinions) {
 	return weapon;
 }
 
-export default class WeaponsPanel extends React.Component {
+export default class PanelWeapons extends React.Component {
 	constructor(props) {
 		super(props);
 

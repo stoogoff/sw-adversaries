@@ -1,17 +1,17 @@
 
 import React from "react";
 import Remarkable from "remarkable";
-import InfoPanel from "./info-panel";
-import SkillPanel from "./skill-panel";
-import TextPanel from "./text-panel";
-import WeaponsPanel from "./weapons-panel";
-import TalentPanel from "./talent-panel";
-import TagPanel from "./tag-panel";
+import PanelInfo from "./panel-info";
+import PanelSkill from "./panel-skill";
+import PanelText from "./panel-text";
+import PanelWeapons from "./panel-weapons";
+import PanelTalent from "./panel-talent";
+import PanelTag from "./panel-tag";
 import { symbolise, getSourceLink } from "../lib/utils";
 import dispatcher from "lib/dispatcher";
 import * as CONFIG from "lib/config";
 
-export default class Character extends React.Component {
+export default class CharacterView extends React.Component {
 	constructor(props) {
 		super(props);
 
@@ -170,7 +170,7 @@ export default class Character extends React.Component {
 				<svg onClick={ this.copyAdversary.bind(this) }><use xlinkHref="#icon-edit"></use></svg>
 				{ fav }
 			</h2>
-			<TextPanel text={ character.description } />
+			<PanelText text={ character.description } />
 			{ character.notes ? <div className="text" dangerouslySetInnerHTML={ symbolise(this.md.render(`*${character.notes}*`)) }></div> : null }
 			{ source ? <div className="text" dangerouslySetInnerHTML={ { __html: source } }></div> : null }
 			<div className="column small">
@@ -197,12 +197,12 @@ export default class Character extends React.Component {
 				</div>
 			</div>
 			<div className="column large">
-				<SkillPanel character={ character } skills={ this.props.skills } aliveMinions={ this.state.aliveMinions } minions={ this.state.minions } setMinions={ this.setMinions.bind(this) } />
-				<WeaponsPanel title="Weapons" character={ character } skills={ this.props.skills } weapons={ this.props.weapons } qualities={ this.props.qualities } talents={ this.props.talents } aliveMinions={ this.state.aliveMinions } minions={ this.state.minions } />
-				<TalentPanel title="Talents" stats={ stats } data={ character.talents } talents={ this.props.talents } />
-				<TalentPanel title="Abilities" stats={ stats } data={ character.abilities } talents={ this.props.talents } />
-				<InfoPanel title="Gear" data={ character.gear } />
-				<TagPanel title="Tags" data={ character.tags } />
+				<PanelSkill character={ character } skills={ this.props.skills } aliveMinions={ this.state.aliveMinions } minions={ this.state.minions } setMinions={ this.setMinions.bind(this) } />
+				<PanelWeapons title="Weapons" character={ character } skills={ this.props.skills } weapons={ this.props.weapons } qualities={ this.props.qualities } talents={ this.props.talents } aliveMinions={ this.state.aliveMinions } minions={ this.state.minions } />
+				<PanelTalent title="Talents" stats={ stats } data={ character.talents } talents={ this.props.talents } />
+				<PanelTalent title="Abilities" stats={ stats } data={ character.abilities } talents={ this.props.talents } />
+				<PanelInfo title="Gear" data={ character.gear } />
+				<PanelTag title="Tags" data={ character.tags } />
 			</div>
 		</div>;
 	}
