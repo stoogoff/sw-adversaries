@@ -12,7 +12,7 @@ import Loader from "components/loader";
 import Tabs from "components/tabs";
 import TagMenu from "components/tag-menu";
 import * as Store from "lib/local-store";
-import { sortByProperty } from "lib/utils";
+import { sortByProperty, findByProperty, unique } from "lib/utils";
 import * as CONFIG from "lib/config";
 
 
@@ -47,15 +47,13 @@ class App extends React.Component {
 			let adversaries = this.stores.adversaries.all();
 			let adversary = null;
 
-			if(location.hash.length > 0) {
-				let id = location.hash.substring(1);
+			// load up stored adversaries and either replace them or add them
+			let stored = Store.local.get(CONFIG.ADVERSARY_STORE) || [];
+			let ids = stored.map(a => a.id);
 
-				adversary = this.stores.adversaries.findBy("id", id);
-			}
+			adversaries = adversaries.filter(a => ids.indexOf(a.id) == -1);
 
-			if(!adversary) {
-				adversary = adversaries.sort(sortByProperty("name"))[0];
-			}
+			stored.forEach(a => adversaries.push(a));
 
 			let favourites = Store.local.get(CONFIG.FAVOURITE_STORE) || [];
 			let tags = ["minion", "rival", "nemesis"];
@@ -72,15 +70,27 @@ class App extends React.Component {
 					a.tags = [];
 				}
 				else {
-					a.tags.forEach(t => {
-						if(tags.indexOf(t) == -1) {
-							tags.push(t);
-						}
-					});
+					tags.push(...a.tags);
 				}
 
 				a.tags.push(a.type.toLowerCase());
+
+				a.tags = unique(a.tags);
 			});
+
+			tags = unique(tags);
+
+			if(location.hash.length > 0) {
+				let id = location.hash.substring(1);
+
+				adversary = adversaries.find(findByProperty("id", id));
+			}
+
+			if(!adversary) {
+				adversary = adversaries.sort(sortByProperty("name"))[0];
+			}
+
+			this.stores.adversaries.data = adversaries;
 
 			this.setState({
 				list: adversaries,
@@ -233,11 +243,32 @@ class App extends React.Component {
 		});
 		dispatcher.register(CONFIG.ADVERSARY_SAVE, adversary => {
 			console.log("Saving...", adversary)
+			let tags = this.state.tags;
 
-			// add a tag such as mine
-			adversary.tags.push("mine");
+			// add a tag to indicate that it's user defined
+			if(adversary.tags.indexOf(CONFIG.ADVERSARY_TAG) == -1) {
+				adversary.tags.push(CONFIG.ADVERSARY_TAG);
+
+				if(tags.indexOf(CONFIG.ADVERSARY_TAG) == -1) {
+					tags.push(CONFIG.ADVERSARY_TAG);
+				}
+			}
+
+			// clean up empty arrays
+			["weapons", "talents", "abilities"].forEach(key => {
+				if(key in adversary && adversary[key].length === 0) {
+					delete adversary[key];
+				}
+			})
+
 			// save it to localhost
-			// replace it or add it to the list of adversaries
+			let stored = Store.local.get(CONFIG.ADVERSARY_STORE) || [];
+
+			stored = stored.filter(d => d.id != adversary.id);
+
+			stored.push(adversary);
+
+			Store.local.set(CONFIG.ADVERSARY_STORE, stored);
 
 			// replace the edited item with this item
 			let index = this.state.selectedIndex;
@@ -245,8 +276,18 @@ class App extends React.Component {
 
 			tab.character = adversary;
 
+			// update the data store
+			let adversaries = this.stores.adversaries.all().filter(a => a.id != adversary.id);
 
-			this.setState({ editMode: false, editAdversary: null });
+			adversaries.push(adversary);
+
+			this.stores.adversaries.data = adversaries;
+
+			this.setState({
+				editMode: false,
+				editAdversary: null,
+				tags: tags
+			});
 		});
 	}
 
@@ -271,9 +312,7 @@ class App extends React.Component {
 	}
 
 	toggleAbout() {
-		let showAbout = !this.state.showAbout;
-
-		this.setState({ showAbout: showAbout});
+		this.setState({ showAbout: !this.state.showAbout });
 	}
 
 	componentWillUnmount() {

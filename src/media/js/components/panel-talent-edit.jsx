@@ -2,6 +2,7 @@
 import React from "react";
 import InputText from "./input-text";
 import InputSelect from "./input-select";
+import { findByProperty } from "../lib/utils";
 
 export default class PanelTalentEdit extends React.Component {
 	constructor(props) {
@@ -20,7 +21,7 @@ export default class PanelTalentEdit extends React.Component {
 	}
 
 	add(name) {
-		let item = this.props.list.find(d => "name" in d && d.name == name);
+		let item = this.props.list.find(findByProperty("name", name));
 
 		this.setState({
 			selected: item

@@ -33,6 +33,16 @@ export const sortByProperties = function sortByProperties(prop1, prop2) {
 	}
 }
 
+export const findByProperty = function findByProperty(property, value) {
+	return function(item) {
+		return property in item && item[property] == value;
+	};
+}
+
+export const unique = function unique(arr) {
+	return arr.filter((a, i) => arr.indexOf(a) == i);
+}
+
 export const minionSkill = function(minions, skill, skills) {
 	let value = 0;
 	let skillsHash = {};

@@ -14,5 +14,7 @@ export const FAVOURITE_TAG = "starred";
 export const ADVERSARY_COPY = "adversary-copy";
 export const ADVERSARY_ADD = "adversary-add";
 export const ADVERSARY_SAVE = "adversary-save";
+export const ADVERSARY_STORE = "swa-custom";
+export const ADVERSARY_TAG = "source:Mine";
 
 export const COLOURS = ["blue", "green", "yellow", "orange", "red", "purple", "gray", "black"];

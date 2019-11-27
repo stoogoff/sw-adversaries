@@ -1,5 +1,6 @@
 
 import Emitter from "./emitter";
+import { findByProperty } from "./utils";
 
 export default class Collection extends Emitter {
 	constructor(...args) {
@@ -69,7 +70,7 @@ export default class Collection extends Emitter {
 	}
 
 	findBy(property, value) {
-		return this.data.find(d => property in d && d[property] == value);
+		return this.data.find(findByProperty(property, value));
 	}
 
 	filter(func) {

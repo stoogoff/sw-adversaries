@@ -6,10 +6,8 @@ export default class PanelInfo extends React.Component {
 	render() {
 		return <div className="info">
 			<h2>{ this.props.title }</h2>
-			{ this.props.data && this.props.data.length > 0 ? 
-				<ul className="inline-list">
-					{ this.props.data.map((d, i) => <li key={ i }><span dangerouslySetInnerHTML= { symbolise(d) } /></li>) }
-				</ul>
+			{ this.props.text && this.props.text.length > 0
+				? <p dangerouslySetInnerHTML= { symbolise(this.props.text) } />
 				: <p>–</p>
 			}
 		</div>;

@@ -201,7 +201,7 @@ export default class CharacterView extends React.Component {
 				<PanelWeapons title="Weapons" character={ character } skills={ this.props.skills } weapons={ this.props.weapons } qualities={ this.props.qualities } talents={ this.props.talents } aliveMinions={ this.state.aliveMinions } minions={ this.state.minions } />
 				<PanelTalent title="Talents" stats={ stats } data={ character.talents } talents={ this.props.talents } />
 				<PanelTalent title="Abilities" stats={ stats } data={ character.abilities } talents={ this.props.talents } />
-				<PanelInfo title="Gear" data={ character.gear } />
+				<PanelInfo title="Gear" text={ character.gear } />
 				<PanelTag title="Tags" data={ character.tags } />
 			</div>
 		</div>;

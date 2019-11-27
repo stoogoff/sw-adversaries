@@ -9,6 +9,8 @@ import dispatcher from "lib/dispatcher";
 import * as CONFIG from "lib/config";
 import { sortByProperty } from "lib/utils";
 
+const RANGED = 1;
+const MELEE = 0;
 
 
 export default class CharacterEdit extends React.Component {
@@ -33,30 +35,23 @@ export default class CharacterEdit extends React.Component {
 
 		let editingCharacter = Object.assign({}, baseCharacter, props.character);
 
-		editingCharacter.derived.defence = [0, 0];
+		if(editingCharacter.derived.defence.length == 0) {
+			editingCharacter.derived.defence = [0, 0];
+		}
 
 		this.state = {
 			character: editingCharacter
 		};
 	}
 
-	/*componentWillUpdate(nextProps, nextState) {
-		if(nextProps.character !== this.props.character) {
-			this.setState({
-				showAll: false,
-				minions: 0,
-			});
-		}
-	}*/
-
 	save() {
 		dispatcher.dispatch(CONFIG.ADVERSARY_SAVE, this.state.character);
 	}
 
-	setType(newType) {
+	setType(value) {
 		let character = this.state.character;
 
-		character.type = newType;
+		character.type = value;
 
 		this.setState({
 			character: character
@@ -96,8 +91,6 @@ export default class CharacterEdit extends React.Component {
 			return null;
 		}
 
-		let characteristics = ["Brawn", "Agility", "Intellect", "Cunning", "Willpower", "Presence"];
-		let skills = this.props.skills;
 
 console.log(character)
 
@@ -116,13 +109,15 @@ console.log(character)
 			Weapons (selector or add own)
 			Talents (selector or add own)
 			Abilities (selector or add own)
-			Gear
+			-Gear
 			Tags (selector or add own - do these need to be separated out?)
 
 
 
 			*/
 
+		let characteristics = ["Brawn", "Agility", "Intellect", "Cunning", "Willpower", "Presence"];
+		let skills = this.props.skills;
 		let types = ["Minion", "Rival", "Nemesis"];
 		let [talents, abilities] = ["talents", "abilities"].map(key => {
 			// remove rank from the end of the name
@@ -134,27 +129,27 @@ console.log(character)
 
 		return <div id="edit">
 			<h1>Character</h1>
-			<InputText text="Name" value={ character.name } handler={ (text) => character.name = text } />
+			<InputText text="Name" value={ character.name } handler={ text => character.name = text } />
 			<InputSelect text="Type" value={ character.type } values={ types } handler={ this.setType.bind(this) } />
 
 			<div className="edit-panel">
 				<h2>Characteristics</h2>
-				{ characteristics.map(c => <InputText text={ c } value={ character.characteristics[c] } handler={ (text) => character.characteristics[c] = parseInt(text) } />) }
+				{ characteristics.map(c => <InputText text={ c } value={ character.characteristics[c] } handler={ text => character.characteristics[c] = parseInt(text) } />) }
 			</div>
 
 			<div className="edit-panel">
 				<h2>Derived Characteristics</h2>
 
-				<InputText text="Soak" value={ character.derived.soak } handler={ (text) => character.derived.soak = parseInt(text) } />
-				<InputText text="Wound Threshold" value={ character.derived.wounds } handler={ (text) => character.derived.wounds = parseInt(text) } />
-				{ character.type == "Nemesis" ? <InputText text="Strain Threshold" value={ character.derived.strain } handler={ (text) => character.derived.strain = parseInt(text) } /> : null }
-				<InputText text="Melee Defence" value={ character.derived.defence[0] } handler={ (text) => character.derived.defence[0] = parseInt(text) } />
-				<InputText text="Ranged Defence" value={ character.derived.defence[1] } handler={ (text) => character.derived.defence[1] = parseInt(text) } />
+				<InputText text="Soak" value={ character.derived.soak } handler={ text => character.derived.soak = parseInt(text) } />
+				<InputText text="Wound Threshold" value={ character.derived.wounds } handler={ text => character.derived.wounds = parseInt(text) } />
+				{ character.type == "Nemesis" ? <InputText text="Strain Threshold" value={ character.derived.strain } handler={ text => character.derived.strain = parseInt(text) } /> : null }
+				<InputText text="Melee Defence" value={ character.derived.defence[MELEE] } handler={ text => character.derived.defence[MELEE] = parseInt(text) } />
+				<InputText text="Ranged Defence" value={ character.derived.defence[RANGED] } handler={ text => character.derived.defence[RANGED] = parseInt(text) } />
 			</div>
 
 			<div className="edit-panel">
 				<h2>Skills</h2>
-				{ skills.map(s => <InputText text={ s.name } value={ character.skills[s.name] } handler={ (text) => character.skills[s.name] = parseInt(text) } />) }
+				{ skills.map(s => <InputText text={ s.name } value={ character.skills[s.name] } handler={ text => character.skills[s.name] = parseInt(text) } />) }
 			</div>
 
 			<PanelListEdit title="Weapons" list={ character.weapons } remove={ this.removeHandler("weapons").bind(this) }>
@@ -166,6 +161,7 @@ console.log(character)
 			<PanelListEdit title="Abilities" list={ character.abilities } remove={ this.removeHandler("abilities").bind(this) }>
 				<PanelTalentEdit list={ abilities } title="Add Ability" label="Abilities" handler={ this.addHandler("abilities").bind(this) } />
 			</PanelListEdit>
+			<InputText text="Gear" value={ character.gear } handler={ text => character.gear = text } />
 			
 			<button className="btn" onClick={ this.save.bind(this) }>Save</button>
 		</div>;

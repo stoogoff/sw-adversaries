@@ -100,6 +100,14 @@ gulp.task("merge-data", function() {
 				});
 			}
 
+			if(m == "adversaries") {
+				for(var i = 0, len = output.length; i < len; ++i) {
+					if("gear" in output[i]) {
+						output[i].gear = output[i].gear.join(", ");
+					}
+				}
+			}
+
 			if(m == "talents") {
 				output = output.filter(function(t) {
 					return t.description != "";
