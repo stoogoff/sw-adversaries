@@ -1,6 +1,6 @@
 
 import React from "react";
-import { symbolise } from "lib/utils";
+import { parent, symbolise } from "lib/utils";
 
 export default class PanelListEdit extends React.Component {
 	constructor(props) {
@@ -18,9 +18,11 @@ export default class PanelListEdit extends React.Component {
 	}
 
 	remove(evt) {
-		let index = evt.target.parentNode.getAttribute("data-index");
+		let node = parent(evt.target, "div")
 
-		if(this.props.remove) {
+		if(node && this.props.remove) {
+			let index = node.getAttribute("data-index");
+
 			this.props.remove(index);
 		}
 	}
@@ -28,9 +30,9 @@ export default class PanelListEdit extends React.Component {
 	render() {
 		return <div className="edit-panel edit-list">
 			<h2>{ this.props.title }</h2>
-			{ this.props.list.map((item, index) => <div className="input-row">
+			{ this.props.list.map((item, index) => <div className="input-row" data-index={ index }>
 					<span className="link">{ item.name || item }</span>
-					<svg className="delete" data-index={ index } onClick={ this.remove.bind(this) }><use xlinkHref="#icon-delete"></use></svg>
+					<svg className="delete" onClick={ this.remove.bind(this) }><use xlinkHref="#icon-delete"></use></svg>
 				</div>
 			)}
 			{this.state.displayAddPanel

@@ -241,8 +241,17 @@ class App extends React.Component {
 
 			this.setState({ editMode: true, editAdversary: adversary });
 		});
+		dispatcher.register(CONFIG.ADVERSARY_CANCEL, () => {
+			console.log("CANCEL")
+
+			this.setState({
+				editMode: false,
+				editAdversary: null
+			});
+		});
 		dispatcher.register(CONFIG.ADVERSARY_SAVE, adversary => {
 			console.log("Saving...", adversary)
+
 			let tags = this.state.tags;
 
 			// add a tag to indicate that it's user defined
@@ -336,7 +345,7 @@ class App extends React.Component {
 			: null;
 
 		let content = this.state.editMode
-			? <CharacterEdit character={ this.state.editAdversary } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } />
+			? <CharacterEdit character={ this.state.editAdversary } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } tags={ this.state.tags } />
 			: <div>
 				{ this.state.selected.map((selected, index) => <CharacterView key={ index } character={ selected.character } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } visible={ index == this.state.selectedIndex } />)}
 				<Tabs tabs={ this.state.selected } selectedIndex={ this.state.selectedIndex } />

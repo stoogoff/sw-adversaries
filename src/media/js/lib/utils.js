@@ -90,7 +90,7 @@ export const symbolise = function symbolise(text) {
 	return { __html: text };
 }
 
-let diceMap = {
+export const diceMap = {
 	// dice
 	"boost": "<span class='icon boost'></span>",
 	"proficiency": "<span class='icon proficiency'></span>",
