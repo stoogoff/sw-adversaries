@@ -636,7 +636,7 @@
 		"weapons": ["Blaster pistol",
 			{
 				"name": "Walking stick",
-				"skill": "melee",
+				"skill": "Melee",
 				"plus-damage": 2,
 				"critical": 4,
 				"range": "Engaged"

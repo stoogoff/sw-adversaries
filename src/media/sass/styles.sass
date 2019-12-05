@@ -442,6 +442,7 @@ h2.subtitle
 	.input-row
 		position: relative
 		margin: 0 1rem 1em
+		padding-left: 1em
 
 		label
 			display: inline-block
@@ -467,20 +468,25 @@ h2.subtitle
 			border-bottom: 1px solid lighten($heading, 30%)
 			margin: 0 0 0.1em
 
+			div
+				text-align: right
+
 			&:nth-child(odd)
 				background-color: white
 
-		input[type="text"]
+		input[type="text"], select
 			display: inline-block
 			width: 40%
+
+		input[type="text"]
 			border-width: 0 0 1px
 			border-radius: 0
-			background-color: rgb(245,245,245)
+			background-color: $fadeInput
 			text-align: right
 
 	.edit-list
 		.input-row
-			padding: 0.2em 0
+			padding: 0.2em 0 0.2em 1em
 
 		.btn
 			display: block
@@ -495,6 +501,19 @@ h2.subtitle
 
 			&:hover
 				background-color: $link
+
+	.divider
+		font-weight: bold
+		font-size: 1.2em
+		text-align: center
+		margin: 1em 0 2em
+		height: 0.75em
+		border-bottom: 1px solid black
+
+		span
+			display: inline-block
+			padding: 0.1em 1em
+			background-color: $body
 
 
 // OVERLAY

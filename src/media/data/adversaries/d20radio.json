@@ -3280,7 +3280,7 @@
 		"weapons": [
 				{
 				"name": "Military Holdout Blaster",
-				"skill": "Ranged: light",
+				"skill": "Ranged: Light",
 				"damage": 6,
 				"critical": 3,
 				"range": "Short",

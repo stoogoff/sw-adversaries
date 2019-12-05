@@ -13,8 +13,8 @@ export default class InputSelect extends React.Component {
 		let inputId = "input_" + id(this.props.label);
 
 		return <div className="input-row input-select">
-			<label htmlFor={ inputId }>{ this.props.label }</label>
-			<select id={ inputId } type="text" defaultValue={ this.props.value } onChange={ this.handleChange.bind(this) }>
+			<label htmlFor={ inputId }>{ this.props.label } { this.props.required ? <span className="required">*</span> : null }</label>
+			<select id={ inputId } type="text" value={ this.props.value } onChange={ this.handleChange.bind(this) }>
 				{ this.props.values.map(v => <option>{ v }</option>) }
 			</select>
 			<svg><use xlinkHref="#icon-circle-down"></use></svg>

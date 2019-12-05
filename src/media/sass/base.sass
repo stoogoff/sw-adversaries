@@ -89,12 +89,14 @@ th
 
 th, td
 	vertical-align: top
+	padding: 0.3em
 
 	&:first-of-type
 		padding-left: 1em
 
-td
-	padding: 0.3em
+label span.required
+	color: $stat
+	font-weight: bold
 
 input[type="text"], textarea, select
 	display: block
@@ -138,6 +140,14 @@ a, .link
 	border-radius: 0.2em
 	cursor: pointer
 	@include hover()
+
+	&[disabled]
+		background-color: $fadeInput !important
+		color: $tabBgColour !important
+		cursor: default
+
+		&:hover
+			background-color: $fadeInput !important
 
 	&:hover
 		background-color: rgba(0, 0, 0, 0.1)

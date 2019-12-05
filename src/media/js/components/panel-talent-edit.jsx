@@ -2,6 +2,7 @@
 import React from "react";
 import { InputText, InputTextArea } from "./input-text";
 import InputSelect from "./input-select";
+import PanelCode from "./panel-code";
 import { findByProperty, diceMap, symbolise } from "../lib/utils";
 
 export default class PanelTalentEdit extends React.Component {
@@ -13,11 +14,8 @@ export default class PanelTalentEdit extends React.Component {
 			name: null,
 			rank: null,
 			description: null,
-			isNew: false,
-			hideCodes: true
+			isNew: false
 		};
-
-		this.codes = Object.keys(diceMap).map(key => <tr><td>:{ key }:</td><td dangerouslySetInnerHTML={ { __html: diceMap[key] } }/></tr>);
 	}
 
 	setRank(rank) {
@@ -62,8 +60,8 @@ export default class PanelTalentEdit extends React.Component {
 		}
 
 		this.setState({
-			selected: null,
-			rank: null
+			selected: "",
+			rank: ""
 		});
 	}
 
@@ -83,9 +81,9 @@ export default class PanelTalentEdit extends React.Component {
 		}
 
 		this.setState({
-			name: null,
-			description: null,
-			rank: null,
+			name: "",
+			description: "",
+			rank: "",
 			isNew: false
 		});
 	}
@@ -97,32 +95,18 @@ export default class PanelTalentEdit extends React.Component {
 		return <div>
 			<h3>Select { this.props.title }</h3>
 			<InputSelect label={ this.props.title } value={ selected } values={ list } handler={ this.selectItem.bind(this) } />
-			{ this.state.selected
-				? <div>
-					{ this.state.selected.ranked ? <InputText label="Rank" value={ this.state.rank } handler={ this.setRank.bind(this) } /> : null }
-					<button className="btn" onClick={ this.add.bind(this) }>Add</button>
-				</div>
+			{ this.state.selected && this.state.selected.ranked
+				? <InputText label="Rank" value={ this.state.rank } handler={ this.setRank.bind(this) } />
 				: null
 			}
+			<button className="btn" disabled={ !this.state.selected } onClick={ this.add.bind(this) }>Select</button>
+			<div className="divider"><span>OR</span></div>
 			<h3>Create { this.props.title }</h3>
-			<InputText label="Name" value={ this.state.name } handler={ this.setName.bind(this) } />
+			<InputText label="Name" value={ this.state.name } handler={ this.setName.bind(this) } required={ true } />
 			<InputText label="Rank" value={ this.state.rank } handler={ this.setRank.bind(this) } />
-			<InputTextArea label="Description" value={ this.state.description } handler={ this.setDesc.bind(this) } />
-			<p>Add symbols for dice types, dice results, or difficulty by surrounding the symbol name with <code>:</code>, e.g. <code>:boost:</code>, <code>:triumph:</code>, <code>:hard:</code>. Difficulty dice can be upgraded by putting a hyphen followed by the number of dice to upgrade, e.g. <code>:easy-1:</code> for a single challenge die, <code>:average-1:</code> for a difficulty die and a challenge die.</p>
-			{ this.state.hideCodes
-				? <p><span className="link" onClick={ () => this.setState({ hideCodes: false }) }>Click to show all symbol codes.</span></p>
-				: <div>
-					<p>The following codes can be used to add symbols to the description field:</p>
-					<table className="skills small">
-						<thead>
-							<tr><th>Code</th><th>Symbol</th></tr>
-						</thead>
-						<tbody>{ this.codes }</tbody>
-					</table>
-					<p><span className="link" onClick={ () => this.setState({ hideCodes: true }) }>Click to hide symbol codes.</span></p>
-				</div>
-			}
-			{ this.state.isNew ? <button className="btn" onClick={ this.create.bind(this) }>Create</button> : null }
+			<InputTextArea label="Description" value={ this.state.description } handler={ this.setDesc.bind(this) } required={ true } />
+			<button className="btn" disabled={ !this.state.isNew } onClick={ this.create.bind(this) }>Create</button>
+			<PanelCode />
 		</div>;
 	}
 }

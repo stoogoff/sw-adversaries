@@ -4,6 +4,8 @@ import { InputText, InputTextArea } from "./input-text";
 import InputSelect from "./input-select";
 import PanelListEdit from "./panel-list-edit";
 import PanelTalentEdit from "./panel-talent-edit";
+import PanelWeaponEdit from "./panel-weapon-edit";
+import PanelCode from "./panel-code";
 
 import dispatcher from "lib/dispatcher";
 import * as CONFIG from "lib/config";
@@ -22,9 +24,7 @@ export default class CharacterEdit extends React.Component {
 			"type": "",
 			"description": "",
 			"characteristics": {},
-			"derived": {
-				"defence": []
-			},
+			"derived": {},
 			"skills": null,
 			"talents": [],
 			"abilities": [],
@@ -33,11 +33,9 @@ export default class CharacterEdit extends React.Component {
 			"tags": []
 		};
 
-		let editingCharacter = JSON.parse(JSON.stringify(props.character));
+		let editingCharacter = JSON.parse(JSON.stringify(Object.assign(baseCharacter, props.character)));
 
-		if(editingCharacter.derived.defence.length == 0) {
-			editingCharacter.derived.defence = [0, 0];
-		}
+		editingCharacter.derived.defence = editingCharacter.derived.defence || [0, 0];
 
 		this.state = {
 			character: editingCharacter
@@ -101,22 +99,22 @@ console.log(character)
 /*
 
 			-Name
-			-Type (should be select)
+			-Type
 			-Characteristics
 			-Soak
 			-Wound Threshold
-			-Strain Threshold (should only display for Nemesis)
+			-Strain Threshold
 			-Defence
 			-Melee
 			-Ranged
 			-Skills - this needs to be a list with check boxes for minions
-			Weapons (selector or add own)
-			Talents (selector or add own)
-			Abilities (selector or add own)
+			Weapons (selector or add own - needs qualities)
+			- Talents (selector or add own)
+			- Abilities (selector or add own)
 			-Gear
 			Tags (selector or add own - do these need to be separated out?)
 
-<PanelTalentEdit list={ weapons } title="Add Weapon" label="Select" handler={ this.addHandler("weapons").bind(this) } />
+			should be able to close weapon / talent / abilities select/create panels
 
 			*/
 
@@ -158,7 +156,7 @@ console.log(character)
 			</div>
 
 			<PanelListEdit title="Weapons" list={ character.weapons } remove={ this.removeHandler("weapons").bind(this) }>
-				
+				<PanelWeaponEdit list={ weapons } skills={ this.props.skills.filter(s => s.type == "Combat") } handler={ this.addHandler("weapons").bind(this) } />
 			</PanelListEdit>
 			<PanelListEdit title="Talents" list={ character.talents } remove={ this.removeHandler("talents").bind(this) }>
 				<PanelTalentEdit list={ talents } title="Talent" handler={ this.addHandler("talents").bind(this) } />
@@ -166,7 +164,12 @@ console.log(character)
 			<PanelListEdit title="Abilities" list={ character.abilities } remove={ this.removeHandler("abilities").bind(this) }>
 				<PanelTalentEdit list={ abilities } title="Ability" handler={ this.addHandler("abilities").bind(this) } />
 			</PanelListEdit>
-			<InputTextArea label="Gear" value={ character.gear } handler={ text => character.gear = text } />
+
+			<div className="edit-panel">
+				<h2>Gear</h2>
+				<InputTextArea label="Gear" value={ character.gear } handler={ text => character.gear = text } />
+				<PanelCode />
+			</div>
 
 			<button className="btn" onClick={ this.save.bind(this) }>Save</button>
 			<button className="btn" onClick={ this.cancel.bind(this) }>Cancel</button>
