@@ -40,6 +40,8 @@ export default class CharacterEdit extends React.Component {
 		this.state = {
 			character: editingCharacter
 		};
+
+		this.characteristics = ["Brawn", "Agility", "Intellect", "Cunning", "Willpower", "Presence"];
 	}
 
 	save() {
@@ -86,6 +88,10 @@ export default class CharacterEdit extends React.Component {
 		};
 	}
 
+	canSave() {
+		return this.characteristics.map(c => this.state.character.characteristics[c]).filter(f => parseInt(f) !== NaN).length == this.characteristics.length;
+	}
+
 	render() {
 		let character = this.state.character;
 
@@ -114,11 +120,9 @@ console.log(character)
 			-Gear
 			Tags (selector or add own - do these need to be separated out?)
 
-			should be able to close weapon / talent / abilities select/create panels
-
 			*/
 
-		let characteristics = ["Brawn", "Agility", "Intellect", "Cunning", "Willpower", "Presence"];
+		
 		let skills = this.props.skills;
 		let types = ["Minion", "Rival", "Nemesis"];
 		let [talents, abilities] = ["talents", "abilities"].map(key => {
@@ -137,7 +141,7 @@ console.log(character)
 
 			<div className="edit-panel">
 				<h2>Characteristics</h2>
-				{ characteristics.map(c => <InputText label={ c } value={ character.characteristics[c] } handler={ text => character.characteristics[c] = parseInt(text) } />) }
+				{ this.characteristics.map(c => <InputText label={ c } value={ character.characteristics[c] } handler={ text => character.characteristics[c] = parseInt(text) } required={ true } />) }
 			</div>
 
 			<div className="edit-panel">
@@ -156,7 +160,7 @@ console.log(character)
 			</div>
 
 			<PanelListEdit title="Weapons" list={ character.weapons } remove={ this.removeHandler("weapons").bind(this) }>
-				<PanelWeaponEdit list={ weapons } skills={ this.props.skills.filter(s => s.type == "Combat") } handler={ this.addHandler("weapons").bind(this) } />
+				<PanelWeaponEdit list={ weapons } skills={ this.props.skills.filter(s => s.type == "Combat") } qualities={ this.props.qualities } handler={ this.addHandler("weapons").bind(this) } />
 			</PanelListEdit>
 			<PanelListEdit title="Talents" list={ character.talents } remove={ this.removeHandler("talents").bind(this) }>
 				<PanelTalentEdit list={ talents } title="Talent" handler={ this.addHandler("talents").bind(this) } />
@@ -171,8 +175,10 @@ console.log(character)
 				<PanelCode />
 			</div>
 
-			<button className="btn" onClick={ this.save.bind(this) }>Save</button>
-			<button className="btn" onClick={ this.cancel.bind(this) }>Cancel</button>
+			<div className="row-buttons">
+				<button className="btn-save" disabled={ !this.canSave() } onClick={ this.save.bind(this) }>Save</button>
+				<button className="btn-cancel" onClick={ this.cancel.bind(this) }>Cancel</button>
+			</div>
 		</div>;
 	}
 }

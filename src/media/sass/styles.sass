@@ -109,7 +109,7 @@ h2.subtitle
 		position: absolute
 		margin: 0
 		padding: 0.5em
-		border-radius: 0 0 0.2em 0.2em
+		border-radius: 0 0 $borderRadius $borderRadius
 		left: -1px
 		display: none
 		opacity: 0
@@ -120,7 +120,7 @@ h2.subtitle
 		li
 			padding: 0.3em
 			margin: 0.2em
-			border-radius: 0.2em
+			border-radius: $borderRadius
 			display: inline-block
 			background-color: rgba(255,255,255,0.5)
 			@include hover()
@@ -215,7 +215,7 @@ h2.subtitle
 			border-width: 0 2px 2px 2px
 			border-style: solid
 			border-color: $derived
-			border-radius: 0 0 0.2em 0.2em
+			border-radius: 0 0 $borderRadius $borderRadius
 
 			ul
 				background-color: $body
@@ -247,7 +247,7 @@ h2.subtitle
 			border-width: 2px 2px 0 2px
 			border-style: solid
 			border-color: $derived
-			border-radius: 0.2em 0.2em 0 0
+			border-radius: $borderRadius $borderRadius 0 0
 			display: none
 
 			li
@@ -259,7 +259,7 @@ h2.subtitle
 				.colour
 					font-size: 0.9em
 					border: 1px solid white
-					border-radius: 0.2em
+					border-radius: $borderRadius
 					padding: 0.2em
 					@include hover()
 
@@ -271,7 +271,7 @@ h2.subtitle
 					color: $heading
 					background-color: white
 					border: 1px solid darken($link, 20%)
-					border-radius: 0.2em
+					border-radius: $borderRadius
 					display: block
 					width: 100%
 					padding: 0.2em 0.5em
@@ -439,7 +439,7 @@ h2.subtitle
 
 // EDIT MODE
 #edit
-	.input-row
+	.row-input
 		position: relative
 		margin: 0 1rem 1em
 		padding-left: 1em
@@ -449,11 +449,59 @@ h2.subtitle
 			width: 60%
 			margin-bottom: 0.2em
 
-		svg
+		&>svg
 			float: right
 
 			&.delete
 				color: $stat
+
+	.row-buttons
+		margin-left: 1em
+
+		button
+			display: inline-block
+			width: 50%
+			padding: 0.3em 1em
+			cursor: pointer
+			font-size: 1.1em
+			font-weight: bold
+			@include hover()
+
+			&[disabled]
+				background-color: $fadeInput !important
+				color: $tabBgColour !important
+				cursor: default
+
+				&:hover
+					background-color: $fadeInput !important
+
+
+			&.btn-save
+				color: white
+				background-color: green
+				border-radius: $borderRadius 0 0 $borderRadius
+
+			&.btn-cancel
+				background-color: $tabBgColour
+				border-radius: 0 $borderRadius $borderRadius 0
+
+	.input-select-multi
+		li
+			display: inline-block
+			padding: 0.5em
+			border-radius: $borderRadius
+			background-color: $fadeInput
+			margin: 0.2em
+			cursor: pointer
+
+			&.checked
+				background-color: lighten($link, 20%)
+				color: white
+
+			svg
+				position: relative
+				top: 0.1em
+
 
 	.input-select svg
 		position: absolute
@@ -464,7 +512,7 @@ h2.subtitle
 		padding-left: 1rem
 		padding-right: 1rem
 
-		.input-row
+		.row-input
 			border-bottom: 1px solid lighten($heading, 30%)
 			margin: 0 0 0.1em
 
@@ -485,10 +533,13 @@ h2.subtitle
 			text-align: right
 
 	.edit-list
-		.input-row
+		.close
+			float: right
+
+		.row-input
 			padding: 0.2em 0 0.2em 1em
 
-		.btn
+		.btn-full
 			display: block
 			width: 100%
 			box-sizing: border-box
@@ -498,6 +549,18 @@ h2.subtitle
 			background-color: lighten($link, 20%)
 			font-weight: bold
 			color: white
+			border-radius: $borderRadius
+			cursor: pointer
+			@include hover()
+
+			&[disabled]
+				background-color: $fadeInput !important
+				color: $tabBgColour !important
+				cursor: default
+
+				&:hover
+					background-color: $fadeInput !important
+
 
 			&:hover
 				background-color: $link

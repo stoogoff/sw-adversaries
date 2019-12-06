@@ -2,6 +2,7 @@
 import React from "react";
 import { InputText, InputTextArea } from "./input-text";
 import InputSelect from "./input-select";
+import InputSelectMulti from "./input-select-multi";
 import { findByProperty, diceMap, symbolise } from "../lib/utils";
 
 export default class PanelWeaponEdit extends React.Component {
@@ -15,6 +16,7 @@ export default class PanelWeaponEdit extends React.Component {
 			range: null,
 			damage: null,
 			critical: null,
+			qualities: [],
 			isNew: false
 		};
 
@@ -40,7 +42,6 @@ export default class PanelWeaponEdit extends React.Component {
 			isNew: !(!this.state.name || !this.state.skill || !val || !this.state.damage)
 		});
 	}
-	// needs to deal with plus-damage as well
 	setDamage(val) {
 		this.setState({
 			damage: parseInt(val),
@@ -50,6 +51,21 @@ export default class PanelWeaponEdit extends React.Component {
 	setCritical(val) {
 		this.setState({
 			critical: parseInt(val),
+			isNew: !(!this.state.name || !this.state.skill || !this.state.range || !this.state.damage)
+		});
+	}
+	setQualities(val) {
+		let qualities = this.state.qualities;
+
+		if(qualities.indexOf(val) == -1) {
+			qualities.push(val);
+		}
+		else {
+			qualities.splice(qualities.indexOf(val), 1);
+		}
+
+		this.setState({
+			qualities: qualities,
 			isNew: !(!this.state.name || !this.state.skill || !this.state.range || !this.state.damage)
 		});
 	}
@@ -80,7 +96,8 @@ export default class PanelWeaponEdit extends React.Component {
 			skill: this.state.skill,
 			range: this.state.range,
 			damage: this.state.damage,
-			critical: this.state.critical
+			critical: this.state.critical,
+			qualities: this.state.qualities
 		};
 
 		if(this.props.handler) {
@@ -93,6 +110,7 @@ export default class PanelWeaponEdit extends React.Component {
 			range: "",
 			damage: "",
 			critical: "",
+			qualities: [],
 			isNew: false
 		});
 	}
@@ -100,20 +118,21 @@ export default class PanelWeaponEdit extends React.Component {
 	render() {
 		let list = ["", ...this.props.list.map(i => i.name)];
 		let selected = this.state.selected ? this.state.selected.name : "";
+		let qualities = this.props.qualities.map(q => q.type == "Mod" ? `${q.name} (Mod)` : q.name).sort();
 
 		return <div>
 			<h3>Select Weapon</h3>
-			<InputSelect label="Weapon" value={ selected } values={ list } handler={ this.selectItem.bind(this) } />
-			<button className="btn" disabled={ !this.state.selected } onClick={ this.add.bind(this) }>Select</button>
+			<InputSelect label="Weapon" value={ selected } values={ list } handler={ this.selectItem.bind(this) } required={ true } />
+			<button className="btn-full" disabled={ !this.state.selected } onClick={ this.add.bind(this) }>Select</button>
 			<div className="divider"><span>OR</span></div>
 			<h3>Create Weapon</h3>
 			<InputText label="Name" value={ this.state.name } handler={ this.setName.bind(this) } required={ true } />
 			<InputSelect label="Skill" value={ this.state.skill } values={ this.skills } handler={ this.setSkill.bind(this) } required={ true } />
 			<InputSelect label="Range" value={ this.state.range } values={ this.ranges } handler={ this.setRange.bind(this) } required={ true } />
-			<InputText label="Damage" value={ this.state.damage } handler={ this.setDamage.bind(this) } required={ true } note="Remember to add Brawn to Melee or Brawl weapons." />
+			<InputText label="Damage" value={ this.state.damage } handler={ this.setDamage.bind(this) } required={ true } note="Remember to add Brawn to damage for Melee or Brawl weapons." />
 			<InputText label="Critical" value={ this.state.critical } handler={ this.setCritical.bind(this) } />
-			<button className="btn" disabled={ !this.state.isNew } onClick={ this.create.bind(this) }>Create</button>
+			<InputSelectMulti label="Qualities" value={ this.state.qualities } values={ qualities } handler={ this.setQualities.bind(this) } />
+			<button className="btn-full" disabled={ !this.state.isNew } onClick={ this.create.bind(this) }>Create</button>
 		</div>;
 	}
 }
-

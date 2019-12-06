@@ -94,18 +94,18 @@ export default class PanelTalentEdit extends React.Component {
 
 		return <div>
 			<h3>Select { this.props.title }</h3>
-			<InputSelect label={ this.props.title } value={ selected } values={ list } handler={ this.selectItem.bind(this) } />
+			<InputSelect label={ this.props.title } value={ selected } values={ list } handler={ this.selectItem.bind(this) } required={ true } />
 			{ this.state.selected && this.state.selected.ranked
 				? <InputText label="Rank" value={ this.state.rank } handler={ this.setRank.bind(this) } />
 				: null
 			}
-			<button className="btn" disabled={ !this.state.selected } onClick={ this.add.bind(this) }>Select</button>
+			<button className="btn-full" disabled={ !this.state.selected } onClick={ this.add.bind(this) }>Select</button>
 			<div className="divider"><span>OR</span></div>
 			<h3>Create { this.props.title }</h3>
 			<InputText label="Name" value={ this.state.name } handler={ this.setName.bind(this) } required={ true } />
 			<InputText label="Rank" value={ this.state.rank } handler={ this.setRank.bind(this) } />
 			<InputTextArea label="Description" value={ this.state.description } handler={ this.setDesc.bind(this) } required={ true } />
-			<button className="btn" disabled={ !this.state.isNew } onClick={ this.create.bind(this) }>Create</button>
+			<button className="btn-full" disabled={ !this.state.isNew } onClick={ this.create.bind(this) }>Create</button>
 			<PanelCode />
 		</div>;
 	}

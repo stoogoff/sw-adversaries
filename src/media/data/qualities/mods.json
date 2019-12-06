@@ -1,18 +1,22 @@
 [
 	{
 		"name": "Forearm Grip",
-		"description": "Decreases the additional difficulty of making Ranged (Heavy) checks with this weapon while engaged to an additional :difficulty:, rather than :average:."
+		"description": "Decreases the additional difficulty of making Ranged (Heavy) checks with this weapon while engaged to an additional :difficulty:, rather than :average:.",
+		"type": "Mod"
 	},
 	{
 		"name": "Multi-optic Sight",
-		"description": "Remove up to :setback::setback: on any checks to use this weapon due to smoke, darkness, or other environmental conditions that obstruct vision."
+		"description": "Remove up to :setback::setback: on any checks to use this weapon due to smoke, darkness, or other environmental conditions that obstruct vision.",
+		"type": "Mod"
 	},
 	{
 		"name": "Telescopic Optical Sight",
-		"description": "Reduce difficulty of combat checks at Long or Extreme range by 1."
+		"description": "Reduce difficulty of combat checks at Long or Extreme range by 1.",
+		"type": "Mod"
 	},
 	{
 		"name": "Weapon Sling",
-		"description": "Reduce the weapon’s Cumbersome rating by 1."
+		"description": "Reduce the weapon’s Cumbersome rating by 1.",
+		"type": "Mod"
 	}
 ]
