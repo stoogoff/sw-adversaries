@@ -44,13 +44,13 @@ export default class PanelWeaponEdit extends React.Component {
 	}
 	setDamage(val) {
 		this.setState({
-			damage: parseInt(val),
+			damage: val,
 			isNew: !(!this.state.name || !this.state.skill || !this.state.range || !val)
 		});
 	}
 	setCritical(val) {
 		this.setState({
-			critical: parseInt(val),
+			critical: val,
 			isNew: !(!this.state.name || !this.state.skill || !this.state.range || !this.state.damage)
 		});
 	}

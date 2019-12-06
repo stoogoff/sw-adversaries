@@ -10,10 +10,10 @@ export default class PanelTalentEdit extends React.Component {
 		super(props);
 
 		this.state = {
-			selected: null,
-			name: null,
-			rank: null,
-			description: null,
+			selected: "",
+			name: "",
+			rank: "",
+			description: "",
 			isNew: false
 		};
 	}

@@ -444,6 +444,16 @@ h2.subtitle
 		margin: 0 1rem 1em
 		padding-left: 1em
 
+		&.error
+			input[type="text"], textarea
+				color: $stat
+				border-color: $stat
+				background-color: lighten($stat, 50%)
+
+			label
+				color: $stat
+
+
 		label
 			display: inline-block
 			width: 60%
