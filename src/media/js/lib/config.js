@@ -17,5 +17,6 @@ export const ADVERSARY_SAVE = "adversary-save";
 export const ADVERSARY_CANCEL = "adversary-cancel";
 export const ADVERSARY_STORE = "swa-custom";
 export const ADVERSARY_TAG = "source:Mine";
+export const ADVERSARY_ID = "my-";
 
 export const COLOURS = ["blue", "green", "yellow", "orange", "red", "purple", "gray", "black"];

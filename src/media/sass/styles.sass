@@ -439,6 +439,27 @@ h2.subtitle
 
 // EDIT MODE
 #edit
+	box-sizing: border-box
+	background-color: $body
+	width: 100%
+	height: 100%
+	overflow-x: auto
+	padding-top: 6em
+	padding-bottom: 1em
+
+	h1
+		position: fixed
+		top: 0
+		left: 0
+		right: 0
+		z-index: 150
+
+		svg
+			position: absolute
+			font-size: 1rem
+			top: 2em
+			right: 1em
+
 	.row-input
 		position: relative
 		margin: 0 1rem 1em
@@ -467,6 +488,7 @@ h2.subtitle
 
 	.row-buttons
 		margin-left: 1em
+		margin-right: 1em
 
 		button
 			display: inline-block
@@ -590,7 +612,7 @@ h2.subtitle
 
 
 // OVERLAY
-#overlay
+.overlay
 	position: fixed
 	top: 0
 	left: 0
@@ -667,8 +689,41 @@ h2.subtitle
 
 
 @media screen and (min-width: $screen-large)
-	#edit .input-select svg
-		display: none
+	#edit
+		width: 90%
+		height: 90%
+		margin: 1em auto
+		padding-top: 0
+		overflow: hidden
+		position: relative
+
+		h1
+			position: relative
+			border-radius: 0
+			display: block
+			margin-bottom: 0
+
+		.scrollable
+			padding-top: 1em
+			overflow: auto
+			position: absolute
+			top: 6em
+			bottom: 4em
+			left: 0
+			right: 0
+
+		.input-select svg
+			display: none
+
+		.row-buttons
+			position: absolute
+			left: 0
+			right: 0
+			bottom: 0
+			background-color: $body
+			border-top: 2px solid $stat
+			padding: 1em
+			margin: 0
 
 	h1
 		display: inline-block
@@ -704,6 +759,9 @@ h2.subtitle
 
 
 @media screen and (min-width: $screen-xlarge)
+	#edit
+		width: 70%
+
 	#tabs
 		padding-left: 23rem
 

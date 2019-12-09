@@ -124,14 +124,10 @@ export default class CharacterView extends React.Component {
 		}
 
 		// favourite icon
-		let fav = null;
-
-		if(character.favourite) {
-			fav = <svg className="star-filled outline" onClick={ this.removeFavourite.bind(this) }><use xlinkHref="#icon-star-full"></use></svg>;
-		}
-		else {
-			fav = <svg onClick={ this.addFavourite.bind(this) }><use xlinkHref="#icon-star-empty"></use></svg>;
-		}
+		let fav = character.favourite
+			? <svg className="star-filled outline" onClick={ this.removeFavourite.bind(this) }><use xlinkHref="#icon-star-full"></use></svg>
+			: <svg onClick={ this.addFavourite.bind(this) }><use xlinkHref="#icon-star-empty"></use></svg>
+		;
 
 		// get all of the character's skills and characteristics as a hash
 		let stats = {};
@@ -164,7 +160,7 @@ export default class CharacterView extends React.Component {
 		}
 
 		return <div className={ !this.props.visible ? "hidden" : null }>
-			<h1 data-adversary-type={ character.type } className={ character.devOnly ? "dev" : ""}>{ icon } { character.name }</h1>
+			<h1 data-adversary-type={ character.type } className={ character.devOnly || character.id.startsWith(CONFIG.ADVERSARY_ID) ? "dev" : ""}>{ icon } { character.name }</h1>
 			<h2 className="subtitle">
 				<span className={ character.type.toLowerCase() }>{ character.type }</span>
 				<svg onClick={ this.copyAdversary.bind(this) }><use xlinkHref="#icon-edit"></use></svg>

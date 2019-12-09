@@ -53,7 +53,7 @@ class App extends React.Component {
 
 			adversaries = adversaries.filter(a => ids.indexOf(a.id) == -1);
 
-			stored.forEach(a => adversaries.push(a));
+			stored.filter(a => a.id).forEach(a => adversaries.push(a));
 
 			let favourites = Store.local.get(CONFIG.FAVOURITE_STORE) || [];
 			let tags = ["minion", "rival", "nemesis"];
@@ -242,16 +242,12 @@ class App extends React.Component {
 			this.setState({ editMode: true, editAdversary: adversary });
 		});
 		dispatcher.register(CONFIG.ADVERSARY_CANCEL, () => {
-			console.log("CANCEL")
-
 			this.setState({
 				editMode: false,
 				editAdversary: null
 			});
 		});
 		dispatcher.register(CONFIG.ADVERSARY_SAVE, adversary => {
-			console.log("Saving...", adversary)
-
 			let tags = this.state.tags;
 
 			// add a tag to indicate that it's user defined
@@ -263,6 +259,13 @@ class App extends React.Component {
 				}
 			}
 
+			// add the adversary's type as a tag
+			let type = adversary.type.toLowerCase();
+
+			if(adversary.tags.indexOf(type) == -1) {
+				adversary.tags.push(type);
+			}
+
 			// clean up empty arrays
 			["weapons", "talents", "abilities"].forEach(key => {
 				if(key in adversary && adversary[key].length === 0) {
@@ -270,7 +273,7 @@ class App extends React.Component {
 				}
 			})
 
-			// save it to localhost
+			// save it to local storage
 			let stored = Store.local.get(CONFIG.ADVERSARY_STORE) || [];
 
 			stored = stored.filter(d => d.id != adversary.id);
@@ -332,7 +335,7 @@ class App extends React.Component {
 		let x = this.state.list != null ? this.state.list.length : 0;
 		let y = this.stores.adversaries != null ? this.stores.adversaries.all().length : 0;
 		let overlay = this.state.showAbout ?
-			<div id="overlay">
+			<div className="overlay">
 				<div className="panel">
 					<h3>About</h3>
 					<p>Star Wars Adversaries is an easily searchable database of adversaries for <a href="https://www.fantasyflightgames.com/">Fantasy Flight Games’</a> Star Wars Roleplaying Game.</p>
@@ -344,12 +347,14 @@ class App extends React.Component {
 			</div>
 			: null;
 
-		let content = this.state.editMode
-			? <CharacterEdit character={ this.state.editAdversary } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } tags={ this.state.tags } qualities={ this.stores.qualities } />
-			: <div>
-				{ this.state.selected.map((selected, index) => <CharacterView key={ index } character={ selected.character } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } visible={ index == this.state.selectedIndex } />)}
-				<Tabs tabs={ this.state.selected } selectedIndex={ this.state.selectedIndex } />
-			</div>;
+		let content = [<div>
+			{ this.state.selected.map((selected, index) => <CharacterView key={ index } character={ selected.character } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } visible={ index == this.state.selectedIndex } />)}
+			<Tabs tabs={ this.state.selected } selectedIndex={ this.state.selectedIndex } />
+		</div>];
+
+		if(this.state.editMode) {
+			content.push(<div className="overlay"><CharacterEdit character={ this.state.editAdversary } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } tags={ this.state.tags } qualities={ this.stores.qualities } /></div>);
+		}
 
 		return <div>
 			{ overlay }

@@ -10,7 +10,7 @@ import PanelCode from "./panel-code";
 
 import dispatcher from "lib/dispatcher";
 import * as CONFIG from "lib/config";
-import { sortByProperty } from "lib/utils";
+import { id, sortByProperty } from "lib/utils";
 
 const RANGED = 1;
 const MELEE = 0;
@@ -23,10 +23,9 @@ export default class CharacterEdit extends React.Component {
 		let baseCharacter = {
 			"name": "",
 			"type": "",
-			"description": "",
 			"characteristics": {},
 			"derived": {},
-			"skills": null,
+			"skills": {}, // this needs to work with minions as well
 			"talents": [],
 			"abilities": [],
 			"weapons": [],
@@ -46,7 +45,19 @@ export default class CharacterEdit extends React.Component {
 	}
 
 	save() {
-		dispatcher.dispatch(CONFIG.ADVERSARY_SAVE, this.state.character);
+		let character = this.state.character;
+
+		// create id for new characters
+		if(!character.id) {
+			character.id = CONFIG.ADVERSARY_ID + id(character.name);
+		}
+
+		// prefix id for editing an existing character
+		if(!character.id.startsWith(CONFIG.ADVERSARY_ID)) {
+			character.id = CONFIG.ADVERSARY_ID + character.id;
+		}
+
+		dispatcher.dispatch(CONFIG.ADVERSARY_SAVE, character);
 	}
 
 	cancel() {
@@ -235,49 +246,49 @@ location can be multiple select list
 		let tagComponents = Object.keys(tags).map(t => <InputSelectMulti label={ t } value={ character.tags } values={ tags[t] } handler={ this.setTags.bind(this) } />);
 
 		return <div id="edit">
-			<h1>Character</h1>
-			<InputText label="Name" value={ character.name } handler={ this.setValue("name").bind(this) } required={ true } />
-			<InputSelect label="Type" value={ character.type } values={ types } handler={ this.setValue("type").bind(this) } />
+			<h1>
+				Edit Character
+				<svg title="Cancel edit" onClick={ this.cancel.bind(this) }><use xlinkHref="#icon-cross"></use></svg>
+			</h1>
+			<div className="scrollable">
+				<InputText label="Name" value={ character.name } handler={ this.setValue("name").bind(this) } required={ true } />
+				<InputSelect label="Type" value={ character.type } values={ types } handler={ this.setValue("type").bind(this) } />
 
-			<div className="edit-panel">
-				<h2>Characteristics</h2>
-				{ this.characteristics.map(c => <InputText label={ c } value={ character.characteristics[c] } handler={ this.setDerivedValue("characteristics", c).bind(this) } required={ true } />) }
-			</div>
+				<div className="edit-panel">
+					<h2>Characteristics</h2>
+					{ this.characteristics.map(c => <InputText label={ c } value={ character.characteristics[c] } handler={ this.setDerivedValue("characteristics", c).bind(this) } required={ true } />) }
+				</div>
 
-			<div className="edit-panel">
-				<h2>Derived Characteristics</h2>
+				<div className="edit-panel">
+					<h2>Derived Characteristics</h2>
 
-				<InputText label="Soak" value={ character.derived.soak } handler={ this.setDerivedValue("derived", "soak").bind(this) } required={ true } />
-				<InputText label="Wound Threshold" value={ character.derived.wounds } handler={ this.setDerivedValue("derived", "wounds").bind(this) } required={ true } />
-				{ this.isNemesis() ? <InputText label="Strain Threshold" value={ character.derived.strain } handler={ this.setDerivedValue("derived", "strain").bind(this) } required={ true } /> : null }
-				<InputText label="Melee Defence" value={ character.derived.defence[MELEE] } handler={ this.setDefence(MELEE).bind(this) } />
-				<InputText label="Ranged Defence" value={ character.derived.defence[RANGED] } handler={ this.setDefence(RANGED).bind(this) } />
-			</div>
+					<InputText label="Soak" value={ character.derived.soak } handler={ this.setDerivedValue("derived", "soak").bind(this) } required={ true } />
+					<InputText label="Wound Threshold" value={ character.derived.wounds } handler={ this.setDerivedValue("derived", "wounds").bind(this) } required={ true } />
+					{ this.isNemesis() ? <InputText label="Strain Threshold" value={ character.derived.strain } handler={ this.setDerivedValue("derived", "strain").bind(this) } required={ true } /> : null }
+					<InputText label="Melee Defence" value={ character.derived.defence[MELEE] } handler={ this.setDefence(MELEE).bind(this) } />
+					<InputText label="Ranged Defence" value={ character.derived.defence[RANGED] } handler={ this.setDefence(RANGED).bind(this) } />
+				</div>
 
-			<div className="edit-panel">
-				<h2>Skills</h2>
-				{ skills.map(s => <InputText label={ s.name } value={ character.skills[s.name] } handler={ this.setDerivedValue("skills", s.name).bind(this) } />) }
-			</div>
+				<div className="edit-panel">
+					<h2>Skills</h2>
+					{ skills.map(s => <InputText label={ s.name } value={ character.skills[s.name] } handler={ this.setDerivedValue("skills", s.name).bind(this) } />) }
+				</div>
 
-			<PanelListEdit title="Weapons" list={ character.weapons } remove={ this.removeHandler("weapons").bind(this) }>
-				<PanelWeaponEdit list={ weapons } skills={ this.props.skills.filter(s => s.type == "Combat") } qualities={ this.props.qualities } handler={ this.addHandler("weapons").bind(this) } />
-			</PanelListEdit>
-			<PanelListEdit title="Talents" list={ character.talents } remove={ this.removeHandler("talents").bind(this) }>
-				<PanelTalentEdit list={ talents } title="Talent" handler={ this.addHandler("talents").bind(this) } />
-			</PanelListEdit>
-			<PanelListEdit title="Abilities" list={ character.abilities } remove={ this.removeHandler("abilities").bind(this) }>
-				<PanelTalentEdit list={ abilities } title="Ability" handler={ this.addHandler("abilities").bind(this) } />
-			</PanelListEdit>
+				<PanelListEdit title="Weapons" list={ character.weapons } remove={ this.removeHandler("weapons").bind(this) }>
+					<PanelWeaponEdit list={ weapons } skills={ this.props.skills.filter(s => s.type == "Combat") } qualities={ this.props.qualities } handler={ this.addHandler("weapons").bind(this) } />
+				</PanelListEdit>
+				<PanelListEdit title="Talents" list={ character.talents } remove={ this.removeHandler("talents").bind(this) }>
+					<PanelTalentEdit list={ talents } title="Talent" handler={ this.addHandler("talents").bind(this) } />
+				</PanelListEdit>
+				<PanelListEdit title="Abilities" list={ character.abilities } remove={ this.removeHandler("abilities").bind(this) }>
+					<PanelTalentEdit list={ abilities } title="Ability" handler={ this.addHandler("abilities").bind(this) } />
+				</PanelListEdit>
 
-			<div className="edit-panel">
-				<h2>Gear</h2>
-				<InputTextArea label="Gear" value={ character.gear } handler={ this.setValue("gear").bind(this) } />
-				<PanelCode />
-			</div>
-
-			<div className="edit-panel">
-				<h2>Tags</h2>
-				{ tagComponents }
+				<div className="edit-panel">
+					<h2>Gear</h2>
+					<InputTextArea label="Gear" value={ character.gear } handler={ this.setValue("gear").bind(this) } />
+					<PanelCode />
+				</div>
 			</div>
 
 			<div className="row-buttons">
@@ -285,5 +296,12 @@ location can be multiple select list
 				<button className="btn-cancel" onClick={ this.cancel.bind(this) }>Cancel</button>
 			</div>
 		</div>;
+
+		/*
+			<div className="edit-panel">
+				<h2>Tags</h2>
+				{ tagComponents }
+			</div>
+		*/
 	}
 }

@@ -123,7 +123,10 @@ export default class PanelWeaponEdit extends React.Component {
 		return <div>
 			<h3>Select Weapon</h3>
 			<InputSelect label="Weapon" value={ selected } values={ list } handler={ this.selectItem.bind(this) } required={ true } />
-			<button className="btn-full" disabled={ !this.state.selected } onClick={ this.add.bind(this) }>Select</button>
+			<button className="btn-full" disabled={ !this.state.selected } onClick={ this.add.bind(this) }>Add Selected Weapon</button>
+		</div>;
+
+		/*
 			<div className="divider"><span>OR</span></div>
 			<h3>Create Weapon</h3>
 			<InputText label="Name" value={ this.state.name } handler={ this.setName.bind(this) } required={ true } />
@@ -132,7 +135,7 @@ export default class PanelWeaponEdit extends React.Component {
 			<InputText label="Damage" value={ this.state.damage } handler={ this.setDamage.bind(this) } required={ true } note="Remember to add Brawn to damage for Melee or Brawl weapons." />
 			<InputText label="Critical" value={ this.state.critical } handler={ this.setCritical.bind(this) } />
 			<InputSelectMulti label="Qualities" value={ this.state.qualities } values={ qualities } handler={ this.setQualities.bind(this) } />
-			<button className="btn-full" disabled={ !this.state.isNew } onClick={ this.create.bind(this) }>Create</button>
-		</div>;
+			<button className="btn-full" disabled={ !this.state.isNew } onClick={ this.create.bind(this) }>Create New Weapon</button>
+			*/
 	}
 }

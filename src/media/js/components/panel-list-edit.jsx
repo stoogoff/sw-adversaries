@@ -31,7 +31,7 @@ export default class PanelListEdit extends React.Component {
 		return <div className="edit-panel edit-list">
 			<h2>{ this.props.title }</h2>
 			{ this.props.list.map((item, index) => <div className="row-input" data-index={ index }>
-					<span className="link">{ item.name || item }</span>
+					<span>{ item.name || item }</span>
 					<svg className="delete" onClick={ this.remove.bind(this) }><use xlinkHref="#icon-delete"></use></svg>
 				</div>
 			)}

@@ -313,6 +313,11 @@
 		"ranked": true
 	},
 	{
+		"name": "Deadly Accuracy (Ranged: Light)",
+		"description": "Add {Ranged: Light} to all damage from attacks using Ranged: Light.",
+		"ranked": true
+	},
+	{
 		"name": "Deadly Accuracy (Ranged: Heavy)",
 		"description": "Add {Ranged: Heavy} to all damage from attacks using Ranged: Heavy.",
 		"ranked": true
