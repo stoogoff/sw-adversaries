@@ -19,4 +19,8 @@ export const ADVERSARY_STORE = "swa-custom";
 export const ADVERSARY_TAG = "source:Mine";
 export const ADVERSARY_ID = "my-";
 
+export const MINION = "Minion";
+export const RIVAL = "Rival";
+export const NEMESIS = "Nemesis";
+
 export const COLOURS = ["blue", "green", "yellow", "orange", "red", "purple", "gray", "black"];

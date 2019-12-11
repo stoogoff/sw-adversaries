@@ -2,6 +2,7 @@
 import React from "react";
 import Remarkable from "remarkable";
 import { dice, id, symbolise, sortByProperty, minionSkill } from "lib/utils";
+import * as CONFIG from "lib/config";
 
 function getWeaponDetails(weapon, character, allSkills, aliveMinions) {
 	if(!("id" in weapon)) {
@@ -29,7 +30,7 @@ function getWeaponDetails(weapon, character, allSkills, aliveMinions) {
 	let stat = character.characteristics[skill.characteristic] || 0;
 	let value = character.skills[weapon.skill] || 0;
 
-	if(character.type == "Minion") {
+	if(character.type == CONFIG.MINION) {
 		value = minionSkill(aliveMinions, weapon.skill, character.skills);
 	}
 
@@ -134,7 +135,7 @@ export default class PanelWeapons extends React.Component {
 						<th>Weapon</th>
 						<th>Range</th>
 						<th>Damage</th>
-						<th className="hide-small hide-medium">Roll { character.type == "Minion"
+						<th className="hide-small hide-medium">Roll { character.type == CONFIG.MINION
 							? <small> (for { this.props.minions })</small>
 							: null }
 						</th>

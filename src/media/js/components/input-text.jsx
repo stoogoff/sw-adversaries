@@ -1,6 +1,6 @@
 
 import React from "react";
-import { id } from "../lib/utils";
+import { id, isNumeric } from "../lib/utils";
 
 class BaseInputText extends React.Component {
 	constructor(props) {
@@ -12,15 +12,32 @@ class BaseInputText extends React.Component {
 	}
 
 	handleChange(evt) {
+		let value = evt.target.value;
+
+		this.setState({
+			error: this.hasError(value)
+		});
+
 		if(this.props.handler) {
-			this.props.handler(evt.target.value);
+			this.props.handler(value);
 		}
 	}
 
 	handleBlur() {
 		this.setState({
-			error: this.props.required && this.props.value == ""
+			error: this.hasError(this.props.value)
 		});
+	}
+
+	hasError(value) {
+		let requiredError = this.props.required && value == "";
+		let formatError = false;
+
+		if(this.props.numeric && value != "") {
+			formatError = !isNumeric(value);
+		}
+
+		return requiredError || formatError;
 	}
 
 	getClassName() {

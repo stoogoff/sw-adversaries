@@ -43,6 +43,28 @@ export const unique = function unique(arr) {
 	return arr.filter((a, i) => arr.indexOf(a) == i);
 }
 
+export const isNumeric = function isNumeric(value) {
+	return /^\d+$/.test(value);
+}
+
+export const escapeHTML = function escapeHTML(str) {
+	const tagsToReplace = {
+		"<": "&lt;",
+		">": "&gt;"
+	};
+
+	return str.replace(/[<>]/g, tag => tagsToReplace[tag] || tag);
+}
+
+export const unescapeHTML = function escapeHTML(str) {
+	const tagsToReplace = {
+		"&lt;": "<",
+		"&gt;": ">"
+	};
+
+	return str.replace(/(&lt;|&gt;)/g, tag => tagsToReplace[tag] || tag);
+}
+
 export const minionSkill = function(minions, skill, skills) {
 	let value = 0;
 	let skillsHash = {};

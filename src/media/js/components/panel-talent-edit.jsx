@@ -3,7 +3,7 @@ import React from "react";
 import { InputText, InputTextArea } from "./input-text";
 import InputSelect from "./input-select";
 import PanelCode from "./panel-code";
-import { findByProperty, diceMap, symbolise } from "../lib/utils";
+import { findByProperty, diceMap, symbolise, isNumeric } from "../lib/utils";
 
 export default class PanelTalentEdit extends React.Component {
 	constructor(props) {
@@ -20,7 +20,7 @@ export default class PanelTalentEdit extends React.Component {
 
 	setRank(rank) {
 		this.setState({
-			rank: parseInt(rank)
+			rank: rank
 		});
 	}
 
@@ -53,7 +53,7 @@ export default class PanelTalentEdit extends React.Component {
 			let name = selected.name;
 
 			if(selected.ranked) {
-				name += " " + (this.state.rank || "1");
+				name += " " + this.state.rank;
 			}
 
 			this.props.handler(name);
@@ -88,6 +88,21 @@ export default class PanelTalentEdit extends React.Component {
 		});
 	}
 
+	canAddSelected() {
+		// no selected item so can't add
+		if(!this.state.selected) {
+			return false;
+		}
+
+		// a selected item which isn't ranked so can add
+		if(!this.state.selected.ranked) {
+			return true;
+		}
+
+		// can add if rank is filled in and is numeric
+		return this.state.rank != "" && isNumeric(this.state.rank);
+	}
+
 	render() {
 		let list = ["", ...this.props.list.map(i => i.name)];
 		let selected = this.state.selected ? this.state.selected.name : "";
@@ -96,10 +111,10 @@ export default class PanelTalentEdit extends React.Component {
 			<h3>Select { this.props.title }</h3>
 			<InputSelect label={ this.props.title } value={ selected } values={ list } handler={ this.selectItem.bind(this) } required={ true } />
 			{ this.state.selected && this.state.selected.ranked
-				? <InputText label="Rank" value={ this.state.rank } handler={ this.setRank.bind(this) } />
+				? <InputText label="Rank" value={ this.state.rank } handler={ this.setRank.bind(this) } required={ true } numeric={ true } />
 				: null
 			}
-			<button className="btn-full" disabled={ !this.state.selected } onClick={ this.add.bind(this) }>Add Selected { this.props.title }</button>
+			<button className="btn-full" disabled={ !this.canAddSelected() } onClick={ this.add.bind(this) }>Add Selected { this.props.title }</button>
 		</div>;
 
 		/*

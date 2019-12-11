@@ -136,7 +136,7 @@ export default class CharacterView extends React.Component {
 			stats[i] = character.characteristics[i];
 		}
 
-		if(character.type !== "Minion") {
+		if(character.type !== CONFIG.MINION) {
 			for(var i in character.skills) {
 				stats[i] = character.skills[i];
 			}
@@ -182,10 +182,10 @@ export default class CharacterView extends React.Component {
 					</div>
 					<div>
 						<h3>Wounds <small>Threshold | Current</small></h3>
-						<span>{ character.type === "Minion" ? character.derived.wounds * this.state.minions : character.derived.wounds } |</span>
+						<span>{ character.type === CONFIG.MINION ? character.derived.wounds * this.state.minions : character.derived.wounds } |</span>
 						<form style={{display: 'inline'}} onSubmit={this.setCurrentWounds.bind(this)}><input type="text" placeholder={this.state.currentWounds} maxLength="2" ref="currentWounds" /></form>
 					</div>
-					{ character.type === "Nemesis" ? <div><h3>Strain <small>Threshold | Current</small></h3><span>{ character.derived.strain } |</span><input type="text" defaultValue="0" maxLength="2" /></div> : null }
+					{ character.type === CONFIG.NEMESIS ? <div><h3>Strain <small>Threshold | Current</small></h3><span>{ character.derived.strain } |</span><input type="text" defaultValue="0" maxLength="2" /></div> : null }
 					<div>
 						<h3>Defence <small>&nbsp; Melee | Ranged</small></h3>
 						<span>{ defence }</span>

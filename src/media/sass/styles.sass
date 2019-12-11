@@ -534,6 +534,17 @@ h2.subtitle
 				position: relative
 				top: 0.1em
 
+	.input-checkbox
+		svg
+			float: none
+			margin: 0.4em 1em 0.1em
+
+		&.checked
+			background-color: lighten($link, 20%) !important
+			color: white
+
+		&:hover
+			background-color: $fadeInput
 
 	.input-select svg
 		position: absolute
@@ -546,7 +557,7 @@ h2.subtitle
 
 		.row-input
 			border-bottom: 1px solid lighten($heading, 30%)
-			margin: 0 0 0.1em
+			margin: 0
 
 			div
 				text-align: right

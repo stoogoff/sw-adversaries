@@ -1,6 +1,7 @@
 
 import React from "react";
 import { InputText, InputTextArea } from "./input-text";
+import InputCheckbox from "./input-checkbox";
 import InputSelect from "./input-select";
 import InputSelectMulti from "./input-select-multi";
 import PanelListEdit from "./panel-list-edit";
@@ -10,22 +11,27 @@ import PanelCode from "./panel-code";
 
 import dispatcher from "lib/dispatcher";
 import * as CONFIG from "lib/config";
-import { id, sortByProperty } from "lib/utils";
+import { id, sortByProperty, isNumeric, escapeHTML, unescapeHTML } from "lib/utils";
 
 const RANGED = 1;
 const MELEE = 0;
-
 
 export default class CharacterEdit extends React.Component {
 	constructor(props) {
 		super(props);
 
+		this.characteristics = ["Brawn", "Agility", "Intellect", "Cunning", "Willpower", "Presence"];
+		this.escapeFields = ["name", "description", "notes", "gear"];
+		this.types = [CONFIG.MINION, CONFIG.RIVAL, CONFIG.NEMESIS];
+
 		let baseCharacter = {
 			"name": "",
-			"type": "",
+			"description": "",
+			"notes": "",
+			"type": CONFIG.MINION,
 			"characteristics": {},
 			"derived": {},
-			"skills": {}, // this needs to work with minions as well
+			"skills": {},
 			"talents": [],
 			"abilities": [],
 			"weapons": [],
@@ -36,12 +42,13 @@ export default class CharacterEdit extends React.Component {
 		let editingCharacter = JSON.parse(JSON.stringify(Object.assign(baseCharacter, props.character)));
 
 		editingCharacter.derived.defence = editingCharacter.derived.defence || [0, 0];
+		editingCharacter.tags = []; // for now remove any tags as only "source:Mine" will be set
+		this.escapeFields.forEach(key => editingCharacter[key] = unescapeHTML(editingCharacter[key]));
 
 		this.state = {
 			character: editingCharacter
 		};
 
-		this.characteristics = ["Brawn", "Agility", "Intellect", "Cunning", "Willpower", "Presence"];
 	}
 
 	save() {
@@ -56,6 +63,9 @@ export default class CharacterEdit extends React.Component {
 		if(!character.id.startsWith(CONFIG.ADVERSARY_ID)) {
 			character.id = CONFIG.ADVERSARY_ID + character.id;
 		}
+
+		// escape HTML characters
+		this.escapeFields.forEach(key => character[key] = escapeHTML(character[key]));
 
 		dispatcher.dispatch(CONFIG.ADVERSARY_SAVE, character);
 	}
@@ -86,6 +96,28 @@ export default class CharacterEdit extends React.Component {
 				character: character
 			});
 		}
+	}
+
+	setType(type) {
+		let character = this.state.character;
+
+		if(character.type == CONFIG.MINION) {
+			// changing from a minion to something else so convert array of skills to object keys with a value of 1
+			let newSkills = {};
+
+			character.skills.forEach(s => newSkills[s] = 1);
+			character.skills = newSkills;
+		}
+		else if(type == CONFIG.MINION) {
+			// converting to a minion so convert skill object keys to an array to mark them as checked
+			character.skills = Object.keys(character.skills);
+		}
+
+		character.type = type;
+
+		this.setState({
+			character: character
+		});
 	}
 
 	setDefence(type) {
@@ -126,6 +158,22 @@ export default class CharacterEdit extends React.Component {
 		};
 	}
 
+	// add or remove a skill for minions
+	toggleMinionSkill(skill) {
+		let character = this.state.character;
+
+		if(character.skills.indexOf(skill) == -1) {
+			character.skills.push(skill);
+		}
+		else {
+			character.skills.splice(character.skills.indexOf(skill), 1);
+		}
+
+		this.setState({
+			character: character
+		});
+	}
+
 	setTags(val) {
 		let character = this.state.character;
 
@@ -142,7 +190,11 @@ export default class CharacterEdit extends React.Component {
 	}
 
 	isNemesis() {
-		return this.state.character.type == "Nemesis";
+		return this.state.character.type == CONFIG.NEMESIS;
+	}
+
+	isMinion() {
+		return this.state.character.type == CONFIG.MINION;
 	}
 
 	canSave() {
@@ -157,7 +209,7 @@ export default class CharacterEdit extends React.Component {
 		return [
 			...this.characteristics.map(c => this.state.character.characteristics[c]),
 			...derived.map(d => this.state.character.derived[d])
-		].filter(f => f != "").length == required;
+		].filter(f => f != "" && isNumeric(f)).length == required;
 	}
 
 	render() {
@@ -181,7 +233,7 @@ console.log(character)
 			-Defence
 			-Melee
 			-Ranged
-			-Skills - this needs to be a list with check boxes for minions
+			-Skills
 			Weapons (selector or add own)
 			- Talents (selector or add own)
 			- Abilities (selector or add own)
@@ -209,14 +261,20 @@ species should be a single select list
 location can be multiple select list
 
 
+TODO
 
+sanitise inputs
+make sure stats are numeric
+strip any HTML from long text fields
 
 
 			*/
 
 		
-		let skills = this.props.skills;
-		let types = ["Minion", "Rival", "Nemesis"];
+		let skills = this.isMinion()
+			? this.props.skills.map(s => <InputCheckbox label={ s.name } checked={ character.skills.indexOf(s.name) != -1 } handler={ this.toggleMinionSkill.bind(this) } />)
+			: this.props.skills.map(s => <InputText label={ s.name } value={ character.skills[s.name] } handler={ this.setDerivedValue("skills", s.name).bind(this) } numeric={ true } />)
+		;
 		let [talents, abilities] = ["talents", "abilities"].map(key => {
 			// remove rank from the end of the name
 			let noRanks = character[key].map(t => t.name || t).map(t => t.replace(/\s\d+$/, ""));
@@ -224,7 +282,8 @@ location can be multiple select list
 			return this.props.talents.filter(t => t.type == key).filter(t => noRanks.indexOf(t.name) == -1).sort(sortByProperty("name"));
 		});
 		let weapons = this.props.weapons.all().sort(sortByProperty("name"));
-		let tags = {
+
+/*		let tags = {
 			other: []
 		};
 
@@ -244,7 +303,7 @@ location can be multiple select list
 		});
 
 		let tagComponents = Object.keys(tags).map(t => <InputSelectMulti label={ t } value={ character.tags } values={ tags[t] } handler={ this.setTags.bind(this) } />);
-
+*/
 		return <div id="edit">
 			<h1>
 				Edit Character
@@ -252,26 +311,28 @@ location can be multiple select list
 			</h1>
 			<div className="scrollable">
 				<InputText label="Name" value={ character.name } handler={ this.setValue("name").bind(this) } required={ true } />
-				<InputSelect label="Type" value={ character.type } values={ types } handler={ this.setValue("type").bind(this) } />
+				<InputSelect label="Type" value={ character.type } values={ this.types } handler={ this.setType.bind(this) } />
+				<InputTextArea label="Description" value={ character.description } handler={ this.setValue("description").bind(this) } />
+				<InputTextArea label="Notes" value={ character.notes } handler={ this.setValue("notes").bind(this) } />
 
 				<div className="edit-panel">
 					<h2>Characteristics</h2>
-					{ this.characteristics.map(c => <InputText label={ c } value={ character.characteristics[c] } handler={ this.setDerivedValue("characteristics", c).bind(this) } required={ true } />) }
+					{ this.characteristics.map(c => <InputText label={ c } value={ character.characteristics[c] } handler={ this.setDerivedValue("characteristics", c).bind(this) } required={ true } numeric={ true } />) }
 				</div>
 
 				<div className="edit-panel">
 					<h2>Derived Characteristics</h2>
 
-					<InputText label="Soak" value={ character.derived.soak } handler={ this.setDerivedValue("derived", "soak").bind(this) } required={ true } />
-					<InputText label="Wound Threshold" value={ character.derived.wounds } handler={ this.setDerivedValue("derived", "wounds").bind(this) } required={ true } />
-					{ this.isNemesis() ? <InputText label="Strain Threshold" value={ character.derived.strain } handler={ this.setDerivedValue("derived", "strain").bind(this) } required={ true } /> : null }
-					<InputText label="Melee Defence" value={ character.derived.defence[MELEE] } handler={ this.setDefence(MELEE).bind(this) } />
-					<InputText label="Ranged Defence" value={ character.derived.defence[RANGED] } handler={ this.setDefence(RANGED).bind(this) } />
+					<InputText label="Soak" value={ character.derived.soak } handler={ this.setDerivedValue("derived", "soak").bind(this) } required={ true } numeric={ true } />
+					<InputText label="Wound Threshold" value={ character.derived.wounds } handler={ this.setDerivedValue("derived", "wounds").bind(this) } required={ true } numeric={ true } />
+					{ this.isNemesis() ? <InputText label="Strain Threshold" value={ character.derived.strain } handler={ this.setDerivedValue("derived", "strain").bind(this) } required={ true } numeric={ true } /> : null }
+					<InputText label="Melee Defence" value={ character.derived.defence[MELEE] } handler={ this.setDefence(MELEE).bind(this) } numeric={ true } />
+					<InputText label="Ranged Defence" value={ character.derived.defence[RANGED] } handler={ this.setDefence(RANGED).bind(this) } numeric={ true } />
 				</div>
 
 				<div className="edit-panel">
 					<h2>Skills</h2>
-					{ skills.map(s => <InputText label={ s.name } value={ character.skills[s.name] } handler={ this.setDerivedValue("skills", s.name).bind(this) } />) }
+					{ skills }
 				</div>
 
 				<PanelListEdit title="Weapons" list={ character.weapons } remove={ this.removeHandler("weapons").bind(this) }>
