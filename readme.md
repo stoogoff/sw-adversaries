@@ -191,6 +191,5 @@ Main tasks:
 
 - Favicon
 - Links between adversaries
-- Upgraded difficulties
 - Print multiple tabs
 

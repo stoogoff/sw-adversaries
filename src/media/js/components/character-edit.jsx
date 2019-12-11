@@ -31,11 +31,11 @@ export default class CharacterEdit extends React.Component {
 			"type": CONFIG.MINION,
 			"characteristics": {},
 			"derived": {},
-			"skills": {},
+			"skills": [],
 			"talents": [],
 			"abilities": [],
 			"weapons": [],
-			"gear": [],
+			"gear": "",
 			"tags": []
 		};
 
@@ -66,6 +66,15 @@ export default class CharacterEdit extends React.Component {
 
 		// escape HTML characters
 		this.escapeFields.forEach(key => character[key] = escapeHTML(character[key]));
+
+		// remove skills with a zero value
+		if(!this.isMinion()) {
+			Object.keys(character.skills).forEach(skill => {
+				if(character.skills[skill] == "") {
+					delete character.skills[skill];
+				}
+			});
+		}
 
 		dispatcher.dispatch(CONFIG.ADVERSARY_SAVE, character);
 	}
@@ -219,9 +228,6 @@ export default class CharacterEdit extends React.Component {
 			return null;
 		}
 
-
-console.log(character)
-
 /*
 
 			-Name
@@ -259,14 +265,6 @@ adventure should be entirely custom
 species should be a single select list
 
 location can be multiple select list
-
-
-TODO
-
-sanitise inputs
-make sure stats are numeric
-strip any HTML from long text fields
-
 
 			*/
 
@@ -316,6 +314,10 @@ strip any HTML from long text fields
 				<InputTextArea label="Notes" value={ character.notes } handler={ this.setValue("notes").bind(this) } />
 
 				<div className="edit-panel">
+					<p className="edit-panel">You can use simple Markdown commands in the Description and Notes fields to create <em>*italic*</em>, <strong>**bold**</strong>, or <code>`code`</code> text.</p>
+				</div>
+
+				<div className="edit-panel">
 					<h2>Characteristics</h2>
 					{ this.characteristics.map(c => <InputText label={ c } value={ character.characteristics[c] } handler={ this.setDerivedValue("characteristics", c).bind(this) } required={ true } numeric={ true } />) }
 				</div>
@@ -345,7 +347,7 @@ strip any HTML from long text fields
 					<PanelTalentEdit list={ abilities } title="Ability" handler={ this.addHandler("abilities").bind(this) } />
 				</PanelListEdit>
 
-				<div className="edit-panel">
+				<div className="edit-panel gear">
 					<h2>Gear</h2>
 					<InputTextArea label="Gear" value={ character.gear } handler={ this.setValue("gear").bind(this) } />
 					<PanelCode />

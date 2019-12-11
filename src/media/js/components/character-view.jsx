@@ -19,9 +19,18 @@ export default class CharacterView extends React.Component {
 			minions: 1,
 			currentWounds: 0,
 			aliveMinions: 1,
+			displayCharacterMenu: false
 		};
 
 		this.md = new Remarkable();
+	}
+
+	componentWillUpdate(nextProps, nextState) {
+		if(nextProps.character !== this.props.character) {
+			this.setState({
+				displayCharacterMenu: false
+			});
+		}
 	}
 
 	setMinions(minions) {
@@ -70,6 +79,10 @@ export default class CharacterView extends React.Component {
 		}
 
 		dispatcher.dispatch(CONFIG.FAVOURITE_ADD, character.id);
+
+		this.setState({
+			displayCharacterMenu: false
+		});
 	}
 
 	removeFavourite(id) {
@@ -80,16 +93,34 @@ export default class CharacterView extends React.Component {
 		}
 
 		dispatcher.dispatch(CONFIG.FAVOURITE_REMOVE, character.id);
+
+		this.toggleCharacterMenu();
+	}
+
+	createAdversary() {
+		dispatcher.dispatch(CONFIG.ADVERSARY_ADD);
+
+		this.toggleCharacterMenu();
 	}
 
 	copyAdversary(id) {
-		let character = this.props.character;
+		dispatcher.dispatch(CONFIG.ADVERSARY_COPY, this.props.character.id);
 
-		if(!character) {
-			return;
+		this.toggleCharacterMenu();
+	}
+
+	deleteAdversary() {
+		if(confirm("Are you sure you want to delete this adversary? This action cannot be undone.")) {
+			dispatcher.dispatch(CONFIG.ADVERSARY_DELETE, this.props.character.id);
 		}
 
-		dispatcher.dispatch(CONFIG.ADVERSARY_COPY, character.id);
+		this.toggleCharacterMenu();
+	}
+
+	toggleCharacterMenu() {
+		this.setState({
+			displayCharacterMenu: !this.state.displayCharacterMenu
+		});
 	}
 
 	render() {
@@ -123,12 +154,6 @@ export default class CharacterView extends React.Component {
 			icon = <svg><use xlinkHref="#first-order"></use></svg>;
 		}
 
-		// favourite icon
-		let fav = character.favourite
-			? <svg className="star-filled outline" onClick={ this.removeFavourite.bind(this) }><use xlinkHref="#icon-star-full"></use></svg>
-			: <svg onClick={ this.addFavourite.bind(this) }><use xlinkHref="#icon-star-empty"></use></svg>
-		;
-
 		// get all of the character's skills and characteristics as a hash
 		let stats = {};
 
@@ -159,12 +184,39 @@ export default class CharacterView extends React.Component {
 			source = `<p><em>${character.name} stats provided by ${owner} ${getSourceLink(sourceTag)}. Click to <a href="${url}">view original stats and descriptions</a>.</em></p>`;
 		}
 
+		// character menu options and state
+		let activeMenuState = this.state.displayCharacterMenu ? "active" : "";
+
+		// favourite menu item
+		let favLink = character.favourite
+			? <li onClick={ this.removeFavourite.bind(this) }><svg className="star-filled outline"><use xlinkHref="#icon-star-full"></use></svg> Remove Favourite</li>
+			: <li onClick={ this.addFavourite.bind(this) }><svg><use xlinkHref="#icon-star-empty"></use></svg> Add Favourite</li>
+		;
+
+		// edit or copy menu item
+		let copyLink = character.id.startsWith(CONFIG.ADVERSARY_ID)
+			? [<li onClick={ this.copyAdversary.bind(this) }><svg><use xlinkHref="#icon-edit"></use></svg> Edit</li>, <li onClick={ this.deleteAdversary.bind(this) }><svg><use xlinkHref="#icon-delete"></use></svg> Delete</li>]
+			: <li onClick={ this.copyAdversary.bind(this) }><svg><use xlinkHref="#icon-copy"></use></svg> Copy</li>
+		;
+
+		let favIcon = null;
+
+		if(character.favourite) {
+			favIcon = <svg className="star-filled outline"><use xlinkHref="#icon-star-full"></use></svg>;
+		}
+
 		return <div className={ !this.props.visible ? "hidden" : null }>
-			<h1 data-adversary-type={ character.type } className={ character.devOnly || character.id.startsWith(CONFIG.ADVERSARY_ID) ? "dev" : ""}>{ icon } { character.name }</h1>
+			<h1 data-adversary-type={ character.type } className={ character.devOnly || character.id.startsWith(CONFIG.ADVERSARY_ID) ? "dev" : ""}>{ icon } { character.name } { favIcon }</h1>
 			<h2 className="subtitle">
 				<span className={ character.type.toLowerCase() }>{ character.type }</span>
-				<svg onClick={ this.copyAdversary.bind(this) }><use xlinkHref="#icon-edit"></use></svg>
-				{ fav }
+				<span className={ "btn " + activeMenuState } onClick={ this.toggleCharacterMenu.bind(this) }><svg><use xlinkHref="#icon-menu"></use></svg></span>
+				<div id="menu-character" className={ activeMenuState }>
+					<ul>
+						<li onClick={ this.createAdversary.bind(this) }><svg><use xlinkHref="#icon-plus"></use></svg> Create New</li>
+						{ copyLink }
+						{ favLink }
+					</ul>
+				</div>
 			</h2>
 			<PanelText text={ character.description } />
 			{ character.notes ? <div className="text" dangerouslySetInnerHTML={ symbolise(this.md.render(`*${character.notes}*`)) }></div> : null }

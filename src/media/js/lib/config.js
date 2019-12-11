@@ -11,6 +11,7 @@ export const FAVOURITE_REMOVE = "fav-remove";
 export const FAVOURITE_STORE = "swa-favourites";
 export const FAVOURITE_KEY = "starred:";
 export const FAVOURITE_TAG = "starred";
+export const ADVERSARY_DELETE = "adversary-delete";
 export const ADVERSARY_COPY = "adversary-copy";
 export const ADVERSARY_ADD = "adversary-add";
 export const ADVERSARY_SAVE = "adversary-save";

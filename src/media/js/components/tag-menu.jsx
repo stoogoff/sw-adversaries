@@ -86,10 +86,6 @@ export default class TagMenu extends React.Component {
 		});
 	}
 
-	createAdversary() {
-		dispatcher.dispatch(CONFIG.ADVERSARY_ADD);
-	}
-
 	render() {
 		return <div id="menu">
 			<em>Star Wars: Adversaries</em>
@@ -101,7 +97,6 @@ export default class TagMenu extends React.Component {
 					</ul>
 				</li>;
 			})}
-			<li><small className="btn" onClick={ this.createAdversary.bind(this) }><svg><use xlinkHref="#icon-plus"></use></svg> Create New</small></li>
 			</ul>
 		</div>;
 	}

@@ -30,12 +30,10 @@ class BaseInputText extends React.Component {
 	}
 
 	hasError(value) {
-		let requiredError = this.props.required && value == "";
-		let formatError = false;
+		value = value || "";
 
-		if(this.props.numeric && value != "") {
-			formatError = !isNumeric(value);
-		}
+		let requiredError = this.props.required && value == "";
+		let formatError = this.props.numeric && value != "" ? !isNumeric(value) : false;
 
 		return requiredError || formatError;
 	}

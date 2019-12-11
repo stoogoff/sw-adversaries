@@ -25,7 +25,23 @@ h2.subtitle
 	font-size: 1.25rem
 	text-align: right
 	margin-right: 1rem
+	margin-bottom: 0
 	line-height: 1em
+
+	.btn
+		margin-left: 0.5em
+		padding: 0.2em 0.4em 0.2em 0.2em
+		border: 2px solid $body
+		position: relative
+		z-index: 20
+
+		&.hover
+			background-color: $tabBgColour
+
+		&.active
+			border-color: $derived
+			border-bottom-color: $tabBgColour
+			background-color: $tabBgColour
 
 	svg
 		margin-left: 0.3em
@@ -436,6 +452,36 @@ h2.subtitle
 		position: relative
 		top: 0.1em
 
+#menu-character
+	position: relative
+	top: -2px
+	z-index: 10
+	display: none
+
+	&.active
+		display: block
+
+	ul
+		background-color: $tabBgColour
+		border: 2px solid $derived
+		padding: 0.2em
+		margin-top: 0
+		margin-left: 1em
+		font-size: 0.9rem
+		text-transform: none
+		text-align: left
+
+		li
+			padding: 0.2em 0.2em 0.2em 0.5em
+			margin-bottom: 0.2em
+			cursor: pointer
+
+			svg
+				margin-right: 0.5em
+
+			&:hover
+				background-color: white
+
 
 // EDIT MODE
 #edit
@@ -459,6 +505,10 @@ h2.subtitle
 			font-size: 1rem
 			top: 2em
 			right: 1em
+
+	.gear .row-input
+		padding-left: 0
+		border-bottom: 0
 
 	.row-input
 		position: relative
@@ -669,6 +719,11 @@ h2.subtitle
 	#characteristics
 		width: 25.3em
 
+	#menu-character ul
+		position: absolute
+		right: 0
+		min-width: 14em
+
 	#derived div
 		float: left
 		margin-right: 1rem
@@ -743,7 +798,7 @@ h2.subtitle
 		top: 1em
 
 	h2.subtitle
-		margin: 1.6em 3em 2.5em 0
+		margin: 1.6em 3em 1.5em 0
 
 	#characteristics
 		margin: 0

@@ -282,12 +282,6 @@ class App extends React.Component {
 
 			Store.local.set(CONFIG.ADVERSARY_STORE, stored);
 
-			// replace the edited item with this item
-			let index = this.state.selectedIndex;
-			let tab = this.state.selected[index];
-
-			tab.character = adversary;
-
 			// update the data store
 			let adversaries = this.stores.adversaries.all().filter(a => a.id != adversary.id);
 
@@ -300,6 +294,42 @@ class App extends React.Component {
 				editAdversary: null,
 				tags: tags
 			});
+
+			this.selectAdversary(adversary);
+		});
+		dispatcher.register(CONFIG.ADVERSARY_DELETE, id => {
+			this.stores.adversaries.data = this.stores.adversaries.filter(f => f.id != id);
+
+			// remove from local store
+			let stored = Store.local.get(CONFIG.ADVERSARY_STORE) || [];
+
+			stored = stored.filter(d => d.id != id);
+
+			Store.local.set(CONFIG.ADVERSARY_STORE, stored);
+
+			// remove from filtered navigation list
+			let list = this.state.list.filter(f => f.id != id);
+
+			if(list.length === 0) {
+				// empty list so remove the filter
+				list = this.stores.adversaries.all();
+
+				// TODO this should be managed in App and passed as a prop to Filter
+				dispatcher.dispatch(CONFIG.MENU_FILTER, "");
+			}
+
+			// update tags in case there are no more characters with the ADVERSARY_TAG tag
+			let tags = unique(this.stores.adversaries.map(a => a.tags).flat());
+
+			this.setState({
+				editMode: false,
+				editAdversary: null,
+				selected: this.state.selected,
+				list: list,
+				tags: tags
+			});
+
+			this.selectAdversary(list[0]);
 		});
 	}
 
