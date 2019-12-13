@@ -228,47 +228,6 @@ export default class CharacterEdit extends React.Component {
 			return null;
 		}
 
-/*
-
-			-Name
-			-Type
-			-Characteristics
-			-Soak
-			-Wound Threshold
-			-Strain Threshold
-			-Defence
-			-Melee
-			-Ranged
-			-Skills
-			Weapons (selector or add own)
-			- Talents (selector or add own)
-			- Abilities (selector or add own)
-			-Gear
-			Tags (selector or add own - do these need to be separated out?)
-
-
-			Weapon qualities - some are ranked and the UI will need to account for this
-			What to do about deleting and general managing of characters?
-
-Tags
-
-remove tag and insert automatically
-	type
-	source (mine)
-exclude
-	file
-	book
-	starred
-
-adventure should be entirely custom
-
-species should be a single select list
-
-location can be multiple select list
-
-			*/
-
-		
 		let skills = this.isMinion()
 			? this.props.skills.map(s => <InputCheckbox label={ s.name } checked={ character.skills.indexOf(s.name) != -1 } handler={ this.toggleMinionSkill.bind(this) } />)
 			: this.props.skills.map(s => <InputText label={ s.name } value={ character.skills[s.name] } handler={ this.setDerivedValue("skills", s.name).bind(this) } numeric={ true } />)
@@ -281,27 +240,6 @@ location can be multiple select list
 		});
 		let weapons = this.props.weapons.all().sort(sortByProperty("name"));
 
-/*		let tags = {
-			other: []
-		};
-
-		// remove some tags to be handled separately
-		let exclude = ["file:", "book:", "source:", "adventure:", "starred:", "nemesis", "minion", "rival"]
-
-		this.props.tags.sort().filter(f => exclude.filter(ex => f.startsWith(ex)).length == 0).forEach(t => {
-			if(t.indexOf(":") == -1) {
-				tags.other.push(t);
-			}
-			else {
-				let [key, value] = t.split(":");
-
-				tags[key] = tags[key] || [];
-				tags[key].push(value);
-			}
-		});
-
-		let tagComponents = Object.keys(tags).map(t => <InputSelectMulti label={ t } value={ character.tags } values={ tags[t] } handler={ this.setTags.bind(this) } />);
-*/
 		return <div id="edit">
 			<h1>
 				Edit Character
@@ -359,12 +297,5 @@ location can be multiple select list
 				<button className="btn-cancel" onClick={ this.cancel.bind(this) }>Cancel</button>
 			</div>
 		</div>;
-
-		/*
-			<div className="edit-panel">
-				<h2>Tags</h2>
-				{ tagComponents }
-			</div>
-		*/
 	}
 }
