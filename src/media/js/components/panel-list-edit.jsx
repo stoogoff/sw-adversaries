@@ -36,7 +36,7 @@ export default class PanelListEdit extends React.Component {
 				</div>
 			)}
 			{this.state.displayAddPanel
-				? <div><svg className="btn close" title="Close panel" onClick={ this.toggleAddPanel.bind(this) }><use xlinkHref="#icon-cross"></use></svg>{ this.props.children }</div>
+				? <div><span className="btn close" title="Close panel" onClick={ this.toggleAddPanel.bind(this) }><svg><use xlinkHref="#icon-cross"></use></svg> Close Panel</span> { this.props.children }</div>
 				: <button className="btn-full" disabled={ this.state.displayAddPanel } onClick={ this.toggleAddPanel.bind(this) }>Add</button>
 			}
 		</div>;
