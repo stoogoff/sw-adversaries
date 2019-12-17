@@ -37,7 +37,7 @@ class App extends React.Component {
 		this.loadedTotal = 0;
 
 		["skills", "adversaries", "weapons", "talents", "qualities"].forEach(key => {
-			this.stores[key] = new DataStore(`media/data/${key}.json`);
+			this.stores[key] = new DataStore(`/${ENV_VERSION}/media/data/${key}.json`);
 			this.stores[key].load(() => this.loadedTotal++);
 		});
 	}

@@ -1,37 +1,49 @@
 
 // requires
-var gulp = require("gulp");
-var clean = require("gulp-clean");
-var babel = require("gulp-babel");
-var sass = require("gulp-sass");
-var combine = require("gulp-jsoncombine");
-var merge = require("merge-stream");
-var preprocess = require("gulp-preprocess");
-var s3 = require("gulp-s3");
-var gzip = require("gulp-gzip");
+const path = require("path");
+const fs = require("fs");
 
+// gulp requires
+const gulp = require("gulp");
+const clean = require("gulp-clean");
+const babel = require("gulp-babel");
+const sass = require("gulp-sass");
+const combine = require("gulp-jsoncombine");
+const merge = require("merge-stream");
+const preprocess = require("gulp-preprocess");
+const s3 = require("gulp-s3");
+const gzip = require("gulp-gzip");
+
+// current app version
+const VERSION = fs.readFileSync(path.join(__dirname, "VERSION"), "utf8");
 
 // global config
-var isDev = true;
-var path = {
+let isDev = true;
+const TARGET = {
 	src: function(p) {
-		return "../src/" + p;
+		return path.join("../src", p);
 	},
 	dest: function(p) {
-		return (isDev ? "../dev/" : "../live/") + p;
+		let target = isDev ? "../dev" : "../live";
+
+		if(p != "") {
+			target = path.join(target, VERSION);
+		}
+
+		return path.join(target, p);
 	},
 	module: function(p) {
-		return path.root("/node_modules/" + p);
+		return TARGET.root(path.join("node_modules", p));
 	},
 	root: function(p) {
-		return __dirname + p;
+		return path.join(__dirname, p);
 	}
 };
 
 
 // completely clear out the base directory
 gulp.task("clean", function() {
-	return gulp.src(path.dest(""), {
+	return gulp.src(TARGET.dest(""), {
 		read: false
 	}).pipe(clean({
 		force: true
@@ -40,30 +52,30 @@ gulp.task("clean", function() {
 
 // sass task
 gulp.task("sass", function() {
-	return gulp.src(path.src("/media/sass/*.sass"))
+	return gulp.src(TARGET.src("/media/sass/*.sass"))
 		.pipe(sass({
 			indentedSyntax: true,
 			outputStyle: isDev ? "expanded" : "compressed"
 		}).on("error", sass.logError))
-		.pipe(gulp.dest(path.dest("media/css/")));
+		.pipe(gulp.dest(TARGET.dest("media/css/")));
 });
 
 
 // use babel to convert js
 gulp.task("transpile-js", function() {
-	return gulp.src(path.src("media/js/**/*.*"))
+	return gulp.src(TARGET.src("media/js/**/*.*"))
 		.pipe(babel({
-			presets: [path.module("babel-preset-es2015"), path.module("babel-preset-react")],
-			plugins: [path.module("babel-plugin-transform-es2015-modules-systemjs")],
+			presets: [TARGET.module("babel-preset-es2015"), TARGET.module("babel-preset-react")],
+			plugins: [TARGET.module("babel-plugin-transform-es2015-modules-systemjs")],
 			minified: !isDev
 		}))
-		.pipe(gulp.dest(path.dest("media/js")));
+		.pipe(gulp.dest(TARGET.dest("media/js")));
 });
 
 // merge folders of json data into a single file
 gulp.task("merge-data", function() {
-	var mapped = ["adversaries", "qualities", "talents"].map(function(m) {
-		return gulp.src(path.src("media/data/" + m + "/*.json")).pipe(combine(m + ".json", function(data, metaData) {
+	let mapped = ["adversaries", "qualities", "talents"].map(function(m) {
+		return gulp.src(TARGET.src("media/data/" + m + "/*.json")).pipe(combine(m + ".json", function(data, metaData) {
 			// add the file the adversary is in in dev mode only
 			if(isDev && m == "adversaries") {
 				Object.keys(data).forEach(function(k) {
@@ -82,14 +94,14 @@ gulp.task("merge-data", function() {
 				});
 			}
 
-			var output = [];
+			let output = [];
 
-			for(var i in data) {
+			for(let i in data) {
 				output = output.concat(data[i]);
 			}
 
 			if(!isDev && m == "adversaries") {
-				for(var i = 0, len = output.length; i < len; ++i) {
+				for(let i = 0, len = output.length; i < len; ++i) {
 					if("description" in output[i]) {
 						delete output[i]["description"];
 					}
@@ -101,7 +113,7 @@ gulp.task("merge-data", function() {
 			}
 
 			if(m == "adversaries") {
-				for(var i = 0, len = output.length; i < len; ++i) {
+				for(let i = 0, len = output.length; i < len; ++i) {
 					if("gear" in output[i]) {
 						output[i].gear = output[i].gear.join(", ");
 					}
@@ -115,7 +127,7 @@ gulp.task("merge-data", function() {
 			}
 
 			return new Buffer(JSON.stringify(output));
-		})).pipe(gulp.dest(path.dest("media/data/")));
+		})).pipe(gulp.dest(TARGET.dest("media/data/")));
 	});
 
 	return merge.apply(null, mapped);
@@ -123,35 +135,36 @@ gulp.task("merge-data", function() {
 
 // copy js libs
 gulp.task("copy-vendor", function() {
-	var modules = [
-		path.module("systemjs/dist/system.js"),
-		path.module("babel-polyfill/dist/polyfill.js"),
-		path.module("react/umd/react.production.min.js"),
-		path.module("react-dom/umd/react-dom.production.min.js"),
-		path.module("remarkable/dist/remarkable.min.js")
+	let modules = [
+		TARGET.module("systemjs/dist/system.js"),
+		TARGET.module("babel-polyfill/dist/polyfill.js"),
+		TARGET.module("react/umd/react.production.min.js"),
+		TARGET.module("react-dom/umd/react-dom.production.min.js"),
+		TARGET.module("remarkable/dist/remarkable.min.js")
 	];
 
-	return gulp.src(modules).pipe(gulp.dest(path.dest("media/js/vendor")));
+	return gulp.src(modules).pipe(gulp.dest(TARGET.dest("media/js/vendor")));
 });
 
 
 gulp.task("copy-data", ["merge-data"], function() {
-	return gulp.src(path.src("media/data/*.json")).pipe(gulp.dest(path.dest("media/data")));
+	return gulp.src(TARGET.src("media/data/*.json")).pipe(gulp.dest(TARGET.dest("media/data")));
 });
 
 // copy static html files and font files
 gulp.task("copy-static", function() {
-	return gulp.src(path.src("index.html"))
+	return gulp.src(TARGET.src("index.html"))
 		.pipe(preprocess({
 			context: {
-				ENV_LIVE: !isDev
+				ENV_LIVE: !isDev,
+				ENV_VERSION: VERSION
 			}
 		}))
-		.pipe(gulp.dest(path.dest("")));
+		.pipe(gulp.dest(TARGET.dest("")));
 });
 
 gulp.task("copy-font", function() {
-	return gulp.src(path.src("media/fonts/**")).pipe(gulp.dest(path.dest("media/fonts")));
+	return gulp.src(TARGET.src("media/fonts/**")).pipe(gulp.dest(TARGET.dest("media/fonts")));
 });
 
 gulp.task("live", function() {
@@ -169,17 +182,17 @@ gulp.task("dev", function() {
 gulp.task("build", ["transpile-js", "copy-vendor", "copy-data", "copy-static", "copy-font", "sass"]);
 
 gulp.task("watch", ["dev"], function() {
-	gulp.watch(path.src("/index.html"), ["copy-static"]);
-	gulp.watch(path.src("/media/sass/**"), ["sass"]);
-	gulp.watch(path.src("/media/data/**"), ["copy-data"]);
-	gulp.watch(path.src("/media/js/**"), ["transpile-js"]);
+	gulp.watch(TARGET.src("/index.html"), ["copy-static"]);
+	gulp.watch(TARGET.src("/media/sass/**"), ["sass"]);
+	gulp.watch(TARGET.src("/media/data/**"), ["copy-data"]);
+	gulp.watch(TARGET.src("/media/js/**"), ["transpile-js"]);
 });
 
 // deploy everything to an Amazon S3 bucket
 gulp.task("deploy", ["live"], function() {
-	var aws = require("./aws.json");
+	let aws = require("./aws.json");
 
-	return gulp.src(path.dest("**"))
+	return gulp.src(TARGET.dest("**"))
 		.pipe(gzip())
 		.pipe(s3(aws, {
 			gzippedOnly: true
