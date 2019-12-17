@@ -1,10 +1,10 @@
 
 import React from "react";
-import { InputText, InputTextArea } from "./input-text";
-import InputSelect from "./input-select";
+import { TextInput, TextArea } from "./input/text";
+import Select from "./input/select";
 import PanelCode from "./panel-code";
 import * as CONFIG from "lib/config";
-import { findByProperty, diceMap, symbolise, isNumeric, id } from "../lib/utils";
+import { findByProperty, isNumeric, id } from "../lib/utils";
 
 export default class PanelTalentEdit extends React.Component {
 	constructor(props) {
@@ -144,34 +144,31 @@ export default class PanelTalentEdit extends React.Component {
 	render() {
 		let list = ["", ...this.props.list.map(i => i.name)];
 		let selected = this.state.selected ? this.state.selected.name : "";
+		let title = (this.props.editing ? "Edit" : "Create") + " " + this.props.title;
+		let button = (this.props.editing ? "Save" : "Add New") + " " + this.props.title;
+		let form = <div>
+			<h3> { title }</h3>
+			<TextInput label="Name" value={ this.state.name } handler={ this.setName.bind(this) } required={ true } />
+			<TextInput label="Rank" value={ this.state.rank } handler={ this.setRank.bind(this) } />
+			<TextArea label="Description" value={ this.state.description } handler={ this.setDesc.bind(this) } required={ true } />
+			<button className="btn-full" disabled={ !this.state.isNew } onClick={ this.create.bind(this) }>{ button }</button>
+			<PanelCode />
+		</div>;
 
 		return <div>
 			{ this.props.editing 
-				?
-				<div>
-					<h3>Edit { this.props.title }</h3>
-					<InputText label="Name" value={ this.state.name } handler={ this.setName.bind(this) } required={ true } />
-					<InputText label="Rank" value={ this.state.rank } handler={ this.setRank.bind(this) } />
-					<InputTextArea label="Description" value={ this.state.description } handler={ this.setDesc.bind(this) } required={ true } />
-					<button className="btn-full" disabled={ !this.state.isNew } onClick={ this.create.bind(this) }>Edit { this.props.title }</button>
-					<PanelCode />
-				</div>
+				? form
 				:
 				<div>
 					<h3>Select { this.props.title }</h3>
-					<InputSelect label={ this.props.title } value={ selected } values={ list } handler={ this.selectItem.bind(this) } required={ true } />
+					<Select label={ this.props.title } value={ selected } values={ list } handler={ this.selectItem.bind(this) } required={ true } />
 					{ this.state.selected && this.state.selected.ranked
-						? <InputText label="Rank" value={ this.state.rank } handler={ this.setRank.bind(this) } required={ true } numeric={ true } />
+						? <TextInput label="Rank" value={ this.state.rank } handler={ this.setRank.bind(this) } required={ true } numeric={ true } />
 						: null
 					}
 					<button className="btn-full" disabled={ !this.canAddSelected() } onClick={ this.add.bind(this) }>Add Selected { this.props.title }</button>
 					<div className="divider"><span>OR</span></div>
-					<h3>Create { this.props.title }</h3>
-					<InputText label="Name" value={ this.state.name } handler={ this.setName.bind(this) } required={ true } />
-					<InputText label="Rank" value={ this.state.rank } handler={ this.setRank.bind(this) } />
-					<InputTextArea label="Description" value={ this.state.description } handler={ this.setDesc.bind(this) } required={ true } />
-					<button className="btn-full" disabled={ !this.state.isNew } onClick={ this.create.bind(this) }>Create New { this.props.title }</button>
-					<PanelCode />
+					{ form }
 				</div>
 			}
 		</div>;

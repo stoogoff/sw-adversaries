@@ -1,17 +1,17 @@
 
 import React from "react";
-import { InputText, InputTextArea } from "./input-text";
-import InputCheckbox from "./input-checkbox";
-import InputSelect from "./input-select";
-import InputSelectMulti from "./input-select-multi";
+import { TextInput, TextArea } from "./input/text";
+import Checkbox from "./input/checkbox";
+import Select from "./input/select";
 import PanelListEdit from "./panel-list-edit";
 import PanelTalentEdit from "./panel-talent-edit";
 import PanelWeaponEdit from "./panel-weapon-edit";
 import PanelCode from "./panel-code";
+import PanelSkillEdit from "./panel-skill-edit";
 
 import dispatcher from "lib/dispatcher";
 import * as CONFIG from "lib/config";
-import { id, sortByProperty, isNumeric, escapeHTML, unescapeHTML, sentenceCase } from "lib/utils";
+import { id, sortByProperty, isNumeric, escapeHTML, unescapeHTML, sentenceCase, characteristics } from "lib/utils";
 
 const RANGED = 1;
 const MELEE = 0;
@@ -20,7 +20,6 @@ export default class CharacterEdit extends React.Component {
 	constructor(props) {
 		super(props);
 
-		this.characteristics = ["Brawn", "Agility", "Intellect", "Cunning", "Willpower", "Presence"];
 		this.escapeFields = ["name", "description", "notes", "gear"];
 		this.types = [CONFIG.MINION, CONFIG.RIVAL, CONFIG.NEMESIS];
 
@@ -49,7 +48,8 @@ export default class CharacterEdit extends React.Component {
 			character: editingCharacter,
 			editingWeapons: null,
 			editingTalents: null,
-			editingAbilities: null
+			editingAbilities: null,
+			showAddSkill: false
 		};
 	}
 
@@ -149,6 +149,7 @@ export default class CharacterEdit extends React.Component {
 			let character = this.state.character;
 			let key = "editing" + sentenceCase(attr);
 
+			// remove the item if it's already in the array
 			if(this.state[key]) {
 				character[attr] = character[attr].filter(f => f.id != item.id)
 			}
@@ -226,6 +227,12 @@ export default class CharacterEdit extends React.Component {
 		return this.state.character.type == CONFIG.MINION;
 	}
 
+	showAddSkill() {
+		this.setState({
+			showAddSkill: true
+		});
+	}
+
 	canSave() {
 		let derived = ["soak", "wounds"];
 
@@ -233,10 +240,10 @@ export default class CharacterEdit extends React.Component {
 			derived.push("strain");
 		}
 
-		let required = this.characteristics.length + derived.length;
+		let required = characteristics.length + derived.length;
 
 		return [
-			...this.characteristics.map(c => this.state.character.characteristics[c]),
+			...characteristics.map(c => this.state.character.characteristics[c]),
 			...derived.map(d => this.state.character.derived[d])
 		].filter(f => f != "" && isNumeric(f)).length == required;
 	}
@@ -249,8 +256,8 @@ export default class CharacterEdit extends React.Component {
 		}
 
 		let skills = this.isMinion()
-			? this.props.skills.map(s => <InputCheckbox label={ s.name } checked={ character.skills.indexOf(s.name) != -1 } handler={ this.toggleMinionSkill.bind(this) } />)
-			: this.props.skills.map(s => <InputText label={ s.name } value={ character.skills[s.name] } handler={ this.setDerivedValue("skills", s.name).bind(this) } numeric={ true } />)
+			? this.props.skills.map(s => <Checkbox label={ s.name } checked={ character.skills.indexOf(s.name) != -1 } handler={ this.toggleMinionSkill.bind(this) } />)
+			: this.props.skills.map(s => <TextInput label={ s.name } value={ character.skills[s.name] } handler={ this.setDerivedValue("skills", s.name).bind(this) } numeric={ true } />)
 		;
 		let [talents, abilities] = ["talents", "abilities"].map(key => {
 			// remove rank from the end of the name
@@ -266,10 +273,10 @@ export default class CharacterEdit extends React.Component {
 				<svg title="Cancel edit" onClick={ this.cancel.bind(this) }><use xlinkHref="#icon-cross"></use></svg>
 			</h1>
 			<div className="scrollable">
-				<InputText label="Name" value={ character.name } handler={ this.setValue("name").bind(this) } required={ true } />
-				<InputSelect label="Type" value={ character.type } values={ this.types } handler={ this.setType.bind(this) } />
-				<InputTextArea label="Description" value={ character.description } handler={ this.setValue("description").bind(this) } />
-				<InputTextArea label="Notes" value={ character.notes } handler={ this.setValue("notes").bind(this) } />
+				<TextInput label="Name" value={ character.name } handler={ this.setValue("name").bind(this) } required={ true } />
+				<Select label="Type" value={ character.type } values={ this.types } handler={ this.setType.bind(this) } />
+				<TextArea label="Description" value={ character.description } handler={ this.setValue("description").bind(this) } />
+				<TextArea label="Notes" value={ character.notes } handler={ this.setValue("notes").bind(this) } />
 
 				<div className="edit-panel">
 					<p className="edit-panel">You can use simple Markdown commands in the Description and Notes fields to create <em>*italic*</em>, <strong>**bold**</strong>, or <code>`code`</code> text.</p>
@@ -277,26 +284,29 @@ export default class CharacterEdit extends React.Component {
 
 				<div className="edit-panel">
 					<h2>Characteristics</h2>
-					{ this.characteristics.map(c => <InputText label={ c } value={ character.characteristics[c] } handler={ this.setDerivedValue("characteristics", c).bind(this) } required={ true } numeric={ true } />) }
+					{ characteristics.map(c => <TextInput label={ c } value={ character.characteristics[c] } handler={ this.setDerivedValue("characteristics", c).bind(this) } required={ true } numeric={ true } />) }
 				</div>
 
 				<div className="edit-panel">
 					<h2>Derived Characteristics</h2>
 
-					<InputText label="Soak" value={ character.derived.soak } handler={ this.setDerivedValue("derived", "soak").bind(this) } required={ true } numeric={ true } />
-					<InputText label="Wound Threshold" value={ character.derived.wounds } handler={ this.setDerivedValue("derived", "wounds").bind(this) } required={ true } numeric={ true } />
-					{ this.isNemesis() ? <InputText label="Strain Threshold" value={ character.derived.strain } handler={ this.setDerivedValue("derived", "strain").bind(this) } required={ true } numeric={ true } /> : null }
-					<InputText label="Melee Defence" value={ character.derived.defence[MELEE] } handler={ this.setDefence(MELEE).bind(this) } numeric={ true } />
-					<InputText label="Ranged Defence" value={ character.derived.defence[RANGED] } handler={ this.setDefence(RANGED).bind(this) } numeric={ true } />
+					<TextInput label="Soak" value={ character.derived.soak } handler={ this.setDerivedValue("derived", "soak").bind(this) } required={ true } numeric={ true } />
+					<TextInput label="Wound Threshold" value={ character.derived.wounds } handler={ this.setDerivedValue("derived", "wounds").bind(this) } required={ true } numeric={ true } />
+					{ this.isNemesis() ? <TextInput label="Strain Threshold" value={ character.derived.strain } handler={ this.setDerivedValue("derived", "strain").bind(this) } required={ true } numeric={ true } /> : null }
+					<TextInput label="Melee Defence" value={ character.derived.defence[MELEE] } handler={ this.setDefence(MELEE).bind(this) } numeric={ true } />
+					<TextInput label="Ranged Defence" value={ character.derived.defence[RANGED] } handler={ this.setDefence(RANGED).bind(this) } numeric={ true } />
 				</div>
 
 				<div className="edit-panel">
 					<h2>Skills</h2>
 					{ skills }
 				</div>
+				<PanelListEdit title="" list={ [] } onClose={ () => this.setState({ editingWeapons: null }) }>
+					<PanelSkillEdit />
+				</PanelListEdit>
 
-				<PanelListEdit title="Weapons" list={ character.weapons } remove={ this.removeHandler("weapons").bind(this) } onClose={ () => this.setState({ editingWeapons: null }) }>
-					<PanelWeaponEdit list={ weapons } skills={ this.props.skills.filter(s => s.type == "Combat") } qualities={ this.props.qualities } handler={ this.addHandler("weapons").bind(this) } />
+				<PanelListEdit title="Weapons" list={ character.weapons } remove={ this.removeHandler("weapons").bind(this) } edit={ this.editHandler("weapons").bind(this) } onClose={ () => this.setState({ editingWeapons: null }) }>
+					<PanelWeaponEdit list={ weapons } skills={ this.props.skills.filter(s => s.type == "Combat") } qualities={ this.props.qualities } editing={ this.state.editingWeapons } handler={ this.addHandler("weapons").bind(this) } />
 				</PanelListEdit>
 				<PanelListEdit title="Talents" list={ character.talents } remove={ this.removeHandler("talents").bind(this) } edit={ this.editHandler("talents").bind(this) } onClose={ () => this.setState({ editingTalents: null }) }>
 					<PanelTalentEdit list={ talents } title="Talent" editing={ this.state.editingTalents } handler={ this.addHandler("talents").bind(this) } />
@@ -307,7 +317,7 @@ export default class CharacterEdit extends React.Component {
 
 				<div className="edit-panel gear">
 					<h2>Gear</h2>
-					<InputTextArea label="Gear" value={ character.gear } handler={ this.setValue("gear").bind(this) } />
+					<TextArea label="Gear" value={ character.gear } handler={ this.setValue("gear").bind(this) } />
 					<PanelCode />
 				</div>
 			</div>

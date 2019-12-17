@@ -1,8 +1,8 @@
 
 import React from "react";
-import { id } from "../lib/utils";
+import { id } from "../../lib/utils";
 
-export default class InputSelect extends React.Component {
+export default class Select extends React.Component {
 	handleChange(evt) {
 		if(this.props.handler) {
 			this.props.handler(evt.target.value);

@@ -1,8 +1,8 @@
 
 import React from "react";
-import { id } from "../lib/utils";
+import { id } from "../../lib/utils";
 
-export default class InputCheckbox extends React.Component {
+export default class Checkbox extends React.Component {
 	handleChange(evt) {
 		if(this.props.handler) {
 			this.props.handler(this.props.label);

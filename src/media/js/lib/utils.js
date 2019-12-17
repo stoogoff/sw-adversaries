@@ -87,6 +87,9 @@ export const minionSkill = function(minions, skill, skills) {
 }
 
 
+export const characteristics = ["Brawn", "Agility", "Intellect", "Cunning", "Willpower", "Presence"];
+
+
 // convert marked text into dice and return in a React dangerouslySetInnerHTML format
 export const dice = function dice(stat, skill) {
 	let total = Math.max(stat, skill);

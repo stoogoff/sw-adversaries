@@ -1,8 +1,8 @@
 
 import React from "react";
-import { parent } from "../lib/utils";
+import { parent } from "../../lib/utils";
 
-export default class InputSelectMulti extends React.Component {
+export default class SelectMulti extends React.Component {
 	handleChange(evt) {
 		let node = parent(evt.target, "li");
 

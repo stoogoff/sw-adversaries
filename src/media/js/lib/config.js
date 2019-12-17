@@ -19,6 +19,8 @@ export const ADVERSARY_CANCEL = "adversary-cancel";
 export const ADVERSARY_STORE = "swa-custom";
 export const ADVERSARY_TAG = "source:Mine";
 export const ADVERSARY_ID = "my-";
+export const SKILL_ADD = "skill-add";
+export const SKILL_STORE = "swa-skills";
 
 export const MINION = "Minion";
 export const RIVAL = "Rival";

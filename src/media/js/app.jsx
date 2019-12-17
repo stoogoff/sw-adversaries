@@ -100,8 +100,23 @@ class App extends React.Component {
 			this.setLoaded();
 		});
 
+		this.events["skills"] = this.stores.skills.on("change", () => {
+			let skills = this.stores.skills.all();
+
+			// load up stored skills and either replace them or add them
+			let stored = Store.local.get(CONFIG.SKILL_STORE) || [];
+			let names = stored.map(a => a.name);
+
+			skills = skills.filter(a => names.indexOf(a.name) == -1);
+
+			stored.filter(a => a.name).forEach(a => skills.push(a));
+
+			this.stores.skills.data = skills.sort(sortByProperty("name"));
+			this.setLoaded();
+		});
+
 		Object.keys(this.stores).forEach(key => {
-			if(key != "adversaries") {
+			if(key != "adversaries" && key != "skills") {
 				this.events[key] = this.stores[key].on("change", () => this.setLoaded());
 			}
 		});
@@ -232,6 +247,8 @@ class App extends React.Component {
 				this.selectAdversary(adversary);
 			}
 		});
+
+		// add, edit, and delete custom adversaries
 		dispatcher.register(CONFIG.ADVERSARY_ADD, () => {
 			this.setState({ editMode: true, editAdversary: {} });
 		});
@@ -330,6 +347,21 @@ class App extends React.Component {
 			});
 
 			this.selectAdversary(list[0]);
+		});
+
+		// add customm skills
+		dispatcher.register(CONFIG.SKILL_ADD, skill => {
+			this.stores.skills.data = this.stores.skills.filter(f => f.name != skill.name);
+			this.stores.skills.push(skill);
+
+			// save it to local storage
+			let stored = Store.local.get(CONFIG.SKILL_STORE) || [];
+
+			stored = stored.filter(d => d.name != skill.name);
+
+			stored.push(skill);
+
+			Store.local.set(CONFIG.SKILL_STORE, stored);
 		});
 	}
 

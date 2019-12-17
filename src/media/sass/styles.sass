@@ -628,32 +628,6 @@ h2.subtitle
 		.row-input
 			padding: 0.2em 0 0.2em 1em
 
-		.btn-full
-			display: block
-			width: 100%
-			box-sizing: border-box
-			font-size: 1.1em
-			padding: 0.2em
-			margin: 0.5em 0
-			background-color: lighten($link, 20%)
-			font-weight: bold
-			color: white
-			border-radius: $borderRadius
-			cursor: pointer
-			@include hover()
-
-			&[disabled]
-				background-color: $fadeInput !important
-				color: $tabBgColour !important
-				cursor: default
-
-				&:hover
-					background-color: $fadeInput !important
-
-
-			&:hover
-				background-color: $link
-
 	.divider
 		font-weight: bold
 		font-size: 1.2em
@@ -666,6 +640,33 @@ h2.subtitle
 			display: inline-block
 			padding: 0.1em 1em
 			background-color: $body
+
+.btn-full
+	display: block
+	width: 100%
+	box-sizing: border-box
+	font-size: 1.1em
+	padding: 0.2em
+	margin: 0.5em 0
+	background-color: lighten($link, 20%)
+	font-weight: bold
+	color: white
+	border-radius: $borderRadius
+	cursor: pointer
+	@include hover()
+
+	&[disabled]
+		background-color: $fadeInput !important
+		color: $tabBgColour !important
+		cursor: default
+
+		&:hover
+			background-color: $fadeInput !important
+
+
+	&:hover
+		background-color: $link
+
 
 
 // OVERLAY

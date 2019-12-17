@@ -2,7 +2,7 @@
 import React from "react";
 import { diceMap, symbolise } from "../lib/utils";
 
-export default class PanelTalentEdit extends React.Component {
+export default class PanelCode extends React.Component {
 	constructor(props) {
 		super(props);
 
