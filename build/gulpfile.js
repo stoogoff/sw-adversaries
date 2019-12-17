@@ -17,6 +17,10 @@ const gzip = require("gulp-gzip");
 // current app version
 const VERSION = fs.readFileSync(path.join(__dirname, "VERSION"), "utf8");
 
+
+console.log(`\nBuilding version: ${VERSION}.\n`);
+
+
 // global config
 let isDev = true;
 const TARGET = {

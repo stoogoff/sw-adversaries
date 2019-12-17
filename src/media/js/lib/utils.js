@@ -3,6 +3,10 @@ export const id = function id(input) {
 	return input.trim().normalize("NFD").replace(/[^a-z0-9\-\s]/gi, '').replace(/\s{1,}/g, "-").toLowerCase();
 }
 
+export const sentenceCase = function sentenceCase(str) {
+	return str.charAt(0).toUpperCase() + str.substring(1).toLowerCase();
+}
+
 export const parent = function parent(node, parent) {
 	parent = parent.toLowerCase();
 

@@ -11,7 +11,7 @@ import PanelCode from "./panel-code";
 
 import dispatcher from "lib/dispatcher";
 import * as CONFIG from "lib/config";
-import { id, sortByProperty, isNumeric, escapeHTML, unescapeHTML } from "lib/utils";
+import { id, sortByProperty, isNumeric, escapeHTML, unescapeHTML, sentenceCase } from "lib/utils";
 
 const RANGED = 1;
 const MELEE = 0;
@@ -46,9 +46,11 @@ export default class CharacterEdit extends React.Component {
 		this.escapeFields.forEach(key => editingCharacter[key] = unescapeHTML(editingCharacter[key]));
 
 		this.state = {
-			character: editingCharacter
+			character: editingCharacter,
+			editingWeapons: null,
+			editingTalents: null,
+			editingAbilities: null
 		};
-
 	}
 
 	save() {
@@ -84,7 +86,7 @@ export default class CharacterEdit extends React.Component {
 	}
 
 	setDerivedValue(attr1, attr2) {
-		return function(value) {
+		return value => {
 			let character = this.state.character;
 
 			character[attr1][attr2] = value;
@@ -96,7 +98,7 @@ export default class CharacterEdit extends React.Component {
 	}
 
 	setValue(attr) {
-		return function(value) {
+		return value => {
 			let character = this.state.character;
 
 			character[attr] = value;
@@ -130,7 +132,7 @@ export default class CharacterEdit extends React.Component {
 	}
 
 	setDefence(type) {
-		return function(value) {
+		return value => {
 			let character = this.state.character;
 
 			character.derived.defence[type] = value;
@@ -141,12 +143,31 @@ export default class CharacterEdit extends React.Component {
 		}
 	}
 
-	// add an item to a list
+	// add an item to a list or replace it if editing
 	addHandler(attr) {
-		return function(item) {
+		return item => {
 			let character = this.state.character;
+			let key = "editing" + sentenceCase(attr);
+
+			if(this.state[key]) {
+				character[attr] = character[attr].filter(f => f.id != item.id)
+			}
 
 			character[attr].push(item);
+
+			this.setState({
+				character: character,
+				[key]: null
+			});
+		};
+	}
+
+	// remove an item from a list of properties
+	removeHandler(attr) {
+		return index => {
+			let character = this.state.character;
+
+			character[attr].splice(index, 1);
 
 			this.setState({
 				character: character
@@ -154,15 +175,14 @@ export default class CharacterEdit extends React.Component {
 		};
 	}
 
-	// remove an item from a list of properties
-	removeHandler(attr) {
-		return function(index) {
+	// select an item for editing
+	editHandler(attr) {
+		return index => {
 			let character = this.state.character;
-
-			character[attr].splice(index, 1);
+			let item = character[attr][index];
 
 			this.setState({
-				character: character
+				["editing" + sentenceCase(attr)]: item
 			});
 		};
 	}
@@ -240,6 +260,9 @@ export default class CharacterEdit extends React.Component {
 		});
 		let weapons = this.props.weapons.all().sort(sortByProperty("name"));
 
+
+console.log("this.state.editingTalents=", this.state.editingTalents)
+
 		return <div id="edit">
 			<h1>
 				Edit Character
@@ -275,14 +298,14 @@ export default class CharacterEdit extends React.Component {
 					{ skills }
 				</div>
 
-				<PanelListEdit title="Weapons" list={ character.weapons } remove={ this.removeHandler("weapons").bind(this) }>
+				<PanelListEdit title="Weapons" list={ character.weapons } remove={ this.removeHandler("weapons").bind(this) } onClose={ () => this.setState({ editingWeapons: null }) }>
 					<PanelWeaponEdit list={ weapons } skills={ this.props.skills.filter(s => s.type == "Combat") } qualities={ this.props.qualities } handler={ this.addHandler("weapons").bind(this) } />
 				</PanelListEdit>
-				<PanelListEdit title="Talents" list={ character.talents } remove={ this.removeHandler("talents").bind(this) }>
-					<PanelTalentEdit list={ talents } title="Talent" handler={ this.addHandler("talents").bind(this) } />
+				<PanelListEdit title="Talents" list={ character.talents } remove={ this.removeHandler("talents").bind(this) } edit={ this.editHandler("talents").bind(this) } onClose={ () => this.setState({ editingTalents: null }) }>
+					<PanelTalentEdit list={ talents } title="Talent" editing={ this.state.editingTalents } handler={ this.addHandler("talents").bind(this) } />
 				</PanelListEdit>
-				<PanelListEdit title="Abilities" list={ character.abilities } remove={ this.removeHandler("abilities").bind(this) }>
-					<PanelTalentEdit list={ abilities } title="Ability" handler={ this.addHandler("abilities").bind(this) } />
+				<PanelListEdit title="Abilities" list={ character.abilities } remove={ this.removeHandler("abilities").bind(this) } edit={ this.editHandler("abilities").bind(this) } onClose={ () => this.setState({ editingAbilities: null }) }>
+					<PanelTalentEdit list={ abilities } title="Ability" editing={ this.state.editingAbilities } handler={ this.addHandler("abilities").bind(this) } />
 				</PanelListEdit>
 
 				<div className="edit-panel gear">
