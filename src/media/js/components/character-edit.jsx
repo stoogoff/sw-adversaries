@@ -260,9 +260,6 @@ export default class CharacterEdit extends React.Component {
 		});
 		let weapons = this.props.weapons.all().sort(sortByProperty("name"));
 
-
-console.log("this.state.editingTalents=", this.state.editingTalents)
-
 		return <div id="edit">
 			<h1>
 				Edit Character
