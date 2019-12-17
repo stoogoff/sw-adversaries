@@ -26,7 +26,7 @@ const TARGET = {
 	dest: function(p) {
 		let target = isDev ? "../dev" : "../live";
 
-		if(p != "") {
+		if(p != "" && p != "**") {
 			target = path.join(target, VERSION);
 		}
 
