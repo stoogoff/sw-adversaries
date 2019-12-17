@@ -4,3 +4,4 @@ dev/*
 live/*
 aws.json
 package-lock.json
+LAST_VERSION

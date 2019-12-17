@@ -42,7 +42,7 @@ const TARGET = {
 
 
 // completely clear out the base directory
-gulp.task("clean", function() {
+gulp.task("clean", () => {
 	return gulp.src(TARGET.dest(""), {
 		read: false
 	}).pipe(clean({
@@ -51,7 +51,7 @@ gulp.task("clean", function() {
 });
 
 // sass task
-gulp.task("sass", function() {
+gulp.task("sass", () => {
 	return gulp.src(TARGET.src("/media/sass/*.sass"))
 		.pipe(sass({
 			indentedSyntax: true,
@@ -62,7 +62,7 @@ gulp.task("sass", function() {
 
 
 // use babel to convert js
-gulp.task("transpile-js", function() {
+gulp.task("transpile-js", () => {
 	return gulp.src(TARGET.src("media/js/**/*.*"))
 		.pipe(babel({
 			presets: [TARGET.module("babel-preset-es2015"), TARGET.module("babel-preset-react")],
@@ -73,13 +73,13 @@ gulp.task("transpile-js", function() {
 });
 
 // merge folders of json data into a single file
-gulp.task("merge-data", function() {
+gulp.task("merge-data", () => {
 	let mapped = ["adversaries", "qualities", "talents"].map(function(m) {
 		return gulp.src(TARGET.src("media/data/" + m + "/*.json")).pipe(combine(m + ".json", function(data, metaData) {
 			// add the file the adversary is in in dev mode only
 			if(isDev && m == "adversaries") {
-				Object.keys(data).forEach(function(k) {
-					data[k].forEach(function(o) {
+				Object.keys(data).forEach(k => {
+					data[k].forEach(o => {
 						o.tags.push("file:" + k + ".json");
 					});
 				});
@@ -88,7 +88,7 @@ gulp.task("merge-data", function() {
 			// add the source of the talent as the type, so the UI can distinguish between talents, gifts and force powers
 			if(m == "talents") {
 				Object.keys(data).forEach(function(k) {
-					data[k].forEach(function(o) {
+					data[k].forEach(o => {
 						o.type = k;
 					});
 				});
@@ -101,29 +101,28 @@ gulp.task("merge-data", function() {
 			}
 
 			if(!isDev && m == "adversaries") {
-				for(let i = 0, len = output.length; i < len; ++i) {
-					if("description" in output[i]) {
-						delete output[i]["description"];
+				output.forEach(item => {
+					if("description" in item) {
+						delete item["description"];
 					}
-				}
-
-				output = output.filter(function(a) {
-					return !("devOnly" in a && a["devOnly"]);
 				});
+
+				output = output.filter(a => !("devOnly" in a && a["devOnly"]));
 			}
 
+			// adversaries now use a string for gear instead of an array
+			// for now, convert this during the build
 			if(m == "adversaries") {
-				for(let i = 0, len = output.length; i < len; ++i) {
-					if("gear" in output[i]) {
-						output[i].gear = output[i].gear.join(", ");
+				output.forEach(item => {
+					if("gear" in item && Array.isArray(item.gear)) {
+						item.gear = item.gear.join(", ");
 					}
-				}
+				});
 			}
 
+			// remove talents which don't have a description
 			if(m == "talents") {
-				output = output.filter(function(t) {
-					return t.description != "";
-				});
+				output = output.filter(t => t.description != "");
 			}
 
 			return new Buffer(JSON.stringify(output));
@@ -134,7 +133,7 @@ gulp.task("merge-data", function() {
 });
 
 // copy js libs
-gulp.task("copy-vendor", function() {
+gulp.task("copy-vendor", () => {
 	let modules = [
 		TARGET.module("systemjs/dist/system.js"),
 		TARGET.module("babel-polyfill/dist/polyfill.js"),
@@ -147,12 +146,12 @@ gulp.task("copy-vendor", function() {
 });
 
 
-gulp.task("copy-data", ["merge-data"], function() {
+gulp.task("copy-data", ["merge-data"], () => {
 	return gulp.src(TARGET.src("media/data/*.json")).pipe(gulp.dest(TARGET.dest("media/data")));
 });
 
 // copy static html files and font files
-gulp.task("copy-static", function() {
+gulp.task("copy-static", () => {
 	return gulp.src(TARGET.src("index.html"))
 		.pipe(preprocess({
 			context: {
@@ -163,17 +162,17 @@ gulp.task("copy-static", function() {
 		.pipe(gulp.dest(TARGET.dest("")));
 });
 
-gulp.task("copy-font", function() {
+gulp.task("copy-font", () => {
 	return gulp.src(TARGET.src("media/fonts/**")).pipe(gulp.dest(TARGET.dest("media/fonts")));
 });
 
-gulp.task("live", function() {
+gulp.task("live", () => {
 	console.log("Running in LIVE context");
 	isDev = false;
 });
 
 // for completeness, dev is the default
-gulp.task("dev", function() {
+gulp.task("dev", () => {
 	console.log("Running in DEV context");
 	isDev = true;
 });
@@ -181,7 +180,7 @@ gulp.task("dev", function() {
 // build everyting, dev or live should've been run first but dev is the default
 gulp.task("build", ["transpile-js", "copy-vendor", "copy-data", "copy-static", "copy-font", "sass"]);
 
-gulp.task("watch", ["dev"], function() {
+gulp.task("watch", ["dev"], () => {
 	gulp.watch(TARGET.src("/index.html"), ["copy-static"]);
 	gulp.watch(TARGET.src("/media/sass/**"), ["sass"]);
 	gulp.watch(TARGET.src("/media/data/**"), ["copy-data"]);
@@ -189,7 +188,21 @@ gulp.task("watch", ["dev"], function() {
 });
 
 // deploy everything to an Amazon S3 bucket
-gulp.task("deploy", ["live"], function() {
+gulp.task("deploy", ["live"], () => {
+	const LAST_VERSION_PATH = path.join(__dirname, "LAST_VERSION");
+	const LAST_VERSION = fs.existsSync(LAST_VERSION_PATH) ? fs.readFileSync(LAST_VERSION_PATH, "utf8") : "1.0.0";
+
+	if(VERSION === LAST_VERSION) {
+		throw `Failed to deploy: VERSION ${VERSION} matches LAST_VERSION ${LAST_VERSION}`;
+	}
+
+	// write new version file
+	fs.writeFile(LAST_VERSION_PATH, VERSION, "utf8", err => {
+		if(err) {
+			throw err;
+		}
+	});
+
 	let aws = require("./aws.json");
 
 	return gulp.src(TARGET.dest("**"))
