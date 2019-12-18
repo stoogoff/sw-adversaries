@@ -4,7 +4,8 @@ import { TextInput, TextArea } from "./input/text";
 import Select from "./input/select";
 import PanelCode from "./panel-code";
 import * as CONFIG from "lib/config";
-import { findByProperty, isNumeric, id } from "../lib/utils";
+import { findByProperty } from "../lib/list";
+import { isNumeric, id } from "../lib/string";
 
 export default class PanelTalentEdit extends React.Component {
 	constructor(props) {

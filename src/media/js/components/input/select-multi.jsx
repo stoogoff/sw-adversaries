@@ -1,6 +1,6 @@
 
 import React from "react";
-import { parent } from "../../lib/utils";
+import { parent } from "../../lib/dom";
 
 export default class SelectMulti extends React.Component {
 	handleChange(evt) {

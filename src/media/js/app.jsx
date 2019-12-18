@@ -7,12 +7,12 @@ import Tab from "lib/tab";
 import CharacterView from "components/character-view";
 import CharacterEdit from "components/character-edit";
 import LinkList from "components/link-list";
-import Filter from "components/filter";
+import { Filter } from "components/input/filter";
 import Loader from "components/loader";
 import Tabs from "components/tabs";
 import TagMenu from "components/tag-menu";
 import * as Store from "lib/local-store";
-import { sortByProperty, findByProperty, unique } from "lib/utils";
+import { sortByProperty, findByProperty, unique } from "lib/list";
 import * as CONFIG from "lib/config";
 
 
@@ -189,19 +189,7 @@ class App extends React.Component {
 
 		// filter text from menu
 		dispatcher.register(CONFIG.MENU_FILTER, filter => {
-			let adversaries = this.stores.adversaries.all();
-
-			if(filter != "") {
-				filter = filter.toLowerCase();
-
-				adversaries = adversaries.filter(a => a.name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().indexOf(filter) != -1 || a.tags.find(t => t.toLowerCase() == filter) != undefined);
-			}
-
-			this.setState({ list: adversaries });
-
-			if(adversaries.length == 1) {
-				this.selectAdversary(adversaries[0]);
-			}
+			this.filter(filter);
 		});
 
 		// add and remove favourites
@@ -393,6 +381,23 @@ class App extends React.Component {
 		Object.keys(this.stores).forEach(key => this.stores[key].off(this.events[key]));
 	}
 
+	// filter text from menu
+	filter(text) {
+		let adversaries = this.stores.adversaries.all();
+
+		if(text != "") {
+			text = text.toLowerCase();
+
+			adversaries = adversaries.filter(a => a.name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().indexOf(text) != -1 || a.tags.find(t => t.toLowerCase() == text) != undefined);
+		}
+
+		this.setState({ list: adversaries, filter: text });
+
+		if(adversaries.length == 1) {
+			this.selectAdversary(adversaries[0]);
+		}
+	}
+
 	render() {
 		let x = this.state.list != null ? this.state.list.length : 0;
 		let y = this.stores.adversaries != null ? this.stores.adversaries.all().length : 0;
@@ -426,7 +431,7 @@ class App extends React.Component {
 			</div>
 			<TagMenu tags={ this.state.tags } />
 			<div id="navigation" className={ (this.state.menuOpen ? "menu-open" : "menu-closed") + " column small" }>
-				<Filter />
+				<Filter text={ this.state.filter } handler={ this.filter.bind(this) } />
 				<p><small>Showing { x } of { y }.</small></p>
 				<LinkList data={ this.state.list } selected={ this.state.selected.length > 0 ? this.state.selected[this.state.selectedIndex].character.id : "" } />
 			</div>

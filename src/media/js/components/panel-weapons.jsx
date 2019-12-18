@@ -1,7 +1,9 @@
 
 import React from "react";
 import Remarkable from "remarkable";
-import { dice, id, symbolise, sortByProperty, minionSkill } from "lib/utils";
+import { dice, symbolise, minionSkill } from "lib/utils";
+import { id } from "lib/string";
+import { sortByProperty } from "lib/list";
 import * as CONFIG from "lib/config";
 
 function getWeaponDetails(weapon, character, allSkills, aliveMinions) {

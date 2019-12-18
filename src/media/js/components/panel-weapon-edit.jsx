@@ -4,7 +4,8 @@ import { TextInput, TextArea } from "./input/text";
 import Select from "./input/select";
 import SelectMulti from "./input/select-multi";
 import PanelCode from "./panel-code";
-import { findByProperty, id } from "../lib/utils";
+import { findByProperty } from "../lib/list";
+import { id } from "../lib/string";
 import * as CONFIG from "lib/config";
 
 const MOD_TEXT = " (Mod)";

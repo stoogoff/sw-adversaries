@@ -1,7 +1,7 @@
 
 import ajax from "./nanoajax";
 import Collection from "./collection";
-import * as utils from "./utils";
+import { id } from "./string";
 
 export default class DataStore extends Collection {
 	constructor(url, ...args) {
@@ -17,7 +17,7 @@ export default class DataStore extends Collection {
 			// force everything to have an id
 			data.forEach(d => {
 				if(!d.id) {
-					d.id = utils.id(d.name);
+					d.id = id(d.name);
 				}
 			});
 

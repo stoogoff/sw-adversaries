@@ -1,6 +1,7 @@
 
 import React from "react";
-import { parent, symbolise } from "lib/utils";
+import { parent } from "lib/dom";
+import { symbolise } from "lib/utils";
 
 export default class PanelListEdit extends React.Component {
 	constructor(props) {
@@ -46,10 +47,11 @@ export default class PanelListEdit extends React.Component {
 
 	render() {
 		const children = React.Children.map(this.props.children, child => React.cloneElement(child, { close: this.toggleAddPanel.bind(this) }));
+		const list = this.props.list || [];
 
 		return <div className="edit-panel edit-list">
-			<h2>{ this.props.title }</h2>
-			{ this.props.list.map((item, index) => <div className="row-input" data-index={ index }>
+			{ this.props.hideTitle ? null : <h2>{ this.props.title }</h2> }
+			{ list.map((item, index) => <div className="row-input" data-index={ index }>
 					{ item.name ? <span className="link" onClick={ this.edit.bind(this) }>{ item.name }</span> : <span>{ item }</span> }
 					<svg className="delete" onClick={ this.handler("remove").bind(this) }><use xlinkHref="#icon-delete"></use></svg>
 				</div>

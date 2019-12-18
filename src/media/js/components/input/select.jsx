@@ -1,6 +1,6 @@
 
 import React from "react";
-import { id } from "../../lib/utils";
+import { id } from "../../lib/string";
 
 export default class Select extends React.Component {
 	handleChange(evt) {

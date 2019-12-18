@@ -11,7 +11,9 @@ import PanelSkillEdit from "./panel-skill-edit";
 
 import dispatcher from "lib/dispatcher";
 import * as CONFIG from "lib/config";
-import { id, sortByProperty, isNumeric, escapeHTML, unescapeHTML, sentenceCase, characteristics } from "lib/utils";
+import { characteristics } from "lib/utils";
+import { id, isNumeric, escapeHTML, unescapeHTML, sentenceCase } from "lib/string";
+import { sortByProperty } from "lib/list";
 
 const RANGED = 1;
 const MELEE = 0;
@@ -301,7 +303,7 @@ export default class CharacterEdit extends React.Component {
 					<h2>Skills</h2>
 					{ skills }
 				</div>
-				<PanelListEdit title="" list={ [] } onClose={ () => this.setState({ editingWeapons: null }) }>
+				<PanelListEdit title="Skills" hideTitle={ true }>
 					<PanelSkillEdit />
 				</PanelListEdit>
 

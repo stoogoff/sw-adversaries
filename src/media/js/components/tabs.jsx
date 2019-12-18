@@ -2,7 +2,7 @@
 import React from "react";
 import dispatcher from "lib/dispatcher";
 import * as CONFIG from "lib/config";
-import { parent } from "lib/utils";
+import { parent } from "lib/dom";
 
 export default class Tabs extends React.Component {
 	constructor(props) {

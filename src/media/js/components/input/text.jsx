@@ -1,8 +1,8 @@
 
 import React from "react";
-import { id, isNumeric } from "../../lib/utils";
+import { id, isNumeric } from "../../lib/string";
 
-class BaseInputText extends React.Component {
+class BaseText extends React.Component {
 	constructor(props) {
 		super(props);
 
@@ -43,7 +43,7 @@ class BaseInputText extends React.Component {
 	}
 }
 
-export class TextInput extends BaseInputText {
+export class TextInput extends BaseText {
 	render() {
 		let inputId = "input_" + id(this.props.label);
 
@@ -55,7 +55,7 @@ export class TextInput extends BaseInputText {
 	}
 }
 
-export class TextArea extends BaseInputText {
+export class TextArea extends BaseText {
 	render() {
 		let inputId = "input_" + id(this.props.label);
 

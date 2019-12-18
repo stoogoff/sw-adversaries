@@ -1,6 +1,6 @@
 
 import React from "react";
-import { id } from "../../lib/utils";
+import { id } from "../../lib/string";
 
 export default class Checkbox extends React.Component {
 	handleChange(evt) {

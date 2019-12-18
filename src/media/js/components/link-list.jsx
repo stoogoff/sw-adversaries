@@ -1,7 +1,7 @@
 
 import React from "react";
 import dispatcher from "lib/dispatcher";
-import { sortByProperty } from "lib/utils";
+import { sortByProperty } from "lib/list";
 import * as CONFIG from "lib/config";
 
 export default class LinkList extends React.Component {

@@ -1,6 +1,6 @@
 
 import Emitter from "./emitter";
-import { findByProperty } from "./utils";
+import { findByProperty } from "./list";
 
 export default class Collection extends Emitter {
 	constructor(...args) {
