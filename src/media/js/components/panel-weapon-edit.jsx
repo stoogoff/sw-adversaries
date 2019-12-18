@@ -1,6 +1,6 @@
 
 import React from "react";
-import { TextInput, TextArea } from "./input/text";
+import { TextInput, TextArea, AutoComplete } from "./input/text";
 import Select from "./input/select";
 import SelectMulti from "./input/select-multi";
 import PanelCode from "./panel-code";
@@ -151,9 +151,12 @@ export default class PanelWeaponEdit extends React.Component {
 			range: this.state.range,
 			damage: this.state.damage,
 			critical: this.state.critical,
-			qualities: this.state.qualities.map(q => q.replace(MOD_TEXT, "")),
-			notes: this.state.notes
+			qualities: this.state.qualities.map(q => q.replace(MOD_TEXT, ""))
 		};
+
+		if(this.state.notes != "") {
+			weapon.notes = this.state.notes;
+		}
 
 		if(this.props.handler) {
 			this.props.handler(weapon);
@@ -184,9 +187,9 @@ export default class PanelWeaponEdit extends React.Component {
 		// TODO ux needs to change to allow adding of rank to some qualities
 		// TODO probably best to have a separate panel for mods
 
-		let list = ["", ...this.props.list.map(i => i.name)];
+		let list = this.props.list.map(i => i.name);
 		let selected = this.state.selected ? this.state.selected.name : "";
-		let qualities = this.addMod(this.props.qualities);
+		let qualities = this.addMod(this.props.qualities.filter(f => !f.ranked));
 		let selectedQualities = this.addMod(this.props.qualities.filter(f => this.state.qualities.indexOf(f.name) != -1));
 		let title = this.props.editing ? "Edit" : "Create";
 		let button = this.props.editing ? "Save" : "Add New";
@@ -209,7 +212,7 @@ export default class PanelWeaponEdit extends React.Component {
 				:
 				<div>
 					<h3>Select Weapon</h3>
-					<Select label="Weapon" value={ selected } values={ list } handler={ this.selectItem.bind(this) } required={ true } />
+					<AutoComplete label="Weapon" value={ selected } values={ list } handler={ this.selectItem.bind(this) } required={ true } />
 					<button className="btn-full" disabled={ !this.state.selected } onClick={ this.add.bind(this) }>Add Selected Weapon</button>
 					<div className="divider"><span>OR</span></div>
 					{ form }

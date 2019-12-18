@@ -1,6 +1,6 @@
 
 import React from "react";
-import { TextInput, TextArea } from "./input/text";
+import { TextInput, TextArea, AutoComplete } from "./input/text";
 import Select from "./input/select";
 import PanelCode from "./panel-code";
 import * as CONFIG from "lib/config";
@@ -74,9 +74,11 @@ export default class PanelTalentEdit extends React.Component {
 	selectItem(name) {
 		let item = this.props.list.find(findByProperty("name", name));
 
-		this.setState({
-			selected: item
-		});
+		if(item) {
+			this.setState({
+				selected: item
+			});
+		}
 	}
 
 	add() {
@@ -143,7 +145,7 @@ export default class PanelTalentEdit extends React.Component {
 	}
 
 	render() {
-		let list = ["", ...this.props.list.map(i => i.name)];
+		let list = this.props.list.map(i => i.name);
 		let selected = this.state.selected ? this.state.selected.name : "";
 		let title = (this.props.editing ? "Edit" : "Create") + " " + this.props.title;
 		let button = (this.props.editing ? "Save" : "Add New") + " " + this.props.title;
@@ -162,7 +164,8 @@ export default class PanelTalentEdit extends React.Component {
 				:
 				<div>
 					<h3>Select { this.props.title }</h3>
-					<Select label={ this.props.title } value={ selected } values={ list } handler={ this.selectItem.bind(this) } required={ true } />
+					<AutoComplete label={ this.props.title } value={ selected } values={ list } handler={ this.selectItem.bind(this) } required={ true } />
+
 					{ this.state.selected && this.state.selected.ranked
 						? <TextInput label="Rank" value={ this.state.rank } handler={ this.setRank.bind(this) } required={ true } numeric={ true } />
 						: null
