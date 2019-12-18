@@ -299,7 +299,7 @@
 				"critical": 1,
 				"range": "Engaged",
 				"qualities": ["Breach 1", "Sunder"],
-				"notes": "Dantari crystal\n\nSpend :force: on Force power checks to recover 2 Strain."
+				"notes": "Dantari crystal. Spend :force: on Force power checks to recover 2 Strain."
 			}
 		],
 		"gear": ["Armoured robes (+2 Soak, +1 Defence)", "Kyber crystal"],

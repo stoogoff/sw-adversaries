@@ -2378,7 +2378,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Ensnare 2", "Pierce 3", "Sunder", "Vicious 2"],
-				"notes": "tail swipe. May spend :advantage: on successful combat check to hit one additional opponent within range that would be no more difficult to hit than the original target."
+				"notes": "Tail swipe. May spend :advantage: on successful combat check to hit one additional opponent within range that would be no more difficult to hit than the original target."
 			}
 		],
 		"gear": ["1d5-2 krayt dragon pearls within body"],
@@ -2431,8 +2431,6 @@
 	{
 		"name": "Mouse Droid",
 		"type": "Minion",
-		"description": "",
-		"notes": "",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 2,
@@ -2453,8 +2451,6 @@
 	{
 		"name": "Marksman-H Combat Training Remote",
 		"type": "Minion",
-		"description": "",
-		"notes": "",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 3,

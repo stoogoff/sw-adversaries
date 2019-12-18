@@ -917,7 +917,7 @@
 				"critical": 1,
 				"range": "Engaged",
 				"qualities": ["Breach 1", "Defensive 1", "Deflection 2", "Sunder", "Vicious 2"],
-				"notes": "The crystal set in Elaiza’s lightsaber is damaged and worn. Once it has been switched on, make a Force check especially for the lightsaber at the beginning of each subsequent turn. On a result of :forcepip:, the lightsaber flickers and uses the following profile until it is switched off for a turn: [Lightsaber; Damage 7, Critical 3, Range: Engaged]. On a result of :forcepip::forcepip:, the lightsaber shuts down, and does not count as a weapon at all."
+				"notes": "The crystal set in Elaiza’s lightsaber is damaged and worn. Once it has been switched on, make a Force check especially for the lightsaber at the beginning of each subsequent turn. On a result of :darkside:, the lightsaber flickers and uses the following profile until it is switched off for a turn: [Lightsaber; Damage 7, Critical 3, Range: Engaged]. On a result of :darkside::darkside:, the lightsaber shuts down, and does not count as a weapon at all."
 				}
 			],
 		"talents": ["Adversary 2", "Ataru Technique", "Sense Danger", "Force Rating 3", "Sense Emotions"],

@@ -154,7 +154,7 @@ export default class PanelWeaponEdit extends React.Component {
 			qualities: this.state.qualities.map(q => q.replace(MOD_TEXT, ""))
 		};
 
-		if(this.state.notes != "") {
+		if(this.state.notes) {
 			weapon.notes = this.state.notes;
 		}
 

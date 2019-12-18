@@ -1228,30 +1228,9 @@
 			}
 		],
 		"weapons": [
-			{
-				"name": "Inquisitor lightsaber",
-				"skill": "Lightsaber",
-				"damage": 6,
-				"critical": 2,
-				"range": "Engaged",
-				"qualities": ["Breach 1", "Sunder"]
-			},
-			{
-				"name": "Inquisitor lightsaber (dual-blade)",
-				"skill": "Lightsaber",
-				"damage": 6,
-				"critical": 2,
-				"range": "Engaged",
-				"qualities": ["Breach 1", "Sunder", "Linked 1", "Unwieldy 2"]
-			},
-			{
-				"name": "Inquisitor lightsaber (spin)",
-				"skill": "Lightsaber",
-				"damage": 6,
-				"critical": 2,
-				"range": "Engaged",
-				"qualities": ["Breach 1", "Sunder", "Defensive 1", "Deflection 1"]
-			},
+			"Inquisitor lightsaber",
+			"Inquisitor lightsaber (dual-blade)",
+			"Inquisitor lightsaber (spin)",
 			{
 				"name": "Unleash",
 				"skill": "Discipline",
