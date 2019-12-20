@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Force Power: Enhance",
+    "id": "Force-power-enhance-hobs",
+    "character": "",
+    "description": "When making an Athletics, Coordination or Resilience check, the character may roll an Enhance power check as part of the pool and may spend :forcepip: to gain :success: or :advantage: (their choice) on the check. May make an Enhance power check as a maneuver to spend :forcepip: to leap to any location within Short range, or :forcepip::forcepip: to leap to any location within Medium range."
+  },
+  {
+    "name": "Force Power: Influence",
+    "id": "Force-power-influence-hobs",
+    "character": "",
+    "description": "The character may spend :forcepip: to stress the mind of one living target they are Engaged with, inflicting 1 strain. The Force user may make an opposed Discipline vs. Discipline check combined with an Influence power check. In the character spends :forcepip: and succeeds on the check, they can force the target to adopt an emotional state or believe something untrue, lasting for 3 rounds or 15 minutes."
+  },
+  {
+    "name": "Force Power: Move",
+    "id": "Force-power-move-hobs",
+    "character": "",
+    "description": "The character can hurl objects by making a Move power check and rolling a ranged attack as part of the pool. The attack's difficulty is equal to the silhouette of the object being thrown (default is silhouette 0) and only succeeds if they can also spend enough :forcepip: to move the object. The attack deals damage equal to the object's silhouette times 10 (silhouette 0 deals 5 damage) plus 1 per net :success:. To throw multiple objects, they must generate enough :forcepip: to move multiple objects, and must use rules for Auto-Fire to determine difficulty and targeting."
+  },
+  {
+    "name": "Force Power: Sense",
+    "id": "Force-power-sense-hobs",
+    "character": "",
+    "description": "The character may spend :forcepip: to sense all living things within Short range (including animals and sentient beings) and may spend :forcepip::forcepip: to increase the range of this effect to Medium. The character may instead spend :forcepip: to sense the current emotional state of one living target they are engaged with."
+  },
+  {
+    "name": "Force Power: Enhance",
+    "id": "Force-power-enhance-adi-gallia",
+    "character": "Adi Gallia",
+    "description": "When making an Athletics, Brawl, Coordination, Piloting (Space) or Resilience check, the character may roll an Enhance power check as part of the pool and may spend :forcepip: to gain :success: or :advantage: (their choice) on the check. May make an Enhance power check as a maneuver to spend :forcepip: to leap to any location within Short range, or :forcepip::forcepip: to leap to any location within Medium range."
+  },
+  {
+    "name": "Force Power: Bind",
+    "id": "Force-power-bind-anakin-skywalker",
+    "character": "Anakin Skywalker",
+    "description": "Anakin may spend :forcepip: to immobilise a target within Short range until the end of his next turn; if Anakin used :darkside: to generate :forcepip:, the target also suffers 1 wound per :forcepip: spent on the check."
+  },
+  {
+    "name": "Force Power: Enhance",
+    "id": "Force-power-enhance-anakin-skywalker",
+    "character": "Anakin Skywalker",
+    "description": "When making an Athletics, Brawl, Coordination, Piloting (Planetary), Piloting (Space) or Resilience check, the character may roll an Enhance power check as part of the pool and may spend :forcepip: to gain :success: or :advantage: (their choice) on the check. May make an Enhance power check as a maneuver to spend :forcepip: to leap to any location within Short range, or :forcepip::forcepip: to leap to any location within Medium range. Anakin may also commit :force: to increase his Brawn or Agility characteristic by 1, to a maximum of 6."
+  },
+  {
+    "name": "Force Power: Heal",
+    "id": "Force-power-heal-barriss-offee",
+    "character": "Barriss Offee",
+    "description": "Barriss may spend :forcepip: to heal 4 wounds on a living creature that she can touch."
+  },
+  {
+    "name": "Force Power: Enhance",
+    "id": "Force-power-enhance-cin-drallig",
+    "character": "Cin Drallig",
+    "description": "When making an Athletics, Brawl Coordination or Resilience check, the character may roll an Enhance power check as part of the pool and may spend :forcepip: to gain :success: or :advantage: (their choice) on the check. May make an Enhance power check as a maneuver to spend :forcepip: to leap to any location within Short range, or :forcepip::forcepip: to leap to any location within Medium range."
+  },
+  {
+    "name": "Force Power: Misdirect",
+    "id": "Force-power-misdirect-coleman-kcaj",
+    "character": "Coleman Kcaj",
+    "description": "Kcaj may spend :forcepip: to make a target at up to Short range unable to perceive a chosen person or object of Silhouette 1 or smaller until the beginning of Kcaj's next turn. May commit :force::force: to sustain the power whilst the target remains in range. May not be activated multiple times."
+  },
+  {
+    "name": "Force Power: Foresee",
+    "id": "Force-power-foresee-depa-billaba",
+    "character": "Depa Billaba",
+    "description": "When making a skill check to determine initiative, Depa may roll a Foresee power check as part of the pool. She may spend :forcepip: to gain :success: per point on the check."
+  },
+  {
+    "name": "Force Power: Bind",
+    "id": "Force-power-bind-eeth-koth",
+    "character": "Eeth Koth",
+    "description": "Koth may spend :forcepip: to immobilise a target within Short range until the end of his next turn; he may also spend :forcepip: to move the target one range band closer or further away."
+  },
+  {
+    "name": "Force Power: Enhance",
+    "id": "Force-power-enhance-jedi-ace",
+    "character": "Jedi Ace",
+    "description": "When making an Athletics, Coordination, Piloting (Space) or Resilience check, the character may roll an Enhance power check as part of the pool and may spend :forcepip: to gain :success: or :advantage: (their choice) on the check. May make an Enhance power check as a maneuver to spend :forcepip: to leap to any location within Short range, or :forcepip::forcepip: to leap to any location within Medium range."
+  },
+  {
+    "name": "Force Power: Enhance",
+    "id": "Force-power-enhance-luminara-unduli",
+    "character": "Luminara Unduli",
+    "description": "When making an Athletics, Brawl, Coordination, or Resilience check, the character may roll an Enhance power check as part of the pool and may spend :forcepip: to gain :success: or :advantage: (their choice) on the check. May make an Enhance power check as a maneuver to spend :forcepip: to leap to any location within Short range, or :forcepip::forcepip: to leap to any location within Medium range."
+  },
+  {
+    "name": "Force Power: Seek",
+    "id": "Force-power-seek-mace-windu",
+    "character": "Mace Windu",
+    "description": "Windu may spend :forcepip: and succeed at an :average: Vigilance check (or opposed Vigilance vs. Discipline check) to see through illusions. May also make a Seek power check and spend :forcepip::forcepip::forcepip: to add :triumph: to combat checks against one target until the end of the encounter (may not be activated multiple times)."
+  },
+  {
+    "name": "Force Power: Influence",
+    "id": "Force-power-influence-obi-wan-kenobi",
+    "character": "Obi-Wan Kenobi",
+    "description": "May spend up to :forcepip::forcepip: to stress the mind of one target at Short range per :forcepip:, inflicting 1 Strain on each; make an opposed Discipline check vs. Discipline combined with an Influence power check and spend :forcepip: to force the target to adopt an emotional state or believe something untrue for 4 rounds or 20 minutes."
+  },
+  {
+    "name": "Force Power: Battle Meditation",
+    "id": "Force-power-battlemeditation-oppo-rancisis",
+    "character": "Oppo Rancisis",
+    "description": "Rancisis may spend :forcepip::forcepip::forcepip: to add automatic :success: to all checks made by up to 6 friendly targets at Extreme range (he may suffer 4 strain to upgrade this to planetary range) before the end of his next turn. May commit :force::force::force: to sustain the effect on each affected target while it remains in range. May not be activated multiple times."
+  },
+  {
+    "name": "Force Power: Enhance",
+    "id": "Force-power-enhance-plo-koon",
+    "character": "Plo Koon",
+    "description": "When making an Athletics, Coordination, Piloting (Space) or Resilience check, the character may roll an Enhance power check as part of the pool and may spend :forcepip: to gain :success: or :advantage: (their choice) on the check. May make an Enhance power check as a maneuver to spend :forcepip: to leap to any location within Short range, or :forcepip::forcepip: to leap to any location within Medium range."
+  },
+  {
+    "name": "Force Power: Bind",
+    "id": "Force-power-bind-pong-krell",
+    "character": "Pong Krell",
+    "description": "Krell may spend :forcepip: to immobilise a target within Short range until the end of his next turn; may spend :forcepip::forcepip: to affect an additional 2 targets; may also :forcepip: to move all targets one range band closer or further away."
+  },
+  {
+    "name": "Force Power: Foresee",
+    "id": "Force-power-foresee-pong-krell",
+    "character": "Pong Krell",
+    "description": "When making a skill check to determine initiative, Krell may roll a Foresee power check as part of the pool. He may spend :forcepip: to gain :success: per point on the check."
+  },
+  {
+    "name": "Force Power: Enhance",
+    "id": "Force-power-enhance-quinlan-vos",
+    "character": "Quinlan Vos",
+    "description": "When making an Athletics, Brawl, Coordination, or Resilience check, the character may roll an Enhance power check as part of the pool and may spend :forcepip: to gain :success: or :advantage: (their choice) on the check. May make an Enhance power check as a maneuver to spend :forcepip: to leap to any location within Short range, or :forcepip::forcepip: to leap to any location within Medium range."
+  },
+  {
+    "name": "Force Power: Seek",
+    "id": "Force-power-seek-quinlan-vos",
+    "character": "Quinlan Vos",
+    "description": "Vos may spend :forcepip: to gain insight on the recent history of an object he is touching. He may also commit :force: to track the last person to hold the object."
+  },
+  {
+    "name": "Force Power: Heal",
+    "id": "Force-power-heal-rig-nema",
+    "character": "Rig Nema",
+    "description": "Doctor Nema may spend :forcepip: to heal 4 wounds on a living creature that she can touch. May also spend :forcepip: to heal one status effect from the target creature. May combine a :hard: Medicine check with the Heal power check to also heal one Critical Injury if the check succeeds."
+  },
+  {
+    "name": "Force Power: Enhance",
+    "id": "Force-power-enhance-saesee-tiin",
+    "character": "Saesee Tiin",
+    "description": "When making an Athletics, Coordination, Piloting (Space) or Resilience check, the character may roll an Enhance power check as part of the pool and may spend :forcepip: to gain :success: or :advantage: (their choice) on the check. May make an Enhance power check as a maneuver to spend :forcepip: to leap to any location within Short range, or :forcepip::forcepip: to leap to any location within Medium range."
+  },
+  {
+    "name": "Force Power: Seek",
+    "id": "Force-power-seek-tera-sinube",
+    "character": "Tera Sinube",
+    "description": "Sinube may spend :forcepip::forcepip: to gain insight into the general location or direction of a person or object that he knows about, regardless of current distance. May also commit :force: to upgrade the ability of Vigilance and Perception checks once. (May not be activated multiple times.)"
+  },
+  {
+    "name": "Force Power: Influence",
+    "id": "Force-power-influence-tholme",
+    "character": "Tholme",
+    "description": "May spend up to :forcepip::forcepip: to stress the mind of one target at Short range per :forcepip:, inflicting 1 Strain on each; make an opposed Discipline check vs. Discipline combined with an Influence power check and spend :forcepip: to force the target to adopt an emotional state or believe something untrue for 5 rounds or 25 minutes."
+  },
+  {
+    "name": "Force Power: Farsight",
+    "id": "Force-power-farsight-yoda",
+    "character": "Yoda",
+    "description": "Yoda may spend :forcepip: to ignore the effects of darkness or blindness and see normally up to extreme range for 3 rounds (or 3 minutes)."
+  },
+  {
+    "name": "Force Power: Foresee",
+    "id": "Force-power-foresee-yoda",
+    "character": "Yoda",
+    "description": "Yoda may spend :forcepip: to gain vague hints of events to come, up to a day into his own future. Spend :forcepip: to increase the number of days seen into the future by 2. Spend :forcepip: to gain more specific details."
+  },
+  {
+    "name": "Force Power: Heal",
+    "id": "Force-power-heal-yoda",
+    "character": "Yoda",
+    "description": "Yoda may spend :forcepip: to heal 4 wounds on a living creature that he can touch."
+  },
+  {
+    "name": "Force Power: Move",
+    "id": "Force-power-move-yoda",
+    "character": "Yoda",
+    "description": "Yoda can hurl objects by making a Move power check and rolling a ranged attack as part of the pool. The attack's difficulty is equal to the silhouette of the object being thrown (default is silhouette 0) and only succeeds if he can also spend enough :forcepip: to move the object. The attack deals damage equal to the object's silhouette times 10 (silhouette 0 deals 5 damage) plus 1 per net :success:. To throw multiple objects, he must generate enough :forcepip: to move multiple objects, and must use rules for Auto-Fire to determine difficulty and targeting."
+  },
+  {
+    "name": "Force Power: Seek",
+    "id": "Force-power-seek-yoda",
+    "character": "Yoda",
+    "description": "Yoda may spend :forcepip::forcepip: to gain insight into the general location or direction of a person or object that he knows about, regardless of current distance. Spend :forcepip: and succeed at an :average: Vigilance check (or opposed Vigilance vs. Discipline check) to see through illusions."
+  },
+  {
+    "name": "Force Power: Sense",
+    "id": "Force-power-sense-yoda",
+    "character": "Yoda",
+    "description": "Yoda may spend :forcepip: to sense all living things within Medium range (including animals and sentient beings)."
+  }
+]

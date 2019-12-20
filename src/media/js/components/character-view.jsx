@@ -181,7 +181,11 @@ export default class CharacterView extends React.Component {
 			let url = character.source.length ? character.source : character.source.url;
 			let owner = character.source.length ? "" : `${character.source.owner} of`;
 
-			source = `<p><em>${character.name} stats provided by ${owner} ${getSourceLink(sourceTag)}. Click to <a href="${url}">view original stats and descriptions</a>.</em></p>`;
+			source = `<p><em>${character.name} stats provided by ${owner} ${getSourceLink(sourceTag)}.`;
+
+			if(url) {
+				source += ` Click to <a href="${url}">view original stats and descriptions</a>.</em></p>`;
+			}
 		}
 
 		// character menu options and state

@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Earned Loyalty",
+    "character": "Aayla Secura",
+    "description": "When commanding clone troopers, Aayla's Leadership has a rank of 4."
+  },
+  {
+    "name": "Chosen One",
+    "character": "Anakin Skywalker",
+    "description": "After Anakin makes a Force power check, other characters in the encounter add :lightside: to their Force power checks until the start of the next turn; if Anakin used any :darkside: to generate :forcepip:, other characters instead add :darkside: to their checks."
+  },
+  {
+    "name": "Master And Apprentice",
+    "character": "Depa Billaba, Jedi Master",
+    "description": "Once per session, may nominate one ally who has at least Force Rating 1. This ally counts their Force Rating as 1 higher until the end of the encounter."
+  },
+  {
+    "name": "Hold Them Off",
+    "character": "Eeth Koth",
+    "description": "Once per encounter, as an out-of-turn incidental, Koth may redirect any ranged attack against an ally in Short range to himself. This must be done after the attack roll but before the result is calculated."
+  },
+  {
+    "name": "Indomitable",
+    "character": "Even Piell",
+    "description": "Piell removes up to :setback::setback: caused by Critical Injuries, fear or the Disoriented condition."
+  },
+  {
+    "name": "Last Stand",
+    "character": "Jedi General",
+    "description": "Once per session, when the General exceeds their wound threshold but before they are incapacitated, they may make a :hard: Leadership check to allow a number of allies equal to :success: to take an immediate out-of-turn maneuver."
+  },
+  {
+    "name": "Buried In The Archives",
+    "character": "Jocasta Nu",
+    "description": "Once per session, Jocasta may recall a highly valuable but obscure piece of information from the Archives that is relevant to the problem at hand. This should be something that she would not otherwise have reason to know."
+  },
+  {
+    "name": "Hardy Survivalist",
+    "character": "K'Kruhk",
+    "description": "Add automatic :success: to Survival checks. May survive many weeks without food."
+  },
+  {
+    "name": "We Must Push On!",
+    "character": "Ki-Adi-Mundi",
+    "description": "Once per encounter, as a maneuver, Mundi may make a :hard: Leadership check to immediately remove any fear-related effects from all allies within Short range."
+  },
+  {
+    "name": "Amphibious",
+    "character": "Kit Fisto",
+    "description": "May breathe underwater without penalty and never suffer movement penalties when swimming."
+  },
+  {
+    "name": "Natural Environment",
+    "character": "Kit Fisto",
+    "description": "When underwater, Kit Fisto gains an additional +1 Defence."
+  },
+  {
+    "name": "Exemplary Mentor",
+    "character": "Luminara Unduli",
+    "description": "When using the Skilled Teacher talent, if the target ally is a member of the Jedi Order and in Engaged ranged, Luminara's rank in the talent counts as 4."
+  },
+  {
+    "name": "Vaapad Flourish",
+    "character": "Mace Windu",
+    "description": "Once per encounter when making a Lightsaber combat check, Windu may add any uncommitted :force: to the roll. Each :lightside: generated counts as an additional :success: and each :darkside: counts as an additional :threat:."
+  },
+  {
+    "name": "Hidden Limbs",
+    "character": "Oppo Rancisis",
+    "description": "Rancisis may suffer 2 strain to add Linked 2 to his next Brawl check."
+  },
+  {
+    "name": "Atmospheric Requirement",
+    "character": "Plo Koon",
+    "description": "Must wear a breathing mask to breath and see outside their native environment. Oxygen is a rating 8 toxic atmosphere. Can survive in vacuum for up to 5 minutes."
+  },
+  {
+    "name": "Father To His Men",
+    "character": "Plo Koon",
+    "description": "Plo Koon adds :boost::boost: to Leadership checks targeting clone troopers under his command."
+  },
+  {
+    "name": "Additional Limbs",
+    "character": "Pong Krell, Professor Huyang",
+    "description": "Gain an additional free maneuver per turn, though may not perform more than 2 per turn."
+  },
+  {
+    "name": "Flexible Morality",
+    "character": "Pong Krell",
+    "description": "May use :darkside: at a cost of 1 strain per point."
+  },
+  {
+    "name": "Trust The Components",
+    "character": "Professor Huyang",
+    "description": "Any lightsaber crafting check that Huyang assists with gains automatic :success::success:"
+  },
+  {
+    "name": "Didn't Forget About You",
+    "character": "Saesee Tiin",
+    "description": "Once per encounter, Tiin may upgrade the ability of a Gunnery check he makes against an undamaged vehicle or starship once."
+  },
+  {
+    "name": "Galvanize The Troops",
+    "character": "Shaak Ti",
+    "description": "Once per session, Shaak Ti allows all allies in the encounter to downgrade their next skill check once."
+  },
+  {
+    "name": "Twin Bond",
+    "character": "Tiplar, Tiplee",
+    "description": "When Tiplee and Tiplar are within Short range of each other and one of them suffers voluntary strain, the other may suffer some or all of the strain instead."
+  },
+  {
+    "name": "Do Or Do Not",
+    "character": "Yoda",
+    "description": "Yoda allows allies within Short range to downgrade the difficulty of their skill checks once. They may suffer 2 strain to downgrade the difficulty twice instead."
+  }
+]
