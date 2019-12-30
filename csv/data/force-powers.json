@@ -31,14 +31,14 @@
   },
   {
     "name": "Force Power: Bind",
-    "id": "Force-power-bind-anakin-skywalker",
-    "character": "Anakin Skywalker",
+    "id": "Force-power-bind-anakin-skywalker-hobs",
+    "character": "Anakin Skywalker (HoBS)",
     "description": "Anakin may spend :forcepip: to immobilise a target within Short range until the end of his next turn; if Anakin used :darkside: to generate :forcepip:, the target also suffers 1 wound per :forcepip: spent on the check."
   },
   {
     "name": "Force Power: Enhance",
-    "id": "Force-power-enhance-anakin-skywalker",
-    "character": "Anakin Skywalker",
+    "id": "Force-power-enhance-anakin-skywalker-hobs",
+    "character": "Anakin Skywalker (HoBS)",
     "description": "When making an Athletics, Brawl, Coordination, Piloting (Planetary), Piloting (Space) or Resilience check, the character may roll an Enhance power check as part of the pool and may spend :forcepip: to gain :success: or :advantage: (their choice) on the check. May make an Enhance power check as a maneuver to spend :forcepip: to leap to any location within Short range, or :forcepip::forcepip: to leap to any location within Medium range. Anakin may also commit :force: to increase his Brawn or Agility characteristic by 1, to a maximum of 6."
   },
   {
@@ -91,8 +91,8 @@
   },
   {
     "name": "Force Power: Influence",
-    "id": "Force-power-influence-obi-wan-kenobi",
-    "character": "Obi-Wan Kenobi",
+    "id": "Force-power-influence-obi-wan-kenobi-hobs",
+    "character": "Obi-Wan Kenobi (HoBS)",
     "description": "May spend up to :forcepip::forcepip: to stress the mind of one target at Short range per :forcepip:, inflicting 1 Strain on each; make an opposed Discipline check vs. Discipline combined with an Influence power check and spend :forcepip: to force the target to adopt an emotional state or believe something untrue for 4 rounds or 20 minutes."
   },
   {
@@ -156,39 +156,129 @@
     "description": "May spend up to :forcepip::forcepip: to stress the mind of one target at Short range per :forcepip:, inflicting 1 Strain on each; make an opposed Discipline check vs. Discipline combined with an Influence power check and spend :forcepip: to force the target to adopt an emotional state or believe something untrue for 5 rounds or 25 minutes."
   },
   {
-    "name": "Force Power: Farsight",
-    "id": "Force-power-farsight-yoda",
-    "character": "Yoda",
-    "description": "Yoda may spend :forcepip: to ignore the effects of darkness or blindness and see normally up to extreme range for 3 rounds (or 3 minutes)."
+    "name": "Force Power: Influence",
+    "id": "Force-power-influence-sly-moore",
+    "character": "Sly Moore",
+    "description": "May spend up to :forcepip::forcepip: to stress the mind of one target at Short range per :forcepip:, inflicting 1 Strain on each; make an opposed Discipline check vs. Discipline combined with an Influence power check and spend :forcepip: to force the target to adopt an emotional state or believe something untrue for 5 rounds or 25 minutes."
+  },
+  {
+    "name": "Force Power: Bind",
+    "id": "Force-power-bind-count-dooku-hobs",
+    "character": "Count Dooku (HoBS)",
+    "description": "Dooku may spend :forcepip: to immobilise a target within Short range until the end of his next turn. If Dooku used :darkside: to generate :forcepip:, the target also suffers 1 wound per :forcepip: spent on the check, ignoring soak. May spend :forcepip::forcepip: to add up to two additional targets."
+  },
+  {
+    "name": "Force Power: Protect",
+    "id": "Force-power-protect-count-dooku-hobs",
+    "character": "Count Dooku (HoBS)",
+    "description": "Dooku may make an :average: Discipline check as part of a Protect power check. May spend :forcepip::forcepip: to reduce damage from an energy weapon that hits Dooku by 4 plus 1 per net :success:."
+  },
+  {
+    "name": "Force Power: Unleash",
+    "id": "Force-power-unleash-count-dooku-hobs",
+    "character": "Count Dooku (HoBS)",
+    "description": "Dooku may make an :average: Discipline check as part of an Unleash power check. May spend :forcepip::forcepip: to make an attack dealing 4 damage plus 1 per net :success:, with a Critical rating of 4, to a target at Short range. May spend :forcepip: to add 3 damage to the attack, or :advantage: to inflict 1 strain on the target."
+  },
+  {
+    "name": "Force Power: Bind",
+    "id": "Force-power-bind-sora-bulq",
+    "character": "Sora Bulq",
+    "description": "Bulq may spend :forcepip: to immobilise a target within Short range until the end of his next turn. If Bulq used :darkside: to generate :forcepip:, the target also suffers 1 wound per :forcepip: spent on the check, ignoring soak."
   },
   {
     "name": "Force Power: Foresee",
-    "id": "Force-power-foresee-yoda",
-    "character": "Yoda",
-    "description": "Yoda may spend :forcepip: to gain vague hints of events to come, up to a day into his own future. Spend :forcepip: to increase the number of days seen into the future by 2. Spend :forcepip: to gain more specific details."
+    "id": "Force-power-foresee-queen-julia",
+    "character": "Queen Julia",
+    "description": "Julia may spend :forcepip: to gain vague hints of events to come up to 3 days in her own personal future."
   },
   {
-    "name": "Force Power: Heal",
-    "id": "Force-power-heal-yoda",
-    "character": "Yoda",
-    "description": "Yoda may spend :forcepip: to heal 4 wounds on a living creature that he can touch."
+    "name": "Force Power: Enhance",
+    "id": "Force-power-enhance-anikin-skywalker",
+    "character": "Anakin Skywalker (Child)",
+    "description": "Anakin may use this power when making Piloting (Planetary) checks only. When describing his use of this power, it should be clear that he is not consciously calling upon the Force but rather acting on instinct."
   },
   {
-    "name": "Force Power: Move",
-    "id": "Force-power-move-yoda",
-    "character": "Yoda",
-    "description": "Yoda can hurl objects by making a Move power check and rolling a ranged attack as part of the pool. The attack's difficulty is equal to the silhouette of the object being thrown (default is silhouette 0) and only succeeds if he can also spend enough :forcepip: to move the object. The attack deals damage equal to the object's silhouette times 10 (silhouette 0 deals 5 damage) plus 1 per net :success:. To throw multiple objects, he must generate enough :forcepip: to move multiple objects, and must use rules for Auto-Fire to determine difficulty and targeting."
+    "name": "Force Power: Bind",
+    "id": "Force-power-bind-barriss-offee-fallen",
+    "character": "Barriss Offee (Fallen)",
+    "description": "Barriss may spend :forcepip: to immobilise a target within Short range until the end of her next turn. If Barriss used :darkside: to generate :forcepip:, the target also suffers 1 wound per :forcepip: spent on the check, ignoring soak."
+  },
+  {
+    "name": "Force Power: Harm",
+    "id": "Force-power-harm-barriss-offee-fallen",
+    "character": "Barriss Offee (Fallen)",
+    "description": "Barriss may spend :forcepip: to inflict 3 wounds on a living creature that she can touch."
+  },
+  {
+    "name": "Force Power: Bind",
+    "id": "Force-power-bind-darth-plagueis",
+    "character": "Darth Plagueis",
+    "description": "Plagueis may spend :forcepip: to immobilise a target within Short range until the end of his next turn. If Plagueis used :darkside: to generate :forcepip:, the target also suffers 1 wound per :forcepip: spent on the check, ignoring soak. May spend :forcepip::forcepip: to add up to two additional targets."
+  },
+  {
+    "name": "Force Power: Farsight",
+    "id": "Force-power-farsight-darth-plagueis",
+    "character": "Darth Plagueis",
+    "description": "Plagueis may spend :forcepip: to ignore the effects of darkness or blindness and see normally up to Extreme range for 3 rounds (or 3 minutes)."
+  },
+  {
+    "name": "Force Power: Foresee",
+    "id": "Force-power-foresee-darth-plagueis",
+    "character": "Darth Plagueis",
+    "description": "Plagueis may spend :forcepip: to gain vague hints of events to come, up to a day into his own future. May also spend :forcepip: to increase the number of days seen into the future by 2."
+  },
+  {
+    "name": "Force Power: Influence",
+    "id": "Force-power-influence-darth-plagueis",
+    "character": "Darth Plagueis",
+    "description": "Plagueis may spend :forcepip: to inflict 2 strain on a target in Short range. May also make an opposed Discipline vs. Discipline check combined with an Influence power check. If he spends :forcepip: and succeeds on the check, he can force the target to adopt an emotional state or believe something untrue, lasting for 5 rounds or 25 minutes."
+  },
+  {
+    "name": "Force Power: Protect",
+    "id": "Force-power-protect-darth-plagueis",
+    "character": "Darth Plagueis",
+    "description": "Plagueis may make an :average: Discipline check as part of a Protect power check. May spend :forcepip::forcepip: to reduce damage from an energy weapon that hits him by 4 plus 1 per net :success:."
+  },
+  {
+    "name": "Force Power: Unleash",
+    "id": "Force-power-unleash-darth-plagueis",
+    "character": "Darth Plagueis",
+    "description": "Plagueis may make an :average: Discipline check as part of an Unleash power check. May spend :forcepip::forcepip: to make an attack dealing 4 damage plus 1 per net :success:, with a Critical rating of 4, to a target at Short range. May spend :forcepip: to add 3 damage to the attack, or :advantage: to inflict 1 strain on the target."
   },
   {
     "name": "Force Power: Seek",
-    "id": "Force-power-seek-yoda",
-    "character": "Yoda",
-    "description": "Yoda may spend :forcepip::forcepip: to gain insight into the general location or direction of a person or object that he knows about, regardless of current distance. Spend :forcepip: and succeed at an :average: Vigilance check (or opposed Vigilance vs. Discipline check) to see through illusions."
+    "id": "Force-power-seek-darth-plagueis",
+    "character": "Darth Plagueis",
+    "description": "Plagueis may spend :forcepip::forcepip: to gain insight into the general location or direction of a person or object that he knows about, regardless of current distance. May also spend :forcepip: and succeed at an :average: Vigilance check (or opposed Vigilance vs. Discipline check) to see through illusions."
   },
   {
-    "name": "Force Power: Sense",
-    "id": "Force-power-sense-yoda",
-    "character": "Yoda",
-    "description": "Yoda may spend :forcepip: to sense all living things within Medium range (including animals and sentient beings)."
+    "name": "Force Power: Bind",
+    "id": "Force-power-bind-dooku-jedi-master",
+    "character": "Dooku (Jedi Master)",
+    "description": "Dooku may spend :forcepip: to immobilise a target within Short range until the end of his next turn. May spend :forcepip::forcepip: to add up to two additional targets."
+  },
+  {
+    "name": "Force Power: Protect",
+    "id": "Force-power-protect-dooku-jedi-master",
+    "character": "Dooku (Jedi Master)",
+    "description": "Dooku may make an :average: Discipline check as part of a Protect power check. May spend :forcepip::forcepip: to reduce damage from an energy weapon that hits Dooku by 4 plus 1 per net :success:."
+  },
+  {
+    "name": "Force Power: Influence",
+    "id": "Force-power-influence-qui-gon-jinn",
+    "character": "Qui-Gon Jinn",
+    "description": "May spend up to :forcepip::forcepip: to stress the mind of one target at Short range per :forcepip:, inflicting 1 Strain on each; make an opposed Discipline check vs. Discipline combined with an Influence power check and spend :forcepip: to force the target to adopt an emotional state or believe something untrue for 4 rounds or 20 minutes."
+  },
+  {
+    "name": "Force Power: Foresee",
+    "id": "Force-power-foresee-sifo-dyas",
+    "character": "Sifo-Dyas",
+    "description": "Sifo-Dyas may spend :forcepip: to gain vague hints of events to come, up to a day into his own future. May also spend :forcepip: to increase the number of days seen into the future by 2."
+  },
+  {
+    "name": "Force Power: Seek",
+    "id": "Force-power-seek-sifo-dyas",
+    "character": "Sifo-Dyas",
+    "description": "Sifo-Dyas may spend :forcepip::forcepip: to gain insight into the general location or direction of a person or object that he knows about, regardless of current distance."
   }
 ]

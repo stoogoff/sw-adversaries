@@ -6,6 +6,7 @@ const path = require("path");
 const csv = require("csv-parser");
 const ABILITIES = require("./data/abilities.json");
 const FORCE_POWERS = require("./data/force-powers.json");
+const WEAPONS = require("./data/weapons.json");
 
 const args = process.argv.slice(2);
 
@@ -23,7 +24,8 @@ let outputKeys = [
 	"skills",
 	"talents",
 	"abilities",
-	"gear"
+	"gear",
+	"tags"
 ];
 let chunk = null;
 let keyMap = {
@@ -32,7 +34,11 @@ let keyMap = {
 	"Strain Threshold": "strain"
 };
 let tagMap = {
-	"jedi.csv": ["jedi", "force sensitive"]
+	"jedi.csv": ["jedi", "force sensitive"],
+	"republic.csv": ["republic"],
+	"separatist.csv": ["separatist"],
+	"scum.csv": ["underworld"],
+	"darkside.csv": ["darkside", "force sensitive"],
 };
 
 // convert abilities and force powers to name/id as key
@@ -77,6 +83,10 @@ fs.createReadStream(INPUT)
 									output[key][chunk] = [];
 									break;
 
+								// tags key has already been created
+								case "tags":
+									break;
+
 								default:
 									output[key][chunk] = {};
 							}
@@ -89,6 +99,7 @@ fs.createReadStream(INPUT)
 								case "gear":
 								case "talents":
 								case "abilities":
+								case "tags":
 									output[key][chunk].push(data[key]);
 									break;
 
@@ -107,14 +118,20 @@ fs.createReadStream(INPUT)
 	.on("end",() => {
 		let finalOutput = [];
 
+		// TODO weapons
+		// create a JSON file of weapons (array of objects or weapon names), check if any equipment is in that list
+		// if it it, remove from the weapon
 		Object.keys(output).forEach(key => {
 			let adv = output[key];
 
-			adv.gear = adv.gear.join(", ");
+			// weapons
+			adv.weapons = adv.gear.filter(g => WEAPONS.indexOf(g) != -1);
+
+			adv.gear = adv.gear.filter(g => adv.weapons.indexOf(g) == -1).join(", ");
 			adv.abilities = adv.abilities.map(ab => {
 				if(ab.startsWith("Force Power")) {
-					let key = ab.replace(/[:\s]{1,}/g, "-").toLowerCase();
-					let keyName = key + "-" + adv.name.replace(" ", "-").toLowerCase();
+					let key = ab.replace(/[:\s]+/g, "-").toLowerCase();
+					let keyName = key + "-" + adv.name.replace(/\s+/g, "-").replace(/[\(\)]/g, "").toLowerCase();
 
 					if(keyName in abilities) {
 						return abilities[keyName];
@@ -126,9 +143,16 @@ fs.createReadStream(INPUT)
 				return (ab in abilities) ? abilities[ab] : ab;
 			});
 
+			adv.derived.defence = [
+			   adv.derived["Melee Defence"],
+			   adv.derived["Ranged Defence"]
+			];
+
+			delete adv.derived["Melee Defence"];
+			delete adv.derived["Ranged Defence"];
+
 			finalOutput.push(adv);
 		});
 
-		//console.log(finalOutput);
 		console.log(JSON.stringify(finalOutput, null, 1).trim());
 	});
