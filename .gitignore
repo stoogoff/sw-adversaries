@@ -5,3 +5,4 @@ live/*
 aws.json
 package-lock.json
 LAST_VERSION
+.DS_STORE

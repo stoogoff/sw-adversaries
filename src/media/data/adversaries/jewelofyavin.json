@@ -37,7 +37,7 @@
 		"abilities": ["Luck Be a Lady"],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Fine clothing", "Dashing cloak", "Wrist-mounted comlink", "As the Baron Administrator, Lando has access to immense wealth and resources, but carries very little with him."],
-		"tags": ["underworld", "adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin"]
+		"tags": ["underworld", "adventure:Jewel of Yavin", "book:joy", "location:Cloud City", "location:Bespin", "character:Lando"]
 	},
 	{
 		"name": "Lobot, Cyborg Bureaucrat",

@@ -1,0 +1,94 @@
+Name,Anakin Skywalker (Child),Barriss Offee (Fallen),Clone Trooper (Rival),Darth Plagueis,Dooku (Jedi Master),Jango Fett,Obi-Wan Kenobi (Padawan),Qui-Gon Jinn,Savage Opress (Natural),Sebulba,Shmi Skywalker,Sifo-Dyas,Watto,Zam Wesell
+Type,Nemesis,Nemesis,Rival,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Rival,Nemesis,Rival,Nemesis
+Characteristics,,,,,,,,,,,,,,
+Brawn,1,2,3,2,3,4,3,4,3,2,2,3,1,3
+Agility,2,4,3,3,3,5,3,3,3,4,2,3,1,4
+Intellect,2,3,2,5,5,3,4,4,2,2,3,4,2,3
+Cunning,2,4,2,4,5,5,4,5,2,4,2,3,4,4
+Willpower,3,3,3,5,4,4,4,4,3,2,3,4,3,2
+Presence,2,3,2,4,5,3,4,5,2,2,3,4,3,2
+Derived,,,,,,,,,,,,,,
+Soak,2,4,5,4,5,7,4,5,4,3,2,4,2,5
+Wound Threshold,12,18,14,18,18,18,16,18,18,12,12,17,12,15
+Strain Threshold,12,16,,25,20,21,18,20,18,15,,18,,16
+Melee Defence,0,2,0,1,2,2,1,1,0,0,0,1,0,1
+Ranged Defence,0,1,0,1,1,2,1,1,0,1,0,1,0,1
+Skills,,,,,,,,,,,,,,
+Astrogation,,,,,,,,,,,,,,
+Athletics,,,2,,,3,,,3,,,,,2
+Brawl,,3,2,,,3,,,3,2,,,,2
+Charm,2,,,,4,,3,3,,,2,2,2,
+Coercion,,,,5,3,4,,,4,,,,,
+Computers,,,,,,,,,,,,,,
+Cool,2,2,,4,4,5,3,4,2,3,,3,2,
+Coordination,,3,,,,,,,,,,,,3
+Cybernetics,,,,,,,,,,,,,,
+Deception,,3,,5,4,2,2,3,1,2,,3,3,4
+Discipline,,3,2,5,4,4,4,4,3,,,4,,
+Gunnery,,,,,,3,,,,,,,,
+Leadership,,,,4,,,,2,,,,,,
+Lightsaber,,,,,,,4,4,,,,4,,
+Lightsaber (Agility),,3,,,,,,,,,,,,
+Lightsaber (Intellect),,,,,,,,,,,,,,
+Lightsaber (Cunning),,,,,,,,,,,,,,
+Lightsaber (Willpower),,,,4,,,,,,,,,,
+Lightsaber (Presence),,,,,5,,,,,,,,,
+Mechanics,3,,,,,,,,,3,1,,1,
+Medicine,,2,,5,,,,,,,,,,
+Melee,,,,,,,,,3,,,,,
+Negotiation,,,,5,2,,2,4,,,,3,3,
+Perception,2,2,,5,2,,2,4,2,2,1,4,,
+Piloting: Planetary,4,,,,,2,,,,4,,,,
+Piloting: Space,,,,,,3,,,,,,2,,
+Ranged: Heavy,,,2,,,3,,,,,,,,3
+Ranged: Light,,,2,,,4,,,,,,,,2
+Resilience,,,,4,,,,,3,,,,,2
+Skulduggery,,,,3,,,,,,3,,,2,4
+Stealth,,3,,2,,2,,,,,,2,,3
+Streetwise,3,,,,,3,,3,,2,2,,3,3
+Survival,,,,,,2,3,3,3,,2,3,,
+Vigilance,1,3,2,4,3,4,2,3,3,2,,3,,3
+Knowledge: Core Worlds,,,,4,,,,,,,,,,
+Knowledge: Education,,3,,5,,,,,,,,,,
+Knowledge: Lore,,3,,5,4,,2,4,,,,4,,
+Knowledge: Outer Rim,,,,4,,,,3,,,2,,3,
+Knowledge: Underworld,,,,4,,4,,,,,,,2,3
+Knowledge: Warfare,,,,,,,,,,,,,,
+Knowledge: Xenology,,,,5,,,,,,,,,,
+Talents,,,,,,,,,,,,,,
+,Adversary 1,Adversary 2,Adversary 1,Adversary 4,Adversary 4,Adversary 3,Adversary 2,Adversary 3,Adversary 2,Adversary 1,Inspiring Rhetoric,Adversary 3,Natural Negotiator,Adversary 2
+,Force Rating 1,Force Rating 3,,Fearsome 3,Congenial 3,Improved Quick Draw,Congenial 2,Force Rating 5,Force Rating 1,Full Throttle,Kill With Kindness 2,Force Rating 4,Nobody's Fool 2,Lethal Blows 2
+,Full Throttle,Improved Reflect 3,,Force Rating 6,Force Rating 5,Lethal Blows 3,Force Rating 3,Improved Reflect 3,Parry 4,Natural Driver,Nobody's Fool 2,Forewarning,,
+,Natural Pilot,Parry 3,,Improved Parry 4,Improved Parry 4,,Improved Reflect 3,Parry 4,Uncanny Reactions 1,Skilled Jockey 2,,Improved Reflect 3,,
+,,Surgeon 3,,Improved Reflect 4,Makashi Technique,,Parry 3,Sense Advantage,Uncanny Senses 1,,,Parry 3,,
+,,Valuable Facts,,Niman Technique,Reflect 4,,,The Force Is My Ally,,,,The Force Is My Ally,,
+,,,,Shroud,,,,,,,,,,
+,,,,The Force Is My Ally,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+Abilities,,,,,,,,,,,,,,
+,Now This Is Podracing!,Dark Side Force User,Clone Inhibitor Chip,Dark Side Force User,Force Power: Bind,Dead Shot,Force Power: Enhance,Force Power: Enhance,Dark Side Force User,Cheater,Love Conquers All,Force Power: Enhance,Hoverer,Shape Shift
+,Force Power: Enhance,Force Power: Bind,Personality Quirk,Force Power: Bind,Force Power: Enhance,,Force Power: Influence,Force Power: Influence,Force Power: Enhance,Dug Agility,,Force Power: Foresee,Silhouette 0,
+,,Force Power: Enhance,,Force Power: Enhance,Force Power: Move,,Force Power: Move,Force Power: Move,Intimidating Countenance,,,Force Power: Influence,Skilled Cheater,
+,,Force Power: Harm,,Force Power: Farsight,Force Power: Protect,,Force Power: Sense,Force Power: Sense,,,,Force Power: Move,,
+,,Force Power: Influence,,Force Power: Foresee,Force Power: Sense,,Unbeatable Team,Trust In The Living Force,,,,Force Power: Seek,,
+,,Force Power: Move,,Force Power: Influence,Hard Taskmaster,,,,,,,Force Power: Sense,,
+,,Jar'Kai Practitioner,,Force Power: Move,,,,,,,,,,
+,,,,Force Power: Seek,,,,,,,,,,
+,,,,Force Power: Sense,,,,,,,,,,
+,,,,Force Power: Unleash,,,,,,,,,,
+,,,,Midi-Chlorian Manipulation,,,,,,,,,,
+Gear,,,,,,,,,,,,,,
+,Tool kit,Dual Lightsabers,DC-15 blaster rifle,Plagueis' Lightsaber,Dooku's Lightsaber,(2) WESTAR-34 blaster pistol,Obi-Wan's Lightsaber,Qui-Gon's Lightsaber,Enchanted axe,Tool kit,,Sifo-Dyas' Lightsaber,Datapad,Model 38 sharpshooter's rifle
+,Customised podracer,"Reinforced woven robes (+1 Defence, +2 Soak)",(2) Frag grenade,"Reinforced dark robes (+1 Defence, +2 Soak)","Jedi cloak (+1 Defence, +1 Soak)",Flamethrower,"Jedi robes (+1 Defence, +1 Soak)","Jedi robes (+1 Defence, +1 Soak)",Nightbrother tunic (+1 Soak),Collar Pondrat Plug-F Mammoth podracer,,"Jedi robes (+1 Defence, +1 Soak)",Loaded chance cube,Light blaster pistol
+,,,Clone armour (+2 Soak),,,Whipcord,Jedi utility belt,Jedi utility belt,,Reinforced piloting gear (+1 Soak),,Jedi utility belt,Utility belt,Caged pair of kouhuns
+,,,Utility belt,,,Jetpack missile launcher,,,,,,,,"Reinforced combat armour (+1 Defence, +2 Soak)"
+,,,Extra reload,,,"Mandalorian armour (+1 Defence, +3 Soak)",,,,,,,,
+,,,,,,Integrated jetpack,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+Tags,,,,,,,,,,,,,,
+,force sensitive,force sensitive,republic,force sensitive,force sensitive,bounty hunter,force sensitive,force sensitive,nightbrother,species:Dug,location:Tatooine,force sensitive,species:Toydarian,species:Clawdite
+,location:Tatooine,darkside,military,darkside,jedi,,jedi,jedi,location:Dathomir,location:Tatooine,,jedi,location:Tatooine,bounty hunter
+,character:Anakin,species:Mirialan,clone trooper,sith,character:Dooku,,character:Obi-Wan,,species:Zabrak,,,,,
+,,character:Barriss Offee,,,,,,,,,,,,

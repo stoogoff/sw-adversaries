@@ -87,7 +87,7 @@
 			}
 		],
 		"gear": ["Jedi commander armour (+1 Defence, +2 Soak)", "Jedi utility belt"],
-		"tags": ["book:rots", "jedi", "force sensitive"]
+		"tags": ["book:rots", "jedi", "force sensitive", "character:Obi-Wan"]
 	},
 	{
 		"name": "Count Dooku",
@@ -143,7 +143,7 @@
 			}
 		],
 		"gear": ["Armourweave cloak (+1 Defence, +2 Soak)"],
-		"tags": ["book:rots", "separatist", "sith", "darkside", "force sensitive"]
+		"tags": ["book:rots", "separatist", "sith", "darkside", "force sensitive", "character:Dooku"]
 	},
 	{
 		"name": "Asajj Ventress",

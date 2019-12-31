@@ -1,0 +1,91 @@
+Name,Count Dooku (HoBS),B1 Heavy Weapons Droid,B2-HA Battle Droid,BX Commando Droid Captain,Demolition Droid,IG Lancer Droid,LR-57 Combat Droid,Manta Droid Subfighter,Durge,Kul Teska,Lux Bonteri,Mina Bonteri,Nute Gunray,Nuvo Vindi,Osi Sobeck,Poggle The Lesser,Riff Tamson,Rush Clovis,Separatist Council Member,Separatist Commander,Sora Bulq,Wat Tambor
+Type,Nemesis,Minion,Minion,Rival,Rival,Rival,Rival,Rival,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis
+Characteristics,,,,,,,,,,,,,,,,,,,,,,
+Brawn,3,2,4,3,4,3,5,4,5,5,2,2,2,2,4,2,4,2,2,3,4,2
+Agility,3,2,3,3,2,3,2,4,4,4,3,2,2,2,4,2,4,2,2,3,4,2
+Intellect,5,1,1,2,1,1,1,1,3,5,4,4,3,5,4,3,3,4,3,4,4,4
+Cunning,5,1,1,2,2,2,1,1,4,4,3,3,4,4,4,4,3,4,4,4,4,4
+Willpower,4,1,1,1,1,1,1,1,3,3,3,4,3,4,3,4,3,3,3,4,3,3
+Presence,5,1,1,1,1,1,1,1,3,3,3,4,4,3,3,4,2,4,4,3,3,4
+Derived,,,,,,,,,,,,,,,,,,,,,,
+Soak,5,4,6,5,6,5,7,8,8,8,3,2,3,4,6,3,6,3,3,5,5,4
+Wound Threshold,18,5,7,15,10,13,15,18,18,18,14,14,14,15,16,14,18,16,14,16,18,14
+Strain Threshold,20,,,,,,,,18,17,15,16,16,17,17,16,16,16,16,15,18,16
+Melee Defence,2,0,0,0,0,0,0,0,2,2,0,0,0,0,1,1,1,0,0,1,1,0
+Ranged Defence,1,0,0,0,0,0,0,0,2,2,0,0,0,0,1,1,1,0,0,1,1,0
+Skills,,,,,,,,,,,,,,,,,,,,,,
+Astrogation,,,,,,,,,,,,,,,,,,,,,,
+Athletics,,,,,,,,,3,,,,,,3,,4,,,,,
+Brawl,,,1,,2,,2,,4,2,,,,,3,,4,,,,2,
+Charm,4,,,,,,,,,,3,4,2,,,,,4,4,,,
+Coercion,3,,,,,,,,4,3,,,,2,4,,4,,4,3,3,4
+Computers,,,,,,,,,,4,,,,3,,,,,,,,
+Cool,4,,,2,,,,,2,,,2,,,3,3,,2,,2,3,
+Coordination,,,,,,,,2,,,,,,,2,2,,,,,,
+Cybernetics,,,,,,,,,,,,,,,,,,,,,,
+Deception,4,,,2,,,,,,,2,2,3,3,3,3,3,4,4,2,4,4
+Discipline,4,,,,,,,,3,3,,,,,3,3,3,2,,3,4,
+Gunnery,,1,1,,3,,2,2,2,3,,,,,2,,,,,,,
+Leadership,,,,3,,,,,,,1,3,3,,2,3,4,2,3,4,2,4
+Lightsaber,,,,,,,,,,,,,,,,,,,,,4,
+Lightsaber (Agility),,,,,,,,,,,,,,,,,,,,,,
+Lightsaber (Intellect),,,,,,,,,,,,,,,,,,,,,,
+Lightsaber (Cunning),,,,,,,,,,,,,,,,,,,,,,
+Lightsaber (Willpower),,,,,,,,,,,,,,,,,,,,,,
+Lightsaber (Presence),5,,,,,,,,,,,,,,,,,,,,,
+Mechanics,,,,,2,2,,,,4,,,,2,,,,,,,,3
+Medicine,,,,,,,,,,,,,,4,,,,,,,,
+Melee,,,1,2,,3,,,3,,,,,,,,,,,,,
+Negotiation,2,,,,,,,,,,2,4,4,,,3,,4,3,,,4
+Perception,2,,,,,,,,,2,,3,2,3,3,3,3,2,3,3,2,2
+Piloting: Planetary,,,,,,3,,,2,3,2,,,,3,,,3,,3,,
+Piloting: Space,,,,,,,,,,,,,,,,,,,,,,
+Ranged: Heavy,,1,1,2,2,,,,4,4,,,,,,,,,,3,,
+Ranged: Light,,1,1,2,,2,,,3,,2,,,2,3,,3,2,,3,,
+Resilience,,,,,2,,3,2,5,3,,,,,3,,,,,,2,3
+Skulduggery,,,,,,,,,,,,,2,,2,,,3,4,,,
+Stealth,,,,3,,,,,,,,,,,,,,,,,,
+Streetwise,,,,,,,,,,,,,,,,,,,,,,
+Survival,,,,,,,,,,,1,,,,,2,3,,,,3,
+Vigilance,3,,,3,,3,3,,5,3,,,,,3,,3,,2,3,3,
+Knowledge: Core Worlds,,,,,,,,,,,,3,,,,,,,,,,
+Knowledge: Education,,,,,,,,,,4,3,3,2,4,,,,3,2,,,3
+Knowledge: Lore,4,,,,,,,,,,,,,,,,,,,,2,
+Knowledge: Outer Rim,,,,,,,,,,,,3,2,,,,,,3,,,
+Knowledge: Underworld,,,,,,,,,,,,,,,,,,,,,,
+Knowledge: Warfare,,,,,,,,,,,,,,,,4,2,,,3,,
+Knowledge: Xenology,,,,,,,,,,,,,,5,,,,,,,,
+Talents,,,,,,,,,,,,,,,,,,,,,,
+,Adversary 4,,,Adversary 1,,Full Throttle,,,Adversary 3,Adversary 3,Adversary 1,Congenial 2,Adversary 1,Adversary 1,Adversary 2,Adversary 1,Adversary 3,Adversary 1,Adversary 1,Adversary 2,Adversary 3,Adversary 1
+,Congenial 3,,,,,,,,Durable 3,Durable 3,Encouraging Words,Encouraging Words,Discredit,Thorough Assessment,Feral Strength 2,Know The Enemy,Fearsome 3,Discredit,Plausible Deniability 2,Fire Control,Duelist's Training,Nobody's Fool 2
+,Force Rating 5,,,,,,,,,,Inspiring Rhetoric,Nobody's Fool 2,Nobody's Fool 1,,Improved Scathing Tirade,,Lethal Blows 2,Natural Charmer,Nobody's Fool 2,Lead From The Back,Force Rating 4,Slippery Minded
+,Improved Parry 4,,,,,,,,,,,,,,,,No Escape,,,,Improved Parry 5,
+,Makashi Technique,,,,,,,,,,,,,,,,,,,,Reflect 4,
+,Reflect 4,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Abilities,,,,,,,,,,,,,,,,,,,,,,
+,Dark Side Force User,Droid,Droid,Droid,Disguise Mode,Droid,Droid,Amphibious,Regeneration (Durge),Rocket Pack,,Diplomatic Solution,Getting Results,Clever But Crazy,Hound Master,Flyer,Amphibious,Duplicitous,,Concentrate Your Fire!,Blademaster,Methane Breather
+,Force Power: Bind,,,Infiltrate And Execute,Droid,Lancer,Lumbering,Droid,Undying,,,,Neimoidian Courage,,Temper Tantrum,Geonosian Valour,,,,,Dark Side Force User,Sudden Leverage
+,Force Power: Enhance,,,,Self Destruct,,,Silhouette 2,,,,,Shoot Them Or Something!,,,Tactical Direction,,,,,Force Power: Bind,
+,Force Power: Move,,,,,,,,,,,,,,,,,,,,Force Power: Enhance,
+,Force Power: Protect,,,,,,,,,,,,,,,,,,,,Force Power: Move,
+,Force Power: Sense,,,,,,,,,,,,,,,,,,,,Force Power: Sense,
+,Force Power: Unleash,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Gear,,,,,,,,,,,,,,,,,,,,,,
+,Dooku's Lightsaber,Rocket launcher,Integrated rocket launcher,E-5 blaster rifle,Integrated twin blasters,Combat lance,Integrated quad blasters,Built-in twin heavy blasters,Heavy blaster rifle,Quad cannon,Blaster pistol,Diplomatic clothing,Robes (+1 Soak),Blaster pistol,Heavy blaster pistol,Archduke's cane,Karkarodon bite,Blaster pistol,Bodyguards,E-5 blaster rifle,Bulq's Lightsaber,Skakoan pressure suit (+2 Soak)
+,"Armourweave cloak (+1 Defence, +1 Soak)",Integrated comlink,Integrated comlink,Vibrosword,Self Destruct,Blaster pistol,Stomping mechanical leg,Torpedo launcher,Bola,Shoulder-mounted rocket launcher,Upper class clothing (+1 Soak),Encrypted comlink,,(3) Bio-virus grenade,"Reinforced armour (+1 Defence, +2 Soak)","Ceremonial Geonosian armour (+1 Defence, +1 Soak)",Heavy blaster pistol,Expensive clothing (+1 Soak),Expensive clothing (+1 Soak),"Armoured uniform (+1 Defence, +2 Soak)",Bulq's Shoto,Datapad
+,,,,Frag grenade,,Anti-vehicle mine,,,Spiked flail,"Teska's powersuit (+2 Defence, +3 Soak)",or padded armour (+2 Soak),Datapad,,Enhanced bio-suit (+2 Soak),,,(4) Karkarodon grenade,,,Encrypted comlink,"Jedi robes (+1 Defence, +1 Soak)",Encrypted comlink
+,,,,Stun grenade,,Swoop bike,,,Energy gauntlets,,,,,,,,"Aquatic assault suit (+1 Defence, +2 Soak)",,,,,
+,,,,,,,,,"Durge's armour (+2 Defence, +3 Soak)",,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Tags,,,,,,,,,,,,,,,,,,,,,,
+,darkside,species:Droid,species:Droid,species:Droid,species:Droid,species:Droid,species:Droid,species:Droid,species:Gen’Dai,species:Skakoan,location:Onderon,senator,species:Nemoidian,,species:Phindian,species:Geonosian,species:Karkarodon,senator,senator,military,species:Weequay,species:Skakoan
+,force sensitive,military,military,military,military,military,military,military,bounty hunter,,,location:Onderon,senator,,,,military,,,,darkside,
+,sith,,,,,,,,,,,,,,,,,,,,force sensitive,
+,character:Dooku,,,,,,,,,,,,,,,,,,,,,

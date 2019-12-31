@@ -1,0 +1,275 @@
+[
+  {
+    "name": "Aayla's Lightsaber",
+    "skill": "Lightsaber (Agility)",
+    "damage": "8",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder", "Vicious 2"]
+  },
+  {
+    "name": "Adi Gallia's Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "9",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder", "Vicious 2"]
+  },
+  {
+    "name": "Anakin's Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "10",
+    "critical": "1",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder", "Vicious 2"]
+  },
+  {
+    "name": "Bariss Offee's Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "8",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder"]
+  },
+  {
+    "name": "Cin Drallig's Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "9",
+    "critical": "1",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Defensive 1", "Sunder"]
+  },
+  {
+    "name": "Coleman's Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "8",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder"]
+  },
+  {
+    "name": "Depa Billaba's Lightsaber",
+    "skill": "Lightsaber (Willpower)",
+    "damage": "9",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder"]
+  },
+  {
+    "name": "Eeth Koth's Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "8",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Defensive 1", "Sunder"]
+  },
+  {
+    "name": "Even Piell's Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "8",
+    "critical": "1",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder", "Vicious 2"]
+  },
+  {
+    "name": "Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "8",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder"]
+  },
+  {
+    "name": "Padawan's Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "6",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder"]
+  },
+  {
+    "name": "Training Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "6",
+    "critical": "-",
+    "range": "Engaged",
+    "qualities": ["Stun Damage"]
+  },
+  {
+    "name": "General's Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "9",
+    "critical": "1",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder", "Vicious 2"]
+  },
+  {
+    "name": "Master's Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "9",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder"]
+  },
+  {
+    "name": "Jocasta's Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "8",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder"]
+  },
+  {
+    "name": "K'Kruh's Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "8",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Defensive 1", "Sunder"]
+  },
+  {
+    "name": "Ki-Adi-Mundi's Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "9",
+    "critical": "1",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder"]
+  },
+  {
+    "name": "Kit Fisto's Lightsaber",
+    "skill": "Lightsaber (Agility)",
+    "damage": "9",
+    "critical": "1",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder"]
+  },
+  {
+    "name": "Luminara's Lightsaber",
+    "skill": "Lightsaber (Intellect)",
+    "damage": "9",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder", "Vicious 1"]
+  },
+  {
+    "name": "Windu's Lightsaber",
+    "skill": "Lightsaber (Willpower)",
+    "damage": "10",
+    "critical": "1",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder", "Vicious 2"]
+  },
+  {
+    "name": "Obi-Wan's Lightsaber",
+    "skill": "Lightsaber (Intellect)",
+    "damage": "10",
+    "critical": "1",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder"]
+  },
+  {
+    "name": "Oppo's Lightsaber",
+    "skill": "Lightsaber (Presence)",
+    "damage": "8",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder", "Superior"]
+  },
+  {
+    "name": "Tail attack",
+    "skill": "Brawl",
+    "damage": "5",
+    "critical": "4",
+    "range": "Engaged",
+    "qualities": ["Disorient 2", "Knockdown"]
+  },
+  {
+    "name": "Plo Koon's Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "9",
+    "critical": "1",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder"]
+  },
+  {
+    "name": "Krell's Double-Bladed Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "9",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Defensive 1", "Deflection 1", "Linked 1", "Sunder", "Vicious 3"]
+  },
+  {
+    "name": "Welding torch",
+    "skill": "Melee",
+    "damage": "6",
+    "critical": "4",
+    "range": "Engaged",
+    "qualities": ["Burn 3"],
+    "notes": "Provides automatic :advantage: on Mechanics checks."
+  },
+  {
+    "name": "Vos's Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "9",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder", "Vicious 2"]
+  },
+  {
+    "name": "Nema's Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "8",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder"]
+  },
+  {
+    "name": "Tiin's Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "8",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder"]
+  },
+  {
+    "name": "Shaak Ti's Lightsaber",
+    "skill": "Lightsaber (Presence)",
+    "damage": "9",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder", "Superior"]
+  },
+  {
+    "name": "Sinube's Lightsaber",
+    "skill": "Lightsaber (Cunning)",
+    "damage": "9",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder"]
+  },
+  {
+    "name": "Tholme's Lightsaber",
+    "skill": "Lightsaber (Cunning)",
+    "damage": "8",
+    "critical": "1",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder"]
+  },
+  {
+    "name": "Tiplar's Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "8",
+    "critical": "1",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder"]
+  },
+  {
+    "name": "Tiplee's Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "8",
+    "critical": "1",
+    "range": "Engaged",
+    "qualities": ["Breach 1", "Sunder"]
+  }
+]

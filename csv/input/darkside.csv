@@ -1,0 +1,89 @@
+Name,Maul (HoBS),Brother Viscus,Old Daka,Undead Nightsister
+Type,Nemesis,Nemesis,Nemesis,Minion
+Characteristics,,,,
+Brawn,4,3,1,2
+Agility,5,3,1,3
+Intellect,3,3,3,1
+Cunning,4,2,4,1
+Willpower,4,3,4,1
+Presence,3,2,2,1
+Derived,,,,
+Soak,5,4,2,2
+Wound Threshold,18,16,10,4
+Strain Threshold,21,14,20,
+Melee Defence,1,1,0,0
+Ranged Defence,0,0,0,0
+Skills,,,,
+Astrogation,,,,
+Athletics,4,2,,
+Brawl,4,2,,1
+Charm,,,,
+Coercion,3,,,
+Computers,,,,
+Cool,,2,,
+Coordination,4,,,1
+Cybernetics,,,,
+Deception,3,,3,
+Discipline,,2,4,
+Gunnery,,,,
+Leadership,,2,,
+Lightsaber,,,,
+Lightsaber (Agility),5,,,
+Lightsaber (Intellect),,,,
+Lightsaber (Cunning),,,,
+Lightsaber (Willpower),,,,
+Lightsaber (Presence),,,,
+Mechanics,,,,
+Medicine,,,,
+Melee,,3,,
+Negotiation,,,,
+Perception,,2,3,
+Piloting: Planetary,,,,
+Piloting: Space,3,,,
+Ranged: Heavy,,,,
+Ranged: Light,,,,
+Resilience,,1,,
+Skulduggery,,,,
+Stealth,,,,
+Streetwise,,,,
+Survival,1,2,,
+Vigilance,3,2,,
+Knowledge: Core Worlds,,,,
+Knowledge: Education,,,,
+Knowledge: Lore,3,2,4,
+Knowledge: Outer Rim,,,,
+Knowledge: Underworld,,,,
+Knowledge: Warfare,,,,
+Knowledge: Xenology,,,,
+Talents,,,,
+,Adversary 3,Adversary 1,Force Rating 3,Fearsome 3
+,Ataru Technique,Lethal Blows 2,,
+,Fear Is My Ally,,,
+,Force Rating 4,,,
+,Hawkbat Swoop,,,
+,Improved Parry 4,,,
+,Jump Up,,,
+,Reflect 4,,,
+,,,,
+,,,,
+Abilities,,,,
+,Dark Side Force User,Rain Of Blows,Rise Sisters,Horde
+,Intimidating Countenance,,Force Power: Sense,On A String
+,Force Power: Enhance,,,Undead
+,Force Power: Move,,,
+,Force Power: Sense,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+Gear,,,,
+,Maul's Lightsaber,Enchanted staff,Ichor cauldron,Grasping claws
+,Darksaber,Nightbrother robes (+1 Soak),Heavy Nightsister robes (+1 Soak),
+,Cybernetic leg attack,,,
+,Nightbrother heavy clothing (+1 Soak),,,
+,,,,
+Tags,,,,
+,species:Zabrak,nightbrother,nightsister,nightsister
+,species:Cyborg,species:Zabrak,,
+,character:Maul,,,

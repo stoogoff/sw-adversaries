@@ -42,7 +42,7 @@
 		],
 		"abilities": ["Amphibious", "Concentrated Fire", "Confident Command", "Fleet Commander"],
 		"gear": ["Admiral’s uniform (+1 Soak)", "Comlink"],
-		"tags": ["rebel alliance", "book:aaa"]
+		"tags": ["rebel alliance", "book:aaa", "character:Ackbar"]
 	},
 	{
 		"name": "Alliance Fleet Trooper",
@@ -565,7 +565,7 @@
 		],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Fine clothing", "Dashing cloak", "Wrist-mounted comlink"],
-		"tags": ["book:aaa", "smuggler", "gambler"]
+		"tags": ["book:aaa", "smuggler", "gambler", "character:Lando"]
 	},
 	{
 		"name": "Lasan Honour Guard",
@@ -791,7 +791,7 @@
 			}
 		],
 		"gear": ["Faded robes (+1 Soak)"],
-		"tags": ["book:aaa", "force sensitive", "jedi", "location:Tatooine"]
+		"tags": ["book:aaa", "force sensitive", "jedi", "location:Tatooine", "character:Obi-Wan"]
 	},
 	{
 		"name": "Politician",
@@ -1559,7 +1559,7 @@
 			}
 		],
 		"gear": ["Mandalorian armour (+3 Soak, +2 Defence, integrated jet pack, can fly as per the flying sidebar in Chapter VI: Conflict and Combat)", "Rangefinder (adds :advantage: on all ranged weapon attacks)", "wearer may draw or stow one item per turn as an incidental", "modified Firespray-31-class patrol craft Slave 1."],
-		"tags": ["underworld", "bounty hunter", "book:aaa"]
+		"tags": ["underworld", "bounty hunter", "book:aaa", "character:Boba Fett"]
 	},
 	{
 		"name": "Bossk",

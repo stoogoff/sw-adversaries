@@ -97,7 +97,7 @@
   },
   {
     "name": "Force Power: Battle Meditation",
-    "id": "Force-power-battlemeditation-oppo-rancisis",
+    "id": "Force-power-battle-meditation-oppo-rancisis",
     "character": "Oppo Rancisis",
     "description": "Rancisis may spend :forcepip::forcepip::forcepip: to add automatic :success: to all checks made by up to 6 friendly targets at Extreme range (he may suffer 4 strain to upgrade this to planetary range) before the end of his next turn. May commit :force::force::force: to sustain the effect on each affected target while it remains in range. May not be activated multiple times."
   },
