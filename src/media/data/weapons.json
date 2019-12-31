@@ -72,6 +72,14 @@
 		"qualities": ["Pierce 1", "Stun Setting"]
 	},
 	{
+		"name": "DC-17 blaster pistol",
+		"skill": "Ranged: Light",
+		"damage": 7,
+		"critical": 3,
+		"range": "Medium",
+		"qualities": ["Accurate 1", "Stun Setting"]
+	},
+	{
 		"name": "Light repeating blaster",
 		"skill": "Ranged: Heavy",
 		"damage": 11,

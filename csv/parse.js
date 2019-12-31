@@ -6,7 +6,7 @@ const path = require("path");
 const csv = require("csv-parser");
 const ABILITIES = require("./data/abilities.json");
 const FORCE_POWERS = require("./data/force-powers.json");
-const WEAPONS = require("./data/weapons.json");
+const WEAPONS = require("../src/media/data/weapons.json");
 const CUSTOM_WEAPONS = require("./data/custom-weapons.json");
 
 
@@ -44,7 +44,7 @@ const tagMap = {
 };
 
 // convert custom weapons, abilities and force powers to name/id as key
-let abilities = {}, customWeapons = {};
+let abilities = {}, customWeapons = {}, weapons = {};
 
 ABILITIES.forEach(a => abilities[a.name] = a);
 FORCE_POWERS.map(m => {
@@ -53,6 +53,7 @@ FORCE_POWERS.map(m => {
 	return m;
 }).forEach(a => abilities[a.id.toLowerCase()] = a);
 CUSTOM_WEAPONS.forEach(a => customWeapons[a.name] = a);
+WEAPONS.forEach(a => weapons[a.name] = a);
 
 
 // get all of the CSV files ready to process
@@ -120,6 +121,7 @@ FILES.forEach(input => {
 
 							if(data[key]) {
 								let name = data.Name in keyMap ? keyMap[data.Name] : data.Name;
+								let value = /^\d+$/.test(data[key]) ? parseInt(data[key], 10) : data[key];
 
 								switch(chunk) {
 									case "gear":
@@ -130,7 +132,7 @@ FILES.forEach(input => {
 										break;
 
 									default:
-										output[key][chunk][name] = data[key];
+										output[key][chunk][name] = value;
 								}
 							}
 						}
@@ -145,10 +147,30 @@ FILES.forEach(input => {
 			Object.keys(output).forEach(key => {
 				let adv = output[key];
 
-				// weapons and custom weapons
+				// custom weapons, include the weapon stats
 				adv.weapons = adv.gear.filter(g => g in customWeapons).map(g => customWeapons[g]);
-				adv.weapons = adv.weapons.concat(adv.gear.filter(g => WEAPONS.indexOf(g) != -1));
+				adv.gear = adv.gear.filter(g => !(g in customWeapons));
+
+				// weapons that exist in the system, just include the name
+				adv.weapons = adv.weapons.concat(adv.gear.filter(g => g in weapons));
 				adv.gear = adv.gear.filter(g => adv.weapons.indexOf(g) == -1).join(", ");
+
+				// special case for grenades
+				if(adv.gear.indexOf("Frag grenade") != -1) {
+					adv.weapons.push("Frag grenade");
+				}
+				if(adv.gear.indexOf("Stun grenade") != -1) {
+					adv.weapons.push("Stun grenade");
+				}
+				if(adv.gear.indexOf("Smoke grenade") != -1) {
+					adv.weapons.push(customWeapons["Smoke grenade"]);
+				}
+				if(adv.gear.indexOf("Gungan plasma ball") != -1) {
+					adv.weapons.push(customWeapons["Gungan plasma ball"]);
+				}
+				if(adv.gear.indexOf("Ion grenade") != -1) {
+					adv.weapons.push(customWeapons["Ion grenade"]);
+				}
 
 				adv.abilities = adv.abilities.map(ab => {
 					if(ab.startsWith("Force Power")) {

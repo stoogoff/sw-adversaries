@@ -1683,7 +1683,7 @@
 			}
 		],
 		"gear": ["Modified heavy battle armour (+2 Soak, +1 Defence, built-in comlink", "Survival pack", "Custom swoop", "Modified Jumpmaster 5000 Punishing One"],
-		"tags": ["underworld", "bounty hunter", "book:aaa"]
+		"tags": ["underworld", "bounty hunter", "book:aaa", "character:Dengar"]
 	},
 	{
 		"name": "Doctor Aphra",

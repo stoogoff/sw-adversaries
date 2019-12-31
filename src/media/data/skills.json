@@ -120,6 +120,11 @@
 		"type": "General"
 	},
 	{
+		"name": "Negotiation (Cunning)",
+		"characteristic": "Cunning",
+		"type": "General"
+	},
+	{
 		"name": "Perception",
 		"characteristic": "Cunning",
 		"type": "General"
@@ -197,6 +202,11 @@
 	{
 		"name": "Knowledge: Underworld",
 		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Underworld (Cunning)",
+		"characteristic": "Cunning",
 		"type": "Knowledge"
 	},
 	{

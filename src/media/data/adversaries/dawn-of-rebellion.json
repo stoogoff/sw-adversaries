@@ -643,7 +643,7 @@
 			}
 		],
 		"gear": ["Heavy battle armour (+2 Soak)"],
-		"tags": ["book:dor", "book:aaa", "rebel alliance", "location:Jedha"]
+		"tags": ["book:dor", "book:aaa", "rebel alliance", "location:Jedha", "character:Saw"]
 	},
 	{
 		"name": "Commandant Aresko",
@@ -1554,7 +1554,7 @@
 			}
 		],
 		"gear": ["Robes of office", "Diplomatic comlink", "Secret encrypted comlink", "Datapad"],
-		"tags": ["book:dor", "book:aaa", "rebel alliance", "senator"]
+		"tags": ["book:dor", "book:aaa", "rebel alliance", "senator", "character:Mon Mothma"]
 	},
 	{
 		"name": "Ahsoka Tano",
