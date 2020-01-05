@@ -1,75 +1,84 @@
 [
   {
-    "name": "Aayla's Lightsaber",
+    "name": "Aayla’s Lightsaber",
     "skill": "Lightsaber (Agility)",
     "damage": "8",
     "critical": "2",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder", "Vicious 2"]
+    "qualities": "Breach 1, Sunder, Vicious 2",
+    "notes": ""
   },
   {
-    "name": "Adi Gallia's Lightsaber",
+    "name": "Adi Gallia’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "9",
     "critical": "2",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder", "Vicious 2"]
+    "qualities": "Breach 1, Sunder, Vicious 2",
+    "notes": ""
   },
   {
-    "name": "Anakin's Lightsaber",
+    "name": "Anakin’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "10",
     "critical": "1",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder", "Vicious 2"]
+    "qualities": "Breach 1, Sunder, Vicious 2",
+    "notes": ""
   },
   {
-    "name": "Bariss Offee's Lightsaber",
+    "name": "Barriss Offee’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "8",
     "critical": "2",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder"]
+    "qualities": "Breach 1, Sunder",
+    "notes": ""
   },
   {
-    "name": "Cin Drallig's Lightsaber",
+    "name": "Cin Drallig’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "9",
     "critical": "1",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Defensive 1", "Sunder"]
+    "qualities": "Breach 1, Defensive 1, Sunder",
+    "notes": ""
   },
   {
-    "name": "Coleman's Lightsaber",
+    "name": "Coleman’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "8",
     "critical": "2",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder"]
+    "qualities": "Breach 1, Sunder",
+    "notes": ""
   },
   {
-    "name": "Depa Billaba's Lightsaber",
+    "name": "Depa Billaba’s Lightsaber",
     "skill": "Lightsaber (Willpower)",
     "damage": "9",
     "critical": "2",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder"]
+    "qualities": "Breach 1, Sunder",
+    "notes": ""
   },
   {
-    "name": "Eeth Koth's Lightsaber",
+    "name": "Eeth Koth’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "8",
     "critical": "2",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Defensive 1", "Sunder"]
+    "qualities": "Breach 1, Defensive 1, Sunder",
+    "notes": ""
   },
   {
-    "name": "Even Piell's Lightsaber",
+    "name": "Even Piell’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "8",
     "critical": "1",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder", "Vicious 2"]
+    "qualities": "Breach 1, Sunder, Vicious 2",
+    "notes": ""
   },
   {
     "name": "Lightsaber",
@@ -77,15 +86,17 @@
     "damage": "8",
     "critical": "2",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder"]
+    "qualities": "Breach 1, Sunder",
+    "notes": ""
   },
   {
-    "name": "Padawan's Lightsaber",
+    "name": "Padawan’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "6",
     "critical": "2",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder"]
+    "qualities": "Breach 1, Sunder",
+    "notes": ""
   },
   {
     "name": "Training Lightsaber",
@@ -93,87 +104,98 @@
     "damage": "6",
     "critical": "-",
     "range": "Engaged",
-    "qualities": ["Stun Damage"]
+    "qualities": "Stun Damage",
+    "notes": ""
   },
   {
-    "name": "General's Lightsaber",
+    "name": "General’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "9",
     "critical": "1",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder", "Vicious 2"]
+    "qualities": "Breach 1, Sunder, Vicious 2",
+    "notes": ""
   },
   {
-    "name": "Master's Lightsaber",
+    "name": "Master’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "9",
     "critical": "2",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder"]
+    "qualities": "Breach 1, Sunder",
+    "notes": ""
   },
   {
-    "name": "Jocasta's Lightsaber",
+    "name": "Jocasta’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "8",
     "critical": "2",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder"]
+    "qualities": "Breach 1, Sunder",
+    "notes": ""
   },
   {
-    "name": "K'Kruh's Lightsaber",
+    "name": "K’Kruh’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "8",
     "critical": "2",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Defensive 1", "Sunder"]
+    "qualities": "Breach 1, Defensive 1, Sunder",
+    "notes": ""
   },
   {
-    "name": "Ki-Adi-Mundi's Lightsaber",
+    "name": "Ki-Adi-Mundi’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "9",
     "critical": "1",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder"]
+    "qualities": "Breach 1, Sunder",
+    "notes": ""
   },
   {
-    "name": "Kit Fisto's Lightsaber",
+    "name": "Kit Fisto’s Lightsaber",
     "skill": "Lightsaber (Agility)",
     "damage": "9",
     "critical": "1",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder"]
+    "qualities": "Breach 1, Sunder",
+    "notes": ""
   },
   {
-    "name": "Luminara's Lightsaber",
+    "name": "Luminara’s Lightsaber",
     "skill": "Lightsaber (Intellect)",
     "damage": "9",
     "critical": "2",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder", "Vicious 1"]
+    "qualities": "Breach 1, Sunder, Vicious 1",
+    "notes": ""
   },
   {
-    "name": "Windu's Lightsaber",
+    "name": "Windu’s Lightsaber",
     "skill": "Lightsaber (Willpower)",
     "damage": "10",
     "critical": "1",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder", "Vicious 2"]
+    "qualities": "Breach 1, Sunder, Vicious 2",
+    "notes": ""
   },
   {
-    "name": "Obi-Wan's Lightsaber",
+    "name": "Obi-Wan’s Lightsaber",
     "skill": "Lightsaber (Intellect)",
     "damage": "10",
     "critical": "1",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder"]
+    "qualities": "Breach 1, Sunder",
+    "notes": ""
   },
   {
-    "name": "Oppo's Lightsaber",
+    "name": "Oppo’s Lightsaber",
     "skill": "Lightsaber (Presence)",
     "damage": "8",
     "critical": "2",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder", "Superior"]
+    "qualities": "Breach 1, Sunder, Superior",
+    "notes": ""
   },
   {
     "name": "Tail attack",
@@ -181,23 +203,26 @@
     "damage": "5",
     "critical": "4",
     "range": "Engaged",
-    "qualities": ["Disorient 2", "Knockdown"]
+    "qualities": "Disorient 2, Knockdown",
+    "notes": ""
   },
   {
-    "name": "Plo Koon's Lightsaber",
+    "name": "Plo Koon’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "9",
     "critical": "1",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder"]
+    "qualities": "Breach 1, Sunder",
+    "notes": ""
   },
   {
-    "name": "Krell's Double-Bladed Lightsaber",
+    "name": "Krell’s Double-Bladed Lightsaber",
     "skill": "Lightsaber",
     "damage": "9",
     "critical": "2",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Defensive 1", "Deflection 1", "Linked 1", "Sunder", "Vicious 3"]
+    "qualities": "Breach 1, Defensive 1, Deflection 1, Linked 1, Sunder, Vicious 3",
+    "notes": ""
   },
   {
     "name": "Welding torch",
@@ -205,71 +230,1168 @@
     "damage": "6",
     "critical": "4",
     "range": "Engaged",
-    "qualities": ["Burn 3"],
+    "qualities": "Burn 3",
     "notes": "Provides automatic :advantage: on Mechanics checks."
   },
   {
-    "name": "Vos's Lightsaber",
+    "name": "Vos’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "9",
     "critical": "2",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder", "Vicious 2"]
+    "qualities": "Breach 1, Sunder, Vicious 2",
+    "notes": ""
   },
   {
-    "name": "Nema's Lightsaber",
+    "name": "Nema’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "8",
     "critical": "2",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder"]
+    "qualities": "Breach 1, Sunder",
+    "notes": ""
   },
   {
-    "name": "Tiin's Lightsaber",
+    "name": "Tiin’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "8",
     "critical": "2",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder"]
+    "qualities": "Breach 1, Sunder",
+    "notes": ""
   },
   {
-    "name": "Shaak Ti's Lightsaber",
+    "name": "Shaak Ti’s Lightsaber",
     "skill": "Lightsaber (Presence)",
     "damage": "9",
     "critical": "2",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder", "Superior"]
+    "qualities": "Breach 1, Sunder, Superior",
+    "notes": ""
   },
   {
-    "name": "Sinube's Lightsaber",
+    "name": "Sinube’s Lightsaber",
     "skill": "Lightsaber (Cunning)",
     "damage": "9",
     "critical": "2",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder"]
+    "qualities": "Breach 1, Sunder",
+    "notes": ""
   },
   {
-    "name": "Tholme's Lightsaber",
+    "name": "Tholme’s Lightsaber",
     "skill": "Lightsaber (Cunning)",
     "damage": "8",
     "critical": "1",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder"]
+    "qualities": "Breach 1, Sunder",
+    "notes": ""
   },
   {
-    "name": "Tiplar's Lightsaber",
+    "name": "Tiplar’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "8",
     "critical": "1",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder"]
+    "qualities": "Breach 1, Sunder",
+    "notes": ""
   },
   {
-    "name": "Tiplee's Lightsaber",
+    "name": "Tiplee’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "8",
     "critical": "1",
     "range": "Engaged",
-    "qualities": ["Breach 1", "Sunder"]
+    "qualities": "Breach 1, Sunder",
+    "notes": ""
+  },
+  {
+    "name": "Pair of DC-17 blaster pistols",
+    "skill": "Ranged: Light",
+    "damage": "7",
+    "critical": "3",
+    "range": "Medium",
+    "qualities": "Accurate 1, Stun Setting",
+    "notes": ""
+  },
+  {
+    "name": "Hunter’s knife",
+    "skill": "Melee",
+    "damage": "6",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": "Pierce 3, Vicious 2",
+    "notes": ""
+  },
+  {
+    "name": "773 Firepuncher",
+    "skill": "Ranged: Heavy",
+    "damage": "10",
+    "critical": "3",
+    "range": "Extreme",
+    "qualities": "Accurate 1, Cumbersome 3, Pierce 2, Slow-Firing 1",
+    "notes": ""
+  },
+  {
+    "name": "Metal fists",
+    "skill": "Brawl",
+    "damage": "1",
+    "critical": "5",
+    "range": "Engaged",
+    "qualities": "Disorient 1",
+    "notes": ""
+  },
+  {
+    "name": "Staff of Office",
+    "skill": "Melee",
+    "damage": "4",
+    "critical": "4",
+    "range": "Engaged",
+    "qualities": "Defensive 1, Disorient 2",
+    "notes": ""
+  },
+  {
+    "name": "Ceremonial rifle",
+    "skill": "Ranged: Heavy",
+    "damage": "10",
+    "critical": "2",
+    "range": "Long",
+    "qualities": "Pierce 1, Stun Setting",
+    "notes": ""
+  },
+  {
+    "name": "Dooku’s Lightsaber",
+    "skill": "Lightsaber (Presence)",
+    "damage": "8",
+    "critical": "1",
+    "range": "Engaged",
+    "qualities": "Breach 1, Defensive 1, Sunder, Vicious 3",
+    "notes": "Add :darkside: to Force power checks."
+  },
+  {
+    "name": "Rocket launcher",
+    "skill": "Gunnery",
+    "damage": "20",
+    "critical": "2",
+    "range": "Extreme",
+    "qualities": "Blast 10, Breach 1, Cumbersome 3, Guided 3, Limited Ammo 6, Prepare 1",
+    "notes": ""
+  },
+  {
+    "name": "Integrated rocket launcher",
+    "skill": "Gunnery",
+    "damage": "18",
+    "critical": "2",
+    "range": "Extreme",
+    "qualities": "Blast 10, Breach 1, Cumbersome 3, Guided 3, Limited Ammo 6",
+    "notes": ""
+  },
+  {
+    "name": "E-5 blaster rifle",
+    "skill": "Ranged: Heavy",
+    "damage": "9",
+    "critical": "3",
+    "range": "Long",
+    "qualities": "Stun Setting",
+    "notes": ""
+  },
+  {
+    "name": "Integrated twin blasters",
+    "skill": "Ranged: Heavy",
+    "damage": "9",
+    "critical": "3",
+    "range": "Medium",
+    "qualities": "Linked 1, Stun Setting",
+    "notes": ""
+  },
+  {
+    "name": "Self-Destruct",
+    "skill": "Gunnery",
+    "damage": "25",
+    "critical": "2",
+    "range": "Short",
+    "qualities": "Blast 15, Breach 2, Limited Ammo 1, Prepare 1",
+    "notes": ""
+  },
+  {
+    "name": "Combat lance",
+    "skill": "Melee",
+    "damage": "7",
+    "critical": "3",
+    "range": "Engaged",
+    "qualities": "Cumbersome 3, Pierce 3",
+    "notes": ""
+  },
+  {
+    "name": "Integrated quad blasters",
+    "skill": "Gunnery",
+    "damage": "12",
+    "critical": "3",
+    "range": "Long",
+    "qualities": "Linked 3, Pierce 1, Vicious 1",
+    "notes": ""
+  },
+  {
+    "name": "Stomping mechanical leg",
+    "skill": "Brawl",
+    "damage": "5",
+    "critical": "5",
+    "range": "Engaged",
+    "qualities": "Knockdown",
+    "notes": ""
+  },
+  {
+    "name": "Built-in twin heavy blasters",
+    "skill": "Gunnery",
+    "damage": "12",
+    "critical": "2",
+    "range": "Long",
+    "qualities": "Linked 2, Pierce 4, Vicious 1",
+    "notes": ""
+  },
+  {
+    "name": "Spiked flail",
+    "skill": "Melee",
+    "damage": "6",
+    "critical": "3",
+    "range": "Engaged",
+    "qualities": "Knockdown, Pierce 2, Vicious 3",
+    "notes": ""
+  },
+  {
+    "name": "Energy gauntlets",
+    "skill": "Brawl",
+    "damage": "5",
+    "critical": "-",
+    "range": "Engaged",
+    "qualities": "Defensive 2, Stun Damage",
+    "notes": ""
+  },
+  {
+    "name": "Quad cannon",
+    "skill": "Ranged: Heavy",
+    "damage": "12",
+    "critical": "3",
+    "range": "Long",
+    "qualities": "Auto-Fire, Cumbersome 3",
+    "notes": ""
+  },
+  {
+    "name": "Shoulder-mounted rocket launcher",
+    "skill": "Gunnery",
+    "damage": "22",
+    "critical": "2",
+    "range": "Long",
+    "qualities": "Blast 14, Breach 1, Cumbersome 4, Guided 2, Limited Ammo 4",
+    "notes": ""
+  },
+  {
+    "name": "Bio-virus grenade",
+    "skill": "Ranged: Light",
+    "damage": "3",
+    "critical": "3",
+    "range": "Short",
+    "qualities": "Blast 3, Limited Ammo 1",
+    "notes": "All targets suffering at least 1 Wound, or are within Medium range without environmental protection, must make a :formidable: Resilience check. Target suffers 2 Wounds and 2 Strain per :threat: and a Vicious 5 Critical Injury if the check is failed. :despair: means they must make the check again at the the start of the next turn."
+  },
+  {
+    "name": "Archduke’s cane",
+    "skill": "Melee",
+    "damage": "4",
+    "critical": "3",
+    "range": "Engaged",
+    "qualities": "Disorient 1",
+    "notes": ""
+  },
+  {
+    "name": "Karkarodon bite",
+    "skill": "Brawl",
+    "damage": "7",
+    "critical": "3",
+    "range": "Engaged",
+    "qualities": "Pierce 2, Vicious 3",
+    "notes": ""
+  },
+  {
+    "name": "Karkarodon grenade",
+    "skill": "Ranged: Light",
+    "damage": "13",
+    "critical": "3",
+    "range": "Short",
+    "qualities": "Blast 4, Limited Ammo 1, Pierce 3, Vicious 2",
+    "notes": ""
+  },
+  {
+    "name": "Bulq’s Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "9",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": "Breach 1, Sunder, Superior",
+    "notes": ""
+  },
+  {
+    "name": "Bulq’s Shoto",
+    "skill": "Lightsaber",
+    "damage": "6",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": "Breach 1, Sunder, Superior",
+    "notes": ""
+  },
+  {
+    "name": "Black Sun twin blaster",
+    "skill": "Ranged: Light",
+    "damage": "6",
+    "critical": "3",
+    "range": "Medium",
+    "qualities": "Linked 1, Stun Setting",
+    "notes": ""
+  },
+  {
+    "name": "Electro-shock prod",
+    "skill": "Melee",
+    "damage": "6",
+    "critical": "3",
+    "range": "Engaged",
+    "qualities": "Disorient 2, Stun Setting",
+    "notes": ""
+  },
+  {
+    "name": "Ranged",
+    "skill": "Ranged: Light",
+    "damage": "7",
+    "critical": "3",
+    "range": "Medium",
+    "qualities": "Superior",
+    "notes": ""
+  },
+  {
+    "name": "Built-in vibroknucklers",
+    "skill": "Brawl",
+    "damage": "5",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": "Pierce 1, Vicious 1",
+    "notes": ""
+  },
+  {
+    "name": "Model 38 sharpshooter’s rifle",
+    "skill": "Ranged: Heavy",
+    "damage": "8",
+    "critical": "3",
+    "range": "Extreme",
+    "qualities": "Accurate 2, Pierce 3",
+    "notes": ""
+  },
+  {
+    "name": "DLT-18 heavy blaster rifle",
+    "skill": "Ranged: Heavy",
+    "damage": "10",
+    "critical": "3",
+    "range": "Long",
+    "qualities": "Auto-Fire, Cumbersome 3, Pierce 2",
+    "notes": ""
+  },
+  {
+    "name": "Shoulder-mounted light repeating blaster",
+    "skill": "Ranged: Light",
+    "damage": "8",
+    "critical": "3",
+    "range": "Medium",
+    "qualities": "Auto-Fire, Stun Setting",
+    "notes": ""
+  },
+  {
+    "name": "Tentacles",
+    "skill": "Brawl",
+    "damage": "2",
+    "critical": "4",
+    "range": "Engaged",
+    "qualities": "Disorient 2, Stun 4",
+    "notes": ""
+  },
+  {
+    "name": "Kyuzo helmet (thrown)",
+    "skill": "Ranged: Light",
+    "damage": "5",
+    "critical": "4",
+    "range": "Short",
+    "qualities": "Cumbersome 3, Defensive 1, Deflection 2, Disorient 1, Limited Ammo 1",
+    "notes": "May spend :advantage::advantage::advantage: to recover helmet from ricochet."
+  },
+  {
+    "name": "Kyuzo helmet (melee)",
+    "skill": "Melee",
+    "damage": "5",
+    "critical": "4",
+    "range": "Engaged",
+    "qualities": "Cumbersome 3, Defensive 1, Deflection 2, Disorient 1",
+    "notes": ""
+  },
+  {
+    "name": "Vibro cutlass",
+    "skill": "Melee",
+    "damage": "4",
+    "critical": "3",
+    "range": "Engaged",
+    "qualities": "Defensive 1, Vicious 1",
+    "notes": ""
+  },
+  {
+    "name": "Modified blaster pistol",
+    "skill": "Ranged: Light",
+    "damage": "6",
+    "critical": "3",
+    "range": "Medium",
+    "qualities": "Stun Setting, Vicious 2",
+    "notes": ""
+  },
+  {
+    "name": "Grappling boa",
+    "skill": "Melee",
+    "damage": "5",
+    "critical": "4",
+    "range": "Short",
+    "qualities": "Ensnare 2, Linked 1, Pierce 2",
+    "notes": ""
+  },
+  {
+    "name": "Smoke grenade",
+    "skill": "Ranged: Light",
+    "damage": "-",
+    "critical": "-",
+    "range": "Short",
+    "qualities": "",
+    "notes": "Creates a thick black smoke that engulfs the target and anyone in Short range, adding :setback::setback::setback: to all Perception and Vigilance checks."
+  },
+  {
+    "name": "Pyke blaster",
+    "skill": "Ranged: Light",
+    "damage": "7",
+    "critical": "3",
+    "range": "Medium",
+    "qualities": "Stun Setting",
+    "notes": ""
+  },
+  {
+    "name": "IQA-11 long range rifle",
+    "skill": "Ranged: Heavy",
+    "damage": "10",
+    "critical": "3",
+    "range": "Extreme",
+    "qualities": "Accurate 1, Cumbersome 3, Pierce 2, Slow-Firing 1",
+    "notes": ""
+  },
+  {
+    "name": "Integrated repeating blasters",
+    "skill": "Ranged: Heavy",
+    "damage": "11",
+    "critical": "3",
+    "range": "Long",
+    "qualities": "Auto-Fire, Cumbersome 4, Pierce 1",
+    "notes": ""
+  },
+  {
+    "name": "Built-in power saw",
+    "skill": "Melee",
+    "damage": "7",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": "Pierce 2, Vicious 3",
+    "notes": ""
+  },
+  {
+    "name": "Sugi’s EE-3 blaster carbine",
+    "skill": "Ranged: Heavy",
+    "damage": "9",
+    "critical": "3",
+    "range": "Medium",
+    "qualities": "Superior, Stun Setting",
+    "notes": ""
+  },
+  {
+    "name": "Maul’s Lightsaber",
+    "skill": "Lightsaber (Agility)",
+    "damage": "9",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": "Breach 1, Defensive 1, Linked 1, Sunder",
+    "notes": ""
+  },
+  {
+    "name": "Darksaber",
+    "skill": "Lightsaber (Agility)",
+    "damage": "6",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": "Accurate 1, Breach 1, Defensive 1, Sunder",
+    "notes": ""
+  },
+  {
+    "name": "Cybernetic leg",
+    "skill": "Brawl",
+    "damage": "6",
+    "critical": "3",
+    "range": "Engaged",
+    "qualities": "Knockdown, Pierce 3, Vicious 3",
+    "notes": ""
+  },
+  {
+    "name": "Enchanted staff",
+    "skill": "Melee",
+    "damage": "5",
+    "critical": "3",
+    "range": "Engaged",
+    "qualities": "Defensive 1, Disorient 2, Linked 1",
+    "notes": ""
+  },
+  {
+    "name": "Grasping claws",
+    "skill": "Brawl",
+    "damage": "3",
+    "critical": "3",
+    "range": "Engaged",
+    "qualities": "Ensnare 1, Vicious 2, Linked",
+    "notes": ""
+  },
+  {
+    "name": "Ceremonial staff",
+    "skill": "Melee",
+    "damage": "2",
+    "critical": "5",
+    "range": "Engaged",
+    "qualities": "Disorient 1",
+    "notes": ""
+  },
+  {
+    "name": "Sticks and stones",
+    "skill": "Ranged: Light",
+    "damage": "2",
+    "critical": "5",
+    "range": "Short",
+    "qualities": "Disorient 1",
+    "notes": ""
+  },
+  {
+    "name": "Mandibles",
+    "skill": "Brawl",
+    "damage": "6",
+    "critical": "3",
+    "range": "Engaged",
+    "qualities": "Knockdown",
+    "notes": ""
+  },
+  {
+    "name": "Spatula",
+    "skill": "Melee",
+    "damage": "5",
+    "critical": "6",
+    "range": "Engaged",
+    "qualities": "",
+    "notes": ""
+  },
+  {
+    "name": "Stunstick",
+    "skill": "Melee",
+    "damage": "4",
+    "critical": "-",
+    "range": "Engaged",
+    "qualities": "Disorient 3, Stun Damage",
+    "notes": ""
+  },
+  {
+    "name": "Stick or pole",
+    "skill": "Melee",
+    "damage": "4",
+    "critical": "5",
+    "range": "Engaged",
+    "qualities": "Knockdown",
+    "notes": ""
+  },
+  {
+    "name": "Thrown bottle",
+    "skill": "Ranged: Light",
+    "damage": "4",
+    "critical": "5",
+    "range": "Short",
+    "qualities": "Disorient 1",
+    "notes": ""
+  },
+  {
+    "name": "Farming tools",
+    "skill": "Melee",
+    "damage": "3",
+    "critical": "6",
+    "range": "Engaged",
+    "qualities": "Disorient 1",
+    "notes": ""
+  },
+  {
+    "name": "Poisoned spears",
+    "skill": "Melee",
+    "damage": "4",
+    "critical": "4",
+    "range": "Engaged",
+    "qualities": "Stun 4",
+    "notes": ""
+  },
+  {
+    "name": "Ryyk blade",
+    "skill": "Melee",
+    "damage": "7",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": "Cumbersome 3, Defensive 1, Superior",
+    "notes": ""
+  },
+  {
+    "name": "Fists",
+    "skill": "Brawl",
+    "damage": "7",
+    "critical": "4",
+    "range": "Engaged",
+    "qualities": "Disorient 2, Knockdown",
+    "notes": ""
+  },
+  {
+    "name": "Electropole",
+    "skill": "Melee",
+    "damage": "5",
+    "critical": "4",
+    "range": "Engaged",
+    "qualities": "Defensive 1, Stun 3, Stun Setting",
+    "notes": ""
+  },
+  {
+    "name": "Mandibles (Insectomorph)",
+    "skill": "Brawl",
+    "damage": "5",
+    "critical": "6",
+    "range": "Engaged",
+    "qualities": "Pierce 2, Vicious 1",
+    "notes": ""
+  },
+  {
+    "name": "Massive bite",
+    "skill": "Brawl",
+    "damage": "16",
+    "critical": "2",
+    "range": "Short",
+    "qualities": "Breach 1, Vicious 4",
+    "notes": ""
+  },
+  {
+    "name": "Large claws",
+    "skill": "Brawl",
+    "damage": "10",
+    "critical": "3",
+    "range": "Medium",
+    "qualities": "Pierce 4, Vicious 1",
+    "notes": ""
+  },
+  {
+    "name": "Tail spikes",
+    "skill": "Brawl",
+    "damage": "12",
+    "critical": "2",
+    "range": "Medium",
+    "qualities": "Breach 1, Vicious 5",
+    "notes": ""
+  },
+  {
+    "name": "Concealed ion stunner",
+    "skill": "Ranged: Light",
+    "damage": "7",
+    "critical": "-",
+    "range": "Medium",
+    "qualities": "Ion, Stun Damage",
+    "notes": ""
+  },
+  {
+    "name": "WESTAR-35 blaster pistol",
+    "skill": "Ranged: Light",
+    "damage": "6",
+    "critical": "2",
+    "range": "Medium",
+    "qualities": "Accurate 1, Stun Setting",
+    "notes": ""
+  },
+  {
+    "name": "WESTAR-35 blaster pistol (training variant)",
+    "skill": "Ranged: Light",
+    "damage": "6",
+    "critical": "2",
+    "range": "Medium",
+    "qualities": "Accurate 1, Stun Damage",
+    "notes": ""
+  },
+  {
+    "name": "Dual WESTAR-34 blaster pistols",
+    "skill": "Ranged: Light",
+    "damage": "7",
+    "critical": "3",
+    "range": "Medium",
+    "qualities": "Superior",
+    "notes": ""
+  },
+  {
+    "name": "Dual WESTAR-35 blaster pistols",
+    "skill": "Ranged: Light",
+    "damage": "7",
+    "critical": "3",
+    "range": "Medium",
+    "qualities": "Accurate 1, Stun Setting",
+    "notes": ""
+  },
+  {
+    "name": "Flamethrower",
+    "skill": "Ranged: Light",
+    "damage": "5",
+    "critical": "2",
+    "range": "Short",
+    "qualities": "Blast 2, Burn 2, Pierce 2, Vicious 3",
+    "notes": ""
+  },
+  {
+    "name": "Whipcord",
+    "skill": "Ranged: Light",
+    "damage": "1",
+    "critical": "-",
+    "range": "Short",
+    "qualities": "Ensnare 3, Limited Ammo 1",
+    "notes": ""
+  },
+  {
+    "name": "Z-6 jetpack missile launcher",
+    "skill": "Ranged: Heavy",
+    "damage": "15",
+    "critical": "3",
+    "range": "Long",
+    "qualities": "Blast 10, Breach 1, Innacurate 1, Limited Ammo 1, Prepare 1",
+    "notes": ""
+  },
+  {
+    "name": "Mon Cala spear blaster",
+    "skill": "Ranged: Heavy",
+    "damage": "8",
+    "critical": "3",
+    "range": "Long",
+    "qualities": "Stun Setting",
+    "notes": ""
+  },
+  {
+    "name": "Mon Cala spear blaster (spear)",
+    "skill": "Melee",
+    "damage": "4",
+    "critical": "3",
+    "range": "Engaged",
+    "qualities": "Pierce 1",
+    "notes": ""
+  },
+  {
+    "name": "Mon Calamari energy lance",
+    "skill": "Melee",
+    "damage": "6",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": "Cumbersome 3, Pierce 3",
+    "notes": ""
+  },
+  {
+    "name": "Mon Calamari coral shield",
+    "skill": "Melee",
+    "damage": "4",
+    "critical": "6",
+    "range": "Engaged",
+    "qualities": "Cumbersome 3, Defensive 2, Deflection 2",
+    "notes": ""
+  },
+  {
+    "name": "Mon Calamari battle baton",
+    "skill": "Ranged: Light",
+    "damage": "5",
+    "critical": "4",
+    "range": "Medium",
+    "qualities": "Stun Setting",
+    "notes": ""
+  },
+  {
+    "name": "Bio-tentacle",
+    "skill": "Brawl",
+    "damage": "15",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": "Ensnare 2, Pierce 2, Vicious 5",
+    "notes": ""
+  },
+  {
+    "name": "Quarren spear blaster",
+    "skill": "Ranged: Heavy",
+    "damage": "8",
+    "critical": "3",
+    "range": "Long",
+    "qualities": "Stun Setting",
+    "notes": ""
+  },
+  {
+    "name": "Quarren spear blaster (spear)",
+    "skill": "Melee",
+    "damage": "5",
+    "critical": "3",
+    "range": "Engaged",
+    "qualities": "Pierce 1",
+    "notes": ""
+  },
+  {
+    "name": "Spectral lightsaber pike",
+    "skill": "Lightsaber",
+    "damage": "10",
+    "critical": "1",
+    "range": "Engaged",
+    "qualities": "Disorient 3, Stun Damage",
+    "notes": ""
+  },
+  {
+    "name": "ELG-3A blaster pistol",
+    "skill": "Ranged: Light",
+    "damage": "6",
+    "critical": "4",
+    "range": "Short",
+    "qualities": "Stun Setting",
+    "notes": "Add :setback::setback: to Perception checks to find this weapon on a person’s body."
+  },
+  {
+    "name": "Security S-5 heavy blaster pistol",
+    "skill": "Ranged: Light",
+    "damage": "7",
+    "critical": "3",
+    "range": "Medium",
+    "qualities": "Stun Setting",
+    "notes": "As an Action may make an :average: Ranged: Light check to secure the grappling hook to an object within Medium range. May reel in as an Action. An :average: Athletics check may be used to carry another character with him."
+  },
+  {
+    "name": "Gungan electropole",
+    "skill": "Melee",
+    "damage": "5",
+    "critical": "4",
+    "range": "Engaged",
+    "qualities": "Stun 3, Stun Setting",
+    "notes": ""
+  },
+  {
+    "name": "Gungan electropole (thrown)",
+    "skill": "Ranged: Light",
+    "damage": "5",
+    "critical": "4",
+    "range": "Short",
+    "qualities": "Stun 3, Stun Setting",
+    "notes": ""
+  },
+  {
+    "name": "Gungan personal eergy shield",
+    "skill": "Melee",
+    "damage": "2",
+    "critical": "5",
+    "range": "Engaged",
+    "qualities": "Defensive 2, Deflection 2",
+    "notes": "Defensive quality is negated when wielder is disoriented or staggered."
+  },
+  {
+    "name": "Gungan plasma bawl",
+    "skill": "Ranged: Light",
+    "damage": "5",
+    "critical": "3",
+    "range": "Short",
+    "qualities": "Burn 1, Ion, Limited Ammo 1",
+    "notes": ""
+  },
+  {
+    "name": "Steela’s marksman rifle",
+    "skill": "Ranged: Heavy",
+    "damage": "10",
+    "critical": "3",
+    "range": "Extreme",
+    "qualities": "Accurate 1, Pierce 3",
+    "notes": ""
+  },
+  {
+    "name": "Ion grenade",
+    "skill": "Ranged: Light",
+    "damage": "10",
+    "critical": "5",
+    "range": "Short",
+    "qualities": "Blast 7, Disorient 5, Ion, Limited Ammo 1",
+    "notes": ""
+  },
+  {
+    "name": "Onderonian laser lance (blaster)",
+    "skill": "Ranged: Heavy",
+    "damage": "9",
+    "critical": "3",
+    "range": "Medium",
+    "qualities": "Cumbersome 3, Innacurate 1, Stun Setting",
+    "notes": ""
+  },
+  {
+    "name": "Onderonian laser lance",
+    "skill": "Melee",
+    "damage": "4",
+    "critical": "3",
+    "range": "Engaged",
+    "qualities": "Cumbersome 3, Pierce 2",
+    "notes": ""
+  },
+  {
+    "name": "Dual modified blaster pistols",
+    "skill": "Ranged: Light",
+    "damage": "6",
+    "critical": "3",
+    "range": "Medium",
+    "qualities": "Accurate 1, Stun Setting",
+    "notes": ""
+  },
+  {
+    "name": "Pantoran ceremonial sword",
+    "skill": "Melee",
+    "damage": "4",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": "Defensive 1, Pierce 2",
+    "notes": ""
+  },
+  {
+    "name": "Pantoran ceremonial rifle",
+    "skill": "Ranged: Heavy",
+    "damage": "7",
+    "critical": "3",
+    "range": "Long",
+    "qualities": "Stun Setting",
+    "notes": ""
+  },
+  {
+    "name": "Ceremonial spear",
+    "skill": "Melee",
+    "damage": "8",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": "",
+    "notes": ""
+  },
+  {
+    "name": "Ceremonial spear (thrown)",
+    "skill": "Ranged: Light",
+    "damage": "9",
+    "critical": "2",
+    "range": "Short",
+    "qualities": "Limited Ammo 1",
+    "notes": ""
+  },
+  {
+    "name": "Paired electroswords",
+    "skill": "Melee",
+    "damage": "6",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": "Accurate 1, Defensive 1, Pierce 3",
+    "notes": "Reduces :advantage: required to hit with second weapon when two-weapon fighting by 1."
+  },
+  {
+    "name": "Unarmed martial attack",
+    "skill": "Brawl",
+    "damage": "4",
+    "critical": "4",
+    "range": "Engaged",
+    "qualities": "Disorient 1, Knockdown, Linked 1",
+    "notes": ""
+  },
+  {
+    "name": "Jaws",
+    "skill": "Brawl",
+    "damage": "7",
+    "critical": "4",
+    "range": "Engaged",
+    "qualities": "Ensnare 1",
+    "notes": ""
+  },
+  {
+    "name": "Mighty jaws",
+    "skill": "Brawl",
+    "damage": "8",
+    "critical": "3",
+    "range": "Engaged",
+    "qualities": "Vicious 3",
+    "notes": ""
+  },
+  {
+    "name": "Ceremonial sword",
+    "skill": "Melee",
+    "damage": "3",
+    "critical": "3",
+    "range": "Engaged",
+    "qualities": "Pierce 2",
+    "notes": ""
+  },
+  {
+    "name": "Modified net launcher",
+    "skill": "Ranged: Heavy",
+    "damage": "3",
+    "critical": "-",
+    "range": "Medium",
+    "qualities": "Ensnare 5, Limited Ammo 1",
+    "notes": ""
+  },
+  {
+    "name": "Umbaran blaster",
+    "skill": "Ranged: Heavy",
+    "damage": "10",
+    "critical": "3",
+    "range": "Long",
+    "qualities": "Burn 2, Stun Setting",
+    "notes": ""
+  },
+  {
+    "name": "Umbaran blaster pistol",
+    "skill": "Ranged: Light",
+    "damage": "6",
+    "critical": "3",
+    "range": "Medium",
+    "qualities": "Burn 2, Stun Setting",
+    "notes": ""
+  },
+  {
+    "name": "Vicious tentacles",
+    "skill": "Brawl",
+    "damage": "6",
+    "critical": "4",
+    "range": "Short",
+    "qualities": "Ensnare 3",
+    "notes": ""
+  },
+  {
+    "name": "Pau’an pike-ax",
+    "skill": "Melee",
+    "damage": "6",
+    "critical": "3",
+    "range": "Engaged",
+    "qualities": "Pierce 2, Vicious 1",
+    "notes": ""
+  },
+  {
+    "name": "Hydrospanner",
+    "skill": "Melee",
+    "damage": "3",
+    "critical": "4",
+    "range": "Engaged",
+    "qualities": "Disorient 1",
+    "notes": ""
+  },
+  {
+    "name": "Hunting spear",
+    "skill": "Melee",
+    "damage": "5",
+    "critical": "4",
+    "range": "Engaged",
+    "qualities": "Pierce 1",
+    "notes": ""
+  },
+  {
+    "name": "Hunting spear (thrown)",
+    "skill": "Ranged: Light",
+    "damage": "5",
+    "critical": "4",
+    "range": "Short",
+    "qualities": "Pierce 2",
+    "notes": ""
+  },
+  {
+    "name": "Claws",
+    "skill": "Brawl",
+    "damage": "7",
+    "critical": "3",
+    "range": "Engaged",
+    "qualities": "",
+    "notes": ""
+  },
+  {
+    "name": "Shock whip",
+    "skill": "Melee",
+    "damage": "4",
+    "critical": "4",
+    "range": "Engaged",
+    "qualities": "Ensnare 3, Stun Damage",
+    "notes": ""
+  },
+  {
+    "name": "Bite",
+    "skill": "Brawl",
+    "damage": "5",
+    "critical": "5",
+    "range": "Engaged",
+    "qualities": "Vicious 2",
+    "notes": ""
+  },
+  {
+    "name": "Dual Lightsabers",
+    "skill": "Lightsaber (Agility)",
+    "damage": "9",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": "Breach 1, Defensive 1, Sunder, Vicious 2",
+    "notes": ""
+  },
+  {
+    "name": "Plagueis’ Lightsaber",
+    "skill": "Lightsaber (Willpower)",
+    "damage": "9",
+    "critical": "1",
+    "range": "Engaged",
+    "qualities": "Breach 1, Sunder, Superior, Vicious 2",
+    "notes": ""
+  },
+  {
+    "name": "Dooku’s Jedi Lightsaber",
+    "skill": "Lightsaber (Presence)",
+    "damage": "8",
+    "critical": "1",
+    "range": "Engaged",
+    "qualities": "Breach 1, Defensive 1, Sunder, Vicious 3",
+    "notes": "Add :lightside: to Force power checks."
+  },
+  {
+    "name": "Obi-Wan’s Padwan Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "8",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": "Breach 1, Sunder",
+    "notes": ""
+  },
+  {
+    "name": "Qui-Gon’s Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "10",
+    "critical": "1",
+    "range": "Engaged",
+    "qualities": "Breach 1, Sunder",
+    "notes": ""
+  },
+  {
+    "name": "Enchanted axe",
+    "skill": "Melee",
+    "damage": "6",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": "Pierce 2, Vicious 3",
+    "notes": ""
+  },
+  {
+    "name": "Sifo-Dyas’ Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "9",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": "Breach 1, Sunder",
+    "notes": ""
   }
 ]

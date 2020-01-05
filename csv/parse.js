@@ -52,7 +52,17 @@ FORCE_POWERS.map(m => {
 
 	return m;
 }).forEach(a => abilities[a.id.toLowerCase()] = a);
-CUSTOM_WEAPONS.forEach(a => customWeapons[a.name] = a);
+CUSTOM_WEAPONS.map(m => {
+	if("notes" in m && m.notes == "") {
+		delete m.notes;
+	}
+
+	if("qualities" in m) {
+		m.qualities = m.qualities.split(", ");
+	}
+
+	return m;
+}).forEach(a => customWeapons[a.name] = a);
 WEAPONS.forEach(a => weapons[a.name] = a);
 
 

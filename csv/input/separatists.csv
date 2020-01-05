@@ -57,8 +57,8 @@ Knowledge: Warfare,,,,,,,,,,,,,,,,4,2,,,3,,
 Knowledge: Xenology,,,,,,,,,,,,,,5,,,,,,,,
 Talents,,,,,,,,,,,,,,,,,,,,,,
 ,Adversary 4,,,Adversary 1,,Full Throttle,,,Adversary 3,Adversary 3,Adversary 1,Congenial 2,Adversary 1,Adversary 1,Adversary 2,Adversary 1,Adversary 3,Adversary 1,Adversary 1,Adversary 2,Adversary 3,Adversary 1
-,Congenial 3,,,,,,,,Durable 3,Durable 3,Encouraging Words,Encouraging Words,Discredit,Thorough Assessment,Feral Strength 2,Know The Enemy,Fearsome 3,Discredit,Plausible Deniability 2,Fire Control,Duelist's Training,Nobody's Fool 2
-,Force Rating 5,,,,,,,,,,Inspiring Rhetoric,Nobody's Fool 2,Nobody's Fool 1,,Improved Scathing Tirade,,Lethal Blows 2,Natural Charmer,Nobody's Fool 2,Lead From The Back,Force Rating 4,Slippery Minded
+,Congenial 3,,,,,,,,Durable 3,Durable 3,Encouraging Words,Encouraging Words,Discredit,Thorough Assessment,Feral Strength 2,Know The Enemy,Fearsome 3,Discredit,Plausible Deniability 2,Fire Control,Duelist’s Training,Nobody’s Fool 2
+,Force Rating 5,,,,,,,,,,Inspiring Rhetoric,Nobody’s Fool 2,Nobody’s Fool 1,,Improved Scathing Tirade,,Lethal Blows 2,Natural Charmer,Nobody’s Fool 2,Lead From The Back,Force Rating 4,Slippery Minded
 ,Improved Parry 4,,,,,,,,,,,,,,,,No Escape,,,,Improved Parry 5,
 ,Makashi Technique,,,,,,,,,,,,,,,,,,,,Reflect 4,
 ,Reflect 4,,,,,,,,,,,,,,,,,,,,,
@@ -78,14 +78,14 @@ Abilities,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,
 Gear,,,,,,,,,,,,,,,,,,,,,,
-,Dooku's Lightsaber,Rocket launcher,Integrated rocket launcher,E-5 blaster rifle,Integrated twin blasters,Combat lance,Integrated quad blasters,Built-in twin heavy blasters,Heavy blaster rifle,Quad cannon,Blaster pistol,Diplomatic clothing,Robes (+1 Soak),Blaster pistol,Heavy blaster pistol,Archduke's cane,Karkarodon bite,Blaster pistol,Bodyguards,E-5 blaster rifle,Bulq's Lightsaber,Skakoan pressure suit (+2 Soak)
-,"Armourweave cloak (+1 Defence, +1 Soak)",Integrated comlink,Integrated comlink,Vibrosword,Self Destruct,Blaster pistol,Stomping mechanical leg,Torpedo launcher,Bola,Shoulder-mounted rocket launcher,Upper class clothing (+1 Soak),Encrypted comlink,,(3) Bio-virus grenade,"Reinforced armour (+1 Defence, +2 Soak)","Ceremonial Geonosian armour (+1 Defence, +1 Soak)",Heavy blaster pistol,Expensive clothing (+1 Soak),Expensive clothing (+1 Soak),"Armoured uniform (+1 Defence, +2 Soak)",Bulq's Shoto,Datapad
-,,,,Frag grenade,,Anti-vehicle mine,,,Spiked flail,"Teska's powersuit (+2 Defence, +3 Soak)",or padded armour (+2 Soak),Datapad,,Enhanced bio-suit (+2 Soak),,,(4) Karkarodon grenade,,,Encrypted comlink,"Jedi robes (+1 Defence, +1 Soak)",Encrypted comlink
+,Dooku’s Lightsaber,Rocket launcher,Integrated rocket launcher,E-5 blaster rifle,Integrated twin blasters,Combat lance,Integrated quad blasters,Built-in twin heavy blasters,Heavy blaster rifle,Quad cannon,Blaster pistol,Diplomatic clothing,Robes (+1 Soak),Blaster pistol,Heavy blaster pistol,Archduke’s cane,Karkarodon bite,Blaster pistol,Bodyguards,E-5 blaster rifle,Bulq’s Lightsaber,Skakoan pressure suit (+2 Soak)
+,"Armourweave cloak (+1 Defence, +1 Soak)",Integrated comlink,Integrated comlink,Vibrosword,Self Destruct,Blaster pistol,Stomping mechanical leg,Torpedo launcher,Bolas,Shoulder-mounted rocket launcher,Upper class clothing (+1 Soak),Encrypted comlink,,(3) Bio-virus grenade,"Reinforced armour (+1 Defence, +2 Soak)","Ceremonial Geonosian armour (+1 Defence, +1 Soak)",Heavy blaster pistol,Expensive clothing (+1 Soak),Expensive clothing (+1 Soak),"Armoured uniform (+1 Defence, +2 Soak)",Bulq’s Shoto,Datapad
+,,,,Frag grenade,,Anti-vehicle mine,,,Spiked flail,"Teska’s powersuit (+2 Defence, +3 Soak)",or padded armour (+2 Soak),Datapad,,Enhanced bio-suit (+2 Soak),,,(4) Karkarodon grenade,,,Encrypted comlink,"Jedi robes (+1 Defence, +1 Soak)",Encrypted comlink
 ,,,,Stun grenade,,Swoop bike,,,Energy gauntlets,,,,,,,,"Aquatic assault suit (+1 Defence, +2 Soak)",,,,,
-,,,,,,,,,"Durge's armour (+2 Defence, +3 Soak)",,,,,,,,,,,,,
+,,,,,,,,,"Durge’s armour (+2 Defence, +3 Soak)",,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,
 Tags,,,,,,,,,,,,,,,,,,,,,,
 ,darkside,species:Droid,species:Droid,species:Droid,species:Droid,species:Droid,species:Droid,species:Droid,species:Gen’Dai,species:Skakoan,location:Onderon,senator,species:Nemoidian,,species:Phindian,species:Geonosian,species:Karkarodon,senator,senator,military,species:Weequay,species:Skakoan
 ,force sensitive,military,military,military,military,military,military,military,bounty hunter,,,location:Onderon,senator,,,,military,,,,darkside,
 ,sith,,,,,,,,,,,,,,,,,,,,force sensitive,
-,character:Dooku,,,,,,,,,,,,,,,,,,,,,
+,alternate:Dooku,,,,,,,,,,,,,,,,,,,,,

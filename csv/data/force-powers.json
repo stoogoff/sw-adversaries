@@ -15,7 +15,7 @@
     "name": "Force Power: Move",
     "id": "Force-power-move-hobs",
     "character": "",
-    "description": "The character can hurl objects by making a Move power check and rolling a ranged attack as part of the pool. The attack's difficulty is equal to the silhouette of the object being thrown (default is silhouette 0) and only succeeds if they can also spend enough :forcepip: to move the object. The attack deals damage equal to the object's silhouette times 10 (silhouette 0 deals 5 damage) plus 1 per net :success:. To throw multiple objects, they must generate enough :forcepip: to move multiple objects, and must use rules for Auto-Fire to determine difficulty and targeting."
+    "description": "The character can hurl objects by making a Move power check and rolling a ranged attack as part of the pool. The attack’s difficulty is equal to the silhouette of the object being thrown (default is silhouette 0) and only succeeds if they can also spend enough :forcepip: to move the object. The attack deals damage equal to the object’s silhouette times 10 (silhouette 0 deals 5 damage) plus 1 per net :success:. To throw multiple objects, they must generate enough :forcepip: to move multiple objects, and must use rules for Auto-Fire to determine difficulty and targeting."
   },
   {
     "name": "Force Power: Sense",
@@ -57,7 +57,7 @@
     "name": "Force Power: Misdirect",
     "id": "Force-power-misdirect-coleman-kcaj",
     "character": "Coleman Kcaj",
-    "description": "Kcaj may spend :forcepip: to make a target at up to Short range unable to perceive a chosen person or object of Silhouette 1 or smaller until the beginning of Kcaj's next turn. May commit :force::force: to sustain the power whilst the target remains in range. May not be activated multiple times."
+    "description": "Kcaj may spend :forcepip: to make a target at up to Short range unable to perceive a chosen person or object of Silhouette 1 or smaller until the beginning of Kcaj’s next turn. May commit :force::force: to sustain the power whilst the target remains in range. May not be activated multiple times."
   },
   {
     "name": "Force Power: Foresee",

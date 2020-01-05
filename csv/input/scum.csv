@@ -1,4 +1,4 @@
-Name,Black Sun Foot Soldier,Boba Fett (HoBS),C-21 Highsinger,Cato Parasitti,Dengar (HoBS),Derrown,Embo,Greedo,Hondo Ohnaka (HoBS),Ziro the Hutt,Latts Razzi,Moralo Eval,Pyke Leader,Pyke Syndicate Soldier,Rako Hardeen,Robonino,Seripas,Seripas (Armoured),Sugi,Sy Snootles,Todo 360
+Name,Black Sun Foot Soldier,Boba Fett (Child),C-21 Highsinger,Cato Parasitti,Dengar (HoBS),Derrown,Embo,Greedo,Hondo Ohnaka (HoBS),Ziro the Hutt,Latts Razzi,Moralo Eval,Pyke Leader,Pyke Syndicate Soldier,Rako Hardeen,Robonino,Seripas,Seripas (Armoured),Sugi,Sy Snootles,Todo 360
 Type,Minion,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Minion,Nemesis,Nemesis,Rival,Nemesis,Nemesis,Rival,Rival
 Characteristics,,,,,,,,,,,,,,,,,,,,,
 Brawn,3,2,4,2,3,2,4,2,2,4,3,4,2,2,3,1,1,5,3,2,1
@@ -59,8 +59,8 @@ Knowledge: Warfare,,,,,,,,,,,,,,,,,,,,,
 Knowledge: Xenology,,,,,,,,,,,,,,,,,,,,,
 Talents,,,,,,,,,,,,,,,,,,,,,
 ,,Adversary 1,Adversary 2,Adversary 1,Adversary 1,Adversary 1,Adversary 3,Adversary 1,Adversary 2,Adversary 2,Adversary 1,Adversary 2,Adversary 1,,Adversary 2,Adversary 1,Skilled Jockey 1,Adversary 1,Adversary 2,Kill With Kindness 2,Bypass Security 2
-,,Improved Quick Draw,Grapple,,Durable 3,Grapple,Hard Headed 1,Improved Shortcut 2,Improved Just Kidding!,Durable 2,Dodge 2,Nobody's Fool 1,Nobody's Fool 2,,Lethal Blows 2,Bypass Security 2,,Point Blank 2,Quick Strike 1,Nobody's Fool 1,Nobody's Fool 1
-,,,Point Blank 2,,Rain Of Death,,,Quick Strike 1,Kill With Kindness 1,Nobody's Fool 2,Grapple,,Plausible Deniability 1,,,Codebreaker 2,,,Unarmed Parry,,Technical Aptitude 2
+,,Improved Quick Draw,Grapple,,Durable 3,Grapple,Hard Headed 1,Improved Shortcut 2,Improved Just Kidding!,Durable 2,Dodge 2,Nobody’s Fool 1,Nobody’s Fool 2,,Lethal Blows 2,Bypass Security 2,,Point Blank 2,Quick Strike 1,Nobody’s Fool 1,Nobody’s Fool 1
+,,,Point Blank 2,,Rain Of Death,,,Quick Strike 1,Kill With Kindness 1,Nobody’s Fool 2,Grapple,,Plausible Deniability 1,,,Codebreaker 2,,,Unarmed Parry,,Technical Aptitude 2
 ,,,Droid,,,,,,Smooth Talker 2,Plausible Deniability 2,Martial Grace,,,,,Skilled Slicer,,,,,
 ,,,,,,,,,,,Unarmed Parry,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,
@@ -69,7 +69,7 @@ Talents,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,
 Abilities,,,,,,,,,,,,,,,,,,,,,
-,,Jango's Legacy,Blaster Spiral,Shape Shift,Brutal Hunter,Additional Limbs,Improvised Transport,Can't Stand The Heat,Distracting Quip,Awkward,,Criminal Mastermind,Ride The High,,,Amphibious,Silhouette 0,Power Suit,Knife Master,The Show Goes On,Techno Service Droid
+,,Jango’s Legacy,Blaster Spiral,Shape Shift,Brutal Hunter,Additional Limbs,Improvised Transport,Can’t Stand The Heat,Distracting Quip,Awkward,,Criminal Mastermind,Ride The High,,,Amphibious,Silhouette 0,Power Suit,Knife Master,The Show Goes On,Techno Service Droid
 ,,Just A Kid,,,Cantina Talk,Hoverer (Derrown),,,Weequay Pheromones,Delicate Information,,,,,,Silhouette 0,,,,,
 ,,Silhouette 0,,,Dirty Tricks,Electric Field,,,,Ponderous,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,
@@ -80,14 +80,14 @@ Abilities,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,
 Gear,,,,,,,,,,,,,,,,,,,,,
-,Black Sun twin blaster,(2) WESTAR-34 blaster pistol,Light repeating blaster,Model 38 sharpshooter's rifle,DLT-18 heavy blaster rifle,Shoulder-mounted light repeating blaster,Bowcaster,Blaster pistol,Heavy blaster pistol,Servants and bodyguards,Modified blaster pistol,Heavy blaster rifle,Pyke blaster,Pyke blaster,IQA-11 long range rifle,Blaster pistol,Repair tools,Integrated repeating blasters,Sugi's EE-3 blaster carbine,Holdout blaster pistol,Integrated slicer's tools
-,Electro-shock prod,Bola,Blaster pistol,Light blaster pistol,Frag grenade,Tentacles,Kyuzo helmet (thrown),Vibroknife,Vibro cutlass,Repulsor sled,Grappling boa,Heavy blaster pistol,Pyke armoured robes (+2 Soak),Vibroknife,Heavy blaster pistol,Stun grenade,Flightsuit (+1 Soak),Built-in power saw,Vibroknife,Make-up bag,Built-in encrypted comlink
-,Black Sun padded armour (+2 Soak),(2) Stun grenade,Built-in vibroknucklers,Light combat armour (+2 Soak),"Modified heavy battle armour (+1 Defence, +2 Soak)","Combat suit (+1 Defence, +2 Soak)",Kyuzo helmet (melee),Combat vest (+2 Soak),"Heavy pirate coat (+1 Defence, +1 Soak)",,(2) Smoke grenade,(2) Frag grenade,(4) Kessel Boost spice dose,(1) Stun grenade,Stun grenade,Light utility armour (+2 Soak),,"Armoured suit (+1 Defence, +3 Soak)",(2) Stun grenade,,Droid chassis (+1 Soak)
-,,Boba's light armour (+2 Soak),"Heavy droid chassis (+1 Defence, +2 Soak)",Holographic Disguise Matrix,Built-in comlink,,Battle armour (+2 Soak),Comlink,,,Light clothing (+1 Soak),"Modified armour (+1 Defence, +2 Soak)",,Blast vest (+2 Soak),"Heavy armour (+1 Defence, +2 Soak)",Datapad,,,Heavy clothing (+1 Soak),,
-,,,,Utility belt,Survival pack,,,,,,,,,,,Slicer's tools,,,,,
+,Black Sun twin blaster,Dual WESTAR-34 blaster pistols,Light repeating blaster,Model 38 sharpshooter’s rifle,DLT-18 heavy blaster rifle,Shoulder-mounted light repeating blaster,Bowcaster,Blaster pistol,Heavy blaster pistol,Servants and bodyguards,Modified blaster pistol,Heavy blaster rifle,Pyke blaster,Pyke blaster,IQA-11 long range rifle,Blaster pistol,Repair tools,Integrated repeating blasters,Sugi’s EE-3 blaster carbine,Holdout blaster,Integrated slicer’s tools
+,Electro-shock prod,Bolas,Blaster pistol,Light blaster pistol,Frag grenade,Tentacles,Kyuzo helmet (thrown),Vibroknife,Vibro cutlass,Repulsor sled,Grappling boa,Heavy blaster pistol,Pyke armoured robes (+2 Soak),Vibroknife,Heavy blaster pistol,Stun grenade,Flightsuit (+1 Soak),Built-in power saw,Vibroknife,Make-up bag,Built-in encrypted comlink
+,Black Sun padded armour (+2 Soak),2 Stun grenades,Built-in vibroknucklers,Light combat armour (+2 Soak),"Modified heavy battle armour (+1 Defence, +2 Soak)","Combat suit (+1 Defence, +2 Soak)",Kyuzo helmet (melee),Combat vest (+2 Soak),"Heavy pirate coat (+1 Defence, +1 Soak)",,2 Smoke grenades,2 Frag grenades,(4) Kessel Boost spice dose,Stun grenade,Stun grenade,Light utility armour (+2 Soak),,"Armoured suit (+1 Defence, +3 Soak)",2 Stun grenades,,Droid chassis (+1 Soak)
+,,Boba’s light armour (+2 Soak),"Heavy droid chassis (+1 Defence, +2 Soak)",Holographic Disguise Matrix (add :boost::boost: to Deception checks to impersonate target; add :setback::setback: to onlookers’ Perception checks to detect imposter),Built-in comlink,,Battle armour (+2 Soak),Comlink,,,Light clothing (+1 Soak),"Modified armour (+1 Defence, +2 Soak)",,Blast vest (+2 Soak),"Heavy armour (+1 Defence, +2 Soak)",Datapad,,,Heavy clothing (+1 Soak),,
+,,,,Utility belt,Survival pack,,,,,,,,,,,Slicer’s tools,,,,,
 ,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,
 Tags,,,,,,,,,,,,,,,,,,,,,
 ,thug,bounty hunter,species:Droid,species:Clawdite,bounty hunter,species:Derrown,species:Kyuzo,species:Rodian,species:Weequay,species:Hutt,species:Theelin,species:Phindian,pyke syndicate,pyke syndicate,species:Mandalorian,species:Patrolian,species:Ssori,species:Ssori,species:Zabrak,species:Palowick,
 ,black sun,character:Boba Fett,bounty hunter,bounty hunter,character:Dengar,bounty hunter,bounty hunter,bounty hunter,pirate,,bounty hunter,mercenary,,,bounty hunter,bounty hunter,bounty hunter,bounty hunter,bounty hunter,entertainer,
-,,,,spy,,,,,,,,,,,,,character:Seripas,character:Seripas,,,
+,,,,spy,,,,,,,,,,,,,alternate:Seripas,alternate:Seripas,,,
