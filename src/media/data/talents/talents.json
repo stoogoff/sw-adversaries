@@ -165,7 +165,7 @@
 	},
 	{
 		"name": "Calming Aura (Improved)",
-		"description": "The character may spend a maneuver and suffer 2 Strain to extend the effects of Calming Aura to {ranks|Willpower} allies within Short range. This lasts until the beginning of the character's next turn."
+		"description": "The character may spend a maneuver and suffer 2 Strain to extend the effects of Calming Aura to {ranks|Willpower} allies within Short range. This lasts until the beginning of the character’s next turn."
 	},
 	{
 		"name": "Careful Planning",
@@ -173,12 +173,12 @@
 	},
 	{
 		"name": "Centre of Being",
-		"description": "Once per round, when wielding a lightsaber, may make a Centre of Being maneuver. Until the beginning of the character's next turn, whenever an enemy makes a melee attack targeting the character, the critical rating of the enemy's weapon counts as {ranks|words} higher.",
+		"description": "Once per round, when wielding a lightsaber, may make a Centre of Being maneuver. Until the beginning of the character’s next turn, whenever an enemy makes a melee attack targeting the character, the critical rating of the enemy’s weapon counts as {ranks|words} higher.",
 		"ranked": true
 	},
 	{
 		"name": "Centre of Being (Improved)",
-		"description": "Once per round, when wielding a lightsaber, may make a Centre of Being incidental. Until the beginning of the character's next turn, whenever an enemy makes a melee attack targeting the character, the critical rating of the enemy's weapon counts as {ranks|words} higher."
+		"description": "Once per round, when wielding a lightsaber, may make a Centre of Being incidental. Until the beginning of the character’s next turn, whenever an enemy makes a melee attack targeting the character, the critical rating of the enemy’s weapon counts as {ranks|words} higher."
 	},
 	{
 		"name": "Circle of Shelter",
@@ -341,7 +341,7 @@
 	},
 	{
 		"name": "Defensive Circle",
-		"description": "While wielding a lightsaber, the character may take the Defensive Circle action and make a :hard: Lightsaber (Intellect) skill check. If successful the character plus one ally per :success: within Short range gains ranged and melee defence equal to 1 plus 1 per :advantage::advantage: until the beginning of the character's next turn."
+		"description": "While wielding a lightsaber, the character may take the Defensive Circle action and make a :hard: Lightsaber (Intellect) skill check. If successful the character plus one ally per :success: within Short range gains ranged and melee defence equal to 1 plus 1 per :advantage::advantage: until the beginning of the character’s next turn."
 	},
 	{
 		"name": "Defensive Driving",
@@ -360,7 +360,7 @@
 	},
 	{
 		"name": "Defensive Stance",
-		"description": "Once per round on the character's turn as a maneuver, they may suffer up to {ranks} Strain to upgrade the difficulty of all melee combat checks targeting them once per Strain spent. This lasts until the start of the character's next turn. ",
+		"description": "Once per round on the character’s turn as a maneuver, they may suffer up to {ranks} Strain to upgrade the difficulty of all melee combat checks targeting them once per Strain spent. This lasts until the start of the character’s next turn. ",
 		"ranked": true
 	},
 	{
@@ -389,7 +389,7 @@
 	},
 	{
 		"name": "Disruptive Strike",
-		"description": "The character may take a Disruptive Strike action, making a Lightsaber (Cunning) skill check against one Engaged target and add {Force Rating}. Spend :forcepip: to add :failure: to the target's next combat check."
+		"description": "The character may take a Disruptive Strike action, making a Lightsaber (Cunning) skill check against one Engaged target and add {Force Rating}. Spend :forcepip: to add :failure: to the target’s next combat check."
 	},
 	{
 		"name": "Distracting Behaviour",
@@ -513,7 +513,7 @@
 	},
 	{
 		"name": "Feint",
-		"description": "Upon missing an opponent with a Lightsaber, Brawl, or Melee combat check, may spend :triumph: or :advantage::advantage::advantage: to upgrade the difficulty of the opponent's next combat check targeting this character {ranks|times}.",
+		"description": "Upon missing an opponent with a Lightsaber, Brawl, or Melee combat check, may spend :triumph: or :advantage::advantage::advantage: to upgrade the difficulty of the opponent’s next combat check targeting this character {ranks|times}.",
 		"ranked": true
 	},
 	{
@@ -664,7 +664,7 @@
 	},
 	{
 		"name": "Healing Trance (Improved)",
-		"description": "Whenever the character heals Wounds as a result of Healing Trance, if they are suffering from a Critical Injury, they may make a Resilience check with the difficulty equal to the Critical Injury's severity rating. If successful, they recover from the Critical Injury."
+		"description": "Whenever the character heals Wounds as a result of Healing Trance, if they are suffering from a Critical Injury, they may make a Resilience check with the difficulty equal to the Critical Injury’s severity rating. If successful, they recover from the Critical Injury."
 	},
 	{
 		"name": "Heavy Hitter",
@@ -817,11 +817,11 @@
 	},
 	{
 		"name": "Invigorate",
-		"description": "Once per encounter, when an ally within Short range attempts a skill check using Brawn or Agility, may roll :force:. Each :lightside: adds :success: to the target's check; while each :darkside: adds :threat:."
+		"description": "Once per encounter, when an ally within Short range attempts a skill check using Brawn or Agility, may roll :force:. Each :lightside: adds :success: to the target’s check; while each :darkside: adds :threat:."
 	},
 	{
 		"name": "It’s Not That Bad",
-		"description": "Once per session, when an ally is about to suffer a Critical Injury, may take an It's Not That Bad incidental to make a :hard: Medicine check. If successful, the ally does not gain the Critical Injury."
+		"description": "Once per session, when an ally is about to suffer a Critical Injury, may take an It’s Not That Bad incidental to make a :hard: Medicine check. If successful, the ally does not gain the Critical Injury."
 	},
 	{
 		"name": "Jump Up",
@@ -942,7 +942,7 @@
 	},
 	{
 		"name": "Master Instructor",
-		"description": "Once per round as an out of turn incidental, may suffer 2 strain to allow ally to use character's ranks in Discipline for next Discipline check an ally makes."
+		"description": "Once per round as an out of turn incidental, may suffer 2 strain to allow ally to use character’s ranks in Discipline for next Discipline check an ally makes."
 	},
 	{
 		"name": "Master Leader",
@@ -1164,7 +1164,7 @@
 	},
 	{
 		"name": "Parry (Supreme)",
-		"description": "When struck by a melee attack but before applying Soak, suffer 3 Strain to reduce damage by {ranks|plus-2}. When parrying a hit that generated :despair: or :threat::threat::threat:, may hit attacker once with a wielded Brawl, Melee, or Lightsaber weapon dealing base damage, after the original attack is resolved. If the character didn't make a combat check during their previous turn, suffer 1 Strain instead of 3."
+		"description": "When struck by a melee attack but before applying Soak, suffer 3 Strain to reduce damage by {ranks|plus-2}. When parrying a hit that generated :despair: or :threat::threat::threat:, may hit attacker once with a wielded Brawl, Melee, or Lightsaber weapon dealing base damage, after the original attack is resolved. If the character didn’t make a combat check during their previous turn, suffer 1 Strain instead of 3."
 	},
 	{
 		"name": "Physical Training",
@@ -1307,7 +1307,7 @@
 	},
 	{
 		"name": "Reflect (Supreme)",
-		"description": "When struck by a ranged attack but before apply­ing Soak, suffer 3 Strain to reduce damage by {ranks|plus-2}. When reflecting a hit that generated :despair: or :threat::threat::threat:, may hit one target within Medium range dealing the same damage as the initial attack, after the original attack is resolved. If the character didn't make a combat check during their previous turn, suffer 1 Strain instead of 3."
+		"description": "When struck by a ranged attack but before apply­ing Soak, suffer 3 Strain to reduce damage by {ranks|plus-2}. When reflecting a hit that generated :despair: or :threat::threat::threat:, may hit one target within Medium range dealing the same damage as the initial attack, after the original attack is resolved. If the character didn’t make a combat check during their previous turn, suffer 1 Strain instead of 3."
 	},
 	{
 		"name": "Reinforce Item",
@@ -1766,7 +1766,7 @@
 	},
 	{
 		"name": "Valuable Facts",
-		"description": "Make an :average: Knowledge check. If successful, add :triumph: to one ally's skill check during the enounter."
+		"description": "Make an :average: Knowledge check. If successful, add :triumph: to one ally’s skill check during the enounter."
 	},
 	{
 		"name": "Vehicle Combat Training",
