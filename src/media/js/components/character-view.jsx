@@ -165,14 +165,14 @@ export default class CharacterView extends React.Component {
 			for(var i in character.skills) {
 				stats[i] = character.skills[i];
 			}
-
-			// add force rating
-			(character.talents || []).forEach(t => {
-				if(t && t.startsWith && t.startsWith("Force Rating")) {
-					stats["Force Rating"] = t.split(" ")[2];
-				}
-			});
 		}
+
+		// add force rating
+		(character.talents || []).forEach(t => {
+			if(t && t.startsWith && t.startsWith("Force Rating")) {
+				stats["Force Rating"] = t.split(" ")[2];
+			}
+		});
 
 		let source = null;
 		let sourceTag = character.tags.find(t => t.startsWith("source:"));

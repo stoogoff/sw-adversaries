@@ -308,7 +308,7 @@
 			"Perception": 2,
 			"Vigilance": 3
 		},
-		"talents": ["Adversary 1", "Improved Scathing Tirade"],
+		"talents": ["Adversary 1", "Scathing Tirade (Improved)"],
 		"weapons": ["Stun baton"],
 		"gear": ["Imperial ID", "Code cylinder", "Comlink", "Datapad (with detention centre reports)", "Detention centre administrator’s uniform"],
 		"tags": ["empire", "imperial bureaucracy", "book:ragp", "adventure:Rescue at Glare Peak"]
@@ -672,7 +672,7 @@
 			"Streetwise": 2,
 			"Vigilance": 3
 		},
-		"talents": ["Adversary 2", "Commanding Presence 3", "Confidence 2", "Improved Field Commander", "Natural Leader", "Improved Scathing Tirade"],
+		"talents": ["Adversary 2", "Commanding Presence 3", "Confidence 2", "Field Commander (Improved)", "Natural Leader", "Scathing Tirade (Improved)"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Armoured imperial uniform (+1 Soak, +1 Defence)"],
 		"tags": ["book:sor", "location:Sullust", "sorosuub", "security", "empire", "imperial bureaucracy", "adventure:Claustrophobia"]
@@ -769,7 +769,7 @@
 			"Streetwise": 4,
 			"Vigilance": 2
 		},
-		"talents": ["Adversary 2", "Command 2", "Improved Field Commander"],
+		"talents": ["Adversary 2", "Command 2", "Field Commander (Improved)"],
 		"weapons": ["Holdout blaster", "Light blaster pistol"],
 		"tags": ["rebel alliance", "book:sor", "location:Polis Massa"]
 	},

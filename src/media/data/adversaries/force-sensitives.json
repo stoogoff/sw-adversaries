@@ -211,7 +211,7 @@
 			"Lightsaber": 4,
 			"Resilience": 3
 		},
-		"talents": ["Adversary 2", "Force Rating 3", "Hawk Bat Swoop", "Parry 5", "Improved Reflect 5"],
+		"talents": ["Adversary 2", "Force Rating 3", "Hawk Bat Swoop", "Parry 5", "Reflect (Improved) 5"],
 		"abilities": ["Darkside Force User"],
 		"weapons": [
 			{

@@ -13,7 +13,7 @@
 		"description": "Does not suffer usual penalties for driving through difficult terrain when using Piloting: Planetary."
 	},
 	{
-		"name": "Aminal Bond",
+		"name": "Animal Bond",
 		"description": ""
 	},
 	{
@@ -29,15 +29,15 @@
 		"description": "When attempting to handle or tame animals, add :force: no greater than Force rating to the check and spend :forcepip: to add :success: or :advantage:."
 	},
 	{
-		"name": "Armor Master",
-		"description": ""
+		"name": "Armour Master",
+		"description": "When wearing armour, the character increases their total Soak value by 1."
 	},
 	{
-		"name": "Armor Master (Supreme)",
-		"description": ""
+		"name": "Armour Master (Improved)",
+		"description": "When wearing armour with a Soak value of 2 or higher, the character increases their Defence by 1."
 	},
 	{
-		"name": "Armor Master (Improved)",
+		"name": "Supreme Armour Master",
 		"description": ""
 	},
 	{
@@ -64,7 +64,7 @@
 	},
 	{
 		"name": "Balance",
-		"description": ""
+		"description": "When the character rolls to recover Strain at the end of an encounter, they may roll {Force Rating} and recover Strain equal to :forcepip: generated."
 	},
 	{
 		"name": "Baleful Gaze",
@@ -77,7 +77,7 @@
 	},
 	{
 		"name": "Basic Combat Training",
-		"description": ""
+		"description": "Brawl and Ranged: Light become career skills."
 	},
 	{
 		"name": "Beast Wrangler",
@@ -103,7 +103,7 @@
 	},
 	{
 		"name": "Blooded",
-		"description": "Add :boost::boost: to all checks to resist or recover from venoms, poisons, and toxins; reduce duration of ongoing effects from poisons, venoms, and toxins by two rounds, to a minimum of one.",
+		"description": "Add {ranks|boost} to all checks to resist or recover from venoms, poisons, and toxins; reduce duration of ongoing effects from poisons, venoms, and toxins by two rounds, to a minimum of one.",
 		"ranked": true
 	},
 	{
@@ -113,14 +113,14 @@
 	},
 	{
 		"name": "Body Guard (Improved)",
-		"description": ""
+		"description": "Once per session, when an ally protected by the character’s Body Guard maneuver would suffer a hit from a combat check, the character may choose to suffer the hit instead."
 	},
 	{
 		"name": "Body Guard (Supreme)",
 		"description": ""
 	},
 	{
-		"name": "Bolstered Armor",
+		"name": "Bolstered Armour",
 		"description": "",
 		"ranked": true
 	},
@@ -165,20 +165,20 @@
 	},
 	{
 		"name": "Calming Aura (Improved)",
-		"description": ""
+		"description": "The character may spend a maneuver and suffer 2 Strain to extend the effects of Calming Aura to {ranks|Willpower} allies within Short range. This lasts until the beginning of the character's next turn."
 	},
 	{
 		"name": "Careful Planning",
 		"description": "Once per session, may introduce a “fact” into the narrative as if a Destiny Point had been spent."
 	},
 	{
-		"name": "Center of Being",
-		"description": "",
+		"name": "Centre of Being",
+		"description": "Once per round, when wielding a lightsaber, may make a Centre of Being maneuver. Until the beginning of the character's next turn, whenever an enemy makes a melee attack targeting the character, the critical rating of the enemy's weapon counts as {ranks|words} higher.",
 		"ranked": true
 	},
 	{
-		"name": "Center of Being (Improved)",
-		"description": ""
+		"name": "Centre of Being (Improved)",
+		"description": "Once per round, when wielding a lightsaber, may make a Centre of Being incidental. Until the beginning of the character's next turn, whenever an enemy makes a melee attack targeting the character, the critical rating of the enemy's weapon counts as {ranks|words} higher."
 	},
 	{
 		"name": "Circle of Shelter",
@@ -213,11 +213,11 @@
 	},
 	{
 		"name": "Comprehend Technology",
-		"description": ""
+		"description": "Once per session, the character may take the Comprehend Technology Action, making an :average: Knowledge: Education skill check to intuitively understand one piece of equipment. For the remained of the encounter, when making any skill checks to use or repair the item the character may use their Force Rating in place of the skill."
 	},
 	{
 		"name": "Conditioned",
-		"description": "",
+		"description": "Remove {ranks|setback} from Athletics and Coordination checks. Reduce Strain suffered from falling by {Coordination}.",
 		"ranked": true
 	},
 	{
@@ -231,12 +231,12 @@
 	},
 	{
 		"name": "Congenial",
-		"description": "May suffer up to {ranks} Strain to downgrade the difficulty of Charm or Negotiation checks by one per Strain spent or upgrade difficulty once per Strain spent when targetted by Charm or Negotiaion checks.",
+		"description": "May suffer up to {ranks} Strain to downgrade the difficulty of Charm or Negotiation checks by one per Strain spent or upgrade difficulty once per Strain spent when targeted by Charm or Negotiation checks.",
 		"ranked": true
 	},
 	{
 		"name": "Contingency Plan",
-		"description": ""
+		"description": "The character may spend one Destiny point to recover {Cunning} Strain."
 	},
 	{
 		"name": "Contraption",
@@ -266,15 +266,15 @@
 	},
 	{
 		"name": "Counterstrike",
-		"description": ""
+		"description": "Whenever an attack misses the character, they may spend :threat::threat: or :despair: to upgrade the next Lightsaber (Cunning) combat check they make against the attacker during their next turn once."
 	},
 	{
 		"name": "Creative Killer",
-		"description": ""
+		"description": "Reduce the critical rating of all improvised weapons the character is wielding by 2 to a minimum of 1."
 	},
 	{
 		"name": "Crippling Blow",
-		"description": "May increase difficulty of attack by 1. If suc­cessful, target suffers 1 Strain when moving for remainder of encounter."
+		"description": "May increase difficulty of attack by 1. If successful, target suffers 1 Strain when moving for remainder of encounter."
 	},
 	{
 		"name": "Custom Loadout",
@@ -299,8 +299,8 @@
 		"description": "Spend 1 dark side Destiny Point to add additional damage equal to half Agility to one hit of a successful attack made with ship or vehicle-mounted weaponry."
 	},
 	{
-		"name": "Dead to Rights [Improved]",
-		"description": ""
+		"name": "Dead to Rights (Improved)",
+		"description": "The character may spend one Destiny point to add {Agility} to one hit of a successful attack made by ship or vehicle-mounted weaponry. This replaces the normal Dead to Rights ability."
 	},
 	{
 		"name": "Deadly Accuracy (Brawl)",
@@ -328,7 +328,7 @@
 	},
 	{
 		"name": "Debilitating Shot",
-		"description": ""
+		"description": "When making a successful attack with a ship or vehicle-mounted weapon, may spend :advantage::advantage: to reduce the maximum speed of the target by 1, to a minimum of 1, until the end of the next round."
 	},
 	{
 		"name": "Deceptive Taunt",
@@ -341,7 +341,7 @@
 	},
 	{
 		"name": "Defensive Circle",
-		"description": ""
+		"description": "While wielding a lightsaber, the character may take the Defensive Circle action and make a :hard: Lightsaber (Intellect) skill check. If successful the character plus one ally per :success: within Short range gains ranged and melee defence equal to 1 plus 1 per :advantage::advantage: until the beginning of the character's next turn."
 	},
 	{
 		"name": "Defensive Driving",
@@ -354,17 +354,18 @@
 		"ranked": true
 	},
 	{
-		"name": "Defensive Slicing [Improved]",
-		"description": ""
+		"name": "Defensive Slicing (Improved)",
+		"description": "When defending computer systems, upgrade the difficulty of an opponent’s dice pool {ranks|words}.",
+		"ranked": true
 	},
 	{
 		"name": "Defensive Stance",
-		"description": "",
+		"description": "Once per round on the character's turn as a maneuver, they may suffer up to {ranks} Strain to upgrade the difficulty of all melee combat checks targeting them once per Strain spent. This lasts until the start of the character's next turn. ",
 		"ranked": true
 	},
 	{
 		"name": "Defensive Training",
-		"description": "",
+		"description": "When the character wields a Lightsaber, Melee, or Brawl weapon, that weapons gains Defensive {ranks}.",
 		"ranked": true
 	},
 	{
@@ -388,20 +389,20 @@
 	},
 	{
 		"name": "Disruptive Strike",
-		"description": ""
+		"description": "The character may take a Disruptive Strike action, making a Lightsaber (Cunning) skill check against one Engaged target and add {Force Rating}. Spend :forcepip: to add :failure: to the target's next combat check."
 	},
 	{
-		"name": "Distracting Behavior",
+		"name": "Distracting Behaviour",
 		"description": "",
 		"ranked": true
 	},
 	{
-		"name": "Distracting Behavior (Improved)",
+		"name": "Distracting Behaviour (Improved)",
 		"description": ""
 	},
 	{
 		"name": "Djem So Deflection",
-		"description": ""
+		"description": "Once per round, after using the Reflect incidental, the character may spend one Destiny point to perform Move manevuer as an out of turn incidental to move closer to or engage an opponent."
 	},
 	{
 		"name": "Dodge",
@@ -434,7 +435,7 @@
 	},
 	{
 		"name": "Duelist’s Training",
-		"description": ""
+		"description": "Add :boost: to Melee and Lightsaber skill checks when engaged with a single opponent."
 	},
 	{
 		"name": "Durable",
@@ -443,7 +444,7 @@
 	},
 	{
 		"name": "Dynamic Fire",
-		"description": ""
+		"description": "When making a ranged attack while engaged with an opponent, the character may suffer 2 Strain to reduce the ranged modifier for being engaged by 1 for the attack."
 	},
 	{
 		"name": "Encoded Communique",
@@ -475,12 +476,8 @@
 		"description": ""
 	},
 	{
-		"name": "Exaust Port",
-		"description": ""
-	},
-	{
 		"name": "Exhaust Port",
-		"description": ""
+		"description": "Before attacking a starship or vehicle, the character may spend one Destiny point to ignore the effects of the Massive rule for the attack."
 	},
 	{
 		"name": "Expert Handler",
@@ -499,11 +496,11 @@
 	},
 	{
 		"name": "Falling Avalanche",
-		"description": ""
+		"description": "Once per round, suffer 2 Strain to add {Brawn} to damage of one successful Lightsaber combat check."
 	},
 	{
 		"name": "Familiar Suns",
-		"description": ""
+		"description": "Once per session, may spend a maneuver to make a :hard: Knowledge: Outer Rim or Knowledge: Core Worlds check to know information about the current planet."
 	},
 	{
 		"name": "Fancy Paint Job",
@@ -516,7 +513,7 @@
 	},
 	{
 		"name": "Feint",
-		"description": "",
+		"description": "Upon missing an opponent with a Lightsaber, Brawl, or Melee combat check, may spend :triumph: or :advantage::advantage::advantage: to upgrade the difficulty of the opponent's next combat check targeting this character {ranks|times}.",
 		"ranked": true
 	},
 	{
@@ -529,7 +526,7 @@
 		"description": "As an action, may make an :average: Leadership check; {Presence} allies may immediately suffer 1 Strain to perform a free maneuver."
 	},
 	{
-		"name": "Improved Field Commander",
+		"name": "Field Commander (Improved)",
 		"description": "As an action, may make an :average: Leadership check; {Presence} allies may immediately suffer 1 Strain to perform a free maneuver; spend :triumph: to allow one ally to perform an action instead."
 	},
 	{
@@ -548,7 +545,7 @@
 	},
 	{
 		"name": "Force Assault",
-		"description": ""
+		"description": "Upon missing an opponent with a Lightsaber (Willpower) combat check, may spend :triumph: or :advantage::advantage::advantage: to perform a Move Force power action as a maneuver this turn."
 	},
 	{
 		"name": "Force Connection",
@@ -556,11 +553,11 @@
 	},
 	{
 		"name": "Force of Will",
-		"description": ""
+		"description": "Once per session, may make one skill check using Willpower rather than the characteristic linked to the skill."
 	},
 	{
 		"name": "Force Protection",
-		"description": "",
+		"description": "As a maneuver, May suffer 1 Strain and commit a number of :force: no greater than Force Rating or ranks of Force Protection. Increase Soak by :force: committed. Spend 1 Strain at the beginning of each turn in which :force: remain committed.",
 		"ranked": true
 	},
 	{
@@ -570,7 +567,7 @@
 	},
 	{
 		"name": "Forewarning",
-		"description": ""
+		"description": "As an action, may allow all allies within Medium range to increase their melee and ranged defence by {Force Rating} until they take their first turn during an encounter."
 	},
 	{
 		"name": "Form on Me",
@@ -582,7 +579,7 @@
 		"ranked": true
 	},
 	{
-		"name": "Fortune Favors the Bold",
+		"name": "Fortune Favours the Bold",
 		"description": ""
 	},
 	{
@@ -592,15 +589,19 @@
 	},
 	{
 		"name": "Full Stop",
-		"description": ""
+		"description": "When piloting a ship or vehicle, may take the Full Stop maneuever to immediately reduce the speed of the ship or vehicle to zero. The ship or vehicle suffers 1 System Strain for every point of speed it had before stopping."
 	},
 	{
 		"name": "Full Throttle",
 		"description": "Take a Full Throttle action and make a :hard: Piloting (Space or Planetary) check to increase a vehicle’s top speed by 1 for {Cunning} rounds."
 	},
 	{
-		"name": "Improved Full Throttle",
+		"name": "Full Throttle (Improved)",
 		"description": "Suffer 1 Strain to make an :average: Piloting: Planetary check as maneuver and in­crease top speed by 1 for {Cunning} rounds."
+	},
+	{
+		"name": "Full Throttle (Supreme)",
+		"description": "As an action, make a :hard: piloting check to increase the vehicle’s top speed by two for three rounds; suffer 1 Strain to use as maneuver and reduce difficulty to :average:."
 	},
 	{
 		"name": "Galaxy Mapper",
@@ -644,12 +645,13 @@
 	},
 	{
 		"name": "Hard Headed",
-		"description": "",
+		"description": "On any turn when Staggered or Disoriented, may perform the Hard Headed action to make a :daunting: Discipline skill check. If successful the character is no longer Staggered or Disoriented. The difficulty of this check decreases by one per rank, to a minimum of :easy:.",
 		"ranked": true
 	},
 	{
-		"name": "Hard Headed [Improved]",
-		"description": ""
+		"name": "Hard Headed (Improved)",
+		"ranked": true,
+		"description": "May use the Hard Headed action to recover from being Incapacitated due to exceeding Strain Threshold. On the turn after being Incapacitated the character may make a :formidable: Discipline check, if successful their Strain decreases to one below their Strain Threshold. The difficulty of this check decreases by one per rank, to a minimum of :easy:."
 	},
 	{
 		"name": "Hawk Bat Swoop",
@@ -657,12 +659,12 @@
 	},
 	{
 		"name": "Healing Trance",
-		"description": "The character may commit :force:. For every full encounter :force: remains committed, the character heals {ranks} additional wound(s) he is suffering.",
+		"description": "The character may commit :force:. For every full encounter :force: remains committed, the character heals {ranks} additional Wound(s) they are suffering.",
 		"ranked": true
 	},
 	{
 		"name": "Healing Trance (Improved)",
-		"description": ""
+		"description": "Whenever the character heals Wounds as a result of Healing Trance, if they are suffering from a Critical Injury, they may make a Resilience check with the difficulty equal to the Critical Injury's severity rating. If successful, they recover from the Critical Injury."
 	},
 	{
 		"name": "Heavy Hitter",
@@ -674,7 +676,7 @@
 	},
 	{
 		"name": "Heroic Fortitude",
-		"description": ""
+		"description": "Spend one Destiny point to ignore effects of Critical Injuries on Brawn or Agility checks until the end of the encounter."
 	},
 	{
 		"name": "Heroic Resilience",
@@ -682,7 +684,7 @@
 	},
 	{
 		"name": "Hidden Storage",
-		"description": "",
+		"description": "An large equipment, vehicle, or droid the character owns has one or more hidden compartments with an encumbrance total of {ranks}.",
 		"ranked": true
 	},
 	{
@@ -708,7 +710,7 @@
 		"description": "As an action make a :hard: Survival check to upgrade the ability of all attacks against one target at Long range until the end of the big game hunter’s next turn."
 	},
 	{
-		"name": "Hunter’s Quarry [Improved]",
+		"name": "Hunter’s Quarry (Improved)",
 		"description": "may take the Hunter’s Quarry action against an opponent within long range, making a :hard: Survival check. If the check succeeds, upgrade the ability of all attacks made against the target by one until the end of the character’s next turn. The character can choose to suffer 2 strain to perform the Hunter’s Quarry action as a maneuver instead"
 	},
 	{
@@ -725,7 +727,7 @@
 		"description": ""
 	},
 	{
-		"name": "Improvised Detonation [Improved]",
+		"name": "Improvised Detonation (Improved)",
 		"description": ""
 	},
 	{
@@ -756,18 +758,18 @@
 	},
 	{
 		"name": "Insight",
-		"description": ""
+		"description": "Perception and Discipline are career skills."
 	},
 	{
 		"name": "Inspiring Rhetoric",
 		"description": "As an action, may make an :average: Leadership check; each :success: removes one Strain or Wound from one ally in Short range; spend :advantage: to remove an additional Strain or Wound from an affected ally."
 	},
 	{
-		"name": "Improved Inspiring Rhetoric",
+		"name": "Inspiring Rhetoric (Improved)",
 		"description": "As an action, may make an :average: Leadership check; each :success: removes one Strain or Wound from one ally in Short range; spend :advantage: to remove an additional Strain or Wound from an affected ally; all affected allies add :boost: to all checks for two rounds."
 	},
 	{
-		"name": "Supreme Inspiring Rhetoric",
+		"name": "Inspiring Rhetoric (Supreme)",
 		"description": "As a maneuver, may make an :average: Leadership check; each :success: removes one Strain or Wound from one ally in Short range; spend :advantage: to remove an additional Strain or Wound from an affected ally; all affected allies add :boost: to all checks for four rounds."
 	},
 	{
@@ -802,24 +804,24 @@
 	},
 	{
 		"name": "Intuitive Shot",
-		"description": ""
+		"description": "When making a Ranged: Heavy, or Ranged: Light combat check, may add {Force Rating} to the check. May spend :forcepip: to add :success: or :advantage: to the result."
 	},
 	{
 		"name": "Intuitive Strike",
-		"description": ""
+		"description": "When making a combat check with a vehicle weapon, may add {Force Rating} to the check. Spend :forcepip::forcepip: to add :success: or :advantage: to the result."
 	},
 	{
 		"name": "Inventor",
-		"description": "",
+		"description": "When constructing new items or modifying attachments, may choose to add {ranks|boost} or remove {ranks|setback} from the check.",
 		"ranked": true
 	},
 	{
 		"name": "Invigorate",
-		"description": ""
+		"description": "Once per encounter, when an ally within Short range attempts a skill check using Brawn or Agility, may roll :force:. Each :lightside: adds :success: to the target's check; while each :darkside: adds :threat:."
 	},
 	{
 		"name": "It’s Not That Bad",
-		"description": ""
+		"description": "Once per session, when an ally is about to suffer a Critical Injury, may take an It's Not That Bad incidental to make a :hard: Medicine check. If successful, the ally does not gain the Critical Injury."
 	},
 	{
 		"name": "Jump Up",
@@ -827,7 +829,7 @@
 	},
 	{
 		"name": "Jury Rigged",
-		"description": "",
+		"description": "The character chooses one personal weapon or piece of armour per rank. May increase the damage of a weapon by one; decrease the critical rating by 1; or increase the range and melee defence of armour 1.",
 		"ranked": true
 	},
 	{
@@ -835,7 +837,7 @@
 		"description": "Once per round as an incidental, when the character or any of his allies in short range generages a :despair: on a social skill check, the character may spend one Destiny Point to convert a single :despair: generated on the check to :failure:. When he does this, he must explain what he says or does to smooth things over after the verbal misstep"
 	},
 	{
-		"name": "Just Kidding! [Improved]",
+		"name": "Just Kidding! (Improved)",
 		"description": "Once per round, spend one Destiny Point to convert a single :despair: on one social check to :advantage:, but must explain how the verbal misstep became advantageous."
 	},
 	{
@@ -859,7 +861,7 @@
 	},
 	{
 		"name": "Knowledge is Power",
-		"description": ""
+		"description": "Once per session, when making a single check, may treat Force Rating as {Knowledge: Lore}."
 	},
 	{
 		"name": "Knowledge Specialization",
@@ -871,10 +873,9 @@
 		"description": "When making skill checks with Knowledge: Lore, may spend :triumph: result to gain {ranks|success}.",
 		"ranked": true
 	},
-
 	{
 		"name": "Knowledgeable Healing",
-		"description": ""
+		"description": "When the character performs a successful Medicine check, may spend one Destiny point heal {Knowledge: Xenology} additional Wounds."
 	},
 	{
 		"name": "Known Schematic",
@@ -913,7 +914,7 @@
 	},
 	{
 		"name": "Makashi Flourish",
-		"description": ""
+		"description": "Once per encounter, as an action action, make an :average: Lightsaber (Presence) check. If successful, one Engaged opponent suffers Strain equal to :success: and the character recovers an equal amount of Strain. May also spend :triumph: or :advantage::advantage::advantage: to Stagger the opponent until the end of their next turn."
 	},
 	{
 		"name": "Makashi Technique",
@@ -925,7 +926,7 @@
 	},
 	{
 		"name": "Master Artisan",
-		"description": ""
+		"description": "Once per round, suffer 2 Strain to decrease the difficulty of a Mechanics check by 1."
 	},
 	{
 		"name": "Master Doctor",
@@ -945,15 +946,15 @@
 	},
 	{
 		"name": "Master Leader",
-		"description": ""
+		"description": "Once per round, suffer 2 Strain to decrease the difficulty of a Leadership check by 1."
 	},
 	{
 		"name": "Master Merchant",
-		"description": ""
+		"description": "Before making a check when buying or selling items, suffer 2 Strain to sell items for 25% more or buy for 25% less."
 	},
 	{
 		"name": "Master of Shadows",
-		"description": ""
+		"description": "Once per round, suffer 2 Strain to decrease the difficulty of a Stealth or Skulduggery check by 1."
 	},
 	{
 		"name": "Master Pilot",
@@ -961,15 +962,15 @@
 	},
 	{
 		"name": "Master Slicer",
-		"description": ""
+		"description": "Once per round, suffer 2 Strain to decrease the difficulty of a Computers or other slicing-related check by 1."
 	},
 	{
 		"name": "Experienced Slicer",
-		"description": "Add :boost: to Computers and Skulduggery chekcs made by allies within short range."
+		"description": "Add :boost: to Computers and Skulduggery checks made by allies within Short range."
 	},
 	{
 		"name": "Master Starhopper",
-		"description": ""
+		"description": "Once per round, suffer 2 Strain to decrease the difficulty of a Astrogation check by 1."
 	},
 	{
 		"name": "Master Strategist",
@@ -981,15 +982,15 @@
 	},
 	{
 		"name": "Mental Bond",
-		"description": ""
+		"description": "May commit :force: to communicate mentally with a bonded animal."
 	},
 	{
 		"name": "Mental Fortress",
-		"description": ""
+		"description": "Spend one Destiny point to ignore effects of Critical Injuries on Intellect or Cunning checks until the end of the encounter."
 	},
 	{
 		"name": "Mental Tools",
-		"description": ""
+		"description": "Always counts as having the right tools for the jobs when making Mechanics checks."
 	},
 	{
 		"name": "Mind Over Matter",
@@ -1002,7 +1003,7 @@
 	},
 	{
 		"name": "Multiple Opponents",
-		"description": ""
+		"description": "Add :boost: to all Brawl, Melee, and Lightsaber combat checks when engaged with multiple opponents."
 	},
 	{
 		"name": "Museum Worthy",
@@ -1014,7 +1015,7 @@
 	},
 	{
 		"name": "Natural Blademaster",
-		"description": ""
+		"description": "Once per session, may reroll any one Lightsaber or Melee check."
 	},
 	{
 		"name": "Natural Brawler",
@@ -1026,7 +1027,7 @@
 	},
 	{
 		"name": "Natural Doctor",
-		"description": ""
+		"description": "Once per session, may reroll any one Medicine check."
 	},
 	{
 		"name": "Natural Driver",
@@ -1034,7 +1035,7 @@
 	},
 	{
 		"name": "Natural Enforcer",
-		"description": ""
+		"description": "Once per session, may reroll any one Coercion or Streetwise check."
 	},
 	{
 		"name": "Natural Hunter",
@@ -1050,7 +1051,7 @@
 	},
 	{
 		"name": "Natural Marksman",
-		"description": ""
+		"description": "Once per session, may reroll any one Ranged: Light or Ranged: Heavy check."
 	},
 	{
 		"name": "Natural Merchant",
@@ -1066,7 +1067,7 @@
 	},
 	{
 		"name": "Natural Outdoorsman",
-		"description": ""
+		"description": "Once per session, may reroll any one Resilience or Survival check."
 	},
 	{
 		"name": "Natural Pilot",
@@ -1082,7 +1083,7 @@
 	},
 	{
 		"name": "Natural Scholar",
-		"description": ""
+		"description": "Once per session, may reroll any one Knowledge check."
 	},
 	{
 		"name": "Natural Tinkerer",
@@ -1107,7 +1108,7 @@
 	},
 	{
 		"name": "Now You See Me",
-		"description": ""
+		"description": "Once per session, may make a :hard: Deception check to make {Cunning} NPCs within Medium range forget any interactions they had with the character during the last thirty minutes."
 	},
 	{
 		"name": "One with Nature",
@@ -1115,7 +1116,7 @@
 	},
 	{
 		"name": "One With the Universe",
-		"description": ""
+		"description": "Once per session, may spend several minutes meditating, then make an :average: Astrogation check to add :lightside: to all Force power checks. If the character succeeds with :threat:, add :darkside: instead."
 	},
 	{
 		"name": "Outdoorsman",
@@ -1144,12 +1145,12 @@
 		"ranked": true
 	},
 	{
-		"name": "Overwhelm Defenses",
-		"description": ""
+		"name": "Overwhelm Defences",
+		"description": "After making an unsuccessful attack with a starship or vehicle weapon, may spend :advantage::advantage: per rank. Reduce the defence rating in the zone targeted by 1 for every :advantage::advantage: spent."
 	},
 	{
 		"name": "Overwhelm Emotions",
-		"description": "",
+		"description": "When performing a Charm, Coercion, or Deception check, may add {Force Rating}. Spend :lightside: to add :success: to Charm checks; spend :darkside: to add :success: to Coercion or Deception checks. However, every :lightside::lightside: adds :failure: to Coercion or Deception checks while :darkside::darkside: adds :failure: to Charm checks.",
 		"ranked": true
 	},
 	{
@@ -1158,12 +1159,12 @@
 		"ranked": true
 	},
 	{
-		"name": "Improved Parry",
-		"description": "When struck by a melee attack but before applying Soak, suffer 3 Strain to reduce damage by {ranks|plus-2}. When parrying a hit that generated :despair: or :threat::threat::threat:, may hit attacker once with a wielded brawl, melee or lightsaber weapon dealing base damage, after the original attack is resolved."
+		"name": "Parry (Improved)",
+		"description": "When struck by a melee attack but before applying Soak, suffer 3 Strain to reduce damage by {ranks|plus-2}. When parrying a hit that generated :despair: or :threat::threat::threat:, may hit attacker once with a wielded Brawl, Melee, or Lightsaber weapon dealing base damage, after the original attack is resolved."
 	},
 	{
 		"name": "Parry (Supreme)",
-		"description": ""
+		"description": "When struck by a melee attack but before applying Soak, suffer 3 Strain to reduce damage by {ranks|plus-2}. When parrying a hit that generated :despair: or :threat::threat::threat:, may hit attacker once with a wielded Brawl, Melee, or Lightsaber weapon dealing base damage, after the original attack is resolved. If the character didn't make a combat check during their previous turn, suffer 1 Strain instead of 3."
 	},
 	{
 		"name": "Physical Training",
@@ -1223,7 +1224,7 @@
 	},
 	{
 		"name": "Preemptive Avoidance",
-		"description": ""
+		"description": "Immediately after an opponent moves to engage the character, may spend a Destiny point to disengage from that opponent as an out of turn incidental."
 	},
 	{
 		"name": "Prescient Shot",
@@ -1231,11 +1232,11 @@
 	},
 	{
 		"name": "Pressure Point",
-		"description": ""
+		"description": "When making a Brawl check against a living opponent, may add {Medicine} to damage and deal damage as Strain instead of Wounds."
 	},
 	{
 		"name": "Prey on the Weak",
-		"description": "",
+		"description": "Deal +{ranks} damage against Disoriented targets.",
 		"ranked": true
 	},
 	{
@@ -1253,7 +1254,7 @@
 	},
 	{
 		"name": "Quick Draw",
-		"description": "May draw or holster a weapon as an incidental."
+		"description": "Once per round, may draw or holster a weapon as an incidental."
 	},
 	{
 		"name": "Quick Draw (Improved)",
@@ -1261,11 +1262,11 @@
 	},
 	{
 		"name": "Quick Fix",
-		"description": ""
+		"description": "Once per session, may make one skill check using Agility rather than the characteristic linked to that skill."
 	},
 	{
 		"name": "Quick Movement",
-		"description": ""
+		"description": "Before making a non-Force power check, may suffer 2 Strain to add {Force Rating} to the check; spend :forcepip::forcepip: to perform one free Move maneuver after the check is finished."
 	},
 	{
 		"name": "Quick Strike",
@@ -1283,7 +1284,7 @@
 	},
 	{
 		"name": "Rapid Recovery",
-		"description": "",
+		"description": "When recovering Strain at the end of the encounter recover {ranks} additional Strain.",
 		"ranked": true
 	},
 	{
@@ -1293,7 +1294,7 @@
 	},
 	{
 		"name": "Redundant Systems",
-		"description": ""
+		"description": "Once per session, may make an :easy: MEchanics check to harvest components from a functioning device to repair a broken one, without breaking the functioning device."
 	},
 	{
 		"name": "Reflect",
@@ -1301,12 +1302,12 @@
 		"ranked": true
 	},
 	{
-		"name": "Improved Reflect",
+		"name": "Reflect (Improved)",
 		"description": "When struck by a ranged attack but before apply­ing Soak, suffer 3 Strain to reduce damage by {ranks|plus-2}. When reflecting a hit that generated :despair: or :threat::threat::threat:, may hit one target within Medium range dealing the same damage as the initial attack, after the original attack is resolved."
 	},
 	{
 		"name": "Reflect (Supreme)",
-		"description": ""
+		"description": "When struck by a ranged attack but before apply­ing Soak, suffer 3 Strain to reduce damage by {ranks|plus-2}. When reflecting a hit that generated :despair: or :threat::threat::threat:, may hit one target within Medium range dealing the same damage as the initial attack, after the original attack is resolved. If the character didn't make a combat check during their previous turn, suffer 1 Strain instead of 3."
 	},
 	{
 		"name": "Reinforce Item",
@@ -1326,12 +1327,12 @@
 		"ranked": true
 	},
 	{
-		"name": "Improved Researcher",
-		"description": "On a succesful Knowledge check, the character and allies receive :advantage::advantage: on future related checks, until the end of the character’s next turn."
+		"name": "Researcher (Improved)",
+		"description": "On a successful Knowledge check, the character and allies receive :advantage::advantage: on future related checks, until the end of the character’s next turn."
 	},
 	{
 		"name": "Resist Disarm",
-		"description": ""
+		"description": "May suffer 2 Strain to avoid being disarmed or having a weapon damaged or destroyed."
 	},
 	{
 		"name": "Resolve",
@@ -1344,7 +1345,7 @@
 	},
 	{
 		"name": "Respected Scholar",
-		"description": "",
+		"description": "Downgrade the difficulty of all checks to interact with institutions of learning {ranks|times}.",
 		"ranked": true
 	},
 	{
@@ -1361,19 +1362,19 @@
 	},
 	{
 		"name": "Sarlacc Sweep",
-		"description": ""
+		"description": "As an action, make a Lightsaber combat check with +1 difficulty against one engaged target; spend :advantage::advantage: to hit one additional engaged target."
 	},
 	{
 		"name": "Scathing Tirade",
 		"description": "As an action, make an :average: Coercion check; each :success: causes one enemy in Short range to suffer 1 Strain. Spend :advantage: to cause 1 affected enemy to suffer 1 additional Strain."
 	},
 	{
-		"name": "Improved Scathing Tirade",
+		"name": "Scathing Tirade (Improved)",
 		"description": "As an action, make an :average: Coercion check; each :success: inflicts 1 Strain on a target in Short range. Spend :advantage: to inflict 1 additional Strain on one affected target; all affected targets suffer :setback: to all checks for {Coercion} rounds."
 	},
 	{
-		"name": "Scathing Tirade [Supreme]",
-		"description": ""
+		"name": "Scathing Tirade (Supreme)",
+		"description": "As an action, make an :average: Coercion check; each :success: inflicts 1 Strain on a target in Short range. Spend :advantage: to inflict 1 additional Strain on one affected target; all affected targets suffer :setback: to all checks for {Coercion} rounds. May suffer 1 Strain to perform Scathing Tirade as a maneuever."
 	},
 	{
 		"name": "Second Chances",
@@ -1382,7 +1383,7 @@
 	},
 	{
 		"name": "Second Wind",
-		"description": "",
+		"description": "Once per encounter, may recover {ranks} Strain as an incidental.",
 		"ranked": true
 	},
 	{
@@ -1392,7 +1393,7 @@
 	},
 	{
 		"name": "Sense Advantage",
-		"description": ""
+		"description": "Once per session, may add :setback::setback: to the skill check of one NPC within Extreme range."
 	},
 	{
 		"name": "Sense Danger",
@@ -1404,11 +1405,11 @@
 	},
 	{
 		"name": "Share Pain",
-		"description": ""
+		"description": "When a bonded animal suffers Wound, as an incidental, may reduce the Wounds suffered by half (rounded up) then suffer an equal number of Wounds."
 	},
 	{
-		"name": "Shein Technique",
-		"description": ""
+		"name": "Shien Technique",
+		"description": "May use Cunning instead of Brawn when making Lightsaber skill checks."
 	},
 	{
 		"name": "Shortcut",
@@ -1424,13 +1425,17 @@
 		"description": ""
 	},
 	{
+		"name": "Shroud",
+		"description": "Once per session, may spend one Destiny point to become undetectable via the Force and to make own Force powers unnoticeable."
+	},
+	{
 		"name": "Side Step",
 		"description": "As a maneuver may suffer up to {ranks} Strain to upgrade the difficulty of all ranged attacks targeting this character by 1 per Strain spent until the start of the character’s next turn.",
 		"ranked": true
 	},
 	{
 		"name": "Signature Vehicle",
-		"description": ""
+		"description": "When in a starship or vehicle with functional coms, allies within Short range add :boost: to their Perception and Vigilance checks; allies within Close range add :boost::boost: instead."
 	},
 	{
 		"name": "Situational Awareness",
@@ -1438,7 +1443,7 @@
 	},
 	{
 		"name": "Sixth Sense",
-		"description": ""
+		"description": "The character gains +1 ranged defence."
 	},
 	{
 		"name": "Skilled Jockey",
@@ -1447,7 +1452,7 @@
 	},
 	{
 		"name": "Skilled Slicer",
-		"description": ""
+		"description": "When making a Computers check, may spend :triumph: to gain some measure of control over the target system. Further Computers checks within this system can be made as maneuvers."
 	},
 	{
 		"name": "Sleight of Mind",
@@ -1455,7 +1460,7 @@
 	},
 	{
 		"name": "Slippery Minded",
-		"description": ""
+		"description": "On any turn in which the character is under the effects of a Force power, as an action, may make a :hard: Deception check to no longer be under the effects of the Force power."
 	},
 	{
 		"name": "Smooth Talker (Charm)",
@@ -1505,7 +1510,7 @@
 	},
 	{
 		"name": "Sound Investments",
-		"description": "",
+		"description": "Gain {ranks|multiply-100} credits at the beginning of each session.",
 		"ranked": true
 	},
 	{
@@ -1534,11 +1539,11 @@
 		"description": ""
 	},
 	{
-		"name": "Spur [Improved]",
+		"name": "Spur (Improved)",
 		"description": ""
 	},
 	{
-		"name": "Spur [Supreme]",
+		"name": "Spur (Supreme)",
 		"description": ""
 	},
 	{
@@ -1558,28 +1563,28 @@
 	},
 	{
 		"name": "Steely Nerves",
-		"description": "Spend 1 Destiny Point to ignore effects of Critical Injuries on Willpower or Presence checks until the end of the encounter."
+		"description": "Spend one Destiny point to ignore effects of Critical Injuries on Willpower or Presence checks until the end of the encounter."
 	},
 	{
 		"name": "Stim Application",
-		"description": ""
+		"description": "May make an :average: Medicine check to increase the characteristic of one Engaged ally by 1 for the remainder of the encounter and cause them to suffer 4 Strain."
 	},
 	{
-		"name": "Stim Application [Improved]",
-		"description": ""
+		"name": "Stim Application (Improved)",
+		"description": "As an incidental, when performing the Stim Application action, may increase the difficulty to :hard: and reduce the Strain the target suffers to 1."
 	},
 	{
-		"name": "Stim Application [Supreme]",
-		"description": ""
+		"name": "Stim Application (Supreme)",
+		"description": "When performing the Stim Application action , each :triumph: causes an additional characteristic to be increased by one."
 	},
 	{
 		"name": "Stimpack Specialization",
-		"description": "",
+		"description": "Whenever the character uses a stimpack, the target heals {ranks} additional Wounds,",
 		"ranked": true
 	},
 	{
 		"name": "Strategic Form",
-		"description": ""
+		"description": "While wielding a Lightsaber weapon, as a action, may make a :hard: Lightsaber (Intellect) check adding {Force Rating} to the dice pool. For each :success:, one target within Short range may only make combat checks targeting the character until the end of the following round. Spend :forcepip: to affeect a target for one additional round."
 	},
 	{
 		"name": "Street Smarts",
@@ -1603,16 +1608,16 @@
 		"description": "May inflict damage as Strain instead of Wounds; does not ignore Soak."
 	},
 	{
-		"name": "Improved Stunning Blow",
+		"name": "Stunning Blow (Improved)",
 		"description": "May inflict damage as Strain instead of Wounds; may spend :triumph: on Brawl checks to stagger target for 1 round per :triumph:."
 	},
 	{
 		"name": "Sum Djem",
-		"description": ""
+		"description": "When making a Lightsaber combat check, may spend :triumph: or :advantage::advantage: to disarm the opponent. The weapon lands anywhere within Short range."
 	},
 	{
 		"name": "Superior Reflexes",
-		"description": ""
+		"description": "The character gains +1 melee defence."
 	},
 	{
 		"name": "Supporting Evidence",
@@ -1623,10 +1628,6 @@
 		"name": "Suppressing Fire",
 		"description": "",
 		"ranked": true
-	},
-	{
-		"name": "Supreme Full Throttle",
-		"description": "As an action, make a :hard: piloting check to increase the vehicle’s top speed by two for three rounds; suffer 1 Strain to use as maneuver and reduce difficulty to :average:."
 	},
 	{
 		"name": "Surgeon",
@@ -1643,7 +1644,7 @@
 	},
 	{
 		"name": "Tactical Combat Training",
-		"description": ""
+		"description": "Melee and Ranged: Heavy become career skills."
 	},
 	{
 		"name": "Talk the Talk",
@@ -1651,7 +1652,7 @@
 	},
 	{
 		"name": "Targeted Blow",
-		"description": "After making a suc­cessful attack, may spend a Destiny Point to add {Agility} to damage for one hit."
+		"description": "After making a successful attack, may spend a Destiny Point to add {Agility} to damage for one hit."
 	},
 	{
 		"name": "Technical Aptitude",
@@ -1660,11 +1661,11 @@
 	},
 	{
 		"name": "Terrify",
-		"description": ""
+		"description": "As an action, may make a :hard: Coercion check adding {Force Rating} to the dice pool. For each :success:, one target within Medium range is Disoriented until the end of the next round. Spend :advantage::advantage: to increase the duration for all affected targets by one round; spend :forcepip: to Immobilise an affected target."
 	},
 	{
 		"name": "Terrify (Improved)",
-		"description": ""
+		"description": "As an action, may make an :average: Coercion check adding {Force Rating} to the dice pool. For each :success:, one target within Medium range is Disoriented until the end of the next round. Spend :advantage::advantage: to increase the duration for all affected targets by one round; spend :forcepip: to Immobilise an affected target; spend :triumph: to Stagger an affected target."
 	},
 	{
 		"name": "Terrifying Kill",
@@ -1680,7 +1681,7 @@
 		"description": "Once per session may suffer 2 Strain to perform one Force power as a maneuver."
 	},
 	{
-		"name": "Thorough Assesment",
+		"name": "Thorough Assessment",
 		"description": "Once per session, take a Thorough Assessment action to make a :hard: Knowledge check to gain :boost: equal to :success: that can be distributed during the encounter."
 	},
 	{
@@ -1689,15 +1690,15 @@
 	},
 	{
 		"name": "Time to Go",
-		"description": "Spend 1 Destiny Point to perform a move maneuver as an incidental to attempt to move into cover or out of Blast range of a weapon or explosion."
+		"description": "Spend one Destiny point to perform a move maneuver as an incidental to attempt to move into cover or out of Blast range of a weapon or explosion."
 	},
 	{
-		"name": "Time to Go [Improved]",
-		"description": ""
+		"name": "Time to Go (Improved)",
+		"description": "Spend one Destiny point to perform a move maneuver as an incidental to attempt to move into cover or out of Blast range of a weapon or explosion. One ally at Engaged ranged may all also make a Move maneuver as an incidental."
 	},
 	{
 		"name": "Tinkerer",
-		"description": "",
+		"description": "Increase the number of hard points in {ranks|words} by one.",
 		"ranked": true
 	},
 	{
@@ -1711,7 +1712,7 @@
 	},
 	{
 		"name": "Tricky Target",
-		"description": ""
+		"description": "Any vehicle the character pilots counts as having a Silhoutte one lower than normal when being attacked, to a minimum of 0."
 	},
 	{
 		"name": "True Aim",
@@ -1738,16 +1739,16 @@
 		"ranked": true
 	},
 	{
-		"name": "Unrelenting Skeptic",
+		"name": "Unrelenting Sceptic",
 		"description": ""
 	},
 	{
-		"name": "Unrelenting Skeptic (Improved)",
+		"name": "Unrelenting Sceptic (Improved)",
 		"description": ""
 	},
 	{
 		"name": "Unstoppable",
-		"description": ""
+		"description": "If the roll for a Critical Injury is a 1 or is reduced to 1 the character does not receive the Critical Injury."
 	},
 	{
 		"name": "Up the Ante",
@@ -1756,7 +1757,7 @@
 	},
 	{
 		"name": "Utility Belt",
-		"description": "Spend 1 Destiny Point to perform a Utility Belt incidental; produce a previously undocumented item or weapon (with restrictions) from a tool belt or a satchel."
+		"description": "Spend one Destiny point to perform a Utility Belt incidental; produce a previously undocumented item or weapon (with restrictions) from a tool belt or a satchel."
 	},
 	{
 		"name": "Utinni!",
@@ -1769,7 +1770,7 @@
 	},
 	{
 		"name": "Vehicle Combat Training",
-		"description": ""
+		"description": "Gunnery and Piloting: Planetary become career skills."
 	},
 	{
 		"name": "Walk the Walk",
@@ -1782,12 +1783,12 @@
 	},
 	{
 		"name": "Well Rounded",
-		"description": "",
+		"description": "The character may choose two skills to become career skills.",
 		"ranked": true
 	},
 	{
-		"name": "Well Traveled",
-		"description": ""
+		"name": "Well Travelled",
+		"description": "Knowledge: Core Worlds and Knowledge: Outer Rim become career skills."
 	},
 	{
 		"name": "Wheel and Deal",

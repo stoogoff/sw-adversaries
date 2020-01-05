@@ -67,7 +67,7 @@
 			"Knowledge: Outer Rim": 3,
 			"Perception": 3
 		},
-		"talents": ["Galaxy Mapper 2", "Improved Researcher", "Researcher 2"],
+		"talents": ["Galaxy Mapper 2", "Researcher (Improved)", "Researcher 2"],
 		"abilities": [
 			"Droid", 
 			{
@@ -758,7 +758,7 @@
 			"Perception": 2,
 			"Vigilance": 1
 		},
-		"talents": ["Improved Inspiring Rhetoric", "Kill with Kindness 2"],
+		"talents": ["Inspiring Rhetoric (Improved)", "Kill with Kindness 2"],
 		"gear": ["Comlink", "Assorted datapads"],
 		"tags": ["book:dor", "empire", "imperial bureaucracy", "location:Lothal"]
 	},
@@ -1320,7 +1320,7 @@
 			"Perception": 4,
 			"Vigilance": 2
 		},
-		"talents": ["Adversary 3", "Force Rating 4", "Parry 4", "Improved Reflect 4", "Saber Throw"],
+		"talents": ["Adversary 3", "Force Rating 4", "Parry 4", "Reflect (Improved) 4", "Saber Throw"],
 		"abilities": [
 			"Darkside Force User",
 			"Force Power: Sense",
@@ -1499,7 +1499,7 @@
 			"Streetwise": 3,
 			"Vigilance": 3
 		},
-		"talents": ["Adversary 2", "Confidence 2", "Natural Charmer", "Nobody’s Fool 1", "Supreme Inspiring Rhetoric", "Works Like a Charm"],
+		"talents": ["Adversary 2", "Confidence 2", "Natural Charmer", "Nobody’s Fool 1", "Inspiring Rhetoric (Supreme)", "Works Like a Charm"],
 		"abilities": [
 			{
 				"name": "Trusted Reputation",
@@ -1598,7 +1598,7 @@
 			"Streetwise": 4,
 			"Vigilance": 2
 		},
-		"talents": ["Adversary 1", "Ataru Technique", "Dodge 2", "Parry 3", "Force Rating 3", "Improved Reflect 3", "Saber Swarm"],
+		"talents": ["Adversary 1", "Ataru Technique", "Dodge 2", "Parry 3", "Force Rating 3", "Reflect (Improved) 3", "Saber Swarm"],
 		"abilities": ["Force Power: Enhance", "Force Power: Move", "Force Power: Sense",
 			{
 				"name": "Fulcrum Leadership",
@@ -1696,7 +1696,7 @@
 			"Streetwise": 2,
 			"Vigilance": 3
 		},
-		"talents": ["Adversary 1", "Improved Reflect 3", "Improved Parry 3", "Force Rating 3", "Steely Nerves"],
+		"talents": ["Adversary 1", "Reflect (Improved) 3", "Parry (Improved) 3", "Force Rating 3", "Steely Nerves"],
 		"abilities": [
 			{
 				"name": "Force Power: Enhance",
@@ -1758,7 +1758,7 @@
 			"Streetwise": 4,
 			"Vigilance": 2
 		},
-		"talents": ["Adversary 1", "Master Pilot", "Skilled Jockey 2", "Supreme Full Throttle"],
+		"talents": ["Adversary 1", "Master Pilot", "Skilled Jockey 2", "Full Throttle (Supreme)"],
 		"abilities": ["Desert Dweller",
 			{
 				"name": "Lifelong Resistance Leader",
@@ -1979,7 +1979,7 @@
 			"Survival": 1
 		},
 		"talents": ["Animal Empathy", "Indistinguishable 1", "Force Rating 2"],
-		"abilities": ["Force Power: Enhance", "Force Power: Foresee", "Force Power: Influence", "Keen Eyed 1", "Improved Reflect 2"],
+		"abilities": ["Force Power: Enhance", "Force Power: Foresee", "Force Power: Influence", "Keen Eyed 1", "Reflect (Improved) 2"],
 		"weapons": ["Heavy blaster pistol",
 			{
 				"name": "Lightsaber",

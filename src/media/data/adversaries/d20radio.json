@@ -999,7 +999,7 @@
 			"Ranged: Light": 3,
 			"Vigilance": 2
 		},
-		"talents": ["Adversary 3", "Crippling Blow", "Improved Scathing Tirade"],
+		"talents": ["Adversary 3", "Crippling Blow", "Scathing Tirade (Improved)"],
 		"abilities": ["Aura of Command",
 			{
 			"name": "Imperial Valor",
@@ -1816,7 +1816,7 @@
 			"description": "Once per encounter, negate an ability that prevents the acting force commander from applying their Leadership skill."
 			}
 		],
-		"talents": ["Careful Planning", "Researcher 2", "Thorough Assesment"],
+		"talents": ["Careful Planning", "Researcher 2", "Thorough Assessment"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Uniform (+1 Soak)", "Encoded datapad with staff estimates and planning data"],
 		"tags": ["source:D20Radio.com", "rebel alliance"]
@@ -2201,7 +2201,7 @@
 			"Skulduggery": 3,
 			"Vigilance": 3
 		},
-		"talents": ["Adversary 3", "Improved Parry", "Parry 5", "Trust No One",
+		"talents": ["Adversary 3", "Parry (Improved) 5", "Trust No One",
 			{
 				"name": "Secrets of the Jedi",
 				"description": "Senex may decrease the difficulty of checks made to construct or repair lightsaber hilts twice."
@@ -2663,10 +2663,7 @@
 			}
 		],
 		"abilities": [
-			{
-				"name": "Improved Terrify",
-				"description": "Take the Terrify action; make a :average: Coercion check, adding :force: no greater than Force rating. Disorient one target within medium range per :success:. Spend :advantage::advantage: to extend duration and :triumph: to stagger one target. Spend :darkside: to immobilize one target."
-			},
+			"Terrify (Improved)",
 			{
 				"name": "Force Power: Enhance",
 				"description": ":darkside: gain :success: or :advantage: on Athletics, Brawl, Coordination, or Resilience. :force: increase Brawn characteristic by 1, :darkside: take a Force Leap maneuver to jump horizontally or vertically to any location in short range. :darkside: : increase range of leap by 1."
@@ -3944,7 +3941,7 @@
 				"critical": 4,
 				"range": "Medium",
 				"qualities": ["Stun"],
-				"notes": "may not be redirected using Improved Reflect, see pg. 56 of Special Modifications for grapnel rules"
+				"notes": "May not be redirected using Improved Reflect, see pg. 56 of Special Modifications for grapnel rules."
 			}
 		],
 		"gear": ["armored clothing (+1 Soak, +1 Defence)", "Load bearing equipment"],

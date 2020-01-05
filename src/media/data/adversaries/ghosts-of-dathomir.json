@@ -493,7 +493,7 @@
 			"Knowledge: Warfare": 2,
 			"Knowledge: Xenology": 2
 		},
-		"talents": ["Adversary 3", "Force Rating 3", "Parry 4", "Improved Scathing Tirade"],
+		"talents": ["Adversary 3", "Force Rating 3", "Parry 4", "Scathing Tirade (Improved)"],
 		"abilities": [
 			"Darkside Force User",
 			{
@@ -1211,7 +1211,7 @@
 			"Knowledge: Warfare": 2,
 			"Knowledge: Xenology": 2
 		},
-		"talents": ["Adversary 3", "Force Rating 3", "Parry 4", "Improved Scathing Tirade"],
+		"talents": ["Adversary 3", "Force Rating 3", "Parry 4", "Scathing Tirade (Improved)"],
 		"abilities": [
 			"Darkside Force User",
 			{

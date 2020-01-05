@@ -250,7 +250,7 @@
 			"Streetwise": 2,
 			"Vigilance": 3
 		},
-		"talents": ["Improved Inspiring Rhetoric", "Kill with Kindness 2"],
+		"talents": ["Inspiring Rhetoric (Improved)", "Kill with Kindness 2"],
 		"abilities": ["Leader"],
 		"weapons": ["Light blaster pistol"],
 		"tags": ["civilian", "location:Chandrila", "book:sor", "species:Chandrilan"]
@@ -622,7 +622,7 @@
 			"Knowledge: Education": 3,
 			"Knowledge: Outer Rim": 2
 		},
-		"talents": ["Adversary 1", "Improved Scathing Tirade", "Improved Inspiring Rhetoric"],
+		"talents": ["Adversary 1", "Scathing Tirade (Improved)", "Inspiring Rhetoric (Improved)"],
 		"weapons": ["Holdout blaster"],
 		"gear": ["Personal deflector shield (+2 ranged Defence)", "Encrypted expense voucher with 5,000-10,000 credits"],
 		"tags": ["civilian", "coprorate security authority", "book:eote", "book:aaa"]
@@ -1031,7 +1031,7 @@
 			"Skulduggery": 3,
 			"Vigilance": 2
 		},
-		"talents": ["Improved Inspiring Rhetoric", "Kill with Kindness 2", "Nobody’s Fool 2"],
+		"talents": ["Inspiring Rhetoric (Improved)", "Kill with Kindness 2", "Nobody’s Fool 2"],
 		"abilities": ["Leader"],
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Rich clothing (+1 Soak)"],

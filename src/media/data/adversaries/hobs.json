@@ -2225,7 +2225,7 @@
    {
     "name": "Indomitable",
     "character": "Even Piell",
-    "description": "Piell removes up to SETBACK SETBACK caused by Critical Injuries, fear or the Disoriented condition."
+    "description": "Piell removes up to :setback::setback: caused by Critical Injuries, fear or the Disoriented condition."
    }
   ],
   "gear": "Jedi robes (+1 Defence, +1 Soak)",

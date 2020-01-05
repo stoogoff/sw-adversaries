@@ -367,7 +367,7 @@
   {
     "name": "Indomitable",
     "character": "Even Piell",
-    "description": "Piell removes up to SETBACK SETBACK caused by Critical Injuries, fear or the Disoriented condition."
+    "description": "Piell removes up to :setback::setback: caused by Critical Injuries, fear or the Disoriented condition."
   },
   {
     "name": "Infiltrate And Execute",
