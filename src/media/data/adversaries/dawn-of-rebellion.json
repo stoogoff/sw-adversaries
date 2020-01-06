@@ -1657,7 +1657,7 @@
 					"description": "As an action, Sato may make a :hard: Leadership check; for every :success:, a Silhouette 4 or smaller allied starship or vehicle within Medium range may immediately perform the Evasive Maneuvers maneuver as an out-of-turn Incidental without suffering Strain or System Strain; a Silhouette 5 or larger ship may take an immediate maneuver; on a :triumph:, the check applies to all allied ships within Medium range."
 					}
 				],
-		"weapons": ["Blaster Pistol"],
+		"weapons": ["Blaster pistol"],
 		"gear": ["Padded armour (+2 Soak)", "Encrypted comlink"],
 		"tags": ["book:dor", "rebel alliance"]
 	},
@@ -1711,7 +1711,7 @@
 				"description": "Kanan may spend :forcepip: to increase the power’s range to Medium range or to increase the size of the object he can move to Silhouette 2."
 			}
 		],
-		"weapons": ["Blaster Pistol",
+		"weapons": ["Blaster pistol",
 		{
 				"name": "Lightsaber",
 				"skill": "Lightsaber",
@@ -2355,7 +2355,7 @@
 			"Stealth": 1,
 			"Streetwise": 2
 		},
-		"talents": ["Adversary 2", "Smooth Talker 2", "Kill with Kindness 1", "Just Kidding! [Improved]"],
+		"talents": ["Adversary 2", "Smooth Talker (Deception) 2", "Kill with Kindness 1", "Just Kidding! (Improved)"],
 		"abilities": ["Pheromone Communication",
 				{
 				"name": "Distracting Quip",

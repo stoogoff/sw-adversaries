@@ -589,7 +589,12 @@
 			"Vigilance": 1
 		},
 		"talents": ["Adversary 1"],
-		"abilities": ["Riot Tactics"],
+		"abilities": [
+			{
+				"name": "Riot Tactics",
+				"description": "Groups of three or more CSA minions in the Security Captain’s presence gain +1 Soak and deal +1 damage on successful combat skill checks."
+			}
+		],
 		"weapons": ["Riot gun", "Truncheon"],
 		"gear": ["Riot armour (+2 Soak)"],
 		"tags": ["civilian", "coprorate security authority", "security", "book:eote", "book:aaa"]
@@ -1401,7 +1406,7 @@
 			"Ranged: Hleavy": 2,
 			"Vigilance": 3
 		},
-		"talents": ["Bodyguard"],
+		"talents": ["Body Guard"],
 		"abilities": ["Hoverer", "Silhouette 0"],
 		"weapons": ["Blaster rifle", "Cortosis sword", "Frag grenade"],
 		"gear": ["Electro-visor (removes :setback: imposed due to long range or poor light)", "2 Frag grenades", "Padded armour (+2 Soak)"],

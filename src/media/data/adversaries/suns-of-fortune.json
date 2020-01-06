@@ -846,7 +846,13 @@
 			"Stealth": 1,
 			"Vigilance": 1
 		},
-		"abilities": ["Silhouette 2", "Toxic Environment Dweller"],
+		"abilities": [
+			"Silhouette 2",
+			{
+				"name": "Toxic Environment Dweller",
+				"description": "Can survive in almost any poisonous, acidic, toxic, irradiated, or otherwise dangerous environment."
+			}
+		],
 		"weapons": [
 			{
 				"name": "Legs",

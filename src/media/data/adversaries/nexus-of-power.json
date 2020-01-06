@@ -411,7 +411,13 @@
 			"Brawl": 2,
 			"Resilience": 2
 		},
-		"abilities": ["Beast of Burden 5", "Sure-Footed", "Silhouette 2"],
+		"abilities": [
+			"Beast of Burden 5", "Silhouette 2",
+			{
+				"name": "Sure-Footed",
+				"description": "Gualaar suffer no penalties for moving through difficult terrain and upgrade the ability of Athletics checks made to climb vertical or near-vertical surfaces once."
+			}
+		],
 		"weapons": [
 			{
 				"name": "Horns",

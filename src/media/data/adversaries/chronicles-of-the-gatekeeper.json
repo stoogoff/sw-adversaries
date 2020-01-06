@@ -25,7 +25,12 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 2", "Expert Tracker 2", "Quick Draw"],
-		"abilities": ["Practiced Resistance"],
+		"abilities": [
+			{
+				"name": "Practiced Resistance",
+				"description": "Upgrade the difficulty of Force power skill checks targeting Oberos once."
+			}
+		],
 		"weapons": [
 			{
 				"name": "Custom slugthrower carbine",
@@ -148,7 +153,14 @@
 		"talents": ["Adversary 1"],
 		"abilities": ["Push the Limit"],
 		"weapons": [
-			"Vibroknuckles",
+			{
+				"name": "Vibroknuckles",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 1", "Vicious 1"]
+			},
 			{
 				"name": "Custom heavy blaster pistol",
 				"skill": "Ranged: Light",
@@ -407,7 +419,7 @@
 		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Cato Neimoidia", "location:Jorra", "species:Neimoidian", "separatist", "spy"]
 	},
 	{
-		"name": "Nemoidian Citizen",
+		"name": "Neimoidian Citizen",
 		"type": "Minion",
 		"description": "Most citizens of Cato Neimoidia are individually tim id, but fear is a powerful motivator. Rumors of Jedi or allies of Suljo Warde are sufficient to rile up an angry mob.",
 		"characteristics": {
@@ -422,8 +434,13 @@
 			"soak": 2,
 			"wounds": 3
 		},
-		"skills": ["Melee"],
-		"abilities": ["Strength in Numbers"],
+		"skills": ["Melee", "Cool", "Discipline"],
+		"abilities": [
+			{
+				"name": "Strength in Numbers",
+				"description": "Minion groups of Neimoidian Citizens possess the Discipline and Cool skills as long as no member of the group has been killed or incapacitated."
+			}
+		],
 		"weapons": ["Light blaster pistol", "Truncheon"],
 		"tags": ["book:cotgk", "location:Cato Neimoidia", "species:Neimoidian", "adventure:Chronicles of the Gatekeeper"]
 	},

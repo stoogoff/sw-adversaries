@@ -425,7 +425,7 @@
 			"Melee": 3,
 			"Resilience": 3
 		},
-		"talents": ["Adversary 2", "Durable 2", "Gearhead 2", "Speak Binary 1", "Surgeon 2", "Utinni! 1"],
+		"talents": ["Adversary 2", "Durable 2", "Gearhead 2", "Speaks Binary 1", "Surgeon 2", "Utinni! 1"],
 		"abilities": [
 			{
 				"name": "Cybernetic Surgeon",
@@ -2343,7 +2343,7 @@
 				"qualities": ["Pierce 2", "Defensive 1", "Vicious 1"]
 			}
 		],
-		"abilities": ["droid",
+		"abilities": ["Droid",
 			{
 				"name": "Gyrobalanced legs",
 				"description": "Gain an additional free maneuver per turn that can only be used for movement. May not perform more than two maneuvers per turn."

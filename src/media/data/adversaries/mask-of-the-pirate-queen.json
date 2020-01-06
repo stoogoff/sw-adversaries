@@ -572,7 +572,7 @@
 			"Vigilance": 2,
 			"Ranged: Light": 3
 		},
-		"weapons": ["Heavy blaster pistol", "Brass Knuckles"],
+		"weapons": ["Heavy blaster pistol", "Brass knuckles"],
 		"gear": ["Armoured clothing (+1 Soak, Defence 1)", "Breath mask"],
 		"tags": ["book:motpq", "adventure:Mask of the Pirate Queen", "location:Ord Mantell", "species:Houk", "slaver"]
 	},
@@ -851,7 +851,7 @@
 			"Ranged: Light": 3,
 			"Vigilance": 2
 		},
-		"weapons": ["Heavy blaster pistol", "Shock Gloves"],
+		"weapons": ["Heavy blaster pistol", "Shock gloves"],
 		"gear": ["Armoured clothing (+1 Soak, +1 Defence)"],
 		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "species:Barabel", "veiled sorority"]
 	},
@@ -939,7 +939,7 @@
 			"Ranged: Light": 2,
 			"Stealth": 3
 		},
-		"talents": ["Adversary 1", "Deadly Accuracy 1"],
+		"talents": ["Adversary 1", "Deadly Accuracy (Ranged: Light) 1"],
 		"weapons": ["Blaster pistol", "Vibrosword"],
 		"gear": ["Laminate armour (+2 Soak)", "Secured comlink"],
 		"tags": ["book:motpq", "location:Saleceumai", "adventure:Mask of the Pirate Queen", "veiled sorority"]
@@ -967,7 +967,13 @@
 			"Survival": 3
 		},
 		"talents": ["Flyer"],
-		"abilities": ["Keen eyesight"],
+		"abilities": [
+			"Silhouette 2",
+			{
+				"name": "Keen Eyesight",
+				"description": "Add :boost: to any Perception checks involving vision."
+			}
+		],
 		"weapons": [
 			{
 				"name": "Claws",
