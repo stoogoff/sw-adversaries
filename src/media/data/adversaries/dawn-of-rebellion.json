@@ -222,13 +222,7 @@
 			"Survival": 1,
 			"Vigilance": 3
 		},
-		"talents": [
-			"Adversary 3", "Ataru Technique", "Force Rating 4", "Hawk Bat Swoop", "Jump Up", "Parry 4",
-			{
- 				"name": "Fear is My Ally",
- 				"description": "Spend :threat: on an opposed social skill check against Maul for him to recover 1 Strain."
-			}
-		],
+		"talents": ["Adversary 3", "Ataru Technique", "Force Rating 4", "Hawk Bat Swoop", "Jump Up", "Parry 4", "Fear is My Ally"],
 		"abilities": [
 			"Darkside Force User",
 			{

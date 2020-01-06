@@ -9,6 +9,10 @@
 		"description": ""
 	},
 	{
+		"name": "Aggressive Negotiations",
+		"description": "Once per session as an action, may make a :hard: Lightsaber check to decrease the difficulty of all Negotiation checks the character makes for the remainder of the encounter by two to a minimum of zero."
+	},
+	{
 		"name": "All-Terrain Driver",
 		"description": "Does not suffer usual penalties for driving through difficult terrain when using Piloting: Planetary."
 	},
@@ -37,7 +41,7 @@
 		"description": "When wearing armour with a Soak value of 2 or higher, the character increases their Defence by 1."
 	},
 	{
-		"name": "Supreme Armour Master",
+		"name": "Armour Master (Supreme)",
 		"description": ""
 	},
 	{
@@ -51,16 +55,16 @@
 	},
 	{
 		"name": "Bad Cop",
-		"description": "",
+		"description": "May spend :advantage::advantage: from a Deception or Coercion check to upgrade the ability of an ally's social skill check against the same target in the same encounter.",
 		"ranked": true
 	},
 	{
 		"name": "Bad Motivator",
-		"description": "Once per session as an action, make a :hard: mechanics check to casue one targeted device to spontaneously fail."
+		"description": "Once per session as an action, make a :hard: mechanics check to cause one targeted device to spontaneously fail."
 	},
 	{
 		"name": "Bad Press",
-		"description": ""
+		"description": "Once per session as an action, may make a :hard: Deception check to reduce the Wound Thresholds of an organisations members by 1, plus 1 per :success::success::success: (to a minimum of 1), until the end of the session."
 	},
 	{
 		"name": "Balance",
@@ -95,7 +99,7 @@
 	},
 	{
 		"name": "Blackmail",
-		"description": ""
+		"description": "When an NPC exceeds their Strain Threshold by any means other than a combat check, may spend one Destiny point to compel the NPC to perform one simple task before becoming Incapacitated."
 	},
 	{
 		"name": "Blind Spot",
@@ -143,7 +147,7 @@
 	},
 	{
 		"name": "Burly",
-		"description": "",
+		"description": "Reduce any wielded or carried wepaon's Cumnbersome quality and Encumbrance rating by {ranks} to a minimum of 1.",
 		"ranked": true
 	},
 	{
@@ -186,7 +190,7 @@
 	},
 	{
 		"name": "Clever Commander",
-		"description": ""
+		"description": "When upgrading the ability of a mass combat check, may use Knowledge: Warfare in place of Leadership."
 	},
 	{
 		"name": "Clever Solution",
@@ -236,7 +240,7 @@
 	},
 	{
 		"name": "Contingency Plan",
-		"description": "The character may spend one Destiny point to recover {Cunning} Strain."
+		"description": "May spend one Destiny point to recover {Cunning} Strain."
 	},
 	{
 		"name": "Contraption",
@@ -254,7 +258,7 @@
 	},
 	{
 		"name": "Coordination Dodge",
-		"description": ""
+		"description": "When targeted by a combat check, as an incidental, may spend one Destiny point to add {ranks|failure}."
 	},
 	{
 		"name": "Corellian Sendoff",
@@ -277,6 +281,11 @@
 		"description": "May increase difficulty of attack by 1. If successful, target suffers 1 Strain when moving for remainder of encounter."
 	},
 	{
+		"name": "Crucial Point",
+		"description": "Once per session during ongoing negotiations, as an incidental, may introduce one concession that an opponent will do anything to obtain.",
+		"ranked": true
+	},
+	{
 		"name": "Custom Loadout",
 		"description": ""
 	},
@@ -287,7 +296,7 @@
 	},
 	{
 		"name": "Cutting Question",
-		"description": ""
+		"description": "Once per encounter, may make one Coercion check using the Deception skill."
 	},
 	{
 		"name": "Cyberneticist",
@@ -380,7 +389,7 @@
 	},
 	{
 		"name": "Discredit",
-		"description": ""
+		"description": "Once per encounter as an action, make a :hard: Deception check to make one character upgrade the difficulty of social checks once, and one additional time for every :advantage::advantage:."
 	},
 	{
 		"name": "Disorient",
@@ -393,12 +402,13 @@
 	},
 	{
 		"name": "Distracting Behaviour",
-		"description": "",
+		"description": "As a maneuver, may suffer up to {Cunning} Strain to make an equal number of adversaries at Engaged range suffer :threat: on their next skill check. Ranks increase range band.",
 		"ranked": true
 	},
 	{
 		"name": "Distracting Behaviour (Improved)",
-		"description": ""
+		"description": "As a maneuver, may suffer up to {Cunning} Strain to make an equal number of adversaries at Engaged range suffer :threat::threat: on their next skill check. Ranks increase range band.",
+		"ranked": true
 	},
 	{
 		"name": "Djem So Deflection",
@@ -426,6 +436,10 @@
 		"description": ""
 	},
 	{
+		"name": "Double-Talk",
+		"description": "May spend :advantage::advantage: or :triumph: from a successful Charm or Deception check to Disorient {Presence} opponents within Short range for the remainder of the current round and the next two rounds."
+	},
+	{
 		"name": "Draw Closer",
 		"description": "Perform Draw Closer action; make a Lightsaber (Willpow­er) combat check against one Silhouette 1 target within Medium range, adding :force: no greater than Force rating to check. Spend :forcepip: to move target one range band closer or to add :success: to check."
 	},
@@ -447,12 +461,16 @@
 		"description": "When making a ranged attack while engaged with an opponent, the character may suffer 2 Strain to reduce the ranged modifier for being engaged by 1 for the attack."
 	},
 	{
+		"name": "Empty Soul",
+		"description": "If carrying items that total 2 Encumbrance or less, may add :lightside::darkside: to any Force power check."
+	},
+	{
 		"name": "Encoded Communique",
 		"description": "Upgrade the difficulty of checks to decrypt this character’s coded messages without the proper cipher {Computers} times."
 	},
 	{
 		"name": "Encouraging Words",
-		"description": ""
+		"description": "When an ally at Engaged range fails a check, may suffer 1 Strain to assist the next check that ally makes in this encounter as an out of turn incidental."
 	},
 	{
 		"name": "Enduring",
@@ -481,7 +499,7 @@
 	},
 	{
 		"name": "Expert Handler",
-		"description": "",
+		"description": "Remove {ranks|setback} from Survival checks to ride beasts.",
 		"ranked": true
 	},
 	{
@@ -491,7 +509,7 @@
 	},
 	{
 		"name": "Eye for Detail",
-		"description": "",
+		"description": "When making a Mechanics or Computers check, may suffer up to {ranks} Strain to convert an equal number of :success: into :advantage:.",
 		"ranked": true
 	},
 	{
@@ -510,6 +528,10 @@
 		"name": "Fearsome",
 		"description": "May force Engaged opponents to make a fear check with the difficulty equal to ranks in Fearsome.",
 		"ranked": true
+	},
+	{
+		"name": "Fear is My Ally",
+		"description": "Spend :threat: on an opposed social skill check against Maul for him to recover 1 Strain."
 	},
 	{
 		"name": "Feint",
@@ -570,6 +592,14 @@
 		"description": "As an action, may allow all allies within Medium range to increase their melee and ranged defence by {Force Rating} until they take their first turn during an encounter."
 	},
 	{
+		"name": "Formation Tactics",
+		"description": "As an action, may make a :hard: Leadership to choose a number of allies within Short range equal to :success:. The difficulty of the attacks against the chosen allies are upgraded once until the end of the character’s next round."
+	},
+	{
+		"name": "Formation Tactics (Improved)",
+		"description": "As an action, may make an :average: Leadership to choose a number of allies within Short range equal to :success:. The difficulty of the attacks against the chosen allies are upgraded once until the end of the character’s next round. Spend :triumph: or :advantage::advantage::advantage::advantage::advantage::advantage: to have the effect last until the end of the encounter."
+	},
+	{
 		"name": "Form on Me",
 		"description": "{Leadership} allies in Close range gain the benefits of the Gain the Advantage action."
 	},
@@ -623,6 +653,10 @@
 		"ranked": true
 	},
 	{
+		"name": "Go Without",
+		"description": "Once per session as an incidental, the character counts as having the right tools for the job when performing a skill check this turn."
+	},
+	{
 		"name": "Grapple",
 		"description": "Once per round, may perform the Grapple ma­neuver. Until the beginning of the character’s next turn, en­emies must spend two maneuvers instead of one to move from Engaged range to Short range of the character."
 	},
@@ -637,7 +671,7 @@
 	},
 	{
 		"name": "Guns Blazing",
-		"description": ""
+		"description": "When making a combined cmobat check with two Ranged: Light weapons, may suffer 2 Strain to ignore the difficulty penalty from attacking with two weapons."
 	},
 	{
 		"name": "Harass",
@@ -668,7 +702,7 @@
 	},
 	{
 		"name": "Heavy Hitter",
-		"description": ""
+		"description": "Once per session, may spend :triumph: on a successful Ranged: Heavy or Gunnery check to add the Breach 1 quality to the attack or increase an existing Breach rating by 1."
 	},
 	{
 		"name": "Heightened Awareness",
@@ -680,7 +714,7 @@
 	},
 	{
 		"name": "Heroic Resilience",
-		"description": ""
+		"description": "Immediately after being hit by a successful combat check but before damage is calculated, may spend one Destiny point to increase Soak by {Resilience}."
 	},
 	{
 		"name": "Hidden Storage",
@@ -724,20 +758,21 @@
 	},
 	{
 		"name": "Improvised Detonation",
-		"description": ""
+		"description": "Once per session as an action, may make a :hard: Mechanics check to build an explosive device out of available materials. The device's damage is equal to Intellect, plus Mechanics, plus :success: and possesses the Blast quality at an equal value. Spend :triumph: to increase the damage by 2. :despair: causes the device to detonate immediately."
 	},
 	{
 		"name": "Improvised Detonation (Improved)",
-		"description": ""
+		"description": "Once per session as an action, may make a :average: Mechanics check to build an explosive device out of available materials. The device's damage is equal to Intellect, plus Mechanics times two, plus :success: and possesses the Blast quality at an equal value. Spend :triumph: to increase the damage by 2. :despair: causes the device to detonate immediately."
 	},
 	{
 		"name": "In the Know",
-		"description": "",
+		"description": "Remove {ranks|setback} to get information from people or disseminate it to others.",
 		"ranked": true
 	},
 	{
 		"name": "In the Know (Improved)",
-		"description": ""
+		"description": "Once per session as an action, may make an opposed Deception vs Vigilance check against an NPC with the difficulty downgraded {ranks|times}. The NPC believes false information created by the character.",
+		"ranked": true
 	},
 	{
 		"name": "Incite Rebellion",
@@ -750,7 +785,7 @@
 	},
 	{
 		"name": "Informant",
-		"description": ""
+		"description": "Once per session, may reveal a contact who possesses information on a subject of the character's choice."
 	},
 	{
 		"name": "Inity Assault",
@@ -759,6 +794,10 @@
 	{
 		"name": "Insight",
 		"description": "Perception and Discipline are career skills."
+	},
+	{
+		"name": "Inspiring Leadership",
+		"description": "As an action, may make an :average: Leadership check to grant up to {Presence} allies within Short range an automatic :success: on their next skill check."
 	},
 	{
 		"name": "Inspiring Rhetoric",
@@ -782,7 +821,7 @@
 	},
 	{
 		"name": "Interjection",
-		"description": ""
+		"description": "After another character makes a social check, may suffer 3 Strain make an :average: Vigilance check. The character may add :success: or :failure: to the results of the chosen check equal to :successL on the Vigilance check and :advantage: or :threat: equal to :threat: on the Vigilance check."
 	},
 	{
 		"name": "Intimidating",
@@ -818,6 +857,10 @@
 	{
 		"name": "Invigorate",
 		"description": "Once per encounter, when an ally within Short range attempts a skill check using Brawn or Agility, may roll :force:. Each :lightside: adds :success: to the target’s check; while each :darkside: adds :threat:."
+	},
+	{
+		"name": "Iron Soul",
+		"description": "If carrying items that total 2 Encumbrance or less, may heal all Strain at the end of an encounter."
 	},
 	{
 		"name": "It’s Not That Bad",
@@ -858,6 +901,10 @@
 		"name": "Know Somebody",
 		"description": "Once per session, when attempting to purchase a legally available item, reduce its rarity by {ranks|words}.",
 		"ranked": true
+	},
+	{
+		"name": "Know the Enemy",
+		"description": "May use Knowledge: Warfare when making checks for initiative."
 	},
 	{
 		"name": "Knowledge is Power",
@@ -925,6 +972,10 @@
 		"description": ""
 	},
 	{
+		"name": "Martial Grace",
+		"description": "Once per round, may suffer 2 Strain to add {Coordination} damage to one hit of a successful Brawl combat check."
+	},
+	{
 		"name": "Master Artisan",
 		"description": "Once per round, suffer 2 Strain to decrease the difficulty of a Mechanics check by 1."
 	},
@@ -977,6 +1028,10 @@
 		"description": "Once per phase during a mass combat, may suffer 2 Strain to decrease the difficulty of a Mass Combat check once."
 	},
 	{
+		"name": "Meditative Trance",
+		"description": "When suffocating, suffers 1 Strain each round instead of 3. When exposed to vacuum, suffers 1 Wound each round instead of 3."
+	},
+	{
 		"name": "Menace",
 		"description": ""
 	},
@@ -989,12 +1044,16 @@
 		"description": "Spend one Destiny point to ignore effects of Critical Injuries on Intellect or Cunning checks until the end of the encounter."
 	},
 	{
+		"name": "Mind Bleed",
+		"description": "If carrying items that total 2 Encumbrance or less, when targeted by an attack may suffer a number of Strain equal to the number of Wounds suffered from the attack to cause the attacker to suffer the same amount of Wounds."
+	},
+	{
 		"name": "Mental Tools",
 		"description": "Always counts as having the right tools for the jobs when making Mechanics checks."
 	},
 	{
 		"name": "Mind Over Matter",
-		"description": ""
+		"description": "May spend one Destiny point to recover {Willpower} Strain."
 	},
 	{
 		"name": "More Machine than Man",
@@ -1079,7 +1138,7 @@
 	},
 	{
 		"name": "Natural Rogue",
-		"description": "Once per ses­sion, may reroll any one Skulduggery or Stealth check."
+		"description": "Once per session, may reroll any one Skulduggery or Stealth check."
 	},
 	{
 		"name": "Natural Scholar",
@@ -1087,15 +1146,15 @@
 	},
 	{
 		"name": "Natural Tinkerer",
-		"description": "Once per ses­sion, may reroll any one Mechanics check."
+		"description": "Once per session, may reroll any one Mechanics check."
 	},
 	{
 		"name": "Niman Technique",
-		"description": "May use Willpower instead of Brawn when mak­ing lightsaber checks."
+		"description": "May use Willpower instead of Brawn when making lightsaber checks."
 	},
 	{
 		"name": "No Escape",
-		"description": ""
+		"description": "When making a Coercion check, may spend :advantage::advantage: to cause one enemy within Short range to lose their free maneuver during their next turn. When an enemy within Short range makes a Fear check, may spend :threat::threat: from that check to cause the enemy to lose their free maneuver during their next turn."
 	},
 	{
 		"name": "Nobody’s Fool",
@@ -1107,8 +1166,16 @@
 		"description": ""
 	},
 	{
+		"name": "Now the Master",
+		"description": "Once per session, may choose one character in the encounter and one talent or Force power the target character possesses. For the remainder of the encounter the character counts as having that talent or Force power."
+	},
+	{
 		"name": "Now You See Me",
 		"description": "Once per session, may make a :hard: Deception check to make {Cunning} NPCs within Medium range forget any interactions they had with the character during the last thirty minutes."
+	},
+	{
+		"name": "Once a Learner",
+		"description": "As an action, may suffer 4 Strain to increase the Force rating of one ally within Short range by {Force Rating} until the end of the end of the character's next turn."
 	},
 	{
 		"name": "One with Nature",
@@ -1167,6 +1234,10 @@
 		"description": "When struck by a melee attack but before applying Soak, suffer 3 Strain to reduce damage by {ranks|plus-2}. When parrying a hit that generated :despair: or :threat::threat::threat:, may hit attacker once with a wielded Brawl, Melee, or Lightsaber weapon dealing base damage, after the original attack is resolved. If the character didn’t make a combat check during their previous turn, suffer 1 Strain instead of 3."
 	},
 	{
+		"name": "Persistent Targeting",
+		"description": "After making a successful combat check against a target, add :boost: to all combat checks against the same target for the remainder of the encounter."
+	},
+	{
 		"name": "Physical Training",
 		"description": "Add {ranks|boost} to Athletics and Resistance checks.",
 		"ranked": true
@@ -1192,7 +1263,8 @@
 	},
 	{
 		"name": "Plausible Deniability (Improved)",
-		"description": ""
+		"description": "Remove {ranks|setback} from all Coercion and Deception checks. As an action, may make a :hard: Coercion check to convince {rank|words} uninvolved bystander NPC to leave the scene without asking questions.",
+		"ranked": true
 	},
 	{
 		"name": "Point Blank",
@@ -1201,7 +1273,7 @@
 	},
 	{
 		"name": "Positive Spin",
-		"description": "",
+		"description": "When any character's Duty would increase by one or more, it increases by that amount plus {ranks} instead.",
 		"ranked": true
 	},
 	{
@@ -1258,7 +1330,7 @@
 	},
 	{
 		"name": "Quick Draw (Improved)",
-		"description": ""
+		"description": "Twice per round, may draw or holster a weapon as an incidental."
 	},
 	{
 		"name": "Quick Fix",
@@ -1291,6 +1363,10 @@
 		"name": "Ready for Anything",
 		"description": "Remove {ranks|setback} from mass combat made while the character is acting on the side of the acting force and the character’s Cool or Vigilance checks to determine Initiative order.",
 		"ranked": true
+	},
+	{
+		"name": "Reconstruct the Scene",
+		"description": "Once per session as an action, may make a :hard: Perception check at a crime scene to identify all prominent physical characteristics of one person who was at the scene in the last 24 hours per :success:."
 	},
 	{
 		"name": "Redundant Systems",
@@ -1365,6 +1441,10 @@
 		"description": "As an action, make a Lightsaber combat check with +1 difficulty against one engaged target; spend :advantage::advantage: to hit one additional engaged target."
 	},
 	{
+		"name": "Savvy Negotiator",
+		"description": "May remove {ranks|setback} from all Negotiation and Streetwise checks."
+	},
+	{
 		"name": "Scathing Tirade",
 		"description": "As an action, make an :average: Coercion check; each :success: causes one enemy in Short range to suffer 1 Strain. Spend :advantage: to cause 1 affected enemy to suffer 1 additional Strain."
 	},
@@ -1404,6 +1484,10 @@
 		"description": "Add :boost: to all Charm, Coercion, and Deception checks unless the target is immune to Force powers."
 	},
 	{
+		"name": "Sense the Scene",
+		"description": "Once per session as an action, may make a :hard: Perception check at a crime scene, adding {ranks|Force Rating} to the roll. Spend :forcepip: to identify the emotional state of one person involved."
+	},
+	{
 		"name": "Share Pain",
 		"description": "When a bonded animal suffers Wound, as an incidental, may reduce the Wounds suffered by half (rounded up) then suffer an equal number of Wounds."
 	},
@@ -1418,7 +1502,8 @@
 	},
 	{
 		"name": "Shortcut (Improved)",
-		"description": ""
+		"description": "During a chase, add {ranks|boost} to any checks made to catch or escape an opponent and may suffer 2 Strain to add {ranks|success} to the check.",
+		"ranked": true
 	},
 	{
 		"name": "Showboat",
@@ -1453,6 +1538,11 @@
 	{
 		"name": "Skilled Slicer",
 		"description": "When making a Computers check, may spend :triumph: to gain some measure of control over the target system. Further Computers checks within this system can be made as maneuvers."
+	},
+	{
+		"name": "Skilled Teacher",
+		"description": "Before an ally at Short range makes a skill check, if that ally has fewer ranks in the skill than the character does, may, as an incidental, suffer up to {ranks} in Strain to add an equal number of :success: to the ally's next check.",
+		"ranked": true
 	},
 	{
 		"name": "Sleight of Mind",
@@ -1532,7 +1622,7 @@
 	},
 	{
 		"name": "Spitfire",
-		"description": ""
+		"description": "After making a successful check with two Ranged: Light weapons, each additional hit generated as part of the attack can be allocated to any other target within range of the weapon."
 	},
 	{
 		"name": "Spur",
@@ -1558,7 +1648,7 @@
 	},
 	{
 		"name": "Steady Nerves",
-		"description": "",
+		"description": "Remove {ranks|setback} from Cool or Skulduggery checks.",
 		"ranked": true
 	},
 	{
@@ -1578,7 +1668,7 @@
 		"description": "When performing the Stim Application action , each :triumph: causes an additional characteristic to be increased by one."
 	},
 	{
-		"name": "Stimpack Specialization",
+		"name": "Stimpack Specialisation",
 		"description": "Whenever the character uses a stimpack, the target heals {ranks} additional Wounds,",
 		"ranked": true
 	},
@@ -1616,6 +1706,10 @@
 		"description": "When making a Lightsaber combat check, may spend :triumph: or :advantage::advantage: to disarm the opponent. The weapon lands anywhere within Short range."
 	},
 	{
+		"name": "Sunder (Improved)",
+		"description": "Each :advantage: spent to activate a weapon's Sunder quality damages the item two steps instead of one."
+	},
+	{
 		"name": "Superior Reflexes",
 		"description": "The character gains +1 melee defence."
 	},
@@ -1648,7 +1742,7 @@
 	},
 	{
 		"name": "Talk the Talk",
-		"description": ""
+		"description": "When making a Knowledge check, may spend one Destiny point to use Knowledge: Underworld or Streetwise for the required skill."
 	},
 	{
 		"name": "Targeted Blow",
@@ -1682,7 +1776,7 @@
 	},
 	{
 		"name": "Thorough Assessment",
-		"description": "Once per session, take a Thorough Assessment action to make a :hard: Knowledge check to gain :boost: equal to :success: that can be distributed during the encounter."
+		"description": "Once per session as an action, make a :hard: Knowledge check to gain :boost: equal to :success: that can be distributed during the encounter."
 	},
 	{
 		"name": "Throwing Credits",
@@ -1720,13 +1814,21 @@
 		"ranked": true
 	},
 	{
+		"name": "Trust No One",
+		"description": "When targeted by a social check, may suffer 1 Strain to add :failure: to the check. If the check fails with :despair:, may immediately perform a maneuver as an out of turn incidental."
+	},
+	{
 		"name": "Tuned Maneuvering Thrusters",
 		"description": "",
 		"ranked": true
 	},
 	{
 		"name": "Twisted Words",
-		"description": ""
+		"description": "When a social check targeting the character generates :threat::threat: or :despair:, may suffer 1 Strain as an incidental to inflict {Coercion} Strain on the character who made the check."
+	},
+	{
+		"name": "Unarmed Parry",
+		"description": "May perform the Parry incidental when unarmed. Reduce the Strain cost when unarmed by 1 to a minimum of 1."
 	},
 	{
 		"name": "Uncanny Reactions",
@@ -1766,7 +1868,7 @@
 	},
 	{
 		"name": "Valuable Facts",
-		"description": "Make an :average: Knowledge check. If successful, add :triumph: to one ally’s skill check during the enounter."
+		"description": "Make an :average: Knowledge check. If successful, add :triumph: to one ally’s skill check during the encounter."
 	},
 	{
 		"name": "Vehicle Combat Training",
@@ -1774,7 +1876,7 @@
 	},
 	{
 		"name": "Walk the Walk",
-		"description": ""
+		"description": "May spend one Destiny point to add {Streetwise} damage to one hit of a successful Brawl check."
 	},
 	{
 		"name": "Well Read",
@@ -1794,6 +1896,14 @@
 		"name": "Wheel and Deal",
 		"description": "When selling goods legally, gain {ranks|multiply-10}% more credits.",
 		"ranked": true
+	},
+	{
+		"name": "Wise Warrior",
+		"description": "Once per round when making a combat check as an incidental, may spend one Destiny point to use any characteristic for the check."
+	},
+	{
+		"name": "Wise Warrior (Improved)",
+		"description": "Once per round when making a combat check as an incidental, may spend one Destiny point to allow the character and one ally at Short range to use any characteristic for the check."
 	},
 	{
 		"name": "Works Like a Charm",

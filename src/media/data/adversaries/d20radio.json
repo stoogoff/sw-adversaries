@@ -948,7 +948,7 @@
 			"Survival": 2,
 			"Vigilance": 2
 		},
-		"talents": ["Surgeon 2", "Stimpack Specialist 2", "Forager", "Toughness 1", "Bacta Specialist 1"],
+		"talents": ["Surgeon 2", "Stimpack Specialisation 2", "Forager", "Toughness 1", "Bacta Specialist 1"],
 		"weapons": ["Heavy blaster pistol",
 			{
 				"name": "Combat knife",
@@ -1148,7 +1148,7 @@
 			"Streetwise": 2,
 			"Survival": 3
 		},
-		"talents": ["Expert Tracker 2", "Heightened Awareness", "Hunter’s Quarry [Improved]"],
+		"talents": ["Expert Tracker 2", "Heightened Awareness", "Hunter’s Quarry (Improved)"],
 		"weapons": [
 				{
 				"name": "Blastech M-300 Hunting Blaster",
@@ -3150,7 +3150,7 @@
 			"Ranged: Light": 1,
 			"Vigilance": 2
 		},
-		"talents": ["Encoded Communique", "Improved Researcher", "Researcher 2", "Stroke of Genius",
+		"talents": ["Encoded Communique", "Researcher (Improved)", "Researcher 2", "Stroke of Genius",
 			{
 				"name": "Thorough Assessment",
 				"description": "Once per session, take a :hard: Knowledge check to add :boost: equal to the number of :success: that can be distributed during the encounter."
@@ -3870,7 +3870,7 @@
 			"Negotiation": 3,
 			"Vigilance": 2
 		},
-		"talents": ["Adversary 3", "Kill with Kindness 2", "Just Kidding"],
+		"talents": ["Adversary 3", "Kill with Kindness 2", "Just Kidding!"],
 		"abilities": ["Droid"],
 		"tags": ["source:D20Radio.com", "species:Droid"]
 	},

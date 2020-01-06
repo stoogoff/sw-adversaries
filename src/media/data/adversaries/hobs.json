@@ -105,13 +105,13 @@
   "talents": [
    "Adversary 2",
    "Force Rating 3",
-   "Improved Reflect 3",
+   "Reflect (Improved) 3",
    "Parry 3",
    "Surgeon 3",
    "Valuable Facts"
   ],
   "abilities": [
-   "Dark Side Force User",
+   "Darkside Force User",
    {
     "name": "Force Power: Bind",
     "id": "Force-power-bind-barriss-offee-fallen",
@@ -205,7 +205,11 @@
     "character": "",
     "description": "So long as the proper chain of command is observed, upgrade the ability of Leadership checks targeting a clone trooper once."
    },
-   "Personality Quirk"
+   {
+    "name": "Personality Quirk",
+    "character": "Clone Trooper (Rival)",
+    "description": "May take one of these additional skills (this choice is permanent): Charm 2 (:proficiency::proficiency:), Coercion 2 (:proficiency::proficiency::ability:), Deception 2 (:proficiency::proficiency:), Negotiation 2 (:proficiency::proficiency:)."
+   }
   ],
   "gear": "2 Frag grenades, Clone armour (+2 Soak), Utility belt, Extra reload",
   "weapons": [
@@ -267,14 +271,14 @@
    "Adversary 4",
    "Fearsome 3",
    "Force Rating 6",
-   "Improved Parry 4",
-   "Improved Reflect 4",
+   "Parry (Improved) 4",
+   "Reflect (Improved) 4",
    "Niman Technique",
    "Shroud",
-   "The Force Is My Ally"
+   "The Force is My Ally"
   ],
   "abilities": [
-   "Dark Side Force User",
+   "Darkside Force User",
    {
     "name": "Force Power: Bind",
     "id": "Force-power-bind-darth-plagueis",
@@ -388,7 +392,7 @@
    "Adversary 4",
    "Congenial 3",
    "Force Rating 5",
-   "Improved Parry 4",
+   "Parry (Improved) 4",
    "Makashi Technique",
    "Reflect 4"
   ],
@@ -489,7 +493,7 @@
   },
   "talents": [
    "Adversary 3",
-   "Improved Quick Draw",
+   "Quick Draw (Improved)",
    "Lethal Blows 3"
   ],
   "abilities": [
@@ -582,7 +586,7 @@
    "Adversary 2",
    "Congenial 2",
    "Force Rating 3",
-   "Improved Reflect 3",
+   "Reflect (Improved) 3",
    "Parry 3"
   ],
   "abilities": [
@@ -673,10 +677,10 @@
   "talents": [
    "Adversary 3",
    "Force Rating 5",
-   "Improved Reflect 3",
+   "Reflect (Improved) 3",
    "Parry 4",
    "Sense Advantage",
-   "The Force Is My Ally"
+   "The Force is My Ally"
   ],
   "abilities": [
    {
@@ -770,7 +774,7 @@
    "Uncanny Senses 1"
   ],
   "abilities": [
-   "Dark Side Force User",
+   "Darkside Force User",
    {
     "name": "Force Power: Enhance",
     "id": "Force-power-enhance-hobs",
@@ -893,7 +897,7 @@
   },
   "talents": [
    "Inspiring Rhetoric",
-   "Kill With Kindness 2",
+   "Kill with Kindness 2",
    "Nobody’s Fool 2"
   ],
   "abilities": [
@@ -952,9 +956,9 @@
    "Adversary 3",
    "Force Rating 4",
    "Forewarning",
-   "Improved Reflect 3",
+   "Reflect (Improved) 3",
    "Parry 3",
-   "The Force Is My Ally"
+   "The Force is My Ally"
   ],
   "abilities": [
    {
@@ -1176,15 +1180,15 @@
   "talents": [
    "Adversary 3",
    "Ataru Technique",
-   "Fear Is My Ally",
+   "Fear is My Ally",
    "Force Rating 4",
-   "Hawkbat Swoop",
-   "Improved Parry 4",
+   "Hawk Bat Swoop",
+   "Parry (Improved) 4",
    "Jump Up",
    "Reflect 4"
   ],
   "abilities": [
-   "Dark Side Force User",
+   "Darkside Force User",
    {
     "name": "Intimidating Countenance",
     "character": "Maul (HoBS), Savage Opress (Natural)",
@@ -1473,7 +1477,7 @@
    "Adversary 2",
    "Ataru Technique",
    "Force Rating 4",
-   "Improved Reflect 4",
+   "Reflect (Improved) 4",
    "Parry 3",
    "Saber Throw"
   ],
@@ -1566,8 +1570,8 @@
    "Fine Tuning 2",
    "Finesse",
    "Force Rating 4",
-   "Improved Parry 3",
-   "Improved Reflect 4"
+   "Parry (Improved) 3",
+   "Reflect (Improved) 4"
   ],
   "abilities": [
    {
@@ -1653,8 +1657,8 @@
   "talents": [
    "Adversary 3",
    "Force Rating 5",
-   "Improved Parry 4",
-   "Improved Reflect 4",
+   "Parry (Improved) 4",
+   "Reflect (Improved) 4",
    "Natural Pilot"
   ],
   "abilities": [
@@ -1752,7 +1756,7 @@
   "talents": [
    "Adversary 2",
    "Force Rating 3",
-   "Improved Reflect 3",
+   "Reflect (Improved) 3",
    "Parry 3",
    "Surgeon 3",
    "Valuable Facts"
@@ -1843,8 +1847,8 @@
    "Duelist’s Training",
    "Force Rating 4",
    "Forewarning 1",
-   "Improved Parry 4",
-   "Improved Reflect 4",
+   "Parry (Improved) 4",
+   "Reflect (Improved) 4",
    "Master Instructor"
   ],
   "abilities": [
@@ -1928,7 +1932,7 @@
   "talents": [
    "Adversary 3",
    "Force Rating 4",
-   "Improved Reflect 3",
+   "Reflect (Improved) 3",
    "Parry 3",
    "Shroud"
   ],
@@ -2018,8 +2022,8 @@
    "Adversary 3",
    "Force Rating 4",
    "Healing Trance 2",
-   "Improved Parry 3",
-   "Improved Reflect 4",
+   "Parry (Improved) 3",
+   "Reflect (Improved) 4",
    "Niman Technique",
    "Skilled Teacher 3"
   ],
@@ -2102,8 +2106,8 @@
    "Adversary 3",
    "Force Rating 4",
    "Forewarning 1",
-   "Improved Parry 4",
-   "Improved Reflect 3",
+   "Parry (Improved) 4",
+   "Reflect (Improved) 3",
    "Mind Over Matter"
   ],
   "abilities": [
@@ -2197,8 +2201,8 @@
    "Adversary 3",
    "Durable 2",
    "Force Rating 4",
-   "Improved Parry 3",
-   "Improved Reflect 3",
+   "Parry (Improved) 3",
+   "Reflect (Improved) 3",
    "Scathing Tirade"
   ],
   "abilities": [
@@ -2225,7 +2229,7 @@
    {
     "name": "Indomitable",
     "character": "Even Piell",
-    "description": "Piell removes up to :setback::setback: caused by Critical Injuries, fear or the Disoriented condition."
+    "description": "Piell removes up to SETBACK SETBACK caused by Critical Injuries, fear or the Disoriented condition."
    }
   ],
   "gear": "Jedi robes (+1 Defence, +1 Soak)",
@@ -2365,7 +2369,7 @@
   "talents": [
    "Adversary 3",
    "Force Rating 4",
-   "Improved Reflect 4",
+   "Reflect (Improved) 4",
    "Parry 4",
    "Stand Firm"
   ],
@@ -2454,7 +2458,7 @@
   "talents": [
    "Adversary 2",
    "Force Rating 3",
-   "Improved Reflect 3",
+   "Reflect (Improved) 3",
    "Parry 3",
    "Sense Emotions"
   ],
@@ -2539,11 +2543,11 @@
   "talents": [
    "Adversary 3",
    "Force Rating 4",
-   "Improved Parry 3",
-   "Improved Reflect 3",
+   "Parry (Improved) 3",
+   "Reflect (Improved) 3",
    "Sense Emotions",
    "Skilled Teacher 2",
-   "The Force Is My Ally"
+   "The Force is My Ally"
   ],
   "abilities": [
    {
@@ -2761,7 +2765,7 @@
   "talents": [
    "Adversary 1",
    "Force Rating 4",
-   "Improved Researcher 2",
+   "Researcher (Improved) 2",
    "Nobody’s Fool 2",
    "Parry 2",
    "Reflect 2"
@@ -2854,8 +2858,8 @@
    "Durable 2",
    "Force Rating 4",
    "Healing Trance 3",
-   "Improved Parry 3",
-   "Improved Reflect 3"
+   "Parry (Improved) 3",
+   "Reflect (Improved) 3"
   ],
   "abilities": [
    {
@@ -2926,7 +2930,7 @@
    "Adversary 3",
    "Clever Commander",
    "Force Rating 4",
-   "Improved Reflect 4",
+   "Reflect (Improved) 4",
    "Parry 3"
   ],
   "abilities": [
@@ -3017,8 +3021,8 @@
    "Ataru Technique",
    "Congenial 2",
    "Force Rating 4",
-   "Improved Parry 4",
-   "Improved Reflect 3"
+   "Parry (Improved) 4",
+   "Reflect (Improved) 3"
   ],
   "abilities": [
    "Amphibious",
@@ -3107,7 +3111,7 @@
   "talents": [
    "Adversary 3",
    "Force Rating 4",
-   "Improved Reflect 4",
+   "Reflect (Improved) 4",
    "Parry 3",
    "Skilled Teacher 2",
    "Soresu Technique",
@@ -3201,8 +3205,8 @@
   "talents": [
    "Adversary 4",
    "Force Rating 5",
-   "Improved Parry 5",
-   "Improved Reflect 4",
+   "Parry (Improved) 5",
+   "Reflect (Improved) 4",
    "Niman Technique"
   ],
   "abilities": [
@@ -3299,7 +3303,7 @@
    "Adversary 4",
    "Congenial 3",
    "Force Rating 4",
-   "Improved Reflect 4",
+   "Reflect (Improved) 4",
    "Parry 4",
    "Soresu Technique"
   ],
@@ -3385,8 +3389,8 @@
    "Adversary 3",
    "Clever Commander",
    "Force Rating 5",
-   "Improved Parry 3",
-   "Improved Reflect 3",
+   "Parry (Improved) 3",
+   "Reflect (Improved) 3",
    "Makashi Technique"
   ],
   "abilities": [
@@ -3493,8 +3497,8 @@
   "talents": [
    "Adversary 3",
    "Force Rating 4",
-   "Improved Parry 3",
-   "Improved Reflect 4",
+   "Parry (Improved) 3",
+   "Reflect (Improved) 4",
    "Inspiring Rhetoric",
    "Master Pilot"
   ],
@@ -3589,8 +3593,8 @@
    "Adversary 3",
    "Durable 3",
    "Force Rating 4",
-   "Improved Parry 3",
-   "Improved Reflect 4",
+   "Parry (Improved) 3",
+   "Reflect (Improved) 4",
    "Multiple Opponents"
   ],
   "abilities": [
@@ -3672,7 +3676,7 @@
   },
   "talents": [
    "Adversary 1",
-   "Eye For Detail 2",
+   "Eye for Detail 2",
    "Nobody’s Fool 2",
    "Quick Draw",
    "Tinkerer 1"
@@ -3749,7 +3753,7 @@
   "talents": [
    "Adversary 3",
    "Force Rating 4",
-   "Improved Reflect 3",
+   "Reflect (Improved) 3",
    "Parry 2"
   ],
   "abilities": [
@@ -3919,7 +3923,7 @@
    "Force Rating 4",
    "Full Throttle",
    "Master Pilot",
-   "Improved Reflect 3",
+   "Reflect (Improved) 3",
    "Parry 3"
   ],
   "abilities": [
@@ -4007,8 +4011,8 @@
   "talents": [
    "Adversary 3",
    "Force Rating 4",
-   "Improved Reflect 4",
-   "Improved Inspiring Rhetoric",
+   "Reflect (Improved) 4",
+   "Inspiring Rhetoric (Improved)",
    "Makashi Technique",
    "Parry 3"
   ],
@@ -4101,9 +4105,9 @@
    "Adversary 2",
    "Force Rating 4",
    "Good Cop 2",
-   "Improved Parry 3",
+   "Parry (Improved) 3",
    "Reflect 3",
-   "Sense The Scene",
+   "Sense the Scene",
    "Shien Technique"
   ],
   "abilities": [
@@ -4280,7 +4284,7 @@
    "Adversary 2",
    "Force Rating 4",
    "Good Cop 1",
-   "Improved Reflect 4",
+   "Reflect (Improved) 4",
    "Inspiring Rhetoric",
    "Parry 3"
   ],
@@ -4369,7 +4373,7 @@
    "Adversary 2",
    "Bad Cop 1",
    "Force Rating 4",
-   "Improved Reflect 4",
+   "Reflect (Improved) 4",
    "Parry 3",
    "Scathing Tirade"
   ],
@@ -4457,7 +4461,7 @@
   "talents": [
    "Adversary 1",
    "Inspiring Rhetoric",
-   "Kill With Kindness 2",
+   "Kill with Kindness 2",
    "Nobody’s Fool 2"
   ],
   "abilities": [
@@ -4599,7 +4603,7 @@
   "talents": [
    "Adversary 1",
    "Force Rating 1",
-   "Kill With Kindness 1",
+   "Kill with Kindness 1",
    "Nobody’s Fool 1"
   ],
   "abilities": [
@@ -5042,11 +5046,7 @@
    "Ranged: Heavy": 1,
    "Ranged: Light": 1
   },
-  "talents": [
-   "Blaster rifle",
-   "Truncheon",
-   "Neimoidian security armour (+2 Soak)"
-  ],
+  "talents": [],
   "abilities": [],
   "gear": "Nemoidian security armour (+2 Soak)",
   "weapons": [
@@ -6046,7 +6046,7 @@
    "Adversary 2",
    "Commanding Presence 1",
    "Confidence 2",
-   "Improved Inspiring Rhetoric",
+   "Inspiring Rhetoric (Improved)",
    "Nobody’s Fool 2"
   ],
   "abilities": [
@@ -6111,7 +6111,7 @@
    "Knowledge: Underworld": 3
   },
   "talents": [
-   "Kill With Kindness 2",
+   "Kill with Kindness 2",
    "Nobody’s Fool 1"
   ],
   "abilities": [
@@ -6402,7 +6402,7 @@
   "talents": [
    "Adversary 3",
    "Hit And Run",
-   "Improved Quick Draw",
+   "Quick Draw (Improved)",
    "Jetpack Expertise",
    "Parry 3"
   ],
@@ -6531,7 +6531,7 @@
    "Adversary 2",
    "Death From Above",
    "Guns Blazing",
-   "Improved Quick Draw",
+   "Quick Draw (Improved)",
    "Jetpack Expertise",
    "Point Blank 2"
   ],
@@ -7141,7 +7141,7 @@
   "talents": [
    "Adversary 3",
    "Nobody’s Fool 3",
-   "Supreme Scathing Tirade"
+   "Scathing Tirade (Supreme)"
   ],
   "abilities": [
    {
@@ -7204,7 +7204,7 @@
   },
   "talents": [
    "Adversary 1",
-   "Improved Inspiring Rhetoric",
+   "Inspiring Rhetoric (Improved)",
    "Nobody’s Fool 2"
   ],
   "abilities": [
@@ -7322,7 +7322,7 @@
   },
   "talents": [
    "Adversary 1",
-   "Improved Body Guard 2",
+   "Body Guard (Improved) 2",
    "Nobody’s Fool 1"
   ],
   "abilities": [
@@ -8154,7 +8154,7 @@
   },
   "talents": [
    "Adversary 2",
-   "Improved Quick Draw",
+   "Quick Draw (Improved)",
    "Nobody’s Fool 2",
    "Spitfire"
   ],
@@ -9614,7 +9614,7 @@
   },
   "talents": [
    "Adversary 2",
-   "Improved Scathing Tirade",
+   "Scathing Tirade (Improved)",
    "Nobody’s Fool 2"
   ],
   "abilities": [
@@ -9697,7 +9697,11 @@
    "Nobody’s Fool 1"
   ],
   "abilities": [
-   "Hard Bargain",
+   {
+    "name": "Hard Bargain",
+    "character": "",
+    "description": "May use Cunning for Negotiation checks."
+   },
    {
     "name": "Slave Authority",
     "character": "Queen Miraj Scintel, Zygerrian Slave Master",
@@ -9942,8 +9946,8 @@
    "Confidence 2",
    "Natural Charmer",
    "Nobody’s Fool 1",
-   "Supreme Inspiring Rhetoric",
-   "Works Like A Charm"
+   "Inspiring Rhetoric (Supreme)",
+   "Works Like a Charm"
   ],
   "abilities": [
    {
@@ -10064,7 +10068,7 @@
    "Adversary 2",
    "Commanding Presence 2",
    "Coordinated Assault",
-   "Improved Quick Draw",
+   "Quick Draw (Improved)",
    "Side Step 2",
    "Swift"
   ],
@@ -10074,7 +10078,11 @@
     "character": "",
     "description": "So long as the proper chain of command is observed, upgrade the ability of Leadership checks targeting a clone trooper once."
    },
-   "Joopa Worm Pattern!",
+   {
+    "name": "Joopa Worm Pattern!",
+    "character": "Captain Rex",
+    "description": "As a maneuver, make a :hard: Leadership check to allow allies within Short range who move in their following turn to gain +1 Defence for the remainder of the round."
+   },
    "Tactical Direction"
   ],
   "gear": "Clone armour (+2 Soak), Utility belt, Extra reload",
@@ -10387,7 +10395,7 @@
    "Adversary 1",
    "Durable 2",
    "Feral Strength 2",
-   "Improved Body Guard 2"
+   "Body Guard (Improved) 2"
   ],
   "abilities": [
    {
@@ -11355,7 +11363,11 @@
    "Surgeon 2"
   ],
   "abilities": [
-   "All In the Manual",
+   {
+    "name": "All in the Manual",
+    "character": "Clone Medical Officer",
+    "description": "When treating clone patients, the Medical Officer adds :boost::boost: to the check."
+   },
    {
     "name": "Clone Inhibitor Chip",
     "character": "",
@@ -11744,7 +11756,7 @@
    "Adversary 2",
    "Commanding Presence 2",
    "Field Commander",
-   "Improved Formation Tactics"
+   "Formation Tactics (Improved)"
   ],
   "abilities": [
    {
@@ -11807,7 +11819,7 @@
   },
   "talents": [
    "Nobody’s Fool 1",
-   "Reconstruct The Scene"
+   "Reconstruct the Scene"
   ],
   "abilities": [],
   "gear": "Police uniform (+1 Soak), Datapad",
@@ -12238,7 +12250,7 @@
   },
   "talents": [
    "Adversary 1",
-   "Improved Distracting Behaviour",
+   "Distracting Behaviour (Improved) 3",
    "Improved Dodge 3"
   ],
   "abilities": [
@@ -12590,7 +12602,7 @@
    "Adversary 1",
    "Force Rating 2",
    "Nobody’s Fool 2",
-   "Sleight Of Mind 2"
+   "Sleight of Mind 2"
   ],
   "abilities": [
    {
@@ -12713,7 +12725,7 @@
   },
   "talents": [
    "Adversary 1",
-   "Improved Quick Draw"
+   "Quick Draw (Improved)"
   ],
   "abilities": [
    {
@@ -12928,7 +12940,7 @@
   "talents": [
    "Adversary 1",
    "Durable 3",
-   "Rain Of Death"
+   "Rain of Death"
   ],
   "abilities": [
    {
@@ -13187,7 +13199,7 @@
   },
   "talents": [
    "Adversary 1",
-   "Improved Shortcut 2",
+   "Shortcut (Improved) 2",
    "Quick Strike 1"
   ],
   "abilities": [
@@ -13250,9 +13262,9 @@
   },
   "talents": [
    "Adversary 2",
-   "Improved Just Kidding!",
-   "Kill With Kindness 1",
-   "Smooth Talker 2"
+   "Just Kidding! (Improved)",
+   "Kill with Kindness 1",
+   "Smooth Talker (Deception) 2"
   ],
   "abilities": [
    {
@@ -13977,7 +13989,7 @@
    "Streetwise": 3
   },
   "talents": [
-   "Kill With Kindness 2",
+   "Kill with Kindness 2",
    "Nobody’s Fool 1"
   ],
   "abilities": [
@@ -14088,12 +14100,12 @@
    "Adversary 4",
    "Congenial 3",
    "Force Rating 5",
-   "Improved Parry 4",
+   "Parry (Improved) 4",
    "Makashi Technique",
    "Reflect 4"
   ],
   "abilities": [
-   "Dark Side Force User",
+   "Darkside Force User",
    {
     "name": "Force Power: Bind",
     "id": "Force-power-bind-count-dooku-hobs",
@@ -15013,7 +15025,7 @@
   "talents": [
    "Adversary 2",
    "Feral Strength 2",
-   "Improved Scathing Tirade"
+   "Scathing Tirade (Improved)"
   ],
   "abilities": [
    {
@@ -15073,7 +15085,7 @@
   },
   "talents": [
    "Adversary 1",
-   "Know The Enemy"
+   "Know the Enemy"
   ],
   "abilities": [
    {
@@ -15323,7 +15335,11 @@
    "Lead From The Back"
   ],
   "abilities": [
-   "Concentrate Your Fire!"
+   {
+    "name": "Concentrate Your Fire!",
+    "character": "Separatist Commander",
+    "description": "May perform a maneuver to direct one allied minion group within Medium range; the group may perform an immediate free combat check action."
+   }
   ],
   "gear": "Armoured uniform (+1 Defence, +2 Soak), Encrypted comlink",
   "weapons": [
@@ -15387,7 +15403,7 @@
    "Adversary 3",
    "Duelist’s Training",
    "Force Rating 4",
-   "Improved Parry 5",
+   "Parry (Improved) 5",
    "Reflect 4"
   ],
   "abilities": [
@@ -15396,7 +15412,7 @@
     "character": "Sora Bulq",
     "description": "Sora Bulq does not increase difficulty when making attacks with two weapons."
    },
-   "Dark Side Force User",
+   "Darkside Force User",
    {
     "name": "Force Power: Bind",
     "id": "Force-power-bind-sora-bulq",

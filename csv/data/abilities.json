@@ -5,7 +5,7 @@
     "description": "Gain an additional free maneuver per turn, though may not perform more than 2 per turn."
   },
   {
-    "name": "All In The Manual",
+    "name": "All in the Manual",
     "character": "Clone Medical Officer",
     "description": "When treating clone patients, the Medical Officer adds :boost::boost: to the check."
   },
@@ -110,7 +110,7 @@
     "description": "At the beginning of an encounter with Tarkin, each enemy and ally within Medium range or in communication with him makes a :hard: Discipline check as an out-of-turn incidental. Allies who succeed add automatic :advantage: to any skill checks they make until the end of the encounter. If they succeed with :triumph:, they add automatic :success: instead. Enemies who fail add automatic :threat: to skill checks until the end of the encounter. If they fail with :despair:, they add automatic :failure: instead."
   },
   {
-    "name": "Concentrate Your Fire",
+    "name": "Concentrate Your Fire!",
     "character": "Separatist Commander",
     "description": "May perform a maneuver to direct one allied minion group within Medium range; the group may perform an immediate free combat check action."
   },
@@ -367,7 +367,7 @@
   {
     "name": "Indomitable",
     "character": "Even Piell",
-    "description": "Piell removes up to :setback::setback: caused by Critical Injuries, fear or the Disoriented condition."
+    "description": "Piell removes up to SETBACK SETBACK caused by Critical Injuries, fear or the Disoriented condition."
   },
   {
     "name": "Infiltrate And Execute",
@@ -415,7 +415,7 @@
     "description": "When wielding dual lightsabers, Barriss uses Agility for Lightsaber combat checks)."
   },
   {
-    "name": "Joopa Worm Pattern",
+    "name": "Joopa Worm Pattern!",
     "character": "Captain Rex",
     "description": "As a maneuver, make a :hard: Leadership check to allow allies within Short range who move in their following turn to gain +1 Defence for the remainder of the round."
   },
@@ -565,7 +565,7 @@
     "description": "Gains automatic :advantage::advantage: on Leadership checks when commanding droids."
   },
   {
-    "name": "Personality Quick",
+    "name": "Personality Quirk",
     "character": "Clone Trooper (Rival)",
     "description": "May take one of these additional skills (this choice is permanent): Charm 2 (:proficiency::proficiency:), Coercion 2 (:proficiency::proficiency::ability:), Deception 2 (:proficiency::proficiency:), Negotiation 2 (:proficiency::proficiency:)."
   },
@@ -853,5 +853,10 @@
     "name": "Wookiee Rage",
     "character": "Tarfful, Wookiee Warrior",
     "description": "Deals +1 damage with Brawl and Melee attacks when suffering any wounds. When suffering a Critical Injury, deals +2 damage with Brawl and Melee attacks instead."
+  },
+  {
+    "name": "Hard Bargain",
+    "character": "",
+    "description": "May use Cunning for Negotiation checks."
   }
 ]

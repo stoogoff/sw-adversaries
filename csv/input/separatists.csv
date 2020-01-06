@@ -57,9 +57,9 @@ Knowledge: Warfare,,,,,,,,,,,,,,,,4,2,,,3,,
 Knowledge: Xenology,,,,,,,,,,,,,,5,,,,,,,,
 Talents,,,,,,,,,,,,,,,,,,,,,,
 ,Adversary 4,,,Adversary 1,,Full Throttle,,,Adversary 3,Adversary 3,Adversary 1,Congenial 2,Adversary 1,Adversary 1,Adversary 2,Adversary 1,Adversary 3,Adversary 1,Adversary 1,Adversary 2,Adversary 3,Adversary 1
-,Congenial 3,,,,,,,,Durable 3,Durable 3,Encouraging Words,Encouraging Words,Discredit,Thorough Assessment,Feral Strength 2,Know The Enemy,Fearsome 3,Discredit,Plausible Deniability 2,Fire Control,Duelist’s Training,Nobody’s Fool 2
-,Force Rating 5,,,,,,,,,,Inspiring Rhetoric,Nobody’s Fool 2,Nobody’s Fool 1,,Improved Scathing Tirade,,Lethal Blows 2,Natural Charmer,Nobody’s Fool 2,Lead From The Back,Force Rating 4,Slippery Minded
-,Improved Parry 4,,,,,,,,,,,,,,,,No Escape,,,,Improved Parry 5,
+,Congenial 3,,,,,,,,Durable 3,Durable 3,Encouraging Words,Encouraging Words,Discredit,Thorough Assessment,Feral Strength 2,Know the Enemy,Fearsome 3,Discredit,Plausible Deniability 2,Fire Control,Duelist’s Training,Nobody’s Fool 2
+,Force Rating 5,,,,,,,,,,Inspiring Rhetoric,Nobody’s Fool 2,Nobody’s Fool 1,,Scathing Tirade (Improved),,Lethal Blows 2,Natural Charmer,Nobody’s Fool 2,Lead From The Back,Force Rating 4,Slippery Minded
+,Parry (Improved) 4,,,,,,,,,,,,,,,,No Escape,,,,Parry (Improved) 5,
 ,Makashi Technique,,,,,,,,,,,,,,,,,,,,Reflect 4,
 ,Reflect 4,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,
@@ -67,8 +67,8 @@ Talents,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,
 Abilities,,,,,,,,,,,,,,,,,,,,,,
-,Dark Side Force User,Droid,Droid,Droid,Disguise Mode,Droid,Droid,Amphibious,Regeneration (Durge),Rocket Pack,,Diplomatic Solution,Getting Results,Clever But Crazy,Hound Master,Flyer,Amphibious,Duplicitous,,Concentrate Your Fire!,Blademaster,Methane Breather
-,Force Power: Bind,,,Infiltrate And Execute,Droid,Lancer,Lumbering,Droid,Undying,,,,Neimoidian Courage,,Temper Tantrum,Geonosian Valour,,,,,Dark Side Force User,Sudden Leverage
+,Darkside Force User,Droid,Droid,Droid,Disguise Mode,Droid,Droid,Amphibious,Regeneration (Durge),Rocket Pack,,Diplomatic Solution,Getting Results,Clever But Crazy,Hound Master,Flyer,Amphibious,Duplicitous,,Concentrate Your Fire!,Blademaster,Methane Breather
+,Force Power: Bind,,,Infiltrate And Execute,Droid,Lancer,Lumbering,Droid,Undying,,,,Neimoidian Courage,,Temper Tantrum,Geonosian Valour,,,,,Darkside Force User,Sudden Leverage
 ,Force Power: Enhance,,,,Self Destruct,,,Silhouette 2,,,,,Shoot Them Or Something!,,,Tactical Direction,,,,,Force Power: Bind,
 ,Force Power: Move,,,,,,,,,,,,,,,,,,,,Force Power: Enhance,
 ,Force Power: Protect,,,,,,,,,,,,,,,,,,,,Force Power: Move,
