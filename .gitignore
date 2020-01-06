@@ -6,3 +6,4 @@ aws.json
 package-lock.json
 LAST_VERSION
 .DS_STORE
+build/errors.txt
