@@ -1,0 +1,161 @@
+[
+	{
+		"name": "Ahsoka Tano",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 13,
+			"strain": 13
+		},
+		"skills": {
+			"Athletics": 2,
+			"Charm": 1,
+			"Coercion": 2,
+			"Cool": 2,
+			"Coordination": 3,
+			"Discipline": 3,
+			"Knowledge: Lore": 1,
+			"Knowledge: Warfare": 4,
+			"Knowledge: Underworld": 2,
+			"Lightsaber": 4,
+			"Leadership": 2,
+			"Mechanics": 2,
+			"Perception": 3,
+			"Piloting: Planetary": 3,
+			"Piloting: Space": 2,
+			"Stealth": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2", "Ataru Technique", "Parry 3", "Force Rating 3", "Improved Reflect 3", "Saber Swarm",
+			{
+				"name": "Circle of Shelter",
+				"description": "."
+			}
+		],
+		"abilities": ["Force Power: Enhance", "Force Power: Move", "Force Power: Sense",
+			{
+				"name": "Fulcrum Leadership",
+				"description": "Allies within short range who know Ahsoka’s Fulcrum identity add automatic :advantage::advantage: to all skill checks."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Pair of lightsabers",
+				"skill": "Lightsaber",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder", "Dual-Phase"]
+			}
+		],
+		"gear": ["Padded armour (+2 Soak)", "Encrypted comlink"],
+		"tags": ["book:dor", "rebel alliance", "force sensitive", "species:Togruta"]
+	},
+	{
+		"name": "Senate Guard",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 14,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Brawl": 2,
+            "Discipline": 2,
+            "Leadership": 1,
+			"Melee": 2,
+			"Ranged: Heavy": 2,
+			"Vigilance": 1
+		},
+		"abilities": [
+			{
+				"name": "Reappropriate",
+				"description": "As an action, the guard can make an :easy: Brawl check to disarm an engaged opponent, and may spend :triumph: to immediately wield the citem or weapon."
+			}
+		],
+        "weapons": ["Force pike",
+			{
+				"name": "Ceremonial rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 10,
+				"critical": 2,
+				"range": "Long",
+				"qualities": ["Stun Setting", "Pierce 1"]
+			}
+        ],
+		"gear": ["Senate guard Armour (+2 Soak), Comlink"],
+		"tags": ["book:cotr", "galactic republic"]
+	},
+	{
+		"name": "Jedi Temple Guard",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 18,
+            "strain": 18,
+            "defence": [2, 2]
+		},
+		"skills": {
+			"Discipline": 2,
+			"Medicine": 2,
+			"Leadership": 1,
+			"Lightsaber": 3,
+			"Mechanics": 3,
+			"Perception": 2,
+			"Piloting: Space": 4,
+			"Ranged: Light": 3,
+			"Resilience": 1,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 3", "Force Rating 3", "Parry 3", "Reflect 2", "Natural Pilot",
+			{
+				"name": "Exhaust Port",
+				"description": "Before attacking a starship or vehicle, Luke may spend 1 Destiny Point to ignore the effects of the Massive rule for the attack."
+			}
+		],
+		"abilities": ["Force Power: Enhance", "Force Power: Foresee", "Force Power: Move", "Force Power: Sense",
+			{
+				"name": "One In A Million",
+				"description": "Luke may spend 1 Destiny Point to add :success::success:, :advantage::advantage: or :success::advantage: to any combat check he makes."
+			}
+		],
+		"weapons": ["Blaster pistol",
+			{
+				"name": "His father’s lightsaber",
+				"skill": "Lightsaber",
+				"damage": 10,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder", "Vicious 2"]
+			}
+		],
+		"gear": ["Heavy clothing (+1 soak)", "Comlink"],
+		"tags": ["book:cotr", "force sensitive", "jedi"]
+	}
+]
