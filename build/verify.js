@@ -80,4 +80,4 @@ adversaries.forEach(a => {
 	}
 });
 
-console.log(`Found ${errors} errors.`);
+console.warn(`Found ${errors} errors.`);
