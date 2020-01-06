@@ -57,7 +57,13 @@ const FILES = fs.readdirSync(ADV_PATH);
 
 let adversaries = [], errors = 0;
 
-FILES.forEach(f => adversaries = adversaries.concat(require(path.join(ADV_PATH, f))));
+FILES.forEach(f => {
+	let adv = require(path.join(ADV_PATH, f));
+
+	adv.forEach(a => a.file = f);
+
+	adversaries = adversaries.concat(adv);
+});
 
 adversaries.forEach(a => {
 	let missing = [
@@ -67,7 +73,7 @@ adversaries.forEach(a => {
 	];
 
 	if(missing.length > 0) {
-		console.log(`MISSING from: ${a.name}:`);
+		console.log(`MISSING from: ${a.name} (${a.file}):`);
 		console.log("\t" + missing.join("\n\t"));
 
 		errors++;
