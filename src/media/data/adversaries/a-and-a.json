@@ -1100,7 +1100,11 @@
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 4", "Durable 3", "Force Rating 6", "Parry (Improved) 5", "Reflect (Improved) 5", "Saber Throw", "Starship Adversary 1"],
-		"abilities": ["Darkside Force User", "Force Power: Enhance", "Force Power: Force Choke", "Force Power: Move", "Force Power: Sense",
+		"abilities": ["Darkside Force User", "Force Power: Enhance", "Force Power: Move", "Force Power: Sense",
+			{
+				"name": "Force Power: Force Choke",
+				"description": "Darth Vader may spend :forcepip: to immobilise a target within Short range until the end of Vader’s next turn; may spend :forcepip: to inflict 1 Wound on the target, ignoring Soak and may do so multiple times. Vader may also roll an opposed Discipline vs. Discipline check against the target, if the check succeeds, the target suffers a Critical Injury, adding +10 to the roll per :forcepip: spent on the check."
+			},
 			{
 				"name": "Terrifying",
 				"description": "At the beginning of each encounter, each enemy within Medium Range must make a :challenge::challenge::challenge: fear check."

@@ -332,6 +332,10 @@
 		"ranked": true
 	},
 	{
+		"name": "Death From Above",
+		"description": "Once per encounter while using a jetpack, may take the Death From Above action, inflicting 1 system strain on their jetpack and making a :hard: Piloting (Planetary) check. If the check is successful, for each :success:, one adversary of silhouette 0 or 1 within Short range is knocked prone. May spend :triumph: to stagger one affected target until the end of that adversary's next turn."
+	},
+	{
 		"name": "Deathblow",
 		"description": ""
 	},
@@ -557,6 +561,10 @@
 		"ranked": true
 	},
 	{
+		"name": "Finesse",
+		"description": "May use Agility instead of Brawn for Brawl and Melee checks."
+	},
+	{
 		"name": "Fire Control",
 		"description": "Take the Fire Control action; all combat checks made from current starship or vehicle count their target’s Silhouette as one higher than nor­mal until the beginning of next turn.",
 		"ranked": true
@@ -727,6 +735,10 @@
 		"ranked": true
 	},
 	{
+		"name": "Hit And Run",
+		"description": "While the character is using a jetpack, after they complete an attack targeting an opponent they are engaged with, they may immediately disengage as an incidental."
+	},
+	{
 		"name": "Hold Together",
 		"description": "Flip one Destiny Point to make a Hold Together incidental immediately after a starship takes damage to convert the suffered Hull Trauma to System Strain."
 	},
@@ -755,6 +767,10 @@
 	{
 		"name": "Imbue Item",
 		"description": "Spend a maneuver to com­mit :force: and grant one weapon at Short range +1 dam­age or decrease critical rating of weapon by one."
+	},
+	{
+		"name": "Improved Dodge",
+		"description": "When the character performs the Dodge incidental, the character may make a Move maneuver as an out-of-turn incidental after the triggering attack has been resolved."
 	},
 	{
 		"name": "Improvised Detonation",
@@ -867,6 +883,10 @@
 		"description": "Once per session, when an ally is about to suffer a Critical Injury, may take an It’s Not That Bad incidental to make a :hard: Medicine check. If successful, the ally does not gain the Critical Injury."
 	},
 	{
+		"name": "Jetpack Expertise",
+		"description": "The character may spend :advantage: from checks they make to remove 1 system strain from a jetpack they are equipped with. (They may choose this effect multiple times when spending :advantage:)."
+	},
+	{
 		"name": "Jump Up",
 		"description": "Once per round, may stand from seated or prone as an incidental."
 	},
@@ -907,6 +927,10 @@
 		"description": "May use Knowledge: Warfare when making checks for initiative."
 	},
 	{
+		"name": "Know their Weakness",
+		"description": "Once per session, the character may choose one target within Short range and perform the Know Their Weakness action to make a :hard: Perception check. If successful, the character downgrades the difficulty of all social skill checks they make against the target once per rank of Know Their Weakness."
+	},
+	{
 		"name": "Knowledge is Power",
 		"description": "Once per session, when making a single check, may treat Force Rating as {Knowledge: Lore}."
 	},
@@ -936,6 +960,10 @@
 		"name": "Larger Project",
 		"description": "",
 		"ranked": true
+	},
+	{
+		"name": "Lead from the Back",
+		"description": "Once per round when an enemy makes a successful combat check targeting the character, the character may spend one Destiny point to perform the Lead from the Back incidental. The character chooses one allied NPC subordinate within Short range, who becomes the target of the attack instead. At the GM's discretion, the character may select an allied NPC at a greater distance if they are between the character and the attacker."
 	},
 	{
 		"name": "Let’s Ride",
@@ -1083,6 +1111,10 @@
 	{
 		"name": "Natural Charmer",
 		"description": "Once per session, may reroll any one Charm or Deception check."
+	},
+	{
+		"name": "Natural Commando",
+		"description": "Once per session, may re-roll one Ranged (Light) or Stealth check."
 	},
 	{
 		"name": "Natural Doctor",
@@ -1635,6 +1667,10 @@
 	{
 		"name": "Spur (Supreme)",
 		"description": ""
+	},
+	{
+		"name": "Stand Firm",
+		"description": "Once per encounter, the character may take the Stand Firm action, making a :hard: Leadership check. If the check is successful, the character chooses one ally within Medium range for each :success: on the check. Until the end of the encounter, chosen allies increase their wound threshold by an amount equal to the character's Presence rating. (Multiple uses of this talent are not cumulative)."
 	},
 	{
 		"name": "Starship Adversary",

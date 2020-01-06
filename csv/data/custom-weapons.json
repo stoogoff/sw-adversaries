@@ -135,7 +135,7 @@
     "notes": ""
   },
   {
-    "name": "K’Kruh’s Lightsaber",
+    "name": "K’Kruhk’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "8",
     "critical": "2",
@@ -1359,7 +1359,7 @@
     "notes": "Add :lightside: to Force power checks."
   },
   {
-    "name": "Obi-Wan’s Padwan Lightsaber",
+    "name": "Obi-Wan’s Padawan Lightsaber",
     "skill": "Lightsaber",
     "damage": "8",
     "critical": "2",
