@@ -259,7 +259,7 @@
 			"Vigilance": 1
 		},
 		"talents": ["Adversary 1", "Confidence 2", "Lethal Blows 2"],
-		"weapons": ["E-22 blaster carbine", "Vibroknife", "Frag grenade",
+		"weapons": ["Vibroknife", "Frag grenade",
 			{
 				"name": "E-22 blaster carbine",
 				"skill": "Ranged: Heavy",
@@ -389,7 +389,17 @@
 			"Stealth": 2
 		},
 		"talents": ["Adversary 1", "Convincing Demeanor 2","Natural Negotiator"],
-		"weapons": ["Holdout blaster", "Molecular stiletto"],
+		"weapons": [
+			"Holdout blaster",
+			{
+				"name": "Molecular stiletto",
+				"skill": "Melee",
+				"damage": 2,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
 		"gear": ["Covertly armoured dinner jacket (+1 Soak, +1 Defence)", "Encrypted datapad with financial data and weapons procurement lists" , "Encrypted long range comlink"],
 		"tags": ["source:D20Radio.com", "resistance"]
 	},

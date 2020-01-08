@@ -57,18 +57,22 @@ CUSTOM_WEAPONS.map(m => {
 		delete m.notes;
 	}
 
+	if(m.id == "") {
+		m.id = m.name;
+	}
+
 	if("qualities" in m) {
 		m.qualities = m.qualities.split(", ");
 	}
 
 	return m;
-}).forEach(a => customWeapons[a.name] = a);
+}).forEach(a => customWeapons[a.id] = a);
 WEAPONS.forEach(a => weapons[a.name] = a);
 
 
 // get all of the CSV files ready to process
 const FILES = fs.readdirSync("input");
-//const FILES = ["bonus.csv"];
+
 
 // output to
 let finalOutput = [];
@@ -84,8 +88,6 @@ FILES.forEach(input => {
 	let output = {};
 	let chunk = null;
 	let file = path.join("input", input);
-
-	//console.log("", `Processing ${input}`, "")
 
 	// read each file and add everything
 	fs.createReadStream(file)
@@ -180,6 +182,12 @@ FILES.forEach(input => {
 				}
 				if(adv.gear.indexOf("Ion grenade") != -1) {
 					adv.weapons.push(customWeapons["Ion grenade"]);
+				}
+				if(adv.gear.indexOf("Karkarodon grenade") != -1) {
+					adv.weapons.push(customWeapons["Karkarodon grenade"]);
+				}
+				if(adv.gear.indexOf("Bio-virus grenade") != -1) {
+					adv.weapons.push(customWeapons["Bio-virus grenade"]);
 				}
 
 				adv.abilities = adv.abilities.map(ab => {

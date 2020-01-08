@@ -127,7 +127,7 @@
   {
     "name": "Creature Of Illusion",
     "character": "Darth Bane (Apparition)",
-    "description": "Combat checks targeting the apparition always use Willpower in place of the characteristic normally associated with that skill. The Pierce and Breach qualities do not ignore the apparition’s soak."
+    "description": "Combat checks targeting the apparition always use Willpower in place of the characteristic normally associated with that skill. The Pierce and Breach qualities do not negate the apparition’s soak."
   },
   {
     "name": "Criminal Mastermind",

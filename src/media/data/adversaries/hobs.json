@@ -147,6 +147,7 @@
   "weapons": [
    {
     "name": "Dual Lightsabers",
+    "id": "Dual Lightsabers",
     "skill": "Lightsaber (Agility)",
     "damage": "9",
     "critical": "2",
@@ -334,6 +335,7 @@
   "weapons": [
    {
     "name": "Plagueis’ Lightsaber",
+    "id": "Plagueis’ Lightsaber",
     "skill": "Lightsaber (Willpower)",
     "damage": "9",
     "critical": "1",
@@ -428,23 +430,8 @@
     "description": "Dooku may commit :force: to increase an ally’s existing Force Rating by 1 for as long as they remain in Medium range. The targeted ally suffers 1 strain at the end of each round this is in effect."
    }
   ],
-  "gear": "Jedi cloak (+1 Defence, +1 Soak)",
-  "weapons": [
-   {
-    "name": "Dooku’s Jedi Lightsaber",
-    "skill": "Lightsaber (Presence)",
-    "damage": "8",
-    "critical": "1",
-    "range": "Engaged",
-    "qualities": [
-     "Breach 1",
-     "Defensive 1",
-     "Sunder",
-     "Vicious 3"
-    ],
-    "notes": "Add :lightside: to Force power checks."
-   }
-  ]
+  "gear": "Dooku’s Jedi Lightsaber, Jedi cloak (+1 Defence, +1 Soak)",
+  "weapons": []
  },
  {
   "name": "Jango Fett",
@@ -503,10 +490,11 @@
     "description": "Prior to making a combat check with a ranged weapon, Jango may suffer 3 strain to reduce the cost of a critical hit to :advantage:."
    }
   ],
-  "gear": "Jetpack missile launcher, Mandalorian armour (+1 Defence, +3 Soak), Integrated jetpack",
+  "gear": "Mandalorian armour (+1 Defence, +3 Soak), Integrated jetpack",
   "weapons": [
    {
     "name": "Dual WESTAR-34 blaster pistols",
+    "id": "Dual WESTAR-34 blaster pistols",
     "skill": "Ranged: Light",
     "damage": "7",
     "critical": "3",
@@ -517,6 +505,7 @@
    },
    {
     "name": "Flamethrower",
+    "id": "Flamethrower",
     "skill": "Ranged: Light",
     "damage": "5",
     "critical": "2",
@@ -530,6 +519,7 @@
    },
    {
     "name": "Whipcord",
+    "id": "Whipcord",
     "skill": "Ranged: Light",
     "damage": "1",
     "critical": "-",
@@ -537,6 +527,22 @@
     "qualities": [
      "Ensnare 3",
      "Limited Ammo 1"
+    ]
+   },
+   {
+    "name": "Jetpack missile launcher",
+    "id": "Jetpack missile launcher",
+    "skill": "Gunnery",
+    "damage": "20",
+    "critical": "2",
+    "range": "Extreme",
+    "qualities": [
+     "Blast 10",
+     "Breach 1",
+     "Cumbersome 3",
+     "Guided 3",
+     "Limited Ammo 1",
+     "Prepare 1"
     ]
    }
   ]
@@ -616,20 +622,8 @@
     "description": "Whenever Obi-Wan remains within Engaged range of Qui-Gon Jinn, both characters increase their melee and ranged defence by 1."
    }
   ],
-  "gear": "Jedi robes (+1 Defence, +1 Soak), Jedi utility belt",
-  "weapons": [
-   {
-    "name": "Obi-Wan’s Padawan Lightsaber",
-    "skill": "Lightsaber",
-    "damage": "8",
-    "critical": "2",
-    "range": "Engaged",
-    "qualities": [
-     "Breach 1",
-     "Sunder"
-    ]
-   }
-  ]
+  "gear": "Obi-Wan’s Padawan Lightsaber, Jedi robes (+1 Defence, +1 Soak), Jedi utility belt",
+  "weapons": []
  },
  {
   "name": "Qui-Gon Jinn",
@@ -713,6 +707,7 @@
   "weapons": [
    {
     "name": "Qui-Gon’s Lightsaber",
+    "id": "Qui-Gon’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "10",
     "critical": "1",
@@ -790,6 +785,7 @@
   "weapons": [
    {
     "name": "Enchanted axe",
+    "id": "Enchanted axe",
     "skill": "Melee",
     "damage": "6",
     "critical": "2",
@@ -996,6 +992,7 @@
   "weapons": [
    {
     "name": "Sifo-Dyas’ Lightsaber",
+    "id": "Sifo-Dyas’ Lightsaber",
     "skill": "Lightsaber",
     "damage": "9",
     "critical": "2",
@@ -1122,6 +1119,7 @@
   "weapons": [
    {
     "name": "Model 38 sharpshooter’s rifle",
+    "id": "Model 38 sharpshooter’s rifle",
     "skill": "Ranged: Heavy",
     "damage": "8",
     "critical": "3",
@@ -1210,10 +1208,11 @@
     "description": "The character may spend :forcepip: to sense all living things within Short range (including animals and sentient beings) and may spend :forcepip::forcepip: to increase the range of this effect to Medium. The character may instead spend :forcepip: to sense the current emotional state of one living target they are engaged with."
    }
   ],
-  "gear": "Cybernetic leg attack, Nightbrother heavy clothing (+1 Soak)",
+  "gear": "Nightbrother heavy clothing (+1 Soak)",
   "weapons": [
    {
     "name": "Maul’s Lightsaber",
+    "id": "Maul’s Lightsaber",
     "skill": "Lightsaber (Agility)",
     "damage": "9",
     "critical": "2",
@@ -1226,7 +1225,8 @@
     ]
    },
    {
-    "name": "Darksaber",
+    "name": "The Darksaber",
+    "id": "maul-darksaber",
     "skill": "Lightsaber (Agility)",
     "damage": "6",
     "critical": "2",
@@ -1236,6 +1236,19 @@
      "Breach 1",
      "Defensive 1",
      "Sunder"
+    ]
+   },
+   {
+    "name": "Cybernetic leg attack",
+    "id": "Cybernetic leg attack",
+    "skill": "Brawl",
+    "damage": "6",
+    "critical": "3",
+    "range": "Engaged",
+    "qualities": [
+     "Knockdown",
+     "Pierce 3",
+     "Vicious 3"
     ]
    }
   ]
@@ -1298,6 +1311,7 @@
   "weapons": [
    {
     "name": "Enchanted staff",
+    "id": "Enchanted staff",
     "skill": "Melee",
     "damage": "5",
     "critical": "3",
@@ -1419,6 +1433,7 @@
   "weapons": [
    {
     "name": "Grasping claws",
+    "id": "Grasping claws",
     "skill": "Brawl",
     "damage": "3",
     "critical": "3",
@@ -1512,6 +1527,7 @@
   "weapons": [
    {
     "name": "Aayla’s Lightsaber",
+    "id": "Aayla’s Lightsaber",
     "skill": "Lightsaber (Agility)",
     "damage": "8",
     "critical": "2",
@@ -1599,6 +1615,7 @@
   "weapons": [
    {
     "name": "Adi Gallia’s Lightsaber",
+    "id": "Adi Gallia’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "9",
     "critical": "2",
@@ -1697,6 +1714,7 @@
   "weapons": [
    {
     "name": "Anakin’s Lightsaber",
+    "id": "Anakin’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "10",
     "critical": "1",
@@ -1792,6 +1810,7 @@
   "weapons": [
    {
     "name": "Barriss Offee’s Lightsaber",
+    "id": "Barriss Offee’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "8",
     "critical": "2",
@@ -1877,6 +1896,7 @@
   "weapons": [
    {
     "name": "Cin Drallig’s Lightsaber",
+    "id": "Cin Drallig’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "9",
     "critical": "1",
@@ -1967,6 +1987,7 @@
   "weapons": [
    {
     "name": "Coleman’s Lightsaber",
+    "id": "Coleman’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "8",
     "critical": "2",
@@ -2059,8 +2080,21 @@
     "description": "Once per session, may nominate one ally who has at least Force Rating 1. This ally counts their Force Rating as 1 higher until the end of the encounter."
    }
   ],
-  "gear": "Depa’s Lightsaber, Jedi robes (+1 Defence, +1 Soak)",
-  "weapons": []
+  "gear": "Jedi robes (+1 Defence, +1 Soak)",
+  "weapons": [
+   {
+    "name": "Depa’s Lightsaber",
+    "id": "Depa’s Lightsaber",
+    "skill": "Lightsaber (Willpower)",
+    "damage": "9",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": [
+     "Breach 1",
+     "Sunder"
+    ]
+   }
+  ]
  },
  {
   "name": "Eeth Koth",
@@ -2146,6 +2180,7 @@
   "weapons": [
    {
     "name": "Eeth Koth’s Lightsaber",
+    "id": "Eeth Koth’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "8",
     "critical": "2",
@@ -2236,6 +2271,7 @@
   "weapons": [
    {
     "name": "Even Piell’s Lightsaber",
+    "id": "Even Piell’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "8",
     "critical": "1",
@@ -2316,6 +2352,7 @@
   "weapons": [
    {
     "name": "Lightsaber",
+    "id": "Lightsaber",
     "skill": "Lightsaber",
     "damage": "8",
     "critical": "2",
@@ -2404,6 +2441,7 @@
   "weapons": [
    {
     "name": "General’s Lightsaber",
+    "id": "General’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "9",
     "critical": "1",
@@ -2488,6 +2526,7 @@
   "weapons": [
    {
     "name": "Lightsaber",
+    "id": "Lightsaber",
     "skill": "Lightsaber",
     "damage": "8",
     "critical": "2",
@@ -2575,6 +2614,7 @@
   "weapons": [
    {
     "name": "Master’s Lightsaber",
+    "id": "Master’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "9",
     "critical": "2",
@@ -2650,6 +2690,7 @@
   "weapons": [
    {
     "name": "Padawan’s Lightsaber",
+    "id": "Padawan’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "6",
     "critical": "2",
@@ -2715,6 +2756,7 @@
   "weapons": [
    {
     "name": "Training Lightsaber",
+    "id": "Training Lightsaber",
     "skill": "Lightsaber",
     "damage": "6",
     "critical": "-",
@@ -2801,6 +2843,7 @@
   "weapons": [
    {
     "name": "Jocasta’s Lightsaber",
+    "id": "Jocasta’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "8",
     "critical": "2",
@@ -2883,21 +2926,8 @@
     "description": "The character may spend :forcepip: to sense all living things within Short range (including animals and sentient beings) and may spend :forcepip::forcepip: to increase the range of this effect to Medium. The character may instead spend :forcepip: to sense the current emotional state of one living target they are engaged with."
    }
   ],
-  "gear": "Tusks, Jedi robes (+1 Defence, +1 Soak)",
-  "weapons": [
-   {
-    "name": "K’Kruhk’s Lightsaber",
-    "skill": "Lightsaber",
-    "damage": "8",
-    "critical": "2",
-    "range": "Engaged",
-    "qualities": [
-     "Breach 1",
-     "Defensive 1",
-     "Sunder"
-    ]
-   }
-  ]
+  "gear": "K’Kruhk’s Lightsaber, Tusks, Jedi robes (+1 Defence, +1 Soak)",
+  "weapons": []
  },
  {
   "name": "Ki-Adi-Mundi",
@@ -2977,6 +3007,7 @@
   "weapons": [
    {
     "name": "Ki-Adi-Mundi’s Lightsaber",
+    "id": "Ki-Adi-Mundi’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "9",
     "critical": "1",
@@ -3069,6 +3100,7 @@
   "weapons": [
    {
     "name": "Kit Fisto’s Lightsaber",
+    "id": "Kit Fisto’s Lightsaber",
     "skill": "Lightsaber (Agility)",
     "damage": "9",
     "critical": "1",
@@ -3161,6 +3193,7 @@
   "weapons": [
    {
     "name": "Luminara’s Lightsaber",
+    "id": "Luminara’s Lightsaber",
     "skill": "Lightsaber (Intellect)",
     "damage": "9",
     "critical": "2",
@@ -3258,6 +3291,7 @@
   "weapons": [
    {
     "name": "Windu’s Lightsaber",
+    "id": "Windu’s Lightsaber",
     "skill": "Lightsaber (Willpower)",
     "damage": "10",
     "critical": "1",
@@ -3346,6 +3380,7 @@
   "weapons": [
    {
     "name": "Obi-Wan’s Lightsaber",
+    "id": "Obi-Wan’s Lightsaber",
     "skill": "Lightsaber (Intellect)",
     "damage": "10",
     "critical": "1",
@@ -3442,6 +3477,7 @@
   "weapons": [
    {
     "name": "Oppo’s Lightsaber",
+    "id": "Oppo’s Lightsaber",
     "skill": "Lightsaber (Presence)",
     "damage": "8",
     "critical": "2",
@@ -3454,6 +3490,7 @@
    },
    {
     "name": "Tail attack",
+    "id": "Tail attack",
     "skill": "Brawl",
     "damage": "5",
     "critical": "4",
@@ -3551,6 +3588,7 @@
   "weapons": [
    {
     "name": "Plo Koon’s Lightsaber",
+    "id": "Plo Koon’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "9",
     "critical": "1",
@@ -3647,8 +3685,25 @@
     "description": "The character may spend :forcepip: to sense all living things within Short range (including animals and sentient beings) and may spend :forcepip::forcepip: to increase the range of this effect to Medium. The character may instead spend :forcepip: to sense the current emotional state of one living target they are engaged with."
    }
   ],
-  "gear": "(2) Krell’s Double-Bladed Lightsaber, Jedi battle robes (+1 Defence, +1 Soak)",
-  "weapons": []
+  "gear": "Jedi battle robes (+1 Defence, +1 Soak)",
+  "weapons": [
+   {
+    "name": "Krell’s Dual Double-Bladed Lightsabers",
+    "id": "Krell’s Dual Double-Bladed Lightsabers",
+    "skill": "Lightsaber",
+    "damage": "9",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": [
+     "Breach 1",
+     "Defensive 1",
+     "Deflection 1",
+     "Linked 1",
+     "Sunder",
+     "Vicious 3"
+    ]
+   }
+  ]
  },
  {
   "name": "Professor Huyang",
@@ -3711,6 +3766,7 @@
   "weapons": [
    {
     "name": "Welding torch",
+    "id": "Welding torch",
     "skill": "Melee",
     "damage": "6",
     "critical": "4",
@@ -3796,8 +3852,21 @@
     "description": "The character may spend :forcepip: to sense all living things within Short range (including animals and sentient beings) and may spend :forcepip::forcepip: to increase the range of this effect to Medium. The character may instead spend :forcepip: to sense the current emotional state of one living target they are engaged with."
    }
   ],
-  "gear": "Vos’ Lightsaber, Light Jedi armor (+1 Defence, +1 Soak)",
+  "gear": "Light Jedi armor (+1 Defence, +1 Soak)",
   "weapons": [
+   {
+    "name": "Vos’ Lightsaber",
+    "id": "Vos’ Lightsaber",
+    "skill": "Lightsaber",
+    "damage": "9",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": [
+     "Breach 1",
+     "Sunder",
+     "Vicious 2"
+    ]
+   },
    "Blaster pistol"
   ]
  },
@@ -3877,6 +3946,7 @@
   "weapons": [
    {
     "name": "Nema’s Lightsaber",
+    "id": "Nema’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "8",
     "critical": "2",
@@ -3970,6 +4040,7 @@
   "weapons": [
    {
     "name": "Tiin’s Lightsaber",
+    "id": "Tiin’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "8",
     "critical": "2",
@@ -4060,6 +4131,7 @@
   "weapons": [
    {
     "name": "Shaak Ti’s Lightsaber",
+    "id": "Shaak Ti’s Lightsaber",
     "skill": "Lightsaber (Presence)",
     "damage": "9",
     "critical": "2",
@@ -4154,6 +4226,7 @@
   "weapons": [
    {
     "name": "Sinube’s Lightsaber",
+    "id": "Sinube’s Lightsaber",
     "skill": "Lightsaber (Cunning)",
     "damage": "9",
     "critical": "2",
@@ -4242,6 +4315,7 @@
   "weapons": [
    {
     "name": "Tholme’s Lightsaber",
+    "id": "Tholme’s Lightsaber",
     "skill": "Lightsaber (Cunning)",
     "damage": "8",
     "critical": "1",
@@ -4332,6 +4406,7 @@
   "weapons": [
    {
     "name": "Tiplar’s Lightsaber",
+    "id": "Tiplar’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "8",
     "critical": "1",
@@ -4421,6 +4496,7 @@
   "weapons": [
    {
     "name": "Tiplee’s Lightsaber",
+    "id": "Tiplee’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "8",
     "critical": "1",
@@ -4686,6 +4762,7 @@
   "weapons": [
    {
     "name": "Ceremonial staff",
+    "id": "Ceremonial staff",
     "skill": "Melee",
     "damage": "2",
     "critical": "5",
@@ -4739,6 +4816,7 @@
   "weapons": [
    {
     "name": "Sticks and stones",
+    "id": "Sticks and stones",
     "skill": "Ranged: Light",
     "damage": "2",
     "critical": "5",
@@ -4799,6 +4877,7 @@
   "weapons": [
    {
     "name": "Mandibles",
+    "id": "Mandibles",
     "skill": "Brawl",
     "damage": "6",
     "critical": "3",
@@ -5220,6 +5299,7 @@
   "weapons": [
    {
     "name": "Spatula",
+    "id": "Spatula",
     "skill": "Melee",
     "damage": "5",
     "critical": "6",
@@ -5321,6 +5401,7 @@
   "weapons": [
    {
     "name": "Stunstick",
+    "id": "Stunstick",
     "skill": "Melee",
     "damage": "4",
     "critical": "-",
@@ -5376,6 +5457,7 @@
   "weapons": [
    {
     "name": "Stick or pole",
+    "id": "Stick or pole",
     "skill": "Melee",
     "damage": "4",
     "critical": "5",
@@ -5386,6 +5468,7 @@
    },
    {
     "name": "Thrown bottle",
+    "id": "Thrown bottle",
     "skill": "Ranged: Light",
     "damage": "4",
     "critical": "5",
@@ -5472,6 +5555,7 @@
   "weapons": [
    {
     "name": "Farming tools",
+    "id": "Farming tools",
     "skill": "Melee",
     "damage": "3",
     "critical": "6",
@@ -5519,6 +5603,7 @@
   "weapons": [
    {
     "name": "Poisoned spears",
+    "id": "Poisoned spears",
     "skill": "Melee",
     "damage": "4",
     "critical": "4",
@@ -5642,6 +5727,7 @@
   "weapons": [
    {
     "name": "Ryyk blade",
+    "id": "Ryyk blade",
     "skill": "Melee",
     "damage": "7",
     "critical": "2",
@@ -5654,6 +5740,7 @@
    },
    {
     "name": "Fists",
+    "id": "Fists",
     "skill": "Brawl",
     "damage": "7",
     "critical": "4",
@@ -5717,6 +5804,7 @@
   "weapons": [
    {
     "name": "Ryyk blade",
+    "id": "Ryyk blade",
     "skill": "Melee",
     "damage": "7",
     "critical": "2",
@@ -5729,6 +5817,7 @@
    },
    {
     "name": "Fists",
+    "id": "Fists",
     "skill": "Brawl",
     "damage": "7",
     "critical": "4",
@@ -5845,6 +5934,7 @@
   "weapons": [
    {
     "name": "Electropole",
+    "id": "Electropole",
     "skill": "Melee",
     "damage": "5",
     "critical": "4",
@@ -5902,6 +5992,7 @@
   "weapons": [
    {
     "name": "Mandibles (Insectomorph)",
+    "id": "Mandibles (Insectomorph)",
     "skill": "Brawl",
     "damage": "5",
     "critical": "6",
@@ -5980,6 +6071,7 @@
   "weapons": [
    {
     "name": "Massive bite",
+    "id": "Massive bite",
     "skill": "Brawl",
     "damage": "16",
     "critical": "2",
@@ -5991,6 +6083,7 @@
    },
    {
     "name": "Large claws",
+    "id": "Large claws",
     "skill": "Brawl",
     "damage": "10",
     "critical": "3",
@@ -6002,6 +6095,7 @@
    },
    {
     "name": "Tail spikes",
+    "id": "Tail spikes",
     "skill": "Brawl",
     "damage": "12",
     "critical": "2",
@@ -6073,6 +6167,7 @@
   "weapons": [
    {
     "name": "Concealed ion stunner",
+    "id": "Concealed ion stunner",
     "skill": "Ranged: Light",
     "damage": "7",
     "critical": "-",
@@ -6191,10 +6286,26 @@
     "description": "Once per round, when Engaged with the Duchess Satine, the Mandalorian Royal Guard may redirect a single attack against Satine to themselves instead as an out-of-turn incidental."
    }
   ],
-  "gear": "Mandalorian electrostaff, Guardian armour (+1 Defence, +2 Soak)",
+  "gear": "Guardian armour (+1 Defence, +2 Soak)",
   "weapons": [
    {
+    "name": "Mandalorian electrostaff",
+    "id": "Mandalorian electrostaff",
+    "skill": "Melee",
+    "damage": "7",
+    "critical": "3",
+    "range": "Engaged",
+    "qualities": [
+     "Cumbersome 2",
+     "Deflection 1",
+     "Linked 1",
+     "Unwieldy 3",
+     "Stun Setting"
+    ]
+   },
+   {
     "name": "WESTAR-35 blaster pistol",
+    "id": "WESTAR-35 blaster pistol",
     "skill": "Ranged: Light",
     "damage": "6",
     "critical": "2",
@@ -6252,6 +6363,7 @@
   "weapons": [
    {
     "name": "WESTAR-35 blaster pistol",
+    "id": "WESTAR-35 blaster pistol",
     "skill": "Ranged: Light",
     "damage": "6",
     "critical": "2",
@@ -6304,6 +6416,7 @@
   "weapons": [
    {
     "name": "WESTAR-35 blaster pistol",
+    "id": "WESTAR-35 blaster pistol",
     "skill": "Ranged: Light",
     "damage": "6",
     "critical": "2",
@@ -6358,6 +6471,7 @@
   "weapons": [
    {
     "name": "WESTAR-35 blaster pistol",
+    "id": "WESTAR-35 blaster pistol",
     "skill": "Ranged: Light",
     "damage": "6",
     "critical": "2",
@@ -6434,8 +6548,9 @@
   "gear": "Mandalorian armour (+1 Defence, +3 Soak), Z-6 jetpack",
   "weapons": [
    {
-    "name": "Darksaber",
-    "skill": "Lightsaber (Agility)",
+    "name": "The Darksaber",
+    "id": "vizsla-darksaber",
+    "skill": "Lightsaber",
     "damage": "6",
     "critical": "2",
     "range": "Engaged",
@@ -6448,6 +6563,7 @@
    },
    {
     "name": "Dual WESTAR-35 blaster pistols",
+    "id": "Dual WESTAR-35 blaster pistols",
     "skill": "Ranged: Light",
     "damage": "7",
     "critical": "3",
@@ -6459,6 +6575,7 @@
    },
    {
     "name": "Flamethrower",
+    "id": "Flamethrower",
     "skill": "Ranged: Light",
     "damage": "5",
     "critical": "2",
@@ -6472,6 +6589,7 @@
    },
    {
     "name": "Whipcord",
+    "id": "Whipcord",
     "skill": "Ranged: Light",
     "damage": "1",
     "critical": "-",
@@ -6483,6 +6601,7 @@
    },
    {
     "name": "Z-6 jetpack missile launcher",
+    "id": "Z-6 jetpack missile launcher",
     "skill": "Ranged: Heavy",
     "damage": "15",
     "critical": "3",
@@ -6559,6 +6678,7 @@
   "weapons": [
    {
     "name": "Dual WESTAR-35 blaster pistols",
+    "id": "Dual WESTAR-35 blaster pistols",
     "skill": "Ranged: Light",
     "damage": "7",
     "critical": "3",
@@ -6570,6 +6690,7 @@
    },
    {
     "name": "Flamethrower",
+    "id": "Flamethrower",
     "skill": "Ranged: Light",
     "damage": "5",
     "critical": "2",
@@ -6583,6 +6704,7 @@
    },
    {
     "name": "Whipcord",
+    "id": "Whipcord",
     "skill": "Ranged: Light",
     "damage": "1",
     "critical": "-",
@@ -6594,6 +6716,7 @@
    },
    {
     "name": "Z-6 jetpack missile launcher",
+    "id": "Z-6 jetpack missile launcher",
     "skill": "Ranged: Heavy",
     "damage": "15",
     "critical": "3",
@@ -6662,6 +6785,7 @@
   "weapons": [
    {
     "name": "Mon Cala spear blaster",
+    "id": "Mon Cala spear blaster",
     "skill": "Ranged: Heavy",
     "damage": "8",
     "critical": "3",
@@ -6672,6 +6796,7 @@
    },
    {
     "name": "Mon Cala spear blaster (spear)",
+    "id": "Mon Cala spear blaster (spear)",
     "skill": "Melee",
     "damage": "4",
     "critical": "3",
@@ -6737,6 +6862,7 @@
   "weapons": [
    {
     "name": "Mon Calamari battle baton",
+    "id": "Mon Calamari battle baton",
     "skill": "Ranged: Light",
     "damage": "5",
     "critical": "4",
@@ -6793,6 +6919,7 @@
   "weapons": [
    {
     "name": "Mon Calamari energy lance",
+    "id": "Mon Calamari energy lance",
     "skill": "Melee",
     "damage": "6",
     "critical": "2",
@@ -6804,6 +6931,7 @@
    },
    {
     "name": "Mon Calamari coral shield",
+    "id": "Mon Calamari coral shield",
     "skill": "Melee",
     "damage": "4",
     "critical": "6",
@@ -6858,6 +6986,7 @@
   "weapons": [
    {
     "name": "Mon Cala spear blaster",
+    "id": "Mon Cala spear blaster",
     "skill": "Ranged: Heavy",
     "damage": "8",
     "critical": "3",
@@ -6868,6 +6997,7 @@
    },
    {
     "name": "Mon Cala spear blaster (spear)",
+    "id": "Mon Cala spear blaster (spear)",
     "skill": "Melee",
     "damage": "4",
     "critical": "3",
@@ -6921,10 +7051,11 @@
   "abilities": [
    "Amphibious"
   ],
-  "gear": "(2) Karkarodon grenade, Aquatic assault suit (+1 Defence, +2 Soak)",
+  "gear": "2 Karkarodon grenades, Aquatic assault suit (+1 Defence, +2 Soak)",
   "weapons": [
    {
     "name": "Karkarodon bite",
+    "id": "Karkarodon bite",
     "skill": "Brawl",
     "damage": "7",
     "critical": "3",
@@ -6934,7 +7065,21 @@
      "Vicious 3"
     ]
    },
-   "Heavy blaster pistol"
+   "Heavy blaster pistol",
+   {
+    "name": "Karkarodon grenade",
+    "id": "Karkarodon grenade",
+    "skill": "Ranged: Light",
+    "damage": "13",
+    "critical": "3",
+    "range": "Short",
+    "qualities": [
+     "Blast 4",
+     "Limited Ammo 1",
+     "Pierce 3",
+     "Vicious 2"
+    ]
+   }
   ]
  },
  {
@@ -6991,8 +7136,22 @@
     "description": "Upon first seeing a Hydroid Medusa, a character must make a :hard: fear check."
    }
   ],
-  "gear": "Bio-tentacles",
-  "weapons": []
+  "gear": "",
+  "weapons": [
+   {
+    "name": "Bio-tentacles",
+    "id": "Bio-tentacles",
+    "skill": "Brawl",
+    "damage": "15",
+    "critical": "2",
+    "range": "Engaged",
+    "qualities": [
+     "Ensnare 2",
+     "Pierce 2",
+     "Vicious 5"
+    ]
+   }
+  ]
  },
  {
   "name": "Nossor Ri",
@@ -7095,6 +7254,7 @@
   "weapons": [
    {
     "name": "Quarren spear blaster",
+    "id": "Quarren spear blaster",
     "skill": "Ranged: Heavy",
     "damage": "8",
     "critical": "3",
@@ -7105,6 +7265,7 @@
    },
    {
     "name": "Quarren spear blaster (spear)",
+    "id": "Quarren spear blaster (spear)",
     "skill": "Melee",
     "damage": "5",
     "critical": "3",
@@ -7160,7 +7321,7 @@
    {
     "name": "Creature Of Illusion",
     "character": "Darth Bane (Apparition)",
-    "description": "Combat checks targeting the apparition always use Willpower in place of the characteristic normally associated with that skill. The Pierce and Breach qualities do not ignore the apparition’s soak."
+    "description": "Combat checks targeting the apparition always use Willpower in place of the characteristic normally associated with that skill. The Pierce and Breach qualities do not negate the apparition’s soak."
    },
    {
     "name": "Spectre Of The Dark Side",
@@ -7173,8 +7334,21 @@
     "description": "Upon first seeing this creature, an individual must make a :daunting-1: fear check."
    }
   ],
-  "gear": "Spectral Lightsaber",
-  "weapons": []
+  "gear": "",
+  "weapons": [
+   {
+    "name": "Spectral lightsaber pike",
+    "id": "Spectral lightsaber pike",
+    "skill": "Lightsaber",
+    "damage": "10",
+    "critical": "1",
+    "range": "Engaged",
+    "qualities": [
+     "Disorient 3",
+     "Stun Damage"
+    ]
+   }
+  ]
  },
  {
   "name": "Naboo Queen",
@@ -7231,6 +7405,7 @@
   "weapons": [
    {
     "name": "ELG-3A blaster pistol",
+    "id": "ELG-3A blaster pistol",
     "skill": "Ranged: Light",
     "damage": "6",
     "critical": "4",
@@ -7286,6 +7461,7 @@
   "weapons": [
    {
     "name": "ELG-3A blaster pistol",
+    "id": "ELG-3A blaster pistol",
     "skill": "Ranged: Light",
     "damage": "6",
     "critical": "4",
@@ -7350,6 +7526,7 @@
   "weapons": [
    {
     "name": "Security S-5 heavy blaster pistol",
+    "id": "Security S-5 heavy blaster pistol",
     "skill": "Ranged: Light",
     "damage": "7",
     "critical": "3",
@@ -7406,6 +7583,7 @@
   "weapons": [
    {
     "name": "Security S-5 heavy blaster pistol",
+    "id": "Security S-5 heavy blaster pistol",
     "skill": "Ranged: Light",
     "damage": "7",
     "critical": "3",
@@ -7455,6 +7633,7 @@
   "weapons": [
    {
     "name": "ELG-3A blaster pistol",
+    "id": "ELG-3A blaster pistol",
     "skill": "Ranged: Light",
     "damage": "6",
     "critical": "4",
@@ -7514,10 +7693,11 @@
    "Amphibious",
    "Tactical Direction"
   ],
-  "gear": "Gungan personal energy shield, 2 Gungan plasma balls, Gungan armour (+1 Soak), Kaadu",
+  "gear": "2 Gungan plasma balls, Gungan armour (+1 Soak), Kaadu",
   "weapons": [
    {
     "name": "Gungan electropole",
+    "id": "Gungan electropole",
     "skill": "Melee",
     "damage": "5",
     "critical": "4",
@@ -7529,6 +7709,7 @@
    },
    {
     "name": "Gungan electropole (thrown)",
+    "id": "Gungan electropole (thrown)",
     "skill": "Ranged: Light",
     "damage": "5",
     "critical": "4",
@@ -7538,7 +7719,32 @@
      "Stun Setting"
     ]
    },
-   null
+   {
+    "name": "Gungan personal energy shield",
+    "id": "Gungan personal energy shield",
+    "skill": "Melee",
+    "damage": "2",
+    "critical": "5",
+    "range": "Engaged",
+    "qualities": [
+     "Defensive 2",
+     "Deflection 2"
+    ],
+    "notes": "Defensive quality is negated when wielder is disoriented or staggered."
+   },
+   {
+    "name": "Gungan plasma ball",
+    "id": "Gungan plasma ball",
+    "skill": "Ranged: Light",
+    "damage": "5",
+    "critical": "3",
+    "range": "Short",
+    "qualities": [
+     "Burn 1",
+     "Ion",
+     "Limited Ammo 1"
+    ]
+   }
   ]
  },
  {
@@ -7579,10 +7785,11 @@
   "abilities": [
    "Amphibious"
   ],
-  "gear": "Gungan personal energy shield, 2 Gungan plasma balls, Gungan armour (+1 Soak), Kaadu",
+  "gear": "2 Gungan plasma balls, Gungan armour (+1 Soak), Kaadu",
   "weapons": [
    {
     "name": "Gungan electropole",
+    "id": "Gungan electropole",
     "skill": "Melee",
     "damage": "5",
     "critical": "4",
@@ -7594,6 +7801,7 @@
    },
    {
     "name": "Gungan electropole (thrown)",
+    "id": "Gungan electropole (thrown)",
     "skill": "Ranged: Light",
     "damage": "5",
     "critical": "4",
@@ -7603,7 +7811,32 @@
      "Stun Setting"
     ]
    },
-   null
+   {
+    "name": "Gungan personal energy shield",
+    "id": "Gungan personal energy shield",
+    "skill": "Melee",
+    "damage": "2",
+    "critical": "5",
+    "range": "Engaged",
+    "qualities": [
+     "Defensive 2",
+     "Deflection 2"
+    ],
+    "notes": "Defensive quality is negated when wielder is disoriented or staggered."
+   },
+   {
+    "name": "Gungan plasma ball",
+    "id": "Gungan plasma ball",
+    "skill": "Ranged: Light",
+    "damage": "5",
+    "critical": "3",
+    "range": "Short",
+    "qualities": [
+     "Burn 1",
+     "Ion",
+     "Limited Ammo 1"
+    ]
+   }
   ]
  },
  {
@@ -7718,6 +7951,7 @@
   "weapons": [
    {
     "name": "Steela’s marksman rifle",
+    "id": "Steela’s marksman rifle",
     "skill": "Ranged: Heavy",
     "damage": "10",
     "critical": "3",
@@ -7729,6 +7963,7 @@
    },
    {
     "name": "Ion grenade",
+    "id": "Ion grenade",
     "skill": "Ranged: Light",
     "damage": "10",
     "critical": "5",
@@ -7801,7 +8036,24 @@
   "gear": "Combat gear (+2 Soak)",
   "weapons": [
    {
+    "name": "RPS-6 rocket launcher",
+    "id": "RPS-6 rocket launcher",
+    "skill": "Gunnery",
+    "damage": "22",
+    "critical": "2",
+    "range": "Extreme",
+    "qualities": [
+     "Blast 14",
+     "Breach 1",
+     "Cumbersome 4",
+     "Guided 2",
+     "Limited Ammo 7"
+    ],
+    "notes": "Add :boost: if attacking a target of Silhouette 2 or greater with an aim Maneuver."
+   },
+   {
     "name": "Ion grenade",
+    "id": "Ion grenade",
     "skill": "Ranged: Light",
     "damage": "10",
     "critical": "5",
@@ -7813,8 +8065,7 @@
      "Limited Ammo 1"
     ]
    },
-   "Blaster rifle",
-   "RPS-6 rocket launcher"
+   "Blaster rifle"
   ]
  },
  {
@@ -7862,6 +8113,7 @@
   "weapons": [
    {
     "name": "Ion grenade",
+    "id": "Ion grenade",
     "skill": "Ranged: Light",
     "damage": "10",
     "critical": "5",
@@ -7916,6 +8168,7 @@
   "weapons": [
    {
     "name": "Ion grenade",
+    "id": "Ion grenade",
     "skill": "Ranged: Light",
     "damage": "10",
     "critical": "5",
@@ -8035,6 +8288,7 @@
   "weapons": [
    {
     "name": "Onderonian laser lance (blaster)",
+    "id": "Onderonian laser lance (blaster)",
     "skill": "Ranged: Heavy",
     "damage": "9",
     "critical": "3",
@@ -8047,6 +8301,7 @@
    },
    {
     "name": "Onderonian laser lance",
+    "id": "Onderonian laser lance",
     "skill": "Melee",
     "damage": "4",
     "critical": "3",
@@ -8101,6 +8356,7 @@
   "weapons": [
    {
     "name": "Onderonian laser lance (blaster)",
+    "id": "Onderonian laser lance (blaster)",
     "skill": "Ranged: Heavy",
     "damage": "9",
     "critical": "3",
@@ -8113,6 +8369,7 @@
    },
    {
     "name": "Onderonian laser lance",
+    "id": "Onderonian laser lance",
     "skill": "Melee",
     "damage": "4",
     "critical": "3",
@@ -8176,6 +8433,7 @@
   "weapons": [
    {
     "name": "Dual modified blaster pistols",
+    "id": "Dual modified blaster pistols",
     "skill": "Ranged: Light",
     "damage": "6",
     "critical": "3",
@@ -8229,6 +8487,7 @@
   "weapons": [
    {
     "name": "Pantoran ceremonial sword",
+    "id": "Pantoran ceremonial sword",
     "skill": "Melee",
     "damage": "4",
     "critical": "2",
@@ -8240,6 +8499,7 @@
    },
    {
     "name": "Pantoran ceremonial rifle",
+    "id": "Pantoran ceremonial rifle",
     "skill": "Ranged: Heavy",
     "damage": "7",
     "critical": "3",
@@ -8301,6 +8561,7 @@
   "weapons": [
    {
     "name": "Ceremonial spear",
+    "id": "Ceremonial spear",
     "skill": "Melee",
     "damage": "8",
     "critical": "2",
@@ -8311,6 +8572,7 @@
    },
    {
     "name": "Ceremonial spear (thrown)",
+    "id": "Ceremonial spear (thrown)",
     "skill": "Ranged: Light",
     "damage": "9",
     "critical": "2",
@@ -8380,6 +8642,7 @@
   "weapons": [
    {
     "name": "Paired electroswords",
+    "id": "Paired electroswords",
     "skill": "Melee",
     "damage": "6",
     "critical": "2",
@@ -8393,6 +8656,7 @@
    },
    {
     "name": "Unarmed martial attack",
+    "id": "Unarmed martial attack",
     "skill": "Brawl",
     "damage": "4",
     "critical": "4",
@@ -8451,6 +8715,7 @@
   "weapons": [
    {
     "name": "Ion grenade",
+    "id": "Ion grenade",
     "skill": "Ranged: Light",
     "damage": "10",
     "critical": "5",
@@ -8506,6 +8771,7 @@
   "weapons": [
    {
     "name": "Ion grenade",
+    "id": "Ion grenade",
     "skill": "Ranged: Light",
     "damage": "10",
     "critical": "5",
@@ -8563,6 +8829,7 @@
   "weapons": [
    {
     "name": "Jaws",
+    "id": "Jaws",
     "skill": "Brawl",
     "damage": "7",
     "critical": "4",
@@ -8621,6 +8888,7 @@
   "weapons": [
    {
     "name": "Mighty jaws",
+    "id": "Mighty jaws",
     "skill": "Brawl",
     "damage": "8",
     "critical": "3",
@@ -8782,6 +9050,7 @@
   "weapons": [
    {
     "name": "Ceremonial sword",
+    "id": "Ceremonial sword",
     "skill": "Melee",
     "damage": "3",
     "critical": "3",
@@ -8843,6 +9112,7 @@
   "weapons": [
    {
     "name": "Ceremonial sword",
+    "id": "Ceremonial sword",
     "skill": "Melee",
     "damage": "3",
     "critical": "3",
@@ -8909,6 +9179,7 @@
   "weapons": [
    {
     "name": "Modified net launcher",
+    "id": "Modified net launcher",
     "skill": "Ranged: Heavy",
     "damage": "3",
     "critical": "-",
@@ -8920,6 +9191,7 @@
    },
    {
     "name": "Claws",
+    "id": "Claws",
     "skill": "Brawl",
     "damage": "7",
     "critical": "3",
@@ -8994,6 +9266,7 @@
   "weapons": [
    {
     "name": "Umbaran blaster",
+    "id": "Umbaran blaster",
     "skill": "Ranged: Heavy",
     "damage": "10",
     "critical": "3",
@@ -9051,6 +9324,7 @@
   "weapons": [
    {
     "name": "Umbaran blaster",
+    "id": "Umbaran blaster",
     "skill": "Ranged: Heavy",
     "damage": "10",
     "critical": "3",
@@ -9111,6 +9385,7 @@
   "weapons": [
    {
     "name": "Umbaran blaster pistol",
+    "id": "Umbaran blaster pistol",
     "skill": "Ranged: Light",
     "damage": "6",
     "critical": "3",
@@ -9168,6 +9443,7 @@
   "weapons": [
    {
     "name": "Umbaran blaster pistol",
+    "id": "Umbaran blaster pistol",
     "skill": "Ranged: Light",
     "damage": "6",
     "critical": "3",
@@ -9221,16 +9497,28 @@
    },
    "Silhouette 2"
   ],
-  "gear": "Dive bomb",
+  "gear": "",
   "weapons": [
    {
     "name": "Jaws",
+    "id": "Jaws",
     "skill": "Brawl",
     "damage": "7",
     "critical": "4",
     "range": "Engaged",
     "qualities": [
      "Ensnare 1"
+    ]
+   },
+   {
+    "name": "Dive bomb",
+    "id": "Dive bomb",
+    "skill": "Brawl",
+    "damage": "10",
+    "critical": "3",
+    "range": "Medium",
+    "qualities": [
+     "Prepare 2"
     ]
    }
   ]
@@ -9296,6 +9584,7 @@
   "weapons": [
    {
     "name": "Vicious tentacles",
+    "id": "Vicious tentacles",
     "skill": "Brawl",
     "damage": "6",
     "critical": "4",
@@ -9401,10 +9690,11 @@
     "description": "Pau’ans add :boost: to all Perception and Vigilance checks as long as they are wearing their protective earpieces. If not wearing the earpieces, they add :threat: instead."
    }
   ],
-  "gear": "Pau’an shield, Pau’an ceremonial armour (+2 Soak)",
+  "gear": "Pau’an ceremonial armour (+2 Soak)",
   "weapons": [
    {
     "name": "Pau’an pike-ax",
+    "id": "Pau’an pike-ax",
     "skill": "Melee",
     "damage": "6",
     "critical": "3",
@@ -9412,6 +9702,20 @@
     "qualities": [
      "Pierce 2",
      "Vicious 1"
+    ]
+   },
+   {
+    "name": "Pau’an shield",
+    "id": "Pau’an shield",
+    "skill": "Melee",
+    "damage": "6",
+    "critical": "3",
+    "range": "Engaged",
+    "qualities": [
+     "Cumbersome 3",
+     "Defensive 2",
+     "Deflection 2",
+     "Disorient 1"
     ]
    }
   ]
@@ -9458,6 +9762,7 @@
   "weapons": [
    {
     "name": "Hydrospanner",
+    "id": "Hydrospanner",
     "skill": "Melee",
     "damage": "3",
     "critical": "4",
@@ -9507,6 +9812,7 @@
   "weapons": [
    {
     "name": "Hunting spear",
+    "id": "Hunting spear",
     "skill": "Melee",
     "damage": "5",
     "critical": "4",
@@ -9517,6 +9823,7 @@
    },
    {
     "name": "Hunting spear (thrown)",
+    "id": "Hunting spear (thrown)",
     "skill": "Ranged: Light",
     "damage": "5",
     "critical": "4",
@@ -9574,6 +9881,7 @@
   "weapons": [
    {
     "name": "Claws",
+    "id": "Claws",
     "skill": "Brawl",
     "damage": "7",
     "critical": "3",
@@ -9651,6 +9959,7 @@
   "weapons": [
    {
     "name": "Shock whip",
+    "id": "Shock whip",
     "skill": "Melee",
     "damage": "4",
     "critical": "4",
@@ -9725,6 +10034,7 @@
   "weapons": [
    {
     "name": "Shock whip",
+    "id": "Shock whip",
     "skill": "Melee",
     "damage": "4",
     "critical": "4",
@@ -9784,6 +10094,7 @@
   "weapons": [
    {
     "name": "Bite",
+    "id": "Bite",
     "skill": "Brawl",
     "damage": "5",
     "critical": "5",
@@ -10102,6 +10413,7 @@
   "weapons": [
    {
     "name": "Pair of DC-17 blaster pistols",
+    "id": "Pair of DC-17 blaster pistols",
     "skill": "Ranged: Light",
     "damage": "7",
     "critical": "3",
@@ -10183,6 +10495,7 @@
   "weapons": [
    {
     "name": "Pair of DC-17 blaster pistols",
+    "id": "Pair of DC-17 blaster pistols",
     "skill": "Ranged: Light",
     "damage": "7",
     "critical": "3",
@@ -10194,6 +10507,7 @@
    },
    {
     "name": "Hunter’s knife",
+    "id": "Hunter’s knife",
     "skill": "Melee",
     "damage": "6",
     "critical": "2",
@@ -10269,6 +10583,7 @@
   "weapons": [
    {
     "name": "773 Firepuncher",
+    "id": "773 Firepuncher",
     "skill": "Ranged: Heavy",
     "damage": "10",
     "critical": "3",
@@ -10350,6 +10665,7 @@
   "weapons": [
    {
     "name": "Pair of DC-17 blaster pistols",
+    "id": "Pair of DC-17 blaster pistols",
     "skill": "Ranged: Light",
     "damage": "7",
     "critical": "3",
@@ -10859,6 +11175,7 @@
   "weapons": [
    {
     "name": "Pair of DC-17 blaster pistols",
+    "id": "Pair of DC-17 blaster pistols",
     "skill": "Ranged: Light",
     "damage": "7",
     "critical": "3",
@@ -11330,8 +11647,23 @@
   ],
   "gear": "2 Frag grenades, Clone armour (+2 Soak), Utility belt, Extra reload",
   "weapons": [
+   {
+    "name": "RPS-6 rocket launcher",
+    "id": "RPS-6 rocket launcher",
+    "skill": "Gunnery",
+    "damage": "22",
+    "critical": "2",
+    "range": "Extreme",
+    "qualities": [
+     "Blast 14",
+     "Breach 1",
+     "Cumbersome 4",
+     "Guided 2",
+     "Limited Ammo 7"
+    ],
+    "notes": "Add :boost: if attacking a target of Silhouette 2 or greater with an aim Maneuver."
+   },
    "Z-6 rotary cannon",
-   "RPS-6 rocket launcher",
    "Frag grenade"
   ]
  },
@@ -11442,8 +11774,20 @@
   ],
   "gear": "2 Stun grenades, Clone armour (+2 Soak), Utility belt",
   "weapons": [
+   {
+    "name": "M3 bulwark blast shield",
+    "id": "M3 bulwark blast shield",
+    "skill": "Melee",
+    "damage": "4",
+    "critical": "6",
+    "range": "Engaged",
+    "qualities": [
+     "Cumbersome 3",
+     "Defensive 2",
+     "Deflection 2"
+    ]
+   },
    "TZ-97 shock baton",
-   "M3 bulwark blast shield",
    "Stun grenade"
   ]
  },
@@ -11998,6 +12342,7 @@
   "weapons": [
    {
     "name": "Metal fists",
+    "id": "Metal fists",
     "skill": "Brawl",
     "damage": "1",
     "critical": "5",
@@ -12386,6 +12731,7 @@
   "weapons": [
    {
     "name": "Staff of Office",
+    "id": "Staff of Office",
     "skill": "Melee",
     "damage": "4",
     "critical": "4",
@@ -12507,6 +12853,7 @@
   "weapons": [
    {
     "name": "Ceremonial rifle",
+    "id": "Ceremonial rifle",
     "skill": "Ranged: Heavy",
     "damage": "10",
     "critical": "2",
@@ -12672,6 +13019,7 @@
   "weapons": [
    {
     "name": "Black Sun twin blaster",
+    "id": "Black Sun twin blaster",
     "skill": "Ranged: Light",
     "damage": "6",
     "critical": "3",
@@ -12683,6 +13031,7 @@
    },
    {
     "name": "Electro-shock prod",
+    "id": "Electro-shock prod",
     "skill": "Melee",
     "damage": "6",
     "critical": "3",
@@ -12757,6 +13106,7 @@
   "weapons": [
    {
     "name": "Dual WESTAR-34 blaster pistols",
+    "id": "Dual WESTAR-34 blaster pistols",
     "skill": "Ranged: Light",
     "damage": "7",
     "critical": "3",
@@ -12825,6 +13175,7 @@
   "weapons": [
    {
     "name": "Built-in vibroknucklers",
+    "id": "Built-in vibroknucklers",
     "skill": "Brawl",
     "damage": "5",
     "critical": "2",
@@ -12896,6 +13247,7 @@
   "weapons": [
    {
     "name": "Model 38 sharpshooter’s rifle",
+    "id": "Model 38 sharpshooter’s rifle",
     "skill": "Ranged: Heavy",
     "damage": "8",
     "critical": "3",
@@ -12976,6 +13328,7 @@
   "weapons": [
    {
     "name": "DLT-18 heavy blaster rifle",
+    "id": "DLT-18 heavy blaster rifle",
     "skill": "Ranged: Heavy",
     "damage": "10",
     "critical": "3",
@@ -13056,6 +13409,7 @@
   "weapons": [
    {
     "name": "Shoulder-mounted light repeating blaster",
+    "id": "Shoulder-mounted light repeating blaster",
     "skill": "Ranged: Light",
     "damage": "8",
     "critical": "3",
@@ -13067,6 +13421,7 @@
    },
    {
     "name": "Tentacles",
+    "id": "Tentacles",
     "skill": "Brawl",
     "damage": "2",
     "critical": "4",
@@ -13136,6 +13491,7 @@
   "weapons": [
    {
     "name": "Kyuzo helmet (thrown)",
+    "id": "Kyuzo helmet (thrown)",
     "skill": "Ranged: Light",
     "damage": "5",
     "critical": "4",
@@ -13151,6 +13507,7 @@
    },
    {
     "name": "Kyuzo helmet (melee)",
+    "id": "Kyuzo helmet (melee)",
     "skill": "Melee",
     "damage": "5",
     "critical": "4",
@@ -13295,6 +13652,7 @@
   "weapons": [
    {
     "name": "Vibro cutlass",
+    "id": "Vibro cutlass",
     "skill": "Melee",
     "damage": "4",
     "critical": "3",
@@ -13427,6 +13785,7 @@
   "weapons": [
    {
     "name": "Modified blaster pistol",
+    "id": "Modified blaster pistol",
     "skill": "Ranged: Light",
     "damage": "6",
     "critical": "3",
@@ -13438,6 +13797,7 @@
    },
    {
     "name": "Grappling boa",
+    "id": "Grappling boa",
     "skill": "Melee",
     "damage": "5",
     "critical": "4",
@@ -13450,6 +13810,7 @@
    },
    {
     "name": "Smoke grenade",
+    "id": "Smoke grenade",
     "skill": "Ranged: Light",
     "damage": "-",
     "critical": "-",
@@ -13582,6 +13943,7 @@
   "weapons": [
    {
     "name": "Pyke blaster",
+    "id": "Pyke blaster",
     "skill": "Ranged: Light",
     "damage": "7",
     "critical": "3",
@@ -13631,6 +13993,7 @@
   "weapons": [
    {
     "name": "Pyke blaster",
+    "id": "Pyke blaster",
     "skill": "Ranged: Light",
     "damage": "7",
     "critical": "3",
@@ -13695,6 +14058,7 @@
   "weapons": [
    {
     "name": "IQA-11 long range rifle",
+    "id": "IQA-11 long range rifle",
     "skill": "Ranged: Heavy",
     "damage": "10",
     "critical": "3",
@@ -13868,6 +14232,7 @@
   "weapons": [
    {
     "name": "Integrated repeating blasters",
+    "id": "Integrated repeating blasters",
     "skill": "Ranged: Heavy",
     "damage": "11",
     "critical": "3",
@@ -13880,6 +14245,7 @@
    },
    {
     "name": "Built-in power saw",
+    "id": "Built-in power saw",
     "skill": "Melee",
     "damage": "7",
     "critical": "2",
@@ -13951,6 +14317,7 @@
   "weapons": [
    {
     "name": "Sugi’s EE-3 blaster carbine",
+    "id": "Sugi’s EE-3 blaster carbine",
     "skill": "Ranged: Heavy",
     "damage": "9",
     "critical": "3",
@@ -14154,6 +14521,7 @@
   "weapons": [
    {
     "name": "Dooku’s Lightsaber",
+    "id": "Dooku’s Lightsaber",
     "skill": "Lightsaber (Presence)",
     "damage": "8",
     "critical": "1",
@@ -14209,6 +14577,7 @@
   "weapons": [
    {
     "name": "Rocket launcher",
+    "id": "Rocket launcher",
     "skill": "Gunnery",
     "damage": "20",
     "critical": "2",
@@ -14267,6 +14636,7 @@
   "weapons": [
    {
     "name": "Integrated rocket launcher",
+    "id": "Integrated rocket launcher",
     "skill": "Gunnery",
     "damage": "18",
     "critical": "2",
@@ -14334,6 +14704,7 @@
   "weapons": [
    {
     "name": "E-5 blaster rifle",
+    "id": "E-5 blaster rifle",
     "skill": "Ranged: Heavy",
     "damage": "9",
     "critical": "3",
@@ -14396,10 +14767,11 @@
     "description": "As a maneuver, may transform into a ticking bomb. In this mode, the droid may not move, communicate or use its integrated blasters. As an action, it may detonate using the Self Destruct weapon profile. This instantly destroys the droid."
    }
   ],
-  "gear": "Self Destruct",
+  "gear": "",
   "weapons": [
    {
     "name": "Integrated twin blasters",
+    "id": "Integrated twin blasters",
     "skill": "Ranged: Heavy",
     "damage": "9",
     "critical": "3",
@@ -14407,6 +14779,20 @@
     "qualities": [
      "Linked 1",
      "Stun Setting"
+    ]
+   },
+   {
+    "name": "Self destruct",
+    "id": "Self destruct",
+    "skill": "Gunnery",
+    "damage": "25",
+    "critical": "2",
+    "range": "Short",
+    "qualities": [
+     "Blast 15",
+     "Breach 2",
+     "Limited Ammo 1",
+     "Prepare 1"
     ]
    }
   ]
@@ -14461,6 +14847,7 @@
   "weapons": [
    {
     "name": "Combat lance",
+    "id": "Combat lance",
     "skill": "Melee",
     "damage": "7",
     "critical": "3",
@@ -14521,6 +14908,7 @@
   "weapons": [
    {
     "name": "Integrated quad blasters",
+    "id": "Integrated quad blasters",
     "skill": "Gunnery",
     "damage": "12",
     "critical": "3",
@@ -14533,6 +14921,7 @@
    },
    {
     "name": "Stomping mechanical leg",
+    "id": "Stomping mechanical leg",
     "skill": "Brawl",
     "damage": "5",
     "critical": "5",
@@ -14582,10 +14971,11 @@
    "Droid",
    "Silhouette 2"
   ],
-  "gear": "Torpedo launcher",
+  "gear": "",
   "weapons": [
    {
     "name": "Built-in twin heavy blasters",
+    "id": "Built-in twin heavy blasters",
     "skill": "Gunnery",
     "damage": "12",
     "critical": "2",
@@ -14594,6 +14984,19 @@
      "Linked 2",
      "Pierce 4",
      "Vicious 1"
+    ]
+   },
+   {
+    "name": "Torpedo launcher",
+    "id": "Torpedo launcher",
+    "skill": "Gunnery",
+    "damage": "20",
+    "critical": "2",
+    "range": "Extreme",
+    "qualities": [
+     "Blast 6",
+     "Breach 1",
+     "Limited Ammo 4"
     ]
    }
   ]
@@ -14661,6 +15064,7 @@
   "weapons": [
    {
     "name": "Spiked flail",
+    "id": "Spiked flail",
     "skill": "Melee",
     "damage": "6",
     "critical": "3",
@@ -14673,6 +15077,7 @@
    },
    {
     "name": "Energy gauntlets",
+    "id": "Energy gauntlets",
     "skill": "Brawl",
     "damage": "5",
     "critical": "-",
@@ -14743,6 +15148,7 @@
   "weapons": [
    {
     "name": "Quad cannon",
+    "id": "Quad cannon",
     "skill": "Ranged: Heavy",
     "damage": "12",
     "critical": "3",
@@ -14754,6 +15160,7 @@
    },
    {
     "name": "Shoulder-mounted rocket launcher",
+    "id": "Shoulder-mounted rocket launcher",
     "skill": "Gunnery",
     "damage": "22",
     "critical": "2",
@@ -14985,9 +15392,22 @@
     "description": "Dr Vindi may suffer 3 strain to make a skill check using Intellect instead of the characteristic associated with the skill."
    }
   ],
-  "gear": "(3) Bio-virus grenade, Enhanced bio-suit (+2 Soak)",
+  "gear": "3 Bio-virus grenades, Enhanced bio-suit (+2 Soak)",
   "weapons": [
-   "Blaster pistol"
+   "Blaster pistol",
+   {
+    "name": "Bio-virus grenade",
+    "id": "Bio-virus grenade",
+    "skill": "Ranged: Light",
+    "damage": "3",
+    "critical": "3",
+    "range": "Short",
+    "qualities": [
+     "Blast 3",
+     "Limited Ammo 1"
+    ],
+    "notes": "All targets suffering at least 1 Wound, or are within Medium range without environmental protection, must make a :formidable: Resilience check. Target suffers 2 Wounds and 2 Strain per :threat: and a Vicious 5 Critical Injury if the check is failed. :despair: means they must make the check again at the the start of the next turn."
+   }
   ]
  },
  {
@@ -15117,6 +15537,7 @@
   "weapons": [
    {
     "name": "Archduke’s cane",
+    "id": "Archduke’s cane",
     "skill": "Melee",
     "damage": "4",
     "critical": "3",
@@ -15178,10 +15599,11 @@
   "abilities": [
    "Amphibious"
   ],
-  "gear": "(4) Karkarodon grenade, Aquatic assault suit (+1 Defence, +2 Soak)",
+  "gear": "4 Karkarodon grenades, Aquatic assault suit (+1 Defence, +2 Soak)",
   "weapons": [
    {
     "name": "Karkarodon bite",
+    "id": "Karkarodon bite",
     "skill": "Brawl",
     "damage": "7",
     "critical": "3",
@@ -15191,7 +15613,21 @@
      "Vicious 3"
     ]
    },
-   "Heavy blaster pistol"
+   "Heavy blaster pistol",
+   {
+    "name": "Karkarodon grenade",
+    "id": "Karkarodon grenade",
+    "skill": "Ranged: Light",
+    "damage": "13",
+    "critical": "3",
+    "range": "Short",
+    "qualities": [
+     "Blast 4",
+     "Limited Ammo 1",
+     "Pierce 3",
+     "Vicious 2"
+    ]
+   }
   ]
  },
  {
@@ -15358,6 +15794,7 @@
   "weapons": [
    {
     "name": "E-5 blaster rifle",
+    "id": "E-5 blaster rifle",
     "skill": "Ranged: Heavy",
     "damage": "9",
     "critical": "3",
@@ -15451,6 +15888,7 @@
   "weapons": [
    {
     "name": "Bulq’s Lightsaber",
+    "id": "Bulq’s Lightsaber",
     "skill": "Lightsaber",
     "damage": "9",
     "critical": "2",
@@ -15463,6 +15901,7 @@
    },
    {
     "name": "Bulq’s Shoto",
+    "id": "Bulq’s Shoto",
     "skill": "Lightsaber",
     "damage": "6",
     "critical": "2",

@@ -580,7 +580,7 @@
 		"critical": "3",
 		"range": "Medium",
 		"qualities": ["Linked 1", "Inaccurate 2"],
-		"notes": "Only gains Innacurate 2 if used outside an aquatic environment.\\n\\nRemove :setback: due to darkness."
+		"notes": "Only gains Innacurate 2 if used outside an aquatic environment.\n\nRemove :setback: due to darkness."
 	},
 	{
 		"name": "DC-15x sniper rifle",
