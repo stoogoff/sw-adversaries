@@ -14143,7 +14143,7 @@
    "underworld",
    "species:Ssori",
    "bounty hunter",
-   "alternate:Seripas"
+   "character:Seripas"
   ],
   "characteristics": {
    "Brawn": 1,
@@ -14190,7 +14190,7 @@
    "underworld",
    "species:Ssori",
    "bounty hunter",
-   "alternate:Seripas"
+   "character:Seripas"
   ],
   "characteristics": {
    "Brawn": 5,
@@ -14445,7 +14445,7 @@
    "darkside",
    "force sensitive",
    "sith",
-   "alternate:Dooku"
+   "character:Dooku"
   ],
   "characteristics": {
    "Brawn": 3,

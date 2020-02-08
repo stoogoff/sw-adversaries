@@ -122,7 +122,17 @@
 				"description": "Spend :force: to add :success: to all checks made by a number of Engaged friendly targets up to the character’s Presence for one turn, but using :forcepip: reduces their Willpower by one; targets must make an :easy: Discipline check if they wish to resist orders given as part of this power."
 			}
 		],
-		"weapons": ["Cortosis sword", "Blaster pistol", "Stun grenade"],
+		"weapons": [
+			"Blaster pistol", "Stun grenade",
+			{
+				"name": "Cortosis sword",
+				"skill": "Melee",
+				"plus-damage": 2,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Cortosis"]
+			}
+		],
 		"gear": ["Armoured robes (+2 Soak, +1 Defence)", "Commlink", "Kyber crystal amulet", "2 Stun grenades"],
 		"tags": ["book:cotgk", "location:Arbooine", "location:Quolas", "adventure:Chronicles of the Gatekeeper", "darkside"]
 	},

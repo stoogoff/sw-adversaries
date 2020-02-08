@@ -60,7 +60,7 @@
 			"soak": 3,
 			"wounds": 5
 		},
-		"skills": ["Melee", "Ranged: Heavy", "Vigilance"],
+		"skills": ["Melee", "Ranged: Light", "Vigilance"],
 		"abilities": [
 			{
 				"name": "Zero-Gravity Maneuvers",

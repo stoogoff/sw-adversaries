@@ -29,7 +29,8 @@
 		"damage": 7,
 		"critical": 3,
 		"range": "Medium",
-		"qualities": ["Stun Setting"]
+		"qualities": ["Stun Setting"],
+		"notes": "Spend :threat::threat::threat: or :despair: to force a heavy blaster pistol to run out of ammo."
 	},
 	{
 		"name": "Built-in blaster pistol",
