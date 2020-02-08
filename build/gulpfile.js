@@ -188,10 +188,10 @@ gulp.task("dev", (done) => {
 gulp.task("build", gulp.series("transpile-js", "copy-vendor", "copy-data", "copy-static", "copy-font", "sass", (done) => done()));
 
 gulp.task("watch", gulp.series("dev", () => {
-	gulp.watch(TARGET.src("/index.html"), ["copy-static"]);
-	gulp.watch(TARGET.src("/media/sass/**"), ["sass"]);
-	gulp.watch(TARGET.src("/media/data/**"), ["copy-data"]);
-	gulp.watch(TARGET.src("/media/js/**"), ["transpile-js"]);
+	gulp.watch(TARGET.src("/index.html"), gulp.series("copy-static"));
+	gulp.watch(TARGET.src("/media/sass/**"), gulp.series("sass"));
+	gulp.watch(TARGET.src("/media/data/**"), gulp.series("copy-data"));
+	gulp.watch(TARGET.src("/media/js/**"), gulp.series("transpile-js"));
 }));
 
 // deploy everything to an Amazon S3 bucket
