@@ -93,6 +93,16 @@ export const diceMap = {
 
 	// upgraded daunting difficulties
 	"daunting-1": "<strong>Daunting</strong> (<span class='icon challenge'></span><span class='icon difficulty'></span><span class='icon difficulty'></span><span class='icon difficulty'></span>)",
+	"daunting-2": "<strong>Daunting</strong> (<span class='icon challenge'></span><span class='icon challenge'></span><span class='icon difficulty'></span><span class='icon difficulty'></span>)",
+	"daunting-3": "<strong>Daunting</strong> (<span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span><span class='icon difficulty'></span>)",
+	"daunting-4": "<strong>Daunting</strong> (<span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span>)",
+
+	// upgraded formidable difficulties
+	"formidable-1": "<strong>Formidable</strong> (<span class='icon challenge'></span><span class='icon difficulty'></span><span class='icon difficulty'></span><span class='icon difficulty'></span><span class='icon difficulty'></span>)",
+	"formidable-2": "<strong>Formidable</strong> (<span class='icon challenge'></span><span class='icon challenge'></span><span class='icon difficulty'></span><span class='icon difficulty'></span><span class='icon difficulty'></span>)",
+	"formidable-3": "<strong>Formidable</strong> (<span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span><span class='icon difficulty'></span><span class='icon difficulty'></span>)",
+	"formidable-4": "<strong>Formidable</strong> (<span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span><span class='icon difficulty'></span>)",
+	"formidable-5": "<strong>Formidable</strong> (<span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span>)"
 };
 
 

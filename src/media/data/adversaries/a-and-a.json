@@ -306,7 +306,7 @@
 			},
 			{
 				"name": "Wookiee Roar",
-				"description": "Once per encounter, as an Action Chewbacca may inflict 5 Strain on all enemies within Medium Range."
+				"description": "Once per encounter, as an Action Chewbacca may inflict 5 Strain on all enemies within medium Range."
 			}
 		],
 		"weapons": [
@@ -777,7 +777,7 @@
 			},
 			{
 				"name": "Force Power: Terrifying Projection",
-				"description": "Once per encounter as a maneuver, Obi-Wan may force each enemy within Medium Range to make a :hard: fear check as an out-of-turn Incidental."
+				"description": "Once per encounter as a maneuver, Obi-Wan may force each enemy within Medium range to make a :hard: fear check as an out-of-turn Incidental."
 			}
 		],
 		"weapons": [
@@ -1060,7 +1060,7 @@
 		"abilities": [
 			{
 				"name": "Strategic Direction",
-				"description": "Once per round, Admiral Piett may spend a maneuver to direct three Imperial Navy NPCs or minion groups within Medium Range (this can be at planetary scale for targets on other ships); each target may perform an immediate maneuver as an out-of-turn incidental or instead add :success: to their next check."
+				"description": "Once per round, Admiral Piett may spend a maneuver to direct three Imperial Navy NPCs or minion groups within Medium range (this can be at planetary scale for targets on other ships); each target may perform an immediate maneuver as an out-of-turn incidental or instead add :success: to their next check."
 			}
 		],
 		"weapons": ["Blaster pistol"],
@@ -1107,7 +1107,7 @@
 			},
 			{
 				"name": "Terrifying",
-				"description": "At the beginning of each encounter, each enemy within Medium Range must make a :challenge::challenge::challenge: fear check."
+				"description": "At the beginning of each encounter, each enemy within Medium range must make a :hard-3: fear check."
 			}
 		],
 		"weapons": [
@@ -1168,7 +1168,7 @@
 		"talents": ["Adversary 4", "Fearsome 3", "Force Rating 8", "Parry (Improved) 5", "Reflect (Improved) 5", "The Force is My Ally", "Natural Mystic", "Shroud",
 			{
 				"name": "Terrify (Improved)",
-				"description": "Take the Terrify action; make a :average: Coercion check, adding :force: no greater than Force rating. Disorient one target within Medium Range per :success:. Spend :advantage::advantage: to extend duration and :triumph: to stagger one target. Spend :darkside: to immobilise one target."
+				"description": "Take the Terrify action; make an :average: Coercion check, adding :force: no greater than Force rating. Disorient one target within Medium range per :success:. Spend :advantage::advantage: to extend duration and :triumph: to stagger one target. Spend :darkside: to immobilise one target."
 			},
 			{
 				"name": "Shien Technique",
@@ -1296,14 +1296,14 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 1"],
-		"abilities": ["Overwhelming Fire",
+		"abilities": [
 			{
 				"name": "Armored Charge",
-				"description": "May spend a maneuver to direct three Imperial Armour Corps members on allied armoured vehicles within Medium Range to make an immediate maneuver as an out-of-turn incidental."
+				"description": "May spend a maneuver to direct three Imperial Armour Corps members on allied armoured vehicles within Medium range to make an immediate maneuver as an out-of-turn incidental."
 			},
 			{
 				"name": "Overwhelming Fire",
-				"description": "May perform a maneuver to direct one Imperial Armored Corps member within Medium Range to perform an immediate out-of-turn incidental."
+				"description": "May perform a maneuver to direct one Imperial Armoured Corps member within Medium range to perform an immediate out-of-turn incidental."
 			}
 		],
 		"weapons": ["Blaster pistol"],
@@ -1608,7 +1608,15 @@
 				"description": "Allies within Short range of Bossk add automatic :success: to Deception checks they make against enemies."
 			}
 		],
-		"weapons": ["Claws",
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			},
 			{
 				"name": "Relby-v10 mortar gun",
 				"skill": "Ranged: Heavy",
@@ -1841,7 +1849,7 @@
 			},
 			{
 				"name": "Homicidal Droid",
-				"description": "Once per session as an action, make a :hard: gunnery check. If successful, eliminate one minion group within Medium Range and may spend :triumph: or :advantage::advantage::advantage: to eliminate one other minion group or a single rival."
+				"description": "Once per session as an action, make a :hard: gunnery check. If successful, eliminate one minion group within Medium range and may spend :triumph: or :advantage::advantage::advantage: to eliminate one other minion group or a single rival."
 			},
 			{
 				"name": "Smoke Emitters",
@@ -2179,7 +2187,17 @@
 		},
 		"skills": ["Cool", "Deception", "Melee", "Ranged: Light", "Vigilance"],
 		"abilities": ["Pheromone Communication"],
-		"weapons": ["Heavy blaster pistol", "Vibroblade"],
+		"weapons": [
+			"Heavy blaster pistol",
+			{
+				"name": "Vibroblade",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 1"]
+			}
+		],
 		"gear": ["Heavy clothing (+1 Soak)"],
 		"tags": ["book:aaa", "species:Weequay", "location:Tatooine"]
 	},
@@ -2363,7 +2381,7 @@
 		"abilities": ["Silhouette 4",
 			{
 				"name": "Fearsome Roar",
-				"description": "As an action, the krayt dragon may force a target within Medium Range to make a :challenge::challenge::challenge::difficulty: fear check; may spend :threat::threat: to immobilise the target and :despair: to stagger the target."
+				"description": "As an action, the krayt dragon may force a target within Medium range to make a :formidable-3: fear check; may spend :threat::threat: to immobilise the target and :despair: to stagger the target."
 			},
 			{
 				"name": "Krayt Venom",
