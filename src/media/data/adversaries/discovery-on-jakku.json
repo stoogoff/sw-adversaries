@@ -242,7 +242,7 @@
 		},
 		"talents": [
 			{
-				"name": "Improved Field Commander",
+				"name": "Field Commander (Improved)",
 				"description": "As an action, Captain Phasma may make an :average: Leadership check. If she succeeds four minion groups may immediately perform one free maneuver. Spend :triumph: to allow one of those groups to perform an action instead."
 			}
 		],

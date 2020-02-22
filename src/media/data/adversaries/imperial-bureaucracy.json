@@ -135,7 +135,7 @@
 			"Knowledge: Core Worlds": 2,
 			"Knowledge: Outer Rim": 2
 		},
-		"talents": ["Improved Scathing Tirade"],
+		"talents": ["Scathing Tirade (Improved)"],
 		"abilities": ["Destabilizing Influence"],
 		"weapons": ["Holdout blaster"],
 		"tags": ["empire", "imperial bureaucracy", "book:aor"]
@@ -199,7 +199,7 @@
 			"Streetwise": 2,
 			"Vigilance": 2
 		},
-		"talents": ["Adversary 1", "Plausible Deniability 4", "Supreme Inspiring Rhetoric"],
+		"talents": ["Adversary 1", "Plausible Deniability 4", "Inspiring Rhetoric (Supreme)"],
 		"abilities": ["Imperial Valour"],
 		"weapons": ["Blaster pistol"],
 		"tags": ["empire", "imperial bureaucracy", "book:aor", "book:eote", "book:aaa"]

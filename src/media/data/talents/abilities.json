@@ -636,10 +636,6 @@
 		"description": "A minion group of four or more blismal can set up a shrieking racket as an action. All targets within Close range must make a :hard: Resilience check. Failure causes a target to suffer 4 Strain and become disoriented until the noise stops. Characters in sealed armour or who are wearing ear protection are not affected."
 	},
 	{
-		"name": "Shroud",
-		"description": "The character may spend 1 Destiny Point to make themself undetectable via Force powers and make their own powers go unnoticed for the remainder of the encounter."
-	},
-	{
 		"name": "Sight Hunter",
 		"description": "Ibbots decrease the difficulty of any Perception or Vigilance checks they make by one."
 	},

@@ -2,7 +2,7 @@
 import React from "react";
 import Remarkable from "remarkable";
 
-export default class TextPanel extends React.Component {
+export default class PanelText extends React.Component {
 	constructor(props) {
 		super(props);
 

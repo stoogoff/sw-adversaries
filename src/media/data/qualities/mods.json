@@ -1,18 +1,58 @@
 [
 	{
+		"name": "Cortosis Rounds",
+		"description": "Spend :advantage::advantage::advantage: or :triumph: from combat check to short out and deactivate target's lightsaber; lightsaber cannot be reactivated until the last initiative slot of the next round.",
+		"type": "Mod",
+		"ranked": false
+	},
+	{
+		"name": "Refined Cortosis",
+		"description": "Spend :advantage::advantage::advantage: or :triumph: on own combat check or :threat::threat::threat: or :despair: on attacker’s combat check to short out and deactivate target's lightsaber; lightsaber cannot be reactivated until the last initiative slot of the next round.",
+		"type": "Mod",
+		"ranked": false
+	},
+	{
+		"name": "Dual-Phase",
+		"description": "May change blade length once per encounter as an incidental. The next attack that turn made using this weapon ignores the target’s melee defense.",
+		"type": "Mod",
+		"ranked": false
+	},
+	{
 		"name": "Forearm Grip",
-		"description": "Decreases the additional difficulty of making Ranged (Heavy) checks with this weapon while engaged to an additional :difficulty:, rather than :average:."
+		"description": "Decreases the additional difficulty of making Ranged (Heavy) checks with this weapon while engaged to an additional :difficulty:, rather than :average:.",
+		"type": "Mod",
+		"ranked": false
+	},
+	{
+		"name": "Mono-Molecular Edge",
+		"type": "Passive",
+		"description": "Reduce weapon’s critical rating by 1.",
+		"type": "Mod",
+		"ranked": false
 	},
 	{
 		"name": "Multi-optic Sight",
-		"description": "Remove up to :setback::setback: on any checks to use this weapon due to smoke, darkness, or other environmental conditions that obstruct vision."
+		"description": "Remove up to :setback::setback: on any checks to use this weapon due to smoke, darkness, or other environmental conditions that obstruct vision.",
+		"type": "Mod",
+		"ranked": false
+	},
+	{
+		"name": "Serrated Edge",
+		"type": "Passive",
+		"description": "Adds Vicious 1 to the weapon.",
+		"type": "Mod",
+		"ranked": false
 	},
 	{
 		"name": "Telescopic Optical Sight",
-		"description": "Reduce difficulty of combat checks at Long or Extreme range by 1."
+		"description": "Reduce difficulty of combat checks at Long or Extreme range by 1.",
+		"type": "Mod",
+		"ranked": false
 	},
 	{
 		"name": "Weapon Sling",
-		"description": "Reduce the weapon’s Cumbersome rating by 1."
+		"description": "Reduce the weapon’s Cumbersome rating by 1.",
+		"type": "Mod",
+		"ranked": false
 	}
 ]

@@ -232,7 +232,13 @@
 			"wounds": 4
 		},
 		"skills": ["Perception"],
-		"abilities": ["Unthreatening Aura", "Silhouette 0"],
+		"abilities": [
+			"Silhouette 0",
+			{
+				"name": "Unthreatening Aura",
+				"description": "When declaring an attack against a porvir within Short range, the attacker must suffer 3 Strain or choose a different target."
+			}
+		],
 		"weapons": [
 			{
 				"name": "Teeth and claws",

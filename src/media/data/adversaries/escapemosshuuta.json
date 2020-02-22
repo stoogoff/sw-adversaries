@@ -49,7 +49,6 @@
 			"Knowledge: Outer Rim": 2,
 			"Mechanics": 1,
 			"Negotiation": 1,
-			"Ranged: Light": 0,
 			"Vigilance": 1
 		},
 		"weapons": ["Holdout blaster"],
@@ -103,8 +102,7 @@
 			"Cool": 1,
 			"Discipline": 1,
 			"Perception": 1,
-			"Ranged: Light": 1,
-			"Vigilance": 0
+			"Ranged: Light": 1
 		},
 		"weapons": ["Blaster pistol"],
 		"gear": ["Comlink"],

@@ -1472,7 +1472,16 @@
 		},
 		"talents": ["Hunter 1", "Swift"],
 		"abilities": ["Droid"],
-		"weapons": ["Stun blaster"],
+		"weapons": [
+			{
+				"name": "Stun blaster",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": null,
+				"range": "Short",
+				"qualities": ["Stun Damage"]
+			}
+		],
 		"tags": ["species:Droid", "book:sor", "sorosuub"]
 	},
 	{

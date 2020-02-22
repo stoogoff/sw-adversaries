@@ -503,7 +503,7 @@
 			"Perception": 2,
 			"Vigilance": 2
 		},
-		"talents": ["Adversary 1", "Natural Negotiater", "Spare Clip"],
+		"talents": ["Adversary 1", "Natural Negotiator", "Spare Clip"],
 		"weapons": ["Disruptor pistol", "Holdout blaster"],
 		"gear": ["Armoured cloating (+1 Soak, +1 defence)"],
 		"tags": ["underworld", "book:eote"]
@@ -641,7 +641,7 @@
 		},
 		"abilities": ["Brute Strength"],
 		"weapons": [
-			"Fists", "Truncheon",
+			"Truncheon",
 			{
 				"name": "Fists",
 				"skill": "Brawl",

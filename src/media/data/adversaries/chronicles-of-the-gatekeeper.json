@@ -25,7 +25,12 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 2", "Expert Tracker 2", "Quick Draw"],
-		"abilities": ["Practiced Resistance"],
+		"abilities": [
+			{
+				"name": "Practiced Resistance",
+				"description": "Upgrade the difficulty of Force power skill checks targeting Oberos once."
+			}
+		],
 		"weapons": [
 			{
 				"name": "Custom slugthrower carbine",
@@ -117,7 +122,17 @@
 				"description": "Spend :force: to add :success: to all checks made by a number of Engaged friendly targets up to the character’s Presence for one turn, but using :forcepip: reduces their Willpower by one; targets must make an :easy: Discipline check if they wish to resist orders given as part of this power."
 			}
 		],
-		"weapons": ["Cortosis sword", "Blaster pistol", "Stun grenade"],
+		"weapons": [
+			"Blaster pistol", "Stun grenade",
+			{
+				"name": "Cortosis sword",
+				"skill": "Melee",
+				"plus-damage": 2,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Cortosis"]
+			}
+		],
 		"gear": ["Armoured robes (+2 Soak, +1 Defence)", "Commlink", "Kyber crystal amulet", "2 Stun grenades"],
 		"tags": ["book:cotgk", "location:Arbooine", "location:Quolas", "adventure:Chronicles of the Gatekeeper", "darkside"]
 	},
@@ -148,7 +163,14 @@
 		"talents": ["Adversary 1"],
 		"abilities": ["Push the Limit"],
 		"weapons": [
-			"Vibroknuckles",
+			{
+				"name": "Vibroknuckles",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 1", "Vicious 1"]
+			},
 			{
 				"name": "Custom heavy blaster pistol",
 				"skill": "Ranged: Light",
@@ -275,7 +297,7 @@
 			"Resilience": 2,
 			"Vigilance": 3
 		},
-		"talents": ["Adversary 3", "Improved Centre of Being 2", "Force Rating 5", "Improved Parry 3", "Improved Reflect 3", "Saber Throw"],
+		"talents": ["Adversary 3", "Centre of Being (Improved) 2", "Force Rating 5", "Parry (Improved) 3", "Reflect (Improved) 3", "Saber Throw"],
 		"abilities": [
 			"Darkside Force User",
 			{
@@ -299,7 +321,7 @@
 				"critical": 1,
 				"range": "Engaged",
 				"qualities": ["Breach 1", "Sunder"],
-				"notes": "Dantari crystal\n\nSpend :force: on Force power checks to recover 2 Strain."
+				"notes": "Dantari crystal. Spend :force: on Force power checks to recover 2 Strain."
 			}
 		],
 		"gear": ["Armoured robes (+2 Soak, +1 Defence)", "Kyber crystal"],
@@ -407,7 +429,7 @@
 		"tags": ["book:cotgk", "adventure:Chronicles of the Gatekeeper", "location:Cato Neimoidia", "location:Jorra", "species:Neimoidian", "separatist", "spy"]
 	},
 	{
-		"name": "Nemoidian Citizen",
+		"name": "Neimoidian Citizen",
 		"type": "Minion",
 		"description": "Most citizens of Cato Neimoidia are individually tim id, but fear is a powerful motivator. Rumors of Jedi or allies of Suljo Warde are sufficient to rile up an angry mob.",
 		"characteristics": {
@@ -422,8 +444,13 @@
 			"soak": 2,
 			"wounds": 3
 		},
-		"skills": ["Melee"],
-		"abilities": ["Strength in Numbers"],
+		"skills": ["Melee", "Cool", "Discipline"],
+		"abilities": [
+			{
+				"name": "Strength in Numbers",
+				"description": "Minion groups of Neimoidian Citizens possess the Discipline and Cool skills as long as no member of the group has been killed or incapacitated."
+			}
+		],
 		"weapons": ["Light blaster pistol", "Truncheon"],
 		"tags": ["book:cotgk", "location:Cato Neimoidia", "species:Neimoidian", "adventure:Chronicles of the Gatekeeper"]
 	},

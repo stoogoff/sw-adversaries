@@ -18,5 +18,4 @@ let dispatcher = {
 	},
 };
 
-
-export default dispatcher
+export default dispatcher;

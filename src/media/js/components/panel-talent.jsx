@@ -1,8 +1,10 @@
 
 import React from "react";
-import { id, symbolise, statify, sortByProperty } from "lib/utils";
+import { id } from "lib/string";
+import { sortByProperty } from "lib/list";
+import { symbolise, statify } from "lib/utils";
 
-export default class TalentPanel extends React.Component {
+export default class PanelTalent extends React.Component {
 	render() {
 		if(this.props.data == null) {
 			return null;

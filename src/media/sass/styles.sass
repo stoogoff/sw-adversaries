@@ -25,7 +25,23 @@ h2.subtitle
 	font-size: 1.25rem
 	text-align: right
 	margin-right: 1rem
+	margin-bottom: 0
 	line-height: 1em
+
+	.btn
+		margin-left: 0.5em
+		padding: 0.2em 0.4em 0.2em 0.2em
+		border: 2px solid $body
+		position: relative
+		z-index: 20
+
+		&.hover
+			background-color: $tabBgColour
+
+		&.active
+			border-color: $derived
+			border-bottom-color: $tabBgColour
+			background-color: $tabBgColour
 
 	svg
 		margin-left: 0.3em
@@ -55,6 +71,7 @@ h2.subtitle
 		margin-left: 1em
 		margin-right: 1em
 
+
 // LAYOUT
 #built-by
 	font-size: 0.8em
@@ -65,22 +82,6 @@ h2.subtitle
 .filter
 	margin: 2em 1em 0
 	position: relative
-
-	input[type="text"]
-		box-sizing: border-box
-		width: 100%
-		color: $heading
-		font-size: 1.1em
-		padding: 0.2em 0.5em
-		background-color: white
-		border: 1px solid darken($link, 20%)
-		border-radius: 0.2em
-		@include hover()
-
-		&:focus
-			outline: 2px solid rgba($link, 0.5)
-			border-color: $link
-			@include shadow-input($font, $link)
 
 	#clear
 		position: absolute
@@ -124,7 +125,7 @@ h2.subtitle
 		position: absolute
 		margin: 0
 		padding: 0.5em
-		border-radius: 0 0 0.2em 0.2em
+		border-radius: 0 0 $borderRadius $borderRadius
 		left: -1px
 		display: none
 		opacity: 0
@@ -135,7 +136,7 @@ h2.subtitle
 		li
 			padding: 0.3em
 			margin: 0.2em
-			border-radius: 0.2em
+			border-radius: $borderRadius
 			display: inline-block
 			background-color: rgba(255,255,255,0.5)
 			@include hover()
@@ -230,7 +231,7 @@ h2.subtitle
 			border-width: 0 2px 2px 2px
 			border-style: solid
 			border-color: $derived
-			border-radius: 0 0 0.2em 0.2em
+			border-radius: 0 0 $borderRadius $borderRadius
 
 			ul
 				background-color: $body
@@ -262,7 +263,7 @@ h2.subtitle
 			border-width: 2px 2px 0 2px
 			border-style: solid
 			border-color: $derived
-			border-radius: 0.2em 0.2em 0 0
+			border-radius: $borderRadius $borderRadius 0 0
 			display: none
 
 			li
@@ -274,7 +275,7 @@ h2.subtitle
 				.colour
 					font-size: 0.9em
 					border: 1px solid white
-					border-radius: 0.2em
+					border-radius: $borderRadius
 					padding: 0.2em
 					@include hover()
 
@@ -286,7 +287,7 @@ h2.subtitle
 					color: $heading
 					background-color: white
 					border: 1px solid darken($link, 20%)
-					border-radius: 0.2em
+					border-radius: $borderRadius
 					display: block
 					width: 100%
 					padding: 0.2em 0.5em
@@ -388,6 +389,7 @@ h2.subtitle
 	input[type="text"]
 		box-sizing: border-box
 		display: inline-block
+		border-radius: 0
 		border-width: 0
 		border-bottom: 2px solid $derived
 		font-size: 2em
@@ -446,13 +448,241 @@ h2.subtitle
 	text-align: right
 	margin-bottom: 1em
 
-	svg
+#menu-character
+	position: relative
+	top: -2px
+	z-index: 10
+	display: none
+
+	&.active
+		display: block
+
+	ul
+		background-color: $tabBgColour
+		border: 2px solid $derived
+		padding: 0.2em
+		margin-top: 0
+		margin-left: 1em
+		font-size: 0.9rem
+		text-transform: none
+		text-align: left
+
+		li
+			padding: 0.2em 0.2em 0.2em 0.5em
+			margin-bottom: 0.2em
+			cursor: pointer
+
+			svg
+				margin-right: 0.5em
+
+			&:hover
+				background-color: white
+
+
+// EDIT MODE
+#edit
+	box-sizing: border-box
+	background-color: $body
+	width: 100%
+	height: 100%
+	overflow-x: auto
+	padding-top: 6em
+	padding-bottom: 1em
+
+	h1
+		position: fixed
+		top: 0
+		left: 0
+		right: 0
+		z-index: 150
+
+		svg
+			position: absolute
+			font-size: 1rem
+			top: 2em
+			right: 1em
+
+	.gear .row-input
+		padding-left: 0
+		border-bottom: 0
+
+	.row-input
 		position: relative
-		top: 0.1em
+		margin: 0 1rem 1em
+		padding-left: 1em
+
+		&.error
+			input[type="text"], textarea
+				color: $stat
+				border-color: $stat
+				background-color: lighten($stat, 50%)
+
+			label
+				color: $stat
+
+
+		label
+			display: inline-block
+			width: 60%
+			margin-bottom: 0.2em
+
+		&>svg
+			float: right
+
+			&.delete
+				color: $stat
+
+	.row-filter ul
+		background-color: rgba(0,0,0,0.2)
+		margin-top: 0
+
+		li
+			padding: 0.5em 1em
+			background-color: white
+			margin-bottom: 0.1em
+
+			&:last-child
+				margin-bottom: 0
+
+	.row-buttons
+		margin-left: 1em
+		margin-right: 1em
+
+		button
+			display: inline-block
+			width: 50%
+			padding: 0.3em 1em
+			cursor: pointer
+			font-size: 1.1em
+			font-weight: bold
+			@include hover()
+
+			&[disabled]
+				background-color: $fadeInput !important
+				color: $tabBgColour !important
+				cursor: default
+
+				&:hover
+					background-color: $fadeInput !important
+
+
+			&.btn-save
+				color: white
+				background-color: green
+				border-radius: $borderRadius 0 0 $borderRadius
+
+			&.btn-cancel
+				background-color: $tabBgColour
+				border-radius: 0 $borderRadius $borderRadius 0
+
+	.input-select-multi
+		li
+			display: inline-block
+			padding: 0.5em
+			border-radius: $borderRadius
+			background-color: $fadeInput
+			margin: 0.2em
+			cursor: pointer
+
+			&.checked
+				background-color: lighten($link, 20%)
+				color: white
+
+			svg
+				position: relative
+				top: 0.1em
+
+	.input-checkbox
+		svg
+			float: none
+			margin: 0.4em 1em 0.1em
+
+		&.checked
+			background-color: lighten($link, 20%) !important
+			color: white
+
+		&:hover
+			background-color: $fadeInput
+
+	.input-select svg
+		position: absolute
+		right: 0.5em
+		bottom: 0.5em
+
+	.edit-panel
+		padding-left: 1rem
+		padding-right: 1rem
+
+		.row-input
+			border-bottom: 1px solid lighten($heading, 30%)
+			margin: 0
+
+			div
+				text-align: right
+
+			&:nth-child(odd)
+				background-color: white
+
+		input[type="text"], select
+			display: inline-block
+			width: 40%
+
+		input[type="text"]
+			border-width: 0 0 1px
+			border-radius: 0
+			background-color: $fadeInput
+			text-align: right
+
+	.edit-list
+		.close
+			float: right
+
+		.row-input
+			padding: 0.2em 0 0.2em 1em
+
+	.divider
+		font-weight: bold
+		font-size: 1.2em
+		text-align: center
+		margin: 1em 0 2em
+		height: 0.75em
+		border-bottom: 1px solid black
+
+		span
+			display: inline-block
+			padding: 0.1em 1em
+			background-color: $body
+
+.btn-full
+	display: block
+	width: 100%
+	box-sizing: border-box
+	font-size: 1.1em
+	padding: 0.2em
+	margin: 0.5em 0
+	background-color: lighten($link, 20%)
+	font-weight: bold
+	color: white
+	border-radius: $borderRadius
+	cursor: pointer
+	@include hover()
+
+	&[disabled]
+		background-color: $fadeInput !important
+		color: $tabBgColour !important
+		cursor: default
+
+		&:hover
+			background-color: $fadeInput !important
+
+
+	&:hover
+		background-color: $link
+
 
 
 // OVERLAY
-#overlay
+.overlay
 	position: fixed
 	top: 0
 	left: 0
@@ -498,6 +728,11 @@ h2.subtitle
 	#characteristics
 		width: 25.3em
 
+	#menu-character ul
+		position: absolute
+		right: 0
+		min-width: 14em
+
 	#derived div
 		float: left
 		margin-right: 1rem
@@ -529,6 +764,43 @@ h2.subtitle
 
 
 @media screen and (min-width: $screen-large)
+	#edit
+		width: 90%
+		height: 90%
+		margin: 1em auto
+		padding-top: 0
+		overflow: hidden
+		position: relative
+		max-width: 50rem
+
+		h1
+			position: relative
+			border-radius: 0
+			display: block
+			margin-bottom: 0
+
+		.scrollable
+			padding-top: 1em
+			overflow: auto
+			position: absolute
+			top: 6em
+			bottom: 4em
+			left: 0
+			right: 0
+
+		.input-select svg
+			display: none
+
+		.row-buttons
+			position: absolute
+			left: 0
+			right: 0
+			bottom: 0
+			background-color: $body
+			border-top: 2px solid $stat
+			padding: 1em
+			margin: 0
+
 	h1
 		display: inline-block
 		border-radius: 0 3rem 3rem 0
@@ -536,7 +808,7 @@ h2.subtitle
 		top: 1em
 
 	h2.subtitle
-		margin: 1.6em 3em 2.5em 0
+		margin: 1.6em 3em 1.5em 0
 
 	#characteristics
 		margin: 0

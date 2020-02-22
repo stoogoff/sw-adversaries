@@ -2,7 +2,9 @@
 import React from "react";
 import dispatcher from "lib/dispatcher";
 import * as CONFIG from "lib/config";
-import { sortByProperty, book, id } from "lib/utils";
+import { sortByProperty } from "lib/list";
+import { id } from "lib/string";
+import { book } from "lib/utils";
 
 function titlecase(s) {
 	return s[0].toUpperCase() + s.substring(1).toLowerCase();

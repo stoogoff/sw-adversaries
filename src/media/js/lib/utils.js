@@ -1,38 +1,4 @@
 
-export const id = function id(input) {
-	return input.trim().normalize("NFD").replace(/[^a-z0-9\-\s]/gi, '').replace(/\s{1,}/g, "-").toLowerCase();
-}
-
-export const parent = function parent(node, parent) {
-	parent = parent.toLowerCase();
-
-	while((node = node.parentNode) != null) {
-		if(node.nodeName.toLowerCase() === parent) {
-			return node;
-		}
-	}
-
-	return null;
-}
-
-export const sortByProperty = function sortByProperty(prop) {
-	return function sort(a, b) {
-		a = a[prop];
-		b = b[prop];
-
-		return a == b ? 0 : (a < b ? -1: 1);
-	};
-};
-
-export const sortByProperties = function sortByProperties(prop1, prop2) {
-	const sort1 = sortByProperty(prop1);
-	const sort2 = sortByProperty(prop2);
-
-	return function sort(a, b) {
-		return sort1(a, b) || sort2(a, b);
-	}
-}
-
 export const minionSkill = function(minions, skill, skills) {
 	let value = 0;
 	let skillsHash = {};
@@ -49,6 +15,9 @@ export const minionSkill = function(minions, skill, skills) {
 	}
 	return  Math.min(value, 5);
 }
+
+
+export const characteristics = ["Brawn", "Agility", "Intellect", "Cunning", "Willpower", "Presence"];
 
 
 // convert marked text into dice and return in a React dangerouslySetInnerHTML format
@@ -80,7 +49,7 @@ export const symbolise = function symbolise(text) {
 	return { __html: text };
 }
 
-let diceMap = {
+export const diceMap = {
 	// dice
 	"boost": "<span class='icon boost'></span>",
 	"proficiency": "<span class='icon proficiency'></span>",
@@ -124,6 +93,16 @@ let diceMap = {
 
 	// upgraded daunting difficulties
 	"daunting-1": "<strong>Daunting</strong> (<span class='icon challenge'></span><span class='icon difficulty'></span><span class='icon difficulty'></span><span class='icon difficulty'></span>)",
+	"daunting-2": "<strong>Daunting</strong> (<span class='icon challenge'></span><span class='icon challenge'></span><span class='icon difficulty'></span><span class='icon difficulty'></span>)",
+	"daunting-3": "<strong>Daunting</strong> (<span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span><span class='icon difficulty'></span>)",
+	"daunting-4": "<strong>Daunting</strong> (<span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span>)",
+
+	// upgraded formidable difficulties
+	"formidable-1": "<strong>Formidable</strong> (<span class='icon challenge'></span><span class='icon difficulty'></span><span class='icon difficulty'></span><span class='icon difficulty'></span><span class='icon difficulty'></span>)",
+	"formidable-2": "<strong>Formidable</strong> (<span class='icon challenge'></span><span class='icon challenge'></span><span class='icon difficulty'></span><span class='icon difficulty'></span><span class='icon difficulty'></span>)",
+	"formidable-3": "<strong>Formidable</strong> (<span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span><span class='icon difficulty'></span><span class='icon difficulty'></span>)",
+	"formidable-4": "<strong>Formidable</strong> (<span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span><span class='icon difficulty'></span>)",
+	"formidable-5": "<strong>Formidable</strong> (<span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span>)"
 };
 
 
@@ -190,11 +169,12 @@ export const statify = function(text, stats, ranks) {
 
 	// insert ranks and format
 	text = text.replace(/\{ranks\}/g, ranks);
-	text = text.replace(/\{ranks\|words\}/g,       () => words[ranks]);
-	text = text.replace(/\{ranks\|times\}/g,       () => times[ranks]);
-	text = text.replace(/\{ranks\|multiply-10\}/g, () => ranks * 10);
-	text = text.replace(/\{ranks\|multiply-50\}/g, () => ranks * 50);
-	text = text.replace(/\{ranks\|plus-2\}/g,      () => ranks + 2);
+	text = text.replace(/\{ranks\|words\}/g,        () => words[ranks]);
+	text = text.replace(/\{ranks\|times\}/g,        () => times[ranks]);
+	text = text.replace(/\{ranks\|multiply-10\}/g,  () => ranks * 10);
+	text = text.replace(/\{ranks\|multiply-50\}/g,  () => ranks * 50);
+	text = text.replace(/\{ranks\|multiply-100\}/g, () => ranks * 100);
+	text = text.replace(/\{ranks\|plus-2\}/g,       () => ranks + 2);
 
 	// add game symbols a number of times equal to ranks
 	["setback", "boost", "success", "threat", "force"].forEach(symbol => text = text.replace(new RegExp(`\{ranks\\|(${symbol})\}`, "g"), (s, match) => r(match, ranks)));
@@ -219,7 +199,8 @@ function r(symbol, ranks) {
 
 let sourceMap = {
 	"source:Never Tell Me the Odds": "http://www.starwarsrpgpodcast.com/",
-	"source:D20Radio.com": "http://www.d20radio.com/main/"
+	"source:D20Radio.com": "http://www.d20radio.com/main/",
+	"source:Heroes on Both Sides": "https://drive.google.com/file/d/1kz3ZK_Pmxf6HneRCOwY_0lzwmk0GZL1N/view"
 };
 
 export const getSourceLink = function(source) {

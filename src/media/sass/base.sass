@@ -89,12 +89,31 @@ th
 
 th, td
 	vertical-align: top
+	padding: 0.3em
 
 	&:first-of-type
 		padding-left: 1em
 
-td
-	padding: 0.3em
+label span.required
+	color: $stat
+	font-weight: bold
+
+input[type="text"], textarea, select
+	display: block
+	box-sizing: border-box
+	width: 100%
+	color: $heading
+	font-size: 1.1em
+	padding: 0.2em 0.5em
+	background-color: white
+	border: 1px solid darken($link, 20%)
+	border-radius: $borderRadius
+	@include hover()
+
+	&:focus
+		outline: 2px solid rgba($link, 0.5)
+		border-color: $link
+		@include shadow-input($font, $link)
 
 .text-right
 	text-align: right
@@ -118,9 +137,13 @@ a, .link
 .btn
 	display: inline-block
 	padding: 0.2em 1em
-	border-radius: 0.2em
+	border-radius: $borderRadius
 	cursor: pointer
 	@include hover()
+
+	svg
+		position: relative
+		top: 0.15em
 
 	&:hover
 		background-color: rgba(0, 0, 0, 0.1)

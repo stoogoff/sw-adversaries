@@ -2,7 +2,7 @@
 import React from "react";
 import dispatcher from "lib/dispatcher";
 import * as CONFIG from "lib/config";
-import { parent } from "lib/utils";
+import { parent } from "lib/dom";
 
 export default class Tabs extends React.Component {
 	constructor(props) {
@@ -84,7 +84,7 @@ export default class Tabs extends React.Component {
 				<ul className={ this.state.active ==  i ? "active" : "" }>
 					<li><input type="text" value={ t.tabName } onChange={ this.rename.bind(this) } /></li>
 					{ colours }
-					<li onClick={ this.remove.bind(this) }><div className="btn"><svg><use xlinkHref="#icon-cross"></use></svg> Remove</div></li>
+					<li onClick={ this.remove.bind(this) }><div className="btn"><svg><use xlinkHref="#icon-delete"></use></svg> Remove</div></li>
 				</ul>
 			</li>) }
 			<li className="tools"><small className="btn" onClick={ this.add.bind(this) }><svg><use xlinkHref="#icon-plus"></use></svg> Add</small></li>

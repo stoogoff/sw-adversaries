@@ -1,0 +1,93 @@
+Name,Admiral Tarkin (HoBS),Admiral Yularen,Bail Organa (HoBS),Bric,Captain Rex (HoBS),Sergeant Hunter,Crosshair,Tech,Wrecker (HoBS),Clone Commander,Clone Cadet,Clone Vehicle Driver,Clone Pilot,Clone Ace,Clone Gunnery Crew,Clone Naval Officer,Clone ARC Trooper,Clone Commando (Leadership),Clone Commando (Computers),Clone Commando (Gunnery),Clone Commando (Melee),Clone Cold Assault Trooper,Clone Flame Trooper,Clone Heavy Weapons Expert,Clone Medical Officer,Clone Riot Trooper,Clone Scuba Trooper,Clone ARF Trooper,Clone Ordnance Specialist,Clone Jet Trooper,Clone Combat Medic,Commander Cody,Coruscant Police Inspector,Coruscant Underworld Police (HoBS),Colonel Meebur Gascon,WAC-47,M5-BZ,QT-KT,U9-C4,El-Les,Jar Jar Binks,Kaminoan Scientist,Mas Amedda,Mon Mothma (HoBS),Senate Guard Captain,Sionver Boll,Sly Moore
+Type,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Minion,Rival,Minion,Rival,Minion,Rival,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Minion,Minion,Rival,Rival,Minion,Minion,Rival,Rival,Minion,Rival,Nemesis,Rival,Rival,Nemesis,Rival,Rival,Rival,Rival,Nemesis,Nemesis,Rival,Nemesis,Nemesis,Rival,Nemesis,Nemesis
+Characteristics,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Brawn,2,2,2,4,3,3,3,3,5,3,3,2,2,2,2,2,3,3,3,3,3,3,3,3,2,3,3,3,2,3,3,3,2,3,1,1,2,1,1,2,2,1,2,2,3,2,2
+Agility,2,2,2,3,3,3,4,3,3,3,3,3,3,4,3,2,3,3,3,3,3,3,3,3,2,3,3,3,3,3,3,3,2,2,2,3,1,1,1,3,4,2,2,3,3,2,2
+Intellect,3,4,4,2,2,2,2,4,1,3,2,2,2,2,2,3,2,2,2,2,2,2,2,2,4,2,2,2,3,2,2,3,3,2,4,1,1,2,2,4,2,4,3,4,2,4,3
+Cunning,4,3,5,3,3,4,3,3,2,2,2,2,2,3,2,3,2,2,2,2,2,2,2,2,3,2,2,2,2,2,2,2,3,2,2,3,2,2,2,3,3,2,4,4,3,3,4
+Willpower,5,4,5,3,3,3,3,3,3,3,2,2,2,2,2,2,3,3,3,3,3,3,3,3,2,3,3,3,3,3,3,3,3,3,3,1,1,1,1,3,1,2,3,5,3,3,4
+Presence,4,4,4,3,3,3,2,3,2,3,1,1,1,1,1,2,2,2,2,2,2,1,1,1,2,1,1,2,1,1,1,4,3,1,2,2,1,1,1,3,4,2,4,4,2,3,3
+Derived,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Soak,3,3,3,6,5,5,5,5,7,5,4,4,3,3,3,3,5,5,5,5,5,5,5,5,3,5,5,5,5,5,5,5,3,4,2,2,4,3,3,4,3,2,3,2,5,3,3
+Wound Threshold,14,14,12,16,16,16,16,15,19,16,5,12,5,12,5,12,15,15,15,15,15,5,5,12,12,5,5,12,12,5,12,16,12,12,12,10,12,11,12,15,14,11,14,12,16,14,14
+Strain Threshold,20,16,15,13,15,15,15,16,13,16,,,,,,,15,15,15,15,15,,,,,,,,,,,16,,,10,,,,,14,13,,16,16,,13,18
+Melee Defence,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+Ranged Defence,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+Skills,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Astrogation,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,2,3,3,,,,,,,,
+Athletics,,,,,3,3,3,2,3,2,1,,,,,,3,3,3,3,3,1,1,2,,1,1,2,2,1,2,2,,,2,,,,,,3,,,,1,,
+Brawl,,,,3,3,2,,2,4,2,1,,,,,,2,2,2,2,2,,,,,1,1,2,,1,,3,,2,,,,,,2,,,,,2,,
+Charm,3,2,4,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,3,,,,2,3,,3,4,1,,
+Coercion,2,,,3,3,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,,,,,2,,,,3
+Computers,,,,,,,,4,,,,,,,,2,,,3,,,,,,2,,,,2,,,2,,,2,,2,3,3,,,2,,2,,3,
+Cool,3,3,3,1,3,3,3,3,2,3,,,,,,,3,3,3,3,3,,,,,,,3,,,2,3,2,,2,2,,2,,2,,2,2,4,,2,4
+Coordination,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,4,,,,,,
+Cybernetics,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Deception,3,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,3,2,,,,,,4,3,,2,4
+Discipline,3,3,3,2,4,3,3,2,2,4,1,2,1,2,1,2,3,3,3,3,3,1,1,2,2,1,1,2,2,1,2,4,,1,,,,,,2,,2,,3,2,2,3
+Gunnery,,,,,,,,,3,,,2,1,2,1,,2,,,2,,,1,2,,,,2,2,,,,,,,,,,,,,,,,,,
+Leadership,3,3,4,2,4,3,,,,4,,,,,,,,3,,,,,,,,,,,,,,4,2,,2,,,,,2,,,,3,3,,
+Lightsaber,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lightsaber (Agility),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lightsaber (Intellect),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lightsaber (Cunning),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lightsaber (Willpower),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lightsaber (Presence),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mechanics,,,,,2,,,4,,,,2,,,,2,,,,,,,,,,,,,3,,,,,,,,2,2,2,,,,,,,3,
+Medicine,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,3,,,,,,,,,,,3,,,,2,
+Melee,,,,,,4,,,,,,,,,,,,,,,2,,,,,1,,,,,,,,2,,,,,2,,,,,1,2,,
+Negotiation,3,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,,,
+Perception,3,3,3,1,3,3,3,2,,2,,,,,,,3,2,2,2,2,,,,,,,3,,,,3,3,,,,,,,2,2,2,2,3,2,3,4
+Piloting: Planetary,,,,,,,,,,,,2,,,,,2,,,,,,,,,,,2,,1,,,2,,,,,,,,,,,,,,
+Piloting: Space,,,,,,,,,,,,,1,3,,,,,,,,,,,,,,,,,,,,,,2,1,3,2,,,,,,,,
+Ranged: Heavy,,,,3,3,3,4,2,4,3,1,,,,,,3,3,3,3,3,1,,2,,,1,2,2,1,2,3,,,,,,,,3,,,,,2,,
+Ranged: Light,,,,3,3,4,2,3,3,3,,2,,,1,,3,3,3,3,3,,,2,,,,2,2,,,3,2,2,,,,,,3,,,,,2,,
+Resilience,,,,,,2,2,,4,,,,,,,,,3,3,3,3,1,,,,,1,,1,,,,,,,,2,,,,,,,,,,
+Skulduggery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,
+Stealth,,,,,,3,3,3,1,,,,,,,,2,3,3,3,3,,,,,,,3,,,,,,,2,2,,,,,,,,,,,3
+Streetwise,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,
+Survival,,,,,1,3,,,,,,,,,,,2,,,,,1,1,,,,1,3,,,1,2,,,,,,,,,3,,,,,,
+Vigilance,3,2,3,1,4,3,3,3,2,2,1,,1,2,1,1,3,3,3,3,3,1,1,2,1,1,1,3,2,1,1,2,2,2,,,,,,2,,,,3,3,,4
+Knowledge: Core Worlds,4,3,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,3,,,,
+Knowledge: Education,4,,4,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,3,,,,,,,3,4,3,,4,
+Knowledge: Lore,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3
+Knowledge: Outer Rim,4,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,3,,,,
+Knowledge: Underworld,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,
+Knowledge: Warfare,4,4,,2,2,,,,,3,,,,,,,,,,,,,,,,,,,,,,3,,,2,,,,,2,,,,,,,
+Knowledge: Xenology,,,,,,,,3,,,,,,,,1,,,,,,,,,2,,,,,,,,,,,,,,,,,3,,,,4,
+Talents,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Adversary 2,Fire Control,Adversary 2,Adversary 1,Adversary 2,Adversary 2,Adversary 1,Adversary 1,Adversary 1,Adversary 2,,Skilled Jockey 2,,Skilled Jockey 1,,Fire Control,Adversary 1,Adversary 1,Adversary 1,Adversary 1,Adversary 1,,,,Surgeon 2,,,All-Terrain Driver,Gearhead 2,Jetpack Expertise,It’s Not That Bad,Adversary 2,Nobody’s Fool 1,Nobody’s Fool 1,Field Commander,Distracting Behaviour 3,Hidden Storage 1,Fine Tuning 2,Solid Repairs 3,Adversary 1,Adversary 1,Researcher 2,Discredit,Adversary 2,Adversary 1,Nobody’s Fool 1,Adversary 1
+,Command 2,Nobody’s Fool 1,Confidence 2,Bad Cop 1,Commanding Presence 2,Coordinated Assault,Persistent Targeting,Bypass Security 2,Durable 2,Commanding Presence 2,,,,,,,Guns Blazing,Natural Commando,Natural Commando,Natural Commando,Natural Commando,,,,,,,Expert Tracker 1,Selective Detonation 2,,Stimpack Specialisation,Commanding Presence 2,Reconstruct the Scene,,Nobody’s Fool 1,Double-Talk,,Galaxy Mapper 1,,Good Cop 1,Distracting Behaviour (Improved) 3,,Nobody’s Fool 1,Inspiring Leadership,,Researcher 2,Force Rating 2
+,Nobody’s Fool 2,Starship Adversary 1,Natural Charmer,Scathing Tirade,Coordinated Assault,Expert Tracker 2,Precise Aim 2,Codebreaker 2,Feral Strength 2,Formation Tactics,,,,,,,Quick Draw,Rapid Reaction 2,Rapid Reaction 2,Rapid Reaction 2,Rapid Reaction 2,,,,,,,,,,,Field Commander,,,,,,,,Inspiring Rhetoric,Improved Dodge 3,,,Nobody’s Fool 2,,,Nobody’s Fool 2
+,,,Nobody’s Fool 1,,Quick Draw (Improved),Guns Blazing,,Quick Strike,Body Guard (Improved) 2,,,,,,,,Swift,,,,,,,,,,,,,,,Formation Tactics (Improved),,,,,,,,,,,,,,,Sleight of Mind 2
+,,,Inspiring Rhetoric (Supreme),,Side Step 2,Lethal Blows 2,,Skilled Slicer,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,Works Like a Charm,,Swift,Rapid Reaction 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Abilities,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Commanding Presence,Strategic Direction,Trusted Reputation,Master Chief,Clone Inhibitor Chip,Clone Inhibitor Chip,Clone Inhibitor Chip,Clone Inhibitor Chip,Clone Inhibitor Chip,Clone Inhibitor Chip,Clone Inhibitor Chip,Clone Inhibitor Chip,Clone Inhibitor Chip,Clone Inhibitor Chip,Clone Inhibitor Chip,Clone Inhibitor Chip,Clone Inhibitor Chip,Band Of Brothers,Band Of Brothers,Band Of Brothers,Band Of Brothers,Clone Inhibitor Chip,Clone Inhibitor Chip,Clone Inhibitor Chip,All in the Manual,Clone Inhibitor Chip,Clone Inhibitor Chip,Clone Inhibitor Chip,Clone Inhibitor Chip,Clone Inhibitor Chip,Clone Inhibitor Chip,Blast ’Em!,,,Pep Talk,Droid,Droid,Droid,Droid,Positive Reinforcement,Amphibious,Expressionless,Playing Politics,Lasting Inspiration,Reappropriate,Field Biology Expert,Force Power: Influence
+,,,,,Joopa Worm Pattern!,We Are The Bad Batch,Ricochet Shot,This Will Do,Time To Wreck It,Bring It Down!,,,,,,,Got You Covered,Clone Inhibitor Chip,Clone Inhibitor Chip,Clone Inhibitor Chip,Clone Inhibitor Chip,,,Heavy Weapons Proficiency,Clone Inhibitor Chip,Shields Up,,,Short Fuse,,,Clone Inhibitor Chip,,,Silhouette 0,Natural Nuisance,Storage Modification,Magnet Modification,Weapon Modification,,Clumsy,,,,,,Force Power: Sense
+,,,,,Tactical Direction,,,,,Tactical Direction,,,,,,,Push The Limits,Interchangeable Weapon,Interchangeable Weapon,Interchangeable Weapon,Interchangeable Weapon,,,,,,,,,,,Tactical Direction,,,,Silhouette 0,,,,,Don’t Do That Again,,,,,,
+,,,,,,,,,,,,,,,,,,Squad Role,Squad Role,Squad Role,Squad Role,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Gear,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Blaster pistol,Blaster pistol,Heavy clothing (+1 Soak),Heavy blaster pistol,Pair of DC-17 blaster pistols,Pair of DC-17 blaster pistols,773 Firepuncher,Pair of DC-17 blaster pistols,DC-17m blaster (rifle mode),DC-15 blaster rifle,DC-15 blaster rifle,DC-17 blaster pistol,DC-17 blaster pistol,DC-17 blaster pistol,DC-17 blaster pistol,DC-17 blaster pistol,Pair of DC-17 blaster pistols,DC-17m blaster (rifle mode),DC-17m blaster (rifle mode),DC-17m blaster (rifle mode),DC-17m blaster (rifle mode),DC-15 blaster rifle,BT X-42 heavy flame projector,Z-6 rotary cannon,DC-17 blaster pistol,TZ-97 shock baton,DC-12u beam rifle,DC-15x sniper rifle,DC-15A blaster carbine,DC-15A blaster carbine,DC-15A blaster carbine,DC-15 blaster rifle,Blaster pistol,Heavy blaster pistol,Light blaster pistol,Metal fists,Arc welder,Arc welder,Arc welder,Heavy blaster pistol,,Body suit (+1 Soak),Staff of Office,Robe of office,Force pike,Datapad,"Umbaran heavy robes (+1 Defence, +1 Soak)"
+,Republic naval uniform (+1 Soak),Republic naval uniform (+1 Soak),Diplomatic comlink,Frag grenade,Frag grenade,Hunter’s knife,2 Frag grenades,"Clone commando armour (+1 Defence, +2 Soak)",DC-17m blaster (anti-armour mode),2 Frag grenades,Clone cadet armour (+1 Soak),Clone armour (+2 Soak),Clone flight suit (+1 Soak),Clone flight suit (+1 Soak),Light clone armour (+1 Soak),Clone naval uniform (+1 Soak),DC-15 blaster rifle,DC-17m blaster (sniper mode),DC-17m blaster (sniper mode),DC-17m blaster (sniper mode),DC-17m blaster (sniper mode),2 Frag grenades,2 Frag grenades,RPS-6 rocket launcher,Clone medical uniform (+1 Soak),M3 bulwark blast shield,Clone scuba armour (+2 Soak; does not suffer movement penalties from moving through water; remove :setback: from Perception checks underwater),DC-17 blaster pistol,2 Frag grenades,2 Frag grenades,Clone armour (+2 Soak),2 Frag grenades,Police uniform (+1 Soak),Truncheon,Republic uniform (+1 Soak),,,,,Frag grenade,,Datapad,Senatorial robes (+1 Soak),Diplomatic comlink,Ceremonial rifle,Researcher’s tools,
+,Encrypted comlink,Encrypted comlink,Secret encrypted comlink,Stun grenade,Clone armour (+2 Soak),2 Frag grenades,"Clone commando armour (+1 Defence, +2 Soak)",Extra reload,2 Frag grenades,Clone armour (+2 Soak),Extra reload,Utility belt,,Sensory augmentation package (add :advantage: to any Perception checks made by the character),Extra reload,Naval comms headset,2 Frag grenades,DC-17m blaster (anti-armour mode),DC-17m blaster (anti-armour mode),DC-17m blaster (anti-armour mode),DC-17m blaster (anti-armour mode),Clone cold assault armour (+2 Soak; add :boost::boost: to check to advoid adverse effects from cold climates; remove :setback: from Perception checks in cold weather conditions),"Insulated clone armour (+2 Soak; add :boost::boost: to checks to avoid adverse effects from extreme heat and toxic climates; reduce damage taken by fire and hazardous environments by 1; attackers must spend one additional :advantage: to activate the Burn item quality, and the quality’s rating is reduced by 1)",2 Frag grenades,Medpac (may make Medicine checks without penalty; add :boost: to all Medicine checks),2 Stun grenades,Utility belt,Clone recon armour (+2 soak),Clone armour (+2 Soak),Clone armour (+2 Soak),Utility belt,Clone armour (+2 Soak),Datapad,Underworld police armour (+1 Soak),,,,,,Stun grenade,,,,Secret encrypted comlink,"Senate Guard captain’s armour (+1 Defence, +2 Soak)",Weapons research manual,
+,,,Datapad,Laminate armour (+2 Soak),Utility belt,"Clone commando armour (+1 Defence, +2 Soak)",Extra reload,Slicer’s datapad,"Clone commando armour (+1 Defence, +2 Soak)",Utility belt,,Vehicle repair kit,,,,,"ARC trooper armour (+1 Defence, +2 Soak)",2 Frag grenades,2 Frag grenades,2 Frag grenades,2 Frag grenades,Utility belt,Utility belt,Clone armour (+2 Soak),3 extra stimpacks,Clone armour (+2 Soak),Extra reload,Utility belt,Utility belt,JT-12C jetpack,Medpac,Utility belt,,,,,,,,Padded armour (+2 Soak),,,,Datapad,Comlink,,
+,,,,,Extra reload,Extra reload,,,Extra reload,Encrypted comlink,,,,,,,"Integrated ascension gear (as an Action, may make an :average: Ranged: Light check to secure a grappling hook to an object within Medium range and reel in cord. May pull another character aloft by making an :easy: Athletics check)","Clone commando armour (+1 Defence, +2 Soak)","Clone commando armour (+1 Defence, +2 Soak)","Clone commando armour (+1 Defence, +2 Soak)","Clone commando armour (+1 Defence, +2 Soak)",Extra reload,Extra reload,Utility belt,,Utility belt,,Survival kit,Toolkit,,Stimpacks,Encrypted comlink,,,,,,,,,,,,,,,
+,,,,,,,,,,Extra reload,,,,,,,"Helmet-mounted rangefinder (remove :setback: caused by darkness, smoke or other conditions that obstruct vision)",Extra reload,Extra reload,Extra reload,Extra reload,,,Extra reload,,,,,,,,Extra reload,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Utility belt,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Extra reload,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Tags,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,military,military,senator,bounty hunter,military,military,military,military,military,military,military,military,military,military,military,military,military,military,military,military,military,military,military,military,military,military,military,military,military,military,military,military,location:Coruscant,location:Coruscant,species:Zilkin,species:Droid,species:Droid,species:Droid,species:Droid,species:Arcona,senator,species:Kaminoan,species:Chagrian,senator,security,species:Bivali,species:Umbaran
+,character:Tarkin,,character:Bail Organa,,clone trooper,clone trooper,clone trooper,clone trooper,clone trooper,clone trooper,clone trooper,clone trooper,clone trooper,clone trooper,clone trooper,clone trooper,clone trooper,clone trooper,clone trooper,clone trooper,clone trooper,clone trooper,clone trooper,clone trooper,clone trooper,clone trooper,clone trooper,clone trooper,clone trooper,clone trooper,clone trooper,clone trooper,security,security,military,d-squad,d-squad,d-squad,d-squad,bounty hunter,species:Gungan,,senator,character:Mon Mothma,,,senator
+,,,,,character:Rex,bad batch,bad batch,bad batch,bad batch,,,pilot,pilot,pilot,,,,,,,,,,,medic,,,,,,,,,,d-squad,,,,,military,,,,,,,

@@ -259,7 +259,7 @@
 			"Vigilance": 1
 		},
 		"talents": ["Adversary 1", "Confidence 2", "Lethal Blows 2"],
-		"weapons": ["E-22 blaster carbine", "Vibroknife", "Frag grenade",
+		"weapons": ["Vibroknife", "Frag grenade",
 			{
 				"name": "E-22 blaster carbine",
 				"skill": "Ranged: Heavy",
@@ -389,7 +389,17 @@
 			"Stealth": 2
 		},
 		"talents": ["Adversary 1", "Convincing Demeanor 2","Natural Negotiator"],
-		"weapons": ["Holdout blaster", "Molecular stiletto"],
+		"weapons": [
+			"Holdout blaster",
+			{
+				"name": "Molecular stiletto",
+				"skill": "Melee",
+				"damage": 2,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
 		"gear": ["Covertly armoured dinner jacket (+1 Soak, +1 Defence)", "Encrypted datapad with financial data and weapons procurement lists" , "Encrypted long range comlink"],
 		"tags": ["source:D20Radio.com", "resistance"]
 	},
@@ -425,7 +435,7 @@
 			"Melee": 3,
 			"Resilience": 3
 		},
-		"talents": ["Adversary 2", "Durable 2", "Gearhead 2", "Speak Binary 1", "Surgeon 2", "Utinni! 1"],
+		"talents": ["Adversary 2", "Durable 2", "Gearhead 2", "Speaks Binary 1", "Surgeon 2", "Utinni! 1"],
 		"abilities": [
 			{
 				"name": "Cybernetic Surgeon",
@@ -948,7 +958,7 @@
 			"Survival": 2,
 			"Vigilance": 2
 		},
-		"talents": ["Surgeon 2", "Stimpack Specialist 2", "Forager", "Toughness 1", "Bacta Specialist 1"],
+		"talents": ["Surgeon 2", "Stimpack Specialisation 2", "Forager", "Toughness 1", "Bacta Specialist 1"],
 		"weapons": ["Heavy blaster pistol",
 			{
 				"name": "Combat knife",
@@ -999,7 +1009,7 @@
 			"Ranged: Light": 3,
 			"Vigilance": 2
 		},
-		"talents": ["Adversary 3", "Crippling Blow", "Improved Scathing Tirade"],
+		"talents": ["Adversary 3", "Crippling Blow", "Scathing Tirade (Improved)"],
 		"abilities": ["Aura of Command",
 			{
 			"name": "Imperial Valor",
@@ -1148,7 +1158,7 @@
 			"Streetwise": 2,
 			"Survival": 3
 		},
-		"talents": ["Expert Tracker 2", "Heightened Awareness", "Hunter’s Quarry [Improved]"],
+		"talents": ["Expert Tracker 2", "Heightened Awareness", "Hunter’s Quarry (Improved)"],
 		"weapons": [
 				{
 				"name": "Blastech M-300 Hunting Blaster",
@@ -1816,7 +1826,7 @@
 			"description": "Once per encounter, negate an ability that prevents the acting force commander from applying their Leadership skill."
 			}
 		],
-		"talents": ["Careful Planning", "Researcher 2", "Thorough Assesment"],
+		"talents": ["Careful Planning", "Researcher 2", "Thorough Assessment"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Uniform (+1 Soak)", "Encoded datapad with staff estimates and planning data"],
 		"tags": ["source:D20Radio.com", "rebel alliance"]
@@ -2201,7 +2211,7 @@
 			"Skulduggery": 3,
 			"Vigilance": 3
 		},
-		"talents": ["Adversary 3", "Improved Parry", "Parry 5", "Trust No One",
+		"talents": ["Adversary 3", "Parry (Improved) 5", "Trust No One",
 			{
 				"name": "Secrets of the Jedi",
 				"description": "Senex may decrease the difficulty of checks made to construct or repair lightsaber hilts twice."
@@ -2343,7 +2353,7 @@
 				"qualities": ["Pierce 2", "Defensive 1", "Vicious 1"]
 			}
 		],
-		"abilities": ["droid",
+		"abilities": ["Droid",
 			{
 				"name": "Gyrobalanced legs",
 				"description": "Gain an additional free maneuver per turn that can only be used for movement. May not perform more than two maneuvers per turn."
@@ -2663,10 +2673,7 @@
 			}
 		],
 		"abilities": [
-			{
-				"name": "Improved Terrify",
-				"description": "Take the Terrify action; make a :average: Coercion check, adding :force: no greater than Force rating. Disorient one target within medium range per :success:. Spend :advantage::advantage: to extend duration and :triumph: to stagger one target. Spend :darkside: to immobilize one target."
-			},
+			"Terrify (Improved)",
 			{
 				"name": "Force Power: Enhance",
 				"description": ":darkside: gain :success: or :advantage: on Athletics, Brawl, Coordination, or Resilience. :force: increase Brawn characteristic by 1, :darkside: take a Force Leap maneuver to jump horizontally or vertically to any location in short range. :darkside: : increase range of leap by 1."
@@ -3153,7 +3160,7 @@
 			"Ranged: Light": 1,
 			"Vigilance": 2
 		},
-		"talents": ["Encoded Communique", "Improved Researcher", "Researcher 2", "Stroke of Genius",
+		"talents": ["Encoded Communique", "Researcher (Improved)", "Researcher 2", "Stroke of Genius",
 			{
 				"name": "Thorough Assessment",
 				"description": "Once per session, take a :hard: Knowledge check to add :boost: equal to the number of :success: that can be distributed during the encounter."
@@ -3276,11 +3283,10 @@
 			"Ranged: Light": 2
 		},
 		"talents": ["Codebreaker", "Encoded Communique", "Nobody’s Fool 2"],
-		"abilities": [""],
 		"weapons": [
 				{
 				"name": "Military Holdout Blaster",
-				"skill": "Ranged: light",
+				"skill": "Ranged: Light",
 				"damage": 6,
 				"critical": 3,
 				"range": "Short",
@@ -3874,7 +3880,7 @@
 			"Negotiation": 3,
 			"Vigilance": 2
 		},
-		"talents": ["Adversary 3", "Kill with Kindness 2", "Just Kidding"],
+		"talents": ["Adversary 3", "Kill with Kindness 2", "Just Kidding!"],
 		"abilities": ["Droid"],
 		"tags": ["source:D20Radio.com", "species:Droid"]
 	},
@@ -3945,7 +3951,7 @@
 				"critical": 4,
 				"range": "Medium",
 				"qualities": ["Stun"],
-				"notes": "may not be redirected using Improved Reflect, see pg. 56 of Special Modifications for grapnel rules"
+				"notes": "May not be redirected using Improved Reflect, see pg. 56 of Special Modifications for grapnel rules."
 			}
 		],
 		"gear": ["armored clothing (+1 Soak, +1 Defence)", "Load bearing equipment"],

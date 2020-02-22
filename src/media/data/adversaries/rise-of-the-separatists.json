@@ -28,7 +28,7 @@
 			"Ranged: Light": 3,
 			"Vigilance": 2
 		},
-		"talents": ["Adversary 2", "Improved Inspiring Rhetoric", "Nobody’s Fool 3"],
+		"talents": ["Adversary 2", "Inspiring Rhetoric (Improved)", "Nobody’s Fool 3"],
 		"abilities": [
 			{
 				"name": "Unmatched Insight",
@@ -69,7 +69,7 @@
 			"Survival": 3,
 			"Vigilance": 3
 		},
-		"talents": ["Adversary 4", "Congenial 3", "Force Rating 4", "Improved Reflect 4", "Parry 4", "Soresu Technique"],
+		"talents": ["Adversary 4", "Congenial 3", "Force Rating 4", "Reflect (Improved) 4", "Parry 4", "Soresu Technique"],
 		"abilities": ["Force Power: Move", "force-power-enhance-rots", "force-power-sense-rots",
 			{
 				"name": "Force Power: Influence",
@@ -87,7 +87,7 @@
 			}
 		],
 		"gear": ["Jedi commander armour (+1 Defence, +2 Soak)", "Jedi utility belt"],
-		"tags": ["book:rots", "jedi", "force sensitive"]
+		"tags": ["book:rots", "jedi", "force sensitive", "character:Obi-Wan"]
 	},
 	{
 		"name": "Count Dooku",
@@ -120,7 +120,7 @@
 			"Perception": 2,
 			"Vigilance": 3
 		},
-		"talents": ["Adversary 4", "Congenial 3", "Force Rating 5", "Improved Parry 4", "Makashi Technique", "Reflect 4"],
+		"talents": ["Adversary 4", "Congenial 3", "Force Rating 5", "Parry (Improved) 4", "Makashi Technique", "Reflect 4"],
 		"abilities": ["Darkside Force User", "Force Power: Move", "force-power-sense-rots", "force-power-enhance-rots",
 			{
 				"name": "Force Power: Unleash",
@@ -143,7 +143,7 @@
 			}
 		],
 		"gear": ["Armourweave cloak (+1 Defence, +2 Soak)"],
-		"tags": ["book:rots", "separatist", "sith", "darkside", "force sensitive"]
+		"tags": ["book:rots", "separatist", "sith", "darkside", "force sensitive", "character:Dooku"]
 	},
 	{
 		"name": "Asajj Ventress",
@@ -176,7 +176,7 @@
 			"Survival": 3,
 			"Vigilance": 4
 		},
-		"talents": ["Adversary 3", "Ataru Technique", "Force Rating 3", "Improved Parry 3", "Reflect 4", "Saber Swarm"],
+		"talents": ["Adversary 3", "Ataru Technique", "Force Rating 3", "Parry (Improved) 3", "Reflect 4", "Saber Swarm"],
 		"abilities": ["Darkside Force User", "Force Power: Move", "force-power-sense-rots", "force-power-enhance-rots",
 			{
 				"name": "Force Power: Bind",
@@ -225,7 +225,7 @@
 			"Perception": 3,
 			"Vigilance": 3
 		},
-		"talents": ["Adversary 4", "Improved Parry 4"],
+		"talents": ["Adversary 4", "Parry (Improved) 4"],
 		"abilities": ["Cyborg",
 			{
 				"name": "Four-Armed",
@@ -865,7 +865,7 @@
 			"Ranged: Light": 2,
 			"Vigilance": 2
 		},
-		"talents": ["Adversary 1", "Nobody’s Fool 2", "Improved Inspiring Rhetoric", "Improved Scathing Tirade"],
+		"talents": ["Adversary 1", "Nobody’s Fool 2", "Inspiring Rhetoric (Improved)", "Scathing Tirade (Improved)"],
 		"abilities": ["Droid"],
 		"weapons": ["Heavy blaster pistol"],
 		"gear": ["Datapad", "Integrated comlink"],

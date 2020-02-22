@@ -22,17 +22,7 @@
 			"Vigilance": 2
 		},
 		"abilities": ["Many-armed"],
-		"weapons": [
-			"Blaster pistol",
-			{
-				"name": "Brass knuckles",
-				"skill": "Melee",
-				"plus-damage": 1,
-				"critical": 4,
-				"range": "Engaged",
-				"qualities": ["Disorient 3"]
-			}
-		],
+		"weapons": ["Blaster pistol", "Brass knuckles"],
 		"gear": ["Utility belt"],
 		"tags": ["galactic oddity", "civilian", "species:Besalisk", "book:fad"]
 	},

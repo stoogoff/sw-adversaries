@@ -808,7 +808,7 @@
 			"Ranged: Light": 3,
 			"Vigilance": 3
 		},
-		"talents": ["Adversary 2", "Improved Inspiring Rhetoric", "Improved Scathing Tirade"],
+		"talents": ["Adversary 2", "Inspiring Rhetoric (Improved)", "Scathing Tirade (Improved)"],
 		"abilities": ["Animal Combatant", "Wilderness Valor"],
 		"weapons": [
 			"Heavy blaster pistol",

@@ -1,0 +1,89 @@
+Name,Aayla Secura,Adi Gallia,Anakin Skywalker (HoBS),Barriss Offee,Cin Drallig,Coleman Kcaj,Depa Billaba,Eeth Koth,Even Piell,Jedi Ace,Jedi General,Jedi Knight,Jedi Master,Jedi Padawan (HoBS),Jedi Youngling,Jocasta Nu,K’Kruhk,Ki-Adi-Mundi,Kit Fisto,Luminara Unduli,Mace Windu,Obi-Wan Kenobi (HoBS),Oppo Rancisis,Plo Koon,Pong Krell,Professor Huyang,Quinlan Vos,Rig Nema,Saesee Tiin,Shaak Ti,Tera Sinube,Tholme,Tiplar,Tiplee
+Type,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Rival,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis
+Characteristics,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Brawn,3,3,4,2,4,3,2,3,4,3,4,3,3,3,2,2,5,3,4,3,4,3,3,3,5,3,3,2,3,2,2,2,3,3
+Agility,4,4,4,4,4,3,3,3,4,4,3,4,3,3,2,2,3,3,4,4,3,3,2,4,4,2,4,3,4,3,2,2,4,4
+Intellect,3,3,2,3,3,4,4,4,3,2,4,3,4,2,2,5,3,4,3,4,4,5,5,3,4,4,3,4,4,4,4,4,3,3
+Cunning,4,4,2,4,4,3,4,4,3,4,3,3,3,3,2,4,4,4,4,3,3,5,3,3,3,3,4,4,3,4,4,4,4,4
+Willpower,3,3,3,3,4,4,3,4,4,3,4,4,4,3,2,3,4,4,4,4,5,4,4,4,4,2,3,3,4,4,3,4,3,3
+Presence,3,4,3,3,2,3,4,3,3,2,3,2,4,2,2,2,3,3,4,3,5,4,4,4,4,1,3,3,3,4,4,3,4,4
+Derived,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Soak,4,4,5,3,5,4,3,4,5,3,5,4,4,4,3,3,6,4,5,4,5,5,4,4,8,3,4,3,4,3,3,3,4,4
+Wound Threshold,15,17,17,15,18,17,15,17,17,15,18,17,17,15,12,14,19,17,18,16,18,16,15,17,22,15,18,14,17,16,14,15,16,16
+Strain Threshold,15,17,15,14,16,18,18,17,15,15,17,16,18,13,,18,16,18,16,16,20,18,20,18,20,15,18,16,18,18,17,18,15,15
+Melee Defence,1,1,1,1,2,1,1,2,1,1,2,1,1,1,0,0,2,1,1,1,1,1,1,1,2,0,1,1,1,1,1,1,1,1
+Ranged Defence,1,1,1,1,1,1,1,1,1,1,2,1,1,1,0,0,1,1,1,1,1,1,1,1,2,0,1,1,1,1,1,1,1,1
+Skills,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Astrogation,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,2,,,,,
+Athletics,3,2,2,,3,,,,2,,3,2,2,2,,,,,3,,2,,,,,,,,,,,,3,
+Brawl,,3,,2,2,,,,,,,,,,,,3,,,3,,,2,,4,2,3,,,,,,,
+Charm,2,,,,,,3,,,,,,,,,,,,3,2,,4,,3,,,,2,,3,3,,2,
+Coercion,,,4,,2,,,,2,,,,,,,,,,,,3,,,,4,,,,,,,,,2
+Computers,,,,,,,,,,,,,,,,,,,,,,,,,,3,,2,,,,,,
+Cool,2,,2,2,2,3,2,3,,3,3,3,3,2,1,2,2,3,3,3,4,4,3,3,2,1,3,2,3,3,3,3,3,3
+Coordination,4,,,3,,,,,3,,,,,,2,,,,,,,,,,,,3,,,,,,,3
+Cybernetics,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Deception,,,2,3,,,,,,,,,,,,,,,,,,2,,,3,,,,,,,4,,
+Discipline,3,4,2,3,4,3,4,4,4,2,4,3,3,2,2,3,3,4,4,4,5,4,4,4,4,,2,3,4,4,4,4,4,3
+Gunnery,,2,3,,,,,,,3,,,,,,,,,,,,,,2,,,,,3,,,,,
+Leadership,3,,3,,2,,,2,,,4,,3,,,,,3,3,,5,3,3,3,3,,,,2,4,,,2,2
+Lightsaber,,3,4,3,4,3,,4,3,3,4,3,4,2,1,2,3,4,,,,,,4,4,,4,3,4,,,,3,3
+Lightsaber (Agility),3,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,
+Lightsaber (Intellect),,,,,,,,,,,,,,,,,,,,3,,4,,,,,,,,,,,,
+Lightsaber (Cunning),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,,
+Lightsaber (Willpower),,,,,,,3,,,,,,,,,,,,,,5,,,,,,,,,,,,,
+Lightsaber (Presence),,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,3,,,,
+Mechanics,2,,3,,,,,,,2,,,,,,,,,,,,,,,,3,,,3,,,,,
+Medicine,,,,2,,,2,,,,,,,,,,3,,,,,,,,,,,4,,,,,,
+Melee,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Negotiation,,3,,,,,3,,,,,3,4,1,,,,2,,3,4,4,3,,,,,,,3,4,3,3,
+Perception,,3,2,2,,,3,3,,2,2,3,3,2,2,3,,3,,4,4,2,4,4,,,3,3,3,3,4,4,3,3
+Piloting: Planetary,,,,,,2,,,,2,2,2,2,,,,,,,,,,,,,,,,,,1,,,
+Piloting: Space,3,4,5,,,,,,,4,,,,,,,,,3,,,,,4,,,,,4,,,,,
+Ranged: Heavy,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ranged: Light,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,
+Resilience,,,,,2,,,2,3,,,,,,,,4,,,,2,,,,4,,,,2,,,,,
+Skulduggery,,,,,,2,,,,,,,,,,,,,,,,,,,,,3,,,,,2,,
+Stealth,,,,2,,,,,,,,,,,,,,,,,,,,,,,3,,,,,4,,
+Streetwise,2,2,,,,2,,,,,,,,,,,3,,,,,,,,,,,,,,3,4,,
+Survival,,,,,,,,2,2,,,,2,,,,4,,2,,,3,,3,,,,2,,,,,,
+Vigilance,3,3,3,2,4,3,2,3,3,2,3,2,3,2,,,3,3,2,2,3,3,2,2,3,,,1,3,3,2,3,2,4
+Knowledge: Core Worlds,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,
+Knowledge: Education,,,,3,,,2,,,,,,,,,4,,,,2,,,,,,3,,3,,,,3,,
+Knowledge: Lore,,,,3,,2,3,3,,,,2,3,,,5,2,3,,2,3,2,4,2,,4,,,,,3,3,,
+Knowledge: Outer Rim,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Knowledge: Underworld,,,,,,3,,,,,,,,,,,,,,,,,,,,,4,,,,5,5,,
+Knowledge: Warfare,,,,,,,,,,,4,,,,,,,3,2,,3,,4,,,,,,,,,,,
+Knowledge: Xenology,,,,,,,,,,,,,,,,4,,,,,,,,,,,,4,,2,,,,
+Talents,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Adversary 2,Adversary 3,Adversary 3,Adversary 2,Adversary 3,Adversary 3,Adversary 3,Adversary 3,Adversary 3,Adversary 3,Adversary 3,Adversary 2,Adversary 3,Adversary 1,Adversary 1,Adversary 1,Adversary 2,Adversary 3,Adversary 3,Adversary 3,Adversary 4,Adversary 4,Adversary 3,Adversary 3,Adversary 3,Adversary 1,Adversary 3,Adversary 2,Adversary 3,Adversary 3,Adversary 2,Adversary 2,Adversary 2,Adversary 2
+,Ataru Technique,Fine Tuning 2,Force Rating 5,Force Rating 3,Duelist’s Training,Force Rating 4,Force Rating 4,Force Rating 4,Durable 2,Force Rating 4,Force Rating 4,Force Rating 3,Force Rating 4,Force Rating 2,Force Rating 1,Force Rating 4,Durable 2,Clever Commander,Ataru Technique,Force Rating 4,Force Rating 5,Congenial 3,Clever Commander,Force Rating 4,Durable 3,Eye for Detail 2,Force Rating 4,Force Rating 4,Brilliant Evasion,Force Rating 4,Force Rating 4,Force Rating 4,Force Rating 4,Bad Cop 1
+,Force Rating 4,Finesse,Parry (Improved) 4,Reflect (Improved) 3,Force Rating 4,Reflect (Improved) 3,Healing Trance 2,Forewarning 1,Force Rating 4,Parry 2,Reflect (Improved) 4,Reflect (Improved) 3,Parry (Improved) 3,Parry 2,,Researcher (Improved) 2,Force Rating 4,Force Rating 4,Congenial 2,Reflect (Improved) 4,Parry (Improved) 5,Force Rating 4,Force Rating 5,Parry (Improved) 3,Force Rating 4,Nobody’s Fool 2,Reflect (Improved) 3,Master Doctor,Force Rating 4,Reflect (Improved) 4,Good Cop 2,Know their Weakness 2,Good Cop 1,Force Rating 4
+,Reflect (Improved) 4,Force Rating 4,Reflect (Improved) 4,Parry 3,Forewarning 1,Parry 3,Parry (Improved) 3,Parry (Improved) 4,Parry (Improved) 3,Reflect 2,Parry 4,Parry 3,Reflect (Improved) 3,Reflect 2,,Nobody’s Fool 2,Healing Trance 3,Reflect (Improved) 4,Force Rating 4,Parry 3,Reflect (Improved) 4,Reflect (Improved) 4,Parry (Improved) 3,Reflect (Improved) 4,Parry (Improved) 3,Quick Draw,Parry 2,Parry 2,Full Throttle,Inspiring Rhetoric (Improved),Parry (Improved) 3,Parry 3,Reflect (Improved) 4,Reflect (Improved) 4
+,Parry 3,Parry (Improved) 3,Natural Pilot,Surgeon 3,Parry (Improved) 4,Shroud,Reflect (Improved) 4,Reflect (Improved) 3,Reflect (Improved) 3,Skilled Jockey 2,Stand Firm,Sense Emotions,Sense Emotions,,,Parry 2,Parry (Improved) 3,Parry 3,Parry (Improved) 4,Skilled Teacher 2,Niman Technique,Parry 4,Reflect (Improved) 3,Inspiring Rhetoric,Reflect (Improved) 4,Tinkerer 1,,Reflect 2,Master Pilot,Makashi Technique,Reflect 3,Reflect 2,Inspiring Rhetoric,Parry 3
+,Saber Throw,Reflect (Improved) 4,,Valuable Facts,Reflect (Improved) 4,,Niman Technique,Mind Over Matter,Scathing Tirade,,,,Skilled Teacher 2,,,Reflect 2,Reflect (Improved) 3,,Reflect (Improved) 3,Soresu Technique,,Soresu Technique,Makashi Technique,Master Pilot,Multiple Opponents,,,Surgeon 3,Reflect (Improved) 3,Parry 3,Sense the Scene,Shien Technique,Parry 3,Scathing Tirade
+,,,,,Master Instructor,,Skilled Teacher 3,,,,,,The Force is My Ally,,,,,,,Unarmed Parry,,,,,,,,,Parry 3,,Shien Technique,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Abilities,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Earned Loyalty,Force Power: Enhance,Chosen One,Force Power: Enhance,Force Power: Enhance,Force Power: Enhance,Force Power: Enhance,Force Power: Bind,Force Power: Enhance,Force Power: Enhance,Force Power: Enhance,Force Power: Enhance,Force Power: Enhance,Force Power: Enhance,Force Power: Move,Buried In The Archives,Force Power: Enhance,Force Power: Enhance,Amphibious,Exemplary Mentor,Force Power: Enhance,Force Power: Enhance,Force Power: Battle Meditation,Atmospheric Requirement,Additional Limbs,Additional Limbs,Force Power: Enhance,Force Power: Enhance,Didn’t Forget About You,Force Power: Enhance,Force Power: Enhance,Force Power: Enhance,Force Power: Enhance,Force Power: Enhance
+,Force Power: Enhance,Force Power: Influence,Force Power: Bind,Force Power: Heal,Force Power: Influence,Force Power: Influence,Force Power: Foresee,Force Power: Enhance,Force Power: Influence,Force Power: Move,Force Power: Influence,Force Power: Influence,Force Power: Influence,Force Power: Move,Force Power: Sense,Force Power: Enhance,Force Power: Influence,Force Power: Influence,Natural Environment,Force Power: Enhance,Force Power: Influence,Force Power: Influence,Force Power: Enhance,Father To His Men,Flexible Morality,Droid,Force Power: Influence,Force Power: Heal,Force Power: Enhance,Force Power: Influence,Force Power: Influence,Force Power: Influence,Force Power: Influence,Force Power: Influence
+,Force Power: Influence,Force Power: Move,Force Power: Enhance,Force Power: Influence,Force Power: Move,Force Power: Misdirect,Force Power: Influence,Force Power: Influence,Force Power: Move,Force Power: Sense,Force Power: Move,Force Power: Move,Force Power: Move,Force Power: Sense,,Force Power: Influence,Force Power: Move,Force Power: Move,Force Power: Enhance,Force Power: Influence,Force Power: Move,Force Power: Move,Force Power: Influence,Force Power: Enhance,Force Power: Bind,Trust The Components,Force Power: Move,Force Power: Move,Force Power: Influence,Force Power: Move,Force Power: Move,Force Power: Move,Force Power: Move,Force Power: Move
+,Force Power: Move,Force Power: Sense,Force Power: Influence,Force Power: Move,Force Power: Sense,Force Power: Move,Force Power: Move,Force Power: Move,Force Power: Sense,,Force Power: Sense,Force Power: Sense,Force Power: Sense,,,Force Power: Move,Force Power: Sense,Force Power: Sense,Force Power: Influence,Force Power: Move,Force Power: Seek,Force Power: Sense,Force Power: Move,Force Power: Influence,Force Power: Enhance,,Force Power: Seek,Force Power: Sense,Force Power: Move,Force Power: Sense,Force Power: Seek,Force Power: Sense,Force Power: Sense,Force Power: Sense
+,Force Power: Sense,,Force Power: Move,Force Power: Sense,,Force Power: Sense,Force Power: Sense,Force Power: Sense,Indomitable,,Last Stand,,,,,Force Power: Sense,,We Must Push On!,Force Power: Move,Force Power: Sense,Force Power: Sense,,Force Power: Sense,Force Power: Move,Force Power: Foresee,,Force Power: Sense,,Force Power: Sense,Galvanize The Troops,Force Power: Sense,,Twin Bond,Twin Bond
+,,,Force Power: Sense,,,,Master And Apprentice,Hold Them Off,,,,,,,,,,,Force Power: Sense,,Vaapad Flourish,,Hidden Limbs,Force Power: Sense,Force Power: Move,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,Force Power: Sense,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Gear,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Aayla’s Lightsaber,Adi Gallia’s Lightsaber,Anakin’s Lightsaber,Barriss Offee’s Lightsaber,Cin Drallig’s Lightsaber,Coleman’s Lightsaber,Depa’s Lightsaber,Eeth Koth’s Lightsaber,Even Piell’s Lightsaber,Lightsaber,General’s Lightsaber,Lightsaber,Master’s Lightsaber,Padawan’s Lightsaber,Training Lightsaber,Jocasta’s Lightsaber,K’Kruhk’s Lightsaber,Ki-Adi-Mundi’s Lightsaber,Kit Fisto’s Lightsaber,Luminara’s Lightsaber,Windu’s Lightsaber,Obi-Wan’s Lightsaber,Oppo’s Lightsaber,Plo Koon’s Lightsaber,Krell’s Dual Double-Bladed Lightsabers,Welding torch,Vos’ Lightsaber,Nema’s Lightsaber,Tiin’s Lightsaber,Shaak Ti’s Lightsaber,Sinube’s Lightsaber,Tholme’s Lightsaber,Tiplar’s Lightsaber,Tiplee’s Lightsaber
+,"Light Jedi clothing (+1 Defence, +1 Soak)","Padded robes (+1 Defence, +1 Soak)","Padded robes (+1 Defence, +1 Soak)","Jedi robes (+1 Defence, +1 Soak)","Padded robes (+1 Defence, +1 Soak)","Heavy Jedi robes (+1 Defence, +1 Soak)","Jedi robes (+1 Defence, +1 Soak)","Jedi robes (+1 Defence, +1 Soak)","Jedi robes (+1 Defence, +1 Soak)","Jedi robes (+1 Defence, +1 Soak)","Jedi battle armor (+2 Defence, +2 soak)","Jedi robes (+1 Defence, +1 Soak)","Jedi robes (+1 Defence, +1 Soak)","Jedi robes (+1 Defence, +1 Soak)",Youngling robes (+1 Soak),Jedi librarian robes (+1 Soak),Tusks,"Padded Jedi tunic (+1 Defence, +1 Soak)","Jedi robes (+1 Defence, +1 Soak)","Jedi robes (+1 Defence, +1 Soak)","Jedi robes (+1 Defence, +1 Soak)","Jedi commander armour (+1 Defence, +1 Soak)",Tail attack,"Padded robes (+1 Defence, +1 Soak)","Jedi battle robes (+1 Defence, +1 Soak)",,Blaster pistol,"Light Jedi clothing (+1 Defence, +1 Soak)","Jedi robes (+1 Defence, +1 Soak)","Heavy Jedi robes (+1 Defence, +1 Soak)","Jedi robes (+1 Defence, +1 Soak)","Jedi robes (+1 Defence, +1 Soak)","Jedi robes (+1 Defence, +1 Soak)","Jedi robes (+1 Defence, +1 Soak)"
+,Jedi utility belt,Jedi utility belt,,,,,,,,,,,,,,,"Jedi robes (+1 Defence, +1 Soak)",,Encrypted comlink,,,Jedi utility belt,"Jedi robes (+1 Defence, +1 Soak)",,,,"Light Jedi armor (+1 Defence, +1 Soak)",Jedi utility belt,Jedi utility belt,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Encrypted comlink,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Tags,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,species:Twi’lek,species:Tholothian,character:Anakin,species:Mirialan,,species:Ongree,,species:Zabrak,species:Lannik,,,,,,,,species:Whiphid,species:Cerean,species:Nautolan,species:Mirialan,,character:Obi-Wan,species:Thisspiasian,species:Kel Dor,species:Besalisk,species:Droid,,medic,species:Iktotchi,species:Togruta,species:Cosian,,species:Mikkian,species:Mikkian
+,,,,character:Barriss Offee,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

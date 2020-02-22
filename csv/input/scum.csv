@@ -1,0 +1,93 @@
+Name,Black Sun Foot Soldier,Boba Fett (Child),C-21 Highsinger,Cato Parasitti,Dengar (HoBS),Derrown,Embo,Greedo,Hondo Ohnaka (HoBS),Ziro the Hutt,Latts Razzi,Moralo Eval,Pyke Leader,Pyke Syndicate Soldier,Rako Hardeen,Robonino,Seripas,Seripas (Armoured),Sugi,Sy Snootles,Todo 360
+Type,Minion,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Nemesis,Minion,Nemesis,Nemesis,Rival,Nemesis,Nemesis,Rival,Rival
+Characteristics,,,,,,,,,,,,,,,,,,,,,
+Brawn,3,2,4,2,3,2,4,2,2,4,3,4,2,2,3,1,1,5,3,2,1
+Agility,2,3,4,4,3,4,4,3,3,1,4,3,3,2,4,3,2,2,4,2,2
+Intellect,1,3,3,3,3,3,2,2,2,4,2,3,3,2,2,4,3,3,3,3,3
+Cunning,2,4,2,4,4,4,3,4,4,6,4,4,4,3,3,4,3,3,3,4,3
+Willpower,2,3,2,2,3,3,4,1,3,4,2,3,4,2,3,2,2,3,3,2,1
+Presence,1,2,1,2,3,2,2,2,3,4,2,2,3,2,2,2,1,2,3,4,1
+Derived,,,,,,,,,,,,,,,,,,,,,
+Soak,5,4,6,4,5,4,5,4,3,8,4,6,4,4,4,3,2,8,4,2,2
+Wound Threshold,6,14,18,14,16,16,18,15,14,25,15,18,15,5,17,14,11,18,18,12,10
+Strain Threshold,,13,14,15,16,15,18,14,15,20,14,16,14,,13,14,,15,15,,
+Melee Defence,0,0,1,0,1,1,1,0,2,0,0,1,0,0,1,0,0,1,0,0,0
+Ranged Defence,0,0,1,0,1,1,2,0,1,0,0,1,0,0,1,0,0,1,0,0,0
+Skills,,,,,,,,,,,,,,,,,,,,,
+Astrogation,,,,,,,,,,,,,,,,2,2,,,,2
+Athletics,,,,,,,4,,,,3,3,,,3,,,,3,,
+Brawl,1,3,3,3,3,4,4,2,,,4,3,,,2,,,4,4,,
+Charm,,,,,,,,2,3,3,4,,3,,,,,,2,4,
+Coercion,1,,3,,,3,,,,3,,3,2,,2,,,3,,,
+Computers,,,2,2,,,,,,,,2,,,,5,,,,,4
+Cool,,3,,,2,3,3,,1,3,2,,3,,2,,,,3,,
+Coordination,,,,,,4,3,,,,3,,,,,2,,,,,
+Cybernetics,,,,,,,,,,,,,,,,,,,,,
+Deception,,2,,3,2,,,3,4,5,2,,4,,,3,,,,3,3
+Discipline,,1,2,,,2,4,,,,,,2,,,,,,2,,
+Gunnery,,3,,,,,,,,,,2,,,,,,,,,
+Leadership,,,,,,,,1,3,2,,,3,,,,,,3,,
+Lightsaber,,,,,,,,,,,,,,,,,,,,,
+Lightsaber (Agility),,,,,,,,,,,,,,,,,,,,,
+Lightsaber (Intellect),,,,,,,,,,,,,,,,,,,,,
+Lightsaber (Cunning),,,,,,,,,,,,,,,,,,,,,
+Lightsaber (Willpower),,,,,,,,,,,,,,,,,,,,,
+Lightsaber (Presence),,,,,,,,,,,,,,,,,,,,,
+Mechanics,,,,,3,3,,,,,,2,,,,4,3,,,,4
+Medicine,1,,,,,,,,,,,,,,,,,,,,
+Melee,,,,2,,,2,3,2,,4,,,1,,,,3,3,,
+Negotiation,,,,,,,,3,3,5,,,4,,,,,,,2,
+Negotiation (Cunning),,,,,,,,,,,,4,,,,,,,,,
+Perception,,,,,,2,2,2,2,2,2,3,,,2,2,2,,,3,
+Piloting: Planetary,,,,,2,,2,3,,,,,,1,3,2,3,,,,
+Piloting: Space,,2,,,,,,,2,,,2,,,,,3,,3,,
+Ranged: Heavy,,,4,3,4,,4,,,,,3,,,3,,,3,3,,
+Ranged: Light,1,3,3,2,,3,3,2,2,,3,2,2,1,3,2,,,3,1,
+Resilience,,,4,2,,4,,,,6,,2,,,,,,4,,,
+Skulduggery,,,,4,4,4,,4,3,5,3,4,4,1,,,2,,2,3,4
+Stealth,,2,,3,,,,,1,,2,,,,2,2,2,,,,3
+Streetwise,,2,,3,2,,,4,2,4,3,,3,,2,3,,,,3,
+Survival,,,,,4,,3,2,,,,,,,3,,,,,,
+Vigilance,,2,4,3,2,3,3,2,,,3,4,,,2,2,,2,2,,
+Knowledge: Core Worlds,,,,,,,,,,,,,,,,,,,,,
+Knowledge: Education,,,,,,,,,,,,,,,,,,,,,
+Knowledge: Lore,,,,,,,,,,,,,,,,,,,,,
+Knowledge: Outer Rim,,,,,,,,,1,4,,,,,,,,,,,
+Knowledge: Underworld,,2,,3,4,,,3,2,5,,,4,,,,,,3,,
+Knowledge: Underworld (Cunning),,,,,,,,,,,,5,,,,,,,,,
+Knowledge: Warfare,,,,,,,,,,,,,,,,,,,,,
+Knowledge: Xenology,,,,,,,,,,,,,,,,,,,,,
+Talents,,,,,,,,,,,,,,,,,,,,,
+,,Adversary 1,Adversary 2,Adversary 1,Adversary 1,Adversary 1,Adversary 3,Adversary 1,Adversary 2,Adversary 2,Adversary 1,Adversary 2,Adversary 1,,Adversary 2,Adversary 1,Skilled Jockey 1,Adversary 1,Adversary 2,Kill with Kindness 2,Bypass Security 2
+,,Quick Draw (Improved),Grapple,,Durable 3,Grapple,Hard Headed 1,Shortcut (Improved) 2,Just Kidding! (Improved),Durable 2,Dodge 2,Nobody’s Fool 1,Nobody’s Fool 2,,Lethal Blows 2,Bypass Security 2,,Point Blank 2,Quick Strike 1,Nobody’s Fool 1,Nobody’s Fool 1
+,,,Point Blank 2,,Rain of Death,,,Quick Strike 1,Kill with Kindness 1,Nobody’s Fool 2,Grapple,,Plausible Deniability 1,,,Codebreaker 2,,,Unarmed Parry,,Technical Aptitude 2
+,,,Droid,,,,,,Smooth Talker (Deception) 2,Plausible Deniability 2,Martial Grace,,,,,Skilled Slicer,,,,,
+,,,,,,,,,,,Unarmed Parry,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+Abilities,,,,,,,,,,,,,,,,,,,,,
+,,Jango’s Legacy,Blaster Spiral,Shape Shift,Brutal Hunter,Additional Limbs,Improvised Transport,Can’t Stand The Heat,Distracting Quip,Awkward,,Criminal Mastermind,Ride The High,,,Amphibious,Silhouette 0,Power Suit,Knife Master,The Show Goes On,Techno Service Droid
+,,Just A Kid,,,Cantina Talk,Hoverer (Derrown),,,Weequay Pheromones,Delicate Information,,,,,,Silhouette 0,,,,,
+,,Silhouette 0,,,Dirty Tricks,Electric Field,,,,Ponderous,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+Gear,,,,,,,,,,,,,,,,,,,,,
+,Black Sun twin blaster,Dual WESTAR-34 blaster pistols,Light repeating blaster,Model 38 sharpshooter’s rifle,DLT-18 heavy blaster rifle,Shoulder-mounted light repeating blaster,Bowcaster,Blaster pistol,Heavy blaster pistol,Servants and bodyguards,Modified blaster pistol,Heavy blaster rifle,Pyke blaster,Pyke blaster,IQA-11 long range rifle,Blaster pistol,Repair tools,Integrated repeating blasters,Sugi’s EE-3 blaster carbine,Holdout blaster,Integrated slicer’s tools
+,Electro-shock prod,Bolas,Blaster pistol,Light blaster pistol,Frag grenade,Tentacles,Kyuzo helmet (thrown),Vibroknife,Vibro cutlass,Repulsor sled,Grappling boa,Heavy blaster pistol,Pyke armoured robes (+2 Soak),Vibroknife,Heavy blaster pistol,Stun grenade,Flightsuit (+1 Soak),Built-in power saw,Vibroknife,Make-up bag,Built-in encrypted comlink
+,Black Sun padded armour (+2 Soak),2 Stun grenades,Built-in vibroknucklers,Light combat armour (+2 Soak),"Modified heavy battle armour (+1 Defence, +2 Soak)","Combat suit (+1 Defence, +2 Soak)",Kyuzo helmet (melee),Combat vest (+2 Soak),"Heavy pirate coat (+1 Defence, +1 Soak)",,2 Smoke grenades,2 Frag grenades,(4) Kessel Boost spice dose,Stun grenade,Stun grenade,Light utility armour (+2 Soak),,"Armoured suit (+1 Defence, +3 Soak)",2 Stun grenades,,Droid chassis (+1 Soak)
+,,Boba’s light armour (+2 Soak),"Heavy droid chassis (+1 Defence, +2 Soak)",Holographic Disguise Matrix (add :boost::boost: to Deception checks to impersonate target; add :setback::setback: to onlookers’ Perception checks to detect imposter),Built-in comlink,,Battle armour (+2 Soak),Comlink,,,Light clothing (+1 Soak),"Modified armour (+1 Defence, +2 Soak)",,Blast vest (+2 Soak),"Heavy armour (+1 Defence, +2 Soak)",Datapad,,,Heavy clothing (+1 Soak),,
+,,,,Utility belt,Survival pack,,,,,,,,,,,Slicer’s tools,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+Tags,,,,,,,,,,,,,,,,,,,,,
+,thug,bounty hunter,species:Droid,species:Clawdite,bounty hunter,species:Derrown,species:Kyuzo,species:Rodian,species:Weequay,species:Hutt,species:Theelin,species:Phindian,pyke syndicate,pyke syndicate,species:Mandalorian,species:Patrolian,species:Ssori,species:Ssori,species:Zabrak,species:Palowick,
+,black sun,character:Boba Fett,bounty hunter,bounty hunter,character:Dengar,bounty hunter,bounty hunter,bounty hunter,pirate,,bounty hunter,mercenary,,,bounty hunter,bounty hunter,bounty hunter,bounty hunter,bounty hunter,entertainer,
+,,,,spy,,,,,,,,,,,,,alternate:Seripas,alternate:Seripas,,,

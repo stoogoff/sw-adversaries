@@ -411,7 +411,13 @@
 			"Brawl": 2,
 			"Resilience": 2
 		},
-		"abilities": ["Beast of Burden 5", "Sure-Footed", "Silhouette 2"],
+		"abilities": [
+			"Beast of Burden 5", "Silhouette 2",
+			{
+				"name": "Sure-Footed",
+				"description": "Gualaar suffer no penalties for moving through difficult terrain and upgrade the ability of Athletics checks made to climb vertical or near-vertical surfaces once."
+			}
+		],
 		"weapons": [
 			{
 				"name": "Horns",
@@ -1346,7 +1352,7 @@
 			"Stealth": 2,
 			"Vigilance": 2
 		},
-		"talents": ["Adversary 2", "Ataru Technique", "Force Rating 3", "Improved Parry", "Parry 3", "Reflect 3"],
+		"talents": ["Adversary 2", "Ataru Technique", "Force Rating 3", "Parry (Improved) 3", "Reflect 3"],
 		"abilities": [
 			"Force Power: Misdirect",
 			{

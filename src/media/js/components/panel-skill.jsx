@@ -1,8 +1,9 @@
 
 import React from "react";
 import { dice, minionSkill } from "lib/utils";
+import * as CONFIG from "lib/config";
 
-export default class SkillPanel extends React.Component {
+export default class PanelSkill extends React.Component {
 	constructor(props) {
 		super(props);
 
@@ -39,6 +40,10 @@ export default class SkillPanel extends React.Component {
 		this.props.setMinions(1);
 	}
 
+	isMinion() {
+		return this.props.character.type == CONFIG.MINION;
+	}
+
 	render() {
 		if(this.props.character == null) {
 			return null;
@@ -65,7 +70,7 @@ export default class SkillPanel extends React.Component {
 				let stat = character.characteristics[skill.characteristic];
 				let value = characterSkills[skill.name] || 0;
 
-				if(character.type == "Minion") {
+				if(this.isMinion()) {
 					value = minionSkill(this.props.aliveMinions, skill.name, characterSkills);
 				}
 
@@ -82,7 +87,7 @@ export default class SkillPanel extends React.Component {
 		});
 
 		return <div className="info">
-			<h2>Skills { character.type == "Minion" ? <small>(Group Only)</small> : null }</h2>
+			<h2>Skills { this.isMinion() ? <small>(Group Only)</small> : null }</h2>
 			<div id="show-all">
 				<small className="btn" onClick={ this.toggleSkills.bind(this) }>{ this.state.showAll ? <svg><use xlinkHref="#icon-checkbox-checked"></use></svg> : <svg><use xlinkHref="#icon-checkbox-unchecked"></use></svg> } Show all</small>
 			</div>
@@ -92,9 +97,9 @@ export default class SkillPanel extends React.Component {
 					<tr>
 						<th>Skill</th>
 						<th>Characteristic</th>
-						{ character.type != "Minion" ? <th>Rank</th> : null }
+						{ !this.isMinion() ? <th>Rank</th> : null }
 						<th>Roll
-							{ character.type == "Minion" ?
+							{ this.isMinion() ?
 								<span>
 									<small> (for { this.props.minions })</small>
 									<span className="pull-right">
@@ -111,7 +116,7 @@ export default class SkillPanel extends React.Component {
 						return <tr key={ s.id }>
 							<td>{ s.hasRank ? <strong>{ s.name }</strong> : s.name }</td>
 							<td><small>{ s.characteristic }</small></td>
-							{ character.type != "Minion" ? <td>{ s.value }</td> : null }
+							{ !this.isMinion() ? <td>{ s.value }</td> : null }
 							<td dangerouslySetInnerHTML={ s.icons } />
 						</tr>
 					})}
