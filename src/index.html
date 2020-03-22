@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Titillium+Web" />
-<link rel="stylesheet" href="/<!-- @echo ENV_VERSION -->/media/css/styles.css" />
+<link rel="stylesheet" href="<!-- @echo ENV_VERSION -->/media/css/styles.css" />
 </head>
 <body>
 
@@ -103,15 +103,15 @@
 <div id="debug"></div>
 <!-- @endif -->
 
-<script src="/<!-- @echo ENV_VERSION -->/media/js/vendor/polyfill.js"></script>
-<script src="/<!-- @echo ENV_VERSION -->/media/js/vendor/system.js"></script>
+<script src="<!-- @echo ENV_VERSION -->/media/js/vendor/polyfill.js"></script>
+<script src="<!-- @echo ENV_VERSION -->/media/js/vendor/system.js"></script>
 <script>
 
 var ENV_VERSION = "<!-- @echo ENV_VERSION -->";
 
 System.defaultJSExtensions = true;
 System.config({
-	baseURL: "/<!-- @echo ENV_VERSION -->/media/js",
+	baseURL: "<!-- @echo ENV_VERSION -->/media/js",
 	map: {
 		"react": "vendor/react.production.min.js",
 		"react-dom": "vendor/react-dom.production.min.js",

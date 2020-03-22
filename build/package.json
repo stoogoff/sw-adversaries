@@ -30,7 +30,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "pushd ../dev; python -m SimpleHTTPServer; popd",
-    "server-live": "pushd ../live; python -m SimpleHTTPServer; popd"
+    "server-live": "pushd ../live; python -m SimpleHTTPServer; popd",
+    "end": "lsof -ti:8000 | xargs kill -TERM"
   },
   "author": "Stoo Goff",
   "license": "ISC"
