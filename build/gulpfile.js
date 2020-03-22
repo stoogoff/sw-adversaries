@@ -25,22 +25,22 @@ console.log(`\nBuilding version: ${VERSION}.\n`);
 let isDev = true;
 const TARGET = {
 	src: function(p) {
-		return path.join("../src", p);
+		return "../src/" + p;
 	},
 	dest: function(p) {
 		let target = isDev ? "../dev" : "../live";
 
 		if(p != "" && p != "**") {
-			target = path.join(target, VERSION);
+			target = target + "/" + VERSION;
 		}
 
-		return path.join(target, p);
+		return target + "/" + p;
 	},
 	module: function(p) {
-		return TARGET.root(path.join("node_modules", p));
+		return TARGET.root("node_modules/" + p);
 	},
 	root: function(p) {
-		return path.join(__dirname, p);
+		return __dirname + "/" + p;
 	}
 };
 
