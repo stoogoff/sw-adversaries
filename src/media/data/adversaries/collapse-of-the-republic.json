@@ -14,7 +14,8 @@
 		"derived": {
 			"soak": 2,
 			"wounds": 13,
-			"strain": 13
+			"strain": 13,
+			"defence": [2, 1]
 		},
 		"skills": {
 			"Athletics": 2,
@@ -35,12 +36,7 @@
 			"Stealth": 3,
 			"Vigilance": 2
 		},
-		"talents": ["Adversary 2", "Ataru Technique", "Parry 3", "Force Rating 3", "Improved Reflect 3", "Saber Swarm",
-			{
-				"name": "Circle of Shelter",
-				"description": "."
-			}
-		],
+		"talents": ["Adversary 2", "Ataru Technique", "Parry 3", "Force Rating 3", "Improved Reflect 3", "Saber Swarm", "Circle of Shelter"],
 		"abilities": ["Force Power: Enhance", "Force Power: Move", "Force Power: Sense",
 			{
 				"name": "Fulcrum Leadership",
@@ -58,7 +54,12 @@
 			}
 		],
 		"gear": ["Padded armour (+2 Soak)", "Encrypted comlink"],
-		"tags": ["book:dor", "rebel alliance", "force sensitive", "species:Togruta"]
+		"tags": ["book:cotr",
+				"rebel alliance",
+				"force sensitive",
+				"species:Togruta",
+				"character:Ahsoka"
+				]
 	},
 	{
 		"name": "Senate Guard",
@@ -101,7 +102,7 @@
 			}
         ],
 		"gear": ["Senate guard Armour (+2 Soak), Comlink"],
-		"tags": ["book:cotr", "galactic republic"]
+		"tags": ["book:cotr", "republic"]
 	},
 	{
 		"name": "Jedi Temple Guard",
@@ -123,39 +124,111 @@
 		"skills": {
 			"Discipline": 2,
 			"Medicine": 2,
-			"Leadership": 1,
-			"Lightsaber": 3,
-			"Mechanics": 3,
+			"Lightsaber": 2,
+			"Melee": 2,
 			"Perception": 2,
-			"Piloting: Space": 4,
-			"Ranged: Light": 3,
-			"Resilience": 1,
-			"Survival": 2,
 			"Vigilance": 2
 		},
-		"talents": ["Adversary 3", "Force Rating 3", "Parry 3", "Reflect 2", "Natural Pilot",
+		"talents": ["Adversary 1",
+					"Force Rating 4",
+					"Parry 4",
+					"Reflect 4"
+					],
+		"abilities": ["Force Power: Bind"],
+		"weapons": [
 			{
-				"name": "Exhaust Port",
-				"description": "Before attacking a starship or vehicle, Luke may spend 1 Destiny Point to ignore the effects of the Massive rule for the attack."
-			}
-		],
-		"abilities": ["Force Power: Enhance", "Force Power: Foresee", "Force Power: Move", "Force Power: Sense",
-			{
-				"name": "One In A Million",
-				"description": "Luke may spend 1 Destiny Point to add :success::success:, :advantage::advantage: or :success::advantage: to any combat check he makes."
-			}
-		],
-		"weapons": ["Blaster pistol",
-			{
-				"name": "His father’s lightsaber",
+				"name": "Temple Guard Lightsaber pike",
 				"skill": "Lightsaber",
-				"damage": 10,
-				"critical": 1,
+				"damage": 6,
+				"critical": 2,
 				"range": "Engaged",
-				"qualities": ["Breach 1", "Sunder", "Vicious 2"]
+				"qualities": ["Breach 1", "Defensive 1", "Linked 1", "Sunder", "Stun 4", "Unwieldy 3"]
 			}
 		],
-		"gear": ["Heavy clothing (+1 soak)", "Comlink"],
+		"gear": ["Jedi Temple Guard armour (+1 soak, +2 defence)", "Keys"],
+		"tags": ["book:cotr", "force sensitive", "jedi", "security", "location:Coruscant"]
+	},
+	{
+		"name": "Jedi Padawan",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+            "defence": [1, 1]
+		},
+		"skills": {
+			"Discipline": 2,
+			"Lightsaber": 2,
+			"Perception": 1,
+			"Resilience": 1,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1", "Force Rating 1"],
+		"abilities": ["Force Power: Enhance", "Force Power: Move", "Force Power: Sense"],
+		"weapons": ["Basic lightsaber"],
+		"gear": ["Padawan robes (+1 soak)"],
 		"tags": ["book:cotr", "force sensitive", "jedi"]
-	}
+	},
+	{
+		"name": "Nightsister",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 13,
+            "defence": [2, 1]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Discipline": 2,
+			"Cool": 2,
+			"Melee": 3,
+			"Perception": 1,
+			"Ranged: Heavy": 2,
+			"Resilience": 1,
+			"Stealth": 3,
+			"Vigilance": 2
+		},
+		"abilities": [
+				{
+				"name": "Mother's Blessing",
+				"description": "A character who targets a Nightsister with a combat check must reroll all :setback: showing a blank face."
+				}
+		],
+		"weapons": [
+			{
+				"name": "Enchanted Nightsister Blade",
+				"skill": "Melee",
+				"damage": 3,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1", "Disorient 3", "Vicious 2"]
+			},
+			{
+				"name": "Nightsister Energy Bow",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Pierce 4", "Vicious 2"]
+			}
+		],
+		"gear": ["Nightsister robes (+1 defence)"],
+		"tags": ["book:cotr", "location:Dathomir", "nightsister"]
+	}	
 ]
