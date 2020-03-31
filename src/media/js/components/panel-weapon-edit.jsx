@@ -2,13 +2,12 @@
 import React from "react";
 import { TextInput, TextArea, AutoComplete } from "./input/text";
 import Select from "./input/select";
-import SelectMulti from "./input/select-multi";
+import SelectQuality from "./input/select-quality";
 import PanelCode from "./panel-code";
-import { findByProperty } from "../lib/list";
+import { findByProperty, sortByProperty, indexOfByProperty } from "../lib/list";
 import { id } from "../lib/string";
 import * as CONFIG from "lib/config";
 
-const MOD_TEXT = " (Mod)";
 
 export default class PanelWeaponEdit extends React.Component {
 	constructor(props) {
@@ -35,7 +34,14 @@ export default class PanelWeaponEdit extends React.Component {
 			initialState.range = this.props.editing.range;
 			initialState.damage = this.props.editing.damage;
 			initialState.critical = this.props.editing.critical;
-			initialState.qualities = this.props.editing.qualities || [];
+			initialState.qualities = "qualities" in this.props.editing ? this.props.editing.qualities.map(q => {
+				let rank = q.match(/\d+$/);
+
+				return {
+					name: q.replace(/\s\d+$/, ""),
+					rank: rank ? rank[0] : null
+				}
+			}) : [];
 			initialState.notes = this.props.editing.notes;
 		}
 
@@ -65,7 +71,7 @@ export default class PanelWeaponEdit extends React.Component {
 				newState.range = this.props.editing.range;
 				newState.damage = this.props.editing.damage;
 				newState.critical = this.props.editing.critical;
-				newState.qualities = this.props.editing.qualities || [];
+				newState.qualities = this.props.editing.qualities || []; // TODO these should be converted from names
 				newState.notes = this.props.editing.notes;
 			}
 
@@ -106,15 +112,25 @@ export default class PanelWeaponEdit extends React.Component {
 		}
 	}
 	setQualities(val) {
-		val = val.replace(MOD_TEXT, "");
-
 		let qualities = this.state.qualities;
 
-		if(qualities.indexOf(val) == -1) {
-			qualities.push(val);
+		// there are now three things going on here...
+		// adding a new quality (qualities.push)
+		// removing an existing quality (qualities.splice)
+		// changing the rank value of a ranked quality
+		// rank needs to be forced to be 1 minimum but this should be at a higher level
+
+		let existingQuality = qualities.find(findByProperty("name", val.name))
+
+		// quality exists but the rank is different so update it
+		if(existingQuality && val.rank != null && val.rank != existingQuality.rank) {
+			existingQuality.rank = val.rank;
+		}
+		else if(existingQuality) {
+			qualities.splice(indexOfByProperty(qualities, "name", val.name), 1);
 		}
 		else {
-			qualities.splice(qualities.indexOf(val), 1);
+			qualities.push(val);
 		}
 
 		this.setState({
@@ -151,7 +167,7 @@ export default class PanelWeaponEdit extends React.Component {
 			range: this.state.range,
 			damage: this.state.damage,
 			critical: this.state.critical,
-			qualities: this.state.qualities.map(q => q.replace(MOD_TEXT, ""))
+			qualities: this.state.qualities.map(q => q.name + (q.rank ? ` ${q.rank}` : ""))
 		};
 
 		if(this.state.notes) {
@@ -179,18 +195,12 @@ export default class PanelWeaponEdit extends React.Component {
 		});
 	}
 
-	addMod(list) {
-		return list.map(q => q.type == "Mod" ? q.name + MOD_TEXT : q.name).sort();
-	}
-
 	render() {
-		// TODO ux needs to change to allow adding of rank to some qualities
 		// TODO probably best to have a separate panel for mods
 
 		let list = this.props.list.map(i => i.name);
 		let selected = this.state.selected ? this.state.selected.name : "";
-		let qualities = this.addMod(this.props.qualities.filter(f => !f.ranked));
-		let selectedQualities = this.addMod(this.props.qualities.filter(f => this.state.qualities.indexOf(f.name) != -1));
+		let qualities = this.props.qualities.all().sort(sortByProperty("name"));
 		let title = this.props.editing ? "Edit" : "Create";
 		let button = this.props.editing ? "Save" : "Add New";
 		let form = <div>
@@ -200,7 +210,7 @@ export default class PanelWeaponEdit extends React.Component {
 			<Select label="Range" value={ this.state.range } values={ this.ranges } handler={ this.setRange.bind(this) } required={ true } />
 			<TextInput label="Damage" value={ this.state.damage } handler={ this.setDamage.bind(this) } required={ true } note="Remember to add Brawn to damage for Melee or Brawl weapons." />
 			<TextInput label="Critical" value={ this.state.critical } handler={ this.setValue("critical").bind(this) } />
-			<SelectMulti label="Qualities" value={ selectedQualities } values={ qualities } handler={ this.setQualities.bind(this) } />
+			<SelectQuality label="Qualities" value={ this.state.qualities } values={ qualities } handler={ this.setQualities.bind(this) } />
 			<TextArea label="Notes" value={ this.state.notes } handler={ this.setValue("notes").bind(this) } />
 			<PanelCode />
 			<button className="btn-full" disabled={ !this.state.isNew } onClick={ this.create.bind(this) }>{ button } Weapon</button>

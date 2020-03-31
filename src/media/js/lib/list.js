@@ -23,6 +23,18 @@ export const findByProperty = function findByProperty(property, value) {
 	};
 }
 
+export const indexOfByProperty = function indexOfByProperty(list, property, value) {
+	for(let i = 0; i < list.length; ++i) {
+		let item = list[i];
+
+		if(property in item && item[property] == value) {
+			return i;
+		}
+	}
+
+	return -1;
+}
+
 export const unique = function unique(arr) {
 	return arr.filter((a, i) => arr.indexOf(a) == i);
 }
