@@ -6,6 +6,7 @@ import SelectQuality from "./input/select-quality";
 import PanelCode from "./panel-code";
 import { findByProperty, sortByProperty, indexOfByProperty } from "../lib/list";
 import { id, isNumeric } from "../lib/string";
+import { createQuality } from "../lib/utils";
 import * as CONFIG from "lib/config";
 
 
@@ -73,19 +74,8 @@ export default class PanelWeaponEdit extends React.Component {
 		}
 	}
 
-	convertQualities(qualities) {
-		return qualities.map(q => {
-			let rank = q.match(/\d+$/);
-			let mapped = {
-				name: q.replace(/\s\d+$/, ""),
-			};
-
-			if(rank) {
-				mapped.rank = rank[0];
-			}
-
-			return mapped;
-		});
+	convertQualities(selectedQualities) {
+		return selectedQualities.map(q => createQuality(this.props.qualities.all(), q));
 	}
 
 	setName(val) {
@@ -120,31 +110,14 @@ export default class PanelWeaponEdit extends React.Component {
 			});
 		}
 	}
-	setQualities(val) {
-		// there are three things going on here...
-		// 1. changing the rank value of a ranked quality (existingQuality.rank = val.rank;)
-		// 2. removing an existing quality (qualities.splice)
-		// 3. adding a new quality (qualities.push)
-		let qualities = this.state.qualities;
-		let existingQuality = qualities.find(findByProperty("name", val.name))
 
-		// quality exists but the rank is different so update it
-		if(existingQuality && val.rank != null && val.rank != existingQuality.rank) {
-			existingQuality.rank = val.rank;
-		}
-		else if(existingQuality) {
-			qualities.splice(indexOfByProperty(qualities, "name", val.name), 1);
-		}
-		else {
-			qualities.push(val);
-		}
-
+	validateQualityRanks(qualities) {
 		// check each rank in a quality is numeric
 		let validRanks = true;
 
 		for(let i = 0, len = qualities.length; i < len; ++i) {
-			if("rank" in qualities[i]) {
-				validRanks = isNumeric(qualities[i].rank);
+			if(qualities[i].ranked) {
+				validRanks = isNumeric(qualities[i].rank || "");
 			}
 
 			if(!validRanks) {
@@ -157,6 +130,34 @@ export default class PanelWeaponEdit extends React.Component {
 			ranks: validRanks,
 			canSave: !(!this.state.name || !this.state.skill || !this.state.range || !this.state.damage || !validRanks)
 		});
+	}
+
+	// add or remove a quality from the list
+	toggleQuality(val) {
+		let qualities = this.state.qualities;
+		let existingQuality = qualities.find(findByProperty("name", val.name))
+
+		if(existingQuality) {
+			qualities.splice(indexOfByProperty(qualities, "name", val.name), 1);
+		}
+		else {
+			qualities.push(val);
+		}
+
+		this.validateQualityRanks(qualities);
+	}
+
+	// update the rank of a quality, if it exists
+	updateQuality(val) {
+		let qualities = this.state.qualities;
+		let existingQuality = qualities.find(findByProperty("name", val.name))
+
+		// quality exists but the rank is different so update it
+		if(existingQuality && val.ranked && val.rank != existingQuality.rank) {
+			existingQuality.rank = val.rank;
+		}
+
+		this.validateQualityRanks(qualities);
 	}
 
 	selectItem(name) {
@@ -228,7 +229,7 @@ export default class PanelWeaponEdit extends React.Component {
 			<Select label="Range" value={ this.state.range } values={ this.ranges } handler={ this.setRange.bind(this) } required={ true } />
 			<TextInput label="Damage" value={ this.state.damage } handler={ this.setDamage.bind(this) } required={ true } note="Remember to add Brawn to damage for Melee or Brawl weapons." />
 			<TextInput label="Critical" value={ this.state.critical } handler={ this.setValue("critical").bind(this) } />
-			<SelectQuality label="Qualities" value={ this.state.qualities } values={ qualities } handler={ this.setQualities.bind(this) } />
+			<SelectQuality label="Qualities" value={ this.state.qualities } values={ qualities } select={ this.toggleQuality.bind(this) } update={ this.updateQuality.bind(this) } />
 			<TextArea label="Notes" value={ this.state.notes } handler={ this.setValue("notes").bind(this) } />
 			<PanelCode />
 			<button className="btn-full" disabled={ !this.state.canSave } onClick={ this.create.bind(this) }>{ button } Weapon</button>

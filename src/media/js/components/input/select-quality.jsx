@@ -2,6 +2,7 @@
 import React from "react";
 import { parent } from "../../lib/dom";
 import { TextInput } from "./text";
+import { createQuality } from "../../lib/utils";
 
 
 export default class SelectQuality extends React.Component {
@@ -9,22 +10,15 @@ export default class SelectQuality extends React.Component {
 	handleRankChange(name, rank) {
 		let selected = this.getSelected();
 
-		if(name in selected) {
-			this.handleChange(name, rank);
+		if(name in selected && this.props.update) {
+			this.props.update(createQuality(this.props.values, name, rank));
 		}
 	}
 
 	// notify handling component that the checked state has changed 
 	handleSelectionChange(name) {
-		this.handleChange(name)
-	}
-
-	handleChange(name, rank) {
-		if(this.props.handler) {
-			this.props.handler({
-				name: name,
-				rank: rank
-			});
+		if(this.props.select) {
+			this.props.select(createQuality(this.props.values, name));
 		}
 	}
 
