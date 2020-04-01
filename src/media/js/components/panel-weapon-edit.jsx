@@ -5,7 +5,7 @@ import Select from "./input/select";
 import SelectQuality from "./input/select-quality";
 import PanelCode from "./panel-code";
 import { findByProperty, sortByProperty, indexOfByProperty } from "../lib/list";
-import { id } from "../lib/string";
+import { id, isNumeric } from "../lib/string";
 import * as CONFIG from "lib/config";
 
 
@@ -23,7 +23,8 @@ export default class PanelWeaponEdit extends React.Component {
 			critical: "",
 			qualities: [],
 			notes: "",
-			isNew: false
+			ranks: true, // true if every weapon quality with a rank has a numeric rank
+			canSave: false
 		};
 
 		// set form state from initial editing prop, if available
@@ -34,14 +35,7 @@ export default class PanelWeaponEdit extends React.Component {
 			initialState.range = this.props.editing.range;
 			initialState.damage = this.props.editing.damage;
 			initialState.critical = this.props.editing.critical;
-			initialState.qualities = "qualities" in this.props.editing ? this.props.editing.qualities.map(q => {
-				let rank = q.match(/\d+$/);
-
-				return {
-					name: q.replace(/\s\d+$/, ""),
-					rank: rank ? rank[0] : null
-				}
-			}) : [];
+			initialState.qualities = "qualities" in this.props.editing ? this.convertQualities(this.props.editing.qualities) : [];
 			initialState.notes = this.props.editing.notes;
 		}
 
@@ -71,7 +65,7 @@ export default class PanelWeaponEdit extends React.Component {
 				newState.range = this.props.editing.range;
 				newState.damage = this.props.editing.damage;
 				newState.critical = this.props.editing.critical;
-				newState.qualities = this.props.editing.qualities || []; // TODO these should be converted from names
+				newState.qualities = "qualities" in this.props.editing ? this.convertQualities(this.props.editing.qualities) : [];
 				newState.notes = this.props.editing.notes;
 			}
 
@@ -79,47 +73,59 @@ export default class PanelWeaponEdit extends React.Component {
 		}
 	}
 
+	convertQualities(qualities) {
+		return qualities.map(q => {
+			let rank = q.match(/\d+$/);
+			let mapped = {
+				name: q.replace(/\s\d+$/, ""),
+			};
+
+			if(rank) {
+				mapped.rank = rank[0];
+			}
+
+			return mapped;
+		});
+	}
+
 	setName(val) {
 		this.setState({
 			name: val,
-			isNew: !(!val || !this.state.skill || !this.state.range || !this.state.damage)
+			canSave: !(!val || !this.state.skill || !this.state.range || !this.state.damage || !this.state.ranks)
 		});
 	}
 	setSkill(val) {
 		this.setState({
 			skill: val,
-			isNew: !(!this.state.name || !val || !this.state.range || !this.state.damage)
+			canSave: !(!this.state.name || !val || !this.state.range || !this.state.damage || !this.state.ranks)
 		});
 	}
 	setRange(val) {
 		this.setState({
 			range: val,
-			isNew: !(!this.state.name || !this.state.skill || !val || !this.state.damage)
+			canSave: !(!this.state.name || !this.state.skill || !val || !this.state.damage || !this.state.ranks)
 		});
 	}
 	setDamage(val) {
 		this.setState({
 			damage: val,
-			isNew: !(!this.state.name || !this.state.skill || !this.state.range || !val)
+			canSave: !(!this.state.name || !this.state.skill || !this.state.range || !val || !this.state.ranks)
 		});
 	}
 	setValue(attr) {
 		return val => {
 			this.setState({
 				[attr]: val,
-				isNew: !(!this.state.name || !this.state.skill || !this.state.range || !this.state.damage)
+				canSave: !(!this.state.name || !this.state.skill || !this.state.range || !this.state.damage || !this.state.ranks)
 			});
 		}
 	}
 	setQualities(val) {
+		// there are three things going on here...
+		// 1. changing the rank value of a ranked quality (existingQuality.rank = val.rank;)
+		// 2. removing an existing quality (qualities.splice)
+		// 3. adding a new quality (qualities.push)
 		let qualities = this.state.qualities;
-
-		// there are now three things going on here...
-		// adding a new quality (qualities.push)
-		// removing an existing quality (qualities.splice)
-		// changing the rank value of a ranked quality
-		// rank needs to be forced to be 1 minimum but this should be at a higher level
-
 		let existingQuality = qualities.find(findByProperty("name", val.name))
 
 		// quality exists but the rank is different so update it
@@ -133,9 +139,23 @@ export default class PanelWeaponEdit extends React.Component {
 			qualities.push(val);
 		}
 
+		// check each rank in a quality is numeric
+		let validRanks = true;
+
+		for(let i = 0, len = qualities.length; i < len; ++i) {
+			if("rank" in qualities[i]) {
+				validRanks = isNumeric(qualities[i].rank);
+			}
+
+			if(!validRanks) {
+				break;
+			}
+		}
+
 		this.setState({
 			qualities: qualities,
-			isNew: !(!this.state.name || !this.state.skill || !this.state.range || !this.state.damage)
+			ranks: validRanks,
+			canSave: !(!this.state.name || !this.state.skill || !this.state.range || !this.state.damage || !validRanks)
 		});
 	}
 
@@ -191,13 +211,11 @@ export default class PanelWeaponEdit extends React.Component {
 			critical: "",
 			qualities: [],
 			notes: "",
-			isNew: false
+			canSave: false
 		});
 	}
 
 	render() {
-		// TODO probably best to have a separate panel for mods
-
 		let list = this.props.list.map(i => i.name);
 		let selected = this.state.selected ? this.state.selected.name : "";
 		let qualities = this.props.qualities.all().sort(sortByProperty("name"));
@@ -213,7 +231,7 @@ export default class PanelWeaponEdit extends React.Component {
 			<SelectQuality label="Qualities" value={ this.state.qualities } values={ qualities } handler={ this.setQualities.bind(this) } />
 			<TextArea label="Notes" value={ this.state.notes } handler={ this.setValue("notes").bind(this) } />
 			<PanelCode />
-			<button className="btn-full" disabled={ !this.state.isNew } onClick={ this.create.bind(this) }>{ button } Weapon</button>
+			<button className="btn-full" disabled={ !this.state.canSave } onClick={ this.create.bind(this) }>{ button } Weapon</button>
 		</div>;
 
 		return <div>

@@ -1,13 +1,12 @@
 
 import React from "react";
 import { parent } from "../../lib/dom";
+import { TextInput } from "./text";
 
 
 export default class SelectQuality extends React.Component {
 	// notify handling component that the rank has changed for a selected value
-	handleRankChange(evt) {
-		let rank = evt.target.value;
-		let name = parent(evt.target, "li").getAttribute("data-value");
+	handleRankChange(name, rank) {
 		let selected = this.getSelected();
 
 		if(name in selected) {
@@ -16,10 +15,8 @@ export default class SelectQuality extends React.Component {
 	}
 
 	// notify handling component that the checked state has changed 
-	handleSelectionChange(evt) {
-		let node = parent(evt.target, "li");
-
-		this.handleChange(node.getAttribute("data-value"))
+	handleSelectionChange(name) {
+		this.handleChange(name)
 	}
 
 	handleChange(name, rank) {
@@ -52,12 +49,12 @@ export default class SelectQuality extends React.Component {
 			let rank = isChecked ? selected[v.name].rank : null;
 
 			return <li data-value={ v.name } className={ isChecked ? "checked" : "" }>
-				<span onClick={ this.handleSelectionChange.bind(this) }>{ isChecked ? checked : unchecked } { v.name } { v.type == "Mod" ? " (Mod)" : "" }</span>
-				{ v.ranked && isChecked ? <input type="text" value={ rank } onChange={ this.handleRankChange.bind(this) } /> : "" }
+				<span onClick={ this.handleSelectionChange.bind(this, v.name) }>{ isChecked ? checked : unchecked } { v.name } { v.type == "Mod" ? " (Mod)" : "" }</span>
+				{ v.ranked && isChecked ? <TextInput value={ rank } handler={ this.handleRankChange.bind(this, v.name) } required={ true } numeric={ true } /> : null }
 			</li>
 		});
 
-		return <div className="row-input input-select-multi">
+		return <div className="row-input input-select-quality">
 			<label>{ this.props.label } { this.props.required ? <span className="required">*</span> : null }</label>
 			<ul>
 				{ values }
