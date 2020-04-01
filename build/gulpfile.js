@@ -37,11 +37,11 @@ const TARGET = {
 		return target + "/" + p;
 	},
 	module: function(p) {
-		return TARGET.root("node_modules/" + p);
-	},
+		return "node_modules/" + p;
+	}/*,
 	root: function(p) {
 		return __dirname + "/" + p;
-	}
+	}*/
 };
 
 
@@ -69,8 +69,6 @@ gulp.task("sass", () => {
 gulp.task("transpile-js", () => {
 	return gulp.src(TARGET.src("media/js/**/*.*"))
 		.pipe(babel({
-			//presets: [TARGET.module("babel-preset-es2015"), TARGET.module("babel-preset-react")],
-			//plugins: [TARGET.module("babel-plugin-transform-es2015-modules-systemjs")],
 			presets: ["@babel/preset-env", "@babel/preset-react"],
 			minified: !isDev
 		}))
@@ -171,6 +169,10 @@ gulp.task("copy-font", () => {
 	return gulp.src(TARGET.src("media/fonts/**")).pipe(gulp.dest(TARGET.dest("media/fonts")));
 });
 
+gulp.task("copy-icon", () => {
+	return gulp.src(TARGET.src("favicon.ico")).pipe(gulp.dest(TARGET.dest("")));
+});
+
 gulp.task("live", (done) => {
 	console.log("Running in LIVE context");
 	isDev = false;
@@ -185,7 +187,7 @@ gulp.task("dev", (done) => {
 });
 
 // build everyting, dev or live should've been run first but dev is the default
-gulp.task("build", gulp.series("transpile-js", "copy-vendor", "copy-data", "copy-static", "copy-font", "sass", (done) => done()));
+gulp.task("build", gulp.series("transpile-js", "copy-vendor", "copy-data", "copy-static", "copy-font", "copy-icon", "sass", (done) => done()));
 
 gulp.task("watch", gulp.series("dev", () => {
 	gulp.watch(TARGET.src("index.html"), gulp.series("copy-static"));
