@@ -60,14 +60,14 @@ export default class PanelWeaponEdit extends React.Component {
 			};
 
 			if(nextProps.editing && "name" in nextProps.editing) {
-				newState.id = this.props.editing.id;
-				newState.name = this.props.editing.name;
-				newState.skill = this.props.editing.skill;
-				newState.range = this.props.editing.range;
-				newState.damage = this.props.editing.damage;
-				newState.critical = this.props.editing.critical;
-				newState.qualities = "qualities" in this.props.editing ? this.convertQualities(this.props.editing.qualities) : [];
-				newState.notes = this.props.editing.notes;
+				newState.id = nextProps.editing.id;
+				newState.name = nextProps.editing.name;
+				newState.skill = nextProps.editing.skill;
+				newState.range = nextProps.editing.range;
+				newState.damage = nextProps.editing.damage;
+				newState.critical = nextProps.editing.critical;
+				newState.qualities = "qualities" in nextProps.editing ? this.convertQualities(nextProps.editing.qualities) : [];
+				newState.notes = nextProps.editing.notes;
 			}
 
 			this.setState(newState);
