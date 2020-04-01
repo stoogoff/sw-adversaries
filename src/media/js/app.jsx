@@ -407,7 +407,7 @@ class App extends React.Component {
 					<h3>About</h3>
 					<p>Star Wars Adversaries is an easily searchable database of adversaries for <a href="https://www.fantasyflightgames.com/">Fantasy Flight Games’</a> Star Wars Roleplaying Game.</p>
 					<p>Built by <a href="http://www.stoogoff.com/">Stoo Goff</a>, <a href="https://twitter.com/nlx3647">nlx3647</a>, and <a href="https://github.com/SkyJed">SkyJedi</a>.</p>
-					<p>Want to support the future development of <em>Star Wars: Adversaries</em>?</p>
+					<p>Want to support the future development of <em>Star Wars: Adversaries</em>? Checkout my other RPG products on <a href="https://www.drivethrurpg.com/browse/pub/14996/we-evolve">DriveThruRPG</a> or <a href="https://we-evolve.itch.io/">itch.io</a> or use the button below to donate.</p>
 					<div id="donation"><a href="https://paypal.me/weevolve" target="_blank" className="btn">Donate</a></div>
 					<div className="btn pull-right" onClick={ this.toggleAbout.bind(this) }><svg><use xlinkHref="#icon-cross"></use></svg> <span>Close</span></div>
 				</div>
