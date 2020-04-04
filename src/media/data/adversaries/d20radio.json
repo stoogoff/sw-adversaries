@@ -1736,7 +1736,10 @@
 		"name": "Fathier",
 		"type": "Rival",
 		"description": "A non-sentient, however insightful species, the Fathier have very long legs, brownish fur, and long ears that distinguish it from other species. Fathiers can run at great speeds across any type of terrain. In the film, we even see one climb nearly straight up a short cliff face to escape. Their great speed has made them sought after by gambling houses all across the galaxy and caused the enslavement of many of their kind. They are hunted and forced to race in many casinos and race tracks in the galaxy. In fact, when kept in captivity, Fathiers often must endure “Double-Gravity” chambers causing them to gain strength even when moving about their confined areas. The people of Canto Bight on the planet Cantonica are particularly cruel to the animals.\n\nFathiers are easily domesticated and can be fitted with a riding harness and saddle. Tognath Mercenaries during the time of the Galactic Civil War often rode Fathiers during hit and run missions.",
-		"notes": "These are not official stats. Credits go to Scott Alden, D20Radio.com.",
+		"source": {
+			"owner": "Scott Alden",
+			"url": "http://www.d20radio.com/main/the-gm-awakens-the-fathier/"
+		},
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 4,
@@ -1770,7 +1773,7 @@
 				"qualities": ["Knockdown"]
 			}
 		],
-		"tags": ["source:D20Radio.com", "creature", "location:Canto Bight"],
+		"tags": ["source:D20Radio.com", "creature", "location:Canto Bight", "riding beast"],
 		"devOnly": true
 	},
 	{
