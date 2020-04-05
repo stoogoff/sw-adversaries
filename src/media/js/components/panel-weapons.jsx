@@ -60,7 +60,7 @@ export default class PanelWeapons extends React.Component {
 	}
 
 	setQuality(evt) {
-		let name = evt.target.innerText.replace(/\s\d{1,}$/, "");
+		let name = evt.target.innerText.replace(/\s\d+$/, "");
 		let quality = null;
 
 		if(name == "Notes") {

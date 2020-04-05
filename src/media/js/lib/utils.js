@@ -1,4 +1,7 @@
 
+import { findByProperty } from "./list"
+
+
 export const minionSkill = function(minions, skill, skills) {
 	let value = 0;
 	let skillsHash = {};
@@ -204,10 +207,40 @@ let sourceMap = {
 	"source:Heroes on Both Sides": "https://drive.google.com/file/d/1kz3ZK_Pmxf6HneRCOwY_0lzwmk0GZL1N/view"
 };
 
-export const getSourceLink = function(source) {
+export const getSourceLink = function getSourceLink(source) {
 	if(source in sourceMap) {
 		return `<a href="${sourceMap[source]}">${source.replace("source:", "")}</a>`;
 	}
 
 	return null;
+}
+
+export const createQuality = function createQuality(qualities, name, rank) {
+	// strip any ranks from the quality name
+	let created = {
+		name: name.replace(/\s\d+$/, ""),
+		ranked: false
+	};
+
+	let quality = qualities.find(findByProperty("name", created.name));
+
+	// if the quality is ranked, mark it as so and apply any ranks to it
+	if(quality && quality.ranked) {
+		created.ranked = true;
+
+		// rank could be at the end of the name or it could be a separate argument
+		// the separate argument takes the priority
+		if(rank) {
+			created.rank = rank;
+		}
+		else {
+			let match = name.match(/\d+$/);
+
+			if(match) {
+				created.rank = match[0];
+			}
+		}
+	}
+
+	return created;
 }
