@@ -37,29 +37,475 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 2", "Ataru Technique", "Parry 3", "Force Rating 3", "Improved Reflect 3", "Saber Swarm", "Circle of Shelter"],
-		"abilities": ["Force Power: Enhance", "Force Power: Move", "Force Power: Sense",
-			{
-				"name": "Fulcrum Leadership",
-				"description": "Allies within short range who know Ahsoka’s Fulcrum identity add automatic :advantage::advantage: to all skill checks."
-			}
-		],
+		"abilities": ["Force Power: Enhance", "Force Power: Move", "Force Power: Sense"],
 		"weapons": [
 			{
-				"name": "Pair of lightsabers",
+				"name": "Ahsoka’s lightsaber",
+				"skill": "Lightsaber",
+				"damage": 8,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder"]
+			},
+			{
+				"name": "Ahsoka’s shoto",
 				"skill": "Lightsaber",
 				"damage": 6,
 				"critical": 2,
 				"range": "Engaged",
-				"qualities": ["Breach 1", "Sunder", "Dual-Phase"]
+				"qualities": ["Accurate 1", "Breach 1", "Sunder"]
 			}
 		],
-		"gear": ["Padded armour (+2 Soak)", "Encrypted comlink"],
+		"gear": ["Encrypted comlink"],
 		"tags": ["book:cotr",
-				"rebel alliance",
+				"jedi",
 				"force sensitive",
 				"species:Togruta",
 				"character:Ahsoka"
 				]
+	},
+	{
+		"name": "Anakin Skywalker",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 17,
+			"strain": 15,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Coercion": 4,
+			"Cool": 2,
+			"Deception": 2,
+			"Discipline": 2,
+			"Gunnery": 3,
+			"Lightsaber": 4,
+			"Leadership": 3,
+			"Perception": 2,
+			"Piloting: Space": 5,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 3", "Improved Parry 4", "Force Rating 5", "Improved Reflect 4"],
+		"abilities": [
+			{
+				"name": "Force Power: Bind",
+				"description": "Anakin may spend :forcepip: to immobilize a target within short rage until the end of his next turn; if Anakin used :darkside: to generate :forcepip:, the target also suffers 1 wound per :forcepip: spent on the check."
+			},
+			{
+				"name": "Force Power: Enhance",
+				"description": "Anakin may use this power when making Brawl, Piloting (Planetary) and Piloting (Space) checks, and may commit :force: to increase his Brawn or Agility characteristic by 1, to a maximum of 6."
+			},
+			{
+				"name": "Chosen One",
+				"description": "After Anakin makes a Force power check, other characters in the encounter add :lightside: to their Force power checks until the start of the next turn; if Anakin used any :darkside: to generate :forcepip:, other characters instead add :darkside: to their checks."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Anakin’s lightsaber",
+				"skill": "Lightsaber",
+				"damage": 10,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder", "Vicious 2"]
+			}
+		],
+		"gear": ["Padded robes (+1 soak, defence 1)"],
+		"tags": ["book:cotr",
+				"jedi",
+				"force sensitive",
+				"character:Anakin"
+				]
+	},
+	{
+		"name": "Admiral Trench",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 5,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 15,
+			"strain": 12,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Astrogation": 4,
+			"Coercion": 4,
+			"Cool": 4,
+			"Deception": 4,
+			"Knowledge: Warfare": 5,
+			"Leadership": 3,
+			"Melee": 2,
+			"Perception": 4,
+			"Ranged: Light": 2
+		},
+		"talents": ["Adversary 1",
+			{
+				"name": "Clever Commander",
+				"description": "May use ranks in Knowledge (Warfare) to upgrade Mass COmbat chekcs instead of ranks in Leadership."
+			}
+		],
+		"abilities": [
+			{
+				"name": "Deadly Blockade",
+				"description": "If the current speed of a ship under Trench’s control is 0, when its crew aim ship-based weapons, they upgrade the ability of their combat check once instead of adding :boost: to the check."
+			},
+			{
+				"name": "Presumed dead",
+				"description": "If Admiral Trench is killed, he may make a :daunting: Deception check to instead sugger a Critical Injury, rerolling lethal results, and escape while faking his death."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Implanted electronet launcher",
+				"skill": "Ranged: Light",
+				"damage": 8,
+				"critical": 5,
+				"range": "Short",
+				"qualities": ["Ensnare 5", "Knockdown", "Limited Ammo 1", "Stun Damage"]
+			},
+			{
+				"name": "Electrocane",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engages",
+				"qualities": ["Stun Setting"]
+			}
+		],
+		"gear": ["Padded robes (+1 soak, defence 1)"],
+		"tags": ["book:cotr",
+				"separatist"
+				]
+	},
+	{
+		"name": "Aurra Sing",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 16,
+			"strain": 18,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 4,
+			"Coercion": 3,
+			"Cool": 5,
+			"Deception": 2,
+			"Discipline": 2,
+			"Knowledge: Underworld": 3,
+			"Negotiation": 2,
+			"Piloting: Planetary": 2,
+			"Ranged: Heavy": 5,
+			"Ranged: Light": 4,
+			"Streetwise": 3,
+			"Survival": 3,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 2", "Precise Aim 3"],
+		"abilities": [
+			{
+				"name": "Rhen-Orm Biocomputer",
+				"description": "When Aurra Sing provides assistance to a character making a Knowledge check, upgrade the ability of the check one additional time; Aurra Sing adds :success: to all Perception and Vigilance checks she makes."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Twin DX-13 Blaster Pistols",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Autofire", "Stun Setting"]
+			},
+			{
+				"name": "Czerka slugthrower rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 3,
+				"range": "Extreme",
+				"qualities": ["Accurate 2", "Pierce 2"],
+				"notes": "Czerka Adventurer slugthrower rifle"
+			},
+			{
+				"name": "Concealed boot darts",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Inaccurate 1", "Limited Ammo 2", "Pierce 3"]
+			},
+			{
+				"name": "Knuckles",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Disorient 1", "Knockdown"]
+			}
+		],
+		"gear": ["Second skin armoured bodysuit (+1 soak, defence 1)", "Tracker utulity vest"],
+		"tags": ["underworld", "bounty hunter", "book:cotr"]
+	},
+	{
+		"name": "Cad Bane",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"strain": 18,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 4,
+			"Coercion": 2,
+			"Cool": 5,
+			"Coordination": 4,
+			"Deception": 4,
+			"Knowledge: Underworld": 4,
+			"Mechanics": 3,
+			"Piloting: Planetary": 3,
+			"Piloting: Space": 3,
+			"Ranged: Heavy": 4,
+			"Ranged: Light": 5,
+			"Stealth": 3,
+			"Streetwise": 4,
+			"Survival": 3,
+			"Vigilance": 5
+		},
+		"talents": ["Adversary 3", "Quick Draw (Improved)",
+			{
+				"name": "Clever Solution",
+				"description": "Once per session, may make one skill check using Cunning rather than the normal characteristic for that skill."
+			},
+			{
+				"name": "Guns Blazing",
+				"description": "As an incidental, may suffer 2 strain to avoid increasing the difficulty of a Ranged: Light check to attack with two weapons."
+			}
+		],
+		"abilities": [
+			{
+				"name": "Always a Backup Plan",
+				"description": "Once per encounter, may reroll any single Coercion, Streetwise, Survival or Vigilance check."
+			},
+			{
+				"name": "Cybernetic Lungs",
+				"description": "Immune to airborne poisons and toxins."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Twin custom LL-30 Blaster Pistols",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Accurate 1", "Stun Setting"]
+			},
+			{
+				"name": "Bolas",
+				"skill": "Ranged: Light",
+				"damage": 2,
+				"critical": null,
+				"range": "Short",
+				"qualities": ["Ensnare 3", "Knockdown", "Limited Ammo 1"]
+			},
+			{
+				"name": "Compact flame projector",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Blast 2", "Burn 2", "Vicious 3", "Pierce 2"]
+			},
+			{
+				"name": "Custom shock gloves",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Stun 3"]
+			}
+		],
+		"gear": ["longcoat (+1soak, defence 1)", "Wrist gauntlets with integrated datapad and whipcord thrower", "Rocket boots (can fly)"],
+		"tags": ["underworld", "bounty hunter", "book:cotr", "species:duros"]
+	},
+	{
+		"name": "Maul (CotR)",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 5,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 18,
+			"strain": 21,
+			"defence": [1, 0]
+		},
+		"skills": {
+			"Athletics": 4,
+			"Brawl": 4,
+			"Coercion": 3,
+			"Coordination": 4,
+			"Deception": 3,
+			"Knowledge: Lore": 3,
+			"Lightsaber": 5,
+			"Piloting: Space": 3,
+			"Survival": 1,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 3", "Force Rating 4", "Jump Up", "Parry 4", "Fear is My Ally", "Reflect 4",
+			{
+				"name": "Hawkbat Swoop",
+				"description": "As an action, may make a Lightsaber combat check against a target within short range, adding up to :force::force::force::force:, may spend :Forcepip: to engage target or add :advantage to the check."
+			}
+		],
+		"abilities": [
+			"Darkside Force User", "Force Power: Move",
+			{
+				"name": "Intimidating Countenance",
+				"description": "Add automatic :advantage::advantage: to all Coercion checks Maul makes."
+			},
+			{
+				"name": "Force Power: Enhance",
+				"description": "When making an Athletics, Coordination, or Resilience check, Maul may roll an Enhance power check as part of the pool and spend :forcepip: to gain :success: or :advantage: on the check. Maul may take the Force Leap maneuver to make an Enhance power check. He may spend :forcepip: to leap horizontally or vertically to any location in Short range."
+			},
+			{
+				"name": "Force Power: Sense",
+				"description": "Spend :forcepip: to sense the current thoughts of one living target within Short range."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Maul’s lightsaber",
+				"skill": "Lightsaber",
+				"damage": 9,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder", "Linked 1", "Defensive 1"]
+			},
+			{
+				"name": "Darksaber",
+				"skill": "Lightsaber",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Accurate 1", "Breach 1", "Sunder", "Defensive 1"]
+			}
+		],
+		"gear": ["Cybernetic legs (+1 Brawn, already included in profile)", "Nightbrother heavy clothing (+1 Soak)"],
+		"tags": ["force sensitive", "darkside", "species:Zabrak", "underworld", "character:Maul", "book:cotr", "shadow collective"]
+	},
+	{
+		"name": "Savage Opress",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 9,
+			"wounds": 25,
+			"strain": 15,
+			"defence": [1, 1]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 4,
+			"Coercion": 4,
+			"Deception": 1,
+			"Discipline": 3,
+			"Lightsaber": 4,
+			"Melee": 4,
+			"Resilience": 5,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Force Rating 2", "Parry 4", "Reflect 3"],
+		"abilities": ["Darkside Force User", "Force Power: Move", "Force Power: Bind",
+			{
+				"name": "Anger is Strength",
+				"description": "While Savage is critically injured, he gains +2 Force Rating and +2 damage to combat checks."
+			},
+			{
+				"name": "Intimidating Countenance",
+				"description": "Add automatic :advantage::advantage: to all Coercion checks Maul makes."
+			},
+			{
+				"name": "Force Power: Enhance",
+				"description": "When making an Athletics, Coordination, or Resilience check, Maul may roll an Enhance power check as part of the pool and spend :forcepip: to gain :success: or :advantage: on the check. Maul may take the Force Leap maneuver to make an Enhance power check. He may spend :forcepip: to leap horizontally or vertically to any location in Short range."
+			},
+			{
+				"name": "Force Power: Sense",
+				"description": "Spend :forcepip: to sense the current thoughts of one living target within Short range."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Ichor pike",
+				"skill": "Melee",
+				"damage": 9,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Cortosis", "Pierce 2"]
+			},
+			{
+				"name": "Double bladed lightsaber",
+				"skill": "Lightsaber",
+				"damage": 8,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Sunder", "Linked 1"]
+			}
+		],
+		"gear": ["Heavy battle armour (+2 Soak, +1 defence)"],
+		"tags": ["force sensitive", "darkside", "species:Zabrak", "underworld", "character:Savage Opress", "book:cotr", "shadow collective"]
 	},
 	{
 		"name": "Senate Guard",
