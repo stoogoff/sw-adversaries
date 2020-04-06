@@ -7,7 +7,9 @@ import PanelText from "./panel-text";
 import PanelWeapons from "./panel-weapons";
 import PanelTalent from "./panel-talent";
 import PanelTag from "./panel-tag";
-import { symbolise, getSourceLink } from "../lib/utils";
+import PanelVehicle from "./panel-vehicle";
+import { symbolise, getSourceLink, isPilot, hashToArray } from "../lib/utils";
+import Select from "./input/select";
 import dispatcher from "lib/dispatcher";
 import * as CONFIG from "lib/config";
 
@@ -19,7 +21,9 @@ export default class CharacterView extends React.Component {
 			minions: 1,
 			currentWounds: 0,
 			aliveMinions: 1,
-			displayCharacterMenu: false
+			displayCharacterMenu: false,
+			selectedVehicle: "",
+			vehicle: null
 		};
 
 		this.md = new Remarkable();
@@ -28,9 +32,33 @@ export default class CharacterView extends React.Component {
 	componentWillUpdate(nextProps, nextState) {
 		if(nextProps.character !== this.props.character) {
 			this.setState({
-				displayCharacterMenu: false
+				displayCharacterMenu: false,
+				selectVehicle: "",
+				vehicle: null
 			});
 		}
+	}
+
+	selectVehicle(vehicle) {
+		this.setState({
+			selectedVehicle: vehicle
+		});
+	}
+
+	addVehicle() {
+		let vehicle = this.props.vehicles.findBy("name", this.state.selectedVehicle);
+
+		if(vehicle) {
+			this.setState({
+				vehicle: vehicle
+			});
+		}
+	}
+
+	removeVehicle() {
+		this.setState({
+			vehicle: null
+		});
 	}
 
 	setMinions(minions) {
@@ -130,15 +158,7 @@ export default class CharacterView extends React.Component {
 			return null;
 		}
 
-		let characteristics = [];
-
-		for(let i in character.characteristics) {
-			characteristics.push({
-				"name": i,
-				"value": character.characteristics[i]
-			});
-		}
-
+		let characteristics = hashToArray(character.characteristics);
 		let defence = "defence" in character.derived ? character.derived.defence.join(" | ") : "0 | 0";
 
 		// header icon based on important tags
@@ -209,6 +229,60 @@ export default class CharacterView extends React.Component {
 			favIcon = <svg className="star-filled outline"><use xlinkHref="#icon-star-full"></use></svg>;
 		}
 
+		// get the selected vehicle if one is available
+		let vehicle = this.state.vehicle;
+
+		// add boost or setback dice depending on handling
+		let boost = {};
+		let setback = {};
+
+		if(vehicle) {
+			let handling = parseInt(vehicle.characteristics.Handling);
+			let skills = ["Piloting: Planetary", "Piloting: Space"];
+
+			if(handling > 0) {
+				skills.forEach(s => boost[s] = handling);
+			}
+			else if(handling < 0) {
+				skills.forEach(s => setback[s] = Math.abs(handling));
+			}
+		}
+
+		let derived = vehicle
+			? <div className="stats vehicle" id="derived">
+				<div>
+					<h3>Armour</h3>
+					<span>{ vehicle.derived.armour }</span>
+				</div>
+				<div>
+					<h3>Hull <small>Threshold | Current</small></h3>
+					<span>{ character.type === CONFIG.MINION ? vehicle.derived.hull * this.state.minions : vehicle.derived.hull } |</span>
+					<form onSubmit={ this.setCurrentWounds.bind(this) }><input type="text" placeholder={ this.state.currentWounds } maxLength="2" ref="currentWounds" /></form>
+				</div>
+				<div><h3>System Strain <small>Threshold | Current</small></h3><span>{ vehicle.derived.system } |</span><input type="text" defaultValue="0" maxLength="2" /></div>
+				<div className="small">
+					<h3>Defence <small>Fore | Port | STBD | Aft</small></h3>
+					<span>{ vehicle.derived.defence.fore } | { vehicle.derived.defence.port ? vehicle.derived.defence.port : "–" } | { vehicle.derived.defence.starboard ?  vehicle.derived.defence.starboard : "–" } | { vehicle.derived.defence.aft }</span>
+				</div>
+			</div>
+			: <div className="stats" id="derived">
+				<div>
+					<h3>Soak</h3>
+					<span>{ character.derived.soak }</span>
+				</div>
+				<div>
+					<h3>Wounds <small>Threshold | Current</small></h3>
+					<span>{ character.type === CONFIG.MINION ? character.derived.wounds * this.state.minions : character.derived.wounds } |</span>
+					<form onSubmit={ this.setCurrentWounds.bind(this) }><input type="text" placeholder={ this.state.currentWounds } maxLength="2" ref="currentWounds" /></form>
+				</div>
+				{ character.type === CONFIG.NEMESIS ? <div><h3>Strain <small>Threshold | Current</small></h3><span>{ character.derived.strain } |</span><input type="text" defaultValue="0" maxLength="2" /></div> : null }
+				<div>
+					<h3>Defence <small>&nbsp; Melee | Ranged</small></h3>
+					<span>{ defence }</span>
+				</div>
+			</div>
+		;
+
 		return <div className={ !this.props.visible ? "hidden" : null }>
 			<h1 data-adversary-type={ character.type } className={ character.devOnly || character.id.startsWith(CONFIG.ADVERSARY_ID) ? "dev" : ""}>{ icon } { character.name } { favIcon }</h1>
 			<h2 className="subtitle">
@@ -231,26 +305,19 @@ export default class CharacterView extends React.Component {
 						return <div key={ c.name }><span>{ c.value }</span><h3>{ c.name }</h3></div>
 					})}
 				</div>
-				<div className="stats" id="derived">
-					<div>
-						<h3>Soak</h3>
-						<span>{ character.derived.soak }</span>
-					</div>
-					<div>
-						<h3>Wounds <small>Threshold | Current</small></h3>
-						<span>{ character.type === CONFIG.MINION ? character.derived.wounds * this.state.minions : character.derived.wounds } |</span>
-						<form style={{display: 'inline'}} onSubmit={this.setCurrentWounds.bind(this)}><input type="text" placeholder={this.state.currentWounds} maxLength="2" ref="currentWounds" /></form>
-					</div>
-					{ character.type === CONFIG.NEMESIS ? <div><h3>Strain <small>Threshold | Current</small></h3><span>{ character.derived.strain } |</span><input type="text" defaultValue="0" maxLength="2" /></div> : null }
-					<div>
-						<h3>Defence <small>&nbsp; Melee | Ranged</small></h3>
-						<span>{ defence }</span>
-					</div>
-				</div>
+				{ derived }
 			</div>
 			<div className="column large">
-				<PanelSkill character={ character } skills={ this.props.skills } aliveMinions={ this.state.aliveMinions } minions={ this.state.minions } setMinions={ this.setMinions.bind(this) } />
-				<PanelWeapons title="Weapons" character={ character } skills={ this.props.skills } weapons={ this.props.weapons } qualities={ this.props.qualities } talents={ this.props.talents } aliveMinions={ this.state.aliveMinions } minions={ this.state.minions } />
+				<PanelSkill character={ character } skills={ this.props.skills } aliveMinions={ this.state.aliveMinions } minions={ this.state.minions } setMinions={ this.setMinions.bind(this) } boost={ boost } setback={ setback }/>
+				{ isPilot(character) && vehicle ? <PanelVehicle vehicle={ vehicle } onClose={ this.removeVehicle.bind(this) } /> : null }
+				{ isPilot(character) && !vehicle
+					? <div className="info">
+						<h2>Vehicle</h2>
+						<Select value={ vehicle ? vehicle.name : null } values={ ["", ...this.props.vehicles.map(v => v.name)] } handler={ this.selectVehicle.bind(this) } />
+						<button className="btn-full" disabled={ this.state.selectedVehicle == "" } onClick={ this.addVehicle.bind(this) }>Add Vehicle</button>
+					</div>
+					: null }
+				<PanelWeapons title="Weapons" character={ character } vehicle={ vehicle } skills={ this.props.skills } weapons={ this.props.weapons } qualities={ this.props.qualities } talents={ this.props.talents } aliveMinions={ this.state.aliveMinions } minions={ this.state.minions } />
 				<PanelTalent title="Talents" stats={ stats } data={ character.talents } talents={ this.props.talents } />
 				<PanelTalent title="Abilities" stats={ stats } data={ character.abilities } talents={ this.props.talents } />
 				<PanelInfo title="Gear" text={ character.gear } />

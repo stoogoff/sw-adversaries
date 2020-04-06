@@ -20,6 +20,10 @@ function getWeaponDetails(weapon, character, allSkills, aliveMinions) {
 		weapon.qualities = [];
 	}
 
+	if("arc" in weapon) {
+		weapon.skill = "Gunnery";
+	}
+
 	// get dice values
 	let skill = allSkills.find(s => s.name == weapon.skill);
 
@@ -125,8 +129,15 @@ export default class PanelWeapons extends React.Component {
 				weapons.push(getWeaponDetails(weapon, character, allSkills, this.props.aliveMinions));
 			});
 
-			weapons.sort(sortByProperty("name"));
 		}
+
+		if(this.props.vehicle != null && this.props.vehicle.weapons != null) {
+			this.props.vehicle.weapons.forEach(weapon => weapons.push(getWeaponDetails(weapon, character, allSkills, this.props.aliveMinions)));
+		}
+
+		weapons.sort(sortByProperty("name"));
+
+		let hasShipWeapon = weapons.filter(f => f.arc).length > 0;
 
 		return <div className="info">
 			<h2>Weapons</h2>
@@ -135,6 +146,7 @@ export default class PanelWeapons extends React.Component {
 				<thead>
 					<tr>
 						<th>Weapon</th>
+						{ hasShipWeapon ? <th>Arc</th> : null }
 						<th>Range</th>
 						<th>Damage</th>
 						<th className="hide-small hide-medium">Roll { character.type == CONFIG.MINION
@@ -148,6 +160,7 @@ export default class PanelWeapons extends React.Component {
 					{ weapons.map(w => {
 						return <tr key={ w.id }>
 							<td>{ w.name }<br /><small>{ w.skill }</small></td>
+							{ hasShipWeapon ? <td><small>{ w.arc ? w.arc : "–" }</small></td> : null }
 							<td><small>{ w.range }</small></td>
 							<td>
 								<div className="damage"><small className="hide-small">Damage:</small> { w.damage || "–" }</div>

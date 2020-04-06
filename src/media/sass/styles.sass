@@ -56,6 +56,19 @@ h2.subtitle
 
 	.nemesis
 		color: $stat
+h4
+	margin-top: 0
+
+	&.expander
+		padding: 0.2em
+		cursor: pointer
+
+		svg
+			position: relative
+			top: 0.2em
+
+		&:hover
+			background-color: $fadeInput !important
 
 .text
 	margin: 0 1rem
@@ -317,6 +330,9 @@ h2.subtitle
 	font-size: 0.9em
 	padding: 0 1rem
 
+	form
+		display: inline
+
 	div
 		text-align: center
 		margin-bottom: 1.5em
@@ -337,7 +353,7 @@ h2.subtitle
 		font-weight: normal
 		font-family: 'Source Sans Pro', sans-serif
 
-#characteristics
+#characteristics, #vehicle
 	margin: auto
 	width: 15.118rem
 
@@ -403,11 +419,32 @@ h2.subtitle
 		&:hover
 			background-color: #eee
 
+	&.vehicle h3
+		background-color: rgb(40,52,68)
+
+	.small span
+		font-size: 1.8em
+
+#vehicle
+	div
+		background-color: rgb(31,53,83)
+		display: inline-block
+		font-size: 0.8em
+
+	span
+		background-color: white
+		font-size: 2em
+		border-width: 2px
+		border-radius: 0.2em !important
+
+	h3
+		background-color: rgb(18,157,234)
 
 // SKILLS
 .info
 	clear: both
 	margin: 0 0 1.5em
+	position: relative
 
 	ul, .directory, p, h2
 		margin-left: 1em
@@ -477,6 +514,11 @@ h2.subtitle
 
 			&:hover
 				background-color: white
+
+#vehicle-close
+	position: absolute
+	top: 0
+	right: 0
 
 
 // EDIT MODE

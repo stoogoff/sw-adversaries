@@ -74,13 +74,16 @@ export default class PanelSkill extends React.Component {
 					value = minionSkill(this.props.aliveMinions, skill.name, characterSkills);
 				}
 
+				let boost = "boost" in this.props && skill.name in this.props.boost ? this.props.boost[skill.name] : 0;
+				let setback = "setback" in this.props && skill.name in this.props.setback ? this.props.setback[skill.name] : 0;
+
 				skills.push({
 					"id": skill.id,
 					"name": skill.name,
 					"value": value,
 					"characteristic": skill.characteristic,
 					"stat": stat,
-					"icons": dice(stat, value),
+					"icons": dice(stat, value, boost, setback),
 					"hasRank": this.state.showAll && skill.name in characterSkills
 				});
 			}

@@ -10,14 +10,13 @@ export default class Select extends React.Component {
 	}
 
 	render() {
-		let inputId = "input_" + id(this.props.label);
+		let inputId = this.props.label ? "input_" + id(this.props.label) : null;
 
 		return <div className="row-input input-select">
-			<label htmlFor={ inputId }>{ this.props.label } { this.props.required ? <span className="required">*</span> : null }</label>
+			{ this.props.label ? <label htmlFor={ inputId }>{ this.props.label } { this.props.required ? <span className="required">*</span> : null }</label> : null }
 			<select id={ inputId } type="text" value={ this.props.value } onChange={ this.handleChange.bind(this) }>
 				{ this.props.values.map(v => <option>{ v }</option>) }
 			</select>
-			<svg><use xlinkHref="#icon-circle-down"></use></svg>
 		</div>;
 	}
 }

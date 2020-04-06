@@ -36,7 +36,7 @@ class App extends React.Component {
 		this.stores = {};
 		this.loadedTotal = 0;
 
-		["skills", "adversaries", "weapons", "talents", "qualities"].forEach(key => {
+		["skills", "adversaries", "vehicles", "weapons", "talents", "qualities"].forEach(key => {
 			this.stores[key] = new DataStore(`${ENV_VERSION}/media/data/${key}.json`);
 			this.stores[key].load(() => this.loadedTotal++);
 		});
@@ -415,7 +415,7 @@ class App extends React.Component {
 			: null;
 
 		let content = [<div>
-			{ this.state.selected.map((selected, index) => <CharacterView key={ index } character={ selected.character } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } visible={ index == this.state.selectedIndex } />)}
+			{ this.state.selected.map((selected, index) => <CharacterView key={ index } character={ selected.character } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } vehicles={ this.stores.vehicles } visible={ index == this.state.selectedIndex } />)}
 			<Tabs tabs={ this.state.selected } selectedIndex={ this.state.selectedIndex } />
 		</div>];
 

@@ -77,7 +77,7 @@ gulp.task("transpile-js", () => {
 
 // merge folders of json data into a single file
 gulp.task("merge-data", () => {
-	let mapped = ["adversaries", "qualities", "talents"].map(function(m) {
+	let mapped = ["adversaries", "qualities", "talents", "vehicles"].map(function(m) {
 		return gulp.src(TARGET.src("media/data/" + m + "/*.json")).pipe(combine(m + ".json", function(data, metaData) {
 			// add the file the adversary is in in dev mode only
 			if(isDev && m == "adversaries") {
