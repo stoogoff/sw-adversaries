@@ -676,5 +676,213 @@
 		],
 		"gear": ["Nightsister robes (+1 defence)"],
 		"tags": ["book:cotr", "location:Dathomir", "nightsister"]
-	}	
+	},
+	{
+		"name": "Mother Talzin",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 5,
+			"Cunning": 4,
+			"Willpower": 5,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 15,
+			"strain": 22,
+            "defence": [1, 1]
+		},
+		"skills": {
+			"Cool": 2,
+			"Deception": 4,
+			"Discipline": 4,
+			"Knowledge: Lore": 4,
+			"Melee": 4,
+			"Negotiation": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 3", "Force Rating 5"],
+		"abilities": ["Force Power: Enhance", "Force Power: Move", "Force Power: Sense", "Force Power: Misdirect",
+				{
+				"name": "Poppet Doll",
+				"description": "If Talzin has a target’s personal item, she can spend one hour to create a poppet doll of the target; as an action, may harm the doll, forcing the target to make a :daunting: Resilience check or suffer 4 wounds and 4 strain; may spend :threat::threat::threat: to immobilize the target until the end of their turn or :despair: to stagger the target until the end of their next turn; target may spend :triumph: to render the doll permanently powerless after this action is resolved."
+				},
+				{
+				"name": "Incorporeal",
+				"description": "May perform a maneuver to become incorporeal; while incorporeal, gains melee and ranged defence 4, can fly and can move through solid objects."
+				}
+		],
+		"weapons": [
+			{
+				"name": "Ichor energy",
+				"skill": "Discipline",
+				"damage": 6,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Autofire", "Burn 2", "Ensnare 2", "Disorient 3"]
+			},
+			{
+				"name": "Ichor sword",
+				"skill": "Melee",
+				"damage": 8,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Cortosis", "Superior"]
+			}
+		],
+		"gear": ["Crystal ball", "Dooku poppet doll", "Ichor cauldron"],
+		"tags": ["book:cotr", "location:Dathomir", "nightsister"]
+	},
+	{
+		"name": "Jungle Rancor",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 12,
+			"wounds": 40,
+			"strain": 20,
+            "defence": [1, 1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Perception": 2,
+			"Survival": 4,
+			"Vigilance": 2
+		},
+		"talents": ["Durable 2"],
+		"abilities": ["Silhouette 3", "Sweep Attack"],
+		"weapons": [
+			{
+				"name": "Massive rending claws",
+				"skill": "Brawl",
+				"damage": 15,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Knockdown", "Sunder"]
+			}
+		],
+		"tags": ["creature", "book:cotr", "location:felucia"]
+	},
+	{
+		"name": "Felucian",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": ["Survival"],
+		"abilities": ["Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Poisoned spear",
+				"skill": "Melee",
+				"damage": 2,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Stun 4"]
+			}
+		],
+		"tags": ["book:cotr", "location:felucia"]
+	},
+	{
+		"name": "Webweaver",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10
+		},
+		"skills": ["Brawl", "Cool", "Ranged: Light", "Stealth", "Survival"],
+		"weapons": [
+			{
+				"name": "Spider fangs",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Stun 4"]
+			},
+			{
+				"name": "Spider hairs",
+				"skill": "Ranged: Light",
+				"damage": 3,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Disorient 3"]
+			}
+		],
+		"tags": ["creature", "book:cotr", "location:Kashyyyk"]
+	},
+	{
+		"name": "Terentatek",
+		"type": "Nemesis",
+		"description": "",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 15,
+			"wounds": 25,
+			"strain": 15,
+            "defence": [0, 0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Perception": 2,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Silhouette 2",
+			{
+				"name": "Force Sense",
+				"description": "May make an :average: Perception check to become aware of all characters with a Force rating within extreme range."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Poisonous tusks and claws",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 4", "Stun 5", "Vicious 4"]
+			}
+		],
+		"tags": ["creature", "book:cotr", "location:Kashyyyk"]
+	}
 ]
