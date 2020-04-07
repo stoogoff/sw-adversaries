@@ -38,7 +38,7 @@
 			},
 			{
 				"name": "Confident Command",
-				"description": "Upgrade difficulty of all combat checks against a ship  this character is commanding once."
+				"description": "Upgrade difficulty of all combat checks against a ship this character is commanding once."
 			}
 		],
 		"gear": ["Admiral’s uniform (+1 Soak)", "Comlink"],

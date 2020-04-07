@@ -96,7 +96,7 @@ export default class PanelVehicle extends React.Component {
 						</tr>
 						<tr>
 							<th>Encumbrance Capacity:</th>
-							<td>{ vehicle.info.encumbrance }</td>
+							<td>{ vehicle.info.encumbrance.toLocaleString() }</td>
 						</tr>
 						<tr>
 							<th>Passenger Capacity:</th>

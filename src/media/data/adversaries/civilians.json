@@ -684,7 +684,7 @@
 		"talents": ["Galaxy Mapper 3"],
 		"weapons": ["Blaster pistol"],
 		"gear": ["Datapad", "Scout ship"],
-		"tags": ["civilian", "location:Rim Worlds", "book:fad", "book:aaa"]
+		"tags": ["civilian", "location:Rim Worlds", "book:fad", "book:aaa", "pilot"]
 	},
 	{
 		"name": "Mon Calamari Shipwright",

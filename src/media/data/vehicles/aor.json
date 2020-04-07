@@ -584,7 +584,8 @@
 		]
 	},
 	{
-		"name": "Vigil-Class Corvette",
+		"name": "Vigil Corvette",
+		"fullName": "Vigil-Class Corvette",
 		"group": "Gunships",
 		"info": {
 			"type": "Corvette/Vigil",
@@ -808,7 +809,7 @@
 		]
 	},
 	{
-		"name": "Airspeeder",
+		"name": "Alliance Airspeeder",
 		"fullName": "Alliance T-47 Airspeeder",
 		"group": "Airspeeders",
 		"info": {
