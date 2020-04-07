@@ -69,7 +69,7 @@ export default class PanelWeapons extends React.Component {
 
 		if(name == "Notes") {
 			let id = evt.target.getAttribute("data-weapon");
-			let weapon = this.props.weapons.all().concat(this.props.character.weapons).find(w => w.id == id);
+			let weapon = this.props.weapons.all().concat(this.props.vehicle ? this.props.vehicle.weapons : this.props.character.weapons).find(w => w.id == id);
 
 			quality = {
 				name: "Notes",
@@ -97,7 +97,7 @@ export default class PanelWeapons extends React.Component {
 	}
 
 	componentWillUpdate(nextProps, nextState) {
-		if(nextProps.character !== this.props.character) {
+		if(nextProps.character !== this.props.character || nextProps.vehicle != this.props.vehicle) {
 			this.setState({
 				quality: null
 			});
@@ -118,22 +118,14 @@ export default class PanelWeapons extends React.Component {
 			return null;
 		}
 
-		if(character.weapons != null) {
-			character.weapons.forEach(w => {
-				let weapon = w instanceof Object ? w : allWeapons.find(a => a.name == w);
+		// in order use if available: vehicle weapons, character weapons, an empty array
+		((this.props.vehicle ? this.props.vehicle.weapons : character.weapons) || []).forEach(w => {
+			let weapon = w instanceof Object ? w : allWeapons.find(a => a.name == w);
 
-				if(!weapon) {
-					return null;
-				}
-
+			if(weapon) {
 				weapons.push(getWeaponDetails(weapon, character, allSkills, this.props.aliveMinions));
-			});
-
-		}
-
-		if(this.props.vehicle != null && this.props.vehicle.weapons != null) {
-			this.props.vehicle.weapons.forEach(weapon => weapons.push(getWeaponDetails(weapon, character, allSkills, this.props.aliveMinions)));
-		}
+			}
+		});
 
 		weapons.sort(sortByProperty("name"));
 

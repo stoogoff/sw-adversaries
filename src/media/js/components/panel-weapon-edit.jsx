@@ -1,7 +1,7 @@
 
 import React from "react";
 import { TextInput, TextArea, AutoComplete } from "./input/text";
-import Select from "./input/select";
+import { Select } from "./input/select";
 import SelectQuality from "./input/select-quality";
 import PanelCode from "./panel-code";
 import { findByProperty, sortByProperty, indexOfByProperty } from "../lib/list";

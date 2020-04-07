@@ -1,0 +1,474 @@
+[
+	{
+		"name": "Cloakshape Fighter",
+		"group": "Starfighters",
+		"info": {
+			"type": "Starfighter/Cloakshape",
+			"manufacturer": "Kuat Systems Engineering",
+			"hyperdrive": null,
+			"navicomputer": null,
+			"sensors": "Close",
+			"complement": "One pilot",
+			"encumbrance": 12,
+			"passengers": 0,
+			"consumables": "One day",
+			"price": 38000,
+			"rarity": 4,
+			"hardpoints": 3
+		},
+		"characteristics": {
+			"Silhouette": 3,
+			"Speed": 4,
+			"Handling": "+0"
+		},
+		"derived": {
+			"armour": 3,
+			"hull": 10,
+			"system": 8,
+			"defence": {
+				"fore": 0,
+				"port": null,
+				"starboard": null,
+				"aft": 0
+			}
+		},
+		"weapons": [
+			{
+				"name": "Light laser cannons",
+				"arc": "Forward",
+				"damage": 5,
+				"critical": 3,
+				"range": "Close",
+				"qualities": ["Linked 1"]
+			},
+			{
+				"name": "Concussion missile launchers",
+				"arc": "Forward",
+				"damage": 6,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Breach 4", "Blast 4", "Guided 3", "Linked 1", "Limited Ammo 6", "Slow-Firing 1"]
+			}
+		]
+	},
+	{
+		"name": "Firespray",
+		"fullName": "Firespray Sysem Patrol Craft",
+		"group": "Patrol Boats",
+		"info": {
+			"type": "Patrol Boat/Firespray",
+			"manufacturer": "Kuat Systems Engineering",
+			"hyperdrive": {
+				"primary": 3,
+				"backup": 15
+			},
+			"navicomputer": "Yes",
+			"sensors": "Short",
+			"complement": "One pilot, two guards",
+			"encumbrance": 40,
+			"passengers": "6 (prisoners)",
+			"consumables": "One month",
+			"price": 80000,
+			"rarity": 4,
+			"hardpoints": 4
+		},
+		"characteristics": {
+			"Silhouette": 4,
+			"Speed": 4,
+			"Handling": "+0"
+		},
+		"derived": {
+			"armour": 4,
+			"hull": 15,
+			"system": 12,
+			"defence": {
+				"fore": 1,
+				"port": null,
+				"starboard": null,
+				"aft": 1
+			}
+		},
+		"weapons": [
+			{
+				"name": "Auto-blasters",
+				"arc": "Forward",
+				"damage": 3,
+				"critical": 5,
+				"range": "Close",
+				"qualities": ["Auto-Fire"]
+			},
+			{
+				"name": "Light tractor beam projector",
+				"arc": "Forward",
+				"damage": null,
+				"critical": null,
+				"range": "Close",
+				"qualities": ["Tractor 2"]
+			}
+		]
+	},
+	{
+		"name": "Jumpmaster",
+		"fullName": "JM-5000 Jumpmaster Long Range Scout",
+		"group": "Patrol Boats",
+		"info": {
+			"type": "Patrol Boat/JumpMaster",
+			"manufacturer": "Corellian Engineering Corporation",
+			"hyperdrive": {
+				"primary": 3,
+				"backup": 15
+			},
+			"navicomputer": "Yes",
+			"sensors": "Extreme",
+			"complement": "One pilot",
+			"encumbrance": 30,
+			"passengers": 1,
+			"consumables": "Two months",
+			"price": 55000,
+			"rarity": 5,
+			"hardpoints": 2
+		},
+		"characteristics": {
+			"Silhouette": 4,
+			"Speed": 4,
+			"Handling": "+1"
+		},
+		"derived": {
+			"armour": 2,
+			"hull": 14,
+			"system": 8,
+			"defence": {
+				"fore": 1,
+				"port": null,
+				"starboard": null,
+				"aft": 0
+			}
+		},
+		"weapons": [
+			{
+				"name": "Light laser cannon",
+				"arc": "Forward",
+				"damage": 5,
+				"critical": 3,
+				"range": "Close"
+			}
+		]
+	},
+	{
+		"name": "Headhunter",
+		"fullName": "Z-95-AF4 Headhunter",
+		"group": "Starfighters",
+		"info": {
+			"type": "Starfighter/Headhunter",
+			"manufacturer": "Incom/Subpro",
+			"hyperdrive": null,
+			"navicomputer": null,
+			"sensors": "Close",
+			"complement": "One pilot",
+			"encumbrance": 8,
+			"passengers": 0,
+			"consumables": "One day",
+			"price": 55000,
+			"rarity": 4,
+			"hardpoints": 2
+		},
+		"characteristics": {
+			"Silhouette": 3,
+			"Speed": 4,
+			"Handling": "+1"
+		},
+		"derived": {
+			"armour": 3,
+			"hull": 9,
+			"system": 8,
+			"defence": {
+				"fore": 1,
+				"port": null,
+				"starboard": null,
+				"aft": 0
+			}
+		},
+		"weapons": [
+			{
+				"name": "Light laser cannons",
+				"arc": "Forward",
+				"damage": 5,
+				"critical": 3,
+				"range": "Close",
+				"qualities": ["Linked 1"]
+			},
+			{
+				"name": "Concussion missile launchers",
+				"arc": "Forward",
+				"damage": 6,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Breach 4", "Blast 4", "Guided 3", "Linked 1", "Limited Ammo 6", "Slow-Firing 1"]
+			}
+		]
+	},
+	{
+		"name": "Skipray",
+		"fullName": "GAT-12H Skipray Blastboat",
+		"group": "Patrol Boats",
+		"info": {
+			"type": "Patrol Boat/Skipray",
+			"manufacturer": "Sienar Fleet Systems",
+			"hyperdrive": {
+				"primary": 2,
+				"backup": 15
+			},
+			"navicomputer": "Yes",
+			"sensors": "Short",
+			"complement": "One pilot, one co-pilot, one comms/sensor operator, two gunners",
+			"encumbrance": 20,
+			"passengers": 0,
+			"consumables": "One month",
+			"price": 150000,
+			"rarity": 6,
+			"hardpoints": 2
+		},
+		"characteristics": {
+			"Silhouette": 4,
+			"Speed": 4,
+			"Handling": -1
+		},
+		"derived": {
+			"armour": 4,
+			"hull": 20,
+			"system": 15,
+			"defence": {
+				"fore": 2,
+				"port": null,
+				"starboard": null,
+				"aft": 1
+			}
+		},
+		"weapons": [
+			{
+				"name": "Triple light ion cannons",
+				"arc": "Forward",
+				"damage": 5,
+				"critical": 4,
+				"range": "Close",
+				"qualities": ["Ion", "Linked 2"]
+			},
+			{
+				"name": "Dorsal turret-mounted twin medium laser cannon",
+				"arc": "All",
+				"damage": 6,
+				"critical": 3,
+				"range": "Close",
+				"qualities": ["Linked 1"]
+			},
+			{
+				"name": "Proton torpedo launcher",
+				"arc": "Forward",
+				"damage": 8,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Blast 6", "Breach 6", "Guided 2", "Limited Ammo 5", "Slow-Firing 1"]
+			},
+			{
+				"name": "Concussion missile launcher",
+				"arc": "Forward",
+				"damage": 6,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Breach 4", "Blast 4", "Guided 3", "Limited Ammo 8", "Slow-Firing 1"]
+			}
+		]
+	},
+	{
+		"name": "Swoop",
+		"fullName": "Mobquet Flare-S Swoop",
+		"group": "Landspeeders",
+		"info": {
+			"type": "Swoop/Flare-S",
+			"manufacturer": "Mobquet Swoops and Speeders",
+			"altitude": "350 metres",
+			"sensors": "None",
+			"complement": "One pilot",
+			"encumbrance": 4,
+			"passengers": 1,
+			"price": 6000,
+			"rarity": 3,
+			"hardpoints": 2
+		},
+		"characteristics": {
+			"Silhouette": 2,
+			"Speed": 3,
+			"Handling": "+2"
+		},
+		"derived": {
+			"armour": 0,
+			"hull": 2,
+			"system": 3,
+			"defence": {
+				"fore": 0,
+				"port": null,
+				"starboard": null,
+				"aft": 0
+			}
+		}
+	},
+	{
+		"name": "Speeder Truck",
+		"fullName": "Trast A-A5 Heavy Speeder Truck",
+		"group": "Landspeeders",
+		"info": {
+			"type": "Speeder Truck/A-A5",
+			"manufacturer": "Trast Heavy Transports",
+			"altitude": "3 metres",
+			"sensors": "None",
+			"complement": "One pilot, two co-pilots",
+			"encumbrance": 220,
+			"passengers": 25,
+			"price": 10000,
+			"rarity": 2,
+			"hardpoints": 3
+		},
+		"characteristics": {
+			"Silhouette": 3,
+			"Speed": 1,
+			"Handling": -2
+		},
+		"derived": {
+			"armour": 0,
+			"hull": 10,
+			"system": 8,
+			"defence": {
+				"fore": 0,
+				"port": null,
+				"starboard": null,
+				"aft": 0
+			}
+		}
+	},
+	{
+		"name": "Landspeeder",
+		"fullName": "X-34 Landspeeder",
+		"group": "Landspeeders",
+		"info": {
+			"type": "Landspeeder/X-34",
+			"manufacturer": "SoroSuub",
+			"altitude": "1 metre",
+			"sensors": "Close",
+			"complement": "One pilot",
+			"encumbrance": 15,
+			"passengers": 1,
+			"price": 4500,
+			"rarity": 2,
+			"hardpoints": 2
+		},
+		"characteristics": {
+			"Silhouette": 2,
+			"Speed": 2,
+			"Handling": "+0"
+		},
+		"derived": {
+			"armour": 0,
+			"hull": 4,
+			"system": 5,
+			"defence": {
+				"fore": 0,
+				"port": null,
+				"starboard": null,
+				"aft": 0
+			}
+		}
+	},
+	{
+		"name": "AT-PT",
+		"fullName": "All Terrain Personal Transport",
+		"group": "Walkers",
+		"info": {
+			"type": "Walker/AT-PT",
+			"manufacturer": "Rothana Heavy Industries",
+			"sensors": "Close",
+			"complement": "One pilot",
+			"encumbrance": 15,
+			"passengers": 1,
+			"price": 30000,
+			"rarity": 7,
+			"hardpoints": 1
+		},
+		"characteristics": {
+			"Silhouette": 2,
+			"Speed": 2,
+			"Handling": "+0"
+		},
+		"derived": {
+			"armour": 3,
+			"hull": 6,
+			"system": 5,
+			"defence": {
+				"fore": 0,
+				"port": null,
+				"starboard": null,
+				"aft": 0
+			}
+		},
+		"weapons": [
+			{
+				"name": "Twin light blaster cannons",
+				"arc": "Forward",
+				"damage": 4,
+				"critical": 4,
+				"range": "Close",
+				"qualities": ["Linked 1"]
+			},
+			{
+				"name": "Concussion grenade launcher",
+				"arc": "Forward",
+				"damage": 10,
+				"critical": 4,
+				"range": "Extreme",
+				"qualities": ["Blast 8", "Breach 1", "Limited Ammo 20"],
+				"notes": "This weapon’s profile uses personal scale, not planetary scale."
+			}
+		]
+	},
+	{
+		"name": "AT-EST",
+		"fullName": "Exploration and Survey Walker",
+		"group": "Walkers",
+		"info": {
+			"type": "Walker/AT-EST",
+			"manufacturer": "Rothana Heavy Engineering",
+			"sensors": "Long",
+			"complement": "One pilot, one co-pilot, one sensor/comms operator",
+			"encumbrance": 50,
+			"passengers": 8,
+			"consumables": "One month",
+			"price": 12000,
+			"rarity": 5,
+			"hardpoints": 4
+		},
+		"characteristics": {
+			"Silhouette": 4,
+			"Speed": 1,
+			"Handling": -2
+		},
+		"derived": {
+			"armour": 2,
+			"hull": 20,
+			"system": 12,
+			"defence": {
+				"fore": 0,
+				"port": null,
+				"starboard": null,
+				"aft": 0
+			}
+		},
+		"weapons": [
+			{
+				"name": "Light blaster cannon",
+				"arc": "Forward",
+				"damage": 4,
+				"critical": 4,
+				"range": "Close"
+			}
+		]
+	}
+]

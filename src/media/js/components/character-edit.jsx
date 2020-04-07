@@ -2,7 +2,7 @@
 import React from "react";
 import { TextInput, TextArea } from "./input/text";
 import Checkbox from "./input/checkbox";
-import Select from "./input/select";
+import { Select } from "./input/select";
 import PanelListEdit from "./panel-list-edit";
 import PanelTalentEdit from "./panel-talent-edit";
 import PanelWeaponEdit from "./panel-weapon-edit";

@@ -46,7 +46,7 @@ export default class PanelVehicle extends React.Component {
 
 		return <div className="info">
 			<h2>{ vehicle.name }</h2>
-			<h4>{ vehicle.fullName }</h4>
+			{ vehicle.fullName && vehicle.name != vehicle.fullName ? <h4>{ vehicle.fullName }</h4> : null }
 			<span id="vehicle-close" className="btn" title="Remove vehicle" onClick={ this.clickHandler.bind(this) }><svg><use xlinkHref="#icon-cross"></use></svg> Remove Vehicle</span>
 			<div className="stats" id="vehicle">
 				{ characteristics.map(c => {
@@ -68,14 +68,24 @@ export default class PanelVehicle extends React.Component {
 							<th>Manufacturer:</th>
 							<td>{ vehicle.info.manufacturer }</td>
 						</tr>
-						<tr>
-							<th>Hyperdrive:</th>
-							<td>{ hyperdrive }</td>
-						</tr>
-						<tr>
-							<th>Navicomputer:</th>
-							<td>{ vehicle.info.navicomputer ? vehicle.info.navicomputer : "None" }</td>
-						</tr>
+						{ vehicle.info.altitude
+							? <tr>
+								<th>Maximum Altitude:</th>
+								<td>{ vehicle.info.altitude }</td>
+							</tr>
+							: null }
+						{ "hyperdrive" in vehicle.info
+							? <tr>
+								<th>Hyperdrive:</th>
+								<td>{ hyperdrive }</td>
+							</tr>
+							: null }
+						{ "navicomputer" in vehicle.info
+							? <tr>
+								<th>Navicomputer:</th>
+								<td>{ vehicle.info.navicomputer ? vehicle.info.navicomputer : "None" }</td>
+							</tr>
+							: null }
 						<tr>
 							<th>Sensor Range:</th>
 							<td>{ vehicle.info.sensors }</td>
@@ -92,13 +102,15 @@ export default class PanelVehicle extends React.Component {
 							<th>Passenger Capacity:</th>
 							<td>{ vehicle.info.passengers }</td>
 						</tr>
-						<tr>
-							<th>Consumables:</th>
-							<td>{ vehicle.info.consumables }</td>
-						</tr>
+						{ "consumables" in vehicle.info
+							? <tr>
+								<th>Consumables:</th>
+								<td>{ vehicle.info.consumables }</td>
+							</tr>
+							: null }
 						<tr>
 							<th>Price/Rarity:</th>
-							<td>{ vehicle.info.price } credits { vehicle.info.restricted ? "(R)" : null } / { vehicle.info.rarity }</td>
+							<td>{ vehicle.info.price.toLocaleString() } credits { vehicle.info.restricted ? "(R)" : null } / { vehicle.info.rarity }</td>
 						</tr>
 						<tr>
 							<th>Customization Hard Points:</th>

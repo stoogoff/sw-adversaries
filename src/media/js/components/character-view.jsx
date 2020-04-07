@@ -9,7 +9,8 @@ import PanelTalent from "./panel-talent";
 import PanelTag from "./panel-tag";
 import PanelVehicle from "./panel-vehicle";
 import { symbolise, getSourceLink, isPilot, hashToArray } from "../lib/utils";
-import Select from "./input/select";
+import { sortByProperty } from "../lib/list";
+import { SelectGroup } from "./input/select";
 import dispatcher from "lib/dispatcher";
 import * as CONFIG from "lib/config";
 
@@ -57,6 +58,7 @@ export default class CharacterView extends React.Component {
 
 	removeVehicle() {
 		this.setState({
+			selectedVehicle: "",
 			vehicle: null
 		});
 	}
@@ -313,7 +315,7 @@ export default class CharacterView extends React.Component {
 				{ isPilot(character) && !vehicle
 					? <div className="info">
 						<h2>Vehicle</h2>
-						<Select value={ vehicle ? vehicle.name : null } values={ ["", ...this.props.vehicles.map(v => v.name)] } handler={ this.selectVehicle.bind(this) } />
+						<SelectGroup value={ vehicle ? vehicle.name : null } values={ this.props.vehicles.all().sort(sortByProperty("name")) } display="name" groupBy="group" handler={ this.selectVehicle.bind(this) } />
 						<button className="btn-full" disabled={ this.state.selectedVehicle == "" } onClick={ this.addVehicle.bind(this) }>Add Vehicle</button>
 					</div>
 					: null }
