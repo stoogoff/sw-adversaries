@@ -16,7 +16,7 @@ export class Select extends React.Component {
 		return <div className="row-input input-select">
 			{ this.props.label ? <label htmlFor={ inputId }>{ this.props.label } { this.props.required ? <span className="required">*</span> : null }</label> : null }
 			<select id={ inputId } type="text" value={ this.props.value } onChange={ this.handleChange.bind(this) }>
-				{ this.prop.values.map(v => <option>{ v }</option>) }
+				{ this.props.values.map(v => <option>{ v }</option>) }
 			</select>
 		</div>;
 	}
