@@ -44,19 +44,18 @@ export default class PanelVehicle extends React.Component {
 			</div>
 			: (vehicle.info.hyperdrive ? `Class ${vehicle.info.hyperdrive}, Backup: None` : "None");
 
-		return <div className="info">
+		return <div className="info" id="vehicle">
 			<h2>{ vehicle.name }</h2>
 			{ vehicle.fullName && vehicle.name != vehicle.fullName ? <h4>{ vehicle.fullName }</h4> : null }
-			<span id="vehicle-close" className="btn" title="Remove vehicle" onClick={ this.clickHandler.bind(this) }><svg><use xlinkHref="#icon-cross"></use></svg> Remove Vehicle</span>
-			<div className="stats" id="vehicle">
+			<div className="stats">
 				{ characteristics.map(c => {
 					return <div key={ c.name }><span>{ c.value }</span><h3>{ c.name }</h3></div>
 				})}
 			</div>
 			<div>
 				{ this.state.open
-					? <h4 className="expander" onClick={ this.close.bind(this) }><svg><use xlinkHref="#icon-circle-down"></use></svg>Information</h4>
-					: <h4 className="expander" onClick={ this.open.bind(this) }><svg><use xlinkHref="#icon-circle-right"></use></svg>More Information</h4>
+					? <h4 className="expander" onClick={ this.close.bind(this) }><svg><use xlinkHref="#icon-circle-down"></use></svg>Collapse Information</h4>
+					: <h4 className="expander" onClick={ this.open.bind(this) }><svg><use xlinkHref="#icon-circle-right"></use></svg>Expand Information</h4>
 				}
 				{ this.state.open ? <table className="weapons">
 					<tbody>
@@ -120,6 +119,7 @@ export default class PanelVehicle extends React.Component {
 				</table>
 				: null }
 			</div>
+			<div className="row-input" id="vehicle-close"><button className="btn-full" title="Remove vehicle" onClick={ this.clickHandler.bind(this) }><svg><use xlinkHref="#icon-cross"></use></svg> Remove Vehicle</button></div>
 		</div>;
 	}
 }

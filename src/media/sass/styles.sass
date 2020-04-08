@@ -58,6 +58,7 @@ h2.subtitle
 		color: $stat
 h4
 	margin-top: 0
+	margin-left: 
 
 	&.expander
 		padding: 0.2em
@@ -353,7 +354,7 @@ h4
 		font-weight: normal
 		font-family: 'Source Sans Pro', sans-serif
 
-#characteristics, #vehicle
+#characteristics, #vehicle .stats
 	margin: auto
 	width: 15.118rem
 
@@ -426,19 +427,22 @@ h4
 		font-size: 1.8em
 
 #vehicle
-	div
-		background-color: rgb(31,53,83)
-		display: inline-block
-		font-size: 0.8em
+	.stats
+		width: 19rem
 
-	span
-		background-color: white
-		font-size: 2em
-		border-width: 2px
-		border-radius: 0.2em !important
+		div
+			background-color: rgb(31,53,83)
+			display: inline-block
+			font-size: 0.8em
 
-	h3
-		background-color: rgb(18,157,234)
+		span
+			background-color: white
+			font-size: 2em
+			border-width: 2px
+			border-radius: 0.2em !important
+
+		h3
+			background-color: rgb(18,157,234)
 
 // SKILLS
 .info
@@ -446,14 +450,13 @@ h4
 	margin: 0 0 1.5em
 	position: relative
 
-	ul, .directory, p, h2
-		margin-left: 1em
-		margin-right: 1em
+	ul, .directory, p, h2, h4, .row-input
+		margin-left: 1rem
+		margin-right: 1rem
 
 	h2
 		margin-top: 0
 		color: $derived
-		text-align: center
 
 .skills td
 	vertical-align: middle
@@ -484,6 +487,7 @@ h4
 #show-all
 	text-align: right
 	margin-bottom: 1em
+	margin-top: -2.5em
 
 #menu-character
 	position: relative
@@ -514,11 +518,6 @@ h4
 
 			&:hover
 				background-color: white
-
-#vehicle-close
-	position: absolute
-	top: 0
-	right: 0
 
 
 // EDIT MODE
@@ -709,7 +708,7 @@ h4
 	width: 100%
 	box-sizing: border-box
 	font-size: 1.1em
-	padding: 0.2em
+	padding: 0.2em 1em
 	margin: 0.5em 0
 	background-color: lighten($link, 20%)
 	font-weight: bold
@@ -730,6 +729,19 @@ h4
 	&:hover
 		background-color: $link
 
+
+// VEHICLE PANEL
+#vehicle
+	background-color: white
+	border-top: 1px solid lighten($heading, 30%)
+	border-bottom: 1px solid lighten($heading, 30%)
+	padding-top: 0.5rem
+	padding-bottom: 0.5rem
+
+#vehicle-close
+	svg
+		position: relative
+		top: 0.1em
 
 
 // OVERLAY
@@ -799,11 +811,16 @@ h4
 	.info h2
 		text-align: left
 
+	#vehicle-close
+		position: absolute
+		top: 0.5rem
+		right: 0.5rem
+
+		.btn-full
+			margin: 0
+
 	#tabs
 		display: block
-
-	#show-all
-		margin-top: -2.5em
 
 	#content.large
 		padding-bottom: 3em
@@ -861,8 +878,12 @@ h4
 	h2.subtitle
 		margin: 1.6em 3em 1.5em 0
 
-	#characteristics
-		margin: 0
+	#characteristics, #vehicle .stats
+		margin: 0 !important
+
+	#vehicle
+		padding-left: 1rem
+		padding-right: 1rem
 
 	.column
 		float: left
@@ -880,7 +901,7 @@ h4
 			margin-left: 1.5em
 
 	.info
-		ul, .directory, p, h2
+		ul, .directory, p, h2, h4, .row-input
 			margin-left: 0
 			margin-right: 0
 

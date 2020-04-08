@@ -311,15 +311,14 @@ export default class CharacterView extends React.Component {
 			</div>
 			<div className="column large">
 				<PanelSkill character={ character } skills={ this.props.skills } aliveMinions={ this.state.aliveMinions } minions={ this.state.minions } setMinions={ this.setMinions.bind(this) } boost={ boost } setback={ setback }/>
-				{ isPilot(character) && vehicle ? <PanelVehicle vehicle={ vehicle } onClose={ this.removeVehicle.bind(this) } /> : null }
-				{ isPilot(character) && !vehicle
-					? <div className="info">
+				<PanelWeapons title="Weapons" character={ character } vehicle={ vehicle } skills={ this.props.skills } weapons={ this.props.weapons } qualities={ this.props.qualities } talents={ this.props.talents } aliveMinions={ this.state.aliveMinions } minions={ this.state.minions } />
+				{ vehicle
+					? <PanelVehicle vehicle={ vehicle } onClose={ this.removeVehicle.bind(this) } />
+					: <div className="info">
 						<h2>Vehicle</h2>
 						<SelectGroup value={ vehicle ? vehicle.name : null } values={ this.props.vehicles.all().sort(sortByProperty("name")) } display="name" groupBy="group" handler={ this.selectVehicle.bind(this) } />
-						<button className="btn-full" disabled={ this.state.selectedVehicle == "" } onClick={ this.addVehicle.bind(this) }>Add Vehicle</button>
-					</div>
-					: null }
-				<PanelWeapons title="Weapons" character={ character } vehicle={ vehicle } skills={ this.props.skills } weapons={ this.props.weapons } qualities={ this.props.qualities } talents={ this.props.talents } aliveMinions={ this.state.aliveMinions } minions={ this.state.minions } />
+						<div className="row-input"><button className="btn-full" disabled={ this.state.selectedVehicle == "" } onClick={ this.addVehicle.bind(this) }>Add Vehicle</button></div>
+					</div> }
 				<PanelTalent title="Talents" stats={ stats } data={ character.talents } talents={ this.props.talents } />
 				<PanelTalent title="Abilities" stats={ stats } data={ character.abilities } talents={ this.props.talents } />
 				<PanelInfo title="Gear" text={ character.gear } />
