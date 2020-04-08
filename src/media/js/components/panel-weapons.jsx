@@ -119,7 +119,8 @@ export default class PanelWeapons extends React.Component {
 		}
 
 		// in order use if available: vehicle weapons, character weapons, an empty array
-		((this.props.vehicle ? this.props.vehicle.weapons : character.weapons) || []).forEach(w => {
+		//((this.props.vehicle ? this.props.vehicle.weapons : character.weapons) || []).forEach(w => {
+		(character.weapons || []).forEach(w => {
 			let weapon = w instanceof Object ? w : allWeapons.find(a => a.name == w);
 
 			if(weapon) {
@@ -129,6 +130,17 @@ export default class PanelWeapons extends React.Component {
 
 		weapons.sort(sortByProperty("name"));
 
+		// add vehicle weapons to the buttom of the list
+		if(this.props.vehicle != null && this.props.vehicle.weapons != null) {
+			let vehicleWeapons = []
+
+			this.props.vehicle.weapons.forEach(weapon => vehicleWeapons.push(getWeaponDetails(weapon, character, allSkills, this.props.aliveMinions)));
+
+			vehicleWeapons.sort(sortByProperty("name"));
+
+			weapons = weapons.concat(vehicleWeapons);
+		}
+
 		let hasShipWeapon = weapons.filter(f => f.arc).length > 0;
 
 		return <div className="info">
@@ -137,8 +149,8 @@ export default class PanelWeapons extends React.Component {
 			<table className="weapons">
 				<thead>
 					<tr>
+						{ hasShipWeapon ? <th></th> : null }
 						<th>Weapon</th>
-						{ hasShipWeapon ? <th>Arc</th> : null }
 						<th>Range</th>
 						<th>Damage</th>
 						<th className="hide-small hide-medium">Roll { character.type == CONFIG.MINION
@@ -151,8 +163,12 @@ export default class PanelWeapons extends React.Component {
 				<tbody>
 					{ weapons.map(w => {
 						return <tr key={ w.id }>
-							<td>{ w.name }<br /><small>{ w.skill }</small></td>
-							{ hasShipWeapon ? <td><small>{ w.arc ? w.arc : "–" }</small></td> : null }
+							{ hasShipWeapon ? <td>{ w.arc ? <svg><use xlinkHref="#icon-ship"></use></svg> : null }</td> : null }
+							<td className="small-rows">
+								{ w.name }
+								<small>{ w.skill }</small>
+								{ w.arc ? <small><strong>Fire Arc:</strong> { w.arc }</small> : null }
+							</td>
 							<td><small>{ w.range }</small></td>
 							<td>
 								<div className="damage"><small className="hide-small">Damage:</small> { w.damage || "–" }</div>
