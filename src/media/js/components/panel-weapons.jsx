@@ -152,7 +152,7 @@ export default class PanelWeapons extends React.Component {
 						<th>Weapon</th>
 						<th>Range</th>
 						<th>Damage</th>
-						<th className="hide-small hide-medium">Roll { character.type == CONFIG.MINION
+						<th className="hide-xsmall hide-small">Roll { character.type == CONFIG.MINION
 							? <small> (for { this.props.minions })</small>
 							: null }
 						</th>
@@ -167,13 +167,14 @@ export default class PanelWeapons extends React.Component {
 								{ w.name }
 								<small>{ w.skill }</small>
 								{ w.arc ? <small><strong>Fire Arc:</strong> { w.arc }</small> : null }
+								<div className="hide-medium hide-large hide-xlarge" dangerouslySetInnerHTML={ w.icons } />
 							</td>
 							<td><small>{ w.range }</small></td>
 							<td>
 								<div className="damage"><small className="hide-small">Damage:</small> { w.damage || "–" }</div>
 								<div className="damage"><small className="hide-small">Critical:</small> { w.critical || "–" }</div>
 							</td>
-							<td className="hide-small hide-medium" dangerouslySetInnerHTML={ w.icons } />
+							<td className="hide-xsmall hide-small" dangerouslySetInnerHTML={ w.icons } />
 							<td>{ w.qualities.length == 0 ?  "–" : w.qualities.map(q => <div key={ id(q) }><span className="link" onClick={ this.setQuality.bind(this) } data-weapon={ w.id }>{ q }</span></div>) }</td>
 						</tr>
 					}) }

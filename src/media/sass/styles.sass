@@ -908,37 +908,8 @@ h4
 			margin-left: 0
 			margin-right: 0
 
-
 @media screen and (min-width: $screen-xlarge)
-	#tabs
-		padding-left: 23rem
-
-	#built-by
-		position: fixed
-		bottom: 0
-		left: 0
-		padding: 0.2em 1em 0.2em
-		z-index: 150
-
-	#navigation
-		display: block
-		margin-top: 2em
-		width: 21.5em
-		max-width: none
-
-	#content
-		margin-left: 21.5em
-		width: 58em
-
-		.large
-			padding-bottom: 5em
-
-		.column.small
-			margin-left: 1.5em
-
-	#characteristics div:nth-child(even)
-		margin-right: 0
-
+	// switch from mobile menu to top menu
 	#menu
 		display: block
 		position: fixed
@@ -960,9 +931,42 @@ h4
 			border-style: solid
 			border-color: $derived
 
-
 	#mobile-menu
 		display: none
+
+	#navigation
+		display: block
+		margin-top: 2em
+		width: 21.5em
+		max-width: none
+
+
+@media screen and (min-width: $screen-xlarge)
+	#tabs
+		padding-left: 23rem
+
+	#built-by
+		position: fixed
+		bottom: 0
+		left: 0
+		padding: 0.2em 1em 0.2em
+		z-index: 150
+
+
+
+	#content
+		margin-left: 21.5em
+		width: 58em
+
+		.large
+			padding-bottom: 5em
+
+		.column.small
+			margin-left: 1.5em
+
+	#characteristics div:nth-child(even)
+		margin-right: 0
+
 
 
 // SMALLER SCREEN SLIDING MENU
