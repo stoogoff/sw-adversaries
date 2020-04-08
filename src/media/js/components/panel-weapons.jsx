@@ -20,6 +20,10 @@ function getWeaponDetails(weapon, character, allSkills, aliveMinions) {
 		weapon.qualities = [];
 	}
 
+	if("arc" in weapon) {
+		weapon.skill = "Gunnery";
+	}
+
 	// get dice values
 	let skill = allSkills.find(s => s.name == weapon.skill);
 
@@ -65,7 +69,7 @@ export default class PanelWeapons extends React.Component {
 
 		if(name == "Notes") {
 			let id = evt.target.getAttribute("data-weapon");
-			let weapon = this.props.weapons.all().concat(this.props.character.weapons).find(w => w.id == id);
+			let weapon = this.props.weapons.all().concat(this.props.vehicle ? this.props.vehicle.weapons : this.props.character.weapons).find(w => w.id == id);
 
 			quality = {
 				name: "Notes",
@@ -93,7 +97,7 @@ export default class PanelWeapons extends React.Component {
 	}
 
 	componentWillUpdate(nextProps, nextState) {
-		if(nextProps.character !== this.props.character) {
+		if(nextProps.character !== this.props.character || nextProps.vehicle != this.props.vehicle) {
 			this.setState({
 				quality: null
 			});
@@ -114,19 +118,29 @@ export default class PanelWeapons extends React.Component {
 			return null;
 		}
 
-		if(character.weapons != null) {
-			character.weapons.forEach(w => {
-				let weapon = w instanceof Object ? w : allWeapons.find(a => a.name == w);
+		// in order use if available: vehicle weapons, character weapons, an empty array
+		(character.weapons || []).forEach(w => {
+			let weapon = w instanceof Object ? w : allWeapons.find(a => a.name == w);
 
-				if(!weapon) {
-					return null;
-				}
-
+			if(weapon) {
 				weapons.push(getWeaponDetails(weapon, character, allSkills, this.props.aliveMinions));
-			});
+			}
+		});
 
-			weapons.sort(sortByProperty("name"));
+		weapons.sort(sortByProperty("name"));
+
+		// add vehicle weapons to the buttom of the list
+		if(this.props.vehicle != null && this.props.vehicle.weapons != null) {
+			let vehicleWeapons = [];
+
+			this.props.vehicle.weapons.forEach(weapon => vehicleWeapons.push(getWeaponDetails(weapon, character, allSkills, this.props.aliveMinions)));
+
+			vehicleWeapons.sort(sortByProperty("name"));
+
+			weapons = weapons.concat(vehicleWeapons);
 		}
+
+		let hasShipWeapon = weapons.filter(f => f.arc).length > 0;
 
 		return <div className="info">
 			<h2>Weapons</h2>
@@ -134,10 +148,11 @@ export default class PanelWeapons extends React.Component {
 			<table className="weapons">
 				<thead>
 					<tr>
+						{ hasShipWeapon ? <th></th> : null }
 						<th>Weapon</th>
 						<th>Range</th>
 						<th>Damage</th>
-						<th className="hide-small hide-medium">Roll { character.type == CONFIG.MINION
+						<th className="hide-xsmall hide-small">Roll { character.type == CONFIG.MINION
 							? <small> (for { this.props.minions })</small>
 							: null }
 						</th>
@@ -147,13 +162,19 @@ export default class PanelWeapons extends React.Component {
 				<tbody>
 					{ weapons.map(w => {
 						return <tr key={ w.id }>
-							<td>{ w.name }<br /><small>{ w.skill }</small></td>
+							{ hasShipWeapon ? <td>{ w.arc ? <svg><use xlinkHref="#icon-ship"></use></svg> : null }</td> : null }
+							<td className="small-rows">
+								{ w.name }
+								<small>{ w.skill }</small>
+								{ w.arc ? <small><strong>Fire Arc:</strong> { w.arc }</small> : null }
+								<div className="hide-medium hide-large hide-xlarge" dangerouslySetInnerHTML={ w.icons } />
+							</td>
 							<td><small>{ w.range }</small></td>
 							<td>
-								<div className="damage"><small className="hide-small">Damage:</small> { w.damage || "–" }</div>
-								<div className="damage"><small className="hide-small">Critical:</small> { w.critical || "–" }</div>
+								<div className="damage"><small className="hide-xsmall hide-small">Damage:</small> { w.damage || "–" }</div>
+								<div className="damage"><small className="hide-xsmall hide-small">Critical:</small> { w.critical || "–" }</div>
 							</td>
-							<td className="hide-small hide-medium" dangerouslySetInnerHTML={ w.icons } />
+							<td className="hide-xsmall hide-small" dangerouslySetInnerHTML={ w.icons } />
 							<td>{ w.qualities.length == 0 ?  "–" : w.qualities.map(q => <div key={ id(q) }><span className="link" onClick={ this.setQuality.bind(this) } data-weapon={ w.id }>{ q }</span></div>) }</td>
 						</tr>
 					}) }

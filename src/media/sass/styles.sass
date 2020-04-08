@@ -56,6 +56,20 @@ h2.subtitle
 
 	.nemesis
 		color: $stat
+h4
+	margin-top: 0
+	margin-left: 
+
+	&.expander
+		padding: 0.2em
+		cursor: pointer
+
+		svg
+			position: relative
+			top: 0.2em
+
+		&:hover
+			background-color: $fadeInput !important
 
 .text
 	margin: 0 1rem
@@ -205,7 +219,7 @@ h2.subtitle
 					text-decoration: none
 
 #tabs
-	display: none
+	display: block
 	margin: 0
 	padding: 0 0 0.5em
 	background-color: $tabBgColour
@@ -250,6 +264,13 @@ h2.subtitle
 
 		svg
 			font-size: 0.7em
+
+		.tab-name
+			display: inline-block
+			white-space: nowrap
+			text-overflow: ellipsis
+			max-width: 10vw
+			overflow: hidden
 
 		.btn:hover
 			color: $link
@@ -317,6 +338,9 @@ h2.subtitle
 	font-size: 0.9em
 	padding: 0 1rem
 
+	form
+		display: inline
+
 	div
 		text-align: center
 		margin-bottom: 1.5em
@@ -337,7 +361,7 @@ h2.subtitle
 		font-weight: normal
 		font-family: 'Source Sans Pro', sans-serif
 
-#characteristics
+#characteristics, #vehicle .stats
 	margin: auto
 	width: 15.118rem
 
@@ -403,23 +427,49 @@ h2.subtitle
 		&:hover
 			background-color: #eee
 
+	&.vehicle h3
+		background-color: rgb(40,52,68)
+
+	.small span
+		font-size: 1.8em
+
+#vehicle
+	.stats
+		width: 19rem
+
+		div
+			background-color: rgb(31,53,83)
+			display: inline-block
+			font-size: 0.8em
+
+		span
+			background-color: white
+			font-size: 2em
+			border-width: 2px
+			border-radius: 0.2em !important
+
+		h3
+			background-color: rgb(18,157,234)
 
 // SKILLS
 .info
 	clear: both
 	margin: 0 0 1.5em
+	position: relative
 
-	ul, .directory, p, h2
-		margin-left: 1em
-		margin-right: 1em
+	ul, .directory, p, h2, h4, .row-input
+		margin-left: 1rem
+		margin-right: 1rem
 
 	h2
 		margin-top: 0
 		color: $derived
-		text-align: center
 
-.skills td
+.skills	td
 	vertical-align: middle
+
+.weapons td.small-rows small
+	display: block
 
 .damage
 	display: inline
@@ -447,6 +497,7 @@ h2.subtitle
 #show-all
 	text-align: right
 	margin-bottom: 1em
+	margin-top: -2.5em
 
 #menu-character
 	position: relative
@@ -667,7 +718,7 @@ h2.subtitle
 	width: 100%
 	box-sizing: border-box
 	font-size: 1.1em
-	padding: 0.2em
+	padding: 0.2em 1em
 	margin: 0.5em 0
 	background-color: lighten($link, 20%)
 	font-weight: bold
@@ -688,6 +739,19 @@ h2.subtitle
 	&:hover
 		background-color: $link
 
+
+// VEHICLE PANEL
+#vehicle
+	background-color: white
+	border-top: 1px solid lighten($heading, 30%)
+	border-bottom: 1px solid lighten($heading, 30%)
+	padding-top: 0.5rem
+	padding-bottom: 0.5rem
+
+#vehicle-close
+	svg
+		position: relative
+		top: 0.1em
 
 
 // OVERLAY
@@ -746,30 +810,32 @@ h2.subtitle
 		float: left
 		margin-right: 1rem
 
+
+@media print, screen and (min-width: $screen-medium)
+	.info h2
+		text-align: left
+
 	.damage
 		display: block
 
 		&:first-of-type:after
 			content: ""
 
+	#vehicle-close
+		position: absolute
+		top: 0.5rem
+		right: 0.5rem
 
-@media print, screen and (min-width: $screen-medium)
-	.info h2
-		text-align: left
-
-	#tabs
-		display: block
-
-	#show-all
-		margin-top: -2.5em
+		.btn-full
+			margin: 0
 
 	#content.large
 		padding-bottom: 3em
 
-	.stats
+	#characteristics
 		padding: 0
-		width: 100% !important
-		margin: 0 1em !important
+		width: 100%
+		margin: 0 1em
 
 
 @media screen and (min-width: $screen-large)
@@ -810,6 +876,9 @@ h2.subtitle
 			padding: 1em
 			margin: 0
 
+	#tabs
+		padding-left: 20rem
+
 	h1
 		display: inline-block
 		border-radius: 0 3rem 3rem 0
@@ -819,28 +888,32 @@ h2.subtitle
 	h2.subtitle
 		margin: 1.6em 3em 1.5em 0
 
-	#characteristics
-		margin: 0
+	#vehicle .stats
+		margin: 0 !important
 
-	.column
-		float: left
-		overflow: hidden
+	#vehicle
+		padding-left: 1rem
+		padding-right: 1rem
 
-		&.small
-			width: 20em
+	#show-all
+		margin-right: 0.5em
 
 	#content
-		.column.large
-			width: 37.5em
+		float: left
+		overflow: hidden
+		width: 40em
+		margin-left: 19em
 
-		.column.small
-			width: 16em
-			margin-left: 1.5em
+	#navigation
+		float: left
+		overflow: hidden
+		display: block
+		margin-top: 2em
+		width: 19em
+		max-width: none
 
-	.info
-		ul, .directory, p, h2
-			margin-left: 0
-			margin-right: 0
+	#characteristics
+		width: 25.3em
 
 
 @media screen and (min-width: $screen-xlarge)
@@ -854,25 +927,43 @@ h2.subtitle
 		padding: 0.2em 1em 0.2em
 		z-index: 150
 
-	#navigation
-		display: block
-		margin-top: 2em
-		width: 21.5em
-		max-width: none
+	.column
+		float: left
+		overflow: hidden
+
+		&.small
+			width: 20em
+
+	#characteristics
+		margin: 0 !important
+		width: auto
 
 	#content
 		margin-left: 21.5em
 		width: 58em
 
-		.large
+		.column.large
+			width: 37.5em
 			padding-bottom: 5em
 
 		.column.small
+			width: 16em
 			margin-left: 1.5em
 
 	#characteristics div:nth-child(even)
 		margin-right: 0
 
+	#navigation
+		width: 21.5em
+
+	.info
+		ul, .directory, p, h2, h4, .row-input
+			margin-left: 0
+			margin-right: 0
+
+
+// DISPLAY TOP NAVIGATION
+@media screen and (min-width: $screen-large)
 	#menu
 		display: block
 		position: fixed
@@ -894,13 +985,12 @@ h2.subtitle
 			border-style: solid
 			border-color: $derived
 
-
 	#mobile-menu
 		display: none
 
 
 // SMALLER SCREEN SLIDING MENU
-@media screen and (max-width: $screen-xlarge)
+@media screen and (max-width: $screen-large)
 	#navigation
 		top: 2em
 		left: 0

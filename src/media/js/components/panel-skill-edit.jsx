@@ -1,7 +1,7 @@
 
 import React from "react";
 import { TextInput } from "./input/text";
-import Select from "./input/select";
+import { Select } from "./input/select";
 import { characteristics } from "lib/utils";
 import dispatcher from "lib/dispatcher";
 import * as CONFIG from "lib/config";

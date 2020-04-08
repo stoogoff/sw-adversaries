@@ -24,17 +24,28 @@ export const characteristics = ["Brawn", "Agility", "Intellect", "Cunning", "Wil
 
 
 // convert marked text into dice and return in a React dangerouslySetInnerHTML format
-export const dice = function dice(stat, skill) {
+export const dice = function dice(stat, skill, boost, setback) {
 	let total = Math.max(stat, skill);
 	let upgrade = Math.min(stat, skill);
 	let symbols = [];
 
+	// build dice pool
 	for(let j = 0; j < upgrade; ++j) {
 		symbols.push(diceMap["proficiency"]);
 	}
 
 	for(let j = upgrade; j < total; ++j) {
 		symbols.push(diceMap["ability"]);
+	}
+
+	// add boost
+	for(let j = 0; j < boost; ++j) {
+		symbols.push(diceMap["boost"]);
+	}
+
+	// add setback
+	for(let j = 0; j < setback; ++j) {
+		symbols.push(diceMap["setback"]);
 	}
 
 	return { __html: symbols.join("") };
@@ -214,6 +225,28 @@ export const getSourceLink = function getSourceLink(source) {
 
 	return null;
 }
+
+
+// return true if the character is a pilot
+export const isPilot = function isPilot(character) {
+	return "tags" in character && character.tags.indexOf("pilot") != -1;
+}
+
+
+// convert a hash of characteristics to an array of name/values
+export const hashToArray = function hashToArray(hash) {
+	let array = [];
+
+	for(let i in hash) {
+		array.push({
+			"name": i,
+			"value": hash[i]
+		});
+	}
+
+	return array;
+}
+
 
 export const createQuality = function createQuality(qualities, name, rank) {
 	// strip any ranks from the quality name

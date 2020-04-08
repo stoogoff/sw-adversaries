@@ -1,0 +1,442 @@
+[
+	{
+		"name": "Sprite",
+		"fullName": "Delta-6 System Defence Starfighter",
+		"group": "Starfighters",
+		"info": {
+			"type": "Starfighter/Delta-6",
+			"manufacturer": "Kuat Systems Engineering",
+			"hyperdrive": null,
+			"navicomputer": null,
+			"sensors": "Close",
+			"complement": "One pilot",
+			"encumbrance": 8,
+			"passengers": 0,
+			"consumables": "One day",
+			"price": 30000,
+			"rarity": 4,
+			"hardpoints": 2
+		},
+		"characteristics": {
+			"Silhouette": 3,
+			"Speed": 4,
+			"Handling": "+1"
+		},
+		"derived": {
+			"armour": 2,
+			"hull": 6,
+			"system": 5,
+			"defence": {
+				"fore": 1,
+				"port": null,
+				"starboard": null,
+				"aft": 0
+			}
+		},
+		"weapons": [
+			{
+				"name": "Twin light laser cannons",
+				"arc": "Forward",
+				"damage": 5,
+				"critical": 3,
+				"range": "Close",
+				"qualities": ["Linked 1"]
+			}
+		]
+	},
+	{
+		"name": "Aethersprite",
+		"fullName": "Delta-7 Aethersprite Interceptor",
+		"group": "Starfighters",
+		"info": {
+			"type": "Starfighter/Delta-7",
+			"manufacturer": "Kuat Systems Engineering",
+			"hyperdrive": null,
+			"navicomputer": "None—astromech droid socket",
+			"sensors": "Close",
+			"complement": "One pilot, one astromech droid",
+			"encumbrance": 4,
+			"passengers": 0,
+			"consumables": "Five days",
+			"price": 78000,
+			"rarity": 6,
+			"hardpoints": 2
+		},
+		"characteristics": {
+			"Silhouette": 3,
+			"Speed": 5,
+			"Handling": "+2"
+		},
+		"derived": {
+			"armour": 2,
+			"hull": 7,
+			"system": 7,
+			"defence": {
+				"fore": 1,
+				"port": null,
+				"starboard": null,
+				"aft": 0
+			}
+		},
+		"weapons": [
+			{
+				"name": "Twin medium laser cannons",
+				"arc": "Forward",
+				"damage": 6,
+				"critical": 3,
+				"range": "Close",
+				"qualities": ["Linked 1"]
+			}
+		]
+	},
+	{
+		"name": "Skysprite",
+		"fullName": "Delta-12 Skysprite",
+		"group": "Starfighters",
+		"info": {
+			"type": "Starfighter/Delta-12",
+			"manufacturer": "Kuat Systems Engineering",
+			"hyperdrive": null,
+			"navicomputer": "None—astromech droid socket",
+			"sensors": "Short",
+			"complement": "One pilot",
+			"encumbrance": 8,
+			"passengers": 1,
+			"consumables": "Two weeks",
+			"price": 85000,
+			"rarity": 8,
+			"hardpoints": 3
+		},
+		"characteristics": {
+			"Silhouette": 3,
+			"Speed": 4,
+			"Handling": "+1"
+		},
+		"derived": {
+			"armour": 3,
+			"hull": 10,
+			"system": 8,
+			"defence": {
+				"fore": 1,
+				"port": null,
+				"starboard": null,
+				"aft": 1
+			}
+		}
+	},
+	{
+		"name": "Pathfinder",
+		"fullName": "Pathfinder Scout Ship",
+		"group": "Patrol Boats",
+		"info": {
+			"type": "Scout Ship/Pathfinder",
+			"manufacturer": "Vangaard Industries",
+			"hyperdrive": {
+				"primary": 3,
+				"backup": 15
+			},
+			"navicomputer": "Yes",
+			"sensors": "Extreme",
+			"complement": "One pilot, one co-pilot",
+			"encumbrance": 45,
+			"passengers": 2,
+			"consumables": "Three months",
+			"price": 45000,
+			"rarity": 6,
+			"hardpoints": 2
+		},
+		"characteristics": {
+			"Silhouette": 4,
+			"Speed": 4,
+			"Handling": "+1"
+		},
+		"derived": {
+			"armour": 2,
+			"hull": 16,
+			"system": 10,
+			"defence": {
+				"fore": 1,
+				"port": null,
+				"starboard": null,
+				"aft": 1
+			}
+		},
+		"weapons": [
+			{
+				"name": "Dorsal turret-mounted light laser cannon",
+				"arc": "All",
+				"damage": 5,
+				"critical": 3,
+				"range": "Close"
+			}
+		]
+	},
+	{
+		"name": "AT-HCT",
+		"fullName": "Heavy Civilian Transport",
+		"group": "Walkers",
+		"info": {
+			"type": "Walker/AT-HCT",
+			"manufacturer": "Rothana Heavy Engineering",
+			"sensors": "Medium",
+			"complement": "One pilot",
+			"encumbrance": 200,
+			"passengers": 6,
+			"price": 3000,
+			"rarity": 5,
+			"hardpoints": 2
+		},
+		"characteristics": {
+			"Silhouette": 3,
+			"Speed": 1,
+			"Handling": -1
+		},
+		"derived": {
+			"armour": 0,
+			"hull": 15,
+			"system": 15,
+			"defence": {
+				"fore": 0,
+				"port": null,
+				"starboard": null,
+				"aft": 0
+			}
+		}
+	},
+	{
+		"name": "Rigger",
+		"fullName": "G9 Rigger Light Freighter",
+		"group": "Freighters",
+		"info": {
+			"type": "Light Freighter/Rigger",
+			"manufacturer": "Corellian Engineering Corporation",
+			"hyperdrive": 3,
+			"navicomputer": "Yes",
+			"sensors": "Medium",
+			"complement": "One pilot, one co-pilot",
+			"encumbrance": 80,
+			"passengers": 6,
+			"consumables": "One month",
+			"price": 55000,
+			"rarity": 5,
+			"hardpoints": 4
+		},
+		"characteristics": {
+			"Silhouette": 4,
+			"Speed": 2,
+			"Handling": -2
+		},
+		"derived": {
+			"armour": 2,
+			"hull": 25,
+			"system": 15,
+			"defence": {
+				"fore": 1,
+				"port": null,
+				"starboard": null,
+				"aft": 1
+			}
+		},
+		"weapons": [
+			{
+				"name": "Dorsal autoblasters",
+				"arc": "Forward",
+				"damage": 3,
+				"critical": 5,
+				"range": "Close",
+				"qualities": ["Auto-Fire"]
+			},
+			{
+				"name": "Turret-mounted light blaster cannon",
+				"arc": "Forward, Starboard, and Aft",
+				"damage": 4,
+				"critical": 4,
+				"range": "Close"
+			},
+			{
+				"name": "Ventral light blaster cannon",
+				"arc": "Forward",
+				"damage": 4,
+				"critical": 4,
+				"range": "Close"
+			}
+		]
+	},
+	{
+		"name": "Hawk",
+		"fullName": "HWK-290 Light Freighter",
+		"group": "Freighters",
+		"info": {
+			"type": "Freighter/HWK-290",
+			"manufacturer": "Corellian Engineering Corporation",
+			"hyperdrive": 2,
+			"navicomputer": "Yes",
+			"sensors": "Short",
+			"complement": "One pilot, one co-pilot",
+			"encumbrance": 75,
+			"passengers": 2,
+			"consumables": "Three months",
+			"price": 70000,
+			"rarity": 7,
+			"hardpoints": 5
+		},
+		"characteristics": {
+			"Silhouette": 3,
+			"Speed": 4,
+			"Handling": "+1"
+		},
+		"derived": {
+			"armour": 2,
+			"hull": 18,
+			"system": 18,
+			"defence": {
+				"fore": 1,
+				"port": null,
+				"starboard": null,
+				"aft": 1
+			}
+		}
+	},
+	{
+		"name": "HT-2200",
+		"fullName": "HT-2200 Medium Freighter",
+		"group": "Freighters",
+		"info": {
+			"type": "Freighter/HT-2200",
+			"manufacturer": "Corellian Engineering Corporation",
+			"hyperdrive": {
+				"primary": 3,
+				"backup": 15
+			},
+			"navicomputer": "Yes",
+			"sensors": "Short",
+			"complement": "One pilot, one co-pilot, one engineer, one loadmaster",
+			"encumbrance": 800,
+			"passengers": 8,
+			"consumables": "Three months",
+			"price": 140000,
+			"rarity": 5,
+			"hardpoints": 5
+		},
+		"characteristics": {
+			"Silhouette": 5,
+			"Speed": 2,
+			"Handling": -2
+		},
+		"derived": {
+			"armour": 5,
+			"hull": 35,
+			"system": 14,
+			"defence": {
+				"fore": 1,
+				"port": 1,
+				"starboard": 1,
+				"aft": 0
+			}
+		},
+		"weapons": [
+			{
+				"name": "Dorsal and ventral turret-mounted medium laser cannon",
+				"arc": "All",
+				"damage": 6,
+				"critical": 3,
+				"range": "Close"
+			}
+		]
+	},
+	{
+		"name": "Simiyiar",
+		"fullName": "Simiyiar Light Freighter",
+		"group": "Freighters",
+		"info": {
+			"type": "Freighter/Simiyiar",
+			"manufacturer": "Mon Calamari Shipyards",
+			"hyperdrive": {
+				"primary": 2,
+				"backup": 15
+			},
+			"navicomputer": "Yes",
+			"sensors": "Medium",
+			"complement": "One pilot, one co-pilot",
+			"encumbrance": 90,
+			"passengers": 5,
+			"consumables": "Two months",
+			"price": 165000,
+			"rarity": 6,
+			"hardpoints": 4
+		},
+		"characteristics": {
+			"Silhouette": 4,
+			"Speed": 3,
+			"Handling": "+0"
+		},
+		"derived": {
+			"armour": 4,
+			"hull": 20,
+			"system": 16,
+			"defence": {
+				"fore": 1,
+				"port": null,
+				"starboard": null,
+				"aft": 1
+			}
+		},
+		"weapons": [
+			{
+				"name": "Dorsal turret-mounted twin light laser cannons",
+				"arc": "All",
+				"damage": 5,
+				"critical": 3,
+				"range": "Close",
+				"qualities": ["Linked 1"]
+			}
+		]
+	},
+	{
+		"name": "Questor",
+		"fullName": "ZH-25 Questor Light Freighter",
+		"group": "Freighters",
+		"info": {
+			"type": "Freighter/Questor",
+			"manufacturer": "Starfeld Industries",
+			"hyperdrive": {
+				"primary": 2,
+				"backup": 15
+			},
+			"navicomputer": "Yes",
+			"sensors": "Medium",
+			"complement": "One pilot, one co-pilot",
+			"encumbrance": 100,
+			"passengers": 6,
+			"consumables": "Three months",
+			"price": 115000,
+			"rarity": 6,
+			"hardpoints": 4
+		},
+		"characteristics": {
+			"Silhouette": 4,
+			"Speed": 3,
+			"Handling": -1
+		},
+		"derived": {
+			"armour": 3,
+			"hull": 30,
+			"system": 20,
+			"defence": {
+				"fore": 1,
+				"port": null,
+				"starboard": null,
+				"aft": 1
+			}
+		},
+		"weapons": [
+			{
+				"name": "Ventral turret-mounted medium laser cannon",
+				"arc": "All",
+				"damage": 6,
+				"critical": 3,
+				"range": "Close"
+			}
+		]
+	}
+]

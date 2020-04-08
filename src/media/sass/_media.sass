@@ -1,23 +1,27 @@
 
 // SCREEN SIZE VARS
-$screen-small:  30em
-$screen-medium: 40em
-$screen-large:  55em
-$screen-xlarge: 78em
+$screen-small:  30em // 480px
+$screen-medium: 40em // 640px
+$screen-large:  58em // 928px
+$screen-xlarge: 78em // 1248px
 
 
 @media screen and (max-width: $screen-small)
+	.hide-xsmall
+		display: none !important
+
+@media screen and (min-width: $screen-small) and (max-width: $screen-medium)
 	.hide-small
 		display: none !important
 
-@media screen and (max-width: $screen-medium)
+@media screen and (min-width: $screen-medium) and (max-width: $screen-large)
 	.hide-medium
 		display: none !important
 
-@media screen and (max-width: $screen-large)
+@media screen and (min-width: $screen-large) and (max-width: $screen-xlarge)
 	.hide-large
 		display: none !important
 
-@media screen and (max-width: $screen-xlarge)
+@media screen and (min-width: $screen-xlarge)
 	.hide-xlarge
 		display: none !important
