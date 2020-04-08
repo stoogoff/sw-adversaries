@@ -219,7 +219,7 @@ h4
 					text-decoration: none
 
 #tabs
-	display: none
+	display: block
 	margin: 0
 	padding: 0 0 0.5em
 	background-color: $tabBgColour
@@ -264,6 +264,13 @@ h4
 
 		svg
 			font-size: 0.7em
+
+		.tab-name
+			display: inline-block
+			white-space: nowrap
+			text-overflow: ellipsis
+			max-width: 10vw
+			overflow: hidden
 
 		.btn:hover
 			color: $link
@@ -821,9 +828,6 @@ h4
 
 		.btn-full
 			margin: 0
-
-	#tabs
-		display: block
 
 	#content.large
 		padding-bottom: 3em

@@ -77,7 +77,7 @@ export default class Tabs extends React.Component {
 			{ tabs.map((t, i) => <li key={ i } className={ i == this.props.selectedIndex ? "active " : null } data-index={ i }>
 				<span className="btn" onClick={ this.view.bind(this) }>
 					{ t.colour ? <span className={ "square tab-" + t.colour }></span> : null }
-					{ t.tabName }
+					<span className="tab-name">{ t.tabName }</span>
 				</span>
 				<small className="btn tools" onClick={ this.toggleMenu.bind(this) }><svg><use xlinkHref="#icon-cog"></use></svg></small>
 
