@@ -119,7 +119,6 @@ export default class PanelWeapons extends React.Component {
 		}
 
 		// in order use if available: vehicle weapons, character weapons, an empty array
-		//((this.props.vehicle ? this.props.vehicle.weapons : character.weapons) || []).forEach(w => {
 		(character.weapons || []).forEach(w => {
 			let weapon = w instanceof Object ? w : allWeapons.find(a => a.name == w);
 
@@ -132,7 +131,7 @@ export default class PanelWeapons extends React.Component {
 
 		// add vehicle weapons to the buttom of the list
 		if(this.props.vehicle != null && this.props.vehicle.weapons != null) {
-			let vehicleWeapons = []
+			let vehicleWeapons = [];
 
 			this.props.vehicle.weapons.forEach(weapon => vehicleWeapons.push(getWeaponDetails(weapon, character, allSkills, this.props.aliveMinions)));
 
