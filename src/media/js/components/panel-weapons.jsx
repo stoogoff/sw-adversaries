@@ -171,8 +171,8 @@ export default class PanelWeapons extends React.Component {
 							</td>
 							<td><small>{ w.range }</small></td>
 							<td>
-								<div className="damage"><small className="hide-small">Damage:</small> { w.damage || "–" }</div>
-								<div className="damage"><small className="hide-small">Critical:</small> { w.critical || "–" }</div>
+								<div className="damage"><small className="hide-xsmall hide-small">Damage:</small> { w.damage || "–" }</div>
+								<div className="damage"><small className="hide-xsmall hide-small">Critical:</small> { w.critical || "–" }</div>
 							</td>
 							<td className="hide-xsmall hide-small" dangerouslySetInnerHTML={ w.icons } />
 							<td>{ w.qualities.length == 0 ?  "–" : w.qualities.map(q => <div key={ id(q) }><span className="link" onClick={ this.setQuality.bind(this) } data-weapon={ w.id }>{ q }</span></div>) }</td>

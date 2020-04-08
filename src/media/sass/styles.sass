@@ -810,16 +810,16 @@ h4
 		float: left
 		margin-right: 1rem
 
+
+@media print, screen and (min-width: $screen-medium)
+	.info h2
+		text-align: left
+
 	.damage
 		display: block
 
 		&:first-of-type:after
 			content: ""
-
-
-@media print, screen and (min-width: $screen-medium)
-	.info h2
-		text-align: left
 
 	#vehicle-close
 		position: absolute
@@ -832,10 +832,10 @@ h4
 	#content.large
 		padding-bottom: 3em
 
-	.stats
+	#characteristics
 		padding: 0
-		width: 100% !important
-		margin: 0 1em !important
+		width: 100%
+		margin: 0 1em
 
 
 @media screen and (min-width: $screen-large)
@@ -876,6 +876,9 @@ h4
 			padding: 1em
 			margin: 0
 
+	#tabs
+		padding-left: 20rem
+
 	h1
 		display: inline-block
 		border-radius: 0 3rem 3rem 0
@@ -885,12 +888,44 @@ h4
 	h2.subtitle
 		margin: 1.6em 3em 1.5em 0
 
-	#characteristics, #vehicle .stats
+	#vehicle .stats
 		margin: 0 !important
 
 	#vehicle
 		padding-left: 1rem
 		padding-right: 1rem
+
+	#show-all
+		margin-right: 0.5em
+
+	#content
+		float: left
+		overflow: hidden
+		width: 40em
+		margin-left: 19em
+
+	#navigation
+		float: left
+		overflow: hidden
+		display: block
+		margin-top: 2em
+		width: 19em
+		max-width: none
+
+	#characteristics
+		width: 25.3em
+
+
+@media screen and (min-width: $screen-xlarge)
+	#tabs
+		padding-left: 23rem
+
+	#built-by
+		position: fixed
+		bottom: 0
+		left: 0
+		padding: 0.2em 1em 0.2em
+		z-index: 150
 
 	.column
 		float: left
@@ -899,21 +934,36 @@ h4
 		&.small
 			width: 20em
 
+	#characteristics
+		margin: 0 !important
+		width: auto
+
 	#content
+		margin-left: 21.5em
+		width: 58em
+
 		.column.large
 			width: 37.5em
+			padding-bottom: 5em
 
 		.column.small
 			width: 16em
 			margin-left: 1.5em
+
+	#characteristics div:nth-child(even)
+		margin-right: 0
+
+	#navigation
+		width: 21.5em
 
 	.info
 		ul, .directory, p, h2, h4, .row-input
 			margin-left: 0
 			margin-right: 0
 
-@media screen and (min-width: $screen-xlarge)
-	// switch from mobile menu to top menu
+
+// DISPLAY TOP NAVIGATION
+@media screen and (min-width: $screen-large)
 	#menu
 		display: block
 		position: fixed
@@ -938,43 +988,9 @@ h4
 	#mobile-menu
 		display: none
 
-	#navigation
-		display: block
-		margin-top: 2em
-		width: 21.5em
-		max-width: none
-
-
-@media screen and (min-width: $screen-xlarge)
-	#tabs
-		padding-left: 23rem
-
-	#built-by
-		position: fixed
-		bottom: 0
-		left: 0
-		padding: 0.2em 1em 0.2em
-		z-index: 150
-
-
-
-	#content
-		margin-left: 21.5em
-		width: 58em
-
-		.large
-			padding-bottom: 5em
-
-		.column.small
-			margin-left: 1.5em
-
-	#characteristics div:nth-child(even)
-		margin-right: 0
-
-
 
 // SMALLER SCREEN SLIDING MENU
-@media screen and (max-width: $screen-xlarge)
+@media screen and (max-width: $screen-large)
 	#navigation
 		top: 2em
 		left: 0
