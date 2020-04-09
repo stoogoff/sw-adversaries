@@ -3,6 +3,7 @@
 		"name": "Ahsoka Tano",
 		"type": "Nemesis",
 		"description": "",
+		"notes": "",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 4,
@@ -68,6 +69,7 @@
 		"name": "Anakin Skywalker",
 		"type": "Nemesis",
 		"description": "",
+		"notes": "",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 4,
@@ -131,6 +133,7 @@
 		"name": "Admiral Trench",
 		"type": "Nemesis",
 		"description": "",
+		"notes": "",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -199,6 +202,7 @@
 		"name": "Aurra Sing",
 		"type": "Nemesis",
 		"description": "",
+		"notes": "",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 4,
@@ -277,6 +281,7 @@
 		"name": "Cad Bane",
 		"type": "Nemesis",
 		"description": "",
+		"notes": "",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 4,
@@ -370,6 +375,7 @@
 		"name": "Maul (CotR)",
 		"type": "Nemesis",
 		"description": "",
+		"notes": "",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 5,
@@ -442,6 +448,7 @@
 		"name": "Savage Opress",
 		"type": "Nemesis",
 		"description": "",
+		"notes": "",
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 3,
@@ -510,6 +517,8 @@
 	{
 		"name": "Senate Guard",
 		"type": "Rival",
+		"description": "",
+		"notes": "",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -553,6 +562,8 @@
 	{
 		"name": "Jedi Temple Guard",
 		"type": "Nemesis",
+		"description": "",
+		"notes": "",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -597,6 +608,8 @@
 	{
 		"name": "Jedi Padawan",
 		"type": "Rival",
+		"description": "",
+		"notes": "",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -626,6 +639,8 @@
 	{
 		"name": "Nightsister",
 		"type": "Rival",
+		"description": "",
+		"notes": "",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -676,6 +691,157 @@
 		],
 		"gear": ["Nightsister robes (+1 defence)"],
 		"tags": ["book:cotr", "location:Dathomir", "nightsister"]
+	},
+	{
+		"name": "Nightbrother (CotR)",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+            "defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Discipline": 2,
+			"Melee": 3,
+			"Perception": 1,
+			"Resilience": 1,
+			"Survival": 1,
+			"Vigilance": 1
+		},
+		"weapons": [
+			{
+				"name": "Enchanted spear",
+				"skill": "Melee",
+				"damage": 3,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Disorient 2"]
+			}
+		],
+		"tags": ["book:cotr", "location:Dathomir", "species:zabrak"]
+	},
+	{
+		"name": "Death Watch Commando",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15,
+			"defence": [1, 1]
+		},
+		"skills": {
+            "Discipline": 1,
+			"Melee": 2,
+			"Piloting: Planetary": 3,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 2,
+			"Resilience": 2,
+			"Vigilance": 1
+		},
+		"talents": [
+			{
+				"name": "Hit and Run",
+				"description": "After completing an attack targeting an opponent they are engaged with, a Death Watch Commando may immediately use their jetpack to disengage as an incidental."
+			}
+		],
+		"abilities": ["Flyer"
+		],
+        "weapons": ["Blaster pistol", "Vibroknife",
+			{
+				"name": "Flame projector",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Blast 8", "Burn 3"]
+			}
+        ],
+		"gear": ["Death Watch armour (+2 soak, defence 1)", "Jetpack"],
+		"tags": ["book:cotr", "mandalorian", "death watch"]
+	},
+	{
+		"name": "Pyke Syndicate Interrogator",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13,
+			"defence": [0, 0]
+		},
+		"skills": {
+            "Brawl": 1,
+			"Coercion": 3,
+			"Discipline": 2,
+			"Knowledge: Xenology": 3,
+			"Medicine": 3,
+			"Ranged: Light": 2,
+			"Resilience": 2,
+			"Vigilance": 1
+		},
+        "weapons": ["Blaster pistol", "Vibroknife"],
+		"gear": ["Custom medikit containing tools for minor surgery, various toxins and types of spice", "Blades in an array of sizes"],
+		"tags": ["book:cotr", "underworld", "pyke syndicate"]
+	},
+	{
+		"name": "Trandoshan hunter",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 18,
+			"defence": [0, 0]
+		},
+		"skills": {
+            "Brawl": 2,
+			"Cool": 2,
+			"Discipline": 1,
+			"Perception": 2,
+			"Ranged: Heavy": 3,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"abilities": ["Regeneration"],
+        "weapons": ["Blaster rifle", "Claws"],
+		"gear": ["Hunter armour (+2 soak)"],
+		"tags": ["book:cotr", "underworld", "species:Trandoshan"]
 	},
 	{
 		"name": "Mother Talzin",
@@ -741,6 +907,7 @@
 		"name": "Jungle Rancor",
 		"type": "Nemesis",
 		"description": "",
+		"notes": "",
 		"characteristics": {
 			"Brawn": 6,
 			"Agility": 2,
@@ -809,6 +976,7 @@
 		"name": "Webweaver",
 		"type": "Minion",
 		"description": "",
+		"notes": "",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -884,5 +1052,584 @@
 			}
 		],
 		"tags": ["creature", "book:cotr", "location:Kashyyyk"]
+	},
+	{
+		"name": "Racing Dactillion",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 20,
+            "defence": [0, 1]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 2,
+			"Coordination": 2,
+			"Perception": 2,
+			"Vigilance": 3
+		},
+		"abilities": ["Silhouette 2", "Flyer", "Trained Mount 2"],
+		"weapons": [
+			{
+				"name": "Beak",
+				"skill": "Brawl",
+				"damage": 9,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 3"]
+			},
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 3,
+				"range": "Engaged"
+			}
+		],
+		"tags": ["creature", "book:cotr", "location:Utapau"]
+	},
+	{
+		"name": "Racing Varactyl",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 22,
+            "defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Coordination": 1,
+			"Perception": 1,
+			"Vigilance": 1
+		},
+		"abilities": ["Silhouette 2", "Trained Mount 2",
+			{
+				"name": "Glider",
+				"description": "Varactyls can fly, as described in Chapter VI of any core rulebook, but cannot gain altitude under their own power."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Beak",
+				"skill": "Brawl",
+				"damage": 11,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 3"]
+			}
+		],
+		"tags": ["creature", "book:cotr", "location:Utapau"]
+	},
+	{
+		"name": "Aqua droid",
+		"type": "Minion",
+		"description": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 7
+		},
+		"skills": ["Athletics", "Ranged: Light"],
+		"abilities": ["Amphibious", "Droid"],
+		"weapons": [
+			{
+				"name": "Retractable blaster",
+				"skill": "Ranged: Heavy",
+				"damage": 10,
+				"critical": 3,
+				"range": "Long"
+			}
+		],
+		"gear": ["Integrated comlink"],
+		"tags": ["book:cotr", "species:Droid", "separatist"]
+	},
+	{
+		"name": "Arakyd Ringneck Recon Droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 11,
+			"defence": [0, 1]
+		},
+		"skills": {
+            "Cool": 1,
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"abilities": ["Droid", "Silhouette 0", "Hoverer"],
+		"weapons": [
+			{
+				"name": "Built-in dual blaster pistols",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Linked 1", "Stun Setting"]
+			}
+		],
+		"gear": ["Life-form scanner", "long-range Holo-Net communicator", "long-range sensor array"],
+		"tags": ["book:cotr", "separatist", "species:Droid"]
+	},
+	{
+		"name": "Assassin Probe Droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 20,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Perception": 1,
+			"Stealth": 3,
+			"Survival": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Droid",
+			{
+				"name": "Release Probe Killers",
+				"description": "Once per session as a maneuver, release a probe killer swarm. The probe killer swarm is automatically released if the assassin probe droid becomes incapacitated."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Razor-sharp limbs",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Knockdown", "Pierce 2", "Vicious 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["book:cotr", "separatist", "species:Droid"]
+	},
+	{
+		"name": "Probe Killer Swarm",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 25,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Coordination": 2,
+			"Stealth": 2
+		},
+		"abilities": ["Droid",
+			{
+				"name": "Droid Swarm",
+				"description": "Halve the damage dealth to the swarm before applying soak unless the weapon has the Blast or Ion quality, regardless of whether or not that quality is activated."
+			},
+			{
+				"name": "Overwhelming Numbers",
+				"description": "The swarm inflicts +3 damage with successful attacks against immobilized or prone targets."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Tiny razor-sharp legs",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Disorient 2", "Ensnare 2", "Knockdown", "Pierce 2"]
+			}
+		],
+		"tags": ["book:cotr", "separatist", "species:Droid"]
+	},
+	{
+		"name": "B1 Rocket Battle Droid",
+		"type": "Minion",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": ["Piloting: Planetary", "Ranged: Heavy"],
+		"abilities": ["Droid"],
+		"weapons": [
+			{
+				"name": "E-5 blaster rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Stun Setting"]
+			}
+		],
+		"gear": ["Integrated comlink", "head-mounted floodlight", "fusion cutters", "rocket pack (can fly)"],
+		"tags": ["book:rots", "separatist", "species:Droid", "battle droid"]
+	},
+	{
+		"name": "B1 Supervisor Droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 8,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Leadership": 3,
+			"Cool": 2,
+			"Gunnery": 2,
+			"Ranged: Heavy": 2,
+			"Vigilance": 1
+		},
+		"abilities": ["Droid",
+			{
+				"name": "Coordinate and Confuse",
+				"description": "Once per round as a maneuver, the supervisor can command a minion group of droids within long range to focus fire on a target visible to the supervisor and minion group, upgrading the ability of the minion group's next combat check targeting that enemy once, after which the droids become disoriented for the remainder of the encounter. A minion group cna only benefit from this ability once per encounter."
+			}
+		],
+		"weapons": [
+			{
+				"name": "E-5 blaster rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Stun Setting"]
+			}
+		],
+		"gear": ["Mini probe (upgrades the difficulty of all Stealth checks targeting the supervisor or its allies in the encounter once", "Integrated comlink"],
+		"tags": ["book:cotr", "separatist", "species:Droid"]
+	},
+	{
+		"name": "Buzz Droid",
+		"type": "Minion",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 3
+		},
+		"skills": ["Coordination", "Melee"],
+		"abilities": ["Droid", "Silhouette 0",
+			{
+				"name": "Sabotage",
+				"description": "Attacks by a minion group of buzz droids that target a vehicle inflict planetary-scale damage and gain Breach 1."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Integrated saws and drills",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"tags": ["book:rots", "separatist", "species:Droid"]
+	},
+	{
+		"name": "BX-series droid commando",
+		"type": "Minion",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 5
+		},
+		"skills": ["Cool", "Melee", "Ranged: Heavy", "Ranged: Light", "Stealth"],
+		"abilities": ["Droid"],
+		"weapons": ["Vibrosword", "Frag grenade", "Stun Damage",
+			{
+				"name": "E-5 blaster rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Stun Setting"]
+			}
+		],
+		"tags": ["book:rots", "separatist", "species:Droid", "battle droid"]
+	},
+	{
+		"name": "Droideka Sharpshooter",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 16,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Gunnery": 3,
+			"Perception": 3,
+			"Resilience": 3,
+			"Stealth": 1
+		},
+		"abilities": ["Droid",
+			{
+				"name": "Armoured Shield",
+				"description": "Maneuver to deploy or retract; while deployed, gains ranged defence 3 but can perform only one maneuver each round to move."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Droideka blaster",
+				"skill": "Gunnery",
+				"damage": 12,
+				"critical": 3,
+				"range": "Extreme",
+				"notes": "Integrated droideka blaster rifle",
+				"qualities": ["Accurate 1", "Pierce 2", "Vicious 1"]
+			}
+		],
+		"tags": ["book:cotr", "separatist", "species:Droid"]
+	},
+	{
+		"name": "FA-4 Pilot Droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Astrogation": 3,
+			"Knowledge: Outer Rim": 2,
+			"Piloting: Planetary": 3,
+			"Piloting: Space": 3
+		},
+		"abilities": ["Droid"],
+		"gear": ["Integrated comlink"],
+		"tags": ["book:cotr", "separatist", "species:Droid", "pilot"]
+	},
+	{
+		"name": "Octuparra Combat Tr-Droid",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 10,
+			"wounds": 25,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Gunnery": 4
+		},
+		"abilities": ["Droid", "Silhouette 3"],
+		"weapons": [
+			{
+				"name": "Built-in heavy blasters",
+				"skill": "Gunnery",
+				"damage": 12,
+				"critical": 2,
+				"range": "Long",
+				"notes": "",
+				"qualities": ["Pierce 4", "Linked 2", "Vicious 1"]
+			}
+		],
+		"tags": ["book:cotr", "separatist", "species:Droid"]
+	},
+	{
+		"name": "Super Battle Droid Rocket Trooper",
+		"type": "Minion",
+		"description": "",
+		"notes": "B2-RP",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 7
+		},
+		"skills": ["Piloting: Planetary", "Ranged: Heavy", "Ranged: Light"],
+		"abilities": ["Droid"],
+		"weapons": [
+			{
+				"name": "Superior integrated wrist blaster",
+				"skill": "Ranged: Light",
+				"damage": 12,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Linked 1"]
+			}
+		],
+		"gear": ["Integrated comlink", "integrated rocket pack (can fly)"],
+		"tags": ["book:cotr", "separatist", "species:Droid", "battle droid"]
+	},
+	{
+		"name": "Super Tactical Droid",
+		"type": "Nemesis",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 18,
+			"strain": 18,
+			"defence": [0, 0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coercion": 2,
+			"Cool": 3,
+			"Discipline": 2,
+			"Knowledge: Warfare": 4,
+			"Leadership": 4,
+			"Negotiation": 2,
+			"Perception": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1", "Improved Scathing Tirade",
+			{
+				"name": "Improved Droid Commander",
+				"description": "As an action, may make an :average: Leadership check; 6 allies may immediately suffer 1 strain to perform a free maneuver; may spend :triumph: to allow one ally to instead perform an action; once per encounter, perform as a maneuver but affect only droid allies."
+			}
+		],
+		"abilities": ["Droid"],
+		"weapons": [
+			{
+				"name": "Mechanical fists",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Disorient 2", "Knockdown"]
+			}
+		],
+		"gear": ["Integrated comlink"],
+		"tags": ["book:cotr", "separatist", "species:Droid", "battle droid"]
 	}
 ]
