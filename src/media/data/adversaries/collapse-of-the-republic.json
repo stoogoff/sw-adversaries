@@ -940,7 +940,7 @@
 				"qualities": ["Knockdown", "Sunder"]
 			}
 		],
-		"tags": ["creature", "book:cotr", "location:felucia"]
+		"tags": ["creature", "book:cotr", "location:Felucia"]
 	},
 	{
 		"name": "Felucian",
@@ -970,7 +970,7 @@
 				"qualities": ["Stun 4"]
 			}
 		],
-		"tags": ["book:cotr", "location:felucia"]
+		"tags": ["book:cotr", "location:Felucia"]
 	},
 	{
 		"name": "Webweaver",
