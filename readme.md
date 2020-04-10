@@ -97,6 +97,10 @@ This is only useful if you have your own AWS setup and are planning on hosting a
 	- Nexus of Power
 	- Dawn of Rebellion
 	- Rise of the Separatists
+	- Collapse of the Republic
+- collected source books
+	- Allies and Adversaries
+	- Gadgets and Gear
 - career books
 	- *Dangerous Covenants (no stats)*
 	- Enter the Unknown (5 droids)

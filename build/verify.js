@@ -55,7 +55,7 @@ require(path.join(BASE_PATH, "weapons.json")).forEach(w => weapons[w.name] = w);
 // load and merge all adversaries
 const FILES = fs.readdirSync(ADV_PATH);
 
-let adversaries = [], errors = 0;
+let adversaries = [], errors = 0, duplicateNames = {};
 
 FILES.forEach(f => {
 	let adv = require(path.join(ADV_PATH, f));
@@ -76,8 +76,32 @@ adversaries.forEach(a => {
 		console.log(`MISSING from: ${a.name} (${a.file}):`);
 		console.log("\t" + missing.join("\n\t"));
 
-		errors++;
+		++errors;
 	}
+
+	if(!(a.name in duplicateNames)) {
+		duplicateNames[a.name] = {
+			count: 0,
+			files: []
+		};
+	}
+
+	++duplicateNames[a.name].count;
+	duplicateNames[a.name].files.push(a.file);
 });
+
+
+// check duplicate names
+Object.keys(duplicateNames).forEach(key => {
+	let item = duplicateNames[key];
+
+	if(item.count > 1) {
+		console.log(`DUPLICATES: ${key} (${item.count}):`);
+		console.log("\t" + item.files.join("\n\t"));
+
+		++errors;
+	}
+})
+
 
 console.warn(`Found ${errors} errors.`);
