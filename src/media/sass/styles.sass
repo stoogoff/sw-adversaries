@@ -112,13 +112,17 @@ h4
 	border-bottom: 2px solid $derived
 
 #menu
-	display: none
+	top: 0.5em
+
+	em
+		display: none
+		padding-top: 0.5em
 
 	&>ul
 		margin: 0
 
 	&>ul>li
-		display: inline-block
+		display: block
 		padding: 0.5em
 		cursor: pointer
 		border: 1px solid $tabBgColour
@@ -131,16 +135,23 @@ h4
 			position: relative
 			top: 0.2em
 
+			&.down
+				display: none
+
 	&>ul>li.active ul
 		display: block
 		opacity: 1
 
 	&>ul>li>ul
-		position: absolute
-		margin: 0
-		padding: 0.5em
-		border-radius: 0 0 $borderRadius $borderRadius
+		position: fixed
+		top: 0.5em
 		left: -1px
+		bottom: 0.5em
+		right: 0
+		overflow-y: scroll
+		margin: 0
+		padding: 0.5em 0.5em 3em
+		border-radius: 0 0 $borderRadius $borderRadius
 		display: none
 		opacity: 0
 		z-index: 10
@@ -168,14 +179,10 @@ h4
 	left: 0
 	right: 0
 
-#mobile-menu, #menu
 	em
 		float: right
 		display: inline-block
 		margin-right: 1em
-
-#menu em
-	padding-top: 0.5em
 
 #navigation
 	margin: 0
@@ -189,34 +196,33 @@ h4
 	p
 		padding-left: 1.5em
 
-	#adversaries
-		position: absolute
-		top: 7em
-		left: 0
-		right: 0
-		bottom: 2em
-		padding-left: 1.5em
-		margin: 0
-		overflow-y: auto
-		padding-bottom: 2em
+#adversaries
+	top: 7em
+	left: 0
+	right: 0
+	bottom: 2em
+	padding-left: 1.5em
+	margin: 0
+	overflow-y: auto
+	padding-bottom: 2em
 
-		li
-			padding: 0.2em 0
-			@include hover()
+	li
+		padding: 0.2em 0
+		@include hover()
 
-			&:hover, &.selected
-				background-color: white
+		&:hover, &.selected
+			background-color: white
 
-			&.selected
-				font-weight: bold
-				padding: 0.3em
+		&.selected
+			font-weight: bold
+			padding: 0.3em
 
-				svg
-					position: relative
-					top: 0.1em
+			svg
+				position: relative
+				top: 0.1em
 
-				.link
-					text-decoration: none
+			.link
+				text-decoration: none
 
 #tabs
 	display: block
@@ -839,6 +845,33 @@ h4
 
 
 @media screen and (min-width: $screen-large)
+	// change display of menu to appear across the top
+	#menu
+		em
+			float: right
+			display: inline-block
+			margin-right: 1em
+
+		&>ul>li
+			display: inline-block
+			padding: 0.5em
+			cursor: pointer
+
+			svg
+				&.right
+					display: none
+
+				&.down
+					display: inline
+
+		&>ul>li>ul
+			position: absolute
+			top: 0
+			bottom: auto
+			right: auto
+			padding-bottom: 0.5em
+
+
 	#edit
 		width: 90%
 		height: 90%

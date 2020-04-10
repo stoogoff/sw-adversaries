@@ -429,8 +429,8 @@ class App extends React.Component {
 				<span className="btn" onClick={ this.toggleMenu.bind(this) }><svg><use xlinkHref="#icon-menu"></use></svg></span>
 				<em>Star Wars: Adversaries</em>
 			</div>
-			<TagMenu tags={ this.state.tags } />
 			<div id="navigation" className={ (this.state.menuOpen ? "menu-open" : "menu-closed") + " column small" }>
+				<TagMenu tags={ this.state.tags } />
 				<Filter text={ this.state.filter } handler={ this.filter.bind(this) } />
 				<p><small>Showing { x } of { y }.</small></p>
 				<LinkList data={ this.state.list } selected={ this.state.selected.length > 0 ? this.state.selected[this.state.selectedIndex].character.id : "" } />

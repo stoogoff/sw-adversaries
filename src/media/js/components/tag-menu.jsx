@@ -89,11 +89,18 @@ export default class TagMenu extends React.Component {
 	}
 
 	render() {
+		// the SVG icon needs to be moved to CSS
+		// or put both in and the CSS can hide / show them appropriately
 		return <div id="menu">
 			<em>Star Wars: Adversaries</em>
 			<ul>
 			{ Object.keys(this.menu).sort().map(m => {
-				return <li className={ this.state.active ==  m ? "active" : "" } key={ m }><div data-menu={ m } onClick={ this.openMenu.bind(this) }>{ titlecase(m) } <svg data-menu={ m }><use xlinkHref="#icon-circle-down"></use></svg></div>
+				return <li className={ this.state.active ==  m ? "active" : "" } key={ m }>
+					<div data-menu={ m } onClick={ this.openMenu.bind(this) }>
+						{ titlecase(m) }
+						<svg className="down" data-menu={ m }><use xlinkHref="#icon-circle-down"></use></svg>
+						<svg className="right" data-menu={ m }><use xlinkHref="#icon-circle-right"></use></svg>
+					</div>
 					<ul>
 						{ this.menu[m].map(t => <li key={ t.tag }><span className="link" onClick={ this.handler.bind(this) } data-href={ t.tag }>{ t.text }</span></li>)}
 					</ul>
