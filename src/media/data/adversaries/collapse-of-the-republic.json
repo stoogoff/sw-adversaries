@@ -1378,42 +1378,6 @@
 		"tags": ["book:cotr", "separatist", "species:Droid"]
 	},
 	{
-		"name": "Buzz Droid",
-		"type": "Minion",
-		"description": "",
-		"notes": "",
-		"characteristics": {
-			"Brawn": 1,
-			"Agility": 2,
-			"Intellect": 1,
-			"Cunning": 1,
-			"Willpower": 1,
-			"Presence": 1
-		},
-		"derived": {
-			"soak": 2,
-			"wounds": 3
-		},
-		"skills": ["Coordination", "Melee"],
-		"abilities": ["Droid", "Silhouette 0",
-			{
-				"name": "Sabotage",
-				"description": "Attacks by a minion group of buzz droids that target a vehicle inflict planetary-scale damage and gain Breach 1."
-			}
-		],
-		"weapons": [
-			{
-				"name": "Integrated saws and drills",
-				"skill": "Melee",
-				"damage": 4,
-				"critical": 3,
-				"range": "Engaged",
-				"qualities": ["Pierce 2"]
-			}
-		],
-		"tags": ["book:rots", "separatist", "species:Droid"]
-	},
-	{
 		"name": "BX-series droid commando",
 		"type": "Minion",
 		"description": "",

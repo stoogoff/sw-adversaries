@@ -3361,7 +3361,12 @@
 			"wounds": 5
 		},
 		"skills": ["Athletics", "Brawl", "Perception"],
-		"abilities": ["Tough Hide", "Silhouette 2", "Creature of the Dark – Fyrnock cannot abide natural sunlight–but can other types of light–and will refuse to enter it"],
+		"abilities": ["Tough Hide", "Silhouette 2",
+			{
+				"name": "Creature of the Dark",
+				"description": "Fyrnock cannot abide natural sunlight–but can other types of light–and will refuse to enter it"
+			}
+		],
 		"weapons": [
 				{
 				"name": "Teeth and claws",
