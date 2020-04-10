@@ -357,17 +357,7 @@
 		},
 		"skills": ["Mechanics", "Perception", "Skulduggery", "Survival"],
 		"talents": ["Utinni! 1"],
-		"weapons": [
-			{
-				"name": "Ionisation blaster",
-				"skill": "Ranged: Light",
-				"damage": 10,
-				"critical": 5,
-				"range": "Short",
-				"qualities": ["Disorient 5", "Stun Damage"],
-				"notes": "Damages droids only."
-			}
-		],
+		"weapons": ["Ion blaster"],
 		"gear": ["Utility belt"],
 		"tags": ["book:rots", "species:Jawa", "location:Tatooine", "adventure:Unusual Opportunities"]
 	},

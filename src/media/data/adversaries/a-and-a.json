@@ -31,7 +31,11 @@
 			"Vigilance": 5
 		},
 		"talents": ["Starship Adversary 1"],
-		"abilities": ["Amphibious", "Fleet Commander",
+		"abilities": ["Amphibious",
+			{
+				"name": "Fleet Commander",
+				"description": "As an action may make an :average: Leadership check, all allies on 4 ships in the encounter may immediately suffer 1 Strain to perform one maneuver and Ackbar may spend :triumph: to allow 1 ally to suffer 1 Strain to perform one free action instead."
+			},
 			{
 				"name": "Concentrated Fire",
 				"description": "As an action, make an :average: Leadership check. All allies on up to 4 ships in the encounter gain :advantage::advantage: on all Gunnery checks until the beginning of Ackbar’s next turn."
@@ -2077,7 +2081,7 @@
 				"description": "When making a check to repair a weapon, equipment, vehicle or droid, may reduce the difficulty of the check one level to a minimum of :simple:. Checks involving the repaired object that generate :despair: inflict an immediate Critical Hit on the vehicle or a Critical Injury if it is a droid. If a character is using the item, this inflicts a Critical Injury on the character."
 			}
 		],
-		"weapons": ["Ionisation blaster"],
+		"weapons": ["Ion blaster"],
 		"gear": ["Robes (+1 Soak)", "Utility belt"],
 		"tags": ["species:Jawa", "book:aaa", "location:Tatooine"]
 	},
@@ -2322,7 +2326,7 @@
 	},
 	{
 		"name": "Ewok Shaman",
-		"type": "Minion",
+		"type": "Rival",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -2420,7 +2424,7 @@
 			}
 		],
 		"gear": ["1d5-2 krayt dragon pearls within body"],
-		"tags": ["creature", "book:aaa", "location:Tatooine"]
+		"tags": ["creature", "book:aaa", "location:Tatooine", "species:Krayt Dragon"]
 	},
 	{
 		"name": "Loth-wolf",

@@ -369,7 +369,7 @@
 			}
 		],
 		"gear": ["longcoat (+1soak, defence 1)", "Wrist gauntlets with integrated datapad and whipcord thrower", "Rocket boots (can fly)"],
-		"tags": ["underworld", "bounty hunter", "book:cotr", "species:duros"]
+		"tags": ["underworld", "bounty hunter", "book:cotr", "species:Duros"]
 	},
 	{
 		"name": "Maul (CotR)",
@@ -729,7 +729,7 @@
 				"qualities": ["Disorient 2"]
 			}
 		],
-		"tags": ["book:cotr", "location:Dathomir", "species:zabrak"]
+		"tags": ["book:cotr", "location:Dathomir", "species:Zabrak"]
 	},
 	{
 		"name": "Death Watch Commando",
@@ -839,7 +839,16 @@
 			"Vigilance": 2
 		},
 		"abilities": ["Regeneration"],
-        "weapons": ["Blaster rifle", "Claws"],
+        "weapons": ["Blaster rifle",
+        	{
+        		"name": "Claws",
+				"skill": "Bralw",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Disorient 1", "Knockdown"]
+        	}
+        ],
 		"gear": ["Hunter armour (+2 soak)"],
 		"tags": ["book:cotr", "underworld", "species:Trandoshan"]
 	},
@@ -1396,7 +1405,7 @@
 		},
 		"skills": ["Cool", "Melee", "Ranged: Heavy", "Ranged: Light", "Stealth"],
 		"abilities": ["Droid"],
-		"weapons": ["Vibrosword", "Frag grenade", "Stun Damage",
+		"weapons": ["Vibrosword", "Frag grenade", "Stun grenade",
 			{
 				"name": "E-5 blaster rifle",
 				"skill": "Ranged: Heavy",
