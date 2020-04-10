@@ -1551,7 +1551,7 @@
 		"tags": ["book:dor", "book:aaa", "rebel alliance", "senator", "character:Mon Mothma"]
 	},
 	{
-		"name": "Ahsoka Tano",
+		"name": "Ahsoka Tano (Fulcrum)",
 		"type": "Nemesis",
 		"description": "Ahsoka Tano is one of the rarest individuals in the galaxy: a nearly fully trained Jedi who escaped Order 66 and years of pursuit by Imperial Inquisitors and agents. The one-time Padawan of Anakin Skywalker left the Jedi Order when she lost faith in its actions after she was wrongfully suspected of a terrorist act. After Order 66, she tried to hide herself in the Outer Rim and no longer considered herself a Jedi. Her desire to help eventually re-emerged, drawing the attention of both the Empire and Bail Organa. Though she followed her own path, she also became Organa’s agent, codenamed Fulcrum. She was instrumental in growing the rebellion, until she discovered Darth Vader’s true identity. Their confrontation on Malachor, though, may have possibly been her final battle.",
 		"characteristics": {
@@ -1610,7 +1610,7 @@
 			}
 		],
 		"gear": ["Padded armour (+2 Soak)", "Encrypted comlink"],
-		"tags": ["book:dor", "rebel alliance", "force sensitive", "species:Togruta"]
+		"tags": ["book:dor", "rebel alliance", "force sensitive", "species:Togruta","character:Ahsoka"]
 	},
 	{
 		"name": "Commander Jun Sato",

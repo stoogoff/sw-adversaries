@@ -631,7 +631,7 @@
 		"tags": ["source:D20Radio.com", "species:Droid"]
 	},
 	{
-		"name": "Terentatek",
+		"name": "Terentatek (d20radio)",
 		"type": "Nemesis",
 		"description": "The nightmarish terentatek are hulking creatures, similar in appearance to rancors but covered in spines and thick armoured hide. Drawn to, and perhaps powered by, concentrations of dark side Force energy, terentateks inhabit caves and tombs connected to dark side Force traditions such as the Sith and Rakata.  Over the millennia, the Jedi have launched the Great Hunts. These hunts were concerted efforts to wipe out the scourge of these beasts by dispatching teams of trained Jedi across the galaxy. However, even where the Jedi cleansed entire worlds the terentatek would return generations later. Jedi scholars believe the terentatek enter hibernation and hiding when the dark side wanes in the galaxy, only to awaken and emerge in times of conflict and suffering. Despite their horrifying reputation, bold treasure hunters often seek out reports of terentatek sightings in hope that the beasts are evidence of undiscovered tombs and therefore unclaimed riches. Even when no tomb is present the lair of a terentatek may contain the remains, and equipment, of warriors such as the Jedi who died in battle against these beasts.",
 		"source": {
@@ -1736,7 +1736,10 @@
 		"name": "Fathier",
 		"type": "Rival",
 		"description": "A non-sentient, however insightful species, the Fathier have very long legs, brownish fur, and long ears that distinguish it from other species. Fathiers can run at great speeds across any type of terrain. In the film, we even see one climb nearly straight up a short cliff face to escape. Their great speed has made them sought after by gambling houses all across the galaxy and caused the enslavement of many of their kind. They are hunted and forced to race in many casinos and race tracks in the galaxy. In fact, when kept in captivity, Fathiers often must endure “Double-Gravity” chambers causing them to gain strength even when moving about their confined areas. The people of Canto Bight on the planet Cantonica are particularly cruel to the animals.\n\nFathiers are easily domesticated and can be fitted with a riding harness and saddle. Tognath Mercenaries during the time of the Galactic Civil War often rode Fathiers during hit and run missions.",
-		"notes": "These are not official stats. Credits go to Scott Alden, D20Radio.com.",
+		"source": {
+			"owner": "Scott Alden",
+			"url": "http://www.d20radio.com/main/the-gm-awakens-the-fathier/"
+		},
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 4,
@@ -1770,7 +1773,7 @@
 				"qualities": ["Knockdown"]
 			}
 		],
-		"tags": ["source:D20Radio.com", "creature", "location:Canto Bight"],
+		"tags": ["source:D20Radio.com", "creature", "location:Canto Bight", "riding beast"],
 		"devOnly": true
 	},
 	{
@@ -1990,7 +1993,7 @@
 		"tags": ["source:D20Radio.com", "empire", "imperial military"]
 	},
 	{
-		"name": "Senate Guard",
+		"name": "Senate Guard (D20Radio)",
 		"type": "Rival",
 		"description": "Respected protectors of the Republic Senate, and by extension the democracy with which that body represents, the Senate Guard proudly uphold centuries of tradition. The Guard were charged with securing the Senate District on Coruscant as well as the Chancellor’s personal protection. An elite force, experienced recruits were drawn from planetary police organizations, the Judicial Forces, and even private companies. Not merely passive protectors of the Senate, the Guard actively sought out threats to through independent investigation. While the Guard generally cooperated with local police and the Jedi, they retained an elite branch known as the Senate Commandos. Charged with special missions, these commandos were employed on matters of utmost sensitivity to the Republic.\n\nThe Senate Guard played a critical role in the waning days of the Republic. Trading their ceremonial robes for reinforced armour, the Guard actively resisted covert Separatist activities including subversion, kidnapping, and terror attacks. Later referred to as the Blue Guard, in contrast to Supreme Chancellor Palpatine’s new Red Guard, these protectors would be gradually phased out in favour of Palpatine’s personal force. The Senate Guard, alongside the Republic’s thousand year democracy, were summarily retired by the Emperor’s declaration of a new order.",
 		"source": {
@@ -2030,7 +2033,7 @@
 		"talents": ["Adversary 1", "Body Guard 2", "Point Blank 3"],
 		"weapons": ["Blaster rifle", "Heavy blaster pistol", "Force pike"],
 		"gear": ["Laminate armour with ceremonial robes (+2 Soak, +1 Defence), Secure comlink, Utility belt with stimpacks"],
-		"tags": ["source:D20Radio.com", "galactic republic"]
+		"tags": ["source:D20Radio.com", "republic"]
 	},
 	{
 		"name": "Sabacc Player",

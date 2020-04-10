@@ -185,3 +185,4 @@ This is only useful if you have your own AWS setup and are planning on hosting a
 ## TODO
 
 - Print multiple tabs
+- Collapse of the Republic

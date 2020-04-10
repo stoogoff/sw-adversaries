@@ -1,0 +1,48 @@
+[
+	{
+		"name": "Orbak",
+		"type": "Rival",
+		"description": "Orbaks were a species of horse-like riding beasts. Found on several worlds, their exact galactic origins were unclear, although the ocean moon Kef Bir was the homeworld of a herd of orbaks. On frontier worlds, orbaks were often domesticated for use in agriculture, transport, and occasionally warfare. Their tusks were used to uproot the grasses that they ate, and their sturdy hooves were well-adapted for uncertain terrain. They were related to other riding beasts, including pulga, fathiers, bordoks, and tris.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 18
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 1,
+			"Coordination": 1
+		},
+		"abilities": ["Silhouette 2", "Trained Mount 2", "Domesticable 2",
+			{
+			"name": "Speed 2",
+			"description": ""
+			}
+		],
+		"weapons": [
+			{
+				"name": "Tusks",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged"
+			},
+			{
+				"name": "Trampling Hooves",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"tags": ["creature", "location:Kef Bir", "location:pasaana","riding beast"]
+	}
+]

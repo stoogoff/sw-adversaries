@@ -729,7 +729,8 @@
    "source:Heroes on Both Sides",
    "nightbrother",
    "location:Dathomir",
-   "species:Zabrak"
+   "species:Zabrak",
+   "character:Savage Opress"
   ],
   "characteristics": {
    "Brawn": 3,

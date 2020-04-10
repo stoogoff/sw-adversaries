@@ -1,0 +1,27 @@
+[
+	{
+		"name": "BD-1",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 6
+		},
+		"skills": {
+			"Computers": 2,
+			"Medicine": 2,
+			"Perception": 2
+		},
+		"abilities": ["Droid", "Silhouette 0"],
+		"talents": ["Gearhead 2", "Surgeon 2", "Codebreaker 2"],
+		"gear": ["Built-in diagnostic and surgical tools (adds  :boost::boost: to Medicine checks and counts as a stimpack that can be used five times per session)", "Built-in holoprojector with pathway guidance notations and mapping protocols enabled", "Data Breaker (adds :boost::boost: to any Computers check made to slice computers)"],
+		"tags": ["species:Droid", "source:Fallen Order", "medic", "slicer"]
+	}
+]

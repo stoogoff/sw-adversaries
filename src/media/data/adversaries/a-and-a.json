@@ -1071,7 +1071,7 @@
 		"name": "Darth Vader",
 		"type": "Nemesis",
 		"description": "Many dark tales are told about a black-armoured humanoid who serves as the Emperor’s most trusted enforcer and is perhaps the most feared being in the Empire. Rumoured to live in a forbidding castle on a world of lava, this warrior wields a red lightsaber and possesses terrifying powers that suggest he has a connection to the dreaded Sith. The few who claim to have survived encounters with this individual are unsure whether the armour houses a living being, a combat droid, or even a clone trooper. Many even fear that duplicates could be activated if the first is ever defeated.\n\nIn addition to his other duties to the Empire, Darth Vader is believed to be the most senior member of the Inquisitorius, and legends abound of his pursuit of target after target when other agents failed in their efforts. It is possible that Vader has trained Inquisitors in the techniques required to eliminate Force-sensitive targets.",
-		"notes": "Vader from Dawn of Rebellion does not have the added note to his lightsaber, nor does he have the helmet optics, or the integrated medsystems. These are for Allies and Adversaries Vader only.",
+		"notes": "Vader from Dawn of Rebellion does not have the added note to his lightsaber, nor does he have the helmet optics, or the integrated medsystems. These are for Allies and Adversaries Vader only. Gadgets and Gear adds Integrated Combat, Visage of Death and Peerless Armour, the Medical System, Enhanced Optics Suite.",
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 3,
@@ -1108,6 +1108,22 @@
 			{
 				"name": "Terrifying",
 				"description": "At the beginning of each encounter, each enemy within Medium range must make a :hard-3: fear check."
+			},
+			{
+				"name": "Visage of Death",
+				"description": "Once per encounter, after Darth Vader kills an Imperial character, he may spend a Destiny Point to add :success::advantage: to checks made by other Imperial characters in the current encounter for the remainder of the encounter."
+			},
+			{
+				"name": "Peerless Armour",
+				"description": "Once per encounter as an out-of-turn incidental, the wearer of Darth Vader’s armour may spend a Destiny Point to increase the soak provided by this armour to +6 until the end of the wearer’s next turn."
+			},
+			{
+				"name": "I Have You Now",
+				"description": "After inflicting a Critical Hit or Injury in combat, Vader may spend :advantage: to add +20 to Critical Hit or Injury roll results."
+			},
+			{
+				"name": "Integrated Combat",
+				"description": "Whenever Vader makes a combat check with his lightsaber and generates a Critial Injury, he may also, as an incidental, activate one Force power he possesses as if he had spent :forcepip: equal to the severity of the Critial Injury."
 			}
 		],
 		"weapons": [
@@ -1117,12 +1133,12 @@
 				"damage": 10,
 				"critical": 1,
 				"range": "Engaged",
-				"qualities": ["Breach 1", "Sunder", "Superior", "Vicious 2"],
+				"qualities": ["Breach 1", "Sunder", "Superior", "Vicious 2", "Dual-Phase"],
 				"notes": "Once per encounter, when ignited upgrades the ability of a Coercion check Vader makes once."
 			}
 		],
-		"gear": ["Enhanced Helmet Optics (cancels the effect of darkness, smoke or other environmental effects that obscure vision)", "Armoured Robes (vacuum sealed, +2 Soak, +1 Defence)", "Integrated Med-systems, (once per session, as an incidental may use a built-in stimpack)"],
-		"tags": ["book:aaa", "book:dor", "empire", "imperial military", "force sensitive", "darkside", "sith", "inquisitor"]
+		"gear": ["Enhanced Helmet Optics (cancels the effect of darkness, smoke or other environmental effects that obscure vision)", "Enhanced Optics Suite (remove :setback::setback: from Perception, Vigilance and Combat checks due to environmental effects that obscure vision", "Armoured Robes (vacuum sealed, +2 Soak, +1 Defence)", "Integrated Medical System (add :boost: to all Medicine checks to heal Vader, once per session, may activate this attachment as an incidental, this counts as using a stimpack)"],
+		"tags": ["book:aaa", "book:dor", "book:gag", "empire", "imperial military", "force sensitive", "darkside", "sith", "inquisitor"]
 	},
 	{
 		"name": "Emperor Palpatine",

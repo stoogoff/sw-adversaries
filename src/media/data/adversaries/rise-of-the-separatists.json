@@ -391,7 +391,7 @@
 		"abilities": ["Clone Inhibitor Chip"],
 		"weapons": ["DC-15 blaster rifle", "Frag grenade"],
 		"gear": ["Phase 1 clone trooper armour (+2 Soak)", "2 Frag grenades", "Utility belt", "Extra reload"],
-		"tags": ["book:rots", "clone trooper", "republic"]
+		"tags": ["book:rots", "clone trooper", "republic", "book:cotr"]
 	},
 	{
 		"name": "Clone Sergeant",
@@ -421,7 +421,7 @@
 		"abilities": ["Clone Inhibitor Chip", "Tactical Direction"],
 		"weapons": ["DC-15 blaster rifle", "Frag grenade"],
 		"gear": ["Phase 1 clone trooper armour (+2 Soak)", "2 Frag grenades", "Utility belt", "Extra reload"],
-		"tags": ["book:rots", "clone trooper", "republic"]
+		"tags": ["book:rots", "clone trooper", "republic", "book:cotr"]
 	},
 	{
 		"name": "Clone Captain",

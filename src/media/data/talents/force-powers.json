@@ -8,6 +8,10 @@
 		"description": "The character may hurl objects by making a Move Force Power check and rolling a ranged attack as part of the pool. The attack’s difficulty is equal to the Silhouette of the object being thrown (default is Silhouette 0) and only succeeds if they can also spend enough :forcepip: to move the object. The attack deals damage equal to the Silhouette of the object times 10 (Silhouette 0 deals 5 damage) plus one per :success:. To throw multiple objects, they must generate enough :forcepip: to move multiple objects, and must use rules for Auto-Fire to determine difficulty and targeting."
 	},
 	{
+		"name": "Force Power: Bind",
+		"description": "The character may spend :forcepip: to immobilize one target within short range until the end of the user's next turn. Spend :forcepip: to increase the range of the power by one (may activate this multiple times). Spend :forcepip::forcepip: to affect one additional target (may activate this multiple times). Spend :forcepip:; whenever an affected target takes an action, it suffers 3 Strain."
+	},
+	{
 		"name": "Force Power: Enhance",
 		"description": "When making an Athletics check, the character may roll an Enhance power check as part of the pool and may spend :forcepip: to gain :success: or :advantage: (their choice) on the check."
 	},
