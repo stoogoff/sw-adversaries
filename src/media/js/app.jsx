@@ -394,6 +394,7 @@ class App extends React.Component {
 		this.setState({ list: adversaries, filter: text });
 
 		if(adversaries.length == 1) {
+			this.setState({ menuOpen: false });
 			this.selectAdversary(adversaries[0]);
 		}
 	}

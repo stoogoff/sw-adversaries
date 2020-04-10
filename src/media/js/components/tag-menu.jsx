@@ -76,6 +76,12 @@ export default class TagMenu extends React.Component {
 		});
 	}
 
+	closeMenu() {
+		this.setState({
+			active: null
+		});
+	}
+
 	openMenu(evt) {
 		evt.stopPropagation();
 		evt.nativeEvent.stopImmediatePropagation();
@@ -102,6 +108,7 @@ export default class TagMenu extends React.Component {
 						<svg className="right" data-menu={ m }><use xlinkHref="#icon-circle-right"></use></svg>
 					</div>
 					<ul>
+						<li onClick={ this.closeMenu.bind(this) } className="close"><svg><use xlinkHref="#icon-cross"></use></svg> Close</li>
 						{ this.menu[m].map(t => <li key={ t.tag }><span className="link" onClick={ this.handler.bind(this) } data-href={ t.tag }>{ t.text }</span></li>)}
 					</ul>
 				</li>;

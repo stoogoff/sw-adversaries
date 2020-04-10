@@ -13,9 +13,16 @@ h1
 	color: white
 	background-color: $derived
 	padding: 1rem 3rem 1rem 1rem
+	z-index: 5
 
 	&.dev
-		background-color: rgb(42,79,127)
+		background-color: $heading
+
+	&.mine
+		background-color: map-get($dice, "difficulty")
+
+	&.unofficial
+		background-color: $btnColour
 
 	svg
 		position: relative
@@ -138,9 +145,9 @@ h4
 			&.down
 				display: none
 
-	&>ul>li.active ul
-		display: block
-		opacity: 1
+	//&>ul>li.active ul
+	//	display: block
+	//	opacity: 1
 
 	&>ul>li>ul
 		position: fixed
@@ -152,25 +159,36 @@ h4
 		margin: 0
 		padding: 0.5em 0.5em 3em
 		border-radius: 0 0 $borderRadius $borderRadius
-		display: none
-		opacity: 0
-		z-index: 10
-		box-shadow: 0 6px 12px rgba($font, 0.5)
+		display: block
+		//opacity: 0
+		z-index: 200
+		//box-shadow: 0 6px 12px rgba($font, 0.5)
 		background-color: $tabBgColour
+		border-right: 2px solid $derived
 
 		li
 			padding: 0.3em
 			margin: 0.2em
 			border-radius: $borderRadius
 			display: inline-block
-			background-color: rgba(255,255,255,0.5)
+			background-color: $menuBgHover
 			@include hover()
 
 			&:hover
 				background-color: $tabBgColour
 
+			&.close
+				display: block
+				text-align: center
+				font-weight: bold
+				background-color: transparent
+
+				&:hover
+					background-color: $menuBgHover
+
 			.link
 				text-decoration: none
+
 
 #mobile-menu
 	padding: 0.5em 0.2em
@@ -333,6 +351,7 @@ h4
 
 #content
 	margin-top: 2em
+	padding-bottom: 3em
 
 	.loading
 		margin: 2em
@@ -444,7 +463,7 @@ h4
 		width: 19rem
 
 		div
-			background-color: rgb(31,53,83)
+			background-color: $vehicle
 			display: inline-block
 			font-size: 0.8em
 
@@ -455,7 +474,7 @@ h4
 			border-radius: 0.2em !important
 
 		h3
-			background-color: rgb(18,157,234)
+			background-color: $vehicleStat
 
 // SKILLS
 .info
@@ -726,7 +745,7 @@ h4
 	font-size: 1.1em
 	padding: 0.2em 1em
 	margin: 0.5em 0
-	background-color: lighten($link, 20%)
+	background-color: $btnColour
 	font-weight: bold
 	color: white
 	border-radius: $borderRadius
@@ -835,9 +854,6 @@ h4
 		.btn-full
 			margin: 0
 
-	#content.large
-		padding-bottom: 3em
-
 	#characteristics
 		padding: 0
 		width: 100%
@@ -845,33 +861,6 @@ h4
 
 
 @media screen and (min-width: $screen-large)
-	// change display of menu to appear across the top
-	#menu
-		em
-			float: right
-			display: inline-block
-			margin-right: 1em
-
-		&>ul>li
-			display: inline-block
-			padding: 0.5em
-			cursor: pointer
-
-			svg
-				&.right
-					display: none
-
-				&.down
-					display: inline
-
-		&>ul>li>ul
-			position: absolute
-			top: 0
-			bottom: auto
-			right: auto
-			padding-bottom: 0.5em
-
-
 	#edit
 		width: 90%
 		height: 90%
@@ -916,7 +905,7 @@ h4
 		display: inline-block
 		border-radius: 0 3rem 3rem 0
 		position: fixed
-		top: 1em
+		top: 1.2em
 
 	h2.subtitle
 		margin: 1.6em 3em 1.5em 0
@@ -947,6 +936,9 @@ h4
 
 	#characteristics
 		width: 25.3em
+
+	#adversaries
+		position: absolute
 
 
 @media screen and (min-width: $screen-xlarge)
@@ -995,7 +987,7 @@ h4
 			margin-right: 0
 
 
-// DISPLAY TOP NAVIGATION
+// DISPLAY TOP NAVIGATION MENU
 @media screen and (min-width: $screen-large)
 	#menu
 		display: block
@@ -1004,19 +996,49 @@ h4
 		left: 0
 		right: 0
 
+		em
+			float: right
+			display: inline-block
+			margin-right: 1em
+
+
 		&>ul>li
 			position: relative
+			display: inline-block
+			padding: 0.5em
+			cursor: pointer
+
+			svg
+				&.right
+					display: none
+
+				&.down
+					display: inline
 
 			&:hover, &.active
 				border-left-color: $derived
 				border-right-color: $derived
 
+		&>ul>li.active ul
+			display: block
+			opacity: 1
+
 		&>ul>li>ul
-			width: 25em
+			position: absolute
+			bottom: auto
+			right: auto
+			padding-bottom: 0.5em
+			width: 30em
 			top: 2.33em
 			border-width: 0 1px 1px 1px
 			border-style: solid
 			border-color: $derived
+			opacity: 0
+			display: none
+			box-shadow: 0 6px 12px rgba($font, 0.5)
+
+			li.close
+				display: none
 
 	#mobile-menu
 		display: none
@@ -1037,6 +1059,15 @@ h4
 		&.menu-open
 			transform: translateX(0)
 			animation: slide-in 1s ease
+
+	#menu>ul>li.active ul
+		transform: translateX(0)
+		animation: slide-in 1s ease
+
+	#menu>ul>li>ul
+		transform: translateX(-100%)
+		animation: slide-out 0.5s ease
+
 
 @keyframes slide-in
 	from

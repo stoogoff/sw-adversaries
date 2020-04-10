@@ -285,8 +285,20 @@ export default class CharacterView extends React.Component {
 			</div>
 		;
 
+		let headingClass = "";
+
+		if(character.devOnly) {
+			headingClass = "dev";
+		}
+		else if(character.id.startsWith(CONFIG.ADVERSARY_ID)) {
+			headingClass = "mine";
+		}
+		else if(character.source) {
+			headingClass = "unofficial";
+		}
+
 		return <div className={ !this.props.visible ? "hidden" : null }>
-			<h1 data-adversary-type={ character.type } className={ character.devOnly || character.id.startsWith(CONFIG.ADVERSARY_ID) ? "dev" : ""}>{ icon } { character.name } { favIcon }</h1>
+			<h1 data-adversary-type={ character.type } className={ headingClass }>{ icon } { character.name } { favIcon }</h1>
 			<h2 className="subtitle">
 				<span className={ character.type.toLowerCase() }>{ character.type }</span>
 				<span className={ "btn " + activeMenuState } onClick={ this.toggleCharacterMenu.bind(this) }><svg><use xlinkHref="#icon-menu"></use></svg></span>
