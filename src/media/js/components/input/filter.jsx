@@ -2,7 +2,7 @@
 import React from "react";
 import { throttle } from "../../lib/timer";
 
-export class Filter extends React.Component {
+export default class Filter extends React.Component {
 	constructor(props) {
 		super(props);
 

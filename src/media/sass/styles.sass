@@ -84,6 +84,9 @@ h4
 .star-filled
 	color: map-get($dice, "proficiency")
 
+.mine:not(h1)
+	color: map-get($dice, "difficulty")
+
 .pre-js-loading
 	h1
 		position: static
@@ -160,9 +163,7 @@ h4
 		padding: 0.5em 0.5em 3em
 		border-radius: 0 0 $borderRadius $borderRadius
 		display: block
-		//opacity: 0
 		z-index: 200
-		//box-shadow: 0 6px 12px rgba($font, 0.5)
 		background-color: $tabBgColour
 		border-right: 2px solid $derived
 
@@ -899,6 +900,13 @@ h4
 			padding: 1em
 			margin: 0
 
+	#built-by
+		position: fixed
+		bottom: 0
+		left: 0
+		padding: 0.2em 1em 0.2em
+		z-index: 150
+
 	#tabs
 		padding-left: 20rem
 
@@ -946,13 +954,6 @@ h4
 @media screen and (min-width: $screen-xlarge)
 	#tabs
 		padding-left: 23rem
-
-	#built-by
-		position: fixed
-		bottom: 0
-		left: 0
-		padding: 0.2em 1em 0.2em
-		z-index: 150
 
 	.column
 		float: left

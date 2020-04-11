@@ -95,8 +95,6 @@ export default class TagMenu extends React.Component {
 	}
 
 	render() {
-		// the SVG icon needs to be moved to CSS
-		// or put both in and the CSS can hide / show them appropriately
 		return <div id="menu">
 			<em>Star Wars: Adversaries</em>
 			<ul>

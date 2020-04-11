@@ -7,7 +7,7 @@ import Tab from "lib/tab";
 import CharacterView from "components/character-view";
 import CharacterEdit from "components/character-edit";
 import LinkList from "components/link-list";
-import { Filter } from "components/input/filter";
+import Filter from "components/input/filter";
 import Loader from "components/loader";
 import Tabs from "components/tabs";
 import TagMenu from "components/tag-menu";
@@ -415,6 +415,8 @@ class App extends React.Component {
 			</div>
 			: null;
 
+		let builtBy = <span><span className="link" onClick={ this.toggleAbout.bind(this) }>About</span> | <a href="https://github.com/stoogoff/sw-adversaries">Source</a></span>;
+
 		let content = [<div>
 			{ this.state.selected.map((selected, index) => <CharacterView key={ index } character={ selected.character } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } vehicles={ this.stores.vehicles } visible={ index == this.state.selectedIndex } />)}
 			<Tabs tabs={ this.state.selected } selectedIndex={ this.state.selectedIndex } />
@@ -429,6 +431,7 @@ class App extends React.Component {
 			<div id="mobile-menu">
 				<span className="btn" onClick={ this.toggleMenu.bind(this) }><svg><use xlinkHref="#icon-menu"></use></svg></span>
 				<em>Star Wars: Adversaries</em>
+				{ builtBy }
 			</div>
 			<div id="navigation" className={ (this.state.menuOpen ? "menu-open" : "menu-closed") + " column small" }>
 				<TagMenu tags={ this.state.tags } />
@@ -442,7 +445,7 @@ class App extends React.Component {
 					: content
 				}
 			</div>
-			<div id="built-by"><span className="link" onClick={ this.toggleAbout.bind(this) }>About</span> | <a href="https://github.com/stoogoff/sw-adversaries">Source</a></div>
+			<div id="built-by">{ builtBy }</div>
 		</div>;
 	}
 }

@@ -26,6 +26,9 @@ export default class LinkList extends React.Component {
 				if(l.favourite) {
 					icon = <svg className="outline star-filled"><use xlinkHref="#icon-star-full"></use></svg>;
 				}
+				else if(l.tags.indexOf(CONFIG.ADVERSARY_TAG) != -1) {
+					icon = <svg className="mine"><use xlinkHref="#icon-edit"></use></svg>;
+				}
 				else if(isSelected) {
 					icon = <svg><use xlinkHref="#icon-circle-right"></use></svg>;
 				}
