@@ -1281,7 +1281,7 @@
 		"tags": ["creature", "book:nop", "adventure:Exploring the Acablas Ruins", "location:Auratera"]
 	},
 	{
-		"name": "Cultist War Doid",
+		"name": "Cultist War Droid",
 		"type": "Minion",
 		"description": "These custom war droids look like skeletal humanoids with smooth, blank faces. Each carries a unique pulse-wave array that looks like a metallic unstringed bow, but fires a powerful disrupter blast. The ends are filed to sharp points suitable for spearing opponents if necessary.\n\nThe droids identify the strongest opponent within range and swarm until victorious, then systematically move to the next most powerful target. Sianna Sekko programmed the droids to fight the Jedi, so they always favour a target with an activated lightsaber.",
 		"characteristics": {
