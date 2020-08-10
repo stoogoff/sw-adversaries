@@ -1195,7 +1195,10 @@
 				"description": "When making a Lightsaber check, may use Cunning instead of Brawn."
 			}
 		],
-		"abilities": ["Darkside Force User", "Force Power: Enhance", "Force Power: Foresee", "Force Power: Influence", "Force Power: Move", "Force Power: Seek", "Force Power: Sense", "Force Power: Unleash",
+		"abilities": ["Darkside Force User", "Force Power: Enhance", "Force Power: Foresee", "Force Power: Influence", "Force Power: Move", "Force Power: Seek", "Force Power: Sense",
+			{	"name": "Force Power: Unleash",
+				"description": "Emperor Palpatine may make an Unleash power check as a ranged attack and roll an :average: Discipline check. If the check succeeds and Emperor Palpatine spends :darkside::darkside:, the attack hits with the profile of the Unleash weapon"
+			},
 			{
 				"name": "Force Power: Farsight",
 				"description": "May spend :forcepip: to ignore the effects of darkness or blindness and see normally up to extreme range for 3 rounds (or 3 minutes)."
@@ -1213,6 +1216,14 @@
 				"critical": 1,
 				"range": "Engaged",
 				"qualities": ["Breach 1", "Sunder", "Superior", "Vicious 2"]
+			},
+			{
+				"name": "Unleash",
+				"skill": "Discipline",
+				"damage": 8,
+				"critical": 4,
+				"range": "Extreme",
+				"notes": "may spend :darkside: to reduce crit rating down to 1, may spend :darkside: to affect up to two additional targets within range, may spend :darkside: to give the attack Ensare 2, may spend :darkside: to give the attack Burn 2"
 			}
 		],
 		"gear": ["Personalised Sith robes (+2 Soak, 1 Defence)"],
