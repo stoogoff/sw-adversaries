@@ -323,7 +323,7 @@
    {
     "name": "Force Power: Unleash",
     "id": "Force-power-unleash-darth-plagueis",
-    "description": "Plagueis may make an :average: Discipline check as part of an Unleash power check. May spend :forcepip::forcepip: to make an attack dealing 4 damage plus 1 per net :success:, with a Critical rating of 4, to a target at Short range. May spend :forcepip: to add 3 damage to the attack, or :advantage: to inflict 1 strain on the target."
+    "description": "Plagueis may make an :average: Discipline check as part of an Unleash power check. May spend :forcepip::forcepip: to make an attack dealing 4 damage plus 1 per net :success:, with a critical rating of 4, to a target at Short range. May spend :forcepip: to add 3 damage to the attack, or :advantage: to inflict 1 strain on the target."
    },
    {
     "name": "Midi-Chlorian Manipulation",
@@ -10801,7 +10801,7 @@
    {
     "name": "Bring It Down!",
     "character": "Clone Commander",
-    "description": "Once per session, the Clone Commander may nominate an enemy vehicle no larger than Silhouette 4. All allies’ weapons reduce their Critical rating by 1 when attacking the target vehicle until the end of the encounter."
+    "description": "Once per session, the Clone Commander may nominate an enemy vehicle no larger than Silhouette 4. All allies’ weapons reduce their critical rating by 1 when attacking the target vehicle until the end of the encounter."
    },
    "Tactical Direction"
   ],
@@ -14515,7 +14515,7 @@
    {
     "name": "Force Power: Unleash",
     "id": "Force-power-unleash-count-dooku-hobs",
-    "description": "Dooku may make an :average: Discipline check as part of an Unleash power check. May spend :forcepip::forcepip: to make an attack dealing 4 damage plus 1 per net :success:, with a Critical rating of 4, to a target at Short range. May spend :forcepip: to add 3 damage to the attack, or :advantage: to inflict 1 strain on the target."
+    "description": "Dooku may make an :average: Discipline check as part of an Unleash power check. May spend :forcepip::forcepip: to make an attack dealing 4 damage plus 1 per net :success:, with a critical rating of 4, to a target at Short range. May spend :forcepip: to add 3 damage to the attack, or :advantage: to inflict 1 strain on the target."
    }
   ],
   "gear": "Armourweave cloak (+1 Defence, +1 Soak)",

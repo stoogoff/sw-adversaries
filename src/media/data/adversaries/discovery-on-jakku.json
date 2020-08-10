@@ -1046,7 +1046,7 @@
 		"abilities": [
 			{
 				"name": "Easy Prey",
-				"description": "When a rathtar makes an attack against an immobilised enemy, it lowers the Critical Rating of its lamprey maw attack to 1 for the duration of the attack."
+				"description": "When a rathtar makes an attack against an immobilised enemy, it lowers the critical rating of its lamprey maw attack to 1 for the duration of the attack."
 			}
 		],
 		"weapons": [
