@@ -12,3 +12,11 @@ export const throttle = (callback) => {
 		}, 250);
 	}
 };
+
+export const after = (times, callback) => {
+	return (...args) => {
+		if(--times == 0) {
+			callback(...args);
+		}
+	};
+};

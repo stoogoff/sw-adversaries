@@ -269,7 +269,7 @@ export default class CharacterEdit extends React.Component {
 		});
 		let weapons = this.props.weapons.all().sort(sortByProperty("name"));
 
-		return <div id="edit">
+		return <div className="screen">
 			<h1>
 				Edit Character
 				<svg title="Cancel edit" onClick={ this.cancel.bind(this) }><use xlinkHref="#icon-cross"></use></svg>

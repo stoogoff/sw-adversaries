@@ -194,8 +194,23 @@ h4
 				&:hover
 					background-color: $menuBgHover
 
+			&.disabled
+				background-color: $tabBgColour
+				cursor: default
+
+				&:hover
+					background-color: $tabBgColour
+
+				.link
+					color: $font
+					cursor: default
+
+					&:hover
+						color: $font
+
 			.link
 				text-decoration: none
+
 
 
 #mobile-menu
@@ -565,7 +580,7 @@ h4
 
 
 // EDIT MODE
-#edit
+.screen
 	box-sizing: border-box
 	background-color: $body
 	width: 100%
@@ -829,6 +844,18 @@ h4
 		&:hover
 			background-color: darken(map-get($dice, "boost"), 20%)
 
+.drop-zone
+	background-color: white
+	border-radius: 4px
+	padding: 0.5rem
+	border: 1px solid rgb(219,219,219)
+	margin-bottom: 1rem
+
+	svg
+		margin: 1em 0
+		width: 3em
+		height: 3em
+
 
 // MEDIA OVERRIDES
 @media print, screen and (min-width: $screen-small)
@@ -870,7 +897,7 @@ h4
 
 
 @media screen and (min-width: $screen-large)
-	#edit
+	.edit
 		width: 90%
 		height: 90%
 		margin: 1em auto

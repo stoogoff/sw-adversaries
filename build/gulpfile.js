@@ -142,7 +142,9 @@ gulp.task("copy-vendor", () => {
 		TARGET.module("@babel/polyfill/dist/polyfill.js"),
 		TARGET.module("react/umd/react.production.min.js"),
 		TARGET.module("react-dom/umd/react-dom.production.min.js"),
-		TARGET.module("remarkable/dist/remarkable.min.js")
+		TARGET.module("remarkable/dist/remarkable.min.js"),
+		TARGET.module("prop-types/prop-types.min.js"),
+		TARGET.module("react-dropzone/dist/index.js")
 	];
 
 	return gulp.src(modules).pipe(gulp.dest(TARGET.dest("media/js/vendor")));

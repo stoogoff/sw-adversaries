@@ -25,7 +25,8 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-remarkable": "^1.1.1",
-    "systemjs": "^0.19.47"
+    "systemjs": "^0.19.47",
+    "react-dropzone": "^10.2.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

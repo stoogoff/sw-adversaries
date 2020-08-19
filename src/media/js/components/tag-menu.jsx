@@ -53,7 +53,7 @@ export default class TagMenu extends React.Component {
 		// add import / export menu
 		this.menu[CONFIG.MENU_SAVE] = [
 			{ text: "Import", tag: CONFIG.IMPORT },
-			{ text: "Export", tag: CONFIG.EXPORT }
+			{ text: "Export", tag: CONFIG.EXPORT, disabled: !nextProps.canExport }
 		];
 	}
 
@@ -73,10 +73,6 @@ export default class TagMenu extends React.Component {
 		let tag = evt.target.getAttribute("data-href");
 
 		if(tag === CONFIG.IMPORT || tag === CONFIG.EXPORT) {
-			console.log("Import / export");
-
-			// TODO export should be disabled if no data is stored
-
 			dispatcher.dispatch(tag);
 		}
 		else if(tag.startsWith(CONFIG.FAVOURITE_KEY)) {
@@ -122,7 +118,7 @@ export default class TagMenu extends React.Component {
 					</div>
 					<ul>
 						<li onClick={ this.closeMenu.bind(this) } className="close"><svg><use xlinkHref="#icon-cross"></use></svg> Close</li>
-						{ this.menu[m].map(t => <li key={ t.tag }><span className="link" onClick={ this.handler.bind(this) } data-href={ t.tag }>{ t.text }</span></li>)}
+						{ this.menu[m].map(t => <li key={ t.tag } className={ t.disabled ? "disabled" : "" }><span className="link" onClick={ this.handler.bind(this) } data-href={ t.tag }>{ t.text }</span></li>)}
 					</ul>
 				</li>;
 			})}

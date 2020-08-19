@@ -6,6 +6,7 @@ import dispatcher from "lib/dispatcher";
 import Tab from "lib/tab";
 import CharacterView from "components/character-view";
 import CharacterEdit from "components/character-edit";
+import PanelImport from "components/panel-import";
 import LinkList from "components/link-list";
 import Filter from "components/input/filter";
 import Loader from "components/loader";
@@ -29,8 +30,9 @@ class App extends React.Component {
 			isLoaded: false,
 			menuOpen: false,
 			showAbout: false,
-			editMode: false,
-			editAdversary: null
+			mode: CONFIG.MODE_NORMAL,
+			editAdversary: null,
+			canExport: Store.local.has(CONFIG.ADVERSARY_STORE) ? Store.local.get(CONFIG.ADVERSARY_STORE).length > 0 : false
 		};
 		this.events = {};
 		this.stores = {};
@@ -238,17 +240,17 @@ class App extends React.Component {
 
 		// add, edit, and delete custom adversaries
 		dispatcher.register(CONFIG.ADVERSARY_ADD, () => {
-			this.setState({ editMode: true, editAdversary: {} });
+			this.setState({ mode: CONFIG.MODE_EDIT, editAdversary: {} });
 		});
 		dispatcher.register(CONFIG.ADVERSARY_COPY, id => {
 			// make a clone of the character for editing purposes
 			let adversary = this.stores.adversaries.findBy("id", id);
 
-			this.setState({ editMode: true, editAdversary: adversary });
+			this.setState({ mode: CONFIG.MODE_EDIT, editAdversary: adversary });
 		});
 		dispatcher.register(CONFIG.ADVERSARY_CANCEL, () => {
 			this.setState({
-				editMode: false,
+				mode: CONFIG.MODE_NORMAL,
 				editAdversary: null
 			});
 		});
@@ -295,9 +297,10 @@ class App extends React.Component {
 			this.stores.adversaries.data = adversaries;
 
 			this.setState({
-				editMode: false,
+				mode: CONFIG.MODE_NORMAL,
 				editAdversary: null,
-				tags: tags
+				tags: tags,
+				canExport: true
 			});
 
 			this.selectAdversary(adversary);
@@ -319,7 +322,6 @@ class App extends React.Component {
 				// empty list so remove the filter
 				list = this.stores.adversaries.all();
 
-				// TODO this should be managed in App and passed as a prop to Filter
 				dispatcher.dispatch(CONFIG.MENU_FILTER, "");
 			}
 
@@ -327,11 +329,12 @@ class App extends React.Component {
 			let tags = unique(this.stores.adversaries.map(a => a.tags).flat());
 
 			this.setState({
-				editMode: false,
+				mode: CONFIG.MODE_NORMAL,
 				editAdversary: null,
 				selected: this.state.selected,
 				list: list,
-				tags: tags
+				tags: tags,
+				canExport: stored.length > 0
 			});
 
 			this.selectAdversary(list[0]);
@@ -352,17 +355,32 @@ class App extends React.Component {
 			Store.local.set(CONFIG.SKILL_STORE, stored);
 		});
 
+		// export data
 		dispatcher.register(CONFIG.EXPORT, () => {
 			let stored = Store.local.get(CONFIG.ADVERSARY_STORE) || [];
 
 			if(stored && stored.length) {
-				let url = URL.createObjectURL(new Blob([JSON.stringify(stored)], { type: "application/json" }));
+				let url = URL.createObjectURL(new Blob([JSON.stringify(stored)], { type: CONFIG.JSON_MIMETYPE }));
 				let link = document.createElement("a");
 
 				link.setAttribute("href", url);
 				link.setAttribute("download", "swa-data.json");
 				link.click();
 			}
+		});
+
+		// import data
+		dispatcher.register(CONFIG.IMPORT, () => {
+			this.setState({
+				mode: CONFIG.MODE_IMPORT
+			});
+		});
+
+		// cancel importing data
+		dispatcher.register(CONFIG.IMPORT_CANCEL, () => {
+			this.setState({
+				mode: CONFIG.MODE_NORMAL
+			});
 		})
 	}
 
@@ -435,8 +453,13 @@ class App extends React.Component {
 			<Tabs tabs={ this.state.selected } selectedIndex={ this.state.selectedIndex } />
 		</div>];
 
-		if(this.state.editMode) {
+		// add character editing to the rendered components
+		if(this.state.mode === CONFIG.MODE_EDIT) {
 			content.push(<div className="overlay"><CharacterEdit character={ this.state.editAdversary } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } tags={ this.state.tags } qualities={ this.stores.qualities } /></div>);
+		}
+
+		if(this.state.mode === CONFIG.MODE_IMPORT) {
+			content.push(<div className="overlay"><PanelImport /></div>);
 		}
 
 		return <div>
@@ -447,7 +470,7 @@ class App extends React.Component {
 				{ builtBy }
 			</div>
 			<div id="navigation" className={ (this.state.menuOpen ? "menu-open" : "menu-closed") + " column small" }>
-				<TagMenu tags={ this.state.tags } />
+				<TagMenu canExport={ this.state.canExport } tags={ this.state.tags } />
 				<Filter text={ this.state.filter } handler={ this.filter.bind(this) } />
 				<p><small>Showing { x } of { y }.</small></p>
 				<LinkList data={ this.state.list } selected={ this.state.selected.length > 0 ? this.state.selected[this.state.selectedIndex].character.id : "" } />
