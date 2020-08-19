@@ -38,3 +38,13 @@ export const indexOfByProperty = function indexOfByProperty(list, property, valu
 export const unique = function unique(arr) {
 	return arr.filter((a, i) => arr.indexOf(a) == i);
 }
+
+export const intersection = function intersection(arr1, arr2) {
+	return arr1.filter(a => arr2.indexOf(a) != -1);
+}
+
+export const intersectionByProperty = function intersectionByProperty(arr1, arr2, prop) {
+	arr2 = arr2.map(o => o[prop]);
+
+	return arr1.filter(a => arr2.indexOf(a[prop]) != -1);
+}

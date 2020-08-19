@@ -44,6 +44,7 @@ export const IMPORT_UPLOAD = "data-upload";
 export const JSON_MIMETYPE = "application/json";
 
 // mode for overlays on the main screen
+export const MODE_NORMAL = "mode-normal";
 export const MODE_EDIT = "mode-edit";
 export const MODE_IMPORT = "mode-import";
-export const MODE_NORMAL = "mode-normal";
+export const MODE_IMPORT_COMPLETE = "mode-import-complete";

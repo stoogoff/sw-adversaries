@@ -7,13 +7,14 @@ import Tab from "lib/tab";
 import CharacterView from "components/character-view";
 import CharacterEdit from "components/character-edit";
 import PanelImport from "components/panel-import";
+import PanelImportComplete from "components/panel-import-complete";
 import LinkList from "components/link-list";
 import Filter from "components/input/filter";
 import Loader from "components/loader";
 import Tabs from "components/tabs";
 import TagMenu from "components/tag-menu";
 import * as Store from "lib/local-store";
-import { sortByProperty, findByProperty, unique } from "lib/list";
+import { sortByProperty, findByProperty, unique, intersectionByProperty } from "lib/list";
 import * as CONFIG from "lib/config";
 
 
@@ -30,9 +31,10 @@ class App extends React.Component {
 			isLoaded: false,
 			menuOpen: false,
 			showAbout: false,
-			mode: CONFIG.MODE_NORMAL,
+			mode: CONFIG.MODE_IMPORT,//CONFIG.MODE_NORMAL,
 			editAdversary: null,
-			canExport: Store.local.has(CONFIG.ADVERSARY_STORE) ? Store.local.get(CONFIG.ADVERSARY_STORE).length > 0 : false
+			canExport: Store.local.has(CONFIG.ADVERSARY_STORE) ? Store.local.get(CONFIG.ADVERSARY_STORE).length > 0 : false,
+			uploadedAdversaries: null
 		};
 		this.events = {};
 		this.stores = {};
@@ -125,7 +127,7 @@ class App extends React.Component {
 
 		// view object from menu
 		dispatcher.register(CONFIG.OBJECT_VIEW, id => {
-			this.setState({ menuOpen: false });
+			this.setState({ menuOpen: false, mode: CONFIG.MODE_NORMAL });
 			this.selectAdversary(this.stores.adversaries.findBy("id", id));
 		});
 
@@ -360,6 +362,9 @@ class App extends React.Component {
 			let stored = Store.local.get(CONFIG.ADVERSARY_STORE) || [];
 
 			if(stored && stored.length) {
+				// add a modified timestamp if one doesn't exist
+				stored = stored.map(s => ({ modified: Date.now(), ...s }));
+
 				let url = URL.createObjectURL(new Blob([JSON.stringify(stored)], { type: CONFIG.JSON_MIMETYPE }));
 				let link = document.createElement("a");
 
@@ -381,7 +386,40 @@ class App extends React.Component {
 			this.setState({
 				mode: CONFIG.MODE_NORMAL
 			});
-		})
+		});
+
+		dispatcher.register(CONFIG.IMPORT_UPLOAD, files => {
+			let stored = Store.local.get(CONFIG.ADVERSARY_STORE) || [];
+
+			// TODO fix clases
+			/*let clashes = intersectionByProperty(files[0].contents, stored, "id");
+
+			console.log(clashes)*/
+
+			// files have a contents property which is an array of adversaries
+			// flatten them all out
+			let newAdversaries = files.map(f => f.contents).reduce((acc, value) => [...acc, ...value], []);
+
+			stored = [...stored, ...newAdversaries];
+
+			Store.local.set(CONFIG.ADVERSARY_STORE, stored);
+
+			// update the existing adversaries
+			this.stores.adversaries.data = [...this.stores.adversaries.data, ...newAdversaries];
+
+			// add the mine tag if it doesn't exist
+			let tags = this.state.tags;
+
+			if(tags.indexOf(CONFIG.ADVERSARY_TAG) == -1) {
+				tags = [...tags, CONFIG.ADVERSARY_TAG];
+			}
+
+			this.setState({
+				tags: tags,
+				uploadedAdversaries: newAdversaries,
+				mode: CONFIG.MODE_IMPORT_COMPLETE
+			});
+		});
 	}
 
 	toggleMenu() {
@@ -453,13 +491,17 @@ class App extends React.Component {
 			<Tabs tabs={ this.state.selected } selectedIndex={ this.state.selectedIndex } />
 		</div>];
 
-		// add character editing to the rendered components
-		if(this.state.mode === CONFIG.MODE_EDIT) {
-			content.push(<div className="overlay"><CharacterEdit character={ this.state.editAdversary } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } tags={ this.state.tags } qualities={ this.stores.qualities } /></div>);
-		}
-
-		if(this.state.mode === CONFIG.MODE_IMPORT) {
-			content.push(<div className="overlay"><PanelImport /></div>);
+		// add modal overlays to the rendered components
+		switch(this.state.mode) {
+			case CONFIG.MODE_EDIT:
+				content.push(<div className="overlay"><CharacterEdit character={ this.state.editAdversary } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } tags={ this.state.tags } qualities={ this.stores.qualities } /></div>);
+				break;
+			case CONFIG.MODE_IMPORT:
+				content.push(<div className="overlay"><PanelImport /></div>);
+				break;
+			case CONFIG.MODE_IMPORT_COMPLETE:
+				content.push(<div className="overlay"><PanelImportComplete adversaries={ this.state.uploadedAdversaries } /></div>);
+				break;
 		}
 
 		return <div>
@@ -473,7 +515,7 @@ class App extends React.Component {
 				<TagMenu canExport={ this.state.canExport } tags={ this.state.tags } />
 				<Filter text={ this.state.filter } handler={ this.filter.bind(this) } />
 				<p><small>Showing { x } of { y }.</small></p>
-				<LinkList data={ this.state.list } selected={ this.state.selected.length > 0 ? this.state.selected[this.state.selectedIndex].character.id : "" } />
+				<div id="adversaries"><LinkList data={ this.state.list } selected={ this.state.selected.length > 0 ? this.state.selected[this.state.selectedIndex].character.id : "" } /></div>
 			</div>
 			<div id="content" className="column large">
 				{ !this.state.isLoaded

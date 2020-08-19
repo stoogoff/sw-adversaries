@@ -248,6 +248,7 @@ h4
 	overflow-y: auto
 	padding-bottom: 2em
 
+.link-list
 	li
 		padding: 0.2em 0
 		@include hover()
@@ -665,6 +666,9 @@ h4
 				&:hover
 					background-color: $fadeInput !important
 
+			&.btn-full
+				display: block
+				width: 100%
 
 			&.btn-save
 				color: white
@@ -844,6 +848,7 @@ h4
 		&:hover
 			background-color: darken(map-get($dice, "boost"), 20%)
 
+// import related
 .drop-zone
 	background-color: white
 	border-radius: 4px
@@ -855,6 +860,21 @@ h4
 		margin: 1em 0
 		width: 3em
 		height: 3em
+
+.error
+	color: $stat
+
+.file-list
+	li
+		padding: 0.3em 0 0.3em 24px
+
+		&.error
+			padding-left: 4px
+
+			svg
+				margin-right: 4px
+				position: relative
+				top: 2px
 
 
 // MEDIA OVERRIDES
@@ -897,7 +917,7 @@ h4
 
 
 @media screen and (min-width: $screen-large)
-	.edit
+	.screen
 		width: 90%
 		height: 90%
 		margin: 1em auto
