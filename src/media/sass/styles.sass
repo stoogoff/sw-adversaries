@@ -148,6 +148,13 @@ h4
 			&.down
 				display: none
 
+		// first child is now the save menu
+		&:first-child
+			border-bottom: 1px solid $font
+
+			&>ul>li
+				display: block
+
 	//&>ul>li.active ul
 	//	display: block
 	//	opacity: 1
@@ -1021,6 +1028,10 @@ h4
 			&:hover, &.active
 				border-left-color: $derived
 				border-right-color: $derived
+
+			&:first-child
+				border-bottom: 0
+				border-right: 1px solid $font
 
 		&>ul>li.active ul
 			display: block

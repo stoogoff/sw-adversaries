@@ -351,6 +351,19 @@ class App extends React.Component {
 
 			Store.local.set(CONFIG.SKILL_STORE, stored);
 		});
+
+		dispatcher.register(CONFIG.EXPORT, () => {
+			let stored = Store.local.get(CONFIG.ADVERSARY_STORE) || [];
+
+			if(stored && stored.length) {
+				let url = URL.createObjectURL(new Blob([JSON.stringify(stored)], { type: "application/json" }));
+				let link = document.createElement("a");
+
+				link.setAttribute("href", url);
+				link.setAttribute("download", "swa-data.json");
+				link.click();
+			}
+		})
 	}
 
 	toggleMenu() {

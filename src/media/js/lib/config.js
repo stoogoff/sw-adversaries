@@ -27,3 +27,7 @@ export const RIVAL = "Rival";
 export const NEMESIS = "Nemesis";
 
 export const COLOURS = ["blue", "green", "yellow", "orange", "red", "purple", "gray", "black"];
+
+export const MENU_SAVE = "_save";
+export const IMPORT = "_data_import";
+export const EXPORT = "_data_export";

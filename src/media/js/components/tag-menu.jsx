@@ -7,6 +7,8 @@ import { id } from "lib/string";
 import { book } from "lib/utils";
 
 function titlecase(s) {
+	s = s.replace("_", "");
+
 	return s[0].toUpperCase() + s.substring(1).toLowerCase();
 }
 
@@ -47,6 +49,12 @@ export default class TagMenu extends React.Component {
 		});
 
 		Object.keys(this.menu).forEach(m => this.menu[m].sort(sortByProperty("text")));
+
+		// add import / export menu
+		this.menu[CONFIG.MENU_SAVE] = [
+			{ text: "Import", tag: CONFIG.IMPORT },
+			{ text: "Export", tag: CONFIG.EXPORT }
+		];
 	}
 
 	componentDidMount() {
@@ -64,7 +72,14 @@ export default class TagMenu extends React.Component {
 	handler(evt) {
 		let tag = evt.target.getAttribute("data-href");
 
-		if(tag.startsWith(CONFIG.FAVOURITE_KEY)) {
+		if(tag === CONFIG.IMPORT || tag === CONFIG.EXPORT) {
+			console.log("Import / export");
+
+			// TODO export should be disabled if no data is stored
+
+			dispatcher.dispatch(tag);
+		}
+		else if(tag.startsWith(CONFIG.FAVOURITE_KEY)) {
 			dispatcher.dispatch(CONFIG.OBJECT_VIEW, id(tag.replace(CONFIG.FAVOURITE_KEY, "")));
 		}
 		else {
