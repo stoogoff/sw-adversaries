@@ -39,7 +39,7 @@ export const COLOURS = ["blue", "green", "yellow", "orange", "red", "purple", "g
 export const MENU_SAVE = "_save";
 export const IMPORT = "data-import";
 export const EXPORT = "data-export";
-export const IMPORT_CANCEL = "data-cancel";
+export const IMPORT_CLOSE = "data-close";
 export const IMPORT_UPLOAD = "data-upload";
 export const JSON_MIMETYPE = "application/json";
 
@@ -47,4 +47,4 @@ export const JSON_MIMETYPE = "application/json";
 export const MODE_NORMAL = "mode-normal";
 export const MODE_EDIT = "mode-edit";
 export const MODE_IMPORT = "mode-import";
-export const MODE_IMPORT_COMPLETE = "mode-import-complete";
+

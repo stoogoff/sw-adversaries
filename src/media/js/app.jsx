@@ -7,14 +7,13 @@ import Tab from "lib/tab";
 import CharacterView from "components/character-view";
 import CharacterEdit from "components/character-edit";
 import PanelImport from "components/panel-import";
-import PanelImportComplete from "components/panel-import-complete";
 import LinkList from "components/link-list";
 import Filter from "components/input/filter";
 import Loader from "components/loader";
 import Tabs from "components/tabs";
 import TagMenu from "components/tag-menu";
 import * as Store from "lib/local-store";
-import { sortByProperty, findByProperty, unique, intersectionByProperty } from "lib/list";
+import { sortByProperty, findByProperty, unique } from "lib/list";
 import * as CONFIG from "lib/config";
 
 
@@ -259,6 +258,9 @@ class App extends React.Component {
 		dispatcher.register(CONFIG.ADVERSARY_SAVE, adversary => {
 			let tags = this.state.tags;
 
+			// store the modified date
+			adversary.modified = Date.now();
+
 			// add a tag to indicate that it's user defined
 			if(adversary.tags.indexOf(CONFIG.ADVERSARY_TAG) == -1) {
 				adversary.tags.push(CONFIG.ADVERSARY_TAG);
@@ -374,35 +376,26 @@ class App extends React.Component {
 			}
 		});
 
-		// import data
+		// open import screen
 		dispatcher.register(CONFIG.IMPORT, () => {
 			this.setState({
 				mode: CONFIG.MODE_IMPORT
 			});
 		});
 
-		// cancel importing data
-		dispatcher.register(CONFIG.IMPORT_CANCEL, () => {
+		// close import screen and cancel importing data
+		dispatcher.register(CONFIG.IMPORT_CLOSE, () => {
 			this.setState({
 				mode: CONFIG.MODE_NORMAL
 			});
 		});
 
-		dispatcher.register(CONFIG.IMPORT_UPLOAD, files => {
-			let stored = Store.local.get(CONFIG.ADVERSARY_STORE) || [];
-
-			// TODO fix clases
-			/*let clashes = intersectionByProperty(files[0].contents, stored, "id");
-
-			console.log(clashes)*/
-
-			// files have a contents property which is an array of adversaries
-			// flatten them all out
-			let newAdversaries = files.map(f => f.contents).reduce((acc, value) => [...acc, ...value], []);
-
-			stored = [...stored, ...newAdversaries];
-
-			Store.local.set(CONFIG.ADVERSARY_STORE, stored);
+		// the import screens handle adding and deleting from local storage
+		// so 
+		dispatcher.register(CONFIG.IMPORT_UPLOAD, newAdversaries => {
+			// TODO there's possibly some deleting of existing stored adversaries
+			// TODO if the adversary tag is currently filtered, this adversary should be added to the list
+			// TODO this now duplicates the exist stored data
 
 			// update the existing adversaries
 			this.stores.adversaries.data = [...this.stores.adversaries.data, ...newAdversaries];
@@ -414,10 +407,10 @@ class App extends React.Component {
 				tags = [...tags, CONFIG.ADVERSARY_TAG];
 			}
 
+
 			this.setState({
 				tags: tags,
 				uploadedAdversaries: newAdversaries,
-				mode: CONFIG.MODE_IMPORT_COMPLETE
 			});
 		});
 	}
@@ -498,9 +491,6 @@ class App extends React.Component {
 				break;
 			case CONFIG.MODE_IMPORT:
 				content.push(<div className="overlay"><PanelImport /></div>);
-				break;
-			case CONFIG.MODE_IMPORT_COMPLETE:
-				content.push(<div className="overlay"><PanelImportComplete adversaries={ this.state.uploadedAdversaries } /></div>);
 				break;
 		}
 
