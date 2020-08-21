@@ -7,7 +7,14 @@ import dispatcher from "lib/dispatcher";
 import * as CONFIG from "lib/config";
 import { after } from "lib/timer";
 import * as Store from "lib/local-store";
-import { intersectionByProperty, indexOfByProperty, sortByProperty, findByProperty } from "lib/list";
+import { pluck, intersectionByProperty, indexOfByProperty, sortByProperty, findByProperty } from "lib/list";
+
+// TODO maybe the merge section should follow the file system options. You either stop, keep or replace
+// the UI would need to change
+// could be something like IMPORT on right of row LOCAL on left
+// with Skip, Replace, Keep Both buttons
+// BASICALLY it shouldn't be possible to delete an adversary through import because it's weird behaviour
+// it should keep one or both of the conflict, not neither
 
 
 // error types
@@ -66,7 +73,7 @@ export default class PanelImport extends React.Component {
 		const remove = (list, filterList) => {
 			return list.filter(f => indexOfByProperty(filterList, "id", f.id) == -1);
 		};
-
+console.log("toDelete", toDelete)
 		// get the new adversaries and remove any which are in the toDeleteImport array
 		// same for stored with the toDeleteLocal array
 		let newAdversaries = remove(this.getImportedAdversaries(), toDelete.filter(f => f.source === SOURCE_IMPORT));
@@ -96,19 +103,18 @@ export default class PanelImport extends React.Component {
 	}
 
 	// check for clashing ids in the import data with existing local store
-	// if there aren't any save the data and display the complete screen
+	// if there aren't call save()
 	// if there are some display the conflict screen
 	checkAndSave() {
 		let newAdversaries = this.getImportedAdversaries();
 		let stored = Store.local.get(CONFIG.ADVERSARY_STORE) || [];
 
-		// TODO fix clashes
+		// check for clashes, this creates an array of adversaries which appear in both the import and storage (marked with where they came from)
+		// clashes are by matching ID only, as that will break the system
 		let clashes = [
 			...intersectionByProperty(newAdversaries, stored, "id").map(a => ({ ...a, source: SOURCE_IMPORT })),
 			...intersectionByProperty(stored, newAdversaries, "id").map(a => ({ ...a, source: SOURCE_LOCAL }))
 		];
-
-		//console.log("clashes", clashes)
 
 		// TODO if the clashing objects are IDENTICAL then just ignore this
 
@@ -127,9 +133,11 @@ export default class PanelImport extends React.Component {
 	getImportedAdversaries() {
 		// files have a contents property which is an array of adversaries
 		// flatten them all out
-		return this.state.files.filter(f => f.error === false).map(f => f.contents).flat();
+		return pluck(this.state.files.filter(f => f.error === false), "contents").flat();
 	}
 
+	// resave adversaries to local storage - this includes the existing ones and the imported ones
+	// let the app know this has happened
 	save(adversaries) {
 		Store.local.set(CONFIG.ADVERSARY_STORE, adversaries);
 
@@ -254,6 +262,7 @@ const Upload = props => {
 
 // complete successfully screen
 const Complete = props => (
+	// TODO due to the merge / conflict code nothing may be imported
 	<div className="screen">
 		<h1>Import Complete</h1>
 		<div className="edit-panel">

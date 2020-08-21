@@ -4,7 +4,7 @@ import { TextInput, TextArea, AutoComplete } from "./input/text";
 import Select from "./input/select";
 import PanelCode from "./panel-code";
 import * as CONFIG from "lib/config";
-import { findByProperty } from "../lib/list";
+import { findByProperty, pluck } from "../lib/list";
 import { isNumeric, id } from "../lib/string";
 
 export default class PanelTalentEdit extends React.Component {
@@ -145,7 +145,7 @@ export default class PanelTalentEdit extends React.Component {
 	}
 
 	render() {
-		let list = this.props.list.map(i => i.name);
+		let list = pluck(this.props.list, "name");
 		let selected = this.state.selected ? this.state.selected.name : "";
 		let title = (this.props.editing ? "Edit" : "Create") + " " + this.props.title;
 		let button = (this.props.editing ? "Save" : "Add New") + " " + this.props.title;

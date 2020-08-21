@@ -4,7 +4,7 @@ import { TextInput, TextArea, AutoComplete } from "./input/text";
 import { Select } from "./input/select";
 import SelectQuality from "./input/select-quality";
 import PanelCode from "./panel-code";
-import { findByProperty, sortByProperty, indexOfByProperty } from "../lib/list";
+import { findByProperty, sortByProperty, indexOfByProperty, pluck } from "../lib/list";
 import { id, isNumeric } from "../lib/string";
 import { createQuality } from "../lib/utils";
 import * as CONFIG from "lib/config";
@@ -43,7 +43,7 @@ export default class PanelWeaponEdit extends React.Component {
 		this.state = initialState;
 
 		this.ranges = ["", "Engaged", "Short", "Medium", "Long", "Extreme"];
-		this.skills = ["", ...this.props.skills.map(s => s.name)];
+		this.skills = ["", pluck(...this.props.skills, "name")];
 	}
 
 	componentWillUpdate(nextProps, nextState) {
@@ -217,7 +217,7 @@ export default class PanelWeaponEdit extends React.Component {
 	}
 
 	render() {
-		let list = this.props.list.map(i => i.name);
+		let list = pluck(this.props.list, "name");
 		let selected = this.state.selected ? this.state.selected.name : "";
 		let qualities = this.props.qualities.all().sort(sortByProperty("name"));
 		let title = this.props.editing ? "Edit" : "Create";

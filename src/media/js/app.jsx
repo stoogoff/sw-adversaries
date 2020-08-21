@@ -13,7 +13,7 @@ import Loader from "components/loader";
 import Tabs from "components/tabs";
 import TagMenu from "components/tag-menu";
 import * as Store from "lib/local-store";
-import { sortByProperty, findByProperty, unique } from "lib/list";
+import { sortByProperty, findByProperty, unique, pluck, indexOfByProperty } from "lib/list";
 import * as CONFIG from "lib/config";
 
 
@@ -30,7 +30,7 @@ class App extends React.Component {
 			isLoaded: false,
 			menuOpen: false,
 			showAbout: false,
-			mode: CONFIG.MODE_IMPORT,//CONFIG.MODE_NORMAL,
+			mode: CONFIG.MODE_NORMAL,
 			editAdversary: null,
 			canExport: Store.local.has(CONFIG.ADVERSARY_STORE) ? Store.local.get(CONFIG.ADVERSARY_STORE).length > 0 : false,
 			uploadedAdversaries: null
@@ -52,11 +52,11 @@ class App extends React.Component {
 
 			// load up stored adversaries and either replace them or add them
 			let stored = Store.local.get(CONFIG.ADVERSARY_STORE) || [];
-			let ids = stored.map(a => a.id);
+			let ids = pluck(stored, "id");
 
 			adversaries = adversaries.filter(a => ids.indexOf(a.id) == -1);
 
-			stored.filter(a => a.id).forEach(a => adversaries.push(a));
+			stored.forEach(a => adversaries.push(a));
 
 			let favourites = Store.local.get(CONFIG.FAVOURITE_STORE) || [];
 			let tags = ["minion", "rival", "nemesis"];
@@ -108,7 +108,7 @@ class App extends React.Component {
 
 			// load up stored skills and either replace them or add them
 			let stored = Store.local.get(CONFIG.SKILL_STORE) || [];
-			let names = stored.map(a => a.name);
+			let names = pluck(stored, "name");
 
 			skills = skills.filter(a => names.indexOf(a.name) == -1);
 
@@ -142,25 +142,10 @@ class App extends React.Component {
 
 		// remove the tab specified by the index
 		dispatcher.register(CONFIG.TAB_REMOVE, index => {
-			if(index < 0 || this.state.selected.length <= 1) {
-				return;
-			}
-
-			let selectedIndex = this.state.selectedIndex;
-			let selected = this.state.selected;
-
-			selected.splice(index, 1);
-
-			if(this.state.selectedIndex > this.state.selected.length - 1) {
-				--selectedIndex;
-			}
-
-			this.setState({
-				selected: selected,
-				selectedIndex: selectedIndex
-			});
+			this.removeTab(index);
 		});
 
+		// update a property of a tab
 		let updateTab = property => {
 			return (index, text) => {
 				if(index < 0 || index >= this.state.selected.length) {
@@ -243,6 +228,8 @@ class App extends React.Component {
 		dispatcher.register(CONFIG.ADVERSARY_ADD, () => {
 			this.setState({ mode: CONFIG.MODE_EDIT, editAdversary: {} });
 		});
+		// TODO currently, if you've copied an adversary it's ID gets a "my-" prefix
+		// TODO this means copying the same adversary AGAIN, just edits your existing adversary so you can only have one copy ever
 		dispatcher.register(CONFIG.ADVERSARY_COPY, id => {
 			// make a clone of the character for editing purposes
 			let adversary = this.stores.adversaries.findBy("id", id);
@@ -256,18 +243,12 @@ class App extends React.Component {
 			});
 		});
 		dispatcher.register(CONFIG.ADVERSARY_SAVE, adversary => {
-			let tags = this.state.tags;
-
 			// store the modified date
 			adversary.modified = Date.now();
 
 			// add a tag to indicate that it's user defined
 			if(adversary.tags.indexOf(CONFIG.ADVERSARY_TAG) == -1) {
 				adversary.tags.push(CONFIG.ADVERSARY_TAG);
-
-				if(tags.indexOf(CONFIG.ADVERSARY_TAG) == -1) {
-					tags.push(CONFIG.ADVERSARY_TAG);
-				}
 			}
 
 			// add the adversary's type as a tag
@@ -303,13 +284,17 @@ class App extends React.Component {
 			this.setState({
 				mode: CONFIG.MODE_NORMAL,
 				editAdversary: null,
-				tags: tags,
+				tags: this.updateTags(),
 				canExport: true
 			});
 
+			// refilter the list so this adversary will be added (if it should be) then select it
+			this.filter(this.state.filter);
 			this.selectAdversary(adversary);
 		});
 		dispatcher.register(CONFIG.ADVERSARY_DELETE, id => {
+			// TODO if the deleted item is the only item in the list
+			// then it's still displayed
 			this.stores.adversaries.data = this.stores.adversaries.filter(f => f.id != id);
 
 			// remove from local store
@@ -319,29 +304,31 @@ class App extends React.Component {
 
 			Store.local.set(CONFIG.ADVERSARY_STORE, stored);
 
-			// remove from filtered navigation list
-			let list = this.state.list.filter(f => f.id != id);
-
-			if(list.length === 0) {
-				// empty list so remove the filter
-				list = this.stores.adversaries.all();
-
-				dispatcher.dispatch(CONFIG.MENU_FILTER, "");
-			}
-
-			// update tags in case there are no more characters with the ADVERSARY_TAG tag
-			let tags = unique(this.stores.adversaries.map(a => a.tags).flat());
-
 			this.setState({
 				mode: CONFIG.MODE_NORMAL,
 				editAdversary: null,
-				selected: this.state.selected,
-				list: list,
-				tags: tags,
+				tags: this.updateTags(),
 				canExport: stored.length > 0
 			});
 
-			this.selectAdversary(list[0]);
+			// reset the filter and set the selected adversary to the first on in the list
+			this.filter(this.state.filter);
+			this.selectAdversary();
+
+			// if there are any other tabs with the adversary in, close them
+			if(this.state.selected.length > 1) {
+				let indices = [];
+
+				this.state.selected.forEach((tab, index) => {
+					// keep the index of tabs which have the same character open
+					// unless it's the active tab
+					if(tab.character.id === id && index != this.state.selectedIndex) {
+						indices.push(index);
+					}
+				});
+
+				indices.forEach(index => this.removeTab(index));
+			}
 		});
 
 		// add customm skills
@@ -394,25 +381,101 @@ class App extends React.Component {
 		// so 
 		dispatcher.register(CONFIG.IMPORT_UPLOAD, newAdversaries => {
 			// TODO there's possibly some deleting of existing stored adversaries
-			// TODO if the adversary tag is currently filtered, this adversary should be added to the list
-			// TODO this now duplicates the exist stored data
+			// DONE if an adversary which is displayed is deleted something new should be displayed
+			// DONE if an adversary is displayed in the filter list it should be removed
+			// DONE if a locally stored adversary is removed and it was being displayed, it still appears here
+			// TODO if there a multiple tabs with a now deleted adversary the not selected one should be closed
 
-			// update the existing adversaries
-			this.stores.adversaries.data = [...this.stores.adversaries.data, ...newAdversaries];
+			const newAdversaryIds = pluck(newAdversaries, "id");
 
-			// add the mine tag if it doesn't exist
-			let tags = this.state.tags;
+			// update the existing adversaries with the new ones, but remove anything which is already in the existing adversaries
+			this.stores.adversaries.data = [...this.stores.adversaries.data.filter(f => newAdversaryIds.indexOf(f.id) == -1), ...newAdversaries];
 
-			if(tags.indexOf(CONFIG.ADVERSARY_TAG) == -1) {
-				tags = [...tags, CONFIG.ADVERSARY_TAG];
+			// if the current tab contains an adversary which has been deleted set it to the first one in the list
+			const currentTab = this.state.selected[this.state.selectedIndex];
+
+			if(indexOfByProperty(this.stores.adversaries.data, "id", currentTab.character.id) == -1) {
+				this.selectAdversary();
 			}
 
+			// go through all of the tabs and reset any characters on them (except the current tab)
+			// this is because we may have a situation where a merge conflict was fixed by overwriting the old
+			// custom character with a new one, which means it will have the same ID
+			let indices = [];
+
+			this.state.selected.forEach((tab, index) => {
+				const newAdversary = this.stores.adversaries.findBy("id", tab.character.id);
+
+				if(newAdversary) {
+					tab.character = newAdversary;
+					tab.tabName = newAdversary.name;
+				}
+				else {
+					// mark tab for removal
+					indices.push(index);
+				}
+			});
+
+			console.log("Tab indices to remove", indices)
+
+			indices.forEach(index => this.removeTab(index));
 
 			this.setState({
-				tags: tags,
+				selected: this.state.selected,
+				tags: this.updateTags(),
 				uploadedAdversaries: newAdversaries,
 			});
+
+			// refilter the current list
+			this.filter(this.state.filter);
+
+			// remove any tabs which contain characters which have been deleted
+			/*const adversaryIds = pluck(this.stores.adversaries.data, "id");
+			let indices = [];
+
+			console.log("selectedIndex:", this.state.selectedIndex)
+			console.log("newAdversaryIds:", newAdversaryIds)
+
+			this.state.selected.forEach((tab, index) => {
+				console.log("character:", tab.character.id)
+				console.log("index:", index)
+				console.log("indexOf:", adversaryIds.indexOf(tab.character.id))
+
+				// keep the index of tabs which have the same character open
+				// unless it's the active tab
+				if(index != this.state.selectedIndex && adversaryIds.indexOf(tab.character.id) == -1) {
+					indices.push(index);
+				}
+			});
+
+			console.log("Tab indices to remove", indices)
+
+			indices.forEach(index => this.removeTab(index));*/
 		});
+	}
+
+	removeTab(index) {
+		if(index < 0 || this.state.selected.length <= 1) {
+			return;
+		}
+
+		let selectedIndex = this.state.selectedIndex;
+		let selected = this.state.selected;
+
+		selected.splice(index, 1);
+
+		if(this.state.selectedIndex > this.state.selected.length - 1) {
+			--selectedIndex;
+		}
+
+		this.setState({
+			selected: selected,
+			selectedIndex: selectedIndex
+		});
+	}
+
+	updateTags() {
+		return unique(pluck(this.stores.adversaries, "tags").flat());
 	}
 
 	toggleMenu() {
@@ -426,7 +489,7 @@ class App extends React.Component {
 	selectAdversary(adversary) {
 		let selected = this.state.selected;
 
-		selected[this.state.selectedIndex] = new Tab(adversary);
+		selected[this.state.selectedIndex] = new Tab(adversary || this.state.list[0]);
 
 		this.setState({ selected: selected });
 
