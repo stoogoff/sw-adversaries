@@ -2,19 +2,12 @@
 import React from "react";
 import Dropzone from "react-dropzone";
 import LinkList from "components/link-list";
-import Checkbox from "./input/checkbox";
+import RadioList from "./input/radiolist";
 import dispatcher from "lib/dispatcher";
 import * as CONFIG from "lib/config";
 import { after } from "lib/timer";
 import * as Store from "lib/local-store";
 import { pluck, intersectionByProperty, indexOfByProperty, sortByProperty, findByProperty } from "lib/list";
-
-// TODO maybe the merge section should follow the file system options. You either stop, keep or replace
-// the UI would need to change
-// could be something like IMPORT on right of row LOCAL on left
-// with Skip, Replace, Keep Both buttons
-// BASICALLY it shouldn't be possible to delete an adversary through import because it's weird behaviour
-// it should keep one or both of the conflict, not neither
 
 
 // error types
@@ -30,6 +23,11 @@ const SCREEN_CONFLICT = 3;
 // whether an adversary is from the import file or local storage
 const SOURCE_LOCAL = "local";
 const SOURCE_IMPORT = "import";
+
+// what to do with conflicts
+const CONFLICT_SKIP = 0;
+const CONFLICT_REPLACE = 1;
+const CONFLICT_KEEP = 2;
 
 
 // notify the app that the import is closing
@@ -60,46 +58,35 @@ export default class PanelImport extends React.Component {
 		this.state = {
 			files: [],
 			screen: SCREEN_UPLOAD,
-			adversaries: []
+			adversaries: [], // adversaries which are ready for importing
+			imported: [], // imported adversaries which clash with a stored adversary
+			stored: [] // stored adversaries which clash with an imported adversary
 		};
 	}
 
-	mergeAndSave(toKeep, toDelete) {
-		// toKeep local - do nothing
-		// toKeep import - update id so it doesn't clash
-		// toDelete local - remove
-		// toDelete import - remove
-
-		const remove = (list, filterList) => {
-			return list.filter(f => indexOfByProperty(filterList, "id", f.id) == -1);
-		};
-console.log("toDelete", toDelete)
-		// get the new adversaries and remove any which are in the toDeleteImport array
-		// same for stored with the toDeleteLocal array
-		let newAdversaries = remove(this.getImportedAdversaries(), toDelete.filter(f => f.source === SOURCE_IMPORT));
-		let stored = remove(Store.local.get(CONFIG.ADVERSARY_STORE) || [], toDelete.filter(f => f.source === SOURCE_LOCAL));
-
-		// check the ids of everything in to keep, create a new id for the import if there are still clashes
-		let keepById = {};
-
-		toKeep.forEach(a => {
-			if(!(a.id in keepById)) {
-				keepById[a.id] = 0;
+	// conflicted is a hash like this: { id1: 0, id2: 1 }
+	// where the number is one of the CONFLICT_* constants
+	mergeAndSave(conflicted) {
+		// remove any adversaries which are in the conflicted hash with the supplied state
+		const filter = state => a => {
+			if(a.id in conflicted) {
+				 return conflicted[a.id] != state;
 			}
 
-			++keepById[a.id];
-		});
+			return true;
+		} 
 
-		Object.keys(keepById).forEach(id => {
-			// there are multiple, so find the one in the import and change its id
-			if(keepById[id] > 1) {
-				let toUpdate = newAdversaries.find(findByProperty("id", id));
-				
-				toUpdate.id = id + "-import";
+		let adversaries = this.getImportedAdversaries().filter(filter(CONFLICT_SKIP));
+		let stored = (Store.local.get(CONFIG.ADVERSARY_STORE) || []).filter(filter(CONFLICT_REPLACE));
+
+		// change the id of an adversary which is being kept along with the stored version
+		adversaries.forEach(a => {
+			if(a.id in conflicted && conflicted[a.id] == CONFLICT_KEEP) {
+				a.id = a.id + "-import";
 			}
 		});
 
-		this.save([...stored, ...newAdversaries]);
+		this.save(adversaries);
 	}
 
 	// check for clashing ids in the import data with existing local store
@@ -109,24 +96,23 @@ console.log("toDelete", toDelete)
 		let newAdversaries = this.getImportedAdversaries();
 		let stored = Store.local.get(CONFIG.ADVERSARY_STORE) || [];
 
-		// check for clashes, this creates an array of adversaries which appear in both the import and storage (marked with where they came from)
-		// clashes are by matching ID only, as that will break the system
-		let clashes = [
-			...intersectionByProperty(newAdversaries, stored, "id").map(a => ({ ...a, source: SOURCE_IMPORT })),
-			...intersectionByProperty(stored, newAdversaries, "id").map(a => ({ ...a, source: SOURCE_LOCAL }))
-		];
+		// check for conflicts, this creates an array of adversaries which appear in both the import and storage (marked with where they came from)
+		// conflicts are by matching ID only, as that will break the system
+		let conflictImport = intersectionByProperty(newAdversaries, stored, "id").map(a => ({ ...a, source: SOURCE_IMPORT }));
+		let conflictLocal = intersectionByProperty(stored, newAdversaries, "id").map(a => ({ ...a, source: SOURCE_LOCAL }));
 
 		// TODO if the clashing objects are IDENTICAL then just ignore this
 
 		// there are clashes (matching ids) between the uploaded and existing adversaries
-		if(clashes.length) {
+		if(conflictImport.length) {
 			this.setState({
-				adversaries: clashes.sort(sortByProperty("id")),
+				imported: conflictImport.sort(sortByProperty("id")),
+				stored: conflictLocal.sort(sortByProperty("id")),
 				screen: SCREEN_CONFLICT
 			});
 		}
 		else {
-			this.save([...stored, ...newAdversaries]);
+			this.save(newAdversaries);
 		}
 	}
 
@@ -136,10 +122,12 @@ console.log("toDelete", toDelete)
 		return pluck(this.state.files.filter(f => f.error === false), "contents").flat();
 	}
 
-	// resave adversaries to local storage - this includes the existing ones and the imported ones
+	// save new adversaries to local storage
 	// let the app know this has happened
 	save(adversaries) {
-		Store.local.set(CONFIG.ADVERSARY_STORE, adversaries);
+		let stored = Store.local.get(CONFIG.ADVERSARY_STORE) || [];
+
+		Store.local.set(CONFIG.ADVERSARY_STORE, [...stored, ...adversaries]);
 
 		dispatcher.dispatch(CONFIG.IMPORT_UPLOAD, adversaries);
 
@@ -160,7 +148,7 @@ console.log("toDelete", toDelete)
 		// validation rules:
 		//   1. Is the file a text file? (preferably a JSON file)
 		//   2. Does the file parse as JSON
-		//   3. Does the file look like an SWA adversary file?
+		//   3. TODO Does the file look like an SWA adversary file?
 
 		files.forEach(f => {
 			const reader = new FileReader();
@@ -204,7 +192,7 @@ console.log("toDelete", toDelete)
 				return <Complete adversaries={ this.state.adversaries } />;
 
 			case SCREEN_CONFLICT:
-				return <Conflict adversaries={ this.state.adversaries } save={ this.mergeAndSave.bind(this) } />;
+				return <Conflict imported={ this.state.imported } stored={ this.state.stored } save={ this.mergeAndSave.bind(this) } />;
 
 			case SCREEN_UPLOAD:
 			default:
@@ -280,63 +268,67 @@ class Conflict extends React.Component {
 	constructor(props) {
 		super(props);
 
+		let checkState = {};
+
+		props.imported.forEach(a => checkState[a.id] = CONFLICT_SKIP);
+
 		this.state = {
-			selected: {}
+			checkState
 		};
 	}
 
-	tmpId(adversary) {
-		return `${adversary.source}-${adversary.id}`;
-	}
+	checkStateHander(adversaryId, checkIndex) {
+		console.log("checkStateHander", adversaryId, checkIndex)
 
-	clickHandler(adversary) {
-		const id = this.tmpId(adversary);
-		let selected = this.state.selected;
+		let checkState = this.state.checkState;
 
-		selected[id] = !this.isChecked(adversary);
+		checkState[adversaryId] = checkIndex;
 
 		this.setState({
-			selected
+			checkState
 		});
-	}
-
-	isChecked(adversary) {
-		const id = this.tmpId(adversary);
-
-		return id in this.state.selected && this.state.selected[id] === true;
 	}
 
 	save() {
 		if(this.props.save) {
-			let selected = this.state.selected;
-			let available = this.props.adversaries;
-			let toKeep = [], toDelete = [];
-
-			available.forEach(adversary => {
-				const id = this.tmpId(adversary);
-
-				(selected[id] ? toKeep : toDelete).push(adversary);
-			});
-
-			this.props.save(toKeep, toDelete);
+			this.props.save(this.state.checkState);
 		}
 	}
 
-	render() {
-		const checkList = this.props.adversaries.map(c => {
-			// TODO add something to distinguish local / imported
-			// TODO the UI should tell you when you're removing any items from local
-			const label = <span>{ c.source.toUpperCase() + ": " + c.name } <small>({ "modified" in c ? new Date(c.modified).toLocaleString() : "unknown" })</small></span>;
-			const id = this.tmpId(c);
+	getLabel(adversary) {
+		return <span>{ adversary.name } <small>({ "modified" in adversary ? new Date(adversary.modified).toLocaleString() : "unknown" })</small></span>;
+	}
 
-			return <Checkbox label={ label } object={ c } checked={ this.isChecked(c)  } handler={ this.clickHandler.bind(this) } />;
-		});
+	render() {
+		// props:
+		// imported
+		// stored
+		let checkList = this.props.imported.map((advImport, idx) => (
+			<tr>
+				<td>{ this.getLabel(advImport) }</td>
+				<td>
+					<RadioList labels={ ["Skip", "Replace", "Keep Both"] } checkedIndex={ this.state.checkState[advImport.id] } handler={ this.checkStateHander.bind(this, advImport.id)} />
+				</td>
+				<td>{ this.getLabel(this.props.stored[idx]) }</td>
+			</tr>
+		));
 
 		return <div className="screen">
 			<h1>Import Conflict</h1>
 			<div className="edit-panel">
 				<p>Some of the imported adversaries are already stored locally. Select which ones you want to keep from the list below:</p>
-				{ checkList }
+				<table>
+					<thead>
+						<tr>
+							<th>Imported</th>
+							<th></th>
+							<th>Local</th>
+						</tr>
+					</thead>
+					<tbody>
+						{ checkList }
+					</tbody>
+				</table>
 			</div>
 			<div className="row-buttons">
 				<button className="btn-save" onClick={ this.save.bind(this) }>Save</button>

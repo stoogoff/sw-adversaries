@@ -43,7 +43,7 @@ export default class PanelWeaponEdit extends React.Component {
 		this.state = initialState;
 
 		this.ranges = ["", "Engaged", "Short", "Medium", "Long", "Extreme"];
-		this.skills = ["", pluck(...this.props.skills, "name")];
+		this.skills = ["", ...pluck(this.props.skills, "name")];
 	}
 
 	componentWillUpdate(nextProps, nextState) {
