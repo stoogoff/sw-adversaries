@@ -265,7 +265,7 @@
 	},
 	{
 		"name": "Oridelve Miner",
-		"type": "Miner",
+		"type": "Minion",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,

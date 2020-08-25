@@ -1406,10 +1406,7 @@
     0
    ]
   },
-  "skills": {
-   "Brawl": 1,
-   "Coordination": 1
-  },
+  "skills": ["Brawl", "Coordination"],
   "talents": [
    "Fearsome 3"
   ],
@@ -4637,11 +4634,11 @@
     0
    ]
   },
-  "skills": {
-   "Melee": 1,
-   "Ranged: Light": 1,
-   "Vigilance": 1
-  },
+  "skills": [
+   "Melee",
+   "Ranged: Light",
+   "Vigilance"
+  ],
   "talents": [],
   "abilities": [
    {
@@ -4800,10 +4797,10 @@
     0
    ]
   },
-  "skills": {
-   "Charm": 1,
-   "Survival": 1
-  },
+  "skills": [
+   "Charm",
+   "Survival"
+  ],
   "talents": [],
   "abilities": [
    {
@@ -5133,12 +5130,12 @@
     0
    ]
   },
-  "skills": {
-   "Melee": 1,
-   "Piloting: Planetary": 1,
-   "Ranged: Heavy": 1,
-   "Ranged: Light": 1
-  },
+  "skills": [
+   "Melee",
+   "Piloting: Planetary",
+   "Ranged: Heavy",
+   "Ranged: Light"
+  ],
   "talents": [],
   "abilities": [],
   "gear": "Nemoidian security armour (+2 Soak)",
@@ -5338,11 +5335,11 @@
     0
    ]
   },
-  "skills": {
-   "Negotiation": 1,
-   "Perception": 1,
-   "Knowledge: Core Worlds": 1
-  },
+  "skills": [
+   "Negotiation",
+   "Perception",
+   "Knowledge: Core Worlds"
+  ],
   "talents": [],
   "abilities": [],
   "gear": "Comlink, Datapad, Between 20 and 100 credits",
@@ -5441,11 +5438,11 @@
     0
    ]
   },
-  "skills": {
-   "Coercion": 1,
-   "Melee": 1,
-   "Ranged: Light": 1
-  },
+  "skills": [
+   "Coercion",
+   "Melee",
+   "Ranged: Light"
+  ],
   "talents": [],
   "abilities": [
    {
@@ -5507,9 +5504,9 @@
     0
    ]
   },
-  "skills": {
-   "Mechanics": 1
-  },
+  "skills": [
+   "Mechanics"
+  ],
   "talents": [],
   "abilities": [
    "Droid"
@@ -5545,9 +5542,9 @@
     0
    ]
   },
-  "skills": {
-   "Survival": 1
-  },
+  "skills": [
+   "Survival"
+  ],
   "talents": [],
   "abilities": [
    "Silhouette 0"
@@ -5593,11 +5590,11 @@
     0
    ]
   },
-  "skills": {
-   "Melee": 1,
-   "Survival": 1,
-   "Vigilance": 1
-  },
+  "skills": [
+   "Melee",
+   "Survival",
+   "Vigilance"
+  ],
   "talents": [],
   "abilities": [],
   "gear": "",
@@ -6406,11 +6403,11 @@
     2
    ]
   },
-  "skills": {
-   "Melee": 1,
-   "Ranged: Light": 1,
-   "Vigilance": 1
-  },
+  "skills": [
+   "Melee",
+   "Ranged: Light",
+   "Vigilance"
+  ],
   "talents": [],
   "abilities": [],
   "gear": "Police armour (+2 Soak)",
@@ -6973,12 +6970,12 @@
     0
    ]
   },
-  "skills": {
-   "Discipline": 1,
-   "Melee": 1,
-   "Ranged: Heavy": 1,
-   "Vigilance": 1
-  },
+  "skills": [
+   "Discipline",
+   "Melee",
+   "Ranged: Heavy",
+   "Vigilance"
+  ],
   "talents": [],
   "abilities": [
    "Amphibious"
@@ -7236,12 +7233,12 @@
     0
    ]
   },
-  "skills": {
-   "Discipline": 1,
-   "Melee": 1,
-   "Ranged: Heavy": 1,
-   "Vigilance": 1
-  },
+  "skills": [
+   "Discipline",
+   "Melee",
+   "Ranged: Heavy",
+   "Vigilance"
+  ],
   "talents": [],
   "abilities": [
    "Amphibious",
@@ -7566,12 +7563,12 @@
     0
    ]
   },
-  "skills": {
-   "Discipline": 1,
-   "Piloting: Planetary": 1,
-   "Ranged: Light": 1,
-   "Vigilance": 1
-  },
+  "skills": [
+   "Discipline",
+   "Piloting: Planetary",
+   "Ranged: Light",
+   "Vigilance"
+  ],
   "talents": [],
   "abilities": [
    {
@@ -7623,11 +7620,11 @@
     0
    ]
   },
-  "skills": {
-   "Cool": 1,
-   "Gunnery": 1,
-   "Piloting: Space": 1
-  },
+  "skills": [
+   "Cool",
+   "Gunnery",
+   "Piloting: Space"
+  ],
   "talents": [],
   "abilities": [],
   "gear": "Flight suit, N-1 starfighter",
@@ -7776,12 +7773,12 @@
     2
    ]
   },
-  "skills": {
-   "Athletics": 1,
-   "Melee": 1,
-   "Ranged: Light": 1,
-   "Survival": 1
-  },
+  "skills": [
+   "Athletics",
+   "Melee",
+   "Ranged: Light",
+   "Survival"
+  ],
   "talents": [],
   "abilities": [
    "Amphibious"
@@ -8157,12 +8154,12 @@
     0
    ]
   },
-  "skills": {
-   "Cool": 1,
-   "Melee": 1,
-   "Ranged: Heavy": 1,
-   "Survival": 1
-  },
+  "skills": [
+   "Cool",
+   "Melee",
+   "Ranged: Heavy",
+   "Survival"
+  ],
   "talents": [],
   "abilities": [],
   "gear": "Combat Gear (+2 Soak)",
@@ -8474,12 +8471,12 @@
     0
    ]
   },
-  "skills": {
-   "Discipline": 1,
-   "Melee": 1,
-   "Ranged: Heavy": 1,
-   "Vigilance": 1
-  },
+  "skills": [
+   "Discipline",
+   "Melee",
+   "Ranged: Heavy",
+   "Vigilance"
+  ],
   "talents": [
    "Body Guard 1"
   ],
@@ -8758,12 +8755,12 @@
     0
    ]
   },
-  "skills": {
-   "Cool": 1,
-   "Melee": 1,
-   "Ranged: Heavy": 1,
-   "Survival": 1
-  },
+  "skills": [
+   "Cool",
+   "Melee",
+   "Ranged: Heavy",
+   "Survival"
+  ],
   "talents": [],
   "abilities": [
    "Desert Dweller"
@@ -8980,12 +8977,12 @@
     0
    ]
   },
-  "skills": {
-   "Coercion": 1,
-   "Melee": 1,
-   "Ranged: Light": 1,
-   "Vigilance": 1
-  },
+  "skills": [
+   "Coercion",
+   "Melee",
+   "Ranged: Light",
+   "Vigilance"
+  ],
   "talents": [],
   "abilities": [],
   "gear": "Padded uniform (+2 Soak)",
@@ -9307,12 +9304,12 @@
     0
    ]
   },
-  "skills": {
-   "Discipline": 1,
-   "Ranged: Heavy": 1,
-   "Stealth": 1,
-   "Vigilance": 1
-  },
+  "skills": [
+   "Discipline",
+   "Ranged: Heavy",
+   "Stealth",
+   "Vigilance"
+  ],
   "talents": [],
   "abilities": [
    {
@@ -9426,12 +9423,12 @@
     0
    ]
   },
-  "skills": {
-   "Discipline": 1,
-   "Gunnery": 1,
-   "Piloting: Space": 1,
-   "Vigilance": 1
-  },
+  "skills": [
+   "Discipline",
+   "Gunnery",
+   "Piloting: Space",
+   "Vigilance"
+  ],
   "talents": [],
   "abilities": [
    {
@@ -9676,11 +9673,11 @@
     2
    ]
   },
-  "skills": {
-   "Melee": 1,
-   "Survival": 1,
-   "Vigilance": 1
-  },
+  "skills": [
+   "Melee",
+   "Survival",
+   "Vigilance"
+  ],
   "talents": [
    "Expert Handler 1"
   ],
@@ -9749,10 +9746,10 @@
     0
    ]
   },
-  "skills": {
-   "Mechanics": 1,
-   "Survival": 1
-  },
+  "skills": [
+   "Mechanics",
+   "Survival"
+  ],
   "talents": [
    "Gearhead 1"
   ],
@@ -9801,12 +9798,12 @@
     0
    ]
   },
-  "skills": {
-   "Coercion": 1,
-   "Melee": 1,
-   "Ranged: Light": 1,
-   "Survival": 1
-  },
+  "skills": [
+   "Coercion",
+   "Melee",
+   "Ranged: Light",
+   "Survival"
+  ],
   "talents": [],
   "abilities": [],
   "gear": "",
@@ -10839,13 +10836,13 @@
     0
    ]
   },
-  "skills": {
-   "Athletics": 1,
-   "Brawl": 1,
-   "Discipline": 1,
-   "Ranged: Heavy": 1,
-   "Vigilance": 1
-  },
+  "skills": [
+   "Athletics",
+   "Brawl",
+   "Discipline",
+   "Ranged: Heavy",
+   "Vigilance"
+  ],
   "talents": [],
   "abilities": [
    {
@@ -10939,12 +10936,12 @@
     0
    ]
   },
-  "skills": {
-   "Discipline": 1,
-   "Gunnery": 1,
-   "Piloting: Space": 1,
-   "Vigilance": 1
-  },
+  "skills": [
+   "Discipline",
+   "Gunnery",
+   "Piloting: Space",
+   "Vigilance"
+  ],
   "talents": [],
   "abilities": [
    {
@@ -11036,12 +11033,12 @@
     0
    ]
   },
-  "skills": {
-   "Discipline": 1,
-   "Gunnery": 1,
-   "Ranged: Light": 1,
-   "Vigilance": 1
-  },
+  "skills": [
+   "Discipline",
+   "Gunnery",
+   "Ranged: Light",
+   "Vigilance"
+  ],
   "talents": [],
   "abilities": [
    {
@@ -11526,14 +11523,14 @@
     0
    ]
   },
-  "skills": {
-   "Athletics": 1,
-   "Discipline": 1,
-   "Ranged: Heavy": 1,
-   "Resilience": 1,
-   "Survival": 1,
-   "Vigilance": 1
-  },
+  "skills": [
+   "Athletics",
+   "Discipline",
+   "Ranged: Heavy",
+   "Resilience",
+   "Survival",
+   "Vigilance"
+  ],
   "talents": [],
   "abilities": [
    {
@@ -11576,13 +11573,13 @@
     0
    ]
   },
-  "skills": {
-   "Athletics": 1,
-   "Discipline": 1,
-   "Gunnery": 1,
-   "Survival": 1,
-   "Vigilance": 1
-  },
+  "skills": [
+   "Athletics",
+   "Discipline",
+   "Gunnery",
+   "Survival",
+   "Vigilance"
+  ],
   "talents": [],
   "abilities": [
    {
@@ -11753,13 +11750,13 @@
     2
    ]
   },
-  "skills": {
-   "Athletics": 1,
-   "Brawl": 1,
-   "Discipline": 1,
-   "Melee": 1,
-   "Vigilance": 1
-  },
+  "skills": [
+   "Athletics",
+   "Brawl",
+   "Discipline",
+   "Melee",
+   "Vigilance"
+  ],
   "talents": [],
   "abilities": [
    {
@@ -11820,15 +11817,15 @@
     0
    ]
   },
-  "skills": {
-   "Athletics": 1,
-   "Brawl": 1,
-   "Discipline": 1,
-   "Ranged: Heavy": 1,
-   "Resilience": 1,
-   "Survival": 1,
-   "Vigilance": 1
-  },
+  "skills": [
+   "Athletics",
+   "Brawl",
+   "Discipline",
+   "Ranged: Heavy",
+   "Resilience",
+   "Survival",
+   "Vigilance"
+  ],
   "talents": [],
   "abilities": [
    {
@@ -11990,14 +11987,14 @@
     0
    ]
   },
-  "skills": {
-   "Athletics": 1,
-   "Brawl": 1,
-   "Discipline": 1,
-   "Piloting: Planetary": 1,
-   "Ranged: Heavy": 1,
-   "Vigilance": 1
-  },
+  "skills": [
+   "Athletics",
+   "Brawl",
+   "Discipline",
+   "Piloting: Planetary",
+   "Ranged: Heavy",
+   "Vigilance"
+  ],
   "talents": [
    "Jetpack Expertise"
   ],
@@ -13008,12 +13005,12 @@
     0
    ]
   },
-  "skills": {
-   "Brawl": 1,
-   "Coercion": 1,
-   "Medicine": 1,
-   "Ranged: Light": 1
-  },
+  "skills": [
+   "Brawl",
+   "Coercion",
+   "Medicine",
+   "Ranged: Light"
+  ],
   "talents": [],
   "abilities": [],
   "gear": "Black Sun padded armour (+2 Soak)",
@@ -13982,12 +13979,12 @@
     0
    ]
   },
-  "skills": {
-   "Melee": 1,
-   "Piloting: Planetary": 1,
-   "Ranged: Light": 1,
-   "Skulduggery": 1
-  },
+  "skills": [
+   "Melee",
+   "Piloting: Planetary",
+   "Ranged: Light",
+   "Skulduggery"
+  ],
   "talents": [],
   "abilities": [],
   "gear": "Blast vest (+2 Soak)",
@@ -14565,11 +14562,11 @@
     0
    ]
   },
-  "skills": {
-   "Gunnery": 1,
-   "Ranged: Heavy": 1,
-   "Ranged: Light": 1
-  },
+  "skills": [
+   "Gunnery",
+   "Ranged: Heavy",
+   "Ranged: Light"
+  ],
   "talents": [],
   "abilities": [
    "Droid"
@@ -14622,13 +14619,13 @@
     0
    ]
   },
-  "skills": {
-   "Brawl": 1,
-   "Gunnery": 1,
-   "Melee": 1,
-   "Ranged: Heavy": 1,
-   "Ranged: Light": 1
-  },
+  "skills": [
+   "Brawl",
+   "Gunnery",
+   "Melee",
+   "Ranged: Heavy",
+   "Ranged: Light"
+  ],
   "talents": [],
   "abilities": [
    "Droid"
