@@ -5,6 +5,7 @@
 const fs = require("fs"); 
 const path = require("path"); 
 
+const MINION = "Minion";
 
 // warn if multiple talents with the same key are found
 const addToHash = (talent, key) => {
@@ -78,6 +79,15 @@ adversaries.forEach(a => {
 		console.log("\t" + missing.join("\n\t"));
 
 		++errors;
+	}
+
+	if(a.type === MINION && !Array.isArray(a.skills)) {
+		console.log(`MINION SKILL HASH: ${a.name} (${a.file})`);
+
+		++errors;
+	}
+	else if(a.type !== MINION && Array.isArray(a.skills)) {
+		console.log(`SKILL ARRAY (${a.type}): ${a.name} (${a.file})`);
 	}
 
 	if(!(a.name in duplicateNames)) {
