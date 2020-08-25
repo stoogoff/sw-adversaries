@@ -250,7 +250,6 @@ const Upload = props => {
 
 // complete successfully screen
 const Complete = props => (
-	// TODO due to the merge / conflict code nothing may be imported
 	<div className="screen">
 		<h1>Import Complete</h1>
 		<div className="edit-panel">
@@ -278,8 +277,6 @@ class Conflict extends React.Component {
 	}
 
 	checkStateHander(adversaryId, checkIndex) {
-		console.log("checkStateHander", adversaryId, checkIndex)
-
 		let checkState = this.state.checkState;
 
 		checkState[adversaryId] = checkIndex;

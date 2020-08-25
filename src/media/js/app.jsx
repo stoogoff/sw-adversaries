@@ -304,31 +304,39 @@ class App extends React.Component {
 
 			Store.local.set(CONFIG.ADVERSARY_STORE, stored);
 
+			// remove any tabs with the deleted character in and add a new one if necessary
+			// reset the selected index, if it's greater than the tab length
+			// remove the character from the filtered list, if it's there
+			let filter = this.state.filter;
+			let list = this.state.list.filter(a => a.id != id);
+			let selectedIndex = this.state.selectedIndex;
+			let tabs = this.state.selected.filter(t => t.character.id != id);
+
+			if(list.length === 0) {
+				// reset filter
+				list = this.stores.adversaries.all();
+				filter = "";
+			}
+
+			// no tabs open so add a new one
+			if(tabs.length == 0) {
+				selectedIndex = 0;
+				tabs.push(new Tab(list[0]));
+			}
+			else if(selectedIndex >= tabs.length) {
+				selectedIndex = tabs.length - 1;
+			}
+
 			this.setState({
+				filter: filter,
+				list: list,
+				selectedIndex: selectedIndex,
+				selected: tabs,
 				mode: CONFIG.MODE_NORMAL,
 				editAdversary: null,
 				tags: this.updateTags(),
 				canExport: stored.length > 0
 			});
-
-			// reset the filter and set the selected adversary to the first on in the list
-			this.filter(this.state.filter);
-			this.selectAdversary();
-
-			// if there are any other tabs with the adversary in, close them
-			if(this.state.selected.length > 1) {
-				let indices = [];
-
-				this.state.selected.forEach((tab, index) => {
-					// keep the index of tabs which have the same character open
-					// unless it's the active tab
-					if(tab.character.id === id && index != this.state.selectedIndex) {
-						indices.push(index);
-					}
-				});
-
-				indices.forEach(index => this.removeTab(index));
-			}
 		});
 
 		// add customm skills

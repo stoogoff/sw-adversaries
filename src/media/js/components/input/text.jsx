@@ -31,6 +31,7 @@ class BaseText extends React.Component {
 	}
 
 	hasError(value) {
+		// TODO this treats a value of 0 as false so thinks it's an error
 		value = value || "";
 
 		let requiredError = this.props.required && value == "";
