@@ -32,8 +32,7 @@ class App extends React.Component {
 			showAbout: false,
 			mode: CONFIG.MODE_NORMAL,
 			editAdversary: null,
-			canExport: Store.local.has(CONFIG.ADVERSARY_STORE) ? Store.local.get(CONFIG.ADVERSARY_STORE).length > 0 : false,
-			uploadedAdversaries: null
+			canExport: Store.local.has(CONFIG.ADVERSARY_STORE) ? Store.local.get(CONFIG.ADVERSARY_STORE).length > 0 : false
 		};
 		this.events = {};
 		this.stores = {};
@@ -388,29 +387,14 @@ class App extends React.Component {
 		// the import screens handle adding and deleting from local storage
 		// so 
 		dispatcher.register(CONFIG.IMPORT_UPLOAD, newAdversaries => {
-			// TODO there's possibly some deleting of existing stored adversaries
-			// DONE if an adversary which is displayed is deleted something new should be displayed
-			// DONE if an adversary is displayed in the filter list it should be removed
-			// DONE if a locally stored adversary is removed and it was being displayed, it still appears here
-			// TODO if there a multiple tabs with a now deleted adversary the not selected one should be closed
-
 			const newAdversaryIds = pluck(newAdversaries, "id");
 
 			// update the existing adversaries with the new ones, but remove anything which is already in the existing adversaries
 			this.stores.adversaries.data = [...this.stores.adversaries.data.filter(f => newAdversaryIds.indexOf(f.id) == -1), ...newAdversaries];
 
-			// if the current tab contains an adversary which has been deleted set it to the first one in the list
-			const currentTab = this.state.selected[this.state.selectedIndex];
-
-			if(indexOfByProperty(this.stores.adversaries.data, "id", currentTab.character.id) == -1) {
-				this.selectAdversary();
-			}
-
-			// go through all of the tabs and reset any characters on them (except the current tab)
+			// go through all of the tabs and reset any characters on them
 			// this is because we may have a situation where a merge conflict was fixed by overwriting the old
 			// custom character with a new one, which means it will have the same ID
-			let indices = [];
-
 			this.state.selected.forEach((tab, index) => {
 				const newAdversary = this.stores.adversaries.findBy("id", tab.character.id);
 
@@ -418,47 +402,15 @@ class App extends React.Component {
 					tab.character = newAdversary;
 					tab.tabName = newAdversary.name;
 				}
-				else {
-					// mark tab for removal
-					indices.push(index);
-				}
 			});
-
-			console.log("Tab indices to remove", indices)
-
-			indices.forEach(index => this.removeTab(index));
 
 			this.setState({
 				selected: this.state.selected,
-				tags: this.updateTags(),
-				uploadedAdversaries: newAdversaries,
+				tags: this.updateTags()
 			});
 
 			// refilter the current list
 			this.filter(this.state.filter);
-
-			// remove any tabs which contain characters which have been deleted
-			/*const adversaryIds = pluck(this.stores.adversaries.data, "id");
-			let indices = [];
-
-			console.log("selectedIndex:", this.state.selectedIndex)
-			console.log("newAdversaryIds:", newAdversaryIds)
-
-			this.state.selected.forEach((tab, index) => {
-				console.log("character:", tab.character.id)
-				console.log("index:", index)
-				console.log("indexOf:", adversaryIds.indexOf(tab.character.id))
-
-				// keep the index of tabs which have the same character open
-				// unless it's the active tab
-				if(index != this.state.selectedIndex && adversaryIds.indexOf(tab.character.id) == -1) {
-					indices.push(index);
-				}
-			});
-
-			console.log("Tab indices to remove", indices)
-
-			indices.forEach(index => this.removeTab(index));*/
 		});
 	}
 

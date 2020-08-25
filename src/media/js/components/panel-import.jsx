@@ -86,7 +86,7 @@ export default class PanelImport extends React.Component {
 			}
 		});
 
-		this.save(adversaries);
+		this.save(stored, adversaries);
 	}
 
 	// check for clashing ids in the import data with existing local store
@@ -112,7 +112,7 @@ export default class PanelImport extends React.Component {
 			});
 		}
 		else {
-			this.save(newAdversaries);
+			this.save(stored, newAdversaries);
 		}
 	}
 
@@ -124,15 +124,13 @@ export default class PanelImport extends React.Component {
 
 	// save new adversaries to local storage
 	// let the app know this has happened
-	save(adversaries) {
-		let stored = Store.local.get(CONFIG.ADVERSARY_STORE) || [];
+	save(stored, imported) {
+		Store.local.set(CONFIG.ADVERSARY_STORE, [...stored, ...imported]);
 
-		Store.local.set(CONFIG.ADVERSARY_STORE, [...stored, ...adversaries]);
-
-		dispatcher.dispatch(CONFIG.IMPORT_UPLOAD, adversaries);
+		dispatcher.dispatch(CONFIG.IMPORT_UPLOAD, imported);
 
 		this.setState({
-			adversaries: adversaries,
+			adversaries: imported,
 			screen: SCREEN_COMPLETE
 		});
 	}
@@ -202,8 +200,6 @@ export default class PanelImport extends React.Component {
 }
 
 
-
-
 // upload file screen
 const Upload = props => {
 	const hasErrors = () => {
@@ -248,13 +244,19 @@ const Upload = props => {
 	</div>;
 };
 
+
 // complete successfully screen
 const Complete = props => (
 	<div className="screen">
 		<h1>Import Complete</h1>
 		<div className="edit-panel">
-			<p>Successfully uploaded the following adversaries:</p>
-			<LinkList data={ props.adversaries } />
+			{ props.adversaries.length
+				? <div>
+					<p>Successfully uploaded the following adversaries:</p>
+					<LinkList data={ props.adversaries } />
+				</div>
+				: <p>No adversaries have been imported.</p>
+			}
 		</div>
 		<div className="row-buttons">
 			<button className="btn btn-full" onClick={ close }>Close</button>
@@ -313,7 +315,7 @@ class Conflict extends React.Component {
 		return <div className="screen">
 			<h1>Import Conflict</h1>
 			<div className="edit-panel">
-				<p>Some of the imported adversaries are already stored locally. Select which ones you want to keep from the list below:</p>
+				<p>Some of the imported adversaries are already stored locally and are listed below. Do you want to skip the import, replace the stored copy, or keep both?</p>
 				<table>
 					<thead>
 						<tr>

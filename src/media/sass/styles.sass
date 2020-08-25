@@ -150,17 +150,14 @@ h4
 
 		// first child is now the save menu
 		&:first-child
-			border-bottom: 1px solid $font
+			background-color: $link
+			color: rgba(255,255,255,0.7)
 
 			&>ul>li
 				display: block
 
 				&>.link
 					display: block
-
-	//&>ul>li.active ul
-	//	display: block
-	//	opacity: 1
 
 	&>ul>li>ul
 		position: fixed
@@ -189,6 +186,7 @@ h4
 				background-color: $tabBgColour
 
 			&.close
+				color: darken($font, 20%)
 				display: block
 				text-align: center
 				font-weight: bold
@@ -583,7 +581,7 @@ h4
 				background-color: white
 
 
-// EDIT MODE
+// EDIT / IMPORT MODE
 .screen
 	box-sizing: border-box
 	background-color: $body
@@ -725,6 +723,29 @@ h4
 		right: 0.5em
 		bottom: 0.5em
 
+	.input-radiolist
+		color: orange
+		font-size: 0.8rem
+
+		label
+			display: inline-block
+			margin: 0 0.1em
+			background-color: $btnColour
+			background-color: $tabBgColour
+			color: black
+			padding: 0.1em 0.5em
+			border-radius: 0.2em
+			cursor: pointer
+
+			&.checked
+				color: white
+				background-color: $btnColour
+
+			svg
+				margin-right: 0.3em
+				position: relative
+				top: 0.1em
+
 	.edit-panel
 		padding-left: 1rem
 		padding-right: 1rem
@@ -768,6 +789,9 @@ h4
 			display: inline-block
 			padding: 0.1em 1em
 			background-color: $body
+
+	td span small
+		display: block
 
 .btn-full
 	display: block
@@ -860,9 +884,9 @@ h4
 	margin-bottom: 1rem
 
 	svg
-		margin: 1em 0
-		width: 3em
-		height: 3em
+		margin: 2em 0
+		width: 5em
+		height: 5em
 
 .error
 	color: $stat
