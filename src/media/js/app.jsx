@@ -361,7 +361,7 @@ class App extends React.Component {
 				// add a modified timestamp if one doesn't exist
 				stored = stored.map(s => ({ modified: Date.now(), ...s }));
 
-				let url = URL.createObjectURL(new Blob([JSON.stringify(stored)], { type: CONFIG.JSON_MIMETYPE }));
+				let url = URL.createObjectURL(new Blob([JSON.stringify(stored)], { type: CONFIG.MIMETYPE_JSON }));
 				let link = document.createElement("a");
 
 				link.setAttribute("href", url);

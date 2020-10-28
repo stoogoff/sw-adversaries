@@ -155,17 +155,62 @@ export default class PanelImport extends React.Component {
 				let file = {
 					name: f.name,
 					contents: null,
+					mimetype: null,
 					error: false
 				};
 
+				file.mimetype = f.type;
+
 				// check it's a JSON file
-				if(f.type === CONFIG.JSON_MIMETYPE) {
+				if(f.type === CONFIG.MIMETYPE_JSON) {
 					// check for valid JSON
 					try {
 						file.contents = JSON.parse(reader.result);
 					}
 					catch {
 						console.error(`JSON parsing error: ${f.name}.`);
+						file.error = ERROR_PARSE;
+					}
+				}
+				else if(f.type === CONFIG.MIMETYPE_XML) {
+					try {
+						const parser = new DOMParser();
+						const xmlDoc = parser.parseFromString(reader.result, CONFIG.MIMETYPE_XML);
+						let adversary = {};
+
+						const iter = xmlDoc.evaluate("Characteristics/CharCharacteristic/Name/text()", xmlDoc.documentElement);
+						let node;
+
+						while((node = iter.iterateNext()) !== null) {
+							console.log(node)
+						}
+
+						Array.from(xmlDoc.documentElement.childNodes).forEach(node => {
+							console.log(node.nodeName)
+
+							switch(node.nodeName) {
+								case "Name":
+								case "Description":
+								case "Type":
+									adversary[node.nodeName.toLowerCase()] = node.firstChild.nodeValue;
+									break;
+
+								/*case "Characteristics":
+									adversary.characteristics = {};
+
+									Array.from(node.childNodes).forEach(characteristic => {
+										const name = characteristic.evaluate()
+									});*/
+							}
+						});
+
+						file.contents = [ adversary ];
+
+						console.log(file.contents)
+					}
+					catch(err) {
+						console.error(`XML parsing error: ${f.name}.`);
+						console.error(err)
 						file.error = ERROR_PARSE;
 					}
 				}

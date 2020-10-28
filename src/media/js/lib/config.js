@@ -41,7 +41,8 @@ export const IMPORT = "data-import";
 export const EXPORT = "data-export";
 export const IMPORT_CLOSE = "data-close";
 export const IMPORT_UPLOAD = "data-upload";
-export const JSON_MIMETYPE = "application/json";
+export const MIMETYPE_JSON = "application/json";
+export const MIMETYPE_XML = "text/xml";
 
 // mode for overlays on the main screen
 export const MODE_NORMAL = "mode-normal";
