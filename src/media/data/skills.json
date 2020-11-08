@@ -1,40 +1,48 @@
 [
 	{
+		"key": "ASTRO",
 		"name": "Astrogation",
 		"characteristic": "Intellect",
 		"type": "General"
 	},
 	{
+		"key": "ATHL",
 		"name": "Athletics",
 		"characteristic": "Brawn",
 		"type": "General"
 	},
 	{
+		"key": "BRAWL",
 		"name": "Brawl",
 		"characteristic": "Brawn",
 		"type": "Combat"
 	},
 	{
+		"key": "CHARM",
 		"name": "Charm",
 		"characteristic": "Presence",
 		"type": "General"
 	},
 	{
+		"key": "COERC",
 		"name": "Coercion",
 		"characteristic": "Willpower",
 		"type": "General"
 	},
 	{
+		"key": "COMP",
 		"name": "Computers",
 		"characteristic": "Intellect",
 		"type": "General"
 	},
 	{
+		"key": "COOL",
 		"name": "Cool",
 		"characteristic": "Presence",
 		"type": "General"
 	},
 	{
+		"key": "COOR",
 		"name": "Coordination",
 		"characteristic": "Agility",
 		"type": "General"
@@ -45,26 +53,31 @@
 		"type": "General"
 	},
 	{
+		"key": "DECEP",
 		"name": "Deception",
 		"characteristic": "Cunning",
 		"type": "General"
 	},
 	{
+		"key": "DISC",
 		"name": "Discipline",
 		"characteristic": "Willpower",
 		"type": "General"
 	},
 	{
+		"key": "GUNN",
 		"name": "Gunnery",
 		"characteristic": "Agility",
 		"type": "Combat"
 	},
 	{
+		"key": "LEAD",
 		"name": "Leadership",
 		"characteristic": "Presence",
 		"type": "General"
 	},
 	{
+		"key": "LTSABER",
 		"name": "Lightsaber",
 		"characteristic": "Brawn",
 		"type": "Combat"
@@ -100,21 +113,25 @@
 		"hide": true
 	},
 	{
+		"key": "MECH",
 		"name": "Mechanics",
 		"characteristic": "Intellect",
 		"type": "General"
 	},
 	{
+		"key": "MED",
 		"name": "Medicine",
 		"characteristic": "Intellect",
 		"type": "General"
 	},
 	{
+		"key": "MELEE",
 		"name": "Melee",
 		"characteristic": "Brawn",
 		"type": "Combat"
 	},
 	{
+		"key": "NEG",
 		"name": "Negotiation",
 		"characteristic": "Presence",
 		"type": "General"
@@ -125,81 +142,97 @@
 		"type": "General"
 	},
 	{
+		"key": "PERC",
 		"name": "Perception",
 		"characteristic": "Cunning",
 		"type": "General"
 	},
 	{
+		"key": "PILOTPL",
 		"name": "Piloting: Planetary",
 		"characteristic": "Agility",
 		"type": "General"
 	},
 	{
+		"key": "PILOTSP",
 		"name": "Piloting: Space",
 		"characteristic": "Agility",
 		"type": "General"
 	},
 	{
+		"key": "RANGHVY",
 		"name": "Ranged: Heavy",
 		"characteristic": "Agility",
 		"type": "Combat"
 	},
 	{
+		"key": "RANGLT",
 		"name": "Ranged: Light",
 		"characteristic": "Agility",
 		"type": "Combat"
 	},
 	{
+		"key": "RESIL",
 		"name": "Resilience",
 		"characteristic": "Brawn",
 		"type": "General"
 	},
 	{
+		"key": "SKUL",
 		"name": "Skulduggery",
 		"characteristic": "Cunning",
 		"type": "General"
 	},
 	{
+		"key": "STEAL",
 		"name": "Stealth",
 		"characteristic": "Agility",
 		"type": "General"
 	},
 	{
+		"key": "SW",
 		"name": "Streetwise",
 		"characteristic": "Cunning",
 		"type": "General"
 	},
 	{
+		"key": "SURV",
 		"name": "Survival",
 		"characteristic": "Cunning",
 		"type": "General"
 	},
 	{
+		"key": "VIGIL",
 		"name": "Vigilance",
 		"characteristic": "Willpower",
 		"type": "General"
 	},
 	{
+		"key": "CORE",
 		"name": "Knowledge: Core Worlds",
 		"characteristic": "Intellect",
 		"type": "Knowledge"
 	},
 	{
+		"key": "EDU",
 		"name": "Knowledge: Education",
 		"characteristic": "Intellect",
 		"type": "Knowledge"
 	},
 	{
+		"key": "LORE",
 		"name": "Knowledge: Lore",
 		"characteristic": "Intellect",
 		"type": "Knowledge"
 	},
 	{
+		"key": "OUT",
 		"name": "Knowledge: Outer Rim",
 		"characteristic": "Intellect",
 		"type": "Knowledge"
 	},
 	{
+		"key": "UND",
 		"name": "Knowledge: Underworld",
 		"characteristic": "Intellect",
 		"type": "Knowledge"
@@ -210,11 +243,13 @@
 		"type": "Knowledge"
 	},
 	{
+		"key": "WARF",
 		"name": "Knowledge: Warfare",
 		"characteristic": "Intellect",
 		"type": "Knowledge"
 	},
 	{
+		"key": "XEN",
 		"name": "Knowledge: Xenology",
 		"characteristic": "Intellect",
 		"type": "Knowledge"

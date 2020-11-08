@@ -8,6 +8,7 @@ import * as CONFIG from "lib/config";
 import { after } from "lib/timer";
 import * as Store from "lib/local-store";
 import { pluck, intersectionByProperty, indexOfByProperty, sortByProperty, findByProperty } from "lib/list";
+import { parseXML } from "lib/oggdude"
 
 
 // error types
@@ -51,6 +52,8 @@ const getErrorMessage = (error) => {
 
 
 // the main component which handles the current state, loads relevent child components and notifies the app on completion
+// props:
+// 	skills
 export default class PanelImport extends React.Component {
 	constructor(props) {
 		super(props);
@@ -174,39 +177,7 @@ export default class PanelImport extends React.Component {
 				}
 				else if(f.type === CONFIG.MIMETYPE_XML) {
 					try {
-						const parser = new DOMParser();
-						const xmlDoc = parser.parseFromString(reader.result, CONFIG.MIMETYPE_XML);
-						let adversary = {};
-
-						const iter = xmlDoc.evaluate("Characteristics/CharCharacteristic/Name/text()", xmlDoc.documentElement);
-						let node;
-
-						while((node = iter.iterateNext()) !== null) {
-							console.log(node)
-						}
-
-						Array.from(xmlDoc.documentElement.childNodes).forEach(node => {
-							console.log(node.nodeName)
-
-							switch(node.nodeName) {
-								case "Name":
-								case "Description":
-								case "Type":
-									adversary[node.nodeName.toLowerCase()] = node.firstChild.nodeValue;
-									break;
-
-								/*case "Characteristics":
-									adversary.characteristics = {};
-
-									Array.from(node.childNodes).forEach(characteristic => {
-										const name = characteristic.evaluate()
-									});*/
-							}
-						});
-
-						file.contents = [ adversary ];
-
-						console.log(file.contents)
+						console.log(parseXML(reader.result, this.props.skills))
 					}
 					catch(err) {
 						console.error(`XML parsing error: ${f.name}.`);

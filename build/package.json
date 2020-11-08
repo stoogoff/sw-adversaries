@@ -21,12 +21,13 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.8.3",
+    "fast-xml-parser": "^3.17.4",
     "nanoajax": "^0.4.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-dropzone": "^10.2.2",
     "react-remarkable": "^1.1.1",
-    "systemjs": "^0.19.47",
-    "react-dropzone": "^10.2.2"
+    "systemjs": "^0.19.47"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
