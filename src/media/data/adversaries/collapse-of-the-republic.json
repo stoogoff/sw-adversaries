@@ -1585,7 +1585,7 @@
 			"Perception": 3,
 			"Vigilance": 2
 		},
-		"talents": ["Adversary 1", "Improved Scathing Tirade",
+		"talents": ["Adversary 1", "Scathing Tirade (Improved)",
 			{
 				"name": "Improved Droid Commander",
 				"description": "As an action, may make an :average: Leadership check; 6 allies may immediately suffer 1 strain to perform a free maneuver; may spend :triumph: to allow one ally to instead perform an action; once per encounter, perform as a maneuver but affect only droid allies."
