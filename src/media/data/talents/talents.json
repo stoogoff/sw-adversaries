@@ -46,6 +46,7 @@
 		"description": "When wearing armour with a Soak value of 2 or higher, the character increases their Defence by 1."
 	},
 	{
+		"key": "ARMSUP",
 		"name": "Armour Master (Supreme)",
 		"description": ""
 	},
@@ -70,6 +71,7 @@
 		"description": "Once per session as an action, make a :hard: mechanics check to cause one targeted device to spontaneously fail."
 	},
 	{
+		"key": "BADPRESS",
 		"name": "Bad Press",
 		"description": "Once per session as an action, may make a :hard: Deception check to reduce the Wound Thresholds of an organisations members by 1, plus 1 per :success::success::success: (to a minimum of 1), until the end of the session."
 	},
@@ -79,6 +81,7 @@
 		"description": "When the character rolls to recover Strain at the end of an encounter, they may roll {Force Rating} and recover Strain equal to :forcepip: generated."
 	},
 	{
+		"key": "BALEGAZE",
 		"name": "Baleful Gaze",
 		"description": ""
 	},
@@ -109,10 +112,12 @@
 		"ranked": true
 	},
 	{
+		"key": "BLACKMAIL",
 		"name": "Blackmail",
 		"description": "When an NPC exceeds their Strain Threshold by any means other than a combat check, may spend one Destiny point to compel the NPC to perform one simple task before becoming Incapacitated."
 	},
 	{
+		"key": "BLINDSPOT",
 		"name": "Blind Spot",
 		"description": ""
 	},
@@ -125,7 +130,7 @@
 	{
 		"key": "BLOIMP",
 		"name": "Blooded (Improved)",
-		"description": "Please see page 32 of the Unlimited Power Sourcebook for details."
+		"description": ""
 	},
 	{
 		"key": "BOD",
@@ -160,12 +165,12 @@
 	{
 		"key": "BRAIMP",
 		"name": "Brace (Improved)",
-		"description": "Please see page 38 of the Rise of the Separatists Sourcebook for details."
+		"description": ""
 	},
 	{
 		"key": "BRASUP",
 		"name": "Brace (Supreme)",
-		"description": "Please see page 38 of the Rise of the Separatists Sourcebook for details."
+		"description": ""
 	},
 	{
 		"key": "BRI",
@@ -192,6 +197,7 @@
 		"description": ""
 	},
 	{
+		"key": "CALMCOMM",
 		"name": "Calm Commander",
 		"description": ""
 	},
@@ -222,6 +228,7 @@
 		"description": "When an Engaged ally suffers a hit, may use Parry or Reflect incidental against the hit."
 	},
 	{
+		"key": "CLEVCOMM",
 		"name": "Clever Commander",
 		"description": "When upgrading the ability of a mass combat check, may use Knowledge: Warfare in place of Leadership."
 	},
@@ -249,6 +256,7 @@
 		"ranked": true
 	},
 	{
+		"key": "COMMPRESIMP",
 		"name": "Commanding Presence (Improved)",
 		"description": ""
 	},
@@ -268,6 +276,7 @@
 		"ranked": true
 	},
 	{
+		"key": "CONFIMP",
 		"name": "Confidence (Improved)",
 		"description": ""
 	},
@@ -329,6 +338,7 @@
 		"ranked": true
 	},
 	{
+		"key": "CUSTLOAD",
 		"name": "Custom Loadout",
 		"description": ""
 	},
@@ -338,10 +348,12 @@
 		"ranked": true
 	},
 	{
+		"key": "CUTQUEST",
 		"name": "Cutting Question",
 		"description": "Once per encounter, may make one Coercion check using the Deception skill."
 	},
 	{
+		"key": "CYBERNETICIST",
 		"name": "Cyberneticist",
 		"description": "",
 		"ranked": true
@@ -434,6 +446,7 @@
 		"ranked": true
 	},
 	{
+		"key": "DEFTMAKER",
 		"name": "Deft Maker",
 		"description": "",
 		"ranked": true
@@ -444,6 +457,7 @@
 		"ranked": true
 	},
 	{
+		"key": "DISCREDIT",
 		"name": "Discredit",
 		"description": "Once per encounter as an action, make a :hard: Deception check to make one character upgrade the difficulty of social checks once, and one additional time for every :advantage::advantage:."
 	},
@@ -502,6 +516,7 @@
 		"description": "Perform Draw Closer action; make a Lightsaber (Willpow­er) combat check against one Silhouette 1 target within Medium range, adding :force: no greater than Force rating to check. Spend :forcepip: to move target one range band closer or to add :success: to check."
 	},
 	{
+		"key": "DRIVEBACK",
 		"name": "Drive Back",
 		"description": "Spend :triumph: or :advantage::advantage::advantage: on a missed Brawl, Lightsaber, or Melee combat check to force the target to make a move maneuver in a direc­tion of the character’s choice."
 	},
@@ -525,10 +540,12 @@
 		"description": "If carrying items that total 2 Encumbrance or less, may add :lightside::darkside: to any Force power check."
 	},
 	{
+		"key": "ENCCOMM",
 		"name": "Encoded Communique",
 		"description": "Upgrade the difficulty of checks to decrypt this character’s coded messages without the proper cipher {Computers} times."
 	},
 	{
+		"key": "ENCWORD",
 		"name": "Encouraging Words",
 		"description": "When an ally at Engaged range fails a check, may suffer 1 Strain to assist the next check that ally makes in this encounter as an out of turn incidental."
 	},
@@ -539,10 +556,12 @@
 		"ranked": true
 	},
 	{
+		"key": "ENERGTRANS",
 		"name": "Energy Transfer",
 		"description": ""
 	},
 	{
+		"key": "ENGREDUN",
 		"name": "Engineered Redundancies",
 		"description": ""
 	},
@@ -571,6 +590,7 @@
 		"ranked": true
 	},
 	{
+		"key": "EYEDET",
 		"name": "Eye for Detail",
 		"description": "When making a Mechanics or Computers check, may suffer up to {ranks} Strain to convert an equal number of :success: into :advantage:.",
 		"ranked": true
@@ -741,6 +761,7 @@
 		"description": "Once per session as an incidental, the character counts as having the right tools for the job when performing a skill check this turn."
 	},
 	{
+		"key": "GRAPPLE",
 		"name": "Grapple",
 		"description": "Once per round, may perform the Grapple ma­neuver. Until the beginning of the character’s next turn, en­emies must spend two maneuvers instead of one to move from Engaged range to Short range of the character."
 	},
@@ -866,11 +887,13 @@
 		"description": "Once per session as an action, may make a :average: Mechanics check to build an explosive device out of available materials. The device's damage is equal to Intellect, plus Mechanics times two, plus :success: and possesses the Blast quality at an equal value. Spend :triumph: to increase the damage by 2. :despair: causes the device to detonate immediately."
 	},
 	{
+		"key": "INKNOW",
 		"name": "In the Know",
 		"description": "Remove {ranks|setback} to get information from people or disseminate it to others.",
 		"ranked": true
 	},
 	{
+		"key": "INKNOWIMP",
 		"name": "In the Know (Improved)",
 		"description": "Once per session as an action, may make an opposed Deception vs Vigilance check against an NPC with the difficulty downgraded {ranks|times}. The NPC believes false information created by the character.",
 		"ranked": true
@@ -887,6 +910,7 @@
 		"ranked": true
 	},
 	{
+		"key": "INFORM",
 		"name": "Informant",
 		"description": "Once per session, may reveal a contact who possesses information on a subject of the character's choice."
 	},
@@ -929,6 +953,7 @@
 		"description": "Spend 1 dark side Destiny point to recover {Presence} Strain."
 	},
 	{
+		"key": "INTERJECT",
 		"name": "Interjection",
 		"description": "After another character makes a social check, may suffer 3 Strain make an :average: Vigilance check. The character may add :success: or :failure: to the results of the chosen check equal to :successL on the Vigilance check and :advantage: or :threat: equal to :threat: on the Vigilance check."
 	},
@@ -1019,6 +1044,11 @@
 		"description": "May spend :triumph: to knock target prone with successful melee attack."
 	},
 	{
+		"key": "KNOWALL",
+		"name": "Know-It-All",
+		"description": ""
+	},
+	{
 		"key": "KNOWSOM",
 		"name": "Know Somebody",
 		"description": "Once per session, when attempting to purchase a legally available item, reduce its rarity by {ranks|words}.",
@@ -1089,6 +1119,7 @@
 		"description": "When an Engaged ally makes a successful Charm, Deception, or Negotia­tion check, add :advantage: per rank in Coercion to the check."
 	},
 	{
+		"key": "MACHMEND",
 		"name": "Machine Mender",
 		"description": "",
 		"ranked": true
@@ -1129,6 +1160,7 @@
 		"description": "Decrease the :advantage: cost to activate the Blast quality of any weapon used by 1 to a minimum of 1."
 	},
 	{
+		"key": "MASINST",
 		"name": "Master Instructor",
 		"description": "Once per round as an out of turn incidental, may suffer 2 strain to allow ally to use character’s ranks in Discipline for next Discipline check an ally makes."
 	},
@@ -1167,6 +1199,7 @@
 		"description": "Once per round, suffer 2 Strain to decrease the difficulty of a Astrogation check by 1."
 	},
 	{
+		"key": "MASSTRAT",
 		"name": "Master Strategist",
 		"description": "Once per phase during a mass combat, may suffer 2 Strain to decrease the difficulty of a Mass Combat check once."
 	},
@@ -1200,6 +1233,7 @@
 		"description": "May spend one Destiny point to recover {Willpower} Strain."
 	},
 	{
+		"key": "MOREMACH",
 		"name": "More Machine than Man",
 		"description": "",
 		"ranked": true
@@ -1255,6 +1289,7 @@
 		"description": "Once per session, may reroll any one Perception or Vigilance check."
 	},
 	{
+		"key": "NATINST",
 		"name": "Natural Instructor",
 		"description": ""
 	},
@@ -1316,6 +1351,7 @@
 		"description": "May use Willpower instead of Brawn when making lightsaber checks."
 	},
 	{
+		"key": "NOESC",
 		"name": "No Escape",
 		"description": "When making a Coercion check, may spend :advantage::advantage: to cause one enemy within Short range to lose their free maneuver during their next turn. When an enemy within Short range makes a Fear check, may spend :threat::threat: from that check to cause the enemy to lose their free maneuver during their next turn."
 	},
@@ -1356,18 +1392,22 @@
 		"ranked": true
 	},
 	{
+		"key": "OVERBAL",
 		"name": "Overbalance",
 		"description": ""
 	},
 	{
+		"key": "OVERCHARGE",
 		"name": "Overcharge",
 		"description": ""
 	},
 	{
+		"key": "OVERCHARGEIMP",
 		"name": "Overcharge (Improved)",
 		"description": ""
 	},
 	{
+		"key": "OVERCHARGESUP",
 		"name": "Overcharge (Supreme)",
 		"description": ""
 	},
@@ -1435,6 +1475,7 @@
 		"ranked": true
 	},
 	{
+		"key": "PLAUSDENIMP",
 		"name": "Plausible Deniability (Improved)",
 		"description": "Remove {ranks|setback} from all Coercion and Deception checks. As an action, may make a :hard: Coercion check to convince {rank|words} uninvolved bystander NPC to leave the scene without asking questions.",
 		"ranked": true
@@ -1446,11 +1487,13 @@
 		"ranked": true
 	},
 	{
+		"key": "POSSPIN",
 		"name": "Positive Spin",
 		"description": "When any character's Duty would increase by one or more, it increases by that amount plus {ranks} instead.",
 		"ranked": true
 	},
 	{
+		"key": "POSSPINIMP",
 		"name": "Positive Spin (Improved)",
 		"description": ""
 	},
@@ -1467,6 +1510,7 @@
 		"ranked": true
 	},
 	{
+		"key": "PRECSTR",
 		"name": "Precision Strike",
 		"description": ""
 	},
@@ -1475,6 +1519,7 @@
 		"description": "Immediately after an opponent moves to engage the character, may spend a Destiny point to disengage from that opponent as an out of turn incidental."
 	},
 	{
+		"key": "PRESSHOT",
 		"name": "Prescient Shot",
 		"description": ""
 	},
@@ -1489,11 +1534,13 @@
 		"ranked": true
 	},
 	{
+		"key": "PRIMEPOS",
 		"name": "Prime Positions",
 		"description": "",
 		"ranked": true
 	},
 	{
+		"key": "PROPAIM",
 		"name": "Prophetic Aim",
 		"description": ""
 	},
@@ -1542,9 +1589,15 @@
 		"ranked": true
 	},
 	{
+		"key": "READANY",
 		"name": "Ready for Anything",
 		"description": "Remove {ranks|setback} from mass combat made while the character is acting on the side of the acting force and the character’s Cool or Vigilance checks to determine Initiative order.",
 		"ranked": true
+	},
+	{
+		"key": "READANYIMP",
+		"name": "Ready for Anything (Improved)",
+		"description": ""
 	},
 	{
 		"name": "Reconstruct the Scene",
@@ -1573,6 +1626,7 @@
 		"description": "When struck by a ranged attack but before apply­ing Soak, suffer 3 Strain to reduce damage by {ranks|plus-2}. When reflecting a hit that generated :despair: or :threat::threat::threat:, may hit one target within Medium range dealing the same damage as the initial attack, after the original attack is resolved. If the character didn’t make a combat check during their previous turn, suffer 1 Strain instead of 3."
 	},
 	{
+		"key": "REINITEM",
 		"name": "Reinforce Item",
 		"description": ""
 	},
@@ -1581,6 +1635,7 @@
 		"description": ""
 	},
 	{
+		"key": "REROUTEPROC",
 		"name": "Reroute Processors",
 		"description": ""
 	},
@@ -1591,6 +1646,7 @@
 		"ranked": true
 	},
 	{
+		"key": "RESEARCHIMP",
 		"name": "Researcher (Improved)",
 		"description": "On a successful Knowledge check, the character and allies receive :advantage::advantage: on future related checks, until the end of the character’s next turn."
 	},
@@ -1605,6 +1661,7 @@
 		"ranked": true
 	},
 	{
+		"key": "RESOURCEREFIT",
 		"name": "Resourceful Refit",
 		"description": ""
 	},
@@ -1824,10 +1881,12 @@
 		"ranked": true
 	},
 	{
+		"key": "SPKBINIMP",
 		"name": "Speaks Binary (Improved)",
 		"description": ""
 	},
 	{
+		"key": "SPKBINSUP",
 		"name": "Speaks Binary (Supreme)",
 		"description": ""
 	},
@@ -1941,11 +2000,13 @@
 		"description": "The character gains +1 melee defence."
 	},
 	{
+		"key": "SUPPEVI",
 		"name": "Supporting Evidence",
 		"description": "",
 		"ranked": true
 	},
 	{
+		"key": "SUPPRFIRE",
 		"name": "Suppressing Fire",
 		"description": "",
 		"ranked": true
@@ -1998,6 +2059,7 @@
 		"description": ""
 	},
 	{
+		"key": "THATHOWDONE",
 		"name": "That’s how it’s Done",
 		"description": "",
 		"ranked": true
@@ -2007,6 +2069,7 @@
 		"description": "Once per session may suffer 2 Strain to perform one Force power as a maneuver."
 	},
 	{
+		"key": "THORASS",
 		"name": "Thorough Assessment",
 		"description": "Once per session as an action, make a :hard: Knowledge check to gain :boost: equal to :success: that can be distributed during the encounter."
 	},
@@ -2062,6 +2125,7 @@
 		"ranked": true
 	},
 	{
+		"key": "TWISTWORD",
 		"name": "Twisted Words",
 		"description": "When a social check targeting the character generates :threat::threat: or :despair:, may suffer 1 Strain as an incidental to inflict {Coercion} Strain on the character who made the check."
 	},
@@ -2124,6 +2188,7 @@
 		"description": "May spend one Destiny point to add {Streetwise} damage to one hit of a successful Brawl check."
 	},
 	{
+		"key": "WELLREAD",
 		"name": "Well Read",
 		"description": "",
 		"ranked": true
