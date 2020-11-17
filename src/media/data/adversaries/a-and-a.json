@@ -14,8 +14,7 @@
 		"derived": {
 			"soak": 3,
 			"wounds": 13,
-			"strain": 16,
-			"defence": [0, 0]
+			"strain": 16
 		},
 		"skills": {
 			"Astrogation": 3,
@@ -145,8 +144,7 @@
 		"derived": {
 			"soak": 3,
 			"wounds": 15,
-			"strain": 15,
-			"defence": [0, 0]
+			"strain": 15
 		},
 		"skills": {
 			"Athletics": 2,
@@ -225,8 +223,7 @@
 		"derived": {
 			"soak": 2,
 			"wounds": 8,
-			"strain": 10,
-			"defence": [0, 0]
+			"strain": 10
 		},
 		"skills": {
 			"Charm": 3,
@@ -271,8 +268,7 @@
 		"derived": {
 			"soak": 5,
 			"wounds": 24,
-			"strain": 10,
-			"defence": [0, 0]
+			"strain": 10
 		},
 		"skills": {
 			"Astrogation": 5,
@@ -350,8 +346,7 @@
 		"derived": {
 			"soak": 3,
 			"wounds": 16,
-			"strain": 18,
-			"defence": [0, 0]
+			"strain": 18
 		},
 		"skills": {
 			"Astrogation": 2,
@@ -420,8 +415,7 @@
 		"derived": {
 			"soak": 3,
 			"wounds": 15,
-			"strain": 15,
-			"defence": [0, 0]
+			"strain": 15
 		},
 		"skills": {
 			"Athletics": 3,
@@ -490,8 +484,7 @@
 		"derived": {
 			"soak": 7,
 			"wounds": 18,
-			"strain": 12,
-			"defence": [0, 0]
+			"strain": 12
 		},
 		"skills": {
 			"Astrogation": 3,
@@ -873,8 +866,7 @@
 		"derived": {
 			"soak": 3,
 			"wounds": 14,
-			"strain": 14,
-			"defence": [0, 0]
+			"strain": 14
 		},
 		"skills": {
 			"Astrogation": 4,
@@ -932,8 +924,7 @@
 		"derived": {
 			"soak": 2,
 			"wounds": 14,
-			"strain": 15,
-			"defence": [0, 0]
+			"strain": 15
 		},
 		"skills": {
 			"Astrogation": 1,
@@ -982,7 +973,10 @@
 			"soak": 2,
 			"wounds": 16,
 			"strain": 26,
-			"defence": [1, 1]
+			"defence": {
+				"melee": 1,
+				"ranged": 1
+			}
 		},
 		"skills": {
 			"Charm": 4,
@@ -1046,8 +1040,7 @@
 		"derived": {
 			"soak": 3,
 			"wounds": 14,
-			"strain": 18,
-			"defence": [0, 0]
+			"strain": 18
 		},
 		"skills": {
 			"Coercion": 2,
@@ -1088,7 +1081,10 @@
 			"soak": 7,
 			"wounds": 24,
 			"strain": 19,
-			"defence": [1, 1]
+			"defence": {
+				"melee": 1,
+				"ranged": 1
+			}
 		},
 		"skills": {
 			"Athletics": 2,
@@ -1160,7 +1156,10 @@
 			"soak": 3,
 			"wounds": 16,
 			"strain": 25,
-			"defence": [1, 1]
+			"defence": {
+				"melee": 1,
+				"ranged": 1
+			}
 		},
 		"skills": {
 			"Charm": 5,
@@ -1244,8 +1243,7 @@
 		"derived": {
 			"soak": 4,
 			"wounds": 16,
-			"strain": 18,
-			"defence": [0, 0]
+			"strain": 18
 		},
 		"skills": {
 			"Cool": 3,
@@ -1314,8 +1312,7 @@
 		"derived": {
 			"soak": 4,
 			"wounds": 15,
-			"strain": 12,
-			"defence": [0, 0]
+			"strain": 12
 		},
 		"skills": {
 			"Discipline": 3,
@@ -1404,8 +1401,7 @@
 		"derived": {
 			"soak": 4,
 			"wounds": 16,
-			"strain": 18,
-			"defence": [0, 0]
+			"strain": 18
 		},
 		"skills": {
 			"Computers": 3,
@@ -1463,7 +1459,10 @@
 			"soak": 8,
 			"wounds": 25,
 			"strain": 12,
-			"defence": [2, 2]
+			"defence": {
+				"melee": 2,
+				"ranged": 2
+			}
 		},
 		"skills": {
 			"Brawl": 4,
@@ -1529,7 +1528,10 @@
 			"soak": 7,
 			"wounds": 18,
 			"strain": 22,
-			"defence": [2, 2]
+			"defence": {
+				"melee": 2,
+				"ranged": 2
+			}
 		},
 		"skills": {
 			"Brawl": 3,
@@ -1611,8 +1613,7 @@
 		"derived": {
 			"soak": 5,
 			"wounds": 17,
-			"strain": 16,
-			"defence": [0, 0]
+			"strain": 16
 		},
 		"skills": {
 			"Athletics": 3,
@@ -1685,7 +1686,10 @@
 			"soak": 5,
 			"wounds": 16,
 			"strain": 16,
-			"defence": [1, 1]
+			"defence": {
+				"melee": 1,
+				"ranged": 1
+			}
 		},
 		"skills": {
 			"Brawl": 3,
@@ -1862,7 +1866,10 @@
 		"derived": {
 			"soak": 4,
 			"wounds": 15,
-			"defence": [1 ,1]
+			"defence": {
+				"melee": 1,
+				"ranged": 1
+			}
 		},
 		"skills": {
 			"Computers": 4,
@@ -1948,7 +1955,10 @@
 			"soak": 7,
 			"wounds": 17,
 			"strain": 18,
-			"defence": [2, 2]
+			"defence": {
+				"melee": 2,
+				"ranged": 2
+			}
 		},
 		"skills": {
 			"Computers": 5,
@@ -2111,7 +2121,10 @@
 		"derived": {
 			"soak": 4,
 			"wounds": 15,
-			"defence": [1 ,1]
+			"defence": {
+				"melee": 1,
+				"ranged": 1
+			}
 		},
 		"skills": {
 			"Brawl": 3,
@@ -2187,7 +2200,10 @@
 		"derived": {
 			"soak": 3,
 			"wounds": 5,
-			"defence": [1, 0]
+			"defence": {
+				"melee": 1,
+				"ranged": 0
+			}
 		},
 		"skills": ["Melee", "Perception", "Ranged: Heavy", "Survival"],
 		"abilities": [
@@ -2213,8 +2229,7 @@
 		},
 		"derived": {
 			"soak": 4,
-			"wounds": 8,
-			"defence": [0, 0]
+			"wounds": 8
 		},
 		"skills": ["Cool", "Deception", "Melee", "Ranged: Light", "Vigilance"],
 		"abilities": ["Pheromone Communication"],
@@ -2248,7 +2263,10 @@
 			"soak": 5,
 			"wounds": 15,
 			"strain": 15,
-			"defence": [1, 1]
+			"defence": {
+				"melee": 1,
+				"ranged": 1
+			}
 		},
 		"skills": {
 			"Cool": 4,
@@ -2304,8 +2322,7 @@
 		},
 		"derived": {
 			"soak": 3,
-			"wounds": 4,
-			"defence": [0, 0]
+			"wounds": 4
 		},
 		"skills": ["Athletics", "Cool", "Melee", "Ranged: Heavy", "Stealth", "Survival", "Vigilance"],
 		"abilities": ["Silhouette 0", "Low-Tech User",
@@ -2348,8 +2365,7 @@
 		},
 		"derived": {
 			"soak": 3,
-			"wounds": 14,
-			"defence": [0, 0]
+			"wounds": 14
 		},
 		"skills": {
 			"Cool": 2,
@@ -2399,7 +2415,10 @@
 			"soak": 15,
 			"wounds": 43,
 			"strain": 19,
-			"defence": [2, 1]
+			"defence": {
+				"melee": 2,
+				"ranged": 1
+			}
 		},
 		"skills": {
 			"Brawl": 4,
@@ -2515,7 +2534,10 @@
 		"derived": {
 			"soak": 1,
 			"wounds": 3,
-			"defence": [1, 1]
+			"defence": {
+				"melee": 1,
+				"ranged": 1
+			}
 		},
 		"skills": ["Perception", "Ranged: Light"],
 		"abilities": ["Droid", "Silhouette 0", "Hoverer"],
@@ -2583,7 +2605,10 @@
 			"soak": 9,
 			"wounds": 52,
 			"strain": 24,
-			"defence": [1, 1]
+			"defence": {
+				"melee": 1,
+				"ranged": 1
+			}
 		},
 		"skills": {
 			"Brawl": 3,

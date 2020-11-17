@@ -113,12 +113,20 @@ gulp.task("merge-data", () => {
 				output = output.filter(a => !("devOnly" in a && a["devOnly"]));
 			}
 
-			// adversaries now use a string for gear instead of an array
-			// for now, convert this during the build
 			if(m == "adversaries") {
 				output.forEach(item => {
+					// adversaries now use a string for gear instead of an array
+					// for now, convert this during the build
 					if("gear" in item && Array.isArray(item.gear)) {
 						item.gear = item.gear.join(", ");
+					}
+
+					// adversaries now use named ranged / melee defence instead of an array
+					if("defence" in item.derived && Array.isArray(item.derived.defence)) {
+						item.derived.defence = {
+							melee: item.derived.defence[0],
+							ranged: item.derived.defence[1]
+						};
 					}
 				});
 			}

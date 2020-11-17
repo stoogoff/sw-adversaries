@@ -161,7 +161,12 @@ export default class CharacterView extends React.Component {
 		}
 
 		let characteristics = hashToArray(character.characteristics);
-		let defence = "defence" in character.derived ? character.derived.defence.join(" | ") : "0 | 0";
+		let defence = "0 | 0";
+
+		if("defence" in character.derived) {
+			defence = `${character.derived.defence.melee} | ${character.derived.defence.ranged}`;
+		}
+
 
 		// header icon based on important tags
 		let icon = null;

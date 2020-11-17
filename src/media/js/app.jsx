@@ -513,7 +513,7 @@ class App extends React.Component {
 				content.push(<div className="overlay"><CharacterEdit character={ this.state.editAdversary } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } tags={ this.state.tags } qualities={ this.stores.qualities } /></div>);
 				break;
 			case CONFIG.MODE_IMPORT:
-				content.push(<div className="overlay"><PanelImport skills={ this.stores.skills.data } /></div>);
+				content.push(<div className="overlay"><PanelImport skills={ this.stores.skills.data } talents={ this.stores.talents.data } /></div>);
 				break;
 		}
 

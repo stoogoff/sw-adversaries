@@ -177,7 +177,7 @@ export default class PanelImport extends React.Component {
 				}
 				else if(f.type === CONFIG.MIMETYPE_XML) {
 					try {
-						console.log(parseXML(reader.result, this.props.skills))
+						console.log(parseXML(reader.result, this.props.skills, this.props.talents))
 					}
 					catch(err) {
 						console.error(`XML parsing error: ${f.name}.`);

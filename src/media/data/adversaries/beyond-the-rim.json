@@ -131,7 +131,10 @@
 		"derived": {
 			"soak": 4,
 			"wounds": 18,
-			"defence": [1, 1]
+			"defence": {
+				"melee": 1,
+				"ranged": 1
+			}
 		},
 		"skills": {
 			"Cool": 1,
@@ -249,7 +252,10 @@
 		"derived": {
 			"soak": 2,
 			"wounds": 3,
-			"defence": [1, 1]
+			"defence": {
+				"melee": 1,
+				"ranged": 1
+			}
 		},
 		"skills": ["Athletics", "Brawl", "Coordination"],
 		"abilities": [
@@ -488,7 +494,10 @@
 		"derived": {
 			"soak": 3,
 			"wounds": 15,
-			"defence": [1, 0]
+			"defence": {
+				"melee": 1,
+				"ranged": 0
+			}
 		},
 		"skills": {
 			"Athletics": 2,

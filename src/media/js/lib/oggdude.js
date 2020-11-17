@@ -3,11 +3,17 @@ import * as CONFIG from "./config"
 
 
 let KEY_TO_SKILLS = null;
+let KEY_TO_TALENTS = null;
 
-export const parseXML = function parse(xml, skills) {
+export const parseXML = function parse(xml, skills, talents) {
 	if(!KEY_TO_SKILLS) {
 		KEY_TO_SKILLS = {};
 		skills.map(skill => KEY_TO_SKILLS[skill.key] = skill.name);
+	}
+
+	if(!KEY_TO_TALENTS) {
+		KEY_TO_TALENTS = {};
+		talents.map(talent => KEY_TO_TALENTS[talent.key] = talent.name);
 	}
 
 	const parser = new DOMParser();
@@ -29,8 +35,7 @@ function convertToSWA(parsed) {
 
 	// convert some oggdude properties to lowercase
 	[
-		"Description", "Gear",
-		"Name", "Talents", "Type", "Weapons"
+		"Description", "Gear", "Name", "Type", "Weapons"
 	].filter(prop => prop in parsed).forEach(prop => converted[prop.toLowerCase()] = parsed[prop]);
 
 	// convert derived attributes
@@ -57,7 +62,7 @@ function convertToSWA(parsed) {
 
 	// set skill values
 	if(converted.type === "Minion") {
-		converted.skills = parsed.Skills.map(skill => KEY_TO_SKILLS[skill.Key]);
+		converted.skills = Object.values(parsed.Skills).map(skill => KEY_TO_SKILLS[skill.Key]);
 	}
 	else {
 		converted.skills = {};
@@ -66,6 +71,12 @@ function convertToSWA(parsed) {
 			converted.skills[KEY_TO_SKILLS[skill.Key]] = getRanks(skill.Rank);
 		});
 	}
+
+	["Abilities", "Talents"].forEach(t => {
+		if(parsed[t]) {
+			converted[t.toLowerCase()] = Object.values(parsed[t]).map(talent => KEY_TO_TALENTS[talent.Key]);
+		}
+	});
 
 	return converted;
 }
@@ -76,7 +87,6 @@ function getRanks(obj) {
 		.map(rank => parseInt(obj[rank]))
 		.reduce((acc, val) => acc + val, 0);
 }
-
 
 function nodeToObject(nodeList) {
 	let obj = {};
