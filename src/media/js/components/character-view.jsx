@@ -261,7 +261,7 @@ export default class CharacterView extends React.Component {
 					<span>{ character.type === CONFIG.MINION ? vehicle.derived.hull * this.state.minions : vehicle.derived.hull } |</span>
 					<form onSubmit={ this.setCurrentWounds.bind(this) }><input type="text" placeholder={ this.state.currentWounds } maxLength="2" ref="currentWounds" /></form>
 				</div>
-				<div><h3>System Strain <small>Threshold | Current</small></h3><span>{ vehicle.derived.system } |</span><input type="text" defaultValue="0" maxLength="2" /></div>
+				<div><h3>System Strain <small>Threshold | Current</small></h3><span>{ character.type === CONFIG.MINION ? vehicle.derived.system * this.state.minions : vehicle.derived.system } |</span><input type="text" defaultValue="0" maxLength="2" /></div>
 				<div className="small">
 					<h3>Defence <small>Fore | Port | STBD | Aft</small></h3>
 					<span>{ vehicle.derived.defence.fore } | { vehicle.derived.defence.port ? vehicle.derived.defence.port : "–" } | { vehicle.derived.defence.starboard ?  vehicle.derived.defence.starboard : "–" } | { vehicle.derived.defence.aft }</span>
