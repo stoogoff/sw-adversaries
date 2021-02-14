@@ -5,7 +5,7 @@
   "repository": "https://github.com/stoogoff/sw-adversaries",
   "main": "gulpfile.js",
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
+    "@babel/cli": "^7.12.16",
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
     "@babel/preset-react": "^7.8.3",
@@ -24,9 +24,9 @@
     "nanoajax": "^0.4.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-dropzone": "^10.2.2",
     "react-remarkable": "^1.1.1",
-    "systemjs": "^0.19.47",
-    "react-dropzone": "^10.2.2"
+    "systemjs": "^0.19.47"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
