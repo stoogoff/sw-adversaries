@@ -175,6 +175,18 @@ gulp.task("copy-icon", () => {
 	return gulp.src(TARGET.src("favicon.ico")).pipe(gulp.dest(TARGET.dest("")));
 });
 
+gulp.task("copy-manifest", () => {
+	return gulp.src(TARGET.src("manifest.json")).pipe(gulp.dest(TARGET.dest("")));
+});
+
+gulp.task("copy-service-worker", () => {
+	return gulp.src(TARGET.src("service-worker.js")).pipe(gulp.dest(TARGET.dest("")));
+});
+
+gulp.task("copy-images", () => {
+	return gulp.src(TARGET.src("media/images/**")).pipe(gulp.dest(TARGET.dest("media/images")));
+});
+
 gulp.task("live", (done) => {
 	console.log("Running in LIVE context");
 	isDev = false;
@@ -189,7 +201,7 @@ gulp.task("dev", (done) => {
 });
 
 // build everyting, dev or live should've been run first but dev is the default
-gulp.task("build", gulp.series("transpile-js", "copy-vendor", "copy-data", "copy-static", "copy-font", "copy-icon", "sass", (done) => done()));
+gulp.task("build", gulp.series("transpile-js", "copy-vendor", "copy-data", "copy-static", "copy-font", "copy-icon", "copy-manifest", "copy-service-worker", "copy-images", "sass", (done) => done()));
 
 gulp.task("watch", gulp.series("dev", () => {
 	gulp.watch(TARGET.src("index.html"), gulp.series("copy-static"));
