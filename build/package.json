@@ -11,22 +11,23 @@
     "@babel/preset-react": "^7.8.3",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
-    "gulp-clean": "^0.3.2",
+    "gulp-clean": "^0.4.0",
     "gulp-gzip": "^1.4.2",
     "gulp-jsoncombine": "^1.0.4",
     "gulp-preprocess": "^3.0.3",
-    "gulp-s3": "^0.3.0",
-    "gulp-sass": "^4.0.2",
-    "merge-stream": "^2.0.0"
+    "gulp-s3": "^0.2.0",
+    "gulp-sass": "^5.1.0",
+    "merge-stream": "^2.0.0",
+    "sass": "^1.50.0"
   },
   "dependencies": {
     "@babel/polyfill": "^7.8.3",
     "nanoajax": "^0.4.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-dropzone": "^10.2.2",
     "react-remarkable": "^1.1.1",
-    "systemjs": "^0.19.47",
-    "react-dropzone": "^10.2.2"
+    "systemjs": "^0.19.47"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
