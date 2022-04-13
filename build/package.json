@@ -11,13 +11,14 @@
     "@babel/preset-react": "^7.8.3",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
-    "gulp-clean": "^0.3.2",
+    "gulp-clean": "^0.4.0",
     "gulp-gzip": "^1.4.2",
     "gulp-jsoncombine": "^1.0.4",
     "gulp-preprocess": "^3.0.3",
-    "gulp-s3": "^0.3.0",
-    "gulp-sass": "^4.0.2",
-    "merge-stream": "^2.0.0"
+    "gulp-s3": "^0.2.0",
+    "gulp-sass": "^5.1.0",
+    "merge-stream": "^2.0.0",
+    "sass": "^1.50.0"
   },
   "dependencies": {
     "@babel/polyfill": "^7.8.3",
