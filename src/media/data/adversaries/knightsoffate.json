@@ -41,7 +41,7 @@
 				"name": "Training Lightsaber",
 				"skill": "Lightsaber",
 				"damage": 6,
-				"critical": -,
+				"critical": null,
 				"range": "Engaged",
 				"qualities": ["Stun Damage"]
 			}
