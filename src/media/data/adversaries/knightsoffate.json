@@ -27,7 +27,12 @@
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 1", "Feint 2"],
-		"abilities": ["Droid", "Breakaway Systems", "Difficulty Setting"],
+		"abilities": ["Droid", "Breakaway Systems",
+						{
+							"name": "Difficulty Setting",
+							"description": "A character may perform a maneuver to adjust the droid's Brawl, Melee and Lightsaber skills to a minimum of 1 or maximum of 3."
+						}
+					],
 		"weapons": [
 			{
 				"name": "Retractable Vibroblade",
