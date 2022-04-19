@@ -291,7 +291,7 @@
 	},
 	{
 		"name": "Captain Sirona Okeefe",
-		"type": "Rival",
+		"type": "Nemesis",
 		"description": "",
 		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
 		"characteristics": {
@@ -304,7 +304,8 @@
 		},
 		"derived": {
 			"soak": 3,
-			"wounds": 18
+			"wounds": 18,
+            "strain": 13
 		},
 		"skills": {
 			"Astrogation": 3,

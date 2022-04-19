@@ -99,6 +99,18 @@ export default class CharacterEdit extends React.Component {
 		}
 	}
 
+	setIntegerDerivedValue(attr1, attr2) {
+		return value => {
+			let character = this.state.character;
+
+			character[attr1][attr2] = parseInt(value);
+
+			this.setState({
+				character: character
+			});
+		}
+	}
+
 	setValue(attr) {
 		return value => {
 			let character = this.state.character;
@@ -286,7 +298,7 @@ export default class CharacterEdit extends React.Component {
 
 				<div className="edit-panel">
 					<h2>Characteristics</h2>
-					{ characteristics.map(c => <TextInput label={ c } value={ character.characteristics[c] } handler={ this.setDerivedValue("characteristics", c).bind(this) } required={ true } numeric={ true } />) }
+					{ characteristics.map(c => <TextInput label={ c } value={ character.characteristics[c] } handler={ this.setIntegerDerivedValue("characteristics", c).bind(this) } required={ true } numeric={ true } />) }
 				</div>
 
 				<div className="edit-panel">
