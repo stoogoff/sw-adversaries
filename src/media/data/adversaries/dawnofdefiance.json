@@ -1204,6 +1204,54 @@
 		"devOnly": true
 	},
 	{
+		"name": "RX-7246",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 19,
+			"strain": 0,
+			"defence":[0,1]
+		},
+		"skills": {
+			"Coercion": 1,
+			"Computers": 4,
+			"Gunnery": 5,
+			"Mechanics": 3,
+			"Melee": 3,
+			"Ranged: Heavy": 5,
+			"Ranged: Light": 3,
+			"Piloting: Planetary": 3,
+			"Piloting: Space": 3,
+			"Vigilance": 2
+			},
+		"talents": ["Adversary 2", "Barrage 3", "Point Blank 1"],
+		"abilities": ["Droid"],
+		"weapons":["Light repeating blaster",
+			{
+				"name": "Grenade launcher",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Blast 6"],
+				"notes": "Both frag and stun grenades"
+			}
+		],
+		"gear": ["Upper class clothing", "250 credits"],
+		"tags": ["source:Dawn of Defiance", "adventure:A Wretched Hive"],
+		"devOnly": true
+	},
+	{
 		"name": "Gome",
 		"type": "Rival",
 		"description": "",
