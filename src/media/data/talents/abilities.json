@@ -802,5 +802,865 @@
 	{
 		"name": "Southern Nikto",
 		"description": "Add 1 rank in Perception. A Southern Nikto may add :boost: to Perception and Vigilance checks to detect sound."
-	}
+	},
+  {
+    "name": "Additional Limbs",
+    "character": "",
+    "description": "Gain an additional free maneuver per turn, though may not perform more than 2 per turn."
+  },
+  {
+    "name": "All in the Manual",
+    "character": "Clone Medical Officer",
+    "description": "When treating clone patients, the Medical Officer adds :boost::boost: to the check."
+  },
+  {
+    "name": "Altered Deal",
+    "character": "Doge Nakha Urus",
+    "description": "Once per session, Doge Urus may make a :hard: Coercion check to radically change a previously made deal or bargain to his advantage."
+  },
+  {
+    "name": "Atmospheric Requirement",
+    "character": "Plo Koon",
+    "description": "Must wear a breathing mask to breath and see outside their native environment. Oxygen is a rating 8 toxic atmosphere. Can survive in vacuum for up to 5 minutes."
+  },
+  {
+    "name": "Band Of Brothers",
+    "character": "Clone Commando",
+    "description": "Once per session, when another Clone Commando suffers damage that exceeds their wound threshold and removes them from the fight, this commando may make a single attack against the enemy responsible as an out-of-turn incidental."
+  },
+  {
+    "name": "Bio-Cybernetic Enhancement",
+    "character": "Hydroid Medusa",
+    "description": "A Hydroid Medusa is immune to the effects of the Breach and Pierce item qualities, but is susceptible to the Ion quality. When targeted by weapons with the Ion quality, the Medusa’s Soak value is reduced to 8."
+  },
+  {
+    "name": "Blademaster",
+    "character": "Sora Bulq",
+    "description": "Sora Bulq does not increase difficulty when making attacks with two weapons."
+  },
+  {
+    "name": "Blast ’Em!",
+    "character": "Commander Cody",
+    "description": "Once per encounter, Commander Cody may spend a Destiny Point to double the damage resulting from a Gunnery check from a single Republic vehicle in the encounter and add +30 to any Critical Injury or Critical Hit results inflicted on the target from the attack."
+  },
+  {
+    "name": "Blaster Spiral",
+    "character": "C-21 Highsinger",
+    "description": "Once per encounter, Highsinger may suffer 4 strain to make a combat check with his light repeating blaster against the hardest to hit enemy (as determined by the GM) within Short range, with a base difficulty of :hard:. On success, every enemy in Short range suffers 1 hit that deals base damage plus additional :success:."
+  },
+  {
+    "name": "Bombastic Personality",
+    "character": "Gungan Boss",
+    "description": "Once per session, when targeted by a successful social check from another character, the Gungan Boss may force the character to re-roll the check. The results of the second roll must be followed."
+  },
+  {
+    "name": "Brain Worms",
+    "character": "Geonosian Queen",
+    "description": "As an action, the Geonosian Queen may implant a brain worm into a target she is Engaged with, placing that character under her control. At the beginning of each of their subsequent turns, the target may make a :formidable: Discipline check to resist the effects. If they fail, the target remains under the Queen’s control and must follow her commands for that turn. This continues until they pass the check, the Queen is incapacitated or the brain worm is destroyed."
+  },
+  {
+    "name": "Bring It Down!",
+    "character": "Clone Commander",
+    "description": "Once per session, the Clone Commander may nominate an enemy vehicle no larger than Silhouette 4. All allies’ weapons reduce their Critical rating by 1 when attacking the target vehicle until the end of the encounter."
+  },
+  {
+    "name": "Brutal Hunter",
+    "character": "Dengar (HoBS)",
+    "description": "If a target suffers Wounds from his attack, Dengar may suffer up to 3 Strain to inflict a number of additional Wounds equal to the amount of Strain suffered in this way."
+  },
+  {
+    "name": "Buried In The Archives",
+    "character": "Jocasta Nu",
+    "description": "Once per session, Jocasta may recall a highly valuable but obscure piece of information from the Archives that is relevant to the problem at hand. This should be something that she would not otherwise have reason to know."
+  },
+  {
+    "name": "Can’t Stand The Heat",
+    "character": "Greedo",
+    "description": "Once per session Greedo may, as an action, roll a :daunting: Skulduggery or Streetwise check. If he succeeds, he immediately escapes the current encounter."
+  },
+  {
+    "name": "Cantina Talk",
+    "character": "Dengar (HoBS)",
+    "description": "When a character is within Short range of Dengar they may suffer 2 Strain to add automatic :advantage::advantage: to Streetwise and Knowledge: Underworld checks they make that turn."
+  },
+  {
+    "name": "Cheater",
+    "character": "Sebulba",
+    "description": "As an action, during a race or chase encounter, Sebulba can make a :hard: Skulduggery check to immediately inflict 2 system strain on any vehicle in the encounter. He may do this up to three times per encounter."
+  },
+  {
+    "name": "Chosen One",
+    "character": "Anakin Skywalker",
+    "description": "After Anakin makes a Force power check, other characters in the encounter add :lightside: to their Force power checks until the start of the next turn; if Anakin used any :darkside: to generate :forcepip:, other characters instead add :darkside: to their checks."
+  },
+  {
+    "name": "Clever But Crazy",
+    "character": "Nuvo Vindi",
+    "description": "Dr Vindi may suffer 3 strain to make a skill check using Intellect instead of the characteristic associated with the skill."
+  },
+  {
+    "name": "Clone Inhibitor Chip",
+    "character": "",
+    "description": "So long as the proper chain of command is observed, upgrade the ability of Leadership checks targeting a clone trooper once."
+  },
+  {
+    "name": "Clumsy",
+    "character": "Jar Jar Binks",
+    "description": "Jar Jar adds :setback::setback: to any checks he makes or assists with."
+  },
+  {
+    "name": "Commanding Presence",
+    "character": "Admiral Wilhuff Tarkin",
+    "description": "At the beginning of an encounter with Tarkin, each enemy and ally within Medium range or in communication with him makes a :hard: Discipline check as an out-of-turn incidental. Allies who succeed add automatic :advantage: to any skill checks they make until the end of the encounter. If they succeed with :triumph:, they add automatic :success: instead. Enemies who fail add automatic :threat: to skill checks until the end of the encounter. If they fail with :despair:, they add automatic :failure: instead."
+  },
+  {
+    "name": "Concentrate Your Fire!",
+    "character": "Separatist Commander",
+    "description": "May perform a maneuver to direct one allied minion group within Medium range; the group may perform an immediate free combat check action."
+  },
+  {
+    "name": "Confident Command",
+    "character": "Captain Gial Ackbar (HoBS)",
+    "description": "Allies affected by a Leadership check made by Ackbar heal 2 strain."
+  },
+  {
+    "name": "Covering Fire",
+    "character": "Alderaan Consular Guard, Naboo Palace Guard",
+    "description": "May spend a maneuver to add +1 ranged Defence to up to three allied characters or minion groups within Short range until the end of the next round; this does not stack with multiple uses."
+  },
+  {
+    "name": "Creature Of Illusion",
+    "character": "Darth Bane (Apparition)",
+    "description": "Combat checks targeting the apparition always use Willpower in place of the characteristic normally associated with that skill. The Pierce and Breach qualities do not negate the apparition’s soak."
+  },
+  {
+    "name": "Criminal Mastermind",
+    "character": "Moralo Eval",
+    "description": "Eval uses Cunning for Negotiation and Underworld checks."
+  },
+  {
+    "name": "Dagoyan Meditation",
+    "character": "Queen Julia",
+    "description": "Once per day, Queen Julia may spend two hours in deep moving meditation. Once complete, her Force Rating increases to 3 for the remainder of the day."
+  },
+  {
+    "name": "Dead Shot",
+    "character": "Jango Fett",
+    "description": "Prior to making a combat check with a ranged weapon, Jango may suffer 3 strain to reduce the cost of a critical hit to :advantage:."
+  },
+  {
+    "name": "Decoy",
+    "character": "Naboo Queen",
+    "description": "Once per session, the Naboo Queen may spend a Destiny Point to reveal that she is in fact a Naboo Royal Handmaiden, who has swapped places with the real monarch."
+  },
+  {
+    "name": "Delicate Information",
+    "character": "Ziro the Hutt",
+    "description": "Once per session, Ziro may spend a Destiny Point to reveal he possesses valuable blackmail material on any character in the encounter."
+  },
+  {
+    "name": "Didn’t Forget About You",
+    "character": "Saesee Tiin",
+    "description": "Once per encounter, Tiin may upgrade the ability of a Gunnery check he makes against an undamaged vehicle or starship once."
+  },
+  {
+    "name": "Diplomatic Neutrality",
+    "character": "Senator Lott Dod",
+    "description": "Once per session as an action, Dod may make a :hard: Deception check. On success, he cannot be a target of combat checks until the end of the encounter or until making a combat check."
+  },
+  {
+    "name": "Diplomatic Solution",
+    "character": "Mina Bonteri",
+    "description": "Once per session, at the GM’s discretion, when a combat encounter against one or more sentient creatures is about to begin, Mina Bonteri may spend a Destiny Point and make a :daunting: Charm check to turn the encounter into a social encounter instead."
+  },
+  {
+    "name": "Dirty Tricks",
+    "character": "Dengar (HoBS)",
+    "description": "Once per encounter as an action, Dengar may make a :hard: Skulduggery check. If successful, he may select one enemy within Short range, plus one additional target per :success:, to suffer 4 Wounds. After resolving this, Dengar may perform a Move maneuver as an incidental."
+  },
+  {
+    "name": "Disguise Mode",
+    "character": "Demolition Droid",
+    "description": "As a maneuver, may transform into the appearance of an innocent sweeper droid. If no enemies witness the transformation, the droid immediately gains Deception 3 (:proficiency::proficiency::ability:) as a skill."
+  },
+  {
+    "name": "Distracting Quip",
+    "character": "Hondo Ohnaka (HoBS)",
+    "description": "Once per encounter as an action, may make a :hard: Deception check. Each :success: gives Hondo +1 ranged and melee defence for the next two rounds."
+  },
+  {
+    "name": "Divisive Figure",
+    "character": "Duchess Satine Kryze",
+    "description": "Satine adds :boost::boost: to all social checks against New Mandalorians but suffers :setback::setback: when making social checks against Death Watch targets."
+  },
+  {
+    "name": "Do Or Do Not",
+    "character": "Yoda",
+    "description": "Yoda allows allies within Short range to downgrade the difficulty of their skill checks once. They may suffer 2 strain to downgrade the difficulty twice instead."
+  },
+  {
+    "name": "Don’t Do That Again",
+    "character": "Jar Jar Binks",
+    "description": "When a check Jar Jar makes or assists with generates :despair:, roll :force:. If the roll generates :lightside: then Jar Jar converts the result to :triumph:. If the roll generates :darkside: then Jar Jar increases the result to :despair::despair:. This roll is made for each initial :despair: generated."
+  },
+  {
+    "name": "Drawn In",
+    "character": "Vixus",
+    "description": "Characters ensnared by a Vixus add :setback::setback: to their checks to break free. If they fail or do not attempt the check, at the end of their turn they are pulled one range band closer to the Vixus’ maw. Should they end their turn at Engaged range of the Vixus, they are swallowed alive and are immobilised until released. Should the Vixus suffer a :hard: or worse Critical injury, or be killed, it immediately releases all captives."
+  },
+  {
+    "name": "Dug Agility",
+    "character": "Doge Nakha Urus, Dug Cavalier, Sebulba",
+    "description": "Gains +1 ranged defence due to Dugs’ natural mobility."
+  },
+  {
+    "name": "Duplicitous",
+    "character": "Rush Clovis",
+    "description": "Once per session as an action, Clovis may make a :hard: Charm or Deception check. On success, he cannot be a target of combat checks until the end of the encounter or until making a combat check himself."
+  },
+  {
+    "name": "Earned Loyalty",
+    "character": "Aayla Secura",
+    "description": "When commanding clone troopers, Aayla’s Leadership has a rank of 4."
+  },
+  {
+    "name": "Electric Field",
+    "character": "Derrown",
+    "description": "As an action, when engaged with an energy shield, Derrown may suffer 4 strain to make a :hard: Resilience check. On success, he may completely bypass the energy shield."
+  },
+  {
+    "name": "Exemplary Mentor",
+    "character": "Luminara Unduli",
+    "description": "When using the Skilled Teacher talent, if the target ally is a member of the Jedi Order and in Engaged ranged, Luminara’s rank in the talent counts as 4."
+  },
+  {
+    "name": "Expressionless",
+    "character": "Kaminoan Scientist",
+    "description": "Kaminoans add :setback: to all Charm checks they make. Other characters add :setback: to all social skill checks they make when targeting Kaminoans."
+  },
+  {
+    "name": "Father To His Men",
+    "character": "Plo Koon",
+    "description": "Plo Koon adds :boost::boost: to Leadership checks targeting clone troopers under his command."
+  },
+  {
+    "name": "Field Biology Expert",
+    "character": "Sionver Boll",
+    "description": "Once per session as an action, when facing an enemy beast with the Adversary talent, Dr Boll may roll a :hard: Xenology check with the difficulty upgraded by the creature’s ranks in Adversary. Success reduces Adversary rank for all creatures of that type by 1 (to a minimum of 0) for the remainder of the encounter."
+  },
+  {
+    "name": "Flexible Morality",
+    "character": "Pong Krell",
+    "description": "May use :darkside: at a cost of 1 strain per point."
+  },
+  {
+    "name": "Flow Like Water",
+    "character": "Orphne",
+    "description": "Orphne’s natural lightning-fast reflexes grant her +1 Defence."
+  },
+  {
+    "name": "Flyer",
+    "character": "",
+    "description": "This creature can fly."
+  },
+  {
+    "name": "For Mandalore!",
+    "character": "Pre Vizsla",
+    "description": "Once per session, when Vizsla has exceeded his wound threshold but before he is incapacitated, he may make one out-of-turn attack against a target he is Engaged with."
+  },
+  {
+    "name": "Galvanize The Troops",
+    "character": "Shaak Ti",
+    "description": "Once per session, Shaak Ti allows all allies in the encounter to downgrade their next skill check once."
+  },
+  {
+    "name": "Geonosian Valour",
+    "character": "Poggle the Lesser",
+    "description": "May perform a maneuver to cause all ranged attacks targeting the character to instead hit one ally or helpless enemy in Engaged range, until the beginning of the character’s next turn."
+  },
+  {
+    "name": "Get Down Your Majesty!",
+    "character": "Queen Breha Organa",
+    "description": "When Queen Breha is in Engaged range of at least one Alderaan Consular Guard, all ranged attacks targeting the Queen hit the guard instead, unless the attacker is striking from a hidden position (as determined by the GM)."
+  },
+  {
+    "name": "Getting Results",
+    "character": "Nute Gunray",
+    "description": "When accompanied by armed guards, Gunray gains Coercion 2 (:proficiency::proficiency::ability:) for as long as they are within Short range."
+  },
+  {
+    "name": "Good Grub",
+    "character": "Dexter Jettster",
+    "description": "A meal cooked up by Dex allows the character to recover 5 strain when eaten."
+  },
+  {
+    "name": "Got You Covered",
+    "character": "Clone ARC Trooper",
+    "description": "When within Short range of another ARC trooper, may take a second maneuver without suffering strain."
+  },
+  {
+    "name": "Hard Taskmaster",
+    "character": "Dooku (Jedi Master)",
+    "description": "Dooku may commit :force: to increase an ally’s existing Force Rating by 1 for as long as they remain in Medium range. The targeted ally suffers 1 strain at the end of each round this is in effect."
+  },
+  {
+    "name": "Hardy Survivalist",
+    "character": "K’Kruhk",
+    "description": "Add automatic :success: to Survival checks. May survive many weeks without food."
+  },
+  {
+    "name": "Heavy Weapons Proficiency",
+    "character": "Clone Heavy Weapons Expert",
+    "description": "May have either a Z-6 rotary cannon or RPS-6 rocket launcher as their primary weapon. Clone Heavy Weapons Experts are not affected by either weapon’s Cumbersome rating."
+  },
+  {
+    "name": "Hidden Limbs",
+    "character": "Oppo Rancisis",
+    "description": "Rancisis may suffer 2 strain to add Linked 2 to his next Brawl check."
+  },
+  {
+    "name": "Hold Them Off",
+    "character": "Eeth Koth",
+    "description": "Once per encounter, as an out-of-turn incidental, Koth may redirect any ranged attack against an ally in Short range to himself. This must be done after the attack roll but before the result is calculated."
+  },
+  {
+    "name": "Horde",
+    "character": "Undead Nightsister",
+    "description": "An Undead Nightsister minion group gains the Linked item quality on attacks with their grasping claws equal to half the number of Undead Nightsisters in the group, rounded down. This still costs :advantage::advantage: to activate as normal."
+  },
+  {
+    "name": "Hound Master",
+    "character": "Osi Sobeck",
+    "description": "May spend a maneuver to direct any trained beast within Medium range. The beast may perform an immediate free maneuver or add :boost: to their next skill check."
+  },
+  {
+    "name": "Hoverer",
+    "character": "King Katuunko, Toydarian Royal Guard (HoBS)",
+    "description": "When hovering the character does not have to spend additional maneuvers when navigating difficult terrain."
+  },
+  {
+    "name": "Hoverer (Derrown)",
+    "character": "Derrown",
+    "description": "Derrown may hover slightly off of the ground. When hovering, he does not have to spend additional maneuvers when navigating difficult terrain."
+  },
+  {
+    "name": "Immobile",
+    "character": "Vixus",
+    "description": "Cannot spend maneuvers to move."
+  },
+  {
+    "name": "Impenetrable Armour",
+    "character": "Zillo Beast",
+    "description": "The Zillo Beast’s hide has the Cortosis quality and all non-Stun damage taken after soak is halved, rounded down."
+  },
+  {
+    "name": "Improved Covering Fire",
+    "character": "Naboo Royal Captain",
+    "description": "When allied minion groups within Short range perform the Covering Fire manuever, they add +2 ranged defence instead."
+  },
+  {
+    "name": "Improvised Transport",
+    "character": "Embo",
+    "description": "As a maneuver, Embo may convert his Kyuzo helmet into a Silhouette 1, Speed 2, Handling 0, System Strain Threshold 3 vehicle that can only operate on the ground and requires Piloting (Planetary) (:proficiency::proficiency::ability::ability:) to use. While using it in this way, Embo may not use the helmet’s weapon profiles and does not benefit from its Defensive or Deflection item qualities."
+  },
+  {
+    "name": "Incite Uprising",
+    "character": "Prince Lee-Char",
+    "description": "Once per session as an action, Lee-Char may make a :hard: Leadership check to cause all Mon Calamari present to become rebellious until the end of the encounter."
+  },
+  {
+    "name": "Indomitable",
+    "character": "Even Piell",
+    "description": "Piell removes up to SETBACK SETBACK caused by Critical Injuries, fear or the Disoriented condition."
+  },
+  {
+    "name": "Infiltrate And Execute",
+    "character": "BX Commando Droid Captain",
+    "description": "May impersonate a known enemy’s voice to gain :boost::boost: on all Deception checks, but upgrades the difficulty once if also attempting to maintain a physical disguise (such as wearing an enemy uniform)."
+  },
+  {
+    "name": "Infravision",
+    "character": "Can-Cell",
+    "description": "Removal all :setback: imposed due to lighting conditions."
+  },
+  {
+    "name": "Ink Spray",
+    "character": "Nossor Ri, Quarren Soldier",
+    "description": "Once per encounter, as an out-of-turn incidental, a Quarren may spray ink from their gills, suffering 2 strain to add :setback: to a combat check made by a character within Short range or :setback::setback::setback: if the check is underwater."
+  },
+  {
+    "name": "Insurgent Commander",
+    "character": "Saw Gerrera (HoBS)",
+    "description": "Onderon Resistance members gain :boost: to Discipline and Vigilance checks when in Saw’s presence."
+  },
+  {
+    "name": "Insurgent Leader",
+    "character": "Steela Gerrera",
+    "description": "Onderon Resistance members gain :boost: to Cool and Stealth checks when in Steela’s presence."
+  },
+  {
+    "name": "Interchangeable Weapon",
+    "character": "Clone Commando",
+    "description": "May spend a maneuver to switch modes on their DC-17m blaster."
+  },
+  {
+    "name": "Intimidating Countenance",
+    "character": "Maul (HoBS), Savage Opress (Natural)",
+    "description": "Add automatic :advantage::advantage: to all Coercion checks this character makes."
+  },
+  {
+    "name": "Jango’s Legacy",
+    "character": "Boba Fett (HoBS)",
+    "description": "Once per session, Boba may upgrade his next combat check twice as an incidental."
+  },
+  {
+    "name": "Jar’Kai Practitioner",
+    "character": "Barriss Offee (Fallen)",
+    "description": "When wielding dual lightsabers, Barriss uses Agility for Lightsaber combat checks)."
+  },
+  {
+    "name": "Joopa Worm Pattern!",
+    "character": "Captain Rex",
+    "description": "As a maneuver, make a :hard: Leadership check to allow allies within Short range who move in their following turn to gain +1 Defence for the remainder of the round."
+  },
+  {
+    "name": "Just A Kid",
+    "character": "Boba Fett (HoBS)",
+    "description": "When making any social checks, Boba adds :setback::setback: unless the target has a reason to take him seriously."
+  },
+  {
+    "name": "Knife Master",
+    "character": "Sugi",
+    "description": "Whenever Sugi throws her vibroknife, it gains the Accurate 2 quality."
+  },
+  {
+    "name": "Lancer",
+    "character": "IG Lancer Droid",
+    "description": "When piloting a swoop and crossing from Long to Engaged range in a single turn to attack a target, the IG combat lance gains the Breach 1 quality for that turn."
+  },
+  {
+    "name": "Last Stand",
+    "character": "Jedi General",
+    "description": "Once per session, when the General exceeds their wound threshold but before they are incapacitated, they may make a :hard: Leadership check to allow a number of allies equal to :success: to take an immediate out-of-turn maneuver."
+  },
+  {
+    "name": "Lasting Inspiration",
+    "character": "Mon Mothma",
+    "description": "Once per session, make a :hard: Leadership check when giving orders to an ally; if the check is successful, the ally gains one :boost: for each :success: which can be split up and added as desired to any skill checks the ally makes until the end of the session."
+  },
+  {
+    "name": "Leap",
+    "character": "Insectomorph",
+    "description": "Adds :boost::boost: to all Athletics checks made to perform vertical or horizontal jumps."
+  },
+  {
+    "name": "Life And Death",
+    "character": "Queen Miraj Scintel",
+    "description": "Once per encounter, Queen Miraj can order a Zygerrian Royal Guard to immediately execute one of her slaves as an out-of-turn action. The Queen can then force any targets she chooses in the current encounter to make an immediate :daunting-1: fear check."
+  },
+  {
+    "name": "Love Conquers All",
+    "character": "Shmi Skywalker",
+    "description": "When using the Inspiring Rhetoric talent, Shmi makes a Charm check instead of Leadership."
+  },
+  {
+    "name": "Loyal To The Last",
+    "character": "Mandalorian Royal Guard",
+    "description": "Once per round, when Engaged with the Duchess Satine, the Mandalorian Royal Guard may redirect a single attack against Satine to themselves instead as an out-of-turn incidental."
+  },
+  {
+    "name": "Lumbering",
+    "character": "LR-57 Combat Droid",
+    "description": "May only make one Move maneuver per turn and may not take the Aim maneuver."
+  },
+  {
+    "name": "Magnet Modification",
+    "character": "QT-KT",
+    "description": "Once per session when an enemy uses a thrown metal weapon to attack an ally within Short range of QT-KT, she may negate the attack as an out-of-turn incidental."
+  },
+  {
+    "name": "Mandalorian Valour",
+    "character": "Prime Minister Almec",
+    "description": "May perform a maneuver to cause all ranged attacks targeting the character to instead hit one ally or helpless enemy in Engaged range, until the beginning of the character’s next turn."
+  },
+  {
+    "name": "Martial Training",
+    "character": "Kage Assassin",
+    "description": "Kage Assassins use a unique weapon profile for unarmed combat."
+  },
+  {
+    "name": "Master And Apprentice",
+    "character": "Depa Billaba, Jedi Master",
+    "description": "Once per session, may nominate one ally who has at least Force Rating 1. This ally counts their Force Rating as 1 higher until the end of the encounter."
+  },
+  {
+    "name": "Master Chief",
+    "character": "Bric",
+    "description": "When spending :advantage: to inflict additional strain via the Scathing Tirade talent, Bric inflicts 2 strain for each :advantage: spent."
+  },
+  {
+    "name": "Methane Breather",
+    "character": "Wat Tambor",
+    "description": "Requires methane to live and must wear a special pressure suit. Treats standard planetary air pressure and composition as a corrosive atmosphere with rating 6."
+  },
+  {
+    "name": "Midi-Chlorian Manipulation",
+    "character": "Darth Plagueis",
+    "description": "As an action, Plagueis may target an opponent in Short range and commit :force: to reduce one of their base characteristics by 1 (to a minimum of 1) for the rest of the encounter. This may be used multiple times and across multiple targets."
+  },
+  {
+    "name": "Native Fauna (Ryloth)",
+    "character": "Gutkurr",
+    "description": "May remove :setback::setback: imposed due to arid and hot environmental conditions."
+  },
+  {
+    "name": "Native Language (Aleena)",
+    "character": "Aleena Tribal King, Aleena Villager",
+    "description": "Does not speak Basic, and speaks only native Aleena."
+  },
+  {
+    "name": "Native Language (Talz)",
+    "character": "Talz Chieftain",
+    "description": "Does not speak Basic, and speaks only native Talz."
+  },
+  {
+    "name": "Natural Environment",
+    "character": "Kit Fisto",
+    "description": "When underwater, Kit Fisto gains an additional +1 Defence."
+  },
+  {
+    "name": "Natural Nuisance",
+    "character": "WAC-47",
+    "description": "May use the Distracting Behaviour talent without suffering strain."
+  },
+  {
+    "name": "Neimoidian Courage",
+    "character": "Nute Gunray, Neimoidian Ship Captain",
+    "description": "When all allied NPCs protecting this Neimoidian have been defeated, they must make a :hard: Discipline check. If they fail, they surrender unconditionally."
+  },
+  {
+    "name": "Nite Owl",
+    "character": "Bo-Katan Kryze",
+    "description": "Once per session, Bo-Katan may spend a Destiny Point to take her turn first in the first round of a combat encounter, regardless of initiative order."
+  },
+  {
+    "name": "Now This Is Podracing!",
+    "character": "Anakin Skywalker (Child)",
+    "description": "When making Piloting (Planetary) checks, Anakin’s Agility counts as 4."
+  },
+  {
+    "name": "Old Contacts",
+    "character": "Finis Valorum",
+    "description": "Once per session, Finis Valorum may spend a Destiny Point to immediately recall a fact or individual from his time in office that can help resolve the current problem."
+  },
+  {
+    "name": "On A String",
+    "character": "Undead Nightsister",
+    "description": "If the witch who summoned them is killed, the entire Undead Nightsister minion group immediately drops lifeless to the ground."
+  },
+  {
+    "name": "Orphne’s Domain",
+    "character": "Orphne",
+    "description": "While in her underworld home, Orphne’s Force Rating increases to 3."
+  },
+  {
+    "name": "Pep Talk",
+    "character": "Colonel Meebur Gascon",
+    "description": "Gains automatic :advantage::advantage: on Leadership checks when commanding droids."
+  },
+  {
+    "name": "Personality Quirk",
+    "character": "Clone Trooper (Rival)",
+    "description": "May take one of these additional skills (this choice is permanent): Charm 2 (:proficiency::proficiency:), Coercion 2 (:proficiency::proficiency::ability:), Deception 2 (:proficiency::proficiency:), Negotiation 2 (:proficiency::proficiency:)."
+  },
+  {
+    "name": "Playing Politics",
+    "character": "Mas Amedda, Prime Minister Almec",
+    "description": "Once per encounter, Mas Amedda may reverse the result of another character’s successful social check."
+  },
+  {
+    "name": "Ponderous",
+    "character": "Ziro the Hutt, Geonosian Queen, Hydroid Medusa",
+    "description": "Can never spend more than one maneuver moving per turn."
+  },
+  {
+    "name": "Positive Reinforcement",
+    "character": "El-Les",
+    "description": "When El-Les spends :advantage: to allow an ally to recover additional strain via the Inspiring Rhetoric talent, each ally recovers 2 strain for each :advantage: spent."
+  },
+  {
+    "name": "Power Suit",
+    "character": "Seripas (Armoured)",
+    "description": "Once per session, Seripas may spend :triumph: or :advantage::advantage::advantage: on a successful Ranged (Heavy) check to add the Breach 1 quality to the attack."
+  },
+  {
+    "name": "Pragmatic Negotiator",
+    "character": "Muun Banker",
+    "description": "Uses Intellect instead of Presence for Negotiation checks."
+  },
+  {
+    "name": "Protest Chant",
+    "character": "Anti-War Protester",
+    "description": "As a maneuver, a group of 5 or more Anti-War Protesters may upgrade their next Coercion check once."
+  },
+  {
+    "name": "Push The Limits",
+    "character": "Clone ARC Trooper",
+    "description": "May suffer 2 strain to increase the range of the next attack with their DC-17 pistol or DC-15 rifle by one range band."
+  },
+  {
+    "name": "Rain Of Blows",
+    "character": "Brother Viscus",
+    "description": "Viscus may activate the Linked 2 item quality on Brawl attacks."
+  },
+  {
+    "name": "Reappropriate",
+    "character": "Senate Guard Captain",
+    "description": "As an action, the guard captain can make an :easy: Brawl check to disarm an engaged opponent, and may spend :triumph: to immediately wield the item or weapon."
+  },
+  {
+    "name": "Regeneration",
+    "character": "Trandoshan Guild Master",
+    "description": "When recovering from wounds via natural rest or in a bacta tank, recover 1 additional Wound; first-aid, medical treatment, and stimpacks do not result in recovery from an additional wound; Trandoshans can regrow lost limbs, though it usually takes at least a month before such limbs are usable."
+  },
+  {
+    "name": "Regeneration (Durge)",
+    "character": "Durge",
+    "description": "When recovering from wounds via natural rest or in a bacta tank, recover 1 additional Wound. First-aid, medical treatment, and stimpacks do not result in recovery from an additional wound. Durge can regrow lost limbs."
+  },
+  {
+    "name": "Ricochet Shot",
+    "character": "Crosshair",
+    "description": "Once per session, on a successful attack against a minion group with his 773 Firepuncher, Crosshair may flip a Destiny Point to immediately wipe out the remaining minions in that group."
+  },
+  {
+    "name": "Ride The High",
+    "character": "Pyke Leader",
+    "description": "Once per session as an action, a Pyke Leader may use a single dose of Kessel Boost adrenaline to upgrade all combat checks once for the remainder of the encounter."
+  },
+  {
+    "name": "Rise Sisters",
+    "character": "Old Daka",
+    "description": "As an action, Old Daka enters a meditative state that leaves her unable to move or defend herself. Each subsequent round she uses her action to roll a :hard: Discipline check with :force::force::force: to summon a single Undead Nightsister minion group. Additional minion groups are summoned per additional :success:. Each group summoned contains a number of Undead Nightsisters equal to :darkside: generated."
+  },
+  {
+    "name": "Rocket Pack",
+    "character": "Kul Teska",
+    "description": "Allows Teska to function as a Silhouette 1, Speed 2, Handling 0, System Strain Threshold 6 vehicle that requires Piloting (Planetary) (:proficiency::proficiency::proficiency:) to operate."
+  },
+  {
+    "name": "Self Destruct",
+    "character": "Demolition Droid",
+    "description": "As a maneuver, may transform into a ticking bomb. In this mode, the droid may not move, communicate or use its integrated blasters. As an action, it may detonate using the Self Destruct weapon profile. This instantly destroys the droid."
+  },
+  {
+    "name": "Sensitive Hearing",
+    "character": "Pau’an Administrator, Pau’an Warrior",
+    "description": "Pau’ans add :boost: to all Perception and Vigilance checks as long as they are wearing their protective earpieces. If not wearing the earpieces, they add :threat: instead."
+  },
+  {
+    "name": "Shadow Commander",
+    "character": "Umbaran Commander",
+    "description": "When using the Field Commander talent to direct Umbarans, the targeted allies do not suffer strain."
+  },
+  {
+    "name": "Shadow Fauna",
+    "character": "Vixus",
+    "description": "The Vixus uses Cunning for Stealth checks."
+  },
+  {
+    "name": "Shape Shift",
+    "character": "Cato Parasitti, Zam Wesell",
+    "description": "As an action, suffer 3 strain and make an :average: Resilience check to change appearance to a previously observed Silhouette 1 character. Observers must make an opposed Perception vs. Deception check to detect something is amiss."
+  },
+  {
+    "name": "Shields Up",
+    "character": "Clone Riot Trooper",
+    "description": "As a maneuver, a minion group of three or more Clone Riot Troopers can increase the Defence bonus granted by their M3 bulwark blast shields to 4. This effect lasts until they either use a subsequent maneuver to move or the number of minions in the group falls below three. They may not make Melee attack rolls whilst this ability is in effect."
+  },
+  {
+    "name": "Shoot Them Or Something!",
+    "character": "Nute Gunray",
+    "description": "Once per encounter, Gunray may nominate an enemy combatant as a primary target. All allies gain :boost: on attacks made against the target."
+  },
+  {
+    "name": "Short Fuse",
+    "character": "Clone Ordnance Specialist",
+    "description": "Once per encounter may reduce the cost to activate an item’s Blast quality to :advantage:."
+  },
+  {
+    "name": "Skilled Cheater",
+    "character": "Watto",
+    "description": "Once per session when gambling, Watto may cancel a :despair: he rolls on a skill check, or add a :despair: to another character’s check."
+  },
+  {
+    "name": "Slave Authority",
+    "character": "Queen Miraj Scintel, Zygerrian Slave Master",
+    "description": "May use Coercion instead of Leadership when commanding slaves."
+  },
+  {
+    "name": "Sleep Dust",
+    "character": "Kage Assassin",
+    "description": "During combat, a Kage Assassin may spend :triumph: or :advantage::advantage::advantage: to inflict the Disorient 3 quality on an Engaged opponent."
+  },
+  {
+    "name": "Spectre Of The Dark Side",
+    "character": "Darth Bane (Apparition)",
+    "description": "All attacks from the apparition ignore the target’s soak value. Instead, the damage is reduced by the target’s Willpower and ranks in Discipline combined. All damage is dealt as strain."
+  },
+  {
+    "name": "Squad Role",
+    "character": "Clone Commando",
+    "description": "May take one of these additional skills (this choice is permanent): Computers 3 (:proficiency::proficiency::ability:), Gunnery 2 (:proficiency::proficiency::ability:), Leadership 3 (:proficiency::proficiency::ability:), or Melee 2 (:proficiency::proficiency::ability:)."
+  },
+  {
+    "name": "Storage Modification",
+    "character": "M5-BZ",
+    "description": "At the GM’s discretion, one silhouette 0 character can hide inside M5-BZ’s chassis."
+  },
+  {
+    "name": "Strategic Direction",
+    "character": "Admiral Wullf Yularen",
+    "description": "Once per round, Admiral Yularen may spend a maneuver to direct three Republic Navy NPCs or minion groups within Medium range (this can be at planetary scale for targets on other ships); each target may perform an immediate maneuver as an out-of-turn incidental or instead add :success: to their next check."
+  },
+  {
+    "name": "Sudden Leverage",
+    "character": "Wat Tambor",
+    "description": "Once per session, Wat Tambor may spend a Destiny Point to produce a piece of highly incriminating information about another character in the encounter. This information can be genuine, or a very high quality counterfeit, at the GM’s discretion."
+  },
+  {
+    "name": "Supremely Terrifying",
+    "character": "Zillo Beast, Darth Bane (Apparition)",
+    "description": "Upon first seeing this creature, an individual must make a :daunting-1: fear check."
+  },
+  {
+    "name": "Sweep Attack",
+    "character": "Zillo Beast",
+    "description": "The Zillo Beast can spend :triumph: on a successful Brawl check to hit the target as well as anyone Engaged with the target."
+  },
+  {
+    "name": "Techno Service Droid",
+    "character": "Todo 360",
+    "description": "Once per session, Todo 360 may upgrade his next Computers check once as an incidental."
+  },
+  {
+    "name": "Temper Tantrum",
+    "character": "Osi Sobeck",
+    "description": "When Sobeck fails a combat check he suffers 1 strain but gains 1 automatic :success: on his next attack against the same target, so long as he attacks them on his next consecutive turn."
+  },
+  {
+    "name": "Terellian Jango Jumper",
+    "character": "Cassie Cryar",
+    "description": "As a maneuver, Cassie may leap to any location within Short range. In addition, her natural reflexes grant her +1 defense."
+  },
+  {
+    "name": "Terrifying",
+    "character": "Hydroid Medusa",
+    "description": "Upon first seeing a Hydroid Medusa, a character must make a :hard: fear check."
+  },
+  {
+    "name": "The Darksaber",
+    "character": "Pre Vizsla",
+    "description": "Vizsla gains :success::advantage: on all social checks against Mandalorians."
+  },
+  {
+    "name": "The Show Goes On",
+    "character": "Sy Snootles",
+    "description": "Whenever Sy Snootles is performing a song, allies gain :boost::boost::boost: on Stealth and Skulduggery checks against audience members."
+  },
+  {
+    "name": "This Will Do",
+    "character": "Tech",
+    "description": "Once per session, Tech may flip a Destiny Point to build a device that functions as an item of Rarity 6 or lower until the end of the encounter."
+  },
+  {
+    "name": "Time To Wreck It",
+    "character": "Wrecker",
+    "description": "Once per session, if Wrecker has exceeded half his wound threshold, he may flip a Destiny Point to enter a berserker rage. For the next three rounds, his wound threshold is doubled and all his attacks have -1 to their critical rating but he cannot benefit from any sources of defence. At the end of the third round, if Wrecker’s total wounds exceed his original wound threshold, he is immediately incapacitated."
+  },
+  {
+    "name": "Trust In The Living Force",
+    "character": "Qui-Gon Jinn",
+    "description": "Once per session, each ally with at least Force Rating 1 in Short range of Qui-Gon counts their Force Rating as one higher until the end of the encounter."
+  },
+  {
+    "name": "Trust The Components",
+    "character": "Professor Huyang",
+    "description": "Any lightsaber crafting check that Huyang assists with gains automatic :success::success:"
+  },
+  {
+    "name": "Trusted Reputation",
+    "character": "Bail Organa",
+    "description": "As a maneuver, Bail may make an opposed Charm check against one or more characters within Short range to downgrade the difficulty of a number of future social skill checks equal to net :success: against that character once each, until the end of the encounter."
+  },
+  {
+    "name": "Twin Bond",
+    "character": "Tiplar, Tiplee",
+    "description": "When Tiplee and Tiplar are within Short range of each other and one of them suffers voluntary strain, the other may suffer some or all of the strain instead."
+  },
+  {
+    "name": "Umbaran Bio-Gas",
+    "character": "Umbaran Commander, Umbaran Militia, Umbaran Tank Crew, Umbaran Starfighter Pilot",
+    "description": "When wearing an Umbaran bio-suit, Brawn and Agility are increased by 1. This is already incorporated into the profile."
+  },
+  {
+    "name": "Unbeatable Team",
+    "character": "Obi-Wan Kenobi (Padawan)",
+    "description": "Whenever Obi-Wan remains within Engaged range of Qui-Gon Jinn, both characters increase their melee and ranged defence by 1."
+  },
+  {
+    "name": "Undead",
+    "character": "Undead Nightsister",
+    "description": "At the end of each combat round, the minion group regenerates a single Undead Nightsister up to a maximum of the group’s original number."
+  },
+  {
+    "name": "Undermining Dissent",
+    "character": "King Sanjay Rash",
+    "description": "Once per session, Rash may choose an organisation and make a :hard: Deception check. On success, organisation members have their Strain Thresholds reduced by 1, plus 1 per :success::success: until the end of the session."
+  },
+  {
+    "name": "Undying",
+    "character": "Durge",
+    "description": "At the end of each round, Durge makes a :daunting: Resilience check to recover wounds equal to :success:."
+  },
+  {
+    "name": "Vaapad Flourish",
+    "character": "Mace Windu",
+    "description": "Once per encounter when making a Lightsaber combat check, Windu may add any uncommitted :force: to the roll. Each :lightside: generated counts as an additional :success: and each :darkside: counts as an additional :threat:."
+  },
+  {
+    "name": "Volatile Temper",
+    "character": "Queen Miraj Scintel",
+    "description": "When a social check against Queen Miraj generates :despair:, she rolls :force:. If the roll generates :darkside: then she immediately attacks the character with her shock whip. She will continue attacking the character for a number of rounds equal to :darkside: generated. She can be convinced to calm down and cease attacking early by a successful Coercion, Charm, Deception or Negotiation check from a character other than the target."
+  },
+  {
+    "name": "We Are The Bad Batch",
+    "character": "Sergeant Hunter",
+    "description": "Once per session, Hunter may spend a Destiny Point to allow himself and up to two allies to take a second turn at the end of the current round. This extra turn does not impact the duration of any other abilities or status effects."
+  },
+  {
+    "name": "We Must Push On!",
+    "character": "Ki-Adi-Mundi",
+    "description": "Once per encounter, as a maneuver, Mundi may make a :hard: Leadership check to immediately remove any fear-related effects from all allies within Short range."
+  },
+  {
+    "name": "Weapon Modification",
+    "character": "U9-C4",
+    "description": "Once per session U9-C4 may make an attack with his arc welder using the following profile: Damage 12; Critical 2; Range [Engaged]; Pierce 2, Prepare 1, Vicious 3."
+  },
+  {
+    "name": "Weequay Pheromones",
+    "character": "Hondo Ohnaka (HoBS)",
+    "description": "Weequay may communicate with other Weequay using pheromones if they are within Short range of each other."
+  },
+  {
+    "name": "Wookiee Rage",
+    "character": "Tarfful, Wookiee Warrior",
+    "description": "Deals +1 damage with Brawl and Melee attacks when suffering any wounds. When suffering a Critical Injury, deals +2 damage with Brawl and Melee attacks instead."
+  },
+  {
+    "name": "Hard Bargain",
+    "character": "",
+    "description": "May use Cunning for Negotiation checks."
+  }
 ]
