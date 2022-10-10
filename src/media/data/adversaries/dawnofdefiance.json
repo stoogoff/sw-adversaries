@@ -1204,6 +1204,54 @@
 		"devOnly": true
 	},
 	{
+		"name": "RX-7246",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 19,
+			"strain": 0,
+			"defence":[0,1]
+		},
+		"skills": {
+			"Coercion": 1,
+			"Computers": 4,
+			"Gunnery": 5,
+			"Mechanics": 3,
+			"Melee": 3,
+			"Ranged: Heavy": 5,
+			"Ranged: Light": 3,
+			"Piloting: Planetary": 3,
+			"Piloting: Space": 3,
+			"Vigilance": 2
+			},
+		"talents": ["Adversary 2", "Barrage 3", "Point Blank 1"],
+		"abilities": ["Droid"],
+		"weapons":["Light repeating blaster",
+			{
+				"name": "Grenade launcher",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Blast 6"],
+				"notes": "Both frag and stun grenades"
+			}
+		],
+		"gear": [],
+		"tags": ["source:Dawn of Defiance", "adventure:A Wretched Hive", "species:Droid"],
+		"devOnly": true
+	},
+	{
 		"name": "Gome",
 		"type": "Rival",
 		"description": "",
@@ -1223,7 +1271,7 @@
 		"skills": {
 			"Charm": 1,
 			"Cool": 1,
-			"Deception": 1,
+			"Deception": 2,
 			"Discipline": 1,
 			"Negotiation": 2,
 			"Streetwise": 2
@@ -1232,6 +1280,148 @@
 		"abilities": ["Blubber"],
 		"gear": ["Upper class clothing", "250 credits"],
 		"tags": ["source:Dawn of Defiance", "adventure:A Wretched Hive", "underworld"],
+		"devOnly": true
+	},
+	{
+		"name": "Zayda",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15,
+			"strain": 0,
+			"defence":[0,0]
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coercion": 1,
+			"Coordination": 1,
+			"Ranged: Heavy": 1,
+			"Ranged: Light": 1,
+			"Survival": 2,
+			"Vigilance": 1
+			},
+		"talents": ["Adversary 1", "Lethal Blows 1"],
+		"abilities": [],
+		"weapons":["Heavy blaster pistol", "Disruptor rifle"],
+		"gear": ["Laminate armour (+2 soak)"],
+		"tags": ["source:Dawn of Defiance", "adventure:A Wretched Hive", "species:Rodian"],
+		"devOnly": true
+	},
+	{
+		"name": "Karg Brothers",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16,
+			"strain": 0,
+			"defence":[0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 4,
+			"Coordination": 2,
+			"Melee": 4,
+			"Ranged: Heavy": 2,
+			"Vigilance": 2
+			},
+		"talents": ["Adversary 1"],
+		"abilities": [],
+		"weapons":["Vibro-ax"],
+		"gear": [],
+		"tags": ["source:Dawn of Defiance", "adventure:A Wretched Hive", "species:Gamorrean", "gladiator"],
+		"devOnly": true
+	},
+	{
+		"name": "Quarren assassin",
+		"type": "Rival",
+		"description": "",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"strain": 0,
+			"defence":[0,0]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Ranged: Light": 1,
+			"Skulduggery": 3,
+			"Stealth": 4,
+			"Survival": 2,
+			"Vigilance": 2
+			},
+		"talents": ["Master of Shadows"],
+		"abilities": [],
+		"weapons":["Blaster pistol"],
+		"gear": ["Heavy clothes (+1 soak)"],
+		"tags": ["source:Dawn of Defiance", "adventure:A Wretched Hive", "species:Quarren"],
+		"devOnly": true
+	},
+	{
+		"name": "Twi’lek poisoner",
+		"type": "Nemesis",
+		"description": "Though she might have been beautiful once, this young, greenskinned Twi’lek woman looks like she has seen her fair share  of  hard  times,  and  now  she seems more worn down than youthful. However, her face is hard and her eyes cold,  and  there  is  a  distinct  air  of hatred around her.",
+		"notes": "These are not official stats. Credits go to Jeff Greening, for converting the SWSE adventure to EotE.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 17,
+			"strain": 15,
+			"defence":[1,1]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Cool": 2,
+			"Coordination": 2,
+			"Melee": 3,
+			"Stealth": 4,
+			"Vigilance": 2
+			},
+		"talents": ["Adversary 3", "Deadly accuracy 3", "Lethal Blows 2"],
+		"abilities": [
+			{
+				"name": "Dendriton Toxin (5 doses)",
+				"description": ":daunting: resilience check or take 1 strain on first turn, 3 on second turn, 5 each following turn."
+			}
+		],
+		"weapons":["Vibrosword"],
+		"gear": [],
+		"tags": ["source:Dawn of Defiance", "adventure:A Wretched Hive", "species:Twi’lek"],
 		"devOnly": true
 	}
 ]

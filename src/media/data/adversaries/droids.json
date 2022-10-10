@@ -1590,7 +1590,6 @@
 			"Agility": 3,
 			"Intellect": 2,
 			"Cunning": 3,
-			"Stealth": 3,
 			"Willpower": 1,
 			"Presence": 1
 		},
@@ -1603,6 +1602,7 @@
 			"Cool": 1,
 			"Perception": 2,
 			"Ranged: Light": 2,
+			"Stealth": 3,
 			"Survival": 2,
 			"Vigilance": 2
 		},

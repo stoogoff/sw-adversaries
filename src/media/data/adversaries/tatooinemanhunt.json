@@ -2,7 +2,7 @@
 	{
 		"name": "Whiphid Thug",
 		"type": "Minion",
-		"description": "Slightly more intelligent and more likely to use ad­vanced technology than the Gamorrean enforcers that are popular with many crime lords, Aqualish are no less physically powerful than their porcine counterparts and equally prone to violence as a means of resolving even the mildest dispute. Although not all members of the Aqualish people are crude and thuggish, enough of them are that the sight of them acting as enforcers and henchmen for all manner of unpleasant figures is hard­ ly surprising to any well traveled citizen of the galaxy’s seedy underbelly.",
+		"description": "",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -19,5 +19,64 @@
 		"weapons": ["Blaster pistol", "Brass knuckles"],
 		"tags": ["underworld", "thug", "species:Whiphid", "adventure:Tatooine Manhunt"],
                 "devOnly": true
+	},
+	{
+		"name": "Lt. Voor, Imperial Officer",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15
+		},
+		"skills": {
+			"Discipline": 3,
+			"Knowledge: Warfare": 2,
+			"Ranged: Light": 2 ,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Tactical Direction", "Overwhelming Fire"],
+		"weapons": ["Blaster pistol"],
+		"gear": ["Officer uniform (+1 Soak)", "Long range comlink"],
+		"tags": ["empire", "imperial military", "adventure:Tatooine Manhunt"],
+		"devOnly": true
+	},
+	{
+		"name": "Kassh'ka, Seasoned Hunter",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coercion": 1,
+			"Coordination": 1,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 2,
+			"Survival": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1", "Lethal Blows 1"],
+		"abilities": [],
+		"weapons": ["Heavy blaster pistol", "Disruptor rifle"],
+		"gear": ["Laminate armour (+2 soak)"],
+		"tags": ["adventure:Tatooine Manhunt"],
+		"devOnly": true
 	}
 ]

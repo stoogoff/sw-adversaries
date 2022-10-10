@@ -1374,7 +1374,12 @@
 			"wounds": 10
 		},
 		"skills": {
-
+			"Charm": 1,
+			"Cool": 2,
+			"Deception": 2,
+			"Negotiation": 2,
+			"Perception": 3,
+			"Streetwise": 2
 		},
 		"talents": ["Natural Negotiator", "Nobody’s Fool 1"],
 		"abilities": ["Hoverer", "Silhouette 0"],

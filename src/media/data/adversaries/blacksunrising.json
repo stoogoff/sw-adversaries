@@ -1,0 +1,94 @@
+[
+	{
+		"name": "Jobel, Bothan slicer",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Computers": 4,
+			"Cool": 2,
+			"Mechanics": 1,
+			"Skulduggery": 1,
+			"Stealth": 1
+		},
+		"talents": ["Bypass Security 1"],
+		"weapons": [
+                	{
+                    "name": "Stun blaster",
+                    "skill": "Ranged: Light",
+                    "damage": 6,
+                    "critical": null,
+                    "range": "Short",
+                    "qualities": ["Stun Damage"]
+                }
+            ],
+		"gear": ["Slicer gear"],
+		"tags": ["underworld", "adventure:Black Sun Rising", "slicer", "species:Bothan"],
+		"devOnly": true
+	},
+	{
+		"name": "Diatek Employee",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12
+		},
+		"skills": {
+			"Deception": 2,
+			"Perception": 2
+		},
+		"gear": ["Data pad"],
+		"tags": ["Diatek Securities", "adventure:Black Sun Rising","species:Twi’lek"],
+		"devOnly": true
+	},
+	{
+		"name": "Rolo Presat",
+		"type": "Rival",
+		"description": "",
+		"notes": "",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 4
+		},
+		"skills": {
+			"Cool": 1,
+			"Discipline": 1,
+			"Perception": 1,
+			"Ranged: Light": 1
+		},
+		"weapons":["Blaster Pistol"],
+		"gear": ["Access Card"],
+		"tags": ["Diatek Securities", "adventure:Black Sun Rising","species:Twi’lek"],
+		"devOnly": true
+	}
+]
