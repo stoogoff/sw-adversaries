@@ -1,0 +1,588 @@
+[
+	{
+		"name": "RDC Peacekeeper",
+		"type": "Minion",
+		"description": "",
+		"source": {
+			"owner": "tinywoodsman"
+		},
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 5
+		},
+		"skills": ["Athletics", "Brawl", "Discipline", "Ranged: Light", "Vigilance"],
+		"abilities": [
+			{
+				"name": "Tried and Tested",
+				"description": "So long as the proper chain of command is observed, upgrade the ability of Leadership checks targeting an RDC Peacekeeper once."
+			}
+		],
+		"weapons": [
+			{
+				"name": "HR-16 Blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			}
+		],
+		"gear": ["RDC Uniform", "Utility belt", "Extra reload"],
+		"tags": ["high republic", "source:For Light and Life"]
+	},
+	{
+		"name": "Republic Fleet Captain",
+		"type": "Rival",
+		"description": "",
+		"source": {
+			"owner": "tinywoodsman"
+		},
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 13
+		},
+		"skills": {
+			"Discipline": 2,
+			"Brawl": 1,
+			"Knowledge: Warfare": 2,
+			"Leadership": 3,
+			"Ranged: Light": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"weapons": [
+			{
+				"name": "HR-16 Blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			}
+		],
+		"gear": ["RDC Uniform"],
+		"tags": ["high republic", "source:For Light and Life"]
+	},
+	{
+		"name": "Antarian Ranger",
+		"type": "Nemesis",
+		"description": "",
+		"source": {
+			"owner": "tinywoodsman"
+		},
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 15,
+			"strain": 15
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Cool": 3,
+			"Discipline": 2,
+			"Gunnery": 2,
+			"Perception": 3,
+			"Piloting: Planetary": 2,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 2,
+			"Stealth": 3,
+			"Survival": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1", "Expert Tracker 1"],
+		"weapons": [
+			{
+				"name": "Scoped Long-range blaster rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Extreme",
+				"notes": "Reduce Difficulty of combat checks at Long and Extreme range by 1."
+			}
+		],
+		"gear": ["Light recon armour (+1 Soak)", "Utility belt", "Survival kit"],
+		"tags": ["high republic", "source:For Light and Life"]
+	},
+	{
+		"name": "Republic Diplomat",
+		"type": "Nemesis",
+		"description": "",
+		"source": {
+			"owner": "tinywoodsman"
+		},
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 13
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 2,
+			"Discipline": 2,
+			"Deception": 1,
+			"Knowledge: Core Worlds": 2,
+			"Knowledge: Education": 2,
+			"Knowledge: Outer Rim": 1,
+			"Leadership": 2,
+			"Negotiation": 3,
+			"Perception": 1
+		},
+		"talents": ["Adversary 2", "Works Like a Charm"],
+		"gear": ["Encrypted datapad", "Diplomatic comlink"],
+		"tags": ["high republic", "source:For Light and Life"]
+	},
+	{
+		"name": "Repbulic Investigator",
+		"type": "Rival",
+		"description": "",
+		"source": {
+			"owner": "tinywoodsman"
+		},
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 12
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 3,
+			"Cool": 2,
+			"Knowledge: Underworld": 3,
+			"Melee": 2,
+			"Perception": 3,
+			"Ranged: Light": 2,
+			"Streetwise": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"weapons": [
+			{
+				"name": "Cinti VI Blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			}
+		],
+		"gear": ["Mark II Armoured jacket", "Comlink", "Datapad", "ID Badge"],
+		"tags": ["high republic", "source:For Light and Life"]
+	},
+	{
+		"name": "Strike",
+		"type": "Minion",
+		"description": "",
+		"source": {
+			"owner": "tinywoodsman"
+		},
+		"notes": "A minion group has either Ranged: Heavy or Ranged: Light.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5
+		},
+		"skills": ["Cool", "Ranged: Heavy", "Ranged: Light"],
+		"abilities": [
+			{
+				"name": "Masked",
+				"description": "As long as the Strike wears their mask, they are immune to all toxins and poisons."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Markis Blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			},
+			{
+				"name": "Blaster carbine",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			},
+			"Vibroknife"
+		],
+		"gear": ["Padded armour (+2 Soak)"],
+		"tags": ["forces of the nihil", "source:For Light and Life"]
+	},
+	{
+		"name": "Cloud",
+		"type": "Rival",
+		"description": "",
+		"source": {
+			"owner": "tinywoodsman"
+		},
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15
+		},
+		"skills": {
+ 			"Brawl": 3,
+ 			"Cool": 3,
+ 			"Melee": 2,
+ 			"Perception": 1,
+ 			"Ranged: Light": 4,
+ 			"Streetwise": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [
+			{
+				"name": "Masked",
+				"description": "As long as the Cloud wears their mask, they are immune to all toxins and poisons."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Heavy Tak Blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			},
+			{
+				"name": "Combat knife",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged"
+			}
+		],
+		"gear": [],
+		"tags": ["forces of the nihil", "source:For Light and Life"]
+	},
+	{
+		"name": "Storm",
+		"type": "Rival",
+		"description": "",
+		"source": {
+			"owner": "tinywoodsman"
+		},
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 17
+		},
+		"skills": {
+			"Coercion": 3,
+			"Deception": 3,
+			"Gunnery": 2,
+			"Perception": 2,
+			"Piloting: Space": 3,
+			"Ranged: Light": 3
+		},
+		"abilities": [
+			{
+				"name": "Nihil Leader",
+				"description": "May perform a manoeuvre to give orders to other Nihil allies in Medium range, granting them :boost: on their next check."
+			},
+			{
+				"name": "Masked",
+				"description": "As long as the Storm wears their mask, they are immune to all toxins and poisons."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Heavy Tak Blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Stun Setting"]
+			},
+			{
+				"name": "Shock gloves",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 5,
+				"range": "Engaged"
+			}
+		],
+		"gear": [],
+		"tags": ["forces of the nihil", "source:For Light and Life"]
+	},
+	{
+		"name": "Tempest Runner",
+		"type": "Nemesis",
+		"description": "",
+		"source": {
+			"owner": "tinywoodsman"
+		},
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 17,
+			"strain": 12
+		},
+		"skills": {
+			"Coercion": 2,
+			"Cool": 1,
+			"Melee": 3,
+			"Perception": 1,
+			"Ranged: Heavy": 2,
+			"Stealth": 3,
+			"Survival": 1,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 2", "Parry 3"],
+		"abilities": [
+			{
+				"name": "Fearsome Countenance",
+				"description": "Add automatic :advantage: to Coercion checks."
+			},
+			{
+				"name": "Masked",
+				"description": "As long as the Tempest Runner wears their mask, they are immune to all toxins and poisons."
+			}
+		],
+		"weapons": [
+			{
+				"name": "XR Rotary rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Stun Setting"]
+			},
+			"Electrostaff"
+		],
+		"gear": ["Chemical flares", "Secure comlink", "Heavy clothing (+1 Soak)"],
+		"tags": ["forces of the nihil", "source:For Light and Life"]
+	},
+	{
+		"name": "Togruta Royal Guard",
+		"type": "Rival",
+		"description": "",
+		"source": {
+			"owner": "tinywoodsman"
+		},
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14
+		},
+		"skills": {
+			"Brawl": 2,
+			"Discipline": 2,
+			"Leadership": 1,
+			"Melee": 2,
+			"Ranged: Heavy": 2,
+			"Vigilance": 1
+		},
+		"abilities": [
+			{
+				"name": "Re-appropriate",
+				"description": "As an Action, the guard can make an :easy: Brawl check to disarm an Engaged opponent, and may spend :triumph: to immediately wield the item or weapon."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Kiavene (Melee)",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 2"]
+			},
+			{
+				"name": "Kiavene (Blaster)",
+				"skill": "Ranged: Light",
+				"damage": 2,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Pierce 2", "Vicious 2", "Limited Ammo 1"]
+			},
+			{
+				"name": "Ceremonial Rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 10,
+				"critical": 2,
+				"range": "Long",
+				"qualities": ["Pierce 1", "Stun Setting"]
+			}
+		],
+		"gear": ["Royal Guard armour (+2 Soak)", "Comlink"],
+		"tags": ["species:togruta", "source:For Light and Life"]
+	},
+	{
+		"name": "Merchant",
+		"type": "Rival",
+		"description": "",
+		"source": {
+			"owner": "tinywoodsman"
+		},
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14
+		},
+		"skills": {
+			"Charm": 1,
+			"Cool": 1,
+			"Discipline": 1,
+			"Deception": 1,
+			"Negotiation": 2,
+			"Streetwise": 2
+		},
+		"talents": ["Greased Palms"],
+		"gear": ["Datapad", "Upper class clothing", "250 credits"],
+		"tags": ["source:For Light and Life"]
+	},
+	{
+		"name": "Eriaduan Police",
+		"type": "Minion",
+		"description": "",
+		"source": {
+			"owner": "tinywoodsman"
+		},
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5
+		},
+		"skills": ["Discipline", "Melee", "Ranged: Light", "Vigilance"],
+		"abilities": [
+			{
+				"name": "Re-appropriate",
+				"description": "As an Action, the guard can make an :easy: Brawl check to disarm an Engaged opponent, and may spend :triumph: to immediately wield the item or weapon."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Relby Blaster pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Pierce 2", "Stun Setting"]
+			},
+			{
+				"name": "Stun club",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Disorient 2"]
+			}
+		],
+		"gear": ["Comlink", "Magnacuff (breaking free of these restraints requires a :daunting: Coordination check)"],
+		"tags": ["security", "source:For Light and Life"]
+	},
+	{
+		"name": "Pilot (FLaL)",
+		"type": "Minion",
+		"description": "",
+		"source": {
+			"owner": "tinywoodsman"
+		},
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": ["Cool", "Gunnery", "Mechanics", "Piloting: Space"],
+		"gear": ["Vacuum flight suit", "Astromech", "Toolkit", "Comlink"],
+		"tags": ["pilot", "source:For Light and Life"]
+	}
+]

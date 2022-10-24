@@ -215,7 +215,8 @@ function r(symbol, ranks) {
 let sourceMap = {
 	"source:Never Tell Me the Odds": "http://www.starwarsrpgpodcast.com/",
 	"source:D20Radio.com": "http://www.d20radio.com/main/",
-	"source:Heroes on Both Sides": "https://drive.google.com/file/d/1kz3ZK_Pmxf6HneRCOwY_0lzwmk0GZL1N/view"
+	"source:Heroes on Both Sides": "https://drive.google.com/file/d/1kz3ZK_Pmxf6HneRCOwY_0lzwmk0GZL1N/view",
+	"source:For Light and Life": "https://drive.google.com/file/d/1UqlPAo3cWwHKlTHV8lBIG8Wyk1BKTTRP/view?usp=sharing",
 };
 
 export const getSourceLink = function getSourceLink(source) {
