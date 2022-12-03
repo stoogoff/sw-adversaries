@@ -1,0 +1,22 @@
+{
+    "short_name": "SW: Adversaries",
+    "name": "Star Wars: Adversaries",
+    "description": "Star Wars Adversaries is an easily searchable database of adversaries for Fantasy Flight Games’ Star Wars Roleplaying Game.",
+    "icons": [
+        {
+          "src": "/2.2.1/media/images/icons-192.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        },
+        {
+            "src": "/2.2.1/media/images/icons-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "theme_color": "#b3b0ac",
+    "background_color": "#fffaf4"
+}
