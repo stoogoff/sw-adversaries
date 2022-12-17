@@ -2,7 +2,7 @@
 import React from "react";
 import { AutoComplete } from "./input/text";
 
-export default class PanelTagEdit extends React.Component {
+export default class PanelTagsEdit extends React.Component {
 	constructor(props) {
 		super(props);
 

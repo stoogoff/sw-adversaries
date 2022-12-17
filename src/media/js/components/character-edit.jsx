@@ -8,6 +8,7 @@ import PanelTalentEdit from "./panel-talent-edit";
 import PanelWeaponEdit from "./panel-weapon-edit";
 import PanelCode from "./panel-code";
 import PanelSkillEdit from "./panel-skill-edit";
+import PanelTagsEdit from "./panel-tags-edit";
 
 import dispatcher from "lib/dispatcher";
 import * as CONFIG from "lib/config";
@@ -43,7 +44,16 @@ export default class CharacterEdit extends React.Component {
 		let editingCharacter = JSON.parse(JSON.stringify(Object.assign(baseCharacter, props.character)));
 
 		editingCharacter.derived.defence = editingCharacter.derived.defence || [0, 0];
-		editingCharacter.tags = []; // for now remove any tags as only "source:Mine" will be set
+
+		const excludeTags = [
+			CONFIG.ADVERSARY_TAG,
+			CONFIG.MINION.toLowerCase(),
+			CONFIG.RIVAL.toLowerCase(),
+			CONFIG.NEMESIS.toLowerCase(),
+		]
+
+		editingCharacter.tags = editingCharacter.tags.filter(tag => excludeTags.indexOf(tag) === -1) // remove adversary type tags and source:Mine
+
 		this.escapeFields.forEach(key => editingCharacter[key] = unescapeHTML(editingCharacter[key]));
 
 		this.state = {
