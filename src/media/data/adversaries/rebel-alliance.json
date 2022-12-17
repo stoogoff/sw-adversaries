@@ -155,7 +155,7 @@
 	{
 		"name": "Polis Massa Base Squadron Pilot",
 		"type": "Minion",
-		"description": "The starfighter pilots assigned to Polis Massa are a diverse mix of humans and non-humans from all across the galaxy. Some joined up after their planet was attacked or occupied by the Empire; others were Impe­rial pilots who sickened of the totalitarian regime and defected; while others simply joined up for the thrill of space combat. Each one has lost someone dear to them to the phantoms of the 481 st, and every one of them is itching to pay the perpetrators back in kind.",
+		"description": "The starfighter pilots assigned to Polis Massa are a diverse mix of humans and non-humans from all across the galaxy. Some joined up after their planet was attacked or occupied by the Empire; others were Imperial pilots who sickened of the totalitarian regime and defected; while others simply joined up for the thrill of space combat. Each one has lost someone dear to them to the phantoms of the 481 st, and every one of them is itching to pay the perpetrators back in kind.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -388,7 +388,7 @@
 	{
 		"name": "Sullustan Resistance Fighter",
 		"type": "Minion",
-		"description": "The members of the Sullustan Resistance are some of the most dedicated and tenacious freedom fighters in the galaxy. The organization of their cells and the ways in which they have gone about the business of attacking their oppressors have inspired the organisa­tion and tactics of the Rebel Alliance. All beings who throw their lot in with the Alliance owe the Sullustans a debt of gratitude. Allied with, but not officially part of, the Alliance to Restore the Republic, members of the Sullustan Resistance are among the best allies to have at one’s back when the chips are down.",
+		"description": "The members of the Sullustan Resistance are some of the most dedicated and tenacious freedom fighters in the galaxy. The organization of their cells and the ways in which they have gone about the business of attacking their oppressors have inspired the organisation and tactics of the Rebel Alliance. All beings who throw their lot in with the Alliance owe the Sullustans a debt of gratitude. Allied with, but not officially part of, the Alliance to Restore the Republic, members of the Sullustan Resistance are among the best allies to have at one’s back when the chips are down.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
