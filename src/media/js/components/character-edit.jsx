@@ -51,6 +51,7 @@ export default class CharacterEdit extends React.Component {
 			editingWeapons: null,
 			editingTalents: null,
 			editingAbilities: null,
+			editingTags: null,
 			showAddSkill: false
 		};
 	}
@@ -327,6 +328,9 @@ export default class CharacterEdit extends React.Component {
 				</PanelListEdit>
 				<PanelListEdit title="Abilities" list={ character.abilities } remove={ this.removeHandler("abilities").bind(this) } edit={ this.editHandler("abilities").bind(this) } onClose={ () => this.setState({ editingAbilities: null }) }>
 					<PanelTalentEdit list={ abilities } title="Ability" editing={ this.state.editingAbilities } handler={ this.addHandler("abilities").bind(this) } />
+				</PanelListEdit>
+				<PanelListEdit title="Tags" list={ character.tags } remove={ this.removeHandler("tags").bind(this) } edit={ this.editHandler("tags").bind(this) } onClose={ () => this.setState({ editingTags: null }) }>
+					<PanelTagsEdit list={ this.props.tags } title="Tag" editing={ this.state.editingTags } handler={ this.addHandler("tags").bind(this) } />
 				</PanelListEdit>
 
 				<div className="edit-panel gear">
