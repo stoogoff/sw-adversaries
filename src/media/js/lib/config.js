@@ -21,6 +21,7 @@ export const FAVOURITE_TAG = "starred";
 export const FAVOURITE_KEY = "starred:";
 export const ADVERSARY_TAG = "source:Mine";
 export const ADVERSARY_ID = "my-";
+export const SOURCE_TAG = 'source:'
 
 // local storage keys
 export const ADVERSARY_STORE = "swa-custom";

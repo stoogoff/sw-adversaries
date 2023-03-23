@@ -12,6 +12,7 @@ import Filter from "components/input/filter";
 import Loader from "components/loader";
 import Tabs from "components/tabs";
 import TagMenu from "components/tag-menu";
+import Checkbox from "components/input/checkbox";
 import * as Store from "lib/local-store";
 import { sortByProperty, findByProperty, unique, pluck, indexOfByProperty } from "lib/list";
 import * as CONFIG from "lib/config";
@@ -27,6 +28,7 @@ class App extends React.Component {
 			list: null,
 			filter: "",
 			tags: [],
+			sources: [],
 			isLoaded: false,
 			menuOpen: false,
 			showAbout: false,
@@ -96,7 +98,8 @@ class App extends React.Component {
 
 			this.setState({
 				list: adversaries,
-				tags: tags
+				tags,
+				sources: this.getSources(tags),
 			});
 			this.selectAdversary(adversary);
 			this.setLoaded();
@@ -196,7 +199,7 @@ class App extends React.Component {
 
 				Store.local.set(CONFIG.FAVOURITE_STORE, favourites);
 
-				this.setState({ tags: tags });
+				this.setState({ tags });
 				this.selectAdversary(adversary);
 			}
 		});
@@ -326,14 +329,16 @@ class App extends React.Component {
 				selectedIndex = tabs.length - 1;
 			}
 
+			const tags = this.updateTags()
+
 			this.setState({
-				filter: filter,
-				list: list,
+				filter,
+				list,
+				tags,
 				selectedIndex: selectedIndex,
 				selected: tabs,
 				mode: CONFIG.MODE_NORMAL,
 				editAdversary: null,
-				tags: this.updateTags(),
 				canExport: stored.length > 0
 			});
 		});
@@ -462,13 +467,46 @@ class App extends React.Component {
 		this.setState({ showAbout: !this.state.showAbout });
 	}
 
+	getSources(tags) {
+		return (tags || this.state.tags).filter(t => t.startsWith(CONFIG.SOURCE_TAG))
+	}
+
+	isSourceChecked(source) {
+		return this.state.sources.includes(source)
+	}
+
+	toggleSource(source) {
+		source = CONFIG.SOURCE_TAG + source
+
+		let sources = this.state.sources
+
+		if(this.isSourceChecked(source)) {
+			sources = sources.filter(s => s !== source)
+		}
+		else {
+			sources = [...sources, source]
+		}
+
+		this.setState({ sources }, () => {
+			if(this.state.filter !== '') this.filter(this.state.filter)
+		})
+	}
+
 	componentWillUnmount() {
 		Object.keys(this.stores).forEach(key => this.stores[key].off(this.events[key]));
 	}
 
 	// filter text from menu
 	filter(text) {
-		let adversaries = this.stores.adversaries.all();
+		const sources = this.state.sources
+		console.log('filter', sources)
+		let adversaries = this.stores.adversaries.all().filter(({ tags }) => {
+			for(let i = 0, ilen = sources.length; i < ilen; ++i) {
+				if(tags.includes(sources[i])) return true
+			}
+
+			return false
+		});
 
 		if(text != "") {
 			text = text.toLowerCase();
@@ -528,6 +566,9 @@ class App extends React.Component {
 				<TagMenu canExport={ this.state.canExport } tags={ this.state.tags } />
 				<Filter text={ this.state.filter } handler={ this.filter.bind(this) } />
 				<p><small>Showing { x } of { y }.</small></p>
+				<div className="source-filter">
+					{ this.getSources().map(t => <Checkbox label={ t.replace(CONFIG.SOURCE_TAG, '') } checked={ this.isSourceChecked(t) } handler={ this.toggleSource.bind(this) } />) }
+				</div>
 				<div id="adversaries"><LinkList data={ this.state.list } selected={ this.state.selected.length > 0 ? this.state.selected[this.state.selectedIndex].character.id : "" } /></div>
 			</div>
 			<div id="content" className="column large">
