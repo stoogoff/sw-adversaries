@@ -482,7 +482,7 @@
 			}
 		],
 		"gear": ["Royal Guard armour (+2 Soak)", "Comlink"],
-		"tags": ["species:togruta", "source:For Light and Life"]
+		"tags": ["species:Togruta", "source:For Light and Life"]
 	},
 	{
 		"name": "Merchant",

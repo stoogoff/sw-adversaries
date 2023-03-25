@@ -555,6 +555,8 @@ class App extends React.Component {
 				break;
 		}
 
+		const sources = this.getSources()
+
 		return <div>
 			{ overlay }
 			<div id="mobile-menu">
@@ -565,9 +567,10 @@ class App extends React.Component {
 			<div id="navigation" className={ (this.state.menuOpen ? "menu-open" : "menu-closed") + " column small" }>
 				<TagMenu canExport={ this.state.canExport } tags={ this.state.tags } />
 				<Filter text={ this.state.filter } handler={ this.filter.bind(this) } />
-				<p><small>Showing { x } of { y }.</small></p>
+				<p>Showing { x } of { y }.</p>
+				<p>Search { sources.length } source{ sources.length === 1 ? '' : 's' }.</p>
 				<div className="source-filter">
-					{ this.getSources().map(t => <Checkbox label={ t.replace(CONFIG.SOURCE_TAG, '') } checked={ this.isSourceChecked(t) } handler={ this.toggleSource.bind(this) } />) }
+					{ sources.map(t => <Checkbox label={ t.replace(CONFIG.SOURCE_TAG, '') } checked={ this.isSourceChecked(t) } handler={ this.toggleSource.bind(this) } before={ true } />) }
 				</div>
 				<div id="adversaries"><LinkList data={ this.state.list } selected={ this.state.selected.length > 0 ? this.state.selected[this.state.selectedIndex].character.id : "" } /></div>
 			</div>
