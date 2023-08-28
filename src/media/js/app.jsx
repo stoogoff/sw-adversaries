@@ -15,6 +15,7 @@ import TagMenu from "components/tag-menu";
 import Checkbox from "components/input/checkbox";
 import * as Store from "lib/local-store";
 import { sortByProperty, findByProperty, unique, pluck, indexOfByProperty } from "lib/list";
+import { normalise } from 'lib/string'
 import * as CONFIG from "lib/config";
 
 
@@ -499,7 +500,7 @@ class App extends React.Component {
 	// filter text from menu
 	filter(text) {
 		const sources = this.state.sources
-		console.log('filter', sources)
+
 		let adversaries = this.stores.adversaries.all().filter(({ tags }) => {
 			for(let i = 0, ilen = sources.length; i < ilen; ++i) {
 				if(tags.includes(sources[i])) return true
@@ -508,10 +509,14 @@ class App extends React.Component {
 			return false
 		});
 
-		if(text != "") {
-			text = text.toLowerCase();
+		if(text !== '') {
+			text = text.toLowerCase()
 
-			adversaries = adversaries.filter(a => a.name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().indexOf(text) != -1 || a.tags.find(t => t.toLowerCase() == text) != undefined);
+			const tagFilter = text.split('+').map(tg => tg.trim()).filter(tg => tg !== '')
+
+			adversaries = adversaries.filter(a =>
+				normalise(a.name).toLowerCase().indexOf(text) !== -1 || tagFilter.every(tg => a.tags.includes(tg.toLowerCase()))
+			)
 		}
 
 		this.setState({ list: adversaries, filter: text });

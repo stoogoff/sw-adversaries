@@ -33,7 +33,7 @@ export default class LinkList extends React.Component {
 					icon = <svg><use xlinkHref="#icon-circle-right"></use></svg>;
 				}
 
-				const source = l.tags.find(t => t.startsWith(CONFIG.SOURCE_TAG))
+				const source = l.tags.find(t => t.startsWith(CONFIG.SOURCE_TAG)) || ''
 				const label = source !== `${CONFIG.SOURCE_TAG}Official` ? <span className="pill">{ source.replace(CONFIG.SOURCE_TAG, '') }</span> : null
 
 				return <li key={ l.id } className={ isSelected ? "selected": "" }>
