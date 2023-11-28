@@ -23,7 +23,7 @@
 	{
 		"name": "Arrogant Heir",
 		"type": "Rival",
-		"description": "Wealthy citizens of the Core Worlds are usually blind to the privilege and arrogance that are the hallmarks of their lives. Since birth, they have been taught that they are the leaders of the galaxy-economically, politically, spiritually, and in all other ways Inevitably, there are those amongst the people who have everything who want more, and these arrogant heirs may well come into conflict or contact with the galactic underworld. The in­dependent operators of the fringe must tread carefully around these individuals, for fear of drawing the atten­tion of more powerful Core World interests.",
+		"description": "Wealthy citizens of the Core Worlds are usually blind to the privilege and arrogance that are the hallmarks of their lives. Since birth, they have been taught that they are the leaders of the galaxy-economically, politically, spiritually, and in all other ways Inevitably, there are those amongst the people who have everything who want more, and these arrogant heirs may well come into conflict or contact with the galactic underworld. The independent operators of the fringe must tread carefully around these individuals, for fear of drawing the attention of more powerful Core World interests.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -59,7 +59,7 @@
 	{
 		"name": "Big Game Hunter",
 		"type": "Nemesis",
-		"description": "The Rim’s many dangerous worlds are home to count­less frightening creatures, and big game hunters prey on the largest and most menacing of these. Frequently operating at the edges of civilization, these beings ex­plore the deepest jungles, penetrate the harshest des­erts, and even venture into the bottomless depths of ocean worlds to track and kill or capture the fiercest animals known to the galaxy. Some take contracts from settlements or rancher barons to eliminate dangerous predators. Others help fill the galaxy’s fighting pits and gladiatorial arenas with a never-ending supply of exotic threats. Finally, some hunt for sport, savoring the rush of adrenaline at every kill. Big game hunters are deadly combatants, especially when circumstances require them to hunt the deadliest game: other sentients.",
+		"description": "The Rim’s many dangerous worlds are home to countless frightening creatures, and big game hunters prey on the largest and most menacing of these. Frequently operating at the edges of civilization, these beings explore the deepest jungles, penetrate the harshest deserts, and even venture into the bottomless depths of ocean worlds to track and kill or capture the fiercest animals known to the galaxy. Some take contracts from settlements or rancher barons to eliminate dangerous predators. Others help fill the galaxy’s fighting pits and gladiatorial arenas with a never-ending supply of exotic threats. Finally, some hunt for sport, savoring the rush of adrenaline at every kill. Big game hunters are deadly combatants, especially when circumstances require them to hunt the deadliest game: other sentients.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -78,7 +78,7 @@
 			"Cool": 3,
 			"Knowledge: Xenology": 2,
 			"Melee": 3,
-			"Per­ception": 3,
+			"Perception": 3,
 			"Piloting: Planetary": 2,
 			"Ranged: Heavy": 4,
 			"Stealth": 3,
@@ -109,7 +109,7 @@
 	{
 		"name": "Bith Musician",
 		"type": "Minion",
-		"description": "Native to the Rim world of Clak’dor VII, the highly evolved, humanoid Bith have spent millennia devel­oping their minds to enhance abstract thinking skills such as language, logic, mathematics, and music, while at the same time diminishing their capacity to exhibit fear and aggression. This has resulted in a biological destiny of pacifism, and has made them sought after throughout the galaxy as computer pro­grammers, engineers, and musicians. The Bith do not sleep, needing only brief periods of meditation to rest their bodies. This quality has proven especially useful to those among them who follow careers as perform­ ers in the round-the-clock cantinas and nightclubs of the Rim. Bith musicians may be encountered any­ where sentients gather to be entertained.",
+		"description": "Native to the Rim world of Clak’dor VII, the highly evolved, humanoid Bith have spent millennia developing their minds to enhance abstract thinking skills such as language, logic, mathematics, and music, while at the same time diminishing their capacity to exhibit fear and aggression. This has resulted in a biological destiny of pacifism, and has made them sought after throughout the galaxy as computer programmers, engineers, and musicians. The Bith do not sleep, needing only brief periods of meditation to rest their bodies. This quality has proven especially useful to those among them who follow careers as perform ers in the round-the-clock cantinas and nightclubs of the Rim. Bith musicians may be encountered any where sentients gather to be entertained.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 3,
@@ -130,7 +130,7 @@
 	{
 		"name": "Brionelle Army Cadet",
 		"type": "Minion",
-		"description": "Cadets from the Brionelle Academy explore Hanna City in groups of two to six during downtime between classes. Their close-cropped haircuts and rigid pos­tures make the cadets easy to spot. Cadets enjoy debating the merits and drawbacks of military force, and they engage in spirited conversation exercising the ideals taught by their instructors.",
+		"description": "Cadets from the Brionelle Academy explore Hanna City in groups of two to six during downtime between classes. Their close-cropped haircuts and rigid postures make the cadets easy to spot. Cadets enjoy debating the merits and drawbacks of military force, and they engage in spirited conversation exercising the ideals taught by their instructors.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -143,7 +143,7 @@
 			"soak": 3,
 			"wounds": 4
 		},
-		"skills": ["Athletics", "Coordination", "Knowl­edge: Education", "Knowledge: Warfare", "Discipline,", "Piloting: Planetary", "Ranged: Light", "Vigilance."],
+		"skills": ["Athletics", "Coordination", "Knowledge: Education", "Knowledge: Warfare", "Discipline,", "Piloting: Planetary", "Ranged: Light", "Vigilance."],
 		"gear": ["Comlink", "Datapad", "Academy uniform"],
 		"tags": ["military", "location:Chandrila", "book:sor", "species:Chandrilan"]
 	},
@@ -170,7 +170,7 @@
 	{
 		"name": "Chandrilan Agriculturalist",
 		"type": "Rival",
-		"description": "The cornerstone of the local economy, Chandrilan farmers and ranchers still feed much of the Core. Hard-working, educated, and politically active work­ ers are a source of planetary pride. Farmers keep their families small, and bring on a few hired hands or droids to handle additional labor needs. Most farmers and ranchers own stun rifles, but they are relatively trusting of visitors, as long as they stick to the paths and aren’t trespassing or poaching.",
+		"description": "The cornerstone of the local economy, Chandrilan farmers and ranchers still feed much of the Core. Hard-working, educated, and politically active work ers are a source of planetary pride. Farmers keep their families small, and bring on a few hired hands or droids to handle additional labor needs. Most farmers and ranchers own stun rifles, but they are relatively trusting of visitors, as long as they stick to the paths and aren’t trespassing or poaching.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -187,7 +187,7 @@
 			"Athletics": 1,
 			"Mechanics": 2,
 			"Negotiation": 2,
-			"Resil­ience": 3,
+			"Resilience": 3,
 			"Survival": 2
 		},
 		"weapons": [
@@ -218,14 +218,14 @@
 			"soak": 2,
 			"wounds": 3
 		},
-		"skills": ["Knowledge: Core Worlds", "Knowl­edge: Education", "Negotiation", "Perception"],
+		"skills": ["Knowledge: Core Worlds", "Knowledge: Education", "Negotiation", "Perception"],
 		"gear": ["Comlink", "Datapad", "100 credits"],
 		"tags": ["civilian", "location:Chandrila", "book:sor", "species:Chandrilan"]
 	},
 	{
 		"name": "Chandrilan Governor",
 		"type": "Nemesis",
-		"description": "The governors of Chandrila are among the best pub­lic speakers and debaters in the galaxy. Their impas­sioned arguments and well-researched points make them difficult to debate. While the three most pow­erful are Governors Centi of Hanna City, Dehsea of Emita, and Millae of Nayli, more than one thousand other governors lead smaller communities, which they represent at Chandrilan House during house sessions.\n\nRespected governors are accessible to their constit­uents; they are often found in debate forums open to public participation on set days of the week. An elu­sive governor is considered weak, hiding from public debate of unpopular policies. Governors are typically accompanied by aides.",
+		"description": "The governors of Chandrila are among the best public speakers and debaters in the galaxy. Their impassioned arguments and well-researched points make them difficult to debate. While the three most powerful are Governors Centi of Hanna City, Dehsea of Emita, and Millae of Nayli, more than one thousand other governors lead smaller communities, which they represent at Chandrilan House during house sessions.\n\nRespected governors are accessible to their constituents; they are often found in debate forums open to public participation on set days of the week. An elusive governor is considered weak, hiding from public debate of unpopular policies. Governors are typically accompanied by aides.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -258,7 +258,7 @@
 	{
 		"name": "Chandrilan Navy Officer",
 		"type": "Rival",
-		"description": "Graduates of the Brionelle Academy often find work in the Chandrilan Security Force as ranking customs officers, on orbital defense platforms, or as pilots in the starfighter defense wings. Graduates of Brionelle are well educated and considered pillars of the com­munity in many cases. It is common for naval officers to also engage in some form of boating, whether the boat is a powered yacht or a sailing vessel.",
+		"description": "Graduates of the Brionelle Academy often find work in the Chandrilan Security Force as ranking customs officers, on orbital defense platforms, or as pilots in the starfighter defense wings. Graduates of Brionelle are well educated and considered pillars of the community in many cases. It is common for naval officers to also engage in some form of boating, whether the boat is a powered yacht or a sailing vessel.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -275,7 +275,7 @@
 			"Astrogation": 2,
 			"Computers": 2,
 			"Cool": 2,
-			"Knowl­edge: Core Worlds": 2,
+			"Knowledge: Core Worlds": 2,
 			"Leadership": 3
 		},
 		"talents": ["Fire Control"],
@@ -314,7 +314,7 @@
 	{
 		"name": "Comm Operator",
 		"type": "Rival",
-		"description": "Comm operators are the lifeblood of a spaceport. They are the ones who communicate with outgoing and incoming ships and manage approval of all de­partures and arrivals. They endeavor to keep the traffic above a spaceport orderly and prevent acci­dents. Such accidents happen anyway, but their rarity is testament to the skill of these officers. Some operators develop familiarities or even rela­tionships with the ship crews they communicate with most frequently, and have been known to give preferential berths to close friends, or at least peo­ple who remember who their friends are when the credits are flowing.",
+		"description": "Comm operators are the lifeblood of a spaceport. They are the ones who communicate with outgoing and incoming ships and manage approval of all departures and arrivals. They endeavor to keep the traffic above a spaceport orderly and prevent accidents. Such accidents happen anyway, but their rarity is testament to the skill of these officers. Some operators develop familiarities or even relationships with the ship crews they communicate with most frequently, and have been known to give preferential berths to close friends, or at least people who remember who their friends are when the credits are flowing.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -331,7 +331,7 @@
 			"Charm": 2,
 			"Coercion": 1,
 			"Cool": 1,
-			"Knowledge: Out­er Rim": 3
+			"Knowledge: Outer Rim": 3
 		},
 		"weapons": ["Light blaster pistol"],
 		"gear": ["Encrypted comlink"],
@@ -368,7 +368,7 @@
 	{
 		"name": "Corrupt Bureaucrat",
 		"type": "Rival",
-		"description": "Politics is a deadly game and often those who play it have a wide variety of plots and machinations in mo­tion at any one time. Many of these depend upon the extensive use of ignorant, expendable pawns. Crimi­nals, and those who society would prefer to ignore, are ideally suited for this manner of operation. A cunning politico knows how to make use of such vassals, prom­ising them enough cash to ensure they are interested without asking too many questions. Those who can get the job done and keep their mouths shut can find lu­crative, long-term employment, while those who cause too much of a spectacle can quietly be diverted into situations that allow the problem to resolve itself, usually in a violent manner.",
+		"description": "Politics is a deadly game and often those who play it have a wide variety of plots and machinations in motion at any one time. Many of these depend upon the extensive use of ignorant, expendable pawns. Criminals, and those who society would prefer to ignore, are ideally suited for this manner of operation. A cunning politico knows how to make use of such vassals, promising them enough cash to ensure they are interested without asking too many questions. Those who can get the job done and keep their mouths shut can find lucrative, long-term employment, while those who cause too much of a spectacle can quietly be diverted into situations that allow the problem to resolve itself, usually in a violent manner.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -395,7 +395,7 @@
 	{
 		"name": "Customs Inspector",
 		"type": "Rival",
-		"description": "The customs official is the bane of existence for all those who seek to transport goods from one part of the galaxy to another without questions being asked. Fortunately, many officials are perfectly happy to ac­cept a bribe. Unfortunately, there are quite a few who are not and even more unfortunately, telling the dif­ference between the two can be exceptionally diffi­cult. Customs inspectors are responsible for checking any cargo transported into a spaceport and their seal of approval is required before it can be offloaded onto another vessel or planet-bound location. They fre­quently travel in the company of spaceport security.",
+		"description": "The customs official is the bane of existence for all those who seek to transport goods from one part of the galaxy to another without questions being asked. Fortunately, many officials are perfectly happy to accept a bribe. Unfortunately, there are quite a few who are not and even more unfortunately, telling the difference between the two can be exceptionally difficult. Customs inspectors are responsible for checking any cargo transported into a spaceport and their seal of approval is required before it can be offloaded onto another vessel or planet-bound location. They frequently travel in the company of spaceport security.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -420,7 +420,7 @@
 	{
 		"name": "Doellinist High Priest",
 		"type": "Nemesis",
-		"description": "The Doellinist priesthood on Kinyen is the only career path Gran can choose without government interfer­ ence. Any Gran interested in joining the priesthood, or who wish to escape the job sector chosen for them by Kinyen’s government, can apply. The priesthood also offers part-time opportunities that allow Gran to remain in their designated profession as well. An esti­mated one in ten Gran have achieved some measure of standing within the priesthood and are trained to provide counsel, comfort, and company to those Gran in need.",
+		"description": "The Doellinist priesthood on Kinyen is the only career path Gran can choose without government interfer ence. Any Gran interested in joining the priesthood, or who wish to escape the job sector chosen for them by Kinyen’s government, can apply. The priesthood also offers part-time opportunities that allow Gran to remain in their designated profession as well. An estimated one in ten Gran have achieved some measure of standing within the priesthood and are trained to provide counsel, comfort, and company to those Gran in need.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 2,
@@ -477,7 +477,7 @@
 	{
 		"name": "Philanthropic Senator",
 		"type": "Rival",
-		"description": "Imperial Senators have a great deal of influence throughout the galaxy, even after the dissolution of the Senate by the Emperor’s decree. Since the Sen­ate’s dissolution, the Senators have a great deal of time on their hands and significant resources. Many choose to travel the galaxy, looking for ways to al­leviate the suffering of the people who have been oppressed under the new totalitarian doctrines of the Empire. Although it is not particularly common for these individuals to come into contact with the criminal underworld, it certainly is not out of the realm of possibility, particularly if the criminals in question have some resource that the Senator thinks can be of use to the poor and downtrodden.",
+		"description": "Imperial Senators have a great deal of influence throughout the galaxy, even after the dissolution of the Senate by the Emperor’s decree. Since the Senate’s dissolution, the Senators have a great deal of time on their hands and significant resources. Many choose to travel the galaxy, looking for ways to alleviate the suffering of the people who have been oppressed under the new totalitarian doctrines of the Empire. Although it is not particularly common for these individuals to come into contact with the criminal underworld, it certainly is not out of the realm of possibility, particularly if the criminals in question have some resource that the Senator thinks can be of use to the poor and downtrodden.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -545,7 +545,7 @@
 	{
 		"name": "CSA Security Police",
 		"type": "Minion",
-		"description": "The Corporate Sector Authority is a massive corporate bureaucracy that governs a large sector of space along the Tingel Arm of the galaxy in the Outer Rim territories. The government is, as indicated by its name, a corporate entity that has complete control over the sector as a result of a unique arrangement that far predates the estab­lishment of the Galactic Empire, but which is main­tained through a mutually beneficial arrangement between those two bodies. The CSA enforces its policies and taws thr ough its taw enforcement divi­si on: the Security Police. Commonty catted Espos, the CSA police are known for their brutality as well as the quality of their equipment They are much better -funded than m ost sector police forces and do n ot hesitate to crush anyone or anything that they believe threatens the peace and prosperity of the CSA’s rule over the Corporate Sector.",
+		"description": "The Corporate Sector Authority is a massive corporate bureaucracy that governs a large sector of space along the Tingel Arm of the galaxy in the Outer Rim territories. The government is, as indicated by its name, a corporate entity that has complete control over the sector as a result of a unique arrangement that far predates the establishment of the Galactic Empire, but which is maintained through a mutually beneficial arrangement between those two bodies. The CSA enforces its policies and taws thr ough its taw enforcement divisi on: the Security Police. Commonty catted Espos, the CSA police are known for their brutality as well as the quality of their equipment They are much better -funded than m ost sector police forces and do n ot hesitate to crush anyone or anything that they believe threatens the peace and prosperity of the CSA’s rule over the Corporate Sector.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -566,7 +566,7 @@
 	{
 		"name": "CSA Security Captain",
 		"type": "Rival",
-		"description": "The CSA often makes it a point to recruit tough, even bru­tal individuals into the ranks of its Espos. Creative thinking or equitable public relations are not as desired as the abil­ity to enforce the CSA’s rule through fear and violence. This applies to the Espos’ commanders as welt as the rank and file. Captains in the Espos are brutal, no-nonsense individuals either promoted through the ranks or given the job due to corporate connections. Their enforcement tactics tend to treat brute force as the only resort instead of the last, a quality which does not endear them to many of the Corporate Sector’s inhabitants. Many “investiga­tions” ted by Espo captains last only as tong as it takes to find a convenient scapegoat to blame.",
+		"description": "The CSA often makes it a point to recruit tough, even brutal individuals into the ranks of its Espos. Creative thinking or equitable public relations are not as desired as the ability to enforce the CSA’s rule through fear and violence. This applies to the Espos’ commanders as welt as the rank and file. Captains in the Espos are brutal, no-nonsense individuals either promoted through the ranks or given the job due to corporate connections. Their enforcement tactics tend to treat brute force as the only resort instead of the last, a quality which does not endear them to many of the Corporate Sector’s inhabitants. Many “investigations” ted by Espo captains last only as tong as it takes to find a convenient scapegoat to blame.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -602,7 +602,7 @@
 	{
 		"name": "CSA Viceprex",
 		"type": "Nemesis",
-		"description": "The political and economic policies of the Empire ensure that any corporation that shows favor to the Imperial ma­chine is rewarded with virtual autonomy so long as they do not make life difficult for Imperial personnel. No orga­nization better exemplifies the dangers of this policy more so than the Corporate Sector Authority. The Corpo­rate Sector Authority Viceprex level officials head up en­tire departments of the CSA, from research to legal to territorial management. A Viceprex is a powerful individ­ual whose rank and influence lets him ignore petty con­cerns such as laws and regulations. The CSA does not overly care about the actions of their officials as long as the profits flow, so while one Viceprex might be honor­able and honest, another may be corrupt and malicious.",
+		"description": "The political and economic policies of the Empire ensure that any corporation that shows favor to the Imperial machine is rewarded with virtual autonomy so long as they do not make life difficult for Imperial personnel. No organization better exemplifies the dangers of this policy more so than the Corporate Sector Authority. The Corporate Sector Authority Viceprex level officials head up entire departments of the CSA, from research to legal to territorial management. A Viceprex is a powerful individual whose rank and influence lets him ignore petty concerns such as laws and regulations. The CSA does not overly care about the actions of their officials as long as the profits flow, so while one Viceprex might be honorable and honest, another may be corrupt and malicious.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -689,7 +689,7 @@
 	{
 		"name": "Mon Calamari Shipwright",
 		"type": "Rival",
-		"description": "One key defining aspect of Mon Cala is its natives’ artistic aesthetic when it comes to design, especially starship design. In both orbital and underwater ship­ yards, millions of Mon Calamari engineers and ship­ wrights collaborate with Quarren shipbuilders to create vessels of a quality rarely seen in the galaxy. Although these shipbuilders work from similar sche­matics to mass-produce certain starship models, no two ships are quite alike.",
+		"description": "One key defining aspect of Mon Cala is its natives’ artistic aesthetic when it comes to design, especially starship design. In both orbital and underwater ship yards, millions of Mon Calamari engineers and ship wrights collaborate with Quarren shipbuilders to create vessels of a quality rarely seen in the galaxy. Although these shipbuilders work from similar schematics to mass-produce certain starship models, no two ships are quite alike.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -774,7 +774,7 @@
 	{
 		"name": "Orange-Rated Constable",
 		"type": "Minion",
-		"description": "Infrared-rated constables are still recruits, and red­-rated constables are rookies, but most of the con­stabulary comprises orange-rated constables. These constables operate in teams of two, usually with a long-term partner who is a relative. Orange-rated constables often patrol a specific beat from within a speeder or guard a specific checkpoint or location.",
+		"description": "Infrared-rated constables are still recruits, and red-rated constables are rookies, but most of the constabulary comprises orange-rated constables. These constables operate in teams of two, usually with a long-term partner who is a relative. Orange-rated constables often patrol a specific beat from within a speeder or guard a specific checkpoint or location.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -965,7 +965,7 @@
 	{
 		"name": "Planetary Defence Trooper",
 		"type": "Minion",
-		"description": "There are very few planets that rely entirely on an out­side agency for their protection. Most possess at least a marginal military force of their own, dedicated to pro­tecting the planet’s most valuable or sacred sites. Plan­etary defense troopers rarely have the most advanced or most up-to-date equipment, often employing locally produced weaponry and armour, but what they do have is typically well made and serves its purpose.",
+		"description": "There are very few planets that rely entirely on an outside agency for their protection. Most possess at least a marginal military force of their own, dedicated to protecting the planet’s most valuable or sacred sites. Planetary defense troopers rarely have the most advanced or most up-to-date equipment, often employing locally produced weaponry and armour, but what they do have is typically well made and serves its purpose.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -986,7 +986,7 @@
 	{
 		"name": "Military Starfighter Pilot",
 		"type": "Minion",
-		"description": "Starfighters are an essential component of any major military installation. The small, fast ships can harry much larger targets and support a vast array of fire-power that can make them a threat even to capital­-scale vessels. The tactics of the Rebel Alliance, and particularly their victory at the Battle of Yavin, has demonstrated that starfighters can be a vital compo­nent of any attack force. Starfighters may be tasked with defending parent ships against enemy starfight­ers, scouting and reconnaissance, or even heavy assaults on enemy ships or installations. However, the pilots of these vessels almost always possess quick re­flexes, talented piloting skills, and a foolhardy bravado.",
+		"description": "Starfighters are an essential component of any major military installation. The small, fast ships can harry much larger targets and support a vast array of fire-power that can make them a threat even to capital-scale vessels. The tactics of the Rebel Alliance, and particularly their victory at the Battle of Yavin, has demonstrated that starfighters can be a vital component of any attack force. Starfighters may be tasked with defending parent ships against enemy starfighters, scouting and reconnaissance, or even heavy assaults on enemy ships or installations. However, the pilots of these vessels almost always possess quick reflexes, talented piloting skills, and a foolhardy bravado.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -1007,7 +1007,7 @@
 	{
 		"name": "Planetary Governor",
 		"type": "Nemesis",
-		"description": "In the eyes of the Empire, a planet is the smallest au­tonomous body of note anywhere within the galaxy. Cities and nations are of no real consequence to a bureaucracy as large as the Empire, but a planet-wide government can at least offer a significant quantity of resources, some extremely valuable, to an extent that makes a planet worthy of attention. For that reason, planetary governors are at least a consideration even to the officers of the Imperial Navy. They are given due consideration and their independence is not trod upon unless absolutely necessary. If planetary consid­erations stand in the way of the Imperial agenda, how­ever, they are swept aside without a thought; even the most considerate of Imperial officers has his limits.",
+		"description": "In the eyes of the Empire, a planet is the smallest autonomous body of note anywhere within the galaxy. Cities and nations are of no real consequence to a bureaucracy as large as the Empire, but a planet-wide government can at least offer a significant quantity of resources, some extremely valuable, to an extent that makes a planet worthy of attention. For that reason, planetary governors are at least a consideration even to the officers of the Imperial Navy. They are given due consideration and their independence is not trod upon unless absolutely necessary. If planetary considerations stand in the way of the Imperial agenda, however, they are swept aside without a thought; even the most considerate of Imperial officers has his limits.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -1026,7 +1026,7 @@
 			"Coercion": 4,
 			"Cool": 2,
 			"Deception": 3,
-			"Per­ception": 4,
+			"Perception": 4,
 			"Knowledge: Education": 4,
 			"Leadership": 3,
 			"Ranged: Light": 3,
@@ -1074,7 +1074,7 @@
 	{
 		"name": "Provincial Law Enforcement Officer",
 		"type": "Minion",
-		"description": "The day-to-day enforcement of laws does not gen­erally fall on the armoured shoulders of stormtroopers. Instead, most regions and municipalities rely on local talent, drawn from their own populations, to keep the peace, investigate criminal activity, and protect the citizenry from any threats that might arise. Though the details of their organizations and degrees of com petence are as varied as the worlds they patrol, in general, provincial law enforcement officers are lightly armed and armoured, with their most powerful weapons the comlinks they carry to call for backup when needed.",
+		"description": "The day-to-day enforcement of laws does not generally fall on the armoured shoulders of stormtroopers. Instead, most regions and municipalities rely on local talent, drawn from their own populations, to keep the peace, investigate criminal activity, and protect the citizenry from any threats that might arise. Though the details of their organizations and degrees of com petence are as varied as the worlds they patrol, in general, provincial law enforcement officers are lightly armed and armoured, with their most powerful weapons the comlinks they carry to call for backup when needed.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -1095,7 +1095,7 @@
 	{
 		"name": "Sector Ranger",
 		"type": "Rival",
-		"description": "There are a great number of similarities among the majority of law enforcement personnel, but few are cut from the same mold as the Sector Rangers. These individuals are authorized by the Empire, through the local sector government, to seek out any and all viola­ tions of law in an entire sector of the galaxy. In many ways, sector rangers are the opposite of smugglers; fiercely independent and possessed of a tremendous degree of autonomy and ingenuity But instead of self­ish desires for wealth, they possess a strong desire to see justice served. Sector rangers rarely work well with others but their tenacity can hound a lawbreaker across a sector and back, making them among the most carefully avoided authorities in the galaxy.",
+		"description": "There are a great number of similarities among the majority of law enforcement personnel, but few are cut from the same mold as the Sector Rangers. These individuals are authorized by the Empire, through the local sector government, to seek out any and all viola tions of law in an entire sector of the galaxy. In many ways, sector rangers are the opposite of smugglers; fiercely independent and possessed of a tremendous degree of autonomy and ingenuity But instead of selfish desires for wealth, they possess a strong desire to see justice served. Sector rangers rarely work well with others but their tenacity can hound a lawbreaker across a sector and back, making them among the most carefully avoided authorities in the galaxy.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -1138,7 +1138,7 @@
 	{
 		"name": "Spaceport Security Detail",
 		"type": "Minion",
-		"description": "Individuals who serve as part of a spaceport security detail possess the same authority as planetary law enforcement, although they have only a portion of the training and are limited solely to the grounds of the spaceport itself. Because of the much more limited mandate compared to most enforcement agencies, many spaceport security details have more narrowly­ focused, but higher quality, equipment.",
+		"description": "Individuals who serve as part of a spaceport security detail possess the same authority as planetary law enforcement, although they have only a portion of the training and are limited solely to the grounds of the spaceport itself. Because of the much more limited mandate compared to most enforcement agencies, many spaceport security details have more narrowly focused, but higher quality, equipment.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -1189,7 +1189,7 @@
 	{
 		"name": "Sullustan Pilot-for-Hire",
 		"type": "Rival",
-		"description": "There are always those who love to fly, but are unwill­ing or unable to accept the rigid discipline and strict protocols of consistent flying for the military or for a corporation. Many become pilots-for-hire, selling their considerable skills to anyone willing to pay them to do what they love climbing into the cockpit of a starship and taking to the hyperlanes. Sullustans of­ ten fall into this category. These short humanoids evolved in underground conditions and have an in­nate pathfinding ability as well as extremely sensitive sensory organs. Many use these abilities to become skilled navigators or talented starship pilots.",
+		"description": "There are always those who love to fly, but are unwilling or unable to accept the rigid discipline and strict protocols of consistent flying for the military or for a corporation. Many become pilots-for-hire, selling their considerable skills to anyone willing to pay them to do what they love climbing into the cockpit of a starship and taking to the hyperlanes. Sullustans of ten fall into this category. These short humanoids evolved in underground conditions and have an innate pathfinding ability as well as extremely sensitive sensory organs. Many use these abilities to become skilled navigators or talented starship pilots.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 2,
@@ -1219,7 +1219,7 @@
 	{
 		"name": "Spaceport Administrator",
 		"type": "Nemesis",
-		"description": "On some worlds, a spaceport is like a tiny kingdom unto itself. On others, it is merely one cog in a vast bureaucratic machine that spans entire systems. Re­gardless, the ultimate authority for the administration of a spaceport typically falls to a single being, at least in the short term, and that individual is authorized to make whatever decisions must be made for the good of the installation when trouble arises. A spaceport ad­ministrator can be an incredible ally for a pilot and his crew or he can make their lives so miserable that they avoid certain spaceports at all cost.",
+		"description": "On some worlds, a spaceport is like a tiny kingdom unto itself. On others, it is merely one cog in a vast bureaucratic machine that spans entire systems. Regardless, the ultimate authority for the administration of a spaceport typically falls to a single being, at least in the short term, and that individual is authorized to make whatever decisions must be made for the good of the installation when trouble arises. A spaceport administrator can be an incredible ally for a pilot and his crew or he can make their lives so miserable that they avoid certain spaceports at all cost.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -1279,7 +1279,7 @@
 	{
 		"name": "Spaceport Urchin",
 		"type": "Minion",
-		"description": "Every spaceport has at least one wretched misfit, and most have far more. A spaceport urchin is a young indi­vidual, around ten years old by human standards, that seems to have absolutely nowhere else to go and noth­ing else to do than loiter around the facility sticking his nose into anything that attracts his attention. Constantly underfoot, frequently annoying, and occasionally larce­nous, spaceport urchins can either be the bane of visit­ ing spacers or welcome mascots and familiar faces. Likewise, they can either be de­spised by the spaceport staff or be looked upon as little brother and sisters s to be watched over. The state and dispo­sition of spaceport urchins says a great deal about the administration and policies of a spaceport in general.",
+		"description": "Every spaceport has at least one wretched misfit, and most have far more. A spaceport urchin is a young individual, around ten years old by human standards, that seems to have absolutely nowhere else to go and nothing else to do than loiter around the facility sticking his nose into anything that attracts his attention. Constantly underfoot, frequently annoying, and occasionally larcenous, spaceport urchins can either be the bane of visit ing spacers or welcome mascots and familiar faces. Likewise, they can either be despised by the spaceport staff or be looked upon as little brother and sisters s to be watched over. The state and disposition of spaceport urchins says a great deal about the administration and policies of a spaceport in general.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 2,
@@ -1390,7 +1390,7 @@
 	{
 		"name": "Toydarian Royal Guard",
 		"type": "Rival",
-		"description": "King Katuunko’s assassination brought superstition and fear into the Toydarian royal court. Fearing repri­sals after the Declaration of the New Order, the royal guard formed an elite brigade tasked with uncovering and eliminating Force users. The king’s royal guards wield specialized weaponry such as cortosis-lined scimitars and train their wills to resist the mystical influ­ence that Force-sensitives wield. Of course, like most galactic citizens, they have a limited actual understand­ ing of Force users and the powers they manifest.",
+		"description": "King Katuunko’s assassination brought superstition and fear into the Toydarian royal court. Fearing reprisals after the Declaration of the New Order, the royal guard formed an elite brigade tasked with uncovering and eliminating Force users. The king’s royal guards wield specialized weaponry such as cortosis-lined scimitars and train their wills to resist the mystical influence that Force-sensitives wield. Of course, like most galactic citizens, they have a limited actual understand ing of Force users and the powers they manifest.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 4,

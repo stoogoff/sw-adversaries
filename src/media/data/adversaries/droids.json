@@ -54,7 +54,7 @@
 	{
 		"name": "501-Z Police Droid",
 		"type": "Rival",
-		"description": "SoroSuub’s first and only foray into law enforcement droids, the 501 -Z is one of the more popular police droids currently on the market. Tall and angular, the 501-Z is clad in heavy-duty, shock-resistant armour that gives these droids a rather imposing appear­ance. Colloquially known as Zeds, these droids fea­ture a sophisticated analytical droid brain that is part protocol droid and part combat droid. They are pro­grammed for communications, community relations, riot control, and general policing, and they have a reputation as dogged and competent law enforce­ment officers. Some have even been upgraded to operate as detectives and special investigators, using their analytic brains and programming to great effect. While they are typically programmed to use only non-lethal force, those used by SoroSuub for corporate security operations can, and often do, use lethal force when protecting highly sensitive corporate assets.",
+		"description": "SoroSuub’s first and only foray into law enforcement droids, the 501 -Z is one of the more popular police droids currently on the market. Tall and angular, the 501-Z is clad in heavy-duty, shock-resistant armour that gives these droids a rather imposing appearance. Colloquially known as Zeds, these droids feature a sophisticated analytical droid brain that is part protocol droid and part combat droid. They are programmed for communications, community relations, riot control, and general policing, and they have a reputation as dogged and competent law enforcement officers. Some have even been upgraded to operate as detectives and special investigators, using their analytic brains and programming to great effect. While they are typically programmed to use only non-lethal force, those used by SoroSuub for corporate security operations can, and often do, use lethal force when protecting highly sensitive corporate assets.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -218,7 +218,7 @@
 	{
 		"name": "Antiquated Battle Droid",
 		"type": "Minion",
-		"description": "The most frequently encountered droid of this type is the B1 battle droid produced by Baktoid Combat Au­tomata. A generation ago, these frail-looking droids were the terror of the galaxy. Legions of them formed the Separatist armies during the Clone Wars but the intervening years have not been kind to their design, which was inexpensive to begin with. Although no rep­ utable military still employs these droids in number, they can be found in limited quantities in the forces of crime lords, mercenaries, and various other ne’er-do­-wells throughout the underbelly of the galaxy.",
+		"description": "The most frequently encountered droid of this type is the B1 battle droid produced by Baktoid Combat Automata. A generation ago, these frail-looking droids were the terror of the galaxy. Legions of them formed the Separatist armies during the Clone Wars but the intervening years have not been kind to their design, which was inexpensive to begin with. Although no rep utable military still employs these droids in number, they can be found in limited quantities in the forces of crime lords, mercenaries, and various other ne’er-do-wells throughout the underbelly of the galaxy.",
 		"notes": "Cost 6,500, Rarity 5",
 		"characteristics": {
 			"Brawn": 2,
@@ -363,7 +363,7 @@
 	{
 		"name": "CT-4 Medical Droid",
 		"type": "Rival",
-		"description": "The CT-4 series medical droids are manufactured in Polis Massa by Polis Massa Pria Assemblage, and are almost exclusively used there. They are similar in many respects to the EW-3 midwife droid but are more generalized in their application. A handful of the units are on loan to the Rebel Alliance, though they are rarelv used awav from the Rebel Fleet.\n\nSpecializing in the application of bacta, the CT-4 possesses programming that makes it familiar with thousands of sentient species and their physiologi­cal peculiarities. Their personalities are caring and thoughtful, and their relatively small size and non­-human shape rarely sets patients at ease in the same way as does the more familiar 2-1 B surgical droid.",
+		"description": "The CT-4 series medical droids are manufactured in Polis Massa by Polis Massa Pria Assemblage, and are almost exclusively used there. They are similar in many respects to the EW-3 midwife droid but are more generalized in their application. A handful of the units are on loan to the Rebel Alliance, though they are rarelv used awav from the Rebel Fleet.\n\nSpecializing in the application of bacta, the CT-4 possesses programming that makes it familiar with thousands of sentient species and their physiological peculiarities. Their personalities are caring and thoughtful, and their relatively small size and non-human shape rarely sets patients at ease in the same way as does the more familiar 2-1 B surgical droid.",
 		"notes": "Cost 20,000 credits, Rarity 8",
 		"characteristics": {
 			"Brawn": 1,
@@ -386,7 +386,7 @@
 		},
 		"talents": ["Bacta Specialist 2", "Surgeon 1"],
 		"abilities": ["Droid"],
-		"gear": ["Built-in diagnostic and surgical tools (counts as medpac as well as stimpack that can be used once per session)", "Synthflesh applicator (can adminis­ter application of synthflesh five times per session)"],
+		"gear": ["Built-in diagnostic and surgical tools (counts as medpac as well as stimpack that can be used once per session)", "Synthflesh applicator (can administer application of synthflesh five times per session)"],
 		"tags": ["species:Droid", "medic", "book:sor"]
 	},
 	{
@@ -419,7 +419,7 @@
 	{
 		"name": "Damaged Basilisk",
 		"type": "Nemesis",
-		"description": "In the ancient days of the Mandalorian Wars, the Mandalorians rode into battle on nightmarish war droids called Basilisks. More sentient than most droids, Basi­lisks were heavily armed and could even fly through space. Most were destroyed when the Mandalorians lost the war thousands of years ago, and most of the galaxy has mercifully forgotten they exist.",
+		"description": "In the ancient days of the Mandalorian Wars, the Mandalorians rode into battle on nightmarish war droids called Basilisks. More sentient than most droids, Basilisks were heavily armed and could even fly through space. Most were destroyed when the Mandalorians lost the war thousands of years ago, and most of the galaxy has mercifully forgotten they exist.",
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 2,
@@ -516,7 +516,7 @@
 	{
 		"name": "Generic Remote",
 		"type": "Minion",
-		"description": "Small wheeled devices, spheres with miniature repul­sorlifts, and various other chassis house generic remotes. which can perform basic preprogrammed tasks in response to simple commands from users.",
+		"description": "Small wheeled devices, spheres with miniature repulsorlifts, and various other chassis house generic remotes. which can perform basic preprogrammed tasks in response to simple commands from users.",
 		"notes": "Cost 400 credits, Rarity 2",
 		"characteristics": {
 			"Brawn": 1,
@@ -568,7 +568,7 @@
 	{
 		"name": "GV/3-Series Guardian Droid",
 		"type": "Rival",
-		"description": "The GV/3 guardian droid, manufactured by Cybot Galactica is one of the most advanced security droids on the market. Designed to resemble a four-legged canine. the GV/3 is broad and powerful in appearance. The droid’s sturdy construction is further reinforced with plasteel plates. and integrated so­ lar panels guarantee that it rarely needs recharging.\n\nThe droid’s programming emulates that of a very intelligent beast. and it communicates with its master in a series or yips. yelps. barks. and growls. GV/3 guardian droids come standard with strong loyalty imprint software that can be keyed to any number of subjects As long as a specific individual is imprinted in the droid’s memory, it follows that being’s com­mands and. to the best of its ability, prevents that person ’rom being injured. whether by deliberate action or by ac­cident. Despite the GV/3’s physical strength, it is capable of being gentle and even playful. especially around children. The GV/3 is popularly used for home security and by law enforcement agencies. It has also been adapted to search and rescue operations with much success. Though it is considered a benign droid in most areas. some models have been modi­fied by unscfUpulous individuals for criminal applications.",
+		"description": "The GV/3 guardian droid, manufactured by Cybot Galactica is one of the most advanced security droids on the market. Designed to resemble a four-legged canine. the GV/3 is broad and powerful in appearance. The droid’s sturdy construction is further reinforced with plasteel plates. and integrated so lar panels guarantee that it rarely needs recharging.\n\nThe droid’s programming emulates that of a very intelligent beast. and it communicates with its master in a series or yips. yelps. barks. and growls. GV/3 guardian droids come standard with strong loyalty imprint software that can be keyed to any number of subjects As long as a specific individual is imprinted in the droid’s memory, it follows that being’s commands and. to the best of its ability, prevents that person ’rom being injured. whether by deliberate action or by accident. Despite the GV/3’s physical strength, it is capable of being gentle and even playful. especially around children. The GV/3 is popularly used for home security and by law enforcement agencies. It has also been adapted to search and rescue operations with much success. Though it is considered a benign droid in most areas. some models have been modified by unscfUpulous individuals for criminal applications.",
 		"notes": "Cost 8,000 credits, Rarity 7",
 		"characteristics": {
 			"Brawn": 3,
@@ -805,7 +805,7 @@
 			"Knowledge: Xenology": 3,
 			"Negotiation": 2
 		},
-		"abilities": ["Droid", "Etiquette and Protocol", "Insectoid Appear­ance"],
+		"abilities": ["Droid", "Etiquette and Protocol", "Insectoid Appearance"],
 		"tags": ["book:da", "species:Droid", "protocol droid"]
 	},
 	{
@@ -908,7 +908,7 @@
 	{
 		"name": "Marksman-H Combat Remote",
 		"type": "Minion",
-		"description": "Also referred lo as a “seeker droid” or “training remote,” the Marksman-H by Industrial Automaton is a versatile little droid that has found many niches. some of them unintended. This model of droid is employed variously as a basic security unit, a training tool. a pest controller. and even as a tiny as­ sassin. Individuals the galaxy over continue to find new and innovative uses for this versatile droid.\n\nSome Jedi once preferred the Marksman-H as a training tool when teaching Padawans to reflect blaster bolts with their lightsabers. Even after the fall of the Jedi Order, some of these same droids remain active. A Marksman-H can be a tenacious opponent. It responds to a handheld signaler that transmits high-pitched bursts of coded data. and can be programmed to receive verbal commands.\n\nThe Marksman-H is a small, spherical droid only fifteen centimeters in diameter. Its tiny repulsorlift unit propels it in seemingly random directions without warning. making it hard to track. Studded with a number of emitter nozzles which are factory equipped with micro stun blasters. these droids are commonly programmed for use as security drones.",
+		"description": "Also referred lo as a “seeker droid” or “training remote,” the Marksman-H by Industrial Automaton is a versatile little droid that has found many niches. some of them unintended. This model of droid is employed variously as a basic security unit, a training tool. a pest controller. and even as a tiny as sassin. Individuals the galaxy over continue to find new and innovative uses for this versatile droid.\n\nSome Jedi once preferred the Marksman-H as a training tool when teaching Padawans to reflect blaster bolts with their lightsabers. Even after the fall of the Jedi Order, some of these same droids remain active. A Marksman-H can be a tenacious opponent. It responds to a handheld signaler that transmits high-pitched bursts of coded data. and can be programmed to receive verbal commands.\n\nThe Marksman-H is a small, spherical droid only fifteen centimeters in diameter. Its tiny repulsorlift unit propels it in seemingly random directions without warning. making it hard to track. Studded with a number of emitter nozzles which are factory equipped with micro stun blasters. these droids are commonly programmed for use as security drones.",
 		"notes": "Cost 350 credits, Rarity 5",
 		"characteristics": {
 			"Brawn": 1,
@@ -1152,7 +1152,7 @@
 	{
 		"name": "Q-4 Borerr Droid",
 		"type": "Minion",
-		"description": "Manufactured by Quarren Industrial on the planet Mon Cala, the Q-4 borer is a diminutive cylindrical mining droid .7 meters in length and .2 meters in diameter. Moving via a repulsorlift engine, the droids use drilling lasers to burrow through dirt and soft rock in search of veins of ore, which they can detect with the use of specialized sensors. Once the Q-4 discovers ore, it con­tinues to search for additional veins, while larger mining droids are called in to extract the discovery.\n\nReferred to as “ mole droids” by the miners who use them, Q-4s possess a cheerful demeanor and pursue their work with apparent glee. Despite their carefree and can-do attitudes, Q-4s aren’t particularly bright, and they often bite off more than they can chew if left unattended for long periods of time. They are used in small teams and deployed in large formations to search for ore, and they operated easily both in atmo­sphere and underwater.",
+		"description": "Manufactured by Quarren Industrial on the planet Mon Cala, the Q-4 borer is a diminutive cylindrical mining droid .7 meters in length and .2 meters in diameter. Moving via a repulsorlift engine, the droids use drilling lasers to burrow through dirt and soft rock in search of veins of ore, which they can detect with the use of specialized sensors. Once the Q-4 discovers ore, it continues to search for additional veins, while larger mining droids are called in to extract the discovery.\n\nReferred to as “ mole droids” by the miners who use them, Q-4s possess a cheerful demeanor and pursue their work with apparent glee. Despite their carefree and can-do attitudes, Q-4s aren’t particularly bright, and they often bite off more than they can chew if left unattended for long periods of time. They are used in small teams and deployed in large formations to search for ore, and they operated easily both in atmosphere and underwater.",
 		"notes": "Cost 2,000 credits, Rarity 5",
 		"characteristics": {
 			"Brawn": 1,
@@ -1214,7 +1214,7 @@
 	{
 		"name": "RMD-20 “Eye in the Sky”",
 		"type": "Minion",
-		"description": "Designed for the civilian market. the RMD 20 “Eye in the Sky” is a small, spherical remote intended to record footage while staying on the move. The RMD-20’s sensitive audio and video sensors can be fed to a host computer or data pad, al­lowing for 24-hour surveillance. The remote itself is equipped with a repulsorlift generator, allowing it to hover.",
+		"description": "Designed for the civilian market. the RMD 20 “Eye in the Sky” is a small, spherical remote intended to record footage while staying on the move. The RMD-20’s sensitive audio and video sensors can be fed to a host computer or data pad, allowing for 24-hour surveillance. The remote itself is equipped with a repulsorlift generator, allowing it to hover.",
 		"notes": "Cost 500 credits, Rarity 4",
 		"characteristics": {
 			"Brawn": 1,
@@ -1236,7 +1236,7 @@
 	{
 		"name": "Roche J9 Worker Drone",
 		"type": "Rival",
-		"description": "Despite its capabilities, the J9 worker drone was an abject commercial failure. Designed as a protocol droid, the series’ moniker, “worker drone,” was decep­tive to potential customers, who assumed it was just another labor droid. In addition, the unit’s appear­ance, which was distinctly bug-like, in conjunction with its flat personality, turned many mammalian species off. The Verpine even attempted to market the droid to other insectoid species, still without much success.\n\nMost of the J9 worker drones purchased by the public were placed in labor jobs, wasting their more advanced systems and programming on menial tasks. Because of this, J9s are some of the most intelligent labor droids on the market. Over time, however, they develop somewhat bitter personalities, as they feel they were destined for something greater but were somehow cheated out of it.\n\nThe Rebel Alliance has acquired a large number of surplus J9 worker drones directly from Roche and has put them to good use. The Alliance realizes that the J9 is much more than a simple labor droid, and many of the units have been assigned to Rebel teams to assist them with translation and analysis. So far, the majority of these J9s have been a success in the field.",
+		"description": "Despite its capabilities, the J9 worker drone was an abject commercial failure. Designed as a protocol droid, the series’ moniker, “worker drone,” was deceptive to potential customers, who assumed it was just another labor droid. In addition, the unit’s appearance, which was distinctly bug-like, in conjunction with its flat personality, turned many mammalian species off. The Verpine even attempted to market the droid to other insectoid species, still without much success.\n\nMost of the J9 worker drones purchased by the public were placed in labor jobs, wasting their more advanced systems and programming on menial tasks. Because of this, J9s are some of the most intelligent labor droids on the market. Over time, however, they develop somewhat bitter personalities, as they feel they were destined for something greater but were somehow cheated out of it.\n\nThe Rebel Alliance has acquired a large number of surplus J9 worker drones directly from Roche and has put them to good use. The Alliance realizes that the J9 is much more than a simple labor droid, and many of the units have been assigned to Rebel teams to assist them with translation and analysis. So far, the majority of these J9s have been a success in the field.",
 		"notes": "Cost 7,000 credits, Rarity 3",
 		"characteristics": {
 			"Brawn": 1,
@@ -1263,7 +1263,7 @@
 	{
 		"name": "Roche Siak-Series Protocol Droid",
 		"type": "Rival",
-		"description": "Following the stunning failure of the J9 worker drone, the Verpine decided to redesign their protocol droid from the ground up. Roche hired a group of human contractors to assist with the new design, ensuring that the droid’s chassis and personality matrix were more appealing to a mammalian customer base.\n\nThe Siak’s personality is businesslike while remain­ing personable, and it can readily converse for hours about nearly any topic. Physically, the droid is a lot more human than its predecessor, while retaining some obvious Verpine characteristics. As a result, the Siak-series protocol droid represents one of Roche’s most successful products.",
+		"description": "Following the stunning failure of the J9 worker drone, the Verpine decided to redesign their protocol droid from the ground up. Roche hired a group of human contractors to assist with the new design, ensuring that the droid’s chassis and personality matrix were more appealing to a mammalian customer base.\n\nThe Siak’s personality is businesslike while remaining personable, and it can readily converse for hours about nearly any topic. Physically, the droid is a lot more human than its predecessor, while retaining some obvious Verpine characteristics. As a result, the Siak-series protocol droid represents one of Roche’s most successful products.",
 		"notes": "Cost 10,000 credits, Rarity 4",
 		"characteristics": {
 			"Brawn": 1,
@@ -1352,7 +1352,7 @@
 	{
 		"name": "Sentry Droid",
 		"type": "Rival",
-		"description": "The Sentry Droid is a small drone spacecraft tasked with orbiting the asteroid and monitoring the surround­ing area for incoming vessels or other hazards. It is pro­grammed to alert Bandin Dobah if it identifies a likely hazard, then intercept it.\n\nThe Sentry Droid is a small spacecraft managed by a droid brain with the following characteristics and skills. The droid brain is a part of the spacecraft, so does not have soak or wound thresholds, or any equipment or abilities. If it ever needs to suffer strain, the ship suffers system strain instead. It ignores any wounds.",
+		"description": "The Sentry Droid is a small drone spacecraft tasked with orbiting the asteroid and monitoring the surrounding area for incoming vessels or other hazards. It is programmed to alert Bandin Dobah if it identifies a likely hazard, then intercept it.\n\nThe Sentry Droid is a small spacecraft managed by a droid brain with the following characteristics and skills. The droid brain is a part of the spacecraft, so does not have soak or wound thresholds, or any equipment or abilities. If it ever needs to suffer strain, the ship suffers system strain instead. It ignores any wounds.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 3,
@@ -1375,7 +1375,7 @@
 	{
 		"name": "Service Patch Remote",
 		"type": "Minion",
-		"description": "The service patch remote analyses damage to a star­ship’s systems and repairs broken circuits. Slicers sometimes use service patch remotes to compromise physical security measures protecting computers.",
+		"description": "The service patch remote analyses damage to a starship’s systems and repairs broken circuits. Slicers sometimes use service patch remotes to compromise physical security measures protecting computers.",
 		"notes": "Cost 900 credits, Rarity 3",
 		"characteristics": {
 			"Brawn": 1,
@@ -1422,7 +1422,7 @@
 	{
 		"name": "Sorosuub G2 Repair Droid",
 		"type": "Rival",
-		"description": "The G2 repair droid is a custom Sullustan design produced by SoroSuub. Intended to assist with shipboard repair, many of these droids instead found themselves utilized as pilots and tour guides for civil­ ian charter vessels. Referred to as “goose droids” due to their widely spaced feet, long necks, and clumsy gait, G2s tend to possess a quirky demeanor and exhibit exces­sively chatty behavior. Over time, the droids also develop a unique sense of humor, trading witticisms and bad jokes with anyone who takes the time to listen.\n\nOverall, the G2 series droids were appreciated by their owners and the tourists they were charged with. Many G2 owners would relieve their droids of their jobs and keep them around as companions. The series’s down­ fall, however, lay in the fact that larger corporations considered them a waste of money due to their tendency to talk rather than work.",
+		"description": "The G2 repair droid is a custom Sullustan design produced by SoroSuub. Intended to assist with shipboard repair, many of these droids instead found themselves utilized as pilots and tour guides for civil ian charter vessels. Referred to as “goose droids” due to their widely spaced feet, long necks, and clumsy gait, G2s tend to possess a quirky demeanor and exhibit excessively chatty behavior. Over time, the droids also develop a unique sense of humor, trading witticisms and bad jokes with anyone who takes the time to listen.\n\nOverall, the G2 series droids were appreciated by their owners and the tourists they were charged with. Many G2 owners would relieve their droids of their jobs and keep them around as companions. The series’s down fall, however, lay in the fact that larger corporations considered them a waste of money due to their tendency to talk rather than work.",
 		"notes": "Cost 6,000 credits, Rarity 5",
 		"characteristics": {
 			"Brawn": 1,
@@ -1450,7 +1450,7 @@
 	{
 		"name": "Sorosuub Wanderer Scout Survey Droid",
 		"type": "Rival",
-		"description": "Often used to collect indigenous wildlife for further study and research, the SoroSuub wanderer scout survey droid is part of a larger set of droids deployed planetside as scouts and collectors. The wanderer scout’s powerful stun blasters, swivel-mounted pho­toreceptor, and dedicated medical and scouting programming make it an excellent tool for informa­tion gathering. Many have been turned to the more serious business of espionage against sentient tar­gets and critical locations. Most of the scout survey’s two-meter height is made up of eight spiderlike legs arranged around a relatively small spherical body. While the wanderer is quick and agile, the medical and scouting modules take up most of the available interior space, leaving little room for a personality matrix. As such, these droids lack any personality fea­tures, but they are well regarded for the depth, detail, and unprejudiced nature of the information they col­lect as a result.",
+		"description": "Often used to collect indigenous wildlife for further study and research, the SoroSuub wanderer scout survey droid is part of a larger set of droids deployed planetside as scouts and collectors. The wanderer scout’s powerful stun blasters, swivel-mounted photoreceptor, and dedicated medical and scouting programming make it an excellent tool for information gathering. Many have been turned to the more serious business of espionage against sentient targets and critical locations. Most of the scout survey’s two-meter height is made up of eight spiderlike legs arranged around a relatively small spherical body. While the wanderer is quick and agile, the medical and scouting modules take up most of the available interior space, leaving little room for a personality matrix. As such, these droids lack any personality features, but they are well regarded for the depth, detail, and unprejudiced nature of the information they collect as a result.",
 		"notes": "Cost 2,500 credits, Rarity 6",
 		"characteristics": {
 			"Brawn": 2,

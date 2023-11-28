@@ -12,8 +12,10 @@ import Filter from "components/input/filter";
 import Loader from "components/loader";
 import Tabs from "components/tabs";
 import TagMenu from "components/tag-menu";
+import Checkbox from "components/input/checkbox";
 import * as Store from "lib/local-store";
 import { sortByProperty, findByProperty, unique, pluck, indexOfByProperty } from "lib/list";
+import { normalise } from 'lib/string'
 import * as CONFIG from "lib/config";
 
 
@@ -27,6 +29,7 @@ class App extends React.Component {
 			list: null,
 			filter: "",
 			tags: [],
+			sources: [],
 			isLoaded: false,
 			menuOpen: false,
 			showAbout: false,
@@ -96,7 +99,8 @@ class App extends React.Component {
 
 			this.setState({
 				list: adversaries,
-				tags: tags
+				tags,
+				sources: this.getSources(tags),
 			});
 			this.selectAdversary(adversary);
 			this.setLoaded();
@@ -196,7 +200,7 @@ class App extends React.Component {
 
 				Store.local.set(CONFIG.FAVOURITE_STORE, favourites);
 
-				this.setState({ tags: tags });
+				this.setState({ tags });
 				this.selectAdversary(adversary);
 			}
 		});
@@ -326,14 +330,16 @@ class App extends React.Component {
 				selectedIndex = tabs.length - 1;
 			}
 
+			const tags = this.updateTags()
+
 			this.setState({
-				filter: filter,
-				list: list,
+				filter,
+				list,
+				tags,
 				selectedIndex: selectedIndex,
 				selected: tabs,
 				mode: CONFIG.MODE_NORMAL,
 				editAdversary: null,
-				tags: this.updateTags(),
 				canExport: stored.length > 0
 			});
 		});
@@ -462,18 +468,57 @@ class App extends React.Component {
 		this.setState({ showAbout: !this.state.showAbout });
 	}
 
+	getSources(tags) {
+		return (tags || this.state.tags).filter(t => t.startsWith(CONFIG.SOURCE_TAG))
+	}
+
+	isSourceChecked(source) {
+		return this.state.sources.includes(source)
+	}
+
+	toggleSource(source) {
+		source = CONFIG.SOURCE_TAG + source
+
+		let sources = this.state.sources
+
+		if(this.isSourceChecked(source)) {
+			sources = sources.filter(s => s !== source)
+		}
+		else {
+			sources = [...sources, source]
+		}
+
+		this.setState({ sources }, () => this.filter(this.state.filter))
+	}
+
 	componentWillUnmount() {
 		Object.keys(this.stores).forEach(key => this.stores[key].off(this.events[key]));
 	}
 
 	// filter text from menu
 	filter(text) {
-		let adversaries = this.stores.adversaries.all();
+		const sources = this.state.sources
 
-		if(text != "") {
-			text = text.toLowerCase();
+		let adversaries = this.stores.adversaries.all().filter(adv => {
+			const tags = adv.tags.map(t => t.toLowerCase())
 
-			adversaries = adversaries.filter(a => a.name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().indexOf(text) != -1 || a.tags.find(t => t.toLowerCase() == text) != undefined);
+			for(let i = 0, ilen = sources.length; i < ilen; ++i) {
+				if(tags.includes(sources[i].toLowerCase())) return true
+			}
+
+			return false
+		});
+
+		if(text !== '') {
+			const searchText = text.toLowerCase()
+			const tagFilter = searchText.split('+').map(tg => tg.trim()).filter(tg => tg !== '')
+
+			adversaries = adversaries.filter(a => {
+					const tags = a.tags.map(t => t.toLowerCase())
+
+					return normalise(a.name).toLowerCase().indexOf(searchText) !== -1 || tagFilter.every(tg => tags.includes(tg.toLowerCase()))
+				}
+			)
 		}
 
 		this.setState({ list: adversaries, filter: text });
@@ -517,6 +562,8 @@ class App extends React.Component {
 				break;
 		}
 
+		const sources = this.getSources()
+
 		return <div>
 			{ overlay }
 			<div id="mobile-menu">
@@ -527,7 +574,11 @@ class App extends React.Component {
 			<div id="navigation" className={ (this.state.menuOpen ? "menu-open" : "menu-closed") + " column small" }>
 				<TagMenu canExport={ this.state.canExport } tags={ this.state.tags } />
 				<Filter text={ this.state.filter } handler={ this.filter.bind(this) } />
-				<p><small>Showing { x } of { y }.</small></p>
+				<p>Showing { x } of { y }.</p>
+				<p>Search { sources.length } source{ sources.length === 1 ? '' : 's' }.</p>
+				<div className="source-filter">
+					{ sources.map(t => <Checkbox label={ t.replace(CONFIG.SOURCE_TAG, '') } checked={ this.isSourceChecked(t) } handler={ this.toggleSource.bind(this) } before={ true } />) }
+				</div>
 				<div id="adversaries"><LinkList data={ this.state.list } selected={ this.state.selected.length > 0 ? this.state.selected[this.state.selectedIndex].character.id : "" } /></div>
 			</div>
 			<div id="content" className="column large">

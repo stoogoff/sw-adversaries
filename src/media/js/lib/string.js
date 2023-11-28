@@ -28,3 +28,7 @@ export const unescapeHTML = function escapeHTML(str) {
 
 	return str.replace(/(&lt;|&gt;)/g, tag => tagsToReplace[tag] || tag);
 }
+
+export const normalise = function normalise(str) {
+	return (str || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+}

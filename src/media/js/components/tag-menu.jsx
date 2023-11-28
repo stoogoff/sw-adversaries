@@ -82,9 +82,7 @@ export default class TagMenu extends React.Component {
 			dispatcher.dispatch(CONFIG.MENU_FILTER, tag.toLowerCase());
 		}
 
-		this.setState({
-			active: null
-		});
+		this.closeMenu()
 	}
 
 	closeMenu() {

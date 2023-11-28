@@ -265,7 +265,7 @@
 	{
 		"name": "Imperial Navy Officer",
 		"type": "Rival",
-		"description": "Officers in the Imperial Navy are highly trained, often at a military academy. Most of their duties naturally fall into the category of ship-bound activities, moni­toring the hundreds or thousands of personnel neces­sary to maintain the massive capital-scale ships the navy depends upon However, it is also possible that officers are deployed at the head of naval troopers, taking part in ship-to-ship actions against pirates or independent vessels or. even in sorties on the ground. In these cases, most naval officers prefer to lead from the rear, using their superior training and experience to direct the activities of their subordinates. Despite their reluctance to “get their hands dirty,” it is unwise to underestimate naval officers.",
+		"description": "Officers in the Imperial Navy are highly trained, often at a military academy. Most of their duties naturally fall into the category of ship-bound activities, monitoring the hundreds or thousands of personnel necessary to maintain the massive capital-scale ships the navy depends upon However, it is also possible that officers are deployed at the head of naval troopers, taking part in ship-to-ship actions against pirates or independent vessels or. even in sorties on the ground. In these cases, most naval officers prefer to lead from the rear, using their superior training and experience to direct the activities of their subordinates. Despite their reluctance to “get their hands dirty,” it is unwise to underestimate naval officers.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -394,7 +394,7 @@
 	{
 		"name": "Imperial Test Pilot",
 		"type": "Rival",
-		"description": "The pilots of the 481 st Experimental Starfighter Test­ ing Squadron are the best of the best, hand picked by Gareth Agamar for their piloting skills, courage, and technical acumen. Charged with testing out new and potentially dangerous fightercraft, these individ­uals are looked on by rank-and-file Navy pilots with equal parts admiration and pity: admiration due to their obvious skill and the prestigious nature of their roles as test pilots, but pity due to the fact that fly­ing an untested spaceframe with new and perilous engines and weapon systems is extremely dangerous. Turnover in the 481st is particularly high for what is ostensibly a non-combat unit, and new pilots are con­stantly being brought into the squadron as old pilots are injured or killed.",
+		"description": "The pilots of the 481 st Experimental Starfighter Test ing Squadron are the best of the best, hand picked by Gareth Agamar for their piloting skills, courage, and technical acumen. Charged with testing out new and potentially dangerous fightercraft, these individuals are looked on by rank-and-file Navy pilots with equal parts admiration and pity: admiration due to their obvious skill and the prestigious nature of their roles as test pilots, but pity due to the fact that flying an untested spaceframe with new and perilous engines and weapon systems is extremely dangerous. Turnover in the 481st is particularly high for what is ostensibly a non-combat unit, and new pilots are constantly being brought into the squadron as old pilots are injured or killed.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -748,7 +748,7 @@
 	{
 		"name": "Stormtrooper: Swamptrooper",
 		"type": "Minion",
-		"description": "This specialised unit of the Stormtrooper Corps spe­cialises in operating in swamps, bogs, and wetlands. Swamptroopers’ armour is watertight, has an internal one-hour oxygen supply, and includes camouflage. Swamptroopers patrol the area in teams of three.",
+		"description": "This specialised unit of the Stormtrooper Corps specialises in operating in swamps, bogs, and wetlands. Swamptroopers’ armour is watertight, has an internal one-hour oxygen supply, and includes camouflage. Swamptroopers patrol the area in teams of three.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -761,7 +761,7 @@
 			"soak": 5,
 			"wounds": 5
 		},
-		"skills": ["Athletics", "Discipline", "Melee", "Percep­tion", "Ranged: Heavy", "Ranged: Light", "Survival", "Vigilance"],
+		"skills": ["Athletics", "Discipline", "Melee", "Perception", "Ranged: Heavy", "Ranged: Light", "Survival", "Vigilance"],
 		"weapons": ["Blaster carbine", "Frag grenade"],
 		"gear": ["Electrobinoculars", "Extra reloads", "2 Frag grenades", "Rebreather", "Swamptrooper armour (+2 Soak, adds :boost: to Stealth checks made within a forest or swamp environment)", "Utility belt"],
 		"tags": ["empire", "imperial military", "stormtrooper", "book:lonh", "adventure:Toydarian Grocery Shopping", "book:aaa"]
