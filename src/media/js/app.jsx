@@ -488,9 +488,7 @@ class App extends React.Component {
 			sources = [...sources, source]
 		}
 
-		this.setState({ sources }, () => {
-			if(this.state.filter !== '') this.filter(this.state.filter)
-		})
+		this.setState({ sources }, () => this.filter(this.state.filter))
 	}
 
 	componentWillUnmount() {
@@ -501,21 +499,25 @@ class App extends React.Component {
 	filter(text) {
 		const sources = this.state.sources
 
-		let adversaries = this.stores.adversaries.all().filter(({ tags }) => {
+		let adversaries = this.stores.adversaries.all().filter(adv => {
+			const tags = adv.tags.map(t => t.toLowerCase())
+
 			for(let i = 0, ilen = sources.length; i < ilen; ++i) {
-				if(tags.includes(sources[i])) return true
+				if(tags.includes(sources[i].toLowerCase())) return true
 			}
 
 			return false
 		});
 
 		if(text !== '') {
-			text = text.toLowerCase()
+			const searchText = text.toLowerCase()
+			const tagFilter = searchText.split('+').map(tg => tg.trim()).filter(tg => tg !== '')
 
-			const tagFilter = text.split('+').map(tg => tg.trim()).filter(tg => tg !== '')
+			adversaries = adversaries.filter(a => {
+					const tags = a.tags.map(t => t.toLowerCase())
 
-			adversaries = adversaries.filter(a =>
-				normalise(a.name).toLowerCase().indexOf(text) !== -1 || tagFilter.every(tg => a.tags.includes(tg.toLowerCase()))
+					return normalise(a.name).toLowerCase().indexOf(searchText) !== -1 || tagFilter.every(tg => tags.includes(tg.toLowerCase()))
+				}
 			)
 		}
 
