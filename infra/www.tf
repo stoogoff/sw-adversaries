@@ -55,7 +55,7 @@ resource "bunnynet_pullzone_edgerule" "redirect_pullzone_domain" {
 			type       = "Url"
 			match_type = "MatchAny"
 			patterns   = [
-				"https://${bunnynet_pullzone_hostname.bunny_www.name}/*"
+				"https://${bunnynet_pullzone_hostname.bunnynet_www.name}/*"
 			]
 			parameter1 = null
 			parameter2 = null
