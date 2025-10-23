@@ -8,3 +8,7 @@ package-lock.json
 LAST_VERSION
 .DS_STORE
 build/errors.txt
+*.tfvars
+*.hcl
+*.terraform
+state/
