@@ -2,7 +2,7 @@
 	{
 		"name": "Accomplished Mechanic",
 		"type": "Rival",
-		"description": "Force-sensitive mechanics instinctively know their way around machines and can coax them back to life long after other mechanics would have given up hope. Mechanics are a welcome addition to a smuggler’s crew or a pirate band, where they’re likely to avoid the watchful eye of Imperial Inquisitors. Occasionally, Force-sensitive mechanics will be found working legiti­mate jobs in respectable shops on civilized planets. Those who do are almost always unaware that their amazing ability to assess and repair machines is any­ thing other than a natural talent.",
+		"description": "Force-sensitive mechanics instinctively know their way around machines and can coax them back to life long after other mechanics would have given up hope. Mechanics are a welcome addition to a smuggler’s crew or a pirate band, where they’re likely to avoid the watchful eye of Imperial Inquisitors. Occasionally, Force-sensitive mechanics will be found working legitimate jobs in respectable shops on civilized planets. Those who do are almost always unaware that their amazing ability to assess and repair machines is any thing other than a natural talent.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -29,7 +29,7 @@
 	{
 		"name": "Cautious Smuggler",
 		"type": "Rival",
-		"description": "Smuggling is a dangerous profession, requiringa mix­ture of luck, skill, and panache. Those smugglers with Force-sensitivity can detect a potential trap, come up with plausible cover stories for suspicious Impe­rial patrols, and know exactly when to dump their cargo (and when to pick it up later). Force-sensitive smugglers who get too cocky about their abilities of­ ten find themselves on the wrong end of the Imperial Inquisitorius, so those who realize what their sensi­tivity might mean keep it as quiet as possible.",
+		"description": "Smuggling is a dangerous profession, requiringa mixture of luck, skill, and panache. Those smugglers with Force-sensitivity can detect a potential trap, come up with plausible cover stories for suspicious Imperial patrols, and know exactly when to dump their cargo (and when to pick it up later). Force-sensitive smugglers who get too cocky about their abilities of ten find themselves on the wrong end of the Imperial Inquisitorius, so those who realize what their sensitivity might mean keep it as quiet as possible.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -56,7 +56,7 @@
 		"abilities": [
 			{
 				"name": "Force Power: Influence",
-				"description": "May make an Influ­ence power roll as part of a Coercion, Charm, Decep­tion, Leadership, or Negotiation check. May spend :forcepip: to add :success: or :advantage: per :forcepip: spent to the check."
+				"description": "May make an Influence power roll as part of a Coercion, Charm, Deception, Leadership, or Negotiation check. May spend :forcepip: to add :success: or :advantage: per :forcepip: spent to the check."
 			}
 		],
 		"weapons": ["Blaster pistol"],
@@ -65,7 +65,7 @@
 	{
 		"name": "CSA Intrusion Specialist",
 		"type": "Rival",
-		"description": "The Corporate Sector Authority’s vast holdings make it an attractive target for slicers. The CSA’s Security Police, commonly referred to as the Espos, employ a number of slicers to counter these threats. Elite slic­ers seem to have a natural ability to foil security pro­tocols, guess passwords, and find backdoors in com­puter code. Their abilities seem almost supernatural, and in a few rare cases, maybe they are.",
+		"description": "The Corporate Sector Authority’s vast holdings make it an attractive target for slicers. The CSA’s Security Police, commonly referred to as the Espos, employ a number of slicers to counter these threats. Elite slicers seem to have a natural ability to foil security protocols, guess passwords, and find backdoors in computer code. Their abilities seem almost supernatural, and in a few rare cases, maybe they are.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -92,7 +92,7 @@
 	{
 		"name": "Dandy Gambler",
 		"type": "Rival",
-		"description": "Force-sensitive individuals have a distinct advantage at games of strategy and chance. Some choose to become professional gamblers. As with any successful gambler, these galactic dandies never find themselves in one ca­sino for too long, lest those who lost credits to them come looking for reparation. These lucky individuals are always on the move, searching for the next big game.",
+		"description": "Force-sensitive individuals have a distinct advantage at games of strategy and chance. Some choose to become professional gamblers. As with any successful gambler, these galactic dandies never find themselves in one casino for too long, lest those who lost credits to them come looking for reparation. These lucky individuals are always on the move, searching for the next big game.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -121,7 +121,7 @@
 	{
 		"name": "Emperor’s Hand",
 		"type": "Nemesis",
-		"description": "One of the Emperor’s Hands would be the most horrifying, panic-induc­ing opponent that an individual could face–if anyone knew that the Emperor’s Hands existed. fortunately for the Hands, however, they are completely unknown to the galaxy at large and, in many cases, even to each other; more than one member of the Hands believes that he or she is the only Emperor’s Hand, which is how the Emperor prefers his operatives to operate. The Emperor’s Hands operate in absolute secrecy, often sent on missions by the Emperor himself. Members of the Emperor’s Hands almost invariably possess Force abilities and the will to use them.",
+		"description": "One of the Emperor’s Hands would be the most horrifying, panic-inducing opponent that an individual could face–if anyone knew that the Emperor’s Hands existed. fortunately for the Hands, however, they are completely unknown to the galaxy at large and, in many cases, even to each other; more than one member of the Hands believes that he or she is the only Emperor’s Hand, which is how the Emperor prefers his operatives to operate. The Emperor’s Hands operate in absolute secrecy, often sent on missions by the Emperor himself. Members of the Emperor’s Hands almost invariably possess Force abilities and the will to use them.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 4,
@@ -159,7 +159,7 @@
 	{
 		"name": "Fallen Apprentice",
 		"type": "Rival",
-		"description": "For every Force user who sees the myths of the an­cient Jedi as an ideal to live up to, someone else de­cides to follow a darker path. Sometimes, these devi­ants seek out apprentices who will aid and emulate them. Such apprentices are often weak-willed, eager for the easy power their new master promises.",
+		"description": "For every Force user who sees the myths of the ancient Jedi as an ideal to live up to, someone else decides to follow a darker path. Sometimes, these deviants seek out apprentices who will aid and emulate them. Such apprentices are often weak-willed, eager for the easy power their new master promises.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -188,7 +188,7 @@
 	{
 		"name": "Fallen Master",
 		"type": "Nemesis",
-		"description": "While not true Jedi or Sith, there are those who stylise themselves as “masters” of the Force. If these individ­uals turn to the dark side, they can be incredibly dan­gerous and terrifyingly savage. Some may even track down old relics from a bygone era such as lightsabers. In the hands of a fallen master, these blades often taste the blood of innocents.",
+		"description": "While not true Jedi or Sith, there are those who stylise themselves as “masters” of the Force. If these individuals turn to the dark side, they can be incredibly dangerous and terrifyingly savage. Some may even track down old relics from a bygone era such as lightsabers. In the hands of a fallen master, these blades often taste the blood of innocents.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -265,7 +265,7 @@
 			"On the Edge",
 			{
 				"name": "Force Power: Sense",
-				"description": ":forcepip:: Sense all living things within Medium range. :forcepip:: Sense the emotional state of one target within Medium range. Ongoing effect, commit :force: up to Force rating to upgrade difficulty of at­tacks targeting the character twice."
+				"description": ":forcepip:: Sense all living things within Medium range. :forcepip:: Sense the emotional state of one target within Medium range. Ongoing effect, commit :force: up to Force rating to upgrade difficulty of attacks targeting the character twice."
 			}
 		],
 		"weapons": ["Lightsaber"],
@@ -324,7 +324,7 @@
 	{
 		"name": "Murderous Fugitive",
 		"type": "Nemesis",
-		"description": "Without the benefit of Jedi training, some Force-sensitive individuals who might otherwise have been able to control their abilities are left confused and over­whelmed. They find delight in murder and inflicting pain, especially when using their Force-sensitivity to fuel their urges. Often hunted for these crimes, these individuals are extremely dangerous to everyone they encounter.",
+		"description": "Without the benefit of Jedi training, some Force-sensitive individuals who might otherwise have been able to control their abilities are left confused and overwhelmed. They find delight in murder and inflicting pain, especially when using their Force-sensitivity to fuel their urges. Often hunted for these crimes, these individuals are extremely dangerous to everyone they encounter.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 4,
@@ -371,7 +371,7 @@
 	{
 		"name": "Scarred Gladiator",
 		"type": "Nemesis",
-		"description": "Sometimes the most effective way to hide your Force-sensitivity is to hide it in plain sight. The Scarred Glad­iator discovered that his combat skills could make him a lot of money in the arena. He’s the veteran of hundreds of battles and has the scars to prove it. He is deeply invested in the criminal underworld, and there are too many people who make money off his skills for anyone to turn him over to the authorities. He doesn’t flaunt his Force-sensitivity, but he enjoys his notoriety as a deadly and feared fighter. He knows there may be a day when it all comes crashing down. Until that day comes, he’s more than content to use his abilities to live life to the fullest.",
+		"description": "Sometimes the most effective way to hide your Force-sensitivity is to hide it in plain sight. The Scarred Gladiator discovered that his combat skills could make him a lot of money in the arena. He’s the veteran of hundreds of battles and has the scars to prove it. He is deeply invested in the criminal underworld, and there are too many people who make money off his skills for anyone to turn him over to the authorities. He doesn’t flaunt his Force-sensitivity, but he enjoys his notoriety as a deadly and feared fighter. He knows there may be a day when it all comes crashing down. Until that day comes, he’s more than content to use his abilities to live life to the fullest.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,

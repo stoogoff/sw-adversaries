@@ -139,7 +139,7 @@
 		"abilities": ["Darkside Force User",
 			{
 				"name": "Force Power: Sense",
-				"description": ":forcepip:: Sense all living things within Medium range. :forcepip:: Sense the emotional state of one target within Medium range. Ongoing effect, commit :force: upto Force rating to upgrade difficulty of at­tacks targeting the character twice."
+				"description": ":forcepip:: Sense all living things within Medium range. :forcepip:: Sense the emotional state of one target within Medium range. Ongoing effect, commit :force: upto Force rating to upgrade difficulty of attacks targeting the character twice."
 			},
 			{
 				"name": "Force Power: Move",

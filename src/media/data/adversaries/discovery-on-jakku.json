@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Strus Clan Gansters",
+		"name": "Strus Clan Gangsters",
 		"type": "Minion",
 		"characteristics": {
 			"Brawn": 3,
@@ -197,7 +197,7 @@
 	{
 		"name": "First Order Stormtrooper",
 		"type": "Minion",
-		"description": "The foot soldiers of the First Order are raised as warriors from birth. Unlike that of the Galactic Empirre, the training regimen of the First Order emphasises guerilla warfare, improvisation, and unquestioning loyalty.",
+		"description": "The foot soldiers of the First Order are raised as warriors from birth. Unlike that of the Galactic Empire, the training regimen of the First Order emphasises guerilla warfare, improvisation, and unquestioning loyalty.",
 		"notes": "The First Order Stormtroopers in the **Discovery on Jakku** adventure aren’t carrying frag grenades.",
 		"characteristics": {
 			"Brawn": 3,
@@ -559,7 +559,7 @@
 			"Piloting: Space": 3
 		},
 		"weapons": ["Light blaster pistol"],
-		"gear": ["Flight suit", "Atromech droid"],
+		"gear": ["Flight suit", "Astromech droid"],
 		"tags": ["book:tfabg", "resistance", "pilot"]
 	},
 	{
@@ -584,7 +584,7 @@
 			"Perception": 2
 		},
 		"abilities": ["Droid"],
-		"gear": ["Built-in diagnostic anmd surgical tools (counts as medpac as well as stimpack that can be used once per session)"],
+		"gear": ["Built-in diagnostic and surgical tools (counts as medpac as well as stimpack that can be used once per session)"],
 		"tags": ["book:tfabg", "resistance", "medic", "species:Droid"]
 	},
 	{

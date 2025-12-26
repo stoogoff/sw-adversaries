@@ -129,7 +129,7 @@
 	{
 		"name": "Cairnmog",
 		"type": "Minion",
-		"description": "The mount-sized cairnmogs are hooved and horned liz­ards that feed on fungus, moss, and balmgrass. Gener­ally peaceful and found in groups of two, cairnmogs are occasionally hunted for their skin and meat. If cairnmogs or their eggs are threatened, they are quick to resort to dominance displays or even violence.",
+		"description": "The mount-sized cairnmogs are hooved and horned lizards that feed on fungus, moss, and balmgrass. Generally peaceful and found in groups of two, cairnmogs are occasionally hunted for their skin and meat. If cairnmogs or their eggs are threatened, they are quick to resort to dominance displays or even violence.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 1,
@@ -160,7 +160,7 @@
 	{
 		"name": "Chemilizard",
 		"type": "Rival",
-		"description": "Also known as orpali dragons, chemilizards are native Nal Hutta reptiles that can grow to massive size. A typical adult ranges from ten to twenty meters in length and lives deep in the swamps, preying upon any crea­tures or beings that venture near its lair. Chemilizards have evolved the ability to extract nutrients from the planet’s polluted swamps, surviving in conditions that would kill most other creatures.",
+		"description": "Also known as orpali dragons, chemilizards are native Nal Hutta reptiles that can grow to massive size. A typical adult ranges from ten to twenty meters in length and lives deep in the swamps, preying upon any creatures or beings that venture near its lair. Chemilizards have evolved the ability to extract nutrients from the planet’s polluted swamps, surviving in conditions that would kill most other creatures.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 4,
@@ -194,7 +194,7 @@
 	{
 		"name": "Choku",
 		"type": "Minion",
-		"description": "Choku are aggressive reptavian pack hunters that nav­igate the dense vines and tree limbs of Yavin 4 ’s jun­gles. Although the quadrupeds’ bright white and grey fur, punctuated with brown and tan stripes, should stand out against the verdant jungle, they are difficult to spot when on the hunt. Traveling in packs of three, choku outmaneuver their prey, killing with beaks filled with sawlike teeth.",
+		"description": "Choku are aggressive reptavian pack hunters that navigate the dense vines and tree limbs of Yavin 4 ’s jungles. Although the quadrupeds’ bright white and grey fur, punctuated with brown and tan stripes, should stand out against the verdant jungle, they are difficult to spot when on the hunt. Traveling in packs of three, choku outmaneuver their prey, killing with beaks filled with sawlike teeth.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -413,7 +413,7 @@
 	{
 		"name": "Small Dianoga",
 		"type": "Rival",
-		"description": "Dianogas begin life as microscopic larvae feeding on plankton and miniscule bits of refuse. With an abun­dant food source, larval dianogas quickly grow to a larger juvenile stage, consuming larger sources of nutrients. A juvenile can range anywhere from one to four meters in length before reaching adulthood.",
+		"description": "Dianogas begin life as microscopic larvae feeding on plankton and miniscule bits of refuse. With an abundant food source, larval dianogas quickly grow to a larger juvenile stage, consuming larger sources of nutrients. A juvenile can range anywhere from one to four meters in length before reaching adulthood.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -659,7 +659,7 @@
 	{
 		"name": "Ghorla",
 		"type": "Rival",
-		"description": "An equinoid mount used in traditional hunting parties, the ghorla is, like most Chandrilans, independent and stubborn, but intelligent. Ghorla are bred for a vari­ety of activities, including racing, showing, mounted sport, and more menial tasks like herding, labor, and transportation around the farm.",
+		"description": "An equinoid mount used in traditional hunting parties, the ghorla is, like most Chandrilans, independent and stubborn, but intelligent. Ghorla are bred for a variety of activities, including racing, showing, mounted sport, and more menial tasks like herding, labor, and transportation around the farm.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,
@@ -797,7 +797,7 @@
 	{
 		"name": "Jakobeast",
 		"type": "Minion",
-		"description": "The colonization of the Outer Rim required hardy creatures that could withstand ex­treme environments and defend themselves against dangerous, and often unanticipated, preda­tors. Jakobeasts were introduced on hundreds of ice planets across the galaxy and still roam many of these worlds today. Large, shaggy, feline creatures approximately two meters tall and three meters from nose to tail, jakobeasts are easily domesticated herd animals kept for meat, milk, and fur. Both male and female jakobeasts sport large tusks, primarily used for self-defense or establishing dominance. Though it is not widely known, as a group, jakobeasts can generate waves of Force energy to de­fend their herds from predators, although an individu­al does not have this ability if separated from its herd.",
+		"description": "The colonization of the Outer Rim required hardy creatures that could withstand extreme environments and defend themselves against dangerous, and often unanticipated, predators. Jakobeasts were introduced on hundreds of ice planets across the galaxy and still roam many of these worlds today. Large, shaggy, feline creatures approximately two meters tall and three meters from nose to tail, jakobeasts are easily domesticated herd animals kept for meat, milk, and fur. Both male and female jakobeasts sport large tusks, primarily used for self-defense or establishing dominance. Though it is not widely known, as a group, jakobeasts can generate waves of Force energy to defend their herds from predators, although an individual does not have this ability if separated from its herd.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 1,
@@ -816,7 +816,7 @@
 			"Strong as a Jakobeast",
 			{
 				"name": "Force Power: Move",
-				"description": "A minion group of three or more jako­beasts may attempt to shove enemies away with the Force. As an action, roll :force::force:. Each :forcepip: generated may be spent to move one Silhouette 1 en­emy within Short range to Medium range."
+				"description": "A minion group of three or more jakobeasts may attempt to shove enemies away with the Force. As an action, roll :force::force:. Each :forcepip: generated may be spent to move one Silhouette 1 enemy within Short range to Medium range."
 			}
 		],
 		"weapons": [
@@ -833,7 +833,7 @@
 	{
 		"name": "Jubba Bird",
 		"type": "Rival",
-		"description": "Jubba birds are found in marketplaces, palaces, and the homes of wealthy merchants and upwardly mobile criminals throughout the galaxy, although they are na­tive to the swamps of Dagobah. Brightly colored avians with reptilian features, jubba birds are prized for their red, yellow, and purple plumage as much as for their beautiful, haunting song. The jubba bird’s whis­ tling call is actually an instinctual ability to tap into the Living Force, and it produces a peaceful sensation in those who hear it. Jubba birds have small bodies but large wings, and they fare poorly in cages. Luckily, if an owner feeds his bird regularly, it is more than content to remain on a roost or perch and refrain from terror­ izing a household or attempting to hunt other pets. On Dagobah, jubba birds hunt small prey such as rodents or other birds, but in captivity, a well-fed jubba bird will fight only to defend itself. Most importantly, if the jubba bird is not content, it refuses to sing.\n\nFew owners realize that jubba birds are deceptively intelligent. While not as smart as most sapient spe­cies, they possess a level of cunning and a capacity for comprehension that dwarfs most animal species. Some researchers suspect that jubba birds deliberate­ ly pretend to be less intelligent when interacting with other species. These suspicions are only reinforced by rumors that, when paired with owners they trust and care for, jubba birds can act with more deliberation and foresight.",
+		"description": "Jubba birds are found in marketplaces, palaces, and the homes of wealthy merchants and upwardly mobile criminals throughout the galaxy, although they are native to the swamps of Dagobah. Brightly colored avians with reptilian features, jubba birds are prized for their red, yellow, and purple plumage as much as for their beautiful, haunting song. The jubba bird’s whis tling call is actually an instinctual ability to tap into the Living Force, and it produces a peaceful sensation in those who hear it. Jubba birds have small bodies but large wings, and they fare poorly in cages. Luckily, if an owner feeds his bird regularly, it is more than content to remain on a roost or perch and refrain from terror izing a household or attempting to hunt other pets. On Dagobah, jubba birds hunt small prey such as rodents or other birds, but in captivity, a well-fed jubba bird will fight only to defend itself. Most importantly, if the jubba bird is not content, it refuses to sing.\n\nFew owners realize that jubba birds are deceptively intelligent. While not as smart as most sapient species, they possess a level of cunning and a capacity for comprehension that dwarfs most animal species. Some researchers suspect that jubba birds deliberate ly pretend to be less intelligent when interacting with other species. These suspicions are only reinforced by rumors that, when paired with owners they trust and care for, jubba birds can act with more deliberation and foresight.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 2,
@@ -865,7 +865,7 @@
 	{
 		"name": "Kaaten",
 		"type": "Rival",
-		"description": "The kaaten is a one-and-half-meter, bipedal, semi-intelligent predator found on Felucia. It is a mimic, able to use the Force to appear to its prey as some­ one familiar to the individual the kaaten is hunting. Kaaten are solitary, with well-defined territorial lines that are crossed only when they mate. Therefore, they have not developed any kind of social structure or language. A kaaten can appear as a lost loved one, a companion or friend, or a member of its prey’s spe­cies if the kaaten is hunting something non-sentient. Once the kaaten has lured its prey close, it strikes with its claws, attempting to quickly incapacitate its unsuspecting quarry.",
+		"description": "The kaaten is a one-and-half-meter, bipedal, semi-intelligent predator found on Felucia. It is a mimic, able to use the Force to appear to its prey as some one familiar to the individual the kaaten is hunting. Kaaten are solitary, with well-defined territorial lines that are crossed only when they mate. Therefore, they have not developed any kind of social structure or language. A kaaten can appear as a lost loved one, a companion or friend, or a member of its prey’s species if the kaaten is hunting something non-sentient. Once the kaaten has lured its prey close, it strikes with its claws, attempting to quickly incapacitate its unsuspecting quarry.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -974,7 +974,7 @@
 	{
 		"name": "Kintan Strider",
 		"type": "Rival",
-		"description": "Now extinct on the planet that gave the Kintan Strider its name, these enormous semisentient beasts were bred for centuries offworld. They can now be found on various planets around the galaxy, where they are most often used as guards by Hutt crime lords. Their incred­ible self-healing properties and the thick layer of fat and hide that covers their bodies make Kintan Striders formidable opponents. Most citizens of the galaxy know the Kintan Strider as a piece in dejarik, around which the tactic of sacrificing it to create long-term opportunities (called the “Kintan Strider Death Gambit”) developed.",
+		"description": "Now extinct on the planet that gave the Kintan Strider its name, these enormous semisentient beasts were bred for centuries offworld. They can now be found on various planets around the galaxy, where they are most often used as guards by Hutt crime lords. Their incredible self-healing properties and the thick layer of fat and hide that covers their bodies make Kintan Striders formidable opponents. Most citizens of the galaxy know the Kintan Strider as a piece in dejarik, around which the tactic of sacrificing it to create long-term opportunities (called the “Kintan Strider Death Gambit”) developed.",
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 2,
@@ -1031,7 +1031,7 @@
 	{
 		"name": "Knytix",
 		"type": "Minion",
-		"description": "One of the most common creatures on Thyferra, the half-meter-tall knytix are docile, mantis-like insects that reside within the planet’s rainforests, easily blending in with the plant life. Vratix view the knytix as childlike genetic cousin, and often keep them as pets. The Vratix use a mixture of mud and knytix saliva to build their adobe-style treetop homes, which forms a compound that is incredibly durable and stands up to the high humidity of Thyferra’s jungle. It is also cus­tomary for Vratix, when they cause a deep offense to someone, to slaughter a pet knytix and make a soup of it for the offended party as a formal apology.",
+		"description": "One of the most common creatures on Thyferra, the half-meter-tall knytix are docile, mantis-like insects that reside within the planet’s rainforests, easily blending in with the plant life. Vratix view the knytix as childlike genetic cousin, and often keep them as pets. The Vratix use a mixture of mud and knytix saliva to build their adobe-style treetop homes, which forms a compound that is incredibly durable and stands up to the high humidity of Thyferra’s jungle. It is also customary for Vratix, when they cause a deep offense to someone, to slaughter a pet knytix and make a soup of it for the offended party as a formal apology.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 4,
@@ -1060,7 +1060,7 @@
 	{
 		"name": "Kouhun",
 		"type": "Minion",
-		"description": "Kouhuns are small, multi-legged, venomous arthro­pods approximately thirty centimeters long, with gray, segmented bodies and large mandibles. Kouhun bites deliver a fast-acting and fatal neurotoxin, making them a favorite “weapon” of many assassins. On their home planet of Indoumodo, they are simple preda­tors who track prey by heat. Their tiny size makes them adept at slipping through ventilation systems, windows, cracks in masonry, and other tight spaces. When cornered, kouhuns can also use a sharp, non-venomous tail spine to defend themselves.",
+		"description": "Kouhuns are small, multi-legged, venomous arthropods approximately thirty centimeters long, with gray, segmented bodies and large mandibles. Kouhun bites deliver a fast-acting and fatal neurotoxin, making them a favorite “weapon” of many assassins. On their home planet of Indoumodo, they are simple predators who track prey by heat. Their tiny size makes them adept at slipping through ventilation systems, windows, cracks in masonry, and other tight spaces. When cornered, kouhuns can also use a sharp, non-venomous tail spine to defend themselves.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 2,
@@ -1132,7 +1132,7 @@
 	{
 		"name": "Massiff",
 		"type": "Rival",
-		"description": "Massiffs are armoured predators native to Geonosis. Commonly used as guard animals in the Outer Rim, they are up to a meter tall at the shoulder. Massiffs are vicious predators with keen senses and animal cunning, and they are especially dangerous when starving—as these specimens are. Due to their hun­ger, these massiffs continue to maul downed oppo­nents until distracted in some fashion.",
+		"description": "Massiffs are armoured predators native to Geonosis. Commonly used as guard animals in the Outer Rim, they are up to a meter tall at the shoulder. Massiffs are vicious predators with keen senses and animal cunning, and they are especially dangerous when starving—as these specimens are. Due to their hunger, these massiffs continue to maul downed opponents until distracted in some fashion.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,
@@ -1168,7 +1168,7 @@
 	{
 		"name": "Maalraa",
 		"type": "Rival",
-		"description": "The maalraa is a non-sentient, feline pack hunter that uses the Force to cloak itself from its prey. Although once found through­ out the galaxy and sometimes domesti­cated as guard animals, maalraas are now extremely rare, found only in a handful of the galaxy’s forgotten places and in the seediest corners of the criminal under­world. The maalraa’s ability to cloak itself makes it almost impossible to spot among the shadows, although those who are sensitive to the Force can sometimes detect its presence. When it strikes, the maalraa uses its huge fangs to latch onto its prey and hold it inert, slowly crushing it, while other members of the pack finish the unfortunate creature.",
+		"description": "The maalraa is a non-sentient, feline pack hunter that uses the Force to cloak itself from its prey. Although once found through out the galaxy and sometimes domesticated as guard animals, maalraas are now extremely rare, found only in a handful of the galaxy’s forgotten places and in the seediest corners of the criminal underworld. The maalraa’s ability to cloak itself makes it almost impossible to spot among the shadows, although those who are sensitive to the Force can sometimes detect its presence. When it strikes, the maalraa uses its huge fangs to latch onto its prey and hold it inert, slowly crushing it, while other members of the pack finish the unfortunate creature.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -1201,7 +1201,7 @@
 	{
 		"name": "Mamien",
 		"type": "Rival",
-		"description": "An oversized simian of the Yavin 4 jungles, the aver­age mamien stands upright and measures almost three meters tall. Mamiens appear as woolly, potbel­lied humanoids with spindly arms and legs, stubby noses, and heavy brows. Mamien are unafraid of most species and possess a curious and casual demeanour. However, they are highly protective of their young: entire troupes may turn violent in a heartbeat if an infant is threatened.",
+		"description": "An oversized simian of the Yavin 4 jungles, the average mamien stands upright and measures almost three meters tall. Mamiens appear as woolly, potbellied humanoids with spindly arms and legs, stubby noses, and heavy brows. Mamien are unafraid of most species and possess a curious and casual demeanour. However, they are highly protective of their young: entire troupes may turn violent in a heartbeat if an infant is threatened.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 2,
@@ -1235,7 +1235,7 @@
 	{
 		"name": "Mature Tusk Cat",
 		"type": "Rival",
-		"description": "Tusk cats are feline predators that can grow up to two meters high and three meters long. Named for the two distinct tusks growing from their lower jaws, these mammals are social crea­tures who mate for life and form prides. They even can “guard” herds of prey animals, eating one ev­ery so often while protecting the rest of the herd from other preda­tors. These instincts make them surprisingly easy to do­ mesticate, and they are large enough that they can be ridden by most humanoid sapients. Many an Outer Rim wanderer relies on the keen eyes and sensitive nose of his trusted tusk cat companion.",
+		"description": "Tusk cats are feline predators that can grow up to two meters high and three meters long. Named for the two distinct tusks growing from their lower jaws, these mammals are social creatures who mate for life and form prides. They even can “guard” herds of prey animals, eating one every so often while protecting the rest of the herd from other predators. These instincts make them surprisingly easy to do mesticate, and they are large enough that they can be ridden by most humanoid sapients. Many an Outer Rim wanderer relies on the keen eyes and sensitive nose of his trusted tusk cat companion.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 4,
@@ -1273,7 +1273,7 @@
 	{
 		"name": "Miim",
 		"type": "Rival",
-		"description": "Miim are large, fat, burrowing creatures that were used as beasts of burden in early mining and agri­cultural efforts on Sullust. The creatures are smart, social, and easily domesticated. When frightened, miims thrash potential threats with their large tails and flee. Today, Sullustans romanticize the miim and their place in history.",
+		"description": "Miim are large, fat, burrowing creatures that were used as beasts of burden in early mining and agricultural efforts on Sullust. The creatures are smart, social, and easily domesticated. When frightened, miims thrash potential threats with their large tails and flee. Today, Sullustans romanticize the miim and their place in history.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 2,
@@ -1371,7 +1371,7 @@
 	{
 		"name": "Mynock",
 		"type": "Minion",
-		"description": "Mynocks are disgusting, silicon-based space para­sites that survive by latching onto the hulls of star­ ships and feeding off power cables and other vital systems. About a meter long with wings that could be used in atmosphere. they have spread through­ out the galaxy by hitching rides on passing starships. They absorb matter and energy from their hosts. which can eventually cause sys­tem failure. Mynocks can be found on the surface of several different worlds, although their allergy to helium limits the number of habitats which they can survive.",
+		"description": "Mynocks are disgusting, silicon-based space parasites that survive by latching onto the hulls of star ships and feeding off power cables and other vital systems. About a meter long with wings that could be used in atmosphere. they have spread through out the galaxy by hitching rides on passing starships. They absorb matter and energy from their hosts. which can eventually cause system failure. Mynocks can be found on the surface of several different worlds, although their allergy to helium limits the number of habitats which they can survive.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 3,
@@ -1506,7 +1506,7 @@
 	{
 		"name": "Captive Rancor",
 		"type": "Nemesis",
-		"description": "Rancors are terrifying predators, found on worlds throughout the galaxy. Complete carnivores, an adult rancor can grow to be up to 10 meters tall. They often walk with a hunched, simian gait using their arms and hands as well as their legs. Their hands and wicked claws can be used for grasping and holding prey. Com­bined with their prodigious strength, a rancor can be­come an apex predator on most worlds it lives in. Their fearsome combat ability makes rancors popular amongst crime lords as gladiatorial opponents or “pets.” The infamous gangster Jabba the Hutt is known to keep a rancor in a cavern below his palace, and those who displease the crime lord all too often become the rancor’s next meal.",
+		"description": "Rancors are terrifying predators, found on worlds throughout the galaxy. Complete carnivores, an adult rancor can grow to be up to 10 meters tall. They often walk with a hunched, simian gait using their arms and hands as well as their legs. Their hands and wicked claws can be used for grasping and holding prey. Combined with their prodigious strength, a rancor can become an apex predator on most worlds it lives in. Their fearsome combat ability makes rancors popular amongst crime lords as gladiatorial opponents or “pets.” The infamous gangster Jabba the Hutt is known to keep a rancor in a cavern below his palace, and those who displease the crime lord all too often become the rancor’s next meal.",
 		"characteristics": {
 			"Brawn": 6,
 			"Agility": 2,
@@ -1542,7 +1542,7 @@
 	{
 		"name": "Rass",
 		"type": "Nemesis",
-		"description": "Even the bravest of Sakiyan hunters are wise to fear and respect the mighty rass. Beneath a thick coat of long, black fur, the rass is a behemoth of pure muscle that can easily eviscerate most sentients with a single swipe of its jagged claws. Its back bristles with dozens of sharp tines that discourage attacks on the crea­ture’s flank. Though it roams the dense forests on all fours, the rass rises to an intimidating height of four meters when it rears back on its hind legs to fight.\n\nRass nest in deforested areas where they can spot threats from far off while they blend in with the charred wood. Sakiyans see a one-on-one battle to the death with a rass as the epitome of demonstrat­ing power and skill, and they often track the monsters back to their lairs to confront them. Traditionally, Saki­yans use the blackened bones of their first rass kill to make blade handles, and they cherish these blades as their most prized possessions.",
+		"description": "Even the bravest of Sakiyan hunters are wise to fear and respect the mighty rass. Beneath a thick coat of long, black fur, the rass is a behemoth of pure muscle that can easily eviscerate most sentients with a single swipe of its jagged claws. Its back bristles with dozens of sharp tines that discourage attacks on the creature’s flank. Though it roams the dense forests on all fours, the rass rises to an intimidating height of four meters when it rears back on its hind legs to fight.\n\nRass nest in deforested areas where they can spot threats from far off while they blend in with the charred wood. Sakiyans see a one-on-one battle to the death with a rass as the epitome of demonstrating power and skill, and they often track the monsters back to their lairs to confront them. Traditionally, Sakiyans use the blackened bones of their first rass kill to make blade handles, and they cherish these blades as their most prized possessions.",
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 2,
@@ -1644,7 +1644,7 @@
 	{
 		"name": "Shaoryn",
 		"type": "Rival",
-		"description": "Shaoryn are ghostly swamp predators that haunt the southern marshes of Toydaria. They appear as a col­lection of wispy, yellow-white lights floating through the swamp, which has earned them the nickname “swamp pixies” among the locals. Beyond their illu­sions and trickery, shaoryn are tall, slender amphib­ians with spongy green bodies and leathery tendrils used to envelop and suck the life out of their prey.",
+		"description": "Shaoryn are ghostly swamp predators that haunt the southern marshes of Toydaria. They appear as a collection of wispy, yellow-white lights floating through the swamp, which has earned them the nickname “swamp pixies” among the locals. Beyond their illusions and trickery, shaoryn are tall, slender amphibians with spongy green bodies and leathery tendrils used to envelop and suck the life out of their prey.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -1680,7 +1680,7 @@
 	{
 		"name": "Skuir Fish",
 		"type": "Rival",
-		"description": "Deep within the chilly murk of Sakiya’s oceans lurks the hideous skuir fish. A large, aggressive, sea-going predator with a sleek body and a powerful, fanned tail that carries it through the water, the skuir fish is fast and dangerous. In addition to its toothy maw, a squir fish has four long, razor-tipped appendages on the underside of its body with which it can lash out to seize its prey. All of these factors make it one of the most feared predators in the seas of Sakiya.\n\n Skuir fish average five meters in length, but they have been known to grow much larger in colder, deeper waters. Adult skuir fish are hunted for their meat by harpoon ships on Saki, but the vicious crea­tures claim many crewmembers of the seafaring ves­sels as well. Folklore even tells of a stark-white skuir fish called Oloss Yvae, which is so gigantic that it sinks entire harpoon vessels and swallows their crew whole. Many of lepatap Harbor’s albino exiles see this mythical leviathan as a symbol, a hero that exacts the revenge they desire upon their persecutors.",
+		"description": "Deep within the chilly murk of Sakiya’s oceans lurks the hideous skuir fish. A large, aggressive, sea-going predator with a sleek body and a powerful, fanned tail that carries it through the water, the skuir fish is fast and dangerous. In addition to its toothy maw, a squir fish has four long, razor-tipped appendages on the underside of its body with which it can lash out to seize its prey. All of these factors make it one of the most feared predators in the seas of Sakiya.\n\n Skuir fish average five meters in length, but they have been known to grow much larger in colder, deeper waters. Adult skuir fish are hunted for their meat by harpoon ships on Saki, but the vicious creatures claim many crewmembers of the seafaring vessels as well. Folklore even tells of a stark-white skuir fish called Oloss Yvae, which is so gigantic that it sinks entire harpoon vessels and swallows their crew whole. Many of lepatap Harbor’s albino exiles see this mythical leviathan as a symbol, a hero that exacts the revenge they desire upon their persecutors.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 4,
@@ -1723,7 +1723,7 @@
 	{
 		"name": "Stalking Acklay",
 		"type": "Nemesis",
-		"description": "Acklays are ferocious, three-meter-tall, six-legged pred­ators native to the planet Vendaxa. These non-sentient hunters evolved in the crucible of Vendaxa’s harsh eco­system to become finely honed killing machines. An acklay’s high metabolism gives it a great deal of energy, especially when hunting. Acklays are thick-shelled crus­taceans that can live underwater or on land. The ack­lay’s three eyes can see in almost-total darkness, and each of its legs ends in an enormous claw it uses to pin or slash at prey. Because of their combat prowess, ack­lays are used across the galaxy in gladiatorial arenas.",
+		"description": "Acklays are ferocious, three-meter-tall, six-legged predators native to the planet Vendaxa. These non-sentient hunters evolved in the crucible of Vendaxa’s harsh ecosystem to become finely honed killing machines. An acklay’s high metabolism gives it a great deal of energy, especially when hunting. Acklays are thick-shelled crustaceans that can live underwater or on land. The acklay’s three eyes can see in almost-total darkness, and each of its legs ends in an enormous claw it uses to pin or slash at prey. Because of their combat prowess, acklays are used across the galaxy in gladiatorial arenas.",
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 3,
@@ -1760,7 +1760,7 @@
 	{
 		"name": "Tauntaun",
 		"type": "Rival",
-		"description": "The tauntaun is a bipedal, reptomammalian herbi­vore with a wooly, thick hide, short front legs, and a bone-crested skull framed by a pair of curved horns on either side of its stubby snout. While out on the ice plains, tauntauns survive on a steady diet of frozen algae; within the grottos where tauntauns typically nest, they eat lichen and the abundant plant matter hidden within the caves. For sentient beings traversing Hoth’s frozen fields, tauntauns are ideal mounts due to their even temper and the thick coat of blubber that allows them to survive the biting cold.",
+		"description": "The tauntaun is a bipedal, reptomammalian herbivore with a wooly, thick hide, short front legs, and a bone-crested skull framed by a pair of curved horns on either side of its stubby snout. While out on the ice plains, tauntauns survive on a steady diet of frozen algae; within the grottos where tauntauns typically nest, they eat lichen and the abundant plant matter hidden within the caves. For sentient beings traversing Hoth’s frozen fields, tauntauns are ideal mounts due to their even temper and the thick coat of blubber that allows them to survive the biting cold.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,
@@ -1794,7 +1794,7 @@
 	{
 		"name": "Tayan Falcon",
 		"type": "Rival",
-		"description": "The Tayan falcon is a sparkling, amber-plumed bird of prey that nests in the mountains of Kinyen. During the day, the birds ride thermal updrafts above fields of silvergrass to feed on various rodents and large insects that would otherwise destroy crops. Many are trained by gamwidge ranchers to ward off llayas that threaten their herd.\n\nThe Doellinists revere the bird as avatars of Doellin herself, keeping her fields free of pests. The Tayan League takes much of its philosophy from the falcon. The concepts of exile and pacifism are linked to the falcon’s unique trick of driving off llayas with shriek­ ing and dive-bombing feints. Falcon imagery is often incorporated into religious symbols and trappings of both priesthood and government office.",
+		"description": "The Tayan falcon is a sparkling, amber-plumed bird of prey that nests in the mountains of Kinyen. During the day, the birds ride thermal updrafts above fields of silvergrass to feed on various rodents and large insects that would otherwise destroy crops. Many are trained by gamwidge ranchers to ward off llayas that threaten their herd.\n\nThe Doellinists revere the bird as avatars of Doellin herself, keeping her fields free of pests. The Tayan League takes much of its philosophy from the falcon. The concepts of exile and pacifism are linked to the falcon’s unique trick of driving off llayas with shriek ing and dive-bombing feints. Falcon imagery is often incorporated into religious symbols and trappings of both priesthood and government office.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 4,
@@ -1862,7 +1862,7 @@
 	{
 		"name": "Trained Keelkana",
 		"type": "Rival",
-		"description": "During the reign of the Mon Calamari monarchy, the order of Mon Calamari knights defended the kingdom from a variety of undersea threats while mounted atop armoured keelkana eels. While undersea war mounts lost favour after the Clone Wars, keelkana racing has recently grown in popularity in Mon Calamari Space. The massive, snakelike fish have a vicious temperament and teeth sharp enough to pierce armour-plat­ing. Wild keelkana can be found in deep sea trenches across Mon Cala.",
+		"description": "During the reign of the Mon Calamari monarchy, the order of Mon Calamari knights defended the kingdom from a variety of undersea threats while mounted atop armoured keelkana eels. While undersea war mounts lost favour after the Clone Wars, keelkana racing has recently grown in popularity in Mon Calamari Space. The massive, snakelike fish have a vicious temperament and teeth sharp enough to pierce armour-plating. Wild keelkana can be found in deep sea trenches across Mon Cala.",
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 3,
@@ -1898,7 +1898,7 @@
 	{
 		"name": "The Lost",
 		"type": "Rival",
-		"description": "Not all Hutts fled Varl when the world was deemed lost. Some lesser Hutts, trapped deep underground in slums, were cut off from the evacuation routes and unable to escape. These creatures devolved over the millennia and have become the Lost. Albino, feral creatures, the Lost survive in pockets of air deep underground, harassing and preying on miners work­ing on Varl. The Lost maintain a great deal of devious cunning even as their rational minds have faded away.",
+		"description": "Not all Hutts fled Varl when the world was deemed lost. Some lesser Hutts, trapped deep underground in slums, were cut off from the evacuation routes and unable to escape. These creatures devolved over the millennia and have become the Lost. Albino, feral creatures, the Lost survive in pockets of air deep underground, harassing and preying on miners working on Varl. The Lost maintain a great deal of devious cunning even as their rational minds have faded away.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 2,
@@ -1942,7 +1942,7 @@
 	{
 		"name": "Wampa",
 		"type": "Rival",
-		"description": "Wampas are the fearsome alpha predators of Hoth. Their shaggy white hair allows these vicious creatures to perfectly blend with Hoth’s snowy landscape so they can sneak up on their prey undetected. Wampas typically dwell in ice caverns formed by underground hot springs nestled within the tundra, venturing out into the open only when hunting for food. Wampas subsist primarily on tauntauns, and they display a surprising degree of intelligence when stalking their prey. Unlike most carnivores, wampas prefer to cap­ture their prey alive and dangle their future meal from the ceiling of their lair until they are ready to dine on fresh meat.",
+		"description": "Wampas are the fearsome alpha predators of Hoth. Their shaggy white hair allows these vicious creatures to perfectly blend with Hoth’s snowy landscape so they can sneak up on their prey undetected. Wampas typically dwell in ice caverns formed by underground hot springs nestled within the tundra, venturing out into the open only when hunting for food. Wampas subsist primarily on tauntauns, and they display a surprising degree of intelligence when stalking their prey. Unlike most carnivores, wampas prefer to capture their prey alive and dangle their future meal from the ceiling of their lair until they are ready to dine on fresh meat.",
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 2,
@@ -1978,7 +1978,7 @@
 	{
 		"name": "Whaladon",
 		"type": "Rival",
-		"description": "Whaladons are enormous, cetacean-based marine mammals that live within Mon Cala’s seas. These whalelike creatures, which can reach almost thirty meters in length, are one of the many sentient spe­cies of their world. Whaladons have coexisted with Quarren and Mon Calamari for millennia. They main­ tain an unofficial embassy around the domed city of Aquarius, communicating in songlike calls. Despite whaladons’ sentience, offworlders have been known to hunt them for sport and profit.",
+		"description": "Whaladons are enormous, cetacean-based marine mammals that live within Mon Cala’s seas. These whalelike creatures, which can reach almost thirty meters in length, are one of the many sentient species of their world. Whaladons have coexisted with Quarren and Mon Calamari for millennia. They main tain an unofficial embassy around the domed city of Aquarius, communicating in songlike calls. Despite whaladons’ sentience, offworlders have been known to hunt them for sport and profit.",
 		"characteristics": {
 			"Brawn": 6,
 			"Agility": 2,
@@ -2049,7 +2049,7 @@
 	{
 		"name": "Vornskr",
 		"type": "Rival",
-		"description": "Vornskrs are lanky, canine predators native to the planet Myrkr, but found throughout the galaxy as do­ mesticated hunting animals, pets, and guards. They use a mild poison in their whiplike tails to stun prey, then kill it with their teeth or claws. Vornskrs are Force-sensitive, a result of hunting prey with Force-sensitivity on their homeworld. A vornskr immediately focuses on any Force-sensitive creatures or individuals in its pres­ence as soon as it senses them, and generally attacks without hesitation. Mercenary Jedi hunters and Impe­rial Inquisitors have been known to use vornskrs to help ferret out Force-sensitive fugitives.",
+		"description": "Vornskrs are lanky, canine predators native to the planet Myrkr, but found throughout the galaxy as do mesticated hunting animals, pets, and guards. They use a mild poison in their whiplike tails to stun prey, then kill it with their teeth or claws. Vornskrs are Force-sensitive, a result of hunting prey with Force-sensitivity on their homeworld. A vornskr immediately focuses on any Force-sensitive creatures or individuals in its presence as soon as it senses them, and generally attacks without hesitation. Mercenary Jedi hunters and Imperial Inquisitors have been known to use vornskrs to help ferret out Force-sensitive fugitives.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -2126,7 +2126,7 @@
 	{
 		"name": "Ysalamir",
 		"type": "Minion",
-		"description": "Ysalamiri evolved on Myrkr, where one of their chief predators was the Force-sensitive, Force-detecting vorn­skr. As a result, ysalamiri developed an unusual defense: a natural “bubble” around them that negates other creatures’ ability to influence the Force. These docile, tree-dwelling creatures resemble half-meter-long furred lizards and live deep within the forests of Myrkr, where they have claimed the canopy as their own. They are herbivores, feasting on the sap of the trees in which they live, and they use only their teeth to defend themselves if attacked. As a result of their Force-negating abilities, ysalamiri are highly valued as pets and companions by anyone who fears those who use the Force.",
+		"description": "Ysalamiri evolved on Myrkr, where one of their chief predators was the Force-sensitive, Force-detecting vornskr. As a result, ysalamiri developed an unusual defense: a natural “bubble” around them that negates other creatures’ ability to influence the Force. These docile, tree-dwelling creatures resemble half-meter-long furred lizards and live deep within the forests of Myrkr, where they have claimed the canopy as their own. They are herbivores, feasting on the sap of the trees in which they live, and they use only their teeth to defend themselves if attacked. As a result of their Force-negating abilities, ysalamiri are highly valued as pets and companions by anyone who fears those who use the Force.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 0,

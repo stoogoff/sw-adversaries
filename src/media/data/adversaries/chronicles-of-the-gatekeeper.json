@@ -2,7 +2,7 @@
 	{
 		"name": "Dalan Oberos",
 		"type": "Nemesis",
-		"description": "To deal with true inheritors of the Jedi legacy, the duke turns to a human bounty hunter named Dalan Oberos, who specializes in dealing with such enemies of the Empire. During the Clone Wars, Oberos first came into conflict with Jedi while completing con­tracts from Count Dooku and the Separatist Alliance. In the earlier days of the Empire, he further cemented his reputation by tracking down and bringing in Jedi survivors and other Force sensitives. In more recent years, such bounties have become fewer and further between, and the bounty hunter is eager for the op­portunity to test his mettle and earn a considerable commission from Duke Irbian.",
+		"description": "To deal with true inheritors of the Jedi legacy, the duke turns to a human bounty hunter named Dalan Oberos, who specializes in dealing with such enemies of the Empire. During the Clone Wars, Oberos first came into conflict with Jedi while completing contracts from Count Dooku and the Separatist Alliance. In the earlier days of the Empire, he further cemented his reputation by tracking down and bringing in Jedi survivors and other Force sensitives. In more recent years, such bounties have become fewer and further between, and the bounty hunter is eager for the opportunity to test his mettle and earn a considerable commission from Duke Irbian.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 4,
@@ -91,7 +91,7 @@
 	{
 		"name": "Gel Marcolf",
 		"type": "Nemesis",
-		"description": "Gel Marcolf has acted as Quolas’s leader since Suljo Warde placed him in the position of interim magistrate, promising to return with Republic forces and reach a permanent solution to the city’s conflict. At the time, Marcolf was an ambitious young man, but fair, and he worked hard to uphold the ide­als he thought Warde would have wanted. As the years went by and Warde did not return, Marcolf grew bitter, coming to believe that his friend had abandoned him for greater things, leaving him stranded on the remote planet. Rather than leav­ing Arbooine to look for Warde or find his own destiny, Mar­colf cemented his position as reeve of the town, crafting a persona of a strong leader in the hopes that it would bring him a sense of self-worth. He found no happiness in power, and so he frequently vented his own anger and resentment through draconian proclamations and harsh punishments.",
+		"description": "Gel Marcolf has acted as Quolas’s leader since Suljo Warde placed him in the position of interim magistrate, promising to return with Republic forces and reach a permanent solution to the city’s conflict. At the time, Marcolf was an ambitious young man, but fair, and he worked hard to uphold the ideals he thought Warde would have wanted. As the years went by and Warde did not return, Marcolf grew bitter, coming to believe that his friend had abandoned him for greater things, leaving him stranded on the remote planet. Rather than leaving Arbooine to look for Warde or find his own destiny, Marcolf cemented his position as reeve of the town, crafting a persona of a strong leader in the hopes that it would bring him a sense of self-worth. He found no happiness in power, and so he frequently vented his own anger and resentment through draconian proclamations and harsh punishments.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -111,7 +111,7 @@
 			"Discipline": 3,
 			"Leadership": 1,
 			"Melee": 3,
-			"Per­ception": 2,
+			"Perception": 2,
 			"Ranged: Light": 2
 		},
 		"talents": ["Adversary 1", "Force Rating 2", "Enhanced Leader", "Parry 3"],
@@ -139,7 +139,7 @@
 	{
 		"name": "Lor Keln",
 		"type": "Rival",
-		"description": "Lor Keln is the cruel, one-eyed leader of the Crimson Kree­hawks, reporting directly, if infrequently, to Onrein Hasar. Keln takes a perverse joy in inflicting pain on her enemies, preferring to humiliate foes before delivering a killing blow, unnecessarily prolonging fights.",
+		"description": "Lor Keln is the cruel, one-eyed leader of the Crimson Kreehawks, reporting directly, if infrequently, to Onrein Hasar. Keln takes a perverse joy in inflicting pain on her enemies, preferring to humiliate foes before delivering a killing blow, unnecessarily prolonging fights.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -186,7 +186,7 @@
 	{
 		"name": "Onrein Hasa",
 		"type": "Nemesis",
-		"description": "Onrein Hasar was once a successful executive in the Trade Federation and, once the Clone Wars broke out, an influential diplomat for the Separatist Alliance. She was one of the del­egates who arrived in Jorra to negotiate a cease-fire, and was the only one to survive Warde’s assault. Although she lived, Flasar was wounded almost unto death, and the evidence of the attack is clear to this day. Scar tissue laces much of Hasar’s face, and her gray skin is gnarled from a lifetime of strife. Her glaring cybernetic eyes stare out from among the surgical grafts and cybernetic components. An implanted res­pirator unit projects an intimidating synthesized voice and the wheeze of cybernetic lungs. Although usually hidden beneath opulent robes reminiscent of the greatest of Trade Federation leaders, the rest of Flasar’s body features similar mechanical replacements for the flesh and bone Warde took from her.\n\nAlthough she has built a thriving criminal empire, this is the not the life Flasar had planned. To this day, she hates Warde, and it is this spite that drives her in all she does. Flasar would savor the opportunity to vent that rage on any whom she perceives as allies of Warde, whether or not they have ever actually met the fallen Jedi.",
+		"description": "Onrein Hasar was once a successful executive in the Trade Federation and, once the Clone Wars broke out, an influential diplomat for the Separatist Alliance. She was one of the delegates who arrived in Jorra to negotiate a cease-fire, and was the only one to survive Warde’s assault. Although she lived, Flasar was wounded almost unto death, and the evidence of the attack is clear to this day. Scar tissue laces much of Hasar’s face, and her gray skin is gnarled from a lifetime of strife. Her glaring cybernetic eyes stare out from among the surgical grafts and cybernetic components. An implanted respirator unit projects an intimidating synthesized voice and the wheeze of cybernetic lungs. Although usually hidden beneath opulent robes reminiscent of the greatest of Trade Federation leaders, the rest of Flasar’s body features similar mechanical replacements for the flesh and bone Warde took from her.\n\nAlthough she has built a thriving criminal empire, this is the not the life Flasar had planned. To this day, she hates Warde, and it is this spite that drives her in all she does. Flasar would savor the opportunity to vent that rage on any whom she perceives as allies of Warde, whether or not they have ever actually met the fallen Jedi.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -206,7 +206,7 @@
 			"Cool": 3,
 			"Deception": 4,
 			"Discipline": 4,
-			"Knowl­edge: Underworld": 4,
+			"Knowledge: Underworld": 4,
 			"Leadership": 3,
 			"Melee": 2,
 			"Negotiation": 3,
@@ -239,7 +239,7 @@
 	{
 		"name": "Pathran Helshar",
 		"type": "Rival",
-		"description": "Pathran Helshar is the idealistic youngest son of Koh Helshar. While his siblings honor their mother’s request for patience in dealing with Marcolf’s rule, Pathran believes that only an armed uprising can deliver the city from tyranny, and that conditions will only get worse the longer Marcolf retains power. Pathran is eager for any assistance offered in depos­ing Marcolf and values the PCs as allies. He is an honorable man, and his motivations are well-intentioned, but Pathran’s lack of experience could lead to poor decisions for which the entire city might suffer.",
+		"description": "Pathran Helshar is the idealistic youngest son of Koh Helshar. While his siblings honor their mother’s request for patience in dealing with Marcolf’s rule, Pathran believes that only an armed uprising can deliver the city from tyranny, and that conditions will only get worse the longer Marcolf retains power. Pathran is eager for any assistance offered in deposing Marcolf and values the PCs as allies. He is an honorable man, and his motivations are well-intentioned, but Pathran’s lack of experience could lead to poor decisions for which the entire city might suffer.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -257,7 +257,7 @@
 			"Coordination": 2,
 			"Leadership": 2,
 			"Melee": 2,
-			"Percep­tion": 2,
+			"Perception": 2,
 			"Ranged: Light": 2,
 			"Ranged: Heavy": 2,
 			"Survival": 2
@@ -302,7 +302,7 @@
 			"Darkside Force User",
 			{
 				"name": "Force Power: Warde’s Foresight",
-				"description": "Warde may spend :forcepip: to gain hints about what an individual within Short range is like­ly to do in the near future. He may spend :forcepip: to increase the range of the power to Long and may spend :forcepip::forcepip: to gain :boost::boost: on his next check against the target. When making a check for Initiative, Warde may make a Warde’s Foresight power check. He may spend :forcepip: to add :success: to his first check this encounter; if he used :darkside: for :forcepip: he may immediately perform one action but each enemy adds :success: to the result of their Initiative check."
+				"description": "Warde may spend :forcepip: to gain hints about what an individual within Short range is likely to do in the near future. He may spend :forcepip: to increase the range of the power to Long and may spend :forcepip::forcepip: to gain :boost::boost: on his next check against the target. When making a check for Initiative, Warde may make a Warde’s Foresight power check. He may spend :forcepip: to add :success: to his first check this encounter; if he used :darkside: for :forcepip: he may immediately perform one action but each enemy adds :success: to the result of their Initiative check."
 			},
 			{
 				"name": "Force Power: Enhance",
@@ -329,8 +329,8 @@
 	},
 	{
 		"name": "Tor Haido",
-		"type": "Tor Haido is a Neimoidian male of late middle age. Unre­markable and unassuming, he works as a factory supervisor, which suits-him. During the Clone Wars, Haido briefly served as an informant for Suljo Warde and the Republic. As Warde became increasingly paranoid and vindictive, Haido began to fear for his own safety. In the years since Warde left, he has tried to hide his affiliation.",
-		"description": "Rival",
+		"description": "Tor Haido is a Neimoidian male of late middle age. Unremarkable and unassuming, he works as a factory supervisor, which suits-him. During the Clone Wars, Haido briefly served as an informant for Suljo Warde and the Republic. As Warde became increasingly paranoid and vindictive, Haido began to fear for his own safety. In the years since Warde left, he has tried to hide his affiliation.",
+		"type": "Rival",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 1,
@@ -357,7 +357,7 @@
 	{
 		"name": "Stormtrooper Captain TH-313",
 		"type": "Rival",
-		"description": "TH-313, sometimes known as Tacker, served under Suljo Warde during the Clone Wars. Tacker was very fond of Warde and held him in high esteem. His respect for Warde remained even as sentiment began to turn against Warde due to the harsh measures he took to maintain Republic control of the city. Clone troopers rarely questioned their superiors’ orders, and though Tacker had some reservations about Warde’s methods, he never gave voice to them openly. As a combatant, Tacker saw Warde as peerless even among the Jedi he knew and served. He can recount numerous an­ecdotes in which Warde’s power of foresight saved his life and those of his fellow soldiers. If the PCs engage him in con­versation about Warde and the days of the Clone Wars, he also tells them of the Jedi Knight’s skill with the lightsaber, his ability to lift objects with his mind, and the superhuman feats he performed in combat, leaping from one foe to an­other with incredible speed. Tacker expresses regret that such warriors are so rare today, and encourages them to pursue their own gifts as the Jedi of old once did.",
+		"description": "TH-313, sometimes known as Tacker, served under Suljo Warde during the Clone Wars. Tacker was very fond of Warde and held him in high esteem. His respect for Warde remained even as sentiment began to turn against Warde due to the harsh measures he took to maintain Republic control of the city. Clone troopers rarely questioned their superiors’ orders, and though Tacker had some reservations about Warde’s methods, he never gave voice to them openly. As a combatant, Tacker saw Warde as peerless even among the Jedi he knew and served. He can recount numerous anecdotes in which Warde’s power of foresight saved his life and those of his fellow soldiers. If the PCs engage him in conversation about Warde and the days of the Clone Wars, he also tells them of the Jedi Knight’s skill with the lightsaber, his ability to lift objects with his mind, and the superhuman feats he performed in combat, leaping from one foe to another with incredible speed. Tacker expresses regret that such warriors are so rare today, and encourages them to pursue their own gifts as the Jedi of old once did.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -378,7 +378,7 @@
 			"Melee": 2,
 			"Ranged: Heavy": 2,
 			"Ranged: Light": 2,
-			"Resil­ience": 2,
+			"Resilience": 2,
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 1"],
@@ -401,7 +401,7 @@
 	{
 		"name": "Zel N’got",
 		"type": "Rival",
-		"description": "Zel N’got served as a spy for the Confederacy of Indepen­dent Systems during the Clone Wars. He is now in his old age, and his constant anxiety in the intervening years has further taken its toll on him. Although his mind is still sharp, N’got is physically weak. While his priority is his own survival, N’got strongly resents the Republic’s victory in the Clone Wars and the Empire’s control of Cato Neimoidia, for which he still places part of the blame on Suljo Warde.",
+		"description": "Zel N’got served as a spy for the Confederacy of Independent Systems during the Clone Wars. He is now in his old age, and his constant anxiety in the intervening years has further taken its toll on him. Although his mind is still sharp, N’got is physically weak. While his priority is his own survival, N’got strongly resents the Republic’s victory in the Clone Wars and the Empire’s control of Cato Neimoidia, for which he still places part of the blame on Suljo Warde.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 1,
@@ -419,7 +419,7 @@
 			"Cool": 1,
 			"Discipline": 1,
 			"Mechanics": 2,
-			"Per­ception": 1,
+			"Perception": 1,
 			"Ranged: Light": 1,
 			"Skulduggery": 1,
 			"Stealth": 1
@@ -480,7 +480,7 @@
 	{
 		"name": "Quolas Elder",
 		"type": "Rival",
-		"description": "Quolas elders often represent their families’ interests to the city, the reeve, and other houses. Traditionally, elders are re­spected figures within the community, though Marcolf has largely ignored or marginalized them over the decades. As such, most are extremely dissatisfied with the current state of politics in Quolas. However, Marcolf’s mysterious abilities and, more importantly, the Empire’s support of his rule have made the surviving elders extremely cautious, and they wish to choose their moment with care.",
+		"description": "Quolas elders often represent their families’ interests to the city, the reeve, and other houses. Traditionally, elders are respected figures within the community, though Marcolf has largely ignored or marginalized them over the decades. As such, most are extremely dissatisfied with the current state of politics in Quolas. However, Marcolf’s mysterious abilities and, more importantly, the Empire’s support of his rule have made the surviving elders extremely cautious, and they wish to choose their moment with care.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 3,
@@ -509,7 +509,7 @@
 	{
 		"name": "Quolas Guard",
 		"type": "Minion",
-		"description": "Although traditionally tasked with protecting and aiding Quolas’s inhabitants, in recent years the town watch’s prima­ry responsibility has become enforcing Marcolf’s cruel and senseless edicts and rounding up dissenters. Although many guards resent the current situation, others are fiercely loyal to Marcolf, enjoying the power they wield in his name. Quolas guards often ride tarvixes during patrols and in battle.",
+		"description": "Although traditionally tasked with protecting and aiding Quolas’s inhabitants, in recent years the town watch’s primary responsibility has become enforcing Marcolf’s cruel and senseless edicts and rounding up dissenters. Although many guards resent the current situation, others are fiercely loyal to Marcolf, enjoying the power they wield in his name. Quolas guards often ride tarvixes during patrols and in battle.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -562,7 +562,7 @@
 	{
 		"name": "Bearsloth",
 		"type": "Rival",
-		"description": "Bearsloths are dreaded and vicious predators native to Arbooine. These large, shaggy beasts possess six limbs, each tipped with fearsome claws that aid them in traversing the forest canopy and slaying prey. Bearsloths use their cam­ouflage patterning and natural stealth skills to ambush their victims, and make no distinction between wildlife and sentient prey. Even more than their ferocity, bearsloths are known for their venomous bite, which slowly kills their prey.",
+		"description": "Bearsloths are dreaded and vicious predators native to Arbooine. These large, shaggy beasts possess six limbs, each tipped with fearsome claws that aid them in traversing the forest canopy and slaying prey. Bearsloths use their camouflage patterning and natural stealth skills to ambush their victims, and make no distinction between wildlife and sentient prey. Even more than their ferocity, bearsloths are known for their venomous bite, which slowly kills their prey.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,
@@ -599,7 +599,7 @@
 	{
 		"name": "Phantasmal Beast of Moraband",
 		"type": "Rival",
-		"description": "These prowling beasts feed on terror rather than flesh. Whether they are animals twisted by the dark side or illu­sions of the Force, it is impossible to say.",
+		"description": "These prowling beasts feed on terror rather than flesh. Whether they are animals twisted by the dark side or illusions of the Force, it is impossible to say.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,
@@ -636,7 +636,7 @@
 	{
 		"name": "Tarvix",
 		"type": "Rival",
-		"description": "The tarvix is a domesticated riding beast common through­ out Arbooine. This arboreal mammal has four small eyes to­ward the front of its squat head, although it depends more on its acute sense of smell to find its way. It has a thick coat of dark bristles, which offers some degree of protection against bearsloths and other predators. Although not par­ticularly fast, tarvixes are tough and dependable, and just as adept at scaling trees as walking on the forest floor.",
+		"description": "The tarvix is a domesticated riding beast common through out Arbooine. This arboreal mammal has four small eyes toward the front of its squat head, although it depends more on its acute sense of smell to find its way. It has a thick coat of dark bristles, which offers some degree of protection against bearsloths and other predators. Although not particularly fast, tarvixes are tough and dependable, and just as adept at scaling trees as walking on the forest floor.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,
@@ -670,7 +670,7 @@
 	{
 		"name": "BX Commando Droid",
 		"type": "Minion",
-		"description": "Relics of the Separatist droid army of the Clone Wars, BX-series commando droids served as infiltrators and assas­sins. More cunning, skilled, durable, and dangerous than the more common BI battle droids, commando droids were more expensive to produce, and their use was thus limited to vital missions and support duties.\n\nWhile their less deadly counterparts are still seen occa­sionally across the galaxy, serving at the behest of criminals and mercenaries, active commando droids are, thankfully, all but unheard of in current times.",
+		"description": "Relics of the Separatist droid army of the Clone Wars, BX-series commando droids served as infiltrators and assassins. More cunning, skilled, durable, and dangerous than the more common BI battle droids, commando droids were more expensive to produce, and their use was thus limited to vital missions and support duties.\n\nWhile their less deadly counterparts are still seen occasionally across the galaxy, serving at the behest of criminals and mercenaries, active commando droids are, thankfully, all but unheard of in current times.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -691,7 +691,7 @@
 	{
 		"name": "Droideka (Destroyer Droid)",
 		"type": "Rival",
-		"description": "Droidekas, greatly feared by Republic troops during the Clone Wars, were manufactured by the Colicoid species. These durable droids are capable of collapsing into a wheel­ like form for swift movement or unfolding into a tripodal walking gun platform protected by a powerful deflector shield. A single droideka can unleash tremendous salvos of blaster fire while remaining all but immune from return fire thanks to its shields, making droidekas more than a match for many times their own number in soldiers. Thankfully, few of these fearsome machines remain active.",
+		"description": "Droidekas, greatly feared by Republic troops during the Clone Wars, were manufactured by the Colicoid species. These durable droids are capable of collapsing into a wheel like form for swift movement or unfolding into a tripodal walking gun platform protected by a powerful deflector shield. A single droideka can unleash tremendous salvos of blaster fire while remaining all but immune from return fire thanks to its shields, making droidekas more than a match for many times their own number in soldiers. Thankfully, few of these fearsome machines remain active.",
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 3,

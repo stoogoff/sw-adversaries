@@ -5,6 +5,7 @@ import { dice, symbolise, minionSkill } from "lib/utils";
 import { id } from "lib/string";
 import { sortByProperty } from "lib/list";
 import * as CONFIG from "lib/config";
+import { PanelMinionCount } from "./panel-minion-count";
 
 function getWeaponDetails(weapon, character, allSkills, aliveMinions) {
 	if(!("id" in weapon)) {
@@ -153,7 +154,7 @@ export default class PanelWeapons extends React.Component {
 						<th>Range</th>
 						<th>Damage</th>
 						<th className="hide-xsmall hide-small">Roll { character.type == CONFIG.MINION
-							? <small> (for { this.props.minions })</small>
+							? <PanelMinionCount aliveMinions={ this.props.aliveMinions } totalMinions={ this.props.minions } />
 							: null }
 						</th>
 						<th>Qualities / Mods</th>

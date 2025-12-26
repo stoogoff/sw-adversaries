@@ -115,10 +115,22 @@ gulp.task("merge-data", () => {
 
 			// adversaries now use a string for gear instead of an array
 			// for now, convert this during the build
+			// add a source:Official tag to anything that doesn't have a source tag
 			if(m == "adversaries") {
 				output.forEach(item => {
 					if("gear" in item && Array.isArray(item.gear)) {
 						item.gear = item.gear.join(", ");
+					}
+
+					if("tags" in item) {
+						const noSource = item.tags.filter(t => t.startsWith('source:')).length === 0
+
+						if(noSource) {
+							item.tags.push('source:Official')
+						}
+					}
+					else {
+						console.log(`No tags for ${item.name} WTF??`)
 					}
 				});
 			}

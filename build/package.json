@@ -31,8 +31,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "pushd ../dev; python -m SimpleHTTPServer; popd",
-    "server-live": "pushd ../live; python -m SimpleHTTPServer; popd",
+    "server": "pushd ../dev; python3 -m http.server; popd",
+    "server-live": "pushd ../live; python3 -m http.server; popd",
     "end": "kill $(lsof -ti:8000)"
   },
   "author": "Stoo Goff",

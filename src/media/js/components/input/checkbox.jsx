@@ -7,6 +7,7 @@ import { id } from "../../lib/string";
 // label (string) - the text label to display
 // checked (boolean) - whether the checkbox is checked or not
 // object (object, optional) - an object which is bound to this checkbox
+// before (boolean, optional) - display the before the label
 export default props => {
 	const handleChange = (evt) => {
 		if(props.handler) {
@@ -21,7 +22,16 @@ export default props => {
 	let className = "row-input input-checkbox" + (props.checked ? " checked" : "");
 
 	return <div className={ className } onClick={ handleChange }>
-		<label>{ props.label }</label>
-		{ checkbox }
+		{ props.before === true ?
+			<span>
+				{ checkbox }
+				<label>{ props.label }</label>
+			</span>
+			:
+			<span>
+				<label>{ props.label }</label>
+				{ checkbox }
+			</span>
+		}
 	</div>;
 };

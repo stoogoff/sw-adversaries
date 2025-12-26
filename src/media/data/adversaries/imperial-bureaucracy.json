@@ -143,7 +143,7 @@
 	{
 		"name": "Imperial Intelligence Agent",
 		"type": "Rival",
-		"description": "The resources at the disposal of the Imperial Intelligence Bureau are vir­tually without limit and the agents who enact the Bureau’s will throughout the galaxy are highly trained, extremely motivated, and absolutely lethal. Although their mandates and methodologies vary from agent to agent, the essential truth of the matter is that an intelligence agent will do absolutely anything to ensure that whatever problem he or she has been dispatched to deal with is, in fact, dealt with permanently. If an agent determines that an individual may pose a threat to the stability of the Empire, either in the present or in the future, he may well forsake traditional measures and take it upon himself to ensure that the htreat is neutralised.",
+		"description": "The resources at the disposal of the Imperial Intelligence Bureau are virtually without limit and the agents who enact the Bureau’s will throughout the galaxy are highly trained, extremely motivated, and absolutely lethal. Although their mandates and methodologies vary from agent to agent, the essential truth of the matter is that an intelligence agent will do absolutely anything to ensure that whatever problem he or she has been dispatched to deal with is, in fact, dealt with permanently. If an agent determines that an individual may pose a threat to the stability of the Empire, either in the present or in the future, he may well forsake traditional measures and take it upon himself to ensure that the htreat is neutralised.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,

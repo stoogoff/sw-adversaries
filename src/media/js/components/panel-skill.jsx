@@ -2,6 +2,7 @@
 import React from "react";
 import { dice, minionSkill } from "lib/utils";
 import * as CONFIG from "lib/config";
+import { PanelMinionCount } from "./panel-minion-count";
 
 export default class PanelSkill extends React.Component {
 	constructor(props) {
@@ -101,10 +102,9 @@ export default class PanelSkill extends React.Component {
 						<th>Skill</th>
 						<th>Characteristic</th>
 						{ !this.isMinion() ? <th>Rank</th> : null }
-						<th>Roll
-							{ this.isMinion() ?
+						<th>Roll { this.isMinion() ?
 								<span>
-									<small> (for { this.props.minions })</small>
+									<PanelMinionCount aliveMinions={ this.props.aliveMinions } totalMinions={ this.props.minions } />
 									<span className="pull-right">
 										<span className="link" onClick={ this.increaseMinions.bind(this) } title="Add Minion">&nbsp;+&nbsp;</span> /
 										<span className="link" onClick={ this.decreaseMinions.bind(this) } title="Remove Minion">&nbsp;-&nbsp;</span> /

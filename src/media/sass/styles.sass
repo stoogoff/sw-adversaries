@@ -86,6 +86,17 @@ h4
 .mine:not(h1)
 	color: map-get($dice, "difficulty")
 
+.pill
+	display: inline-block
+	text-transform: uppercase
+	font-size: 8pt
+	background-color: $heading
+	padding: 0.1em 0.3em
+	border-radius: 0.1em
+	text-decoration: none
+	color: white
+	margin-left: 0.2em
+
 .pre-js-loading
 	h1
 		position: static
@@ -112,6 +123,17 @@ h4
 		right: 0.1rem
 		bottom: 0.1rem
 		padding: 0.35em 0.3em 0 0.5em
+
+.source-filter
+	margin: 0 1.1em
+	padding: 0.5 0
+
+	.row-input
+		padding: 0.1em 0
+
+		label
+			margin-left: 0.5em
+
 
 #menu, #mobile-menu
 	margin: 0
@@ -236,13 +258,11 @@ h4
 	flex-direction: column
 
 	p
+		font-size: 9pt
 		padding-left: 1.5em
+		margin: 0.3em 0
 
 #adversaries
-	top: 7em
-	left: 0
-	right: 0
-	bottom: 2em
 	padding-left: 1.5em
 	margin: 0
 	overflow-y: auto
@@ -1027,10 +1047,6 @@ h4
 	#characteristics
 		width: 25.3em
 
-	#adversaries
-		position: absolute
-
-
 @media screen and (min-width: $screen-xlarge)
 	#tabs
 		padding-left: 23rem
@@ -1109,6 +1125,7 @@ h4
 		&>ul>li.active ul
 			display: block
 			opacity: 1
+			max-height: calc(100vh - 3em)
 
 		&>ul>li>ul
 			position: absolute

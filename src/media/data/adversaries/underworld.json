@@ -2,7 +2,7 @@
 	{
 		"name": "Arms Dealer",
 		"type": "Rival",
-		"description": "Some say that conflict is the lifeblood of the galaxy and there are always those who will find a means of profiting from any endeavor, no matter how unpleasant. Arms dealers have access to large amounts of weaponry and are willing to sell them to anyone, for a price. The means by which these individuals come by their stock varies wildly; some are former mercenaries, while others haunt battlefields like scavengers looking for cast-aside weap­ons instead of a meal, and still others have extensive networks of contacts within existing military organiza­tions. Regardless, these individuals are often in the mar­ket for smugglers or others who have ships of their own to transport goods to and from customers. Due to the sheer volume of firepower they have available to bring to bear if the situation requires it, it is an extremely bad idea to cross an arms dealer.",
+		"description": "Some say that conflict is the lifeblood of the galaxy and there are always those who will find a means of profiting from any endeavor, no matter how unpleasant. Arms dealers have access to large amounts of weaponry and are willing to sell them to anyone, for a price. The means by which these individuals come by their stock varies wildly; some are former mercenaries, while others haunt battlefields like scavengers looking for cast-aside weapons instead of a meal, and still others have extensive networks of contacts within existing military organizations. Regardless, these individuals are often in the market for smugglers or others who have ships of their own to transport goods to and from customers. Due to the sheer volume of firepower they have available to bring to bear if the situation requires it, it is an extremely bad idea to cross an arms dealer.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -28,7 +28,7 @@
 	{
 		"name": "Barabel Enforcer",
 		"type": "Rival",
-		"description": "A step up from a simple thug, an enforcer is a bit more trained and intelligent in the application of brute force. To avoid excessive expense in training such individuals, as well as to inspire fear in those they need intimidat­ed, criminal figures tend to look for imposing beings with significant physical might to fill these slots. Gamor­reans are common, of course, as are Aqualish and Wookiees, but Barabels are particularly feared because their reptilian appearance inspires a deep, primal fear in many mammalian species. Barabels are an intelligent species, but often seem otherwise be­ cause of their halting command of Basic and their seemingly primitive social cus­toms. Their physical strength is prodi­gious, however, and they also enjoy a significant amount of natural armour that protects them from many threats, making them ideal enforcers to send into danger­ ous situations.",
+		"description": "A step up from a simple thug, an enforcer is a bit more trained and intelligent in the application of brute force. To avoid excessive expense in training such individuals, as well as to inspire fear in those they need intimidated, criminal figures tend to look for imposing beings with significant physical might to fill these slots. Gamorreans are common, of course, as are Aqualish and Wookiees, but Barabels are particularly feared because their reptilian appearance inspires a deep, primal fear in many mammalian species. Barabels are an intelligent species, but often seem otherwise be cause of their halting command of Basic and their seemingly primitive social customs. Their physical strength is prodigious, however, and they also enjoy a significant amount of natural armour that protects them from many threats, making them ideal enforcers to send into danger ous situations.",
 		"notes": "The Barabel Enforcer in Edge of the Empire is armed with a blaster carbine and combat knife, while the one in Suns of Fortune is armed with a heavy blaster pistol and a serrated combat knife.",
 		"characteristics": {
 			"Brawn": 4,
@@ -145,7 +145,7 @@
 	{
 		"name": "Black Sun Vigo",
 		"type": "Nemesis",
-		"description": "The Black Sun is a vast criminal conspir­acy that literally spans almost the en­tire breadth of the galaxy. Its upper ech­elons are a mystery to all but its most in­ fluential and powerful members, and the most that the average member can ever hope to know is the identity of a Vigo. The Vi­gos of Black Sun are akin to criminal nobility, princes of vice, underbosses of mayhem and misery. A Vigo is powerful enough that he or she may control all criminal activity in an entire sector or an even larger portion of space, making them rivals even for the great Hutt lords that are so feared in the Outer Rim. For all their power, influence, and wealth, however, Vigos still answer to their superiors, and for that reason they often have more conservative natures than the hedonistic Hutts.",
+		"description": "The Black Sun is a vast criminal conspiracy that literally spans almost the entire breadth of the galaxy. Its upper echelons are a mystery to all but its most in fluential and powerful members, and the most that the average member can ever hope to know is the identity of a Vigo. The Vigos of Black Sun are akin to criminal nobility, princes of vice, underbosses of mayhem and misery. A Vigo is powerful enough that he or she may control all criminal activity in an entire sector or an even larger portion of space, making them rivals even for the great Hutt lords that are so feared in the Outer Rim. For all their power, influence, and wealth, however, Vigos still answer to their superiors, and for that reason they often have more conservative natures than the hedonistic Hutts.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -208,7 +208,7 @@
 	{
 		"name": "Dark Wolf Beastmaster",
 		"type": "Rival",
-		"description": "Weequay militia-members who show an affinity with dark wolves are ushered in to a time-honored tradition through which they train and fight alongside their own raquor’daan. Great respect is given to warriors who tame wild raquor’daan, although this rarely hap­pens. Dark wolves are believed to be the scions of the night god Raquor, and slaying a raquor’daan mother to obtain its cub is seen as sacreligious.",
+		"description": "Weequay militia-members who show an affinity with dark wolves are ushered in to a time-honored tradition through which they train and fight alongside their own raquor’daan. Great respect is given to warriors who tame wild raquor’daan, although this rarely happens. Dark wolves are believed to be the scions of the night god Raquor, and slaying a raquor’daan mother to obtain its cub is seen as sacreligious.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -245,7 +245,7 @@
 	{
 		"name": "Defel Assassin",
 		"type": "Nemesis",
-		"description": "Murder for hire is a thriving business in galactic so­ciety and those who need the utmost in discretion or who require the death of a particularly cautious or protected target choose to pay for a Defel assassin. The Defel are bestial in appear­ance, and are consummate hunters and predators. T hey are masters of infiltration, stealth, and sudden bouts of vicious but silent violence. Many choose to train in a variety of melee weapons, but just as many choose to rely upon their natural weapons, either teeth or claws.",
+		"description": "Murder for hire is a thriving business in galactic society and those who need the utmost in discretion or who require the death of a particularly cautious or protected target choose to pay for a Defel assassin. The Defel are bestial in appearance, and are consummate hunters and predators. T hey are masters of infiltration, stealth, and sudden bouts of vicious but silent violence. Many choose to train in a variety of melee weapons, but just as many choose to rely upon their natural weapons, either teeth or claws.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 4,
@@ -277,7 +277,7 @@
 	{
 		"name": "Sakiyan Bounty Hunter",
 		"type": "Rival",
-		"description": "Sakiyan bounty hunters have been known to give both Gand findsmen and Rodian bounty hunters a run for their money as the most efficient hunters of sen­tients in the galaxy. Using their keen senses, deadly instincts, and superior repulsorlift technology, they have a diverse arsenal from which to draw when seek­ ing to bring in their marks either dead or alive.",
+		"description": "Sakiyan bounty hunters have been known to give both Gand findsmen and Rodian bounty hunters a run for their money as the most efficient hunters of sentients in the galaxy. Using their keen senses, deadly instincts, and superior repulsorlift technology, they have a diverse arsenal from which to draw when seek ing to bring in their marks either dead or alive.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 4,
@@ -316,7 +316,7 @@
 	{
 		"name": "Apprentice Bounty Hunter",
 		"type": "Minion",
-		"description": "The number of certified and licensed bounty hunters in the galaxy is utterly dwarfed by the number of those who seek to become certified and licensed. Of the scores who seek to gain membership in an established bounty hunter guild, a handful who show promise are accepted into the ranks of the guild’s apprentices. The greatest value of these fledging, would-be hunt­ers is that they are utterly expendable and are used by the guild as support for established hunters, diversions, or even simply cannon fod­der against well-entrenched or well-armed foes. As an alternative to joining a guild, some aspirants instead apprentice themselves to an established independent hunter in hopes of proving worthy of the profession.",
+		"description": "The number of certified and licensed bounty hunters in the galaxy is utterly dwarfed by the number of those who seek to become certified and licensed. Of the scores who seek to gain membership in an established bounty hunter guild, a handful who show promise are accepted into the ranks of the guild’s apprentices. The greatest value of these fledging, would-be hunters is that they are utterly expendable and are used by the guild as support for established hunters, diversions, or even simply cannon fodder against well-entrenched or well-armed foes. As an alternative to joining a guild, some aspirants instead apprentice themselves to an established independent hunter in hopes of proving worthy of the profession.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -452,7 +452,7 @@
 	{
 		"name": "Forger",
 		"type": "Rival",
-		"description": "A government that spans an entire galaxy is, by its very nature, bureaucratic. Bureaucracy means pa­perwork and paperwork means there will always be those who need certain documents to which they do not have access. Forgers provide such things, but at a cost. “Paperwork” is something of a misno­mer, however, because other than some more iso­ lated planetary governments, very few agencies re­quire physical paperwork, instead issuing and requiring electronic documents in the form of se­cure datapads or encrypted files. A typical forger, then, works almost exclusively in the realm of elec­tronic fabrication, and many are extremely skilled at their jobs. Those who are not are quickly weeded out by exposing themselves through shoddy work.",
+		"description": "A government that spans an entire galaxy is, by its very nature, bureaucratic. Bureaucracy means paperwork and paperwork means there will always be those who need certain documents to which they do not have access. Forgers provide such things, but at a cost. “Paperwork” is something of a misnomer, however, because other than some more iso lated planetary governments, very few agencies require physical paperwork, instead issuing and requiring electronic documents in the form of secure datapads or encrypted files. A typical forger, then, works almost exclusively in the realm of electronic fabrication, and many are extremely skilled at their jobs. Those who are not are quickly weeded out by exposing themselves through shoddy work.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 2,
@@ -479,7 +479,7 @@
 	{
 		"name": "Loan Shark",
 		"type": "Nemesis",
-		"description": "There will always be those in need of money in the gal­axy and there will always be others who are happy to lend it to them in exchange for a promise of repayment plus interest. Loan sharks are typically individuals with significant wealth at their disposal but who are never content with what they have. This leads them to loan their money to others at such a rate that they get back at least half again what was loaned. The people to whom they loan their money are desperate and have nowhere else to turn, but loan sharks care little about the details. They simply want their money returned or they want to see those who default on their loans pun­ished in the most demonstrative way possible.",
+		"description": "There will always be those in need of money in the galaxy and there will always be others who are happy to lend it to them in exchange for a promise of repayment plus interest. Loan sharks are typically individuals with significant wealth at their disposal but who are never content with what they have. This leads them to loan their money to others at such a rate that they get back at least half again what was loaned. The people to whom they loan their money are desperate and have nowhere else to turn, but loan sharks care little about the details. They simply want their money returned or they want to see those who default on their loans punished in the most demonstrative way possible.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -538,7 +538,7 @@
 	{
 		"name": "Gank Hunter",
 		"type": "Rival",
-		"description": "Ganks are a war-loving, bipedal species used by the Hutts and others as bounty hunters, mercenaries, and assassins. Although little is known about the species’ origins, the Ganks’ reputation as cold-blooded killers is well known across the galaxy. Ganks cover themselves from head to toe in battle armour, and they are rarely alone, preferring to work in packs. As to what Ganks look like under the armour and prosthetics, one would have to ask a Gank to find out—a daunting prospect. Almost all Ganks augment their bodies with cybernet­ ics, the better to accomplish their violent work.",
+		"description": "Ganks are a war-loving, bipedal species used by the Hutts and others as bounty hunters, mercenaries, and assassins. Although little is known about the species’ origins, the Ganks’ reputation as cold-blooded killers is well known across the galaxy. Ganks cover themselves from head to toe in battle armour, and they are rarely alone, preferring to work in packs. As to what Ganks look like under the armour and prosthetics, one would have to ask a Gank to find out—a daunting prospect. Almost all Ganks augment their bodies with cybernet ics, the better to accomplish their violent work.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 4,
@@ -618,7 +618,7 @@
 	{
 		"name": "Houk Thug",
 		"type": "Rival",
-		"description": "Houks are large and powerful humanoids with mottled, blue-purple skin and yellow eyes. Their craniums are distinctively ridged, and their low-hanging jowls are typi­cally lighter in color than the rest of their body. At over two meters tall and averaging 150 kilograms in weight and armed with a temper to match, a Houk is a deadly challenge for even a Wookiee in combat.",
+		"description": "Houks are large and powerful humanoids with mottled, blue-purple skin and yellow eyes. Their craniums are distinctively ridged, and their low-hanging jowls are typically lighter in color than the rest of their body. At over two meters tall and averaging 150 kilograms in weight and armed with a temper to match, a Houk is a deadly challenge for even a Wookiee in combat.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 2,
@@ -656,7 +656,7 @@
 	{
 		"name": "Aqualish Thug",
 		"type": "Minion",
-		"description": "Slightly more intelligent and more likely to use ad­vanced technology than the Gamorrean enforcers that are popular with many crime lords, Aqualish are no less physically powerful than their porcine counterparts and equally prone to violence as a means of resolving even the mildest dispute. Although not all members of the Aqualish people are crude and thuggish, enough of them are that the sight of them acting as enforcers and henchmen for all manner of unpleasant figures is hard­ ly surprising to any well traveled citizen of the galaxy’s seedy underbelly.",
+		"description": "Slightly more intelligent and more likely to use advanced technology than the Gamorrean enforcers that are popular with many crime lords, Aqualish are no less physically powerful than their porcine counterparts and equally prone to violence as a means of resolving even the mildest dispute. Although not all members of the Aqualish people are crude and thuggish, enough of them are that the sight of them acting as enforcers and henchmen for all manner of unpleasant figures is hard ly surprising to any well traveled citizen of the galaxy’s seedy underbelly.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -676,7 +676,7 @@
 	{
 		"name": "Gamorrean Thug",
 		"type": "Rival",
-		"description": "Gamorreans are porcine humanoids with a penchant for barbarism and thuggishness. Hailing from the Outer Rim planet of Gamorr, these violent and thoroughly dull-witted creatures would likely have never made it into the wider galaxy. However, at some point some enterprising individual realized that the Gamorreans complete unpleasantness was matched only by their utility as dumb, strong muscle. Now many individuals from crime barons to wealthy nobles employ Gamor­reans as guards. They are unintelligent enough to be difficult to bribe and strong enough to be truly terrify­ing in a fight.",
+		"description": "Gamorreans are porcine humanoids with a penchant for barbarism and thuggishness. Hailing from the Outer Rim planet of Gamorr, these violent and thoroughly dull-witted creatures would likely have never made it into the wider galaxy. However, at some point some enterprising individual realized that the Gamorreans complete unpleasantness was matched only by their utility as dumb, strong muscle. Now many individuals from crime barons to wealthy nobles employ Gamorreans as guards. They are unintelligent enough to be difficult to bribe and strong enough to be truly terrifying in a fight.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 2,
@@ -731,7 +731,7 @@
 	{
 		"name": "Mature Hutt",
 		"type": "Rival",
-		"description": "The majority of Hutts encountered throughout the galaxy are adult Hutts, ranging in age from 91 to 844. Adult Hutts on Nal Hutta can be found in a large num­ber of colors. While the “traditional” Hutt coloration is an olive shade, there are many Hutts whose color­ ation is wildly different. Deep purples, ruddy oranges, and even dark blues are not unheard of on a Hutt.\n\nIt is also common for Hutts to have skin that is mottled or patterned, often in contrasting colors. A purple-skinned Hutt might have an elaborate pattern of white or grey across its back, for instance. Some Hutts even tattoo themselves with clan markings to further enhance their appearance.",
+		"description": "The majority of Hutts encountered throughout the galaxy are adult Hutts, ranging in age from 91 to 844. Adult Hutts on Nal Hutta can be found in a large number of colors. While the “traditional” Hutt coloration is an olive shade, there are many Hutts whose color ation is wildly different. Deep purples, ruddy oranges, and even dark blues are not unheard of on a Hutt.\n\nIt is also common for Hutts to have skin that is mottled or patterned, often in contrasting colors. A purple-skinned Hutt might have an elaborate pattern of white or grey across its back, for instance. Some Hutts even tattoo themselves with clan markings to further enhance their appearance.",
 		"notes": "The weapons are optional and the large-bore blaster pistol is too large to be used by anyone other than a Hutt.",
 		"characteristics": {
 			"Brawn": 4,
@@ -776,7 +776,7 @@
 	{
 		"name": "Venerable Hutt",
 		"type": "Nemesis",
-		"description": "By the time a Hutt reaches venerable status at over 845 years of age, its skin has tightened and shrunk on its frame, creating a hard, thick outer covering. Venerable Hutts also darken as they age, their skin tones taking on deep, dark hues. Venerable Hutts are devious, intel­ligent beings who will do anything to achieve their goals.",
+		"description": "By the time a Hutt reaches venerable status at over 845 years of age, its skin has tightened and shrunk on its frame, creating a hard, thick outer covering. Venerable Hutts also darken as they age, their skin tones taking on deep, dark hues. Venerable Hutts are devious, intelligent beings who will do anything to achieve their goals.",
 		"notes": "The weapons are optional and the large-bore blaster pistol is too large to be used by anyone other than a Hutt.",
 		"characteristics": {
 			"Brawn": 5,
@@ -871,7 +871,7 @@
 	{
 		"name": "Hutt Majordomo",
 		"type": "Rival",
-		"description": "Many Hutt clan leaders employ a majordomo, or mas­ter of the house, who manages the daily business of the Hutt’s holdings. They arrange their lord’s sched­ule, decide who can meet with him and when, and can even speak on their master’s behalf regarding matters of lesser importance. Humans, Rodians, Twi’lek, and Weequay are commonly found as majordomos, but it is not unheard of for an up-and-coming Hutt to serve as one for a time as well.",
+		"description": "Many Hutt clan leaders employ a majordomo, or master of the house, who manages the daily business of the Hutt’s holdings. They arrange their lord’s schedule, decide who can meet with him and when, and can even speak on their master’s behalf regarding matters of lesser importance. Humans, Rodians, Twi’lek, and Weequay are commonly found as majordomos, but it is not unheard of for an up-and-coming Hutt to serve as one for a time as well.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -889,7 +889,7 @@
 			"Coercion": 3,
 			"Cool": 2,
 			"Deception": 3,
-			"Dis­cipline": 2,
+			"Discipline": 2,
 			"Knowledge: Underworld": 3,
 			"Leadership": 2,
 			"Perception": 2,
@@ -983,7 +983,7 @@
 	{
 		"name": "Nikto Enforcer",
 		"type": "Rival",
-		"description": "The Nikto, a species of reptilian humanoids, is the dominant species on Kintan. When the dying star M’dweshuu went supernova millennia ago, Kintan was flooded with massive amounts of radiation that killed most of the indigenous life on the planet. The Niktos were among the few species that survived the cataclysm. The resulting radiation exposure sped up their rate of mutation, and five distinct subspecies soon developed, each adapted to a specific region on Kintan. The Nikto subspecies share similar features, including leathery skin, sometimes covered with spikes or horns, and protective membranes that pro­tect their eyes from the harsh Kintan climate.",
+		"description": "The Nikto, a species of reptilian humanoids, is the dominant species on Kintan. When the dying star M’dweshuu went supernova millennia ago, Kintan was flooded with massive amounts of radiation that killed most of the indigenous life on the planet. The Niktos were among the few species that survived the cataclysm. The resulting radiation exposure sped up their rate of mutation, and five distinct subspecies soon developed, each adapted to a specific region on Kintan. The Nikto subspecies share similar features, including leathery skin, sometimes covered with spikes or horns, and protective membranes that protect their eyes from the harsh Kintan climate.",
 		"notes": "Each Nikto subspecies has its own special ability.",
 		"characteristics": {
 			"Brawn": 3,
@@ -1113,7 +1113,7 @@
 	{
 		"name": "Slaver",
 		"type": "Rival",
-		"description": "The most abominable sort of criminal, slavers profit by robbing others of their freedom. Slavers prey upon the weak or those who cannot fight against modern technology, often locating a primitive species some­where in the galaxy then abducting entire villages of their victims. These unfortunates can be sold off as cheap physical labor. Some advanced species are made the targets of slavery as a means of controlling a problematic population, as with the Empire’s en­dorsement of placing the fiercely independent and physically powerful Wookiee race into slavery.",
+		"description": "The most abominable sort of criminal, slavers profit by robbing others of their freedom. Slavers prey upon the weak or those who cannot fight against modern technology, often locating a primitive species somewhere in the galaxy then abducting entire villages of their victims. These unfortunates can be sold off as cheap physical labor. Some advanced species are made the targets of slavery as a means of controlling a problematic population, as with the Empire’s endorsement of placing the fiercely independent and physically powerful Wookiee race into slavery.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -1148,7 +1148,7 @@
 	{
 		"name": "Shipjacker",
 		"type": "Rival",
-		"description": "A terror that haunts the shadows of a major spaceport, a shipjacker is a thief who specializes in stealing and quickly reselling starships. An expert at circum­venting electronic security of all forms, a successful shipjacker is also intimately familiar with the proto­cols and procedures of whatever spaceports he chooses to prey upon Likewise, most shipjack­ ers have close relationships with expert forgers to ensure that the documentation required to remove a vessel from the spaceport can be quickly and convincingly acquired. Most shipjackers have a network of contacts to ensure that a starship, once stolen, can be quickly sold and moved to a dis­tant part of the galaxy or, failing that, dismantled for parts and sold in a dozen different locations in as many different systems.",
+		"description": "A terror that haunts the shadows of a major spaceport, a shipjacker is a thief who specializes in stealing and quickly reselling starships. An expert at circumventing electronic security of all forms, a successful shipjacker is also intimately familiar with the protocols and procedures of whatever spaceports he chooses to prey upon Likewise, most shipjack ers have close relationships with expert forgers to ensure that the documentation required to remove a vessel from the spaceport can be quickly and convincingly acquired. Most shipjackers have a network of contacts to ensure that a starship, once stolen, can be quickly sold and moved to a distant part of the galaxy or, failing that, dismantled for parts and sold in a dozen different locations in as many different systems.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -1241,7 +1241,7 @@
 	{
 		"name": "Smuggler Baron",
 		"type": "Nemesis",
-		"description": "Some smugglers not only survive in the industry long enough to retire, but prosper beyond their ex­pectations. Some of them find the notion of retire­ ment too boring to contemplate and instead de­cide to become something of a middleman, helping other smugglers connect with clients and individu­als who need goods moved from one place to an­other without any troublesome questions. These men and women are sometimes called smuggler barons, a fitting title given the aristocratic airs some of them put on. Smuggler barons are not quite powerful enough to be considered crime lords in their own right, but can be powerful allies or inconvenient enemies.",
+		"description": "Some smugglers not only survive in the industry long enough to retire, but prosper beyond their expectations. Some of them find the notion of retire ment too boring to contemplate and instead decide to become something of a middleman, helping other smugglers connect with clients and individuals who need goods moved from one place to another without any troublesome questions. These men and women are sometimes called smuggler barons, a fitting title given the aristocratic airs some of them put on. Smuggler barons are not quite powerful enough to be considered crime lords in their own right, but can be powerful allies or inconvenient enemies.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -1263,7 +1263,7 @@
 			"Gunnery": 3,
 			"Knowledge: Underworld": 3,
 			"Ranged: Light": 3,
-			"Pilot­ing: Planetary": 3,
+			"Piloting: Planetary": 3,
 			"Piloting: Space": 4,
 			"Skulduggery": 2,
 			"Streetwise": 4,
@@ -1304,7 +1304,7 @@
 	{
 		"name": "Street Tough",
 		"type": "Minion",
-		"description": "In cities across the galaxy there are any number of petty criminals, from pickpockets and back-ally spice dealers to muggers and murderers. Discontent with the notion of earning an honest wage, these street toughs instead prefer to survive on whatever they can take from passers-by, preferably in the form of credits or small, easily liquidated electronic goods like data­ pads and comlinks. Street toughs occasionally work as individuals, if they possess sufficient skill, but more often work in small gangs so that they can coopera­tively locate and target the best marks. However, these individuals are often badly equipped and pitiful in comparison to real gangs.",
+		"description": "In cities across the galaxy there are any number of petty criminals, from pickpockets and back-ally spice dealers to muggers and murderers. Discontent with the notion of earning an honest wage, these street toughs instead prefer to survive on whatever they can take from passers-by, preferably in the form of credits or small, easily liquidated electronic goods like data pads and comlinks. Street toughs occasionally work as individuals, if they possess sufficient skill, but more often work in small gangs so that they can cooperatively locate and target the best marks. However, these individuals are often badly equipped and pitiful in comparison to real gangs.",
 		"notes": "Armed with a blaster pistol or a slugthrower rifle.",
 		"characteristics": {
 			"Brawn": 3,
@@ -1326,7 +1326,7 @@
 	{
 		"name": "Swoop Ganger",
 		"type": "Rival",
-		"description": "Swoop gangs are considered by many to be a blight upon modern society. Take all of the problems that are posed by a conventional gang of young thugs and crimi­nals and then place those criminals on overcharged, dangerously fast repulsorlift vehicles. The dangers posed by such a group are many, and the means of combating them are limited. There are few law forces capable of keeping pace with, much less outpacing and apprehend­ ing, a swoop gang This is particularly true in the Outer Rim, where the legal resources are much more limited.",
+		"description": "Swoop gangs are considered by many to be a blight upon modern society. Take all of the problems that are posed by a conventional gang of young thugs and criminals and then place those criminals on overcharged, dangerously fast repulsorlift vehicles. The dangers posed by such a group are many, and the means of combating them are limited. There are few law forces capable of keeping pace with, much less outpacing and apprehend ing, a swoop gang This is particularly true in the Outer Rim, where the legal resources are much more limited.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -1352,7 +1352,7 @@
 	{
 		"name": "Twi’lek Black Marketeer",
 		"type": "Rival",
-		"description": "There are few races as consistently sociable as the Twi’leks of Ryloth. Capable of significant manipulation and persuasion, some Twi’leks invariably find their tal­ents suited to helping others find things that they need, matching buyers to sellers with flawless skill and a thou­sand-credit smile the entire while. Black marketeers are part salesman, part fence, and all business. Knowing a marketeer can ensure that an individual is able to move an incredibly rare and valuable item without difficulty, although it will be necessary to cut the marketeer in on the sale, which eats into profits a bit. Most consider the convenience a welcome trade-off for a percentage.",
+		"description": "There are few races as consistently sociable as the Twi’leks of Ryloth. Capable of significant manipulation and persuasion, some Twi’leks invariably find their talents suited to helping others find things that they need, matching buyers to sellers with flawless skill and a thousand-credit smile the entire while. Black marketeers are part salesman, part fence, and all business. Knowing a marketeer can ensure that an individual is able to move an incredibly rare and valuable item without difficulty, although it will be necessary to cut the marketeer in on the sale, which eats into profits a bit. Most consider the convenience a welcome trade-off for a percentage.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -1380,7 +1380,7 @@
 	{
 		"name": "Twi’lek Dancer",
 		"type": "Minion",
-		"description": "Dance is a highly valued form of entertainment through­ out the galaxy and there are few traditions that are more famous than the Twi’lek dancing girls of Ryloth. The sen­sual beauty of a Twi’lek is something that few who have witnessed it ever forget, and it is the popularity of their skills that has contributed, at least in part, to the tradi­tion of slavery that is so rampant on Ryloth Not only are there countless parties eager to make a profit by captur­ing and selling young Twi’leks, but unfortunately, there are many influential members of the race who are con­tent to line their own pockets by doing the same thing. Among those who enter the life of a dancer, however, there are some who find that they enjoy it Those who do are typically able to make a good living entertaining the masses, although there are always those who find themselves in servitude to horrible masters like Jabba the Hutt, who is known to favor such dancers in his wretched court on the planet of Tatooine.",
+		"description": "Dance is a highly valued form of entertainment through out the galaxy and there are few traditions that are more famous than the Twi’lek dancing girls of Ryloth. The sensual beauty of a Twi’lek is something that few who have witnessed it ever forget, and it is the popularity of their skills that has contributed, at least in part, to the tradition of slavery that is so rampant on Ryloth Not only are there countless parties eager to make a profit by capturing and selling young Twi’leks, but unfortunately, there are many influential members of the race who are content to line their own pockets by doing the same thing. Among those who enter the life of a dancer, however, there are some who find that they enjoy it Those who do are typically able to make a good living entertaining the masses, although there are always those who find themselves in servitude to horrible masters like Jabba the Hutt, who is known to favor such dancers in his wretched court on the planet of Tatooine.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -1438,7 +1438,7 @@
 	{
 		"name": "Wookiee Gladiator",
 		"type": "Rival",
-		"description": "The Wookiees are a noble and honorable race with a proud warrior tradition. Unfortunately for them, they are also fiercely independent and greatly val­ue individuality and personal liberties. This is obvi­ously a problem for the Empire and it is likely for that reason that the Imperial bureaucracy autho­rized the Wookiees as a slave race, making it le­gal for certain agencies to enslave them. The race’s home planet of Kashyyyk is something of a prison now and any Wookiee who attempts to leave the planet risks never being able to return. Because of their physical prowess as warriors, many enslaved Wookiees have found their way into the criminal underworld where they are pitted against other warriors in gladiatorial blood matches and various other illegal combat situations. Wookiees in this sit­uation tend to have succumbed to despair and lost themselves in their anger and bitterness. They are terrifying opponents to face in combat, but if one can gain their trust, they also prove eter nal allies.",
+		"description": "The Wookiees are a noble and honorable race with a proud warrior tradition. Unfortunately for them, they are also fiercely independent and greatly value individuality and personal liberties. This is obviously a problem for the Empire and it is likely for that reason that the Imperial bureaucracy authorized the Wookiees as a slave race, making it legal for certain agencies to enslave them. The race’s home planet of Kashyyyk is something of a prison now and any Wookiee who attempts to leave the planet risks never being able to return. Because of their physical prowess as warriors, many enslaved Wookiees have found their way into the criminal underworld where they are pitted against other warriors in gladiatorial blood matches and various other illegal combat situations. Wookiees in this situation tend to have succumbed to despair and lost themselves in their anger and bitterness. They are terrifying opponents to face in combat, but if one can gain their trust, they also prove eter nal allies.",
 		"characteristics": {
 			"Brawn": 5,
 			"Agility": 3,

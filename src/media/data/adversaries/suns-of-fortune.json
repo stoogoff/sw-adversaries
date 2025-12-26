@@ -2,7 +2,7 @@
 	{
 		"name": "Baron Kaldo",
 		"type": "Nemesis",
-		"description": "One of Hollowtown’s billionaire elite, Benton Kaldo can trace his lineage to Corellian nobility. Kaldo’s wealth originated from ancestral successes in corporate investments, though his true nature is less be­nign. From his sprawling vineyard estate in Hollowtown, Baron Kaldo controls most criminal activity on Centerpoint Station. His organization primarily deals in spice and corporate espionage, but the occasional underground swoop or podracing event in active turbovator corridors nets Kaldo hefty gambling profits.\n\nA dark-haired and hawk-faced man in his early fifties, Baron Kaldo considers himself a blue-blood nobleman, and is always immaculately coiffed and clothed. Layers of servants insulate him from common citizens, whom he finds repellent. Despite this outward appearance of typi­cal elitism, he is a shrewd manager of his organisation and unafraid to take risks. He often poses as a rival buy­ er or seller at Gustip’s more important dealings, where they use a sort of verbal code for Kaldo to covertly direct any decision-making right under the nose of others.",
+		"description": "One of Hollowtown’s billionaire elite, Benton Kaldo can trace his lineage to Corellian nobility. Kaldo’s wealth originated from ancestral successes in corporate investments, though his true nature is less benign. From his sprawling vineyard estate in Hollowtown, Baron Kaldo controls most criminal activity on Centerpoint Station. His organization primarily deals in spice and corporate espionage, but the occasional underground swoop or podracing event in active turbovator corridors nets Kaldo hefty gambling profits.\n\nA dark-haired and hawk-faced man in his early fifties, Baron Kaldo considers himself a blue-blood nobleman, and is always immaculately coiffed and clothed. Layers of servants insulate him from common citizens, whom he finds repellent. Despite this outward appearance of typical elitism, he is a shrewd manager of his organisation and unafraid to take risks. He often poses as a rival buy er or seller at Gustip’s more important dealings, where they use a sort of verbal code for Kaldo to covertly direct any decision-making right under the nose of others.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -22,7 +22,7 @@
 			"Coercion": 4,
 			"Cool": 3,
 			"Deception": 3,
-			"Dis­cipline": 3,
+			"Discipline": 3,
 			"Knowledge: Underworld": 3,
 			"Negotiation": 3,
 			"Perception": 4,
@@ -226,9 +226,9 @@
 		"skills": {
 			"Cool": 2,
 			"Knowledge: Core Worlds": 3,
-			"Knowl­edge: Education": 3,
+			"Knowledge: Education": 3,
 			"Knowledge: Underworld": 3,
-			"Ne­gotiation": 2,
+			"Negotiation": 2,
 			"Perception": 1,
 			"Streetwise": 2
 		},
@@ -344,7 +344,7 @@
 			"Brawl": 3,
 			"Coercion": 3,
 			"Ranged: Heavy": 2,
-			"Resil­ience": 2,
+			"Resilience": 2,
 			"Streetwise": 2,
 			"Vigilance": 2
 		},
@@ -373,7 +373,7 @@
 			"Cool": 3,
 			"Leadership": 3,
 			"Negotiation": 2,
-			"Percep­tion": 4,
+			"Perception": 4,
 			"Ranged: Light": 2,
 			"Streetwise": 3,
 			"Vigilance": 2
@@ -663,7 +663,7 @@
 	{
 		"name": "Dalyrake",
 		"type": "Rival",
-		"description": "Dalyrakes are amphibious arachnids who inhabit the lakes and tidal waters of both Talus and Tralus. They stand about a meter high and are half again as long, with two flat, oval-shaped body segments, six multi-jointed walking legs tipped with wicked talons, and two crab-like pincers held well forward. The smaller, forward body segment contains their primitive gan­glia, eyes, and mandibles, along with a number of long tentacles tipped with bioluminescent glands. The larger, longer rear segment contains the creature’s powerful heart and is tipped with a sharp and danger­ ous stinger. Strange and quite beautiful in their way, dalyrakes move with a purposeful, spidery grace.\n\nDespite their strange, occasionally frightening looks and their low intelligence, dalyrakes are easily domesti­cated and can be found in many homes and businesses throughout the Corellian System. While they are not affectionate, they are well-suited as pest control ani­mals. Whether domesticated or wild, dalyrakes are slow and deliberate hunters. Typically, they submerge themselves in water or hide in bracken, underbrush, deadfalls, or piles of debris, then lure in prey with their waving tentacles. Once approached by a prey animal, a dalyrake pounces quickly and injects its target with the soporific venom produced by its stinger.",
+		"description": "Dalyrakes are amphibious arachnids who inhabit the lakes and tidal waters of both Talus and Tralus. They stand about a meter high and are half again as long, with two flat, oval-shaped body segments, six multi-jointed walking legs tipped with wicked talons, and two crab-like pincers held well forward. The smaller, forward body segment contains their primitive ganglia, eyes, and mandibles, along with a number of long tentacles tipped with bioluminescent glands. The larger, longer rear segment contains the creature’s powerful heart and is tipped with a sharp and danger ous stinger. Strange and quite beautiful in their way, dalyrakes move with a purposeful, spidery grace.\n\nDespite their strange, occasionally frightening looks and their low intelligence, dalyrakes are easily domesticated and can be found in many homes and businesses throughout the Corellian System. While they are not affectionate, they are well-suited as pest control animals. Whether domesticated or wild, dalyrakes are slow and deliberate hunters. Typically, they submerge themselves in water or hide in bracken, underbrush, deadfalls, or piles of debris, then lure in prey with their waving tentacles. Once approached by a prey animal, a dalyrake pounces quickly and injects its target with the soporific venom produced by its stinger.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -680,7 +680,7 @@
 			"Brawl": 3,
 			"Coordination": 2,
 			"Deception": 3,
-			"Percep­tion": 3,
+			"Perception": 3,
 			"Stealth": 4,
 			"Survival": 2
 		},
@@ -884,7 +884,7 @@
 	{
 		"name": "Guf Drolg",
 		"type": "Rival",
-		"description": "Huge, dim-witted, and evil tempered, guf drolgs are perhaps the most disruptive and despised creatures on Talus. Roughly the size of a large speeder truck (and half as intelligent), guf drolgs are massive, qua­drupedal, reptilian herbivores who make their homes on the broad grassy Talusian plains. The guf drolg’s powerful frame is draped in thick, rust-coloured hide which falls about it in loose folds, protecting it from both the elements and predators.\n\nGuf drolg herds of thousands are constantly on the move, migrating across the planet with the seasons and devouring everything in sight. Great migrations of guf drolgs cause incredible damage to local economies and ecosystems as they consume crops, destroy fences and buildings, trample livestock, and ruin the land with their acidic droppings. While they are difficult to hunt and roundly despised, guf drolgs do have some value, mostly as a source of food and hides. Their meat is surprisingly delicious, and their thick, supple hides are easy to work with, take dyes easily, and are used to make everything from armoured clothing to designer shoes.",
+		"description": "Huge, dim-witted, and evil tempered, guf drolgs are perhaps the most disruptive and despised creatures on Talus. Roughly the size of a large speeder truck (and half as intelligent), guf drolgs are massive, quadrupedal, reptilian herbivores who make their homes on the broad grassy Talusian plains. The guf drolg’s powerful frame is draped in thick, rust-coloured hide which falls about it in loose folds, protecting it from both the elements and predators.\n\nGuf drolg herds of thousands are constantly on the move, migrating across the planet with the seasons and devouring everything in sight. Great migrations of guf drolgs cause incredible damage to local economies and ecosystems as they consume crops, destroy fences and buildings, trample livestock, and ruin the land with their acidic droppings. While they are difficult to hunt and roundly despised, guf drolgs do have some value, mostly as a source of food and hides. Their meat is surprisingly delicious, and their thick, supple hides are easy to work with, take dyes easily, and are used to make everything from armoured clothing to designer shoes.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 2,
@@ -1140,7 +1140,7 @@
 	{
 		"name": "Sludge Panther",
 		"type": "Nemesis",
-		"description": "Sludge panthers are carnivorous feline predators who live in the steaming jungles and fetid swamp lands of Talus. Typically around two meters long and over a meter high at the shoulder, sludge panthers have lean, muscular bodies covered in a dense mat of mottled brown and grey water-resistant fur. Their necks are thick and their heads are large and leonine, with small ears, yellow eyes, and powerful jaws full of sharp, rending teeth. Their paws are broad with black, non-retractable claws used for climbing and hunting, and thick pads which help absorb the sound of their movement. A thick, horny ridge runs from between their ears to the middle of their back, protecting the neck, shoulders, and spine from damage.\n\nIn the jungles and swamps where they make their homes, sludge panthers have few natural enemies and are usually the apex predator in their range. Sludge panthers are exceedingly cunning hunters and are nearly undetectable in their native environs. When stalking their prey, these big cats use cover, natural camouflage, counter tracking, and other tactics in­tended to confuse and harry. One of their most common ruses is to slather cool mud over their bodies to mask both their scent and their body heat, a tactic that makes them nearly impossible to detect.\n\nSludge panthers are social creatures who live and travel in small bands, the females hunting for food and the males protecting the nests and young from predators. Although they rarely hunt sentients, those who go against them should remember they seldom hunt alone.",
+		"description": "Sludge panthers are carnivorous feline predators who live in the steaming jungles and fetid swamp lands of Talus. Typically around two meters long and over a meter high at the shoulder, sludge panthers have lean, muscular bodies covered in a dense mat of mottled brown and grey water-resistant fur. Their necks are thick and their heads are large and leonine, with small ears, yellow eyes, and powerful jaws full of sharp, rending teeth. Their paws are broad with black, non-retractable claws used for climbing and hunting, and thick pads which help absorb the sound of their movement. A thick, horny ridge runs from between their ears to the middle of their back, protecting the neck, shoulders, and spine from damage.\n\nIn the jungles and swamps where they make their homes, sludge panthers have few natural enemies and are usually the apex predator in their range. Sludge panthers are exceedingly cunning hunters and are nearly undetectable in their native environs. When stalking their prey, these big cats use cover, natural camouflage, counter tracking, and other tactics intended to confuse and harry. One of their most common ruses is to slather cool mud over their bodies to mask both their scent and their body heat, a tactic that makes them nearly impossible to detect.\n\nSludge panthers are social creatures who live and travel in small bands, the females hunting for food and the males protecting the nests and young from predators. Although they rarely hunt sentients, those who go against them should remember they seldom hunt alone.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 4,
@@ -1555,7 +1555,7 @@
 	{
 		"name": "Gorn Vorrox",
 		"type": "Rival",
-		"description": "Corn himself is a fairly average-looking male Duros, slightly less than two meters tall, with blue-green skin and bright red eyes. Outwardly friendly, Corn is an opportunist, swindler, and skilled negotiator. The mer­chant drives a hard bargain and almost never gives anvthine awav for free.",
+		"description": "Corn himself is a fairly average-looking male Duros, slightly less than two meters tall, with blue-green skin and bright red eyes. Outwardly friendly, Corn is an opportunist, swindler, and skilled negotiator. The merchant drives a hard bargain and almost never gives anvthine awav for free.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -1629,10 +1629,10 @@
 		"skills": {
 			"Deception": 3,
 			"Knowledge: Underworld": 2,
-			"Per­ception": 2,
+			"Perception": 2,
 			"Piloting: Space": 2,
 			"Ranged: Light": 3,
-			"Skul­duggery": 2,
+			"Skulduggery": 2,
 			"Streetwise": 2
 		},
 		"talents": ["Adversary 2"],
@@ -1671,7 +1671,7 @@
 	{
 		"name": "Lt. Corran Costi and CorSec Boarding Officers",
 		"type": "Rival",
-		"description": "A no-nonsense lawman, Costi is relatively dogmatic and honest, though he isn’t above taking a bribe from small-time smugglers and nonviolent criminals in ex­change for looking the other way. His fellow officers follow his lead (this profile represents both).",
+		"description": "A no-nonsense lawman, Costi is relatively dogmatic and honest, though he isn’t above taking a bribe from small-time smugglers and nonviolent criminals in exchange for looking the other way. His fellow officers follow his lead (this profile represents both).",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -1689,7 +1689,7 @@
 			"Discipline": 2,
 			"Gunnery": 1,
 			"Melee": 2,
-			"Per­ception": 5,
+			"Perception": 5,
 			"Ranged: Light": 2,
 			"Resilience": 2,
 			"Vigilance": 2
@@ -1719,7 +1719,7 @@
 	{
 		"name": "Sunny Bounder",
 		"type": "Nemesis",
-		"description": "Sunny is a tall, narrow, hard-eyed young woman somewhere between 25 and 30 years old. A swoop and speeder bike rider from her earliest memory, Sunny eventually took to fixing races, organising ille­gal swoop races for herself and others, and organising all the various and sundry aspects of racing, such as security, bribes, and gambling takes. A few years ago, Sunny formed the Black Seraphs from the dregs of another swoop gang that she’d helped destroy. She organised the survivors into an effective group of grifters, con artists, and hustlers.",
+		"description": "Sunny is a tall, narrow, hard-eyed young woman somewhere between 25 and 30 years old. A swoop and speeder bike rider from her earliest memory, Sunny eventually took to fixing races, organising illegal swoop races for herself and others, and organising all the various and sundry aspects of racing, such as security, bribes, and gambling takes. A few years ago, Sunny formed the Black Seraphs from the dregs of another swoop gang that she’d helped destroy. She organised the survivors into an effective group of grifters, con artists, and hustlers.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 4,
@@ -1739,7 +1739,7 @@
 			"Cool": 4,
 			"Leadership": 1,
 			"Melee": 3,
-			"Pilot­ing: Planetary": 3,
+			"Piloting: Planetary": 3,
 			"Ranged: Light": 2,
 			"Streetwise": 3
 		},
@@ -1761,7 +1761,7 @@
 	{
 		"name": "Grinder",
 		"type": "Rival",
-		"description": "Grinder is quite possibly the most unpleasant person on Corellia. He is a short, bald, heavily muscled brute of a man with a face like a hatchet wound, a beard that can stop blaster bolts, and a litany of bad choices and bad breaks picked out in bold, tattooed colours all over his arms and torso. He is Sunny’s chief mechanic as well as her selectively loyal second-in-command. Grinder rarely bathes, as evidenced by his pungent odour and the grease caked in the creases of his hands, and he wears his racing hides at all times (mostly be­cause he is terrified of them being stolen). A savant with a swoop or speeder engine but a failure as a de­cent human being, Grinder never has a kind word or helping hand for anyone without a reward. The rest of the Seraphs who race drive CEC D-22 “Screamers,” high-performance Corellian machines.\n\nFor the right price (such as leadership of the gang, or lots of credits), Grinder turns on Sunny in the blink of an eye. If so, he spells out Sunny’s plans, sketches a quick map of the race course, and lists the probable traps and where they might be deployed against the racer. He’s also willing to back the PCs if things come to a fight at the end of the race.",
+		"description": "Grinder is quite possibly the most unpleasant person on Corellia. He is a short, bald, heavily muscled brute of a man with a face like a hatchet wound, a beard that can stop blaster bolts, and a litany of bad choices and bad breaks picked out in bold, tattooed colours all over his arms and torso. He is Sunny’s chief mechanic as well as her selectively loyal second-in-command. Grinder rarely bathes, as evidenced by his pungent odour and the grease caked in the creases of his hands, and he wears his racing hides at all times (mostly because he is terrified of them being stolen). A savant with a swoop or speeder engine but a failure as a decent human being, Grinder never has a kind word or helping hand for anyone without a reward. The rest of the Seraphs who race drive CEC D-22 “Screamers,” high-performance Corellian machines.\n\nFor the right price (such as leadership of the gang, or lots of credits), Grinder turns on Sunny in the blink of an eye. If so, he spells out Sunny’s plans, sketches a quick map of the race course, and lists the probable traps and where they might be deployed against the racer. He’s also willing to back the PCs if things come to a fight at the end of the race.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -1871,7 +1871,7 @@
 			"Perception": 2,
 			"Ranged: Light": 3,
 			"Surveillance": 3,
-			"Vigi­lance": 2
+			"Vigilance": 2
 		},
 		"talents": ["Adversary 1"],
 		"weapons": [
@@ -1891,7 +1891,7 @@
 	{
 		"name": "Bim Gizzo",
 		"type": "Rival",
-		"description": "A skilled operator who makes his living obtaining con­fidential information for his various employers, Bim Gizzo is virtually devoid of scruples. Clever, quick, and an expert at sleight-of-hand, his left hand is artificial and conceals a cybernetic weapon.",
+		"description": "A skilled operator who makes his living obtaining confidential information for his various employers, Bim Gizzo is virtually devoid of scruples. Clever, quick, and an expert at sleight-of-hand, his left hand is artificial and conceals a cybernetic weapon.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -1959,7 +1959,7 @@
 	{
 		"name": "Boffen Nibs",
 		"type": "Rival",
-		"description": "The wayward son of Duchess Lassa Nibs, Boffen seeks thrills and adventure. Having decided to undertake a life of crime, Boffen stole the Eye of Corell from his mother in order to fund his underworld career. Un­like most of his kin, Boffen has a talent for lying and underhanded duplicity. Though not malicious in any sense, Boffen is self-centered and relatively naive about the dangers of the galaxy.",
+		"description": "The wayward son of Duchess Lassa Nibs, Boffen seeks thrills and adventure. Having decided to undertake a life of crime, Boffen stole the Eye of Corell from his mother in order to fund his underworld career. Unlike most of his kin, Boffen has a talent for lying and underhanded duplicity. Though not malicious in any sense, Boffen is self-centered and relatively naive about the dangers of the galaxy.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 2,
@@ -1976,7 +1976,7 @@
 			"Charm": 1,
 			"Deception": 1,
 			"Education": 2,
-			"Percep­tion": 2,
+			"Perception": 2,
 			"Skulduggery": 5,
 			"Stealth": 2,
 			"Streetwise": 1
@@ -2004,7 +2004,7 @@
 			"Discipline": 2,
 			"Leadership": 2,
 			"Melee": 3,
-			"Percep­tion": 3,
+			"Perception": 3,
 			"Ranged: Light": 3,
 			"Vigilance": 3
 		},
@@ -2111,7 +2111,7 @@
 			"Charm": 2,
 			"Deception": 2,
 			"Perception": 2,
-			"Skuldug­gery": 2,
+			"Skulduggery": 2,
 			"Stealth": 2
 		},
 		"gear": ["Scanner goggles"],
@@ -2165,7 +2165,7 @@
 			"Coercion": 3,
 			"Deception": 3,
 			"Gunnery": 2,
-			"Lead­ership": 2,
+			"Leadership": 2,
 			"Perception": 2,
 			"Piloting: Space": 3,
 			"Ranged: Light": 3

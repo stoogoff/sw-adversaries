@@ -2,7 +2,7 @@
 	{
 		"name": "A0-2",
 		"type": "Nemesis",
-		"description": "AO-2 is a tall, lanky combat droid with a matte black chassis layered with plates of laminate armour. A single red optic glows from his expressionless faceplate, and a black cloak hangs from his shoulders, covering much of his body. Given the time he spends in Torani’s pres­ence, he is often referred to as her shadow. Though their relationship appears to be more or less egalitar­ian, some individuals have started to wonder if AO-2 is actually Torani’s master rather than her servant.",
+		"description": "AO-2 is a tall, lanky combat droid with a matte black chassis layered with plates of laminate armour. A single red optic glows from his expressionless faceplate, and a black cloak hangs from his shoulders, covering much of his body. Given the time he spends in Torani’s presence, he is often referred to as her shadow. Though their relationship appears to be more or less egalitarian, some individuals have started to wonder if AO-2 is actually Torani’s master rather than her servant.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -22,10 +22,10 @@
 			"Brawl": 3,
 			"Cool": 3,
 			"Melee": 4,
-			"Percep­tion": 3,
+			"Perception": 3,
 			"Ranged: Heavy": 3,
 			"Ranged: Light": 2,
-			"Skuldug­gery": 2,
+			"Skulduggery": 2,
 			"Streetwise": 2,
 			"Vigilance": 4
 		},
@@ -48,7 +48,7 @@
 	{
 		"name": "Ashur Sungazer",
 		"type": "Rival",
-		"description": "Ashur Sungazer is an accredited and accomplished human scholar specializing in galactic history. Though he traveled in his youth, now that he is entering mid­dle age he has settled into a new career on Phelar. Even though Ashur grew up under Imperial rule and knows no other life, he found himself drawn to the stories and legends of the Jed i. His natural curiosity drove him to travel across the O uter Rim on research missions several years ago, and the galaxy’s cruelty has not dulled his optimism.\n\nAshur is unsure whether the Jed i really existed, as he was only a child when the Clone Wars ended. The rational part of his mind believes Imperial pro­paganda, accepting that those who called themselves Jed i were likely charlatans or simply deluded. How­ ever, another, purer part of him wants to believe in the myths of heroic Jed i paladins of virtue and light.",
+		"description": "Ashur Sungazer is an accredited and accomplished human scholar specializing in galactic history. Though he traveled in his youth, now that he is entering middle age he has settled into a new career on Phelar. Even though Ashur grew up under Imperial rule and knows no other life, he found himself drawn to the stories and legends of the Jed i. His natural curiosity drove him to travel across the O uter Rim on research missions several years ago, and the galaxy’s cruelty has not dulled his optimism.\n\nAshur is unsure whether the Jed i really existed, as he was only a child when the Clone Wars ended. The rational part of his mind believes Imperial propaganda, accepting that those who called themselves Jed i were likely charlatans or simply deluded. How ever, another, purer part of him wants to believe in the myths of heroic Jed i paladins of virtue and light.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 2,
@@ -105,7 +105,7 @@
 	{
 		"name": "Bandin Dobah",
 		"type": "Nemesis",
-		"description": "Bandin Dobah is a stereotypical pirate captain: reckless, crude, and aggressive. His belligerence soon earned him the respect of several of his fellows on the Aqual­ish home world of Ando and he proved a natural gang leader. Dobah’s impressive force of will compensated for his natural lack of charm. He soon made a number of enemies for himself on Ando, and so he embarked on a career as a spacefarer, captaining a roguish crew willing to undertake all manner of mercenary activity or acts of piracy in order to keep the credits rolling in.\n\nAge has mellowed Dobah to some degree, though by any civilized measure he’s still a violent brute. He no longer has the energy to ply the hyperspace routes of the galaxy in search of easy pickings, but he has been able to turn his resources into effectively managing his network of smuggling teams around the Kessel Run. He tends to conduct his business through a series of intermediaries such as Daro Blunt.\n\nDobah still rules through intimidation rather than true leadership qualities, and his crew obeys him more out of fear than loyalty. His bullying and boorishness offend all but the most hardened of space pirates, but while the profits from the black market glitterstim trade continue to flow, they remain loyal nevertheless.",
+		"description": "Bandin Dobah is a stereotypical pirate captain: reckless, crude, and aggressive. His belligerence soon earned him the respect of several of his fellows on the Aqualish home world of Ando and he proved a natural gang leader. Dobah’s impressive force of will compensated for his natural lack of charm. He soon made a number of enemies for himself on Ando, and so he embarked on a career as a spacefarer, captaining a roguish crew willing to undertake all manner of mercenary activity or acts of piracy in order to keep the credits rolling in.\n\nAge has mellowed Dobah to some degree, though by any civilized measure he’s still a violent brute. He no longer has the energy to ply the hyperspace routes of the galaxy in search of easy pickings, but he has been able to turn his resources into effectively managing his network of smuggling teams around the Kessel Run. He tends to conduct his business through a series of intermediaries such as Daro Blunt.\n\nDobah still rules through intimidation rather than true leadership qualities, and his crew obeys him more out of fear than loyalty. His bullying and boorishness offend all but the most hardened of space pirates, but while the profits from the black market glitterstim trade continue to flow, they remain loyal nevertheless.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 2,
@@ -138,7 +138,7 @@
 	{
 		"name": "Bandin Dobah Pirate Mate",
 		"type": "Rival",
-		"description": "Band in’s crew consists of three humans and another Aqualish, the rest of his henchmen serving much the same role as Daro Blunt by heading the different smug­gling teams that form his network. They are all individ­ually fierce though they only fight as long as they are confident of victory Once Bandin is killed or disabled, they try to negotiate for their own lives and freedom.",
+		"description": "Band in’s crew consists of three humans and another Aqualish, the rest of his henchmen serving much the same role as Daro Blunt by heading the different smuggling teams that form his network. They are all individually fierce though they only fight as long as they are confident of victory Once Bandin is killed or disabled, they try to negotiate for their own lives and freedom.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -177,7 +177,7 @@
 	{
 		"name": "Bleshk Callor",
 		"type": "Nemesis",
-		"description": "Bleshk Callor has been an intelligence agent all of his adult life. He has seen the best and worst that the call­ing has to offer, and the years of clandestine work have made him aloof, capricious, and generally strange. Despite his quirks, he is a dedicated and highly compe­tent head of security, respected even by his enemies in the ISB. He values initiative, lateral thinking, and perse­verance in an agent, and those who find themselves in his good graces could wish for no better chief and ally than the grizzled old Deaon.",
+		"description": "Bleshk Callor has been an intelligence agent all of his adult life. He has seen the best and worst that the calling has to offer, and the years of clandestine work have made him aloof, capricious, and generally strange. Despite his quirks, he is a dedicated and highly competent head of security, respected even by his enemies in the ISB. He values initiative, lateral thinking, and perseverance in an agent, and those who find themselves in his good graces could wish for no better chief and ally than the grizzled old Deaon.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -233,7 +233,7 @@
 			"Coercion": 3,
 			"Cool": 2,
 			"Deception": 3,
-			"Dis­cipline": 2,
+			"Discipline": 2,
 			"Knowledge: Underworld": 3,
 			"Perception": 2,
 			"Negotiation": 2,
@@ -248,7 +248,7 @@
 	{
 		"name": "Captain Gideon",
 		"type": "Nemesis",
-		"description": "Captain Gideon is a member of the Suwanee Pirates, a desperate group of pirates and cutthroats who have been preying on starships in this area for years. Gideon is a Devaronian whose thick, white horns and trademark devilish grin, and wickedly sharp vibros­word serve to accent his sinister appearance.",
+		"description": "Captain Gideon is a member of the Suwanee Pirates, a desperate group of pirates and cutthroats who have been preying on starships in this area for years. Gideon is a Devaronian whose thick, white horns and trademark devilish grin, and wickedly sharp vibrosword serve to accent his sinister appearance.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -356,7 +356,7 @@
 		"skills": {
 			"Discipline": 3,
 			"Gunnery": 4,
-			"Knowledge: War­fare": 3,
+			"Knowledge: Warfare": 3,
 			"Leadership": 3,
 			"Perception": 3,
 			"Ranged: Heavy": 2,
@@ -372,7 +372,7 @@
 	{
 		"name": "Commander Freila",
 		"type": "Nemesis",
-		"description": "Originally from Chandrila, Jyn Freila joined the Rebel­lion after pirating one of Mon Mothma’s speeches from the shadowfeed. Formerly a starfighter pilot, Jyn was promoted out of an X-wing cockpit after los­ing an eye and most of her squadron during a raid on an Imperial shipment of quadanium steel gone horribly wrong. Commander Freila is an experienced pilot whose combat record speaks for itself. Her chief concerns are keeping Keff Base hidden and “captur­ing” supplies arranged by SoroSuub to be unguarded.",
+		"description": "Originally from Chandrila, Jyn Freila joined the Rebellion after pirating one of Mon Mothma’s speeches from the shadowfeed. Formerly a starfighter pilot, Jyn was promoted out of an X-wing cockpit after losing an eye and most of her squadron during a raid on an Imperial shipment of quadanium steel gone horribly wrong. Commander Freila is an experienced pilot whose combat record speaks for itself. Her chief concerns are keeping Keff Base hidden and “capturing” supplies arranged by SoroSuub to be unguarded.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 4,
@@ -405,7 +405,7 @@
 	{
 		"name": "Corte Voss",
 		"type": "Nemesis",
-		"description": "Corte is a cunning smuggler who considers herself a savvy businesswoman, but she’s been on a losing streak for some time now after a deal with the Hutts of Corensla went wrong and she was forced to go to ground to avoid their ire.\n\nAttempting to rip off Thamoss to get out from under­neath the ensuing financial troubles was her idea, and her crew gladly backed her plan, thinking they could reap some extra profit. She’s perfectly happy to fight her way out of the ensuing struggle with the Trandoshan and his goons, though she’ll be grateful to anyone who cares to lend her—and her boys—a hand. The PCs can make a bit of money by dealing with her, but they also risk getting dragged into the troubles pursuing her.",
+		"description": "Corte is a cunning smuggler who considers herself a savvy businesswoman, but she’s been on a losing streak for some time now after a deal with the Hutts of Corensla went wrong and she was forced to go to ground to avoid their ire.\n\nAttempting to rip off Thamoss to get out from underneath the ensuing financial troubles was her idea, and her crew gladly backed her plan, thinking they could reap some extra profit. She’s perfectly happy to fight her way out of the ensuing struggle with the Trandoshan and his goons, though she’ll be grateful to anyone who cares to lend her—and her boys—a hand. The PCs can make a bit of money by dealing with her, but they also risk getting dragged into the troubles pursuing her.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 4,
@@ -437,7 +437,7 @@
 	{
 		"name": "Corte’s Smuggler Cew",
 		"type": "Minion",
-		"description": "Tad, Vickers, Gyd, and Sira are four of Corte’s crew. A fifth crewmember, Kef, remains behind with the Titan’s Mercy, Corte’s light freighter. The four with her (two humans, a Twi’lek, and a Gand) are all young and cocky, and none of them expected any trouble as a result of this deal. Kef (the Jawa) always expects trouble, but wearily accepts that he can rarely stop his hot-blooded captain from getting in over her head.\n\nUnder the circumstances, Corte’s crewmates are surprised, but willing to fight their way out of trou­ble–after all, this isn’t the first time Corte’s plans have gone awry. If it looks as though the fight is going against them, they might well call out to the PCs for assistance, for they realize how dangerous Thamoss can be (despite Corte’s earlier assurances that this job would be simple and risk-free).",
+		"description": "Tad, Vickers, Gyd, and Sira are four of Corte’s crew. A fifth crewmember, Kef, remains behind with the Titan’s Mercy, Corte’s light freighter. The four with her (two humans, a Twi’lek, and a Gand) are all young and cocky, and none of them expected any trouble as a result of this deal. Kef (the Jawa) always expects trouble, but wearily accepts that he can rarely stop his hot-blooded captain from getting in over her head.\n\nUnder the circumstances, Corte’s crewmates are surprised, but willing to fight their way out of trouble–after all, this isn’t the first time Corte’s plans have gone awry. If it looks as though the fight is going against them, they might well call out to the PCs for assistance, for they realize how dangerous Thamoss can be (despite Corte’s earlier assurances that this job would be simple and risk-free).",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -458,7 +458,7 @@
 	{
 		"name": "Crew Chief Jerion “Jolt” Terolt",
 		"type": "Rival",
-		"description": "Jolt is one of Tierfon’s longest-serving crew chiefs. The extremely cheerful Sullustan mechanic is highly adept at patching together beat-up and blasted starships, particularly starfighters. Pilots like him because, instead of berating them after damaging their vessels and his work, he takes great pride in their survival and keeping their ships in space, often through highly creative methods. They soon discover that some of his unusual repairs sacrifice com­fort and convenience to get the job done, and the results can go undetected by the pilots until inopportune moments during the next mission or flight. While not fatal, the repairs sometimes force the pilots to hastily alter their flying style, weapons, or defenses. Experienced pilots soon learn to take test flights after repairs or altera­tions, and more than a few can be heard curs­ing Jolt across the comm system when they dis­cover a troublesome issue.\n\nJolt gained his nickname after he rewired the main control board of an arrogant, hateful, and disliked X-wing pilot to randomly give him irri­tating minor shocks every time he touched it after the first ten minutes of flight time, except when the S-foils were deployed for combat. Though nominally reprimanded by the base commander, the rest of the squadron and repair crews were highly entertained and appreciative of the lesson.\n\nJolt teaches the technique to many Rebel agents who pass through Tierfon Outpost, giving them another way to disrupt Imperial control pan­els on ships, vehicles, and equipment when straight-up destruction isn’t desired. In his little free time, he tinkers with other methods of clan­ destine technical damage and destruction.",
+		"description": "Jolt is one of Tierfon’s longest-serving crew chiefs. The extremely cheerful Sullustan mechanic is highly adept at patching together beat-up and blasted starships, particularly starfighters. Pilots like him because, instead of berating them after damaging their vessels and his work, he takes great pride in their survival and keeping their ships in space, often through highly creative methods. They soon discover that some of his unusual repairs sacrifice comfort and convenience to get the job done, and the results can go undetected by the pilots until inopportune moments during the next mission or flight. While not fatal, the repairs sometimes force the pilots to hastily alter their flying style, weapons, or defenses. Experienced pilots soon learn to take test flights after repairs or alterations, and more than a few can be heard cursing Jolt across the comm system when they discover a troublesome issue.\n\nJolt gained his nickname after he rewired the main control board of an arrogant, hateful, and disliked X-wing pilot to randomly give him irritating minor shocks every time he touched it after the first ten minutes of flight time, except when the S-foils were deployed for combat. Though nominally reprimanded by the base commander, the rest of the squadron and repair crews were highly entertained and appreciative of the lesson.\n\nJolt teaches the technique to many Rebel agents who pass through Tierfon Outpost, giving them another way to disrupt Imperial control panels on ships, vehicles, and equipment when straight-up destruction isn’t desired. In his little free time, he tinkers with other methods of clan destine technical damage and destruction.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -488,7 +488,7 @@
 	{
 		"name": "Daro Blunt",
 		"type": "Rival",
-		"description": "Daro Blunt has unkempt hair with three days of stub­ble growing from his gaunt face. This human wears a dirty beige flight suit and a holstered blaster pistol on each hip. Daro also carries a backpack that looks like it contains some weighty bits of equipment.",
+		"description": "Daro Blunt has unkempt hair with three days of stubble growing from his gaunt face. This human wears a dirty beige flight suit and a holstered blaster pistol on each hip. Daro also carries a backpack that looks like it contains some weighty bits of equipment.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -523,7 +523,7 @@
 	{
 		"name": "Deck Officer Lt. Nela Arseli",
 		"type": "Rival",
-		"description": "Lt. Nela Arseli is one of a rotating pool of personnel serving as deck officers in Echo Base’s hangars. When on duty, she tracks and directs operations occurring within the hangar at any given time. She often helps with orga­nising ships and vehicles as needed within the hangar to carry out their various missions and requirements, though other staff actually direct the traffic. She nominally knows who is work­ ing in the hangar at any given time, though in practice this only applies to those assigned to the current duty shift.\n\nLt. Arseli joined the Rebellion on Dantooine, serving at that base until it was relocated. She has since served in many smaller bases in a variety of roles, enabling her to meet many more pilots and personnel than the average Rebel. She has a sharp memory and runs an efficient hangar.",
+		"description": "Lt. Nela Arseli is one of a rotating pool of personnel serving as deck officers in Echo Base’s hangars. When on duty, she tracks and directs operations occurring within the hangar at any given time. She often helps with organising ships and vehicles as needed within the hangar to carry out their various missions and requirements, though other staff actually direct the traffic. She nominally knows who is work ing in the hangar at any given time, though in practice this only applies to those assigned to the current duty shift.\n\nLt. Arseli joined the Rebellion on Dantooine, serving at that base until it was relocated. She has since served in many smaller bases in a variety of roles, enabling her to meet many more pilots and personnel than the average Rebel. She has a sharp memory and runs an efficient hangar.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -539,7 +539,7 @@
 		"skills": {
 			"Discipline": 3,
 			"Knowledge: Warfare": 3,
-			"Leader­ship": 1,
+			"Leadership": 1,
 			"Ranged: Light": 2,
 			"Perception": 2,
 			"Vigilance": 2
@@ -602,7 +602,7 @@
 			"Deception": 2,
 			"Discipline": 2,
 			"Knowledge: Education": 1,
-			"Knowl­edge: Xenology": 1,
+			"Knowledge: Xenology": 1,
 			"Perception": 3,
 			"Ranged: Light": 2,
 			"Streetwise": 2,
@@ -616,7 +616,7 @@
 	{
 		"name": "Fereallis Pirate Crewmate",
 		"type": "Rival",
-		"description": "Captain Gideon’s crew consists of three Weequay enforcers, a Twi’lek first mate, two human smugglers, and an Aquilish hired thug. For convenience, all crew­ members use the same profile listed here.",
+		"description": "Captain Gideon’s crew consists of three Weequay enforcers, a Twi’lek first mate, two human smugglers, and an Aquilish hired thug. For convenience, all crew members use the same profile listed here.",
 		"notes": "Armed with a vibroknife or shock gloves.",
 		"characteristics": {
 			"Brawn": 3,
@@ -644,7 +644,7 @@
 	{
 		"name": "Fenn Sesslyn",
 		"type": "Nemesis",
-		"description": "A native of Corellia, Fenn Sesslyn is the no-non­sense commander of SoroSuub’s corporate security operation in G’rinn Go City. Of medium height and build, with long limbs and a fierce demeanor, she has been with SoroSuub for more than a decade now. Her ambition and blunt manner of speaking have made her quite a few enemies within the company and corporate security. Her inability to sugarcoat bad news or to be lenient with employees breaking the law is what landed her current position. While most see G’rinn Go City as a career-ending assignment, Commander Sesslyn has worked tirelessly to ensure that her officers are the most efficient, well-trained, and well-respected officers in the company.",
+		"description": "A native of Corellia, Fenn Sesslyn is the no-nonsense commander of SoroSuub’s corporate security operation in G’rinn Go City. Of medium height and build, with long limbs and a fierce demeanor, she has been with SoroSuub for more than a decade now. Her ambition and blunt manner of speaking have made her quite a few enemies within the company and corporate security. Her inability to sugarcoat bad news or to be lenient with employees breaking the law is what landed her current position. While most see G’rinn Go City as a career-ending assignment, Commander Sesslyn has worked tirelessly to ensure that her officers are the most efficient, well-trained, and well-respected officers in the company.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -680,7 +680,7 @@
 	{
 		"name": "Gaff Kilvaari",
 		"type": "Nemesis",
-		"description": "A veteran of the Sullustan Resistance, Gaff Kilvaari is an accomplished engineer and a talented saboteur. With a reputation as a stern but fair leader, and known for his use of overwhelming force when demolishing a target, Kilvaari makes an excellent colleague and an incred­ibly dangerous enemy. While generally friendly and outgoing, he is cool and reserved around members of the Alliance. While admittedly not entirely fair, Kilvaari tends to look down on Alliance operatives as either amateurs or dilettantes or both, considering his experi­ences in the Sullustan Resistance to have been harder and more authentic than those of the Rebels. For this assignment, he will work happily, even cordially, with the Player Characters, but only an extraordinary indi­vidual or group of Rebels can gain his trust and respect.",
+		"description": "A veteran of the Sullustan Resistance, Gaff Kilvaari is an accomplished engineer and a talented saboteur. With a reputation as a stern but fair leader, and known for his use of overwhelming force when demolishing a target, Kilvaari makes an excellent colleague and an incredibly dangerous enemy. While generally friendly and outgoing, he is cool and reserved around members of the Alliance. While admittedly not entirely fair, Kilvaari tends to look down on Alliance operatives as either amateurs or dilettantes or both, considering his experiences in the Sullustan Resistance to have been harder and more authentic than those of the Rebels. For this assignment, he will work happily, even cordially, with the Player Characters, but only an extraordinary individual or group of Rebels can gain his trust and respect.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -714,7 +714,7 @@
 	{
 		"name": "Lt. Commander Gareth Agamar",
 		"type": "Nemesis",
-		"description": "Lieutenant Commander Gareth Agamar, leader of the 481st Experimental Starfighter Testing Squadron, is a man of immense skill and unbridled ambition. Agamar was born on Coruscant, and his family has a long and storied military tradition stretching back generations. Throughout the Agamar family’s his­tory, they produced countless respected and distin­guished soldiers, pilots, and Republic Navy spacers. Indeed, both of Gareth’s parents are retired Galactic Republic Navy officers who served during the Clone Wars, and all of his siblings serve in the Imperial armed forces in one capacity or another. Drawn to spaceflight from an early age, Agamar entered the Imperial Naval Academy in the hopes of becoming a fighter pilot. Throughout his training, he exhibited a high level of professionalism, courage, and a strong grasp of fighter tactics. He graduated at the top of his class. After he served for years in various positions throughout the Imperial Navy, including a long stint as the aerospace group commander of the Imperial-class Star Destroyer Mercurial, his skills in the cockpit and ability to wring every ounce of performance from a fighter brought him to the attention of the Impe­rial Navy’s prototype testing division. Responsible in part for the final testing of many of the Empire’s latest fightercraft, he is currently operating somewhere near Polis Massa, testing a top-secret fighter that promises to drastically change the course of the ongoing con­flict with the Rebel Alliance.",
+		"description": "Lieutenant Commander Gareth Agamar, leader of the 481st Experimental Starfighter Testing Squadron, is a man of immense skill and unbridled ambition. Agamar was born on Coruscant, and his family has a long and storied military tradition stretching back generations. Throughout the Agamar family’s history, they produced countless respected and distinguished soldiers, pilots, and Republic Navy spacers. Indeed, both of Gareth’s parents are retired Galactic Republic Navy officers who served during the Clone Wars, and all of his siblings serve in the Imperial armed forces in one capacity or another. Drawn to spaceflight from an early age, Agamar entered the Imperial Naval Academy in the hopes of becoming a fighter pilot. Throughout his training, he exhibited a high level of professionalism, courage, and a strong grasp of fighter tactics. He graduated at the top of his class. After he served for years in various positions throughout the Imperial Navy, including a long stint as the aerospace group commander of the Imperial-class Star Destroyer Mercurial, his skills in the cockpit and ability to wring every ounce of performance from a fighter brought him to the attention of the Imperial Navy’s prototype testing division. Responsible in part for the final testing of many of the Empire’s latest fightercraft, he is currently operating somewhere near Polis Massa, testing a top-secret fighter that promises to drastically change the course of the ongoing conflict with the Rebel Alliance.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 4,
@@ -743,7 +743,7 @@
 	{
 		"name": "General Elora Silssusio",
 		"type": "Nemesis",
-		"description": "Polis Massa’s current Rebel commander is General Elora Silssusio. She oversees all Rebel operations and is the Alliance’s chief liai­son, coordinator, and negotiator with the Polis Massans. She once ran a private security and investigation service, called Ulterior Vision, which specialized in clandestine work for ques­tionably loyal Imperial Senators. The ISB even­ tually exposed her activities, but a friendly Sen­ator orchestrated her escape to join a fledgling resistance group in the Outer Rim. When the group joined the Rebel Alliance, she was quickly promoted to lead secret missions throughout the galaxy. She sustained serious injuries in a skirmish while escaping a Star destroyer and was sent to Polis Massa for treatment. While recovering, she used her experience negotiating with Senators to convince the Polis Massans to increase their support for the Alliance.\n\nThe Alliance was impressed, promoted her to general, and placed her in command at Polis Massa. There, she protects the Rebels’ relation­ship with their hosts, reigning in or expelling anyone who would endanger them. She person­ ally selects and briefs special operations teams. She has had a seething hatred for the Empire since the dissolution of the Senate, because some of her former clients were arrested and probably killed shortly thereafter. The General rarely wears a formal uniform, so as to avoid undue attention should outsiders see her within the research base.",
+		"description": "Polis Massa’s current Rebel commander is General Elora Silssusio. She oversees all Rebel operations and is the Alliance’s chief liaison, coordinator, and negotiator with the Polis Massans. She once ran a private security and investigation service, called Ulterior Vision, which specialized in clandestine work for questionably loyal Imperial Senators. The ISB even tually exposed her activities, but a friendly Senator orchestrated her escape to join a fledgling resistance group in the Outer Rim. When the group joined the Rebel Alliance, she was quickly promoted to lead secret missions throughout the galaxy. She sustained serious injuries in a skirmish while escaping a Star destroyer and was sent to Polis Massa for treatment. While recovering, she used her experience negotiating with Senators to convince the Polis Massans to increase their support for the Alliance.\n\nThe Alliance was impressed, promoted her to general, and placed her in command at Polis Massa. There, she protects the Rebels’ relationship with their hosts, reigning in or expelling anyone who would endanger them. She person ally selects and briefs special operations teams. She has had a seething hatred for the Empire since the dissolution of the Senate, because some of her former clients were arrested and probably killed shortly thereafter. The General rarely wears a formal uniform, so as to avoid undue attention should outsiders see her within the research base.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -763,7 +763,7 @@
 			"Gunnery": 1,
 			"Knowledge: Warfare": 2,
 			"Leadership": 3,
-			"Negotia­tion": 4,
+			"Negotiation": 4,
 			"Ranged: Light": 3,
 			"Perception": 3,
 			"Streetwise": 4,
@@ -776,7 +776,7 @@
 	{
 		"name": "Godon Netakka",
 		"type": "Rival",
-		"description": "The Rodian bounty hunter Codon Netakka is only a provisional member of Dobah’s crew. By the time Go­don had trailed the smuggling gang back to the aster­oid, his own ship was in such a state of disrepair that he had to abandon it and throw himself on Dobah’s mercy.",
+		"description": "The Rodian bounty hunter Codon Netakka is only a provisional member of Dobah’s crew. By the time Godon had trailed the smuggling gang back to the asteroid, his own ship was in such a state of disrepair that he had to abandon it and throw himself on Dobah’s mercy.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -815,7 +815,7 @@
 	{
 		"name": "Graayl Nor",
 		"type": "Nemesis",
-		"description": "Graayl Nor, the leader of the bounty hunters, is a cold and calculating Barabel who has amassed an impres­sive twelve bounties in the past cycle alone. His group, the Red Pact, has made a name for itself, earning a reputation for getting the job done at all costs. The Red Pact includes numerous thugs and gunslingers, including a Twi’lek, a Rodian, and a Defel.",
+		"description": "Graayl Nor, the leader of the bounty hunters, is a cold and calculating Barabel who has amassed an impressive twelve bounties in the past cycle alone. His group, the Red Pact, has made a name for itself, earning a reputation for getting the job done at all costs. The Red Pact includes numerous thugs and gunslingers, including a Twi’lek, a Rodian, and a Defel.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -832,10 +832,10 @@
 		"skills": {
 			"Deception": 5,
 			"Knowledge: Underworld": 2,
-			"Per­ception": 2,
+			"Perception": 2,
 			"Piloting: Space": 2,
 			"Ranged: Light": 3,
-			"Skul­duggery": 2,
+			"Skulduggery": 2,
 			"Streetwise": 2
 		},
 		"talents": ["Adversary 1"],
@@ -874,7 +874,7 @@
 	{
 		"name": "Gut-Guro",
 		"type": "Minion",
-		"description": "Gut-Guro’s age is hard to estimate as he has the same ruddy and wrinkled features common to most mem­bers of his species. He wears his hair in three long braids and dresses in the rough quilted leather that serves as traditional Weequay garb.",
+		"description": "Gut-Guro’s age is hard to estimate as he has the same ruddy and wrinkled features common to most members of his species. He wears his hair in three long braids and dresses in the rough quilted leather that serves as traditional Weequay garb.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -895,7 +895,7 @@
 	{
 		"name": "Halari Takan",
 		"type": "Rival",
-		"description": "A young firebrand, Halari Takan came of age during the Empire’s brutal subjugation of her homeworld. As a child, she watched helplessly as members of her fam­ily were dragged away in chains, one after another, by Imperial agents. This experience, combined with her strong will and natural fiery demeanor, drove her into the burgeoning resistance movement that was sweep­ing Mon Cala’s floating cities. Never much for military matters, Halari instead focused her efforts on orga­nising protests, work stoppages, and general strikes. She did so with a combination of gravitas and rheto­ric rarely found in one so young, and quickly gained a reputation as an inspiring and captivating speaker. And speak she did. Her fear of Imperial reprisals out­weighed by her hatred of the interlopers and her rage at their treatment of her people, Halari spoke in the streets, in the council halls, and in the media, spread­ing a message of dissent and anger that immediately drew the ire of the Imperial authorities.\n\nAfter a failed kidnapping attempt and a successful campaign to discredit her and her allies, Halari went into hiding, constantly moving between safe houses and acting from the shadows rather than in Coral City’s parks and plazas. When the Empire was finally driven from Mon Cala, she came out of hiding and was immediately drafted to be one of the Quarren repre­sentatives to the Mon Calamari. Now, after only a few years in this position, she has made as many enemies as she has made allies. Her uncompromising attitude toward the Empire and toward the injustices suffered by the Quarren at the hands of the Mon Calamari, and her insistence in stating these attitudes loudly and repeatedly, makes her hard to negotiate with.",
+		"description": "A young firebrand, Halari Takan came of age during the Empire’s brutal subjugation of her homeworld. As a child, she watched helplessly as members of her family were dragged away in chains, one after another, by Imperial agents. This experience, combined with her strong will and natural fiery demeanor, drove her into the burgeoning resistance movement that was sweeping Mon Cala’s floating cities. Never much for military matters, Halari instead focused her efforts on organising protests, work stoppages, and general strikes. She did so with a combination of gravitas and rhetoric rarely found in one so young, and quickly gained a reputation as an inspiring and captivating speaker. And speak she did. Her fear of Imperial reprisals outweighed by her hatred of the interlopers and her rage at their treatment of her people, Halari spoke in the streets, in the council halls, and in the media, spreading a message of dissent and anger that immediately drew the ire of the Imperial authorities.\n\nAfter a failed kidnapping attempt and a successful campaign to discredit her and her allies, Halari went into hiding, constantly moving between safe houses and acting from the shadows rather than in Coral City’s parks and plazas. When the Empire was finally driven from Mon Cala, she came out of hiding and was immediately drafted to be one of the Quarren representatives to the Mon Calamari. Now, after only a few years in this position, she has made as many enemies as she has made allies. Her uncompromising attitude toward the Empire and toward the injustices suffered by the Quarren at the hands of the Mon Calamari, and her insistence in stating these attitudes loudly and repeatedly, makes her hard to negotiate with.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -915,7 +915,7 @@
 			"Deception": 2,
 			"Knowledge: Core Worlds": 2,
 			"Knowledge: Underworld": 2,
-			"Knowl­edge: Xenology": 2,
+			"Knowledge: Xenology": 2,
 			"Leadership": 3,
 			"Negotiation": 3,
 			"Ranged: Light": 2,
@@ -930,7 +930,7 @@
 	{
 		"name": "Halina Patel",
 		"type": "Nemesis",
-		"description": "One of the ISB’s most gifted intelligence analysts, Halina Patel is a highly intelligent polymath. There are few in the ISB or Alliance Intelligence who can match her prowess with a slicing rig, and few computer secu­rity systems can withstand her attentions. A striking, dark-eyed woman in her middle years, she is easily recognizable due to the cybernetic computer inter­face construct that wraps around her shaved head. In the field, she typically conceals her implant with wigs or scarves, and she is so accomplished at doing so that it takes a very keen eye to spot the implant.",
+		"description": "One of the ISB’s most gifted intelligence analysts, Halina Patel is a highly intelligent polymath. There are few in the ISB or Alliance Intelligence who can match her prowess with a slicing rig, and few computer security systems can withstand her attentions. A striking, dark-eyed woman in her middle years, she is easily recognizable due to the cybernetic computer interface construct that wraps around her shaved head. In the field, she typically conceals her implant with wigs or scarves, and she is so accomplished at doing so that it takes a very keen eye to spot the implant.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -954,7 +954,7 @@
 			"Knowledge: Underworld": 3,
 			"Perception": 3,
 			"Ranged: Light": 2,
-			"Skul­duggery": 3,
+			"Skulduggery": 3,
 			"Stealth": 3,
 			"Vigilance": 3
 		},
@@ -1034,7 +1034,7 @@
 	{
 		"name": "King Maalva",
 		"type": "Nemesis",
-		"description": "A nephew of the deceased Katuunko, Maalva suc­ceeded Katuunko after his assassination during the Clone Wars. Maalva does not share his uncle’s mild temperament—he is a cantankerous, conniving, petty braggart. Nevertheless, he manages to retain his throne through political savvy and by recruiting ambitious vassals who pledge their loyalty to him. Rather than use his power to better his kingdom, Maalva lines his own pockets and blames the lack of prosperity on the Empire, the Hutts, and a bad roll of the chance cube.\n\nKing Maalva tolerates the Imperials by order of his Hutt overlords, but he also has gained personal ben­efit from their presence. Unbeknownst to his subjects and even his councilmen, the king orders the abduc­tion of Toydarian villagers in far-flung settlements and sells them into Imperial slavery. In return, Maalva is paid handsomely, and starships bearing the royal seal are exempt from all customs inspections.",
+		"description": "A nephew of the deceased Katuunko, Maalva succeeded Katuunko after his assassination during the Clone Wars. Maalva does not share his uncle’s mild temperament—he is a cantankerous, conniving, petty braggart. Nevertheless, he manages to retain his throne through political savvy and by recruiting ambitious vassals who pledge their loyalty to him. Rather than use his power to better his kingdom, Maalva lines his own pockets and blames the lack of prosperity on the Empire, the Hutts, and a bad roll of the chance cube.\n\nKing Maalva tolerates the Imperials by order of his Hutt overlords, but he also has gained personal benefit from their presence. Unbeknownst to his subjects and even his councilmen, the king orders the abduction of Toydarian villagers in far-flung settlements and sells them into Imperial slavery. In return, Maalva is paid handsomely, and starships bearing the royal seal are exempt from all customs inspections.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 1,
@@ -1077,7 +1077,7 @@
 	{
 		"name": "Kip Famas",
 		"type": "Rival",
-		"description": "One of the many Duros who fly for the Rebellion, Kip Famas is the leader of the 94th Fighter/Attack Squad­ron, the X-wing unit assigned to Polis Massa. Nor­mally quiet and reserved, he is a terror in the cockpit, pushing himself and his ship to their breaking point and taking every advantage possible to overcome his opponents. Kip’s X-wings have fared better than his colleagues’ Y-wings, but not by much, and eight X-wings remain in his squadron.",
+		"description": "One of the many Duros who fly for the Rebellion, Kip Famas is the leader of the 94th Fighter/Attack Squadron, the X-wing unit assigned to Polis Massa. Normally quiet and reserved, he is a terror in the cockpit, pushing himself and his ship to their breaking point and taking every advantage possible to overcome his opponents. Kip’s X-wings have fared better than his colleagues’ Y-wings, but not by much, and eight X-wings remain in his squadron.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 4,
@@ -1147,7 +1147,7 @@
 	{
 		"name": "Lieutenant Montra Varn",
 		"type": "Nemesis",
-		"description": "Lieutenant Montra Varn, ISB, was there the day the last Imperial shut­ tle fled Coral City, carrying the remain­ing members of the Imperial Intelli­gence mis­sion to the safety of the orbiting Star Destroyer and her evacuating squadron. She watched as the savage Mon Calamari and Quarren rabble cut down her friends and colleagues, screeching like brute beasts as they hacked her Imperial brethren apart with re-purposed industrial tools and stolen Imperial weapons. She saw the fires, the looting, the desecration of Imperial icons, and the mindless brutality with which prisoners were treated by the natives. She had never liked her posting to Mon Cala, or her necessary dealings with the “subcreatures” who called it home, but on that day, as she watched the shuttle’s boarding ramp close on an approaching mob, she swore that one day she would return. For nearly a standard year now, Special Agent Varn has been undercover on Mon Cala, pos­ing as a technical contractor and using her skills as an intelligence operative to exact her revenge on the peoples of Mon Cala.\n\nHer mission is to sow discord and discontent, and to cause a conflict between the Mon Calamari and the Quarren severe enough to keep them fighting them­selves and out of Alliance influence. To this end, she spreads rumors and plants false evidence of treach­ery and betrayal implicating high-ranking members of both species in one or another conspiracy to subjugate their counterparts and take complete control of post­ occupation Mon Cala. So far, her efforts have been wildly successful. The current talks being mediated by Alliance operatives are the last chance for peace.",
+		"description": "Lieutenant Montra Varn, ISB, was there the day the last Imperial shut tle fled Coral City, carrying the remaining members of the Imperial Intelligence mission to the safety of the orbiting Star Destroyer and her evacuating squadron. She watched as the savage Mon Calamari and Quarren rabble cut down her friends and colleagues, screeching like brute beasts as they hacked her Imperial brethren apart with re-purposed industrial tools and stolen Imperial weapons. She saw the fires, the looting, the desecration of Imperial icons, and the mindless brutality with which prisoners were treated by the natives. She had never liked her posting to Mon Cala, or her necessary dealings with the “subcreatures” who called it home, but on that day, as she watched the shuttle’s boarding ramp close on an approaching mob, she swore that one day she would return. For nearly a standard year now, Special Agent Varn has been undercover on Mon Cala, posing as a technical contractor and using her skills as an intelligence operative to exact her revenge on the peoples of Mon Cala.\n\nHer mission is to sow discord and discontent, and to cause a conflict between the Mon Calamari and the Quarren severe enough to keep them fighting themselves and out of Alliance influence. To this end, she spreads rumors and plants false evidence of treachery and betrayal implicating high-ranking members of both species in one or another conspiracy to subjugate their counterparts and take complete control of post occupation Mon Cala. So far, her efforts have been wildly successful. The current talks being mediated by Alliance operatives are the last chance for peace.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -1166,7 +1166,7 @@
 			"Computers": 2,
 			"Cool": 3,
 			"Coordination": 2,
-			"Decep­tion": 4,
+			"Deception": 4,
 			"Discipline": 3,
 			"Knowledge: Warfare": 1,
 			"Melee": 2,
@@ -1247,7 +1247,7 @@
 	{
 		"name": "Mehmet Alovar",
 		"type": "Rival",
-		"description": "Born and raised in Coral City, the capital of watery Mon Cala, the venerable Mehmet Alovar is among the most highly respected individuals of his generation. A member of Mon Cala’s aristocracy, Alovar can trace his lineage back countless generations, to the found­ing of Calamari society. He has spent his long life in service to his people, first as a member of a senator’s staff, then as a senator himself, and now in his twilight years, he serves as one of the Mon Calamari peoples’ emissaries to the Alliance to Restore the Republic. A strong supporter of Mon Calamari rights and a vocal opponent of Imperial rule, he is seen by his people, and many outside observers, as a champion of free­ dom and peace. Despite his shining qualities, however, of which there are undeniably many, he suffers from the same short-sighted and bigoted attitudes toward the Quarren as most of his generation. In this current conflict with the Quarren, Mon Calamari officials have sent the esteemed elder statesman to negotiate a peaceful end with the Alliance, as he is guaranteed to stand firm on the Mon Calamari’s demands and pro­tect their interests to his last breath.",
+		"description": "Born and raised in Coral City, the capital of watery Mon Cala, the venerable Mehmet Alovar is among the most highly respected individuals of his generation. A member of Mon Cala’s aristocracy, Alovar can trace his lineage back countless generations, to the founding of Calamari society. He has spent his long life in service to his people, first as a member of a senator’s staff, then as a senator himself, and now in his twilight years, he serves as one of the Mon Calamari peoples’ emissaries to the Alliance to Restore the Republic. A strong supporter of Mon Calamari rights and a vocal opponent of Imperial rule, he is seen by his people, and many outside observers, as a champion of free dom and peace. Despite his shining qualities, however, of which there are undeniably many, he suffers from the same short-sighted and bigoted attitudes toward the Quarren as most of his generation. In this current conflict with the Quarren, Mon Calamari officials have sent the esteemed elder statesman to negotiate a peaceful end with the Alliance, as he is guaranteed to stand firm on the Mon Calamari’s demands and protect their interests to his last breath.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -1282,7 +1282,7 @@
 	{
 		"name": "Nosh Droma",
 		"type": "Rival",
-		"description": "Nosh Droma is a conniving, venal, greedy, and untrust­worthy young Chadra-Fan with lavish tastes and a known gambling problem. In fact, it was his gambling and inability to live within his means that allowed the ISB to turn him. While he is relatively intelligent, he is neither as smart nor as clever as he thinks he is. He is relatively weak-willed and easily manipulated, and he has a raging entitlement complex that makes him believe he should be placed higher in Alliance than he is. He will not hesitate to beg for his life or run like a coward when confronted, and there is a high likelihood that his ISB handler will burn him if things get too hot.",
+		"description": "Nosh Droma is a conniving, venal, greedy, and untrustworthy young Chadra-Fan with lavish tastes and a known gambling problem. In fact, it was his gambling and inability to live within his means that allowed the ISB to turn him. While he is relatively intelligent, he is neither as smart nor as clever as he thinks he is. He is relatively weak-willed and easily manipulated, and he has a raging entitlement complex that makes him believe he should be placed higher in Alliance than he is. He will not hesitate to beg for his life or run like a coward when confronted, and there is a high likelihood that his ISB handler will burn him if things get too hot.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -1299,12 +1299,12 @@
 			"Charm": 3,
 			"Computers": 3,
 			"Deception": 4,
-			"Knowl­edge: Core Worlds": 3,
+			"Knowledge: Core Worlds": 3,
 			"Knowledge: Outer Rim": 3,
 			"Negotiation": 3,
 			"Perception": 3,
 			"Ranged: Light": 2,
-			"Skul­duggery": 4,
+			"Skulduggery": 4,
 			"Streetwise": 3
 		},
 		"talents": ["Adversary 1", "Bought Info", "Convincing Demeanor 3", "Greased Palms 2", "Know Somebody 1", "Natural Charmer", "Nobody’s Fool 2", "Wheel and Deal 3"],
@@ -1457,7 +1457,7 @@
 			"Astrogation": 3,
 			"Computers": 3,
 			"Cool": 1,
-			"Mechan­ics": 2,
+			"Mechanics": 2,
 			"Piloting: Space": 2
 		},
 		"abilities": ["Droid"],
@@ -1520,7 +1520,7 @@
 	{
 		"name": "Salana",
 		"type": "Nemesis",
-		"description": "A teenaged Deaon girl who came seemingly out of nowhere, Salana has been launching attacks on Impe­rial targets across Ord Gimmel since before the queen vanished. Claiming her only parents are the streets of Geharr, she has grown into a mythic figure among her followers. She leads her battles from the very front, only to emerge from each conflict unscathed. She plans every strike and, over the past two years, she has amassed several hundred loyal followers.",
+		"description": "A teenaged Deaon girl who came seemingly out of nowhere, Salana has been launching attacks on Imperial targets across Ord Gimmel since before the queen vanished. Claiming her only parents are the streets of Geharr, she has grown into a mythic figure among her followers. She leads her battles from the very front, only to emerge from each conflict unscathed. She plans every strike and, over the past two years, she has amassed several hundred loyal followers.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 4,
@@ -1554,7 +1554,7 @@
 	{
 		"name": "Shalo Sherin",
 		"type": "Nemesis",
-		"description": "Shalo is a tall, moderately handsome human with grey hair, blue eyes, and a penchant for stylish cloth­ ing. He has an air of authority about him that catches most individuals off guard, and his servants and staff are loyal to him to a fault. Despite his personable demeanor, he is completely amoral and willing to sac­rifice anyone to accomplish his goals.\n\nShalo is always accompanied by Therah Yunin, his Twi’lek concubine, and the occasion of the Granee Noopa is no exception. For her part, Therah feels deeply indebted to Shalo for something he did for her many years ago and helps him with his schemes as a result, but she is under no illusions that the callous noble will ever change. She uses the Twi’lek Dancer profile on page 414 of the E dge of the Empire Core Rulebook.",
+		"description": "Shalo is a tall, moderately handsome human with grey hair, blue eyes, and a penchant for stylish cloth ing. He has an air of authority about him that catches most individuals off guard, and his servants and staff are loyal to him to a fault. Despite his personable demeanor, he is completely amoral and willing to sacrifice anyone to accomplish his goals.\n\nShalo is always accompanied by Therah Yunin, his Twi’lek concubine, and the occasion of the Granee Noopa is no exception. For her part, Therah feels deeply indebted to Shalo for something he did for her many years ago and helps him with his schemes as a result, but she is under no illusions that the callous noble will ever change. She uses the Twi’lek Dancer profile on page 414 of the E dge of the Empire Core Rulebook.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -1691,7 +1691,7 @@
 	{
 		"name": "Taska Mastigar",
 		"type": "Rival",
-		"description": "Taska Mastigar, a charming, handsome young woman from Coruscant, is a highly troublesome agitator and rabble-rouser devoted solely to her own wealth and comfort. A gifted orator and master of at least a dozen languages, she has a gift for whipping a crowd into a frenzy with fiery rhetoric and then unleashing them to run riot. She has sold her skills to the highest bidder for at least a decade now and shows no signs of slow­ing down. Dealing with her is a dangerous proposition, as she is untrustworthy in the extreme and will turn on an employer at a moment’s notice if the price is right. ",
+		"description": "Taska Mastigar, a charming, handsome young woman from Coruscant, is a highly troublesome agitator and rabble-rouser devoted solely to her own wealth and comfort. A gifted orator and master of at least a dozen languages, she has a gift for whipping a crowd into a frenzy with fiery rhetoric and then unleashing them to run riot. She has sold her skills to the highest bidder for at least a decade now and shows no signs of slowing down. Dealing with her is a dangerous proposition, as she is untrustworthy in the extreme and will turn on an employer at a moment’s notice if the price is right. ",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -1727,7 +1727,7 @@
 	{
 		"name": "Thamoss",
 		"type": "Nemesis",
-		"description": "Thamoss is a Trandoshan merchant with a penchant for dealing in weapons and military-grade compo­nents. He’s cunning and cruel, and he prides himself on getting the best of any deal. He hires covert muscle to oversee his deals, and this incident is no exception. Thamoss has decided that Corte’s going to pay for her insults, and he intends to use his disruptor pistol to take his revenge.\n\nShould the PCs end up helping Thamoss, he is unlikely to offer them direct monetary compensa­tion. He might, however, have some jobs for them in the future as enforcers. If the PCs make an enemy of Thamoss and he survives the encounter, though, they can expect to see the vindictive Trandoshan again in their future dealings in Hutt Space. The GM could rep­resent this as a small Obligation generated by Tham­oss’ ongoing animosity, or simply handle it narratively by having him appear again seeking recompense.",
+		"description": "Thamoss is a Trandoshan merchant with a penchant for dealing in weapons and military-grade components. He’s cunning and cruel, and he prides himself on getting the best of any deal. He hires covert muscle to oversee his deals, and this incident is no exception. Thamoss has decided that Corte’s going to pay for her insults, and he intends to use his disruptor pistol to take his revenge.\n\nShould the PCs end up helping Thamoss, he is unlikely to offer them direct monetary compensation. He might, however, have some jobs for them in the future as enforcers. If the PCs make an enemy of Thamoss and he survives the encounter, though, they can expect to see the vindictive Trandoshan again in their future dealings in Hutt Space. The GM could represent this as a small Obligation generated by Thamoss’ ongoing animosity, or simply handle it narratively by having him appear again seeking recompense.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 2,
@@ -1744,7 +1744,7 @@
 		"skills": {
 			"Brawl": 3,
 			"Knowledge: Underworld": 2,
-			"Negotia­tion": 3,
+			"Negotiation": 3,
 			"Perception": 3,
 			"Ranged: Light": 2,
 			"Streetwise": 3,
@@ -1766,7 +1766,7 @@
 	{
 		"name": "Thamoss’s Security Guards",
 		"type": "Minion",
-		"description": "Thamoss keeps a group of mercenaries on retainer to provide hidden security for questionable deals. Each member of the team, of which there are four, is non­-descript and discreet. Prior to the meeting between Thamoss and Corte’s smugglers, the four mercs assume tactical positions and watch the proceedings from a dis­tance. At Thamoss’s signal, they move in, guns blazing.",
+		"description": "Thamoss keeps a group of mercenaries on retainer to provide hidden security for questionable deals. Each member of the team, of which there are four, is non-descript and discreet. Prior to the meeting between Thamoss and Corte’s smugglers, the four mercs assume tactical positions and watch the proceedings from a distance. At Thamoss’s signal, they move in, guns blazing.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 3,
@@ -1836,7 +1836,7 @@
 	{
 		"name": "Torani Kulda",
 		"type": "Nemesis",
-		"description": "Small and lithe, even for a Rodian, Torani Kulda exudes calm confidence and open disdain for anyone she con­siders to be beneath her notice. She possesses light green skin and golden eyes. A prominent trio of scars, which she makes no attempt to conceal, crosses her brow. Torani is a devious foe, working in tandem with her partner, AO-2, to overcome their foes.",
+		"description": "Small and lithe, even for a Rodian, Torani Kulda exudes calm confidence and open disdain for anyone she considers to be beneath her notice. She possesses light green skin and golden eyes. A prominent trio of scars, which she makes no attempt to conceal, crosses her brow. Torani is a devious foe, working in tandem with her partner, AO-2, to overcome their foes.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 4,

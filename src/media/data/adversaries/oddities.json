@@ -29,7 +29,7 @@
 	{
 		"name": "Black Claw Saboteur",
 		"type": "Minion",
-		"description": "The Ashern, also called the Black Claws, have been a part of Thyferra for decades. This radical group of Vratix freedom fighters was ultimately responsible for the Thriving Season, a ten-year period during the Separatist Crisis during which the Vratix reclaimed control of bacta production from the cartels. When the Emperor returned governmental control of Thy­ferra to the Xucphra and Zaltin corporations, the Ash­ ern resurfaced. They have plagued the Bacta Cartels ever since, sabotaging production lines, bombing shipping platforms, and stealing alazhi shipments. Ashern agents often sharpen their claws and dye their carapaces matte black.",
+		"description": "The Ashern, also called the Black Claws, have been a part of Thyferra for decades. This radical group of Vratix freedom fighters was ultimately responsible for the Thriving Season, a ten-year period during the Separatist Crisis during which the Vratix reclaimed control of bacta production from the cartels. When the Emperor returned governmental control of Thyferra to the Xucphra and Zaltin corporations, the Ash ern resurfaced. They have plagued the Bacta Cartels ever since, sabotaging production lines, bombing shipping platforms, and stealing alazhi shipments. Ashern agents often sharpen their claws and dye their carapaces matte black.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -62,7 +62,7 @@
 	{
 		"name": "Chiss Mercenary",
 		"type": "Nemesis",
-		"description": "The blue-skinned, red-eyed Chiss seldom venture be­yond their hidden homeworld deep in the Unknown Regions. Thus is it unsurprising that when one does encounter a Chiss, it is often among the worlds of the Outer Rim. When leaving their homes, some Chiss wanderers take to the hyperlanes to find adventure, trading on their cool and calculating demeanors to become skilled mercenaries. Professional soldiers for hire, Chiss mercenaries are too few to be found together in numbers; one can rarely find more than a single Chiss in an entire star system.",
+		"description": "The blue-skinned, red-eyed Chiss seldom venture beyond their hidden homeworld deep in the Unknown Regions. Thus is it unsurprising that when one does encounter a Chiss, it is often among the worlds of the Outer Rim. When leaving their homes, some Chiss wanderers take to the hyperlanes to find adventure, trading on their cool and calculating demeanors to become skilled mercenaries. Professional soldiers for hire, Chiss mercenaries are too few to be found together in numbers; one can rarely find more than a single Chiss in an entire star system.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -96,7 +96,7 @@
 	{
 		"name": "Ithorian Storyteller",
 		"type": "Rival",
-		"description": "The noble lthorian people, often known by the semi­-derogatory nickname “Hammerheads” because of their unique cranial shape, are known for their peace­ful, scholarly nature and their devotion to the natural environments of the galaxy. Many lthorians travel the galaxy aboard massive ships known as “herd ships,” although some choose to travel in a solitary manner. Those who do are often steeped in the traditions and lore of their people and enjoy gathering stories of oth­ers like themselves. To them. stories are a unique form of culture that should be studied and maintained at all costs and they are happy to speak with others who might have stories to share with them.",
+		"description": "The noble lthorian people, often known by the semi-derogatory nickname “Hammerheads” because of their unique cranial shape, are known for their peaceful, scholarly nature and their devotion to the natural environments of the galaxy. Many lthorians travel the galaxy aboard massive ships known as “herd ships,” although some choose to travel in a solitary manner. Those who do are often steeped in the traditions and lore of their people and enjoy gathering stories of others like themselves. To them. stories are a unique form of culture that should be studied and maintained at all costs and they are happy to speak with others who might have stories to share with them.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -120,7 +120,7 @@
 	{
 		"name": "T’landa Til Charlatan",
 		"type": "",
-		"description": "Originally hailing from Varl, t’landa Til are massive sentient quadrupeds distantly related to the Hutts. Til possess thick, trunk­ like legs, a thin whip of a tail, and two slen­der arms. The t ’landa Til are not as wealthy or powerful as the Hutts, and many of them serve the Hutts in various capacities.",
+		"description": "Originally hailing from Varl, t’landa Til are massive sentient quadrupeds distantly related to the Hutts. Til possess thick, trunk like legs, a thin whip of a tail, and two slender arms. The t ’landa Til are not as wealthy or powerful as the Hutts, and many of them serve the Hutts in various capacities.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 2,
@@ -145,7 +145,7 @@
 	{
 		"name": "Morgukai Adept",
 		"type": "Nemesis",
-		"description": "The Morgukai were comprised entirely of Kajain’sa’Nikto males, who passed down their traditions from father to son and practiced a specialized form of martial arts that made them dangerous foes, even for a Jedi Knight. The Morgukai employed an arsenal of esoteric weap­onry and armour crafted with cortosis ore to make it resistant to the favored weapon of the Jedi—the lightsaber. Though they are widely thought to be extinct like the Jedi they once hunted, it is rumored that a few Morgukai persist and practice their art in secret.",
+		"description": "The Morgukai were comprised entirely of Kajain’sa’Nikto males, who passed down their traditions from father to son and practiced a specialized form of martial arts that made them dangerous foes, even for a Jedi Knight. The Morgukai employed an arsenal of esoteric weaponry and armour crafted with cortosis ore to make it resistant to the favored weapon of the Jedi—the lightsaber. Though they are widely thought to be extinct like the Jedi they once hunted, it is rumored that a few Morgukai persist and practice their art in secret.",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,
@@ -217,7 +217,7 @@
 	{
 		"name": "Evocii",
 		"type": "Minion",
-		"description": "The Evocii are a primitive humanoid species who were evicted from their home planet, Evocar (renamed Nal Hutta), by the Hutts in roughly 1 5,000 BBY. The Evo­cii were relocated to Nar Shaddaa, where the Hutts used their slave labor to build the cities of the Smug­gler’s Moon. The few who survived the hard labor and prolonged exposure to Nar Shaddaa’s atmosphere retreated to the moon’s lower levels. There, centuries of pollution exposure and inbreeding have led to their becoming a wracked and sickly species.",
+		"description": "The Evocii are a primitive humanoid species who were evicted from their home planet, Evocar (renamed Nal Hutta), by the Hutts in roughly 1 5,000 BBY. The Evocii were relocated to Nar Shaddaa, where the Hutts used their slave labor to build the cities of the Smuggler’s Moon. The few who survived the hard labor and prolonged exposure to Nar Shaddaa’s atmosphere retreated to the moon’s lower levels. There, centuries of pollution exposure and inbreeding have led to their becoming a wracked and sickly species.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 2,
@@ -247,7 +247,7 @@
 	{
 		"name": "Yarkora Treasure Hunter",
 		"type": "Rival",
-		"description": "The Yarkora are a mysterious, long-lived race whose homeworld remains undiscovered by greater galactic society. Some members of their race have found their way into the seediest ports of call in the Outer Rim and use their incredibly patient methods to manipulate se­crets out of even the most closely guarded individuals. These secrets they then use in the sale of information or for more profitable endeavors, the discovery of lost items and legacies to line their own coffers. Yarkora rec­ognise the sentience of other races but do not truly con­sider most races to be their equal, and look upon them as lesser beings that exist only to assist them in the ful­fillment of their agenda. This is not to say that they do not develop affections for others, but there is always a degree of reservation that ensures they are not fully committed to relations with outsiders.",
+		"description": "The Yarkora are a mysterious, long-lived race whose homeworld remains undiscovered by greater galactic society. Some members of their race have found their way into the seediest ports of call in the Outer Rim and use their incredibly patient methods to manipulate secrets out of even the most closely guarded individuals. These secrets they then use in the sale of information or for more profitable endeavors, the discovery of lost items and legacies to line their own coffers. Yarkora recognise the sentience of other races but do not truly consider most races to be their equal, and look upon them as lesser beings that exist only to assist them in the fulfillment of their agenda. This is not to say that they do not develop affections for others, but there is always a degree of reservation that ensures they are not fully committed to relations with outsiders.",
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 2,
@@ -273,7 +273,7 @@
 	{
 		"name": "Klatooinian Elder",
 		"type": "Nemesis",
-		"description": "The Council of Elders controls all internal affairs on Kla­tooine. Each elder serves for life and is selected based on age and experience, as well on performance in a series of debates intended to test the elder’s knowl­edge of Klatooinian myths and cultural traditions. The Council of Elders also the guards Klatooine’s holy sites, including the Fountain of Ancients, and its members are thus literate in the language of the Klatooinians.",
+		"description": "The Council of Elders controls all internal affairs on Klatooine. Each elder serves for life and is selected based on age and experience, as well on performance in a series of debates intended to test the elder’s knowledge of Klatooinian myths and cultural traditions. The Council of Elders also the guards Klatooine’s holy sites, including the Fountain of Ancients, and its members are thus literate in the language of the Klatooinians.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
@@ -292,7 +292,7 @@
 			"Coercion": 2,
 			"Cool": 2,
 			"Deception": 2,
-			"Dis­cipline": 5,
+			"Discipline": 5,
 			"Knowledge: Lore": 4,
 			"Leadership": 5,
 			"Melee": 1,

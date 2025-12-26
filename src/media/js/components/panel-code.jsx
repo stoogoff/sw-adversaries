@@ -23,7 +23,7 @@ export default class PanelCode extends React.Component {
 					header = <tr><th>Code</th><th>Result</th></tr>;
 					break;
 
-				case "average":
+				case "easy":
 					header = <tr><th>Code</th><th>Difficulty</th></tr>;
 					break;
 
